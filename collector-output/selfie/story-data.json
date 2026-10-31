@@ -1,0 +1,2485 @@
+{
+  "schemaVersion": 2,
+  "slug": "selfie",
+  "title": {
+    "ru": "Селфи — Уилл Сторр",
+    "en": "Selfie — Will Storr"
+  },
+  "description": {
+    "ru": "Почему идеальное «я» стало обязанностью: история, психология и границы аргумента Уилла Сторра.",
+    "en": "How the perfect self became an obligation: Will Storr’s history, psychology and the limits of his argument."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "deep",
+  "targetModes": {
+    "essential": 30,
+    "core": 72,
+    "deep": 112
+  },
+  "methodNote": {
+    "ru": "Аналитический пересказ точного предоставленного русского EPUB (Individuum, 2019; оригинал 2017), не текст книги. Изучены структура, ключевые аналитические фрагменты всех восьми частей, методология и примечания; длинные истории читались выборочно. «Книга» передаёт позицию Сторра, «Проверка» — независимые данные, «Синтез» — вывод конспекта. Позднейшие исследования отмечены отдельно. Локаторы сохранены в JSON и sources.md; печатные страницы не выдумываются. Историческая цепочка не доказана одним экспериментом; интервью и архивы автора заново не проверялись.",
+    "en": "An analytical paraphrase of the exact supplied Russian EPUB (Individuum, 2019; original 2017), not the book text. Structure, key analytical passages across all eight parts, methodology and notes were consulted; long narratives were sampled. Book reports Storr’s position; Corroboration marks independent evidence; Synthesis marks this digest’s reasoning. Later studies are identified separately. Locators are preserved in JSON and sources.md; no invented print pages. No single experiment establishes the historical chain; the author’s interviews and archives were not independently re-audited."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Will Storr — Selfie; supplied Russian EPUB, Individuum 2019",
+      "url": "http://www.litres.ru/pages/biblio_book/?art=68307208",
+      "role": "book",
+      "note": {
+        "ru": "Основной источник: предоставленный EPUB, перевод Максима Леоновича, ISBN 978-5-6042196-1-4. Ссылка библиографическая; читался локальный файл. Ключевые фрагменты всех частей, методология и примечания. Доступ 31.10.2026.",
+        "en": "Main source: supplied EPUB, Maxim Leonovich translation, ISBN 978-5-6042196-1-4. Link identifies the edition; local text was consulted. Key passages across all parts, methodology and notes. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Pan Macmillan — Selfie by Will Storr",
+      "url": "https://www.panmacmillan.com/authors/will-storr/selfie/9781447283669",
+      "role": "publisher",
+      "note": {
+        "ru": "Официальное описание и рамка культурного идеала. Не независимая научная проверка. Доступ 31.10.2026.",
+        "en": "Official description and cultural-ideal framing. Not independent scientific verification. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Jordan Harbinger — Will Storr: Avoiding Self-Obsession, 2018",
+      "url": "https://www.jordanharbinger.com/will-storr-avoiding-self-obsession-in-the-age-of-the-selfie/",
+      "role": "author",
+      "note": {
+        "ru": "Интервью с автором: социальное «я», истории о себе и культурные стандарты. Не независимый эксперимент. Доступ 31.10.2026.",
+        "en": "Author interview on the social self, self-stories and cultural standards. Not an independent experiment. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Michael S. Gazzaniga — Brain and conscious experience, 1998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9709824/",
+      "role": "primary",
+      "note": {
+        "ru": "Аннотация обзора исследователя: специализированные системы и интерпретатор. Граница: не доказательство отсутствия свободы воли. Доступ 31.10.2026.",
+        "en": "Researcher’s review abstract: specialized systems and the interpreter. Boundary: not proof against free will. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Talhelm et al. — Rice versus wheat agriculture, Science 2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24812395/",
+      "role": "primary",
+      "note": {
+        "ru": "Аннотация: 1162 участника, шесть мест в Китае. Экологическая гипотеза и внутрикультурные различия; не закон о национальном характере. Доступ 31.10.2026.",
+        "en": "Abstract: 1,162 participants at six Chinese sites. Ecological hypothesis and within-culture variation; not a law of national character. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Baumeister et al. — Does High Self-Esteem Cause Better Performance?, 2003",
+      "url": "https://carlsonschool.umn.edu/sites/carlsonschool.umn.edu/files/2026-01/vohs-et-al-2003-high-self-esteem-outcomes.pdf",
+      "role": "primary",
+      "note": {
+        "ru": "Обзор: многие причинные обещания не подтверждены; некоторые преимущества сохраняются. Прочитаны summary и выводы о выполнении задач. Доступ 31.10.2026.",
+        "en": "Review: many causal promises unsupported, with some benefits retained. Summary and task-performance conclusions consulted. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Orth & Robins — Is high self-esteem beneficial?, 2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35357851/",
+      "role": "primary",
+      "note": {
+        "ru": "Позднейшее уточнение, не часть книги: обзор находит небольшие полезные эффекты самооценки. Прочитана аннотация. Доступ 31.10.2026.",
+        "en": "Later qualification, absent from the book: review finds small beneficial effects of self-esteem. Abstract consulted. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Kross et al. — Facebook use and subjective well-being, 2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23967061/",
+      "role": "primary",
+      "note": {
+        "ru": "Аннотация: связь использования Facebook с последующим ухудшением самочувствия. Наблюдение, не рандомизированное вмешательство. Доступ 31.10.2026.",
+        "en": "Abstract: Facebook use associated with later declines in well-being. Observational, not a randomized intervention. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Curran & Hill — Perfectionism is increasing over time, 2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29283599/",
+      "role": "primary",
+      "note": {
+        "ru": "Позднее книги: 164 выборки, 41641 студент, 1989–2016. Тренд не доказывает его культурную причину. Прочитана аннотация. Доступ 31.10.2026.",
+        "en": "Post-book: 164 samples, 41,641 students, 1989–2016. A trend does not establish its cultural cause. Abstract consulted. Accessed 2026-10-31."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Kirkus Reviews — SELFIE, review posted 2017",
+      "url": "https://www.kirkusreviews.com/book-reviews/will-storr/selfie-self-obsessed/",
+      "role": "review",
+      "note": {
+        "ru": "Независимая рецензия: широкий охват и местами ассоциативная композиция. Не эмпирическое опровержение. Доступ 31.10.2026.",
+        "en": "Independent review: broad scope and sometimes associative organization. Not an empirical refutation. Accessed 2026-10-31."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Начало",
+          "title": "Селфи",
+          "body": "<p>Уилл Сторр исследует, почему обещание стать кем угодно оборачивается обязанностью быть безупречным. Это история культурного идеала, социального мозга и цены несоответствия ему — от античной Греции до цифровых платформ.</p><p class=\"source-label\">Книга · Источник 1 · Аналитический пересказ</p>",
+          "subtitle": "Почему мы зациклены на себе и как это на нас влияет",
+          "visualAlt": "Обложка предоставленного русского издания «Селфи»"
+        },
+        "en": {
+          "section": "Start",
+          "title": "Selfie",
+          "body": "<p>Will Storr asks why the promise of becoming anyone turns into an obligation to be flawless. This is a history of a cultural ideal, the social brain and the cost of falling short — from ancient Greece to digital platforms.</p><p class=\"source-label\">Book · Source 1 · Analytical digest</p>",
+          "subtitle": "How We Became So Self-Obsessed and What It’s Doing to Us",
+          "visualAlt": "Cover of the supplied Russian edition of Selfie"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0",
+      "type": "cover"
+    },
+    {
+      "id": "whose-ideal",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Чьей идеальной жизнью мы пытаемся жить?",
+          "body": "<p>Стройность, успех, общительность и счастье выглядят личными желаниями. Сторр предлагает заметить их общий культурный шаблон: мы не только хотим чего-то, но и считаем себя обязанными этого хотеть. Вопрос книги — кто придумал человека, которым нам стыдно не быть.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Whose perfect life are we trying to live?",
+          "body": "<p>Being fit, successful, sociable and happy looks like a collection of personal desires. Storr asks us to notice their shared cultural template: we do not simply want things; we feel obliged to want them. His question is who invented the person we feel ashamed of failing to become.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "debbie-case",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Дебби открывает исследование ценой идеала",
+          "body": "<p>Книга начинается с Дебби Хэмптон, пережившей попытку самоубийства и тяжёлое восстановление. Её история вводит разрыв между обещанной благополучной жизнью и переживанием собственного провала. Это человеческий случай, с которого начинается вопрос, а не доказательство одной причины всех подобных трагедий.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Debbie makes the cost of the ideal visible",
+          "body": "<p>The book opens with Debbie Hampton, who survived a suicide attempt and faced a difficult recovery. Her story introduces the gap between a promised successful life and the experience of personal failure. It gives the inquiry human stakes; it does not establish one cause for every such tragedy.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "whole-self-verdict",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Неудача в деле становится приговором человеку",
+          "body": "<p>Перфекционистская ловушка возникает, когда отдельный неуспех обобщается до полной неполноценности: ошибся не поступок, плох весь человек. Поэтому дело не сводится к высокой планке. Опасно условие, при котором право уважать себя зависит от непрерывного соответствия недостижимому образцу.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Failure at a task becomes a verdict on a person",
+          "body": "<p>The perfectionistic trap turns a particular setback into total inadequacy: the action was not merely mistaken; the entire person is defective. This goes beyond setting high standards. The danger is making self-respect conditional on continuously matching an unattainable model, so that an ordinary mistake threatens the whole identity.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "socially-prescribed",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Мы страдаем и от воображаемых требований",
+          "body": "<p>Рори О’Коннор объясняет социально предписанный перфекционизм: человеку кажется, что окружающие ждут от него исключительно идеальных результатов. Требование может быть реальным или ошибочно прочитанным. Важен переживаемый долг не подвести других в роли родителя, партнёра, работника или друга.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Imagined expectations can carry real weight",
+          "body": "<p>Rory O’Connor describes socially prescribed perfectionism: a person believes that other people expect flawless results. The demand may be real or misread. What matters is the felt obligation not to disappoint others as a parent, partner, employee or friend, making an imperfect performance feel like a broken social bond.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "perfectionism-varieties",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Разные виды перфекционизма болят по-разному",
+          "body": "<p>Гордон Флетт различает требования к себе, необходимость выглядеть идеальным перед другими и уязвимость уверенного в своей исключительности человека. Эти описания не равны одному диагнозу. Сторра интересует общий механизм: ценность личности оказывается привязана к стандарту, который трудно выдерживать постоянно.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Different perfectionisms create different vulnerabilities",
+          "body": "<p>Gordon Flett discusses demands directed at oneself, pressure to appear perfect to others, and the vulnerability of someone convinced of their exceptional potential. These descriptions are not one diagnosis. Storr follows a shared mechanism: personal worth becomes tied to a standard that cannot reliably be maintained.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "hidden-imperfection",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Показ совершенства требует скрывать трудности",
+          "body": "<p>Перфекционистская самопрезентация — не просто желание хорошо выглядеть. Это необходимость не показывать промахов и не признавать слабость. Окружающие видят отредактированный результат, сравнивают с ним свою полную жизнь и получают ложный сигнал, будто трудности есть только у них.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Displaying perfection requires concealing difficulty",
+          "body": "<p>Perfectionistic self-presentation involves more than wanting to look good. It requires hiding mistakes and avoiding admissions of weakness. Others see an edited result and compare it with their own unedited lives. The comparison can misleadingly suggest that everyone else copes effortlessly and that their own difficulties reveal a uniquely defective self.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "multiple-causes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Перфекционизм — фактор риска, не универсальный ответ",
+          "body": "<p>Сторр прямо признаёт: к самоубийству и самоповреждению ведёт множество путей, а тяжёлые ожидания были и у прежних поколений. Его расследование выделяет возможный опасный культурный вклад. Оно не даёт права объяснять отдельную смерть одной чертой характера, платформой или общественной идеологией.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Perfectionism is a risk factor, not a universal explanation",
+          "body": "<p>Storr explicitly acknowledges many routes to suicide and self-harm, and the existence of harsh expectations in earlier generations. His inquiry isolates a potentially dangerous cultural contribution. It does not license explaining an individual death through one personality trait, one platform or one social ideology, while ignoring other conditions and circumstances.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "gendered-roles",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Идеал задаёт противоречивые социальные роли",
+          "body": "<p>Мужчинам может предписываться неуязвимость и победа, женщинам — безупречное сочетание внешности, карьеры и заботы. Сторр описывает также пересечение этих требований между полами. Механизм не в том, что одна группа страдает одинаково: культурная роль превращает ограниченные человеческие возможности в моральный экзамен.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "The ideal assigns conflicting social roles",
+          "body": "<p>Men may be expected to be invulnerable winners; women may face an impeccable combination of appearance, career and care. Storr also describes these demands crossing gender boundaries. The point is not that everyone in a group suffers identically. A social role turns limited human capacities into a moral examination.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "two-investigations",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Книга исследует аппарат «я» и его культурное задание",
+          "body": "<p>Одного объяснения устройством мозга недостаточно: оно не говорит, почему именно такие достижения считаются достойными. Одной истории культуры тоже мало: она не объясняет силу стыда и одобрения. Поэтому Сторр ведёт два расследования — как действует социальное «я» и чему общество учит его стремиться.</p><div class=\"compare\"><div class=\"compare-item\"><strong>Аппарат «я»</strong><p>Потребности, репутация, самообъяснение.</p></div><div class=\"compare-item\"><strong>Культурное задание</strong><p>Какой человек должен заслуживать признания.</p></div></div>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "The inquiry separates the self’s machinery from its cultural assignment",
+          "body": "<p>Brain mechanisms alone cannot explain why these particular achievements count as worthy. Cultural history alone cannot explain the force of shame and approval. Storr therefore runs two inquiries together: how the social self works, and what society teaches that self to pursue. Their interaction is the organizing problem of the book.</p><div class=\"compare\"><div class=\"compare-item\"><strong>The machinery</strong><p>Needs, reputation and self-explanation.</p></div><div class=\"compare-item\"><strong>The cultural assignment</strong><p>Which person is supposed to deserve recognition.</p></div></div>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "trend-after-book",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "Позднейшие данные поддерживают ограниченный тренд",
+          "body": "<div class=\"fact\"><span class=\"fact-label\">Студенты · 1989–2016</span><p class=\"hero-number\">41 641</p></div><p>Метаанализ Каррана и Хилла, опубликованный после оригинала книги, объединил 164 выборки и 41 641 студента США, Канады и Великобритании за 1989–2016 годы. Он обнаружил рост нескольких измерений перфекционизма. Это поддержка тренда в конкретной популяции, но не доказательство одной культурной причины.</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "Later evidence supports a bounded trend",
+          "body": "<div class=\"fact\"><span class=\"fact-label\">College students · 1989–2016</span><p class=\"hero-number\">41 641</p></div><p>Published after the original book, Curran and Hill’s meta-analysis combined 164 samples and 41,641 college students in the US, Canada and UK from 1989–2016. Several dimensions of perfectionism increased. This supports a trend in a bounded population; it does not establish one cultural cause or describe all young people.</p>"
+        }
+      }
+    },
+    {
+      "id": "thesis-contract",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "0 · Умирающее «я»",
+          "title": "«Я» ищет одобрения, культура задаёт образец",
+          "body": "<p>Основная гипотеза Сторра: наши древние потребности в принадлежности и статусе встречаются с исторически изменчивым образом достойного человека. Мы усваиваем этот образ настолько глубоко, что принимаем его за собственную природу. Чтобы понять нынешнюю одержимость собой, нужно восстановить историю требований, обращённых к этому «я».</p>"
+        },
+        "en": {
+          "section": "0 · The dying self",
+          "title": "The self seeks approval; culture supplies the model",
+          "body": "<p>Storr’s central hypothesis brings ancient needs for belonging and status together with a historically changing image of the worthy person. We absorb that image deeply enough to mistake it for our own nature. Understanding current self-obsession therefore requires recovering the history of the demands addressed to this self.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-3.xhtml; книга 0"
+    },
+    {
+      "id": "belong-and-surpass",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Мы хотим быть своими — и превзойти своих",
+          "body": "<p>Социальное «я» решает две задачи, которые не всегда совместимы: оставаться принятым группой и занять в ней выгодное место. Сторр видит здесь источник нашей двойственности. Мы нуждаемся в сотрудничестве и одобрении, но одновременно следим, кто сильнее, заметнее и ценнее для окружающих.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "We want to belong and to outrank our peers",
+          "body": "<p>The social self faces two tasks that do not always align: remaining accepted by the group and gaining a favourable place within it. Storr locates a basic human tension here. We need cooperation and approval while also tracking who is stronger, more visible and more valuable to the people around us.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "pridmore-tribes",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Джон Придмор меняет племя, а не прошлое",
+          "body": "<p>Бывший лондонский преступник становится католическим проповедником. Его история позволяет Сторру сопоставить две системы признания: устрашать и быть верным банде либо помогать и свидетельствовать о вере. Это резкая смена жизненного сюжета, но прежние импульсы и особенности характера не исчезают по приказу.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "John Pridmore changes tribes without erasing his past",
+          "body": "<p>A former London criminal becomes a Catholic preacher. His story lets Storr compare two systems of recognition: intimidation and loyalty to a gang, or helping others and bearing witness to faith. The life narrative changes dramatically, but earlier impulses and features of temperament do not simply vanish on command.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "gang-reputation",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Репутация может сделать жестокость обязанностью",
+          "body": "<p>В мире Придмора публичное унижение угрожало положению среди своих. Насилие могло переживаться как защита заслуженного имени и служение группе. Сторр не оправдывает это: он показывает, почему субъективное чувство правоты не гарантирует нравственности, если правила признания задаёт жестокое окружение.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Reputation can turn cruelty into a duty",
+          "body": "<p>In Pridmore’s world, public humiliation threatened standing among his peers. Violence could feel like defending an earned name and serving the group. Storr does not excuse it. He shows why a subjective sense of righteousness cannot guarantee moral conduct when a violent social environment supplies the rules for recognition.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "ape-politics",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Сила действует вместе с коалициями и заботой",
+          "body": "<p>Сравнение с шимпанзе вводит политику иерархии: положение удерживается не только угрозой, но и союзами, защитой и примирением. У Сторра это эволюционная рамка, помогающая увидеть знакомые мотивы. Она не означает, что современные люди обязаны повторять поведение приматов или что культура ничего не меняет.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Power operates through coalitions as well as force",
+          "body": "<p>The comparison with chimpanzees introduces the politics of hierarchy: position depends on alliances, protection and reconciliation as well as threats. For Storr this evolutionary frame makes familiar motives visible. It does not mean modern humans must repeat primate behaviour, or that cultural institutions cannot alter how those motives are expressed.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "gossip-teaches",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Сплетня учит, каким человеком следует быть",
+          "body": "<p>Истории о достойных и недостойных людях передают правила репутации. Они сообщают, кого группа вознаграждает, кому доверяет и кого наказывает. Поэтому культурный идеал усваивается не только на уроках морали: он скрыт в повседневных оценках чужой жизни и в ожидании таких же оценок о себе.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Gossip teaches us which kind of person to become",
+          "body": "<p>Stories about admirable and disreputable people transmit the rules of reputation. They tell us whom the group rewards, trusts or punishes. Cultural ideals are therefore learned beyond explicit moral instruction: they are embedded in everyday judgments about other people’s lives, and in the expectation that our own lives will be judged similarly.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "ingroup-morality",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Добро для своих не всегда добро для остальных",
+          "body": "<p>Сторр связывает кооперацию с границами группы. Преданность товарищам может сочетаться с презрением к посторонним; самоотверженный член банды причиняет вред другим. Этот парадокс важен для всей книги: стремиться быть хорошим в глазах своего племени — не то же самое, что независимо оценивать последствия поступков.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Goodness toward insiders can coexist with harm to outsiders",
+          "body": "<p>Storr connects cooperation with group boundaries. Loyalty to companions can coexist with contempt for outsiders; a devoted gang member may harm other people. The paradox matters throughout the book: trying to be good in one’s own tribe’s eyes differs from independently evaluating the consequences of one’s actions for everyone affected.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "minimal-groups",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Даже условная граница запускает предпочтение своих",
+          "body": "<p>Сторр обращается к экспериментам минимальных групп: для появления пристрастного отношения не всегда нужна долгая история вражды. Сам факт разделения может влиять на распределение симпатий и ресурсов. Это лабораторная иллюстрация склонности, а не полная теория любого политического конфликта или неизбежности ненависти.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Even an arbitrary boundary can favour insiders",
+          "body": "<p>Storr invokes minimal-group experiments: a long history of hostility is not always necessary for partiality to emerge. A simple division can affect sympathy and resource allocation. This is a laboratory illustration of a tendency, not a complete theory of political conflict or a demonstration that hatred between groups is inevitable.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "infant-caveat",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Ранние моральные предпочтения не решают вопрос об их происхождении",
+          "body": "<p>В книге описаны исследования маленьких детей, предпочитающих помощников помехам. Сторр использует их, чтобы обсуждать ранние основы морали. Но наблюдение раннего предпочтения само по себе не отделяет врождённое от быстро усвоенного и не доказывает единственную теорию эволюции альтруизма; примечания признают часть разногласий.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Early moral preferences do not settle their origin",
+          "body": "<p>The book describes young children preferring helpers to hinderers and uses these studies to discuss early foundations of morality. An early preference alone cannot separate what is innate from what is rapidly learned, however, or establish a single evolutionary account of altruism. Storr’s notes acknowledge some disagreements about that larger explanation.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "self-as-story",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Внутренний рассказ создаёт чувство цельного автора",
+          "body": "<p>Мы переживаем поступки как решения одного устойчивого человека. Сторр предлагает другую перспективу: мозг связывает ощущения, действия и воспоминания в понятный рассказ. Такой рассказ помогает ориентироваться, но убедительность объяснения не доказывает, что оно точно передаёт процессы, из которых действительно возникло действие.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "An inner story creates the feeling of a unified author",
+          "body": "<p>We experience actions as decisions made by one enduring person. Storr offers another perspective: the brain connects sensations, actions and memories into an intelligible story. That story helps us navigate life. Its persuasiveness does not establish that it accurately reports the processes that actually produced the action in the first place.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "split-brain",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Разделённый мозг показывает объяснение без доступа к причине",
+          "body": "<p>В описанных опытах информация поступает одному полушарию, а речевые системы другого не получают к ней обычного доступа. Пациент всё же предлагает правдоподобную причину поведения. Для Сторра это сильная иллюстрация того, как объяснение может появляться после действия и ощущаться знанием, хотя часть информации недоступна.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Split-brain cases reveal explanations without access to causes",
+          "body": "<p>In the experiments described, information reaches one hemisphere while the other hemisphere’s language systems lack their usual access to it. The patient nevertheless offers a plausible reason for an action. Storr uses this to illustrate how an explanation can follow behaviour and feel like knowledge despite missing relevant information.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "interpreter-evidence",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Интерпретатор — исследовательская модель, не маленький человек в голове",
+          "body": "<p>Газзанига описывает множество специализированных систем мозга и механизм, связывающий их работу в объяснение. Его обзор поддерживает эту исследовательскую линию. Но перенос от пациентов с разделёнными полушариями к любому повседневному суждению требует осторожности: эксперимент не делает каждое наше объяснение ложным.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "The interpreter is a research model, not a person inside the head",
+          "body": "<p>Gazzaniga describes many specialized brain systems and an interpreter that connects their activity into explanations. His review supports this research account. Extending findings from split-brain patients to every everyday judgment requires caution, however: the experiment does not make all our explanations false or identify a miniature person directing the brain.</p>"
+        }
+      }
+    },
+    {
+      "id": "choice-blindness",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Можно защищать выбор, которого не делал",
+          "body": "<p>Сторр приводит опыт с незаметной подменой выбранной фотографии. Часть участников объясняла привлекательность уже другого лица, не замечая замены. Важен не тезис о всеобщем обмане, а уязвимость интроспекции: готовность дать уверенное объяснение иногда превышает доступ к действительным основаниям собственного предпочтения.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "People can defend a choice they did not make",
+          "body": "<p>Storr describes an experiment that secretly switched a selected photograph. Some participants explained the attractiveness of a different face without noticing the substitution. The lesson is not universal deception but a limit of introspection: readiness to give a confident explanation can exceed access to the actual basis of one’s preference.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "free-will-boundary",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Ограниченный доступ к причинам не закрывает спор о свободе воли",
+          "body": "<p>Сторр склоняется к сильному влиянию бессознательных причин и передаёт скепсис ряда нейробиологов. При этом он упоминает несогласие о степени контроля. Из ошибок самообъяснения не следует единственный философский вывод: способность замечать мотивы, учиться и отвечать за последствия остаётся отдельным вопросом.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Limited access to causes does not settle free will",
+          "body": "<p>Storr emphasizes unconscious causes and reports the scepticism of several neuroscientists, while noting disagreement about the degree of control. Errors in self-explanation do not entail one philosophical conclusion. Our capacity to recognize motives, learn and take responsibility for consequences remains a distinct question from whether introspection is always reliable.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "culture-writes-plots",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "1 · Племенное «я»",
+          "title": "Культура даёт внутреннему рассказчику готовые сюжеты",
+          "body": "<p>Придмор понимает переломный опыт через католические образы спасения и зла. Сторр предлагает психологическое толкование, отличное от самого Придмора; это важно различать. Общий ход аргумента — личный рассказ собирается из доступного культурного материала, поэтому даже глубоко внутренний опыт не существует вне общественных историй.</p>"
+        },
+        "en": {
+          "section": "1 · The tribal self",
+          "title": "Culture supplies ready-made plots to the inner narrator",
+          "body": "<p>Pridmore understands a turning point through Catholic images of salvation and evil. Storr offers a psychological interpretation that differs from Pridmore’s own; the distinction matters. The general argument is that personal narratives draw on available cultural material, so even deeply private experience does not exist outside society’s shared stories.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-4.xhtml; ch1-5.xhtml; книга 1"
+    },
+    {
+      "id": "greek-pivot",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Греция делает отдельного человека героем прогресса",
+          "body": "<p>В реконструкции Сторра древнегреческая культура придаёт особый вес деятельному человеку, который способен развивать себя и влиять на судьбу. Это не утверждение, что до греков не существовало личности. Речь об исторически влиятельном образце самостоятельного, соревнующегося и потенциально совершенствуемого «я», унаследованном Западом.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Greece makes the individual a protagonist of progress",
+          "body": "<p>In Storr’s reconstruction, ancient Greek culture gives special weight to an active person who can develop capacities and shape a life. This does not mean individuals did not exist before Greece. His subject is a historically influential model of an independent, competitive and potentially perfectible self inherited by the West.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "ecology-to-self",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Способ добывать средства к жизни меняет выгодный тип «я»",
+          "body": "<p>Сторр вслед за Ричардом Нисбеттом связывает греческие острова, торговлю и относительно самостоятельные занятия с привычками инициативы и спора. Когда успех требует личного решения, такая личность получает признание. Это объяснительная гипотеза о взаимодействии среды и культуры, а не географический закон, автоматически создающий характер.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Ways of making a living change which selves are rewarded",
+          "body": "<p>Following Richard Nisbett, Storr connects Greek islands, trade and relatively independent occupations with habits of initiative and argument. Where success rewards personal decisions, those habits gain prestige. This is an explanatory hypothesis about environment and culture interacting, not a geographical law that automatically manufactures a particular character in every resident.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "aristotle-potential",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Аристотелевский потенциал придаёт совершенствованию направление",
+          "body": "<p>В изложении книги природа у Аристотеля мыслится через качества вещей и реализацию их возможностей. Перенося эту рамку на человека, Сторр видит оптимистичную модель: ты можешь и должен развивать то, что способен осуществить. Позднейшее требование безграничности не следует буквально из этой ограниченной идеями своей эпохи философии.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Aristotelian potential gives improvement a direction",
+          "body": "<p>In the book’s account, Aristotle understands nature through the properties of things and the realization of their capacities. Storr reads this as an optimistic model for people: develop what you can become. The later demand for limitless potential is not a literal consequence of a philosophy bounded by its own historical assumptions.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "beautiful-and-good",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Телесное совершенство становится знаком человеческой ценности",
+          "body": "<p>Сторр связывает греческое восхищение прекрасным, деятельным телом с современным моральным оттенком внешности. Его собственное недовольство животом показывает этот перенос: форма тела переживается как недостаток воли. Это культурная интерпретация чувства стыда, а не утверждение о прямом неизменном наследовании каждого стандарта красоты.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Bodily perfection becomes a sign of human worth",
+          "body": "<p>Storr connects Greek admiration for the beautiful, capable body with the moral colouring of modern appearance. His own distress about his stomach illustrates the connection: body shape feels like a failure of will. This interprets a form of shame culturally; it does not claim that every beauty standard passed unchanged from antiquity.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "improvement-obligation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Возможность улучшиться превращается в обязанность отвечать за всё",
+          "body": "<p>Если отдельный человек представляется главным хозяином своей судьбы, его успех легко принять за заслугу, а беду — за недостаток усилий. Сторр прослеживает эту опасную сторону полезной идеи личной активности. Между действительным влиянием на жизнь и полной ответственностью за её исходы лежит огромная дистанция.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "The possibility of improvement becomes an obligation to answer for everything",
+          "body": "<p>When the individual appears to be the chief master of a life, success readily looks like merit and misfortune like insufficient effort. Storr follows this dangerous side of a useful idea of personal agency. There is a large distance between having real influence over life and bearing complete responsibility for its outcomes.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "hero-plots",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Героическая история обучает ожидать управляемую жизнь",
+          "body": "<p>Герой ставит цель, преодолевает препятствия и добивается изменения. Сторр узнаёт в этом западный образ достойного человека, перенесённый в кино и личные биографии. Проблема возникает, когда сюжетная стройность принимается за обещание реальности: у случайности, болезни и чужих решений нет обязанности завершать наш рассказ справедливо.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Heroic plots teach us to expect a controllable life",
+          "body": "<p>A hero chooses a goal, overcomes obstacles and brings about change. Storr recognizes a Western model of the worthy person in films and personal biographies alike. Trouble comes when narrative order is taken as a promise about reality: chance, illness and other people’s decisions have no obligation to complete our story fairly.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "confucian-contrast",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Конфуцианский контраст делает отношения частью личности",
+          "body": "<p>Для контраста Сторр обращается к традициям, в которых достойный человек определяется отношениями, обязанностями и гармонией. Их центр тяжести — правильное участие в целом, а не выделение из него. Это сравнительная культурная рамка; она не даёт права приписывать всем китайцам одинаковые желания или отрицать индивидуальные различия.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "The Confucian contrast places relationships inside personhood",
+          "body": "<p>For contrast, Storr turns to traditions in which a worthy person is defined through relationships, obligations and harmony. The emphasis falls on participating properly in a whole rather than standing apart. This comparative cultural frame does not license assigning identical desires to all Chinese people or dismissing individual differences within traditions.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "object-and-context",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Привычное внимание выделяет объект или его контекст",
+          "body": "<p>Описанные Нисбеттом сравнения показывают, как участники обращают разное внимание на центральный предмет и фон. Сторр связывает это с независимым и взаимозависимым пониманием человека. Такие задачи иллюстрируют средние различия в конкретных условиях; они не измеряют ценность культур и не сортируют людей на два неизменных вида.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Habitual attention can emphasize objects or their context",
+          "body": "<p>Nisbett’s comparisons show participants attending differently to a central object and its background. Storr connects this with independent and interdependent understandings of persons. Such tasks illustrate average differences under particular conditions; they do not measure the worth of cultures or sort human beings into two fixed and mutually exclusive kinds.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "situational-attribution",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Обстоятельства исчезают, когда характер кажется всем объяснением",
+          "body": "<p>В книге сопоставляются способы объяснять жестокий поступок: чертами самого человека либо ситуацией вокруг него. Привычка видеть независимого деятеля облегчает первое объяснение. Сторр показывает цену такой оптики: можно слишком быстро превратить результат сложных условий в свидетельство о хорошей или плохой человеческой сущности.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Circumstances disappear when character seems to explain everything",
+          "body": "<p>The book compares explanations of harmful conduct through personal traits and through surrounding circumstances. Seeing an independent agent makes the first explanation easier. Storr highlights the cost of that lens: the outcome of complicated conditions can too quickly become evidence of a good or bad human essence, obscuring what the situation contributed.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "rice-within-china",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Различия внутри Китая усложняют картину Восток—Запад",
+          "body": "<p>В исследовании Талхельма и коллег 1162 участника из шести мест в Китае различались по взаимозависимости и стилю мышления между рисовыми и пшеничными регионами. Сравнивались и соседние районы. Этот результат поддерживает роль хозяйственной среды, но прежде всего разрушает представление о едином психологическом Востоке.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Differences within China complicate the East–West picture",
+          "body": "<p>Talhelm and colleagues studied 1,162 participants across six Chinese sites, finding differences in interdependence and thought style between rice- and wheat-growing regions. Neighbouring counties were also compared. The result supports an ecological account while complicating the idea of one psychological East. It cannot establish the entire historical story of individualism.</p>"
+        }
+      }
+    },
+    {
+      "id": "turkish-variation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Соседние общины могут по-разному учить сотрудничеству",
+          "body": "<p>Сторр приводит сравнения общин черноморской Турции с разными занятиями. Они позволяют мыслить культуру мельче страны: устройство труда способно поддерживать разные повседневные привычки. Такой масштаб полезнее жёсткой национальной типологии, хотя из одного сравнения нельзя вывести универсальную формулу личности или исключить другие исторические влияния.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Neighbouring communities can teach different habits of cooperation",
+          "body": "<p>Storr discusses communities in Turkey’s Black Sea region with different occupations. They let us think about culture at a smaller scale than the nation: arrangements of work can support different everyday habits. This is more informative than a rigid national typology, although one comparison cannot produce a universal formula for personality.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "memory-self",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Воспоминание тоже организуется культурной моделью человека",
+          "body": "<p>Книга обращается к различиям автобиографического рассказа: выделять собственные чувства и решения или отношения и коллективные обстоятельства. Память здесь не просто архив фактов, а способ понимать себя. При этом обобщения о литературных традициях особенно широки: их следует читать как авторскую рамку, а не отсутствие личного опыта у целых народов.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Memory is organized through cultural models of personhood too",
+          "body": "<p>The book examines differences in autobiographical narration: emphasizing personal feelings and decisions, or relationships and collective circumstances. Memory becomes a way of understanding oneself rather than a mere factual archive. Broad claims about literary traditions need particular care; they do not imply an absence of personal experience across entire populations.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "collectivist-costs",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Коллективизм не отменяет болезненных требований",
+          "body": "<p>Сторр не предлагает Восточную Азию как лекарство от западной тревоги. Семейный долг, сохранение лица и конкуренция за достижения тоже могут давить на человека. Он обсуждает напряжение между традиционными обязательствами и быстрыми общественными переменами, признавая, что другой культурный идеал способен создавать собственные формы несоответствия.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "Collectivism does not abolish painful expectations",
+          "body": "<p>Storr does not offer East Asia as a cure for Western anxiety. Family duty, maintaining face and competition over achievement can also burden people. He discusses tension between inherited obligations and rapid social change, recognizing that another cultural ideal may create its own forms of painful mismatch rather than eliminate perfectionistic pressure.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "culture-not-destiny",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Культурная тенденция не предсказывает отдельного человека",
+          "body": "<p>Из сравнений нельзя заключать, что конкретный житель Запада независим, а житель Востока растворён в группе. Внутри каждого общества есть различия, изменения и смешанные традиции. Полезный вопрос конспекта — какие требования вознаграждает окружение, а не к какому психологическому типу человека якобы навсегда отнесло место рождения.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "A cultural tendency does not predict an individual person",
+          "body": "<p>The comparisons do not establish that a particular Westerner is independent or an Easterner submerged in a group. Every society contains variation, change and mixed traditions. This digest’s useful question is which demands an environment rewards, rather than which permanent psychological type a person’s birthplace supposedly assigns them to.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "cultural-self-summary",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "2 · Совершенствуемое «я»",
+          "title": "Индивидуальное желание может быть выученным общественным правилом",
+          "body": "<p>После греческого и конфуцианского контраста Сторр возвращается к главному: представление о нормальном человеке не нейтрально. Оно делает одни способы жизни естественными, другие — подозрительными. Западный идеал деятельного совершенствования исторически влиятелен, но это одна модель человеческой ценности, а не исчерпывающее описание природы человека.</p>"
+        },
+        "en": {
+          "section": "2 · The perfectible self",
+          "title": "A personal desire can be a learned social rule",
+          "body": "<p>After the Greek and Confucian contrast, Storr returns to his central point: a model of the normal person is not neutral. It makes some lives feel natural and others suspect. The Western ideal of active self-improvement is historically influential, but it remains one model of human worth, not an exhaustive account of human nature.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-6.xhtml; ch1-7.xhtml; книга 2"
+    },
+    {
+      "id": "inward-turn",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Христианство переносит борьбу за совершенство внутрь",
+          "body": "<p>В интерпретации Сторра христианство не уничтожает стремление к лучшему «я», а меняет его поле: от внешней славы к чистоте души. Человек наблюдает за мыслями, желаниями и виной. Идеал становится внутренним, а потому несовершенство уже нельзя скрыть от самого себя одним достойным публичным поступком.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Christianity turns the struggle for perfection inward",
+          "body": "<p>In Storr’s interpretation, Christianity does not abolish the quest for a better self; it changes its arena from outward glory to purity of soul. People monitor thoughts, desires and guilt. The ideal becomes internal, so a respectable public action alone cannot conceal imperfection from the person’s own inward scrutiny.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "pluscarden-laboratory",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Монастырь показывает другой распорядок достойной жизни",
+          "body": "<p>В аббатстве Пласкарден Сторр наблюдает молитву, послушание, труд и устойчивый распорядок. Он сравнивает их с собственной потребностью в признании и движении вперёд. Это журналистское погружение в конкретную бенедиктинскую общину; оно не представляет все формы христианской жизни и не служит контролируемым опытом лечения тревоги.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "The abbey reveals another timetable for a worthy life",
+          "body": "<p>At Pluscarden Abbey, Storr observes prayer, obedience, work and stable routine, comparing them with his own need for recognition and progress. This is journalistic immersion in a particular Benedictine community. It represents neither every form of Christian life nor a controlled experiment showing that monastic practice treats anxiety.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "sinful-start",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Грех меняет исходную оценку человеческой природы",
+          "body": "<p>Сторр противопоставляет раскрытие человеческих возможностей представлению о повреждённой природе, нуждающейся в спасении. В его рассказе это усиливает внутреннюю борьбу и чувство недостаточности. Формулировка сознательно широкая: различные христианские учения по-разному понимают благодать, свободу и достоинство, и книга не заменяет их историю.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Sin changes the starting judgment of human nature",
+          "body": "<p>Storr contrasts developing human capacities with a damaged nature in need of salvation. In his account, this intensifies inward struggle and inadequacy. The formulation is deliberately broad: Christian traditions understand grace, freedom and dignity differently, and the book’s narrative cannot stand in for a detailed history of those theological differences.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "martin-belonging",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Послушание может одновременно ограничивать и поддерживать",
+          "body": "<p>Разговоры с отцом Мартином показывают, что монастырская дисциплина переживается не только как унижение. Принадлежность, служение и постоянство способны давать человеку порядок и смысл. Сторр видит в этом компромисс: система требований может быть тяжёлой, но та же система становится опорой для определённой личности.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Obedience can constrain and sustain at the same time",
+          "body": "<p>Conversations with Father Martin show that monastic discipline is not experienced only as humiliation. Belonging, service and permanence can provide order and meaning. Storr sees a trade-off: a demanding system can be burdensome while the same system becomes a source of stability for a particular person in a particular life.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "inner-purity-inheritance",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Даже светское «я» наследует работу над внутренней чистотой",
+          "body": "<p>Сторр замечает религиозное наследие в светском внимании к внутреннему состоянию: исправить мысли, очиститься от слабости, стать достойнее. Он не утверждает тождества терапии и религии. Его ход — показать историческое родство привычки искать причину жизненной неудачи в несовершенном внутреннем мире самого человека.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Even a secular self inherits the work of inner purification",
+          "body": "<p>Storr recognizes a religious inheritance in secular attention to inner states: correcting thoughts, removing weakness and becoming more worthy. He does not equate therapy with religion. His argument traces a historical kinship in the habit of locating the cause of life’s failures within an imperfect inner world of the person.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "reason-caveat",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "История религии сложнее противопоставления вины и разума",
+          "body": "<p>Книга обсуждает и вклад христианских традиций в рациональное толкование, учёность и представление о прогрессе. Это мешает превратить религию в простого злодея истории. Одновременно широкое сравнение религий у Сторра остаётся спорной интерпретацией: по одному выбранному акценту нельзя описать целые цивилизации.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Religious history exceeds a contrast between guilt and reason",
+          "body": "<p>The book also discusses Christian contributions to interpretation, scholarship and ideas of progress, preventing religion from becoming a simple villain. At the same time, Storr’s broad comparisons between religions remain contestable interpretations. A selected emphasis cannot describe entire civilizations or erase their internal intellectual and spiritual diversity.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "freudian-inheritance",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Фрейд сохраняет подозрение к скрытому внутреннему человеку",
+          "body": "<p>У Фрейда внутренние конфликты получают новое объяснение: не искушение извне, а неосознаваемые желания и борьба психических сил. Сторр видит здесь продолжение старого вопроса о дурном «я» на языке психологии. Психоаналитик становится специалистом, который должен обнаружить скрытый смысл и помочь человеку с ним столкнуться.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Freud preserves suspicion of the hidden inner person",
+          "body": "<p>With Freud, inner conflict receives another explanation: unconscious desires and competing psychological forces rather than external temptation. Storr sees an older question about the bad self continuing in psychological language. The analyst becomes the specialist expected to uncover hidden meaning and help a person confront what ordinary self-understanding cannot easily reach.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "oedipus-and-projection",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Личный сюжет легко принять за закон для всех",
+          "body": "<p>Рассказ о Фрейде и Эдипе позволяет Сторру обсуждать проекцию собственного опыта на человечество. Биографическое объяснение здесь само является интерпретацией автора, а не экспериментальным опровержением психоанализа. Более общий урок — проверить переход от убедительного рассказа об одном человеке к универсальному утверждению о людях.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "A personal story can be mistaken for a law about everyone",
+          "body": "<p>The account of Freud and Oedipus lets Storr discuss projecting personal experience onto humanity. His biographical explanation is itself an interpretation, not an experimental refutation of psychoanalysis. The broader lesson is to inspect the move from a persuasive story about one person to a universal claim about human beings.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "false-consensus",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Чужой разум не обязан повторять наш",
+          "body": "<p>Сторр обращается к склонности переоценивать, насколько окружающие разделяют наши взгляды. Эта ошибка облегчает универсальные теории и суровые оценки: если мне нечто доступно, почему другим нет? Она вернётся в финале книги, когда одинакового совершенства потребуют от людей с разными характерами и обстоятельствами.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Other minds are not obliged to resemble ours",
+          "body": "<p>Storr considers our tendency to overestimate how much others share our views. This error makes universal theories and harsh judgments easier: if something is possible for me, why not for them? It returns in the conclusion, where identical perfection is demanded from people with different temperaments, resources and circumstances.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "perls-freud-break",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "3 · Плохое «я»",
+          "title": "Перлз готовит переворот от подозрения к освобождению",
+          "body": "<p>Сторр связывает унизительную для Фрица Перлза встречу с Фрейдом с дальнейшим отказом от прежнего авторитета. Биографическая сцена вводит следующий культурный поворот: возможно, внутреннее «я» нужно не укрощать, а освобождать. Это драматургический мост книги, а не достаточная причина возникновения целого терапевтического движения.</p>"
+        },
+        "en": {
+          "section": "3 · The bad self",
+          "title": "Perls prepares a turn from suspicion to liberation",
+          "body": "<p>Storr connects Fritz Perls’s humiliating encounter with Freud to his later rejection of that authority. The biographical scene introduces the next cultural turn: perhaps the inner self needs liberation rather than restraint. It is a narrative bridge, not a sufficient causal explanation for the emergence of an entire therapeutic movement.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-8.xhtml; ch1-9.xhtml; книга 3"
+    },
+    {
+      "id": "good-self-revolution",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Внутреннее «я» объявляют хорошим по природе",
+          "body": "<p>Гуманистический поворот меняет диагноз культуры: беда может быть не в дурной человеческой сущности, а в подавлении её возможностей. У Сторра это освобождающая идея с опасным продолжением. Если внутри каждого уже скрыт прекрасный потенциал, остаётся объяснить, почему обещанная жизнь так часто не наступает.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "The inner self is declared good by nature",
+          "body": "<p>The humanistic turn changes the diagnosis: the problem may lie in suppressing human capacities rather than in a bad inner nature. For Storr this is a liberating idea with a dangerous extension. If a wonderful potential already exists inside everyone, one must explain why the promised life so often fails to arrive.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "rogers-relationship",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Роджерс делает принятие условием терапевтической работы",
+          "body": "<p>Карл Роджерс предлагает безусловно позитивное отношение к человеку вместо осуждения и подчинения внешнему эксперту. Сторр показывает привлекательность такого доверия. Важно не смешивать клинический принцип отношений с более широким обещанием, будто любое желание истинного «я» полезно или что принятие само по себе решит все общественные проблемы.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Rogers makes acceptance central to the therapeutic relationship",
+          "body": "<p>Carl Rogers proposes unconditional positive regard rather than condemnation and submission to an external expert. Storr shows the appeal of that trust. A therapeutic relationship principle should not be conflated with the broader promise that every desire of an authentic self is beneficial, or that acceptance alone solves all social problems.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "american-optimism",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Американский оптимизм даёт новой психологии готовый язык",
+          "body": "<p>Сторр помещает гуманистическую психологию рядом с позитивным мышлением и культурой самосоздания. Послевоенная корпоративная среда ценила общительность и уверенное поведение; личность стала частью успеха. Это историческое соседство помогает понять привлекательность нового учения, но не доказывает, что вся психология сводится к интересам бизнеса.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "American optimism gives the new psychology a ready language",
+          "body": "<p>Storr places humanistic psychology alongside positive thinking and the culture of self-making. The postwar corporate environment valued sociability and confidence, making personality part of success. This historical setting helps explain the new teaching’s appeal, without establishing that all psychology merely expresses business interests or that every therapeutic benefit is illusory.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "esalen-center",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Эсален становится мастерской нового человека",
+          "body": "<p>В калифорнийском Эсалене эксперименты с группами, телом и переживаниями обещают высвободить человеческий потенциал. Через специалистов и посетителей идеи выходят за пределы института. Сторр приезжает туда не только изучать архивы: собственный опыт группы позволяет ему проверить соблазн получить новое «я» через интенсивное общение.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Esalen becomes a workshop for a new kind of person",
+          "body": "<p>At California’s Esalen, experiments with groups, the body and emotional experience promise to release human potential. Practitioners and visitors carry these ideas beyond the institute. Storr goes there to do more than study history: joining a group lets him encounter the appeal of acquiring a new self through intense interaction.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "authentic-core",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Обещание найти истинное «я» делает личность спрятанным сокровищем",
+          "body": "<p>Если социальные запреты лишь закрывают доступ к подлинной сущности, освобождение кажется возвращением к уже готовому совершенству. Сторр оспаривает этот образ. Человек складывается из нескольких склонностей и контекстных проявлений; удаление запрета ещё не гарантирует, что обнаружившийся импульс мудр, добр или полезен окружающим.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "The authentic-self promise turns personality into a hidden treasure",
+          "body": "<p>If social prohibitions merely conceal an authentic essence, liberation looks like recovering a perfection already present. Storr challenges that picture. People combine competing tendencies and context-dependent expressions. Removing a prohibition does not guarantee that the impulse revealed underneath is wise, kind or useful to the other people affected by it.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "perls-confrontation",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Жёсткая откровенность может стать новым подчинением",
+          "body": "<p>Сторр описывает резкие методы Перлза и других лидеров встреч, где нападение на участника оправдывалось разрушением его защиты. Декларируемая свобода соседствовала с властью ведущего. Критика касается конкретных практик и исторических эпизодов; её нельзя автоматически переносить на любую групповую терапию или современный институт.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Confrontational honesty can become another form of submission",
+          "body": "<p>Storr describes harsh methods used by Perls and other encounter leaders, with attacks justified as breaking down defences. Promised freedom coexisted with the facilitator’s authority. The criticism concerns particular practices and historical episodes; it should not automatically be applied to every group therapy or to the present-day institution as a whole.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "social-mirror",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Группа может внушить человеку, кто он такой",
+          "body": "<p>Если окружающие настойчиво называют участника фальшивым, слабым или неприятным, он может принять этот образ за открывшуюся истину. Для Сторра это обратная сторона социального «я». Среда не просто снимает маску: она способна создавать ту идентичность, которую затем выдаёт за обнаруженную под ней сущность.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "A group can persuade a person who they are",
+          "body": "<p>When others repeatedly label someone false, weak or unpleasant, the person may accept that image as a newly revealed truth. Storr sees this as the social self’s vulnerability. A group does not merely remove a mask; it can produce the identity it then presents as an authentic essence discovered underneath.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "ostracism-pain",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Отвержение переживается как серьёзная угроза",
+          "body": "<p>Книга обращается к исследованиям остракизма и социальной боли, объясняя, почему слова группы способны так ранить. Сторр связывает это с зависимостью от принадлежности. При этом сходство отдельных нейронных реакций не делает социальное отвержение и физическую травму полностью одинаковыми явлениями и не объясняет каждый клинический исход.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Exclusion is experienced as a serious threat",
+          "body": "<p>The book draws on research into ostracism and social pain to explain why a group’s words can wound so deeply. Storr connects this with dependence on belonging. Similarities in some neural responses do not make social exclusion and physical injury identical, however, or explain every clinical outcome following a painful social experience.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "total-responsibility",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Безграничный потенциал делает неудачу личной виной",
+          "body": "<p>Если внутри человека будто бы есть всё необходимое для успеха, препятствия легко объявить его собственным сопротивлением. Так обещание силы превращается в обвинение: раз не получилось, недостаточно открылся или захотел. Сторр показывает, как из освобождающей терапии может вырасти жестокое требование единолично отвечать за свою жизнь.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Unlimited potential makes failure a personal fault",
+          "body": "<p>If a person supposedly contains everything necessary for success, obstacles can be reclassified as personal resistance. Empowerment becomes accusation: failure means not wanting or opening up enough. Storr shows how a liberating therapeutic ideal can grow into a harsh demand that individuals alone answer for everything that happens in their lives.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "tragedies-caution",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Исторические трагедии требуют осторожной причинности",
+          "body": "<p>Сторр рассказывает о смертях людей, связанных с эсаленским движением, и тревоге внутри него. Он прямо оговаривает несправедливость автоматического обвинения института. Эти эпизоды ставят вопросы о безопасности и ответственности, но сами по себе не показывают частоту риска, контрольную группу или единственную причину трагедии.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Historical tragedies require careful causal reasoning",
+          "body": "<p>Storr recounts deaths among people connected with the Esalen movement and concerns within it. He explicitly cautions against automatically blaming the institute. These episodes raise questions about safety and responsibility, but do not by themselves establish a risk rate, provide a control group or identify a single cause of each tragedy.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "authors-doubts",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Создатели движения тоже замечали его издержки",
+          "body": "<p>Поздние сомнения Маслоу и Роджерса нарушают картину единодушных гуру. Сторр приводит их тревогу о самомнении, недостатке дисциплины и последствиях практик. Это важная внутренняя критика: гуманистический поворот нельзя описать только его крайностями, а осторожность не всегда приходила исключительно от внешних противников.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "The movement’s founders noticed its costs too",
+          "body": "<p>The later doubts of Maslow and Rogers disrupt a picture of unanimously confident gurus. Storr reports concerns about conceit, insufficient discipline and consequences of the practices. This internal criticism matters: the humanistic turn cannot be described only through its excesses, and caution did not always originate solely with external opponents.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "commercial-transformation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Обещание трансформации становится тиражируемым товаром",
+          "body": "<p>Тренинги личного преображения переносят часть эсаленской риторики в более стандартизированный коммерческий формат. Сторр обсуждает ЭСТ Вернера Эрхарда и голод аудитории по переменам. Культурный результат шире отдельного семинара: человек получает привычку искать следующую технологию, которая наконец превратит его в правильную версию себя.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "The promise of transformation becomes a repeatable product",
+          "body": "<p>Personal-transformation seminars carry some Esalen rhetoric into a more standardized commercial format. Storr discusses Werner Erhard’s est and audiences hungry for change. The cultural result exceeds any one seminar: people acquire the habit of searching for the next technique that will finally transform them into the right version of themselves.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "good-self-paradox",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "4 · Хорошее «я»",
+          "title": "Любовь к себе не снимает требования стать лучше",
+          "body": "<p>У Сторра «хорошее я» не завершает гонку совершенства. Теперь человек должен обнаружить, освободить и доказать свой необыкновенный потенциал. Осуждение меняет язык: вместо греха появляется недостаточная аутентичность или вера в себя. Следующий шаг — превратить эту психологическую надежду в публичную политику и массовую норму.</p>"
+        },
+        "en": {
+          "section": "4 · The good self",
+          "title": "Self-love does not necessarily remove the demand to improve",
+          "body": "<p>In Storr’s account, the good self does not end the race for perfection. People must now discover, liberate and prove their extraordinary potential. Condemnation changes vocabulary: insufficient authenticity or self-belief replaces sin. The next step is turning this psychological hope into public policy and a widespread social expectation.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-10.xhtml; ch1-11.xhtml; ch1-12.xhtml; книга 4"
+    },
+    {
+      "id": "special-self-alliance",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Освобождение личности соединяется с требованием побеждать",
+          "body": "<p>В пятой части Сторр соединяет два потока: терапевтическое обещание внутреннего потенциала и экономическую культуру конкурирующего индивида. Их союз делает уверенность в себе почти гражданской обязанностью. Это авторская историческая конструкция: близость идей и влиятельных людей ещё не доказывает, что один центр заранее спланировал культурный результат.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Individual liberation meets the demand to win",
+          "body": "<p>In part five, Storr connects two currents: the therapeutic promise of inner potential and an economic culture of competing individuals. Together they make self-belief resemble a civic duty. This is the author’s historical construction; proximity between ideas and influential people does not establish that one centre deliberately planned the cultural outcome.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "rand-hero",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Айн Рэнд превращает независимого создателя в морального героя",
+          "body": "<p>У Сторра Рэнд играет роль культурного усилителя: её герои отказываются жить ради чужих требований, доверяют разуму и защищают собственное дело. Такая история делает предпринимательскую самостоятельность этическим образцом. Сторр критикует её последствия, но показывает и привлекательность свободы от принудительного подчинения группе.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Ayn Rand makes the independent creator a moral hero",
+          "body": "<p>For Storr, Rand amplifies a cultural ideal: her heroes reject other people’s demands, trust reason and defend their own work. The story makes entrepreneurial independence an ethical model. He criticizes its consequences while also showing the appeal of freedom from compulsory submission to a group and the claims it makes on individuals.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "branden-bridge",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Бранден переносит самооценку из философии в психологическую практику",
+          "body": "<p>Натаниэль Бранден связывает самоуважение с эффективностью и личным интересом, распространяя идеи за пределы читателей Рэнд. В книге он становится мостом к школам, терапии и движению самооценки. Это важное звено влияния, но не означает тождества философии Рэнд, всех подходов к самооценке и последующей государственной программы.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Branden carries self-esteem from philosophy into psychological practice",
+          "body": "<p>Nathaniel Branden connects self-respect with efficacy and self-interest, spreading the ideas beyond Rand’s readers. In the book he becomes a bridge to schools, therapy and the self-esteem movement. This channel of influence does not make Rand’s philosophy, every approach to self-esteem and the subsequent government programme identical projects.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "great-compression",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Послевоенный порядок тоже создавал свой тип человека",
+          "body": "<p>До поворота к жёсткой конкуренции Сторр описывает эпоху «Великой компрессии»: более коллективные экономические ожидания и жизнь внутри крупных организаций. Она тоже требовала определённой личности — общительной и пригодной к сотрудничеству. Книга прослеживает смену акцентов, а не падение из общества, где культурного давления вовсе не было.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "The postwar order produced its own preferred person",
+          "body": "<p>Before the turn toward sharper competition, Storr describes the Great Compression: more collective economic expectations and lives within large organizations. That order also demanded a particular personality, sociable and suited to cooperation. The book traces changing emphases, not a fall from a society that had no cultural pressure at all.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "neoliberal-person",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Рынок становится моделью оценки самого человека",
+          "body": "<p>В книге неолиберальный поворот означает не только экономические решения. Он поддерживает человека, который постоянно конкурирует, инвестирует в себя и отвечает за результат. Сторра интересует перенос правил игры внутрь самооценки: недостаток дохода или популярности начинает выглядеть как свидетельство недостаточной человеческой пригодности.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "The market becomes a model for evaluating the person",
+          "body": "<p>In the book, the neoliberal turn means more than economic policies. It favours a person who competes continually, invests in the self and answers for results. Storr follows those rules into self-evaluation: insufficient income or popularity starts to look like evidence of insufficient human adequacy rather than simply an outcome requiring explanation.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "hayek-state",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Конкурентный порядок не означает исчезновения государства",
+          "body": "<p>Сторр описывает Хайека, Тэтчер, Рейгана и распространение рыночной логики. Государство в этой истории не просто уходит: оно помогает устанавливать и охранять конкурентные правила. Такое уточнение важно, потому что влияние экономики на «я» идёт через институты и стимулы, а не через одно абстрактное слово «свобода».</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "A competitive order does not mean the state disappears",
+          "body": "<p>Storr discusses Hayek, Thatcher, Reagan and the spread of market reasoning. In this account, the state does not merely retreat; it helps establish and protect competitive rules. The distinction matters because economic influence on the self operates through institutions and incentives, not through the abstract word freedom acting on its own.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "vasco-personal-turn",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Васконселлос превращает личное облегчение в общественную миссию",
+          "body": "<p>Джон Васконселлос, переживавший гнев и депрессию, находит надежду в гуманистической психологии. Сторр прослеживает, как убеждение, важное для личной биографии политика, становится программой для общества. Здесь снова возникает переход масштаба: помощь одному человеку не доказывает, что тот же принцип устранит преступность, бедность и школьные трудности.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Vasconcellos turns personal relief into a public mission",
+          "body": "<p>John Vasconcellos, struggling with anger and depression, finds hope in humanistic psychology. Storr follows a belief important to the politician’s biography as it becomes a programme for society. The scale changes again: something helpful to one person does not establish that the same principle will eliminate crime, poverty and educational problems.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "task-force-promise",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Калифорнийская группа обещает лечить социальные беды самооценкой",
+          "body": "<p>Васконселлос добивается государственной поддержки целевой группы. Обещание привлекательно своей простотой: повысить самооценку — и ослабить множество социальных проблем сразу. Книга показывает не только энтузиазм сторонников, но и политическую задачу доказать, что психологическая программа действительно оправдывает участие государства и расходы на неё.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "California’s task force promises self-esteem as a social remedy",
+          "body": "<p>Vasconcellos obtains government support for a task force. Its promise is attractively simple: raise self-esteem and reduce many social problems at once. The book describes supporters’ enthusiasm alongside the political task of establishing that a psychological programme genuinely justifies government involvement and the resources being spent on promoting it.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "smelser-research",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Университетская проверка не дала обещанного причинного ответа",
+          "body": "<p>Учёные под руководством Нила Смелзера находят неоднородные связи, но не подтверждают простой тезис о низкой самооценке как причине социальных бед. Сторр сопоставляет научную осторожность с оптимистичной публичной подачей. В его расследовании важна именно разница между тем, что проверили, и тем, что объявили подтверждённым.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "University research did not supply the promised causal answer",
+          "body": "<p>Researchers coordinated by Neil Smelser find uneven relationships without establishing the simple claim that low self-esteem causes social problems. Storr compares scientific caution with the optimistic public presentation. His investigation centres on the difference between what researchers examined and what campaigners subsequently announced as scientifically confirmed, rather than the mere presence of a university endorsement.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "causal-shortcut",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Совпадение самооценки и успеха не доказывает способ получить успех",
+          "body": "<p>Успех может укреплять самооценку; третьи условия могут влиять на оба показателя. Поэтому связь между ними не доказывает, что искусственное повышение одного вызовет другое. Для Сторра это центральная ошибка движения: привлекательное объяснение было превращено в рецепт до достаточной проверки самого вмешательства.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Self-esteem accompanying success does not establish a route to success",
+          "body": "<p>Success may strengthen self-esteem, while other conditions may affect both. Their association therefore does not establish that artificially increasing one will produce the other. For Storr this is the movement’s central mistake: an attractive explanation became a prescription before the intervention itself had been adequately tested against its promised social outcomes.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "archive-reporting",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Сторр противопоставляет кампанию её собственным документам",
+          "body": "<p>Его расследование опирается на отчёты, записи заседаний и поздние разговоры с участниками. Так он обосновывает тезис о скрытой неопределённости и тщательно организованном публичном успехе. Конспект передаёт это как журналистское установление автора: исходные архивные плёнки и воспоминания участников здесь независимо заново не проверялись.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Storr sets the campaign against its own documentary record",
+          "body": "<p>His investigation uses reports, meeting recordings and later conversations with participants to argue that uncertainty was concealed behind a carefully managed public success. This digest attributes that finding to Storr’s reporting. The original archive tapes and participants’ recollections have not been independently re-examined here, and attribution is essential to preserving that evidence boundary.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "research-2003",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Обзор 2003 года ограничил многие обещания движения",
+          "body": "<p>Баумайстер и коллеги не нашли сильной опоры для многих обещаний причинной пользы высокой самооценки, особенно для успеваемости. При этом они сохраняли положительные выводы о некоторых чувствах и инициировании действий. Критика универсального средства не равна выводу, что человеку полезно плохо к себе относиться.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "The 2003 review narrowed many promises of the movement",
+          "body": "<p>Baumeister and colleagues found weak support for many promised causal benefits of high self-esteem, particularly academic performance. They nevertheless retained positive conclusions about some feelings and initiative. Criticizing a universal remedy is not equivalent to concluding that people benefit from disliking themselves or should be deliberately given lower self-worth.</p>"
+        }
+      }
+    },
+    {
+      "id": "later-review",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Позднейший обзор не позволяет объявить самооценку бесполезной",
+          "body": "<p>Орт и Робинс в 2022 году оценили более поздние данные и нашли небольшие полезные эффекты самооценки в нескольких жизненных областях. Это уточнение после книги. Оно усиливает различие между нормальным чувством собственной ценности, нарциссическим превосходством и доказательствами пользы конкретной программы искусственной похвалы.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "A later review prevents dismissing self-esteem as useless",
+          "body": "<p>In 2022, Orth and Robins reviewed later evidence and found small beneficial effects of self-esteem across several life domains. This is a post-book qualification. It reinforces the distinction between ordinary self-worth, narcissistic superiority and evidence that a particular programme of indiscriminate praise actually delivers the outcomes promised for it.</p>"
+        }
+      }
+    },
+    {
+      "id": "sociometer",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Самооценка в книге работает как социальный индикатор",
+          "body": "<p>Сторр обсуждает социометрическую модель: самооценка чувствительна к сигналам принятия и ценности для других. В таком понимании простое раздувание показателя может не улучшать реальные отношения. Аналогия с индикатором полезна, но это теоретическая модель функций самооценки, а не доказательство бесполезности поддержки или любой работы с убеждениями.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "In the book, self-esteem acts as a social indicator",
+          "body": "<p>Storr discusses a sociometer account: self-esteem responds to signals of acceptance and value to others. Inflating the indicator alone may not improve actual relationships. The analogy is useful, but it remains a theoretical model of self-esteem’s functions, not proof that emotional support or all work on personal beliefs is useless.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "narcissism-not-esteem",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Нарциссизм и высокая самооценка — разные вещи",
+          "body": "<p>В описанном Сторром исследовании агрессию лучше объяснял нарциссизм, чем просто высокий уровень самооценки. Отличие существенно: спокойно считать себя достойным уважения — не то же самое, что требовать особого обращения и болезненно защищать превосходство. Смешение этих понятий сделало бы вывод книги грубее её собственных данных.</p><div class=\"compare\"><div class=\"compare-item\"><strong>Чувство ценности</strong><p>Я заслуживаю уважения вместе с другими.</p></div><div class=\"compare-item\"><strong>Превосходство</strong><p>Мне должны особое обращение и подтверждение.</p></div></div>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Narcissism and high self-esteem are different things",
+          "body": "<p>In the research Storr describes, narcissism explained aggression better than high self-esteem alone. The distinction matters: calmly regarding oneself as worthy of respect differs from demanding special treatment and defensively protecting superiority. Conflating the concepts would make the book’s conclusion cruder than the evidence it actually discusses.</p><div class=\"compare\"><div class=\"compare-item\"><strong>Self-worth</strong><p>I deserve respect alongside other people.</p></div><div class=\"compare-item\"><strong>Superiority</strong><p>I am owed special treatment and confirmation.</p></div></div>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "narcissistic-injury",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Угроза исключительности может провоцировать защитную агрессию",
+          "body": "<p>Уязвимость возникает, когда образ превосходства требует постоянного подтверждения. Оскорбление тогда переживается не как отдельная неприятность, а как покушение на основу личности. Сторр использует эту логику для объяснения поведения, но она не позволяет ставить диагноз по одной сердитой реакции или объявлять всякого уверенного человека опасным.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Threatened exceptionalism can provoke defensive aggression",
+          "body": "<p>Vulnerability arises when a superior self-image requires continual confirmation. An insult then feels less like a particular unpleasant event than an attack on the foundation of identity. Storr uses this mechanism to interpret behaviour. It does not justify diagnosing someone from one angry reaction or treating every confident person as dangerous.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "narcissism-trend-dispute",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Спор о росте нарциссизма нельзя вычеркнуть из книги",
+          "body": "<p>Твендж и Кэмпбелл видят поколенческий рост нарциссизма; Сторр приводит и возражения Тржесневски о выборках и измерениях, и ответы сторонников роста. Поэтому «эпидемия» здесь — спорная интерпретация исследований. Особенно важно не превращать изменение средних баллов опросника в клинический диагноз целому поколению.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "The dispute over rising narcissism belongs inside the argument",
+          "body": "<p>Twenge and Campbell argue for rising narcissism across generations. Storr includes Trzesniewski’s objections about samples and measurement, as well as the proponents’ replies. The epidemic framing therefore represents a disputed interpretation. Changes in questionnaire averages should especially not be converted into a clinical diagnosis of an entire generation.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "praise-versus-warmth",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Тёплое отношение не требует убеждать ребёнка в превосходстве",
+          "body": "<p>Сторр обсуждает исследование родительской переоценки: ребёнка можно любить, не внушая ему исключительность по сравнению с другими. Это различие защищает важную оговорку. Критика чрезмерной похвалы не даёт основания отказывать детям в тепле, унижать их или требовать достижений как платы за человеческую ценность.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Warmth does not require telling children they are superior",
+          "body": "<p>Storr discusses research into parental overvaluation: children can be loved without being taught that they are superior to others. The distinction protects an important qualification. Criticizing excessive praise provides no basis for withholding warmth, humiliating children or making achievement the price they must pay for being regarded as valuable human beings.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "vasco-counterfactual",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Один политик не объясняет всю культурную перемену",
+          "body": "<p>Сторр сам спрашивает, что произошло бы и без Васконселлоса: индивидуализм и вера в особенное «я» росли по другим каналам. Целевая группа важна как усилитель и источник легитимности. Она не достаточное объяснение глобального сдвига, а её отсутствие не означает автоматически мир без подобных ожиданий.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "One politician cannot explain the entire cultural shift",
+          "body": "<p>Storr asks what would have happened without Vasconcellos: individualism and belief in a special self were spreading through other channels. The task force mattered as an amplifier and source of legitimacy. It is not a sufficient explanation for a global shift, nor would its absence automatically produce a world without these expectations.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "market-benefits",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Свобода и инновации остаются частью неоднозначного результата",
+          "body": "<p>Сторр прямо отказывается описывать неолиберализм как злодея без достоинств: он признаёт положительные результаты и сложность экономических перемен. Его критический вопрос — как распределяются выгоды и риски. История о победителях становится опасной, когда заслоняет условия соревнования и превращает положение проигравших в доказательство их неполноценности.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Freedom and innovation remain part of an ambiguous outcome",
+          "body": "<p>Storr explicitly resists portraying neoliberalism as a villain without redeeming features, acknowledging benefits and the complexity of economic change. His critical question concerns the distribution of gains and risks. Stories about winners become dangerous when they hide the conditions of competition and turn losers’ positions into proof of personal inadequacy.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "unequal-game",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "5 · Особенное «я»",
+          "title": "Неравные условия нельзя исправить одним правильным «я»",
+          "body": "<p>Долги, нестабильная занятость и различия возможностей образуют в книге материальный фон личной тревоги. Даже полезная уверенность не отменяет этих условий. Сторр связывает психологическую и общественную критику: нельзя обещать, что каждый станет победителем, а затем возлагать на отдельного человека всю вину за исход неравной игры.</p>"
+        },
+        "en": {
+          "section": "5 · The special self",
+          "title": "Unequal conditions cannot be repaired through the right self alone",
+          "body": "<p>Debt, insecure work and unequal opportunities form the material background to personal anxiety in the book. Even useful confidence cannot abolish those conditions. Storr joins psychological and social criticism: society cannot promise that everyone will become a winner and then place all blame for the outcome of an unequal game on each individual.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-13.xhtml–ch1-16.xhtml; книга 5"
+    },
+    {
+      "id": "digital-inheritance",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Цифровая культура наследует мечту об освобождённом индивиде",
+          "body": "<p>Для Сторра цифровое «я» не возникает с фронтальной камерой. Персональные компьютеры, контркультура и идеи человеческого потенциала заранее соединяют технологии с освобождением личности. Социальные платформы усиливают эту старую культурную программу. Такая генеалогия объясняет язык обещаний, но не означает, что каждое технологическое последствие было заранее задумано.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Digital culture inherits the dream of the liberated individual",
+          "body": "<p>For Storr, the digital self does not begin with the front-facing camera. Personal computing, counterculture and human-potential ideas had already connected technology with individual liberation. Social platforms intensify that older programme. This genealogy explains the language of promises without implying that every technological consequence was intended in advance.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "engelbart-augmentation",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Энгельбарт проектирует усиление человеческой работы",
+          "body": "<p>Демонстрация Дага Энгельбарта 1968 года вводит в рассказ компьютер как средство расширить возможности людей, работающих с информацией. Сторр подчёркивает коллективный и организационный контекст этого видения. Позднейший образ одинокого гения или персонального самоусиления не должен стирать сотрудничество, необходимое для появления самой технологии.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Engelbart designs the augmentation of human work",
+          "body": "<p>Doug Engelbart’s 1968 demonstration introduces computing as a way to extend the capacities of people working with information. Storr emphasizes the collective and organizational setting of that vision. Later images of the solitary genius or personal self-augmentation should not erase the collaboration required to bring the technology itself into existence.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "therapy-meets-lab",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Мечта о развитии человека проникает в технологическую лабораторию",
+          "body": "<p>Книга описывает встречи и эксперименты с личностным развитием в окружении Энгельбарта, включая конфликты и уход сотрудников. Это показывает реальное пересечение социальных сетей идей. Однако из близости терапии и инженерии не следует, что технические достижения зависят от спорных практик или что такие практики объясняют всю Кремниевую долину.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Human-development ideals enter the technology laboratory",
+          "body": "<p>The book describes personal-development meetings and experiments around Engelbart, including conflict and departures. They show an actual intersection of intellectual and social networks. That overlap does not establish that technical achievements depended on controversial practices, or that those practices explain the whole culture and subsequent development of Silicon Valley.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "brand-network",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Стюарт Бранд соединяет инструменты, контркультуру и сети",
+          "body": "<p>От Whole Earth Catalog к сетевым сообществам и консультированию Бранд становится у Сторра важным посредником. Индивидуальный доступ к инструментам обещает обойти старые иерархии. Парадокс в том, что антиавторитарный язык легко сосуществует с рынком, который тоже обещает координацию без единого управляющего центра.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Stewart Brand connects tools, counterculture and networks",
+          "body": "<p>From the Whole Earth Catalog to networked communities and consulting, Brand becomes an important intermediary in Storr’s account. Individual access to tools promises a route around old hierarchies. The paradox is that anti-authoritarian language can coexist with a market ideal that also promises coordination without a single directing centre.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "tech-utopianism",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Технологический оптимизм склонен забывать ограничения",
+          "body": "<p>Сторр прослеживает обещания сетевого процветания и освобождения, сопоставляя их с последующими провалами. Этот контраст не опровергает полезность интернета. Он показывает повторяющийся культурный жест: новую среду объявляют местом, где прежние человеческие ограничения наконец исчезнут, прежде чем внимательно проверить распределение её возможностей и издержек.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Technological optimism can forget its own limits",
+          "body": "<p>Storr follows promises of networked prosperity and liberation alongside later disappointments. The contrast does not refute the internet’s usefulness. It reveals a recurring cultural move: declaring a new environment the place where old human limits will disappear before examining carefully how its opportunities and costs are actually distributed among different people.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "scored-self",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Платформа делает репутацию видимой и подсчитываемой",
+          "body": "<p>Лайки, подписчики и комментарии превращают социальное одобрение в постоянно обновляемые показатели. Сторр видит здесь древнюю борьбу за место в группе на новой технической поверхности. Образ себя становится участником соревнования: его можно редактировать, показывать, сравнивать и оценивать быстрее и публичнее, чем прежде.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "The platform makes reputation visible and countable",
+          "body": "<p>Likes, followers and comments turn social approval into continually updated scores. Storr sees an ancient struggle for position within a group operating on a new technical surface. A self-image becomes a contestant: it can be edited, displayed, compared and evaluated more quickly and publicly than before, with feedback that invites further monitoring.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "rainbow-mansion",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Коммуна показывает и идеал, и привлекательных живых людей",
+          "body": "<p>В Rainbow Mansion Сторр встречает амбициозных технарей, стремящихся менять мир. Он одновременно критикует культ предпринимателя и испытывает симпатию к собеседникам. Эта двойственность важна: книга не утверждает, что все люди, поверившие в технологический прогресс, эгоистичны или что их проекты не способны принести пользу.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "The commune reveals both an ideal and appealing human beings",
+          "body": "<p>At Rainbow Mansion, Storr meets ambitious technologists trying to change the world. He criticizes the entrepreneurial ideal while also liking the people he encounters. That ambivalence matters: the book does not claim that everyone who believes in technological progress is selfish, or that their projects cannot produce useful and admirable results.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "founder-template",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Стартап-среда задаёт локальную версию идеального человека",
+          "body": "<p>Общий культурный образ успеха уточняется внутри каждой среды. Для предпринимателя это может быть уверенный, энергичный, технически одарённый и убедительный основатель. Сторр показывает, как достоинства такой модели превращаются в фильтр: талантливый человек с другими социальными свойствами рискует счесть себя неподходящим целиком, а не для конкретной роли.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Start-up culture supplies a local version of the ideal person",
+          "body": "<p>The general cultural image of success becomes more specific within each environment. For an entrepreneur, it may mean a confident, energetic, technically gifted and persuasive founder. Storr shows the model becoming a filter: talented people with different social qualities risk feeling wholly inadequate rather than mismatched to a particular role or situation.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "cj-extreme-case",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Си-Джей — крайний случай, а не портрет поколения",
+          "body": "<p>Сторр беседует с Си-Джей о славе, внешности, селфи и отношениях. Её история делает погоню за вниманием конкретной, но автор прямо признаёт её нетипичность. Баллы опросника и самоописания собеседницы нельзя превращать в клинический диагноз или оценку распространённости такого поведения среди всех молодых людей.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "CJ is an extreme case, not a portrait of a generation",
+          "body": "<p>Storr interviews CJ about fame, appearance, selfies and relationships. Her story makes the pursuit of attention concrete, but he explicitly acknowledges that she is an extreme case. Questionnaire scores and her self-description cannot be turned into a clinical diagnosis or an estimate of how common this behaviour is among young people.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "approval-dependence",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Проблемой становится зависимость от непрерывного подтверждения",
+          "body": "<p>Желание получить приятную реакцию само по себе не объявляется патологией. Опасность в книге возникает, когда одобрение необходимо всё время: его исчезновение переживается как падение ценности собственного «я». Тогда публикация и проверка отклика могут стать способом временно заглушать тревогу, постоянно создающим потребность в следующем подтверждении.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "The problem becomes dependence on continuous confirmation",
+          "body": "<p>Wanting a pleasant response is not treated as inherently pathological. The danger in the book arises when approval is needed continuously and its disappearance feels like a loss of personal worth. Posting and checking reactions can then become a way of briefly quieting anxiety while renewing the need for the next confirmation.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "facebook-bounded-evidence",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Данные о Facebook поддерживают осторожный вывод о самочувствии",
+          "body": "<p>Кросс и коллеги в 2013 году опрашивали молодых взрослых пять раз в день две недели. Более активное использование Facebook предсказывало последующее ухудшение самочувствия и удовлетворённости жизнью. Временная последовательность полезна, но наблюдение не равно случайному назначению: это не универсальный причинный эффект всех платформ на каждого пользователя.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Facebook evidence supports a cautious conclusion about well-being",
+          "body": "<p>In 2013, Kross and colleagues prompted young adults five times daily for two weeks. Greater Facebook use predicted later declines in feelings and life satisfaction. Temporal ordering is informative, but observation is not random assignment. The finding cannot establish a universal causal effect of every platform on every user.</p>"
+        }
+      }
+    },
+    {
+      "id": "shaming-tribe",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Публичное наказание делает ошибку угрозой всей личности",
+          "body": "<p>Сторр связывает сетевое возмущение с давними механизмами репутации и наказания нарушителей. Масштаб аудитории и скорость реакции усиливают угрозу. При этом критика поступка, требование ответственности и травля не одно и то же: из опасности жестокого наказания не следует запрет обсуждать реальный вред.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "Public punishment makes a mistake threaten the whole identity",
+          "body": "<p>Storr connects online outrage with older mechanisms of reputation and punishment. Audience size and reaction speed amplify the threat. Criticism, accountability and harassment are not identical, however. Recognizing the danger of cruel punishment does not imply that people must be shielded from discussion of genuine harm they have caused.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "sacred-feelings-hypothesis",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Толкование непереносимости несогласия остаётся гипотезой автора",
+          "body": "<p>Сторр предполагает связь между сакрализацией собственного «я», нарциссизмом и стремлением наказывать несогласных. Его примеры из кампусов и сетевой политики не устанавливают единую причину. Важно сохранить слово «предполагает»: протест может иметь разные мотивы, а защита достоинства не автоматически свидетельствует о нарциссизме.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "The account of intolerance remains the author’s hypothesis",
+          "body": "<p>Storr proposes a connection between sacralizing the self, narcissism and attempts to punish disagreement. His campus and online political examples do not establish a single cause. The word proposes matters: protests can have different motives, and defending dignity is not automatically evidence of narcissism or an inability to tolerate reasonable disagreement.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "mixed-generation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "6 · Цифровое «я»",
+          "title": "Цифровое поколение не сводится к утрате эмпатии",
+          "body": "<p>Сторр упоминает и положительные черты молодых людей: заботу о здоровье и внимание к структурному неравенству. Он признаёт неопределённость причин этих перемен. Цифровая среда усиливает сравнение и наказание, но книга не позволяет вывести из этого, что всё поколение стало хуже или что всякое стремление улучшиться вредно.</p>"
+        },
+        "en": {
+          "section": "6 · The digital self",
+          "title": "The digital generation is not reducible to lost empathy",
+          "body": "<p>Storr also notes positive features among young people, including attention to health and structural inequality, while acknowledging uncertainty about their causes. Digital environments intensify comparison and punishment. The book does not therefore establish that an entire generation has become worse, or that every effort to improve oneself is harmful or futile.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-17.xhtml–ch1-19.xhtml; книга 6"
+    },
+    {
+      "id": "austen-heinz",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "История Остина Хайнца показывает цену среды без права на ошибку",
+          "body": "<p>В финальной части Сторр рассказывает о предпринимателе Остине Хайнце, его трудностях и жестоком медийном обращении с ним. Это возвращает исследование к человеческой цене идеала. Автор связывает уязвимость личности со средой, но сама история не даёт права свести смерть к одному заголовку, характеру или публичному конфликту.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Austen Heinz’s story shows the cost of an unforgiving environment",
+          "body": "<p>In the final part, Storr describes entrepreneur Austen Heinz, his difficulties and harsh media treatment. The story returns the inquiry to the human cost of the ideal. The author connects personal vulnerability with environment, but the case does not justify reducing a death to one headline, character trait or public dispute.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "diagnostic-disagreement",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Даже биографический диагноз требует проверки и оговорок",
+          "body": "<p>Сторр сохраняет несогласие семьи Хайнца с публичным предположением о биполярном расстройстве. Сестра ссылается на иной установленный диагноз. Это важная дисциплина рассказа: нельзя собирать удобное объяснение из слухов о психическом здоровье, а клиническую неопределённость нельзя устранять ради более стройного культурного сюжета.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Even a biographical diagnosis requires checking and qualification",
+          "body": "<p>Storr preserves the family’s disagreement with public suggestions of bipolar disorder. Heinz’s sister points to a different documented diagnosis. This matters for narrative discipline: rumours about mental health should not be assembled into a convenient explanation, and clinical uncertainty should not be removed to produce a tidier cultural story.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "big-five-dimensions",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Черты личности — измерения, а не пять коробок",
+          "body": "<p>Открытость опыту, добросовестность, экстраверсия, доброжелательность и невротизм помогают описать относительно устойчивые различия. Сторр подчёркивает: это не выключатели и не отдельные типы людей. Сочетания выраженности черт влияют на то, какие ситуации даются легче, но опросник не исчерпывает человека и не предсказывает каждое его действие.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Personality traits are dimensions, not five boxes",
+          "body": "<p>Openness, conscientiousness, extraversion, agreeableness and neuroticism describe relatively stable differences. Storr emphasizes that these are not switches or separate kinds of people. Combinations of trait levels affect which situations feel easier. A questionnaire does not exhaustively describe a person or predict every action they will take in every setting.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "change-with-limits",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Устойчивость личности не означает невозможность изменений",
+          "body": "<p>Сторр прямо признаёт взросление, обучение, воздействие переживаний и возможность изменений при психотерапии. Его спор направлен против безграничного самопересоздания, а не против развития. Важное различие: освоить навык, изменить привычку или уменьшить страдание — не то же самое, что по желанию стать человеком с любым набором свойств.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Personality stability does not make change impossible",
+          "body": "<p>Storr explicitly acknowledges maturation, learning, effects of experience and possible changes through psychotherapy. His target is unlimited self-reinvention, not development itself. Learning a skill, changing a habit or reducing distress differs from becoming, at will, a person with any desired combination of characteristics and responses to the world.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "heritability-boundary",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Наследуемость не задаёт личную судьбу",
+          "body": "<p>Книга придаёт большое значение биологическим различиям и исследованиям близнецов. Нужна граница вывода: сходство в изученной популяции не доказывает неизменность конкретного человека. Даже слабое влияние общей семейной среды на измеряемые черты не означает отсутствия последствий заботы, насилия, образования или материальных условий.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Heritability is not predestination of an individual life",
+          "body": "<p>The book gives substantial weight to biological differences and twin studies. An inference boundary matters: resemblance within a studied population does not establish an individual’s immutability. Even limited shared-family effects on measured traits would not mean that care, abuse, education or material conditions have no consequences for a person’s life.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "person-environment-loop",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Личность выбирает среду, а среда усиливает привычки",
+          "body": "<p>Сторр описывает взаимную петлю: склонности влияют на выбор занятий и людей, а их отклик закрепляет особенности поведения. Общительный человек чаще получает приглашения и больше практики общения. Это не замкнутая судьба, но объяснение, почему небольшие исходные различия способны накапливаться в заметно разные жизненные траектории.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Personality selects environments that reinforce its tendencies",
+          "body": "<p>Storr describes a reciprocal loop: tendencies influence which activities and people we choose, and their responses reinforce those tendencies. An outgoing person receives more invitations and gains more social practice. This is not a sealed destiny, but an account of how small initial differences can accumulate into substantially different life paths.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "acceptance-accountability",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Принять ограничения — не значит освободить себя от ответственности",
+          "body": "<p>Финальный совет Сторра — спокойнее понимать свои устойчивые особенности и перестать считать их доказательством испорченности. При этом он отвергает грубое оправдание «я такой»: если черты причиняют вред другим, нужно смягчать последствия и извиняться. Принятие отличается и от самолюбования, и от капитуляции перед любым собственным импульсом.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Accepting limits does not remove responsibility",
+          "body": "<p>Storr’s concluding advice is to understand relatively stable characteristics more calmly rather than treat them as proof of defectiveness. He rejects the crude excuse of simply being that way: when traits harm others, their effects need managing and apologies may be necessary. Acceptance differs both from self-adulation and surrender to every impulse.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "personal-projects",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Проект должен быть значимым и посильным",
+          "body": "<p>Брайан Литтл предлагает рассматривать личные проекты, а не только абстрактные черты. Важно выбирать значимые цели, соотнося их с возможностями и обстоятельствами. Если цель недостижима, это не обязательно требует отказаться от желания жить хорошо: можно изменить форму проекта, нагрузку, условия или путь к важному результату.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "A personal project needs meaning and feasibility",
+          "body": "<p>Brian Little proposes examining personal projects rather than only abstract traits. Meaningful goals need to fit capacities and circumstances. If a goal proves unreachable, that need not mean abandoning the desire for a worthwhile life. The project’s form, demands, conditions or route toward what matters can be changed instead.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "authentic-reconsidered",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Подлинное «я» возвращается без обещания совершенства",
+          "body": "<p>К концу книги Сторр пересматривает раннюю интуицию об отсутствии подлинного «я»: устойчивые черты дают основание говорить о нём в ограниченном смысле. Интроверт может выступить общительно, но действие против склонности требует усилия. Это не совершенный внутренний бог Эсалена, а реальные особенности человека, которые нельзя бесконечно переделывать без цены.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "An authentic self returns without a promise of perfection",
+          "body": "<p>By the end, Storr revises his earlier intuition that no authentic self exists: stable traits support a limited sense of authenticity. An introvert can behave sociably, but acting against a tendency takes effort. This is not Esalen’s perfect inner god, but real human characteristics that cannot be endlessly remade without cost.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; книга 7; p57 (XHTML paragraph count)"
+    },
+    {
+      "id": "lizard-environment",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Иногда нужно менять условия, а не сущность человека",
+          "body": "<p>Сторр сравнивает человека не на своём месте с ящерицей в неподходящем климате: смена среды меняет переживание жизни без обязательной смены природы. Это метафора соответствия, а не клинический рецепт. Она помогает задать практический вопрос: какие отношения, занятия и требования делают мои свойства постоянно болезненными?</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "Sometimes the conditions need changing more than the person",
+          "body": "<p>Storr compares a person in an unsuitable setting with a lizard in the wrong climate: changing surroundings alters the experience of living without necessarily changing the creature’s nature. This is a metaphor of fit, not a clinical prescription. It invites a practical question about which relationships, activities and demands make one’s characteristics continually painful.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "mismatch-questions",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Разрыв с идеалом можно разобрать на проверяемые вопросы",
+          "body": "<ol class=\"steps\"><li>Какую конкретную трудность я переживаю?</li><li>Чей стандарт превращает её в приговор всему человеку?</li><li>Что здесь зависит от навыка, условий или ограничений?</li><li>Что можно изменить без обещания стать кем угодно?</li></ol><p>Это рабочий синтез конспекта, а не диагностическая шкала или авторская четырёхшаговая методика.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "A mismatch with an ideal can be broken into examinable questions",
+          "body": "<ol class=\"steps\"><li>What specific difficulty am I experiencing?</li><li>Whose standard turns it into a verdict on my whole person?</li><li>What belongs to skills, conditions or limits?</li><li>What can change without promising to become anyone?</li></ol><p>This is the digest’s working synthesis, not a diagnostic scale or a four-step method prescribed by Storr.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7"
+    },
+    {
+      "id": "method-boundaries",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "7 · Как выжить",
+          "title": "Убедительный маршрут не равен окончательной научной теории",
+          "body": "<p>Сторр признаёт вторичные источники, спорность части социальной психологии, предубеждения и возможность ошибок. Интервью отредактированы; некоторые имена изменены. Рецензия Kirkus отдельно замечает ассоциативность композиции. Историческая цепочка помогает думать, но каждый её переход нужно оценивать по своим данным, а не по силе общего впечатления.</p>"
+        },
+        "en": {
+          "section": "7 · How to survive",
+          "title": "A compelling journey is not a definitive scientific theory",
+          "body": "<p>Storr acknowledges secondary sources, disputes in social psychology, bias and fallibility. Interviews were edited and some names changed. Kirkus separately notes the narrative’s associative organization. The historical chain is useful for thinking, but each connection requires evidence of its own rather than borrowing certainty from the overall story’s persuasive force.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-23.xhtml; methodology; review source 10"
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Финал",
+          "title": "Идеал — культурное предложение, а не мера всей жизни",
+          "body": "<p class=\"lede\">Я ищу принадлежности и смысла, но не обязан становиться безупречным героем.</p><p>Устойчивая модель книги: свойства человека, условия жизни и культурный образец встречаются в рассказе о себе. Полезно проверять образец, менять посильное и подходящую среду, сохранять ответственность — и не превращать неизбежное несовершенство в приговор собственной ценности.</p>"
+        },
+        "en": {
+          "section": "Finale",
+          "title": "An ideal is a cultural proposal, not the measure of a whole life",
+          "body": "<p class=\"lede\">I seek belonging and meaning without having to become a flawless hero.</p><p>The book’s durable model brings personal characteristics, living conditions and a cultural ideal together in a self-story. Examine the ideal, change what is feasible and seek fitting conditions, retain responsibility, and avoid turning inevitable imperfection into a verdict on your worth.</p>"
+        }
+      },
+      "bookLocation": "OPS/ch1-20.xhtml; ch1-21.xhtml; книга 7",
+      "final": true
+    }
+  ]
+}

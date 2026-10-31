@@ -13,6 +13,7 @@ The file must:
 - provide Essential, Core and Deep reading depths;
 - use Flexoki light/dark themes;
 - contain a compact home control in the top bar linking to `./`;
+- support the shared focus-mode contract: a tap on non-interactive text hides reader chrome while preserving text and Next; a second tap restores it;
 - identify sources and distinguish the book’s argument from independent corroboration and synthesis;
 - contain no remote runtime scripts or stylesheets.
 
@@ -28,7 +29,11 @@ Required fields:
 {
   "slug": "thinking-in-systems",
   "file": "thinking-in-systems.html",
-  "genre": "systems-thinking",
+  "section": "systems-work",
+  "tags": ["systems", "management"],
+  "collections": ["practices"],
+  "audience": "general",
+  "spoilerPolicy": "not-applicable",
   "screenCount": 90,
   "title": { "ru": "...", "en": "..." },
   "author": { "ru": "...", "en": "..." },
@@ -38,16 +43,17 @@ Required fields:
 }
 ```
 
-If the genre is new, add one entry to `genres[]` with RU/EN labels. Supported card-cover types are `typographic`, `year`, `constraint` and `split`; `typographic` is the safe default.
+Use an existing `sections[]` ID unless the book genuinely requires a new primary shelf. A book has one primary section, any number of kebab-case `tags[]`, and zero or more declared `collections[]`. `audience` is `general`, `teen-14-plus` or `adult`; `spoilerPolicy` is `not-applicable`, `spoiler-free` or `full-plot-in-deep`. Supported card-cover types are `typographic`, `year`, `constraint` and `split`; `typographic` is the safe default.
 
 ## 3. Validate and preview
 
 ```bash
+npm run sync:readers
 npm run check
 python3 -m http.server 8000
 ```
 
-Check at least 320×568 and 1440×900 in both themes and languages. Confirm the home control returns to the library and that there is no horizontal overflow.
+Run `sync:readers` after registering the file; it injects the maintained focus-mode and Home Screen metadata idempotently. Check at least 320×568 and 1440×900 in both themes and languages. Confirm the home control returns to the library, focus mode toggles without misreading a scroll or swipe, and there is no horizontal overflow.
 
 ## 4. Open a pull request
 

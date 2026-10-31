@@ -37,28 +37,45 @@ function readJson(filename) {
 const catalogue = readJson('books.json');
 
 if (catalogue) {
-  if (catalogue.schema !== 1) fail('books.json.schema must be 1');
-  if (!Array.isArray(catalogue.genres)) fail('books.json.genres must be an array');
+  if (catalogue.schema !== 2) fail('books.json.schema must be 2');
+  if (!Array.isArray(catalogue.sections)) fail('books.json.sections must be an array');
+  if (!Array.isArray(catalogue.collections)) fail('books.json.collections must be an array');
   if (!Array.isArray(catalogue.books)) fail('books.json.books must be an array');
 }
 
-const genreIds = new Set();
-for (const [index, genre] of (catalogue?.genres || []).entries()) {
-  const label = `genres[${index}]`;
-  if (!isObject(genre)) {
+const sectionIds = new Set();
+for (const [index, section] of (catalogue?.sections || []).entries()) {
+  const label = `sections[${index}]`;
+  if (!isObject(section)) {
     fail(`${label} must be an object`);
     continue;
   }
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(genre.id || '')) fail(`${label}.id must be kebab-case`);
-  if (genreIds.has(genre.id)) fail(`duplicate genre id: ${genre.id}`);
-  genreIds.add(genre.id);
-  checkLocalized(genre.label, `${label}.label`);
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(section.id || '')) fail(`${label}.id must be kebab-case`);
+  if (sectionIds.has(section.id)) fail(`duplicate section id: ${section.id}`);
+  sectionIds.add(section.id);
+  checkLocalized(section.label, `${label}.label`);
+  checkLocalized(section.description, `${label}.description`);
+}
+
+const collectionIds = new Set();
+for (const [index, collection] of (catalogue?.collections || []).entries()) {
+  const label = `collections[${index}]`;
+  if (!isObject(collection)) {
+    fail(`${label} must be an object`);
+    continue;
+  }
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(collection.id || '')) fail(`${label}.id must be kebab-case`);
+  if (collectionIds.has(collection.id)) fail(`duplicate collection id: ${collection.id}`);
+  collectionIds.add(collection.id);
+  checkLocalized(collection.label, `${label}.label`);
 }
 
 const bookSlugs = new Set();
 const bookFiles = new Set();
 let totalScreens = 0;
 const allowedCoverTypes = new Set(['year', 'constraint', 'split', 'typographic']);
+const allowedAudiences = new Set(['general', 'teen-14-plus', 'adult']);
+const allowedSpoilerPolicies = new Set(['not-applicable', 'spoiler-free', 'full-plot-in-deep']);
 
 for (const [index, book] of (catalogue?.books || []).entries()) {
   const label = `books[${index}]`;
@@ -77,7 +94,27 @@ for (const [index, book] of (catalogue?.books || []).entries()) {
   if (bookFiles.has(book.file)) fail(`duplicate book file: ${book.file}`);
   bookFiles.add(book.file);
 
-  if (!genreIds.has(book.genre)) fail(`${label}.genre references unknown genre: ${book.genre}`);
+  if (!sectionIds.has(book.section)) fail(`${label}.section references unknown section: ${book.section}`);
+  if (!Array.isArray(book.tags) || book.tags.length === 0) fail(`${label}.tags must be a non-empty array`);
+  else {
+    const tags = new Set();
+    for (const tag of book.tags) {
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(tag || '')) fail(`${label}.tags contains a non-kebab-case value: ${tag}`);
+      if (tags.has(tag)) fail(`${label}.tags contains duplicate value: ${tag}`);
+      tags.add(tag);
+    }
+  }
+  if (!Array.isArray(book.collections)) fail(`${label}.collections must be an array`);
+  else {
+    const assigned = new Set();
+    for (const collection of book.collections) {
+      if (!collectionIds.has(collection)) fail(`${label}.collections references unknown collection: ${collection}`);
+      if (assigned.has(collection)) fail(`${label}.collections contains duplicate value: ${collection}`);
+      assigned.add(collection);
+    }
+  }
+  if (!allowedAudiences.has(book.audience)) fail(`${label}.audience must be one of ${[...allowedAudiences].join(', ')}`);
+  if (!allowedSpoilerPolicies.has(book.spoilerPolicy)) fail(`${label}.spoilerPolicy must be one of ${[...allowedSpoilerPolicies].join(', ')}`);
   if (!Number.isInteger(book.screenCount) || book.screenCount < 3) fail(`${label}.screenCount must be an integer >= 3`);
   else totalScreens += book.screenCount;
 
@@ -138,8 +175,18 @@ if (!fs.existsSync(indexPath)) {
 } else {
   const indexHtml = fs.readFileSync(indexPath, 'utf8');
   if (!indexHtml.includes("fetch('./books.json'")) fail('index.html must load books.json');
-  if (!indexHtml.includes('id="genreFilter"')) fail('index.html is missing the genre filter');
-  if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"')) fail('index.html is missing automatic counters');
+  if (!indexHtml.includes('id="sectionFilter"')) fail('index.html is missing the section filter');
+  if (!indexHtml.includes('id="collectionFilter"')) fail('index.html is missing the collection filter');
+  if (!indexHtml.includes('id="searchInput"')) fail('index.html is missing catalogue search');
+  if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"') || !indexHtml.includes('id="sectionStat"')) {
+    fail('index.html is missing automatic counters');
+  }
+  if (!/<link\s+rel=["']manifest["']\s+href=["']\.\/manifest\.webmanifest["']/i.test(indexHtml)) fail('index.html is missing the web app manifest');
+  if (!indexHtml.includes("navigator.serviceWorker.register('./sw.js')")) fail('index.html is missing service-worker registration');
+}
+
+for (const filename of ['manifest.webmanifest', 'sw.js', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png']) {
+  if (!fs.existsSync(path.join(root, filename))) fail(`${filename} is missing`);
 }
 
 if (failures.length) {
@@ -148,4 +195,4 @@ if (failures.length) {
   process.exit(1);
 }
 
-console.log(`Library validation passed: ${bookSlugs.size} books, ${genreIds.size} genres, ${totalScreens} screens.`);
+console.log(`Library validation passed: ${bookSlugs.size} books, ${sectionIds.size} sections, ${collectionIds.size} collections, ${totalScreens} screens.`);

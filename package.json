@@ -4,7 +4,9 @@
   "private": true,
   "description": "A public Flexoki library of standalone bilingual book stories.",
   "scripts": {
-    "check": "node scripts/check-library.mjs"
+    "check": "node scripts/check-library.mjs",
+    "sync:readers": "node scripts/apply-reader-shell.mjs",
+    "qa:browser": "node scripts/browser-qa.mjs"
   },
   "engines": {
     "node": ">=20"

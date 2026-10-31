@@ -10,6 +10,8 @@ const chromeBinary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chro
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
 const expectedBookCount = catalogue.books.length;
 const expectedShelfCount = new Set(catalogue.books.map(book => book.section)).size;
+const expectedAssignedCount = catalogue.books.filter(book => (book.collections || []).length > 0).length;
+const expectedUnassignedCount = expectedBookCount - expectedAssignedCount;
 const books = catalogue.books.map(book => book.file);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let server;
@@ -136,7 +138,12 @@ const indexPhone = await evaluate(`(() => ({
   overflow: document.documentElement.scrollWidth - innerWidth,
   manifest: document.querySelector('link[rel="manifest"]')?.getAttribute('href'),
   primary: getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim(),
-  flexoki: document.querySelector('.flexoki-credit')?.href
+  flexoki: document.querySelector('.flexoki-credit')?.href,
+  collectionSummary: document.getElementById('collectionSummary')?.textContent,
+  collections: [...document.querySelectorAll('#collectionFilter [data-collection]')].map(node => ({
+    id: node.dataset.collection,
+    text: node.textContent
+  }))
 }))()`);
 assert(indexPhone.books === expectedBookCount, `phone index: expected ${expectedBookCount} books`);
 assert(indexPhone.shelves === expectedShelfCount, `phone index: expected ${expectedShelfCount} populated section shelves`);
@@ -144,13 +151,24 @@ assert(indexPhone.overflow <= 1, `phone index overflow: ${indexPhone.overflow}px
 assert(indexPhone.manifest === './manifest.webmanifest', 'phone index: manifest link missing');
 assert(indexPhone.primary === '#2f968d', `phone index: unexpected dark action color ${indexPhone.primary}`);
 assert(indexPhone.flexoki === 'https://stephango.com/flexoki', 'phone index: official Flexoki credit missing');
+assert(indexPhone.collections[0]?.id === 'all' && indexPhone.collections[0]?.text === `Все книги · ${expectedBookCount}`, 'phone index: all-books collection label is misleading');
+assert(indexPhone.collections.find(item => item.id === 'unassigned')?.text === `Без подборки · ${expectedUnassignedCount}`, 'phone index: unassigned collection count is missing');
+assert(indexPhone.collectionSummary === `${expectedAssignedCount} из ${expectedBookCount} в подборках · могут пересекаться`, 'phone index: collection coverage summary is wrong');
+await evaluate(`document.querySelector('[data-collection="unassigned"]').click()`);
+await waitFor(async () => (await evaluate(`document.querySelectorAll('.book').length`)) === expectedUnassignedCount, 'unassigned collection filter');
+assert(await evaluate(`new URL(location.href).searchParams.get('collection') === 'unassigned'`), 'unassigned collection filter did not update the URL');
+await evaluate(`document.querySelector('[data-collection="all"]').click()`);
 await evaluate(`languageButton.click(); themeButton.click();`);
 const toggled = await evaluate(`({
   lang: document.documentElement.lang,
   theme: document.documentElement.dataset.theme,
-  primary: getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim()
+  primary: getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim(),
+  collectionSummary: document.getElementById('collectionSummary').textContent,
+  collections: [...document.querySelectorAll('#collectionFilter [data-collection]')].map(node => node.textContent)
 })`);
 assert(toggled.lang === 'en' && toggled.theme === 'light' && toggled.primary === '#1c6c66', 'language/theme controls or quiet action color did not update state');
+assert(toggled.collections[0] === `All books · ${expectedBookCount}` && toggled.collections.includes(`No collection · ${expectedUnassignedCount}`), 'English collection labels are misleading');
+assert(toggled.collectionSummary === `${expectedAssignedCount} of ${expectedBookCount} collected · may overlap`, 'English collection coverage summary is wrong');
 await evaluate(`searchInput.value = 'Theory'; searchInput.dispatchEvent(new Event('input', { bubbles: true }));`);
 await waitFor(async () => (await evaluate(`document.querySelectorAll('.book').length`)) === 1, 'catalogue search');
 await evaluate(`navigator.serviceWorker.ready.then(() => true)`);

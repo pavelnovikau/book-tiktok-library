@@ -43,7 +43,7 @@ Required fields:
 }
 ```
 
-Use an existing `sections[]` ID unless the book genuinely requires a new primary shelf. A book has one primary section, any number of kebab-case `tags[]`, and zero or more declared `collections[]`. `audience` is `general`, `teen-14-plus` or `adult`; `spoilerPolicy` is `not-applicable`, `spoiler-free` or `full-plot-in-deep`. Supported card-cover types are `typographic`, `year`, `constraint` and `split`; `typographic` is the safe default.
+Use an existing `sections[]` ID unless the book genuinely requires a new primary shelf. Sections partition the catalogue: every book has exactly one. Collections are optional filters and may overlap: a book can belong to several, while `"collections": []` places it under the automatic `No collection` / `Без подборки` filter. A book also has any number of kebab-case `tags[]`. `audience` is `general`, `teen-14-plus` or `adult`; `spoilerPolicy` is `not-applicable`, `spoiler-free` or `full-plot-in-deep`. Supported card-cover types are `typographic`, `year`, `constraint` and `split`; `typographic` is the safe default.
 
 ## 3. Validate and preview
 

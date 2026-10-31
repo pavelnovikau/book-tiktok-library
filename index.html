@@ -445,7 +445,10 @@
           <div class="filter-row" id="sectionFilter" role="group" aria-label="Фильтр по разделам"></div>
         </div>
         <div class="filter-block">
-          <div class="filter-head"><h2 data-i18n="collections">Подборки</h2></div>
+          <div class="filter-head">
+            <h2 data-i18n="collections">Подборки</h2>
+            <span class="filter-summary" id="collectionSummary" aria-live="polite"></span>
+          </div>
           <div class="filter-row" id="collectionFilter" role="group" aria-label="Фильтр по подборкам"></div>
         </div>
       </div>
@@ -490,7 +493,7 @@
           eyebrow: 'Открытая библиотека', title: 'Книги, после которых видишь систему.',
           intro: 'Плотные самостоятельные разборы: авторская логика, механизмы, примеры, возражения и ограничения.',
           searchLabel: 'Поиск', searchPlaceholder: 'Название, автор или тема', sections: 'Разделы', collections: 'Подборки',
-          allSections: 'Все', allCollections: 'Все подборки', open: 'Открыть книгу', minute: 'мин',
+          allSections: 'Все', allBooks: 'Все книги', unassigned: 'Без подборки', collectionSummary: '{assigned} из {total} в подборках · могут пересекаться', open: 'Открыть книгу', minute: 'мин',
           loading: 'Загружаю каталог…', loadingShort: 'Загрузка', loadError: 'Каталог не загрузился. Обновите страницу.',
           empty: 'По этим условиям книг пока нет.', contribute: 'Добавить книгу', palette: 'Палитра',
           footer: 'Каждая книга хранит тему, язык и прогресс прямо в браузере.',
@@ -504,7 +507,7 @@
           eyebrow: 'Open library', title: 'Books that let you see the system.',
           intro: 'Dense independent briefs: the author’s logic, mechanisms, examples, objections and limits.',
           searchLabel: 'Search', searchPlaceholder: 'Title, author or topic', sections: 'Sections', collections: 'Collections',
-          allSections: 'All', allCollections: 'All collections', open: 'Open book', minute: 'min',
+          allSections: 'All', allBooks: 'All books', unassigned: 'No collection', collectionSummary: '{assigned} of {total} collected · may overlap', open: 'Open book', minute: 'min',
           loading: 'Loading the catalogue…', loadingShort: 'Loading', loadError: 'The catalogue failed to load. Refresh the page.',
           empty: 'No books match these filters yet.', contribute: 'Add a book', palette: 'Palette',
           footer: 'Each book keeps its theme, language and progress in the browser.',
@@ -540,6 +543,7 @@
       var descriptionMeta = document.querySelector('meta[name="description"]');
       var sectionFilter = document.getElementById('sectionFilter');
       var collectionFilter = document.getElementById('collectionFilter');
+      var collectionSummary = document.getElementById('collectionSummary');
       var searchInput = document.getElementById('searchInput');
       var filterSummary = document.getElementById('filterSummary');
       var shelves = document.getElementById('shelves');
@@ -564,6 +568,12 @@
 
       function sectionById(id) { return catalog.sections.find(function (item) { return item.id === id; }); }
       function collectionById(id) { return catalog.collections.find(function (item) { return item.id === id; }); }
+      function belongsToCollection(book, id) {
+        var collections = book.collections || [];
+        if (id === 'all') return true;
+        if (id === 'unassigned') return collections.length === 0;
+        return collections.includes(id);
+      }
 
       function pluralRu(number, one, few, many) {
         var mod10 = number % 10;
@@ -590,7 +600,7 @@
         var query = normalize(state.query);
         return catalog.books.filter(function (book) {
           if (state.section !== 'all' && book.section !== state.section) return false;
-          if (state.collection !== 'all' && !(book.collections || []).includes(state.collection)) return false;
+          if (!belongsToCollection(book, state.collection)) return false;
           if (!query) return true;
           var haystack = [localized(book.title), localized(book.author), localized(book.description), (book.tags || []).join(' ')].join(' ');
           return normalize(haystack).includes(query);
@@ -648,12 +658,18 @@
         });
         sectionFilter.innerHTML = sectionButtons.map(function (item) { return filterButton(item, 'section', state.section); }).join('');
 
-        var collectionButtons = [{ id: 'all', label: copy.allCollections, count: catalog.books.length }];
+        var assignedCount = catalog.books.filter(function (book) { return (book.collections || []).length > 0; }).length;
+        var unassignedCount = catalog.books.length - assignedCount;
+        var collectionButtons = [{ id: 'all', label: copy.allBooks, count: catalog.books.length }];
         catalog.collections.forEach(function (collection) {
           var count = catalog.books.filter(function (book) { return (book.collections || []).includes(collection.id); }).length;
           if (count) collectionButtons.push({ id: collection.id, label: localized(collection.label), count: count });
         });
+        if (unassignedCount) collectionButtons.push({ id: 'unassigned', label: copy.unassigned, count: unassignedCount });
         collectionFilter.innerHTML = collectionButtons.map(function (item) { return filterButton(item, 'collection', state.collection); }).join('');
+        collectionSummary.textContent = copy.collectionSummary
+          .replace('{assigned}', assignedCount)
+          .replace('{total}', catalog.books.length);
       }
 
       function renderShelves() {
@@ -775,7 +791,7 @@
           if (!data || data.schema !== 2 || !Array.isArray(data.books) || !Array.isArray(data.sections) || !Array.isArray(data.collections)) throw new Error('Invalid catalogue');
           catalog = data;
           if (state.section !== 'all' && !sectionById(state.section)) state.section = 'all';
-          if (state.collection !== 'all' && !collectionById(state.collection)) state.collection = 'all';
+          if (state.collection !== 'all' && state.collection !== 'unassigned' && !collectionById(state.collection)) state.collection = 'all';
           catalogReady = true;
           render();
         })

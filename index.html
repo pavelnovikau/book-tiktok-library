@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -709,6 +709,11 @@
           content = '<path class="art-quiet" d="M127 91 H303 M127 49 V135 M171 49 V135 M215 49 V135 M259 49 V135 M303 49 V135"/>' +
             '<path class="art-bold" d="M127 91 H157 L169 65 L184 126 L202 49 L219 112 L234 78 L249 91 H303"/>' +
             '<path class="art-line" d="M263 48 L287 68 M259 67 L287 91 M259 91 L287 115 M259 114 L283 134"/>';
+        } else if (motif === 'protocol-stack') {
+          content = '<path class="art-quiet" d="M132 42 H298 M132 74 H276 M132 106 H307 M132 138 H258"/>' +
+            '<path class="art-bold" d="M148 42 H238 V74 H192 V106 H270 V138 H224"/>' +
+            '<circle class="art-fill" cx="148" cy="42" r="7"/><circle class="art-fill" cx="192" cy="74" r="7"/><circle class="art-fill" cx="270" cy="106" r="7"/><circle class="art-fill" cx="224" cy="138" r="7"/>' +
+            '<path class="art-line" d="M298 35 V49 M276 67 V81 M307 99 V113 M258 131 V145"/>';
         } else if (motif === 'door') {
           content = '<path class="art-quiet" d="M118 153 C155 139 177 129 198 114 C217 100 224 88 233 72 M176 153 C194 137 211 128 236 119"/>' +
             '<circle class="art-fill-soft" cx="252" cy="80" r="63"/><circle class="art-line" cx="252" cy="80" r="47"/>' +

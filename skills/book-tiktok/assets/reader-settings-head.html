@@ -1,0 +1,106 @@
+<!-- book-reader-settings-head:start -->
+<style id="book-reader-settings-style">
+__SETTINGS_FONT_FACES__
+  :root {
+    --book-ui-font: "Geist", system-ui, sans-serif;
+    --book-reading-font: var(--book-ui-font);
+  }
+  :root[data-reading-font="serif"] { --book-reading-font: "Geist Serif", "Source Serif 4", serif; }
+  html body { font-family: var(--book-ui-font); }
+  html :is(button, input, select, textarea, dialog),
+  html :is(button, a.button, a.control) * { font-family: var(--book-ui-font) !important; }
+  html #story :is(h1, h2, h3, p, li, blockquote, .slide-body),
+  html :is(.hero h1, .hero__intro, .book h3, .book__author, .book__description, .cover strong) {
+    font-family: var(--book-reading-font);
+  }
+  /* Metadata and controls stay Sans in either reading face. */
+  html #story :is(.kicker, .source-label, .source-label *, .cover-author, .cover-eyebrow, figcaption) {
+    font-family: var(--book-ui-font);
+  }
+  /* Both shipped serif files are real static Regulars. Never fake bold/italic. */
+  html[data-reading-font="serif"] #story,
+  html[data-reading-font="serif"] :is(.hero h1, .hero__intro, .book, .cover strong) { font-synthesis: none; }
+  html[data-reading-font="serif"] #story :is(h1, h2, h3, p, li, blockquote, .slide-body, strong, b),
+  html[data-reading-font="serif"] :is(.hero h1, .hero__intro, .book h3, .book__author, .book__description, .cover strong) { font-weight: 400; }
+  html dialog.book-settings {
+    box-sizing: border-box;
+    width: min(28rem, calc(100% - 2rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
+    max-width: 28rem;
+    max-height: calc(100dvh - 2rem - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+    margin: auto;
+    padding: 1.25rem;
+    overflow: auto;
+    border: 1px solid var(--color-border, #343331);
+    border-radius: var(--radius-lg, 1rem);
+    background: var(--color-surface-raised, #242321);
+    color: var(--color-text, #cecdc3);
+    font: 400 1rem/1.5 var(--book-ui-font);
+  }
+  html dialog.book-settings::backdrop { background: var(--color-backdrop, rgba(16, 15, 15, 0.72)); }
+  .book-settings h2 { margin: 0 0 1.25rem; font: 650 1.5rem/1.2 var(--book-ui-font); letter-spacing: -0.025em; }
+  .book-settings fieldset { min-width: 0; margin: 0 0 1.25rem; padding: 0; border: 0; }
+  .book-settings legend { margin-bottom: 0.5rem; padding: 0; font-size: 0.875rem; font-weight: 600; }
+  .book-settings-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; }
+  .book-settings-option { display: flex; align-items: center; gap: 0.5rem; min-height: 48px; padding: 0.5rem; border: 1px solid var(--color-border, #343331); border-radius: var(--radius-md, 0.75rem); cursor: pointer; }
+  .book-settings-option:has(input:checked) { border-color: var(--color-primary, #2f968d); background: var(--color-surface, #1c1b1a); }
+  .book-settings-option input { flex: none; width: 1rem; height: 1rem; margin: 0; accent-color: var(--color-primary, #2f968d); }
+  .book-settings-option span { font-size: 0.875rem; }
+  .book-settings-note { margin: 0.75rem 0 0; color: var(--color-text-muted, #9f9d96); font-size: 0.8125rem; line-height: 1.45; }
+  .book-settings-actions { display: flex; justify-content: flex-end; }
+  html .book-settings-close { min-height: 44px; padding: 0.5rem 1rem; border: 1px solid var(--color-border, #343331); border-radius: var(--radius-md, 0.75rem); background: var(--color-surface, #1c1b1a); color: inherit; font: inherit; cursor: pointer; }
+  .book-settings :focus-visible { outline: 2px solid var(--color-primary, #2f968d); outline-offset: 3px; }
+</style>
+__SETTINGS_FONT_LICENSES__
+<script id="book-reader-preferences-script">
+(function () {
+  'use strict';
+  var root = document.documentElement;
+  var key = 'bookLibrary.preferences.v1';
+  var preferences = null;
+  var applyToPage = null;
+  function validTheme(value) { return value === 'light' || value === 'dark'; }
+  function read(value) {
+    try {
+      var parsed = JSON.parse(value);
+      return parsed && parsed.version === 1 && validTheme(parsed.theme) && (parsed.readingFont === 'sans' || parsed.readingFont === 'serif') ? parsed : null;
+    } catch (_) { return null; }
+  }
+  try { preferences = read(localStorage.getItem(key)); } catch (_) {}
+  function persist() {
+    try { localStorage.setItem(key, JSON.stringify(preferences)); } catch (_) {}
+  }
+  function apply() {
+    if (!preferences) return;
+    root.dataset.theme = preferences.theme;
+    root.dataset.readingFont = preferences.readingFont;
+    if (applyToPage) applyToPage(preferences.theme);
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.content = preferences.theme === 'dark' ? '#100f0f' : '#fffcf0';
+    document.dispatchEvent(new Event('book-preferences-change'));
+  }
+  window.BookSettings = {
+    // First visited page migrates only its legacy theme. Never touch language,
+    // mode, position, focus or spoiler consent. A valid global v1 always wins.
+    connect: function (legacyTheme, setTheme) {
+      if (!preferences) preferences = { version: 1, theme: validTheme(legacyTheme) ? legacyTheme : 'dark', readingFont: 'sans' };
+      applyToPage = setTheme;
+      persist();
+      apply();
+    },
+    get: function () { return Object.assign({}, preferences); },
+    set: function (field, value) {
+      if (!preferences || (field === 'theme' ? !validTheme(value) : field !== 'readingFont' || !['sans', 'serif'].includes(value))) return;
+      preferences[field] = value;
+      persist();
+      apply();
+    }
+  };
+  window.addEventListener('storage', function (event) {
+    if (event.key !== key) return;
+    var next = read(event.newValue);
+    if (next) { preferences = next; apply(); }
+  });
+  apply();
+}());
+</script>
+<!-- book-reader-settings-head:end -->

@@ -1107,6 +1107,7 @@
       .book-library-install-dialog { display: none !important; }
     }
   </style>
+__READER_SETTINGS_HEAD__
 </head>
 <body>
   <div class="app-stage">
@@ -1649,9 +1650,13 @@
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
-        if (focusActive() || isStandalone()) return;
+        if (focusActive() || isStandalone() || document.querySelector('dialog[open]:not(#bookLibraryInstallDialog)')) return;
         localize();
         if (!dialog.open) dialog.showModal();
+        const heading = document.getElementById('bookLibraryInstallTitle');
+        heading.tabIndex = -1;
+        heading.focus({ preventScroll: true });
+        dialog.scrollTop = 0;
       }
 
       if (!isIos() || isStandalone()) return;
@@ -1677,5 +1682,6 @@
   </script>
   <!-- book-library-install:end -->
 __READER_HEADER__
+__READER_SETTINGS__
 </body>
 </html>

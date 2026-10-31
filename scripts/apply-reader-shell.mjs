@@ -1,11 +1,12 @@
 import fs from 'node:fs';
+import { settingsHead, settingsBody, connectSettingsRuntime } from '../skills/book-tiktok/scripts/reader-settings.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
 const requested = process.argv.slice(2);
-const files = requested.length ? requested : manifest.books.map(book => book.file);
+const files = requested.length ? requested : ['index.html', ...manifest.books.map(book => book.file)];
 const headerBlock = fs.readFileSync(path.join(root, 'skills/book-tiktok/assets/reader-header.html'), 'utf8');
 
 const headBlock = `
@@ -319,9 +320,13 @@ const installBlock = `
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
-        if (focusActive() || isStandalone()) return;
+        if (focusActive() || isStandalone() || document.querySelector('dialog[open]:not(#bookLibraryInstallDialog)')) return;
         localize();
         if (!dialog.open) dialog.showModal();
+        var heading = document.getElementById('bookLibraryInstallTitle');
+        heading.tabIndex = -1;
+        heading.focus({ preventScroll: true });
+        dialog.scrollTop = 0;
       }
 
       if (!isIos() || isStandalone()) return;
@@ -364,6 +369,7 @@ for (const filename of files) {
   if (!filePath.startsWith(`${root}${path.sep}`)) throw new Error(`Refusing path outside repository: ${filename}`);
   let html = fs.readFileSync(filePath, 'utf8');
 
+  if (filename !== 'index.html') {
   // This source role includes literary criticism as well as research reviews.
   html = html.replace("review: 'Обзор исследований'", "review: 'Обзор'");
   html = html.replace(
@@ -405,9 +411,33 @@ for (const filename of files) {
   else if (html.includes('</body>')) html = html.replace('</body>', `${installBlock}</body>`);
   else throw new Error(`${filename}: missing </body>`);
 
+  }
+
   const updatedHeader = replaceBlock(html, '<!-- book-reader-header:start -->', '<!-- book-reader-header:end -->', headerBlock);
   if (updatedHeader !== null) html = updatedHeader;
   else html = html.replace('</body>', `${headerBlock}</body>`);
+
+  // Settings is maintained independently from book data and navigation.
+  html = connectSettingsRuntime(html, filename);
+  const withoutSettingsHead = withoutBlock(html, '<!-- book-reader-settings-head:start -->', '<!-- book-reader-settings-head:end -->');
+  const hasSans = /@font-face\s*\{\s*font-family:\s*["']Geist["']/.test(withoutSettingsHead);
+  const newSettingsHead = settingsHead({ includeSans: !hasSans });
+  const updatedSettingsHead = replaceBlock(html, '<!-- book-reader-settings-head:start -->', '<!-- book-reader-settings-head:end -->', newSettingsHead);
+  html = updatedSettingsHead ?? html.replace('</head>', `${newSettingsHead}</head>`);
+  const newSettingsBody = settingsBody();
+  const updatedSettingsBody = replaceBlock(html, '<!-- book-reader-settings:start -->', '<!-- book-reader-settings:end -->', newSettingsBody);
+  html = updatedSettingsBody ?? html.replace('</body>', `${newSettingsBody}</body>`);
+  if (filename === 'index.html') {
+    html = html.replace('<body>', '<body class="library-home">');
+    // Homepage has the same offline fonts as each portable reader.
+    for (const name of ['Geist-Variable.woff2', 'GeistMono-Variable.woff2']) {
+      html = html.replace(`./fonts/${name}`, `data:font/woff2;base64,${fs.readFileSync(path.join(root, 'fonts', name)).toString('base64')}`);
+    }
+    html = html.replaceAll('Each book keeps its theme, language and progress in the browser.', 'Theme and reading font apply across the library. Each book keeps its language and progress.');
+    html = html.replaceAll('Каждая книга хранит тему, язык и прогресс прямо в браузере.', 'Тема и шрифт общие для библиотеки. Язык и прогресс сохраняются в каждой книге.');
+    // Native dialog autofocus otherwise jumps to its bottom action on iOS.
+    if (!html.includes("document.getElementById('installTitle').tabIndex")) html = html.replaceAll('installDialog.showModal();', "installDialog.showModal(); document.getElementById('installTitle').tabIndex = -1; document.getElementById('installTitle').focus({ preventScroll: true }); installDialog.scrollTop = 0;");
+  }
 
   fs.writeFileSync(filePath, html);
   console.log(`Updated ${filename}`);

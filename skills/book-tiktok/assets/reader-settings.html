@@ -1,0 +1,78 @@
+<!-- book-reader-settings:start -->
+<dialog class="book-settings" id="bookSettingsDialog" aria-labelledby="bookSettingsTitle">
+  <h2 id="bookSettingsTitle" tabindex="-1" autofocus data-settings-copy="title">Настройки</h2>
+  <fieldset>
+    <legend data-settings-copy="theme">Тема</legend>
+    <div class="book-settings-options">
+      <label class="book-settings-option"><input type="radio" name="book-theme" value="dark"><span data-settings-copy="dark">Тёмная</span></label>
+      <label class="book-settings-option"><input type="radio" name="book-theme" value="light"><span data-settings-copy="light">Светлая</span></label>
+    </div>
+  </fieldset>
+  <fieldset aria-describedby="bookSettingsFontNote">
+    <legend data-settings-copy="font">Шрифт чтения</legend>
+    <div class="book-settings-options">
+      <label class="book-settings-option"><input type="radio" name="book-font" value="sans"><span data-settings-copy="sans">Без засечек</span></label>
+      <label class="book-settings-option"><input type="radio" name="book-font" value="serif"><span data-settings-copy="serif">С засечками</span></label>
+    </div>
+    <p class="book-settings-note" id="bookSettingsFontNote" data-settings-copy="note">Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста.</p>
+  </fieldset>
+  <div class="book-settings-actions"><button class="book-settings-close" id="bookSettingsClose" type="button" data-settings-copy="close">Готово</button></div>
+</dialog>
+<script id="book-reader-settings-script">
+(function () {
+  'use strict';
+  var root = document.documentElement;
+  var dialog = document.getElementById('bookSettingsDialog');
+  var trigger = document.querySelector('#themeButton, #btn-theme');
+  var title = document.getElementById('bookSettingsTitle');
+  var settings = window.BookSettings;
+  if (!dialog || !trigger || !settings) return;
+  var copy = {
+    ru: { title: 'Настройки', theme: 'Тема', dark: 'Тёмная', light: 'Светлая', font: 'Шрифт чтения', sans: 'Без засечек', serif: 'С засечками', note: 'Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста.', close: 'Готово' },
+    en: { title: 'Settings', theme: 'Theme', dark: 'Dark', light: 'Light', font: 'Reading font', sans: 'Sans', serif: 'Serif', note: 'Sans uses Geist Sans. Serif uses Geist Serif for Latin and Source Serif 4 for Russian.', close: 'Done' }
+  };
+  trigger.setAttribute('aria-haspopup', 'dialog');
+  trigger.setAttribute('aria-controls', dialog.id);
+  function update() {
+    var text = copy[root.lang.indexOf('en') === 0 ? 'en' : 'ru'];
+    dialog.querySelectorAll('[data-settings-copy]').forEach(function (node) {
+      node.textContent = text[node.dataset.settingsCopy];
+    });
+    var preferences = settings.get();
+    dialog.querySelectorAll('input').forEach(function (input) {
+      input.checked = input.value === preferences[input.name === 'book-theme' ? 'theme' : 'readingFont'];
+    });
+  }
+  settings.open = function () {
+    update();
+    if (!dialog.open) dialog.showModal();
+    title.focus({ preventScroll: true });
+    dialog.scrollTop = 0;
+  };
+  trigger.addEventListener('click', settings.open);
+  dialog.addEventListener('change', function (event) {
+    var input = event.target;
+    if (input.matches('input[type="radio"]')) settings.set(input.name === 'book-theme' ? 'theme' : 'readingFont', input.value);
+  });
+  dialog.addEventListener('keydown', function (event) {
+    if (event.key !== 'Tab') return;
+    var stops = Array.from(dialog.querySelectorAll('input:checked, button'));
+    var first = stops[0], last = stops[stops.length - 1];
+    if (event.shiftKey && (document.activeElement === first || document.activeElement === title)) {
+      event.preventDefault(); last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault(); first.focus();
+    }
+  });
+  document.getElementById('bookSettingsClose').addEventListener('click', function () { dialog.close(); });
+  dialog.addEventListener('close', function () { trigger.focus({ preventScroll: true }); });
+  dialog.addEventListener('click', function (event) {
+    var rect = dialog.getBoundingClientRect();
+    if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) dialog.close();
+  });
+  document.addEventListener('book-preferences-change', update);
+  new MutationObserver(update).observe(root, { attributes: true, attributeFilter: ['lang'] });
+  update();
+}());
+</script>
+<!-- book-reader-settings:end -->

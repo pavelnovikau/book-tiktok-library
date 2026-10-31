@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'node:fs';
+import { settingsHead, settingsBody, connectSettingsRuntime } from './reader-settings.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -227,6 +228,8 @@ const replacements = {
   '__MODE_COUNTS__': `${counts.essential},${counts.core},${counts.deep}`,
   '__GEIST_WOFF2__': fs.readFileSync(geistPath).toString('base64'),
   '__GEIST_MONO_WOFF2__': fs.readFileSync(geistMonoPath).toString('base64'),
+  '__READER_SETTINGS_HEAD__': settingsHead(),
+  '__READER_SETTINGS__': settingsBody(),
   '__READER_HEADER__': fs.readFileSync(path.join(skillDir, 'assets', 'reader-header.html'), 'utf8'),
   '__BOOK_TIKTOK_DATA__': JSON.stringify(data).replace(/<\//g, '<\\/')
 };
@@ -239,6 +242,7 @@ for (const [placeholder, value] of Object.entries(replacements)) {
 const unresolved = template.match(/__[A-Z0-9_]+__/g);
 if (unresolved) fail(`Unresolved template placeholders: ${[...new Set(unresolved)].join(', ')}`);
 
+template = connectSettingsRuntime(template, outputPath);
 fs.writeFileSync(outputPath, template);
 
 console.log(JSON.stringify({

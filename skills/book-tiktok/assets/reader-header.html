@@ -16,6 +16,7 @@
       var(--space-2, 0.5rem)
       max(var(--space-3, 0.75rem), var(--reader-safe-left));
   }
+  html .library-home header.topbar { padding: 0; }
   html[data-content-mode="narrative"] .source-label { display: none; }
   html .topbar,
   html .topbar-group { gap: var(--space-1, 0.25rem); flex-wrap: nowrap !important; }
@@ -73,21 +74,22 @@
     chapters: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
     language: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18M12 3c-5 5-5 13 0 18"/>',
     sources: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7h.01"/>',
+    settings: '<path d="m9 3-.5 2-1.6 1-2-.5-2 3.5 1.5 1.5v2l-1.5 1.5 2 3.5 2-.5 1.6 1L9 21h6l.5-2 1.6-1 2 .5 2-3.5-1.5-1.5v-2l1.5-1.5-2-3.5-2 .5-1.6-1L15 3Z"/><circle cx="12" cy="12" r="3"/>',
     light: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/>',
     dark: '<path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14z"/>',
     install: '<rect x="6" y="2" width="12" height="20" rx="2"/><path d="M9 10h6M12 7v6M11 18h2"/>'
   };
   var labels = {
-    ru: { home: 'К библиотеке', chapters: 'Главы', language: 'Switch to English', sources: 'Источники', light: 'Светлая тема', dark: 'Тёмная тема', install: 'На экран «Домой»: инструкция' },
-    en: { home: 'Back to library', chapters: 'Chapters', language: 'Переключить на русский', sources: 'Sources', light: 'Light theme', dark: 'Dark theme', install: 'Add to Home Screen: instructions' }
+    ru: { home: 'К библиотеке', chapters: 'Главы', language: 'Switch to English', sources: 'Источники', settings: 'Настройки', light: 'Светлая тема', dark: 'Тёмная тема', install: 'На экран «Домой»: инструкция' },
+    en: { home: 'Back to library', chapters: 'Chapters', language: 'Переключить на русский', sources: 'Sources', settings: 'Settings', light: 'Light theme', dark: 'Dark theme', install: 'Add to Home Screen: instructions' }
   };
   var controls = [
     ['#libraryButton, #btn-library', 'home'],
     ['#contentsButton, #btn-contents', 'chapters'],
     ['#languageButton, #btn-lang', 'language'],
     ['#sourcesButton, #btn-sources', 'sources'],
-    ['#themeButton, #btn-theme', 'theme'],
-    ['#bookLibraryInstallTrigger', 'install']
+    ['#themeButton, #btn-theme', 'settings'],
+    ['#bookLibraryInstallTrigger, #installButton', 'install']
   ];
   var trigger = document.getElementById('bookLibraryInstallTrigger');
   if (trigger) (bar.querySelector('.topbar-group:last-child') || bar).append(trigger);
@@ -97,7 +99,7 @@
     controls.forEach(function (entry) {
       var node = document.querySelector(entry[0]);
       if (!node) return;
-      var name = entry[1] === 'theme' ? (root.dataset.theme === 'dark' ? 'light' : 'dark') : entry[1];
+      var name = entry[1];
       if (!node.querySelector('svg[data-reader-icon="' + name + '"]') || node.textContent.trim()) {
         node.innerHTML = '<svg data-reader-icon="' + name + '" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + paths[name] + '</svg>';
       }

@@ -4,7 +4,7 @@ Research/access date: 2026-10-31. Approved cumulative screens: **36 / 90 / 144**
 
 ## Exact supplied object and reading boundary
 
-Primary object: `/Users/pn/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents/Почему у зебр не бывает инфаркта Психология стресса.epub`. This is an **unpacked EPUB directory**, not a ZIP file. OPF title: «Почему у зебр не бывает инфаркта. Психология стресса»; creator «Сапольски Р.»; publisher «Издательский дом Питер»; ISBN **978-5-4461-1081-0**; OPF publication 2021-01-18, modification 2021-02-01. Do not confuse those file/edition metadata dates with the date of the underlying scientific evidence. The publisher's matching ISBN page describes a 2021 printing. No printed page numbers are asserted.
+Primary object: the user-supplied EPUB directory `Почему у зебр не бывает инфаркта Психология стресса.epub`. It is an **unpacked EPUB directory**, not a ZIP file. OPF title: «Почему у зебр не бывает инфаркта. Психология стресса»; creator «Сапольски Р.»; publisher «Издательский дом Питер»; ISBN **978-5-4461-1081-0**; OPF publication 2021-01-18, modification 2021-02-01. Do not confuse those file/edition metadata dates with the date of the underlying scientific evidence. The publisher's matching ISBN page describes a 2021 printing. No printed page numbers are asserted.
 
 Directory fingerprint SHA-256: `9a4f796da439c564f334fe3f5927e980a1b44641a165296ac46596f0a62188a5` (sorted relative file paths UTF-8, NUL, then each file's bytes, concatenated into the hash). The supplied EPUB is never copied to this repository.
 

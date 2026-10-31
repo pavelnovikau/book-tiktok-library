@@ -17,15 +17,15 @@ Date: 2026-10-31. Status: **PASS**, with evidence boundaries and shell limitatio
 ## Maintained build and deterministic audit
 
 ```sh
-node /Users/pn/.codex/skills/book-tiktok/scripts/build_story.mjs story-data.json --out why-zebras-dont-get-ulcers.html
-node /Users/pn/.codex/skills/book-tiktok/scripts/audit_story_html.mjs why-zebras-dont-get-ulcers.html --min-screens 144 --require-bilingual
+node "$CODEX_SKILLS/book-tiktok/scripts/build_story.mjs" story-data.json --out why-zebras-dont-get-ulcers.html
+node "$CODEX_SKILLS/book-tiktok/scripts/audit_story_html.mjs" why-zebras-dont-get-ulcers.html --min-screens 144 --require-bilingual
 ```
 
 Final audit output (absolute file path as executed):
 
 ```json
 {
-  "file": "/Users/pn/.t3/worktrees/smartcat/t3-96c8e01e/_artifacts/book-tiktok-library/collector-output/why-zebras-dont-get-ulcers/why-zebras-dont-get-ulcers.html",
+  "file": "collector-output/why-zebras-dont-get-ulcers/why-zebras-dont-get-ulcers.html",
   "format": "v2",
   "bytes": 453377,
   "screenCount": 144,

@@ -21,6 +21,13 @@
         "ru": "AI и стратегия",
         "en": "AI and strategy"
       }
+    },
+    {
+      "id": "science-fiction",
+      "label": {
+        "ru": "Научная фантастика",
+        "en": "Science fiction"
+      }
     }
   ],
   "books": [
@@ -113,6 +120,32 @@
         "right": "Nous",
         "leftLabel": "Agent",
         "rightLabel": "Lab"
+      }
+    },
+    {
+      "slug": "akselerando",
+      "file": "akselerando.html",
+      "genre": "science-fiction",
+      "screenCount": 104,
+      "title": {
+        "ru": "Акселерандо",
+        "en": "Accelerando"
+      },
+      "author": {
+        "ru": "Чарльз Стросс",
+        "en": "Charles Stross"
+      },
+      "description": {
+        "ru": "Сингулярность как смена экономики, а не восстание машин: три поколения семьи Макс, загруженные лангусты, Экономика 2.0 и кот, который видел всю доску.",
+        "en": "The singularity as a change of economy, not a machine uprising: three generations of the Macx family, uploaded lobsters, Economics 2.0 and a cat that saw the whole board."
+      },
+      "readingMinutes": {
+        "essential": 11,
+        "core": 26,
+        "deep": 37
+      },
+      "cover": {
+        "type": "typographic"
       }
     }
   ]

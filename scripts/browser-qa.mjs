@@ -13,7 +13,7 @@ const expectedCoverMotifs = catalogue.books.map(book => book.cover.motif).sort()
 const books = catalogue.books.map(book => book.file);
 // Each phase owns a fresh browser/profile and finishes within Chrome's 30s limit.
 // Reader layout, focus, desktop rail and iOS coverage stay independent of discovery.
-const phases = ['discovery', 'readers-320', 'readers-900', 'readers-960', 'focus', 'ios'];
+const phases = ['discovery', 'readers-320', 'readers-900', 'readers-960', 'focus', 'ios', 'safe-area', 'repaired'];
 const phase = process.argv.find(arg => arg.startsWith('--phase='))?.slice(8);
 const outputDir = process.env.BOOK_LIBRARY_QA_DIR || fs.mkdtempSync(path.join(os.tmpdir(), 'book-library-discovery-qa-'));
 if (path.resolve(outputDir) === root || path.resolve(outputDir).startsWith(root + path.sep)) throw new Error('QA artifacts must stay outside the repository');
@@ -212,6 +212,8 @@ if (phase === 'discovery') {
         const layout = await evaluate(`(() => {
           const controls = [...document.querySelectorAll('#typeFilter button, #topicFilter, #searchInput')];
           return {
+            typeWidths: [...document.querySelectorAll('#typeFilter button')].map(node => node.getBoundingClientRect().width),
+            labelsInside: [...document.querySelectorAll('#typeFilter button')].every(node => node.scrollWidth <= node.clientWidth + 1),
             overflow: document.documentElement.scrollWidth - innerWidth,
             firstBookTop: document.querySelector('.book').getBoundingClientRect().top,
             controlsInside: controls.every(node => { const rect = node.getBoundingClientRect(); return rect.left >= -1 && rect.right <= innerWidth + 1 && rect.height >= 44; }),
@@ -224,6 +226,7 @@ if (phase === 'discovery') {
             administrative: /Сыну|For my son|Без подборки|No collection|14[+]/.test(document.body.innerText)
           };
         })()`);
+        assert(Math.max(...layout.typeWidths) - Math.min(...layout.typeWidths) <= 1 && layout.labelsInside, `${width}/${language}/${theme}: type tabs unequal or labels overflowing`);
         assert(layout.overflow <= 1, `${width}/${language}/${theme}: homepage overflow ${layout.overflow}px`);
         assert(layout.controlsInside && layout.types.join(',') === 'all,fiction,nonfiction', `${width}/${language}/${theme}: discovery controls clipped/missing`);
         assert(layout.language === language && layout.theme === theme, 'homepage: language/theme did not change');
@@ -576,6 +579,122 @@ if (phase === 'ios') {
   assert(!standaloneInstall.dialog, 'install guide opened in standalone mode');
 
   summary = { desktopFocusAndRail: 'passed', iosInstallGuide: 'browser and standalone modes passed', physicalIPhone: false };
+}
+
+if (phase === 'repaired') {
+  const revised = ['the-art-of-war.html', 'essentialism.html', 'skin-in-the-game.html'];
+  let rendered = 0;
+  const checks = [];
+  for (const book of revised) {
+    const slug = book.slice(0, -5);
+    await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
+    await evaluate(`localStorage.setItem('book-tiktok.${slug}.lastScreen', 'removed-old-screen'); localStorage.setItem('book-tiktok.${slug}.mode', 'deep')`);
+    await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
+    assert(await evaluate(`!document.querySelector('[data-start="continue"]') && document.querySelector('.cover-layout')`), `${book}: stale saved ID did not safely fall back to cover`);
+    await evaluate(`document.fonts.ready.then(() => true)`);
+    for (const width of [320, 390, 1024, 1440]) {
+      await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : width < 900 ? 844 : 900, deviceScaleFactor: 1, mobile: width < 900 });
+      const result = await evaluate(`(async () => {
+        const style = document.createElement('style'); style.textContent = '.story-slide { animation: none !important; }'; document.head.append(style);
+        const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
+        const failures = []; let count = 0;
+        for (const language of ['ru', 'en']) {
+          if (document.documentElement.lang !== language) languageButton.click();
+          for (const theme of ['dark', 'light']) {
+            if (document.documentElement.dataset.theme !== theme) themeButton.click();
+            for (const [mode, level] of [['essential', 1], ['core', 2], ['deep', 3]]) {
+              document.querySelector('[data-mode="' + mode + '"]').click();
+              const visible = data.screens.filter(s => s.level <= level);
+              const contents = [...document.querySelectorAll('#contentsList [data-go-to]')];
+              if (contents.length !== data.targetModes[mode]) failures.push(mode + ' count');
+              for (const screen of visible) {
+                document.querySelector('#contentsList [data-go-to="' + screen.id + '"]').click();
+                const scroller = document.querySelector('.slide-scroll');
+                if (document.querySelector('#story h1').textContent !== screen.copy[language].title) failures.push(screen.id + ' title');
+                if (scroller.scrollWidth > scroller.clientWidth + 1 || document.documentElement.scrollWidth > innerWidth + 1) failures.push(screen.id + ' overflow');
+                count++;
+              }
+            }
+            sourcesButton.click(); if (!sourcesDialog.open || !sourcesList.textContent.trim() || !methodNote.textContent.trim()) failures.push('global sources'); sourcesDialog.close();
+          }
+        }
+        // A retained saved ID resumes the corresponding rewritten screen.
+        const remembered = data.screens[1]; localStorage.setItem('book-tiktok.' + data.slug + '.lastScreen', remembered.id);
+        document.querySelector('#contentsList [data-go-to="cover"]').click();
+        document.querySelector('[data-start="continue"]').click();
+        if (document.querySelector('#story h1').textContent !== remembered.copy[document.documentElement.lang].title) failures.push('retained resume');
+        style.remove(); return { count, failures, counts: data.targetModes };
+      })()`);
+      assert(!result.failures.length, `${book}/${width}: ${result.failures.join(', ')}`);
+      rendered += result.count; checks.push({ book, width, ...result });
+      const capture = await command('Page.captureScreenshot', { format: 'png' });
+      fs.writeFileSync(path.join(outputDir, `${slug}-${width}.png`), Buffer.from(capture.data, 'base64'));
+    }
+  }
+  for (const presentation of ['narrative', 'explanatory']) {
+    const example = JSON.parse(fs.readFileSync(path.join(root, 'skills/book-tiktok/assets/story-data.example.json'), 'utf8'));
+    example.contentMode = presentation; example.slug = 'qa-' + presentation;
+    const dataPath = path.join(outputDir, presentation + '.json'); const htmlPath = path.join(outputDir, presentation + '.html');
+    fs.writeFileSync(dataPath, JSON.stringify(example));
+    const build = spawnSync(process.execPath, [path.join(root, 'skills/book-tiktok/scripts/build_story.mjs'), dataPath, '--out', htmlPath], { encoding: 'utf8' });
+    assert(build.status === 0, build.stderr);
+    await command('Page.navigate', { url: 'file://' + htmlPath });
+    await waitFor(() => evaluate(`location.protocol === 'file:' && document.querySelector('[data-start]')`), 'presentation fixture');
+    const result = await evaluate(`(() => { document.querySelector('[data-start]').click(); sourcesButton.click(); return { labels: document.querySelectorAll('.source-label').length, sources: sourcesDialog.open && sourcesList.textContent.trim().length > 0, mapped: JSON.parse(document.getElementById('book-tiktok-data').textContent).screens[1].sources.length > 0 }; })()`);
+    assert(result.sources && result.mapped && result.labels === (presentation === 'narrative' ? 0 : 1), `${presentation}: source presentation regression`);
+  }
+  summary = { readers: revised, rendered, checks, sourcePresentation: 'narrative/explanatory fixtures passed; embedded maps and global Sources preserved', savedProgress: 'removed and retained IDs passed' };
+}
+
+if (phase === 'safe-area') {
+  await command('Network.setUserAgentOverride', { userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1' });
+  await command('Page.addScriptToEvaluateOnNewDocument', { source: "Object.defineProperty(navigator, 'standalone', { configurable: true, get: () => true });" });
+  // Override the engine's environment insets, rather than just changing header
+  // padding: this exercises the production env() path in normal and focus modes.
+  await command('Emulation.setSafeAreaInsetsOverride', { insets: { top: 59, bottom: 34, left: 0, right: 0 } });
+  const checks = [];
+  for (const width of [320, 390]) {
+    await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : 844, deviceScaleFactor: 1, mobile: true });
+    for (const book of books) {
+      await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
+      await evaluate(`document.documentElement.removeAttribute('data-focus-mode'); document.querySelector('[data-start], [data-action="start"]')?.click()`);
+      const geometry = () => evaluate(`(() => {
+        const nodes = [...document.querySelectorAll('.topbar a, .topbar button')].filter(n => n.getBoundingClientRect().height > 0);
+        const boxes = nodes.map(n => n.getBoundingClientRect());
+        const next = document.querySelector('#nextButton, #btn-next').getBoundingClientRect();
+        const header = document.querySelector('.app-header, header.topbar').getBoundingClientRect();
+        return {
+          top: Math.min(...boxes.map(r => r.top)),
+          oneRow: Math.max(...boxes.map(r => r.top)) - Math.min(...boxes.map(r => r.top)) <= 1,
+          reachable: nodes.every(n => { const r = n.getBoundingClientRect(); const hit = document.elementFromPoint(r.x + r.width / 2, r.y + r.height / 2); return r.left >= 0 && r.right <= innerWidth + 1 && hit && n.contains(hit); }),
+          iconsOnly: nodes.every(n => !n.textContent.trim() && n.querySelector('svg[data-reader-icon]') && n.getAttribute('aria-label')),
+          nextBottom: next.bottom, headerTop: header.top, scrollY,
+          installHidden: getComputedStyle(document.getElementById('bookLibraryInstallTrigger')).display === 'none',
+          focus: document.documentElement.dataset.focusMode === 'true',
+          previousHidden: getComputedStyle(document.querySelector('#previousButton, #btn-back')).display === 'none',
+          counterHidden: getComputedStyle(document.querySelector('#counter, .nav-position, .counter')).display === 'none'
+        };
+      })()`);
+      const normal = await geometry();
+      assert(normal.top >= 59 && normal.oneRow && normal.reachable && normal.iconsOnly, `${book}/${width}: icon row is under status area, split or unreachable: ${JSON.stringify(normal)}`);
+      assert(normal.installHidden && normal.nextBottom <= (width === 320 ? 568 : 844) - 34 + 1, `${book}/${width}: standalone/safe bottom geometry failed`);
+      await evaluate(`document.querySelectorAll('.slide-scroll, .scroll').forEach(n => n.scrollTop = n.scrollHeight); window.scrollTo(0, 9999)`);
+      const scrolled = await geometry();
+      assert(scrolled.top === normal.top && scrolled.reachable && scrolled.headerTop === normal.headerTop, `${book}/${width}: reading scroll displaced header`);
+      await evaluate(`document.documentElement.setAttribute('data-focus-mode', 'true')`);
+      const focus = await geometry();
+      assert(focus.previousHidden && focus.counterHidden && focus.nextBottom <= (width === 320 ? 568 : 844) - 34 + 1, `${book}/${width}: focus geometry failed`);
+      await evaluate(`document.documentElement.removeAttribute('data-focus-mode')`);
+      const restored = await geometry();
+      assert(restored.top === normal.top && restored.reachable, `${book}/${width}: focus exit lost header`);
+      checks.push({ book, width, normal, scrolled, restored, focus });
+      if (book === 'the-lost-world.html') {
+        const capture = await command('Page.captureScreenshot', { format: 'png' });
+        fs.writeFileSync(path.join(outputDir, `safe-area-${width}.png`), Buffer.from(capture.data, 'base64'));
+      }
+    }
+  }
+  summary = { readers: books.length, safeArea: 'engine env() override top=59 bottom=34', checks, physicalIPhone: false };
 }
 
 assert(runtimeErrors.length === 0, `browser errors: ${runtimeErrors.join(' | ')}`);

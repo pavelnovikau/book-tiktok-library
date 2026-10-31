@@ -1,7 +1,22 @@
 <!-- book-reader-header:start -->
 <style id="book-reader-header-style">
-  :root { --header-icon-size: 18px; --header-control-size: 36px; }
-  html .app-header { padding: var(--space-2, 0.5rem) var(--space-3, 0.75rem); }
+  :root {
+    --header-icon-size: 18px;
+    --header-control-size: 36px;
+    --reader-safe-top: env(safe-area-inset-top, 0px);
+    --reader-safe-right: env(safe-area-inset-right, 0px);
+    --reader-safe-left: env(safe-area-inset-left, 0px);
+  }
+  /* black-translucent iOS standalone overlays the viewport. Reserve its inset
+     above the same compact row; otherwise all icons can sit under the status bar. */
+  html .app-header,
+  html header.topbar {
+    padding: calc(var(--space-2, 0.5rem) + var(--reader-safe-top))
+      max(var(--space-3, 0.75rem), var(--reader-safe-right))
+      var(--space-2, 0.5rem)
+      max(var(--space-3, 0.75rem), var(--reader-safe-left));
+  }
+  html[data-content-mode="narrative"] .source-label { display: none; }
   html .topbar,
   html .topbar-group { gap: var(--space-1, 0.25rem); flex-wrap: nowrap !important; }
   html .topbar button,
@@ -46,6 +61,13 @@
   var root = document.documentElement;
   var bar = document.querySelector('.topbar');
   if (!bar) return;
+  var embedded = document.getElementById('book-tiktok-data');
+  if (embedded) {
+    try {
+      var mode = JSON.parse(embedded.textContent).contentMode;
+      if (mode === 'narrative' || mode === 'explanatory') root.dataset.contentMode = mode;
+    } catch (_) {} // Legacy readers keep their existing presentation.
+  }
   var paths = {
     home: '<path d="M3 10 12 3l9 7v10H15v-6H9v6H3z"/>',
     chapters: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',

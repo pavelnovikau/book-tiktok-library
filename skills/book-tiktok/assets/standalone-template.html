@@ -1300,6 +1300,7 @@
       }
 
       function sourceLabel(screen) {
+        if (data.contentMode === 'narrative') return '';
         const claimLabel = text().claimTypes[screen.claimType] || text().claimTypes.book;
         const sourceButton = screen.sources && screen.sources.length
           ? ` · <button type="button" data-open-sources>${escapeHtml(text().sourcePrefix)}: ${screen.sources.join(', ')}</button>`

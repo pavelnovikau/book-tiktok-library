@@ -1,0 +1,45 @@
+{
+  "slug": "essentialism",
+  "status": "ready-for-independent-check",
+  "contentMode": "explanatory",
+  "counts": {
+    "essential": 18,
+    "core": 28,
+    "deep": 36
+  },
+  "reviewedPairs": {
+    "previousAuthoring": 112,
+    "previousPublished": 112,
+    "revised": 36
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/essentialism.md",
+  "sourceScope": "The supplied expanded EPUB includes publication metadata, all twenty chapters, four part introductions, leadership appendix and notes; it is a full edition, not a summary. Read the opening Trisha/hospital narratives, the complete four-part argument outline, choice/unequal-returns/trade-off conclusions, Explore section argument and journalism example, selection rules including explicit opportunity-risk qualification, intent/refusal/uncommit/edit/boundary passages, execution constraints example and procedures, routine/presence conclusions and leadership appendix passages. Reading was continuous within those sections and targeted elsewhere; not every historical anecdote or paragraph of the edition was read. Exact per-screen file/section locators accompany the new copy.",
+  "exactChanges": "Rebuilt all 36 bilingual pairs into connected, shorter prose (18 Essential / 28 Core / 36 Deep). Replaced administrative titles with readable ideas/cases, removed independent-study detours and all writer-created exercises, kept concrete author cases and actual procedures. Preserved the four-burner qualification, the risk that a better opportunity never comes, unfinished digital-access goal, reverse pilot, four editing moves, Herbie’s fictional origin, leadership appendix and family-centered conclusion. Default changed to Essential; contentMode is explanatory. Two sources remain because only the edition and its publisher identity support the delivered account; old six-source quota has no role.",
+  "unresolvedIssues": [
+    "This is a checked condensation of the represented main argument, not exhaustive coverage of every case or independent validation of Essentialism. Full EPUB and extracts are private outside the repository. Physical iPhone/PWA behavior and stale saved-ID migration require publisher regression checks.",
+    "Publisher integration and shared regression checks pending."
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/essentialism/story-data.json",
+      "sha256": "c5e40ef52d1a842dfb219ea23d7ba869cbad2063480342ee025dfeee9c24863a"
+    },
+    {
+      "path": "collector-output/essentialism/essentialism.html",
+      "sha256": "504e1848d9d1123c1e1e878170905ef640bb9c77ec6363e1ff3c8e641d41da17"
+    },
+    {
+      "path": "collector-output/essentialism/sources.md",
+      "sha256": "e36d75d62de56fcf102c16b869c1875d1b43a6e1f6635fae87be2661907f56b2"
+    },
+    {
+      "path": "collector-output/essentialism/QA.md",
+      "sha256": "4828f57587a9f66f7cc9c656f3d31e9494b21c99ee984aa2361eaaf216ba0e27"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/essentialism.md",
+      "sha256": "22a6cf6a639df2f382ee2732bfbd50b7cd991296215d3494e4a4c9534fbc42bc"
+    }
+  ],
+  "localBrowserChecks": 984
+}

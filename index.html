@@ -241,7 +241,7 @@
 
     .search input::placeholder { color: var(--color-text-faint); }
     .filter-summary { color: var(--color-text-muted); font-family: var(--font-mono); font-size: var(--text-xs); }
-    .type-filter { display: grid; grid-template-columns: auto minmax(0, 1.5fr) minmax(0, 1fr); gap: var(--space-1); }
+    .type-filter { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--space-1); }
 
     .filter-button {
       min-width: 0;
@@ -255,6 +255,7 @@
       line-height: 1.2;
       cursor: pointer;
     }
+    .type-filter .filter-button { overflow-wrap: anywhere; white-space: normal; hyphens: auto; }
     .filter-button__count { margin-inline-start: var(--space-2); font-family: var(--font-mono); font-size: var(--text-xs); }
 
     .filter-button:hover { color: var(--color-text); border-color: var(--color-border-strong); background: var(--color-surface); }
@@ -410,6 +411,8 @@
       .control { padding-inline: var(--space-2); }
       .hero h1 { font-size: var(--text-2xl); }
       .filter-button { padding-inline: var(--space-2); font-size: var(--text-xs); }
+      .discovery { row-gap: var(--space-2); }
+      .type-filter .filter-button { padding-inline: var(--space-1); }
       .filter-button__count { display: block; margin: var(--space-1) 0 0; color: var(--color-text-muted); }
       .shelf__head { grid-template-columns: 1fr; gap: var(--space-2); }
       .cover { min-height: 12rem; }

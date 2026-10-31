@@ -20,3 +20,5 @@ jobs:
           node-version: 22
       - name: Validate catalogue and books
         run: npm run check
+      - name: Build public allowlist
+        run: npm run build:site

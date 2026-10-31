@@ -1,0 +1,49 @@
+{
+  "slug": "the-art-of-war",
+  "status": "ready-for-independent-check",
+  "workerGroup": 10,
+  "verdict": "REBUILD",
+  "reportPath": "editorial-audit/2026-10-31/books/the-art-of-war.md",
+  "reviewedPairs": {
+    "old": 70,
+    "new": 36,
+    "published": 70,
+    "authoring": 70,
+    "uniqueOldPairs": 70
+  },
+  "counts": {
+    "essential": 15,
+    "core": 30,
+    "deep": 36
+  },
+  "contentMode": "explanatory",
+  "sourceScope": "Complete continuous reading of Giles 1910 thirteen-chapter base text, Gutenberg #17405; no claim of Chinese/manuscript or all-commentary verification.",
+  "changes": [
+    "Replaced analytic companion with connected account of all thirteen chapters",
+    "Removed compiler frameworks and modern workplace examples",
+    "Restored literal military examples, coercion, deception and final intelligence argument",
+    "Changed nested counts and default mode"
+  ],
+  "unresolvedIssues": [
+    "Independent publisher editorial check pending",
+    "Publisher root/catalogue/count/time/progress integration required"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/the-art-of-war/story-data.json",
+      "sha256": "16448774784980b4be47de9bc2469bf0a4a8a93eecdcb71ddb5fc1f3d54818ba"
+    },
+    {
+      "path": "collector-output/the-art-of-war/the-art-of-war.html",
+      "sha256": "f727286a6e48a956781e489aabbb3c92e2b8b4fa3c4618a45d091eeec1bf3140"
+    },
+    {
+      "path": "collector-output/the-art-of-war/sources.md",
+      "sha256": "8e0462005196e02f2e580fd4f90923049aa32b2e00f858c23fa5d2bcf584a3e8"
+    },
+    {
+      "path": "collector-output/the-art-of-war/QA.md",
+      "sha256": "9262bdbe316210120d07501ac395d9a8e587d6d6eee11371574cb0807f23ba51"
+    }
+  ]
+}

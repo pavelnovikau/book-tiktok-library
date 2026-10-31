@@ -173,6 +173,7 @@ let words = null;
 
 if (data) {
   check('v2 schema version', data.schemaVersion === 2, String(data.schemaVersion));
+  check('optional content presentation mode', data.contentMode === undefined || ['narrative', 'explanatory'].includes(data.contentMode), String(data.contentMode || 'legacy'));
   check('valid slug', typeof data.slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(data.slug), String(data.slug));
   check('screens array', Array.isArray(data.screens));
   check('sources array', Array.isArray(data.sources));
@@ -190,9 +191,9 @@ if (data) {
   }, { 1: 0, 2: 0, 3: 0 });
   modes = { essential: levels[1], core: levels[1] + levels[2], deep: screenCount };
   check('all screen levels valid', levels[1] + levels[2] + levels[3] === screenCount);
-  check('user-approved target modes present', data.targetModes && ['essential', 'core', 'deep'].every((mode) => Number.isInteger(data.targetModes[mode]) && data.targetModes[mode] > 0));
+  check('exact target modes present', data.targetModes && ['essential', 'core', 'deep'].every((mode) => Number.isInteger(data.targetModes[mode]) && data.targetModes[mode] > 0));
   if (data.targetModes) {
-    check('corpus matches user-approved target modes', data.targetModes.essential === modes.essential && data.targetModes.core === modes.core && data.targetModes.deep === modes.deep, `${data.targetModes.essential}/${data.targetModes.core}/${data.targetModes.deep} target vs ${modes.essential}/${modes.core}/${modes.deep} data`);
+    check('corpus matches exact target modes', data.targetModes.essential === modes.essential && data.targetModes.core === modes.core && data.targetModes.deep === modes.deep, `${data.targetModes.essential}/${data.targetModes.core}/${data.targetModes.deep} target vs ${modes.essential}/${modes.core}/${modes.deep} data`);
   }
   check('one first cover', screens.filter((screen) => screen.type === 'cover').length === 1 && screens[0]?.type === 'cover' && screens[0]?.level === 1);
   check('one last final', screens.filter((screen) => screen.final).length === 1 && screens.at(-1)?.final === true && screens.at(-1)?.level === 1);

@@ -83,7 +83,8 @@ requireLocalized(data.description, 'description');
 
 data.defaultLanguage ||= 'ru';
 data.defaultTheme ||= 'dark';
-data.defaultMode ||= 'deep';
+data.defaultMode ||= 'essential';
+if (data.contentMode !== undefined && !['narrative', 'explanatory'].includes(data.contentMode)) fail('contentMode must be narrative or explanatory when supplied');
 if (!['ru', 'en'].includes(data.defaultLanguage)) fail('defaultLanguage must be ru or en');
 if (!['light', 'dark'].includes(data.defaultTheme)) fail('defaultTheme must be light or dark');
 if (!['essential', 'core', 'deep'].includes(data.defaultMode)) fail('defaultMode must be essential, core, or deep');
@@ -168,7 +169,7 @@ const modeDefinitions = {
 };
 
 if (!data.targetModes || typeof data.targetModes !== 'object') {
-  fail('targetModes is required and must record the user-approved cumulative counts');
+  fail('targetModes is required and must record the exact cumulative counts derived from the finished content');
 }
 for (const mode of Object.keys(modeDefinitions)) {
   if (!Number.isInteger(data.targetModes[mode]) || data.targetModes[mode] < 1) {
@@ -210,7 +211,7 @@ if (!(counts.essential < counts.core && counts.core < counts.deep)) {
 }
 
 if (counts.essential !== data.targetModes.essential || counts.core !== data.targetModes.core || counts.deep !== data.targetModes.deep) {
-  fail(`Corpus does not match user-approved targetModes: expected ${data.targetModes.essential}/${data.targetModes.core}/${data.targetModes.deep}, got ${counts.essential}/${counts.core}/${counts.deep}`);
+  fail(`Corpus does not match exact targetModes: expected ${data.targetModes.essential}/${data.targetModes.core}/${data.targetModes.deep}, got ${counts.essential}/${counts.core}/${counts.deep}`);
 }
 
 if (data.methodNote) requireLocalized(data.methodNote, 'methodNote');

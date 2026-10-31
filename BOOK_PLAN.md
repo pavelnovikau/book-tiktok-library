@@ -23,9 +23,9 @@ The active expansion queue contains 25 books. All counts are cumulative `Essenti
 | Health and protocols | Moshe Feldenkrais — *The Potent Self* | 36 / 90 / 144 | Practices | Distinct complete English edition is lawfully borrowable through Open Library; full-text build requires an active loan or a supplied purchased EPUB |
 | Systems and work | Jake Knapp & John Zeratsky — *Make Time* | 30 / 72 / 112 | Practices | Full lawful EPUB supplied by maintainer |
 | Fiction and adventure | Robert Louis Stevenson — *Treasure Island* | 24 / 60 / 96 | For my son · 14+ | Public-domain text; no ending in Essential, full plot only in Deep |
-| Fiction and adventure | Arthur Conan Doyle — *The Lost World* | 24 / 60 / 96 | For my son · 14+ | Public-domain text; no ending in Essential, full plot only in Deep |
-| Fiction and adventure | J. R. R. Tolkien — *The Hobbit* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
-| Fiction and adventure | Ursula K. Le Guin — *A Wizard of Earthsea* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
+| Fiction and adventure | Arthur Conan Doyle — *The Lost World* | 36 / 90 / 144 | For my son · 14+ | Public-domain text; no ending in Essential, full plot only in Deep |
+| Fiction and adventure | J. R. R. Tolkien — *The Hobbit* | 36 / 90 / 144 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
+| Fiction and adventure | Ursula K. Le Guin — *A Wizard of Earthsea* | 36 / 90 / 144 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
 | Fiction and adventure | Terry Pratchett — *The Wee Free Men* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
 | Fiction and adventure | Douglas Adams — *The Hitchhiker’s Guide to the Galaxy* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
 | Fiction and adventure | Andy Weir — *Project Hail Mary* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |

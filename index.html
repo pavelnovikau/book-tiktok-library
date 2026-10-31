@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -740,6 +740,12 @@
             '<path class="art-bold" d="M249 34 C238 54 225 68 230 91 C234 112 252 122 258 148 M249 34 C259 56 274 68 284 91"/>' +
             '<circle class="art-fill" cx="249" cy="34" r="7"/><circle class="art-fill" cx="230" cy="91" r="6"/><circle class="art-fill" cx="258" cy="148" r="7"/><circle class="art-fill-soft" cx="238" cy="104" r="24"/>' +
             '<path class="art-line" d="M202 72 C219 68 237 72 249 84 M270 148 C259 137 247 128 238 104"/>';
+        } else if (motif === 'archipelago') {
+          content = '<path class="art-fill-soft" d="M150 128 C161 115 180 114 190 126 C198 136 186 148 166 149 C149 149 141 139 150 128 Z M205 82 C216 68 239 66 250 79 C258 89 247 102 228 103 C209 104 196 94 205 82 Z M264 38 C275 27 296 29 302 42 C307 53 294 61 278 58 C263 56 255 47 264 38 Z"/>' +
+            '<path class="art-quiet" d="M139 132 C153 109 183 106 198 124 C210 139 190 157 160 156 M195 86 C210 61 244 58 260 78 C273 95 252 112 220 110 M255 42 C268 21 300 23 311 44"/>' +
+            '<path class="art-bold" d="M154 136 C178 120 191 105 214 91 C237 77 257 61 282 45"/>' +
+            '<circle class="art-fill" cx="154" cy="136" r="6"/><circle class="art-fill" cx="214" cy="91" r="6"/><circle class="art-fill" cx="282" cy="45" r="7"/>' +
+            '<path class="art-line" d="M221 135 C233 120 249 115 267 122 C278 127 286 137 293 150"/>';
         } else {
           content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +

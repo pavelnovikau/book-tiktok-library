@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -668,7 +668,12 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'convex-response') {
+        if (motif === 'latitude-search') {
+          content = '<ellipse class="art-quiet" cx="220" cy="90" rx="82" ry="61"/><ellipse class="art-quiet" cx="220" cy="90" rx="34" ry="61"/>' +
+            '<path class="art-quiet" d="M149 60 H291 M138 90 H302 M155 127 H285 M220 29 V151"/>' +
+            '<path class="art-bold" d="M143 112 H297"/><path class="art-line" d="M166 105 V119 M220 105 V119 M274 105 V119"/>' +
+            '<circle class="art-fill" cx="166" cy="112" r="5"/><circle class="art-fill" cx="220" cy="112" r="5"/><circle class="art-fill" cx="274" cy="112" r="5"/>';
+        } else if (motif === 'convex-response') {
           content = '<path class="art-quiet" d="M133 35 V147 H302 M143 139 L294 38 M219 88 V121"/>' +
             '<path class="art-bold" d="M143 139 C199 139 249 102 294 38"/>' +
             '<path class="art-line" d="M212 90 H226 M212 120 H226"/><rect class="art-fill" x="289" y="33" width="10" height="10" rx="2"/>';

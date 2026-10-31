@@ -1,4 +1,4 @@
-const CACHE_NAME = 'book-tiktok-library-v2-20261031-cyan';
+const CACHE_NAME = 'book-tiktok-library-v3-live-catalogue';
 const CORE = [
   './',
   './index.html',
@@ -26,7 +26,7 @@ self.addEventListener('activate', event => {
 async function networkFirst(request, fallbackToIndex) {
   const cache = await caches.open(CACHE_NAME);
   try {
-    const response = await fetch(request);
+    const response = await fetch(request, { cache: 'no-store' });
     if (response.ok) await cache.put(request, response.clone());
     return response;
   } catch (_) {

@@ -194,7 +194,7 @@ if (!fs.existsSync(indexPath)) {
   fail('index.html is missing');
 } else {
   const indexHtml = fs.readFileSync(indexPath, 'utf8');
-  if (!indexHtml.includes("fetch('./books.json'")) fail('index.html must load books.json');
+  if (!indexHtml.includes("fetch('./books.json', { cache: 'no-store' })")) fail('index.html must load books.json without an HTTP-cache shortcut');
   if (!indexHtml.includes('id="sectionFilter"')) fail('index.html is missing the section filter');
   if (!indexHtml.includes('id="collectionFilter"')) fail('index.html is missing the collection filter');
   if (!indexHtml.includes('id="collectionSummary"')) fail('index.html is missing the collection coverage summary');
@@ -207,12 +207,24 @@ if (!fs.existsSync(indexPath)) {
     fail('index.html is missing automatic counters');
   }
   if (!/<link\s+rel=["']manifest["']\s+href=["']\.\/manifest\.webmanifest["']/i.test(indexHtml)) fail('index.html is missing the web app manifest');
-  if (!indexHtml.includes("navigator.serviceWorker.register('./sw.js')")) fail('index.html is missing service-worker registration');
+  if (!indexHtml.includes("navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })")) fail('index.html must bypass the HTTP cache when checking for a service-worker update');
 }
 
 for (const filename of ['manifest.webmanifest', 'sw.js', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png']) {
   if (!fs.existsSync(path.join(root, filename))) fail(`${filename} is missing`);
 }
+
+const serviceWorker = fs.readFileSync(path.join(root, 'sw.js'), 'utf8');
+if (!serviceWorker.includes("fetch(request, { cache: 'no-store' })")) fail('sw.js must perform network-first catalogue/navigation requests without an HTTP-cache shortcut');
+
+const vercelConfig = readJson('vercel.json');
+const headerRules = new Map((vercelConfig.headers || []).map(rule => [rule.source, rule.headers || []]));
+function headerValue(source, key) {
+  return (headerRules.get(source) || []).find(header => header.key.toLowerCase() === key.toLowerCase())?.value || '';
+}
+if (!headerValue('/books.json', 'Cache-Control').includes('no-store')) fail('vercel.json must serve books.json with no-store');
+if (!headerValue('/sw.js', 'Cache-Control').includes('must-revalidate')) fail('vercel.json must revalidate sw.js');
+if (!headerValue('/', 'Cache-Control').includes('must-revalidate')) fail('vercel.json must revalidate the catalogue shell');
 
 const skillRoot = path.join(root, 'skills', 'book-tiktok');
 const skillFiles = [

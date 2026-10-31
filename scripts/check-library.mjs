@@ -83,8 +83,11 @@ for (const [index, collection] of (catalogue?.collections || []).entries()) {
 
 const bookSlugs = new Set();
 const bookFiles = new Set();
+const bookCoverMotifs = new Set();
 let totalScreens = 0;
 const allowedCoverTypes = new Set(['year', 'constraint', 'split', 'typographic']);
+const allowedCoverMotifs = new Set(['balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration']);
+const allowedCoverTones = new Set(['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'magenta']);
 const allowedAudiences = new Set(['general', 'teen-14-plus', 'adult']);
 const allowedSpoilerPolicies = new Set(['not-applicable', 'spoiler-free', 'full-plot-in-deep']);
 
@@ -145,7 +148,13 @@ for (const [index, book] of (catalogue?.books || []).entries()) {
   }
 
   if (!isObject(book.cover)) fail(`${label}.cover must be an object`);
-  else if (!allowedCoverTypes.has(book.cover.type)) fail(`${label}.cover.type must be one of ${[...allowedCoverTypes].join(', ')}`);
+  else {
+    if (!allowedCoverTypes.has(book.cover.type)) fail(`${label}.cover.type must be one of ${[...allowedCoverTypes].join(', ')}`);
+    if (!allowedCoverMotifs.has(book.cover.motif)) fail(`${label}.cover.motif must be one of ${[...allowedCoverMotifs].join(', ')}`);
+    if (bookCoverMotifs.has(book.cover.motif)) fail(`${label}.cover.motif must be unique in the catalogue: ${book.cover.motif}`);
+    bookCoverMotifs.add(book.cover.motif);
+    if (!allowedCoverTones.has(book.cover.tone)) fail(`${label}.cover.tone must be one of ${[...allowedCoverTones].join(', ')}`);
+  }
 
   const filePath = path.join(root, book.file || '');
   if (!fs.existsSync(filePath)) {
@@ -191,6 +200,9 @@ if (!fs.existsSync(indexPath)) {
   if (!indexHtml.includes('id="collectionSummary"')) fail('index.html is missing the collection coverage summary');
   if (!indexHtml.includes("id === 'unassigned'")) fail('index.html is missing the unassigned-books collection filter');
   if (!indexHtml.includes('id="searchInput"')) fail('index.html is missing catalogue search');
+  if (!indexHtml.includes('function coverArtwork(book)') || !indexHtml.includes('data-cover-motif')) {
+    fail('index.html is missing semantic SVG cover artwork');
+  }
   if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"') || !indexHtml.includes('id="sectionStat"')) {
     fail('index.html is missing automatic counters');
   }

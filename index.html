@@ -323,14 +323,57 @@
     }
 
     .book:hover { transform: translateY(-4px); border-color: var(--color-border-strong); box-shadow: 0 1.5rem 3.5rem -2rem var(--color-shadow); }
-    .cover { position: relative; display: flex; flex-direction: column; justify-content: space-between; min-height: 14rem; padding: var(--space-6); overflow: hidden; border-bottom: 1px solid var(--color-border); background: var(--color-surface-strong); }
-    .cover::after { content: ""; position: absolute; right: -12%; bottom: -45%; width: 70%; aspect-ratio: 1; border: 1px solid currentColor; border-radius: 50%; opacity: 0.16; }
-    .cover--year { background: #53613c; color: #fffcf0; }
-    .cover--constraint { background: #282726; color: #f2f0e5; }
-    :root[data-theme="dark"] .cover--constraint { background: #e6e4d9; color: #100f0f; }
-    .cover--split { background: var(--color-surface); }
-    .cover__meta { position: relative; z-index: 1; display: flex; justify-content: space-between; gap: var(--space-3); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.72; }
-    .cover strong { position: relative; z-index: 1; max-width: 12ch; font-size: clamp(2rem, 4vw, 4rem); font-weight: 640; line-height: 0.93; letter-spacing: -0.055em; overflow-wrap: anywhere; }
+    .cover {
+      --cover-bg: #e6e4d9;
+      --cover-ink: #100f0f;
+      --cover-accent: #24837b;
+      position: relative;
+      isolation: isolate;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 14rem;
+      padding: var(--space-6);
+      overflow: hidden;
+      border-bottom: 1px solid var(--color-border);
+      background: var(--cover-bg);
+      color: var(--cover-ink);
+    }
+    .cover__art { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+    .cover__art svg { display: block; width: 100%; height: 100%; }
+    .cover__art .art-line,
+    .cover__art .art-quiet,
+    .cover__art .art-bold {
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .cover__art .art-line { stroke: var(--cover-accent); stroke-width: 2.4; }
+    .cover__art .art-bold { stroke: var(--cover-accent); stroke-width: 5; }
+    .cover__art .art-quiet { stroke: currentColor; stroke-width: 1.4; opacity: 0.2; }
+    .cover__art .art-fill { fill: var(--cover-accent); }
+    .cover__art .art-fill-soft { fill: var(--cover-accent); opacity: 0.18; }
+    .cover__art .art-ink-soft { fill: currentColor; opacity: 0.12; }
+
+    .cover--tone-red { --cover-bg: #ffe1d5; --cover-accent: #af3029; }
+    .cover--tone-orange { --cover-bg: #ffe7ce; --cover-accent: #bc5215; }
+    .cover--tone-yellow { --cover-bg: #faeec6; --cover-accent: #ad8301; }
+    .cover--tone-green { --cover-bg: #edeecf; --cover-accent: #66800b; }
+    .cover--tone-cyan { --cover-bg: #ddf1e4; --cover-accent: #24837b; }
+    .cover--tone-blue { --cover-bg: #e1eceb; --cover-accent: #205ea6; }
+    .cover--tone-magenta { --cover-bg: #fee4e5; --cover-accent: #a02f6f; }
+    :root[data-theme="dark"] .cover { --cover-bg: #1c1b1a; --cover-ink: #e6e4d9; --cover-accent: #3aa99f; }
+    :root[data-theme="dark"] .cover--tone-red { --cover-bg: #261312; --cover-accent: #d14d41; }
+    :root[data-theme="dark"] .cover--tone-orange { --cover-bg: #27180e; --cover-accent: #da702c; }
+    :root[data-theme="dark"] .cover--tone-yellow { --cover-bg: #241e08; --cover-accent: #d0a215; }
+    :root[data-theme="dark"] .cover--tone-green { --cover-bg: #1a1e0c; --cover-accent: #879a39; }
+    :root[data-theme="dark"] .cover--tone-cyan { --cover-bg: #101f1d; --cover-accent: #3aa99f; }
+    :root[data-theme="dark"] .cover--tone-blue { --cover-bg: #101a24; --cover-accent: #4385be; }
+    :root[data-theme="dark"] .cover--tone-magenta { --cover-bg: #24131d; --cover-accent: #ce5d97; }
+
+    .cover__meta { position: relative; z-index: 2; display: flex; justify-content: space-between; gap: var(--space-3); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.72; }
+    .cover strong { position: relative; z-index: 2; max-width: 12ch; font-size: clamp(2rem, 4vw, 4rem); font-weight: 640; line-height: 0.93; letter-spacing: -0.055em; overflow-wrap: anywhere; text-wrap: balance; }
     .cover--year strong { font-family: Georgia, "Times New Roman", serif; font-size: clamp(4.5rem, 8vw, 7.5rem); font-weight: 500; }
     .book__body { display: flex; flex-direction: column; min-height: 20rem; padding: var(--space-6); }
     .book__meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-5); color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.04em; text-transform: uppercase; }
@@ -607,11 +650,71 @@
         });
       }
 
+      var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
+      var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true };
+
+      function coverMotif(book) {
+        var motif = book.cover && book.cover.motif;
+        return coverMotifs[motif] ? motif : 'balance';
+      }
+
       function coverClass(book) {
-        if (book.cover && book.cover.type === 'year') return 'cover--year';
-        if (book.cover && book.cover.type === 'constraint') return 'cover--constraint';
-        if (book.cover && book.cover.type === 'split') return 'cover--split';
-        return 'cover--generic';
+        var type = book.cover && coverTypes[book.cover.type] ? coverTypes[book.cover.type] : coverTypes.typographic;
+        var tone = book.cover && coverTones[book.cover.tone] ? 'cover--tone-' + book.cover.tone : 'cover--tone-cyan';
+        return type + ' ' + tone + ' cover--motif-' + coverMotif(book);
+      }
+
+      function coverArtwork(book) {
+        var motif = coverMotif(book);
+        var content = '';
+        if (motif === 'balance') {
+          content = '<path class="art-fill-soft" d="M221 113 L202 164 L251 164 Z"/><path class="art-bold" d="M145 109 L287 79"/>' +
+            '<circle class="art-fill" cx="160" cy="106" r="18"/><circle class="art-fill" cx="274" cy="82" r="7"/>' +
+            '<path class="art-quiet" d="M202 164 H268 M221 113 V94"/>';
+        } else if (motif === 'crash') {
+          content = '<path class="art-quiet" d="M158 36 V151 H302 M158 64 H302 M158 94 H302 M158 124 H302"/>' +
+            '<path class="art-bold" d="M162 132 L191 111 L220 82 L249 61 L267 71 L280 143"/>' +
+            '<path class="art-fill" d="M273 136 L292 145 L278 158 Z"/><circle class="art-fill" cx="249" cy="61" r="6"/>';
+        } else if (motif === 'bottleneck') {
+          content = '<path class="art-quiet" d="M122 45 H188 L219 78 H260 M122 76 H190 L219 84 H260 M122 107 H190 L219 90 H260 M122 138 H188 L219 96 H260"/>' +
+            '<path class="art-bold" d="M219 67 V107 M260 84 V96 M219 87 H260"/>' +
+            '<circle class="art-fill" cx="122" cy="45" r="6"/><circle class="art-fill" cx="122" cy="76" r="6"/><circle class="art-fill" cx="122" cy="107" r="6"/><circle class="art-fill" cx="122" cy="138" r="6"/><circle class="art-fill" cx="284" cy="90" r="9"/><path class="art-line" d="M260 90 H284"/>';
+        } else if (motif === 'relay') {
+          content = '<rect class="art-quiet" x="143" y="52" width="48" height="76" rx="9"/><rect class="art-line" x="247" y="52" width="48" height="76" rx="9"/>' +
+            '<path class="art-bold" d="M191 90 H247"/><path class="art-line" d="M216 78 L229 90 L216 102"/>' +
+            '<circle class="art-fill" cx="167" cy="73" r="6"/><circle class="art-fill" cx="167" cy="107" r="6"/><path class="art-quiet" d="M271 70 V110 M257 78 L271 70 L285 78 M257 102 L271 110 L285 102"/>';
+        } else if (motif === 'distill') {
+          content = '<path class="art-quiet" d="M132 50 H281 M132 70 H281 M132 90 H281 M132 110 H281 M132 130 H281"/>' +
+            '<path class="art-fill-soft" d="M205 38 H235 L228 142 H212 Z"/><path class="art-bold" d="M132 90 H216 M228 90 H296"/>' +
+            '<circle class="art-fill" cx="296" cy="90" r="7"/>';
+        } else if (motif === 'clock') {
+          content = '<circle class="art-quiet" cx="238" cy="91" r="67"/><path class="art-bold" d="M238 48 A43 43 0 0 1 278 107"/>' +
+            '<path class="art-line" d="M238 91 V55 M238 91 L271 112"/><circle class="art-fill" cx="238" cy="91" r="7"/>' +
+            '<path class="art-quiet" d="M238 24 V34 M238 148 V158 M171 91 H181 M295 91 H305"/>';
+        } else if (motif === 'weeks') {
+          var dots = '';
+          for (var row = 0; row < 6; row += 1) {
+            for (var column = 0; column < 9; column += 1) {
+              var active = row === 4 && column === 5;
+              dots += '<circle class="' + (active ? 'art-fill' : 'art-ink-soft') + '" cx="' + (161 + column * 16) + '" cy="' + (49 + row * 17) + '" r="' + (active ? 6 : 3.5) + '"/>';
+            }
+          }
+          content = dots + '<path class="art-line" d="M161 153 H289"/>';
+        } else if (motif === 'mirror') {
+          content = '<path class="art-bold" d="M228 29 V153"/><path class="art-quiet" d="M205 45 H165 V137 H205 M251 45 H291 V137 H251"/>' +
+            '<path class="art-line" d="M205 66 H184 V116 H205 M251 66 H272 V116 H251"/>' +
+            '<circle class="art-fill" cx="205" cy="91" r="7"/><circle class="art-fill-soft" cx="251" cy="91" r="14"/>';
+        } else if (motif === 'stress') {
+          content = '<path class="art-quiet" d="M127 91 H303 M127 49 V135 M171 49 V135 M215 49 V135 M259 49 V135 M303 49 V135"/>' +
+            '<path class="art-bold" d="M127 91 H157 L169 65 L184 126 L202 49 L219 112 L234 78 L249 91 H303"/>' +
+            '<path class="art-line" d="M263 48 L287 68 M259 67 L287 91 M259 91 L287 115 M259 114 L283 134"/>';
+        } else {
+          content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
+            '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +
+            '<path class="art-line" d="M273 34 H297 M283 24 V48"/>';
+        }
+        return '<div class="cover__art"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" focusable="false">' + content + '</svg></div>';
       }
 
       function bookMarkup(book) {
@@ -623,7 +726,7 @@
         var tags = (book.tags || []).slice(0, 4).map(function (tag) { return '<li>' + escapeHTML(tag) + '</li>'; }).join('');
         return '<a class="book" href="./' + escapeHTML(book.file) + '" data-book="' + escapeHTML(book.slug) + '" aria-label="' +
           escapeHTML(translations[state.language].open + ': ' + title) + '">' +
-          '<div class="cover ' + coverClass(book) + '" aria-hidden="true"><div class="cover__meta"><span>' +
+          '<div class="cover ' + coverClass(book) + '" data-cover-motif="' + coverMotif(book) + '" aria-hidden="true">' + coverArtwork(book) + '<div class="cover__meta"><span>' +
           escapeHTML(section ? localized(section.label) : book.section) + '</span><span>' + book.screenCount + '</span></div><strong>' + escapeHTML(mark) + '</strong></div>' +
           '<div class="book__body"><div class="book__meta"><span>' + escapeHTML(book.audience === 'teen-14-plus' ? '14+' : 'RU / EN') +
           '</span><span>' + escapeHTML(book.spoilerPolicy === 'full-plot-in-deep' ? 'Deep: spoilers' : '') + '</span></div>' +

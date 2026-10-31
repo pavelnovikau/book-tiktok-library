@@ -77,9 +77,10 @@ const headBlock = `
       background: var(--color-bg, #fffcf0) !important;
     }
     html[data-focus-mode="true"] .app-nav.is-hidden,
-    html[data-focus-mode="true"] .nav[hidden] { display: none !important; }
+    html[data-focus-mode="true"] .nav[hidden] { display: grid !important; }
     html[data-focus-mode="true"] #previousButton,
     html[data-focus-mode="true"] #btn-back,
+    html[data-focus-mode="true"] #counter,
     html[data-focus-mode="true"] .nav-position,
     html[data-focus-mode="true"] .counter { display: none !important; }
     html[data-focus-mode="true"] #nextButton,
@@ -290,6 +291,7 @@ const installBlock = `
       function isStandalone() {
         return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
       }
+      function focusActive() { return root.hasAttribute('data-focus-mode'); }
       function language() { return String(root.lang || 'ru').toLowerCase().indexOf('en') === 0 ? 'en' : 'ru'; }
       function localize() {
         var current = copy[language()];
@@ -303,6 +305,7 @@ const installBlock = `
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
+        if (focusActive()) return;
         localize();
         if (!dialog.open) dialog.showModal();
       }
@@ -311,7 +314,10 @@ const installBlock = `
       root.setAttribute('data-book-installable', 'true');
       trigger.hidden = false;
       localize();
-      new MutationObserver(localize).observe(root, { attributes: true, attributeFilter: ['lang'] });
+      new MutationObserver(function () {
+        localize();
+        if (focusActive() && dialog.open) dialog.close();
+      }).observe(root, { attributes: true, attributeFilter: ['lang', 'data-focus-mode'] });
       trigger.addEventListener('click', show);
       close.addEventListener('click', function () { markSeen(); dialog.close(); });
       dialog.addEventListener('click', function (event) {

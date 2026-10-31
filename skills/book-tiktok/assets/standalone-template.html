@@ -1002,8 +1002,9 @@
       border-top-color: transparent !important;
       background: var(--color-bg) !important;
     }
-    html[data-focus-mode="true"] .app-nav.is-hidden { display: none !important; }
+    html[data-focus-mode="true"] .app-nav.is-hidden { display: grid !important; }
     html[data-focus-mode="true"] #previousButton,
+    html[data-focus-mode="true"] #counter,
     html[data-focus-mode="true"] .nav-position { display: none !important; }
     html[data-focus-mode="true"] #nextButton {
       display: inline-flex !important;
@@ -1619,6 +1620,7 @@
       function isStandalone() {
         return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
       }
+      function focusActive() { return root.hasAttribute('data-focus-mode'); }
       function language() { return String(root.lang || 'ru').toLowerCase().startsWith('en') ? 'en' : 'ru'; }
       function localize() {
         const current = copy[language()];
@@ -1632,6 +1634,7 @@
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
+        if (focusActive()) return;
         localize();
         if (!dialog.open) dialog.showModal();
       }
@@ -1640,7 +1643,10 @@
       root.setAttribute('data-book-installable', 'true');
       trigger.hidden = false;
       localize();
-      new MutationObserver(localize).observe(root, { attributes: true, attributeFilter: ['lang'] });
+      new MutationObserver(() => {
+        localize();
+        if (focusActive() && dialog.open) dialog.close();
+      }).observe(root, { attributes: true, attributeFilter: ['lang', 'data-focus-mode'] });
       trigger.addEventListener('click', show);
       close.addEventListener('click', () => { markSeen(); dialog.close(); });
       dialog.addEventListener('click', (event) => {

@@ -52,8 +52,10 @@ node <skill-dir>/scripts/build_story.mjs story-data.json \
   --out <book-slug>.html
 ```
 
-- The builder validates structure, resolves local images, embeds Geist and Geist Mono, computes mode counts and reading times, and produces one network-independent HTML file.
+- The builder validates structure, resolves local images, embeds Geist Sans, Geist Mono, Geist Serif and the Source Serif 4 Cyrillic fallback with their licenses, computes mode counts and reading times, and produces one network-independent HTML file.
 - Include a concise, spoiler-safe method/source disclosure describing what was actually read and checked. Narrative reading hides per-screen provenance/footnote chrome while retaining screen source maps and the accessible global Sources dialog.
+
+The shared Settings gear replaces the theme toggle in the existing icon row. Use [references/reader-settings.md](references/reader-settings.md) for the global theme/reading-font contract, verified font coverage, legacy adapters and no-server QA. Keep UI controls Sans and the localized Serif fallback note visible. Never rebuild a released custom runtime merely to update its shell; synchronize it.
 
 ## Verify and hand off
 

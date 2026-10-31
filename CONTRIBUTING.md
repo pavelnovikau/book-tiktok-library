@@ -11,8 +11,8 @@ The file must:
 - work as a standalone HTML document with embedded CSS, JavaScript, fonts and images;
 - support Russian and English;
 - provide Essential, Core and Deep reading depths;
-- use Flexoki light/dark themes;
-- use a single compact row of icon-only header controls with localized tooltips and accessibility labels; keep the home control linking to `./` and the optional iOS guide trigger in that same row;
+- use Flexoki light/dark themes with the maintained Settings modal;
+- use a single compact row of icon-only header controls with localized tooltips and accessibility labels; replace the direct theme toggle with the shared Settings gear (Dark/Light and Sans/Serif), keep the home control linking to `./` and the optional iOS guide trigger in that same row;
 - support the shared focus-mode contract: a tap on non-interactive text hides reader chrome while preserving text and Next; a second tap restores it;
 - identify sources and distinguish the book’s narrative/argument from independent checks and any digest inference;
 - contain no remote runtime scripts or stylesheets.
@@ -61,10 +61,10 @@ Every catalogue cover also needs a semantic `motif` and a Flexoki `tone`. A moti
 ```bash
 npm run sync:readers
 npm run check
-python3 -m http.server 8000
+npm run qa:settings
 ```
 
-Run `sync:readers` after registering the file; it injects the maintained focus-mode and Home Screen metadata idempotently. Check at least 320×568 and 1440×900 in both themes and languages. Confirm the home control returns to the library, focus mode toggles without misreading a scroll or swipe, and there is no horizontal overflow.
+Run `sync:readers` after registering the file; it injects the maintained Settings module, focus mode and Home Screen metadata idempotently without rebuilding book corpora. [Settings contract, fonts/licenses and no-server QA](skills/book-tiktok/references/reader-settings.md) cover v2 and legacy readers. Theme and reading font are global; preserve each book’s language, depth, position and bespoke spoiler consent. Serif uses Geist Serif for Latin and Source Serif 4 for Russian; the localized note must remain visible in Settings. Check at least 320×568 and 1440×900 in both themes and languages. Confirm the home control returns to the library, focus mode toggles without misreading a scroll or swipe, and there is no horizontal overflow.
 
 ## 4. Open a pull request
 

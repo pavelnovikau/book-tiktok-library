@@ -222,7 +222,7 @@ if (phase === 'discovery') {
     for (const language of ['ru', 'en']) {
       if (await evaluate('document.documentElement.lang') !== language) await evaluate('languageButton.click()');
       for (const theme of ['dark', 'light']) {
-        if (await evaluate('document.documentElement.dataset.theme') !== theme) await evaluate('themeButton.click()');
+        if (await evaluate('document.documentElement.dataset.theme') !== theme) await evaluate('BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")');
         const layout = await evaluate(`(() => {
           const controls = [...document.querySelectorAll('#typeFilter button, #topicFilter, #searchInput')];
           return {
@@ -272,7 +272,7 @@ if (phase === 'discovery') {
   let facetCases = 0;
   for (const [language, theme] of discoveryModes) {
     if (await evaluate('document.documentElement.lang') !== language) await evaluate('languageButton.click()');
-    if (await evaluate('document.documentElement.dataset.theme') !== theme) await evaluate('themeButton.click()');
+    if (await evaluate('document.documentElement.dataset.theme') !== theme) await evaluate('BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")');
     for (const type of ['all', 'fiction', 'nonfiction']) {
       await reset(); await setType(type);
       const typeBooks = catalogue.books.filter(book => type === 'all' || book.workTypes.includes(type));
@@ -313,7 +313,7 @@ if (phase === 'discovery') {
   ];
   for (const [language, theme] of discoveryModes) {
     if (await evaluate('document.documentElement.lang') !== language) await evaluate('languageButton.click()');
-    if (await evaluate('document.documentElement.dataset.theme') !== theme) await evaluate('themeButton.click()');
+    if (await evaluate('document.documentElement.dataset.theme') !== theme) await evaluate('BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")');
     for (const [query, expected] of searches) {
       await reset(); await setQuery(query); await checkVisible(expected, `${language} search ${query}`);
       const counts = await evaluate('[...document.querySelectorAll("#typeFilter button")].map(node => Number(node.querySelector(".filter-button__count").textContent))');
@@ -362,7 +362,7 @@ if (phase === 'discovery') {
 
   await reset(); await setType('nonfiction'); await setTopic('philosophy-meaning'); await setQuery('стоицизм');
   if (await evaluate('document.documentElement.lang') !== 'en') await evaluate('languageButton.click()');
-  if (await evaluate('document.documentElement.dataset.theme') !== 'light') await evaluate('themeButton.click()');
+  if (await evaluate('document.documentElement.dataset.theme') !== 'light') await evaluate('BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")');
   await navigate('?type=nonfiction&topic=philosophy-meaning&q=стоицизм', 'document.getElementById("books").getAttribute("aria-busy") === "false"');
   await checkVisible(catalogue.books.filter(book => book.workTypes.includes('nonfiction') && book.subjects.includes('philosophy-meaning') && book.tags.includes('stoicism')).map(book => book.slug), 'URL filter + language/theme persistence');
   assert(await evaluate('document.documentElement.lang === "en" && document.documentElement.dataset.theme === "light" && searchInput.value === "стоицизм"'), 'language/theme or query changed on navigation');
@@ -373,12 +373,12 @@ if (phase === 'discovery') {
   };
   await saveScreenshot('home-1440-philosophy-en-light');
   await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 1, mobile: true });
-  await reset(); await evaluate('languageButton.click(); themeButton.click()');
+  await reset(); await evaluate('languageButton.click(); BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")');
   await setType('fiction'); await setTopic('fantasy');
   await checkVisible(catalogue.books.filter(book => book.workTypes.includes('fiction') && book.genres.includes('fantasy')).map(book => book.slug), 'phone fantasy');
   await saveScreenshot('home-390-fiction-fantasy-ru-dark');
   await command('Emulation.setDeviceMetricsOverride', { width: 320, height: 568, deviceScaleFactor: 1, mobile: true });
-  await evaluate('themeButton.click()'); await setQuery('not-a-real-book-947');
+  await evaluate('BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")'); await setQuery('not-a-real-book-947');
   await checkVisible([], 'phone empty state');
   assert(await evaluate('document.documentElement.scrollWidth <= innerWidth + 1 && !resetFilters.disabled'), 'phone empty state overflow or missing reset');
   await saveScreenshot('home-320-empty-ru-light');
@@ -396,7 +396,7 @@ if (phase === 'discovery') {
     const remembered = await evaluate(`localStorage.getItem(${JSON.stringify(reader.progress)})`);
     assert(remembered, `${reader.file}: progress did not save`);
     await navigate('', 'document.getElementById("books")?.getAttribute("aria-busy") === "false"');
-    await evaluate('languageButton.click(); themeButton.click()');
+    await evaluate('languageButton.click(); BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark")');
     assert(await evaluate(`localStorage.getItem(${JSON.stringify(reader.progress)}) === ${JSON.stringify(remembered)}`), `${reader.file}: homepage changed reading progress`);
     await navigate(reader.file, 'document.getElementById("story")?.children.length > 0');
     assert(await evaluate(`localStorage.getItem(${JSON.stringify(reader.progress)}) === ${JSON.stringify(remembered)} && document.querySelector('[data-start], [data-action="start"]').textContent.includes('Продолжить')`), `${reader.file}: progress did not survive return to reader`);
@@ -619,7 +619,7 @@ if (phase === 'repaired') {
         for (const language of ['ru', 'en']) {
           if (document.documentElement.lang !== language) languageButton.click();
           for (const theme of ['dark', 'light']) {
-            if (document.documentElement.dataset.theme !== theme) themeButton.click();
+            if (document.documentElement.dataset.theme !== theme) BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark");
             for (const [mode, level] of [['essential', 1], ['core', 2], ['deep', 3]]) {
               document.querySelector('[data-mode="' + mode + '"]').click();
               document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();
@@ -687,7 +687,7 @@ if (phase === 'release-interactions' || phase === 'release-reader-interactions')
       const title = document.querySelector('#story h1').textContent;
       languageButton.click();
       if (document.querySelector('#story h1').textContent !== first.copy.en.title) throw Error('language lost position');
-      themeButton.click();
+      BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark");
       if (document.querySelector('#story h1').textContent !== first.copy.en.title) throw Error('theme lost position');
       sourcesButton.click();
       const sources = sourcesDialog.open && sourcesList.querySelectorAll('a').length === data.sources.length && methodNote.textContent === data.methodNote.en;

@@ -314,14 +314,22 @@ const skillFiles = [
   'agents/openai.yaml',
   'assets/standalone-template.html',
   'assets/reader-header.html',
+  'assets/reader-settings-head.html',
+  'assets/reader-settings.html',
   'assets/story-data.example.json',
   'assets/fonts/Geist-Variable.woff2',
   'assets/fonts/GeistMono-Variable.woff2',
   'assets/fonts/LICENSE.txt',
+  'assets/fonts/GeistSerif-Regular.woff2',
+  'assets/fonts/GeistSerif-LICENSE.txt',
+  'assets/fonts/SourceSerif4-Regular.woff2',
+  'assets/fonts/SourceSerif4-LICENSE.md',
   'references/content-model.md',
   'references/data-contract.md',
   'references/html-spec.md',
+  'references/reader-settings.md',
   'scripts/build_story.mjs',
+  'scripts/reader-settings.mjs',
   'scripts/audit_story_html.mjs'
 ];
 

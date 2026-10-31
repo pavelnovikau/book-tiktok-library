@@ -48,6 +48,18 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 `npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
 
+## 2026-10-31 editorial repair — release 05
+
+Three accepted readers contain 98 RU/EN pairs: *Meditations* 18/30/39, *Antifragile* 11/17/24 and *The Left Hand of Darkness* 11/15/35. The intended catalogue is **39 books / 2,453 screens**. Antifragile replaces the old 144-screen analytical reader; the other two titles are newly registered. The remaining 36 readers and their catalogue entries are unchanged.
+
+Meditations and Antifragile match completed independent PASS hashes. Meditations preserves all fourteen paired quotations, translators and book/section attributions, the XII.36 = Rogovin XII.35 concordance, and its embedded 1914 archival title leaf. Antifragile retains a selected central argument supported by author Chapter 1, interview, essay, draft and explicitly later explanations; it does not claim every chapter or offer medical or investment prescriptions. Left Hand’s original REQUIRES-FIXES review remains intact: four bounded publisher closures remove unsupported details, distinguish interrogation drugs, and restore Estraven’s stated political explanation. Guides and references remain labelled as such; no new primary-novel or full-edition reading is claimed.
+
+Accepted collector HTML is integrated without plain rebuilding. Bespoke covers, quotation objects, content modes and source maps remain exact. Valid saved IDs survive; unavailable IDs return to the cover safely. Left Hand renews Deep consent on reload and hides saved ending titles. Catalogue motifs show a common city and two tracks across ice; Antifragile keeps its unique convex-response motif. Statistics, equal tabs, inset-safe icons and offline reading remain.
+
+The [release05 receipt](editorial-audit/2026-10-31/publisher-findings/release-05.json) binds exact inputs and roots. Focused checks cover 3×69 structural assertions, 3,200 rendering visits, 56 quotation displays with attribution and reachable final lines, corrected-copy reachability, source scope/progress/restart/consent, focus, discovery, safe-area and offline reading. Public output contains 50 allowlisted assets only. Browser emulation is not a physical-iPhone/Safari/PWA test. Publication is established only by an exact-head merge and actual production verification; this integration does not claim 39 live.
+
+Release04 is now [production-verified](editorial-audit/2026-10-31/publisher-findings/release-04-verification.json): all 48 served asset hashes match merge `be5b08c`, 37 books/2,499 screens, all four relevant readers pass live source/state/consent/corrected-copy checks, and private paths return 404. Its previous pending handoff is preserved separately. Root retains coordination of Settings PR29; its unmerged UI and installed skills are outside this release.
+
 ## 2026-10-31 editorial repair — release 04
 
 Four new readers add 146 RU/EN pairs: *Hard to Be a God* 8/13/33, *Adventures of Huckleberry Finn* 24/36/54, *Nonviolent Communication* 16/26/30 and *The Fifth Discipline* 11/22/29. The catalogue contains **37 books / 2,499 screens**. All previous 33 reader files are byte-identical to release03.

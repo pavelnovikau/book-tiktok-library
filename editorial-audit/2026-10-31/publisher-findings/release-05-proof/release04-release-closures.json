@@ -1,0 +1,75 @@
+{
+  "phase": "release-closures",
+  "origin": "https://book-tiktok-library.vercel.app",
+  "checks": [
+    {
+      "book": "hard-to-be-a-god.html",
+      "language": "ru",
+      "theme": "dark",
+      "width": 320,
+      "id": "palace-night",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    },
+    {
+      "book": "hard-to-be-a-god.html",
+      "language": "en",
+      "theme": "light",
+      "width": 1440,
+      "id": "palace-night",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    },
+    {
+      "book": "nonviolent-communication.html",
+      "language": "ru",
+      "theme": "dark",
+      "width": 320,
+      "id": "two-punishment-questions",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    },
+    {
+      "book": "nonviolent-communication.html",
+      "language": "ru",
+      "theme": "dark",
+      "width": 320,
+      "id": "reflection-request",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    },
+    {
+      "book": "nonviolent-communication.html",
+      "language": "en",
+      "theme": "light",
+      "width": 1440,
+      "id": "two-punishment-questions",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    },
+    {
+      "book": "nonviolent-communication.html",
+      "language": "en",
+      "theme": "light",
+      "width": 1440,
+      "id": "reflection-request",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    }
+  ],
+  "changedCopyIntegration": "exact current title/body displayed",
+  "literaryScope": "Source closure is separately recorded; this phase tests rendered corrected copy.",
+  "runtimeErrors": 0
+}

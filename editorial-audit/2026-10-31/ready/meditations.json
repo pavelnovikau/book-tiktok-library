@@ -1,0 +1,214 @@
+{
+  "slug": "meditations",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD",
+  "implementationKind": "new approved title; no preexisting package or published reader",
+  "createdAt": "2026-10-31T20:12:12.909495+00:00",
+  "reportPath": "editorial-audit/2026-10-31/books/meditations-implementation.md",
+  "reportAbsolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/meditations-implementation.md",
+  "reportSha256": "e7cb0d95065006a7ae1b644696934aab0c2984219cbf8726b3acc597cd9797b0",
+  "reviewedPairs": {
+    "old": 0,
+    "new": 39,
+    "published": 0,
+    "oldAuthoring": 0,
+    "newAuthoring": 39,
+    "finalLanguageScreensRead": 78
+  },
+  "counts": {
+    "essential": 18,
+    "core": 30,
+    "deep": 39
+  },
+  "contentMode": "explanatory",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential"
+  },
+  "sourceScope": "Complete public-domain Rogovin 1914 scan and Long/Gutenberg text obtained. Selected primary sections across all twelve books and their retained local arguments read and compared; continuous full reading of both editions and full Greek/translation fidelity are not claimed. Fourteen RU quotation excerpts visually checked against original 1914 pages, fourteen EN excerpts exact in numbered Gutenberg; thirteen also compared with MIT. MIT XII is truncated inside §26 and cannot verify the final excerpt. Common XII.36 = Rogovin 1914 XII.35, explicitly disclosed. No essential retained argument link is source-gapped.",
+  "sourceCount": 3,
+  "quotePairs": 14,
+  "sourceGap": null,
+  "changes": [
+    "Built a new connected thematic condensation of the personal notes from identified historical translations, without invented biographical scenes, dialogue, modern prescriptions or quote-card slogans.",
+    "Retained actual arguments and examples: gratitude, morning reluctance, social kinship, shared reason/city, cosmology and alternatives, judgment, obstruction/reservation, justice, fame, failure and death.",
+    "Preserved fourteen exact paired quotation excerpts with translator names and common book/section locators; documented Russian orthographic modernization and the closing XII.36/XII.35 concordance.",
+    "Recorded precise quotation ledger, source limitations, primary location map for all thirty-nine stable IDs and actual selective reading scope.",
+    "Derived targetModes 18/30/39 from retained prose and set RU/dark/Essential in an offline maintained v2 reader.",
+    "Kept source research in Sources via a reproducible book-local presentation wrapper; retained explanatory contentMode, machine-readable source maps and short quotation attributions.",
+    "Capped the original 1914 title leaf on phones and localized RU Start as Начать чтение; retained maintained compact icon-only header and saved-progress behavior.",
+    "Saved substantive implementation report, QA, canonical hashes and raw structure/offline/mobile/quotation evidence in owned paths only."
+  ],
+  "unresolvedIssues": [
+    "Independent editorial check of all 39 RU/EN pairs and primary passages remains pending; no independent PASS is claimed.",
+    "Publisher root reader/catalogue/index/release integration and publication are outstanding and were not performed by this worker.",
+    "No physical iPhone/PWA test, Greek manuscript collation, continuous dual-edition full reading, or exhaustive important-quotation selection is claimed. Historical translation differences and MIT truncation remain disclosed."
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/meditations/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/story-data.json",
+      "bytes": 86877,
+      "sha256": "128d88333d3f1ae59efaa02b9c60c487c681a475b5efbf6dd9b086fad5e31a81"
+    },
+    {
+      "path": "collector-output/meditations/meditations.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/meditations.html",
+      "bytes": 406731,
+      "sha256": "993ee78a71b253a6eb49f33de9a3cacec099c5ed2973b740f4ae7ef14b70dcd0"
+    },
+    {
+      "path": "collector-output/meditations/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/sources.md",
+      "bytes": 24225,
+      "sha256": "cda0a93887935cdab7209fe7999310fd1cd2d69aed8c49c4cad139fa3d22a4ee"
+    },
+    {
+      "path": "collector-output/meditations/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/QA.md",
+      "bytes": 6778,
+      "sha256": "a07e6fc8fa7745193dce6aa101929d0d3abdeeff5dfae6d1f359e220b7081195"
+    }
+  ],
+  "supportingFiles": [
+    {
+      "path": "collector-output/meditations/build-meditations.mjs",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/build-meditations.mjs",
+      "bytes": 1271,
+      "sha256": "a30c134ddb8297a5203fb6f9cf9d8d92d482d42258293666c6ff604a870fa858"
+    },
+    {
+      "path": "collector-output/meditations/assets/rogovin-1914-title-leaf.png",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/assets/rogovin-1914-title-leaf.png",
+      "bytes": 57740,
+      "sha256": "ba5c1f8fb45c5a8c3202ca5b4a0346e85877180509b54fe0c5d084f8c2eea236"
+    },
+    {
+      "path": "collector-output/meditations/qa/browser-interactions.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/browser-interactions.json",
+      "bytes": 1921,
+      "sha256": "7d179aef809798ce7b41bcbd2d78b28029a37d4bed4a47d266c16632a0058338"
+    },
+    {
+      "path": "collector-output/meditations/qa/browser-meditations.mjs",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/browser-meditations.mjs",
+      "bytes": 19551,
+      "sha256": "9954e5faf0ded410dceccaa164cd07f9dd644892af08b3149fa5449715f7d3c2"
+    },
+    {
+      "path": "collector-output/meditations/qa/browser-traverse.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/browser-traverse.json",
+      "bytes": 9496,
+      "sha256": "1f38a73be1c11ad222616e0a7c9c6af9700eda2f632776aedd8d6f7655a2270b"
+    },
+    {
+      "path": "collector-output/meditations/qa/build-inputs.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/build-inputs.json",
+      "bytes": 810,
+      "sha256": "c209f3aad83d7dbc81d64472d01c500662bda362b5d0df15d467291008725f38"
+    },
+    {
+      "path": "collector-output/meditations/qa/content-scope.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/content-scope.json",
+      "bytes": 1250,
+      "sha256": "029017af6aedb4ca15cef773bc3b0db3b71921c2ece9c29ed3174ce9076701ce"
+    },
+    {
+      "path": "collector-output/meditations/qa/quotation-check.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/quotation-check.json",
+      "bytes": 4307,
+      "sha256": "8c8c57407d8903b5251705c18e15cb06e7fdaaac52a41173f62e7cd87c175ef0"
+    },
+    {
+      "path": "collector-output/meditations/qa/structure-audit.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/meditations/qa/structure-audit.json",
+      "bytes": 397,
+      "sha256": "f3fdb6fb37f8b20c0d70fe58afb86ce4de2cae9c355a930bcf18f1c8275f7fb0"
+    }
+  ],
+  "checks": {
+    "structural": {
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "browser": {
+      "traversedScreenPositions": 1392,
+      "uniquePairs": 39,
+      "layoutLanguageThemeCombinations": 16,
+      "viewports": [
+        "320x568",
+        "390x844",
+        "1024x768",
+        "1440x900"
+      ],
+      "nestedModes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "interactionChecks": 27,
+      "offline": true,
+      "runtimeErrors": [],
+      "externalRequests": [],
+      "horizontalOverflow": false,
+      "verticalTailsReachable": true,
+      "defaultsVerified": true,
+      "safeAreaInsetTopTested": 47,
+      "realIPhonePwaTest": false,
+      "ownedChromeProfilesRemoved": true,
+      "ownedChromeResidue": [],
+      "httpServerStarted": false
+    },
+    "quotations": {
+      "ruOriginalScanChecks": 14,
+      "englishGutenbergExactMatches": 14,
+      "additionalMitComparisons": 13,
+      "mitFinalUnavailable": true,
+      "samePassageConcordanceDisclosed": true
+    },
+    "embeddedCorpusMatchesCanonical": true,
+    "scope": "Implementation worker checks of owned collector only; technical passes are not independent editorial approval or production verification."
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "7 минут",
+        "en": "7 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "11 минут",
+        "en": "11 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "14 минут",
+        "en": "14 min"
+      }
+    }
+  },
+  "ownership": {
+    "collectorOnly": true,
+    "sharedRootEdits": false,
+    "gitActions": false,
+    "publication": false,
+    "externalMessaging": false,
+    "subagents": false
+  }
+}

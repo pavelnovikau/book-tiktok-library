@@ -1,5 +1,13 @@
 # Work log
 
+## 2026-10-31 — Editorial release05 and final release04 verification
+
+Accepted Meditations 18/30/39 and Antifragile 11/17/24 by exact independent PASS binding; Left Hand 11/15/35 by four targeted publisher closures with the original REQUIRES-FIXES verdict preserved. All 98 bilingual pairs, quotation objects, source maps and bespoke covers stay exact. Meditations retains 14 quotation pairs/translator locators, XII.36=Rogovin35 and its archival cover. Source limits distinguish author text, interview, draft, later clarification and professional guides.
+
+Catalogue39 books/2,453 screens; two new semantic motifs, actual fiction description and refreshed times. Other 36 roots/entries unchanged. Reviewed HTML copied without plain rebuild; removed IDs fall back, valid IDs resume, Left Hand renews ending consent. Focused3 × 69 / 3,200 visits,56 quotation displays, source/state/consent, focus/discovery/safe-area and offline checks pass. Strict 50-asset public allowlist; no collector/audit/private paths deployed. Exact PR/head/check/deployment state belongs to release-05.json. Intake sealed at three candidates; other READY/review work remains outside this batch. PR29 stays root-owned; installed skills untouched.
+
+Release04 now has distinct final verification:48/48 actual production asset hashes match merge be5b08c,37 books/2,499 screens; five focused live reader/catalogue phases and six excluded-path404 probes pass. Prior pending receipt preserved byte for byte under release-05-proof; original release-04 receipt not overwritten. Existing T3-provided checkout only; canonical copyback limited to own release05 receipt/proof and release04 verification. No subagents, external people messages or physical-device claim.
+
 ## 2026-10-31 — Editorial release 04
 
 Accepted four new readers / 146 RU/EN pairs: HardGod 8/13/33, Huck 24/36/54, NVC 16/26/30, Fifth Discipline 11/22/29. Huck/Senge match completed independent PASS hashes. HG-06 and NVC-01/02 are directly closed against actual primary passages; reversing only those phrases reproduces the original reviewed JSON/HTML hashes. Original REQUIRES-FIXES reviews and source boundaries stay intact. No full-book or translation-fidelity certificate is invented.

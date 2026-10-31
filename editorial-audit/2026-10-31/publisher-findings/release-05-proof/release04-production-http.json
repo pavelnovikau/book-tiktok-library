@@ -1,0 +1,829 @@
+{
+  "startedAt": "2026-10-31T20:42:38.484Z",
+  "completedAt": "2026-10-31T20:42:45.876Z",
+  "kind": "actual-production-byte-and-effective-corpus-verification",
+  "origin": "https://book-tiktok-library.vercel.app",
+  "expectedCommit": "be5b08c2007c626d0ffe107d766d6be7197cf411",
+  "publicAllowlistFiles": 48,
+  "catalogueBooks": 37,
+  "catalogueScreens": 2499,
+  "pass": true,
+  "responses": [
+    {
+      "file": "index.html",
+      "route": "/",
+      "url": "https://book-tiktok-library.vercel.app/?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:39.497Z",
+      "sha256": "3e1aae989cfe7d5455dd254b5f0d23c3a87de40094b87c28d11f935d078cd961",
+      "expectedSha256": "3e1aae989cfe7d5455dd254b5f0d23c3a87de40094b87c28d11f935d078cd961",
+      "pass": true
+    },
+    {
+      "file": "books.json",
+      "route": "/books.json",
+      "url": "https://book-tiktok-library.vercel.app/books.json?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:39.554Z",
+      "sha256": "c76ed4609bf2ca3f54dd9c57c5b89275e642654106be974d9fb2ae3cdb896883",
+      "expectedSha256": "c76ed4609bf2ca3f54dd9c57c5b89275e642654106be974d9fb2ae3cdb896883",
+      "pass": true,
+      "catalogueBooks": 37,
+      "catalogueScreens": 2499
+    },
+    {
+      "file": "manifest.webmanifest",
+      "route": "/manifest.webmanifest",
+      "url": "https://book-tiktok-library.vercel.app/manifest.webmanifest?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:39.390Z",
+      "sha256": "d78462ce7f004e62062c583d63c5e5ef7d97b33f776325275c5f9d49a0ffcc19",
+      "expectedSha256": "d78462ce7f004e62062c583d63c5e5ef7d97b33f776325275c5f9d49a0ffcc19",
+      "pass": true
+    },
+    {
+      "file": "sw.js",
+      "route": "/sw.js",
+      "url": "https://book-tiktok-library.vercel.app/sw.js?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:39.423Z",
+      "sha256": "4f561340d2cf416052092eb3803c6d6b3dd5356c6e67ab66606c0f7d4b1ffddf",
+      "expectedSha256": "4f561340d2cf416052092eb3803c6d6b3dd5356c6e67ab66606c0f7d4b1ffddf",
+      "pass": true
+    },
+    {
+      "file": "skin-in-the-game.html",
+      "route": "/skin-in-the-game",
+      "url": "https://book-tiktok-library.vercel.app/skin-in-the-game?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:39.929Z",
+      "sha256": "ddd78a2dbe74a2132f331430b0f6cc74ca121a7d388a5427de159f0f403a2cdf",
+      "expectedSha256": "ddd78a2dbe74a2132f331430b0f6cc74ca121a7d388a5427de159f0f403a2cdf",
+      "pass": true,
+      "effectivePairs": 53,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 19,
+        "core": 37,
+        "deep": 53
+      },
+      "effectiveCorpusSha256": "2ed8852c9c2d0a126b71834f3962ea84220bdaf13c26b889ecf17a8396729192"
+    },
+    {
+      "file": "1873.html",
+      "route": "/1873",
+      "url": "https://book-tiktok-library.vercel.app/1873?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:40.892Z",
+      "sha256": "bae5ba4f3af1ec22f23b48844a383d4a34cf9be19878ac9e01f7056189bfa5c2",
+      "expectedSha256": "bae5ba4f3af1ec22f23b48844a383d4a34cf9be19878ac9e01f7056189bfa5c2",
+      "pass": true
+    },
+    {
+      "file": "theory-of-constraints.html",
+      "route": "/theory-of-constraints",
+      "url": "https://book-tiktok-library.vercel.app/theory-of-constraints?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.162Z",
+      "sha256": "069822ffd80525143aabb79b2a145f81813abd6704e34ca55e4cb5e8f6811c37",
+      "expectedSha256": "069822ffd80525143aabb79b2a145f81813abd6704e34ca55e4cb5e8f6811c37",
+      "pass": true
+    },
+    {
+      "file": "hermes-nous.html",
+      "route": "/hermes-nous",
+      "url": "https://book-tiktok-library.vercel.app/hermes-nous?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:40.034Z",
+      "sha256": "6546d557a1abe4a36168f3921424b5303d590d252a74a01fd5319fb3d191aa72",
+      "expectedSha256": "6546d557a1abe4a36168f3921424b5303d590d252a74a01fd5319fb3d191aa72",
+      "pass": true
+    },
+    {
+      "file": "essentialism.html",
+      "route": "/essentialism",
+      "url": "https://book-tiktok-library.vercel.app/essentialism?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:40.541Z",
+      "sha256": "a6cd3fcfb794841637f1a7ee361a32d03354cd0f84fbac404041cc2d77bb56dc",
+      "expectedSha256": "a6cd3fcfb794841637f1a7ee361a32d03354cd0f84fbac404041cc2d77bb56dc",
+      "pass": true,
+      "effectivePairs": 36,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 18,
+        "core": 28,
+        "deep": 36
+      },
+      "effectiveCorpusSha256": "a87d300d73056071824048aa1217c4297a9ac0787a8aa521c58c52e98be364b6"
+    },
+    {
+      "file": "make-time.html",
+      "route": "/make-time",
+      "url": "https://book-tiktok-library.vercel.app/make-time?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:40.666Z",
+      "sha256": "f53e633232fefb0840cdf896bf7f34dec46203f95056de2f230e0811f82202b6",
+      "expectedSha256": "f53e633232fefb0840cdf896bf7f34dec46203f95056de2f230e0811f82202b6",
+      "pass": true,
+      "effectivePairs": 51,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 19,
+        "core": 39,
+        "deep": 51
+      },
+      "effectiveCorpusSha256": "454d40771af9a393d440da1607331a4fb01b2818fca75d211b72e611a3475b8e"
+    },
+    {
+      "file": "four-thousand-weeks.html",
+      "route": "/four-thousand-weeks",
+      "url": "https://book-tiktok-library.vercel.app/four-thousand-weeks?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.014Z",
+      "sha256": "fc16d4a03a92933b94695f6f81d7adc22d7e1e4047a4c1282cfe1016d652c6d7",
+      "expectedSha256": "fc16d4a03a92933b94695f6f81d7adc22d7e1e4047a4c1282cfe1016d652c6d7",
+      "pass": true,
+      "effectivePairs": 52,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 21,
+        "core": 32,
+        "deep": 52
+      },
+      "effectiveCorpusSha256": "05e7aa9274e6cdc375f8c64c90dd8234c8f6843ad4512a30a33536d4b6d7aaa6"
+    },
+    {
+      "file": "selfie.html",
+      "route": "/selfie",
+      "url": "https://book-tiktok-library.vercel.app/selfie?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.130Z",
+      "sha256": "54c00c466e359b49ed1604546352060504a6bbc37945eeee401ecac57bd469a4",
+      "expectedSha256": "54c00c466e359b49ed1604546352060504a6bbc37945eeee401ecac57bd469a4",
+      "pass": true,
+      "effectivePairs": 62,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 27,
+        "core": 39,
+        "deep": 62
+      },
+      "effectiveCorpusSha256": "8c2548ca50136305c2610c1ccbc0303833cfe5e22a26fd948b00844b7b3e5db9"
+    },
+    {
+      "file": "why-zebras-dont-get-ulcers.html",
+      "route": "/why-zebras-dont-get-ulcers",
+      "url": "https://book-tiktok-library.vercel.app/why-zebras-dont-get-ulcers?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.289Z",
+      "sha256": "240483a376b3a2f3a97393c5dfe5e63e4ac028da4965167c2b0f1a6b60d55a19",
+      "expectedSha256": "240483a376b3a2f3a97393c5dfe5e63e4ac028da4965167c2b0f1a6b60d55a19",
+      "pass": true,
+      "effectivePairs": 51,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 25,
+        "core": 42,
+        "deep": 51
+      },
+      "effectiveCorpusSha256": "556ccac564aa36797fc92c3d2f0b22fb54dfde2fe618dc0f3b90a6a3378dc78b"
+    },
+    {
+      "file": "huberman-protocols.html",
+      "route": "/huberman-protocols",
+      "url": "https://book-tiktok-library.vercel.app/huberman-protocols?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.407Z",
+      "sha256": "26605bfd03d0c76e25ef7fe68d22663a3cc13ce713eb94328bdb819cfbd73aa9",
+      "expectedSha256": "26605bfd03d0c76e25ef7fe68d22663a3cc13ce713eb94328bdb819cfbd73aa9",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "23f7dcdf0b6bcc50887ca217cf6caac9cf35515d87dbe0b98f31701c2ec2bb34"
+    },
+    {
+      "file": "awareness-through-movement.html",
+      "route": "/awareness-through-movement",
+      "url": "https://book-tiktok-library.vercel.app/awareness-through-movement?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.453Z",
+      "sha256": "128397431542c37124ed4f252f422050c7323d5702c3f092cb8b6b7791878f72",
+      "expectedSha256": "128397431542c37124ed4f252f422050c7323d5702c3f092cb8b6b7791878f72",
+      "pass": true,
+      "effectivePairs": 42,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 19,
+        "core": 35,
+        "deep": 42
+      },
+      "effectiveCorpusSha256": "1b91455971fad30983928608329622cc45de9020855e243297e46bf6c56d3040"
+    },
+    {
+      "file": "the-body-keeps-the-score.html",
+      "route": "/the-body-keeps-the-score",
+      "url": "https://book-tiktok-library.vercel.app/the-body-keeps-the-score?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.929Z",
+      "sha256": "c064c57c0cbfa239a7be99eead3f4877c97cf880370c9ad4f710ca3f4d3bf255",
+      "expectedSha256": "c064c57c0cbfa239a7be99eead3f4877c97cf880370c9ad4f710ca3f4d3bf255",
+      "pass": true,
+      "effectivePairs": 41,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 21,
+        "core": 33,
+        "deep": 41
+      },
+      "effectiveCorpusSha256": "5e5a57641a470cd6449ebf06385346a68aac309729a86b3a94e2b732643dad09"
+    },
+    {
+      "file": "a-guide-to-the-good-life.html",
+      "route": "/a-guide-to-the-good-life",
+      "url": "https://book-tiktok-library.vercel.app/a-guide-to-the-good-life?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.659Z",
+      "sha256": "3ee5939171f0497b6ec089be48cc5028c133c651ffd0d194a34fa9990f1b6da1",
+      "expectedSha256": "3ee5939171f0497b6ec089be48cc5028c133c651ffd0d194a34fa9990f1b6da1",
+      "pass": true,
+      "effectivePairs": 36,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 18,
+        "core": 32,
+        "deep": 36
+      },
+      "effectiveCorpusSha256": "6e661893041ac3fea33a7d7afc07310d9d0cf9addb37de0e88cdb95c24f92e09"
+    },
+    {
+      "file": "letting-go.html",
+      "route": "/letting-go",
+      "url": "https://book-tiktok-library.vercel.app/letting-go?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.024Z",
+      "sha256": "5e9f076e39605df84806b0438ca644257d187e4fdb19183a939dace26c3fd1b4",
+      "expectedSha256": "5e9f076e39605df84806b0438ca644257d187e4fdb19183a939dace26c3fd1b4",
+      "pass": true,
+      "effectivePairs": 39,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 16,
+        "core": 32,
+        "deep": 39
+      },
+      "effectiveCorpusSha256": "ea9c3b828387164721ac6617db0dbcca5507536ab9ae0e9180fb9781db24ece5"
+    },
+    {
+      "file": "the-art-of-war.html",
+      "route": "/the-art-of-war",
+      "url": "https://book-tiktok-library.vercel.app/the-art-of-war?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:41.950Z",
+      "sha256": "97f2cefd69856a0dab2cf87405391049a576cfb8ef8bfcf5c0812fb8053d69b9",
+      "expectedSha256": "97f2cefd69856a0dab2cf87405391049a576cfb8ef8bfcf5c0812fb8053d69b9",
+      "pass": true,
+      "effectivePairs": 36,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 15,
+        "core": 30,
+        "deep": 36
+      },
+      "effectiveCorpusSha256": "9efffc92a12b69b1f628231cc9e1bc28ac48b7524aeb3f5f564a274f8f0b77a1"
+    },
+    {
+      "file": "the-hobbit.html",
+      "route": "/the-hobbit",
+      "url": "https://book-tiktok-library.vercel.app/the-hobbit?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.146Z",
+      "sha256": "ee748e237eab43ac1cb8a06362bb5fc7d21ce9c47c2acb6ba7c3b9d0d7dfe17a",
+      "expectedSha256": "ee748e237eab43ac1cb8a06362bb5fc7d21ce9c47c2acb6ba7c3b9d0d7dfe17a",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "59e167b01634cdcb55897f2f86f1a27962d86970ca247ca95d70ac6af119c520"
+    },
+    {
+      "file": "a-wizard-of-earthsea.html",
+      "route": "/a-wizard-of-earthsea",
+      "url": "https://book-tiktok-library.vercel.app/a-wizard-of-earthsea?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.289Z",
+      "sha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
+      "expectedSha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "301f26ff98e2ff6e69421a280ba0abfc944aa8906d4374ea20a2b49db06315d2"
+    },
+    {
+      "file": "treasure-island.html",
+      "route": "/treasure-island",
+      "url": "https://book-tiktok-library.vercel.app/treasure-island?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.320Z",
+      "sha256": "eb5f451b62bab22db58282a62286ddd69c7bfe02a3ce3af6cbb13b7847fbd118",
+      "expectedSha256": "eb5f451b62bab22db58282a62286ddd69c7bfe02a3ce3af6cbb13b7847fbd118",
+      "pass": true,
+      "effectivePairs": 34,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 12,
+        "core": 20,
+        "deep": 34
+      },
+      "effectiveCorpusSha256": "c32e6bdcabdc62e35322257bd3e19e37080c3953bd6267348241ae39111b9ded"
+    },
+    {
+      "file": "the-lost-world.html",
+      "route": "/the-lost-world",
+      "url": "https://book-tiktok-library.vercel.app/the-lost-world?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.418Z",
+      "sha256": "5e399a6134d792dafe2e097157b7e1fe86c1510905004647d86623aa4be79d5e",
+      "expectedSha256": "5e399a6134d792dafe2e097157b7e1fe86c1510905004647d86623aa4be79d5e",
+      "pass": true,
+      "effectivePairs": 34,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 13,
+        "core": 23,
+        "deep": 34
+      },
+      "effectiveCorpusSha256": "b2ecf943f376c5db5e843476d58d305c48ec99f49f9fb5f312f8ad2ab46b1341"
+    },
+    {
+      "file": "akselerando.html",
+      "route": "/akselerando",
+      "url": "https://book-tiktok-library.vercel.app/akselerando?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.527Z",
+      "sha256": "1fe1be8a560f0939b7263d5f3136f2c82980bab0f543261cc9864d1709aa4135",
+      "expectedSha256": "1fe1be8a560f0939b7263d5f3136f2c82980bab0f543261cc9864d1709aa4135",
+      "pass": true,
+      "effectivePairs": 52,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 14,
+        "core": 26,
+        "deep": 52
+      },
+      "effectiveCorpusSha256": "1b2302b01575df87960251dce928e82553b0eaceec988b3b5c69c9ede62bae3d"
+    },
+    {
+      "file": "mindfulness.html",
+      "route": "/mindfulness",
+      "url": "https://book-tiktok-library.vercel.app/mindfulness?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.623Z",
+      "sha256": "eb1f4d04a9294717d1d302bb52e1b2b345037fe9b49038ba62142bdbebf07c25",
+      "expectedSha256": "eb1f4d04a9294717d1d302bb52e1b2b345037fe9b49038ba62142bdbebf07c25",
+      "pass": true,
+      "effectivePairs": 30,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 14,
+        "core": 26,
+        "deep": 30
+      },
+      "effectiveCorpusSha256": "8fd3063c8d327f3f1b1fcc4c952b19c61a7c6f79cdd60c3b55cf48f64b8486af"
+    },
+    {
+      "file": "behave.html",
+      "route": "/behave",
+      "url": "https://book-tiktok-library.vercel.app/behave?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.785Z",
+      "sha256": "6e0fd9405a903776b58d74f091e4120afa0ad2f727154a9428394b61dbdd73ec",
+      "expectedSha256": "6e0fd9405a903776b58d74f091e4120afa0ad2f727154a9428394b61dbdd73ec",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "3533e0323abb52cb3229d9adf681425c2da34c779c8a38341e0f9c04b57e7648"
+    },
+    {
+      "file": "determined.html",
+      "route": "/determined",
+      "url": "https://book-tiktok-library.vercel.app/determined?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.828Z",
+      "sha256": "3fd612cd5f57527ccc2587930f2528a56feefddcdb71ec9d5147b36e4a246d11",
+      "expectedSha256": "3fd612cd5f57527ccc2587930f2528a56feefddcdb71ec9d5147b36e4a246d11",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "29c3c206dcdd0e88321d50d0aff7b8612de4a28904771354a73acebda006b488"
+    },
+    {
+      "file": "zen-and-the-art-of-motorcycle-maintenance.html",
+      "route": "/zen-and-the-art-of-motorcycle-maintenance",
+      "url": "https://book-tiktok-library.vercel.app/zen-and-the-art-of-motorcycle-maintenance?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:42.939Z",
+      "sha256": "2b5cc25d997063c88c71b826a390a9137bc5b9748717e9fa6b42ffceb28ece31",
+      "expectedSha256": "2b5cc25d997063c88c71b826a390a9137bc5b9748717e9fa6b42ffceb28ece31",
+      "pass": true,
+      "effectivePairs": 52,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 20,
+        "core": 38,
+        "deep": 52
+      },
+      "effectiveCorpusSha256": "13fdd57a29cce50162896cd4942159e29f71a01f137c452b1a06db5992d8d988"
+    },
+    {
+      "file": "antifragile.html",
+      "route": "/antifragile",
+      "url": "https://book-tiktok-library.vercel.app/antifragile?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.052Z",
+      "sha256": "0a87dadfd9df97085e5ef9b5d5746974e006ed4648f6ba45b25b671743a6a817",
+      "expectedSha256": "0a87dadfd9df97085e5ef9b5d5746974e006ed4648f6ba45b25b671743a6a817",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "a5183421896c836d58e9bfe0e7570558841228412e1a99ae307addfd671ce105"
+    },
+    {
+      "file": "children-of-captain-grant.html",
+      "route": "/children-of-captain-grant",
+      "url": "https://book-tiktok-library.vercel.app/children-of-captain-grant?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.255Z",
+      "sha256": "0feb7664d175ee2757b2d253257bb05abcb7c4051e4d60ee9c7575eace69a87a",
+      "expectedSha256": "0feb7664d175ee2757b2d253257bb05abcb7c4051e4d60ee9c7575eace69a87a",
+      "pass": true,
+      "effectivePairs": 37,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 14,
+        "core": 23,
+        "deep": 37
+      },
+      "effectiveCorpusSha256": "773d0aab833787642b5a84fb5d71d8c3cbe484a08041a50b096588932d3c0d7c"
+    },
+    {
+      "file": "white-fang.html",
+      "route": "/white-fang",
+      "url": "https://book-tiktok-library.vercel.app/white-fang?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.232Z",
+      "sha256": "58ed647f87221c19c01551ba39302ae3cce11d2b27c6070c71144422bd543572",
+      "expectedSha256": "58ed647f87221c19c01551ba39302ae3cce11d2b27c6070c71144422bd543572",
+      "pass": true,
+      "effectivePairs": 36,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 14,
+        "core": 21,
+        "deep": 36
+      },
+      "effectiveCorpusSha256": "d586b6b0cc486664f147ef01a8bba51d4c3d7dc2331ceb42ca870f76776a201e"
+    },
+    {
+      "file": "i-robot.html",
+      "route": "/i-robot",
+      "url": "https://book-tiktok-library.vercel.app/i-robot?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.337Z",
+      "sha256": "766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6",
+      "expectedSha256": "766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6",
+      "pass": true,
+      "effectivePairs": 112,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 30,
+        "core": 72,
+        "deep": 112
+      },
+      "effectiveCorpusSha256": "651d08c1cd47569a622e16261460c8024fa9d142fd3e9d56b68d564650f12725"
+    },
+    {
+      "file": "the-two-captains.html",
+      "route": "/the-two-captains",
+      "url": "https://book-tiktok-library.vercel.app/the-two-captains?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.395Z",
+      "sha256": "0d323774f2ea423516337f39a87ea04e50fb0cb9edf01c96d62b1f70d9fb11f7",
+      "expectedSha256": "0d323774f2ea423516337f39a87ea04e50fb0cb9edf01c96d62b1f70d9fb11f7",
+      "pass": true,
+      "effectivePairs": 144,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "effectiveCorpusSha256": "9b17d666df1ff98917ad70b1b900161d8305e4b11f75ae88c37f1aedf5c290c1"
+    },
+    {
+      "file": "the-wee-free-men.html",
+      "route": "/the-wee-free-men",
+      "url": "https://book-tiktok-library.vercel.app/the-wee-free-men?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.603Z",
+      "sha256": "8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3",
+      "expectedSha256": "8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3",
+      "pass": true,
+      "effectivePairs": 96,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 24,
+        "core": 60,
+        "deep": 96
+      },
+      "effectiveCorpusSha256": "14d93fb0b4ec06afbf84e551e4f84b5b179494671584c13bc35f0db7b4319553"
+    },
+    {
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "route": "/the-hitchhikers-guide-to-the-galaxy",
+      "url": "https://book-tiktok-library.vercel.app/the-hitchhikers-guide-to-the-galaxy?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.858Z",
+      "sha256": "06341887063738f626f4d1a1c622fd6562ff31d7cf84ac51135907e391cccc03",
+      "expectedSha256": "06341887063738f626f4d1a1c622fd6562ff31d7cf84ac51135907e391cccc03",
+      "pass": true,
+      "effectivePairs": 96,
+      "contentMode": "legacy",
+      "targetModes": {
+        "essential": 24,
+        "core": 60,
+        "deep": 96
+      },
+      "effectiveCorpusSha256": "d7a66826529028efea021cdd5b511ce43addb5ec23285be5e0f314ea736421e3"
+    },
+    {
+      "file": "amphibian-man.html",
+      "route": "/amphibian-man",
+      "url": "https://book-tiktok-library.vercel.app/amphibian-man?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.914Z",
+      "sha256": "378fdb81bf0b9a63931cd1425ead8b034b411e002b990b7cf00c49b7eb8c9c45",
+      "expectedSha256": "378fdb81bf0b9a63931cd1425ead8b034b411e002b990b7cf00c49b7eb8c9c45",
+      "pass": true,
+      "effectivePairs": 35,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 12,
+        "core": 19,
+        "deep": 35
+      },
+      "effectiveCorpusSha256": "de3df8a998d4ad09e1144630322503cf69768afc0e20ee0784d4c83b4fd962d1"
+    },
+    {
+      "file": "monday-begins-on-saturday.html",
+      "route": "/monday-begins-on-saturday",
+      "url": "https://book-tiktok-library.vercel.app/monday-begins-on-saturday?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.893Z",
+      "sha256": "1166d5d0dda434f40c3dae13ae5a27183cb3c219d26e4cda6a8678ae0d6a6464",
+      "expectedSha256": "1166d5d0dda434f40c3dae13ae5a27183cb3c219d26e4cda6a8678ae0d6a6464",
+      "pass": true,
+      "effectivePairs": 29,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 11,
+        "core": 17,
+        "deep": 29
+      },
+      "effectiveCorpusSha256": "92ba702ac174248360c74bb33b835aa108326b5f6b80efc6f3c3ec34c1b12017"
+    },
+    {
+      "file": "hard-to-be-a-god.html",
+      "route": "/hard-to-be-a-god",
+      "url": "https://book-tiktok-library.vercel.app/hard-to-be-a-god?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:43.964Z",
+      "sha256": "f7fdccdad690de5ac16741bf8a88daae8ea0895f1970b6fa01ab6124365c4489",
+      "expectedSha256": "f7fdccdad690de5ac16741bf8a88daae8ea0895f1970b6fa01ab6124365c4489",
+      "pass": true,
+      "effectivePairs": 33,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 8,
+        "core": 13,
+        "deep": 33
+      },
+      "effectiveCorpusSha256": "295ac63a2d136b46e958c28c3b8dfbf862689dbfb8fe382dc44563cd9dec4395"
+    },
+    {
+      "file": "adventures-of-huckleberry-finn.html",
+      "route": "/adventures-of-huckleberry-finn",
+      "url": "https://book-tiktok-library.vercel.app/adventures-of-huckleberry-finn?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.366Z",
+      "sha256": "9f9e18f4f3fdea2e41b599cc03b48795995c39b826943242f6e8668cec87f7c2",
+      "expectedSha256": "9f9e18f4f3fdea2e41b599cc03b48795995c39b826943242f6e8668cec87f7c2",
+      "pass": true,
+      "effectivePairs": 54,
+      "contentMode": "narrative",
+      "targetModes": {
+        "essential": 24,
+        "core": 36,
+        "deep": 54
+      },
+      "effectiveCorpusSha256": "dfbd0eb3c2331d6119fec4c119a3dabfb120fed731d4e29cebbfe3dd2a7677f4"
+    },
+    {
+      "file": "nonviolent-communication.html",
+      "route": "/nonviolent-communication",
+      "url": "https://book-tiktok-library.vercel.app/nonviolent-communication?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.277Z",
+      "sha256": "2747a12bb5a4303bceeb61c98422e38c58bc96c42345b2c7b8e9c5ee2563be07",
+      "expectedSha256": "2747a12bb5a4303bceeb61c98422e38c58bc96c42345b2c7b8e9c5ee2563be07",
+      "pass": true,
+      "effectivePairs": 30,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 16,
+        "core": 26,
+        "deep": 30
+      },
+      "effectiveCorpusSha256": "0c38761c15ecd3458454d896e7679bf4f905045e1e85923f3a8bd54b0b842824"
+    },
+    {
+      "file": "the-fifth-discipline.html",
+      "route": "/the-fifth-discipline",
+      "url": "https://book-tiktok-library.vercel.app/the-fifth-discipline?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.215Z",
+      "sha256": "c3d23c28dbb24456e135c5b4e6c91350ab494e110bf687b891ad6643721d318f",
+      "expectedSha256": "c3d23c28dbb24456e135c5b4e6c91350ab494e110bf687b891ad6643721d318f",
+      "pass": true,
+      "effectivePairs": 29,
+      "contentMode": "explanatory",
+      "targetModes": {
+        "essential": 11,
+        "core": 22,
+        "deep": 29
+      },
+      "effectiveCorpusSha256": "8c1c9f28b3f40413519c37b079643fccbd015e0b472b2bcb53aac73859e812d7"
+    },
+    {
+      "file": "fonts/Geist-Variable.woff2",
+      "route": "/fonts/Geist-Variable.woff2",
+      "url": "https://book-tiktok-library.vercel.app/fonts/Geist-Variable.woff2?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.258Z",
+      "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+      "expectedSha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+      "pass": true
+    },
+    {
+      "file": "fonts/GeistMono-Variable.woff2",
+      "route": "/fonts/GeistMono-Variable.woff2",
+      "url": "https://book-tiktok-library.vercel.app/fonts/GeistMono-Variable.woff2?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.501Z",
+      "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+      "expectedSha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+      "pass": true
+    },
+    {
+      "file": "fonts/LICENSE.txt",
+      "route": "/fonts/LICENSE.txt",
+      "url": "https://book-tiktok-library.vercel.app/fonts/LICENSE.txt?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.525Z",
+      "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+      "expectedSha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+      "pass": true
+    },
+    {
+      "file": "icons/app-icon.svg",
+      "route": "/icons/app-icon.svg",
+      "url": "https://book-tiktok-library.vercel.app/icons/app-icon.svg?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.544Z",
+      "sha256": "ec63329f3bc5264a13fd633315b9801216cd03413d753ef2932d05b5ad888f37",
+      "expectedSha256": "ec63329f3bc5264a13fd633315b9801216cd03413d753ef2932d05b5ad888f37",
+      "pass": true
+    },
+    {
+      "file": "icons/apple-touch-icon.png",
+      "route": "/icons/apple-touch-icon.png",
+      "url": "https://book-tiktok-library.vercel.app/icons/apple-touch-icon.png?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.639Z",
+      "sha256": "6776a52972b7c767ea0e2fc1666bf3181dc06aa311e5918a00ebd883055d816f",
+      "expectedSha256": "6776a52972b7c767ea0e2fc1666bf3181dc06aa311e5918a00ebd883055d816f",
+      "pass": true
+    },
+    {
+      "file": "icons/icon-192.png",
+      "route": "/icons/icon-192.png",
+      "url": "https://book-tiktok-library.vercel.app/icons/icon-192.png?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.765Z",
+      "sha256": "73bfe5b5f79c57aac6ec42ebf6c4420c179d2349bed7b877abb83e9d820b9b13",
+      "expectedSha256": "73bfe5b5f79c57aac6ec42ebf6c4420c179d2349bed7b877abb83e9d820b9b13",
+      "pass": true
+    },
+    {
+      "file": "icons/icon-512.png",
+      "route": "/icons/icon-512.png",
+      "url": "https://book-tiktok-library.vercel.app/icons/icon-512.png?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 200,
+      "checkedAt": "2026-10-31T20:42:44.798Z",
+      "sha256": "ad0bef907622476934e5871859d5713ad436be41dfa4a5976300a3f5ded78062",
+      "expectedSha256": "ad0bef907622476934e5871859d5713ad436be41dfa4a5976300a3f5ded78062",
+      "pass": true
+    }
+  ],
+  "excluded": [
+    {
+      "file": "collector-output/amphibian-man/story-data.json",
+      "route": "/collector-output/amphibian-man/story-data.json",
+      "url": "https://book-tiktok-library.vercel.app/collector-output/amphibian-man/story-data.json?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 404,
+      "checkedAt": "2026-10-31T20:42:44.952Z",
+      "sha256": "8771f7b39a17cfcdb52184e597ae559b9c3021cd1eadf14456c684ef7922376f",
+      "excluded": true,
+      "pass": true
+    },
+    {
+      "file": "editorial-audit/2026-10-31/publisher-findings/release-02.json",
+      "route": "/editorial-audit/2026-10-31/publisher-findings/release-02.json",
+      "url": "https://book-tiktok-library.vercel.app/editorial-audit/2026-10-31/publisher-findings/release-02.json?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 404,
+      "checkedAt": "2026-10-31T20:42:45.067Z",
+      "sha256": "10337d3f319472a7565b140b4d43bddfca8f81c2e6e3faf31d313af74f98202e",
+      "excluded": true,
+      "pass": true
+    },
+    {
+      "file": "skills/book-tiktok/SKILL.md",
+      "route": "/skills/book-tiktok/SKILL.md",
+      "url": "https://book-tiktok-library.vercel.app/skills/book-tiktok/SKILL.md?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 404,
+      "checkedAt": "2026-10-31T20:42:45.209Z",
+      "sha256": "12ae965e495c50a97e92d68464edd29d056de5da259223132f72d4c4d645423c",
+      "excluded": true,
+      "pass": true
+    },
+    {
+      "file": "private/index.html",
+      "route": "/private/index",
+      "url": "https://book-tiktok-library.vercel.app/private?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 404,
+      "checkedAt": "2026-10-31T20:42:45.461Z",
+      "sha256": "7d4db45f62f3a0cb9016400c78f778afb8fc1855ec82b7733acea7499d53b195",
+      "excluded": true,
+      "pass": true
+    },
+    {
+      "file": "research/index.html",
+      "route": "/research/index",
+      "url": "https://book-tiktok-library.vercel.app/research?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 404,
+      "checkedAt": "2026-10-31T20:42:45.742Z",
+      "sha256": "7ed3f66d711073c1dbbfede2860b51f76703ad2d1e3d5414e6d9cb83e4e853b9",
+      "excluded": true,
+      "pass": true
+    },
+    {
+      "file": ".env.local",
+      "route": "/.env.local",
+      "url": "https://book-tiktok-library.vercel.app/.env.local?release-proof=be5b08c2007c626d0ffe107d766d6be7197cf411",
+      "status": 404,
+      "checkedAt": "2026-10-31T20:42:45.876Z",
+      "sha256": "0d89174260d2dfce073aee74e678e906fb9a4f97f9e4dd5e50d2ecfca1227da9",
+      "excluded": true,
+      "pass": true
+    }
+  ]
+}

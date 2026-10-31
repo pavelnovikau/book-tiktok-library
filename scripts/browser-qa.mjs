@@ -35,7 +35,7 @@ if (!phase) {
   console.log(`Browser QA passed. Reports and screenshots: ${outputDir}`);
   process.exit(0);
 }
-if (![...phases, 'release-state', 'release-cards'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
+if (![...phases, 'release-state', 'release-cards', 'release-quotations'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let summary = {};
 let server;
@@ -294,8 +294,8 @@ if (phase === 'discovery') {
   const searches = [
     ['фантастика', catalogue.books.filter(book => book.genres.includes('science-fiction')).map(book => book.slug)],
     ['science fiction', catalogue.books.filter(book => book.genres.includes('science-fiction')).map(book => book.slug)],
-    ['стоицизм', ['a-guide-to-the-good-life']], ['стоики', ['a-guide-to-the-good-life']],
-    ['stoic', ['a-guide-to-the-good-life']], ['sci-fi', catalogue.books.filter(book => book.genres.includes('science-fiction')).map(book => book.slug)],
+    ...['стоицизм', 'стоики', 'stoic'].map(query => [query, catalogue.books.filter(book => book.tags.includes('stoicism')).map(book => book.slug)]),
+    ['sci-fi', catalogue.books.filter(book => book.genres.includes('science-fiction')).map(book => book.slug)],
     ['Сапольски', catalogue.books.filter(book => book.collections.includes('sapolsky')).map(book => book.slug)],
     ['Sapolsky', catalogue.books.filter(book => book.collections.includes('sapolsky')).map(book => book.slug)],
     ['Толкин', ['the-hobbit']], ['Tolkien', ['the-hobbit']],
@@ -304,7 +304,7 @@ if (phase === 'discovery') {
     ['ИИ', ['hermes-nous', 'akselerando']], ['Сунь цзы', ['the-art-of-war']],
     ['Философия и смысл', catalogue.books.filter(book => book.subjects.includes('philosophy-meaning')).map(book => book.slug)],
     ['Psychology and relationships', catalogue.books.filter(book => book.subjects.includes('psychology-relationships')).map(book => book.slug)],
-    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday']
+    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness']
       .flatMap(slug => {
         const book = catalogue.books.find(book => book.slug === slug);
         return book ? [[book.title.ru, [slug]], [book.title.en, [slug]]] : [];
@@ -364,7 +364,7 @@ if (phase === 'discovery') {
   if (await evaluate('document.documentElement.lang') !== 'en') await evaluate('languageButton.click()');
   if (await evaluate('document.documentElement.dataset.theme') !== 'light') await evaluate('themeButton.click()');
   await navigate('?type=nonfiction&topic=philosophy-meaning&q=стоицизм', 'document.getElementById("books").getAttribute("aria-busy") === "false"');
-  await checkVisible(['a-guide-to-the-good-life'], 'URL filter + language/theme persistence');
+  await checkVisible(catalogue.books.filter(book => book.workTypes.includes('nonfiction') && book.subjects.includes('philosophy-meaning') && book.tags.includes('stoicism')).map(book => book.slug), 'URL filter + language/theme persistence');
   assert(await evaluate('document.documentElement.lang === "en" && document.documentElement.dataset.theme === "light" && searchInput.value === "стоицизм"'), 'language/theme or query changed on navigation');
   const saveScreenshot = async name => {
     const filename = path.join(outputDir, name + '.png');
@@ -851,11 +851,14 @@ if (phase === 'release-closures') {
           const data = JSON.parse(document.getElementById('book-tiktok-data').textContent); const screen = data.screens.find(s => s.id === '${id}');
           const expected = document.createElement('template'); expected.innerHTML = screen.copy['${language}'].body;
           const scroll = document.querySelector('.slide-scroll');
+          scroll.scrollTop = scroll.scrollHeight;
+          const tail = [...scroll.querySelectorAll(':scope > p')].filter(node => getComputedStyle(node).display !== 'none').at(-1);
           return { title: document.querySelector('#story h1').textContent === screen.copy['${language}'].title,
             body: scroll.textContent.includes(expected.content.textContent), overflow: scroll.scrollWidth > scroll.clientWidth + 1 || document.documentElement.scrollWidth > innerWidth + 1,
+            lastLineReachable: tail && tail.getBoundingClientRect().bottom <= scroll.getBoundingClientRect().bottom + 1,
             sourceMap: screen.sources.length > 0 || screen.id === 'final' };
         })()`);
-        assert(result.title && result.body && !result.overflow && result.sourceMap, `${book}/${language}/${id}: changed-copy integration failed: ${JSON.stringify(result)}`);
+        assert(result.title && result.body && !result.overflow && result.sourceMap && result.lastLineReachable, `${book}/${language}/${id}: changed-copy integration failed: ${JSON.stringify(result)}`);
         checks.push({ book, language, theme, width, id, ...result });
       }
     }
@@ -915,6 +918,41 @@ if (phase === 'release-cards') {
     fs.writeFileSync(path.join(outputDir, `release-cards-${width}.png`), Buffer.from(capture.data, 'base64'));
   }
   summary = { checks, catalogueBooks: expectedBookCount, catalogueScreens: catalogue.books.reduce((n, book) => n + book.screenCount, 0) };
+}
+
+if (phase === 'release-quotations') {
+  await command('Emulation.setDeviceMetricsOverride', { width: 320, height: 568, deviceScaleFactor: 1, mobile: true });
+  await navigate('meditations.html', "document.querySelector('[data-start]')");
+  const checks = await evaluate(`(async () => {
+    const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
+    const style = document.createElement('style'); style.textContent = '.story-slide { animation: none !important; }'; document.head.append(style);
+    await document.fonts.ready;
+    const results = [];
+    for (const language of ['ru', 'en']) {
+      if (document.documentElement.lang !== language) languageButton.click();
+      document.querySelector('#contentsList [data-go-to=cover]').click();
+      const cover = document.querySelector('#story img');
+      if (!cover || !cover.complete || !cover.naturalWidth || !cover.src.startsWith('data:image/png;base64,')) throw Error('Archival cover is not embedded/decoded');
+      for (const theme of ['dark', 'light']) {
+        if (document.documentElement.dataset.theme !== theme) themeButton.click();
+        document.querySelector('[data-mode=deep]').click();
+        for (const screen of data.screens.filter(screen => screen.quotation)) {
+          document.querySelector('#contentsList [data-go-to="' + screen.id + '"]').click();
+          const scroll = document.querySelector('.slide-scroll');
+          const quote = screen.quotation;
+          if (!scroll.textContent.includes(quote.text[language]) || !scroll.textContent.includes(quote.translators[language]) || !scroll.textContent.includes(quote.locator)) throw Error(screen.id + ': quotation/translator/location changed');
+          scroll.scrollTop = scroll.scrollHeight;
+          const tail = [...scroll.querySelectorAll(':scope > p')].filter(node => getComputedStyle(node).display !== 'none').at(-1);
+          if (tail.getBoundingClientRect().bottom > scroll.getBoundingClientRect().bottom + 1) throw Error(screen.id + ': quotation tail unreachable');
+          if (screen.id === 'final' && !scroll.textContent.includes('XII.35')) throw Error('Rogovin concordance missing');
+          results.push({ id: screen.id, language, theme, exactQuotation: true, translatorAndLocator: true, lastLineReachable: true });
+        }
+      }
+    }
+    style.remove(); return results;
+  })()`);
+  assert(checks.length === 56, 'All14 quotation pairs in both themes must be rendered');
+  summary = { checks, archivalCoverEmbedded: true, scope: 'Rendered fidelity to independently accepted quotation objects; no new primary translation audit.' };
 }
 
 if (phase === 'offline') {

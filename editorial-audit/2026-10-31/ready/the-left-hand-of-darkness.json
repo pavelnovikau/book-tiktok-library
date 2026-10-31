@@ -1,0 +1,102 @@
+{
+  "slug": "the-left-hand-of-darkness",
+  "status": "ready-for-independent-check",
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-left-hand-of-darkness/story-data.json",
+      "canonicalPath": "collector-output/the-left-hand-of-darkness/story-data.json",
+      "sha256": "414248eaec347483c78255ad2d36d1e3511f600afd574ea7e373866426baf7d0",
+      "bytes": 58797
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html",
+      "canonicalPath": "collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html",
+      "sha256": "208312983d2af072daf094ab6a2d018813d55fdeabcfbd3b987ea0234c1ed9a4",
+      "bytes": 303450
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-left-hand-of-darkness/sources.md",
+      "canonicalPath": "collector-output/the-left-hand-of-darkness/sources.md",
+      "sha256": "050d0f69deb6cbe267b14a7f506fe6cc3beebda7cc24a958a7a53b6ff5f56fea",
+      "bytes": 15899
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-left-hand-of-darkness/QA.md",
+      "canonicalPath": "collector-output/the-left-hand-of-darkness/QA.md",
+      "sha256": "a796d7c14cb9a8c47730cb23e048a7b2007056457bf899c7518fad9e24859ceb",
+      "bytes": 2516
+    }
+  ],
+  "counts": {
+    "essential": 11,
+    "core": 15,
+    "deep": 35
+  },
+  "previousCounts": {
+    "essential": 36,
+    "core": 90,
+    "deep": 144
+  },
+  "screenPairs": 35,
+  "contentMode": "narrative",
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-left-hand-of-darkness.md",
+  "report": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-left-hand-of-darkness.md",
+    "canonicalPath": "editorial-audit/2026-10-31/books/the-left-hand-of-darkness.md",
+    "sha256": "16dc032d5d85bc3a876d3c42be4dd31c381f99e02ee5af0cef97a6f2cde3a7d1",
+    "bytes": 14715
+  },
+  "acquisitionEvidence": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/the-left-hand-of-darkness.md",
+    "canonicalPath": "editorial-audit/2026-10-31/source-rescue/the-left-hand-of-darkness.md",
+    "sha256": "1bae703aa5a08cdd6dd57428e269a5347fc8cf547d957bb21b581abeb956c8a4",
+    "bytes": 6515
+  },
+  "sourceScope": {
+    "completeBookRead": false,
+    "translationCollated": false,
+    "actualRead": "Estate Chapter 10 exposed primary prose; retained narrative portions of fourteen detailed LitCharts chapter guides (8 partial); embedded primary passages in Bloom; fresh complete EBSCO The Story. Prior estate Chapter 9/introduction reading recorded historically.",
+    "sufficiency": "Specific retained causal links mapped in acquisition report; professional guide is not an official author guide; no complete-book certificate."
+  },
+  "changes": [
+    "144 analytical pairs replaced by 35 original narrative pairs",
+    "Exact nested counts 36/90/144 to 11/15/35",
+    "Preserved spoiler answer/late-fate boundary, explicit Deep warning and generic saved label",
+    "Replaced access caveats inside story with verified events; omitted old misrepresented legend entirely",
+    "Retained artwork; removed technical caption from reading flow"
+  ],
+  "checks": {
+    "structure": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browserScreenVisits": 976,
+    "runtimeExceptions": 0,
+    "httpRuntimeRequests": 0,
+    "embeddedCorpusEqualsCanonical": true,
+    "profileCleanup": true
+  },
+  "unresolvedIssues": [
+    "Independent content and source-sufficiency review pending",
+    "No continuous full edition or published translation certificate",
+    "Physical iPhone/Safari not tested"
+  ],
+  "publicationAuthorizedByThisRecord": false,
+  "parentCorrections": {
+    "findings": [
+      "LHD-SR-001",
+      "LHD-SR-002",
+      "LHD-SR-003",
+      "LHD-SR-004"
+    ],
+    "changedScreens": [
+      "arrest",
+      "the-prison-truck",
+      "pulefen",
+      "waking-in-the-tent"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/the-left-hand-of-darkness-meaning-fix-closure.json"
+  }
+}

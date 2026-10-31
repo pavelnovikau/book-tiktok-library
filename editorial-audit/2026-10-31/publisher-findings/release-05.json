@@ -1,0 +1,335 @@
+{
+  "release": "05",
+  "date": "2026-10-31",
+  "state": "local-acceptance-passed-ready-to-open-pr",
+  "checkout": "/Users/pn/.t3/checkouts/book-tiktok-library-release05-20261031",
+  "baseMain": "be5b08c2007c626d0ffe107d766d6be7197cf411",
+  "acceptedCandidates": [
+    {
+      "slug": "meditations",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/meditations.json",
+      "reviewSha256": "6ffaadd236e17e3ed5ef415065ed124781a939872bbfbd74722e8d7c4ec97748",
+      "reviewMarkdownSha256": "cae31e77fdf0a728f79c3277a469b2602b61d9432f9d5e2cd92d5d545846ff6d",
+      "readyPath": "editorial-audit/2026-10-31/ready/meditations.json",
+      "readySha256": "c8d15e419da57095a8d63a38e50bd431bc86a11578383d1ce0875647fcd73346",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/meditations/story-data.json",
+          "sha256": "128d88333d3f1ae59efaa02b9c60c487c681a475b5efbf6dd9b086fad5e31a81"
+        },
+        {
+          "path": "collector-output/meditations/meditations.html",
+          "sha256": "993ee78a71b253a6eb49f33de9a3cacec099c5ed2973b740f4ae7ef14b70dcd0"
+        },
+        {
+          "path": "collector-output/meditations/sources.md",
+          "sha256": "cda0a93887935cdab7209fe7999310fd1cd2d69aed8c49c4cad139fa3d22a4ee"
+        },
+        {
+          "path": "collector-output/meditations/QA.md",
+          "sha256": "a07e6fc8fa7745193dce6aa101929d0d3abdeeff5dfae6d1f359e220b7081195"
+        },
+        {
+          "path": "collector-output/meditations/build-meditations.mjs",
+          "sha256": "a30c134ddb8297a5203fb6f9cf9d8d92d482d42258293666c6ff604a870fa858"
+        },
+        {
+          "path": "collector-output/meditations/assets/rogovin-1914-title-leaf.png",
+          "sha256": "ba5c1f8fb45c5a8c3202ca5b4a0346e85877180509b54fe0c5d084f8c2eea236"
+        },
+        {
+          "path": "collector-output/meditations/qa/browser-interactions.json",
+          "sha256": "7d179aef809798ce7b41bcbd2d78b28029a37d4bed4a47d266c16632a0058338"
+        },
+        {
+          "path": "collector-output/meditations/qa/browser-meditations.mjs",
+          "sha256": "9954e5faf0ded410dceccaa164cd07f9dd644892af08b3149fa5449715f7d3c2"
+        },
+        {
+          "path": "collector-output/meditations/qa/browser-traverse.json",
+          "sha256": "1f38a73be1c11ad222616e0a7c9c6af9700eda2f632776aedd8d6f7655a2270b"
+        },
+        {
+          "path": "collector-output/meditations/qa/build-inputs.json",
+          "sha256": "c209f3aad83d7dbc81d64472d01c500662bda362b5d0df15d467291008725f38"
+        },
+        {
+          "path": "collector-output/meditations/qa/content-scope.json",
+          "sha256": "029017af6aedb4ca15cef773bc3b0db3b71921c2ece9c29ed3174ce9076701ce"
+        },
+        {
+          "path": "collector-output/meditations/qa/quotation-check.json",
+          "sha256": "8c8c57407d8903b5251705c18e15cb06e7fdaaac52a41173f62e7cd87c175ef0"
+        },
+        {
+          "path": "collector-output/meditations/qa/structure-audit.json",
+          "sha256": "f3fdb6fb37f8b20c0d70fe58afb86ce4de2cae9c355a930bcf18f1c8275f7fb0"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/meditations-implementation.md",
+          "sha256": "e7cb0d95065006a7ae1b644696934aab0c2984219cbf8726b3acc597cd9797b0"
+        }
+      ],
+      "counts": {
+        "essential": 18,
+        "core": 30,
+        "deep": 39
+      },
+      "contentMode": "explanatory",
+      "sourceCount": 3,
+      "sourceScope": {
+        "ru": "Тематическое сокращение личных записей, а не новый перевод или программа самопомощи. Выборочно прочитаны и сопоставлены первичные места из всех двенадцати книг; сплошное чтение двух изданий не заявляется. Русские цитаты сверены с изображениями издания С. М. Роговина (Москва, Сабашниковы, 1914): орфография приведена к современной без замены слов, переносы сняты. Английские цитаты — опубликованный перевод George Long, проверенный по нумерованному тексту Project Gutenberg №15877; 13 из 14 цитат дополнительно сопоставлены с текстом MIT; окружающий пересказ написан отдельно. Все 14 пар относятся к одним и тем же местам. Для финала XII.36 у Лонга соответствует XII.35 у Роговина. Порядок тем составлен для этого сокращения; это не последовательность оригинальных записей. Полнота перевода с греческого и соответствие каждой строки двух изданий не удостоверяются.",
+        "en": "A thematic condensation of personal notes, not a new translation or a self-help programme. Selected primary passages across all twelve books were read and compared; continuous reading of both editions is not claimed. Russian quotations were checked visually against S. M. Rogovin’s original Moscow, Sabashnikov, 1914 edition; historical spelling is modernized without replacing words, and line-break hyphenation removed. English quotations use George Long’s published translation, checked in numbered Project Gutenberg #15877; 13 of 14 were also compared with MIT’s parallel witness; the surrounding paraphrase is original. All 14 pairs refer to the same passages. Long’s closing XII.36 corresponds to Rogovin’s XII.35. The thematic sequence is editorial, not the original order of the notes. Neither complete translation fidelity to Greek nor line-by-line equivalence of the two editions is certified."
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 7,
+          "core": 11,
+          "deep": 14
+        },
+        "en": {
+          "essential": 7,
+          "core": 11,
+          "deep": 14
+        }
+      },
+      "rootSha256": "c67776be94b1192b07fd5e1ce01c1ffb6972c38fbad477f70f0189016fd52328",
+      "publisherIntegration": [
+        "Exact accepted collector HTML copied; bespoke runtime, cover, quotation objects and source/evidence maps preserved",
+        "Removed/cover saved IDs discarded; existing valid stable IDs retained",
+        "Maintained main header/PWA/focus synchronized without rebuilding the reader"
+      ]
+    },
+    {
+      "slug": "antifragile",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/antifragile-source-rescue.json",
+      "reviewSha256": "297e16eb448056643320b951f49b52361db2c634fce7a47d1a453c5e1bc790c1",
+      "reviewMarkdownSha256": "65cbc0942fd54fa5d8310966f4cbf5d0b63e1507fceb2e2ef7fc84a930001d16",
+      "readyPath": "editorial-audit/2026-10-31/ready/antifragile.json",
+      "readySha256": "f8af157b19bf496677c9db63f6a978846d138abcfc1367da551aac2142680803",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/antifragile/story-data.json",
+          "sha256": "3b7757b72c98e0b043d3f6ea5cb272f7a95f40f46ce80ef1bff4d7c30af2fd64"
+        },
+        {
+          "path": "collector-output/antifragile/antifragile.html",
+          "sha256": "8924d78446012d13422258aabec7a1d0ed1494d0a91830da89da164c431f6234"
+        },
+        {
+          "path": "collector-output/antifragile/sources.md",
+          "sha256": "55e3f1d6d69280824041e25b99e1c8cc647aa284c6d7f28d2733723bc7a2bc37"
+        },
+        {
+          "path": "collector-output/antifragile/QA.md",
+          "sha256": "072dc5152182566a1c9df7d63fd7773f83e888bc8b81ddf266177e6fae1278ed"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/antifragile-sol-rescue.md",
+          "sha256": "762812d210bfc198a8604eb9b83dd9d30a83cf56689fdc7fbdf5ac78f2b63d02"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/antifragile.md",
+          "sha256": "55e3f1d6d69280824041e25b99e1c8cc647aa284c6d7f28d2733723bc7a2bc37"
+        }
+      ],
+      "counts": {
+        "essential": 11,
+        "core": 17,
+        "deep": 24
+      },
+      "contentMode": "explanatory",
+      "sourceCount": 7,
+      "sourceScope": {
+        "ru": "Сжатый довод по разрешённому началу книги, авторским текстам и подробному разговору о рукописи; поздние пояснения обозначены. Полное издание и все главы не прочитаны; полнота книги и точность опубликованного перевода не заявлены. Изложения своими словами; объём источников — в этом диалоге.",
+        "en": "A concise argument based on the authorized opening, author texts and a detailed manuscript conversation; later clarifications are identified. The complete edition and every chapter were not read; neither complete-book coverage nor fidelity to a published translation is claimed. Original-word explanation; source scope is given in this dialog."
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 5,
+          "deep": 7
+        },
+        "en": {
+          "essential": 3,
+          "core": 5,
+          "deep": 6
+        }
+      },
+      "rootSha256": "3246f907098b5c0fe023c5009a7a296d0daddecc507003a6bae22ba7d5ace5a6",
+      "publisherIntegration": [
+        "Exact accepted collector HTML copied; bespoke runtime, cover, quotation objects and source/evidence maps preserved",
+        "Removed/cover saved IDs discarded; existing valid stable IDs retained",
+        "Maintained main header/PWA/focus synchronized without rebuilding the reader"
+      ]
+    },
+    {
+      "slug": "the-left-hand-of-darkness",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/the-left-hand-of-darkness-source-rescue.json",
+      "reviewSha256": "3ca403f73a6a20c955c53266e27b9dbb86869e0460233cf404f95858e24ea75a",
+      "reviewMarkdownSha256": "09880945db98b652dd719b0984159c772f4dabcd9a02c72cc79c78b03c0b2d07",
+      "readyPath": "editorial-audit/2026-10-31/ready/the-left-hand-of-darkness.json",
+      "readySha256": "5c0cce17dd9fbaa7551a173e6ad20425e040406d01af31777565e4aff3d9ea8f",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/the-left-hand-of-darkness/story-data.json",
+          "sha256": "414248eaec347483c78255ad2d36d1e3511f600afd574ea7e373866426baf7d0"
+        },
+        {
+          "path": "collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html",
+          "sha256": "208312983d2af072daf094ab6a2d018813d55fdeabcfbd3b987ea0234c1ed9a4"
+        },
+        {
+          "path": "collector-output/the-left-hand-of-darkness/sources.md",
+          "sha256": "050d0f69deb6cbe267b14a7f506fe6cc3beebda7cc24a958a7a53b6ff5f56fea"
+        },
+        {
+          "path": "collector-output/the-left-hand-of-darkness/QA.md",
+          "sha256": "a796d7c14cb9a8c47730cb23e048a7b2007056457bf899c7518fad9e24859ceb"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/the-left-hand-of-darkness.md",
+          "sha256": "16dc032d5d85bc3a876d3c42be4dd31c381f99e02ee5af0cef97a6f2cde3a7d1"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/the-left-hand-of-darkness.md",
+          "sha256": "1bae703aa5a08cdd6dd57428e269a5347fc8cf547d957bb21b581abeb956c8a4"
+        }
+      ],
+      "counts": {
+        "essential": 11,
+        "core": 15,
+        "deep": 35
+      },
+      "contentMode": "narrative",
+      "sourceCount": 18,
+      "sourceScope": {
+        "ru": "Краткий пересказ своими словами романа 1969 года. Основание: официальный отрывок главы 10, подробные открытые поглавные материалы LitCharts и проверенные первичные отрывки, приведённые Блумом. Полное издание непрерывно не читалось; точность полного текста или опубликованного перевода не удостоверяется. Предания и часть побочных линий опущены, а не заменены нашими уроками. Внешние источники могут раскрыть сюжет.",
+        "en": "A concise original-word retelling of the 1969 novel, supported by the official Chapter 10 excerpt, detailed open LitCharts chapter guides and checked primary passages embedded in Bloom’s essay. No continuous complete-edition reading, full-text or published-translation fidelity is certified. Legends and some subplots are omitted rather than replaced with our lessons. External sources may reveal the plot."
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 4,
+          "deep": 9
+        },
+        "en": {
+          "essential": 3,
+          "core": 4,
+          "deep": 8
+        }
+      },
+      "rootSha256": "6d7925a6719fe58138a719f2352d6094322155da00e0bb3280b967591a95fc29",
+      "publisherIntegration": [
+        "Exact accepted collector HTML copied; bespoke runtime, cover, quotation objects and source/evidence maps preserved",
+        "Removed/cover saved IDs discarded; existing valid stable IDs retained",
+        "Maintained main header/PWA/focus synchronized without rebuilding the reader"
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/release-05-proof/left-hand-targeted-acceptance.json",
+      "closureSha256": "dc4d8919a9135df65f0bc09160ab47607e66c1f5002bf78b115a704e080c3f0e",
+      "checkedScreens": [
+        "arrest",
+        "the-prison-truck",
+        "pulefen",
+        "waking-in-the-tent"
+      ],
+      "closedFindings": [
+        "LHD-SR-001",
+        "LHD-SR-002",
+        "LHD-SR-003",
+        "LHD-SR-004"
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true
+    }
+  ],
+  "sealedIntake": [
+    "meditations",
+    "antifragile",
+    "the-left-hand-of-darkness"
+  ],
+  "sealedAt": "2026-10-31T20:45:29.389059+00:00",
+  "excluded": [],
+  "acceptedPairs": 98,
+  "catalogueBooks": 39,
+  "catalogueScreens": 2453,
+  "previousUnchangedReaders": 36,
+  "production": {
+    "state": "not-yet-released"
+  },
+  "git": null,
+  "evidenceLimits": [
+    "Meditations: selected passages from historical Rogovin/Long translations;14RU+14EN quotations independently checked, not continuous full editions or Greek collation. XII.36=Rogovin35 preserved.",
+    "Antifragile: retained central argument only; author Chapter1, unfinished-manuscript interview, essay, selected draft and later explanations remain distinct. No treatment, asset-allocation or investment-return prescription.",
+    "Left Hand: selected main-plot condensation from official excerpt, professional guides/reference and embedded primary passages; no new primary-novel or full-edition reading claimed. Original REQUIRES-FIXES preserved; four targeted publisher closures.",
+    "Browser emulation only; no physical iPhone/Safari/PWA certification."
+  ],
+  "publicBuildPolicy": "Only registered root readers, catalogue/PWA shell, fonts and icons. Collector/audit/private/full-text trees excluded.",
+  "priorReleaseVerification": "editorial-audit/2026-10-31/publisher-findings/release-04-verification.json",
+  "uiCoordination": "Fresh origin/main reconciliation remains at be5b08c; PR29 still separately root-owned. No shared skill/shell changes imported.",
+  "updatedAt": "2026-10-31T20:49:39.106333+00:00",
+  "checks": {
+    "library": "39books/2453screens; portable skill/example build/audit passed",
+    "rootStructural": {
+      "readers": 3,
+      "passesEach": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "hashAcceptance": "All READY deliverables/support/report/ready bytes verified. Two matching completed PASS bindings; four explicit Left Hand targeted closures. Entire effective root corpus/media/modes preserved.",
+    "previousRootsUnchanged": 36,
+    "idempotentShell": true,
+    "browser": {
+      "phases": [
+        "discovery",
+        "explanatory",
+        "focus",
+        "ios",
+        "narrative",
+        "offline",
+        "release-cards",
+        "release-closures",
+        "release-consent",
+        "release-quotations",
+        "release-reader-interactions",
+        "release-state",
+        "repaired",
+        "safe-area"
+      ],
+      "renderingVisits": 3200,
+      "viewports": [
+        320,
+        390,
+        1024,
+        1440
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "quotationDisplays": 56,
+      "quotationAttributionAndLastLines": true,
+      "fourLocalizedCorrectionsReachable": true,
+      "sourceScopeProgressRestart": true,
+      "renewedLeftHandConsent": true,
+      "offline": "PWA cached readers and embedded standalone cover/reading passed",
+      "physicalIPhone": false,
+      "runtimeErrors": 0
+    },
+    "publicAllowlist": 50,
+    "testHarnessCorrection": "Discovery had two inherited single-result Stoicism expectations. Both now include all controlled-topic matches, including newly registered Meditations; implementation was unchanged.",
+    "cleanup": "Every phase uses a unique mkdtemp profile, timeout30 Chrome processgroup and owned group/server/profile cleanup on normal/exception exit.",
+    "preservedReviewWhitespace": "Four inherited blank-at-EOF warnings in Meditations/Left Hand JSON/Markdown are preserved byte-for-byte because exact independent-review hashes bind acceptance. All other staged diff whitespace checks pass."
+  },
+  "proofDirectory": "editorial-audit/2026-10-31/publisher-findings/release-05-proof"
+}

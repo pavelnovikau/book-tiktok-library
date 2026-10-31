@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-left-hand-of-darkness",
+  "date": "2026-10-31",
+  "reviewType": "independent-story-and-source-sufficiency",
+  "verdict": "REQUIRES-FIXES",
+  "publicationApproved": false,
+  "summary": "A genuine 35-pair main-story rewrite with sufficient accountable evidence for a concise retained arc, but three local fidelity/source defects and one substantive omission require correction. No blanket complete-EPUB gate.",
+  "reviewedManifest": "editorial-audit/2026-10-31/ready/the-left-hand-of-darkness.json",
+  "beforeCapturedAtUtc": "2026-10-31T20:22:13.241566+00:00",
+  "afterCapturedAtUtc": "2026-10-31T20:29:26.956066+00:00",
+  "candidateStable": true,
+  "manifestAllSixReferencesMatch": true,
+  "reviewedFiles": [
+    {
+      "path": "editorial-audit/2026-10-31/ready/the-left-hand-of-darkness.json",
+      "bytes": 3918,
+      "beforeSha256": "f45a90bcb7e6a73e31c101ed4282dafcc7cea104356dca4776df373bfed0dd5b",
+      "afterSha256": "f45a90bcb7e6a73e31c101ed4282dafcc7cea104356dca4776df373bfed0dd5b",
+      "afterBytes": 3918,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/the-left-hand-of-darkness/story-data.json",
+      "bytes": 58797,
+      "beforeSha256": "5458a2ce6c8d367abdce00ef4aeee2417af38570ab2a64353aaeb4c09c36c12e",
+      "afterSha256": "5458a2ce6c8d367abdce00ef4aeee2417af38570ab2a64353aaeb4c09c36c12e",
+      "afterBytes": 58797,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html",
+      "bytes": 303450,
+      "beforeSha256": "eda2367da2961505ce454e7f4d33c59c2c3e55262677bbc109081bfa06502c43",
+      "afterSha256": "eda2367da2961505ce454e7f4d33c59c2c3e55262677bbc109081bfa06502c43",
+      "afterBytes": 303450,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/the-left-hand-of-darkness/sources.md",
+      "bytes": 15899,
+      "beforeSha256": "b618d4409d14482b2a389ffb516e9093aeed5fe7f633a94221c41ba4f3d8eb63",
+      "afterSha256": "b618d4409d14482b2a389ffb516e9093aeed5fe7f633a94221c41ba4f3d8eb63",
+      "afterBytes": 15899,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/the-left-hand-of-darkness/QA.md",
+      "bytes": 2516,
+      "beforeSha256": "d54f0f7e003b50490fbbb6ca41dcc78a78eb8eb4362855d4404cd83e3ba5a031",
+      "afterSha256": "d54f0f7e003b50490fbbb6ca41dcc78a78eb8eb4362855d4404cd83e3ba5a031",
+      "afterBytes": 2516,
+      "unchanged": true
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/the-left-hand-of-darkness.md",
+      "bytes": 14715,
+      "beforeSha256": "16dc032d5d85bc3a876d3c42be4dd31c381f99e02ee5af0cef97a6f2cde3a7d1",
+      "afterSha256": "16dc032d5d85bc3a876d3c42be4dd31c381f99e02ee5af0cef97a6f2cde3a7d1",
+      "afterBytes": 14715,
+      "unchanged": true
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/the-left-hand-of-darkness.md",
+      "bytes": 6515,
+      "beforeSha256": "1bae703aa5a08cdd6dd57428e269a5347fc8cf547d957bb21b581abeb956c8a4",
+      "afterSha256": "1bae703aa5a08cdd6dd57428e269a5347fc8cf547d957bb21b581abeb956c8a4",
+      "afterBytes": 6515,
+      "unchanged": true
+    }
+  ],
+  "baseline": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/baseline.zip",
+    "entry": "collector-output/the-left-hand-of-darkness/story-data.json",
+    "sha256": "3c7fc9bb65965e4e7b5edfa6859d6aade2447e324a10178f241acef7d9144f85",
+    "pairs": 144,
+    "counts": {
+      "essential": 36,
+      "core": 90,
+      "deep": 144
+    },
+    "contentMode": null,
+    "scope": "Read-only archive inspection for identity/count comparison; not an independent rereading of all 144 old pairs."
+  },
+  "readScope": {
+    "uniquePairsRead": 35,
+    "bilingualCopiesRead": 70,
+    "effectiveHtmlPairsCompared": 35,
+    "rootReaderExists": false,
+    "continuousRoutesReadInBothLanguages": true,
+    "cumulativeRouteScreenPositionsPerLanguage": 61,
+    "counts": {
+      "essential": 11,
+      "core": 15,
+      "deep": 35
+    },
+    "routes": {
+      "essential": [
+        "cover",
+        "the-keystone",
+        "the-envoy",
+        "somer-and-kemmer",
+        "supper-alone",
+        "before-the-king",
+        "away-from-the-capital",
+        "the-question",
+        "mishnory",
+        "a-factions-guest",
+        "final"
+      ],
+      "core": [
+        "cover",
+        "the-keystone",
+        "the-envoy",
+        "somer-and-kemmer",
+        "supper-alone",
+        "sinoth-valley",
+        "before-the-king",
+        "an-exile-at-sea",
+        "away-from-the-capital",
+        "otherhord",
+        "the-question",
+        "mishnory",
+        "money-and-snow",
+        "a-factions-guest",
+        "final"
+      ],
+      "deep": [
+        "cover",
+        "the-keystone",
+        "the-envoy",
+        "somer-and-kemmer",
+        "supper-alone",
+        "sinoth-valley",
+        "before-the-king",
+        "an-exile-at-sea",
+        "away-from-the-capital",
+        "otherhord",
+        "the-question",
+        "mishnory",
+        "money-and-snow",
+        "a-factions-guest",
+        "deep-spoiler-warning",
+        "the-answer",
+        "the-absent-news",
+        "arrest",
+        "the-prison-truck",
+        "pulefen",
+        "a-new-guard",
+        "waking-in-the-tent",
+        "food-for-the-ice",
+        "onto-the-glacier",
+        "days-on-the-ice",
+        "kemmer-in-the-tent",
+        "a-dead-brothers-voice",
+        "the-last-rations",
+        "sassinoth",
+        "betrayal-and-flight",
+        "the-border",
+        "the-second-audience",
+        "his-own-people",
+        "estre",
+        "final"
+      ]
+    },
+    "perPair": [
+      {
+        "screenId": "cover",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Framing; spoiler-safe premise.",
+        "evidence": [
+          "estate work page"
+        ]
+      },
+      {
+        "screenId": "the-keystone",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Ceremony and envoy placement supported.",
+        "evidence": [
+          "guide 1"
+        ]
+      },
+      {
+        "screenId": "the-envoy",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Nonexclusive communication/trade offer; countries kept distinct.",
+        "evidence": [
+          "estate chapter 10"
+        ]
+      },
+      {
+        "screenId": "somer-and-kemmer",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Fictional worldbuilding and Genly's miscategorization; no human biological proof.",
+        "evidence": [
+          "guide 7",
+          "guide 1",
+          "EBSCO"
+        ]
+      },
+      {
+        "screenId": "supper-alone",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Misread withdrawal supported; later explanation missing (004).",
+        "evidence": [
+          "guide 1",
+          "EBSCO"
+        ]
+      },
+      {
+        "screenId": "sinoth-valley",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Border quarrel and Tibe's rise supported.",
+        "evidence": [
+          "guide 1",
+          "estate chapter 10",
+          "EBSCO"
+        ]
+      },
+      {
+        "screenId": "before-the-king",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Coarse audience sequence corroborated independently; guide 3 access not reproduced.",
+        "evidence": [
+          "EBSCO",
+          "guide 1"
+        ]
+      },
+      {
+        "screenId": "an-exile-at-sea",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Theft, sonic attack and captain's legal protection supported.",
+        "evidence": [
+          "guide 6"
+        ]
+      },
+      {
+        "screenId": "away-from-the-capital",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Landboat and Fastness search supported.",
+        "evidence": [
+          "guide 5"
+        ]
+      },
+      {
+        "screenId": "otherhord",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Faxe, Presence and awkward ignorance supported.",
+        "evidence": [
+          "guide 5"
+        ]
+      },
+      {
+        "screenId": "the-question",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Five-year question and involvement supported; answer withheld.",
+        "evidence": [
+          "guide 5"
+        ]
+      },
+      {
+        "screenId": "mishnory",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Hospitality and named officials supported without relying on blocked guide 8.",
+        "evidence": [
+          "estate chapter 10"
+        ]
+      },
+      {
+        "screenId": "money-and-snow",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Packet, standing discourtesy, snow and warning supported.",
+        "evidence": [
+          "estate chapter 10"
+        ]
+      },
+      {
+        "screenId": "a-factions-guest",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Faction warning and renewed confidence supported.",
+        "evidence": [
+          "estate chapter 10"
+        ]
+      },
+      {
+        "screenId": "deep-spoiler-warning",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "First level-3 screen; warns before answer and late events.",
+        "evidence": [
+          "current and baseline spoiler promise"
+        ]
+      },
+      {
+        "screenId": "the-answer",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Yes and absence of an actionable route supported; not a new reader exercise.",
+        "evidence": [
+          "guide 5"
+        ]
+      },
+      {
+        "screenId": "the-absent-news",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Diary perspective, radio silence, Sarf and canceled reception supported.",
+        "evidence": [
+          "guide 11"
+        ]
+      },
+      {
+        "screenId": "arrest",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Arrest/drugging/transport supported; demand to deny mission unsupported (001).",
+        "evidence": [
+          "guide 13",
+          "EBSCO"
+        ]
+      },
+      {
+        "screenId": "the-prison-truck",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Huddle supported; garment detail unsupported (002).",
+        "evidence": [
+          "guide 13"
+        ]
+      },
+      {
+        "screenId": "pulefen",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Work, Asra and illness supported; treatment link conflated (003).",
+        "evidence": [
+          "guide 13",
+          "EBSCO"
+        ]
+      },
+      {
+        "screenId": "a-new-guard",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Disguise, stunning and body-removal ruse supported.",
+        "evidence": [
+          "guide 14"
+        ]
+      },
+      {
+        "screenId": "waking-in-the-tent",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Recovery and plan supported; political reconciliation omitted (004).",
+        "evidence": [
+          "guide 14",
+          "guide 15"
+        ]
+      },
+      {
+        "screenId": "food-for-the-ice",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Stolen provisions, ration planning and rest dispute supported.",
+        "evidence": [
+          "guide 15"
+        ]
+      },
+      {
+        "screenId": "onto-the-glacier",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Failed ascents, detour and arrival supported by indexed guide body.",
+        "evidence": [
+          "guide 16 (search-indexed body)"
+        ]
+      },
+      {
+        "screenId": "days-on-the-ice",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Routine, irritation and time-separated family supported.",
+        "evidence": [
+          "guide 16 (search-indexed body)",
+          "guide 18"
+        ]
+      },
+      {
+        "screenId": "kemmer-in-the-tent",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Attraction and unresolved choice preserved.",
+        "evidence": [
+          "guide 16 (search-indexed body)",
+          "guide 18",
+          "embedded primary in Bloom"
+        ]
+      },
+      {
+        "screenId": "a-dead-brothers-voice",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Voice event and unexplained mechanism preserved.",
+        "evidence": [
+          "guide 18",
+          "embedded primary in Bloom"
+        ]
+      },
+      {
+        "screenId": "the-last-rations",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Unequal rations and conditional political timing supported.",
+        "evidence": [
+          "guide 18"
+        ]
+      },
+      {
+        "screenId": "sassinoth",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Host, stove and transmission preparation in correct coarse order.",
+        "evidence": [
+          "guide 19"
+        ]
+      },
+      {
+        "screenId": "betrayal-and-flight",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Named betrayal and renewed flight supported.",
+        "evidence": [
+          "guide 19"
+        ]
+      },
+      {
+        "screenId": "the-border",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Shooting supported; intention left unresolved.",
+        "evidence": [
+          "guide 19",
+          "guide 20",
+          "embedded primary in Bloom"
+        ]
+      },
+      {
+        "screenId": "the-second-audience",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Audience/refusal supported; political purpose of defence omitted (004).",
+        "evidence": [
+          "guide 20"
+        ]
+      },
+      {
+        "screenId": "his-own-people",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Crew arrival and changed familiarity supported.",
+        "evidence": [
+          "guide 20"
+        ]
+      },
+      {
+        "screenId": "estre",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Family coda checked; no promise of restored public name.",
+        "evidence": [
+          "guide 20",
+          "embedded primary in Bloom"
+        ]
+      },
+      {
+        "screenId": "final",
+        "ruRead": true,
+        "enRead": true,
+        "htmlPairCompared": true,
+        "assessment": "Shared spoiler-safe atmospheric close; no moral/exercise.",
+        "evidence": [
+          "estate chapter 10",
+          "framing"
+        ]
+      }
+    ],
+    "metadataRead": [
+      "title",
+      "description",
+      "methodNote",
+      "all 18 global sources and notes",
+      "media alt/credit",
+      "cover",
+      "final",
+      "all titles and sections"
+    ],
+    "localFilesRead": [
+      "editorial-audit/2026-10-31/BRIEF.md",
+      "CONTRIBUTING.md",
+      "skills/book-tiktok/SKILL.md",
+      "skills/book-tiktok/references/content-model.md",
+      "skills/book-tiktok/references/data-contract.md",
+      "editorial-audit/2026-10-31/ready/the-left-hand-of-darkness.json",
+      "collector-output/the-left-hand-of-darkness/story-data.json",
+      "collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html",
+      "collector-output/the-left-hand-of-darkness/sources.md",
+      "collector-output/the-left-hand-of-darkness/QA.md",
+      "editorial-audit/2026-10-31/books/the-left-hand-of-darkness.md",
+      "editorial-audit/2026-10-31/source-rescue/the-left-hand-of-darkness.md"
+    ]
+  },
+  "sourceScope": {
+    "work": "Ursula K. Le Guin, The Left Hand of Darkness; standalone 1969 Ace novel. No complete edition underlying this condensation is identified/read; no published Russian translation collated.",
+    "completeEditionRead": false,
+    "continuousFullBookReading": false,
+    "translationCollated": false,
+    "sufficientForNarrowedArc": true,
+    "remainingLocalGapIds": [
+      "LHD-SR-001",
+      "LHD-SR-002"
+    ],
+    "wholeBookCertificate": false,
+    "primaryRead": [
+      {
+        "url": "https://www.ursulakleguin.com/left-hand-darkness",
+        "scope": "Work identity, original publication and estate excerpt links; bibliography/premise is not evidence for late events."
+      },
+      {
+        "url": "https://www.ursulakleguin.com/chapter-10-conversations-in-mishnory",
+        "scope": "Exposed Chapter 10 prose consulted across the visit, faction/communication discussion, crew explanation and closing drive. Selected primary excerpt, not full novel."
+      },
+      {
+        "url": "https://www.newyorker.com/books/page-turner/the-strange-friendships-of-ursula-k-le-guins-the-left-hand-of-darkness",
+        "scope": "Actual embedded primary passages checked; distinction between quotation and Bloom's interpretation retained. No endorsement of his necessary-sacrifice or blanket-incest conclusions."
+      }
+    ],
+    "secondaryRead": [
+      {
+        "url": "https://www.ebsco.com/research-starters/literature-and-writing/left-hand-darkness-ursula-k-le-guin/",
+        "scope": "Complete The Story section, by Susan E. Keegan (2022); literary-reference account, not novel."
+      },
+      {
+        "urls": [
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-1",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-5",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-6",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-7",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-11",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-14",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-15",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-18",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-19",
+          "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-20"
+        ],
+        "scope": "Relevant narrative summary passages inspected for each retained event. Professional LitCharts/Learneo study material; analysis paragraphs distinguished from reported events. Not an official estate/author guide and not all guide commentary read."
+      },
+      {
+        "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-16",
+        "scope": "Live open requests timed out. Read the search-indexed chapter-guide body returned by an exact scoped search, including family/time separation, failed ascents and kemmer. Indexed result labelled crawled two months ago; not a successful live-page or primary-text read."
+      }
+    ],
+    "accessNotReproduced": [
+      {
+        "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-3",
+        "result": "Robot/JavaScript verification page; not bypassed. Early audience independently checked against EBSCO and surrounding primary/guide context."
+      },
+      {
+        "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-8",
+        "result": "Robot/JavaScript verification page; not bypassed. Author's partial-read claim remains historical. Current Mishnory passage has direct Chapter 10 support."
+      },
+      {
+        "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13",
+        "result": "One ordinary shell URL fetch returned HTTP 202 with zero bytes; not counted as reading. Readable guide material was obtained via the web tool."
+      }
+    ],
+    "notReadFresh": [
+      "Estate Chapter 9",
+      "1976 introduction",
+      "other historical criticism in sources.md",
+      "complete owned/full-text edition"
+    ],
+    "noPurchasesCredentialsLoansOrBypass": true,
+    "noFullTextSavedToRepository": true,
+    "personalLibrarySearchRepeated": false
+  },
+  "findings": [
+    {
+      "id": "LHD-SR-001",
+      "severity": "medium",
+      "required": true,
+      "category": "unsupported_specificity_and_lost_uncertainty",
+      "screenIds": [
+        "arrest"
+      ],
+      "level": 3,
+      "exactWording": {
+        "ru": "От него требуют признать выдумкой собственную миссию.",
+        "en": "He is pressed to deny his own mission."
+      },
+      "defect": "The claimed evidence establishes drugged interrogation and missing memory, not this particular demand. The Chapter 13 guide explicitly distinguishes what Genly remembers from what he assumes. Giving the interrogators a specific demand converts the narrator's knowledge gap into an asserted event. This is not a claim that the demand cannot occur anywhere in the unread edition; it is unsupported by the checked sources offered for this screen.",
+      "smallestCorrection": {
+        "ru": "Удалить предложение «От него требуют признать выдумкой собственную миссию.» Остальной переход от ареста и препаратов к грузовику сохранить.",
+        "en": "Delete “He is pressed to deny his own mission.” Keep the arrest, drugs, gaps in memory and transport."
+      },
+      "evidence": [
+        {
+          "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13",
+          "location": "Summary paragraphs beginning 'Ai is strapped to a table' and 'As a political prisoner'; web extraction lines 206 and 242",
+          "role": "professional chapter guide, narrative summary"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/left-hand-darkness-ursula-k-le-guin/",
+          "location": "The Story: prison/transport and farm paragraphs",
+          "role": "named literary-reference account"
+        }
+      ],
+      "resolutionCriterion": "Remove the demand in both languages, or supply and check a lawful passage that establishes this exact event without overriding the narrator's uncertainty."
+    },
+    {
+      "id": "LHD-SR-002",
+      "severity": "medium",
+      "required": true,
+      "category": "unsupported_scene_detail",
+      "screenIds": [
+        "the-prison-truck"
+      ],
+      "level": 3,
+      "exactWording": {
+        "ru": "одежда и тела становятся единственным укрытием.",
+        "en": "clothing and bodies are their shelter."
+      },
+      "defect": "Clothing is added as part of the truck's survival mechanism. The checked guide explicitly places Genly naked in the truck and describes huddling for warmth; its provision of clothing/bedding belongs to the later farm. It supplies no basis for this garment shelter. Do not broaden that observation into a claim here about the exact condition of every prisoner.",
+      "smallestCorrection": {
+        "ru": "Удалить «одежда и»: «Заключённые жмутся друг к другу, пытаясь сохранить тепло; тела становятся единственным укрытием.» Можно просто закончить фразу после «тепло».",
+        "en": "Delete “clothing and”: “Prisoners huddle together for warmth; their bodies are their shelter.” Ending the sentence after “warmth” is sufficient."
+      },
+      "evidence": [
+        {
+          "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13",
+          "location": "Summary: waking naked in the van, first-night huddle, and arrival at the Farm; web extraction lines 206, 211–212 and 232–234",
+          "role": "professional chapter guide, narrative summary"
+        }
+      ],
+      "resolutionCriterion": "Remove the unsupported garment detail from both copies; retain the mutual warmth and survival sequence."
+    },
+    {
+      "id": "LHD-SR-003",
+      "severity": "medium",
+      "required": true,
+      "category": "causal_conflation",
+      "screenIds": [
+        "pulefen"
+      ],
+      "level": 3,
+      "exactWording": {
+        "ru": "В Пулефене заставляют работать и дают средства, подавляющие кеммер. Для Генли препараты особенно опасны.",
+        "en": "Pulefen means forced work and drugs that suppress kemmer. The substances are particularly dangerous to Genly."
+      },
+      "defect": "The second sentence refers directly to the kemmer suppressants just introduced. The checked accounts instead connect Genly's worsening illness and memory haze to repeated drug-assisted interrogations. The prose merges two treatments and gives an unverified biological cause for the illness that makes rescue necessary.",
+      "smallestCorrection": {
+        "ru": "«В Пулефене заставляют работать и подавляют кеммер препаратами. Генли снова подвергают допросам с инъекциями; после каждого ему всё хуже.» Затем сохранить Асра и невозможность выбраться самому.",
+        "en": "“Pulefen means forced work and drugs that suppress kemmer. Genly is also repeatedly drugged for interrogation, and grows sicker after each session.” Then retain Asra and his inability to escape."
+      },
+      "evidence": [
+        {
+          "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13",
+          "location": "Summary: kemmer suppression, then the separate paragraph beginning 'As a political prisoner Ai undergoes drug-assisted questioning'; web extraction lines 237 and 242",
+          "role": "professional chapter guide, narrative summary"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/left-hand-darkness-ursula-k-le-guin/",
+          "location": "The Story: paragraph beginning 'Once at the farm'",
+          "role": "named literary-reference account"
+        }
+      ],
+      "resolutionCriterion": "Separate suppression from interrogation treatment in RU and EN; do not assert the chemical identity of the drugs or add a new physiological explanation."
+    },
+    {
+      "id": "LHD-SR-004",
+      "severity": "medium",
+      "required": true,
+      "category": "substantive_narrative_omission",
+      "screenIds": [
+        "waking-in-the-tent",
+        "supper-alone",
+        "the-second-audience"
+      ],
+      "primaryScreenId": "waking-in-the-tent",
+      "level": 3,
+      "exactWording": {
+        "ru": "Разговор становится прямее; прежняя предполагаемая насмешка оказывается серьёзностью.",
+        "en": "Conversation becomes more direct; what he mistook for irony proves earnest."
+      },
+      "defect": "This sentence is supportable, but it is the only explanation offered at the reconciliation point. The full retained route never lets Estraven explain the apparent withdrawal at court or his aim for Gethen regardless of which country first joins. The opening's central political misunderstanding therefore remains unresolved: an inscrutable minister becomes a caring companion without the character's stated political purpose. The second audience says Genly defends him, but also omits the substance of that defence. This is a meaning/causality omission, not a demand to restore all political subplots or to give Estraven a single private motive.",
+      "smallestCorrection": {
+        "ru": "В сцене после спасения кратко передать объяснение Эстравена: «Эстравен объясняет, что хотел уберечь миссию от своей опалы. Он добивается союза Гетена с Экуменой, какая бы страна ни вступила первой.» Сохранить личную близость и дальнейшую неопределённость; добавить source 24 (guide Chapter 14) к изменённому экрану.",
+        "en": "At the post-rescue conversation, briefly attribute Estraven's explanation: “Estraven explains that he wanted to keep his disgrace from harming the mission. He wants Gethen to join the Ekumen, whichever country comes first.” Retain personal attachment and later uncertainty; add source 24 (guide Chapter 14) to the revised screen."
+      },
+      "evidence": [
+        {
+          "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-14",
+          "location": "Final conversation: paragraphs beginning 'Ai still doesn't understand Estraven's motivation' and the account of avoiding contamination after exile; web extraction lines 250–271",
+          "role": "professional chapter guide, reported character speech/events"
+        },
+        {
+          "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-20",
+          "location": "Second audience: Genly's account to Argaven; web extraction lines 234–239",
+          "role": "professional chapter guide, narrative summary"
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/left-hand-darkness-ursula-k-le-guin/",
+          "location": "The Story: opening withdrawal/misunderstanding and rescue paragraphs",
+          "role": "named literary-reference account"
+        }
+      ],
+      "resolutionCriterion": "Restore the character's stated political purpose and the protective meaning of his withdrawal in a brief attributed story beat. Do not turn it into a universal lesson or claim it exhausts his motives."
+    }
+  ],
+  "narrativeAssessment": {
+    "coreStory": "Concrete ceremonial, supper, hospitality, camp, rescue and ice scenes carry the revised story. Genly's prejudiced categories, gradual closeness, and incomplete understanding remain part of the narrative.",
+    "remainingMeaningIssue": "The political explanation of Estraven's apparent betrayal and world-level allegiance needs the small attributed restoration in LHD-SR-004.",
+    "shallowRoutes": "Both modes coherently stop at the hospitality/faction warning, before arrest. Essential omits exile logistics without stranding an undefined character; Core restores them. The foretelling answer is explicitly deferred, with a marked flashback in Deep.",
+    "storyMythFrame": "Estraven's diary perspective survives in the news screen. Embedded legends, much religious history and full kinship/vow background are omitted and disclosed. The Chapter 9 names are not conflated with the contemporary characters. Acceptable as a selected main-arc condensation, not a representation of the novel's complete polyphonic form.",
+    "ending": "Sassinoth transmission preparation precedes renewed flight; border loss precedes recovery/audience, crew arrival and family visit. No claim that every nation has already consented, Estraven's name is cleared, or his intention is certain.",
+    "parity": "No independent substantive RU/EN divergence found; required defects are shared. RU's less explicit description of Ashe and EN's 'former partner' remain compatible."
+  },
+  "spoilerAssessment": {
+    "result": "PASS within inspected data/static code",
+    "warningId": "deep-spoiler-warning",
+    "warningPosition": 15,
+    "firstAnswerPosition": 16,
+    "latePlotScreensAfterWarning": 19,
+    "shallowLastStoryId": "a-factions-guest",
+    "coverFinalDescriptionAndGlobalSourcesSafe": true,
+    "modeFilteredContents": true,
+    "genericSavedDeepLabel": true,
+    "limits": "Static inspection plus exact corpus checks; no new browser, fresh consent interaction or physical iPhone verification. Existing behavior uses Deep selection and an in-sequence warning; no new separate hard consent gate is claimed."
+  },
+  "freshChecks": {
+    "structuralAudit": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "countsAndNesting": true,
+    "uniqueStableIds": 35,
+    "allSourceReferencesValid": true,
+    "allCanonicalFieldsInHtmlEqual": true,
+    "defaults": "ru/dark/essential",
+    "browserRunsThisReview": 0,
+    "serversStarted": 0
+  },
+  "optionalTaste": [
+    {
+      "id": "LHD-SR-T01",
+      "required": false,
+      "screenIds": [
+        "a-factions-guest",
+        "pulefen"
+      ],
+      "note": "Some short beats remain synopsis-like. If polishing further, a source-backed comic exchange (the actual rocket/firecracker confusion in Chapter 10, or Asra's question in guide 13) could add humour without any modern moral, invented dialogue or fixed screen quota.",
+      "evidenceUrls": [
+        "https://www.ursulakleguin.com/chapter-10-conversations-in-mishnory",
+        "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13"
+      ]
+    },
+    {
+      "id": "LHD-SR-T02",
+      "required": false,
+      "screenIds": [
+        "final"
+      ],
+      "note": "The shared final is safe but generic after Estre. Its cadence could be quieter; do not let polishing replace Sorve's question with an editorial takeaway."
+    }
+  ],
+  "limits": [
+    "No whole-edition, continuous full-book or published-translation fidelity claim.",
+    "No fresh browser matrix, swipe/Safari or physical-iPhone validation; author QA counts are not this review's literary evidence.",
+    "A narrow retained arc can be supportable without a complete EPUB; these findings do not reinstate the superseded universal full-edition requirement.",
+    "Only the two assigned new review files are written; package, ready manifest, prior reports, root readers, shared shell, Git and publishing remain untouched."
+  ],
+  "handoff": "Correct LHD-SR-001 through LHD-SR-004 in both languages, rebuild with maintained tools, update the author's ready hashes, and independently check the revised passages and affected route continuity. This report is not a conditional PASS for future hashes.",
+  "outputs": [
+    "editorial-audit/2026-10-31/reviews/the-left-hand-of-darkness-source-rescue.md",
+    "editorial-audit/2026-10-31/reviews/the-left-hand-of-darkness-source-rescue.json"
+  ]
+}
+

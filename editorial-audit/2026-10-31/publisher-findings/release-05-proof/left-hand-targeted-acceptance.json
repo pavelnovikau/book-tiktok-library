@@ -1,0 +1,59 @@
+{
+  "checkedAt": "2026-10-31T20:45:06.480519+00:00",
+  "decision": "accepted-after-targeted-publisher-closure",
+  "independentVerdictPreserved": "REQUIRES-FIXES",
+  "reviewPath": "editorial-audit/2026-10-31/reviews/the-left-hand-of-darkness-source-rescue.json",
+  "reviewSha256": "3ca403f73a6a20c955c53266e27b9dbb86869e0460233cf404f95858e24ea75a",
+  "findingsClosed": [
+    "LHD-SR-001",
+    "LHD-SR-002",
+    "LHD-SR-003",
+    "LHD-SR-004"
+  ],
+  "checkedScreens": [
+    "arrest",
+    "the-prison-truck",
+    "pulefen",
+    "waking-in-the-tent"
+  ],
+  "sourcesActuallyChecked": [
+    {
+      "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13",
+      "role": "professional chapter guide",
+      "locations": "summary 206,211–212,232–242"
+    },
+    {
+      "url": "https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-14",
+      "role": "professional chapter guide",
+      "locations": "reported conversation 250–271"
+    },
+    {
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/left-hand-darkness-ursula-k-le-guin/",
+      "role": "Susan E. Keegan literary reference",
+      "locations": "The Story withdrawal and interrogation/rescue paragraphs"
+    }
+  ],
+  "assessment": {
+    "LHD-SR-001": "Unsupported specific demand removed in RU/EN; fragmented memory remains. Unverified northward arrest title/direction also removed.",
+    "LHD-SR-002": "Garment claim removed in RU/EN; huddling for warmth and arrival remain.",
+    "LHD-SR-003": "Kemmer suppression and repeated drug-assisted interrogation are separate; no added chemical identity or physiology.",
+    "LHD-SR-004": "Estraven explicitly explains protective withdrawal and planetary alliance regardless of first country; source24 added, uncertainty/intimacy retained."
+  },
+  "acceptedFinalHashes": {
+    "collector-output/the-left-hand-of-darkness/story-data.json": "414248eaec347483c78255ad2d36d1e3511f600afd574ea7e373866426baf7d0",
+    "collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html": "208312983d2af072daf094ab6a2d018813d55fdeabcfbd3b987ea0234c1ed9a4",
+    "collector-output/the-left-hand-of-darkness/sources.md": "050d0f69deb6cbe267b14a7f506fe6cc3beebda7cc24a958a7a53b6ff5f56fea",
+    "collector-output/the-left-hand-of-darkness/QA.md": "a796d7c14cb9a8c47730cb23e048a7b2007056457bf899c7518fad9e24859ceb"
+  },
+  "newHashesAcceptedExplicitly": true,
+  "originalReviewNotRelabeledAsPASS": true,
+  "unchangedRemainderEvidence": {
+    "source": "editorial-audit/2026-10-31/publisher-findings/the-left-hand-of-darkness-meaning-fix-closure.json",
+    "parentReported31OtherPairsAndOuterRuntimeUnchanged": true,
+    "parentFocusedBrowserAssertions": 36
+  },
+  "limits": [
+    "This publisher checked only the localized corrections against professional guides/reference, not new primary-novel reading.",
+    "No invented independent PASS, continuous full-edition reading or published-translation certification."
+  ]
+}

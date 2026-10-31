@@ -1,5 +1,13 @@
 # Next steps
 
+## 2026-10-31 — release05 handoff
+
+- Sealed batch: Meditations 18/30/39, Antifragile 11/17/24, Left Hand 11/15/35.98 accepted pairs; intended39 books/2,453 screens. Read [release05 receipt](editorial-audit/2026-10-31/publisher-findings/release-05.json) for exact PR/head/check/production state. A local pass does not establish deployment; if checks are pending, root receives the exact snapshot without child polling/watching.
+- Preserve two completed independent PASS bindings and Left Hand’s original REQUIRES-FIXES plus explicit final-hash publisher closure. Meditations quotation objects/translator attribution/XII concordance/archival cover stay exact; Antifragile’s central-argument scope and separate source roles remain honest. No whole-edition, full-translation or physical-iPhone certificate.
+- Other 36 roots and entries remain unchanged. New readers use accepted HTML with maintained shell, safe removed-ID fallback and stable progress. Left Hand has document-local renewed Deep consent and spoiler-safe resume. Public build has50 allowlisted assets; collector/audit/private/source paths stay excluded.
+- Release04 is closed by [distinct final verification](editorial-audit/2026-10-31/publisher-findings/release-04-verification.json): all 48 production hashes match merge be5b08c,37 books/2,499 screens, live source/state/consent/corrected-copy and private404 checks passed. Prior pending handoff and original receipt remain intact.
+- Root owns Settings PR29. If it merges after this branch base, reconcile latest main and synchronize its accepted maintained shell onto Meditations and Left Hand as well as Antifragile without replacing their effective corpora or safeguards. No unmerged UI/installed-skill import. New worker/reviewer handoffs arriving after seal belong to the next incremental release; never sweep READY.
+
 ## 2026-10-31 — release 04 handoff
 
 - Four-book batch sealed: Hard to Be a God 8/13/33, Huck 24/36/54, NVC 16/26/30 and The Fifth Discipline 11/22/29. Catalogue 37 books / 2499 screens. Read [release04 receipt](editorial-audit/2026-10-31/publisher-findings/release-04.json) for exact PR/head/check/production state; local checks do not establish deployment.

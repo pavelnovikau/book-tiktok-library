@@ -1,0 +1,1162 @@
+{
+  "release": "07",
+  "state": "local-acceptance-passed-ready-to-open-pr",
+  "baseMain": "6948b011da01dc0ae10f35a7926cca0d349628f7",
+  "sealedAt": "2026-10-31T21:21:15.722Z",
+  "acceptedCandidates": [
+    {
+      "slug": "thinking-fast-and-slow",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.json",
+      "reviewSha256": "dddf712ca9b107fa75886987a4ae71837eff8b7ee4e6b10f835fcc0cae7c2d92",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/thinking-fast-and-slow.json",
+      "readySha256": "34c60275dff860ce808d62defc22be9f24d0c447d673beb752763158f2d495dc",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/thinking-fast-and-slow-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/thinking-fast-and-slow/QA.md",
+          "sha256": "04ed268252cc1ce9d8a39d8e7e95884a6e9fffbb4a6dc53504e696c2b3c096e5"
+        },
+        {
+          "path": "collector-output/thinking-fast-and-slow/evidence-map.sol.json",
+          "sha256": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454"
+        },
+        {
+          "path": "collector-output/thinking-fast-and-slow/sources.md",
+          "sha256": "8901abb5e91268817c021f2c0c01ee4b9383e374792250132fac92832e58b952"
+        },
+        {
+          "path": "collector-output/thinking-fast-and-slow/story-data.json",
+          "sha256": "59e4d85e11c71bfb2e8a8550862e6cd88b0889712e22ebc1bfb130f73fec5cc3"
+        },
+        {
+          "path": "collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+          "sha256": "f1037058daeb7860a8aec44466e998adddd255cf2c82266205c6685aba020fe4"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/thinking-fast-and-slow.sol-implementation.md",
+          "sha256": "2fd700884e990d37dee3ea9caca0553d76c007fd124f4d92b17070b5b212af60"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/thinking-fast-and-slow-meaning-fix-closure.json",
+          "sha256": "666c155d20960ecdc2ce6c2e97fe36a80ba647a3b44378069369ecc483d5161f"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/thinking-fast-and-slow.json",
+          "sha256": "34c60275dff860ce808d62defc22be9f24d0c447d673beb752763158f2d495dc"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.json",
+          "sha256": "dddf712ca9b107fa75886987a4ae71837eff8b7ee4e6b10f835fcc0cae7c2d92"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.md",
+          "sha256": "a253b297918f2dfcf69809b94cc0b09158cf6659eb0de0806f031247b6782c89"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "KAH-01: directly read the owned AST2014 content92 epidemic outcomes; both frames retain the identical one-third/two-thirds distributions and zero/all branches.",
+        "KAH-02: directly read content84 three caveats; well-being, independent gambles and the separate long-shot exclusion are explicit in both copies. No contemporary financial/scientific approval."
+      ],
+      "counts": {
+        "essential": 14,
+        "core": 24,
+        "deep": 29
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 6,
+          "core": 10,
+          "deep": 13
+        },
+        "en": {
+          "essential": 6,
+          "core": 10,
+          "deep": 12
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 1031,
+          "core": 1791,
+          "deep": 2191
+        },
+        "en": {
+          "essential": 1198,
+          "core": 2092,
+          "deep": 2557
+        }
+      },
+      "sourceCount": 2,
+      "sourceScope": "The complete owned Russian EPUB was identified from OPF, copyright page, 117 spine entries, five parts, appendices and notes: Daniel Kahneman, Thinking, Fast and Slow (2011), Bakanov translation school 2013, AST 2014. Two local 5.2k/5.7k-word condensations were rejected. This implementation consulted selected supporting passages across all five parts, introduction and conclusion, not every paragraph of the volume continuously. Retained claims and cases are mapped to exact spine filenames below. The official Macmillan English introduction was additionally read; EN is an original translation of this condensation, not a full translation-fidelity comparison. No present-day scientific validity review is claimed; social priming and ego-depletion episodes are excluded rather than certified. The private edition and temporary extraction remain outside public Git.",
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "risk-policy",
+        "same-outcomes-new-frame"
+      ],
+      "rootSha256": "aa2cd20ed2016b26b052c9bb1a86bdd46d8038337a84312ac1cbcc5c053e2567"
+    },
+    {
+      "slug": "thinking-in-systems",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/thinking-in-systems.json",
+      "reviewSha256": "593d50c4cafda5130f3fa9a56bb23d1395561d695ec628d3376a14c7c75a424a",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/thinking-in-systems.json",
+      "readySha256": "30709315841208ae0597aea3e9354693c2f3efbf8e45abbf534d857cfd68774f",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/thinking-in-systems-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/thinking-in-systems/QA.md",
+          "sha256": "8f4ce54f3076a2854fb8d4815b43448de55aac700221244659e3a3442699a4cd"
+        },
+        {
+          "path": "collector-output/thinking-in-systems/evidence-map.sol.json",
+          "sha256": "e0c7b004ea50f639511c9ee73cec92b84da4786c4662af41c17753c421e42dca"
+        },
+        {
+          "path": "collector-output/thinking-in-systems/sources.md",
+          "sha256": "4055c8847494bee9c44341780b7ff3c238a0b50fa4ded22df672725c4b607ca0"
+        },
+        {
+          "path": "collector-output/thinking-in-systems/story-data.json",
+          "sha256": "e9de1d7485575ec0556b25186e12b278eb8aeda98d00f8b23e9288b0e62737a9"
+        },
+        {
+          "path": "collector-output/thinking-in-systems/thinking-in-systems.html",
+          "sha256": "221f404ec83bf0e58a9657176417120bad2c8871e47e2e7f8165c56884562c4b"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/thinking-in-systems.sol-implementation.md",
+          "sha256": "917fc6644d0e9d79802e8fa534449162a112db5a72cebaf7a00fed688cc74278"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/thinking-in-systems-meaning-fix-closure.json",
+          "sha256": "6fbef878c3a144c0576d4082e85646fbbb099b5df469d61f6fa7144d51ce12f7"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/thinking-in-systems.json",
+          "sha256": "30709315841208ae0597aea3e9354693c2f3efbf8e45abbf534d857cfd68774f"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/thinking-in-systems.json",
+          "sha256": "593d50c4cafda5130f3fa9a56bb23d1395561d695ec628d3376a14c7c75a424a"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/thinking-in-systems.md",
+          "sha256": "58c46816b1427a0894ace4571e4ab3bf8a0f476ba8cd211d961ca913f7d7bf67"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "MEAD-01: directly read official archive §§1/4; source6 supplies rainfall variability and monitored small steps, both screens map [4,6]. Prose remains exact. Clean edited source4 still supports Dartmouth; archive §6 intrusion excluded. Earlier essay is not final2008 collation."
+      ],
+      "counts": {
+        "essential": 13,
+        "core": 22,
+        "deep": 25
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 9,
+          "deep": 10
+        },
+        "en": {
+          "essential": 5,
+          "core": 9,
+          "deep": 10
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 899,
+          "core": 1543,
+          "deep": 1760
+        },
+        "en": {
+          "essential": 1023,
+          "core": 1767,
+          "deep": 2014
+        }
+      },
+      "sourceCount": 6,
+      "sourceScope": "Exact target: Donella H. Meadows, Thinking in Systems: A Primer, edited by Diana Wright, Chelsea Green 2008, ISBN 9781603580557. Relevant owned EPUB metadata were checked: the local books titled Системное мышление / Системное мышление 2019 / Практическое системное мышление — 2022 are Anatoly Levenchuk works, not Meadows, and were excluded. No owned Meadows or authorized RU edition was found/read. Read the official nine-page Bathtubs 101 draft excerpt (stocks/flows, equilibrium, Great Lakes, debt/deficit, inertia and decoupling); consulted the author's substantial Leverage Points essay across its mechanisms, examples, hierarchy and final qualifications; read the officially identified Dancing With Systems book excerpt, including limits to prediction/control and the fourteen practices. Viewed the lawful isee systems storefront preview as page images: cover/title, contents, author and editor prefatory material, not substantive main chapters or a complete edition. The preview's contents and editorial note connect the retained themes to the actual 2008 work, while the primary passages establish the retained mechanisms and examples. The draft PDF has a DRAFT header dated 3/28/13; that export label is not treated as an authorial revision after Meadows's death. The standalone Leverage Points essay and edited excerpt are not silently declared word-identical to the final volume. No unofficial full-book mirror was opened or downloaded. Parent correction additionally checked the earlier non-abbreviated official Dancing With Systems author archive at §§1/4; it is distinct from the edited book excerpt and not final-edition collation. Unrelated commercial material at §6 is excluded.",
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "history-before-intervention",
+        "models-in-the-open"
+      ],
+      "rootSha256": "fd5f4ae4107ab428df6dcdd0b1ef9a2ef2930a74991d986c55b983157d611484"
+    },
+    {
+      "slug": "behave",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/behave-source-rescue.json",
+      "reviewSha256": "72e30add2027f5b55f0a792f51e23c6b0567ba7be137a884036ef7c4b8c8dbfa",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/behave.json",
+      "readySha256": "809bf7e5d4f11c31a3a25cc1ecf52c3fba11ba7e3dd04a2fda8de461f5db8165",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/behave-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/behave/QA.md",
+          "sha256": "3fd768a93dd1f38bb4e565f012c8ecc5bbaaea4c4f76af7eab94f328a32dcc9a"
+        },
+        {
+          "path": "collector-output/behave/behave.html",
+          "sha256": "6476785797895dadee915ede5712e6c527feeb7fa6c673238823bf39d989e5ab"
+        },
+        {
+          "path": "collector-output/behave/sources.md",
+          "sha256": "b164d7022cfd920f3210090aa8470dcc7a53c815961193e2fafbb7c3d4da2533"
+        },
+        {
+          "path": "collector-output/behave/story-data.json",
+          "sha256": "3ea3bccc84d3d33721487b1b963fa40f0b03bfb8281a43727ea47fd7760083b9"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/behave-sol-rescue.md",
+          "sha256": "8dcefd68983b82d8b2348da3dc54104d7bb26057f87a4941dada858e848d3b95"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/behave-meaning-fix-closure.json",
+          "sha256": "b117022372b13749af696ec94e13df561e839c3152d774a62a19320ecc2769c1"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/behave.json",
+          "sha256": "809bf7e5d4f11c31a3a25cc1ecf52c3fba11ba7e3dd04a2fda8de461f5db8165"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/behave-source-rescue.json",
+          "sha256": "72e30add2027f5b55f0a792f51e23c6b0567ba7be137a884036ef7c4b8c8dbfa"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/behave-source-rescue.md",
+          "sha256": "ba936613525b9696daf955fb78823fd452debaf7a242aa9e9edaab1aea0a2ebf"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/behave.md",
+          "sha256": "8ec4567b28102ab37069d48c02557294c52254d10ce4141ccdaec4abd10cba40"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "BEH-SR-01: corrected copy distinguishes TED association from later herd-theft explanation and retains historical qualification. Independently validated original reviewer actual-reading record for 0:59:17.4–1:01:05.1 and 1:11:28.0–1:13:34.7; source6 mapped [4,6]. Publisher repeat Mindscape fetch timed out; no fresh direct reading claimed.",
+        "BEH-SR-02: directly read Nautilus warmth/competence/explicit envy passage and Penguin2017 rights attribution. Source7 mapped [3,7]; prose unchanged. Authorized excerpt, not entire chapter."
+      ],
+      "counts": {
+        "essential": 11,
+        "core": 18,
+        "deep": 22
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 5,
+          "deep": 7
+        },
+        "en": {
+          "essential": 3,
+          "core": 5,
+          "deep": 6
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 540,
+          "core": 890,
+          "deep": 1092
+        },
+        "en": {
+          "essential": 564,
+          "core": 958,
+          "deep": 1173
+        }
+      },
+      "sourceCount": 7,
+      "sourceScope": "All official Chapter 1 and opening Chapter 2, visible introduction opening, complete official TED2017 transcript and two author interviews; remaining chapters and published RU translation not read.",
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "cultural-history",
+        "different-thems"
+      ],
+      "rootSha256": "8ee4c27ae37e3a60087dc131c6f78509c7621676611847cd7363e81e13c8bc72"
+    },
+    {
+      "slug": "determined",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/determined-source-rescue.json",
+      "reviewSha256": "e0756f5c02eda0f250c6fb5ae55fda12ad6b2c7165d2164cf2f0f15135b590ee",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/determined.json",
+      "readySha256": "9d49b2f542f21c473b7926da184c78aca7ca2ea170e8fca22553390571e1179c",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/determined-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/determined/QA.md",
+          "sha256": "5441da2903f57a11de759384167677a7f406102de7e7d5c6b38f97db21f48a50"
+        },
+        {
+          "path": "collector-output/determined/determined.html",
+          "sha256": "a18c545ebbfe41ca1815727c7fb49a99c5305a8a9bfe5c2a4a45ce3af80bd92b"
+        },
+        {
+          "path": "collector-output/determined/sources.md",
+          "sha256": "3ba15367746c8aa6db70d1ffcd3a18ab0929498567395ae59731b265f17e1746"
+        },
+        {
+          "path": "collector-output/determined/story-data.json",
+          "sha256": "f713877bdf2db051d8f8243dc147b27abe56062ce18574b14f4d97c85a9719cd"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/determined-sol-rescue.md",
+          "sha256": "ff9ce4981bc91805808f6ee6ecd50ee244b17c4600a935d476689cefd8c22733"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/determined-meaning-fix-closure.json",
+          "sha256": "d014fb4840089ced9a099c72d10d2e817453718a1728ce8a123ee31d0f8cac13"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/determined.json",
+          "sha256": "9d49b2f542f21c473b7926da184c78aca7ca2ea170e8fca22553390571e1179c"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/determined-source-rescue.json",
+          "sha256": "e0756f5c02eda0f250c6fb5ae55fda12ad6b2c7165d2164cf2f0f15135b590ee"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/determined-source-rescue.md",
+          "sha256": "21d806a0e1bf153cd4afc36387c52d84e61353c3df53ebaf49d96a96a6eee455"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/determined.md",
+          "sha256": "7c117087196754103ec9919fbc4941225a0c837fe84d1a5b0e14f04c8a679cca"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "DET-SR-01: directly read Penguin sample printed22–23, readiness onset precedes reported time of first intention. Copy explicitly distinguishes that time from later reporting; dispute qualification remains."
+      ],
+      "counts": {
+        "essential": 9,
+        "core": 16,
+        "deep": 21
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 5,
+          "deep": 6
+        },
+        "en": {
+          "essential": 3,
+          "core": 4,
+          "deep": 6
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 438,
+          "core": 798,
+          "deep": 1037
+        },
+        "en": {
+          "essential": 468,
+          "core": 868,
+          "deep": 1131
+        }
+      },
+      "sourceCount": 4,
+      "sourceScope": "Selected actual Chapters 1–2 in official 53-page UK sample, substantive Big Brains author transcript, author précis abstract; full edition/later chapters/RU translation not read.",
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "libet"
+      ],
+      "rootSha256": "d8622cac2dd418e20b8092499375a22ef63bc744c5c527bfd658ca6fdab46fcb"
+    },
+    {
+      "slug": "project-hail-mary",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/project-hail-mary-source-rescue.json",
+      "reviewSha256": "b19cb8eb5c68f5e0d1403526e4507a22552d45d8d1d60259b71183ab84946d43",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/project-hail-mary.json",
+      "readySha256": "47f62f5bac7ae9ede8b10bb8b3f904672cdb6392879dba5e0d4cf97a19b31205",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/project-hail-mary-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/project-hail-mary/QA.md",
+          "sha256": "7f688a59d6e36ef7c2fe794996204802a0d1c9b94299ca27f95b69396c6df7a6"
+        },
+        {
+          "path": "collector-output/project-hail-mary/project-hail-mary.html",
+          "sha256": "1aed1f7662ef9f87857db0356c6cb963111504989fd01209a5ebbec33c4e1895"
+        },
+        {
+          "path": "collector-output/project-hail-mary/sources.md",
+          "sha256": "b51d9b04f3e95b7ed790e48f7431ea1585133976d421b7413e301ad151d81ba5"
+        },
+        {
+          "path": "collector-output/project-hail-mary/story-data.json",
+          "sha256": "3deaf06e4fee9ac34f7929034b6dff6bc9704ae6b932d1d3dfd4a484b8d3be97"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/project-hail-mary.md",
+          "sha256": "b6b50b047c7232e3ce8405aebf584d6d407f70c713218866c8bf51138d43f08a"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/project-hail-mary-meaning-fix-closure.json",
+          "sha256": "684d244efd5e24b99e7e2a5fadb3aaf12bf683adc917679697e158b39fdb3f3f"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/project-hail-mary.json",
+          "sha256": "47f62f5bac7ae9ede8b10bb8b3f904672cdb6392879dba5e0d4cf97a19b31205"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/project-hail-mary-source-rescue.json",
+          "sha256": "b19cb8eb5c68f5e0d1403526e4507a22552d45d8d1d60259b71183ab84946d43"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/project-hail-mary-source-rescue.md",
+          "sha256": "0164f5d3572db0e5d528945438a6cad20c92dfe6cc8b1b41936b6e6a0e430177"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "PHM-SR-001: directly read SuperSummary Chapter21 action account, which says the attempted treatment nearly killed Rocky. Both copies now retain that consequence. Professional secondary account; no later primary novel reading claimed. Deep-only scene retained."
+      ],
+      "counts": {
+        "essential": 8,
+        "core": 13,
+        "deep": 36
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 2,
+          "core": 4,
+          "deep": 9
+        },
+        "en": {
+          "essential": 2,
+          "core": 3,
+          "deep": 8
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 351,
+          "core": 566,
+          "deep": 1578
+        },
+        "en": {
+          "essential": 401,
+          "core": 645,
+          "deep": 1748
+        }
+      },
+      "sourceCount": 15,
+      "sourceScope": {
+        "completeBookRead": false,
+        "translationCollated": false,
+        "actualRead": "Complete official Chapters 1–3 sample; eight-page Amy Jurskis official teacher guide; reader-kit interview/mechanism and inspected schematic; actual PRH author interview; six public detailed commercial guide sections covering Chapters 5–30; selected AMA author answers; four accessible additional chapter checks.",
+        "sufficiency": "Retained action-level map in acquisition report. Teacher questions are not answers; secondary chronology is identified. No whole-book certificate."
+      },
+      "contentMode": "narrative",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "deep-an-attempt-to-help"
+      ],
+      "rootSha256": "726834b05daadcce8ff2e3831c277f9fc7641a04a7cdd1c34ae0ad174c665b6c"
+    },
+    {
+      "slug": "the-giver",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/the-giver.json",
+      "reviewSha256": "9accc96c9a5367081956db2fd96cc76f1d216c7da307af832c7d77be342f9a36",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/the-giver.json",
+      "readySha256": "c7075d8b31a35e6306247313a2fc77bd2fa31c59fb68b285b0f74e11cca912e1",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/the-giver-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/the-giver/QA.md",
+          "sha256": "b2b06d855c1ad8c04a4d1bd58a517b818a0b10bdb28d7d0c4f149ce16d952970"
+        },
+        {
+          "path": "collector-output/the-giver/source-evidence-map.json",
+          "sha256": "5975d93cfe0000d2a9cc12f1f5cb78b829308cf273847a9b54456a108e44e0d1"
+        },
+        {
+          "path": "collector-output/the-giver/sources.md",
+          "sha256": "cd9fe40c4c79d24325bfcd70785a73ad6ad4424b0298678c5c8dd16d1e8857a7"
+        },
+        {
+          "path": "collector-output/the-giver/story-data.json",
+          "sha256": "6a7607fa7e558cf9c4588c544a9dd6f588c328167f020b43b9f54124a2b6553d"
+        },
+        {
+          "path": "collector-output/the-giver/the-giver.html",
+          "sha256": "df3b56939d148878a85c9d27f3176371c17c0c9d34d9cadbfa19834d758c4236"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/the-giver-sol-implementation.md",
+          "sha256": "7ed59c3e7aaa2a6827db75e97689a206f8b168401a413c62f36bfd82d782743c"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/the-giver-meaning-fix-closure.json",
+          "sha256": "a7ba48566856f98945d180421708c12f94e828f04ce6b7d07435f7758096339b"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/the-giver.json",
+          "sha256": "c7075d8b31a35e6306247313a2fc77bd2fa31c59fb68b285b0f74e11cca912e1"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/the-giver.json",
+          "sha256": "9accc96c9a5367081956db2fd96cc76f1d216c7da307af832c7d77be342f9a36"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/the-giver.md",
+          "sha256": "600e35f942a8dc720d17625db389ff5939a90b07119a2df19e5bc24ca4ac5cfd"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "GIV-001: directly read official Scholastic guide printed24/42: catch with Asher and the brief change are supported, precise placement is not supplied. Unsupported in-hand staging removed without substituting an in-air claim. No primary chapter3 reading claimed."
+      ],
+      "counts": {
+        "essential": 11,
+        "core": 17,
+        "deep": 27
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 4,
+          "deep": 6
+        },
+        "en": {
+          "essential": 3,
+          "core": 4,
+          "deep": 6
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 374,
+          "core": 577,
+          "deep": 918
+        },
+        "en": {
+          "essential": 458,
+          "core": 705,
+          "deep": 1126
+        }
+      },
+      "sourceCount": 5,
+      "sourceScope": "No exact owned title/author edition was found after checking 218 Apple Books metadata candidates, including expanded and ZIP EPUBs. No target spine/body could be classified, and no complete novel was read continuously. Retained actions are supported by the substantial official 2003 Scholastic BookFiles guide, selected permission-labelled primary novel passages in the Selman/Elizabeth 2014 guide (chapters 9, 13, 16, 20; hardcover ISBN 9780547995663), selected book-specific secondary notes, the current official PRH reading guide and author interview, and Lowry’s 1994 Newbery speech. The evidence map labels each kind separately. The final perceptions are guide-backed, with author commentary preserving ambiguity, not a complete primary chapter-23 reading. No film/sequel facts or unsupported missing scenes were added. This supports independent checking of the retained sequence, not whole-book fidelity certification.",
+      "contentMode": "narrative",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "the-apple"
+      ],
+      "rootSha256": "d573580c7ee320d946d16da40935bf7528ec11f8196a933943a319c87de1849b"
+    },
+    {
+      "slug": "governing-the-commons",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/governing-the-commons.json",
+      "reviewSha256": "3045f0a3672e4fda590204fde1849d9478b4db3eff76b9707f71f70a3aefa0db",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/governing-the-commons.json",
+      "readySha256": "50a25a675751a5cb7b174b1430833cc11dc4350a113aaabf8353558e35027c97",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/governing-the-commons-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/governing-the-commons/QA.md",
+          "sha256": "6ecddfc0c3f0444b5c267fdb8f6c76d6445a441133291ddd3484135d5358f5b7"
+        },
+        {
+          "path": "collector-output/governing-the-commons/governing-the-commons-evidence-sol.json",
+          "sha256": "01a36e26a3c3f47bae3697cfea4832805ffdaec129e588d601b5050fdefe745d"
+        },
+        {
+          "path": "collector-output/governing-the-commons/governing-the-commons.html",
+          "sha256": "c7c9202389947d8f2a1d7f74c3a53c61af40c38625f4b7d48769989b4c138328"
+        },
+        {
+          "path": "collector-output/governing-the-commons/sources.md",
+          "sha256": "470693eebd65c4bfaa089e6683df9fb75f779c94acd748834cc16044f9c92910"
+        },
+        {
+          "path": "collector-output/governing-the-commons/story-data.json",
+          "sha256": "d47ae9df9ddfd46112b872aad9881405809fe8da429873b6a139e2b330793aec"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/governing-the-commons-sol-implementation.md",
+          "sha256": "a7e2b7abd0ec3be9ab8ec2e62bb87996dab2a977e38209f519435cfe3b66eaa6"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/governing-the-commons-meaning-fix-closure.json",
+          "sha256": "5b4a45651a06cdf2654c7d8ddd20d1f1860133e3e94902197808390023e6d7a2"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/governing-the-commons.json",
+          "sha256": "50a25a675751a5cb7b174b1430833cc11dc4350a113aaabf8353558e35027c97"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/governing-the-commons.json",
+          "sha256": "3045f0a3672e4fda590204fde1849d9478b4db3eff76b9707f71f70a3aefa0db"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/governing-the-commons.md",
+          "sha256": "32039ea086c642c75fa599e0026215fa7db10fa883b33682cf2724964be0c38a"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "GTC-001: original1990 Cambridge listing exposes chapter6 opening, printed182–216, with each system within a single country. RU now preserves distributive scope; EN unchanged. Direct /abs fetch timed out; actual original-publisher indexed listing read, not a secondary recap."
+      ],
+      "counts": {
+        "essential": 14,
+        "core": 24,
+        "deep": 33
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 6,
+          "deep": 8
+        },
+        "en": {
+          "essential": 4,
+          "core": 5,
+          "deep": 7
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 604,
+          "core": 944,
+          "deep": 1280
+        },
+        "en": {
+          "essential": 679,
+          "core": 1056,
+          "deep": 1420
+        }
+      },
+      "sourceCount": 10,
+      "sourceScope": "Elinor Ostrom, Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press 1990, DOI 10.1017/CBO9780511807763. Read official Canto 2015 excerpt pp. 1–10 carrying the opening text, and public openings of original chapters 2–6. Publisher detailed TOC/index link retained cases/principle headings to the book; referenced body pages were not thereby read. Selected earlier author 1988 pp. 108–119 verify case procedures; separate author 1990 Rudiments verifies definitions, origins/survival/performance; coauthored 1992 pp. 7–9 and notes 3–4 p. 40 explicitly tie eight principles to 1990 and reject sufficiency guarantees. Revised Nobel lecture draft 2009 checked only for later-material boundaries, not used as content or quoted. No owned Apple Books title/author match; expanded EPUB OPFs included in scoped read-only search, unrelated names suppressed. Complete target edition not acquired/read continuously, no published-Russian-translation certification. No unofficial full-book mirror accessed and no full primary texts retained in this public package.",
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "scope-of-the-book"
+      ],
+      "rootSha256": "874abe26fdc0a02968ab0dcc939894ec27672a1ff70fea136688301412fab9f7"
+    },
+    {
+      "slug": "a-wizard-of-earthsea",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/a-wizard-of-earthsea-source-rescue.json",
+      "reviewSha256": "6f10a7df879322f6de7e0f3c85ede5f2f8b6be15134ea0504b651068012a8e2d",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/a-wizard-of-earthsea.json",
+      "readySha256": "4817dc014e86eec925267b03a437338b09ad65c48e62fc514be31c10658fb459",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/a-wizard-of-earthsea-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/a-wizard-of-earthsea/QA.md",
+          "sha256": "bb861671c9921e7d56691e1df66f0e64f19d924d6700bfb9ceec48d17edd8002"
+        },
+        {
+          "path": "collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html",
+          "sha256": "4b6bd93cf14c9bb03104ae9596b400f17017f2d3c4fdb1c89ea63e121e757005"
+        },
+        {
+          "path": "collector-output/a-wizard-of-earthsea/sources.md",
+          "sha256": "8f7ac345518f42d64f2658ec9970f44033e8e13db53b493f7aae391ba1ec9ed8"
+        },
+        {
+          "path": "collector-output/a-wizard-of-earthsea/story-data.json",
+          "sha256": "1374a57ca107e08ebb89ae3dc4c90817f0f6cb064a35f6797024e75f504acd2d"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/a-wizard-of-earthsea.md",
+          "sha256": "6f64476842e609e192b39eee75f8f68d03069a195705189bfe83d043e32b109f"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/a-wizard-of-earthsea-meaning-fix-closure.json",
+          "sha256": "34e9317af863dfb9d0e6c99e3fe46f60b64c5887398c6838be124f0597a6008b"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/a-wizard-of-earthsea.json",
+          "sha256": "4817dc014e86eec925267b03a437338b09ad65c48e62fc514be31c10658fb459"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/a-wizard-of-earthsea-source-rescue.json",
+          "sha256": "6f10a7df879322f6de7e0f3c85ede5f2f8b6be15134ea0504b651068012a8e2d"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/a-wizard-of-earthsea-source-rescue.md",
+          "sha256": "5206b9f3111d7b2c24c3bb5399e21da661c8c9714774ea9ae20ed6d95dcd1f53"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "ESR-01: directly read NEA LowTorning/Pendor narrative, presence threatens fishermen, therefore departure follows protection. That cause now survives Essential.",
+        "ESR-02: directly read NEA dragon negotiation, offered knowledge supports unknown name rather than objective namelessness. Ending author-audio evidence remains original independent reviewer work; no new listening or naming rite claimed."
+      ],
+      "counts": {
+        "essential": 17,
+        "core": 24,
+        "deep": 28
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 7,
+          "deep": 8
+        },
+        "en": {
+          "essential": 5,
+          "core": 6,
+          "deep": 8
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 799,
+          "core": 1135,
+          "deep": 1339
+        },
+        "en": {
+          "essential": 926,
+          "core": 1307,
+          "deep": 1548
+        }
+      },
+      "sourceCount": 5,
+      "sourceScope": {
+        "completeBookRead": false,
+        "translationCollated": false,
+        "actualRead": "NEA authorised prose excerpts in full written Audio Guide; newly acquired NEA Teacher Guide; official author climax recording via full locally generated ASR transcript; detailed public EBSCO first-novel event accounts",
+        "primaryClimaxLimit": "ASR-mediated consultation, not human listening or official transcript; recording is a climax extract, not entire chapter",
+        "sufficiency": "Retained concise causal arc mapped to these sources, not full-edition fidelity"
+      },
+      "contentMode": "narrative",
+      "legacyMigration": null,
+      "checkedScreens": [
+        "dragon-attention",
+        "vetch-voyage"
+      ],
+      "rootSha256": "78e46057c89b12161f05ce8832f4169dd54b4611380b2fb7d4f575f9349d9270"
+    },
+    {
+      "slug": "theory-of-constraints",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/theory-of-constraints-source-rescue.json",
+      "reviewSha256": "b426909e6384c14967c4975491e90a051ab0f58d976b8dbbf39cd8607d21669b",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/theory-of-constraints.json",
+      "readySha256": "8aa6a61d3ef1a777eb69fc8e028e054f6423345ce08545da2400ce18b9ad144a",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/theory-of-constraints-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/theory-of-constraints/QA.md",
+          "sha256": "01e9477049e6f219b59a9eedf71015bb9080a6334464a4806a9552f694995cfa"
+        },
+        {
+          "path": "collector-output/theory-of-constraints/sources.md",
+          "sha256": "027656823c752fcb16257b726c6e90d0bc97b3420d37e54686d129ae50a08d06"
+        },
+        {
+          "path": "collector-output/theory-of-constraints/story-data.json",
+          "sha256": "8c3113870edc224958c97fa92672fb055b53c1c269cfc5328fb4b44ddbe4b35e"
+        },
+        {
+          "path": "collector-output/theory-of-constraints/theory-of-constraints.html",
+          "sha256": "e428216494e9138e124ed9a9e3d5f94a66ac59b91c6295a826f0164bb98ee841"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/theory-of-constraints-sol-rescue.md",
+          "sha256": "54b9cdd1ba4ad9f3757a104e75df2c4e29e387ab7ad545e5be2f8a5926662d36"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/theory-of-constraints-meaning-fix-closure.json",
+          "sha256": "f273081a8a56c6af3773d197fe897f50fc532fc0df01e069a65752613eec1163"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/theory-of-constraints.json",
+          "sha256": "8aa6a61d3ef1a777eb69fc8e028e054f6423345ce08545da2400ce18b9ad144a"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/theory-of-constraints-source-rescue.json",
+          "sha256": "b426909e6384c14967c4975491e90a051ab0f58d976b8dbbf39cd8607d21669b"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/theory-of-constraints-source-rescue.md",
+          "sha256": "f6916837c665cadf276edd7a1ec21f5dfbeda9bfd49cdcb34386f8445c9d1064"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/theory-of-constraints.md",
+          "sha256": "b46918fb9b4781ee58397277b51a67c34e2c5a6f726da3294fc8904be7362e21"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "TOC-SR-01: directly read owned Alpina2014 The Choice chapter2 paragraph on store-total BigBrand sales pricing plus rapid replenishment, daily ordering and returns. Both copies preserve the pricing incentive and corpus framing; no private source copied."
+      ],
+      "counts": {
+        "essential": 13,
+        "core": 22,
+        "deep": 26
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 6,
+          "deep": 8
+        },
+        "en": {
+          "essential": 4,
+          "core": 6,
+          "deep": 7
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 603,
+          "core": 1046,
+          "deep": 1263
+        },
+        "en": {
+          "essential": 675,
+          "core": 1157,
+          "deep": 1401
+        }
+      },
+      "sourceCount": 9,
+      "sourceScope": "Selected TOC corpus: author 1996 essay; complete official Critical Chain ch.11 excerpt; owned complete Choice edition with prologue and complete ch.2/5/6/18 read; GRL five steps/official DBR and selected actual practitioner project paper. Goal/It’s Not Luck premise/role and Handbook contents only, not full narrative/chapter fidelity.",
+      "contentMode": "explanatory",
+      "legacyMigration": "tocbook",
+      "checkedScreens": [
+        "return-and-replenish"
+      ],
+      "rootSha256": "a300d918c40b5eb2c21dd7a3e99a8705457abe932120c9fe52e27aeea98588cf"
+    },
+    {
+      "slug": "1873",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/1873-source-rescue.json",
+      "reviewSha256": "50af6c7ad1ead323beea8d287c82dce6320e3fc9f5d09e42c722e2be1d2e8135",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/1873.json",
+      "readySha256": "9ed3079917c1cd65868ec786c3fe0cd7fc24e32ae4a1ebdd0e80e43adde841a5",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/1873-meaning-fix-closure.json",
+      "files": [
+        {
+          "path": "collector-output/1873/1873.html",
+          "sha256": "d872c05d5a2248cd0ed0add77f17dfc162ef80d0ce215854589999be8091e934"
+        },
+        {
+          "path": "collector-output/1873/QA.md",
+          "sha256": "9a962b0f5bf0c30987f9b61ddfa75bcdc1e6cf3fe34cf6386c897eb619939ccf"
+        },
+        {
+          "path": "collector-output/1873/sources.md",
+          "sha256": "9473c791ba4b327d2c0a2c7deb1b4d5c36f06a1d4b993bb428dd3285457152cd"
+        },
+        {
+          "path": "collector-output/1873/story-data.json",
+          "sha256": "8d4f49824fd9513867f163f45f8eba6e0576905c637491e90be8924fd9f86c33"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/1873-sol-rescue.md",
+          "sha256": "35dabdea67f2a5c48d36a7cd8e67bb1b3611fc39773243b2ebcc3b104c086ab1"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/publisher-findings/1873-meaning-fix-closure.json",
+          "sha256": "e4992c4d86382ea0f5fc9c473e1a82e20eef9f9982f10a7bc6e12baabbd9697e"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/1873.json",
+          "sha256": "9ed3079917c1cd65868ec786c3fe0cd7fc24e32ae4a1ebdd0e80e43adde841a5"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/1873-source-rescue.json",
+          "sha256": "50af6c7ad1ead323beea8d287c82dce6320e3fc9f5d09e42c722e2be1d2e8135"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/1873-source-rescue.md",
+          "sha256": "afeeae00d89000e7ca7772de810fe71797b480a4360a9911d37f4d58feae991c"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/1873.md",
+          "sha256": "c794d0ba1e418faa54e2cb8000c4fcfc04140a88fe012e693f32a6f21bce769b"
+        }
+      ],
+      "decision": "accepted-localized-findings-with-original-review-binding",
+      "findingAcceptance": [
+        "1873-SR-01: directly read KeenOn16:51–18:20/34:24 and Tyler bimetallism exchange; silver/reserves/deflation remains Ahamed’s interpretation.",
+        "1873-SR-02: directly read Tyler actual Gladstone exchange: Ahamed asks, Cowen proposes principled repayment, Ahamed agrees invasion was not for bond profit. No private-motive proof or suspect debt totals claimed."
+      ],
+      "counts": {
+        "essential": 10,
+        "core": 17,
+        "deep": 21
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 5,
+          "deep": 6
+        },
+        "en": {
+          "essential": 3,
+          "core": 5,
+          "deep": 6
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 491,
+          "core": 835,
+          "deep": 1043
+        },
+        "en": {
+          "essential": 520,
+          "core": 881,
+          "deep": 1104
+        }
+      },
+      "sourceCount": 5,
+      "sourceScope": "Complete available official opening sample, Ahamed’s specific 1873 interview answers, narrow Cooke and 1871–1873 monetary chronology checks. Full 2026 book/later chapters/RU translation not read.",
+      "contentMode": "explanatory",
+      "legacyMigration": "book1873",
+      "checkedScreens": [
+        "gold-transition",
+        "egypt"
+      ],
+      "rootSha256": "eafc395c3d93333020f4951dfe7673c6989e36626f842f69d67a2bd316fe83a7"
+    },
+    {
+      "slug": "the-structure-of-scientific-revolutions",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/the-structure-of-scientific-revolutions.json",
+      "reviewSha256": "46605f8bb4afa8e5b22d60e7801852cee17b3a76955e7f4a0d9d99fac382900a",
+      "originalVerdict": "PASS",
+      "readyPath": "editorial-audit/2026-10-31/ready/the-structure-of-scientific-revolutions.json",
+      "readySha256": "93cb0ad55e58af281a93f7a4b053ae85a4091fc3dfd8bd14df80db994ed933ad",
+      "parentClosure": null,
+      "files": [
+        {
+          "path": "collector-output/the-structure-of-scientific-revolutions/QA.md",
+          "sha256": "54645af03062f007554cc8cd1ac97183fb054cde65e173632c03506baa59c029"
+        },
+        {
+          "path": "collector-output/the-structure-of-scientific-revolutions/sources.md",
+          "sha256": "89920fce68c45c3965bb252c2b538c8bebf235e9c0411d7b48e44ddab3bb946e"
+        },
+        {
+          "path": "collector-output/the-structure-of-scientific-revolutions/story-data.json",
+          "sha256": "338bf6ec5269099e788ae7727d270e9a8eb3ac1db6ebb004bf9473c5106bf40a"
+        },
+        {
+          "path": "collector-output/the-structure-of-scientific-revolutions/the-structure-of-scientific-revolutions.html",
+          "sha256": "3e02c8398d469b69d48c079c74ff83b1fbcdf211a43eeb5a3ab941d4216b13ca"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/the-structure-of-scientific-revolutions-sol-implementation.md",
+          "sha256": "16002037a95e6b45db39ffc27fbd2c6a40be040a38bceec58b3992cfc5f43977"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/the-structure-of-scientific-revolutions.json",
+          "sha256": "93cb0ad55e58af281a93f7a4b053ae85a4091fc3dfd8bd14df80db994ed933ad"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/the-structure-of-scientific-revolutions.json",
+          "sha256": "46605f8bb4afa8e5b22d60e7801852cee17b3a76955e7f4a0d9d99fac382900a"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/the-structure-of-scientific-revolutions.md",
+          "sha256": "6454043a241801aad824de8b10626b3e81395f1a83b51130214b85cfdd469dd7"
+        }
+      ],
+      "decision": "accepted-matching-independent-PASS",
+      "findingAcceptance": [],
+      "counts": {
+        "essential": 16,
+        "core": 27,
+        "deep": 35
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 6,
+          "core": 10,
+          "deep": 13
+        },
+        "en": {
+          "essential": 6,
+          "core": 10,
+          "deep": 12
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 982,
+          "core": 1692,
+          "deep": 2207
+        },
+        "en": {
+          "essential": 1164,
+          "core": 2001,
+          "deep": 2620
+        }
+      },
+      "sourceCount": 4,
+      "sourceScope": {
+        "targetWork": "Thomas S. Kuhn, The Structure of Scientific Revolutions (1962); enlarged second edition (1970) with Postscript—1969.",
+        "primaryReading": "Selected actual passages: Colorado identified second-edition selection, printed pp. 1–3, 10–13, 174–189, 198–207; Illinois main text pp. 23–35, 52–69, 77–85, 92–95, 98–107, 118–123; FGCU chapter XIII pp. 160–173 credited to 1996 third edition.",
+        "editionBoundary": "Colorado imprint and postscript identified. Illinois printing unidentified. FGCU third-edition reserve selection kept separate; no full second-edition collation.",
+        "ownedAppleBooks": "No assigned-title/author match among parsed OPF, plist and EPUB metadata; no unrelated names exposed; no matching owned spine/body can be certified.",
+        "fullContinuousReading": false,
+        "retainedArcSupport": "Mapped actual primary passages support the retained normal-science/paradigm/anomaly/crisis/revolution/incommensurability/progress argument and historical cases. No essential retained link is left unsupported.",
+        "scopeLimits": "Selective condensation, not every case or complete chapter-by-chapter coverage; not a translation certificate or independent historical validation."
+      },
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [],
+      "rootSha256": "1f1a10ff2d00fbf4b52bbe3b6d228433b3fa6fa0a1e85c6bfdbc914f08a03f91"
+    },
+    {
+      "slug": "seeing-like-a-state",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/seeing-like-a-state.json",
+      "reviewSha256": "e78431cc85d4fcfe9142d83224b18eb9b1baab091772001b3eedd6052c1b51c6",
+      "originalVerdict": "PASS",
+      "readyPath": "editorial-audit/2026-10-31/ready/seeing-like-a-state.json",
+      "readySha256": "d0e845f41a8d7441a58aa5820a49d86e1a43fac5e8893156e90e51ae26c1bcdc",
+      "parentClosure": null,
+      "files": [
+        {
+          "path": "collector-output/seeing-like-a-state/QA.md",
+          "sha256": "73e7c32aed1debdb94f1c82dd4f78e94545e2d13bd6d76fd82af0227a66b131b"
+        },
+        {
+          "path": "collector-output/seeing-like-a-state/seeing-like-a-state.html",
+          "sha256": "2eff6fe976a50985e288ca3cb91d6a28e52c713ac26bf56607fa800963882be8"
+        },
+        {
+          "path": "collector-output/seeing-like-a-state/sources.md",
+          "sha256": "eac465c9d86fb8881a56dd99a0d9585a6157b0edbabff0e0bc7e569368ed1213"
+        },
+        {
+          "path": "collector-output/seeing-like-a-state/story-data.json",
+          "sha256": "e6f2ce4c9c2879dd069e4d5a1bab4f364f30ebdb03e46bdbaf8e1d898b90faa5"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/seeing-like-a-state-sol-implementation.md",
+          "sha256": "843db21b098ba4e6348870e9d2086c82716232bcab7beaa7707bfbcb89006e72"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/seeing-like-a-state.json",
+          "sha256": "d0e845f41a8d7441a58aa5820a49d86e1a43fac5e8893156e90e51ae26c1bcdc"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/seeing-like-a-state.json",
+          "sha256": "e78431cc85d4fcfe9142d83224b18eb9b1baab091772001b3eedd6052c1b51c6"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/seeing-like-a-state.md",
+          "sha256": "ad148bb69c38da44ebb6ca9682f89fea317224aec155b668b1d20fe2639114e0"
+        }
+      ],
+      "decision": "accepted-matching-independent-PASS",
+      "findingAcceptance": [],
+      "counts": {
+        "essential": 17,
+        "core": 25,
+        "deep": 31
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 6,
+          "core": 8,
+          "deep": 10
+        },
+        "en": {
+          "essential": 5,
+          "core": 8,
+          "deep": 10
+        }
+      },
+      "words": {
+        "ru": {
+          "essential": 902,
+          "core": 1328,
+          "deep": 1645
+        },
+        "en": {
+          "essential": 1096,
+          "core": 1606,
+          "deep": 1982
+        }
+      },
+      "sourceCount": 7,
+      "sourceScope": "Source-supported central argument of the 1998 work from substantial actual chapter excerpts: chapter 1 forestry/cadastral selections, chapter 4 planning/Brasilia/Jacobs selections, chapter 9 pp. 309–341 through OCR, plus Scott high-modernism excerpts and the four-condition Introduction passage quoted by Zhou and checked against Yale. This is not continuous full-book reading or exhaustive chapter coverage. Retained Soviet/Tanzanian details stay within Scott’s own chapter-9 recap. Later work is explicitly excluded. See sources.md for exact reading boundaries and screen-to-passage map.",
+      "contentMode": "explanatory",
+      "legacyMigration": null,
+      "checkedScreens": [],
+      "rootSha256": "58b2e74640fc6d4660045bfc1be95ff913b89cd4f86147cfc049bf9ef82182d7"
+    }
+  ],
+  "excludedCandidates": [],
+  "acceptedPairs": 334,
+  "catalogueBooks": 47,
+  "catalogueScreens": 2076,
+  "previousUnchangedReaders": 35,
+  "limits": [
+    "Original ten REQUIRES-FIXES reviews remain unchanged; fresh publisher acceptance covers 14 localized findings plus exact unchanged reviewed content.",
+    "Kuhn and Scott matching-hash full independent PASS relied on; complete editions and full translation collation not certified.",
+    "No new direct Mindscape reading; rely on actual independent reviewer timestamps and historical qualification.",
+    "No physical iPhone/Safari/PWA/BFCache certification.",
+    "Sealed subset only; unaccepted new fiction, Dune/Hobbit and source rescues excluded.",
+    "Scott source7 bibliographic URL remained inaccessible to the independent reviewer; actual institutional primary excerpts and publisher/title pages establish the retained argument and work. No substantive claim rests on that URL.",
+    "Kuhn: 1962 work, 1970 enlarged second edition with Postscript1969, unidentified Illinois printing and separately attributed 1996 chapterXIII supplement. No full-edition collation."
+  ],
+  "productionVerified": false,
+  "previousRelease06": {
+    "state": "merged-and-actual-production-verified",
+    "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/32",
+    "head": "86145507b07c61a7057ac2666870472ff1676e23",
+    "merge": "6948b011da01dc0ae10f35a7926cca0d349628f7",
+    "verifiedAt": "2026-10-31T21:12:48.842589+00:00",
+    "actualAssets": 51,
+    "receiptSha256": "b817c529b83928a79763a95db7c706d6a6aed9396d03a4fec422fc27c550358e"
+  },
+  "queuedAfterSeal": [
+    "have-space-suit-will-travel"
+  ],
+  "newRoots": 7,
+  "replacedRoots": 5,
+  "publisherRuntimeIntegration": {
+    "all": "Retain exact accepted collector corpus, custom covers, source ledgers, narrative/explanatory presentation and bespoke consent; synchronize current main Settings/header/focus offline shell. Discard removed/cover progress IDs while preserving valid IDs.",
+    "project-hail-mary": "Add document-local native ending consent at Deep picker and saved/hidden screen navigation; restart clears progress; pre-consent resume label generic.",
+    "a-wizard-of-earthsea": "Preserve existing custom Core/Deep consent and saved-depth guard; consent renews on reload. Its accepted same-document depth consent survives lowering depth.",
+    "the-giver": "Preserve custom renewed Deep consent, including lowering depth and reload.",
+    "1873/theory-of-constraints": "One-time migration from book1873/tocbook preserves valid old language/theme/mode/IDs; modern keys/global preferences win. Short/full modes map to Essential/Deep; removed IDs return to fresh Essential cover; restart never reimports old progress."
+  },
+  "checks": {
+    "npmCheck": "passed:47 readers + homepage exact maintained Settings/fonts",
+    "structuralAssertions": 828,
+    "structuralReaders": 12,
+    "idempotentShellFiles": 48,
+    "renderedPlatformFontRecords": 97,
+    "browserReports": 10,
+    "settingsReports": 9,
+    "scope": "targeted 12-reader integration, 320/390/900/1440 Settings, native radio state/scroll, 3 renewed reload consent flows, actual legacy migration, dense tails, discovery/facets/title searches; no full-library prose or giant browser matrix repeated",
+    "production": false
+  },
+  "checkout": "/Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031",
+  "extraEvidenceBindings": [
+    {
+      "path": "editorial-audit/2026-10-31/books/the-structure-of-scientific-revolutions-sol-implementation-evidence/screen-evidence-map.json",
+      "sha256": "1534e28aeaf636ec529173b3738dff01d90ac1283e6d4bccb5db143cf71b407d"
+    }
+  ]
+}

@@ -1,0 +1,896 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-structure-of-scientific-revolutions",
+  "date": "2026-10-31",
+  "completedAt": "2026-10-31T21:15:10.567453+00:00",
+  "reviewType": "fresh-independent-editorial-review",
+  "verdict": "PASS",
+  "summary": "The retained argument and historical cases are supported by the actual primary selections. Both language versions and all cumulative routes meet the condensed-book brief. No required correction or concrete source gap found.",
+  "readyStatusReviewed": "ready-for-independent-check",
+  "readyIsIndependentAcceptance": false,
+  "acceptanceScope": "This report supplies independent content acceptance for the exact hashes below. Publisher integration and production checks remain separate.",
+  "coverage": {
+    "uniqueBilingualPairsActuallyRead": 35,
+    "localizedScreenVersionsActuallyRead": 70,
+    "cumulativeRoutesActuallyRead": 6,
+    "cumulativeRouteScreenReads": 156,
+    "modeCounts": {
+      "essential": 16,
+      "core": 27,
+      "deep": 35
+    },
+    "levelCounts": {
+      "1": 16,
+      "2": 11,
+      "3": 8
+    },
+    "coverAndFinalIncluded": true,
+    "effectiveEmbeddedCorpusActuallyRead": true,
+    "methodAndAllFourSourceNotesActuallyReadInBothLanguages": true,
+    "canonicalAndHtmlAllAuthorFieldsIdentical": true,
+    "authorFieldsCompared": [
+      "schemaVersion",
+      "slug",
+      "title",
+      "author",
+      "description",
+      "defaultLanguage",
+      "defaultTheme",
+      "defaultMode",
+      "contentMode",
+      "spoilerPolicy",
+      "targetModes",
+      "methodNote",
+      "sources",
+      "media",
+      "screens"
+    ],
+    "onlyAddedTopLevelFields": [
+      "modes"
+    ],
+    "addedModes": {
+      "essential": {
+        "label": {
+          "ru": "Главное",
+          "en": "Essential"
+        },
+        "minutes": {
+          "ru": "6 минут",
+          "en": "6 min"
+        }
+      },
+      "core": {
+        "label": {
+          "ru": "Суть книги",
+          "en": "Core"
+        },
+        "minutes": {
+          "ru": "10 минут",
+          "en": "10 min"
+        }
+      },
+      "deep": {
+        "label": {
+          "ru": "Глубоко",
+          "en": "Deep"
+        },
+        "minutes": {
+          "ru": "13 минут",
+          "en": "12 min"
+        }
+      }
+    },
+    "runtimeInspection": "Single embedded corpus parsed by the main closure. visibleScreens filters that corpus by level, and copyOf selects language. Render, cover, source dialog, focus/install/header scripts inspected; no second book corpus or prose replacement found. Supplied cover makes generic cover-art fallback inactive."
+  },
+  "hashVerification": {
+    "algorithm": "SHA-256",
+    "before": {
+      "collector-output/the-structure-of-scientific-revolutions/story-data.json": "338bf6ec5269099e788ae7727d270e9a8eb3ac1db6ebb004bf9473c5106bf40a",
+      "collector-output/the-structure-of-scientific-revolutions/the-structure-of-scientific-revolutions.html": "3e02c8398d469b69d48c079c74ff83b1fbcdf211a43eeb5a3ab941d4216b13ca",
+      "collector-output/the-structure-of-scientific-revolutions/sources.md": "89920fce68c45c3965bb252c2b538c8bebf235e9c0411d7b48e44ddab3bb946e",
+      "collector-output/the-structure-of-scientific-revolutions/QA.md": "54645af03062f007554cc8cd1ac97183fb054cde65e173632c03506baa59c029",
+      "editorial-audit/2026-10-31/ready/the-structure-of-scientific-revolutions.json": "93cb0ad55e58af281a93f7a4b053ae85a4091fc3dfd8bd14df80db994ed933ad"
+    },
+    "after": {
+      "collector-output/the-structure-of-scientific-revolutions/story-data.json": "338bf6ec5269099e788ae7727d270e9a8eb3ac1db6ebb004bf9473c5106bf40a",
+      "collector-output/the-structure-of-scientific-revolutions/the-structure-of-scientific-revolutions.html": "3e02c8398d469b69d48c079c74ff83b1fbcdf211a43eeb5a3ab941d4216b13ca",
+      "collector-output/the-structure-of-scientific-revolutions/sources.md": "89920fce68c45c3965bb252c2b538c8bebf235e9c0411d7b48e44ddab3bb946e",
+      "collector-output/the-structure-of-scientific-revolutions/QA.md": "54645af03062f007554cc8cd1ac97183fb054cde65e173632c03506baa59c029",
+      "editorial-audit/2026-10-31/ready/the-structure-of-scientific-revolutions.json": "93cb0ad55e58af281a93f7a4b053ae85a4091fc3dfd8bd14df80db994ed933ad"
+    },
+    "allUnchanged": true,
+    "allReadyDeliverableHashesAndSizesMatch": true,
+    "reportAndEvidenceMapMatchReady": {
+      "report": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-structure-of-scientific-revolutions-sol-implementation.md",
+        "sha256": "16002037a95e6b45db39ffc27fbd2c6a40be040a38bceec58b3992cfc5f43977",
+        "matchesReady": true
+      },
+      "evidenceMap": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-structure-of-scientific-revolutions-sol-implementation-evidence/screen-evidence-map.json",
+        "sha256": "1534e28aeaf636ec529173b3738dff01d90ac1283e6d4bccb5db143cf71b407d",
+        "matchesReady": true
+      }
+    },
+    "validity": "PASS binds to these candidate and ready hashes; changed content requires validating the changes."
+  },
+  "mechanicalAudit": {
+    "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/the-structure-of-scientific-revolutions/the-structure-of-scientific-revolutions.html --min-screens 35 --require-bilingual",
+    "freshlyRun": true,
+    "passes": 69,
+    "warnings": [],
+    "failures": [],
+    "role": "Structure check only; editorial decision also rests on actual bilingual and primary reading."
+  },
+  "sourceReview": {
+    "independentAccessDate": "2026-10-31",
+    "method": "Opened the three exact institutional PDF URLs and WorldCat. As the PDFs had no readable web text, retrieved the excerpt bytes into process memory, rendered selected spreads with MuPDF at 150 dpi and read fresh Tesseract OCR. Inspected the FGCU edition annotation visually as an in-memory crop. No source PDF, OCR file or book-page image saved in the repository.",
+    "fullContinuousBookReading": false,
+    "complete1970EditionCollated": false,
+    "completeSuppliedChapterRead": "FGCU XIII, pp. 160–173, separately credited 1996 third edition",
+    "ownedLibrarySearchRepeated": false,
+    "sources": {
+      "colorado": {
+        "url": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+        "sha256": "f2065f4f9277b8ae848ce995c241559048ba172500e2159a16111325e9cede6a",
+        "pdfPages": 37,
+        "identity": "Enlarged second edition, 1970; a later reprint number line. Title/imprint and Postscript—1969 heading independently read by OCR.",
+        "pdfPagesActuallyRead": [
+          1,
+          2,
+          7,
+          8,
+          12,
+          13,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          31,
+          32,
+          33,
+          34,
+          35
+        ],
+        "retainedPrintedPassagesActuallyRead": "I, pp. 1–3; II, pp. 10–13; Postscript, pp. 174–189 and 198–207.",
+        "scope": "A teaching selection containing front matter, pp. 1–22 and 174–210; not a complete book."
+      },
+      "illinois": {
+        "url": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+        "sha256": "11ef8c955deeb0bd835ac5b1bdae9300d399862d1f0c8263c66f1cc972ed8d40",
+        "pdfPages": 49,
+        "identity": "Main-text selection without an imprint; exact printing remains unidentified.",
+        "pdfPagesActuallyRead": [
+          1,
+          2,
+          3,
+          4,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          20,
+          21,
+          22,
+          23,
+          24,
+          28,
+          29,
+          31,
+          32,
+          33,
+          34,
+          35,
+          41,
+          42,
+          43
+        ],
+        "retainedPrintedPassagesActuallyRead": "III/IV opening, pp. 22–29 and 34–35; VI, pp. 52–65; VII, pp. 68–69 and 76; VIII, pp. 77–85; IX, pp. 92–95 and 98–107; X, pp. 118–123.",
+        "scope": "The selection supplies pp. 22–35 and 52–135. Its gap at pp. 36–51 is real. I did not independently read pp. 30–33 or 66–67 claimed by the writer, or the rest of the unlisted material."
+      },
+      "fgcu": {
+        "url": "https://ruby.fgcu.edu/courses/ndemers/sciproc/Fall%2012/articles/kuhn.pdf",
+        "sha256": "ffd42846d19ee9c46709ce77eae687cc92b27c933c79c19adefc26145202a6d0",
+        "pdfPages": 7,
+        "identity": "Chapter XIII, pp. 160–173. Handwritten teaching annotation credits Kuhn 1996, third edition, with first edition 1962. Annotation visually inspected as an in-memory margin crop; reserve/copyright marks read in the scan OCR.",
+        "pdfPagesActuallyRead": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "retainedPrintedPassagesActuallyRead": "Entire supplied chapter XIII, pp. 160–173.",
+        "scope": "Separately credited third-edition supplement; no inference that it is a collated 1970 text."
+      },
+      "worldcat": {
+        "url": "https://search.worldcat.org/title/The-structure-of-scientific-revolutions.-Second-edition-enlarged/oclc/752954628",
+        "identity": "Record independently opened: Thomas S. Kuhn, English print book, enlarged second edition, University of Chicago Press, 1970.",
+        "scope": "Bibliography only; no substantive argument or historical case relies on this record."
+      }
+    },
+    "essentialUnsupportedLinksFound": [],
+    "assessment": "These substantial primary selections support the retained scope. Lack of full continuous reading alone is not a rejection."
+  },
+  "contentChecks": {
+    "authorArgumentAndRealCasesRetained": true,
+    "inventedAdviceOrManagementAnalogiesFound": false,
+    "anomalyDoesNotAutomaticallyCauseCrisis": true,
+    "threeCrisisOutcomesPreserved": true,
+    "revolutionAsConceptualReconstructionPreserved": true,
+    "exemplarsAndDisciplinaryMatrixDistinguished": true,
+    "incommensurabilityDoesNotAbolishReasonedComparison": true,
+    "translationPersuasionConversionDistinguished": true,
+    "progressDistinguishedFromFinalOntology": true,
+    "1970EditionAndPostscript1969Distinguished": true,
+    "historicalCasesRemainAttributedToKuhn": true,
+    "materialTranslationMismatchesFound": false,
+    "paddingOrBrokenRouteFound": false
+  },
+  "routes": [
+    {
+      "mode": "essential",
+      "language": "ru",
+      "screensActuallyRead": 16,
+      "sequenceRead": true,
+      "coherent": true,
+      "screenIds": [
+        "cover",
+        "history-asks-differently",
+        "paradigm",
+        "normal-science",
+        "puzzle-not-trivial",
+        "anomaly",
+        "priestleys-air",
+        "lavoisiers-oxygen",
+        "crisis",
+        "three-outcomes",
+        "reconstruction",
+        "changed-world",
+        "incommensurability",
+        "progress",
+        "not-all-views-equal",
+        "final"
+      ]
+    },
+    {
+      "mode": "essential",
+      "language": "en",
+      "screensActuallyRead": 16,
+      "sequenceRead": true,
+      "coherent": true,
+      "screenIds": [
+        "cover",
+        "history-asks-differently",
+        "paradigm",
+        "normal-science",
+        "puzzle-not-trivial",
+        "anomaly",
+        "priestleys-air",
+        "lavoisiers-oxygen",
+        "crisis",
+        "three-outcomes",
+        "reconstruction",
+        "changed-world",
+        "incommensurability",
+        "progress",
+        "not-all-views-equal",
+        "final"
+      ]
+    },
+    {
+      "mode": "core",
+      "language": "ru",
+      "screensActuallyRead": 27,
+      "sequenceRead": true,
+      "coherent": true,
+      "screenIds": [
+        "cover",
+        "history-asks-differently",
+        "optics-before-consensus",
+        "paradigm",
+        "learned-exemplars",
+        "normal-science",
+        "cavendish",
+        "puzzle-not-trivial",
+        "why-resistance-works",
+        "anomaly",
+        "priestleys-air",
+        "lavoisiers-oxygen",
+        "ptolemaic-repairs",
+        "crisis",
+        "clairauts-moon",
+        "three-outcomes",
+        "reconstruction",
+        "same-symbols-new-concepts",
+        "changed-world",
+        "galileos-pendulum",
+        "incommensurability",
+        "shared-values",
+        "translation-and-conversion",
+        "progress",
+        "evolution",
+        "not-all-views-equal",
+        "final"
+      ]
+    },
+    {
+      "mode": "core",
+      "language": "en",
+      "screensActuallyRead": 27,
+      "sequenceRead": true,
+      "coherent": true,
+      "screenIds": [
+        "cover",
+        "history-asks-differently",
+        "optics-before-consensus",
+        "paradigm",
+        "learned-exemplars",
+        "normal-science",
+        "cavendish",
+        "puzzle-not-trivial",
+        "why-resistance-works",
+        "anomaly",
+        "priestleys-air",
+        "lavoisiers-oxygen",
+        "ptolemaic-repairs",
+        "crisis",
+        "clairauts-moon",
+        "three-outcomes",
+        "reconstruction",
+        "same-symbols-new-concepts",
+        "changed-world",
+        "galileos-pendulum",
+        "incommensurability",
+        "shared-values",
+        "translation-and-conversion",
+        "progress",
+        "evolution",
+        "not-all-views-equal",
+        "final"
+      ]
+    },
+    {
+      "mode": "deep",
+      "language": "ru",
+      "screensActuallyRead": 35,
+      "sequenceRead": true,
+      "coherent": true,
+      "screenIds": [
+        "cover",
+        "history-asks-differently",
+        "optics-before-consensus",
+        "paradigm",
+        "learned-exemplars",
+        "disciplinary-matrix",
+        "normal-science",
+        "cavendish",
+        "puzzle-not-trivial",
+        "why-resistance-works",
+        "anomaly",
+        "priestleys-air",
+        "lavoisiers-oxygen",
+        "discovery-takes-time",
+        "x-rays",
+        "red-spades",
+        "ptolemaic-repairs",
+        "crisis",
+        "clairauts-moon",
+        "three-outcomes",
+        "crisis-not-law",
+        "reconstruction",
+        "same-symbols-new-concepts",
+        "gains-and-losses",
+        "changed-world",
+        "galileos-pendulum",
+        "gestalt-limit",
+        "incommensurability",
+        "shared-values",
+        "translation-and-conversion",
+        "progress",
+        "evolution",
+        "not-all-views-equal",
+        "community-scope",
+        "final"
+      ]
+    },
+    {
+      "mode": "deep",
+      "language": "en",
+      "screensActuallyRead": 35,
+      "sequenceRead": true,
+      "coherent": true,
+      "screenIds": [
+        "cover",
+        "history-asks-differently",
+        "optics-before-consensus",
+        "paradigm",
+        "learned-exemplars",
+        "disciplinary-matrix",
+        "normal-science",
+        "cavendish",
+        "puzzle-not-trivial",
+        "why-resistance-works",
+        "anomaly",
+        "priestleys-air",
+        "lavoisiers-oxygen",
+        "discovery-takes-time",
+        "x-rays",
+        "red-spades",
+        "ptolemaic-repairs",
+        "crisis",
+        "clairauts-moon",
+        "three-outcomes",
+        "crisis-not-law",
+        "reconstruction",
+        "same-symbols-new-concepts",
+        "gains-and-losses",
+        "changed-world",
+        "galileos-pendulum",
+        "gestalt-limit",
+        "incommensurability",
+        "shared-values",
+        "translation-and-conversion",
+        "progress",
+        "evolution",
+        "not-all-views-equal",
+        "community-scope",
+        "final"
+      ]
+    }
+  ],
+  "screenReviews": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Identity and scope",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Title/imprint; PDF 1–2; WorldCat bibliographic record"
+    },
+    {
+      "screenId": "history-asks-differently",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Historical viewpoint",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "I, pp. 1–3; PDF 7–8"
+    },
+    {
+      "screenId": "optics-before-consensus",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Optics schools",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "II, pp. 10–13; PDF 12–13"
+    },
+    {
+      "screenId": "paradigm",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Achievement and open work",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "II, pp. 10–11; PDF 12; also Illinois III, pp. 23–24, PDF 1–2"
+    },
+    {
+      "screenId": "learned-exemplars",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Learning through examples",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §2–3, pp. 187–189; PDF 25–26"
+    },
+    {
+      "screenId": "disciplinary-matrix",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Broad and narrow senses",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript, pp. 174–175, 182–189; PDF 19, 23–26"
+    },
+    {
+      "screenId": "normal-science",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Normal work",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "III, pp. 23–25, 34; PDF 1–2, 7"
+    },
+    {
+      "screenId": "cavendish",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Cavendish case",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "III, pp. 27–28; PDF 3–4"
+    },
+    {
+      "screenId": "puzzle-not-trivial",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Puzzle-solving",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "IV opening, p. 35; VIII, pp. 79–80; PDF 7, 21–22; also Colorado Postscript §1, p. 179, PDF 21"
+    },
+    {
+      "screenId": "why-resistance-works",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Precision and resistance",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 64–65; PDF 14"
+    },
+    {
+      "screenId": "anomaly",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Discovery process",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 52–55, 64–65; PDF 8–9, 14"
+    },
+    {
+      "screenId": "priestleys-air",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Priestley case",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 53–54; PDF 8–9"
+    },
+    {
+      "screenId": "lavoisiers-oxygen",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Lavoisier case",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 53–56; X, p. 118; PDF 8–10, 41"
+    },
+    {
+      "screenId": "discovery-takes-time",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Incomplete recognition",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 54–55; PDF 9"
+    },
+    {
+      "screenId": "x-rays",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Instrumental expectations",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 56–61; PDF 10–12"
+    },
+    {
+      "screenId": "red-spades",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Bruner/Postman comparison",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VI, pp. 62–64; PDF 13–14"
+    },
+    {
+      "screenId": "ptolemaic-repairs",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Astronomy case and qualifiers",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VII, pp. 68–69; PDF 16"
+    },
+    {
+      "screenId": "crisis",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Anomaly/crisis distinction",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VIII, pp. 81–84; PDF 22–24"
+    },
+    {
+      "screenId": "clairauts-moon",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Clairaut case",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VIII, p. 81; PDF 22"
+    },
+    {
+      "screenId": "three-outcomes",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Three outcomes",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VIII, pp. 77, 84–85; PDF 20, 24"
+    },
+    {
+      "screenId": "crisis-not-law",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Usual, not absolute prelude",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §1, pp. 180–181; PDF 22"
+    },
+    {
+      "screenId": "reconstruction",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Conceptual reconstruction",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VIII, pp. 84–85; IX, pp. 92–94, 103; PDF 24, 28–29, 33"
+    },
+    {
+      "screenId": "same-symbols-new-concepts",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Newton/Einstein comparison",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "IX, pp. 98–103; PDF 31–33"
+    },
+    {
+      "screenId": "gains-and-losses",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Explanatory losses",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "IX, pp. 99–100, 106–107; PDF 31–32, 35"
+    },
+    {
+      "screenId": "changed-world",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Perception and data",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "X, pp. 118–123, especially p. 121; PDF 41–43"
+    },
+    {
+      "screenId": "galileos-pendulum",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Pendulum and impetus",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "X, pp. 118–120, 123; PDF 41–43"
+    },
+    {
+      "screenId": "gestalt-limit",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Gestalt limits",
+      "primaryUrl": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "primaryLocator": "VIII, p. 85; IX, p. 94; X, pp. 119–121; PDF 24, 29, 41–42; also Colorado Postscript §5, p. 201, PDF 32"
+    },
+    {
+      "screenId": "incommensurability",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Comparison and reasons",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §5, pp. 198–203; PDF 31–33; also Illinois IX, pp. 94, 103, PDF 29, 33"
+    },
+    {
+      "screenId": "shared-values",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Values and judgment",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §2, pp. 184–186; §5, pp. 199–200; PDF 24–25, 31–32"
+    },
+    {
+      "screenId": "translation-and-conversion",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Translation/persuasion/conversion",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §5, pp. 200–204; PDF 32–34"
+    },
+    {
+      "screenId": "progress",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Problem-solving progress",
+      "primaryUrl": "https://ruby.fgcu.edu/courses/ndemers/sciproc/Fall%2012/articles/kuhn.pdf",
+      "primaryLocator": "XIII, pp. 163–170; PDF 2–6; also Colorado Postscript §6, pp. 205–206, PDF 34–35"
+    },
+    {
+      "screenId": "evolution",
+      "level": 2,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Evolution comparison",
+      "primaryUrl": "https://ruby.fgcu.edu/courses/ndemers/sciproc/Fall%2012/articles/kuhn.pdf",
+      "primaryLocator": "XIII, pp. 170–173; PDF 6–7"
+    },
+    {
+      "screenId": "not-all-views-equal",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Progress and ontology",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §6, pp. 205–207; PDF 34–35"
+    },
+    {
+      "screenId": "community-scope",
+      "level": 3,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Community scale",
+      "primaryUrl": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "primaryLocator": "Postscript §1, pp. 176–181; PDF 20–22"
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "languagesActuallyRead": [
+        "ru",
+        "en"
+      ],
+      "verdict": "PASS",
+      "focus": "Open closing question",
+      "primaryUrl": "https://ruby.fgcu.edu/courses/ndemers/sciproc/Fall%2012/articles/kuhn.pdf",
+      "primaryLocator": "XIII, p. 173; PDF 7"
+    }
+  ],
+  "findings": [],
+  "requiredFixCount": 0,
+  "sourceGaps": [],
+  "limits": [
+    "Selective primary reading across three institutional excerpts; no continuous full-book reading or full enlarged-second-edition collation.",
+    "Illinois printing remains unidentified, with the real pp. 36–51 gap. Unread chapters/passages are not silently supplied from memory.",
+    "FGCU chapter XIII is kept under its 1996 third-edition teaching attribution; no whole-edition equivalence certified.",
+    "This review checks Kuhn’s presentation and the condensation’s fidelity, rather than independently validating the underlying scientific history or Bruner/Postman experiment.",
+    "No owned Apple Books search was repeated; the implementation’s negative metadata search is reported as the writer’s work only.",
+    "No reader browser, viewport, saved-progress, physical iPhone/PWA or production tests were repeated. The writer’s browser results are not relabeled as independent tests."
+  ],
+  "writeScope": {
+    "filesCreated": [
+      "editorial-audit/2026-10-31/reviews/the-structure-of-scientific-revolutions.json",
+      "editorial-audit/2026-10-31/reviews/the-structure-of-scientific-revolutions.md"
+    ],
+    "candidateReadyLedgerOriginalReportsSharedShellEdited": false,
+    "gitPrDeployExternalMessagesSubagentsUsed": false,
+    "readerBrowserOrServerStarted": false,
+    "proofFilesCreated": []
+  }
+}

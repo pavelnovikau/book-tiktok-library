@@ -1,0 +1,141 @@
+{
+  "slug": "thinking-fast-and-slow",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD",
+  "reportPath": "editorial-audit/2026-10-31/books/thinking-fast-and-slow.sol-implementation.md",
+  "reviewedPairs": {
+    "uniqueOldPairs": 0,
+    "authoring": 0,
+    "published": 0,
+    "new": 29
+  },
+  "counts": {
+    "essential": 14,
+    "core": 24,
+    "deep": 29
+  },
+  "contentMode": "explanatory",
+  "sourceScope": "The complete owned Russian EPUB was identified from OPF, copyright page, 117 spine entries, five parts, appendices and notes: Daniel Kahneman, Thinking, Fast and Slow (2011), Bakanov translation school 2013, AST 2014. Two local 5.2k/5.7k-word condensations were rejected. This implementation consulted selected supporting passages across all five parts, introduction and conclusion, not every paragraph of the volume continuously. Retained claims and cases are mapped to exact spine filenames below. The official Macmillan English introduction was additionally read; EN is an original translation of this condensation, not a full translation-fidelity comparison. No present-day scientific validity review is claimed; social priming and ego-depletion episodes are excluded rather than certified. The private edition and temporary extraction remain outside public Git.",
+  "changes": [
+    "Created a new source-grounded bilingual account of all five parts",
+    "Preserved author cases, qualifications and actual procedures",
+    "Derived 14/24/29 nested counts and RU/dark/Essential defaults",
+    "Built with maintained scripts plus book-local source-footer presentation"
+  ],
+  "unresolvedIssues": [
+    "Independent review identified localized findings; parent corrections await publisher closure and integration",
+    "Selected primary passages, not continuous full-volume or translation-fidelity certification",
+    "No current-science review, physical iPhone/PWA or touch swipe verification"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/thinking-fast-and-slow/story-data.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/story-data.json",
+      "sha256": "59e4d85e11c71bfb2e8a8550862e6cd88b0889712e22ebc1bfb130f73fec5cc3"
+    },
+    {
+      "path": "collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+      "sha256": "f1037058daeb7860a8aec44466e998adddd255cf2c82266205c6685aba020fe4"
+    },
+    {
+      "path": "collector-output/thinking-fast-and-slow/sources.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/sources.md",
+      "sha256": "8901abb5e91268817c021f2c0c01ee4b9383e374792250132fac92832e58b952"
+    },
+    {
+      "path": "collector-output/thinking-fast-and-slow/QA.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/QA.md",
+      "sha256": "04ed268252cc1ce9d8a39d8e7e95884a6e9fffbb4a6dc53504e696c2b3c096e5"
+    }
+  ],
+  "reportSha256": "2fd700884e990d37dee3ea9caca0553d76c007fd124f4d92b17070b5b212af60",
+  "evidenceMap": {
+    "path": "collector-output/thinking-fast-and-slow/evidence-map.sol.json",
+    "sha256": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454"
+  },
+  "checks": {
+    "structural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+      "format": "v2",
+      "bytes": 309581,
+      "screenCount": 29,
+      "levels": {
+        "1": 14,
+        "2": 10,
+        "3": 5
+      },
+      "modes": {
+        "essential": 14,
+        "core": 24,
+        "deep": 29
+      },
+      "words": {
+        "ru": 2185,
+        "en": 2551
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "browserViewports": [
+      320,
+      390,
+      1024,
+      1440
+    ],
+    "offline": true,
+    "production": false,
+    "independent": false,
+    "bodyScrollReachable": true,
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 88,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-kahneman-meadows-fix-browser.json"
+    }
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "6 минут",
+        "en": "6 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "10 минут",
+        "en": "10 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "13 минут",
+        "en": "12 min"
+      }
+    }
+  },
+  "parentCorrections": {
+    "findings": [
+      "KAH-01",
+      "KAH-02"
+    ],
+    "changedScreens": [
+      "risk-policy",
+      "same-outcomes-new-frame"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/thinking-fast-and-slow-meaning-fix-closure.json"
+  }
+}

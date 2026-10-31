@@ -1,0 +1,788 @@
+{
+  "schemaVersion": 2,
+  "slug": "a-wizard-of-earthsea",
+  "title": {
+    "ru": "Волшебник Земноморья",
+    "en": "A Wizard of Earthsea"
+  },
+  "description": {
+    "ru": "Гед и тень: связный короткий пересказ первого романа. Разгадка только в Deep.",
+    "en": "Ged and the shadow: a concise connected retelling of the first novel. The answer is reserved for Deep."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 17,
+    "core": 24,
+    "deep": 28
+  },
+  "methodNote": {
+    "ru": "Короткий пересказ своими словами. Прочитаны стенограмма NEA с разрешёнными отрывками романа, Teachers’ Guide NEA и открытые справочные событийные разборы EBSCO. Новая первичная опора финала — официальная авторская запись кульминации главы 10: получена запись и прочитана локальная автоматическая транскрипция, а не проведено прослушивание человеком. Полный роман, послесловие 2012 года и конкретный русский перевод не прочитаны. Сохранённая цепочка проверена в пределах этих материалов; полная верность изданию не заявляется. Разгадка и исход — только в Deep. Внешние источники могут раскрывать финал.",
+    "en": "An original-word concise retelling. Read the NEA transcript with authorised novel passages, the NEA Teacher’s Guide and public EBSCO event/reference accounts. New primary support for the ending is the official author recording of the chapter-10 climax: the recording was obtained and a local automatic transcript read, rather than human listening. The complete novel, 2012 afterword and a specific Russian translation were not read. The retained chain was checked within those materials; complete-edition fidelity is not claimed. The answer and outcome are exclusive to Deep. External sources may reveal the ending."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "NEA Big Read — Audio Guide, written transcript",
+      "url": "https://www.arts.gov/stories/other/wizard-earthsea-audio-guide",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитана стенограмма с разрешёнными отрывками романа: начало, вызов, восстановление, драконы и морская встреча. Комментарий участников отделён от авторского текста. Аудио NEA не прослушано.",
+        "en": "Read the transcript with authorised novel passages: opening, summoning, recovery, dragons and a sea encounter. Contributors’ commentary is distinguished from the novel. NEA audio was not listened to."
+      }
+    },
+    {
+      "id": 2,
+      "title": "NEA Big Read — Teacher’s Guide, lessons and handouts",
+      "url": "https://www.arts.gov/sites/default/files/Teachers-Guide-LeGuin.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Новое приобретение: прочитано руководство целиком. Событийные опоры и первичные отрывки, а не готовые ответы на вопросы или обязательная психологическая трактовка.",
+        "en": "New acquisition: the whole guide was read. Used for stated events and primary snippets, not as supplied answers to questions or a mandatory psychological interpretation."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Ursula K. Le Guin — author reading of the chapter-10 climax",
+      "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+      "role": "author",
+      "note": {
+        "ru": "Официальная запись 13.12.2007: кульминационная сцена главы 10, около 11 минут. Получена запись и прочитана локальная автоматическая транскрипция; имена сверены с текстовыми источниками. Это отрывок, не вся глава или книга. Содержит финал.",
+        "en": "Official recording dated 13 December 2007: the chapter-10 climax, about 11 minutes. Recording obtained and its local automatic transcript read; names checked against textual references. An extract, not the whole chapter or book. Contains the ending."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Terry Heller — A Wizard of Earthsea, EBSCO Research Starter",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/wizard-earthsea-ursula-k-le-guin",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан полный открытый справочный разбор, особенно событийный раздел: ребёнок, Терренон, совет Огиона и завершение. Это посреднический источник, не роман.",
+        "en": "Read the full public reference article, especially its event account: the child, Terrenon, Ogion’s advice and resolution. An intermediary, not the novel."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Carol D. Stevens — The Earthsea Series, EBSCO Research Starter",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/earthsea-series-ursula-k-le-guin",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан раздел The Story о первом романе: ранний вызов, служение, бегство ястребом, возвращение и Ветч. Продолжения в историю первой книги не перенесены.",
+        "en": "Read the first novel’s section of The Story: early summoning, service, hawk escape, return and Vetch. Sequels are not imported into this account."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Волшебник Земноморья",
+          "body": "<p>Мальчик с далёкого острова обнаруживает в себе силу. Она приведёт его в школу волшебников — и выпустит в мир то, от чего не укрыться морем. Essential ведёт по основному пути, Core добавляет встречи и опасности. Последняя встреча и её разгадка — только в Deep.</p>",
+          "subtitle": "Урсула К. Ле Гуин"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A Wizard of Earthsea",
+          "body": "<p>A boy from a remote island discovers his power. It will bring him to a school for wizards and loose something no sea can keep away. Essential follows the main journey; Core adds encounters and dangers. The last meeting and its answer are reserved for Deep.</p>",
+          "subtitle": "Ursula K. Le Guin"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "gont-origin",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Мальчик с Гонта",
+          "body": "<p>До песен о великих подвигах он был Дьюни, мальчиком с острова Гонт, пасшим коз. Он ещё не учился в школе магов, но уже владел несколькими простыми чарами и чувствовал собственную силу. Когда к деревне подошли захватчики, ей понадобилась защита. Дьюни пришлось обратиться к тому немногому волшебству, которое он знал.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A boy from Gont",
+          "body": "<p>Before the songs of great deeds, he was Duny, a goatherd on the island of Gont. He had not studied at a school for wizards, but knew a few small spells and felt his own power. When invaders approached, the village needed protection. Duny turned to the little magic he knew.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 1",
+        "en": "Chapter 1"
+      }
+    },
+    {
+      "id": "mist",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Воины в тумане",
+          "body": "<p>Мальчик поднимает туман. Захватчики теряют дорогу, деревня спасена — а сам Дьюни тратит столько сил, что впадает в оцепенение. Он не может ни есть, ни говорить. Из этого состояния его выводит волшебник Огион. Слух о мальчике дошёл до настоящего мага; теперь у Дьюни может быть учитель.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Warriors in the mist",
+          "body": "<p>The boy raises a mist. The invaders lose their way and the village is saved, but Duny spends so much strength that he falls into a trance. He cannot eat or speak. The wizard Ogion restores him. News of the boy has reached a true mage. Now Duny can have a teacher.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 1",
+        "en": "Chapter 1"
+      }
+    },
+    {
+      "id": "three-names",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Имя, которое не говорят всем",
+          "body": "<p>В тринадцать лет мальчик проходит обряд: он пересекает холодную реку, и Огион сообщает ему истинное имя — Гед. Для большинства людей он останется Ястребом. В Земноморье имя — не просто способ окликнуть человека. Тот, кто знает истинное имя, получает над ним власть. Доверить его можно лишь тому, кому доверяешь себя.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A name kept from strangers",
+          "body": "<p>At thirteen the boy undergoes the naming rite. He crosses a cold river, and Ogion gives him his true name: Ged. Most people will know him as Sparrowhawk. In Earthsea a name is more than a way to call someone. Knowing a true name grants power over its bearer. It can be shared only with someone deeply trusted.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 1–2",
+        "en": "Chapter 1–2"
+      }
+    },
+    {
+      "id": "ogion",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Молчаливый учитель",
+          "body": "<p>Огион берёт Геда в ученики. Они идут через Гонт к его дому, и мальчик ждёт чудес. Почему могущественный маг позволяет дождю мочить их? Когда начнутся настоящие заклинания? Спокойствие наставника Геду кажется слишком медленным путём к знанию. Ему хочется скорее узнать, сколько силы он способен удержать в руках.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The silent teacher",
+          "body": "<p>Ogion takes Ged as his apprentice. They walk across Gont towards his home, and the boy expects wonders. Why does a powerful mage let the rain fall on them? When will the real spells begin? His teacher’s quietness seems too slow a road to knowledge. Ged wants to discover how much power he can hold in his hands.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 2",
+        "en": "Chapter 2"
+      }
+    },
+    {
+      "id": "first-book",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Чужая книга",
+          "body": "<p>Желая поразить девушку, Гед ищет в книгах Огиона заклинание превращения. Его внимание захватывают другие слова — о вызове умерших. Возникает тёмное присутствие, с которым ученик не умеет справиться. Огион отгоняет его. После этого выбор становится ясным: остаться и принять способ учителя или отправиться на Рок, где обучают волшебников.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Another spell",
+          "body": "<p>Wanting to impress a girl, Ged searches Ogion’s books for a spell of transformation. Different words catch his attention: a summoning of the dead. A dark presence appears, beyond the apprentice’s ability to control. Ogion drives it away. Afterwards Ged can choose: remain and accept his teacher’s way, or travel to Roke, where wizards are trained.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 2",
+        "en": "Chapter 2"
+      }
+    },
+    {
+      "id": "roke-choice",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Школа на острове",
+          "body": "<p>Гед выбирает Рок. Здесь перед ним открываются знания, которых он ждал: имена вещей, искусство иллюзий и настоящего изменения мира. Он учится быстро, но рядом есть другие способные ученики. Ветч становится его другом. С Яшмой всё складывается иначе: неприязнь и насмешки превращают учёбу в соперничество.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The island school",
+          "body": "<p>Ged chooses Roke. Here are the things he has longed to learn: the names of things, the arts of illusion and of truly changing the world. He learns quickly, but there are other gifted pupils. Vetch becomes his friend. With Jasper it is different: dislike and taunts turn learning into rivalry.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 2–3",
+        "en": "Chapter 2–3"
+      }
+    },
+    {
+      "id": "learning-names",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Не только видимость",
+          "body": "<p>Учителя объясняют Геду разницу между иллюзией и изменением самой вещи. Для второго нужно знать её истинное имя. Но изменить имя — значит изменить что-то в мире, и последствия простираются дальше одного заклинания. Гед получает это предостережение ещё до того, как ему придётся узнать его цену.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "More than appearances",
+          "body": "<p>The masters explain the difference between illusion and changing a thing itself. A true change requires its true name. Yet altering a name alters something in the world, and the consequences extend beyond one spell. Ged hears this warning before he has to discover its cost.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 3",
+        "en": "Chapter 3"
+      }
+    },
+    {
+      "id": "jasper-vetch",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Вызов при свидетелях",
+          "body": "<p>Однажды спор с Яшмой доходит до запретного состязания. Вокруг — другие мальчики. Гед берётся вызвать дух умершей женщины из древних преданий. Ветч пытается его удержать, но остановиться перед соперником Гед уже не хочет. Он поднимает руки и начинает призыв. На мгновение в свете появляется человеческая фигура.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A challenge before witnesses",
+          "body": "<p>One night the quarrel with Jasper becomes a forbidden contest. Other boys are watching. Ged undertakes to summon a dead woman from an ancient legend. Vetch tries to restrain him, but Ged will not back down before his rival. He raises his hands and begins the invocation. For a moment a human figure appears in the light.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 4",
+        "en": "Chapter 4"
+      }
+    },
+    {
+      "id": "summoning",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Прорыв",
+          "body": "<p>Свет расширяется, словно сама ткань мира разрывается. Из разрыва вылезает чёрная бесформенная тварь и бросается Геду в лицо. Остальные разбегаются; Ветч бежит к другу. Он видит, как тень цепляется за Геда когтями и рвёт его тело. Вызванное уже не подчиняется воле того, кто произнёс слова.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The breach",
+          "body": "<p>The light spreads as if the fabric of the world were tearing. A black, formless creature crawls through and leaps at Ged’s face. The others scatter; Vetch runs towards his friend. He sees the shadow gripping Ged with claws and tearing at his flesh. What has been summoned no longer obeys the one who spoke the words.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 4",
+        "en": "Chapter 4"
+      }
+    },
+    {
+      "id": "nemmerle-cost",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Цена спасения",
+          "body": "<p>Архимаг Неммерле отгоняет тень и спасает Геда. Для старого мага усилие оказывается последним: он умирает. Гед остаётся жить. Но тень вышла в мир, и вернуть всё к тому вечеру, когда спор ещё можно было остановить, уже невозможно.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The cost of rescue",
+          "body": "<p>The Archmage Nemmerle drives off the shadow and saves Ged. The effort is the old mage’s last: he dies. Ged survives. But the shadow has entered the world, and there is no return to the evening when the quarrel could still have been stopped.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 4",
+        "en": "Chapter 4"
+      }
+    },
+    {
+      "id": "recovery",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Долгая зима",
+          "body": "<p>Месяцы Гед лежит тяжело раненый. Когда он возвращается к занятиям, даже простые заклинания приходится осваивать заново. Навык постепенно возвращается, шрамы остаются. Тень не является ему, и временами хочется верить, что она ослабла или исчезла. Но в глубине души Гед понимает, что ещё не избавился от неё.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A long winter",
+          "body": "<p>For months Ged lies badly wounded. When he returns to study, he must relearn even simple spells. Skill gradually returns; the scars remain. The shadow does not appear, and sometimes he wants to believe it has weakened or vanished. In his heart, though, he knows he has not escaped it.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 4",
+        "en": "Chapter 4"
+      }
+    },
+    {
+      "id": "low-torning",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Волшебник для рыбаков",
+          "body": "<p>Окончив обучение, Гед принимает место мага в Лоу-Торнинге. Жители островов ждут от него защиты: на Пендоре живут драконы, способные напасть на их поселения. Среди новых знакомых Геда — лодочник Печварри. После школы с её состязаниями здесь нужно жить рядом с людьми, которым его волшебство необходимо каждый день.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A wizard for fishermen",
+          "body": "<p>After completing his training, Ged becomes the wizard of Low Torning. The islanders need protection from dragons on Pendor, which could attack their settlements. Among Ged’s new acquaintances is the boatmaker Pechvarry. After school and its contests, he lives beside people who need his magic in their daily lives.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "child",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4,
+        5,
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "У границы мёртвых",
+          "body": "<p>У Печварри умирает сын. Пытаясь спасти ребёнка, Гед духовно переходит к границе между жизнью и смертью. Там его снова ждёт тень. Теперь она преследует его, и оставаться среди рыбаков опасно для них самих. Но уйти, оставив острова перед угрозой драконов, Гед не может. Сначала он отправляется на Пендор.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "At the border of death",
+          "body": "<p>Pechvarry’s son is dying. Trying to save the child, Ged travels in spirit to the border between life and death. The shadow is waiting there. It pursues him now, making his presence dangerous to the fishermen themselves. Yet he cannot leave the islands exposed to the dragons. First he goes to Pendor.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "dragon-attention",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Дракон Пендора",
+          "body": "<p>Из-за тени оставаться среди рыбаков опасно. Прежде чем уйти, Гед решает устранить угрозу драконов. На Пендоре ему приходится встретиться и с молодыми драконами, и с их огромным древним отцом. Тот, кого издалека можно принять за часть башни, распрямляется среди развалин. Это Йевод. Гед знает его истинное имя и добивается клятвы не нападать на острова людей.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The Dragon of Pendor",
+          "body": "<p>The shadow makes it dangerous for Ged to stay among the fishermen. Before leaving, he resolves to deal with the dragons. On Pendor he faces young dragons and their enormous ancient father. What looked from a distance like part of a tower uncurls among the ruins. This is Yevaud. Ged knows his true name and secures an oath not to attack the human islands.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "dragon-fight",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Чужие крылья",
+          "body": "<p>Прежде чем старый дракон появляется, Гед сражается с его потомством. Он сам принимает драконий облик и атакует в воздухе. Но долго оставаться драконом опасно. Он возвращается в лодку человеком, обожжённый, с руками в горячей драконьей крови. Теперь нужно добиться того, ради чего он приплыл.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Borrowed wings",
+          "body": "<p>Before the old dragon appears, Ged fights his offspring. He takes dragon form himself and attacks in the air. But keeping that shape for too long is dangerous. He returns to his boat as a man, scorched, his hands covered in hot dragon blood. Now he must secure what he came for.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "dragon-offer",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Иной выкуп",
+          "body": "<p>Знание имени удерживает Йевода. Дракон предлагает Геду то, что могло бы освободить его от страха: имя тени. Гед отказывается от такого обмена. Он требует клятвы, что Йевод и его потомство не нападут на человеческие острова. Добившись её, он может уйти из Лоу-Торнинга. Его собственная опасность при этом остаётся.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A different ransom",
+          "body": "<p>Knowing the name gives Ged power over Yevaud. The dragon offers something that could free him from fear: the shadow’s name. Ged refuses that bargain. He demands an oath that Yevaud and his offspring will not attack the human islands. Once it is secured, he can leave Low Torning. His own danger remains.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "northward",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Северный путь",
+          "body": "<p>Драконы связаны обещанием, но от тени Гед продолжает бежать. Путь приводит его на Осскиль. Там погоня становится смертельной схваткой. Измученный Гед находит убежище при дворе Терренона. Здесь его встречает Серрет — женщина, которая предлагает помощь и ещё одну возможность узнать, как справиться с преследователем.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Northwards",
+          "body": "<p>The dragons are bound by their promise, but Ged keeps fleeing the shadow. His route brings him to Osskil, where pursuit becomes a mortal encounter. Exhausted, he finds refuge at the Court of the Terrenon. Here Serret receives him, offering help and another chance to learn how to overcome his pursuer.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 6",
+        "en": "Chapter 6"
+      }
+    },
+    {
+      "id": "serret",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Камень Терренона",
+          "body": "<p>Серрет хочет, чтобы Гед освободил дух, заключённый в древнем камне. Эта сила сулит знание о тени, но Гед видит в предложении ловушку: получая такую помощь, он сам окажется во власти камня. Он отказывается. Укрытие перестаёт быть безопасным, и Гед бежит из замка, превратившись в ястреба.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The Stone of Terrenon",
+          "body": "<p>Serret wants Ged to release a spirit imprisoned in an ancient stone. Its power promises knowledge of the shadow, but Ged recognises a trap: accepting that aid would place him under the stone’s power. He refuses. The refuge is no longer safe, and Ged escapes from the castle in the shape of a hawk.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 7",
+        "en": "Chapter 7"
+      }
+    },
+    {
+      "id": "ogion-return",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Ястреб у Огиона",
+          "body": "<p>Птичий облик уносит Геда от Терренона, но вернуть себе человеческий он не может. Ястреб прилетает к Огиону. Учитель восстанавливает Геда и выслушивает его историю. Совет Огиона обращает весь путь: перестать убегать, повернуться к тени и самому начать погоню. Гед снова отправляется в море — теперь навстречу тому, что прежде гнало его.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A hawk returns to Ogion",
+          "body": "<p>The bird’s shape carries Ged away from Terrenon, but he cannot recover his human form. The hawk comes to Ogion. His teacher restores him and hears his story. Ogion’s advice reverses the journey: stop running, turn towards the shadow and pursue it. Ged goes to sea again, now seeking what had driven him before.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 7",
+        "en": "Chapter 7"
+      }
+    },
+    {
+      "id": "pursuit",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Пустота в руках",
+          "body": "<p>В одной из встреч на море Гед бросается на тень и хватает её. Холод и боль пронизывают его, но в руках нет ничего. Тень отступает и уходит по воде. Изнемогая, Гед не позволяет себе остаться лежать в лодке: он поднимает лёгкий магический ветер и идёт следом. Одного поворота навстречу оказалось недостаточно.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Nothing in his hands",
+          "body": "<p>During an encounter at sea, Ged lunges at the shadow and seizes it. Cold and pain run through him, yet he holds nothing. The shadow recoils and flees across the water. Exhausted, Ged resists the urge to lie in the boat. He raises a light magewind and follows. Turning towards it has not been enough.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 8",
+        "en": "Chapter 8"
+      }
+    },
+    {
+      "id": "iffish",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Друг на Иффише",
+          "body": "<p>Следуя на восток, Гед приходит на Иффиш и вновь встречает Ветча. Давний друг теперь сам волшебник. Гед рассказывает о своём преследовании. Ветч настаивает на том, чтобы отправиться с ним. Последняя встреча будет принадлежать Геду, но море к ней они пройдут вдвоём.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A friend on Iffish",
+          "body": "<p>Travelling east, Ged comes to Iffish and meets Vetch again. His old friend is now a wizard himself. Ged tells him of the pursuit. Vetch insists on accompanying him. The last encounter will be Ged’s, but they will cross the sea towards it together.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 9",
+        "en": "Chapter 9"
+      }
+    },
+    {
+      "id": "vetch-voyage",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "За пределами знакомого моря",
+          "body": "<p>Лодка «Дальновидная» уходит в открытое море. Позади остаются острова, на которых можно спросить дорогу или найти приют. Ветч держится рядом с другом, хотя не знает, что ждёт их в конце пути. Гед всё ещё не знает имени тени.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Beyond familiar waters",
+          "body": "<p>Lookfar sails into the open sea. Behind them are the islands where one could ask a way or find shelter. Vetch stays with his friend without knowing what awaits them. Ged still does not know the shadow’s name.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    },
+    {
+      "id": "open-sea",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Вода, похожая на сушу",
+          "body": "<p>Гед вдруг гасит магический ветер и берётся за вёсла. Ветч видит, как в волнах проступает темнота, а затем — будто песок. Его заклинание не обнаруживает иллюзии. Лодка садится на мель посреди бездонного моря. Всё стихает. Гед берёт посох и ступает за борт; на тёмной земле остаются следы.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Water like dry land",
+          "body": "<p>Ged suddenly stills the magewind and takes the oars. Vetch sees darkness welling in the waves, then what seems to be sand. His spell reveals no illusion. The boat runs aground over the ocean depths. Everything falls silent. Ged takes his staff and steps over the side. Footprints remain on the dark ground.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    },
+    {
+      "id": "changing-faces",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Лица во тьме",
+          "body": "<p>Свет посоха растёт, и навстречу ему сгущается тень. На мгновение Гед узнаёт отца, затем Яшму, затем Печварри с лицом утопленника. Обличья меняются, но Гед идёт дальше. Наконец перед ним остаётся та самая бесформенная тварь с когтями. Человек и тень останавливаются друг перед другом.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Faces in the darkness",
+          "body": "<p>The staff’s light grows, and a shadow gathers to meet it. For a moment Ged recognises his father, then Jasper, then Pechvarry with a drowned man’s face. The forms change, but Ged keeps walking. Finally the same shapeless, clawed creature remains before him. Man and shadow stop face to face.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    },
+    {
+      "id": "resolution-name",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Одно имя",
+          "body": "<p>Гед произносит имя тени. В то же мгновение тень произносит то же слово — Гед. Он отпускает посох и протягивает руки. Свет и тьма соединяются. Издалека Ветчу кажется, что свет гибнет; он бросается помогать другу. Но песок уходит из-под ног, и вместо тихой земли вокруг снова холодное живое море.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "One name",
+          "body": "<p>Ged speaks the shadow’s name. At the same instant the shadow speaks the same word: Ged. He lets his staff fall and reaches out. Light and darkness join. From a distance Vetch thinks the light is failing and rushes to help his friend. But the sand gives way beneath him. The silent ground becomes the cold, living sea again.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    },
+    {
+      "id": "ending-return",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Лодка и молодой месяц",
+          "body": "<p>Ветч добирается до лодки, замечает Геда среди волн и втаскивает его в лодку. Гед молчит, измученный, всё ещё сжимая посох. Ветч поднимает парус и поворачивает домой. Позднее Гед замечает молодой месяц на западе. Он смотрит на море и друга, смеётся, а потом плачет. Погоня кончилась: отделённая от него тень больше не владеет его жизнью.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The boat and the new moon",
+          "body": "<p>Vetch reaches the boat, sees Ged among the waves and hauls him aboard. Exhausted, Ged says nothing and still grips his staff. Vetch raises the sail and turns homewards. Later Ged notices the new moon in the west. He looks at the sea and his friend, laughs, then weeps. The pursuit is over: the shadow separated from him no longer governs his life.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Пауза перед последней встречей",
+          "body": "<p>Essential и Core оставляют Геда с Ветчем в пути. Только Deep открывает последнюю встречу, имя тени и исход плавания.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "A pause before the last encounter",
+          "body": "<p>Essential and Core leave Ged and Vetch on their voyage. Only Deep reveals the final encounter, the shadow’s name and the outcome of the journey.</p>"
+        }
+      },
+      "final": true
+    }
+  ],
+  "editorial": {
+    "author": "Pavel Novikau",
+    "publisher": "Smartcat",
+    "accessDate": "2026-10-31",
+    "evidenceBoundary": {
+      "ru": "Короткий пересказ своими словами. Прочитаны стенограмма NEA с разрешёнными отрывками романа, Teachers’ Guide NEA и открытые справочные событийные разборы EBSCO. Новая первичная опора финала — официальная авторская запись кульминации главы 10: получена запись и прочитана локальная автоматическая транскрипция, а не проведено прослушивание человеком. Полный роман, послесловие 2012 года и конкретный русский перевод не прочитаны. Сохранённая цепочка проверена в пределах этих материалов; полная верность изданию не заявляется. Разгадка и исход — только в Deep. Внешние источники могут раскрывать финал.",
+      "en": "An original-word concise retelling. Read the NEA transcript with authorised novel passages, the NEA Teacher’s Guide and public EBSCO event/reference accounts. New primary support for the ending is the official author recording of the chapter-10 climax: the recording was obtained and a local automatic transcript read, rather than human listening. The complete novel, 2012 afterword and a specific Russian translation were not read. The retained chain was checked within those materials; complete-edition fidelity is not claimed. The answer and outcome are exclusive to Deep. External sources may reveal the ending."
+    },
+    "spoilerPolicy": {
+      "essential": "Opening journey and pursuit; no final identity, method or outcome.",
+      "core": "Adds dangers and encounters; no final identity, method or outcome.",
+      "deep": "Full ending after fresh book-local consent."
+    }
+  },
+  "contentMode": "narrative",
+  "spoilerPolicy": "full-plot-in-deep",
+  "evidenceBoundary": {
+    "ru": "Короткий пересказ своими словами. Прочитаны стенограмма NEA с разрешёнными отрывками романа, Teachers’ Guide NEA и открытые справочные событийные разборы EBSCO. Новая первичная опора финала — официальная авторская запись кульминации главы 10: получена запись и прочитана локальная автоматическая транскрипция, а не проведено прослушивание человеком. Полный роман, послесловие 2012 года и конкретный русский перевод не прочитаны. Сохранённая цепочка проверена в пределах этих материалов; полная верность изданию не заявляется. Разгадка и исход — только в Deep. Внешние источники могут раскрывать финал.",
+    "en": "An original-word concise retelling. Read the NEA transcript with authorised novel passages, the NEA Teacher’s Guide and public EBSCO event/reference accounts. New primary support for the ending is the official author recording of the chapter-10 climax: the recording was obtained and a local automatic transcript read, rather than human listening. The complete novel, 2012 afterword and a specific Russian translation were not read. The retained chain was checked within those materials; complete-edition fidelity is not claimed. The answer and outcome are exclusive to Deep. External sources may reveal the ending."
+  }
+}

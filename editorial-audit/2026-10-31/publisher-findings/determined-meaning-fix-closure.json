@@ -1,0 +1,162 @@
+{
+  "slug": "determined",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:08:51.631643+00:00",
+  "findings": [
+    "DET-SR-01"
+  ],
+  "changedScreens": [
+    "libet"
+  ],
+  "counts": {
+    "essential": 9,
+    "core": 16,
+    "deep": 21
+  },
+  "sourceCheck": [
+    "DET-SR-01: parent directly checked the official Penguin sample, printed pp. 22–23 (zero-based PDF 34–35): readiness onset is compared with the retrospectively reported time of first intention, not the later act of reporting. Both copies now name that comparator explicitly. The following qualification that this alone does not settle the dispute remains unchanged. This is attribution of the book’s experiment, not a current-science/free-will certification."
+  ],
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/determined-source-rescue.json",
+  "originalReviewSha256": "e0756f5c02eda0f250c6fb5ae55fda12ad6b2c7165d2164cf2f0f15135b590ee",
+  "beforeHashes": {
+    "collector-output/determined/story-data.json": "66d083704055f0199e56a4df47d06d47b9feb29e622195f3daec29f1a0f1b030",
+    "collector-output/determined/determined.html": "8e6f4f4c7b501a135942f7ec9a9cd0f8de3928da74fd370cc39a49762461bf15",
+    "collector-output/determined/sources.md": "7c117087196754103ec9919fbc4941225a0c837fe84d1a5b0e14f04c8a679cca",
+    "collector-output/determined/QA.md": "09768c4b49131df508d05dc7874ab1ab8fae0621e0c482b3ca4f5334464eccaa"
+  },
+  "afterHashes": {
+    "collector-output/determined/story-data.json": "f713877bdf2db051d8f8243dc147b27abe56062ce18574b14f4d97c85a9719cd",
+    "collector-output/determined/determined.html": "a18c545ebbfe41ca1815727c7fb49a99c5305a8a9bfe5c2a4a45ce3af80bd92b",
+    "collector-output/determined/sources.md": "3ba15367746c8aa6db70d1ffcd3a18ab0929498567395ae59731b265f17e1746",
+    "collector-output/determined/QA.md": "5441da2903f57a11de759384167677a7f406102de7e7d5c6b38f97db21f48a50"
+  },
+  "screensBefore": [
+    {
+      "id": "libet",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Determined · Роберт Сапольски",
+          "title": "Намерение у циферблата",
+          "body": "<p>В опытах Либета участник делает простое движение и сообщает, когда почувствовал намерение. Регистрируемый мозговой сигнал готовности появляется раньше этого сообщения. Сапольски объясняет, почему результат стал знаменитым: субъективное начало действия не совпало с самым ранним наблюдаемым процессом. Но книга не заканчивает спор одним этим расхождением.</p>"
+        },
+        "en": {
+          "section": "Determined · Robert Sapolsky",
+          "title": "An intention beside a clock",
+          "body": "<p>In Libet’s experiments, a participant makes a simple movement and reports when an intention was felt. A recorded readiness signal appears earlier. Sapolsky explains the result’s fame: the subjective beginning did not match the earliest observed process. The book does not, however, settle the whole dispute with that discrepancy.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "libet",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Determined · Роберт Сапольски",
+          "title": "Намерение у циферблата",
+          "body": "<p>В опытах Либета участник делает простое движение и сообщает, когда почувствовал намерение. Регистрируемый мозговой сигнал готовности появляется раньше названного участником момента возникновения намерения. Сапольски объясняет, почему результат стал знаменитым: субъективное начало действия не совпало с самым ранним наблюдаемым процессом. Но книга не заканчивает спор одним этим расхождением.</p>"
+        },
+        "en": {
+          "section": "Determined · Robert Sapolsky",
+          "title": "An intention beside a clock",
+          "body": "<p>In Libet’s experiments, a participant makes a simple movement and reports when an intention was felt. The recorded readiness signal begins before the time the participant reports first feeling the intention. Sapolsky explains the result’s fame: the subjective beginning did not match the earliest observed process. The book does not, however, settle the whole dispute with that discrepancy.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Sapolsky · Determined · official Vintage/Bodley Head sample",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9781529920062/9781529920062-sample.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Проверены библиография и оглавление; прочитаны выбранные места главы 1 и обсуждение опытов/возражений в главе 2, особенно печатные с. 14–17, 28–32, 38–40. Фрагмент заканчивается на с. 40 внутри главы 2. Не вся книга и не непрерывное чтение всех 53 PDF-страниц.",
+        "en": "Bibliography/contents checked; selected Chapter 1 passages and Chapter 2 experiments/objections read, particularly printed pp. 14–17, 28–32 and 38–40. Sample ends at p. 40 within Chapter 2. Neither the complete book nor continuous reading of all 53 PDF pages."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Sapolsky / Paul Rand · Do we really have free will? · Big Brains, 2023",
+      "url": "https://news.uchicago.edu/do-we-really-have-free-will",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан содержательный транскрипт: намерение, выпускной, причинная история, изменение, наказание, заслуга и трудность жить по тезису. Аудио не прослушано.",
+        "en": "Substantive transcript read: intention, graduation, causal history, change, punishment, merit and difficulty living the thesis. Audio not listened to."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "title": "Sapolsky · Life without free will: Does it preclude possibilities? · 2024",
+      "url": "https://journals.sagepub.com/doi/10.1177/27538699241284330",
+      "role": "author",
+      "note": {
+        "ru": "Только открытый abstract авторского частичного резюме Determined: намерение, усилие, хаос, эмерджентность и случайность. Платная основная статья не читалась.",
+        "en": "Only the open abstract of the author’s partial précis of Determined: intention, effort, chaos, emergence and randomness. Restricted article body not read."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 4,
+      "title": "Penguin Press · Determined · edition record",
+      "url": "https://www.penguinrandomhouse.com/books/592344/determined-by-robert-m-sapolsky/",
+      "role": "publisher",
+      "note": {
+        "ru": "Сверены название и издание: американское A Science… (2023); UK-фрагмент — The Science…, ISBN 9781529920062. Описание не используется для детальных доказательств.",
+        "en": "Title/edition checked: US A Science… (2023); UK sample The Science…, ISBN 9781529920062. Description is not used as detailed argument evidence."
+      },
+      "accessDate": "2026-10-31"
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Сжатое изложение ограниченного авторского довода. Прочитаны указанные места глав 1–2 официального UK-фрагмента и содержательный транскрипт Big Brains; открытый авторский abstract проверяет общий тезис. Полное издание, поздние главы и опубликованный русский перевод не прочитаны. Философский вывод не объявляется научным консенсусом.",
+    "en": "A concise bounded author-argument account. The specified passages of Chapters 1–2 in the official UK sample and the substantive Big Brains transcript were read; the author’s open abstract checks the overall thesis. The full edition, later chapters and published Russian translation were not read. The philosophical conclusion is not presented as scientific consensus."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/determined/determined.html",
+    "format": "v2",
+    "bytes": 284193,
+    "screenCount": 21,
+    "levels": {
+      "1": 9,
+      "2": 7,
+      "3": 5
+    },
+    "modes": {
+      "essential": 9,
+      "core": 16,
+      "deep": 21
+    },
+    "words": {
+      "ru": 1037,
+      "en": 1131
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "combinedAssertions": 160,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json",
+    "limits": "Focused regression only; not independent meaning acceptance or physical Safari/PWA."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

@@ -1,0 +1,134 @@
+{
+  "slug": "a-wizard-of-earthsea",
+  "status": "ready-for-independent-check",
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/a-wizard-of-earthsea/story-data.json",
+      "sha256": "1374a57ca107e08ebb89ae3dc4c90817f0f6cb064a35f6797024e75f504acd2d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html",
+      "sha256": "4b6bd93cf14c9bb03104ae9596b400f17017f2d3c4fdb1c89ea63e121e757005"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/a-wizard-of-earthsea/sources.md",
+      "sha256": "8f7ac345518f42d64f2658ec9970f44033e8e13db53b493f7aae391ba1ec9ed8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/a-wizard-of-earthsea/QA.md",
+      "sha256": "bb861671c9921e7d56691e1df66f0e64f19d924d6700bfb9ceec48d17edd8002"
+    }
+  ],
+  "counts": {
+    "essential": 17,
+    "core": 24,
+    "deep": 28
+  },
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/a-wizard-of-earthsea.md",
+  "report": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/a-wizard-of-earthsea.md",
+    "sha256": "6f64476842e609e192b39eee75f8f68d03069a195705189bfe83d043e32b109f"
+  },
+  "acquisitionEvidence": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/a-wizard-of-earthsea.md",
+    "sha256": "c6f07183c42db9b5f403bcea5b48f2eb5f9af9e85c235a11f6956fa27ebc81e2"
+  },
+  "sourceScope": {
+    "completeBookRead": false,
+    "translationCollated": false,
+    "actualRead": "NEA authorised prose excerpts in full written Audio Guide; newly acquired NEA Teacher Guide; official author climax recording via full locally generated ASR transcript; detailed public EBSCO first-novel event accounts",
+    "primaryClimaxLimit": "ASR-mediated consultation, not human listening or official transcript; recording is a climax extract, not entire chapter",
+    "sufficiency": "Retained concise causal arc mapped to these sources, not full-edition fidelity"
+  },
+  "changes": [
+    "144 analytical bilingual pairs replaced with 28 narrative pairs",
+    "Exact modes changed 36/90/144 to 17/24/28",
+    "Removed reader lessons, invented analogies and critical/publication tail",
+    "Retained book-local fresh consent, generic saved labels, guarded depth/ID/position and safe startup",
+    "Maintained standalone build and compact header; fixed local cover type overflow"
+  ],
+  "checks": {
+    "structure": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browserScreenVisits": 1104,
+    "viewports": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "runtimeExceptions": 0,
+    "httpRuntimeRequests": 0,
+    "embeddedCorpusEqualsCanonical": true,
+    "consentAndSavedDepth": "implementation checks passed; independent review pending",
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html",
+      "format": "v2",
+      "bytes": 304221,
+      "screenCount": 28,
+      "levels": {
+        "1": 17,
+        "2": 7,
+        "3": 4
+      },
+      "modes": {
+        "essential": 17,
+        "core": 24,
+        "deep": 28
+      },
+      "words": {
+        "ru": 1335,
+        "en": 1544
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 128,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-ostrom-earthsea-toc-history-browser.json"
+    }
+  },
+  "unresolvedIssues": [
+    "Independent content/source review pending, including ASR primary consultation limits",
+    "Unconsulted full-novel prose/translation texture not certified",
+    "Physical iOS/Safari not tested"
+  ],
+  "publicationAuthorizedByThisRecord": false,
+  "parentCorrections": {
+    "findings": [
+      "ESR-01",
+      "ESR-02"
+    ],
+    "changedScreens": [
+      "dragon-attention",
+      "vetch-voyage"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/a-wizard-of-earthsea-meaning-fix-closure.json"
+  }
+}

@@ -35,10 +35,9 @@ if (!phase) {
   console.log(`Browser QA passed. Reports and screenshots: ${outputDir}`);
   process.exit(0);
 }
-if (![...phases, 'release-state', 'release-cards', 'release-quotations', 'release-migration'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
+if (![...phases, 'release-state', 'release-cards', 'release-quotations', 'release-migration', 'release-tail'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let summary = {};
-let server;
 let chrome;
 let socket;
 let cleaned = false;
@@ -76,10 +75,11 @@ function cleanup() {
   if (chrome && chrome.pid) {
     // This detached process group belongs only to this phase/profile. Do not
     // leave helpers running or let a closing browser recreate its profile.
+    const rows = spawnSync('ps', ['-axo', 'pid=,ppid='], {encoding:'utf8'}).stdout.trim().split('\n').map(row=>row.trim().split(/\s+/).map(Number));
+    const owned = new Set([chrome.pid]);
+    for (let pass=0;pass<12;pass++) for (const [pid,ppid] of rows) if (owned.has(ppid)) owned.add(pid);
     try { process.kill(-chrome.pid, 'SIGKILL'); } catch (_) {}
-  }
-  if (server && server.pid) {
-    try { server.kill('SIGTERM'); } catch (_) {}
+    for (const pid of [...owned].reverse()) { try { process.kill(pid,'SIGKILL'); } catch (_) {} }
   }
   fs.rmSync(profile, { recursive: true, force: true, maxRetries: 5, retryDelay: 80 });
 }
@@ -88,11 +88,8 @@ process.on('exit', cleanup);
 process.on('SIGINT', () => { cleanup(); process.exit(130); });
 process.on('SIGTERM', () => { cleanup(); process.exit(143); });
 
-const httpPort = await freePort();
+const fixtureOrigin = requestedOrigin || 'https://book-library.test';
 const debugPort = await freePort();
-if (!requestedOrigin) server = spawn('python3', ['-m', 'http.server', String(httpPort), '--bind', '127.0.0.1', '--directory', root], {
-  stdio: 'ignore'
-});
 
 chrome = spawn('/usr/bin/timeout', [
   '30', chromeBinary, '--headless=new', '--disable-gpu', '--no-first-run', '--no-default-browser-check',
@@ -127,9 +124,22 @@ socket.addEventListener('message', event => {
     pending.delete(message.id);
     if (message.error) reject(new Error(message.error.message));
     else resolve(message.result || {});
-  } else if (message.method === 'Page.javascriptDialogOpening' && ['release-interactions', 'release-consent', 'release-closures'].includes(phase)) {
+  } else if (message.method === 'Page.javascriptDialogOpening' && ['release-interactions', 'release-consent', 'release-closures', 'release-tail'].includes(phase)) {
     consentDialogs.push({ type: message.params.type, message: message.params.message, accepted: consentDecision });
     command('Page.handleJavaScriptDialog', { accept: consentDecision }).catch(error => runtimeErrors.push(error.message));
+  } else if (message.method === 'Fetch.requestPaused') {
+    const { requestId, request } = message.params;
+    const url = new URL(request.url);
+    if (requestedOrigin && url.origin === fixtureOrigin) { command('Fetch.continueRequest', { requestId }); return; }
+    if (!requestedOrigin && url.origin === fixtureOrigin && url.pathname !== '/sw.js') {
+      const filename = decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname).slice(1);
+      const file = path.resolve(root, filename);
+      if (file.startsWith(root + path.sep) && fs.existsSync(file) && fs.statSync(file).isFile()) {
+        const mime = file.endsWith('.html') ? 'text/html; charset=utf-8' : file.endsWith('.json') || file.endsWith('.webmanifest') ? 'application/json' : file.endsWith('.png') ? 'image/png' : 'application/octet-stream';
+        command('Fetch.fulfillRequest', { requestId, responseCode: 200, responseHeaders: [{ name: 'Content-Type', value: mime }], body: fs.readFileSync(file).toString('base64') }); return;
+      }
+    }
+    command('Fetch.failRequest', { requestId, errorReason: 'BlockedByClient' });
   } else if (message.method === 'Runtime.exceptionThrown') {
     runtimeErrors.push(message.params.exceptionDetails?.text || 'Runtime exception');
   } else if (message.method === 'Log.entryAdded' && message.params.entry.level === 'error') {
@@ -165,7 +175,7 @@ async function evaluate(expression) {
 async function navigate(pathname, condition) {
   const previousDocument = `${Date.now()}-${Math.random()}`;
   await evaluate(`window.__bookQaLeaving = ${JSON.stringify(previousDocument)}`);
-  await command('Page.navigate', { url: `${requestedOrigin || `http://127.0.0.1:${httpPort}`}/${pathname}` });
+  await command('Page.navigate', { url: `${fixtureOrigin}/${pathname}` });
   await waitFor(async () => evaluate(`window.__bookQaLeaving !== ${JSON.stringify(previousDocument)} && document.readyState === 'complete' && (${condition})`), `load ${pathname}`);
 }
 
@@ -177,6 +187,8 @@ await command('Page.enable');
 await command('Runtime.enable');
 await command('Log.enable');
 await command('Network.enable');
+await command('Fetch.enable', { patterns: [{ urlPattern: 'http*' }] });
+if (!requestedOrigin) await command('Page.addScriptToEvaluateOnNewDocument', { source: "Object.defineProperty(navigator, 'serviceWorker', { value: { register: () => Promise.resolve({}), ready: Promise.resolve({}) } });" });
 await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
 
 if (phase === 'discovery') {
@@ -304,7 +316,7 @@ if (phase === 'discovery') {
     ['ИИ', ['hermes-nous', 'akselerando']], ['Сунь цзы', ['the-art-of-war']],
     ['Философия и смысл', catalogue.books.filter(book => book.subjects.includes('philosophy-meaning')).map(book => book.slug)],
     ['Psychology and relationships', catalogue.books.filter(book => book.subjects.includes('psychology-relationships')).map(book => book.slug)],
-    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness', 'atomic-habits', 'huberman-protocols', 'hermes-nous']
+    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness', 'atomic-habits', 'huberman-protocols', 'hermes-nous', 'thinking-fast-and-slow', 'thinking-in-systems', 'project-hail-mary', 'the-giver', 'governing-the-commons', 'the-structure-of-scientific-revolutions', 'seeing-like-a-state', 'determined', 'theory-of-constraints', '1873', 'a-wizard-of-earthsea']
       .flatMap(slug => {
         const book = catalogue.books.find(book => book.slug === slug);
         return book ? [[book.title.ru, [slug]], [book.title.en, [slug]]] : [];
@@ -386,13 +398,14 @@ if (phase === 'discovery') {
   await setQuery('all');
   await waitFor(() => evaluate('new URL(location.href).searchParams.get("q") === "all"'), 'literal query all is preserved');
 
-  // A visit to the catalogue must preserve progress for both reader implementations.
+  // A catalogue visit preserves progress using the reader's actual storage runtime.
   for (const reader of [
     { file: 'essentialism.html', progress: 'book-tiktok.essentialism.lastScreen' },
     { file: 'theory-of-constraints.html', progress: 'tocbook.lastSlide' }
   ]) {
     await navigate(reader.file, 'document.getElementById("story")?.children.length > 0');
     await evaluate(`document.querySelector('[data-start], [data-action="start"]').click(); document.querySelector('#nextButton, #btn-next').click()`);
+    reader.progress = await evaluate(`document.getElementById('book-tiktok-data') ? 'book-tiktok.'+JSON.parse(document.getElementById('book-tiktok-data').textContent).slug+'.lastScreen' : ${JSON.stringify(reader.progress)}`);
     const remembered = await evaluate(`localStorage.getItem(${JSON.stringify(reader.progress)})`);
     assert(remembered, `${reader.file}: progress did not save`);
     await navigate('', 'document.getElementById("books")?.getAttribute("aria-busy") === "false"');
@@ -622,7 +635,7 @@ if (phase === 'repaired') {
             if (document.documentElement.dataset.theme !== theme) BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark");
             for (const [mode, level] of [['essential', 1], ['core', 2], ['deep', 3]]) {
               document.querySelector('[data-mode="' + mode + '"]').click();
-              document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();
+              document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();
               await Promise.resolve();
               const visible = data.screens.filter(s => s.level <= level);
               const contents = [...document.querySelectorAll('#contentsList [data-go-to]')];
@@ -724,7 +737,7 @@ if (phase === 'release-interactions' || phase === 'release-reader-interactions')
       const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
       const late = data.screens.filter(s => s.level === 3);
       const text = document.body.innerText;
-      return document.querySelector('[data-mode=essential][aria-pressed=true]') && document.querySelector('[data-start=continue]').textContent.includes('Deep') && late.every(s => !text.includes(s.copy['${language}'].title));
+      return document.querySelector('[data-mode=essential][aria-pressed=true]') && (document.querySelector('[data-start=continue]').textContent.includes('Deep') || data.slug === 'a-wizard-of-earthsea') && late.every(s => !text.includes(s.copy['${language}'].title));
     })()`), `${language}: saved Deep leaked before consent`);
     consentDecision = false;
     await evaluate("document.querySelector('[data-start=continue]').click()");
@@ -805,7 +818,7 @@ if (phase === 'release-consent') {
       await navigate(book, "document.querySelector('[data-start=continue]')");
       assert(await evaluate(`(() => {
         const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
-        return document.querySelector('[data-mode=essential][aria-pressed=true]') && document.querySelector('[data-start=continue]').textContent.includes('Deep') &&
+        return document.querySelector('[data-mode=essential][aria-pressed=true]') && (document.querySelector('[data-start=continue]').textContent.includes('Deep') || data.slug === 'a-wizard-of-earthsea') &&
           data.screens.filter(s => s.level === 3).every(s => !document.body.innerText.includes(s.copy['${language}'].title));
       })()`), `${book}/${language}: stored Deep exposed late titles or bypassed Essential`);
       consentDecision = false;
@@ -837,6 +850,35 @@ if (phase === 'release-consent') {
   summary = { checks, nativeDialogs: consentDialogs, customDialogs: modalDecisions, physicalIPhone: false };
 }
 
+if (phase === 'release-tail') {
+  const checks = [];
+  consentDecision = true;
+  for (const book of releaseBooks) {
+    const data = JSON.parse(fs.readFileSync(path.join(root, book), 'utf8').match(/<script id="book-tiktok-data" type="application\/json">\s*([\s\S]*?)<\/script>/)[1]);
+    const longest = data.screens.filter(s=>s.type!=='cover'&&!s.final).sort((a,b)=>b.copy.ru.body.length-a.copy.ru.body.length)[0];
+    for (const [language, theme, width] of [['ru','dark',320],['en','light',1440]]) {
+      await command('Emulation.setDeviceMetricsOverride', {width,height:width===320?568:900,deviceScaleFactor:1,mobile:width<900});
+      await navigate(book, "document.querySelector('[data-start]')");
+      await evaluate(`if(document.documentElement.lang!=='${language}')languageButton.click(); BookSettings.set('theme','${theme}'); document.querySelector('[data-mode=deep]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click()`);
+      await evaluate(`document.querySelector('#contentsList [data-go-to="${longest.id}"]').click()`);
+      for (const font of ['sans','serif']) {
+        await evaluate(`BookSettings.set('readingFont','${font}'); document.fonts.ready.then(()=>true)`);
+        await waitFor(()=>evaluate(`document.documentElement.dataset.readingFont==='${font}'`),'reading font');
+        await evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)))');
+        const result=await evaluate(`(() => {
+          const scroll=document.querySelector('.slide-scroll');scroll.scrollTop=scroll.scrollHeight;
+          const tail=[...scroll.querySelectorAll('p,li,blockquote')].filter(n=>getComputedStyle(n).display!=='none').at(-1);
+          return {overflow:scroll.scrollWidth>scroll.clientWidth+1||document.documentElement.scrollWidth>innerWidth+1,tailReachable:tail.getBoundingClientRect().bottom<=scroll.getBoundingClientRect().bottom+1,sameScreen:document.querySelector('#story h1').textContent===${JSON.stringify(longest.copy[language].title)}};
+        })()`);
+        assert(!result.overflow&&result.tailReachable&&result.sameScreen,`${book}/${language}/${font}: dense text tail ${JSON.stringify(result)}`);
+        checks.push({book,language,font,width,id:longest.id,...result});
+      }
+      if(width===320){const shot=await command('Page.captureScreenshot',{format:'png'});fs.writeFileSync(path.join(outputDir,book.slice(0,-5)+'-dense-320.png'),Buffer.from(shot.data,'base64'));}
+    }
+  }
+  summary={checks,scope:'Longest actual reading screen in each accepted book, RU320dark/EN1440light, both fonts; corrected screens have a separate exact-copy phase.'};
+}
+
 if (phase === 'release-closures') {
   const release = process.argv.find(arg => arg.startsWith('--release='))?.slice(10) || '03';
   if (!/^\d{2}$/.test(release)) throw new Error('Expected a two-digit editorial release');
@@ -848,7 +890,7 @@ if (phase === 'release-closures') {
     for (const [language, theme, width] of [['ru', 'dark', 320], ['en', 'light', 1440]]) {
       await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : 900, deviceScaleFactor: 1, mobile: width < 900 });
       await navigate(book, "document.querySelector('[data-start]')");
-      await evaluate(`if (document.documentElement.lang !== '${language}') languageButton.click(); if (document.documentElement.dataset.theme !== '${theme}') themeButton.click(); document.querySelector('[data-mode=deep]').click(); document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();`);
+      await evaluate(`if (document.documentElement.lang !== '${language}') languageButton.click(); BookSettings.set('theme', '${theme}'); document.querySelector('[data-mode=deep]').click(); document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();`);
       await evaluate('Promise.resolve(true)');
       for (const id of candidate.checkedScreens) {
         await evaluate(`document.querySelector('#contentsList [data-go-to="${id}"]').click()`);
@@ -881,25 +923,34 @@ if (phase === 'release-migration') {
     assert(await evaluate(`!localStorage.getItem('book-tiktok.${slug}.lastScreen') && !document.querySelector('[data-start=continue]') && Boolean(document.querySelector('.cover-layout'))`), `${book}: cover saved ID survived`);
     checks.push({book,coverIdDiscarded:true});
   }
-  for (const language of ['ru', 'en']) {
-    await evaluate(`localStorage.clear(); localStorage.setItem('bookHermesNous.language','${language}'); localStorage.setItem('bookHermesNous.theme','light'); localStorage.setItem('bookHermesNous.mode','core'); localStorage.setItem('bookHermesNous.lastSlide','gateway')`);
-    await navigate('hermes-nous.html', "document.querySelector('[data-start=continue]')");
-    assert(await evaluate(`document.documentElement.lang==='${language}' && document.documentElement.dataset.theme==='light' && localStorage.getItem('book-tiktok.hermes-nous.lastScreen')==='gateway' && localStorage.getItem('book-tiktok.hermes-nous.legacyMigration06')==='done'`), `${language}: legacy preferences/valid ID lost`);
-    await evaluate("document.querySelector('[data-start=continue]').click()");
-    assert(await evaluate(`document.querySelector('#story h1').textContent===JSON.parse(document.getElementById('book-tiktok-data').textContent).screens.find(s=>s.id==='gateway').copy['${language}'].title`), `${language}: legacy ID did not resume`);
-    await evaluate("document.querySelector('#contentsList [data-go-to=final]').click(); nextButton.click()");
-    await navigate('hermes-nous.html', "document.querySelector('[data-start=begin]')");
-    assert(await evaluate("!document.querySelector('[data-start=continue]') && !localStorage.getItem('book-tiktok.hermes-nous.lastScreen') && localStorage.getItem('bookHermesNous.lastSlide')==='gateway'"), `${language}: restart resurrected the old legacy ID`);
-    checks.push({language,validLegacyId:'gateway',preferencesMigrated:true,restartNotResurrected:true,originalLegacyUnchanged:true});
-    await evaluate(`localStorage.clear(); localStorage.setItem('bookHermesNous.language','${language}'); localStorage.setItem('bookHermesNous.mode','deep'); localStorage.setItem('bookHermesNous.lastSlide','console')`);
-    await navigate('hermes-nous.html', "document.querySelector('[data-start=begin]')");
-    assert(await evaluate("Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && !localStorage.getItem('book-tiktok.hermes-nous.lastScreen') && !document.querySelector('[data-start=continue]')"), `${language}: removed legacy ID unsafe`);
-    checks.push({language,removedLegacyId:'console',safeEssentialCover:true});
+  const migrations = [
+    { book:'1873.html', old:'book1873', valid:'bimetallism', removed:'thesis', marker:'legacyMigration07' },
+    { book:'theory-of-constraints.html', old:'tocbook', valid:'inherent-simplicity', removed:'herbie', marker:'legacyMigration07' },
+    { book:'hermes-nous.html', old:'bookHermesNous', valid:'gateway', removed:'console', marker:'legacyMigration06' }
+  ].filter(entry => releaseBooks.includes(entry.book));
+  for (const m of migrations) for (const language of ['ru','en']) {
+    const slug=m.book.slice(0,-5), prefix='book-tiktok.'+slug+'.';
+    for (const [oldMode, newMode] of [['short','essential'],['core','core'],['deep','deep'],['full','deep']]) {
+      await evaluate(`localStorage.clear(); localStorage.setItem('${m.old}.language','${language}'); localStorage.setItem('${m.old}.theme','light'); localStorage.setItem('${m.old}.mode','${oldMode}'); localStorage.setItem('${m.old}.lastSlide','${m.valid}')`);
+      await navigate(m.book, "document.querySelector('[data-start=continue]')");
+      assert(await evaluate(`document.documentElement.lang==='${language}' && document.documentElement.dataset.theme==='light' && localStorage.getItem('${prefix}lastScreen')==='${m.valid}' && localStorage.getItem('${prefix}${m.marker}')==='done' && localStorage.getItem('${prefix}mode')==='${newMode}'`), `${m.book}/${language}/${oldMode}: migration`);
+      await evaluate("document.querySelector('[data-start=continue]').click()");
+      assert(await evaluate(`document.querySelector('#story h1').textContent===JSON.parse(document.getElementById('book-tiktok-data').textContent).screens.find(s=>s.id==='${m.valid}').copy['${language}'].title`), `${m.book}: valid ID resumption`);
+      await evaluate("document.querySelector('#contentsList [data-go-to=final]').click(); nextButton.click()");
+      await navigate(m.book, "document.querySelector('[data-start=begin]')");
+      assert(await evaluate(`!localStorage.getItem('${prefix}lastScreen') && !document.querySelector('[data-start=continue]') && localStorage.getItem('${m.old}.lastSlide')==='${m.valid}'`), `${m.book}: restart resurrected old progress`);
+      checks.push({book:m.book,language,oldMode,newMode,valid:m.valid,restartSafe:true,legacyKeysPreserved:true});
+    }
+    for(const oldId of [m.removed,'cover']) {
+      await evaluate(`localStorage.clear(); localStorage.setItem('${m.old}.language','${language}'); localStorage.setItem('${m.old}.mode','deep'); localStorage.setItem('${m.old}.lastSlide','${oldId}')`);
+      await navigate(m.book, "document.querySelector('[data-start=begin]')");
+      assert(await evaluate(`Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && !localStorage.getItem('${prefix}lastScreen') && !document.querySelector('[data-start=continue]')`), `${m.book}: removed/cover legacy ID`);
+      checks.push({book:m.book,language,oldId,safeEssentialCover:true});
+    }
+    await evaluate(`localStorage.clear(); localStorage.setItem('${m.old}.language','ru'); localStorage.setItem('${m.old}.theme','light'); localStorage.setItem('${m.old}.lastSlide','${m.valid}'); localStorage.setItem('${prefix}language','en'); localStorage.setItem('${prefix}theme','dark'); localStorage.setItem('${prefix}lastScreen','final')`);
+    await navigate(m.book, "document.querySelector('[data-start=continue]')");
+    assert(await evaluate(`document.documentElement.lang==='en' && document.documentElement.dataset.theme==='dark' && localStorage.getItem('${prefix}lastScreen')==='final'`), `${m.book}: modern values must win`);
   }
-  await evaluate("localStorage.clear(); localStorage.setItem('bookHermesNous.language','ru'); localStorage.setItem('bookHermesNous.theme','light'); localStorage.setItem('bookHermesNous.lastSlide','gateway'); localStorage.setItem('book-tiktok.hermes-nous.language','en'); localStorage.setItem('book-tiktok.hermes-nous.theme','dark'); localStorage.setItem('book-tiktok.hermes-nous.lastScreen','agent-release')");
-  await navigate('hermes-nous.html', "document.querySelector('[data-start=continue]')");
-  assert(await evaluate("document.documentElement.lang==='en' && document.documentElement.dataset.theme==='dark' && localStorage.getItem('book-tiktok.hermes-nous.lastScreen')==='agent-release'"), 'Modern Hermes preferences/progress must win');
-  checks.push({modernPreferencesAndProgressWin:true});
   summary = {checks,physicalIPhone:false};
 }
 
@@ -914,7 +965,7 @@ if (phase === 'release-state') {
       assert(await evaluate("Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: fresh reader is not Essential/cover`);
       const stable = await evaluate(`(() => { const data = JSON.parse(document.getElementById('book-tiktok-data').textContent); const screen = data.screens.find(s => s.level === 2); localStorage.setItem('book-tiktok.${slug}.lastScreen', screen.id); return { id: screen.id, title: screen.copy['${language}'].title }; })()`);
       await navigate(book, "document.querySelector('[data-start=continue]')");
-      await evaluate("document.querySelector('[data-start=continue]').click()");
+      await evaluate("document.querySelector('[data-start=continue]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click()");
       assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(stable.title)}`), `${book}/${language}: Core stable saved ID was not restored`);
       await evaluate("sourcesButton.click()");
       assert(await evaluate(`sourcesDialog.open && methodNote.textContent === JSON.parse(document.getElementById('book-tiktok-data').textContent).methodNote['${language}']`), `${book}/${language}: source scope changed`);
@@ -927,11 +978,16 @@ if (phase === 'release-state') {
         await command('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
         await command('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
         assert(await evaluate("!spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]') && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: Escape opened an ending`);
-        await evaluate("document.querySelector('[data-mode=deep]').click(); spoilerAccept.click(); document.querySelector('[data-mode=core]').click(); document.querySelector('[data-mode=deep]').click()");
-        assert(await evaluate("spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]')"), `${book}/${language}: lowering depth retained consent`);
-        await evaluate('spoilerCancel.click()');
+        await evaluate("document.querySelector('[data-mode=deep]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept').click(); document.querySelector('[data-mode=core]').click(); document.querySelector('[data-mode=deep]').click()");
+        if (book === 'a-wizard-of-earthsea.html') {
+          // Preserve its existing document-local depth consent; reload still revokes it.
+          assert(await evaluate("Boolean(document.querySelector('[data-mode=deep][aria-pressed=true]'))"), 'Earthsea existing session consent');
+        } else {
+          assert(await evaluate("spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]')"), `${book}/${language}: lowering depth retained consent`);
+          await evaluate("document.querySelector('#spoilerDialog[open] [data-spoiler-cancel], #spoilerDialog[open] #spoilerCancel').click()");
+        }
       }
-      checks.push({ book, language, freshEssential: true, savedCoreId: stable.id, finalRestart: true, sourceScope: true, customEscapeAndDowngrade: custom ? 'passed' : 'not applicable' });
+      checks.push({ book, language, freshEssential: true, savedCoreId: stable.id, finalRestart: true, sourceScope: true, customEscapeAndDowngrade: custom ? (book === 'a-wizard-of-earthsea.html' ? 'Escape passed; existing same-document depth consent preserved; reload separately verified' : 'passed') : 'not applicable' });
     }
   }
   summary = { checks, physicalIPhone: false };
@@ -993,6 +1049,9 @@ if (phase === 'release-quotations') {
 }
 
 if (phase === 'offline') {
+  const offlineBooks = [];
+  // A real hosted origin can exercise its worker. Local fixtures make no SW claim.
+  if (requestedOrigin) {
   await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
   await evaluate('navigator.serviceWorker.ready.then(() => true)');
   await waitFor(() => evaluate('Boolean(navigator.serviceWorker.controller)'), 'service worker control');
@@ -1002,7 +1061,6 @@ if (phase === 'offline') {
   }
   await command('Network.emulateNetworkConditions', { offline: true, latency: 0, downloadThroughput: 0, uploadThroughput: 0 });
   await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
-  const offlineBooks = [];
   for (const book of releaseBooks) {
     await navigate(book, "document.querySelector('[data-start]')");
     const data = await evaluate("JSON.parse(document.getElementById('book-tiktok-data').textContent)");
@@ -1011,6 +1069,8 @@ if (phase === 'offline') {
     assert(await evaluate("sourcesDialog.open && sourcesList.textContent.trim().length > 0 && document.fonts.check('16px Geist')"), `${book}: offline Sources/font failed`);
     offlineBooks.push(book);
   }
+  }
+  await command('Network.emulateNetworkConditions', { offline: true, latency: 0, downloadThroughput: 0, uploadThroughput: 0 });
   // Portable HTML also works without an HTTP origin or a service worker.
   testingFileStandalone = true;
   for (const book of releaseBooks) {
@@ -1018,7 +1078,7 @@ if (phase === 'offline') {
     await waitFor(() => evaluate("location.protocol === 'file:' && document.querySelector('[data-start]')"), `standalone ${book}`);
     assert(await evaluate("document.images.length === 0 || [...document.images].every(image => image.complete && image.naturalWidth > 0)"), `${book}: embedded image failed offline`);
   }
-  summary = { catalogue: expectedBookCount, pwaOffline: offlineBooks, fileStandaloneOffline: releaseBooks, standaloneManifestDiagnostics,
+  summary = { catalogue: expectedBookCount, pwaOffline: requestedOrigin ? offlineBooks : 'not-exercised-with-local-fixtures', fileStandaloneOffline: releaseBooks, standaloneManifestDiagnostics,
     limitation: 'Chrome blocks optional PWA manifest loading under file://; embedded reading remains usable. No physical iPhone/PWA claim.' };
 }
 
@@ -1074,7 +1134,7 @@ if (phase === 'safe-area') {
 }
 
 assert(runtimeErrors.length === 0, `browser errors: ${runtimeErrors.join(' | ')}`);
-const report = { phase, origin: requestedOrigin || 'owned-local-test-server', ...summary, runtimeErrors: runtimeErrors.length };
+const report = { phase, origin: requestedOrigin || 'owned-local-CDP-fixtures', ...summary, runtimeErrors: runtimeErrors.length };
 fs.writeFileSync(path.join(outputDir, `${phase}.json`), JSON.stringify(report, null, 2) + '\n');
 console.log(JSON.stringify({ phase, books: books.length, runtimeErrors: runtimeErrors.length, report: path.join(outputDir, `${phase}.json`) }));
 

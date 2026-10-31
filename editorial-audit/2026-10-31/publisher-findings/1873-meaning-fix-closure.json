@@ -1,0 +1,212 @@
+{
+  "slug": "1873",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:13:25.343338+00:00",
+  "findings": [
+    "1873-SR-01",
+    "1873-SR-02"
+  ],
+  "changedScreens": [
+    "gold-transition",
+    "egypt"
+  ],
+  "counts": {
+    "essential": 10,
+    "core": 17,
+    "deep": 21
+  },
+  "sourceCheck": "1873-SR-01/02: parent directly read Ahamed’s KeenOn exchange at16:51–18:20 and34:24 on silver, international reserves and deflation, plus the ConversationsWithTyler Gladstone/Egypt exchange and subsequent bimetallism discussion. Restored the monetary causal bridge explicitly as Ahamed’s interpretation. Corrected speaker/argument allocation: Ahamed raises the alternative, Cowen proposes the principled-debt explanation, Ahamed agrees that Gladstone did not invade to profit from his bonds. This reports the author’s concession, not proof of private motive; suspect oral debt totals remain excluded. No chronology edit or unseen chapter reconstruction.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/1873-source-rescue.json",
+  "originalReviewSha256": "50af6c7ad1ead323beea8d287c82dce6320e3fc9f5d09e42c722e2be1d2e8135",
+  "beforeHashes": {
+    "collector-output/1873/story-data.json": "566eecb03243b7acb5aaebaedc7c032fd4f5a99f4a9ca8a5c3635625ee37d7c9",
+    "collector-output/1873/1873.html": "134200ec86978a927d775e0ae03a38104cd2370e88aaa8d2b062d4f6ea59e331",
+    "collector-output/1873/sources.md": "c794d0ba1e418faa54e2cb8000c4fcfc04140a88fe012e693f32a6f21bce769b",
+    "collector-output/1873/QA.md": "5f38d285c8dab4ed58ce46c01174954c0b932fa9695c9f4004dc94104f10aa1e"
+  },
+  "afterHashes": {
+    "collector-output/1873/story-data.json": "8d4f49824fd9513867f163f45f8eba6e0576905c637491e90be8924fd9f86c33",
+    "collector-output/1873/1873.html": "d872c05d5a2248cd0ed0add77f17dfc162ef80d0ce215854589999be8091e934",
+    "collector-output/1873/sources.md": "9473c791ba4b327d2c0a2c7deb1b4d5c36f06a1d4b993bb428dd3285457152cd",
+    "collector-output/1873/QA.md": "9a962b0f5bf0c30987f9b61ddfa75bcdc1e6cf3fe34cf6386c897eb619939ccf"
+  },
+  "screensBefore": [
+    {
+      "id": "gold-transition",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "1873 · Лиакват Ахамед",
+          "title": "Золотой порядок",
+          "body": "<p>Одновременно меняется денежная система. Германия начинает переход от серебра к золоту ещё в 1871 году и закрепляет реформу в 1873-м. Ахамед придаёт этому решению Бисмарка большое значение: ослабляется прежняя система связи золотых и серебряных денег. Это длительная перестройка, а не одна мера, принятая всем миром после биржевого краха.</p>"
+        },
+        "en": {
+          "section": "1873 · Liaquat Ahamed",
+          "title": "The order of gold",
+          "body": "<p>The monetary system is changing too. Germany begins moving from silver toward gold in 1871 and formalizes the reform in 1873. Ahamed gives Bismarck’s decision great importance: the earlier link between gold and silver currencies weakens. This is a prolonged transformation, not one measure adopted worldwide after a market crash.</p>"
+        }
+      }
+    },
+    {
+      "id": "egypt",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "1873 · Лиакват Ахамед",
+          "title": "Облигации и египетская политика",
+          "body": "<p>В разговоре о Египте появляется Гладстон, сам владевший египетскими облигациями. Личная инвестиция и требование выплаты долга соседствуют с имперской политикой. Коуэн спрашивает, доказывает ли это корыстный мотив вторжения; Ахамед не принимает такого простого вывода. Связь интересов видна, но намерение человека нельзя восстановить из неё одной.</p>"
+        },
+        "en": {
+          "section": "1873 · Liaquat Ahamed",
+          "title": "Bonds and Egyptian policy",
+          "body": "<p>Discussing Egypt, Ahamed introduces Gladstone as an owner of Egyptian bonds. Personal investment and demands for repayment intersect with imperial policy. Cowen asks whether this proves a profit motive for invasion; Ahamed rejects that simple inference. Interests overlap, but an intention cannot be reconstructed from that overlap alone.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "gold-transition",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "1873 · Лиакват Ахамед",
+          "title": "Золотой порядок",
+          "body": "<p>Одновременно меняется денежная система. Германия начинает переход от серебра к золоту ещё в 1871 году и закрепляет реформу в 1873-м. Ахамед придаёт этому решению Бисмарка большое значение: ослабляется прежняя система связи золотых и серебряных денег. По Ахамеду, демонетизация серебра сокращала международные денежные резервы и усиливала долгую дефляцию. Это длительная перестройка, а не одна мера, принятая всем миром после биржевого краха.</p>"
+        },
+        "en": {
+          "section": "1873 · Liaquat Ahamed",
+          "title": "The order of gold",
+          "body": "<p>The monetary system is changing too. Germany begins moving from silver toward gold in 1871 and formalizes the reform in 1873. Ahamed gives Bismarck’s decision great importance: the earlier link between gold and silver currencies weakens. In Ahamed’s account, demonetizing silver contracted international monetary reserves and intensified the prolonged deflation. This is a prolonged transformation, not one measure adopted worldwide after a market crash.</p>"
+        }
+      }
+    },
+    {
+      "id": "egypt",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "1873 · Лиакват Ахамед",
+          "title": "Облигации и египетская политика",
+          "body": "<p>В разговоре о Египте появляется Гладстон, сам владевший египетскими облигациями. Личная инвестиция и требование выплаты долга соседствуют с имперской политикой. Ахамед ставит вопрос о личной выгоде и убеждённости в обязательности выплаты долгов. Коуэн предлагает второе объяснение, а Ахамед соглашается: по его мнению, Гладстон не вторгался в Египет ради прибыли от своих облигаций.</p>"
+        },
+        "en": {
+          "section": "1873 · Liaquat Ahamed",
+          "title": "Bonds and Egyptian policy",
+          "body": "<p>Discussing Egypt, Ahamed introduces Gladstone as an owner of Egyptian bonds. Personal investment and demands for repayment intersect with imperial policy. Ahamed raises the question of personal advantage versus a belief that debts must be repaid. Cowen proposes the latter explanation, and Ahamed agrees: in his view, Gladstone did not invade Egypt to profit from his bond holdings.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Liaquat Ahamed · 1873 · authorized opening chapter sample",
+      "url": "https://www.penguinrandomhouse.com/books/306461/1873-by-liaquat-ahamed/",
+      "role": "book",
+      "note": {
+        "ru": "Прочитан весь доступный образец «In Bonds We Trust»: церемонии 1869–1870, связь маршрутов, сбережения и рынок облигаций. Это начало главы 1, не вся книга.",
+        "en": "Complete available In Bonds We Trust sample read: 1869–1870 ceremonies, routes, savings and bonds. Opening of Chapter 1, not the whole book."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Ahamed / Tyler Cowen · Financial Crises, Gold, and the Lessons of 1873, 2026",
+      "url": "https://conversationswithtyler.com/episodes/liaquat-ahamed/",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан блок об 1873: рост/дефляция, Реконструкция, Гладстон/Египет, Бисмарк, биметаллизм и открытия золота. Остальная беседа о XX веке не считается содержанием этой книги.",
+        "en": "1873 discussion read: growth/deflation, Reconstruction, Gladstone/Egypt, Bismarck, bimetallism and gold discoveries. Remaining twentieth-century conversation is not treated as book content."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "title": "Ahamed / Andrew Keen · Around the World in One Long Depression, 2026",
+      "url": "https://www.keenon.tv/around-the-world-in-one-long-depression-liaquat-ahamed-on-1873-the-making-of-the-global-economy/",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны ответы автора о проектах, военных денежных потоках, пузырях, Ротшильдах, дефляции и политическом последствии, примерно 07:08–43:03. Резюме ведущего не подменяет ответы; оговорки, современные долларовые пересчёты и интервью-совет об AI не перенесены.",
+        "en": "Author answers on projects, war-related flows, bubbles, Rothschilds, deflation and political aftermath read, approximately 07:08–43:03. Host summaries do not replace answers; slips, modern-dollar conversions and AI investment advice are omitted."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 4,
+      "title": "New York Fed · Crisis Chronicles: The Long Depression and the Panic of 1873",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2016/02/crisis-chronicles-the-long-depression-and-the-panic-of-1873/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверка конкретного события: железнодорожное финансирование и приостановка выплат Jay Cooke 18 сентября 1873. Историческая проверка, не доступ к главе Ахамеда.",
+        "en": "Check of the specific event: railway financing and Jay Cooke suspension on 18 September 1873. Historical checking, not access to Ahamed’s chapter."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 5,
+      "title": "Johannes Wiegand · Gold, Silver, and Monetary Stability · IMF, 2023",
+      "url": "https://www.imf.org/en/publications/fandd/issues/2023/03/gold-silver-monetary-stability-johannes-wiegand",
+      "role": "primary",
+      "note": {
+        "ru": "Проверена хронология реформы 1871–1873: переход Германии к золоту начался до осенней паники. Это самостоятельное исследовательское объяснение, не мнение всего IMF и не прочитанная глава книги.",
+        "en": "Reform chronology in 1871–1873 checked: Germany’s shift to gold began before the autumn panic. Researcher explanation, not an institutional IMF position or an inspected book chapter."
+      },
+      "accessDate": "2026-10-31"
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Ограниченное изложение по всему доступному началу «In Bonds We Trust» и конкретным ответам Ахамеда в двух интервью. Хронология паники и валютной реформы дополнительно сверена. Полное издание 2026 года, его поздние главы и опубликованный русский перевод не прочитаны; детали, не поддержанные прочитанным, исключены.",
+    "en": "Bounded account based on the complete available In Bonds We Trust opening and specific Ahamed answers in two interviews. Panic and monetary-reform chronology additionally checked. The complete 2026 edition, later chapters and published Russian translation were not read; details unsupported by the consulted material are excluded."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/1873/1873.html",
+    "format": "v2",
+    "bytes": 285061,
+    "screenCount": 21,
+    "levels": {
+      "1": 10,
+      "2": 7,
+      "3": 4
+    },
+    "modes": {
+      "essential": 10,
+      "core": 17,
+      "deep": 21
+    },
+    "words": {
+      "ru": 1043,
+      "en": 1104
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "pass",
+    "combinedAssertions": 128,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-ostrom-earthsea-toc-history-browser.json"
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

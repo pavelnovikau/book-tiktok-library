@@ -1,0 +1,268 @@
+{
+  "slug": "project-hail-mary",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:08:51.725861+00:00",
+  "findings": [
+    "PHM-SR-001"
+  ],
+  "changedScreens": [
+    "deep-an-attempt-to-help"
+  ],
+  "counts": {
+    "essential": 8,
+    "core": 13,
+    "deep": 36
+  },
+  "sourceCheck": [
+    "PHM-SR-001: parent directly read the open action-specific SuperSummary Chapter 21 account at https://www.supersummary.com/project-hail-mary/chapters-21-25/. It states that removing healing material nearly killed Rocky; the corrected sentence retains that concrete consequence in both languages. Existing sources [8,9] and Deep position are unchanged. The later primary novel passage was not read; this is bounded professional secondary chapter evidence, not a primary-text or continuous complete-novel claim."
+  ],
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/project-hail-mary-source-rescue.json",
+  "originalReviewSha256": "b19cb8eb5c68f5e0d1403526e4507a22552d45d8d1d60259b71183ab84946d43",
+  "beforeHashes": {
+    "collector-output/project-hail-mary/story-data.json": "eb2604cb164774b3898b1a0fd52e7621bea3e30e98f489ad5dc62fa3f5c7ec63",
+    "collector-output/project-hail-mary/project-hail-mary.html": "fa1a1b6d834dd2f8ad07f8c61965403acdbd1bcdc12c8d528324d5f0f87ace22",
+    "collector-output/project-hail-mary/sources.md": "40979f5d827ff616d43331a061edd20e714b8e9772af9e5b7b9a37e5c485dfcc",
+    "collector-output/project-hail-mary/QA.md": "e3818ed1e84b8923c73a2415b184d8e23b4e5c6fce1a4ea7c89c11401d70d254"
+  },
+  "afterHashes": {
+    "collector-output/project-hail-mary/story-data.json": "3deaf06e4fee9ac34f7929034b6dff6bc9704ae6b932d1d3dfd4a484b8d3be97",
+    "collector-output/project-hail-mary/project-hail-mary.html": "1aed1f7662ef9f87857db0356c6cb963111504989fd01209a5ebbec33c4e1895",
+    "collector-output/project-hail-mary/sources.md": "b51d9b04f3e95b7ed790e48f7431ea1585133976d421b7413e301ad151d81ba5",
+    "collector-output/project-hail-mary/QA.md": "7f688a59d6e36ef7c2fe794996204802a0d1c9b94299ca27f95b69396c6df7a6"
+  },
+  "screensBefore": [
+    {
+      "id": "deep-an-attempt-to-help",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        8,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Попытка помочь",
+          "body": "<p>Грейс возвращает Рокки в его среду, обжигается, приходит в себя под опекой медицинских рук. Он пытается лечить друга, не зная его тела. Когда Рокки просыпается, выясняется: то, что Грейс принял за сажу и удалил, было частью заживления. Друг выжил, но помощь едва не помешала выздоровлению.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Trying to help",
+          "body": "<p>Grace gets Rocky back into his environment, suffers burns, and wakes under the medical arms’ care. He tries to treat his friend without understanding his body. When Rocky wakes, the material Grace removed as soot proves part of the healing process. The attempted treatment nearly obstructed recovery.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "deep-an-attempt-to-help",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        8,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Попытка помочь",
+          "body": "<p>Грейс возвращает Рокки в его среду, обжигается, приходит в себя под опекой медицинских рук. Он пытается лечить друга, не зная его тела. Когда Рокки просыпается, выясняется: то, что Грейс принял за сажу и удалил, было частью заживления. Рокки выжил, но попытка лечения чуть не убила его.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Trying to help",
+          "body": "<p>Grace gets Rocky back into his environment, suffers burns, and wakes under the medical arms’ care. He tries to treat his friend without understanding his body. When Rocky wakes, the material Grace removed as soot proves part of the healing process. Rocky survived, but Grace’s attempted treatment had nearly killed him.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Andy Weir / Del Rey — official 2021 sample",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9781529100617/9781529100617-sample.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитан весь доступный образец: главы 1–3 до печатной страницы 38. PDF содержит 49 страниц с вводными листами. Это не полное издание.",
+        "en": "Complete available sample read: Chapters 1–3 through printed page 38. PDF has 49 pages including front matter. Not a full edition."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Amy Jurskis / PRH — Teacher’s Guide",
+      "url": "https://images.penguinrandomhouse.com/promo_image/9780593135204_8306.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитаны все 8 страниц официального учебного гида, включая первичные отрывки. Вопросы не принимались за готовые ответы. Внешний PDF раскрывает сюжет.",
+        "en": "All eight pages of the official teaching guide read, including primary excerpts. Questions are not treated as answer keys. External PDF contains spoilers."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Andy Weir / PRH — 2021 reader kit",
+      "url": "https://penguinrandomhousesecondaryeducation.com/wp-content/uploads/2021/09/PHMKit.pdf",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны авторское интервью и пояснение механизма; схема корабля просмотрена. Начальный отрывок совпадает с образцом. Материал не является полным романом.",
+        "en": "Author interview and mechanism explanation read; ship schematic inspected. Opening excerpt overlaps the sample. Not a complete novel."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Abbe Wright / Andy Weir — PRH interview, 23 May 2021",
+      "url": "https://www.penguinrandomhouse.com/articles/andy-weir-interview",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны авторские ответы о замысле, устройстве приключения и важных отношениях. Внешняя страница содержит спойлеры.",
+        "en": "Author answers on the premise, adventure and central relationship read. External page contains spoilers."
+      }
+    },
+    {
+      "id": 5,
+      "title": "SuperSummary — Project Hail Mary, Chapters 5–8",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-5-8/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 6,
+      "title": "SuperSummary — Project Hail Mary, Chapters 9–12",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-9-12/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 7,
+      "title": "SuperSummary — Project Hail Mary, Chapters 13–16",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-13-16/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 8,
+      "title": "SuperSummary — Project Hail Mary, Chapters 17–20",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-17-20/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 9,
+      "title": "SuperSummary — Project Hail Mary, Chapters 21–25",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-21-25/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 10,
+      "title": "SuperSummary — Project Hail Mary, Chapters 26–30",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-26-30/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 11,
+      "title": "Andy Weir — verified 2021 author AMA",
+      "url": "https://www.reddit.com/r/IAmA/comments/nkva3o/i_am_andy_weir_author_of_the_martian_and_my_new/",
+      "role": "author",
+      "note": {
+        "ru": "Проверены выбранные ответы sephalon о языке, среде и авторских неточностях. Читательские комментарии не слова автора. Утверждение 2021 года о реально существующей планете не повторяется как современный факт.",
+        "en": "Selected sephalon answers checked on language, environment and acknowledged errors. Reader comments are not author statements. A 2021 real-planet assertion is not repeated as a present-day fact."
+      }
+    },
+    {
+      "id": 12,
+      "title": "LitCharts — Project Hail Mary, Chapter 17",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-17",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    },
+    {
+      "id": 13,
+      "title": "LitCharts — Project Hail Mary, Chapter 24",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-24",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    },
+    {
+      "id": 14,
+      "title": "LitCharts — Project Hail Mary, Chapter 29",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-29",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    },
+    {
+      "id": 15,
+      "title": "LitCharts — Project Hail Mary, Chapter 30",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-30",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Краткий самостоятельный пересказ романа 2021 года. Прочитаны весь официальный образец глав 1–3, официальный учебный гид и авторские материалы; последующая последовательность проверена по подробным открытым поглавным разделам, с картой событий в редакционном отчёте. Полное издание непрерывно не читалось; точность полного текста или опубликованного перевода не удостоверяется. Сокращены побочные линии и технические расчёты; вымышленные механизмы остаются частью романа. Источники могут раскрывать сюжет.",
+    "en": "A concise original-word retelling of the 2021 novel. Read: the complete official Chapters 1–3 sample, official teaching guide and author material; the later sequence was checked against detailed open chapter guides, with an event map in the editorial report. No continuous complete-edition reading, full-text or published-translation fidelity is certified. Subplots and calculations are shortened; invented mechanisms remain fictional. External sources may reveal the plot."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/project-hail-mary.html",
+    "format": "v2",
+    "bytes": 304152,
+    "screenCount": 36,
+    "levels": {
+      "1": 8,
+      "2": 5,
+      "3": 23
+    },
+    "modes": {
+      "essential": 8,
+      "core": 13,
+      "deep": 36
+    },
+    "words": {
+      "ru": 1574,
+      "en": 1744
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "combinedAssertions": 160,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json",
+    "limits": "Focused regression only; not independent meaning acceptance or physical Safari/PWA."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

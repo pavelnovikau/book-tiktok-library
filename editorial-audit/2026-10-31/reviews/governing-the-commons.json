@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 1,
+  "slug": "governing-the-commons",
+  "reviewType": "fresh-independent-content-review",
+  "date": "2026-10-31",
+  "verdict": "REQUIRES-FIXES",
+  "independent": true,
+  "summary": "One P2 RU/EN geographic-scope correction (GTC-001). The retained central argument, cases and conditional principles are otherwise supported for the disclosed selective evidence boundary. No package rewrite or full-edition prerequisite is requested.",
+  "blockingFindingCount": 1,
+  "highSeverityFindingCount": 0,
+  "findings": [
+    {
+      "id": "GTC-001",
+      "screenId": "scope-of-the-book",
+      "severity": "medium",
+      "priority": "P2",
+      "mustFix": true,
+      "category": "RU/EN parity: geographic scope qualification",
+      "locations": {
+        "json": "screens[id=scope-of-the-book].copy.ru.body",
+        "effectiveHtml": "book-tiktok-data: screens[id=scope-of-the-book].copy.ru.body",
+        "routePositions": {
+          "essential": 13,
+          "core": 23,
+          "deep": 31
+        }
+      },
+      "exactCopy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "У вывода есть границы",
+          "body": "<p>Границы вывода остаются существенными. Книга изучает сравнительно небольшие системы внутри одной страны, где пользователи сильно зависят от потока дефицитного ресурса.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "The conclusion has a scope",
+          "body": "<p>The scope of the conclusion matters. The book studies relatively small systems within single countries, where users depend heavily on scarce resource flows.</p>"
+        }
+      },
+      "problem": "The Russian plural systems inside one country drops the distributive each. It reads as a claim that the book studies one country overall, although the EN describes systems within single countries and the retained cases span several countries. The author limits each individual CPR to one national jurisdiction; she does not limit the whole sample to one country. This is a scope qualification in every route, not a stylistic preference.",
+      "minimalFaithfulCorrection": {
+        "ruBody": "<p>Границы вывода остаются существенными. Книга изучает сравнительно небольшие системы, каждая из которых находится в пределах одной страны. Их пользователи сильно зависят от потока дефицитного ресурса.</p>",
+        "enBody": "<p>The scope of the conclusion matters. The book studies relatively small systems within single countries, where users depend heavily on scarce resource flows.</p>",
+        "enAction": "Keep current English; it preserves the intended national-jurisdiction limit."
+      },
+      "evidence": [
+        {
+          "url": "https://www.cambridge.org/core/books/governing-the-commons/framework-for-analysis-of-selforganizing-and-selfgoverning-cprs/05666795A13EFC6882C18E4E05C40166",
+          "locator": "Original 1990 chapter 6, public opening, beginning at printed p. 182; paragraph beginning The cases presented in this study. Chapter DOI 10.1017/CBO9780511807763.008.",
+          "shortPrimaryQuote": "each located within a single country",
+          "consultation": "Read the actual publisher opening passage exposed in the Cambridge search/cached page; not a third-party recap."
+        }
+      ],
+      "verificationAfterCorrection": "Replace the RU body, rebuild owned HTML with the maintained shell, confirm the exact same corrected RU text in the embedded corpus, and refresh canonical/ready hashes through the owner. Counts need not change. A focused check of this finding is sufficient if all other reviewed copy stays identical."
+    }
+  ],
+  "optionalTaste": [],
+  "reviewed": {
+    "uniqueScreenPairs": 33,
+    "authoringPairsRead": 33,
+    "effectiveHtmlPairsRead": 33,
+    "oldPairsRead": 0,
+    "rootReaderExists": false,
+    "contentMode": "explanatory",
+    "targetModes": {
+      "essential": 14,
+      "core": 24,
+      "deep": 33
+    },
+    "routeScreenLanguageOccurrencesRead": 142,
+    "allScreenIds": [
+      "cover",
+      "tomorrows-resource",
+      "common-pool-public-good",
+      "system-and-yield",
+      "property-is-not-open-access",
+      "hardins-incentive",
+      "collective-action",
+      "olsons-qualification",
+      "change-the-rules",
+      "supplying-institutions",
+      "alanya-rotation",
+      "alanya-calendar",
+      "alanya-membership",
+      "enduring-commons",
+      "torbel-winter",
+      "japanese-households",
+      "endurance-and-change",
+      "principles-are-conditional",
+      "boundaries-and-congruence",
+      "choice-and-monitoring",
+      "sanctions-and-conflicts",
+      "recognition-and-layers",
+      "no-single-rulebook",
+      "origins-are-not-survival",
+      "west-basin-threat",
+      "west-basin-conditional-contract",
+      "west-basin-mixture",
+      "sri-lanka-entry",
+      "turkish-failures",
+      "san-bernardino-scale",
+      "scope-of-the-book",
+      "scale-and-performance",
+      "final"
+    ],
+    "routes": {
+      "essential": {
+        "count": 14,
+        "screenIds": [
+          "cover",
+          "tomorrows-resource",
+          "common-pool-public-good",
+          "property-is-not-open-access",
+          "hardins-incentive",
+          "change-the-rules",
+          "alanya-rotation",
+          "enduring-commons",
+          "principles-are-conditional",
+          "west-basin-threat",
+          "west-basin-mixture",
+          "sri-lanka-entry",
+          "scope-of-the-book",
+          "final"
+        ],
+        "ruReadContinuously": true,
+        "enReadContinuously": true
+      },
+      "core": {
+        "count": 24,
+        "screenIds": [
+          "cover",
+          "tomorrows-resource",
+          "common-pool-public-good",
+          "property-is-not-open-access",
+          "hardins-incentive",
+          "collective-action",
+          "change-the-rules",
+          "supplying-institutions",
+          "alanya-rotation",
+          "enduring-commons",
+          "torbel-winter",
+          "endurance-and-change",
+          "principles-are-conditional",
+          "boundaries-and-congruence",
+          "choice-and-monitoring",
+          "sanctions-and-conflicts",
+          "recognition-and-layers",
+          "origins-are-not-survival",
+          "west-basin-threat",
+          "west-basin-mixture",
+          "sri-lanka-entry",
+          "turkish-failures",
+          "scope-of-the-book",
+          "final"
+        ],
+        "ruReadContinuously": true,
+        "enReadContinuously": true
+      },
+      "deep": {
+        "count": 33,
+        "screenIds": [
+          "cover",
+          "tomorrows-resource",
+          "common-pool-public-good",
+          "system-and-yield",
+          "property-is-not-open-access",
+          "hardins-incentive",
+          "collective-action",
+          "olsons-qualification",
+          "change-the-rules",
+          "supplying-institutions",
+          "alanya-rotation",
+          "alanya-calendar",
+          "alanya-membership",
+          "enduring-commons",
+          "torbel-winter",
+          "japanese-households",
+          "endurance-and-change",
+          "principles-are-conditional",
+          "boundaries-and-congruence",
+          "choice-and-monitoring",
+          "sanctions-and-conflicts",
+          "recognition-and-layers",
+          "no-single-rulebook",
+          "origins-are-not-survival",
+          "west-basin-threat",
+          "west-basin-conditional-contract",
+          "west-basin-mixture",
+          "sri-lanka-entry",
+          "turkish-failures",
+          "san-bernardino-scale",
+          "scope-of-the-book",
+          "scale-and-performance",
+          "final"
+        ],
+        "ruReadContinuously": true,
+        "enReadContinuously": true
+      }
+    },
+    "sourceNotePairsRead": 10,
+    "methodNotePairRead": true,
+    "coverAndFinalRead": true,
+    "meaningfulCanonicalHtmlDivergence": false,
+    "canonicalAndReadyHashScope": [
+      "collector-output/governing-the-commons/story-data.json",
+      "collector-output/governing-the-commons/governing-the-commons.html",
+      "collector-output/governing-the-commons/sources.md",
+      "collector-output/governing-the-commons/QA.md",
+      "editorial-audit/2026-10-31/ready/governing-the-commons.json"
+    ]
+  },
+  "documentsRead": [
+    "editorial-audit/2026-10-31/BRIEF.md",
+    "CONTRIBUTING.md",
+    "skills/book-tiktok/SKILL.md",
+    "skills/book-tiktok/references/content-model.md",
+    "skills/book-tiktok/references/data-contract.md",
+    "editorial-audit/2026-10-31/books/governing-the-commons-sol-implementation.md",
+    "editorial-audit/2026-10-31/ready/governing-the-commons.json",
+    "collector-output/governing-the-commons/story-data.json",
+    "collector-output/governing-the-commons/governing-the-commons.html",
+    "collector-output/governing-the-commons/sources.md",
+    "collector-output/governing-the-commons/QA.md",
+    "collector-output/governing-the-commons/governing-the-commons-evidence-sol.json",
+    "collector-output/governing-the-commons/governing-the-commons-source-access-sol.json"
+  ],
+  "targetWork": {
+    "author": "Elinor Ostrom",
+    "title": "Governing the Commons: The Evolution of Institutions for Collective Action",
+    "publisher": "Cambridge University Press",
+    "firstPublicationYear": 1990,
+    "doi": "10.1017/CBO9780511807763",
+    "originalEditionOnlineIsbn": "9780511807763",
+    "consultedReprintIsbn": "9781107569782",
+    "consultedReprint": "Canto Classics 2015",
+    "identityVerified": true,
+    "russianDisplayTitle": "Управляя общим",
+    "russianText": "Original digest prose from English primary materials, not a certified published translation."
+  },
+  "evidence": {
+    "consulted": [
+      {
+        "id": "P1",
+        "title": "Governing the Commons, original 1990 Cambridge record and chapter openings",
+        "urls": [
+          "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+          "https://www.cambridge.org/core/books/governing-the-commons/an-institutional-approach-to-the-study-of-selforganization-and-selfgovernance-in-cpr-situations/815061479E831FC11B3482789300BB65",
+          "https://www.cambridge.org/core/books/governing-the-commons/analyzing-longenduring-selforganized-and-selfgoverned-cprs/93E337E42A79624A35EF138DC05A58B1",
+          "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-change/565FE632C80FA2CAC95BF734993E7CC2",
+          "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-failures-and-fragilities/EFD3C8A6E5C7CD262DF16BD2B623D041",
+          "https://www.cambridge.org/core/books/governing-the-commons/framework-for-analysis-of-selforganizing-and-selfgoverning-cprs/05666795A13EFC6882C18E4E05C40166"
+        ],
+        "actuallyRead": "Original-edition bibliographic record, chapter structure, and exposed public opening passages of chapters 2–6 (beginning pp. 29, 58, 103, 143, 182). Chapters 2–4 were read in the Cambridge public extracts. The original chapter-5 retained failure paragraphs and chapter-6 retained scope/mixture paragraphs were read in publisher search/cached passages after direct fetch timeouts. Additional opening text was available in the 2015 publisher entries. Original chapter-1 opening was also visible in the public listing search result. No claim that every public chapter-opening entry was exposed in full.",
+        "limits": "These are book-opening passages, not whole chapter bodies. Direct requests to Cambridge Core returned 503/timeouts, and some web followups/Exa fetches timed out. Cached publisher passages supplied the retained failure/scope claims. No entitlement or access-control workaround."
+      },
+      {
+        "id": "P2",
+        "title": "Official Canto Classics 2015 excerpt, contents, index and frontmatter",
+        "urls": [
+          "https://assets.cambridge.org/97811075/69782/excerpt/9781107569782_excerpt.pdf",
+          "https://assets.cambridge.org/97811075/69782/toc/9781107569782_toc.pdf",
+          "https://assets.cambridge.org/97811075/69782/index/9781107569782_index.pdf",
+          "https://assets.cambridge.org/97811075/69782/frontmatter/9781107569782_frontmatter.pdf"
+        ],
+        "actuallyRead": "All ten excerpt pages (printed pp. 1–10), OCR-assisted because body text is image-based; all three contents pages (vii–ix); selected index entries for retained cases, principles and Interim Agreement; frontmatter copyright/edition page (PDF p. 4).",
+        "limits": "2015 reprint of the 1990 work. Contents/index connect cases and headings to the work; they do not establish reading of indexed body pages or word-for-word edition identity. Did not read all frontmatter or index continuously."
+      },
+      {
+        "id": "P3",
+        "title": "Elinor Ostrom, Institutional Arrangements and the Commons Dilemma (1988)",
+        "urls": [
+          "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/ef134fc6-f484-4622-ac6f-feb40e4ce905/content"
+        ],
+        "actuallyRead": "Title/reprint identification and printed pp. 108–119 (PDF pp. 6–11, paired-page scans).",
+        "limits": "Separate earlier author chapter in Rethinking Institutional Analysis and Development, pp. 103–139. Concrete retained procedures checked here, not certified against unseen 1990 case-body pages."
+      },
+      {
+        "id": "P4",
+        "title": "Elinor Ostrom, The Rudiments of a Theory of the Origins, Survival, and Performance of Common Property Institutions (19 July 1990 working paper)",
+        "urls": [
+          "https://dlc.dlib.indiana.edu/dlc/items/1678a207-90d6-456d-afd8-dbbe97ddac38",
+          "https://dlc.dlib.indiana.edu/dlc/bitstreams/749d2c98-026f-4e8a-9ad1-6b2c0614a6eb/download"
+        ],
+        "actuallyRead": "Title/date and printed p. 1, definitions pp. 4–8, survival/performance pp. 23–25.",
+        "limits": "A separate working paper for a Bromley collection, not a chapter of the target book. Reviewer did not read the full working paper or repeat the writer’s claimed consultation of all pp. 12–24 / 29–31."
+      },
+      {
+        "id": "P5",
+        "title": "Michael McGinnis and Elinor Ostrom, Design Principles for Local and Global Commons (1992)",
+        "urls": [
+          "https://dlc.dlib.indiana.edu/dlc/items/80b557a3-e101-46ff-8bca-fe3fa75d59b4",
+          "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/28e75858-baf3-4cf8-917b-da51a1053b11/content"
+        ],
+        "actuallyRead": "Title/date, printed pp. 7–9 and notes 3–4 on p. 40 (PDF p. 41).",
+        "limits": "Separate later coauthored paper. Note 4 explicitly draws principles from E. Ostrom (1990); note 3 denies sufficient guarantees. Global/climate extension not treated as target-book prose."
+      },
+      {
+        "id": "P6",
+        "title": "Elinor Ostrom, Beyond Markets and States, revised 2009 Nobel lecture draft",
+        "urls": [
+          "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/0a7a52e6-8cf0-42c3-ae20-776095e6fd1d/content"
+        ],
+        "actuallyRead": "Title/status page and printed pp. 11–13 (PDF pp. 12–14), solely to check the boundary with later formulations.",
+        "limits": "Identifies itself as a revised draft, not the final published Nobel lecture. No passage quoted or imported into the reader/review as 1990 wording. No full lecture reading claimed."
+      }
+    ],
+    "receipts": [
+      {
+        "id": "author1988",
+        "url": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/ef134fc6-f484-4622-ac6f-feb40e4ce905/content",
+        "finalUrl": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/ef134fc6-f484-4622-ac6f-feb40e4ce905/content",
+        "status": 200,
+        "contentType": "application/pdf;charset=UTF-8",
+        "bytes": 2548845,
+        "sha256": "de8831282b985161efc40c31ddd347525e9992670bec7dd1ff84707f110d51f2"
+      },
+      {
+        "id": "rudiments1990",
+        "url": "https://dlc.dlib.indiana.edu/dlc/bitstreams/749d2c98-026f-4e8a-9ad1-6b2c0614a6eb/download",
+        "finalUrl": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/749d2c98-026f-4e8a-9ad1-6b2c0614a6eb/content",
+        "status": 200,
+        "contentType": "application/pdf;charset=UTF-8",
+        "bytes": 1703655,
+        "sha256": "ded28e8be921b4855a9f42d687e0ac01b5fdbfb0ab93b8e45c82805d6adff178"
+      },
+      {
+        "id": "principles1992",
+        "url": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/28e75858-baf3-4cf8-917b-da51a1053b11/content",
+        "finalUrl": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/28e75858-baf3-4cf8-917b-da51a1053b11/content",
+        "status": 200,
+        "contentType": "application/pdf;charset=UTF-8",
+        "bytes": 236052,
+        "sha256": "b4b476ab8881a52ad8171fe7b23d6417492d919f4b81fb12521ef374ae489527"
+      },
+      {
+        "id": "excerpt2015",
+        "url": "https://assets.cambridge.org/97811075/69782/excerpt/9781107569782_excerpt.pdf",
+        "finalUrl": "https://assets.cambridge.org/97811075/69782/excerpt/9781107569782_excerpt.pdf",
+        "status": 200,
+        "contentType": "application/pdf",
+        "bytes": 510663,
+        "sha256": "01f330b7812945465c364f9b6bce0a29e5b909cfd84b067745b54455fe411683"
+      },
+      {
+        "id": "contents2015",
+        "url": "https://assets.cambridge.org/97811075/69782/toc/9781107569782_toc.pdf",
+        "finalUrl": "https://assets.cambridge.org/97811075/69782/toc/9781107569782_toc.pdf",
+        "status": 200,
+        "contentType": "application/pdf",
+        "bytes": 124824,
+        "sha256": "e222e4eed16e101cb616c077dc8d419a336a0c649cf83942c331c068c5655544"
+      },
+      {
+        "id": "index2015",
+        "url": "https://assets.cambridge.org/97811075/69782/index/9781107569782_index.pdf",
+        "finalUrl": "https://assets.cambridge.org/97811075/69782/index/9781107569782_index.pdf",
+        "status": 200,
+        "contentType": "application/pdf",
+        "bytes": 438511,
+        "sha256": "1fd5cb2a94ea39831cfaf5d4637eae1e96b7cc8d964a3f70e4ad2338ff44dc9f"
+      },
+      {
+        "id": "author2009",
+        "url": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/0a7a52e6-8cf0-42c3-ae20-776095e6fd1d/content",
+        "finalUrl": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/0a7a52e6-8cf0-42c3-ae20-776095e6fd1d/content",
+        "status": 200,
+        "contentType": "application/pdf;charset=UTF-8",
+        "bytes": 241598,
+        "sha256": "745902ffb2c462019de35cf74844b471103a99c4bf2d1bf959dabc773fa7241a"
+      },
+      {
+        "id": "cambridge1990",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+        "finalUrl": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+        "status": 503,
+        "contentType": null,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "ch2",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/an-institutional-approach-to-the-study-of-selforganization-and-selfgovernance-in-cpr-situations/815061479E831FC11B3482789300BB65",
+        "finalUrl": "https://www.cambridge.org/core/books/governing-the-commons/an-institutional-approach-to-the-study-of-selforganization-and-selfgovernance-in-cpr-situations/815061479E831FC11B3482789300BB65",
+        "status": 503,
+        "contentType": null,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "ch3",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-longenduring-selforganized-and-selfgoverned-cprs/93E337E42A79624A35EF138DC05A58B1",
+        "finalUrl": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-longenduring-selforganized-and-selfgoverned-cprs/93E337E42A79624A35EF138DC05A58B1",
+        "status": 503,
+        "contentType": null,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "ch4",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-change/565FE632C80FA2CAC95BF734993E7CC2",
+        "finalUrl": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-change/565FE632C80FA2CAC95BF734993E7CC2",
+        "status": 503,
+        "contentType": null,
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      {
+        "id": "ch5",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-failures-and-fragilities/EFD3C8A6E5C7CD262DF16BD2B623D041",
+        "error": "HTTPSConnectionPool(host='www.cambridge.org', port=443): Read timed out. (read timeout=24)"
+      },
+      {
+        "id": "ch6",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/framework-for-analysis-of-selforganizing-and-selfgoverning-cprs/05666795A13EFC6882C18E4E05C40166",
+        "error": "HTTPSConnectionPool(host='www.cambridge.org', port=443): Read timed out. (read timeout=24)"
+      },
+      {
+        "id": "listing1990",
+        "url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79/listing",
+        "error": "HTTPSConnectionPool(host='www.cambridge.org', port=443): Read timed out. (read timeout=20)"
+      },
+      {
+        "id": "frontmatter2015",
+        "url": "https://assets.cambridge.org/97811075/69782/frontmatter/9781107569782_frontmatter.pdf",
+        "finalUrl": "https://assets.cambridge.org/97811075/69782/frontmatter/9781107569782_frontmatter.pdf",
+        "status": 200,
+        "bytes": 491251,
+        "sha256": "c988bb664410a22f665c718b2b473b4af397121f61fce873a7d92f06c09387a9"
+      },
+      {
+        "id": "columbia",
+        "url": "https://pegasus.law.columbia.edu/record/5102",
+        "error": "HTTPSConnectionPool(host='pegasus.law.columbia.edu', port=443): Max retries exceeded with url: /record/5102 (Caused by NameResolutionError(\"HTTPSConnection(host='pegasus.law.columbia.edu', port=443): Failed to resolve 'pegasus.law.columbia.edu' ([Errno 8] nodename nor servname provided, or not known)\"))"
+      }
+    ],
+    "ownedEditionReadOnlyCheck": {
+      "rootExists": true,
+      "matchingTitleAuthorMetadata": [],
+      "matchingFilenameCount": 0,
+      "opfMetadataInspectedCount": 218,
+      "zipEpubCount": 1,
+      "metadataParseErrors": 0,
+      "bodiesOpened": 0,
+      "unrelatedNamesDisclosed": 0,
+      "readonly": true
+    },
+    "laterMaterialBoundary": "2009 draft identity and later revisions checked independently. Updated lettered principles, subsequent empirical counts, the formal later property-rights taxonomy and international/climate extensions are absent from the reader. Nested enterprises and mixed public/private institutions are already part of the target argument; polycentric vocabulary is not uniquely post-1990 (the official contents include a polycentric public-enterprise section at p. 133).",
+    "particularRetainedLinksSupported": true,
+    "fullPrimaryBookObtained": false,
+    "continuousFullTargetReading": false,
+    "full1990To2015Collation": false,
+    "fullBookTranslationCertification": false,
+    "lawfulPrimaryAccessOnly": true,
+    "unofficialFullBookMirrorsOpened": 0,
+    "credentialPurchaseLoanAccessChanges": 0,
+    "primaryTextsRetainedInPackage": 0,
+    "claimChecks": [
+      {
+        "screenIds": [
+          "cover",
+          "tomorrows-resource",
+          "hardins-incentive",
+          "collective-action",
+          "olsons-qualification",
+          "change-the-rules"
+        ],
+        "result": "Supported. Central inquiry, incentive/free-rider reasoning, Olson qualification and changeable model constraints retained.",
+        "evidence": [
+          "P1: chapter 2 opening",
+          "P2: excerpt pp. 1–7"
+        ]
+      },
+      {
+        "screenIds": [
+          "common-pool-public-good",
+          "system-and-yield",
+          "property-is-not-open-access"
+        ],
+        "result": "Supported. Costly exclusion and subtractability; resource system versus units; resource attributes versus property regime; common property versus open access are distinguished. Weather forecast is an actual author example.",
+        "evidence": [
+          "P4: pp. 1, 4–8",
+          "P2: TOC chapter 2 for target-work connection"
+        ]
+      },
+      {
+        "screenIds": [
+          "supplying-institutions",
+          "origins-are-not-survival"
+        ],
+        "result": "Supported. Producing institutions is a further collective dilemma; endurance does not reveal the founding process.",
+        "evidence": [
+          "P1: chapters 2 and 4 openings"
+        ]
+      },
+      {
+        "screenIds": [
+          "alanya-rotation",
+          "alanya-calendar",
+          "alanya-membership",
+          "torbel-winter",
+          "japanese-households"
+        ],
+        "result": "Supported procedures with named source boundary. Lottery/seasonal rotation, licensed local membership beyond the cooperative, winter-fodder constraint, outsider rights and varying household rights/work obligations are in the author source.",
+        "evidence": [
+          "P3: pp. 111–117",
+          "P1: chapters 3 and 5 openings",
+          "P2: TOC/index"
+        ]
+      },
+      {
+        "screenIds": [
+          "enduring-commons",
+          "endurance-and-change"
+        ],
+        "result": "Supported. Historical endurance and changing operational rules are compatible; no claim of an unchanging rulebook.",
+        "evidence": [
+          "P1: chapter 3 opening"
+        ]
+      },
+      {
+        "screenIds": [
+          "principles-are-conditional",
+          "boundaries-and-congruence",
+          "choice-and-monitoring",
+          "sanctions-and-conflicts",
+          "recognition-and-layers",
+          "no-single-rulebook"
+        ],
+        "result": "Supported as a condensed functional account. All eight principles present in Core/Deep; Essential explicitly gives selected shared features. Recognition, accountable monitoring, graduated sanctions with context, accessible local conflict forums and linked organizational levels retained. Condition on larger systems retained. RU compresses the list of layered functions but preserves the level mechanism. No claim of universal sufficiency.",
+        "evidence": [
+          "P5: pp. 7–9 and notes 3–4 p. 40",
+          "P2: original-work eight headings in TOC pp. 91–101"
+        ],
+        "precisionBoundary": "The account is not an exhaustive translation of the eight-principle table. It omits some detailed qualifications, such as the full list of accountable sanctioning actors, without contradicting them. No updated 2009 lettered subprinciples or later success statistics are substituted."
+      },
+      {
+        "screenIds": [
+          "west-basin-threat",
+          "west-basin-conditional-contract",
+          "west-basin-mixture"
+        ],
+        "result": "Supported in identified earlier author account: threat, association/information/court process, contingent 80% threshold, watermaster, rights trade and supplemental/replenishment districts. Basin and flow rights remain distinct.",
+        "evidence": [
+          "P3: pp. 108–111, 118–119",
+          "P1: chapter 6 opening",
+          "P2: TOC/index West Basin and Interim Agreement"
+        ],
+        "precisionBoundary": "80% verified in the 1988 account, printed p. 110, not directly collated against the target’s pp. 119–121. This is explicitly disclosed in Sources. No evidence of contradiction was found; the earlier primary account is substantive support, not a blurb."
+      },
+      {
+        "screenIds": [
+          "sri-lanka-entry",
+          "turkish-failures",
+          "san-bernardino-scale"
+        ],
+        "result": "Supported actual failures. Sri Lankan rotation distributes risk but does not enforce entry limits; Bodrum/Izmir and San Bernardino prevent a universal success story. No unsupported village name or speculative causal detail added.",
+        "evidence": [
+          "P1: chapter 5 public opening"
+        ]
+      },
+      {
+        "screenIds": [
+          "scope-of-the-book"
+        ],
+        "result": "GTC-001: RU national-jurisdiction scope requires a localized correction. EN meaning is supported.",
+        "evidence": [
+          "P1: chapter 6 opening p. 182"
+        ]
+      },
+      {
+        "screenIds": [
+          "scale-and-performance",
+          "final"
+        ],
+        "result": "Supported. Largest studied case about 15,000; possibility differs from inevitability; survival differs from efficiency/equity. Public/private mixtures do not imply that government or private ownership always fails.",
+        "evidence": [
+          "P1: chapters 4–6 openings",
+          "P4: pp. 23–25",
+          "P2: excerpt pp. 1–2"
+        ]
+      }
+    ]
+  },
+  "argumentAssessment": {
+    "coherentCentralArgument": true,
+    "routeContinuity": "All six language/depth sequences read in display order. Essential joins dilemma → distinctions → changed rules → real organization → conditional commonalities → mixed institutions → failure → bounded possibility. Core adds institutional supply, Törbel and all eight principles; Deep adds case procedures, Olson, contract detail and performance/scale. Insertions preserve transitions and qualifications.",
+    "scopePromise": "Selective concise argument, stated in the global Sources/method disclosure. No complete book coverage or complete principle-table translation is promised.",
+    "omissionsAcceptedWithinThatScope": [
+      "Detailed Spanish huerta and Philippine zanjera irrigation procedures",
+      "Full basin chronologies and the full failure/fragility comparison, including Nova Scotia",
+      "Formal game variants and much of the final institutional-choice framework",
+      "Full mutual-monitoring/credible-commitment and graduated-sanction dynamics beyond the retained functions"
+    ],
+    "omissionJudgment": "These omissions limit completeness but do not negate the supported central arc or require invented fill. Source sufficiency is assessed for retained claims, not from availability of a full download.",
+    "inventedScenesExercisesOrManagementMoralsFound": false,
+    "universalCommunitySuccessOrStatePrivateFailureFound": false,
+    "provenancePresentation": "Book source maps remain; source-label is hidden by an owned style. Method and limitations render in the Sources dialog, not as repetitive screen-level research commentary."
+  },
+  "verification": {
+    "freshMaintainedAudit": {
+      "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/governing-the-commons/governing-the-commons.html --min-screens 33 --require-bilingual",
+      "passes": 69,
+      "warnings": [],
+      "failures": [],
+      "levels": {
+        "1": 14,
+        "2": 10,
+        "3": 9
+      },
+      "modeCounts": {
+        "essential": 14,
+        "core": 24,
+        "deep": 33
+      }
+    },
+    "freshIndependentParity": {
+      "screenPairs": 33,
+      "canonicalEmbeddedScreensEqual": true,
+      "sourceMethodMetadataParity": true,
+      "nonCoverClaimTypes": [
+        "book"
+      ],
+      "sha256EffectiveScreensUtf8CanonicalJson": "85208c33c95cf2df74c10850ca390986e027934c9bf3bbf52c174254d66f9fee",
+      "sourceNotePairs": 10,
+      "routes": {
+        "essential": [
+          "cover",
+          "tomorrows-resource",
+          "common-pool-public-good",
+          "property-is-not-open-access",
+          "hardins-incentive",
+          "change-the-rules",
+          "alanya-rotation",
+          "enduring-commons",
+          "principles-are-conditional",
+          "west-basin-threat",
+          "west-basin-mixture",
+          "sri-lanka-entry",
+          "scope-of-the-book",
+          "final"
+        ],
+        "core": [
+          "cover",
+          "tomorrows-resource",
+          "common-pool-public-good",
+          "property-is-not-open-access",
+          "hardins-incentive",
+          "collective-action",
+          "change-the-rules",
+          "supplying-institutions",
+          "alanya-rotation",
+          "enduring-commons",
+          "torbel-winter",
+          "endurance-and-change",
+          "principles-are-conditional",
+          "boundaries-and-congruence",
+          "choice-and-monitoring",
+          "sanctions-and-conflicts",
+          "recognition-and-layers",
+          "origins-are-not-survival",
+          "west-basin-threat",
+          "west-basin-mixture",
+          "sri-lanka-entry",
+          "turkish-failures",
+          "scope-of-the-book",
+          "final"
+        ],
+        "deep": [
+          "cover",
+          "tomorrows-resource",
+          "common-pool-public-good",
+          "system-and-yield",
+          "property-is-not-open-access",
+          "hardins-incentive",
+          "collective-action",
+          "olsons-qualification",
+          "change-the-rules",
+          "supplying-institutions",
+          "alanya-rotation",
+          "alanya-calendar",
+          "alanya-membership",
+          "enduring-commons",
+          "torbel-winter",
+          "japanese-households",
+          "endurance-and-change",
+          "principles-are-conditional",
+          "boundaries-and-congruence",
+          "choice-and-monitoring",
+          "sanctions-and-conflicts",
+          "recognition-and-layers",
+          "no-single-rulebook",
+          "origins-are-not-survival",
+          "west-basin-threat",
+          "west-basin-conditional-contract",
+          "west-basin-mixture",
+          "sri-lanka-entry",
+          "turkish-failures",
+          "san-bernardino-scale",
+          "scope-of-the-book",
+          "scale-and-performance",
+          "final"
+        ]
+      }
+    },
+    "readyDeliverableHashesMatch": {
+      "collector-output/governing-the-commons/story-data.json": true,
+      "collector-output/governing-the-commons/governing-the-commons.html": true,
+      "collector-output/governing-the-commons/sources.md": true,
+      "collector-output/governing-the-commons/QA.md": true
+    },
+    "supplementalReadyHashesMatch": [
+      {
+        "path": "collector-output/governing-the-commons/governing-the-commons-evidence-sol.json",
+        "sha256": "01a36e26a3c3f47bae3697cfea4832805ffdaec129e588d601b5050fdefe745d",
+        "matchesReady": true
+      },
+      {
+        "path": "collector-output/governing-the-commons/governing-the-commons-source-access-sol.json",
+        "sha256": "2c15e23f33d65f443475da508a358599c18b78427f2a34093ef4298fd86ddabb",
+        "matchesReady": true
+      },
+      {
+        "path": "collector-output/governing-the-commons/governing-the-commons-prose-sol.md",
+        "sha256": "7fb74871a1fa62e720e13c90487b62b26b42f2796a743819f08a564cd970161b",
+        "matchesReady": true
+      },
+      {
+        "path": "collector-output/governing-the-commons/governing-the-commons-structure-sol.json",
+        "sha256": "74bc56b6007ef5eb05e4f9270d4fd26a6baea8f434f7bea7beb8ab290c8828fd",
+        "matchesReady": true
+      }
+    ],
+    "implementationReportSha256": "a7e2b7abd0ec3be9ab8ec2e62bb87996dab2a977e38209f519435cfe3b66eaa6",
+    "implementationReportMatchesReady": true,
+    "browserMatrixRerun": false,
+    "browserMatrixReason": "Content/parity review with no observed rendering concern; existing owned-browser evidence is implementation evidence, not an independent visual certificate. No repeat matrix needed.",
+    "chromeProcessesStarted": 0,
+    "serversStarted": 0,
+    "previewToolsUsed": false,
+    "remainingHardwareProductionLimits": "Physical device/PWA, production integration, root navigation and publisher shell integration were not independently tested."
+  },
+  "hashesBefore": {
+    "recorded_at": "2026-10-31T21:00:03.331772+00:00",
+    "hashes": {
+      "collector-output/governing-the-commons/story-data.json": {
+        "exists": true,
+        "sha256": "c4cf3de3b5043093d1d0583d54464619e7b7cda36401ec582d97c21e2fd4fd1a",
+        "bytes": 54749
+      },
+      "collector-output/governing-the-commons/governing-the-commons.html": {
+        "exists": true,
+        "sha256": "2e75b8a62cc3a736ff5121ed96c005ae2e4864f4a2e96450013c0bf295b24d71",
+        "bytes": 300977
+      },
+      "collector-output/governing-the-commons/sources.md": {
+        "exists": true,
+        "sha256": "4cacf17156469e104c32335d7897cc066d9ac516dc5a6edde23aa30d196c9342",
+        "bytes": 11964
+      },
+      "collector-output/governing-the-commons/QA.md": {
+        "exists": true,
+        "sha256": "6d1c1c8887198b4f3ba8cc0e420c0e9279de20aef05b54a6c5f5d393cc70e5f8",
+        "bytes": 6730
+      },
+      "editorial-audit/2026-10-31/ready/governing-the-commons.json": {
+        "exists": true,
+        "sha256": "4abeea776ea374fe16e4e98fd80bd291782e0bf78b4198682f629b728a87b6c4",
+        "bytes": 11941
+      }
+    },
+    "root_reader_exists": false
+  },
+  "hashesAfter": {
+    "recorded_at": "2026-10-31T21:09:13.061009+00:00",
+    "hashes": {
+      "collector-output/governing-the-commons/story-data.json": {
+        "exists": true,
+        "sha256": "c4cf3de3b5043093d1d0583d54464619e7b7cda36401ec582d97c21e2fd4fd1a",
+        "bytes": 54749
+      },
+      "collector-output/governing-the-commons/governing-the-commons.html": {
+        "exists": true,
+        "sha256": "2e75b8a62cc3a736ff5121ed96c005ae2e4864f4a2e96450013c0bf295b24d71",
+        "bytes": 300977
+      },
+      "collector-output/governing-the-commons/sources.md": {
+        "exists": true,
+        "sha256": "4cacf17156469e104c32335d7897cc066d9ac516dc5a6edde23aa30d196c9342",
+        "bytes": 11964
+      },
+      "collector-output/governing-the-commons/QA.md": {
+        "exists": true,
+        "sha256": "6d1c1c8887198b4f3ba8cc0e420c0e9279de20aef05b54a6c5f5d393cc70e5f8",
+        "bytes": 6730
+      },
+      "editorial-audit/2026-10-31/ready/governing-the-commons.json": {
+        "exists": true,
+        "sha256": "4abeea776ea374fe16e4e98fd80bd291782e0bf78b4198682f629b728a87b6c4",
+        "bytes": 11941
+      }
+    },
+    "root_reader_exists": false
+  },
+  "canonicalAndReadyUnchanged": true,
+  "ownership": {
+    "writes": [
+      "editorial-audit/2026-10-31/reviews/governing-the-commons.json",
+      "editorial-audit/2026-10-31/reviews/governing-the-commons.md"
+    ],
+    "collectorFilesEdited": false,
+    "readyEdited": false,
+    "rootOrSharedFilesEdited": false,
+    "gitPrDeployExternalMessages": false,
+    "subagentsSpawned": 0,
+    "temporaryPrimaryFiles": "Owned external temporary directory only; removed after report validation."
+  },
+  "handoff": "GTC-001 is localized and fully specified. The owner/publisher can validate that correction directly and refresh hashes; this report does not grant publication authority or certify the whole edition.",
+  "reviewCompletedAt": "2026-10-31T21:09:13.061009+00:00",
+  "markdownReportSha256": "32039ea086c642c75fa599e0026215fa7db10fa883b33682cf2724964be0c38a"
+}

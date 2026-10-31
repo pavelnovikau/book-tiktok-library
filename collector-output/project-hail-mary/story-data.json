@@ -1,0 +1,961 @@
+{
+  "schemaVersion": 2,
+  "slug": "project-hail-mary",
+  "title": {
+    "ru": "Проект «Аве Мария»",
+    "en": "Project Hail Mary"
+  },
+  "author": {
+    "ru": "Энди Вейр",
+    "en": "Andy Weir"
+  },
+  "description": {
+    "ru": "Человек без памяти пытается понять, кто он и почему проснулся здесь. Начало без дальнейших открытий; полный сюжет только в Deep.",
+    "en": "A man without memory tries to discover who he is and why he woke here. Later discoveries and the complete plot are reserved for Deep."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "narrative",
+  "audience": "teen-14-plus",
+  "spoilerPolicy": "full-plot-in-deep",
+  "media": {
+    "awakening": {
+      "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODAgMjIwIj48cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjIyMCIgZmlsbD0idmFyKC0tY29sb3ItY292ZXItYmcsIzEwMEYwRikiLz48ZyBmaWxsPSJub25lIiBzdHJva2U9InZhcigtLWNvbG9yLWNvdmVyLWxpbmUsIzZGNkU2OSkiPjxjaXJjbGUgY3g9IjI0MCIgY3k9IjExMCIgcj0iNzgiIHN0cm9rZS13aWR0aD0iMiIvPjxjaXJjbGUgY3g9IjI0MCIgY3k9IjExMCIgcj0iNjEiLz48cGF0aCBkPSJNMjQwIDIwdjI1TTI0MCAxNzV2MjVNMTUwIDExMGgyNU0zMDUgMTEwaDI1Ii8+PHBhdGggZD0iTTE4NiA1NmwxNSAxNU0yNzkgMTQ5bDE1IDE1TTE4NiAxNjRsMTUtMTVNMjc5IDcxbDE1LTE1Ii8+PC9nPjxjaXJjbGUgY3g9IjI0MCIgY3k9IjExMCIgcj0iMjAiIGZpbGw9Im5vbmUiIHN0cm9rZT0idmFyKC0tY29sb3ItY292ZXItbGlnaHQsI0NFQ0RDMykiIHN0cm9rZS13aWR0aD0iMiIvPjxwYXRoIGQ9Ik0yMjggMTEwaDI0TTI0MCA5OHYyNCIgc3Ryb2tlPSJ2YXIoLS1jb2xvci1jb3Zlci1saWdodCwjQ0VDREMzKSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+",
+      "alt": {
+        "ru": "Круглый люк в темноте.",
+        "en": "A circular hatch in darkness."
+      },
+      "credit": {
+        "ru": "Smartcat",
+        "en": "Smartcat"
+      }
+    }
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Andy Weir / Del Rey — official 2021 sample",
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9781529100617/9781529100617-sample.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитан весь доступный образец: главы 1–3 до печатной страницы 38. PDF содержит 49 страниц с вводными листами. Это не полное издание.",
+        "en": "Complete available sample read: Chapters 1–3 through printed page 38. PDF has 49 pages including front matter. Not a full edition."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Amy Jurskis / PRH — Teacher’s Guide",
+      "url": "https://images.penguinrandomhouse.com/promo_image/9780593135204_8306.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитаны все 8 страниц официального учебного гида, включая первичные отрывки. Вопросы не принимались за готовые ответы. Внешний PDF раскрывает сюжет.",
+        "en": "All eight pages of the official teaching guide read, including primary excerpts. Questions are not treated as answer keys. External PDF contains spoilers."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Andy Weir / PRH — 2021 reader kit",
+      "url": "https://penguinrandomhousesecondaryeducation.com/wp-content/uploads/2021/09/PHMKit.pdf",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны авторское интервью и пояснение механизма; схема корабля просмотрена. Начальный отрывок совпадает с образцом. Материал не является полным романом.",
+        "en": "Author interview and mechanism explanation read; ship schematic inspected. Opening excerpt overlaps the sample. Not a complete novel."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Abbe Wright / Andy Weir — PRH interview, 23 May 2021",
+      "url": "https://www.penguinrandomhouse.com/articles/andy-weir-interview",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны авторские ответы о замысле, устройстве приключения и важных отношениях. Внешняя страница содержит спойлеры.",
+        "en": "Author answers on the premise, adventure and central relationship read. External page contains spoilers."
+      }
+    },
+    {
+      "id": 5,
+      "title": "SuperSummary — Project Hail Mary, Chapters 5–8",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-5-8/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 6,
+      "title": "SuperSummary — Project Hail Mary, Chapters 9–12",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-9-12/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 7,
+      "title": "SuperSummary — Project Hail Mary, Chapters 13–16",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-13-16/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 8,
+      "title": "SuperSummary — Project Hail Mary, Chapters 17–20",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-17-20/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 9,
+      "title": "SuperSummary — Project Hail Mary, Chapters 21–25",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-21-25/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 10,
+      "title": "SuperSummary — Project Hail Mary, Chapters 26–30",
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-26-30/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый подробный поглавный текст. Это профессиональный вторичный гид, не авторский текст; выводы критика отделены от событий. Внешняя страница со спойлерами.",
+        "en": "Open detailed chapter summaries read. A professional secondary guide, not author text; critical interpretation separated from events. External page contains spoilers."
+      }
+    },
+    {
+      "id": 11,
+      "title": "Andy Weir — verified 2021 author AMA",
+      "url": "https://www.reddit.com/r/IAmA/comments/nkva3o/i_am_andy_weir_author_of_the_martian_and_my_new/",
+      "role": "author",
+      "note": {
+        "ru": "Проверены выбранные ответы sephalon о языке, среде и авторских неточностях. Читательские комментарии не слова автора. Утверждение 2021 года о реально существующей планете не повторяется как современный факт.",
+        "en": "Selected sephalon answers checked on language, environment and acknowledged errors. Reader comments are not author statements. A 2021 real-planet assertion is not repeated as a present-day fact."
+      }
+    },
+    {
+      "id": 12,
+      "title": "LitCharts — Project Hail Mary, Chapter 17",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-17",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    },
+    {
+      "id": 13,
+      "title": "LitCharts — Project Hail Mary, Chapter 24",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-24",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    },
+    {
+      "id": 14,
+      "title": "LitCharts — Project Hail Mary, Chapter 29",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-29",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    },
+    {
+      "id": 15,
+      "title": "LitCharts — Project Hail Mary, Chapter 30",
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-30",
+      "role": "reference",
+      "note": {
+        "ru": "Доступная сюжетная часть сверена с подробным независимым гидом и материалами издателя; служебный заполнитель и критические обобщения не использованы.",
+        "en": "Accessible plot portion checked against a separate detailed guide and publisher material; placeholder text and critical generalizations excluded."
+      }
+    }
+  ],
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Проект «Аве Мария»",
+          "body": "<p>Человек просыпается в незнакомой комнате. Он помнит математику, названия приборов и устройство мира — всё, кроме собственной жизни. Кто оставил его здесь и чего от него ждут? Главное и Core сохраняют открытия за пределами начала; имя, дальнейшее путешествие и развязка находятся только в Deep.</p>",
+          "subtitle": "Энди Вейр · Роман · 2021"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "Project Hail Mary",
+          "body": "<p>A man wakes in an unfamiliar room. He remembers mathematics, laboratory instruments and how the world works—everything except his own life. Who left him here, and what do they expect? Essential and Core preserve discoveries beyond the opening; his identity, later journey and ending are reserved for Deep.</p>",
+          "subtitle": "Andy Weir · Novel · 2021"
+        }
+      },
+      "type": "cover",
+      "media": "awakening"
+    },
+    {
+      "id": "the-computers-question",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Вопрос без ответа",
+          "body": "<p>Голос снова и снова задаёт простую арифметическую задачу. Проснувшийся хочет, чтобы от него отстали, но рот не слушается. Наконец удаётся выговорить ответ. Роботизированные руки ухаживают за ним; живого врача нигде не видно. Попытка заговорить с машиной превращается в очередную проверку.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "A question awaiting an answer",
+          "body": "<p>A voice keeps repeating a simple arithmetic question. The waking man wants to be left alone, but his mouth will not cooperate. Eventually he manages an answer. Robotic arms tend him; no human doctor appears. Trying to question the machine brings another test instead.</p>"
+        }
+      }
+    },
+    {
+      "id": "his-missing-name",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Собственное имя",
+          "body": "<p>С числами он справляется. Но компьютер требует назвать себя, и здесь ответ исчезает. Он не знает, кто он такой. После неудачных попыток машина снова усыпляет его. При следующем пробуждении он выдёргивает капельницу и пытается выбраться из-под заботливых рук, не умеющих объяснять свои действия.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "His own name",
+          "body": "<p>Numbers are manageable. Then the computer asks his name, and the answer vanishes. He does not know who he is. After failed attempts, the machine sedates him again. On waking, he pulls out his IV and escapes the attentive arms that cannot explain what they are doing.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-other-beds",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Две соседние койки",
+          "body": "<p>В круглой комнате ещё две койки. Он зовёт соседей, надеясь услышать человеческий голос, и обнаруживает, что оба давно мертвы. Всё вокруг чисто, оборудование продолжает работать. Непонятно только, почему здесь оставили тела — и почему он сам остался жив.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "The other two beds",
+          "body": "<p>There are two more beds in the round room. Hoping for a human voice, he calls to their occupants and discovers that both have been dead for a long time. Everything is clean; equipment still works. Why were the bodies left here—and why is he alive?</p>"
+        }
+      }
+    },
+    {
+      "id": "the-first-meal",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Еда из тюбика",
+          "body": "<p>Компьютер выдаёт еду. На вид содержимое тюбика отвратительно, но голод превращает его в деликатес. Получить добавку не удаётся: машина соблюдает назначенный рацион. Набравшись сил, он заворачивается в простыню и поднимается по лестнице к люку. За ним находится лаборатория.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "Food from a tube",
+          "body": "<p>The computer supplies food. The tube’s contents look disgusting, but hunger makes them delicious. A second helping is refused: the machine follows its ration schedule. Stronger now, he wraps himself in a sheet and climbs to a hatch. Beyond it is a laboratory.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-laboratory",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Он знает эти приборы",
+          "body": "<p>Микроскоп, автоклав, пипетки, сложные станки — он узнаёт всё и понимает, как этим пользоваться. Даже без имени у него сохранились знания учёного. Приборы прочно закреплены; выше есть ещё один люк. Но компьютер отпирает его только тому, кто способен назвать себя.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "He knows these instruments",
+          "body": "<p>Microscope, autoclave, pipettes, sophisticated machines—he recognizes them and knows how to use them. Scientific knowledge has survived the loss of his name. The equipment is firmly mounted; another hatch waits overhead. The computer will only unlock it for someone able to identify himself.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-falling-tube",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Пробирка падает слишком быстро",
+          "body": "<p>Сорвавшись с лестницы, он роняет на себя лабораторные принадлежности. Падение кажется странным. Он берёт пробирку, рулетку и секундомер, повторяет опыт много раз, записывая результаты на руке. В комнате всё падает быстрее, чем должно на Земле. Теперь у неизвестности есть измеримое свойство.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "A tube falls too quickly",
+          "body": "<p>Falling from the ladder, he brings laboratory supplies down on himself. Something about the fall feels wrong. With a tube, tape measure and stopwatch, he repeats an experiment, writing results on his arm. Objects fall faster than they should on Earth. His predicament now has a measurable property.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-makeshift-pendulum",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Маятник из рулетки",
+          "body": "<p>Он проверяет другую возможность: вдруг комната находится в гигантской центрифуге? Рулетка на нитке становится маятником. Он считает колебания наверху и этажом ниже, исписывает стену расчётами. Научная работа даётся легче, чем попытка вспомнить обычное утро собственной жизни.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "A tape-measure pendulum",
+          "body": "<p>He tests another possibility: could the room be inside a giant centrifuge? A tape measure hung from thread becomes a pendulum. He counts its swings upstairs and below, covering the wall with calculations. Scientific work comes more easily than recalling an ordinary morning of his life.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-red-line",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Тонкая красная линия",
+          "body": "<p>Один образ возвращает воспоминание: письмо астронома Ирины Петровой. Она обнаружила слабое инфракрасное излучение, тянущееся дугой от Солнца к Венере. В её письме были данные и просьба помочь с объяснением. Вспомнилось это, а не его имя. Значит, линия почему-то важна.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "A thin red line",
+          "body": "<p>An image brings back an email from astronomer Irina Petrova. She detected a faint infrared arc extending from the Sun toward Venus and sent observations asking for an explanation. He remembers that message instead of his own name. The line must matter to him somehow.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-news-at-dinner",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Разговор за ужином",
+          "body": "<p>Следом вспоминается ужин с подругой. Новые наблюдения показали, что Солнце теряет яркость, а линия Петровой усиливается. Потеря нарастает. Она говорит о холоде и будущем голоде; привычный разговор превращается в известие, которое касается всего живого. Он понимает, что давно носит этот страх в себе.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "News over dinner",
+          "body": "<p>Next comes dinner with a friend. New observations show the Sun losing brightness as the Petrova line intensifies. The loss is accelerating. She speaks of cold and future famine; an ordinary meal becomes news concerning all life. He recognizes a fear he has carried for a long time.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-crew",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Это был экипаж",
+          "body": "<p>К мёртвым возвращаются черты: одна была весёлой, другой — сдержанным командиром. Он плачет и наконец находит слово, которое связывало их. Экипаж. Они вместе летели на этом корабле, лежали в искусственной коме, и только он проснулся. Но зачем летели, память ещё не объясняет.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "They were a crew",
+          "body": "<p>The dead recover traces of personality: one was funny, the other a composed commander. He cries and finally remembers what joined them. A crew. They traveled together on this ship, kept in induced comas. Only he woke. Memory has yet to explain why they came.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-classroom-memory",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Классная комната",
+          "body": "<p>В следующем воспоминании дети соревнуются, отвечая на научные вопросы; он награждает их маленькими мешочками, а ученица ловко обращает формулировку против учителя. Вот кем он был. После урока приходит Ева Стратт из международной группы Петровой. Её интересует его давняя, вызвавшая скандал статья о возможности иной жизни.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "A classroom",
+          "body": "<p>In another memory, children compete to answer science questions. He awards beanbags; one pupil cleverly turns his wording against him. He was their teacher. After class Eva Stratt arrives from the international Petrova Taskforce, interested in his old, controversial paper about the possibilities of alien life.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-spoiler-warning",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Дальше — открытия и развязка",
+          "body": "<p>Дальше раскрываются имя героя, назначение и место его путешествия, новые участники, забытая причина отправки, выбор и конец романа. Чтобы сохранить эти открытия для первого чтения, вернитесь к Главному или Core через оглавление.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Discoveries and the ending follow",
+          "body": "<p>What follows reveals the man’s identity, mission and destination, later characters, the forgotten reason for his departure, his choice and the ending. To preserve those discoveries, return to Essential or Core through Contents.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-name",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Найденное имя",
+          "body": "<p>Его зовут Райланд Грейс. Молекулярный биолог, ушедший из исследовательской среды преподавать детям. Стратт вернула его к работе с образцом, доставленным зондом от Венеры. Теперь Грейс узнаёт задачу корабля «Аве Мария»: найти причину, по которой одна звезда сопротивляется тому, что угрожает Солнцу.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The recovered name",
+          "body": "<p>His name is Ryland Grace: a molecular biologist who left research to teach children. Stratt brought him back to study a sample returned from Venus. Now he recognizes the Hail Mary’s task: discover why one star resists the threat afflicting the Sun.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-organism",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "То, что питалось светом",
+          "body": "<p>В земной лаборатории Грейс обнаружил жизнь и назвал организм астрофагом. Он запасает звёздную энергию, летит к Венере и размножается, используя углекислый газ. Численность растёт, Земле достаётся меньше света. Но способность астрофага накапливать и отдавать энергию открыла людям путь к межзвёздному двигателю.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "What fed on light",
+          "body": "<p>In the Earth laboratory, Grace found life and named it Astrophage. It stores stellar energy, travels to Venus and reproduces using carbon dioxide. As its population grows, less sunlight reaches Earth. Yet its ability to store and release energy also gave humanity an interstellar engine.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-plan",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "План путешествия",
+          "body": "<p>Корабль добрался до Тау Кита — звезды, которая не тускнеет, как соседние. Проект готовили для трёх человек и дороги в один конец. Вернуться должны были маленькие автоматические зонды, «жуки», с найденным решением. От экипажа ждали результата, достаточного, чтобы Земля успела им воспользоваться.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The journey’s plan",
+          "body": "<p>The ship has reached Tau Ceti, a star not dimming like its neighbors. The project carried three people on a one-way voyage. Small automated Beetle probes were meant to return with a solution. The crew’s task was to find something Earth could use before time ran out.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-another-object",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Объект рядом",
+          "body": "<p>Когда двигатели умолкают, Грейс может осмотреть окрестности прибором, замечающим излучение астрофага. Совсем рядом находится ещё один корабль. Он подаёт сигнал двигателями — незнакомец отвечает. Затем к «Аве Марии» отправляется цилиндр, и Грейс выходит наружу, чтобы его поймать.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "An object nearby",
+          "body": "<p>With the engines off, Grace can scan nearby space for Astrophage emissions. Another ship is close by. He signals with his engines; it responds. Then a cylinder comes toward the Hail Mary, and Grace goes outside to retrieve it.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-a-small-model",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Модель внутри цилиндра",
+          "body": "<p>Внутри — маленькая модель звёзд и планет с дугой, похожей на линию Петровой. Грейс добавляет обозначения Солнца и Венеры, отправляет ответ. Следующая посылка показывает два корабля, соединённые трубой. После обмена сведениями незнакомцы предлагают встречу.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "A model in the cylinder",
+          "body": "<p>Inside is a small model of stars and planets, with an arc resembling the Petrova line. Grace adds the Sun and Venus and sends it back. The next delivery depicts their two ships joined by a tube. An exchange of information has become an invitation to meet.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-divider",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "По другую сторону перегородки",
+          "body": "<p>Тоннель соединяет шлюзы, но перегородка разделяет две атмосферы. С другой стороны появляется каменистая рука. Существо похоже на пятилапого паука; Грейс называет его Рокки. Для него нужны жара, высокое давление и аммиачный воздух. Прозрачная стенка позволяет приблизиться, сохранив необходимые границы.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Across the divider",
+          "body": "<p>A tunnel joins the airlocks, with a divider keeping their atmospheres separate. A rocky hand appears beyond it. The being resembles a five-legged spider; Grace names him Rocky. He needs heat, high pressure and ammonia-rich air. A transparent wall lets them approach while maintaining those essential boundaries.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-learning-words",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4,
+        6,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Сначала числа",
+          "body": "<p>Рокки отвечает созвучиями, напоминающими музыку. Грейс записывает звуки, сопоставляет их с предметами и числами, составляет словарь. Рисунки бесполезны: Рокки не видит, а воспринимает мир эхолокацией. Грейс делает обозначения объёмными. Первые недоразумения постепенно уступают настоящему разговору.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Numbers first",
+          "body": "<p>Rocky answers in musical chords. Grace records sounds, matches them to objects and numbers, and builds a vocabulary. Drawings are useless: Rocky senses the world by echolocation. Grace makes his signs three-dimensional. Their early misunderstandings gradually give way to conversation.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-sleep",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Кто-то остаётся рядом",
+          "body": "<p>Они выясняют, что оба остались одни и оба ищут спасение для своей звезды. Рокки просит посмотреть, как спит человек, а потом предлагает Грейсу охранять его сон. На Эриде так заботятся о беззащитном спящем. Теперь тишина корабля больше не означает, что рядом никого нет.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Someone stays nearby",
+          "body": "<p>Both are alone, seeking help for their home stars. Rocky asks to watch Grace sleep, then asks Grace to watch him in return. On Erid, this protects a vulnerable sleeper. The ship’s silence no longer means there is nobody nearby.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-an-engineers-offer",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Предложение инженера",
+          "body": "<p>Рокки переселяется на человеческий корабль, устроив себе проходы с собственной атмосферой. Он умеет строить из ксенонита и чинить то, что Грейсу не под силу. Узнав о дороге в один конец, Рокки предлагает лишний астрофаг со своего корабля. Впервые возвращение домой кажется возможным.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The engineer’s offer",
+          "body": "<p>Rocky moves aboard, building passageways with his own atmosphere. He can work xenonite and repair things beyond Grace’s abilities. Learning that Grace’s mission has no return journey, he offers surplus Astrophage from his ship. Going home becomes possible for the first time.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-a-planet",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        8,
+        12
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Планета под ними",
+          "body": "<p>У Тау Кита тоже есть линия миграции астрофага. Она ведёт к планете, которую они называют Адриан. В образце с её окрестностей Грейс находит множество организмов. Рокки предполагает: здесь у астрофага есть естественный враг, удерживающий его численность. Чтобы найти его, нужно спуститься образцом ниже в атмосферу.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The planet below",
+          "body": "<p>Tau Ceti also has an Astrophage migration line, leading to the planet they call Adrian. A sample from its vicinity contains many organisms. Rocky suspects a natural predator keeps Astrophage numbers in check here. Finding it requires a sample from deeper in the atmosphere.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-collection",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Длинная цепь",
+          "body": "<p>Сам корабль не может безопасно опуститься так низко. Рокки делает длинную ксенонитовую цепь со сборником, а Грейс ведёт «Аве Марию», удерживая нужное положение над планетой. Образец получен. Теперь Грейсу предстоит снаружи вытянуть сборник обратно, пока двигатели продолжают работать.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The long chain",
+          "body": "<p>The ship cannot safely descend far enough. Rocky makes a long xenonite chain and collector; Grace holds the Hail Mary in position above the planet. They obtain the sample. Grace must then retrieve the collector outside while the engines keep running.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-loss-of-control",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Корабль теряет управление",
+          "body": "<p>Перегрев повреждает корабль. Из пробитого бака вырывается астрофаг, устремляясь к планете; незапланированная тяга сбивает курс и вдавливает Грейса в кресло. Он успевает сбросить повреждённые баки, но удар лишает его возможности выбраться самому. Рокки выходит в человеческий воздух и спасает его — после чего сам падает без сознания.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The ship goes out of control",
+          "body": "<p>Heat damages the ship. Astrophage escapes a punctured tank toward the planet, producing thrust that throws them off course and pins Grace down. He jettisons the damaged tanks but cannot free himself after the impact. Rocky enters the human atmosphere to rescue him, then collapses.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-an-attempt-to-help",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        8,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Попытка помочь",
+          "body": "<p>Грейс возвращает Рокки в его среду, обжигается, приходит в себя под опекой медицинских рук. Он пытается лечить друга, не зная его тела. Когда Рокки просыпается, выясняется: то, что Грейс принял за сажу и удалил, было частью заживления. Рокки выжил, но попытка лечения чуть не убила его.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Trying to help",
+          "body": "<p>Grace gets Rocky back into his environment, suffers burns, and wakes under the medical arms’ care. He tries to treat his friend without understanding his body. When Rocky wakes, the material Grace removed as soot proves part of the healing process. Rocky survived, but Grace’s attempted treatment had nearly killed him.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-predator",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Жизнь в образце",
+          "body": "<p>В собранном образце находится искомый хищник. Грейс называет его таумёбой. Он поедает астрофаг, но надежда быстро оборачивается новой опасностью: попав в топливную систему, таумёба оставляет корабль без энергии. Рокки восстанавливает генератор; маленькие «жуки» помогают добраться обратно к его кораблю.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Life in the sample",
+          "body": "<p>The sample contains the predator. Grace names it Taumoeba. It consumes Astrophage, but hope brings a new danger: contamination of the fuel system leaves their ship without power. Rocky restores a generator; the little Beetles help propel them back toward his ship.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-the-last-memory",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Последнее воспоминание",
+          "body": "<p>Пока они работают, возвращается самое тяжёлое воспоминание. Основной научный специалист и его дублёр погибли при взрыве. Грейс знал астрофаг и подходил по редкому признаку переносимости комы, но отказался лететь навстречу смерти. Стратт заключила его под стражу и велела отправить без сознания, с препаратом, вызывающим амнезию. Он не был добровольцем.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "The last memory",
+          "body": "<p>The hardest memory returns as they work. The science specialist and his backup died in an explosion. Grace knew Astrophage and had the rare coma-resistance marker, but refused a mission ending in death. Stratt detained him and arranged his unconscious departure with an amnesia-inducing drug. He had not volunteered.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-a-new-obstacle",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        9,
+        13
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Новое препятствие",
+          "body": "<p>Таумёбы погибают в условиях, где им нужно будет защищать обе звёздные системы. Грейс выясняет причину: азот. Вместо отказа от решения они начинают отбор — постепенно повышают его содержание, размножая выжившие организмы. Рокки строит ёмкости, а Грейс проверяет, к чему приспособилась каждая новая культура.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Another obstacle",
+          "body": "<p>Taumoeba die in the conditions where they must protect both star systems. Grace identifies nitrogen as the cause. The pair begins selective breeding, gradually raising its concentration and reproducing survivors. Rocky builds the chambers while Grace checks what each new culture can withstand.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-departure",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        7,
+        9,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Два обратных курса",
+          "body": "<p>Наконец культуры выдерживают нужные условия. Рокки заменяет потерянные баки и даёт Грейсу топливо для возвращения; они обмениваются технологиями и прощаются. Каждый везёт решение домой. Грейс готовит для «жуков» отдельные маленькие ёмкости с таумёбами — на случай, если с ним самим что-нибудь случится.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Two homeward courses",
+          "body": "<p>At last their cultures withstand the required conditions. Rocky replaces the lost tanks and supplies return fuel; they exchange technology and say goodbye. Each carries a solution home. Grace prepares separate miniature Taumoeba farms for the Beetles, in case something happens to him.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-a-leak",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        10,
+        14
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Следы утечки",
+          "body": "<p>На обратном пути Грейс снова обнаруживает таумёб рядом с астрофагом. Проверки показывают: при отборе в ксенонитовых ёмкостях выжили и организмы, способные укрываться в структуре материала. Теперь они проходят через стенки. Грейс заменяет ёмкости металлическими. Но корабль Рокки построен из ксенонита, и его топливо может оказаться съеденным. Сигнала работающих двигателей больше нет.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Signs of a leak",
+          "body": "<p>On the return journey Grace finds Taumoeba near Astrophage again. Tests show that breeding in xenonite chambers also selected organisms able to shelter within the material’s structure. They can now pass through the walls. Grace switches to metal containers. But Rocky’s ship is made of xenonite, exposing its fuel. The engine signal has disappeared.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-a-turn",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        10,
+        14
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Поворот",
+          "body": "<p>Грейс может продолжить путь на Землю. Если он вернётся за Рокки, человеческой еды для дороги домой уже не хватит. Он плачет, а затем меняет курс. «Жуки» с культурами и записями отправляются к Солнцу; сам он ищет затихший корабль. Земле всё ещё достанется найденное решение.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Turning back",
+          "body": "<p>Grace could continue toward Earth. If he returns for Rocky, he will lack human food for the journey home. He cries, then changes course. The Beetles carry cultures and records toward the Sun while he searches for the silent ship. Earth will still receive the solution.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-knocking",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        10,
+        14
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Стук по обшивке",
+          "body": "<p>Найдя корабль, Грейс не получает ответа. Он выходит наружу, добирается до обшивки и стучит. Наконец Рокки отзывается. Топливо действительно уничтожено. Грейс объясняет, почему вернулся и что теперь не рассчитывает дожить до возвращения на Землю. Рокки сразу начинает искать другой способ его прокормить.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Knocking on the hull",
+          "body": "<p>Finding the ship brings no answer. Grace goes outside, reaches its hull and knocks. At last Rocky responds. The fuel is gone. Grace explains his return and why he no longer expects to survive a journey to Earth. Rocky immediately looks for another way to feed him.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-food",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        10,
+        14,
+        15
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Еда для гостя",
+          "body": "<p>Возникает неожиданная возможность: таумёбы биохимически ближе к земной жизни, чем пища эридиан. Грейс сможет есть их по дороге на Эрид. Это не полноценный рацион, но он позволяет дожить до помощи. Позже эридиане устраивают ему человеческую среду и находят способы обеспечить подходящее питание.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Food for a guest",
+          "body": "<p>An unexpected possibility emerges: Taumoeba are biochemically closer to terrestrial life than Eridian food is. Grace can eat them on the way to Erid. It is no complete diet, but it keeps him alive until help arrives. The Eridians later provide a human habitat and suitable nutrition.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-news-from-far-away",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        10,
+        15
+      ],
+      "copy": {
+        "ru": {
+          "section": "Deep",
+          "title": "Свет далёкой звезды",
+          "body": "<p>Годы спустя Рокки приносит новость: Солнце вернулось к прежней яркости. Грейс понимает, что посланное решение достигло цели. Как именно Земля пережила ожидание, он не знает. Возвращение теперь возможно, но решение он откладывает. Ему пора вести урок для молодых эридиан, отвечающих ему своим музыкальным языком.</p>"
+        },
+        "en": {
+          "section": "Deep",
+          "title": "Light from a distant star",
+          "body": "<p>Years later Rocky brings news: the Sun has recovered its brightness. Grace understands that the solution reached its destination. He does not know what Earth endured while waiting. A return is possible now, but he postpones that decision. It is time to teach young Eridians in their musical language.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Пробуждение",
+          "title": "Имя за закрытым люком",
+          "body": "<p>В начале остаются незнакомая комната, настойчивый компьютер и человек, который знает, как поставить опыт, но не знает себя. Воспоминания возвращаются частями. Главное и Core сохраняют открытия дальнейшего пути; в Deep можно продолжить эту историю до её конца.</p>"
+        },
+        "en": {
+          "section": "Awakening",
+          "title": "A name beyond the locked hatch",
+          "body": "<p>The opening leaves an unfamiliar room, a persistent computer, and a man who knows how to run an experiment but does not know himself. Memories return in pieces. Essential and Core preserve the discoveries ahead; Deep continues the story to its ending.</p>"
+        }
+      },
+      "final": true
+    }
+  ],
+  "methodNote": {
+    "ru": "Краткий самостоятельный пересказ романа 2021 года. Прочитаны весь официальный образец глав 1–3, официальный учебный гид и авторские материалы; последующая последовательность проверена по подробным открытым поглавным разделам, с картой событий в редакционном отчёте. Полное издание непрерывно не читалось; точность полного текста или опубликованного перевода не удостоверяется. Сокращены побочные линии и технические расчёты; вымышленные механизмы остаются частью романа. Источники могут раскрывать сюжет.",
+    "en": "A concise original-word retelling of the 2021 novel. Read: the complete official Chapters 1–3 sample, official teaching guide and author material; the later sequence was checked against detailed open chapter guides, with an event map in the editorial report. No continuous complete-edition reading, full-text or published-translation fidelity is certified. Subplots and calculations are shortened; invented mechanisms remain fictional. External sources may reveal the plot."
+  },
+  "researchAccess": {
+    "date": "2026-10-31",
+    "fullEditionRead": false,
+    "translationCollated": false,
+    "actualReading": "Complete available official opening, printed 3–38; eight-page Amy Jurskis teaching guide; reader-kit interview/Astrophage explanation and schematic; PRH interview; six public detailed SuperSummary sections, Chapters 5–30; four accessible LitCharts chapter summaries; selected verified AMA answers."
+  },
+  "targetModes": {
+    "essential": 8,
+    "core": 13,
+    "deep": 36
+  }
+}

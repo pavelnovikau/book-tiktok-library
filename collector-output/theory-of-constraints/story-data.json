@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 2,
+  "slug": "theory-of-constraints",
+  "title": {
+    "ru": "Теория ограничений · корпус Голдратта",
+    "en": "Theory of Constraints · the Goldratt corpus"
+  },
+  "description": {
+    "ru": "Проверенные аргументы и примеры из корпуса: ограничения, поток, BigBrand и «Выбор».",
+    "en": "Verified arguments and examples from the corpus: constraints, flow, BigBrand and The Choice."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 13,
+    "core": 22,
+    "deep": 26
+  },
+  "methodNote": {
+    "ru": "Выборочное чтение корпуса, а не одного романа: «Цель» Голдратта и Джеффа Кокса, «Дело не в везении», «Критическая цепь», «Выбор» с Эфрат Голдратт-Ашлаг и многоавторский Handbook. Основа — авторский очерк 1996 года, полностью прочитанный официальный фрагмент главы 11 Critical Chain, собственное полное издание «Выбора» (прочитаны пролог и главы 2, 5, 6, 18), официальные пояснения пяти шагов/DBR и профессиональное изложение проектных буферов. Для «Цели» и «Дело не в везении» проверены завязка и место в корпусе, не полная история; у Handbook проверено оглавление и авторство, не главы. Нет заявления о полном чтении пяти работ или точности всех их переводов. Все оставленные аргументы и границы указаны по источникам; новых авторских сцен и расчётов нет.",
+    "en": "Selected reading of a corpus, not one novel: The Goal by Goldratt and Jeff Cox, It’s Not Luck, Critical Chain, The Choice with Efrat Goldratt-Ashlag, and the multi-author Handbook. Based on the 1996 author essay, the entire official Critical Chain chapter 11 excerpt, an owned complete Choice edition (prologue and chapters 2, 5, 6, 18 read), official five-step/DBR explanations and professional project-buffer exposition. For The Goal and It’s Not Luck, the premise and place in the corpus were checked, not the full story; for the Handbook, contents and authorship, not chapters. No claim to full reading of all five works or translation fidelity across them. Sources disclose each retained argument and boundary; no new author scenes or calculations are invented."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Eliyahu M. Goldratt · My Saga to Improve Production (1996)",
+      "url": "https://www.toc-goldratt.com/content/My-Saga-to-Improve-Production",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан содержательный авторский очерк: появление «Цели», трудности внедрения, формализация пяти шагов и переход к ограничениям в правилах. Автобиографический рассказ автора, не независимая оценка результатов.",
+        "en": "The substantive author essay was read: The Goal, implementation difficulties, the five steps and policy constraints. An author’s account, not an independent outcomes study."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Goldratt Research Labs · Introduction to TOC",
+      "url": "https://www.goldrattresearchlabs.com/introduction-to-toc",
+      "role": "publisher",
+      "note": {
+        "ru": "Полностью прочитано содержательное введение и пять шагов; современное изложение организации Голдратта и практиков.",
+        "en": "The substantive introduction and all five focusing steps were read; a current exposition by Goldratt’s and practitioners’ organization."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "title": "Eliyahu M. Goldratt · Critical Chain · chapter 11",
+      "url": "https://northriverpress.com/excerpt-from-critical-chain/",
+      "role": "author",
+      "note": {
+        "ru": "Полностью прочитан официальный фрагмент главы 11: выступление Джонни Фишера, два участника с мощностью 10 и 20 единиц, конфликт затрат и потока. Остальной роман не прочитан.",
+        "en": "The complete official chapter 11 excerpt was read: Johnny Fisher’s lecture, the 10/20-unit demonstration and the cost/throughput conflict. The rest of the novel was not read."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 4,
+      "title": "Gray, Felan, E. Umble & M. Umble · PMI Research Conference (2000)",
+      "url": "https://www.pmi.org/learning/library/drum-buffer-rope-critical-chain-buffering-8526",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны разделы об определении критической цепи, ресурсных зависимостях, проектном и питающих буферах. Это профессиональное изложение четырёх названных авторов, не текст всего романа Голдратта.",
+        "en": "Read the sections on critical-chain identification, resource dependencies, project and feeding buffers. Professional exposition by these four authors, not the complete Goldratt novel."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 5,
+      "title": "Eliyahu M. Goldratt & Efrat Goldratt-Ashlag · The Choice / «Выбор: Правила Голдратта»",
+      "url": "https://www.toc-goldratt.com/en/product/the-choice",
+      "role": "author",
+      "note": {
+        "ru": "Собственное издание Альпина, 2014, ISBN 978-5-9614-3555-9, перевод Д. Баймухаметовой; оригинал North River Press, 2008. Проверены титул, metadata и 26 spine-документов: 18 глав, заметки Эфрат, приложение. Прочитаны пролог и полностью главы 2, 5, 6, 18. Это выборочные главы полного издания, не сплошное чтение книги. Служебное «Критическая цепь» в HTML head ошибочно: текст относится к «Выбору». Частный EPUB не включён в библиотеку.",
+        "en": "Owned Alpina 2014 edition, ISBN 978-5-9614-3555-9, translated by D. Baimukhametova; North River Press original, 2008. Title/metadata and 26 spine documents checked: 18 chapters, Efrat’s notes and appendix. Read the prologue and complete chapters 2, 5, 6 and 18. Selected chapters of a complete edition, not continuous reading of the book. Misleading HTML head titles say Critical Chain; the actual work is The Choice. Private EPUB text is not distributed."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 6,
+      "title": "Goldratt & Jeff Cox · The Goal · official synopsis",
+      "url": "https://www.toc-goldratt.com/en/product/the-goal-audiobook-30th-anniversary-edition",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитана официальная завязка: Алекс Рого, угроза закрытия через три месяца, наставник Джона. Не прослушана аудиокнига; сцены Херби, NCX-10 и семейная развязка здесь не пересказываются. Локальный EPUB «Цели» оказался Smart Reading, а не полным романом.",
+        "en": "Read the official premise: Alex Rogo, three months before closure and mentor Jonah. The audiobook was not heard; Herbie, NCX-10 and the family resolution are not reconstructed. The local Goal EPUB was a Smart Reading condensation, not the complete novel."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 7,
+      "title": "Goldratt Marketing · The Goal Movie & GSP on Operations",
+      "url": "https://www.toc-goldratt.com/en/product/the-goal-movie-gsp-on-operations",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитано опубликованное описание DBR: расписание ограничения, защита от неопределённости, управление запуском. Фильм и платная лекция не просмотрены; их сюжет не выдаётся за текст романа.",
+        "en": "Read the published DBR explanation: constraint schedule, uncertainty protection and controlled release. The film and paid lecture were not watched; their scenes are not treated as novel text."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 8,
+      "title": "Eliyahu M. Goldratt · It’s Not Luck · official work description",
+      "url": "https://www.toc-goldratt.com/en/product/its-not-luck",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитаны официальные описание, область применения и завязка. Оставлено место этой работы в корпусе — продажи, дистрибуция, конфликт и Thinking Processes. Сюжет компаний и развязка не восстановлены по аннотации.",
+        "en": "Read the official description, applications and premise. Retained its place in the corpus: sales, distribution, conflict and Thinking Processes. Company plots and outcomes are not reconstructed from the synopsis."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 9,
+      "title": "Theory of Constraints Handbook · contents / chapter authors",
+      "url": "https://www.scienceofbusiness.com/wp-content/uploads/2020/03/ToC_Handbook_Table_of_Contents.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Проверены оглавление и имена авторов: редакторы James F. Cox III и John G. Schleier Jr.; вводная глава Голдратта, проектные главы других авторов. Это оглавление 50 страниц, не тексты глав; рецепты S-DBR, MTA и динамических буферов отсюда не выводятся.",
+        "en": "Checked the contents and chapter authors: editors James F. Cox III and John G. Schleier Jr.; Goldratt’s introduction and project chapters by other authors. This is a 50-page contents file, not the chapters. S-DBR, MTA and dynamic-buffer recipes are not inferred from it."
+      },
+      "accessDate": "2026-10-31"
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Теория ограничений",
+          "body": "<p>Корпус Голдратта начинается с завода, но постепенно задаёт более неудобный вопрос: почему разумные люди вместе поддерживают правила, мешающие результату?</p><p>От «Цели» и «Критической цепи» — к кейсу BigBrand и разговору отца с дочерью в «Выборе». Связное чтение проверенных аргументов и фрагментов корпуса.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Theory of Constraints",
+          "body": "<p>Goldratt’s corpus begins with a factory, then asks a more unsettling question: why do sensible people collectively preserve rules that obstruct results?</p><p>From The Goal and Critical Chain to BigBrand and a father–daughter conversation in The Choice: a connected reading of verified arguments and passages.</p>"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "a-novel-instead-of-software",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Книга обгоняет программу",
+          "body": "<p>Голдратт писал «Цель», рассчитывая объяснить идеи, стоявшие за его программой планирования производства. Затем обнаружил неприятное для своего бизнеса: некоторые читатели улучшали заводы без программы, меняя понятия, показатели и процедуры.</p><p>Установка дорогого инструмента могла отвлекать именно от этих изменений.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "The book overtakes the software",
+          "body": "<p>Goldratt wrote The Goal to explain ideas behind his production-scheduling software. Then came an awkward discovery for his business: some readers improved plants without the software by changing concepts, measures and procedures.</p><p>Installing an expensive tool could distract from those changes.</p>"
+        }
+      }
+    },
+    {
+      "id": "rogo-premise",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Три месяца Алекса Рого",
+          "body": "<p>В «Цели», написанной Голдраттом вместе с Джеффом Коксом, управляющий Алекс Рого получает три месяца на спасение завода от закрытия. Его наставником становится Джона.</p><p>Заводская история ставит под сомнение привычное представление об эффективности: занятость отдельных участков ещё не отвечает на вопрос о результате предприятия.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Alex Rogo’s three months",
+          "body": "<p>In The Goal, written with Jeff Cox, plant manager Alex Rogo has three months to save his factory from closure. Jonah becomes his mentor.</p><p>The factory story challenges a familiar notion of efficiency: keeping individual work centres busy does not settle whether the enterprise is succeeding.</p>"
+        }
+      }
+    },
+    {
+      "id": "johnny-lecture",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Рик остаётся на лекции",
+          "body": "<p>В главе 11 «Критической цепи» Рик слушает Джонни Фишера с недоверием. Тот собирается связать две обязанности менеджера: контролировать затраты и обеспечивать поток продаж.</p><p>Провокация Фишера в том, что привычная погоня за эффективностью каждого участка может мешать обеим.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Rick stays for the lecture",
+          "body": "<p>In chapter 11 of Critical Chain, Rick listens sceptically to Johnny Fisher. Fisher connects two managerial obligations: controlling costs and protecting throughput.</p><p>His provocation is that the familiar pursuit of efficiency in every department can obstruct both.</p>"
+        }
+      }
+    },
+    {
+      "id": "ten-not-twenty",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Двадцать деталей, из которых нужны десять",
+          "body": "<p>В «Критической цепи» Голдратт даёт Джонни Фишеру двух участников: один способен выпускать десять единиц в час, другой — двадцать. Продукция второго должна пройти через первого.</p><p>Выпускать двадцать ради красивой загрузки означает накапливать ненужный запас. Ограничить выпуск десятью — значит уменьшить запас и затраты, хотя локальный показатель эффективности станет хуже.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Twenty parts when only ten are needed",
+          "body": "<p>In Critical Chain, Goldratt gives Johnny Fisher two volunteers: one can process ten units an hour, the other twenty. The second person’s output must pass through the first.</p><p>Producing twenty for an impressive utilization figure accumulates unwanted inventory. Restricting output to ten reduces inventory and costs, even as local efficiency looks worse.</p>"
+        }
+      }
+    },
+    {
+      "id": "find-and-use",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Сначала найти, затем использовать",
+          "body": "<p>Пять шагов ТОС превращают это рассуждение в повторяемую процедуру. Сначала определяют, что ограничивает достижение цели всей системы. Затем решают, как полнее использовать уже имеющуюся способность ограничения.</p><p>Третий шаг — подчинить остальные решения этому способу работы: изменить конфликтующие с ним правила и показатели.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Identify, then exploit",
+          "body": "<p>The five focusing steps turn this reasoning into a repeatable procedure. First identify what limits the whole system’s goal. Then decide how to exploit the constraint’s existing capability more fully.</p><p>Third, subordinate other decisions to that operating plan by changing rules and measures that conflict with it.</p>"
+        }
+      }
+    },
+    {
+      "id": "elevate-and-return",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Усилить — и вернуться к началу",
+          "body": "<p>Четвёртый шаг — повысить способность ограничения. Но как только оно перестаёт сдерживать систему, цикл возвращается к первому шагу.</p><p>Предупреждение Голдратта обращено к инерции: правила, полезные при прежнем ограничении, не должны сами стать следующим ограничением.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Elevate, then return",
+          "body": "<p>The fourth step is to elevate the constraint. Once it stops limiting the system, return to the first step.</p><p>Goldratt’s warning concerns inertia: rules that served the previous constraint must not themselves become the next constraint.</p>"
+        }
+      }
+    },
+    {
+      "id": "drum-buffer-rope",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Ритм, защита и запуск",
+          "body": "<p>В производственном применении расписание ограничения становится «барабаном». «Буфер» защищает его от неопределённости. «Верёвка» связывает с этим расписанием запуск работы.</p><p>Так решения остальных участков перестают сводиться к требованию производить как можно больше: их работа согласуется с тем, что система должна завершить.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Pace, protection and release",
+          "body": "<p>In the production application, the constraint’s schedule becomes the drum. A buffer protects it against uncertainty. The rope ties work release to that schedule.</p><p>Other departments therefore receive a different instruction from producing as much as possible: coordinate with what the system must finish.</p>"
+        }
+      }
+    },
+    {
+      "id": "project-dependencies",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "В проекте мешает и очередь за человеком",
+          "body": "<p>В проекте одной последовательности задач недостаточно. Работы могут быть формально независимыми, но требовать один и тот же занятый ресурс. Критическая цепь учитывает обе зависимости.</p><p>В профессиональном изложении Gray, Felan и двух Umble эта цепь определяет длительность проекта с учётом конкуренции за ресурсы.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "A project also queues for people",
+          "body": "<p>Task sequence alone does not determine a project schedule. Activities can appear independent while requiring the same unavailable resource. The critical chain includes both dependencies.</p><p>In the professional exposition by Gray, Felan and the two Umbles, this chain determines project duration while accounting for resource contention.</p>"
+        }
+      }
+    },
+    {
+      "id": "shared-protection",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Защищать завершение проекта",
+          "body": "<p>Критическая цепь переносит часть страховки из отдельных задач в общую защиту. Проектный буфер ставится после критической цепи, чтобы защищать дату завершения. Питающие буферы защищают места, где другие ветки входят в неё.</p><p>Смысл в защите общего результата, а не в независимом запасе на каждом локальном обещании.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Protecting project completion",
+          "body": "<p>Critical Chain moves part of the safety out of individual activities into shared protection. A project buffer follows the critical chain to protect the completion date. Feeding buffers protect the points where other paths join it.</p><p>The purpose is to protect overall completion rather than pad each local promise independently.</p>"
+        }
+      }
+    },
+    {
+      "id": "beyond-the-machine",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Когда станок уже не ограничивает",
+          "body": "<p>В своём очерке Голдратт описывает следующий тупик: производство улучшилось, но продажи не выросли. Ограничение переместилось за пределы цеха, а прежних средств оказалось мало.</p><p>Теперь требовалось находить ошибочные правила, строить замену без новых разрушительных последствий и добиваться реального внедрения.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "When the machine no longer limits",
+          "body": "<p>Goldratt’s essay describes the next impasse: production improved without sales increasing. The constraint moved beyond the shop floor, where the existing tools were insufficient.</p><p>He now needed ways to identify erroneous policies, replace them without destructive side effects and make the change happen.</p>"
+        }
+      }
+    },
+    {
+      "id": "its-not-luck-place",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "«Дело не в везении» расширяет вопрос",
+          "body": "<p>Этот поиск Голдратт связывает с «Дело не в везении». В корпус входят продажи, маркетинг, дистрибуция и конфликты между людьми.</p><p>Thinking Processes должны объяснять, что менять, какое решение построить и как провести изменение. Речь уже не только о том, какой станок работает медленнее остальных.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "It’s Not Luck broadens the question",
+          "body": "<p>Goldratt connects that search with It’s Not Luck. The corpus expands into sales, marketing, distribution and conflict between people.</p><p>Thinking Processes address what to change, what solution to build and how to implement it. The question has outgrown identifying the slowest machine.</p>"
+        }
+      }
+    },
+    {
+      "id": "choice-conversation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Дочь просит объяснить мышление",
+          "body": "<p>В «Выборе» собеседницей Голдратта становится его дочь Эфрат, психолог и соавтор книги. Ей недостаточно услышать правильный ответ на деловую задачу: она хочет понять, как отец к нему пришёл.</p><p>Их разговор возвращается к отчёту о компании одежды, названной BigBrand.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "His daughter asks about thinking",
+          "body": "<p>In The Choice, Goldratt’s daughter Efrat, a psychologist and the book’s coauthor, becomes his interlocutor. A correct answer to a business problem is not enough for her: she wants to understand how he arrived at it.</p><p>Their conversation returns to a report about an apparel company called BigBrand.</p>"
+        }
+      }
+    },
+    {
+      "id": "bigbrand-shelves",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Успешная компания с пустыми полками",
+          "body": "<p>BigBrand прибыльна и рассчитывает серьёзно вырасти. Но Голдратт предлагает начать не с привычного сокращения расходов, а с товаров, которых нет в продаже.</p><p>Менеджеры оценивают дефицит примерно в тридцать процентов позиций. Они полагают, что потеря продаж меньше: покупатель ведь может выбрать замену.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "A successful company with empty shelves",
+          "body": "<p>BigBrand is profitable and expects substantial growth. Goldratt starts with something other than familiar cost-cutting: products missing from sale.</p><p>Managers estimate that roughly thirty percent of listed items are unavailable. They think lost sales must be lower, since customers can buy substitutes.</p>"
+        }
+      }
+    },
+    {
+      "id": "missing-best-sellers",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Исчезает не случайная треть",
+          "body": "<p>Голдратт спрашивает, какие товары исчезают первыми. Именно те, спрос на которые превысил прогноз. Значит, отсутствующие позиции могут представлять непропорционально большую долю спроса.</p><p>Кроме того, товар, закончившийся на центральном складе, вообще убирают из списка доступного магазинам. Часть потерь перестаёт попадать даже в привычную оценку дефицита.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "The missing third is not random",
+          "body": "<p>Goldratt asks which products disappear first. Those whose demand exceeded forecasts. Missing items can therefore represent a disproportionately large share of demand.</p><p>Items exhausted at the central warehouse are also removed from the list available to stores. Some lost demand vanishes from the company’s usual shortage measure altogether.</p>"
+        }
+      }
+    },
+    {
+      "id": "both-short-and-overstocked",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Дефицит соседствует с распродажей",
+          "body": "<p>Одних товаров не хватает, другие приходится распродавать с большими скидками. Для Голдратта это две стороны одного решения: объём на весь сезон выбирают заранее, когда спрос по отдельным моделям ещё неизвестен.</p><p>Отсюда конфликт: заказать больше, чтобы избежать дефицита, или меньше, чтобы не остаться с излишками.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Shortage coexists with clearance",
+          "body": "<p>Some products are unavailable while others require deep clearance discounts. For Goldratt these are two consequences of one decision: choosing the whole season’s quantity before demand for individual styles is known.</p><p>The resulting conflict is to order more against shortages or less against surplus.</p>"
+        }
+      }
+    },
+    {
+      "id": "change-the-response",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Узнать спрос и успеть ответить",
+          "body": "<p>Его предложение меняет саму предпосылку. Начать сезон с меньшего запаса, увидеть продажи первых недель и пополнять востребованные позиции небольшими партиями. Быстроходные товары можно везти самолётом, медленные — морем.</p><p>Дорогая доставка оценивается относительно возвращённых продаж. Для этого нужны короткий отклик поставщиков и договорённость о меньших партиях.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Learn demand and respond in time",
+          "body": "<p>His proposal changes the premise. Begin with less stock, observe sales in the opening weeks and replenish wanted items in smaller batches. Fast sellers could travel by air, slower items by sea.</p><p>Expensive freight is assessed against recovered sales. The plan requires responsive suppliers and agreement on smaller batches.</p>"
+        }
+      }
+    },
+    {
+      "id": "sold-to-whom",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Отгрузка ещё не завершает продажу",
+          "body": "<p>Затем Голдратт проводит границу иначе: работа цепи не окончена, пока товар не купил конечный потребитель.</p><p>У магазина собственная ловушка. Он закупает большие партии ради цены, а затем отдаёт лучшие места залежавшемуся товару, который страшно списывать. Ходовым вещам достаётся меньше внимания, хотя покупатель ищет именно их.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Shipping does not finish the sale",
+          "body": "<p>Goldratt then redraws the boundary: the supply chain’s job is unfinished until the final consumer buys.</p><p>The retailer has its own trap. Large orders secure a discount, then slow stock receives prime display space because the shop fears writing it off. Wanted products receive less attention even though customers seek them.</p>"
+        }
+      }
+    },
+    {
+      "id": "return-and-replenish",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Вернуть то, что не продаётся",
+          "body": "<p>Предложение принимать любой возврат сначала вызывает возмущение. Голдратт возвращается к нему после двух перемен: быстрого пополнения и цены, зависящей от общего объёма продаж продукции BigBrand в магазине, а не от размера отдельного заказа. Тогда магазины могли бы ежедневно заказывать проданное и держать меньше запаса.</p><p>Тогда возвраты будут меньше, а товар можно перераспределить туда, где он востребован. Меняются условия, делавшие исходное предложение неприемлемым.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Returning what does not sell",
+          "body": "<p>The proposal to accept any return initially provokes objections. Goldratt revisits it after two changes: rapid replenishment and pricing based on total BigBrand sales in a store rather than the size of each order. Stores could then reorder each day what they had sold and hold less stock.</p><p>Returns would then be smaller, and products could move to stores where they are wanted. The conditions that made the original offer unacceptable have changed.</p>"
+        }
+      }
+    },
+    {
+      "id": "collections-without-more-designs",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Новая коллекция без новых моделей",
+          "body": "<p>На этом отчёт не заканчивается. BigBrand производит гораздо больше моделей, чем помещается в отдельном магазине. Быстрое пополнение и возвраты позволили бы чаще менять видимый покупателю ассортимент, не разрабатывая столько же новых изделий.</p><p>Два сезона перестают означать лишь два обновления витрины. Возможность появляется как следствие уже предложенной системы.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "A new collection without new designs",
+          "body": "<p>The report goes further. BigBrand produces far more styles than any individual store carries. Rapid replenishment and returns could refresh what shoppers see without developing a corresponding number of new products.</p><p>Two seasons need no longer mean only two changes in the display. This possibility follows from the system already proposed.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-proposal-not-results",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Расчёт возможностей, не отчёт о внедрении",
+          "body": "<p>Разговор заканчивается гораздо более смелой оценкой возможной прибыли. Но в прочитанной главе это итог рассуждения менеджеров о предложенных изменениях.</p><p>Голдратт показывает, как раскрывает потенциал системы. Он не предъявляет здесь проверенный многолетний результат внедрения BigBrand. Подменить одно другим означало бы изменить его кейс.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "A possibility calculation, not implementation results",
+          "body": "<p>The discussion ends with a much more ambitious estimate of possible profit. In the chapter, however, this is the managers’ conclusion about proposed changes.</p><p>Goldratt is showing how he uncovers a system’s potential. He does not present verified multiyear implementation results for BigBrand here. Treating the proposal as those results would alter the case.</p>"
+        }
+      }
+    },
+    {
+      "id": "inherent-simplicity",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Простота — поиск общих причин",
+          "body": "<p>Эфрат просит объяснить, как убеждённость отца в присущей реальности простоте помогла ему увидеть всё это. Он начал с нежелательных результатов и искал немного причин, связывающих их.</p><p>Дефицит и излишки вывели его к общему конфликту, а тот — к предпосылке о заказе на основе заранее известного спроса.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Simplicity means looking for common causes",
+          "body": "<p>Efrat asks how her father’s belief in inherent simplicity helped him see all this. He began with undesirable effects and sought the few causes connecting them.</p><p>Shortages and surplus led to a shared conflict, then to the premise that ordering depended on knowing demand in advance.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-heights",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Две высоты одного здания",
+          "body": "<p>В «Выборе» Голдратт приводит пример двух способов измерить здание, дающих разную высоту. Усреднять ответы никто не станет: начнут проверять измерения и предпосылки.</p><p>Он предлагает так же упорно относиться к конфликтам. Эфрат возражает: люди действительно хотят разного. Его ответ — искать допущение, из-за которого необходимые потребности требуют несовместимых действий. Это его исходная убеждённость, а не доказанный закон любых отношений.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Two heights for one building",
+          "body": "<p>In The Choice, Goldratt imagines two methods giving different heights for one building. Nobody would average the answers; they would inspect measurements and assumptions.</p><p>He urges similar persistence with conflicts. Efrat objects that people really want different things. His answer is to seek the assumption making necessary needs require incompatible actions. This is his starting conviction, not a demonstrated law of every relationship.</p>"
+        }
+      }
+    },
+    {
+      "id": "handbook-corpus",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Корпус продолжается другими авторами",
+          "body": "<p>Handbook собирает дальнейшие применения ТОС под редакцией James F. Cox III и John G. Schleier Jr. Вводную главу пишет Голдратт, но проектные и другие прикладные главы принадлежат разным авторам.</p><p>Это важно для самой истории корпуса: общая идея фокусировки разрастается в профессиональные методы, и каждое техническое утверждение имеет собственного автора и область применения.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "The corpus continues with other authors",
+          "body": "<p>The Handbook collects further TOC applications, edited by James F. Cox III and John G. Schleier Jr. Goldratt writes its opening chapter; project-management and other application chapters have different authors.</p><p>That distinction matters to the corpus itself: a focusing idea grows into professional methods, each technical claim carrying its own authorship and scope.</p>"
+        }
+      }
+    },
+    {
+      "id": "emotions-intuition-logic",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Эфрат замечает недостающее",
+          "body": "<p>Под конец «Выбора» Эфрат тревожит кажущаяся холодность отцовской логики. Где в его подходе эмоции?</p><p>Голдратт отвечает, что логика не работает сама по себе. Интуиция подсказывает гипотезы и связи; она сильнее там, где человеку небезразличен результат. Эмоции, интуиция и логика поддерживают друг друга. Его метод не требует сначала стать бесчувственным.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Efrat notices something missing",
+          "body": "<p>Near the end of The Choice, Efrat worries about the apparent coldness of her father’s logic. Where are the emotions?</p><p>Goldratt answers that logic does not operate alone. Intuition supplies hypotheses and connections; it is stronger where the outcome matters to us. Emotion, intuition and logic support one another. His method does not require becoming unfeeling first.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Оптимизм с высокой ценой",
+          "body": "<p>Эфрат видит в этом поразительно оптимистический взгляд: положение можно улучшить, конфликт не обязательно заканчивать потерей одной стороны. Отец напоминает об оборотной стороне такой позиции.</p><p>Если продолжать искать решение, уже труднее объявить людей плохими, обстоятельства непреодолимыми, а жалобу — окончательным объяснением. Для него полноценная жизнь требует ответственности; лёгкой жизни он не обещает.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Optimism at a demanding price",
+          "body": "<p>Efrat sees a strikingly optimistic outlook: situations can improve, and conflict need not end with one side losing. Her father points to the demanding reverse side.</p><p>Continuing to seek a solution makes it harder to dismiss people as bad, circumstances as insurmountable or complaint as a final explanation. For him a full life requires responsibility; he does not promise an easy one.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

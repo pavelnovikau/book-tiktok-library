@@ -3,232 +3,1048 @@
   "discovery": {
     "version": 1,
     "types": [
-      {"id": "fiction", "label": {"ru": "Художественное", "en": "Fiction"}},
-      {"id": "nonfiction", "label": {"ru": "Нон-фикшн", "en": "Nonfiction"}, "aliases": ["non-fiction", "non fiction", "нонфикшн", "документальная проза"]}
+      {
+        "id": "fiction",
+        "label": {
+          "ru": "Художественное",
+          "en": "Fiction"
+        }
+      },
+      {
+        "id": "nonfiction",
+        "label": {
+          "ru": "Нон-фикшн",
+          "en": "Nonfiction"
+        },
+        "aliases": [
+          "non-fiction",
+          "non fiction",
+          "нонфикшн",
+          "документальная проза"
+        ]
+      }
     ],
     "genres": [
-      {"id": "science-fiction", "label": {"ru": "Фантастика", "en": "Science fiction"}, "aliases": ["sci-fi", "scifi", "научная фантастика"]},
-      {"id": "fantasy", "label": {"ru": "Фэнтези", "en": "Fantasy"}, "aliases": ["фентези"]},
-      {"id": "adventure", "label": {"ru": "Приключения", "en": "Adventure"}},
-      {"id": "life-people", "label": {"ru": "О жизни и людях", "en": "Life and people"}, "aliases": ["литературная проза", "literary fiction"]}
+      {
+        "id": "science-fiction",
+        "label": {
+          "ru": "Фантастика",
+          "en": "Science fiction"
+        },
+        "aliases": [
+          "sci-fi",
+          "scifi",
+          "научная фантастика"
+        ]
+      },
+      {
+        "id": "fantasy",
+        "label": {
+          "ru": "Фэнтези",
+          "en": "Fantasy"
+        },
+        "aliases": [
+          "фентези"
+        ]
+      },
+      {
+        "id": "adventure",
+        "label": {
+          "ru": "Приключения",
+          "en": "Adventure"
+        }
+      },
+      {
+        "id": "life-people",
+        "label": {
+          "ru": "О жизни и людях",
+          "en": "Life and people"
+        },
+        "aliases": [
+          "литературная проза",
+          "literary fiction"
+        ]
+      }
     ],
     "subjects": [
-      {"id": "thinking-decisions", "label": {"ru": "Мышление и решения", "en": "Thinking and decisions"}},
-      {"id": "psychology-relationships", "label": {"ru": "Психология и отношения", "en": "Psychology and relationships"}},
-      {"id": "philosophy-meaning", "label": {"ru": "Философия и смысл", "en": "Philosophy and meaning"}},
-      {"id": "time-habits", "label": {"ru": "Время и привычки", "en": "Time and habits"}},
-      {"id": "health-body", "label": {"ru": "Здоровье и тело", "en": "Health and body"}},
-      {"id": "systems-society", "label": {"ru": "Системы и общество", "en": "Systems and society"}},
-      {"id": "history-power", "label": {"ru": "История и власть", "en": "History and power"}},
-      {"id": "technology-future", "label": {"ru": "Технологии и будущее", "en": "Technology and future"}}
+      {
+        "id": "thinking-decisions",
+        "label": {
+          "ru": "Мышление и решения",
+          "en": "Thinking and decisions"
+        }
+      },
+      {
+        "id": "psychology-relationships",
+        "label": {
+          "ru": "Психология и отношения",
+          "en": "Psychology and relationships"
+        }
+      },
+      {
+        "id": "philosophy-meaning",
+        "label": {
+          "ru": "Философия и смысл",
+          "en": "Philosophy and meaning"
+        }
+      },
+      {
+        "id": "time-habits",
+        "label": {
+          "ru": "Время и привычки",
+          "en": "Time and habits"
+        }
+      },
+      {
+        "id": "health-body",
+        "label": {
+          "ru": "Здоровье и тело",
+          "en": "Health and body"
+        }
+      },
+      {
+        "id": "systems-society",
+        "label": {
+          "ru": "Системы и общество",
+          "en": "Systems and society"
+        }
+      },
+      {
+        "id": "history-power",
+        "label": {
+          "ru": "История и власть",
+          "en": "History and power"
+        }
+      },
+      {
+        "id": "technology-future",
+        "label": {
+          "ru": "Технологии и будущее",
+          "en": "Technology and future"
+        }
+      }
     ],
     "topics": [
-      {"id": "environment", "label": {"ru": "Среда", "en": "Environment"}},
-      {"id": "identity", "label": {"ru": "Идентичность", "en": "Identity"}},
-      {"id": "acceptance", "label": {"ru": "Принятие", "en": "Acceptance"}},
-      {"id": "adventure", "label": {"ru": "Приключения", "en": "Adventure"}},
-      {"id": "agents", "label": {"ru": "Агенты", "en": "Agents"}},
-      {"id": "ai", "label": {"ru": "Искусственный интеллект", "en": "Artificial intelligence"}, "aliases": ["ИИ"]},
-      {"id": "asymmetry", "label": {"ru": "Асимметрия", "en": "Asymmetry"}},
-      {"id": "attention", "label": {"ru": "Внимание", "en": "Attention"}},
-      {"id": "behavior", "label": {"ru": "Поведение", "en": "Behavior"}, "aliases": ["behaviour"]},
-      {"id": "biology", "label": {"ru": "Биология", "en": "Biology"}},
-      {"id": "body-awareness", "label": {"ru": "Чувство тела", "en": "Body awareness"}},
-      {"id": "care", "label": {"ru": "Забота", "en": "Care"}},
-      {"id": "causality", "label": {"ru": "Причинность", "en": "Causality"}},
-      {"id": "coming-of-age", "label": {"ru": "Взросление", "en": "Coming of age"}},
-      {"id": "conflict", "label": {"ru": "Конфликт", "en": "Conflict"}},
-      {"id": "control", "label": {"ru": "Контроль", "en": "Control"}},
-      {"id": "coping", "label": {"ru": "Преодоление стресса", "en": "Coping"}},
-      {"id": "courage", "label": {"ru": "Смелость", "en": "Courage"}},
-      {"id": "crisis", "label": {"ru": "Кризис", "en": "Crisis"}},
-      {"id": "decision-making", "label": {"ru": "Принятие решений", "en": "Decision making"}},
-      {"id": "economics", "label": {"ru": "Экономика", "en": "Economics"}},
-      {"id": "ego", "label": {"ru": "Эго", "en": "Ego"}},
-      {"id": "emotions", "label": {"ru": "Эмоции", "en": "Emotions"}},
-      {"id": "essentialism", "label": {"ru": "Эссенциализм", "en": "Essentialism"}},
-      {"id": "ethics", "label": {"ru": "Этика", "en": "Ethics"}},
-      {"id": "evidence", "label": {"ru": "Доказательства", "en": "Evidence"}},
-      {"id": "exercise", "label": {"ru": "Физическая активность", "en": "Exercise"}, "aliases": ["тренировки"]},
-      {"id": "exploration", "label": {"ru": "Исследования и открытия", "en": "Exploration"}},
-      {"id": "fantasy", "label": {"ru": "Фэнтези", "en": "Fantasy"}, "aliases": ["фентези"]},
-      {"id": "finance", "label": {"ru": "Финансы", "en": "Finance"}},
-      {"id": "finitude", "label": {"ru": "Конечность жизни", "en": "Finitude"}},
-      {"id": "flow", "label": {"ru": "Поток", "en": "Flow"}},
-      {"id": "focus", "label": {"ru": "Сосредоточенность", "en": "Focus"}},
-      {"id": "free-will", "label": {"ru": "Свобода воли", "en": "Free will"}},
-      {"id": "future", "label": {"ru": "Будущее", "en": "Future"}},
-      {"id": "habits", "label": {"ru": "Привычки", "en": "Habits"}},
-      {"id": "health", "label": {"ru": "Здоровье", "en": "Health"}},
-      {"id": "history", "label": {"ru": "История", "en": "History"}},
-      {"id": "home", "label": {"ru": "Дом", "en": "Home"}},
-      {"id": "leadership", "label": {"ru": "Лидерство", "en": "Leadership"}},
-      {"id": "learning", "label": {"ru": "Обучение", "en": "Learning"}},
-      {"id": "management", "label": {"ru": "Управление", "en": "Management"}, "aliases": ["менеджмент"]},
-      {"id": "meaning", "label": {"ru": "Смысл", "en": "Meaning"}},
-      {"id": "meditation", "label": {"ru": "Медитация", "en": "Meditation"}},
-      {"id": "memory", "label": {"ru": "Память", "en": "Memory"}},
-      {"id": "mindfulness", "label": {"ru": "Осознанность", "en": "Mindfulness"}},
-      {"id": "movement", "label": {"ru": "Движение", "en": "Movement"}},
-      {"id": "neuroscience", "label": {"ru": "Нейронаука", "en": "Neuroscience"}, "aliases": ["нейробиология"]},
-      {"id": "nutrition", "label": {"ru": "Питание", "en": "Nutrition"}},
-      {"id": "open-models", "label": {"ru": "Открытые модели", "en": "Open models"}},
-      {"id": "operations", "label": {"ru": "Организация работы", "en": "Operations"}},
-      {"id": "optionality", "label": {"ru": "Возможность выбора", "en": "Optionality"}},
-      {"id": "perfectionism", "label": {"ru": "Перфекционизм", "en": "Perfectionism"}},
-      {"id": "philosophy", "label": {"ru": "Философия", "en": "Philosophy"}},
-      {"id": "physiology", "label": {"ru": "Физиология", "en": "Physiology"}},
-      {"id": "pirates", "label": {"ru": "Пираты", "en": "Pirates"}},
-      {"id": "power", "label": {"ru": "Власть", "en": "Power"}},
-      {"id": "practice", "label": {"ru": "Практика", "en": "Practice"}},
-      {"id": "priorities", "label": {"ru": "Приоритеты", "en": "Priorities"}},
-      {"id": "psychology", "label": {"ru": "Психология", "en": "Psychology"}},
-      {"id": "ptsd", "label": {"ru": "Посттравматическое расстройство", "en": "Post-traumatic stress disorder"}, "aliases": ["ПТСР"]},
-      {"id": "quality", "label": {"ru": "Качество", "en": "Quality"}},
-      {"id": "responsibility", "label": {"ru": "Ответственность", "en": "Responsibility"}},
-      {"id": "risk", "label": {"ru": "Риск", "en": "Risk"}},
-      {"id": "road-journey", "label": {"ru": "Путешествие", "en": "Road journey"}},
-      {"id": "science-fiction", "label": {"ru": "Фантастика", "en": "Science fiction"}, "aliases": ["sci-fi", "научная фантастика"]},
-      {"id": "selfhood", "label": {"ru": "Личность", "en": "Selfhood"}},
-      {"id": "singularity", "label": {"ru": "Сингулярность", "en": "Singularity"}},
-      {"id": "sleep", "label": {"ru": "Сон", "en": "Sleep"}},
-      {"id": "social-media", "label": {"ru": "Социальные сети", "en": "Social media"}, "aliases": ["соцсети"]},
-      {"id": "somatics", "label": {"ru": "Соматика", "en": "Somatics"}},
-      {"id": "stoicism", "label": {"ru": "Стоицизм", "en": "Stoicism"}, "aliases": ["стоики", "stoic"]},
-      {"id": "strategy", "label": {"ru": "Стратегия", "en": "Strategy"}},
-      {"id": "stress", "label": {"ru": "Стресс", "en": "Stress"}},
-      {"id": "systems", "label": {"ru": "Системы", "en": "Systems"}},
-      {"id": "time-management", "label": {"ru": "Управление временем", "en": "Time management"}, "aliases": ["тайм-менеджмент"]},
-      {"id": "tranquility", "label": {"ru": "Спокойствие", "en": "Tranquility"}},
-      {"id": "trauma", "label": {"ru": "Психологическая травма", "en": "Trauma"}},
-      {"id": "treatment-evidence", "label": {"ru": "Доказательность лечения", "en": "Treatment evidence"}},
-      {"id": "trust", "label": {"ru": "Доверие", "en": "Trust"}},
-      {"id": "uncertainty", "label": {"ru": "Неопределённость", "en": "Uncertainty"}}
+      {
+        "id": "environment",
+        "label": {
+          "ru": "Среда",
+          "en": "Environment"
+        }
+      },
+      {
+        "id": "identity",
+        "label": {
+          "ru": "Идентичность",
+          "en": "Identity"
+        }
+      },
+      {
+        "id": "acceptance",
+        "label": {
+          "ru": "Принятие",
+          "en": "Acceptance"
+        }
+      },
+      {
+        "id": "adventure",
+        "label": {
+          "ru": "Приключения",
+          "en": "Adventure"
+        }
+      },
+      {
+        "id": "agents",
+        "label": {
+          "ru": "Агенты",
+          "en": "Agents"
+        }
+      },
+      {
+        "id": "ai",
+        "label": {
+          "ru": "Искусственный интеллект",
+          "en": "Artificial intelligence"
+        },
+        "aliases": [
+          "ИИ"
+        ]
+      },
+      {
+        "id": "asymmetry",
+        "label": {
+          "ru": "Асимметрия",
+          "en": "Asymmetry"
+        }
+      },
+      {
+        "id": "attention",
+        "label": {
+          "ru": "Внимание",
+          "en": "Attention"
+        }
+      },
+      {
+        "id": "behavior",
+        "label": {
+          "ru": "Поведение",
+          "en": "Behavior"
+        },
+        "aliases": [
+          "behaviour"
+        ]
+      },
+      {
+        "id": "biology",
+        "label": {
+          "ru": "Биология",
+          "en": "Biology"
+        }
+      },
+      {
+        "id": "body-awareness",
+        "label": {
+          "ru": "Чувство тела",
+          "en": "Body awareness"
+        }
+      },
+      {
+        "id": "care",
+        "label": {
+          "ru": "Забота",
+          "en": "Care"
+        }
+      },
+      {
+        "id": "causality",
+        "label": {
+          "ru": "Причинность",
+          "en": "Causality"
+        }
+      },
+      {
+        "id": "coming-of-age",
+        "label": {
+          "ru": "Взросление",
+          "en": "Coming of age"
+        }
+      },
+      {
+        "id": "conflict",
+        "label": {
+          "ru": "Конфликт",
+          "en": "Conflict"
+        }
+      },
+      {
+        "id": "control",
+        "label": {
+          "ru": "Контроль",
+          "en": "Control"
+        }
+      },
+      {
+        "id": "coping",
+        "label": {
+          "ru": "Преодоление стресса",
+          "en": "Coping"
+        }
+      },
+      {
+        "id": "courage",
+        "label": {
+          "ru": "Смелость",
+          "en": "Courage"
+        }
+      },
+      {
+        "id": "crisis",
+        "label": {
+          "ru": "Кризис",
+          "en": "Crisis"
+        }
+      },
+      {
+        "id": "decision-making",
+        "label": {
+          "ru": "Принятие решений",
+          "en": "Decision making"
+        }
+      },
+      {
+        "id": "economics",
+        "label": {
+          "ru": "Экономика",
+          "en": "Economics"
+        }
+      },
+      {
+        "id": "ego",
+        "label": {
+          "ru": "Эго",
+          "en": "Ego"
+        }
+      },
+      {
+        "id": "emotions",
+        "label": {
+          "ru": "Эмоции",
+          "en": "Emotions"
+        }
+      },
+      {
+        "id": "essentialism",
+        "label": {
+          "ru": "Эссенциализм",
+          "en": "Essentialism"
+        }
+      },
+      {
+        "id": "ethics",
+        "label": {
+          "ru": "Этика",
+          "en": "Ethics"
+        }
+      },
+      {
+        "id": "evidence",
+        "label": {
+          "ru": "Доказательства",
+          "en": "Evidence"
+        }
+      },
+      {
+        "id": "exercise",
+        "label": {
+          "ru": "Физическая активность",
+          "en": "Exercise"
+        },
+        "aliases": [
+          "тренировки"
+        ]
+      },
+      {
+        "id": "exploration",
+        "label": {
+          "ru": "Исследования и открытия",
+          "en": "Exploration"
+        }
+      },
+      {
+        "id": "fantasy",
+        "label": {
+          "ru": "Фэнтези",
+          "en": "Fantasy"
+        },
+        "aliases": [
+          "фентези"
+        ]
+      },
+      {
+        "id": "finance",
+        "label": {
+          "ru": "Финансы",
+          "en": "Finance"
+        }
+      },
+      {
+        "id": "finitude",
+        "label": {
+          "ru": "Конечность жизни",
+          "en": "Finitude"
+        }
+      },
+      {
+        "id": "flow",
+        "label": {
+          "ru": "Поток",
+          "en": "Flow"
+        }
+      },
+      {
+        "id": "focus",
+        "label": {
+          "ru": "Сосредоточенность",
+          "en": "Focus"
+        }
+      },
+      {
+        "id": "free-will",
+        "label": {
+          "ru": "Свобода воли",
+          "en": "Free will"
+        }
+      },
+      {
+        "id": "future",
+        "label": {
+          "ru": "Будущее",
+          "en": "Future"
+        }
+      },
+      {
+        "id": "habits",
+        "label": {
+          "ru": "Привычки",
+          "en": "Habits"
+        }
+      },
+      {
+        "id": "health",
+        "label": {
+          "ru": "Здоровье",
+          "en": "Health"
+        }
+      },
+      {
+        "id": "history",
+        "label": {
+          "ru": "История",
+          "en": "History"
+        }
+      },
+      {
+        "id": "home",
+        "label": {
+          "ru": "Дом",
+          "en": "Home"
+        }
+      },
+      {
+        "id": "leadership",
+        "label": {
+          "ru": "Лидерство",
+          "en": "Leadership"
+        }
+      },
+      {
+        "id": "learning",
+        "label": {
+          "ru": "Обучение",
+          "en": "Learning"
+        }
+      },
+      {
+        "id": "management",
+        "label": {
+          "ru": "Управление",
+          "en": "Management"
+        },
+        "aliases": [
+          "менеджмент"
+        ]
+      },
+      {
+        "id": "meaning",
+        "label": {
+          "ru": "Смысл",
+          "en": "Meaning"
+        }
+      },
+      {
+        "id": "meditation",
+        "label": {
+          "ru": "Медитация",
+          "en": "Meditation"
+        }
+      },
+      {
+        "id": "memory",
+        "label": {
+          "ru": "Память",
+          "en": "Memory"
+        }
+      },
+      {
+        "id": "mindfulness",
+        "label": {
+          "ru": "Осознанность",
+          "en": "Mindfulness"
+        }
+      },
+      {
+        "id": "movement",
+        "label": {
+          "ru": "Движение",
+          "en": "Movement"
+        }
+      },
+      {
+        "id": "neuroscience",
+        "label": {
+          "ru": "Нейронаука",
+          "en": "Neuroscience"
+        },
+        "aliases": [
+          "нейробиология"
+        ]
+      },
+      {
+        "id": "nutrition",
+        "label": {
+          "ru": "Питание",
+          "en": "Nutrition"
+        }
+      },
+      {
+        "id": "open-models",
+        "label": {
+          "ru": "Открытые модели",
+          "en": "Open models"
+        }
+      },
+      {
+        "id": "operations",
+        "label": {
+          "ru": "Организация работы",
+          "en": "Operations"
+        }
+      },
+      {
+        "id": "optionality",
+        "label": {
+          "ru": "Возможность выбора",
+          "en": "Optionality"
+        }
+      },
+      {
+        "id": "perfectionism",
+        "label": {
+          "ru": "Перфекционизм",
+          "en": "Perfectionism"
+        }
+      },
+      {
+        "id": "philosophy",
+        "label": {
+          "ru": "Философия",
+          "en": "Philosophy"
+        }
+      },
+      {
+        "id": "physiology",
+        "label": {
+          "ru": "Физиология",
+          "en": "Physiology"
+        }
+      },
+      {
+        "id": "pirates",
+        "label": {
+          "ru": "Пираты",
+          "en": "Pirates"
+        }
+      },
+      {
+        "id": "power",
+        "label": {
+          "ru": "Власть",
+          "en": "Power"
+        }
+      },
+      {
+        "id": "practice",
+        "label": {
+          "ru": "Практика",
+          "en": "Practice"
+        }
+      },
+      {
+        "id": "priorities",
+        "label": {
+          "ru": "Приоритеты",
+          "en": "Priorities"
+        }
+      },
+      {
+        "id": "psychology",
+        "label": {
+          "ru": "Психология",
+          "en": "Psychology"
+        }
+      },
+      {
+        "id": "ptsd",
+        "label": {
+          "ru": "Посттравматическое расстройство",
+          "en": "Post-traumatic stress disorder"
+        },
+        "aliases": [
+          "ПТСР"
+        ]
+      },
+      {
+        "id": "quality",
+        "label": {
+          "ru": "Качество",
+          "en": "Quality"
+        }
+      },
+      {
+        "id": "responsibility",
+        "label": {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        }
+      },
+      {
+        "id": "risk",
+        "label": {
+          "ru": "Риск",
+          "en": "Risk"
+        }
+      },
+      {
+        "id": "road-journey",
+        "label": {
+          "ru": "Путешествие",
+          "en": "Road journey"
+        }
+      },
+      {
+        "id": "science-fiction",
+        "label": {
+          "ru": "Фантастика",
+          "en": "Science fiction"
+        },
+        "aliases": [
+          "sci-fi",
+          "научная фантастика"
+        ]
+      },
+      {
+        "id": "selfhood",
+        "label": {
+          "ru": "Личность",
+          "en": "Selfhood"
+        }
+      },
+      {
+        "id": "singularity",
+        "label": {
+          "ru": "Сингулярность",
+          "en": "Singularity"
+        }
+      },
+      {
+        "id": "sleep",
+        "label": {
+          "ru": "Сон",
+          "en": "Sleep"
+        }
+      },
+      {
+        "id": "social-media",
+        "label": {
+          "ru": "Социальные сети",
+          "en": "Social media"
+        },
+        "aliases": [
+          "соцсети"
+        ]
+      },
+      {
+        "id": "somatics",
+        "label": {
+          "ru": "Соматика",
+          "en": "Somatics"
+        }
+      },
+      {
+        "id": "stoicism",
+        "label": {
+          "ru": "Стоицизм",
+          "en": "Stoicism"
+        },
+        "aliases": [
+          "стоики",
+          "stoic"
+        ]
+      },
+      {
+        "id": "strategy",
+        "label": {
+          "ru": "Стратегия",
+          "en": "Strategy"
+        }
+      },
+      {
+        "id": "stress",
+        "label": {
+          "ru": "Стресс",
+          "en": "Stress"
+        }
+      },
+      {
+        "id": "systems",
+        "label": {
+          "ru": "Системы",
+          "en": "Systems"
+        }
+      },
+      {
+        "id": "time-management",
+        "label": {
+          "ru": "Управление временем",
+          "en": "Time management"
+        },
+        "aliases": [
+          "тайм-менеджмент"
+        ]
+      },
+      {
+        "id": "tranquility",
+        "label": {
+          "ru": "Спокойствие",
+          "en": "Tranquility"
+        }
+      },
+      {
+        "id": "trauma",
+        "label": {
+          "ru": "Психологическая травма",
+          "en": "Trauma"
+        }
+      },
+      {
+        "id": "treatment-evidence",
+        "label": {
+          "ru": "Доказательность лечения",
+          "en": "Treatment evidence"
+        }
+      },
+      {
+        "id": "trust",
+        "label": {
+          "ru": "Доверие",
+          "en": "Trust"
+        }
+      },
+      {
+        "id": "uncertainty",
+        "label": {
+          "ru": "Неопределённость",
+          "en": "Uncertainty"
+        }
+      }
     ],
-    "legacySections": {"risk-decisions": {"type": "nonfiction", "topic": "thinking-decisions"}, "systems-work": {"type": "nonfiction", "topic": "systems-society"}, "human-behavior": {"type": "nonfiction", "topic": "psychology-relationships"}, "consciousness-calm": {"type": "nonfiction", "topic": "philosophy-meaning"}, "health-protocols": {"type": "nonfiction", "topic": "health-body"}, "history-power-strategy": {"type": "nonfiction", "topic": "history-power"}, "technology-future": {"type": "nonfiction", "topic": "technology-future"}, "fiction-adventure": {"type": "fiction"}},
-    "legacyCollections": {"for-son": {"type": "fiction"}, "taleb": {"query": "Taleb"}, "sapolsky": {"query": "Sapolsky"}, "practices": {"type": "nonfiction"}, "unassigned": {}}
+    "legacySections": {
+      "risk-decisions": {
+        "type": "nonfiction",
+        "topic": "thinking-decisions"
+      },
+      "systems-work": {
+        "type": "nonfiction",
+        "topic": "systems-society"
+      },
+      "human-behavior": {
+        "type": "nonfiction",
+        "topic": "psychology-relationships"
+      },
+      "consciousness-calm": {
+        "type": "nonfiction",
+        "topic": "philosophy-meaning"
+      },
+      "health-protocols": {
+        "type": "nonfiction",
+        "topic": "health-body"
+      },
+      "history-power-strategy": {
+        "type": "nonfiction",
+        "topic": "history-power"
+      },
+      "technology-future": {
+        "type": "nonfiction",
+        "topic": "technology-future"
+      },
+      "fiction-adventure": {
+        "type": "fiction"
+      }
+    },
+    "legacyCollections": {
+      "for-son": {
+        "type": "fiction"
+      },
+      "taleb": {
+        "query": "Taleb"
+      },
+      "sapolsky": {
+        "query": "Sapolsky"
+      },
+      "practices": {
+        "type": "nonfiction"
+      },
+      "unassigned": {}
+    }
   },
   "sections": [
     {
       "id": "risk-decisions",
-      "label": { "ru": "Риск и решения", "en": "Risk and decisions" },
-      "description": { "ru": "Неопределённость, асимметрия и цена выбора.", "en": "Uncertainty, asymmetry and the price of choice." }
+      "label": {
+        "ru": "Риск и решения",
+        "en": "Risk and decisions"
+      },
+      "description": {
+        "ru": "Неопределённость, асимметрия и цена выбора.",
+        "en": "Uncertainty, asymmetry and the price of choice."
+      }
     },
     {
       "id": "systems-work",
-      "label": { "ru": "Системы и работа", "en": "Systems and work" },
-      "description": { "ru": "Поток, ограничения, внимание и способы работать лучше.", "en": "Flow, constraints, attention and better ways to work." }
+      "label": {
+        "ru": "Системы и работа",
+        "en": "Systems and work"
+      },
+      "description": {
+        "ru": "Поток, ограничения, внимание и способы работать лучше.",
+        "en": "Flow, constraints, attention and better ways to work."
+      }
     },
     {
       "id": "human-behavior",
-      "label": { "ru": "Человек и поведение", "en": "Human and behavior" },
-      "description": { "ru": "Биология, культура и механизмы наших поступков.", "en": "Biology, culture and the mechanisms behind our actions." }
+      "label": {
+        "ru": "Человек и поведение",
+        "en": "Human and behavior"
+      },
+      "description": {
+        "ru": "Биология, культура и механизмы наших поступков.",
+        "en": "Biology, culture and the mechanisms behind our actions."
+      }
     },
     {
       "id": "consciousness-calm",
-      "label": { "ru": "Сознание и спокойствие", "en": "Consciousness and calm" },
-      "description": { "ru": "Внимание, эго, медитация и внутренняя устойчивость.", "en": "Attention, ego, meditation and inner steadiness." }
+      "label": {
+        "ru": "Сознание и спокойствие",
+        "en": "Consciousness and calm"
+      },
+      "description": {
+        "ru": "Внимание, эго, медитация и внутренняя устойчивость.",
+        "en": "Attention, ego, meditation and inner steadiness."
+      }
     },
     {
       "id": "health-protocols",
-      "label": { "ru": "Здоровье и протоколы", "en": "Health and protocols" },
-      "description": { "ru": "Физиология, стресс и практики с границами доказательности.", "en": "Physiology, stress and practices with explicit evidence limits." }
+      "label": {
+        "ru": "Здоровье и протоколы",
+        "en": "Health and protocols"
+      },
+      "description": {
+        "ru": "Физиология, стресс и практики с границами доказательности.",
+        "en": "Physiology, stress and practices with explicit evidence limits."
+      }
     },
     {
       "id": "history-power-strategy",
-      "label": { "ru": "История, власть и стратегия", "en": "History, power and strategy" },
-      "description": { "ru": "Как кризисы, институты и стратегия меняют мир.", "en": "How crises, institutions and strategy change the world." }
+      "label": {
+        "ru": "История, власть и стратегия",
+        "en": "History, power and strategy"
+      },
+      "description": {
+        "ru": "Как кризисы, институты и стратегия меняют мир.",
+        "en": "How crises, institutions and strategy change the world."
+      }
     },
     {
       "id": "technology-future",
-      "label": { "ru": "Технологии и будущее", "en": "Technology and future" },
-      "description": { "ru": "AI, агенты и новые экономические системы.", "en": "AI, agents and emerging economic systems." }
+      "label": {
+        "ru": "Технологии и будущее",
+        "en": "Technology and future"
+      },
+      "description": {
+        "ru": "AI, агенты и новые экономические системы.",
+        "en": "AI, agents and emerging economic systems."
+      }
     },
     {
       "id": "fiction-adventure",
-      "label": { "ru": "Фантастика и приключения", "en": "Fiction and adventure" },
-      "description": { "ru": "Миры, путешествия и идеи, которые лучше прожить как историю.", "en": "Worlds, journeys and ideas best experienced as stories." }
+      "label": {
+        "ru": "Фантастика и приключения",
+        "en": "Fiction and adventure"
+      },
+      "description": {
+        "ru": "Миры, путешествия и идеи, которые лучше прожить как историю.",
+        "en": "Worlds, journeys and ideas best experienced as stories."
+      }
     }
   ],
   "collections": [
-    { "id": "for-son", "label": { "ru": "Сыну · 14+", "en": "For my son · 14+" } },
-    { "id": "taleb", "label": { "ru": "Талеб", "en": "Taleb" } },
-    { "id": "sapolsky", "label": { "ru": "Сапольски", "en": "Sapolsky" } },
-    { "id": "practices", "label": { "ru": "Практики", "en": "Practices" } }
+    {
+      "id": "for-son",
+      "label": {
+        "ru": "Сыну · 14+",
+        "en": "For my son · 14+"
+      }
+    },
+    {
+      "id": "taleb",
+      "label": {
+        "ru": "Талеб",
+        "en": "Taleb"
+      }
+    },
+    {
+      "id": "sapolsky",
+      "label": {
+        "ru": "Сапольски",
+        "en": "Sapolsky"
+      }
+    },
+    {
+      "id": "practices",
+      "label": {
+        "ru": "Практики",
+        "en": "Practices"
+      }
+    }
   ],
   "books": [
     {
       "slug": "skin-in-the-game",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["thinking-decisions", "systems-society", "philosophy-meaning"],
+      "subjects": [
+        "thinking-decisions",
+        "systems-society",
+        "philosophy-meaning"
+      ],
       "file": "skin-in-the-game.html",
       "section": "risk-decisions",
-      "tags": ["risk", "asymmetry", "ethics", "decision-making"],
-      "collections": ["taleb"],
+      "tags": [
+        "risk",
+        "asymmetry",
+        "ethics",
+        "decision-making"
+      ],
+      "collections": [
+        "taleb"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 53,
-      "title": { "ru": "Рискуя собственной шкурой", "en": "Skin in the Game" },
-      "author": { "ru": "Нассим Николас Талеб", "en": "Nassim Nicholas Taleb" },
+      "title": {
+        "ru": "Рискуя собственной шкурой",
+        "en": "Skin in the Game"
+      },
+      "author": {
+        "ru": "Нассим Николас Талеб",
+        "en": "Nassim Nicholas Taleb"
+      },
       "description": {
         "ru": "Нассим Николас Талеб: почему последствия нельзя отделить от решений — от банковских премий и кошерного лимонада до свободы, веры и выживания.",
         "en": "Nassim Nicholas Taleb on keeping consequences tied to decisions—from banking bonuses and kosher lemonade to freedom, belief and survival."
       },
-      "readingMinutes": { "essential": 5, "core": 10, "deep": 14 },
-      "cover": { "type": "typographic", "motif": "balance", "tone": "red" }
+      "readingMinutes": {
+        "essential": 5,
+        "core": 10,
+        "deep": 14
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "balance",
+        "tone": "red"
+      }
     },
     {
       "slug": "1873",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["history-power", "systems-society"],
+      "subjects": [
+        "history-power",
+        "systems-society"
+      ],
       "file": "1873.html",
       "section": "history-power-strategy",
-      "tags": ["history", "economics", "finance", "crisis"],
+      "tags": [
+        "history",
+        "economics",
+        "finance",
+        "crisis"
+      ],
       "collections": [],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
-      "screenCount": 57,
-      "title": { "ru": "1873", "en": "1873" },
-      "author": { "ru": "Лиакват Ахамед", "en": "Liaquat Ahamed" },
-      "description": {
-        "ru": "Как железные дороги, дешёвый кредит, дефляция и крах в Вене запустили первый по-настоящему мировой экономический кризис — и собрали современный мир.",
-        "en": "How railways, cheap credit, deflation and the crash in Vienna triggered the first truly global economic crisis — and assembled the modern world."
+      "screenCount": 21,
+      "title": {
+        "ru": "1873 · Лиакват Ахамед",
+        "en": "1873 · Liaquat Ahamed"
       },
-      "readingMinutes": { "essential": 9, "core": 20, "deep": 30 },
+      "author": {
+        "ru": "Лиакват Ахамед",
+        "en": "Liaquat Ahamed"
+      },
+      "description": {
+        "ru": "Связанный мир, долговой подъём и долгая политическая тень кризиса.",
+        "en": "A connected world, a debt boom and the crisis’s long political shadow."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 6
+      },
       "cover": {
         "type": "year",
         "motif": "crash",
         "tone": "yellow",
         "mark": "1873",
-        "label": { "ru": "Первая великая депрессия", "en": "The first great depression" }
+        "label": {
+          "ru": "Первая великая депрессия",
+          "en": "The first great depression"
+        }
       }
     },
     {
       "slug": "theory-of-constraints",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["systems-society", "thinking-decisions"],
+      "subjects": [
+        "systems-society",
+        "thinking-decisions"
+      ],
       "file": "theory-of-constraints.html",
       "section": "systems-work",
-      "tags": ["management", "operations", "systems", "flow"],
-      "collections": ["practices"],
+      "tags": [
+        "management",
+        "operations",
+        "systems",
+        "flow"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
-      "screenCount": 96,
-      "title": { "ru": "Теория ограничений", "en": "Theory of Constraints" },
-      "author": { "ru": "Элияху Голдратт · корпус TOC", "en": "Eliyahu Goldratt · the TOC corpus" },
-      "description": {
-        "ru": "Как найти одно ограничение системы, подчинить ему поток, перестать оптимизировать локальные показатели и превратить улучшение в непрерывный процесс.",
-        "en": "How to find the system’s one constraint, subordinate the flow to it, stop optimising local metrics and turn improvement into a continuous process."
+      "screenCount": 26,
+      "title": {
+        "ru": "Теория ограничений · корпус Голдратта",
+        "en": "Theory of Constraints · the Goldratt corpus"
       },
-      "readingMinutes": { "essential": 12, "core": 30, "deep": 55 },
+      "author": {
+        "ru": "Элияху Голдратт · корпус TOC",
+        "en": "Eliyahu Goldratt · the TOC corpus"
+      },
+      "description": {
+        "ru": "Проверенные аргументы и примеры из корпуса: ограничения, поток, BigBrand и «Выбор».",
+        "en": "Verified arguments and examples from the corpus: constraints, flow, BigBrand and The Choice."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 8
+      },
       "cover": {
         "type": "constraint",
         "motif": "bottleneck",
         "tone": "cyan",
-        "label": { "ru": "Поток важнее занятости", "en": "Flow beats busyness" }
+        "label": {
+          "ru": "Ограничения, поток и «Выбор»",
+          "en": "Constraints, flow and The Choice"
+        }
       }
     },
     {
@@ -282,24 +1098,50 @@
     },
     {
       "slug": "essentialism",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["time-habits", "thinking-decisions"],
+      "subjects": [
+        "time-habits",
+        "thinking-decisions"
+      ],
       "file": "essentialism.html",
       "section": "systems-work",
-      "tags": ["essentialism", "priorities", "attention", "management"],
-      "collections": ["practices"],
+      "tags": [
+        "essentialism",
+        "priorities",
+        "attention",
+        "management"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 36,
-      "title": { "ru": "Эссенциализм", "en": "Essentialism" },
-      "author": { "ru": "Грег МакКеон", "en": "Greg McKeown" },
+      "title": {
+        "ru": "Эссенциализм",
+        "en": "Essentialism"
+      },
+      "author": {
+        "ru": "Грег МакКеон",
+        "en": "Greg McKeown"
+      },
       "description": {
         "ru": "Выбрать существенное, отказаться от конкурирующих дел и облегчить выполнение.",
         "en": "Choose what matters, remove competing commitments, and make execution easier."
       },
-      "readingMinutes": { "essential": 5, "core": 8, "deep": 10 },
-      "cover": { "type": "typographic", "motif": "distill", "tone": "green" }
+      "readingMinutes": {
+        "essential": 5,
+        "core": 8,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "distill",
+        "tone": "green"
+      }
     },
     {
       "slug": "make-time",
@@ -349,45 +1191,95 @@
     },
     {
       "slug": "four-thousand-weeks",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["time-habits", "philosophy-meaning"],
+      "subjects": [
+        "time-habits",
+        "philosophy-meaning"
+      ],
       "file": "four-thousand-weeks.html",
       "section": "systems-work",
-      "tags": ["finitude", "time-management", "attention", "meaning"],
-      "collections": ["practices"],
+      "tags": [
+        "finitude",
+        "time-management",
+        "attention",
+        "meaning"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 52,
-      "title": { "ru": "Четыре тысячи недель", "en": "Four Thousand Weeks" },
-      "author": { "ru": "Оливер Беркман", "en": "Oliver Burkeman" },
+      "title": {
+        "ru": "Четыре тысячи недель",
+        "en": "Four Thousand Weeks"
+      },
+      "author": {
+        "ru": "Оливер Беркман",
+        "en": "Oliver Burkeman"
+      },
       "description": {
         "ru": "Конечность, выбор, внимание, отдых и время с другими — без обещания успеть всё.",
         "en": "Finitude, choice, attention, leisure and time with others—without a promise to do everything."
       },
-      "readingMinutes": { "essential": 6, "core": 10, "deep": 15 },
-      "cover": { "type": "typographic", "motif": "weeks", "tone": "blue" }
+      "readingMinutes": {
+        "essential": 6,
+        "core": 10,
+        "deep": 15
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "weeks",
+        "tone": "blue"
+      }
     },
     {
       "slug": "selfie",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["psychology-relationships", "systems-society"],
+      "subjects": [
+        "psychology-relationships",
+        "systems-society"
+      ],
       "file": "selfie.html",
       "section": "human-behavior",
-      "tags": ["selfhood", "perfectionism", "psychology", "social-media"],
+      "tags": [
+        "selfhood",
+        "perfectionism",
+        "psychology",
+        "social-media"
+      ],
       "collections": [],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 62,
-      "title": { "ru": "Селфи", "en": "Selfie" },
-      "author": { "ru": "Уилл Сторр", "en": "Will Storr" },
+      "title": {
+        "ru": "Селфи",
+        "en": "Selfie"
+      },
+      "author": {
+        "ru": "Уилл Сторр",
+        "en": "Will Storr"
+      },
       "description": {
         "ru": "Как культурная история стала требованием к собственному «я».",
         "en": "How cultural history became a demand made on the self."
       },
-      "readingMinutes": { "essential": 8, "core": 11, "deep": 16 },
-      "cover": { "type": "typographic", "motif": "mirror", "tone": "magenta" }
+      "readingMinutes": {
+        "essential": 8,
+        "core": 11,
+        "deep": 16
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "mirror",
+        "tone": "magenta"
+      }
     },
     {
       "slug": "why-zebras-dont-get-ulcers",
@@ -530,45 +1422,97 @@
     },
     {
       "slug": "the-body-keeps-the-score",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["health-body", "psychology-relationships"],
+      "subjects": [
+        "health-body",
+        "psychology-relationships"
+      ],
       "file": "the-body-keeps-the-score.html",
       "section": "health-protocols",
-      "tags": ["trauma", "ptsd", "memory", "treatment-evidence"],
-      "collections": ["practices"],
+      "tags": [
+        "trauma",
+        "ptsd",
+        "memory",
+        "treatment-evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "adult",
       "spoilerPolicy": "not-applicable",
       "screenCount": 41,
-      "title": { "ru": "Тело помнит всё", "en": "The Body Keeps the Score" },
-      "author": { "ru": "Бессел ван дер Колк", "en": "Bessel van der Kolk" },
+      "title": {
+        "ru": "Тело помнит всё",
+        "en": "The Body Keeps the Score"
+      },
+      "author": {
+        "ru": "Бессел ван дер Колк",
+        "en": "Bessel van der Kolk"
+      },
       "description": {
         "ru": "Почему пережитая угроза остаётся в настоящем: клинические истории и поиск восстановления у Бессела ван дер Колка.",
         "en": "Why past threat remains present: Bessel van der Kolk’s clinical accounts and search for recovery."
       },
-      "readingMinutes": { "essential": 7, "core": 10, "deep": 12 },
-      "cover": { "type": "typographic", "motif": "somatic-trace", "tone": "magenta" }
+      "readingMinutes": {
+        "essential": 7,
+        "core": 10,
+        "deep": 12
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "somatic-trace",
+        "tone": "magenta"
+      }
     },
     {
       "slug": "a-guide-to-the-good-life",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["philosophy-meaning", "psychology-relationships"],
+      "subjects": [
+        "philosophy-meaning",
+        "psychology-relationships"
+      ],
       "file": "a-guide-to-the-good-life.html",
       "section": "consciousness-calm",
-      "tags": ["stoicism", "tranquility", "control", "practice"],
-      "collections": ["practices"],
+      "tags": [
+        "stoicism",
+        "tranquility",
+        "control",
+        "practice"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 36,
-      "title": { "ru": "Радость жизни", "en": "A Guide to the Good Life" },
-      "author": { "ru": "Уильям Б. Ирвин", "en": "William B. Irvine" },
+      "title": {
+        "ru": "Радость жизни",
+        "en": "A Guide to the Good Life"
+      },
+      "author": {
+        "ru": "Уильям Б. Ирвин",
+        "en": "William B. Irvine"
+      },
       "description": {
         "ru": "Практическое прочтение стоиков Уильямом Ирвином: желания, контроль, обязанности и радость, с его собственными доработками и сомнениями.",
         "en": "William Irvine’s practical reading of the Stoics: desire, control, duty, and joy, including his own adaptations and doubts."
       },
-      "readingMinutes": { "essential": 5, "core": 9, "deep": 10 },
-      "cover": { "type": "typographic", "motif": "control-field", "tone": "yellow" }
+      "readingMinutes": {
+        "essential": 5,
+        "core": 9,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "control-field",
+        "tone": "yellow"
+      }
     },
     {
       "slug": "letting-go",
@@ -619,66 +1563,144 @@
     },
     {
       "slug": "the-art-of-war",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["history-power", "thinking-decisions"],
+      "subjects": [
+        "history-power",
+        "thinking-decisions"
+      ],
       "file": "the-art-of-war.html",
       "section": "history-power-strategy",
-      "tags": ["strategy", "conflict", "leadership", "evidence"],
-      "collections": ["practices"],
+      "tags": [
+        "strategy",
+        "conflict",
+        "leadership",
+        "evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 36,
-      "title": { "ru": "Искусство войны", "en": "The Art of War" },
-      "author": { "ru": "Сунь-цзы", "en": "Sunzi" },
+      "title": {
+        "ru": "Искусство войны",
+        "en": "The Art of War"
+      },
+      "author": {
+        "ru": "Сунь-цзы",
+        "en": "Sunzi"
+      },
       "description": {
         "ru": "Тринадцать глав о расчёте, цене войны, положении войск и знании противника. Краткий последовательный пересказ трактата.",
         "en": "Thirteen chapters on assessment, war’s cost, military position, and knowledge of the enemy. A concise connected account of the treatise."
       },
-      "readingMinutes": { "essential": 4, "core": 8, "deep": 10 },
-      "cover": { "type": "typographic", "motif": "terrain", "tone": "red" }
+      "readingMinutes": {
+        "essential": 4,
+        "core": 8,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "terrain",
+        "tone": "red"
+      }
     },
     {
       "slug": "the-hobbit",
-      "workTypes": ["fiction"],
-      "genres": ["fantasy", "adventure"],
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
       "subjects": [],
       "file": "the-hobbit.html",
       "section": "fiction-adventure",
-      "tags": ["fantasy", "adventure", "courage", "home"],
-      "collections": ["for-son"],
+      "tags": [
+        "fantasy",
+        "adventure",
+        "courage",
+        "home"
+      ],
+      "collections": [
+        "for-son"
+      ],
       "audience": "teen-14-plus",
       "spoilerPolicy": "full-plot-in-deep",
       "screenCount": 144,
-      "title": { "ru": "Хоббит", "en": "The Hobbit" },
-      "author": { "ru": "Дж. Р. Р. Толкин", "en": "J. R. R. Tolkien" },
+      "title": {
+        "ru": "Хоббит",
+        "en": "The Hobbit"
+      },
+      "author": {
+        "ru": "Дж. Р. Р. Толкин",
+        "en": "J. R. R. Tolkien"
+      },
       "description": {
         "ru": "Как выйти за порог, научиться действовать без готового героического образа, возразить друзьям и вернуться домой, не сделав приключение культом силы.",
         "en": "How to cross the threshold, act without a ready-made heroic identity, disagree with friends and return home without turning adventure into a cult of strength."
       },
-      "readingMinutes": { "essential": 10, "core": 25, "deep": 39 },
-      "cover": { "type": "typographic", "motif": "door", "tone": "green" }
+      "readingMinutes": {
+        "essential": 10,
+        "core": 25,
+        "deep": 39
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "door",
+        "tone": "green"
+      }
     },
     {
       "slug": "a-wizard-of-earthsea",
-      "workTypes": ["fiction"],
-      "genres": ["fantasy", "adventure"],
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
       "subjects": [],
       "file": "a-wizard-of-earthsea.html",
       "section": "fiction-adventure",
-      "tags": ["fantasy", "coming-of-age", "power", "responsibility"],
-      "collections": ["for-son"],
+      "tags": [
+        "fantasy",
+        "coming-of-age",
+        "adventure",
+        "identity"
+      ],
+      "collections": [
+        "for-son"
+      ],
       "audience": "teen-14-plus",
       "spoilerPolicy": "full-plot-in-deep",
-      "screenCount": 144,
-      "title": { "ru": "Волшебник Земноморья", "en": "A Wizard of Earthsea" },
-      "author": { "ru": "Урсула К. Ле Гуин", "en": "Ursula K. Le Guin" },
-      "description": {
-        "ru": "Как дар, гордыня, точность имени, ответственность и дружба превращают обучение силе в путь к целостности. Финальная развязка открывается только в Deep.",
-        "en": "How gift, pride, precise naming, responsibility and friendship turn an education in power into a journey toward wholeness. The final resolution appears only in Deep."
+      "screenCount": 28,
+      "title": {
+        "ru": "Волшебник Земноморья",
+        "en": "A Wizard of Earthsea"
       },
-      "readingMinutes": { "essential": 10, "core": 25, "deep": 39 },
-      "cover": { "type": "typographic", "motif": "archipelago", "tone": "blue" }
+      "author": {
+        "ru": "Урсула К. Ле Гуин",
+        "en": "Ursula K. Le Guin"
+      },
+      "description": {
+        "ru": "Гед и тень: связный короткий пересказ первого романа. Разгадка только в Deep.",
+        "en": "Ged and the shadow: a concise connected retelling of the first novel. The answer is reserved for Deep."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 7,
+        "deep": 8
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "archipelago",
+        "tone": "blue"
+      }
     },
     {
       "slug": "treasure-island",
@@ -819,30 +1841,64 @@
     },
     {
       "slug": "mindfulness",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["psychology-relationships", "time-habits", "philosophy-meaning"],
+      "subjects": [
+        "psychology-relationships",
+        "time-habits",
+        "philosophy-meaning"
+      ],
       "file": "mindfulness.html",
       "section": "consciousness-calm",
-      "tags": ["mindfulness", "attention", "meditation", "practice"],
-      "collections": ["practices"],
+      "tags": [
+        "mindfulness",
+        "attention",
+        "meditation",
+        "practice"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
       "screenCount": 30,
-      "title": {"ru": "Осознанность", "en": "Mindfulness"},
-      "author": {"ru": "Марк Уильямс и Денни Пенман", "en": "Mark Williams & Danny Penman"},
+      "title": {
+        "ru": "Осознанность",
+        "en": "Mindfulness"
+      },
+      "author": {
+        "ru": "Марк Уильямс и Денни Пенман",
+        "en": "Mark Williams & Danny Penman"
+      },
       "description": {
         "ru": "Как выйти из круга автоматических реакций: объяснение Уильямса и Пенмана и последовательность восьми недель.",
         "en": "Williams and Penman’s account of automatic reactions and the sequence of eight weeks."
       },
-      "readingMinutes": { "essential": 4, "core": 8, "deep": 9 },
-      "cover": {"type": "typographic", "mark": "NOTICE / RETURN", "motif": "attention-return", "tone": "cyan"}
+      "readingMinutes": {
+        "essential": 4,
+        "core": 8,
+        "deep": 9
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "NOTICE / RETURN",
+        "motif": "attention-return",
+        "tone": "cyan"
+      }
     },
     {
       "slug": "behave",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["psychology-relationships", "health-body", "systems-society"],
+      "subjects": [
+        "psychology-relationships",
+        "health-body",
+        "systems-society"
+      ],
       "file": "behave.html",
       "section": "human-behavior",
       "tags": [
@@ -856,7 +1912,7 @@
       ],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
-      "screenCount": 144,
+      "screenCount": 22,
       "title": {
         "ru": "Биология добра и зла",
         "en": "Behave"
@@ -866,13 +1922,13 @@
         "en": "Robert Sapolsky"
       },
       "description": {
-        "ru": "Причинная история поступка — от нейронов за секунду до культуры и эволюции. Возможности и пределы биологических объяснений.",
-        "en": "The causal history of an act, from neurons a second earlier to culture and evolution. The power and limits of biological explanations."
+        "ru": "Сапольски: от одного поступка к истории его причин.",
+        "en": "Sapolsky: from one act to the history of its causes."
       },
       "readingMinutes": {
-        "essential": 11,
-        "core": 27,
-        "deep": 43
+        "essential": 3,
+        "core": 5,
+        "deep": 7
       },
       "cover": {
         "type": "typographic",
@@ -883,9 +1939,15 @@
     },
     {
       "slug": "determined",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["thinking-decisions", "philosophy-meaning", "psychology-relationships"],
+      "subjects": [
+        "thinking-decisions",
+        "philosophy-meaning",
+        "psychology-relationships"
+      ],
       "section": "human-behavior",
       "tags": [
         "free-will",
@@ -897,21 +1959,21 @@
         "sapolsky"
       ],
       "title": {
-        "ru": "Всё решено",
-        "en": "Determined"
+        "ru": "Determined · Роберт Сапольски",
+        "en": "Determined · Robert Sapolsky"
       },
       "author": {
         "ru": "Роберт Сапольски",
         "en": "Robert Sapolsky"
       },
       "description": {
-        "ru": "Что причинная история выбора означает для заслуг, вины и возможности меняться. Доказательства, философские выводы и возражения разобраны отдельно.",
-        "en": "What the causal history of choice means for merit, blame and change. Empirical evidence, philosophical inferences and objections stay distinct."
+        "ru": "Намерение, усилие, наказание и заслуга в доводе Сапольски.",
+        "en": "Intention, effort, punishment and desert in Sapolsky’s argument."
       },
       "readingMinutes": {
-        "essential": 11,
-        "core": 27,
-        "deep": 44
+        "essential": 3,
+        "core": 5,
+        "deep": 6
       },
       "cover": {
         "type": "typographic",
@@ -922,7 +1984,10 @@
       "file": "determined.html",
       "audience": "general",
       "spoilerPolicy": "not-applicable",
-      "screenCount": 144
+      "screenCount": 21,
+      "searchAliases": [
+        "Всё решено"
+      ]
     },
     {
       "slug": "zen-and-the-art-of-motorcycle-maintenance",
@@ -1313,21 +2378,50 @@
     },
     {
       "slug": "amphibian-man",
-      "workTypes": ["fiction"],
-      "genres": ["science-fiction", "adventure"],
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
       "subjects": [],
       "file": "amphibian-man.html",
       "section": "fiction-adventure",
-      "tags": ["science-fiction", "adventure", "home", "trust"],
-      "collections": ["for-son"],
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "home",
+        "trust"
+      ],
+      "collections": [
+        "for-son"
+      ],
       "audience": "teen-14-plus",
       "spoilerPolicy": "full-plot-in-deep",
       "screenCount": 35,
-      "title": { "ru": "Человек-амфибия", "en": "Amphibian Man" },
-      "author": { "ru": "Александр Беляев", "en": "Alexander Belyaev" },
-      "description": { "ru": "Тайный сад, подводный дом и первая любовь Ихтиандра. Сокращённая история; развязка только в Deep.", "en": "A secret garden, an underwater home and Ichthyander’s first love. A condensed story; resolution only in Deep." },
-      "readingMinutes": { "essential": 4, "core": 6, "deep": 10 },
-      "cover": { "type": "typographic", "motif": "sea-air", "tone": "cyan" }
+      "title": {
+        "ru": "Человек-амфибия",
+        "en": "Amphibian Man"
+      },
+      "author": {
+        "ru": "Александр Беляев",
+        "en": "Alexander Belyaev"
+      },
+      "description": {
+        "ru": "Тайный сад, подводный дом и первая любовь Ихтиандра. Сокращённая история; развязка только в Deep.",
+        "en": "A secret garden, an underwater home and Ichthyander’s first love. A condensed story; resolution only in Deep."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "sea-air",
+        "tone": "cyan"
+      }
     },
     {
       "slug": "monday-begins-on-saturday",
@@ -1685,6 +2779,326 @@
       "screenCount": 24,
       "readingMinutes": {
         "essential": 5,
+        "core": 8,
+        "deep": 10
+      }
+    },
+    {
+      "slug": "thinking-fast-and-slow",
+      "file": "thinking-fast-and-slow.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "psychology-relationships"
+      ],
+      "section": "risk-decisions",
+      "tags": [
+        "decision-making",
+        "uncertainty",
+        "risk",
+        "psychology"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Даниэль Канеман",
+        "en": "Daniel Kahneman"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "TWO FRAMES",
+        "motif": "dual-frame",
+        "tone": "yellow"
+      },
+      "title": {
+        "ru": "Думай медленно… Решай быстро",
+        "en": "Thinking, Fast and Slow"
+      },
+      "description": {
+        "ru": "Аргумент Даниэля Канемана о суждениях, неопределённости, выборе и двух способах оценивать прожитое.",
+        "en": "Daniel Kahneman’s argument about judgment, uncertainty, choice and two ways of evaluating experience."
+      },
+      "screenCount": 29,
+      "readingMinutes": {
+        "essential": 6,
+        "core": 10,
+        "deep": 13
+      }
+    },
+    {
+      "slug": "thinking-in-systems",
+      "file": "thinking-in-systems.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society"
+      ],
+      "section": "systems-work",
+      "tags": [
+        "systems",
+        "control",
+        "environment",
+        "learning"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Донелла Медоуз",
+        "en": "Donella Meadows"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "STOCK / FLOW",
+        "motif": "stock-flow",
+        "tone": "cyan"
+      },
+      "title": {
+        "ru": "Азбука системного мышления",
+        "en": "Thinking in Systems"
+      },
+      "description": {
+        "ru": "Аргумент Донеллы Медоуз о поведении систем и возможностях изменения без обещания полного контроля.",
+        "en": "Donella Meadows’s argument about system behavior and change without a promise of complete control."
+      },
+      "screenCount": 25,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 9,
+        "deep": 10
+      }
+    },
+    {
+      "slug": "project-hail-mary",
+      "file": "project-hail-mary.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "exploration",
+        "uncertainty"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Энди Вейр",
+        "en": "Andy Weir"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "UNKNOWN",
+        "motif": "two-orbits",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Проект «Аве Мария»",
+        "en": "Project Hail Mary"
+      },
+      "description": {
+        "ru": "Человек без памяти пытается понять, кто он и почему проснулся здесь. Начало без дальнейших открытий; полный сюжет только в Deep.",
+        "en": "A man without memory tries to discover who he is and why he woke here. Later discoveries and the complete plot are reserved for Deep."
+      },
+      "screenCount": 36,
+      "readingMinutes": {
+        "essential": 2,
+        "core": 4,
+        "deep": 9
+      }
+    },
+    {
+      "slug": "the-giver",
+      "file": "the-giver.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "life-people"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "memory",
+        "coming-of-age",
+        "control",
+        "care"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Лоис Лоури",
+        "en": "Lois Lowry"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "MEMORY",
+        "motif": "memory-spectrum",
+        "tone": "magenta"
+      },
+      "title": {
+        "ru": "Дающий",
+        "en": "The Giver"
+      },
+      "description": {
+        "ru": "Джонас получает необычное назначение и начинает узнавать мир, которого его община не помнит. Краткий рассказ по первому роману Лоис Лоури.",
+        "en": "An unusual Assignment leads Jonas into a world his community no longer remembers. A concise retelling of Lois Lowry’s first novel."
+      },
+      "screenCount": 27,
+      "readingMinutes": {
+        "essential": 3,
+        "core": 4,
+        "deep": 6
+      }
+    },
+    {
+      "slug": "governing-the-commons",
+      "file": "governing-the-commons.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "history-power"
+      ],
+      "section": "systems-work",
+      "tags": [
+        "systems",
+        "economics",
+        "environment",
+        "power"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Элинор Остром",
+        "en": "Elinor Ostrom"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "COMMONS",
+        "motif": "commons-rules",
+        "tone": "green"
+      },
+      "title": {
+        "ru": "Управляя общим",
+        "en": "Governing the Commons"
+      },
+      "description": {
+        "ru": "Элинор Остром: общие ресурсы, реальные институты самоуправления, их устойчивость и неудачи.",
+        "en": "Elinor Ostrom on common-pool resources, actual self-governing institutions, endurance and failure."
+      },
+      "screenCount": 33,
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 8
+      }
+    },
+    {
+      "slug": "the-structure-of-scientific-revolutions",
+      "file": "the-structure-of-scientific-revolutions.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "philosophy-meaning"
+      ],
+      "section": "risk-decisions",
+      "tags": [
+        "evidence",
+        "history",
+        "learning",
+        "uncertainty"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Томас С. Кун",
+        "en": "Thomas S. Kuhn"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "PARADIGM",
+        "motif": "paradigm-shift",
+        "tone": "blue"
+      },
+      "title": {
+        "ru": "Структура научных революций",
+        "en": "The Structure of Scientific Revolutions"
+      },
+      "description": {
+        "ru": "Аргумент Куна о нормальной науке, аномалиях, кризисе, несоизмеримости и прогрессе — с его историческими примерами и уточнениями послесловия 1969 года.",
+        "en": "Kuhn’s argument about normal science, anomaly, crisis, incommensurability and progress, with his historical cases and the qualifications of the 1969 postscript."
+      },
+      "screenCount": 35,
+      "readingMinutes": {
+        "essential": 6,
+        "core": 10,
+        "deep": 13
+      }
+    },
+    {
+      "slug": "seeing-like-a-state",
+      "file": "seeing-like-a-state.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "history-power"
+      ],
+      "section": "history-power-strategy",
+      "tags": [
+        "systems",
+        "power",
+        "control",
+        "history"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Джеймс К. Скотт",
+        "en": "James C. Scott"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "MAP / GROUND",
+        "motif": "legibility-grid",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Благими намерениями государства",
+        "en": "Seeing Like a State"
+      },
+      "description": {
+        "ru": "Лес, город и хозяйство в аргументе Скотта о читаемости, высоком модернизме и практическом знании.",
+        "en": "Forests, cities and farming in Scott’s argument about legibility, high modernism and practical knowledge."
+      },
+      "screenCount": 31,
+      "readingMinutes": {
+        "essential": 6,
         "core": 8,
         "deep": 10
       }

@@ -152,13 +152,14 @@ const bookFiles = new Set();
 const bookCoverMotifs = new Set();
 let totalScreens = 0;
 const allowedCoverTypes = new Set(['year', 'constraint', 'split', 'typographic']);
-const allowedCoverMotifs = new Set(['habit-cycle', 'balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response', 'latitude-search', 'conditioned-trust', 'rule-loop', 'testimony-compass', 'chalk-boundary', 'scale-question', 'sea-air', 'enchanted-lab', 'watchtower', 'river-raft', 'needs-bridge', 'five-disciplines', 'common-city', 'ice-crossing']);
+const allowedCoverMotifs = new Set(['habit-cycle', 'balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response', 'latitude-search', 'conditioned-trust', 'rule-loop', 'testimony-compass', 'chalk-boundary', 'scale-question', 'sea-air', 'enchanted-lab', 'watchtower', 'river-raft', 'needs-bridge', 'five-disciplines', 'common-city', 'ice-crossing', 'dual-frame', 'stock-flow', 'two-orbits', 'memory-spectrum', 'commons-rules', 'paradigm-shift', 'legibility-grid']);
 const allowedCoverTones = new Set(['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'magenta']);
 const allowedAudiences = new Set(['general', 'teen-14-plus', 'adult']);
 const allowedSpoilerPolicies = new Set(['not-applicable', 'spoiler-free', 'full-plot-in-deep']);
 
 for (const [index, book] of (catalogue?.books || []).entries()) {
   const label = `books[${index}]`;
+  if (book.searchAliases !== undefined && (!Array.isArray(book.searchAliases) || book.searchAliases.some(alias => typeof alias !== 'string' || !alias.trim() || alias.length > 80))) fail(`${label}.searchAliases must contain short non-empty strings`);
   if (!isObject(book)) {
     fail(`${label} must be an object`);
     continue;

@@ -1,0 +1,97 @@
+{
+  "slug": "1873",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/1873/story-data.json",
+      "sha256": "8d4f49824fd9513867f163f45f8eba6e0576905c637491e90be8924fd9f86c33"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/1873/1873.html",
+      "sha256": "d872c05d5a2248cd0ed0add77f17dfc162ef80d0ce215854589999be8091e934"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/1873/sources.md",
+      "sha256": "9473c791ba4b327d2c0a2c7deb1b4d5c36f06a1d4b993bb428dd3285457152cd"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/1873/QA.md",
+      "sha256": "9a962b0f5bf0c30987f9b61ddfa75bcdc1e6cf3fe34cf6386c897eb619939ccf"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/1873-sol-rescue.md",
+      "sha256": "35dabdea67f2a5c48d36a7cd8e67bb1b3611fc39773243b2ebcc3b104c086ab1"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/1873.md",
+      "sha256": "c794d0ba1e418faa54e2cb8000c4fcfc04140a88fe012e693f32a6f21bce769b"
+    }
+  ],
+  "counts": {
+    "essential": 10,
+    "core": 17,
+    "deep": 21
+  },
+  "contentMode": "explanatory",
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/1873-sol-rescue.md",
+  "sourceScope": "Complete available official opening sample, Ahamed’s specific 1873 interview answers, narrow Cooke and 1871–1873 monetary chronology checks. Full 2026 book/later chapters/RU translation not read.",
+  "exactChanges": [
+    "Created clean maintained collector from actual opening scenes and author-supported causal history",
+    "Removed unverified financial figures, rigid chronology, invented motive/modern advice and generic lessons",
+    "Exact targetModes 10/17/21; preserved parent-owned root fixes"
+  ],
+  "unresolvedIssues": [
+    "Independent content check pending",
+    "Legacy custom-root storage/progress migration is publisher-owned",
+    "Full chapter/translation fidelity and physical iPhone/production not certified"
+  ],
+  "verification": {
+    "structure": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/sol-evidence-rescue/1873-structure.txt",
+    "browser": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/sol-evidence-rescue/1873-browser.json",
+    "independentEditorialReview": "pending",
+    "publication": "not performed by worker"
+  },
+  "parentCorrections": {
+    "findings": [
+      "1873-SR-01",
+      "1873-SR-02"
+    ],
+    "changedScreens": [
+      "gold-transition",
+      "egypt"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/1873-meaning-fix-closure.json"
+  },
+  "checks": {
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/1873/1873.html",
+      "format": "v2",
+      "bytes": 285061,
+      "screenCount": 21,
+      "levels": {
+        "1": 10,
+        "2": 7,
+        "3": 4
+      },
+      "modes": {
+        "essential": 10,
+        "core": 17,
+        "deep": 21
+      },
+      "words": {
+        "ru": 1043,
+        "en": 1104
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 128,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-ostrom-earthsea-toc-history-browser.json"
+    }
+  }
+}

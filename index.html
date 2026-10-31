@@ -1052,7 +1052,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
             .concat(discovery.subjects.filter(function (item) { return book.subjects.includes(item.id); }))
             .concat(discovery.topics.filter(function (item) { return (book.tags || []).includes(item.id); }));
           var values = [book.title.ru, book.title.en, book.author.ru, book.author.en,
-            book.description.ru, book.description.en, (book.tags || []).join(' '),
+            book.description.ru, book.description.en, (book.tags || []).join(' '), (book.searchAliases || []).join(' '),
             book.workTypeLabel && book.workTypeLabel.ru, book.workTypeLabel && book.workTypeLabel.en];
           terms.forEach(function (item) { values.push(item.label.ru, item.label.en, item.id, (item.aliases || []).join(' ')); });
           searchIndex.set(book.slug, normalize(values.join(' ')));
@@ -1111,7 +1111,24 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       }
 
       function matchesQuery(book) {
-        var terms = normalize(state.query).split(' ').filter(Boolean);
+        var query = normalize(state.query);
+        // A complete book title or retained title alias selects that work.
+        var named = catalog.books.filter(function (candidate) {
+          return [candidate.title.ru, candidate.title.en].concat(candidate.searchAliases || []).some(function (title) { return normalize(title) === query; });
+        });
+        if (query && named.length) return named.some(function (candidate) { return candidate.slug === book.slug; });
+        // A complete controlled term names its category, even if its words also
+        // occur separately in a title and the 'non fiction' type alias.
+        var exact = [];
+        [['types', 'workTypes'], ['genres', 'genres'], ['subjects', 'subjects'], ['topics', 'tags']].forEach(function (group) {
+          (discovery[group[0]] || []).forEach(function (item) {
+            if ([item.id, item.label.ru, item.label.en].concat(item.aliases || []).some(function (label) { return normalize(label) === query; })) {
+              exact.push((book[group[1]] || []).includes(item.id));
+            }
+          });
+        });
+        if (query && exact.length) return exact.some(Boolean);
+        var terms = query.split(' ').filter(Boolean);
         var words = (searchIndex.get(book.slug) || '').split(' ');
         return terms.every(function (term) {
           return words.some(function (word) { return term.length <= 2 ? word === term : word.indexOf(term) === 0; });
@@ -1126,7 +1143,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { 'habit-cycle': true, balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true, watchtower: true, 'river-raft': true, 'needs-bridge': true, 'five-disciplines': true, 'common-city': true, 'ice-crossing': true };
+      var coverMotifs = { 'habit-cycle': true, balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true, watchtower: true, 'river-raft': true, 'needs-bridge': true, 'five-disciplines': true, 'common-city': true, 'ice-crossing': true, 'dual-frame': true, 'stock-flow': true, 'two-orbits': true, 'memory-spectrum': true, 'commons-rules': true, 'paradigm-shift': true, 'legibility-grid': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -1147,6 +1164,27 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           content = '<path class="art-quiet" d="M136 135 H168 V122 H200 V103 H232 V78 H264 V45 H296"/>' +
             '<path class="art-bold" d="M180 54 H239 Q270 54 270 85 V105 Q270 129 244 129 H182 Q153 129 153 101 V82 Q153 54 180 54 M232 43 L244 54 L232 65"/>' +
             '<path class="art-line" d="M176 47 H190 V61 H176 Z M263 78 H277 V92 H263 Z M232 122 H246 V136 H232 Z M146 91 H160 V105 H146 Z"/>';
+        } else if (motif === 'dual-frame') {
+          // Equivalent branching outcomes placed inside two different frames.
+          content = '<path class="art-quiet" d="M132 43 H205 V139 H132 Z M229 43 H302 V139 H229 Z"/><path class="art-bold" d="M150 69 H189 M246 69 H285"/><path class="art-line" d="M169 69 V92 L150 117 M169 92 L188 117 M266 69 V92 L247 117 M266 92 L285 117 M150 117 H157 M181 117 H188 M247 117 H254 M278 117 H285"/>';
+        } else if (motif === 'stock-flow') {
+          // A stock accumulates between an incoming flow and an outgoing valve.
+          content = '<path class="art-quiet" d="M176 50 V139 H257 V50 M176 104 H257 M176 115 H257 M176 126 H257"/><path class="art-bold" d="M127 61 H215 V86 M205 76 L215 86 L225 76 M258 118 H302"/><path class="art-line" d="M281 102 V134 M271 108 L290 127 M290 108 L271 127 M292 110 L302 118 L292 126"/>';
+        } else if (motif === 'two-orbits') {
+          // Two separated orbital routes, an unresolved journey without a plot reveal.
+          content = '<ellipse class="art-quiet" cx="178" cy="90" rx="50" ry="31" transform="rotate(-35 178 90)"/><ellipse class="art-line" cx="258" cy="90" rx="50" ry="31" transform="rotate(35 258 90)"/><path class="art-bold" d="M168 100 L210 55 M222 124 L268 80 M210 55 L208 69 M210 55 L197 58"/><circle class="art-fill" cx="168" cy="100" r="6"/><circle class="art-fill" cx="268" cy="80" r="6"/>';
+        } else if (motif === 'memory-spectrum') {
+          // An ordered field opens to distinct remembered layers.
+          content = '<path class="art-quiet" d="M130 53 H208 M130 76 H208 M130 99 H208 M130 122 H208 M150 43 V137 M176 43 V137 M202 43 V137"/><path class="art-line" d="M224 53 C250 53 245 35 298 35 M224 76 C253 76 263 61 298 61 M224 99 C252 99 266 112 298 112 M224 122 C256 122 252 144 298 144"/><path class="art-bold" d="M216 39 V142"/>';
+        } else if (motif === 'commons-rules') {
+          // Several users share a bounded resource through explicit negotiated connections.
+          content = '<path class="art-quiet" d="M178 57 H254 L278 95 L254 133 H178 L154 95 Z M178 57 L178 133 M254 57 V133 M154 95 H278"/><path class="art-bold" d="M194 78 H238 V112 H194 Z"/><path class="art-line" d="M136 52 L159 68 M296 52 L273 68 M136 138 L159 122 M296 138 L273 122"/><circle class="art-fill" cx="136" cy="52" r="5"/><circle class="art-fill" cx="296" cy="52" r="5"/><circle class="art-fill" cx="136" cy="138" r="5"/><circle class="art-fill" cx="296" cy="138" r="5"/>';
+        } else if (motif === 'paradigm-shift') {
+          // A puzzle grid breaks and is reassembled under different relations.
+          content = '<path class="art-quiet" d="M129 51 H195 V117 H129 Z M151 51 V117 M173 51 V117 M129 73 H195 M129 95 H195"/><path class="art-line" d="M239 51 L305 76 L280 142 L214 117 Z M261 59 L236 125 M283 68 L258 133 M230 73 L296 98 M222 95 L288 120"/><path class="art-bold" d="M183 132 L211 143 L218 126 M205 39 L228 48 L222 64"/>';
+        } else if (motif === 'legibility-grid') {
+          // A rigid administrative map overlays a less uniform inhabited landscape.
+          content = '<path class="art-quiet" d="M130 140 C151 119 139 70 173 52 S226 69 249 44 M153 145 C179 126 182 85 210 88 S271 109 301 69 M136 91 C170 100 219 47 299 128"/><path class="art-line" d="M172 36 H292 V140 H172 Z M202 36 V140 M232 36 V140 M262 36 V140 M172 62 H292 M172 88 H292 M172 114 H292"/><path class="art-bold" d="M202 62 H232 V88 H202 Z"/>';
         } else if (motif === 'common-city') {
           // A common city links distinct lives through shared reason and just action.
           content = '<path class="art-quiet" d="M130 145 H302 M145 145 V104 H174 V145 M198 145 V90 H229 V145 M256 145 V104 H285 V145 M137 104 L159 85 L181 104 M190 90 L214 70 L237 90 M248 104 L270 85 L293 104"/>' +

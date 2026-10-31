@@ -1,0 +1,407 @@
+{
+  "slug": "seeing-like-a-state",
+  "status": "ready-for-independent-check",
+  "workType": "approved-new",
+  "verdict": "BUILD",
+  "book": {
+    "author": "James C. Scott",
+    "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+    "publisher": "Yale University Press",
+    "year": 1998,
+    "language": "English original",
+    "russianShelfTitle": "Благими намерениями государства"
+  },
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 17,
+    "core": 25,
+    "deep": 31
+  },
+  "counts": {
+    "essential": 17,
+    "core": 25,
+    "deep": 31
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential"
+  },
+  "sourceCount": 7,
+  "reportPath": "editorial-audit/2026-10-31/books/seeing-like-a-state-sol-implementation.md",
+  "reportCanonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/seeing-like-a-state-sol-implementation.md",
+  "reportSha256": "843db21b098ba4e6348870e9d2086c82716232bcab7beaa7707bfbcb89006e72",
+  "reviewedPairs": {
+    "uniqueOldPairs": 0,
+    "newAuthoringSelfRead": 31,
+    "newEmbeddedComparedAndTraversed": 31,
+    "independentReviewPairs": 0,
+    "nestedSequencesSelfChecked": [
+      "essential",
+      "core",
+      "deep"
+    ]
+  },
+  "sourceScope": "Source-supported central argument of the 1998 work from substantial actual chapter excerpts: chapter 1 forestry/cadastral selections, chapter 4 planning/Brasilia/Jacobs selections, chapter 9 pp. 309–341 through OCR, plus Scott high-modernism excerpts and the four-condition Introduction passage quoted by Zhou and checked against Yale. This is not continuous full-book reading or exhaustive chapter coverage. Retained Soviet/Tanzanian details stay within Scott’s own chapter-9 recap. Later work is explicitly excluded. See sources.md for exact reading boundaries and screen-to-passage map.",
+  "sourceReadingBoundaries": {
+    "targetEdition": "James C. Scott, Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed, Yale University Press, original English work, 1998; no official Russian edition consulted; no complete-printing collation",
+    "ownedSearch": "Read-only title/author filename and EPUB title/creator metadata search, including expanded packages: 216 OPF records inspected, zero matching packages; no unrelated names disclosed or library files changed",
+    "chapter1": "Actual institutional book scan, selected printed pp. 11–15, 18–23, 34–37 read through OCR; pp. 16–17 not claimed",
+    "chapter4": "Actual institutional book scan: title page and selected pp. 102–103, 112–130, 132–139 read through OCR; not continuous whole-chapter reading",
+    "chapter9": "Actual chapter text pp. 309–341 OCR-read across 17 institutional-scan pages; primary basis for informal order, short Soviet/Tanzanian recap, metis and qualifications",
+    "highModernism": "Scott author excerpts reproduced by Schumacher Center; editorial preface and suspect clause separated; chapter 9 checks the qualification",
+    "fourConditions": "Yale official description plus Scott Introduction pp. 4–5 as directly quoted on p. 297 of Xueguang Zhou 2012; full Introduction not read; Zhou cases not imported",
+    "lateMaterial": "2010 Cato/Theory Talk inspected only in discovery, no retained claims depend on them; no 2009 Art of Not Being Governed or 2017 Against the Grain case imported",
+    "notClaimed": "No continuous full-book reading, exhaustive chapter coverage, official translation certification, independent historical/ecological replication or whole-edition fidelity certification",
+    "rights": "No full source PDF, scan or raw OCR is stored in this collector/public repo; no unofficial full-book retrieval, access bypass, purchase, loan, credential or subscription change",
+    "retainedArgumentGapsIdentifiedByWorker": []
+  },
+  "changes": [
+    "Created the approved new collector package, with 31 original RU/EN pairs; no previous collector/root corpus existed for this slug",
+    "Wrote connected prose in both languages first and segmented it afterwards; final exact nested counts 17/25/31 include cover and final",
+    "Route self-reading corrected an initial 15/25/31 split: promoted existing first-rotation and mat-isa paragraphs to Essential so initial forestry success and Mat Isa’s later qualification are intelligible in every route; no screens or text added",
+    "Retained legibility/simplification, representation becoming intervention, high modernism, all four combined failure conditions, real forestry/planning/agricultural cases and metis",
+    "Separated Costa/Niemeyer’s actual Brasilia roles from Le Corbusier’s influence; retained planning’s humane aspirations, informal life, adaptable/unequal practical knowledge and Scott’s non-blanket critique",
+    "Excluded unsupported detailed reconstruction of agrarian chapters, invented anecdotes/dialogue/exercises, generic agency/management lessons, modern analogies and later-book examples",
+    "Used maintained build_story.mjs with offline Geist/Geist Mono and compact icon header; book-local CSS provides typographic cover and dialog-only source presentation while retaining explanatory contentMode and embedded source maps",
+    "Did not implement or copy unmerged PR29 settings; latest shell integration belongs to publisher"
+  ],
+  "unresolvedIssues": [
+    "Independent source-sufficiency/content/bilingual review of every pair remains pending; no independent PASS is issued",
+    "Evidence is selected chapters plus chapter 9 and a clearly labeled indirect Introduction quotation, not a full-edition collation or continuous full-book reading",
+    "Full Lenin/Luxemburg, Soviet collectivization, Tanzanian villagization, scientific agriculture and conclusion chapters were not reconstructed; only specifically supported retained claims are included",
+    "Scott’s historical/ecological account is attributed rather than independently replicated; no official Russian-translation certification is claimed",
+    "Physical iPhone/Safari/PWA and production behavior were not tested; iPhone UA, standalone and safe-area coverage is emulated",
+    "Collector-only package; publisher owns latest shared shell, root reader/catalogue/index, saved-progress production integration, independent acceptance and release"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/seeing-like-a-state/story-data.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/story-data.json",
+      "sha256": "e6f2ce4c9c2879dd069e4d5a1bab4f364f30ebdb03e46bdbaf8e1d898b90faa5"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/seeing-like-a-state.html",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/seeing-like-a-state.html",
+      "sha256": "2eff6fe976a50985e288ca3cb91d6a28e52c713ac26bf56607fa800963882be8"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/sources.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/sources.md",
+      "sha256": "eac465c9d86fb8881a56dd99a0d9585a6157b0edbabff0e0bc7e569368ed1213"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/QA.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/QA.md",
+      "sha256": "73e7c32aed1debdb94f1c82dd4f78e94545e2d13bd6d76fd82af0227a66b131b"
+    }
+  ],
+  "supportingFiles": [
+    {
+      "path": "collector-output/seeing-like-a-state/authoring.py",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/authoring.py",
+      "sha256": "b1c7c90b845cdc5fcbbfa14d60a7b1650764408314527fcbcb291aba8373ba7c"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/browser-qa.mjs",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/browser-qa.mjs",
+      "sha256": "92abb21be4e316715a5c8353449f28a0ec451d04484f28c4cb981a7d0b93ede1"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/build-local.mjs",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/build-local.mjs",
+      "sha256": "0fc32c85e0b6bb7d218e3f87b7ba2811493eaa75e9dd1b1b33b3c1616ec6127e"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/check-corpus.mjs",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/check-corpus.mjs",
+      "sha256": "fd66d8fba9d71b4342eb43f7316e0b9ae857f45db7ab04ce1d4c70aa9978f4d0"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/prose-en.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/prose-en.md",
+      "sha256": "e5fbffb1d1a1b1b3d98f0ac6214b66d9d30fa7984458898a815b49d62707525d"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/prose-ru.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/prose-ru.md",
+      "sha256": "b2514f38bb7416ad4aa0159a71bfe2990a02e09eac6cd84bfa3a3b428d5a43ad"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/build-evidence.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/build-evidence.json",
+      "sha256": "b21ed170602a0eebb229e43e9e112122a5bc4901f174a750d7d63482e303ad85"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/corpus-check.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/corpus-check.json",
+      "sha256": "91794ce9a3864834ae82bcc41465193ca18242059c644859cadbf160a563e673"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/cover-en-light-1024.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/cover-en-light-1024.png",
+      "sha256": "494ee5ce6d94fea87c501e3255f60d0640c428868dc70edfbf3c777187300176"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/cover-en-light-1440.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/cover-en-light-1440.png",
+      "sha256": "b9685db9d8f9fb37c75adf949d98547854829e9102724851165025302eeb6c4e"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/cover-en-light-320.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/cover-en-light-320.png",
+      "sha256": "29089cc0e79163fd6320b51676130f8aa8894b5b6523e045fb07ba707507cc83"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/cover-en-light-390.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/cover-en-light-390.png",
+      "sha256": "b7b958c2b99daefe43b40a0b1e94966d321ef99f1ae8c93d91ea4ebdcba36723"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1024.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1024.png",
+      "sha256": "3b611ef0164b6e4eff1840b337f69962335f772108da69de7cd29fa05839104e"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1440.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1440.png",
+      "sha256": "cf7a2ef046c21d6d5f2dc3dea68184b22306cbe6cebc886a58757dc9bf3231f4"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-320.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/default-cover-ru-dark-320.png",
+      "sha256": "b2b4a9d8f2292745a207cab8b0a7c2844429f58d66813f42ae24a507a7d44dab"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-390.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/default-cover-ru-dark-390.png",
+      "sha256": "0886561b7a8adafc6e45a9c49fce0780acc3c5834e26825a8039152aa13331d3"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/interactions-1440.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/interactions-1440.json",
+      "sha256": "a4e583a46f08c3bf88892b16cb9d432a1d74923adef40a7a3dc13b9f5256f334"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/interactions-390.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/interactions-390.json",
+      "sha256": "190ae48d0112bdfe1a98de71d062982a41921aa4a551611eddede09650572566"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/ios-320.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/ios-320.json",
+      "sha256": "5b4fde05eb70ba85fc6ee956a999b07f84d720aa308089622ca9c95c37451ee8"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/ios-safe-area-320.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/ios-safe-area-320.png",
+      "sha256": "82c580e21205b78bbcc89b8831b752a1def933399bd14cf3ffce4898c673a02a"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-en-light-1024.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-en-light-1024.png",
+      "sha256": "bf28958b063d872d6c8eebef27e59ba6fb9e7259935dccf20ea5fe34137faf01"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-en-light-1440.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-en-light-1440.png",
+      "sha256": "a7e153e72aeea1ab93ef233cfeb448bcd06a2c65a708a8d1c813d0c2cc55ba12"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-en-light-320.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-en-light-320.png",
+      "sha256": "6fa1c62fe705050a7d2770eecd0597e1e7ff3b2c1bd2b3d7b1b7be9aaab7317f"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-en-light-390.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-en-light-390.png",
+      "sha256": "7209efa28b3da7ed03d759d43d4a67c9982b25c68065b2c400fa6660254f0df7"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1024.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1024.png",
+      "sha256": "1157b59980f9eb2552be3249760afbcb466723791d0297095cf6e3f9698a1d4c"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1440.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1440.png",
+      "sha256": "7de735b7297a79795b94590d61cf045632aed7ebc2fd186b5e2f7778109acc8f"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-320.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-320.png",
+      "sha256": "4091d8584c8cc33616f1f38e5ebee987c61a25d29f91bd266a35370c7e2a606a"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-390.png",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-390.png",
+      "sha256": "1b91c0d07f16f4f93424a0cb395632322ab2cbbe2641ff86419be21a72946465"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/matrix-1024.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/matrix-1024.json",
+      "sha256": "ab9ce77b0142351d4734153fd8e9b819fcc4ee0f4f8bfd27e60c8adf4c4031e0"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/matrix-1440.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/matrix-1440.json",
+      "sha256": "09999b7df5bcde0b81624a233bbe913e71569bf1a6182decc0bfef054ddab8d3"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/matrix-320.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/matrix-320.json",
+      "sha256": "93b577fd8f1c59d86c9047d1d0de8188fbf997683ed2965f3dcab3b30a7da06f"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/matrix-390.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/matrix-390.json",
+      "sha256": "5d06cd546be13c6a97fc54686bd91ed6331a0e36d17693d717a11be5cf2f792d"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/source-fetch-evidence.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/source-fetch-evidence.json",
+      "sha256": "126321ff591c0ee27bc28a69b191e9bb2d44b845e835cfbea69ff6e89cc688f5"
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/qa/structure.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/seeing-like-a-state/qa/structure.json",
+      "sha256": "560e035bb764f730ef40b51b3f63ed03f227520d83437525d63bc68c982b3b76"
+    }
+  ],
+  "checks": {
+    "structural": {
+      "passes": 69,
+      "failures": [],
+      "warnings": []
+    },
+    "corpus": {
+      "pairs": 31,
+      "allAuthoringFieldsEqualToEffectiveEmbeddedData": true,
+      "strictNestedOrder": true,
+      "sourceMapsPreserved": true,
+      "counts": {
+        "essential": 17,
+        "core": 25,
+        "deep": 31
+      }
+    },
+    "browser": {
+      "reports": 7,
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "screenVisits": 1168,
+      "routeLanguageThemeViewportCombinations": 48,
+      "allRenderedTitlesAndBodiesCompared": true,
+      "zeroHorizontalOverflow": true,
+      "offline": true,
+      "externalHttpRequests": 0,
+      "runtimeErrors": [],
+      "interactionViewports": [
+        [
+          390,
+          844
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "iPhoneUaEmulation": true,
+      "engineInsets": {
+        "top": 47,
+        "bottom": 34
+      },
+      "sixIconHeader": true,
+      "standaloneGuideHidden": true,
+      "realIPhonePwaTest": false
+    },
+    "cleanup": "Every Chrome under timeout 30, own mktemp profile, detached owned process/descendant tree killed and profile removed; each final report verifies cleanup. No server started.",
+    "scope": "Local technical QA and authoring self-check; independent editorial/translation/source fidelity not certified"
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "6 минут",
+        "en": "5 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "8 минут",
+        "en": "8 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "10 минут",
+        "en": "10 min"
+      }
+    }
+  },
+  "bodyDensity": {
+    "ru": {
+      "min": 40,
+      "median": 50,
+      "max": 60,
+      "mean": 50.8
+    },
+    "en": {
+      "min": 51,
+      "median": 61,
+      "max": 69,
+      "mean": 60.7
+    }
+  },
+  "wordCountsIncludingTitles": {
+    "essential": {
+      "ru": 902,
+      "en": 1096
+    },
+    "core": {
+      "ru": 1328,
+      "en": 1606
+    },
+    "deep": {
+      "ru": 1645,
+      "en": 1982
+    }
+  },
+  "publicationStatus": "not-published-by-this-worker",
+  "independentReviewStatus": "pending"
+}

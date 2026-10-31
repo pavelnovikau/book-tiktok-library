@@ -1,0 +1,216 @@
+{
+  "slug": "behave",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:08:51.539707+00:00",
+  "findings": [
+    "BEH-SR-01",
+    "BEH-SR-02"
+  ],
+  "changedScreens": [
+    "cultural-history",
+    "different-thems"
+  ],
+  "counts": {
+    "essential": 11,
+    "core": 18,
+    "deep": 22
+  },
+  "sourceCheck": [
+    "BEH-SR-01: split the TED association from the later interview’s herd-theft mechanism; preserved the historical-hypothesis qualification. Added author source 6 and mapped cultural-history to [4,6]. Independent reviewer directly checked the Mindscape exchanges at 0:59:17.4–1:01:05.1 and 1:11:28.0–1:13:34.7. Parent repeat retrieval encountered web timeouts and a 406 response; parent does not claim a new direct reading of that transcript. Publisher must validate the mapped reviewer evidence before acceptance.",
+    "BEH-SR-02: parent directly read the Nautilus The Heterogeneity of Thems and Cold and/or Incompetent sections, including the envy/resentment paragraph and the footer attribution to Behave, Penguin Press 2017. Added book source 7 and mapped different-thems to [3,7]; its prose is unchanged. No full chapter or complete-book reading is claimed."
+  ],
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/behave-source-rescue.json",
+  "originalReviewSha256": "72e30add2027f5b55f0a792f51e23c6b0567ba7be137a884036ef7c4b8c8dbfa",
+  "beforeHashes": {
+    "collector-output/behave/story-data.json": "ad77632fccde0118788ab86002bd9f2bd1ca768d51f74d944cec104704f1268b",
+    "collector-output/behave/behave.html": "3ab896c6fef0a5e7018a6d0cd894d4447ee3bc49c0b67c4e34aa78a1bb6895d0",
+    "collector-output/behave/sources.md": "ebe971b80d6c6df7dd899e2cc93fbd7ca269358b0786a2895b541f584a8a97b5",
+    "collector-output/behave/QA.md": "76f93f3e774e175a251c87d619aa0295e7458ec16c926e1ba3385621068b68a4"
+  },
+  "afterHashes": {
+    "collector-output/behave/story-data.json": "3ea3bccc84d3d33721487b1b963fa40f0b03bfb8281a43727ea47fd7760083b9",
+    "collector-output/behave/behave.html": "6476785797895dadee915ede5712e6c527feeb7fa6c673238823bf39d989e5ab",
+    "collector-output/behave/sources.md": "b164d7022cfd920f3210090aa8470dcc7a53c815961193e2fafbb7c3d4da2533",
+    "collector-output/behave/QA.md": "3fd768a93dd1f38bb4e565f012c8ecc5bbaaea4c4f76af7eab94f328a32dcc9a"
+  },
+  "screensBefore": [
+    {
+      "id": "cultural-history",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Биология добра и зла",
+          "title": "Прошлое старше человека",
+          "body": "<p>Теперь масштаб охватывает столетия. В лекции Сапольски связывает некоторые культуры чести с жизнью скотоводов, чьё богатство можно было угнать. Он рассматривает, как нормы возмездия переживают первоначальные хозяйственные условия. Это авторская историческая гипотеза о происхождении норм; она не назначает всем потомкам таких обществ одинаковую реакцию.</p>"
+        },
+        "en": {
+          "section": "Behave",
+          "title": "A past older than the person",
+          "body": "<p>The timescale now spans centuries. In the talk, Sapolsky connects some honor cultures with pastoral life, where wealth could be driven away. He considers how norms of retaliation outlast their original economic conditions. This is his historical account of norms, not a prediction of an identical response from every descendant of such societies.</p>"
+        }
+      }
+    },
+    {
+      "id": "different-thems",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Биология добра и зла",
+          "title": "Чужие тоже бывают разными",
+          "body": "<p>Обсуждая работу Сьюзен Фиск, Сапольски различает оценки теплоты намерений и компетентности группы. Чужого могут бояться, жалеть свысока, презирать или завидовать ему. Для автора это способ уйти от одной общей эмоции «неприязни»: разные социальные представления создают разные отношения, хотя все относятся к тем, кого не включили в «мы».</p>"
+        },
+        "en": {
+          "section": "Behave",
+          "title": "Outsiders are not all alike",
+          "body": "<p>Discussing Susan Fiske’s work, Sapolsky distinguishes perceived warmth of intention from perceived competence. Outsiders may evoke fear, condescending pity, contempt or envy. He uses this to move beyond one undifferentiated emotion of dislike: different social representations produce different relationships with those excluded from Us.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "cultural-history",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Биология добра и зла",
+          "title": "Прошлое старше человека",
+          "body": "<p>Теперь масштаб охватывает столетия. В лекции Сапольски связывает некоторые культуры чести со скотоводством. В более позднем интервью он поясняет: стадо, в отличие от поля, можно угнать. Он рассматривает, как нормы возмездия переживают первоначальные хозяйственные условия. Это авторская историческая гипотеза о происхождении норм; она не назначает всем потомкам таких обществ одинаковую реакцию.</p>"
+        },
+        "en": {
+          "section": "Behave",
+          "title": "A past older than the person",
+          "body": "<p>The timescale now spans centuries. The talk links some honor cultures to pastoralism. In a later interview, Sapolsky explains that a herd, unlike a field, can be stolen. He considers how norms of retaliation outlast their original economic conditions. This is his historical account of norms, not a prediction of an identical response from every descendant of such societies.</p>"
+        }
+      }
+    },
+    {
+      "id": "different-thems",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Биология добра и зла",
+          "title": "Чужие тоже бывают разными",
+          "body": "<p>Обсуждая работу Сьюзен Фиск, Сапольски различает оценки теплоты намерений и компетентности группы. Чужого могут бояться, жалеть свысока, презирать или завидовать ему. Для автора это способ уйти от одной общей эмоции «неприязни»: разные социальные представления создают разные отношения, хотя все относятся к тем, кого не включили в «мы».</p>"
+        },
+        "en": {
+          "section": "Behave",
+          "title": "Outsiders are not all alike",
+          "body": "<p>Discussing Susan Fiske’s work, Sapolsky distinguishes perceived warmth of intention from perceived competence. Outsiders may evoke fear, condescending pity, contempt or envy. He uses this to move beyond one undifferentiated emotion of dislike: different social representations produce different relationships with those excluded from Us.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Sapolsky · Behave · official publisher sample",
+      "url": "https://www.penguinrandomhouse.com/books/311787/behave-by-robert-m-sapolsky/",
+      "role": "book",
+      "note": {
+        "ru": "Прочитан доступный фрагмент: вся глава 1 и начало главы 2 до первого слоя модели мозга. Не вся глава 2 и не книга.",
+        "en": "Available excerpt read: all of Chapter 1 and the beginning of Chapter 2 through the first layer of the brain model. Neither all of Chapter 2 nor the complete book."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Sapolsky · Behave introduction · The Scientist",
+      "url": "https://www.the-scientist.com/book-excerpt-from-behave-31417",
+      "role": "book",
+      "note": {
+        "ru": "Только открытое начало фантазии о Гитлере до предложения вступить в membership. Ограничение доступа не обходилось.",
+        "en": "Only the openly visible beginning of the Hitler fantasy before the membership prompt. No access bypass."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "title": "Sapolsky / Marty Nemko · From Stress to Genes, Baboons to Hormones, 2017",
+      "url": "https://www.psychologytoday.com/za/blog/how-do-life/201702/stress-genes-baboons-hormones",
+      "role": "author",
+      "note": {
+        "ru": "Прочитано интервью: контекст, гормоны, лобная кора, гены, свои/чужие, различия стресса и свобода воли. Авторская позиция, не независимая проверка.",
+        "en": "Interview read: context, hormones, frontal cortex, genes, Us/Them, stress differences and free will. Author position, not independent validation."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 4,
+      "title": "Sapolsky · The biology of our best and worst selves · TED2017",
+      "url": "https://www.ted.com/talks/robert_sapolsky_the_biology_of_our_best_and_worst_selves?language=en",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан весь официальный английский транскрипт, 32 абзаца из публичных данных TED. Видео не просмотрено. Лекция поддерживает ограниченную причинную дугу, а не прочтение всех глав.",
+        "en": "Complete official English transcript read: 32 paragraphs in publicly served TED data. Video not watched. The talk supports the bounded causal arc, not a claim of reading every chapter."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 5,
+      "title": "Stanford News · Sapolsky on Behave and free will, 2017",
+      "url": "https://news.stanford.edu/stories/2017/05/biologist-robert-sapolsky-takes-human-behavior-free-will",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан весь содержательный обмен: несколько уровней объяснения, осторожность с осуждением, наказание и отсутствие свободы воли как позиция автора.",
+        "en": "Complete substantive exchange read: levels of explanation, caution in blame, punishment and absence of free will as the author’s position."
+      },
+      "accessDate": "2026-10-31"
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Ограниченное изложение авторского довода: прочитаны разрешённая глава 1 и начало главы 2, открытое начало введения, весь официальный транскрипт TED2017 и два интервью. Полная книга, остальные главы и опубликованный русский перевод не прочитаны. Авторские мысленные примеры названы; объяснение своими словами.",
+    "en": "A bounded account of the author’s argument: the authorized Chapter 1 and opening of Chapter 2, the ungated introduction beginning, the complete official TED2017 transcript and two interviews were read. The full book, remaining chapters and published Russian translation were not read. Author hypotheticals are identified; all explanation is in original words."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/behave/behave.html",
+    "format": "v2",
+    "bytes": 286925,
+    "screenCount": 22,
+    "levels": {
+      "1": 11,
+      "2": 7,
+      "3": 4
+    },
+    "modes": {
+      "essential": 11,
+      "core": 18,
+      "deep": 22
+    },
+    "words": {
+      "ru": 1092,
+      "en": 1173
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "combinedAssertions": 160,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json",
+    "limits": "Focused regression only; not independent meaning acceptance or physical Safari/PWA."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

@@ -1,5 +1,13 @@
 # Next steps
 
+## 2026-10-31 — release07 sealed handoff
+
+- Read [release07 receipt](editorial-audit/2026-10-31/publisher-findings/release-07.json) for the exact PR/head/readiness/merge/production state. This publisher checks readiness once; pending checks return to root without child watching/polling.
+- Preserve 12 accepted packages, 334 RU/EN pairs, 47 books/2,076 screens, all original independent reviews and the separate14-finding publisher closure. Remaining35 roots/entries are byte-identical. Source/excerpt/edition boundaries and Mindscape reviewer reliance remain explicit.
+- If pending, root owns checking/merging the exact accepted green head and verifying actual58-file production bytes/effective corpora, live interactions and private404 before claiming deployment. Use scripts/verify-production.mjs with the exact merge ref; focused browser phases support --origin and --books.
+- Retain one-time 1873/TOC migrations, global Settings/offline fonts, PHM renewed native Deep guard, Giver renewed custom guard and Earthsea’s existing document-local Core/Deep consent. Never replace root readers with pre-Settings collectors without synchronizing the maintained shell.
+- Heinlein’s matching PASS arrived after seal and belongs to the next release. Hobbit/current15/23/35 needs its fresh independent recheck; other new collectors/source rescues wait for independent PASS. Do not sweep READY or touch those packages from release07.
+
 ## 2026-10-31 — release06 handoff
 
 - Sealed at Atomic Habits13/20/24, Protocols10/16/22 and Hermes12/17/22:68 paired screens, intended40 books/2,327 screens. Read [release06 exact state](editorial-audit/2026-10-31/publisher-findings/release-06.json) before any publication. If its single readiness read is pending, root owns monitoring; child never polls/watches.

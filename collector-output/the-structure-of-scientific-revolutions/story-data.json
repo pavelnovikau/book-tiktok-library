@@ -1,0 +1,798 @@
+{
+  "schemaVersion": 2,
+  "slug": "the-structure-of-scientific-revolutions",
+  "title": {
+    "ru": "Структура научных революций",
+    "en": "The Structure of Scientific Revolutions"
+  },
+  "author": {
+    "ru": "Томас С. Кун",
+    "en": "Thomas S. Kuhn"
+  },
+  "description": {
+    "ru": "Аргумент Куна о нормальной науке, аномалиях, кризисе, несоизмеримости и прогрессе — с его историческими примерами и уточнениями послесловия 1969 года.",
+    "en": "Kuhn’s argument about normal science, anomaly, crisis, incommensurability and progress, with his historical cases and the qualifications of the 1969 postscript."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "spoilerPolicy": "not-applicable",
+  "targetModes": {
+    "essential": 16,
+    "core": 27,
+    "deep": 35
+  },
+  "methodNote": {
+    "ru": "Самостоятельное сокращённое изложение аргумента Куна, не перевод изданной книги. Основа — книга 1962 года и увеличенное второе издание 1970 года с «Послесловием — 1969». Проверены выбранные первичные фрагменты из университетских учебных подборок; для главы XIII отдельно использована подборка, атрибутированная третьему изданию 1996 года. Сплошного чтения всей книги и сверки всех изданий не проводилось. Пагинация и состав каждой подборки указаны в источниках. Исторические случаи переданы как примеры и рассуждения Куна.",
+    "en": "An original condensed explanation of Kuhn’s argument, not a translation of a published edition. The work scope is the 1962 book and the enlarged second edition of 1970 with “Postscript—1969.” Selected primary passages in institutional teaching selections were checked; chapter XIII additionally uses a selection credited to the third edition of 1996. This was not continuous reading of the whole book or a collation of all editions. Each source note identifies its pagination and extent. Historical cases are presented as Kuhn’s examples and reasoning."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Thomas S. Kuhn — Second edition, enlarged: selected opening chapters and Postscript—1969 (University of Colorado)",
+      "url": "https://sciencepolicy.colorado.edu/students/envs_5110/structure_of_scientific_revolutions.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Первичный текст, учебная подборка из 37 PDF-страниц: титульные листы, предисловие, с. 1–22 и 174–210. На выходных данных указано второе увеличенное издание, 1970. Для пересказа выборочно прочитаны с. 1–3, 10–13, 174–189 и 198–207. Послесловие проверено по его собственному тексту, а не по обзору.",
+        "en": "Primary text in a 37-page teaching selection: front matter, preface, printed pp. 1–22 and 174–210. The imprint identifies the enlarged second edition, 1970. The condensation selectively consults pp. 1–3, 10–13, 174–189 and 198–207. The postscript was checked in Kuhn’s own text, not a recap."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Thomas S. Kuhn — selected main chapters (University of Illinois, PHYS 419)",
+      "url": "https://courses.grainger.illinois.edu/phys419/sp2019/Kuhn.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Первичный текст, 49 сканов разворотов: с. 22–35 и 52–135, с пропуском с. 36–51. Проверены фрагменты о нормальной науке, кислороде, рентгеновских лучах, картах, астрономическом кризисе, Клеро, реконструкции понятий и маятнике. Выходных данных в этой подборке нет; точный тираж не установлен.",
+        "en": "Primary text in 49 scanned spreads: printed pp. 22–35 and 52–135, omitting pp. 36–51. Consulted passages cover normal science, oxygen, X-rays, playing cards, astronomical crisis, Clairaut, conceptual reconstruction and the pendulum. This selection has no imprint; its exact printing is unidentified."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Thomas S. Kuhn — XIII. Progress through Revolutions (Florida Gulf Coast University library reserve selection)",
+      "url": "https://ruby.fgcu.edu/courses/ndemers/sciproc/Fall%2012/articles/kuhn.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Семь сканов разворотов, с. 160–173. Прочитана эта глава, а не вся книга. Учебная помета атрибутирует её третьему изданию 1996 года; на скане есть отметка library reserve. Поддерживает рассуждение о сохранении решённых задач, эволюции без заданного финала и заключительный открытый вопрос.",
+        "en": "Seven scanned spreads, printed pp. 160–173. This chapter was read, not the whole book. The teaching annotation credits the third edition of 1996; the scan carries a library reserve mark. Supports the argument about preserving problem-solutions, evolution without a predetermined end and the concluding open question."
+      }
+    },
+    {
+      "id": 4,
+      "title": "WorldCat — The structure of scientific revolutions. Second edition, enlarged (1970)",
+      "url": "https://search.worldcat.org/title/The-structure-of-scientific-revolutions.-Second-edition-enlarged/oclc/752954628",
+      "role": "reference",
+      "note": {
+        "ru": "Библиографическая запись: Томас С. Кун, английский язык, второе увеличенное издание, University of Chicago Press, 1970. Это проверка идентичности издания, не источник содержания аргумента.",
+        "en": "Bibliographic record: Thomas S. Kuhn, English, enlarged second edition, University of Chicago Press, 1970. Verifies edition identity; it is not evidence for the argument’s content."
+      }
+    }
+  ],
+  "media": {
+    "original-cover": {
+      "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0ODAgNjAwIj48cmVjdCB3aWR0aD0iNDgwIiBoZWlnaHQ9IjYwMCIgZmlsbD0iI0ZGRkNGMCIvPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzEwMEYwRiIgc3Ryb2tlLXdpZHRoPSIyIj48cmVjdCB4PSI1OCIgeT0iNjQiIHdpZHRoPSIzNjQiIGhlaWdodD0iNDcyIi8+PHBhdGggZD0iTTU4IDIyMEg0MjJNNTggMzc4SDQyMiIvPjwvZz48ZyBmaWxsPSIjNkY2RTY5Ij48cmVjdCB4PSIxMDAiIHk9IjExMiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIi8+PHJlY3QgeD0iMTY0IiB5PSIxMTIiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIvPjxyZWN0IHg9IjIyOCIgeT0iMTEyIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48cmVjdCB4PSIyOTIiIHk9IjExMiIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIi8+PHJlY3QgeD0iMTAwIiB5PSIyNzAiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIvPjxyZWN0IHg9IjE2NCIgeT0iMjcwIiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48cmVjdCB4PSIyOTIiIHk9IjI3MCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIi8+PC9nPjxyZWN0IHg9IjIzOCIgeT0iMjU4IiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIGZpbGw9IiMxQzZDNjYiLz48ZyBmaWxsPSJub25lIiBzdHJva2U9IiMxMDBGMEYiIHN0cm9rZS13aWR0aD0iMiI+PHJlY3QgeD0iMTI4IiB5PSI0MzQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIvPjxyZWN0IHg9IjE5MiIgeT0iNDM0IiB3aWR0aD0iNDAiIGhlaWdodD0iNDAiLz48cmVjdCB4PSIyNTYiIHk9IjQzNCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIi8+PHJlY3QgeD0iMzIwIiB5PSI0MzQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIvPjwvZz48L3N2Zz4=",
+      "alt": {
+        "ru": "Оригинальная абстрактная обложка с изменяющимся порядком квадратов.",
+        "en": "Original abstract cover with a changing arrangement of squares."
+      },
+      "credit": {
+        "ru": "Оригинальная графика для этого сокращённого изложения.",
+        "en": "Original artwork for this condensation."
+      }
+    }
+  },
+  "screens": [
+    {
+      "id": "cover",
+      "type": "cover",
+      "level": 1,
+      "sources": [
+        1,
+        4
+      ],
+      "media": "original-cover",
+      "copy": {
+        "ru": {
+          "section": "Томас С. Кун · 1962 / 1970",
+          "title": "Структура научных революций",
+          "subtitle": "Нормальная наука, открытия и смена парадигм",
+          "body": "<p>Как исследование, опирающееся на общие образцы, приводит к пересмотру собственных оснований.</p>",
+          "visualAlt": "Абстрактная обложка: упорядоченные квадраты, смещённый элемент, новый порядок."
+        },
+        "en": {
+          "section": "Thomas S. Kuhn · 1962 / 1970",
+          "title": "The Structure of Scientific Revolutions",
+          "subtitle": "Normal science, discovery and paradigm change",
+          "body": "<p>How inquiry built on shared examples leads to the reconstruction of its own foundations.</p>",
+          "visualAlt": "Abstract cover: ordered squares, a displaced element, a new arrangement."
+        }
+      }
+    },
+    {
+      "id": "history-asks-differently",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · История",
+          "title": "История с другой стороны",
+          "body": "<p>Учебник показывает науку с той стороны, где трудности уже преодолены: закон сформулирован, опыт поставлен, решение найдено. Из этого легко вывести историю непрерывного накопления открытий. Кун начинает с другого затруднения. Чем внимательнее историк изучает старую физику или химию, тем труднее отделить в них научную работу от того, что сегодня кажется ошибкой. Отвергнутая теория могла быть результатом добросовестного исследования. Чтобы понять перемену, надо восстановить прежнюю науку в её собственной связности.</p>"
+        },
+        "en": {
+          "section": "I · History",
+          "title": "History from the other side",
+          "body": "<p>A textbook shows science after its difficulties have been overcome: the law is stated, the experiment arranged, the solution found. From this it is easy to construct a history of steadily accumulating discoveries. Kuhn begins with a different difficulty. The more closely a historian studies older physics or chemistry, the harder it becomes to separate its scientific work from what now looks like error. A discarded theory could have emerged from serious inquiry. Understanding its replacement requires recovering the coherence of the older science.</p>"
+        }
+      }
+    },
+    {
+      "id": "optics-before-consensus",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · История",
+          "title": "Сначала — несколько оптик",
+          "body": "<p>Так, до Ньютона в оптике сосуществовали школы с разными представлениями о свете. Каждая выделяла явления, которые лучше объясняла, и заново обосновывала начала своего исследования. Эти люди были учёными; однако общего основания для согласованной работы им недоставало. Почти всеобщее признание ньютоновской оптики изменило положение. Исследователи получили возможность обсуждать специальные задачи, не начиная всякий раз с вопроса, что такое свет вообще.</p>"
+        },
+        "en": {
+          "section": "I · History",
+          "title": "Before a shared optics",
+          "body": "<p>Before Newton, for example, optics contained rival schools with different accounts of light. Each emphasized the phenomena it could best explain and rebuilt the foundations of its inquiry. Their practitioners were scientists, but they lacked a common basis for coordinated research. The nearly universal acceptance of Newtonian optics changed that situation. Investigators could address specialized problems without reopening the nature of light every time.</p>"
+        }
+      }
+    },
+    {
+      "id": "paradigm",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Парадигма",
+          "title": "Что объединяет исследователей",
+          "body": "<p>Парадигмой Кун называет признанное научное достижение, которое объединяет исследователей и оставляет им достаточно нерешённых задач. Это не просто убеждение о мире. Теория, удачные решения, способы применения и приборы вместе показывают, как заниматься данной наукой. «Начала» Ньютона служат одним из таких образцов. Парадигма не завершает исследование: её первые успехи дают основание ждать новых, а не означают, что всё уже объяснено.</p>"
+        },
+        "en": {
+          "section": "II · Paradigm",
+          "title": "What brings researchers together",
+          "body": "<p>Kuhn calls an accepted scientific achievement a paradigm when it attracts a community and leaves enough problems open for further work. It is more than a belief about the world. Theory, successful solutions, applications and instruments together show how to practice a particular science. Newton’s Principia is one such achievement. A paradigm does not complete inquiry: its initial successes give researchers grounds to expect more, rather than establishing that everything has been explained.</p>"
+        }
+      }
+    },
+    {
+      "id": "learned-exemplars",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Парадигма",
+          "title": "Формула ещё не учит решать",
+          "body": "<p>Как передаётся этот способ работы? Студент может понимать главу о втором законе Ньютона и всё же не решать задачи в её конце. Узнавая в новой задаче сходство с разобранной, он учится выделять силы, массы и ускорения, связывать формулу с физической ситуацией. В послесловии Кун называет такие конкретные решения образцами. Практика здесь не просто тренирует применение готового знания: она сообщает часть самого знания.</p>"
+        },
+        "en": {
+          "section": "II · Paradigm",
+          "title": "Knowing a formula is not enough",
+          "body": "<p>How is this practice passed on? A student may understand a chapter on Newton’s second law yet remain unable to solve the problems at its end. By recognizing a new problem as resembling a worked example, the student learns to identify forces, masses and accelerations and connect an equation to a physical situation. In the postscript Kuhn calls these concrete solutions exemplars. Practice does more than exercise knowledge already acquired: it conveys part of that knowledge itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "disciplinary-matrix",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Парадигма",
+          "title": "Два смысла парадигмы",
+          "body": "<p>Послесловие различает два смысла, которые в первоначальной книге носили одно имя. Общий набор обязательств сообщества Кун теперь называет дисциплинарной матрицей. В неё входят символические обобщения, модели, ценности и образцы решения задач; это разные составляющие, а не разновидности одной формулы. Образец — более узкое понятие. Именно работа конкретных образцов, позволяющая исследовать без полного свода явных правил, представляется Куну особенно важной и недооценённой.</p>"
+        },
+        "en": {
+          "section": "II · Paradigm",
+          "title": "Two meanings of paradigm",
+          "body": "<p>The postscript distinguishes two meanings that the original book placed under one name. Kuhn now calls a community’s broader commitments its disciplinary matrix. These include symbolic generalizations, models, values and exemplary problem-solutions: different components, rather than variations of a single formula. An exemplar is the narrower notion. Kuhn considers the work done by concrete examples—enabling research without an exhaustive set of explicit rules—especially important and insufficiently understood.</p>"
+        }
+      }
+    },
+    {
+      "id": "normal-science",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Нормальная наука",
+          "title": "Работа внутри принятой картины",
+          "body": "<p>Когда основания принимаются сообща, начинается нормальная наука. Она уточняет значимые факты, сближает предсказания с наблюдениями и разрабатывает саму парадигму. Исследователь обычно не ищет новую картину мира: он выясняет, как далеко можно продвинуться внутри уже принятой. Такое ограничение внимания позволяет достигать глубины и точности, которые были бы невозможны, если бы каждый опыт сопровождался спором обо всех основаниях сразу.</p>"
+        },
+        "en": {
+          "section": "III · Normal science",
+          "title": "Working within the accepted picture",
+          "body": "<p>With shared foundations, normal science becomes possible. It refines significant facts, brings predictions into closer agreement with observations and articulates the paradigm itself. Researchers generally do not seek a new picture of the world; they investigate how far the accepted one can take them. This concentration permits a depth and precision that would be impossible if every experiment reopened every foundation at once.</p>"
+        }
+      }
+    },
+    {
+      "id": "cavendish",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Нормальная наука",
+          "title": "Измерить то, что теория оставила открытым",
+          "body": "<p>Ньютоновская теория показывала, что притяжение двух единичных масс на единичном расстоянии должно иметь одну и ту же величину независимо от вещества и места. Но собственные задачи Ньютона не требовали измерить эту величину. Аппаратура для её определения появилась лишь примерно через столетие после «Начал»; Кун приводит измерение Кавендиша в 1790-х годах. Здесь выдающаяся экспериментальная работа развивает принятую теорию, а не опрокидывает её.</p>"
+        },
+        "en": {
+          "section": "III · Normal science",
+          "title": "Measuring what the theory left open",
+          "body": "<p>Newtonian theory indicated that the attraction between two unit masses at unit distance should have the same magnitude regardless of material or location. Newton’s own problems, however, did not require that magnitude to be measured. Apparatus for determining it appeared only about a century after the Principia; Kuhn cites Cavendish’s determination in the 1790s. Here distinguished experimental work develops an accepted theory rather than overturning it.</p>"
+        }
+      }
+    },
+    {
+      "id": "puzzle-not-trivial",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Нормальная наука",
+          "title": "Почему головоломка трудна",
+          "body": "<p>Кун сравнивает нормальное исследование с решением головоломки. Это не значит, что задача проста или результат неважен. Предполагается, что решение существует, а успех требует изобретательности в рамках принятых ограничений. Поэтому неудача сначала ставит под вопрос мастерство исследователя или способ применения теории. Если бы всякая трудность сразу опровергала основание науки, систематическая работа над трудными задачами едва ли успевала бы начаться.</p>"
+        },
+        "en": {
+          "section": "III · Normal science",
+          "title": "Why a puzzle can be difficult",
+          "body": "<p>Kuhn compares normal research to puzzle-solving. This does not mean that the problem is easy or its result unimportant. A solution is presumed to exist, and success requires ingenuity within accepted constraints. Failure therefore initially puts the researcher’s skill or application of the theory in question. If every difficulty immediately refuted a science’s foundations, sustained work on hard problems would scarcely have time to begin.</p>"
+        }
+      }
+    },
+    {
+      "id": "why-resistance-works",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Нормальная наука",
+          "title": "Точность готовит неожиданность",
+          "body": "<p>Такая настойчивость одновременно сужает зрение и готовит неожиданность. Без специальных приборов и точных ожиданий многие нарушения порядка вообще остались бы незаметны. Парадокс Куна в том, что исследование, не нацеленное на фундаментальные новшества, особенно хорошо обнаруживает их предпосылки. Сопротивление перемене тоже выполняет работу: оно заставляет проверить, действительно ли трудность затрагивает основание, прежде чем отказываться от накопленных возможностей.</p>"
+        },
+        "en": {
+          "section": "III · Normal science",
+          "title": "Precision prepares the unexpected",
+          "body": "<p>This persistence both narrows vision and prepares the unexpected. Without specialized instruments and precise expectations, many departures from the expected order would never become visible. Kuhn’s paradox is that inquiry not directed at fundamental novelty is particularly effective at producing its preconditions. Resistance to change also does work: it presses researchers to establish whether a difficulty really reaches the foundations before surrendering accumulated capabilities.</p>"
+        }
+      }
+    },
+    {
+      "id": "anomaly",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Открытие",
+          "title": "Когда природа не отвечает как ожидалось",
+          "body": "<p>Аномалия возникает там, где природа нарушает ожидание, заданное парадигмой. Но заметить несоответствие и открыть новое явление — не одно событие. Следуют проверки, изменения понятий и способов опыта. Для Куна фактическое и теоретическое открытие здесь переплетены: нужно установить не только то, что нечто существует, но и что именно существует. История кислорода делает трудность особенно осязаемой.</p>"
+        },
+        "en": {
+          "section": "IV · Discovery",
+          "title": "When nature does not answer as expected",
+          "body": "<p>An anomaly appears when nature violates an expectation supplied by a paradigm. Noticing the mismatch and discovering a new phenomenon are not a single event. Tests, conceptual changes and alterations of experimental practice follow. For Kuhn, factual and theoretical discovery are intertwined: researchers must establish not only that something exists but what it is. The history of oxygen makes the difficulty particularly tangible.</p>"
+        }
+      }
+    },
+    {
+      "id": "priestleys-air",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Открытие",
+          "title": "Газ уже в сосуде",
+          "body": "<p>В 1774 году Джозеф Пристли собирает газ, выделяющийся при нагревании красного оксида ртути. Он исследует разные «воздухи», пользуясь понятиями своей химии. Сначала газ получает одно известное ему объяснение, затем — другое: в 1775 году Пристли считает его воздухом с необычно малым содержанием флогистона. Вещество, которое позднее будут называть кислородом, уже у него в сосуде. Однако для Пристли это ещё не тот новый компонент атмосферы, который признает другая химия.</p>"
+        },
+        "en": {
+          "section": "IV · Discovery",
+          "title": "The gas is already in the vessel",
+          "body": "<p>In 1774 Joseph Priestley collects gas released by heating red oxide of mercury. He is investigating different “airs” within the concepts of his chemistry. He first identifies the gas in one familiar way, then another: in 1775 he regards it as air containing unusually little phlogiston. The substance later called oxygen is already in his vessel. Yet for Priestley it is not the new constituent of the atmosphere that another chemistry will recognize.</p>"
+        }
+      }
+    },
+    {
+      "id": "lavoisiers-oxygen",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Открытие",
+          "title": "Увидеть в газе кислород",
+          "body": "<p>Лавуазье повторяет опыты после работы Пристли. Его понимание тоже меняется не сразу: в начале 1775 года он ещё сообщает об особенно чистом воздухе, а к 1777-му признаёт отдельный газ, один из главных компонентов атмосферы. Пристли такого вывода не принимает. Поэтому Кун не сводит открытие к соревнованию, кто первым наполнил сосуд. Смена представлений о горении и составе веществ входит в само возникновение нового научного факта.</p>"
+        },
+        "en": {
+          "section": "IV · Discovery",
+          "title": "Recognizing oxygen in the gas",
+          "body": "<p>Lavoisier repeats the experiments after Priestley’s work. His understanding does not change immediately either: early in 1775 he still reports especially pure air, while by 1777 he recognizes a distinct gas, one of the atmosphere’s main constituents. Priestley does not accept that conclusion. Kuhn therefore does not reduce discovery to a contest over who first filled a vessel. Changed conceptions of combustion and the composition of substances are part of the emergence of the new scientific fact.</p>"
+        }
+      }
+    },
+    {
+      "id": "discovery-takes-time",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Открытие",
+          "title": "Открытие без одной безупречной даты",
+          "body": "<p>Даже это не даёт безупречной даты окончательного узнавания кислорода. Лавуазье ещё считал его началом кислотности и связывал образование газа с теплородом. Позднейшая химия отвергнет эти положения, но кислород станет обычным предметом исследования раньше. Кун не выдаёт Лавуазье готовое современное знание. Его вопрос о дате показывает, почему открытие растянуто во времени и почему ретроспективная формула об одном открывателе скрывает часть процесса.</p>"
+        },
+        "en": {
+          "section": "IV · Discovery",
+          "title": "A discovery without one flawless date",
+          "body": "<p>Even this supplies no flawless date for the final recognition of oxygen. Lavoisier still regarded it as a principle of acidity and connected the formation of the gas with caloric. Later chemistry would reject those commitments, but oxygen became a standard object of research before that happened. Kuhn does not endow Lavoisier with finished modern knowledge. The difficulty of dating the discovery shows how it extends through time and how assigning a single discoverer conceals part of the process.</p>"
+        }
+      }
+    },
+    {
+      "id": "x-rays",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Открытие",
+          "title": "Свечение, которого не ждали",
+          "body": "<p>Рентген замечает свечение экрана во время опытов с катодными лучами. Установить свойства нового излучения удаётся лишь дальнейшим исследованием. Рентгеновские лучи не сразу уничтожают большую физическую теорию, но меняют смысл привычных лабораторных процедур: аппаратура могла давно производить неизвестное излучение, а прежние опыты не учитывали его действия. Куну важен и такой масштаб перемены — пересмотр инструментальных ожиданий внутри специальной области.</p>"
+        },
+        "en": {
+          "section": "IV · Discovery",
+          "title": "An unexpected glow",
+          "body": "<p>Roentgen notices a screen glowing during work with cathode rays. Establishing the properties of the new radiation requires further investigation. X-rays do not immediately overthrow a major physical theory, but they change the significance of familiar laboratory procedures: apparatus may long have produced unknown radiation whose effects earlier experiments failed to control. Kuhn also cares about change on this scale—a revision of instrumental expectations within a specialized field.</p>"
+        }
+      }
+    },
+    {
+      "id": "red-spades",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Открытие",
+          "title": "Красная шестёрка пик",
+          "body": "<p>Для сравнения Кун обращается к опыту Брунера и Постмана с игральными картами. При коротком показе необычные карты — например, красную шестёрку пик — часто называли обычными. При более долгом показе появлялись замешательство и, у большинства, правильное узнавание. Это психологическая модель трудности восприятия новизны, а не отдельное доказательство всей истории науки. Ожидание сначала помогает опознать предмет и одновременно мешает заметить, что перед нами другой случай.</p>"
+        },
+        "en": {
+          "section": "IV · Discovery",
+          "title": "The red six of spades",
+          "body": "<p>As a comparison, Kuhn turns to Bruner and Postman’s playing-card experiment. On brief exposure, anomalous cards—a red six of spades, for instance—were often identified as ordinary ones. Longer exposure brought hesitation and, for most participants, correct recognition. This offers a psychological model of difficulty in perceiving novelty, rather than a separate proof of the entire history of science. Expectation initially helps identify an object while also obstructing recognition that it is a different case.</p>"
+        }
+      }
+    },
+    {
+      "id": "ptolemaic-repairs",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Кризис",
+          "title": "Всё более сложное небо",
+          "body": "<p>В астрономии птолемеевская система долго давала успешные предсказания. Несовпадения с наблюдениями составляли материал обычной работы. Но исправления усложняли систему; устранённое в одном месте расхождение появлялось в другом. В изложении Куна к XVI веку всё больше астрономов видели затруднение в самом способе работы. Давление календарной реформы добавляло остроты. Коперник получил повод искать новое основание там, где прежде ожидали очередного исправления старого.</p>"
+        },
+        "en": {
+          "section": "V · Crisis",
+          "title": "An increasingly complicated sky",
+          "body": "<p>In astronomy the Ptolemaic system long supplied successful predictions. Discrepancies with observation furnished material for ordinary work. But adjustments made the system more complicated; a discrepancy removed in one place appeared elsewhere. In Kuhn’s account, by the sixteenth century increasing numbers of astronomers saw a difficulty in the practice itself. Pressure for calendar reform added urgency. Copernicus had reason to seek new foundations where earlier investigators had expected another repair of the old ones.</p>"
+        }
+      }
+    },
+    {
+      "id": "crisis",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Кризис",
+          "title": "Когда привычной работе перестают доверять",
+          "body": "<p>Кризис начинается не при первом расхождении. Он возникает, когда важная и упорная аномалия перестаёт казаться обычной головоломкой. К ней стягивается внимание; множатся несовместимые исправления; становится неясно, какие правила ещё обязательны. Кун не предлагает универсального порога. Значение задачи, длительность неудач и её отношение к основным положениям могут соединиться по-разному. Меняется уверенность сообщества в способности привычной практики продолжаться.</p>"
+        },
+        "en": {
+          "section": "V · Crisis",
+          "title": "When familiar practice loses its authority",
+          "body": "<p>A crisis does not begin with the first discrepancy. It arises when an important, persistent anomaly ceases to look like an ordinary puzzle. Attention concentrates on it; incompatible adjustments proliferate; which rules remain binding becomes uncertain. Kuhn supplies no universal threshold. A problem’s importance, the duration of failure and its relation to fundamental commitments may combine in different ways. What changes is the community’s confidence that its familiar practice can continue.</p>"
+        }
+      }
+    },
+    {
+      "id": "clairauts-moon",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Кризис",
+          "title": "Луна не потребовала нового закона",
+          "body": "<p>История Луны объясняет, почему ожидание бывает оправданным. После первоначального ньютоновского расчёта предсказанное движение лунного перигея долго составляло лишь половину наблюдаемого. Звучали предложения изменить закон тяготения, но серьёзной поддержки они не получили. В 1750 году Клеро показал, что затруднение было в математическом применении теории. Закон сохранился. По одному размеру расхождения нельзя было заранее решить, настал ли срок менять парадигму.</p>"
+        },
+        "en": {
+          "section": "V · Crisis",
+          "title": "The Moon did not need a new law",
+          "body": "<p>The Moon’s history shows why patience can be justified. After Newton’s original calculation, the predicted motion of the lunar perigee long amounted to only half the observed motion. Proposals to alter the gravitational law received little serious support. In 1750 Clairaut showed that the difficulty lay in the mathematics of applying the theory. The law survived. The size of the discrepancy alone could not determine in advance whether the paradigm needed replacement.</p>"
+        }
+      }
+    },
+    {
+      "id": "three-outcomes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Кризис",
+          "title": "Три окончания кризиса",
+          "body": "<p>Даже настоящий кризис допускает разные окончания. Нормальная наука может всё-таки решить задачу. Исследователи могут признать, что имеющихся средств пока недостаточно, и отложить её. Наконец, может появиться конкурирующая парадигма и начаться борьба за её признание. Следовательно, цепочка от аномалии к революции не работает автоматически. Отказ от прежней основы в пользу новой требует сравнения обеих с природой и друг с другом.</p>"
+        },
+        "en": {
+          "section": "V · Crisis",
+          "title": "Three ways a crisis can end",
+          "body": "<p>Even a genuine crisis has different possible endings. Normal science may eventually solve the problem. Researchers may conclude that their present tools are inadequate and set it aside. Or a competing paradigm may emerge and a struggle over its acceptance begin. The sequence from anomaly to revolution is therefore not automatic. Rejecting the old basis in favor of a new one requires comparing both with nature and with each other.</p>"
+        }
+      }
+    },
+    {
+      "id": "crisis-not-law",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Кризис",
+          "title": "Оговорка к собственной схеме",
+          "body": "<p>В послесловии Кун дополнительно ослабляет жёсткость своей схемы. Кризис — обычное преддверие революции, но его обязательность в каждом случае не нужна аргументу. Более того, источник потрясения может находиться в соседней специальности: новый прибор или закон, созданный одной группой, меняет работу другой. Поэтому надо выяснять, какое именно сообщество переживает перемену, а не приписывать всей науке единый ритм.</p>"
+        },
+        "en": {
+          "section": "V · Crisis",
+          "title": "A qualification to his own scheme",
+          "body": "<p>The postscript further relaxes the rigidity of Kuhn’s scheme. Crisis is the usual prelude to revolution, but the argument does not require it in every case. Moreover, the disturbance may originate in a neighboring specialty: a new instrument or law developed by one group can transform another’s work. Investigators must therefore identify the community undergoing change rather than attribute one rhythm to all of science.</p>"
+        }
+      }
+    },
+    {
+      "id": "reconstruction",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Революция",
+          "title": "Меняются и ответы, и вопросы",
+          "body": "<p>Научная революция — это замена прежней парадигмы, целиком или отчасти, несовместимой новой. Кун настаивает: дело не ограничивается добавлением ответа. Перестраиваются основные понятия, методы и допустимые задачи; могут измениться сами требования к объяснению. Между старой и новой практикой остаётся большое пересечение, но переход не сводится к продолжению прежней работы по тем же правилам. После него снова становится возможной нормальная наука — уже иная.</p>"
+        },
+        "en": {
+          "section": "VI · Revolution",
+          "title": "Answers and questions both change",
+          "body": "<p>A scientific revolution replaces an earlier paradigm, wholly or partly, with an incompatible new one. Kuhn insists that this is more than adding an answer. Basic concepts, methods and admissible problems are reconstructed; even the requirements for explanation can change. Old and new practices overlap substantially, but the transition cannot be reduced to extending the old work under unchanged rules. Normal science becomes possible again afterward, on a different basis.</p>"
+        }
+      }
+    },
+    {
+      "id": "same-symbols-new-concepts",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Революция",
+          "title": "Ньютоновский расчёт после Эйнштейна",
+          "body": "<p>Разницу Кун заостряет на отношении Эйнштейна и Ньютона. При соответствующих ограничениях релятивистские уравнения дают результаты ньютоновского вида, а старые расчёты сохраняют практическую силу. Но из этого, по Куну, не следует неизменность прежней теории: время, пространство и масса включены теперь в другую систему отношений. При переходе к пределу приходится переосмыслить сами величины. Сохранение успешного расчёта ещё не означает сохранения всего его прежнего содержания.</p>"
+        },
+        "en": {
+          "section": "VI · Revolution",
+          "title": "Newtonian calculation after Einstein",
+          "body": "<p>Kuhn sharpens the distinction through Einstein and Newton. Under appropriate restrictions, relativistic equations yield Newtonian-looking results, and older calculations retain practical usefulness. But Kuhn argues that this does not leave the earlier theory unchanged: time, space and mass now belong to a different network of relations. Passing to a limit requires reinterpreting the quantities themselves. Preserving a successful calculation does not preserve all of its former conceptual content.</p>"
+        }
+      }
+    },
+    {
+      "id": "gains-and-losses",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Революция",
+          "title": "Что новая химия оставила позади",
+          "body": "<p>Приобретения сопровождаются потерями. Флогистонная химия объясняла общие свойства металлов через общее им начало. Реформа Лавуазье устраняла такие начала, а вместе с ними — прежний вид объяснения качеств веществ. Чтобы новая химия утвердилась, изменилось и то, чего от химической теории требовали. Кун не заключает, что переворот был регрессом. Он показывает, почему сравнение двух наук не всегда получается простым подсчётом ответов на один неизменный список вопросов.</p>"
+        },
+        "en": {
+          "section": "VI · Revolution",
+          "title": "What the new chemistry left behind",
+          "body": "<p>Gains can accompany losses. Phlogiston chemistry explained properties common to metals through a principle they shared. Lavoisier’s reform eliminated such principles and with them an older way of explaining substances’ qualities. Establishing the new chemistry also changed what a chemical theory was required to explain. Kuhn does not conclude that the revolution was a regression. He shows why comparing two sciences cannot always be accomplished by counting answers to one unchanged list of questions.</p>"
+        }
+      }
+    },
+    {
+      "id": "changed-world",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Революция",
+          "title": "Другой мир при той же природе",
+          "body": "<p>Отсюда провокационное описание: после революции учёный работает в другом мире. Кун одновременно признаёт, что сам мир не изменился. Меняется то, как исследователь различает предметы, выбирает данные и связывает их между собой. Это нельзя, по его мысли, полностью описать как новое толкование одного навсегда готового набора наблюдений. Обучение и теория участвуют уже в том, какие наблюдения становятся для учёного данными.</p>"
+        },
+        "en": {
+          "section": "VI · Revolution",
+          "title": "A different world, the same nature",
+          "body": "<p>Hence the provocative description: after a revolution the scientist works in a different world. Kuhn also acknowledges that the world itself has not changed. What changes is how investigators distinguish objects, select data and relate them. In his view, this cannot be fully described as a new interpretation of one permanently given set of observations. Training and theory already participate in determining what counts as data for the scientist.</p>"
+        }
+      }
+    },
+    {
+      "id": "galileos-pendulum",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Революция",
+          "title": "Падение или маятник",
+          "body": "<p>Качающийся камень для аристотелевского наблюдателя стремится к покою внизу; нить лишь затрудняет падение. Галилей видит маятник, почти повторяющий одно движение снова и снова. Изменяется центр исследования: длительность колебаний и отношения движений становятся важнее пути к окончательному покою. Кун связывает этот взгляд и со средневековой теорией импетуса, а не с одним внезапным озарением. Новая постановка вопроса выросла из предшествующей работы.</p>"
+        },
+        "en": {
+          "section": "VI · Revolution",
+          "title": "Falling stone or pendulum",
+          "body": "<p>For an Aristotelian observer, a swinging stone strives toward rest below; its cord obstructs its fall. Galileo sees a pendulum almost repeating the same motion again and again. The focus of inquiry changes: periods of oscillation and relations between motions matter more than the path toward final rest. Kuhn connects this view with medieval impetus theory, rather than a solitary sudden revelation. The new question emerged from earlier work.</p>"
+        }
+      }
+    },
+    {
+      "id": "gestalt-limit",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Революция",
+          "title": "Переключение образа — лишь сравнение",
+          "body": "<p>Сравнение с переключением зрительного образа имеет границы. Зритель двусмысленного рисунка может переходить между двумя изображениями; учёный не располагает столь же свободным переключателем и нейтральной точкой над обеими практиками. Кроме того, новая организация зрения не гарантирует безошибочности. Кун отмечает, что Галилей приписывал периоду маятника независимость от амплитуды в слишком широких пределах. Увидеть новый порядок — ещё не значит сразу измерить его правильно.</p>"
+        },
+        "en": {
+          "section": "VI · Revolution",
+          "title": "The visual switch is only a comparison",
+          "body": "<p>The comparison with a visual gestalt switch has limits. A viewer of an ambiguous drawing can move between two images; a scientist has neither an equally free switch nor a neutral position above both practices. A new organization of perception also does not guarantee correctness. Kuhn notes that Galileo attributed independence from amplitude to a pendulum’s period over too wide a range. Seeing a new order does not mean measuring it correctly at once.</p>"
+        }
+      }
+    },
+    {
+      "id": "incommensurability",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Несоизмеримость",
+          "title": "Сравнение с меняющейся мерой",
+          "body": "<p>Несоизмеримость означает затруднение сравнения: стороны могут расходиться в понятиях, важных задачах и стандартах решения. Одни и те же слова не всегда выполняют одинаковую работу. Поэтому спор о парадигмах нельзя целиком разрешить процедурой нормальной науки, ведь оспариваются и её основания. Однако неполное взаимопонимание не равно полному отсутствию связи. В послесловии Кун прямо отвергает вывод, будто хорошие основания и убедительные результаты больше не имеют значения.</p>"
+        },
+        "en": {
+          "section": "VII · Incommensurability",
+          "title": "Comparison when the measure changes",
+          "body": "<p>Incommensurability creates difficulties of comparison: parties may differ over concepts, important problems and standards of solution. The same words do not always do the same work. A paradigm dispute therefore cannot be settled entirely by normal science’s procedures, since their foundations are also disputed. Yet partial understanding is not a total absence of communication. In the postscript Kuhn explicitly rejects the conclusion that good reasons and persuasive research results no longer matter.</p>"
+        }
+      }
+    },
+    {
+      "id": "shared-values",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Несоизмеримость",
+          "title": "Общие ценности не дают одного решения",
+          "body": "<p>Точность, простота, согласованность, охват и плодотворность могут цениться обеими сторонами. Но одинаковое уважение к ценности ещё не определяет её вес в конкретном выборе. Более точная теория может казаться менее согласованной с остальным знанием; плодотворность нового направления пока приходится оценивать как обещание. Эти основания направляют выбор, но не образуют алгоритма, который обязан в один момент привести всех компетентных учёных к одному решению.</p>"
+        },
+        "en": {
+          "section": "VII · Incommensurability",
+          "title": "Shared values need not yield one decision",
+          "body": "<p>Accuracy, simplicity, consistency, scope and fruitfulness may be valued on both sides. Shared respect for a value does not determine its weight in a particular choice. A more accurate theory may seem less consistent with other knowledge; a new direction’s fruitfulness may still be a promise. Such reasons guide judgment, but they do not form an algorithm that must bring every competent scientist to the same decision at the same moment.</p>"
+        }
+      }
+    },
+    {
+      "id": "translation-and-conversion",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Несоизмеримость",
+          "title": "Понять, убедиться, научиться",
+          "body": "<p>Кун предлагает понимать часть затруднения как задачу перевода. Можно выяснять, как противник применяет спорные слова и что он описал бы в общей экспериментальной ситуации; общий язык полностью не исчезает. Так становятся понятнее достоинства чужого подхода. Но перевести теорию в собственные понятия, убедиться в её превосходстве и научиться самому работать внутри неё — разные достижения. Признание хороших результатов не всегда сразу даёт привычку мыслить по-новому.</p>"
+        },
+        "en": {
+          "section": "VII · Incommensurability",
+          "title": "Understanding, persuasion, conversion",
+          "body": "<p>Kuhn proposes treating part of the difficulty as a problem of translation. Researchers can investigate how opponents apply disputed words and what they would describe in a shared experimental situation; common language has not vanished altogether. This makes the merits of another approach more intelligible. But translating a theory into one’s own terms, being persuaded of its superiority and learning to work within it are different achievements. Recognizing good results does not always immediately supply the habit of thinking in the new way.</p>"
+        }
+      }
+    },
+    {
+      "id": "progress",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Прогресс",
+          "title": "Что всё-таки накапливается",
+          "body": "<p>Как при таких разрывах возможен научный прогресс? Кун ищет ответ в устройстве сообщества, для которого решённые задачи — важнейший результат работы. Новая парадигма должна обещать решение существенной трудности и сохранение значительной части прежней способности решать конкретные задачи. Это не исключает потерь, но мешает принять новизну только ради новизны. Общая подготовка и профессиональная оценка делают накопление точных решений особенно эффективным.</p>"
+        },
+        "en": {
+          "section": "VIII · Progress",
+          "title": "What does accumulate",
+          "body": "<p>How can scientific progress survive such breaks? Kuhn seeks an answer in a community for which solved problems are central achievements. A new paradigm must promise to resolve a significant difficulty and preserve a substantial part of the earlier capacity to solve concrete problems. This does not eliminate losses, but it discourages novelty for its own sake. Shared training and professional evaluation make the accumulation of precise solutions particularly effective.</p>"
+        }
+      }
+    },
+    {
+      "id": "evolution",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Прогресс",
+          "title": "Развитие без заранее заданного финала",
+          "body": "<p>В заключении Кун сравнивает развитие науки с эволюцией. Сравнение касается прежде всего отказа от заранее установленной цели. Объяснять успех можно через происхождение из предыдущего состояния знания и отбор способов дальнейшей работы, не предполагая готовой окончательной теории природы в конце пути. Это не тезис, что всякая перемена есть улучшение: решающую работу в его объяснении по-прежнему выполняют научное сообщество и его способность решать задачи.</p>"
+        },
+        "en": {
+          "section": "VIII · Progress",
+          "title": "Development without a predetermined end",
+          "body": "<p>At the conclusion Kuhn compares scientific development with evolution. The comparison chiefly concerns dispensing with a predetermined goal. Success can be explained through descent from an earlier state of knowledge and the selection of ways to continue inquiry, without positing a finished final theory of nature at the end. This is not a claim that every change is an improvement: the scientific community and its capacity to solve problems remain crucial to his explanation.</p>"
+        }
+      }
+    },
+    {
+      "id": "not-all-views-equal",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Прогресс",
+          "title": "Прогресс без равенства всех теорий",
+          "body": "<p>В послесловии Кун защищает эту позицию от обвинения в релятивизме. Более поздние теории позволяют лучше решать задачи; по точности предсказаний и кругу решённых проблем можно различать этапы развития. Но из этого он не выводит непрерывного приближения всей картины мира к единственному истинному описанию её устройства. Прогресс в исследовании Кун признаёт. Представление о гарантированном движении к окончательной онтологии он считает неубедительным.</p>"
+        },
+        "en": {
+          "section": "VIII · Progress",
+          "title": "Progress without making all theories equal",
+          "body": "<p>In the postscript Kuhn defends this position against the charge of relativism. Later theories permit better puzzle-solving; predictive accuracy and the range of solved problems can distinguish stages of development. But he does not infer that entire world-pictures converge continuously on one true account of nature’s constitution. Kuhn affirms progress in inquiry. He finds the claim of guaranteed movement toward a final ontology unpersuasive.</p>"
+        }
+      }
+    },
+    {
+      "id": "community-scope",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Прогресс",
+          "title": "Революция для какой группы",
+          "body": "<p>Единицей этого объяснения остаётся определённое сообщество. Перемена, революционная для небольшой специальности, может казаться постороннему обычной прибавкой знания. В послесловии Кун советует сначала выявлять группы по образованию, литературе и связям, а уже потом исследовать их общие обязательства. Он также уточняет: у ранних соперничающих школ тоже есть собственные общие основания. Зрелость отличается не простым появлением парадигмы из ничего, а характером общей практики, которая делает систематическое решение головоломок возможным.</p>"
+        },
+        "en": {
+          "section": "VIII · Progress",
+          "title": "A revolution for which group",
+          "body": "<p>A particular community remains the unit of this explanation. A revolutionary change within a small specialty may look to outsiders like an ordinary addition to knowledge. In the postscript Kuhn proposes identifying groups through training, literature and communication before investigating their shared commitments. He also clarifies that early rival schools have their own shared commitments. Maturity involves more than acquiring a paradigm from nothing: it concerns the character of shared practice that makes sustained puzzle-solving possible.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Финал",
+          "title": "Вопрос остаётся открытым",
+          "body": "<p>Книга оставляет открытым вопрос, которым заканчивается её основной аргумент: каким должен быть мир, чтобы такое развитие знания вообще было возможно? Кун описал чередование устойчивой работы и перестройки её оснований, связав успех науки с историей её сообществ. Но возможность всё новых точных решений требует объяснения не только человеческой организации, но и самой природы. Его очерк не претендует закрыть этот вопрос.</p>"
+        },
+        "en": {
+          "section": "Closing question",
+          "title": "The question remains open",
+          "body": "<p>The book leaves open the question that closes its main argument: what must the world be like for this development of knowledge to be possible at all? Kuhn has described sustained work alternating with the reconstruction of its foundations, connecting science’s success with the history of its communities. Yet the possibility of further precise solutions calls for an account of nature as well as human organization. His essay does not claim to close that question.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

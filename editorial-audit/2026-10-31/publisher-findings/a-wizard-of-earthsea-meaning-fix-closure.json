@@ -1,0 +1,227 @@
+{
+  "slug": "a-wizard-of-earthsea",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:13:25.159893+00:00",
+  "findings": [
+    "ESR-01",
+    "ESR-02"
+  ],
+  "changedScreens": [
+    "dragon-attention",
+    "vetch-voyage"
+  ],
+  "counts": {
+    "essential": 17,
+    "core": 24,
+    "deep": 28
+  },
+  "sourceCheck": "ESR-01/02: parent directly checked the NEA Big Read audio-guide transcript at Low Torning/Pendor, specifically the account that Ged’s shadow puts the islanders in danger, his decision to leave after securing protection, and the dragon’s offered knowledge of the shadow’s name. The Essential route now retains the cause of departure. Both languages say Ged does not yet know the name, rather than that the shadow objectively has none or that all means of learning it are impossible. The original independent review also checked the author’s chapter-10 recording and the EBSCO first-novel account; parent does not claim new listening/transcription or a full-novel reading. No ending is newly disclosed.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/a-wizard-of-earthsea-source-rescue.json",
+  "originalReviewSha256": "6f10a7df879322f6de7e0f3c85ede5f2f8b6be15134ea0504b651068012a8e2d",
+  "beforeHashes": {
+    "collector-output/a-wizard-of-earthsea/story-data.json": "6300f39db80db5d4c5d7ed781e69bf02585a0c678357bd30600f5c4c10674bfb",
+    "collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html": "51a323ffd67819b72c8b9072681890f5eb49cf3fd97e295b0576787f7ecd8a73",
+    "collector-output/a-wizard-of-earthsea/sources.md": "79c0a6c21bff79816c5982de45e7b8280e9060c4eca3f21dec4ad3d0fc35c77c",
+    "collector-output/a-wizard-of-earthsea/QA.md": "c804e699bb511396dab1de5500baed34459d77ee30eee80e3a5384db65098324"
+  },
+  "afterHashes": {
+    "collector-output/a-wizard-of-earthsea/story-data.json": "1374a57ca107e08ebb89ae3dc4c90817f0f6cb064a35f6797024e75f504acd2d",
+    "collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html": "4b6bd93cf14c9bb03104ae9596b400f17017f2d3c4fdb1c89ea63e121e757005",
+    "collector-output/a-wizard-of-earthsea/sources.md": "8f7ac345518f42d64f2658ec9970f44033e8e13db53b493f7aae391ba1ec9ed8",
+    "collector-output/a-wizard-of-earthsea/QA.md": "bb861671c9921e7d56691e1df66f0e64f19d924d6700bfb9ceec48d17edd8002"
+  },
+  "screensBefore": [
+    {
+      "id": "dragon-attention",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Дракон Пендора",
+          "body": "<p>Гед решает устранить угрозу драконов, прежде чем покинуть островитян. На Пендоре ему приходится встретиться и с молодыми драконами, и с их огромным древним отцом. Тот, кого издалека можно принять за часть башни, распрямляется среди развалин. Это Йевод. Гед знает его истинное имя и добивается клятвы не нападать на острова людей.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The Dragon of Pendor",
+          "body": "<p>Ged resolves to deal with the dragons before leaving the islanders. On Pendor he faces young dragons and their enormous ancient father. What looked from a distance like part of a tower uncurls among the ruins. This is Yevaud. Ged knows his true name and secures an oath not to attack the human islands.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "vetch-voyage",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "За пределами знакомого моря",
+          "body": "<p>Лодка «Дальновидная» уходит в открытое море. Позади остаются острова, на которых можно спросить дорогу или найти приют. Ветч держится рядом с другом, хотя не знает, что ждёт их в конце пути. Тень ещё не получила имени. Последний ответ нельзя получить ни у школьного учителя, ни в обмен на чужую клятву.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Beyond familiar waters",
+          "body": "<p>Lookfar sails into the open sea. Behind them are the islands where one could ask a way or find shelter. Vetch stays with his friend without knowing what awaits them. The shadow still has no name. The final answer cannot be obtained from a schoolmaster or exchanged for someone else’s oath.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "dragon-attention",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "Дракон Пендора",
+          "body": "<p>Из-за тени оставаться среди рыбаков опасно. Прежде чем уйти, Гед решает устранить угрозу драконов. На Пендоре ему приходится встретиться и с молодыми драконами, и с их огромным древним отцом. Тот, кого издалека можно принять за часть башни, распрямляется среди развалин. Это Йевод. Гед знает его истинное имя и добивается клятвы не нападать на острова людей.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "The Dragon of Pendor",
+          "body": "<p>The shadow makes it dangerous for Ged to stay among the fishermen. Before leaving, he resolves to deal with the dragons. On Pendor he faces young dragons and their enormous ancient father. What looked from a distance like part of a tower uncurls among the ruins. This is Yevaud. Ged knows his true name and secures an oath not to attack the human islands.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "vetch-voyage",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Земноморье",
+          "title": "За пределами знакомого моря",
+          "body": "<p>Лодка «Дальновидная» уходит в открытое море. Позади остаются острова, на которых можно спросить дорогу или найти приют. Ветч держится рядом с другом, хотя не знает, что ждёт их в конце пути. Гед всё ещё не знает имени тени.</p>"
+        },
+        "en": {
+          "section": "Earthsea",
+          "title": "Beyond familiar waters",
+          "body": "<p>Lookfar sails into the open sea. Behind them are the islands where one could ask a way or find shelter. Vetch stays with his friend without knowing what awaits them. Ged still does not know the shadow’s name.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 10",
+        "en": "Chapter 10"
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "NEA Big Read — Audio Guide, written transcript",
+      "url": "https://www.arts.gov/stories/other/wizard-earthsea-audio-guide",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитана стенограмма с разрешёнными отрывками романа: начало, вызов, восстановление, драконы и морская встреча. Комментарий участников отделён от авторского текста. Аудио NEA не прослушано.",
+        "en": "Read the transcript with authorised novel passages: opening, summoning, recovery, dragons and a sea encounter. Contributors’ commentary is distinguished from the novel. NEA audio was not listened to."
+      }
+    },
+    {
+      "id": 2,
+      "title": "NEA Big Read — Teacher’s Guide, lessons and handouts",
+      "url": "https://www.arts.gov/sites/default/files/Teachers-Guide-LeGuin.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Новое приобретение: прочитано руководство целиком. Событийные опоры и первичные отрывки, а не готовые ответы на вопросы или обязательная психологическая трактовка.",
+        "en": "New acquisition: the whole guide was read. Used for stated events and primary snippets, not as supplied answers to questions or a mandatory psychological interpretation."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Ursula K. Le Guin — author reading of the chapter-10 climax",
+      "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+      "role": "author",
+      "note": {
+        "ru": "Официальная запись 13.12.2007: кульминационная сцена главы 10, около 11 минут. Получена запись и прочитана локальная автоматическая транскрипция; имена сверены с текстовыми источниками. Это отрывок, не вся глава или книга. Содержит финал.",
+        "en": "Official recording dated 13 December 2007: the chapter-10 climax, about 11 minutes. Recording obtained and its local automatic transcript read; names checked against textual references. An extract, not the whole chapter or book. Contains the ending."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Terry Heller — A Wizard of Earthsea, EBSCO Research Starter",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/wizard-earthsea-ursula-k-le-guin",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан полный открытый справочный разбор, особенно событийный раздел: ребёнок, Терренон, совет Огиона и завершение. Это посреднический источник, не роман.",
+        "en": "Read the full public reference article, especially its event account: the child, Terrenon, Ogion’s advice and resolution. An intermediary, not the novel."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Carol D. Stevens — The Earthsea Series, EBSCO Research Starter",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/earthsea-series-ursula-k-le-guin",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан раздел The Story о первом романе: ранний вызов, служение, бегство ястребом, возвращение и Ветч. Продолжения в историю первой книги не перенесены.",
+        "en": "Read the first novel’s section of The Story: early summoning, service, hawk escape, return and Vetch. Sequels are not imported into this account."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Короткий пересказ своими словами. Прочитаны стенограмма NEA с разрешёнными отрывками романа, Teachers’ Guide NEA и открытые справочные событийные разборы EBSCO. Новая первичная опора финала — официальная авторская запись кульминации главы 10: получена запись и прочитана локальная автоматическая транскрипция, а не проведено прослушивание человеком. Полный роман, послесловие 2012 года и конкретный русский перевод не прочитаны. Сохранённая цепочка проверена в пределах этих материалов; полная верность изданию не заявляется. Разгадка и исход — только в Deep. Внешние источники могут раскрывать финал.",
+    "en": "An original-word concise retelling. Read the NEA transcript with authorised novel passages, the NEA Teacher’s Guide and public EBSCO event/reference accounts. New primary support for the ending is the official author recording of the chapter-10 climax: the recording was obtained and a local automatic transcript read, rather than human listening. The complete novel, 2012 afterword and a specific Russian translation were not read. The retained chain was checked within those materials; complete-edition fidelity is not claimed. The answer and outcome are exclusive to Deep. External sources may reveal the ending."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html",
+    "format": "v2",
+    "bytes": 304221,
+    "screenCount": 28,
+    "levels": {
+      "1": 17,
+      "2": 7,
+      "3": 4
+    },
+    "modes": {
+      "essential": 17,
+      "core": 24,
+      "deep": 28
+    },
+    "words": {
+      "ru": 1335,
+      "en": 1544
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "pass",
+    "combinedAssertions": 128,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-ostrom-earthsea-toc-history-browser.json"
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

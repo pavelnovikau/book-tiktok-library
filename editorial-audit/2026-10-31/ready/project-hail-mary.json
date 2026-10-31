@@ -1,0 +1,125 @@
+{
+  "slug": "project-hail-mary",
+  "status": "ready-for-independent-check",
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/story-data.json",
+      "canonicalPath": "collector-output/project-hail-mary/story-data.json",
+      "sha256": "3deaf06e4fee9ac34f7929034b6dff6bc9704ae6b932d1d3dfd4a484b8d3be97",
+      "bytes": 59627
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/project-hail-mary.html",
+      "canonicalPath": "collector-output/project-hail-mary/project-hail-mary.html",
+      "sha256": "1aed1f7662ef9f87857db0356c6cb963111504989fd01209a5ebbec33c4e1895",
+      "bytes": 304152
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/sources.md",
+      "canonicalPath": "collector-output/project-hail-mary/sources.md",
+      "sha256": "b51d9b04f3e95b7ed790e48f7431ea1585133976d421b7413e301ad151d81ba5",
+      "bytes": 15258
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/QA.md",
+      "canonicalPath": "collector-output/project-hail-mary/QA.md",
+      "sha256": "7f688a59d6e36ef7c2fe794996204802a0d1c9b94299ca27f95b69396c6df7a6",
+      "bytes": 4171
+    }
+  ],
+  "counts": {
+    "essential": 8,
+    "core": 13,
+    "deep": 36
+  },
+  "previousActualPairs": 0,
+  "obsoletePlannedCounts": {
+    "essential": 24,
+    "core": 60,
+    "deep": 96
+  },
+  "screenPairs": 36,
+  "contentMode": "narrative",
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/project-hail-mary.md",
+  "report": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/project-hail-mary.md",
+    "canonicalPath": "editorial-audit/2026-10-31/books/project-hail-mary.md",
+    "sha256": "b6b50b047c7232e3ce8405aebf584d6d407f70c713218866c8bf51138d43f08a",
+    "bytes": 9136
+  },
+  "acquisitionEvidence": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/project-hail-mary.md",
+    "canonicalPath": "editorial-audit/2026-10-31/source-rescue/project-hail-mary.md",
+    "sha256": "4ae70021015fffedf85b40b1a2e5fcbb109546fcc3870f0f4a1ee5ca7e56c218",
+    "bytes": 10025
+  },
+  "sourceScope": {
+    "completeBookRead": false,
+    "translationCollated": false,
+    "actualRead": "Complete official Chapters 1–3 sample; eight-page Amy Jurskis official teacher guide; reader-kit interview/mechanism and inspected schematic; actual PRH author interview; six public detailed commercial guide sections covering Chapters 5–30; selected AMA author answers; four accessible additional chapter checks.",
+    "sufficiency": "Retained action-level map in acquisition report. Teacher questions are not answers; secondary chronology is identified. No whole-book certificate."
+  },
+  "changes": [
+    "Source-only record now has first 36-pair narrative reader",
+    "Old proposed 24/60/96 quota replaced with actual 8/13/36",
+    "Strict opening-only Essential/Core and generic Deep navigation preserved",
+    "Repaired several overview errors by using detailed sequence and actual publisher/author material",
+    "New original hatch SVG replaces generic analytical cover"
+  ],
+  "checks": {
+    "structure": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browserScreenVisits": 912,
+    "runtimeExceptions": 0,
+    "httpRuntimeRequests": 0,
+    "embeddedCorpusEqualsCanonical": true,
+    "profileCleanup": true,
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/project-hail-mary.html",
+      "format": "v2",
+      "bytes": 304152,
+      "screenCount": 36,
+      "levels": {
+        "1": 8,
+        "2": 5,
+        "3": 23
+      },
+      "modes": {
+        "essential": 8,
+        "core": 13,
+        "deep": 36
+      },
+      "words": {
+        "ru": 1574,
+        "en": 1744
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 160,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json"
+    }
+  },
+  "unresolvedIssues": [
+    "Independent content/source-sufficiency review pending",
+    "No continuous complete edition or published-translation certificate",
+    "Physical iPhone/Safari not tested"
+  ],
+  "publicationAuthorizedByThisRecord": false,
+  "parentCorrections": {
+    "findings": [
+      "PHM-SR-001"
+    ],
+    "changedScreens": [
+      "deep-an-attempt-to-help"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/project-hail-mary-meaning-fix-closure.json"
+  }
+}

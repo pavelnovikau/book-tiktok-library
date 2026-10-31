@@ -20,7 +20,7 @@ Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` 
 ## Add a book
 
 External contributors can fork the repository and open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the exact contract.
-The agreed 21-book Maximum-density expansion is tracked in [BOOK_PLAN.md](BOOK_PLAN.md).
+The current 25-book Maximum-density expansion is tracked in [BOOK_PLAN.md](BOOK_PLAN.md).
 
 The complete reusable Codex skill lives in [`skills/book-tiktok`](skills/book-tiktok). It includes the research/content contract, portable RU/EN reader template, embedded Geist fonts, example story data, builder and deterministic auditor. To install it, ask Codex to install the skill from:
 

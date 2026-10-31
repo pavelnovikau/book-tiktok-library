@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -734,6 +734,12 @@
             '<path class="art-bold" d="M145 122 L180 94 L220 103 L262 69"/>' +
             '<rect class="art-fill" x="139" y="116" width="12" height="12" rx="2"/><rect class="art-fill" x="174" y="88" width="12" height="12" rx="2"/><rect class="art-fill" x="214" y="97" width="12" height="12" rx="2"/>' +
             '<path class="art-line" d="M252 65 L270 65 L264 82"/>';
+        } else if (motif === 'body-map') {
+          content = '<path class="art-quiet" d="M232 39 L205 72 M232 39 L263 70 M232 39 L238 104 M238 104 L211 148 M238 104 L270 148"/>' +
+            '<circle class="art-ink-soft" cx="232" cy="34" r="13"/><circle class="art-ink-soft" cx="205" cy="72" r="6"/><circle class="art-ink-soft" cx="263" cy="70" r="6"/><circle class="art-ink-soft" cx="238" cy="104" r="9"/><circle class="art-ink-soft" cx="211" cy="148" r="6"/><circle class="art-ink-soft" cx="270" cy="148" r="6"/>' +
+            '<path class="art-bold" d="M249 34 C238 54 225 68 230 91 C234 112 252 122 258 148 M249 34 C259 56 274 68 284 91"/>' +
+            '<circle class="art-fill" cx="249" cy="34" r="7"/><circle class="art-fill" cx="230" cy="91" r="6"/><circle class="art-fill" cx="258" cy="148" r="7"/><circle class="art-fill-soft" cx="238" cy="104" r="24"/>' +
+            '<path class="art-line" d="M202 72 C219 68 237 72 249 84 M270 148 C259 137 247 128 238 104"/>';
         } else {
           content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +

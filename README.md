@@ -10,17 +10,21 @@ Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` 
 
 ## How it works
 
-- `books.json` is the catalogue and the single place that lists books and genres.
-- `index.html` reads the catalogue and automatically builds the cards, book/screen counters and genre filters.
+- `books.json` is the catalogue and the single place that lists books, sections, tags and collections.
+- `index.html` reads the catalogue and automatically builds section shelves, cards, search, filters and book/screen/section counters.
 - Every book remains a standalone HTML file and can be opened without the library shell.
+- `manifest.webmanifest` and `sw.js` let the site run as an iOS/Android Home Screen app. The shell and catalogue are cached immediately; book HTML is cached after it is opened.
+- `scripts/apply-reader-shell.mjs` adds the shared focus mode and optional PWA metadata to registered books. Focus mode toggles by tapping non-interactive text; only the reading content and Next remain.
 - A push to `main` deploys the production site through Vercel. Pull requests run validation and can receive Vercel previews.
 
 ## Add a book
 
 External contributors can fork the repository and open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the exact contract.
+The agreed 21-book Maximum-density expansion is tracked in [BOOK_PLAN.md](BOOK_PLAN.md).
 
 ```bash
 npm run check
+npm run sync:readers
 python3 -m http.server 8000
 ```
 

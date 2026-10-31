@@ -1,119 +1,113 @@
 {
-  "schema": 1,
-  "genres": [
+  "schema": 2,
+  "sections": [
     {
-      "id": "history",
-      "label": {
-        "ru": "История",
-        "en": "History"
-      }
+      "id": "risk-decisions",
+      "label": { "ru": "Риск и решения", "en": "Risk and decisions" },
+      "description": { "ru": "Неопределённость, асимметрия и цена выбора.", "en": "Uncertainty, asymmetry and the price of choice." }
     },
     {
-      "id": "management",
-      "label": {
-        "ru": "Управление",
-        "en": "Management"
-      }
+      "id": "systems-work",
+      "label": { "ru": "Системы и работа", "en": "Systems and work" },
+      "description": { "ru": "Поток, ограничения, внимание и способы работать лучше.", "en": "Flow, constraints, attention and better ways to work." }
     },
     {
-      "id": "ai-strategy",
-      "label": {
-        "ru": "AI и стратегия",
-        "en": "AI and strategy"
-      }
+      "id": "human-behavior",
+      "label": { "ru": "Человек и поведение", "en": "Human and behavior" },
+      "description": { "ru": "Биология, культура и механизмы наших поступков.", "en": "Biology, culture and the mechanisms behind our actions." }
     },
     {
-      "id": "science-fiction",
-      "label": {
-        "ru": "Научная фантастика",
-        "en": "Science fiction"
-      }
+      "id": "consciousness-calm",
+      "label": { "ru": "Сознание и спокойствие", "en": "Consciousness and calm" },
+      "description": { "ru": "Внимание, эго, медитация и внутренняя устойчивость.", "en": "Attention, ego, meditation and inner steadiness." }
+    },
+    {
+      "id": "health-protocols",
+      "label": { "ru": "Здоровье и протоколы", "en": "Health and protocols" },
+      "description": { "ru": "Физиология, стресс и практики с границами доказательности.", "en": "Physiology, stress and practices with explicit evidence limits." }
+    },
+    {
+      "id": "history-power-strategy",
+      "label": { "ru": "История, власть и стратегия", "en": "History, power and strategy" },
+      "description": { "ru": "Как кризисы, институты и стратегия меняют мир.", "en": "How crises, institutions and strategy change the world." }
+    },
+    {
+      "id": "technology-future",
+      "label": { "ru": "Технологии и будущее", "en": "Technology and future" },
+      "description": { "ru": "AI, агенты и новые экономические системы.", "en": "AI, agents and emerging economic systems." }
+    },
+    {
+      "id": "fiction-adventure",
+      "label": { "ru": "Фантастика и приключения", "en": "Fiction and adventure" },
+      "description": { "ru": "Миры, путешествия и идеи, которые лучше прожить как историю.", "en": "Worlds, journeys and ideas best experienced as stories." }
     }
+  ],
+  "collections": [
+    { "id": "for-son", "label": { "ru": "Сыну · 14+", "en": "For my son · 14+" } },
+    { "id": "taleb", "label": { "ru": "Талеб", "en": "Taleb" } },
+    { "id": "sapolsky", "label": { "ru": "Сапольски", "en": "Sapolsky" } },
+    { "id": "practices", "label": { "ru": "Практики", "en": "Practices" } }
   ],
   "books": [
     {
       "slug": "1873",
       "file": "1873.html",
-      "genre": "history",
+      "section": "history-power-strategy",
+      "tags": ["history", "economics", "finance", "crisis"],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
       "screenCount": 57,
-      "title": {
-        "ru": "1873",
-        "en": "1873"
-      },
-      "author": {
-        "ru": "Лиакват Ахамед",
-        "en": "Liaquat Ahamed"
-      },
+      "title": { "ru": "1873", "en": "1873" },
+      "author": { "ru": "Лиакват Ахамед", "en": "Liaquat Ahamed" },
       "description": {
         "ru": "Как железные дороги, дешёвый кредит, дефляция и крах в Вене запустили первый по-настоящему мировой экономический кризис — и собрали современный мир.",
         "en": "How railways, cheap credit, deflation and the crash in Vienna triggered the first truly global economic crisis — and assembled the modern world."
       },
-      "readingMinutes": {
-        "essential": 9,
-        "core": 20,
-        "deep": 30
-      },
+      "readingMinutes": { "essential": 9, "core": 20, "deep": 30 },
       "cover": {
         "type": "year",
         "mark": "1873",
-        "label": {
-          "ru": "Первая великая депрессия",
-          "en": "The first great depression"
-        }
+        "label": { "ru": "Первая великая депрессия", "en": "The first great depression" }
       }
     },
     {
       "slug": "theory-of-constraints",
       "file": "theory-of-constraints.html",
-      "genre": "management",
+      "section": "systems-work",
+      "tags": ["management", "operations", "systems", "flow"],
+      "collections": ["practices"],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
       "screenCount": 96,
-      "title": {
-        "ru": "Теория ограничений",
-        "en": "Theory of Constraints"
-      },
-      "author": {
-        "ru": "Элияху Голдратт · корпус TOC",
-        "en": "Eliyahu Goldratt · the TOC corpus"
-      },
+      "title": { "ru": "Теория ограничений", "en": "Theory of Constraints" },
+      "author": { "ru": "Элияху Голдратт · корпус TOC", "en": "Eliyahu Goldratt · the TOC corpus" },
       "description": {
         "ru": "Как найти одно ограничение системы, подчинить ему поток, перестать оптимизировать локальные показатели и превратить улучшение в непрерывный процесс.",
         "en": "How to find the system’s one constraint, subordinate the flow to it, stop optimising local metrics and turn improvement into a continuous process."
       },
-      "readingMinutes": {
-        "essential": 12,
-        "core": 30,
-        "deep": 55
-      },
+      "readingMinutes": { "essential": 12, "core": 30, "deep": 55 },
       "cover": {
         "type": "constraint",
-        "label": {
-          "ru": "Поток важнее занятости",
-          "en": "Flow beats busyness"
-        }
+        "label": { "ru": "Поток важнее занятости", "en": "Flow beats busyness" }
       }
     },
     {
       "slug": "hermes-nous",
       "file": "hermes-nous.html",
-      "genre": "ai-strategy",
+      "section": "technology-future",
+      "tags": ["ai", "agents", "strategy", "open-models"],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
       "screenCount": 50,
-      "title": {
-        "ru": "Hermes & Nous",
-        "en": "Hermes & Nous"
-      },
-      "author": {
-        "ru": "Разбор Мефистофеля · Observatory",
-        "en": "Mefistofel’s brief · Observatory"
-      },
+      "title": { "ru": "Hermes & Nous", "en": "Hermes & Nous" },
+      "author": { "ru": "Разбор Мефистофеля · Observatory", "en": "Mefistofel’s brief · Observatory" },
       "description": {
         "ru": "Как лаборатория из Discord раздаёт модели и агента бесплатно, стоит $1,5 млрд — и почему вместо ещё одного агента полезнее строить пульт для чужих.",
         "en": "How a lab born on Discord gives away its models and agent for free, is worth $1.5B — and why the useful move is a console for other people’s agents."
       },
-      "readingMinutes": {
-        "essential": 9,
-        "core": 18,
-        "deep": 25
-      },
+      "readingMinutes": { "essential": 9, "core": 18, "deep": 25 },
       "cover": {
         "type": "split",
         "left": "Hermes",
@@ -125,28 +119,20 @@
     {
       "slug": "akselerando",
       "file": "akselerando.html",
-      "genre": "science-fiction",
+      "section": "fiction-adventure",
+      "tags": ["science-fiction", "singularity", "ai", "future"],
+      "collections": [],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
       "screenCount": 104,
-      "title": {
-        "ru": "Акселерандо",
-        "en": "Accelerando"
-      },
-      "author": {
-        "ru": "Чарльз Стросс",
-        "en": "Charles Stross"
-      },
+      "title": { "ru": "Акселерандо", "en": "Accelerando" },
+      "author": { "ru": "Чарльз Стросс", "en": "Charles Stross" },
       "description": {
         "ru": "Сингулярность как смена экономики, а не восстание машин: три поколения семьи Макс, загруженные лангусты, Экономика 2.0 и кот, который видел всю доску.",
         "en": "The singularity as a change of economy, not a machine uprising: three generations of the Macx family, uploaded lobsters, Economics 2.0 and a cat that saw the whole board."
       },
-      "readingMinutes": {
-        "essential": 11,
-        "core": 26,
-        "deep": 37
-      },
-      "cover": {
-        "type": "typographic"
-      }
+      "readingMinutes": { "essential": 11, "core": 26, "deep": 37 },
+      "cover": { "type": "typographic" }
     }
   ]
 }

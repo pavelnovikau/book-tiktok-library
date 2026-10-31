@@ -1,0 +1,116 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "hard-to-be-a-god.html": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+    "story-data.json": "a08671c0640cb4718d0469da791ab98abf20481d0d3f5c87fd0e69c5be67d60c"
+  },
+  "lastEvaluate": "[...Array(localStorage.length)].map((_,i)=>localStorage.key(i)).filter(k=>/consent/i.test(k))",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "pickerCancel": {
+    "open": true,
+    "mode": "essential",
+    "cancelFocused": true
+  },
+  "savedDeep": {
+    "paths": 188,
+    "bad": [],
+    "scope": "BFCache pageshow emulation for every level-3 ID, both languages and lower modes"
+  },
+  "actualDowngrade": [
+    {
+      "lang": "ru",
+      "lower": "essential",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "ru",
+      "lower": "core",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "en",
+      "lower": "essential",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "en",
+      "lower": "core",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    }
+  ],
+  "realReloads": [
+    {
+      "lang": "ru",
+      "mode": "essential",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "ru",
+      "mode": "core",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "en",
+      "mode": "essential",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "en",
+      "mode": "core",
+      "generic": true,
+      "safe": true,
+      "open": true
+    }
+  ],
+  "savedModeReset": {
+    "mode": "essential",
+    "noTitle": true
+  },
+  "explicitEntry": true,
+  "consentEscapeClosed": true,
+  "interactions": {
+    "languageKeepsId": true,
+    "settingsKeepId": true,
+    "settingsKeepScroll": true,
+    "focusOn": true,
+    "focusPaging": true,
+    "focusOff": true,
+    "keyboardBack": true,
+    "syntheticSwipe": true,
+    "restartClears": true
+  },
+  "invalidIdStarts": true,
+  "persistedConsentKeys": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "processGroupTerminated": true
+}

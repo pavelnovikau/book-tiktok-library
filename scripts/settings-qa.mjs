@@ -211,7 +211,7 @@ try {
     assert(await evaluate("BookSettings.set('readingFont','sans'); document.documentElement.dataset.readingFont==='sans'"), 'Cached Sans applies synchronously');
     assert(await evaluate("BookSettings.set('readingFont','serif'); document.documentElement.dataset.readingFont==='serif'"), 'Cached Serif applies synchronously');
 
-    for (const reviewedBook of ['1873.html','theory-of-constraints.html','hermes-nous.html']) {
+    for (const reviewedBook of [...new Set(['1873.html','theory-of-constraints.html','hermes-nous.html',...qaBooks.map(book=>book.file)])]) {
       await navigate(reviewedBook);
       await evaluate(start);
       await press('ArrowRight', 'ArrowRight', 39);
@@ -259,7 +259,7 @@ try {
     assert(Number(all.stats[0].match(/\d+/)[0]) === catalogue.books.length && Number(all.stats[1].match(/\d+/)[0]) === catalogue.books.reduce((n,b)=>n+b.screenCount,0), 'statistics strip');
     assert(Math.max(...all.tabs) - Math.min(...all.tabs) <= 1, 'equal tabs');
     const saved = [];
-    for (const book of [catalogue.books.find(b=>b.slug==='essentialism'), catalogue.books.find(b=>b.file==='1873.html'), catalogue.books.find(b=>b.file==='theory-of-constraints.html'), catalogue.books.find(b=>b.file==='hermes-nous.html')]) {
+    for (const book of [...new Map([...['essentialism.html','1873.html','theory-of-constraints.html','hermes-nous.html'].map(file=>catalogue.books.find(b=>b.file===file)),...qaBooks].map(book=>[book.file,book])).values()]) {
       await navigate(book.file);
       assert(await evaluate("BookSettings.get().theme === 'light' && BookSettings.get().readingFont === 'serif' && document.documentElement.dataset.theme === 'light'"), `${book.file}: global preferences`);
       await evaluate(`${start}; document.querySelector('#nextButton, #btn-next').click()`);

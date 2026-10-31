@@ -1,0 +1,418 @@
+{
+  "phase": "release-consent",
+  "origin": "owned-local-CDP-fixtures",
+  "checks": [
+    {
+      "book": "howls-moving-castle.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "howls-moving-castle.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "northern-lights.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "northern-lights.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "enders-game.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "enders-game.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "to-kill-a-mockingbird.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "to-kill-a-mockingbird.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-hobbit.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-hobbit.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "holes.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "holes.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "have-space-suit-will-travel.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "have-space-suit-will-travel.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    }
+  ],
+  "nativeDialogs": [
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает решающие события и развязку «Игры Эндера». Продолжить со спойлерами?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает решающие события и развязку «Игры Эндера». Продолжить со спойлерами?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает решающие события и развязку «Игры Эндера». Продолжить со спойлерами?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает решающие события и развязку «Игры Эндера». Продолжить со спойлерами?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals the decisive events and ending of Ender’s Game. Continue with spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals the decisive events and ending of Ender’s Game. Continue with spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals the decisive events and ending of Ender’s Game. Continue with spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals the decisive events and ending of Ender’s Game. Continue with spoilers?",
+      "accepted": true
+    }
+  ],
+  "customDialogs": [
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Дальше — поздние ответы и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Дальше — поздние ответы и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Дальше — поздние ответы и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Дальше — поздние ответы и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Late answers and ending ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Late answers and ending ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Late answers and ending ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Late answers and ending ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / Continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep · приговор и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep · приговор и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep · приговор и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep · приговор и финал"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep · verdict and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep · verdict and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep · verdict and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep · verdict and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Дальше будут спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Дальше будут спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Дальше будут спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Дальше будут спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep: развязки"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep: развязки"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep: развязки"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep: развязки"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep: story outcomes"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep: story outcomes"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Deep: story outcomes"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Deep: story outcomes"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "endingDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    }
+  ],
+  "physicalIPhone": false,
+  "runtimeErrors": 0
+}

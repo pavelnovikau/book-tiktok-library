@@ -1,124 +1,34 @@
-# The Hobbit — collector QA
+# The Hobbit — implementation QA, source rescue 2026-10-31
 
-Date: 2026-10-31. Result: PASS after cold-review remediation, within the browser/emulation boundaries below.
+Status: **ready-for-independent-check**. This worker has not performed an independent review or certified publication. The earlier SOURCE-GAP audit remains preserved with a dated rescue addendum; previous technical PASS claims are superseded for this package.
 
-## Package and scope
+- Replaced 144-pair analytical companion with 35 narrative RU/EN pairs; exact nested counts **15 / 23 / 35**, including cover/final. RU/dark/Essential defaults. Approximately 5 / 7 / 10 minutes RU and 4 / 7 / 10 minutes EN under the maintained builder's rule.
+- Source scope: actual current Ballantine chapter-1 opening plus Foster's substantial publisher guide to chapters 1–19. No complete novel or translation collation. See `sources.md` and the acquisition evidence map.
+- Maintained `build_story.mjs` used; book-local spoiler dialog, session-scoped consent, guarded depth/resume navigation, generic saved labels and typographic identity preserved in the rebuilt reader. Maintained `apply-reader-shell.mjs` invoked with this collector HTML only. Shared files/root/catalogue were not edited.
+- Narrative mode hides per-screen research footers. Sources and method remain in the dialog. No mandatory lessons/exercises, invented dialogue, lyrics or page numbers.
+- Deterministic HTML audit and parsed embedded-corpus equality checked. Full exact results and hashes are recorded in the ready manifest/report.
+- Offline Chrome traversal at 320×568, 390×844, 1024×768 and 1440×900, both themes/languages/all depths: **1,168 screen visits**; title/body equality, exact mode counters, final/restart, horizontal overflow and Next reachability checked. Zero runtime exceptions and zero HTTP(S) runtime requests. Both embedded fonts loaded.
+- Fresh Deep consent, cancel, no premature hidden titles, saved-Deep reopen in Essential, generic resume and a new gate before restore checked. Focus toggle/exit and Sources checked; compact icon-only single-row header checked after its mutation observer settled. Native Safari/PWA on a physical phone was not tested.
+- 320 and 1440 EN-light narrative screenshots visually inspected: legible text, one compact header, visible Next, synchronized rail at desktop. All screenshot/QA artifacts remain in the separate private audit directory. Unique timeout30 Chrome process group terminated and mktemp profile removed in finally.
 
-Exactly four deliverables in `collector-output/the-hobbit/`:
+Literary review: the worker read the 144 intake pairs, found JSON/root literary parity at this pass, wrote/read all 35 replacement pairs and checked each nested narrative. Implementation source checking is not independent PASS. Exact edition texture remains limited by source scope; no promise of full-text fidelity.
 
-- `the-hobbit.html` — portable reader, embedded content/CSS/JavaScript/fonts.
-- `story-data.json` — schema v2 bilingual content and source IDs.
-- `sources.md` — evidence boundary, prior claim map, source ledger, rights notes.
-- `QA.md` — this report.
+Final retained-claim pass excluded the unverified exact pocket-question/leap, precise troll voice trick, Beorn animal form and auction cause. `b-trolls` remains in Essential so the announced capture is resolved before Rivendell; the modes stay nested and no decisive ending moves outside Deep. Builder word totals (title/subtitle/body) are RU/EN 742/878, 1,119/1,327 and 1,726/2,057.
 
-The collector itself was built without editing the catalogue, shared template or another collector. The reviewed package was subsequently promoted into the library as `the-hobbit.html`; catalogue integration is verified separately below.
 
-Built using the skill’s maintained `build_story.mjs`. Book-local additions to the generated HTML implement explicit spoiler consent and safe saved-position labels, a typographic cover, chapter anchors, descriptive provenance labels, accessible dialog names, compact desktop cover sizing, reduced-motion rendering, and focus-mode corrections (hide counter/citations, retain Next even on cover). The maintained theme tokens were inherited; shared theme/source work was not edited. A plain rebuild from JSON alone would need these reader customizations reapplied before replacing the shipped HTML.
+## Parent repair of HOB-SR-001–006 — 2026-10-31
 
-## Exact counts, words and estimates
+Parent repair, not independent acceptance. The older review bound a 14/23/35 candidate. The implementation worker subsequently promoted the already present troll rescue to Essential (15/23/35) and removed the unsupported exact voice trick/pocket-question/leap. Those existing changes already close HOB-SR-001 and part of HOB-SR-004; they must not be falsely attributed to this parent pass or treated as the old reviewed hashes.
 
-Counts include the cover and final screen. Levels: 36 at level 1, 54 at level 2, 54 at level 3. Modes are nested filters of one ordered 144-screen corpus.
+Parent read all 35 current RU/EN pairs and directly checked Foster’s publisher-guide chapter summaries 12–14 and 18, plus their narrow quoted/scene references. HOB-SR-002 moves the explicitly second-hand detailed battle outcome after Thorin’s final conversation. HOB-SR-003 gives the level-2 retreat screen a neutral title/body; the specific vulnerability is described only within warned Deep before Bard uses it. Counts and levels remain 15/23/35.
 
-| Mode | Visible screens | RU words | RU minutes | EN words | EN minutes |
-| --- | ---: | ---: | ---: | ---: | ---: |
-| Essential | 36 | 1,742 | 10 | 1,944 | 9 |
-| Core | 90 | 4,328 | 25 | 4,915 | 23 |
-| Deep | 144 | 6,872 | 39 | 7,840 | 36 |
+HOB-SR-004 now aligns the RU riddle agreement with EN, and does not restore the already omitted precise mechanisms. The current acquisition map no longer claims that Foster described an exact pocket-question/physical leap. HOB-SR-005 removes the unsupported specific reward topic from Smaug’s speech. HOB-SR-006 replaces collective omniscient ignorance with continuing danger and adds the supported suspicion of Lake-town’s assistance before the attack.
 
-Word counts use the builder’s Unicode word rule and include screen titles, cover subtitle and bodies; navigation, source notes and chapter labels are excluded. Estimates use 180 RU / 220 EN words per minute, rounded up. Bedtime pauses or reading aloud take longer.
+Source 3 is Caroline Batten’s Oxford 2021 Narrative Summary, printed pp.1–2, actually checked by the original independent reviewer. It supports the retained attack-target causal link; it is not Tolkien primary prose. Parent repeat web retrieval and ordinary direct HTTPS download timed out, so no new direct Oxford reading is claimed. No expired Glasgow Estate extract or unofficial full text was accessed. Source roles and this access limit remain explicit.
 
-Body density: RU 37–47 words per screen (mean 42.13); EN 42–62 (mean 47.68). English is approximately 14% longer by total words; manual parity review found no omitted facts or qualifications. The auditor’s body/title totals are 6,865 RU / 7,832 EN because it excludes the cover subtitle.
+Only seven screen records plus the new source/method disclosure changed here. Other current pairs, levels, cover/media and unrelated runtime remain unchanged. Parent subsequently repaired the lifetime of the existing spoiler approval, its cap on downgrade and the neutral explicit Deep resume label; existing dialogs, routing, focus and presentation are retained. Original independent review and writer report are preserved. Because the candidate had changed after the older review, this version requires a fresh independent full-route check before publisher acceptance; it is not a parent self-issued PASS.
 
-Provenance: 59 book-event/image screens, 9 context/corroboration screens, 76 synthesis screens (including the cover and final). All 144 screens have source IDs; 10 distinct sources. No external media or protected cover/artwork; image-decode checks are inapplicable. The cover is original typography, not a reproduced jacket.
 
-## Cold-review remediation
+Focused runtime finding: the first parent browser run exposed sessionStorage approval surviving downgrade/reload (preserved in parent-hobbit-pass2-before-consent-repair.json). Approval is now in-memory only, legacy permission removed on load, capped to the selected shallower depth, and a hidden late bookmark uses the explicit generic Deep spoiler label. Fresh review and focused rerun remain required.
 
-An independent cold review read the skill, references, all four files and all 144 RU/EN screens. Its verdict was READY WITH FIXES. The package was corrected before catalogue integration:
-
-- Removed unsupported specifics about Fíli and Kíli’s final defence, Thorin’s burial objects, Bilbo’s exact chests and the precise mechanics of the 1937 Gollum bargain. The evidence disclosure now says the publisher guide supports event structure, not every detail.
-- Corrected chapter anchors: departure to chapter 2, the final support from Lake-town to chapters 10–11, the confrontation to chapter 17, and Bilbo’s loss of consciousness/outcome to chapters 17–18.
-- Reclassified four interpretive screens (`a-voice-nearby`, `c-rest`, `h-elvenking`, `k-self-naming`) as synthesis and made their interpretive status explicit in both languages.
-- Replaced two semantic duplicates with distinct reader tools: a consequence map and a return test, preserving the agreed 36 / 90 / 144 nested counts.
-- Corrected the Russian ring wording from an invisible “owner” to the person wearing it. RU/EN parity was rechecked after the change.
-
-The source ledger records these removals and the narrower fidelity claim. The normalized JSON was re-injected into the customized reader rather than replacing the spoiler gates, focus behavior or mobile additions with a plain template rebuild.
-
-## Skill audit
-
-Command: `node audit_story_html.mjs the-hobbit.html --min-screens 144 --require-bilingual` using the skill’s installed auditor.
-
-Post-review result: 68 passes, 0 warnings, 0 failures. Exact metadata/corpus/target counts: 36 / 90 / 144. Unique stable IDs, RU/EN copy, valid source IDs, correct cover/final placement, responsive hooks and offline invariants pass. Embedded screens are byte-equivalent as parsed JSON objects to the source JSON screens. HTML contains no private filesystem paths, file URLs or temporary-profile paths.
-
-## Browser matrix
-
-Local Playwright-driven Chromium, opening the final standalone HTML through file navigation with offline mode enabled and HTTP/HTTPS interception. Each row covers both languages, all three depths, and normal/focus reading.
-
-| Viewport | Themes | Complete screen visits | Result |
-| --- | --- | ---: | --- |
-| 320 × 568 | light + dark | 2,160 | PASS |
-| 390 × 844 | light + dark | 2,160 | PASS |
-| 768 × 1024 | light + dark | 2,160 | PASS |
-| 1440 × 900 | light + dark | 2,160 | PASS |
-| 1024 × 768 (additional skill orientation) | light + dark | 2,160 | PASS |
-
-Required four sizes: 8,640 visits. Including additional orientation: 10,800 visits. Every visit asserted matching localized title, valid selected-mode position, exact mode count, zero page or reading-area horizontal overflow, and no outer-page vertical overflow. Long reading bodies remain internally vertically scrollable; this is intentional at 320 × 568. Focus visits also asserted hidden chrome/counter and a visible, safe, at-least-44px Next target. Normal visits asserted topbar controls stay within bounds and desktop rail appears at the intended breakpoint.
-
-Both embedded font faces loaded offline. Zero runtime/page exceptions, unexplained console errors or attempted HTTP/HTTPS runtime requests in the matrix. No runtime fetch/XHR/WebSocket/EventSource/service-worker dependencies are present. Source links are optional external exits.
-
-## Functional checks
-
-39 navigation/spoiler/focus assertions passed:
-
-- Russian/dark/Essential fresh default; Essential contents expose no Deep death-title.
-- Core and Deep warnings appear before depth changes; Cancel and Escape preserve the previous mode.
-- Consent is scoped to the session. A saved Deep position without consent reopens safely in Essential, with a generic Continue label and a fresh gate before restoring Deep.
-- Hidden remembered-screen navigation raises depth only after consent.
-- Language/theme switching preserves stable screen ID; Continue restores progress; Start over selects first content; final Restart clears the bookmark.
-- Chapters and Sources dialogs work, including all 10 links and localized method text.
-- Inline citations open Sources.
-- Next/Back, arrows, Page keys, Space, pointer swipe and chapter selection work.
-- Tap toggles focus; a second tap and Escape restore chrome; F toggles it.
-- Focus survives paging; vertical drag and horizontal swipe do not become accidental focus taps.
-- At desktop width, the rail is visible, scrollable, synchronized to active screen, and hidden in focus.
-- Home control has localized accessible labels and the exact required `href="./"`. Clicking navigates to the host directory.
-
-8 additional touch/selection/rapid-switch assertions passed: actual emulated touchscreen tap/second tap, ignored long press, ignored existing text selection, citation interaction without focus toggle, rapid RU/EN + theme switching with correct final state and resolved light-theme text contrast.
-
-9 iOS/standalone-emulation assertions passed: guide automatically opens once in iPhone browser emulation; exact Share → Add to Home Screen route is localized; relaunch-from-Home-Screen advice is present; manual trigger works; focus hides trigger/guide; emulated installed mode suppresses both. This is Chromium emulation of iPhone user-agent/standalone signals, not physical-device or real Safari validation. No claim is made that ordinary Safari chrome can be forcibly removed.
-
-Home integration: the promoted root reader retains the exact `href="./"` contract, where it returns to the library catalogue. The catalogue entry uses the `fiction-adventure` section, `for-son` collection, `teen-14-plus` audience and `full-plot-in-deep` spoiler policy. Its original green round-door/return-road cover motif is registered in the renderer and validator rather than reusing another book’s geometry.
-
-Post-integration library QA passed with **11 books, 8 declared sections, 7 populated shelves, 4 collections and 1,155 screens**. The browser suite rechecked the catalogue at 320 × 568, 390 × 844 and 1440 × 900, then all 11 promoted readers: runtime errors 0, horizontal overflow 0, focus mode passed, and iOS browser/standalone guide behavior passed. The catalogue renderer produced 11 distinct semantic SVG motifs; `door` was present and unique. A stable 1440 × 1200 screenshot of the filtered fiction/adventure shelf was visually inspected: the Hobbit card’s round green door and returning road are distinct from the adjacent acceleration curve, with no card/title clipping in the inspected frame.
-
-## Visual inspection
-
-Stable-paint screenshots were inspected for:
-
-- 320 × 568 RU dark cover, dense large-type synthesis, and final.
-- 390 × 844 EN light long-list screen.
-- 768 × 1024 EN light spoiler dialog and reading screen; EN dark final in focus.
-- 1440 × 900 EN light cover, chapter rail and source labels.
-
-No clipping of horizontally laid-out content or inaccessible navigation was found. Small-phone long text scrolls within the slide rather than underneath the fixed footer. Cover, dense/list, final, provenance and dialog layouts are legible. No documentary images, comparison grids or quantitative charts are present, so those optional visual categories are not claimed as tested. Theme/language screenshots were captured after settling the paint; a reduced-motion rule avoids transient blank slide animation.
-
-## Content and spoiler review
-
-Essential is substantially spoiler-light: premise, small-hero growth, reading tools, ordinary pleasures and moral questions; no named deaths or detailed dragon/battle resolution. Core adds selected episodes, mechanisms and interpretations, but does not give the complete ending. Deep narrates all 19 chapters’ main arc, including riddles/escape, forest rescue, barrels, dragon discovery, Bard’s action, competing claims, the Arkenstone decision, battle, named losses, settlement, return and epilogue.
-
-Songs, riddles, narrator humour and indirect speech are discussed in original prose; no song lyrics, riddle texts, reconstructed dialogue or extended quotations are reproduced. Modern narrative and publication variants are separated. 1937 publication, 1951 Gollum revision, unfinished 1960 rewrite and actual 1966 edition are distinguished. No invented page numbers or Russian-edition wording.
-
-## Evidence boundary — exact reader disclosure
-
-### RU
-
-Это самостоятельный аналитический дайджест, не текст романа и не перевод какого-либо издания. В проверенной локальной библиотеке EPUB/FB2/PDF «Хоббита» не найден; полный текст романа не читался и не загружался. Каркас событий сопоставлен с открытым издательским руководством по главам 1–19, но руководство не является романом и не подтверждает каждую подробность; неподтверждённая конкретика опущена. Контекст сверялся с Tolkien Estate, архивной описью и библиографией. Страницы и дословные цитаты не заявляются. «Книга» означает сообщаемое событие или образ; «Контекст» — внешние сведения; «Синтез» — нашу интерпретацию. Essential почти без спойлеров; Core раскрывает эпизоды; только Deep содержит всю развязку. Внешние источники могут сами содержать спойлеры.
-
-### EN
-
-This is an original analytical digest, not the novel’s text or a translation of any edition. No EPUB/FB2/PDF edition of The Hobbit was found in the checked local library; the full novel was neither read nor downloaded. The event structure was compared with the public publisher chapter guide for chapters 1–19, but that guide is not the novel and does not verify every detail; unsupported specifics are omitted. Context was checked against Tolkien Estate, an archival finding aid and bibliography. No page references or verbatim quotations are claimed. “Book” identifies reported events or imagery; “Context” identifies external evidence; “Synthesis” identifies our interpretation. Essential is substantially spoiler-light; Core reveals episodes; only Deep contains the full resolution. External sources may themselves contain spoilers.
-
-A source ledger is not a claim to have read a full edition or unexamined archival items. The consulted guide contains some errors; the raven is correctly called Roäc here. Source 9’s erroneous date for the later novel was not reused. External source pages themselves can contain spoilers.
-
-## Cleanup
-
-All QA Chromium launches used unique `mktemp -d` profiles and a 30-second timeout. Contexts were closed in finally blocks and temporary profile trees removed by scoped cleanup. Screenshots were returned in memory; no screenshot files, QA scripts, local web server, HMR connection or source ebook was left behind. Final check after shutdown: 0 owned Chromium processes, 0 temporary QA profiles; exactly the four requested deliverables remain.
+Final focused parent rerun PASSED148 assertions at320/390/768/1440px,RU/EN,both themes: all seven changed pairs, full body tails, no horizontal overflow/runtime errors/remote requests, Core weak-spot concealment, renewed Deep consent after downgrade, Escape preserving Core, reload revoking consent, neutral explicit saved-Deep label and exact destination restore. Prior failed approval-lifetime check is preserved separately. Owned Chrome process/profile cleaned. Fresh independent full-pair review is still required; no physical Safari/PWA claim.

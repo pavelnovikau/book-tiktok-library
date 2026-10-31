@@ -1,0 +1,839 @@
+{
+  "schemaVersion": 1,
+  "slug": "howls-moving-castle",
+  "date": "2026-10-31",
+  "reviewType": "fresh independent read-only editorial review",
+  "reviewer": "Sol independent review worker; no subagents",
+  "status": "completed",
+  "verdict": "REQUIRES-FIXES",
+  "requiredFindingCount": 2,
+  "optionalTasteFindingCount": 0,
+  "verdictReason": "Two small, source-located corrections: chapter-7 warning targets Martha and precedes Michael’s explanation; the English Fanny possessive must not make her Martha’s stepmother. No rebuild or additional late-plot rewrite is requested.",
+  "work": {
+    "title": "Howl’s Moving Castle",
+    "author": "Diana Wynne Jones",
+    "originalYear": 1986,
+    "sampleRightsHolder": "HarperCollins",
+    "sampleISBN": "9780007380459",
+    "scope": "Novel only; film and sequels excluded"
+  },
+  "hashes": {
+    "algorithm": "SHA-256",
+    "before": {
+      "collector-output/howls-moving-castle/story-data.json": "b12a13297659423e6ea95ea99fd6d3f1c0e3d6e01fae08e449adcdfbbf1d440d",
+      "collector-output/howls-moving-castle/howls-moving-castle.html": "3086b998a8c0ab5a0973d2152495777caf4a28aa1972385411caf9e6147ab4a1",
+      "collector-output/howls-moving-castle/sources.md": "44dc0415511f0ac52e4550b72ca0c3c003d3bb38650569a128ba3a78f73428fd",
+      "collector-output/howls-moving-castle/QA.md": "5957429f76a6a6db950fb4d53a11b62fb350d50acaf955bdd0d09cc83b3089ea",
+      "editorial-audit/2026-10-31/ready/howls-moving-castle.json": "e43b6c7af716c08ef90536eb8f592f824186860006381cb59f8800737e88465d"
+    },
+    "after": {
+      "collector-output/howls-moving-castle/story-data.json": "b12a13297659423e6ea95ea99fd6d3f1c0e3d6e01fae08e449adcdfbbf1d440d",
+      "collector-output/howls-moving-castle/howls-moving-castle.html": "3086b998a8c0ab5a0973d2152495777caf4a28aa1972385411caf9e6147ab4a1",
+      "collector-output/howls-moving-castle/sources.md": "44dc0415511f0ac52e4550b72ca0c3c003d3bb38650569a128ba3a78f73428fd",
+      "collector-output/howls-moving-castle/QA.md": "5957429f76a6a6db950fb4d53a11b62fb350d50acaf955bdd0d09cc83b3089ea",
+      "editorial-audit/2026-10-31/ready/howls-moving-castle.json": "e43b6c7af716c08ef90536eb8f592f824186860006381cb59f8800737e88465d"
+    },
+    "unchanged": true,
+    "allReadyDeliverableHashesMatch": true
+  },
+  "coverage": {
+    "authoringPairsRead": 39,
+    "embeddedHtmlPairsRead": 39,
+    "uniqueLocalizedTextsRead": 78,
+    "cumulativeRoutesRead": 6,
+    "routePositionsPerLanguage": 79,
+    "localizedRoutePositionsRead": 158,
+    "counts": {
+      "essential": 15,
+      "core": 25,
+      "deep": 39
+    },
+    "levelCounts": {
+      "1": 15,
+      "2": 10,
+      "3": 14
+    },
+    "sourceRecords": 32,
+    "readAllTitlesSectionsSubtitlesBodies": true,
+    "readAllGlobalMethodAndSourceNotes": true,
+    "routeIDs": {
+      "essential": [
+        "cover",
+        "hats-and-fortunes",
+        "sisters-change-places",
+        "the-witch-in-the-shop",
+        "a-bargain-by-the-fire",
+        "the-cleaning-lady",
+        "four-settings",
+        "green-slime",
+        "the-black-door",
+        "donnes-poem",
+        "an-elderly-mother",
+        "before-the-king",
+        "battle-over-porthaven",
+        "the-flower-shop",
+        "final"
+      ],
+      "core": [
+        "cover",
+        "hats-and-fortunes",
+        "sisters-change-places",
+        "the-witch-in-the-shop",
+        "roadside-encounters",
+        "a-bargain-by-the-fire",
+        "the-cleaning-lady",
+        "four-settings",
+        "green-slime",
+        "two-letties",
+        "the-hopping-scarecrow",
+        "seven-league-boots",
+        "michael-stays",
+        "the-star-on-the-marsh",
+        "the-black-door",
+        "uncle-howell",
+        "donnes-poem",
+        "an-elderly-mother",
+        "before-the-king",
+        "the-teachers-death",
+        "a-dog-with-a-secret",
+        "black-clothes-for-a-funeral",
+        "battle-over-porthaven",
+        "the-flower-shop",
+        "final"
+      ],
+      "deep": [
+        "cover",
+        "hats-and-fortunes",
+        "sisters-change-places",
+        "the-witch-in-the-shop",
+        "roadside-encounters",
+        "a-bargain-by-the-fire",
+        "the-cleaning-lady",
+        "four-settings",
+        "green-slime",
+        "two-letties",
+        "the-hopping-scarecrow",
+        "seven-league-boots",
+        "michael-stays",
+        "the-star-on-the-marsh",
+        "the-black-door",
+        "uncle-howell",
+        "donnes-poem",
+        "an-elderly-mother",
+        "before-the-king",
+        "the-teachers-death",
+        "a-dog-with-a-secret",
+        "black-clothes-for-a-funeral",
+        "battle-over-porthaven",
+        "the-flower-shop",
+        "a-falling-star",
+        "a-visitor-and-a-guitar",
+        "percivals-memory",
+        "a-disguise-that-will-not-lift",
+        "the-family-arrives",
+        "trouble-in-wales",
+        "the-scarecrow-speaks",
+        "the-fortress-in-the-waste",
+        "the-witchs-demon",
+        "the-last-condition",
+        "a-heart-in-the-fire",
+        "breaking-the-contract",
+        "two-men-restored",
+        "rain-outside",
+        "final"
+      ]
+    }
+  },
+  "parity": {
+    "all39ScreensIncludingSourceMapsExactlyEqual": true,
+    "all32SourceRecordsExactlyEqual": true,
+    "methodNoteExactlyEqual": true,
+    "otherNarrativeMetadataEqual": true,
+    "onlyBuildDifferences": [
+      "Generated modes labels and reading-time metadata",
+      "Local cover file replaced by its embedded data URI"
+    ],
+    "noLaterScriptOverridesStoryCopy": true,
+    "missingSourceReferences": 0
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential",
+    "contentMode": "narrative"
+  },
+  "structuralAudit": {
+    "ownRun": true,
+    "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/howls-moving-castle/howls-moving-castle.html --min-screens 39 --require-bilingual",
+    "passed": 69,
+    "warnings": 0,
+    "failures": 0,
+    "editorialApprovalImplied": false
+  },
+  "spoilerReview": {
+    "result": "PASS for the reviewed hashes",
+    "shallowEndpoint": "the-flower-shop then shared final",
+    "firstLateAnswer": "a-falling-star",
+    "lateAnswerScreensLevel3": 14,
+    "coverFinalMethodSourceNotes": "Read in both languages; no decisive contract identity/body restoration/romantic outcome leak found.",
+    "contents": "Actual reader function filters to the selected mode; level-3 titles are absent before consent.",
+    "savedContinue": "Generic Deep spoiler label conceals late titles; session reload resets deep consent; cancel preserves cover and saved ID.",
+    "ownExecution": {
+      "kind": "Actual embedded reader script executed in memory with minimal DOM stubs; no browser",
+      "routePositions": 158,
+      "savedLateIdResumeCases": 28,
+      "directHiddenIdGuardCases": 28,
+      "all14LateIDsBothLanguages": true,
+      "cancelAcceptReloadChecked": true,
+      "failures": 0
+    },
+    "browserRun": false
+  },
+  "editorialAssessment": {
+    "narrative": "Supported concrete actions, household comedy, pursuit and suspense carry the text. Sophie bargains, interferes, travels and performs the decisive rescue. No managerial/moral lecture or invented dialogue found.",
+    "novelDistinctions": "Martha/Lettie exchange, Michael, Welsh Howell, male Suliman/composite bodies and Witch-versus-fire-demon distinction retained. No film war, bird transformation, kiss restoration or film time-travel ending found.",
+    "uncertainty": "Howl’s explanation of Sophie sustaining her disguise remains attributed. Her renewed youth is shown without asserting a single psychological mechanism. Angorian’s fiancé/capture claims remain claims. The actual romance and Calcifer’s freedom are retained without a fabricated permanent guarantee.",
+    "lateMechanisms": "Specific chapter-21 event blocks and the second guide were read; actual Jones rescue/heart-object/return quotations were checked separately. No whole-book continuous-read prerequisite was imposed.",
+    "requiredCorrectionsAreLocal": true
+  },
+  "requiredFindings": [
+    {
+      "id": "HMC-R1",
+      "screenID": "the-hopping-scarecrow",
+      "level": 2,
+      "severity": "medium",
+      "required": true,
+      "category": "factual motive and causal chronology",
+      "affectedRoutes": [
+        "ru/core",
+        "en/core",
+        "ru/deep",
+        "en/deep"
+      ],
+      "exactRU": "Софи собирается уйти предупредить Летти, но снаружи появляется знакомое пугало — теперь оно скачет вслед за замком.",
+      "exactEN": "Sophie means to leave and warn Lettie, but the familiar scarecrow appears outside, now hopping after the castle.",
+      "reason": "This is the chapter-7 scarecrow chase, when Sophie still believes Howl is courting Martha under Lettie’s appearance. Michael explains the two different Letties later that evening. The candidate moves that explanation into the preceding screen and then changes the sister Sophie means to warn. It gives the chase a different established motive; this is not a preference about how much detail to retain.",
+      "smallestSupportedCorrection": {
+        "instruction": "Keep this screen and its sources/counts. Replace its opening with a brief retrospective clause identifying Martha; retain the remainder of the chase. A name substitution alone would leave the knowledge sequence confusing after two-letties.",
+        "ru": "Раньше, ещё думая, что Хаул ухаживает за Мартой, Софи собралась уйти предупредить её, но снаружи появилось знакомое пугало — оно скакало вслед за замком.",
+        "en": "Earlier, still thinking Howl was courting Martha, Sophie had tried to leave and warn her, but the familiar scarecrow appeared outside, hopping after the castle."
+      },
+      "evidence": [
+        {
+          "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-seven",
+          "chapter": "7",
+          "locator": "Opening event blocks: Sophie cannot go that night to warn Martha; next morning the scarecrow stops her. Later-day event block: Michael returns from Cesari’s and explains the different Letties. Web line locators 129–150 and 166; no verified print page.",
+          "kind": "actually read public chapter-event guide",
+          "candidateSourceID": 9
+        },
+        {
+          "url": "https://www.supersummary.com/howl-s-moving-castle/chapters-5-8-summary/",
+          "chapter": "7",
+          "locator": "Chapter 7 Summary: worry about Martha, scarecrow chase, then Michael’s evening return and clarification.",
+          "kind": "actually read substantial secondary cross-check"
+        }
+      ],
+      "verifiedPrintPage": null
+    },
+    {
+      "id": "HMC-R2",
+      "screenID": "hats-and-fortunes",
+      "level": 1,
+      "severity": "low",
+      "required": true,
+      "category": "English factual relationship / translation scope",
+      "affectedRoutes": [
+        "en/essential",
+        "en/core",
+        "en/deep"
+      ],
+      "exactRU": "После смерти отца мачеха Фанни распределяет девушек в ученицы",
+      "exactEN": "After their father dies, their stepmother Fanny arranges apprenticeships",
+      "reason": "The English collective possessive makes Fanny stepmother to all three sisters. She is Sophie’s and Lettie’s stepmother but Martha’s birth mother. The Russian clause has no collective possessive and can remain as Sophie-focal narration.",
+      "smallestSupportedCorrection": {
+        "ru": "No change required.",
+        "en": "After their father dies, Sophie’s stepmother Fanny arranges apprenticeships"
+      },
+      "evidence": [
+        {
+          "url": "https://litres.com/book/diana-wynne-jones/howl-s-moving-castle-39784121/read/",
+          "chapter": "1",
+          "locator": "Opening family-history paragraph immediately after the opening Ingary paragraph: Mr Hatter remarries Fanny, who gives birth to Martha. Web line 225; no verified print page.",
+          "kind": "actually read Jones primary prose in the lawful HarperCollins sample",
+          "candidateSourceID": 2
+        }
+      ],
+      "verifiedPrintPage": null
+    }
+  ],
+  "optionalTasteFindings": [],
+  "ownActuallyReadSources": {
+    "primaryPassages": [
+      {
+        "candidateSourceID": 2,
+        "url": "https://litres.com/book/diana-wynne-jones/howl-s-moving-castle-39784121/read/",
+        "scope": "Selected chapter-1 family history, apprenticeship assignments, hat-talk/sales, May Day meeting and the Martha reveal at the sample boundary; ISBN 9780007380459 and HarperCollins rights metadata. Sample ends after Martha identifies herself, before the chapter-2 explanation.",
+        "classification": "actual Jones prose in a lawful publisher sample"
+      },
+      {
+        "candidateSourceID": 24,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/quotes",
+        "scope": "Actual quoted chapter-19 dog/Howl confrontation and failed-cure/disguise explanation; chapter-20 defence of Howl; chapter-21 stick rescue, hard black object and Calcifer’s return. Adjacent analysis is secondary.",
+        "classification": "selected primary quotations, not a complete chapter or edition"
+      },
+      {
+        "candidateSourceID": 25,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/calcifer",
+        "scope": "Actual quotations labelled chapters 3 (hearth obligations), 7 (heart exchange), 9 (Michael staying), 17 (origin/bargain) and 18 (Sophie’s guilt after Angorian’s visit).",
+        "classification": "selected primary quotations; guide commentary kept separate"
+      },
+      {
+        "candidateSourceID": 26,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/miss-angorian",
+        "scope": "Actual chapter-21 stick-rescue quotation and Howl’s spell/hard black object quotation, plus their displayed reference context.",
+        "classification": "selected primary quotations with secondary context"
+      },
+      {
+        "candidateSourceID": 29,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/megan-parry",
+        "scope": "Actual chapter-11 reproach of Howell, plus public introductory family reference.",
+        "classification": "selected primary quotation and separate secondary reference"
+      },
+      {
+        "candidateSourceID": 31,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/the-dog-man-percival",
+        "scope": "Actual chapter-19 Howl/dog confrontation and Percival’s brief question about the scarecrow; public introduction identifies the composite body.",
+        "classification": "selected primary quotations and separate secondary reference"
+      },
+      {
+        "candidateSourceID": 32,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/the-witch-of-the-waste",
+        "scope": "Actual chapter-12 Sophie-magic recognition passage and chapter-21 hard black object passage; public introductory reference.",
+        "classification": "selected primary quotations and separate secondary reference"
+      }
+    ],
+    "secondaryEventAccounts": [
+      {
+        "candidateSourceID": 4,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-two",
+        "chapter": "two",
+        "scope": "Sisters’ swap and wishes; Witch’s accusation; roadside dog/stick/scarecrow; departure/castle approach.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 5,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-three",
+        "chapter": "three",
+        "scope": "Calcifer’s bargain, hearth restriction and nondisclosure terms.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 6,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-four",
+        "chapter": "four",
+        "scope": "Breakfast, May Day recognition, self-appointed cleaner, small-house interior and Kingsbury knob.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 7,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-five",
+        "chapter": "five",
+        "scope": "Cleaning, spending, spiders, black-door refusal, bathroom cosmetics and Michael’s letters.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 8,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-six",
+        "chapter": "six",
+        "scope": "Heart-eating rumour, courtship, ooze cleanup and Howl naming Lettie; second guide also checks shadows/hair incident.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 9,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-seven",
+        "chapter": "seven",
+        "scope": "Opening Martha warning/chase and Michael’s later two-Letties explanation; Howl’s surprise and mother disguise.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 10,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-eight",
+        "chapter": "eight",
+        "scope": "Boots, arrival, Mrs Fairfax’s knowledge and view of Lettie’s learning.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 12,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-ten",
+        "chapter": "ten",
+        "scope": "Mother/tutor setup and discovery of the wrong paper, then black-door departure.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 13,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-eleven",
+        "chapter": "eleven",
+        "scope": "Welsh household/technology, Neil’s paper, Megan, car, teacher, Donne and curse.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 15,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-thirteen",
+        "chapter": "thirteen",
+        "scope": "First royal audience and failed defamation; street announcement of Pentstemmon’s murder.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 22,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-twenty",
+        "chapter": "twenty",
+        "scope": "Family, Angorian’s second visit, attack on Megan’s family, scarecrow/skull admission and Witch’s message.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "candidateSourceID": 23,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-twenty-one",
+        "chapter": "twenty-one",
+        "scope": "Fortress/body plan, separate defeats, wind confession, rescue, separation, restoration and last conversation; public event paragraphs only.",
+        "classification": "actually read relevant public chapter-event blocks; secondary, not Jones chapter text; no placeholder/locked paragraph used"
+      },
+      {
+        "url": "https://www.supersummary.com/howl-s-moving-castle/chapters-5-8-summary/",
+        "scope": "Visible chapter-5/6 events and chapter-7/8 event sequence, especially independent confirmation of the Martha-before-Lettie chronology.",
+        "classification": "actually read substantial public chapter guide; secondary"
+      },
+      {
+        "url": "https://www.supersummary.com/howl-s-moving-castle/chapters-9-12-summary/",
+        "scope": "Public event accounts for chapters 9–12: Michael, marsh star, wrong paper/Wales/teacher and Pentstemmon.",
+        "classification": "actually read substantial public chapter guide; secondary"
+      },
+      {
+        "url": "https://www.supersummary.com/howl-s-moving-castle/chapters-13-16-summary/",
+        "scope": "Visible royal-audience context and public chapter-14–16 event accounts: dog, suit, funeral and Porthaven duel/move decision.",
+        "classification": "actually read substantial public chapter guide; secondary"
+      },
+      {
+        "candidateSourceID": 28,
+        "url": "https://www.supersummary.com/howl-s-moving-castle/chapters-17-21-summary/",
+        "scope": "Public event accounts for chapters 17–21, including the exact retained late mechanisms. Analysis not treated as authorial prose.",
+        "classification": "actually read substantial public chapter guide; secondary"
+      },
+      {
+        "candidateSourceID": 16,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-fourteen",
+        "scope": "Public indexed event text returned by scoped web search: dog arrival, secrecy request, attempted cure and Calcifer’s limit. Direct page was a JavaScript/robot challenge.",
+        "classification": "actually read indexed public guide event blocks; not direct full-page access"
+      },
+      {
+        "candidateSourceID": 17,
+        "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-fifteen",
+        "scope": "Public indexed event text returned by scoped web search: two suits, black mourning appearance and dog-disguise test. Direct page was a JavaScript/robot challenge.",
+        "classification": "actually read indexed public guide event blocks; not direct full-page access"
+      }
+    ],
+    "editionAndAccessLimits": [
+      "No complete primary edition was read continuously or obtained by this reviewer. No published Russian translation was checked. This is a review of the retained condensation, not certification of omitted chapters, all original wording or a whole edition.",
+      "Chapter references are work-level locators. LitCharts/SuperSummary pagination was not verified against ISBN 9780007380459 and is not asserted as print-page evidence.",
+      "Direct LitCharts chapter 9 timed out. Direct chapters 12, 14–19 returned JavaScript/robot challenges on the attempts made. Only actually returned public guide/quotation/indexed blocks were used; no locked or pseudo-Latin placeholder text, teacher questions or challenge bypass was used.",
+      "The independent substitute for the unavailable chapter-9/12/14–19 pages was the substantial public SuperSummary 9–12, 13–16 and 17–21 event accounts, together with the actual quoted Jones anchors. Public indexed chapter-14/15 event blocks were additionally read.",
+      "The implementer’s 216-OPF local-search claim and library-record access claim were read in its ledger but not independently repeated. The library record was not used as plot evidence. No unrelated private listings were inspected.",
+      "No independent browser or physical iPhone/PWA run was performed. DOM-stub execution checks reader branching, not layout or Safari behaviour. Existing writer browser claims are not being relabelled as this reviewer’s tests."
+    ]
+  },
+  "readInputs": [
+    "editorial-audit/2026-10-31/BRIEF.md",
+    "CONTRIBUTING.md",
+    "skills/book-tiktok/SKILL.md",
+    "skills/book-tiktok/references/content-model.md",
+    "skills/book-tiktok/references/data-contract.md",
+    "skills/book-tiktok/references/html-spec.md",
+    "collector-output/howls-moving-castle/story-data.json",
+    "collector-output/howls-moving-castle/howls-moving-castle.html",
+    "collector-output/howls-moving-castle/sources.md",
+    "collector-output/howls-moving-castle/QA.md",
+    "editorial-audit/2026-10-31/ready/howls-moving-castle.json",
+    "editorial-audit/2026-10-31/books/howls-moving-castle-sol-implementation.md",
+    "editorial-audit/2026-10-31/books/howls-moving-castle-sol-implementation-evidence.md",
+    "collector-output/howls-moving-castle/build-local.mjs",
+    "collector-output/howls-moving-castle/cover.svg",
+    "collector-output/howls-moving-castle/qa/verified-artifact.json"
+  ],
+  "ownership": {
+    "candidateModified": false,
+    "readyModified": false,
+    "originalReportsModified": false,
+    "gitOrPRAction": false,
+    "deployAction": false,
+    "sharedShellChanged": false,
+    "serverStarted": false,
+    "chromeStarted": false,
+    "subagentsSpawned": false,
+    "onlyNewFilesWritten": [
+      "editorial-audit/2026-10-31/reviews/howls-moving-castle.json",
+      "editorial-audit/2026-10-31/reviews/howls-moving-castle.md"
+    ]
+  },
+  "handoff": "Parent can apply and source-check the two small corrections personally, rebuild this book and refresh READY hashes. Current candidate is not an independent PASS. Publisher retains production integration authority.",
+  "originalSourceMapsReviewed": [
+    {
+      "screenID": "cover",
+      "level": 1,
+      "claimType": null,
+      "sources": [
+        1,
+        2
+      ]
+    },
+    {
+      "screenID": "hats-and-fortunes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3
+      ]
+    },
+    {
+      "screenID": "sisters-change-places",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3,
+        4,
+        24
+      ]
+    },
+    {
+      "screenID": "the-witch-in-the-shop",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4,
+        32
+      ]
+    },
+    {
+      "screenID": "roadside-encounters",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "screenID": "a-bargain-by-the-fire",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5,
+        24,
+        25
+      ]
+    },
+    {
+      "screenID": "the-cleaning-lady",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "screenID": "four-settings",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6,
+        7
+      ]
+    },
+    {
+      "screenID": "green-slime",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        7,
+        8
+      ]
+    },
+    {
+      "screenID": "two-letties",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        8,
+        9
+      ]
+    },
+    {
+      "screenID": "the-hopping-scarecrow",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        9,
+        25
+      ]
+    },
+    {
+      "screenID": "seven-league-boots",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "screenID": "michael-stays",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        11,
+        25
+      ]
+    },
+    {
+      "screenID": "the-star-on-the-marsh",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "screenID": "the-black-door",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        12,
+        13,
+        29
+      ]
+    },
+    {
+      "screenID": "uncle-howell",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        13,
+        29
+      ]
+    },
+    {
+      "screenID": "donnes-poem",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        13,
+        16
+      ]
+    },
+    {
+      "screenID": "an-elderly-mother",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        9,
+        12,
+        14,
+        32
+      ]
+    },
+    {
+      "screenID": "before-the-king",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "screenID": "the-teachers-death",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        15,
+        32
+      ]
+    },
+    {
+      "screenID": "a-dog-with-a-secret",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        16,
+        31
+      ]
+    },
+    {
+      "screenID": "black-clothes-for-a-funeral",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        14,
+        16,
+        17
+      ]
+    },
+    {
+      "screenID": "battle-over-porthaven",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "screenID": "the-flower-shop",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        19,
+        28
+      ]
+    },
+    {
+      "screenID": "a-falling-star",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        19,
+        20,
+        25
+      ]
+    },
+    {
+      "screenID": "a-visitor-and-a-guitar",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        20,
+        26
+      ]
+    },
+    {
+      "screenID": "percivals-memory",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        21,
+        31
+      ]
+    },
+    {
+      "screenID": "a-disguise-that-will-not-lift",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        21,
+        24
+      ]
+    },
+    {
+      "screenID": "the-family-arrives",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        22,
+        24
+      ]
+    },
+    {
+      "screenID": "trouble-in-wales",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        22,
+        29
+      ]
+    },
+    {
+      "screenID": "the-scarecrow-speaks",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        22,
+        28
+      ]
+    },
+    {
+      "screenID": "the-fortress-in-the-waste",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        28,
+        32
+      ]
+    },
+    {
+      "screenID": "the-witchs-demon",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        26,
+        28,
+        31
+      ]
+    },
+    {
+      "screenID": "the-last-condition",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        28
+      ]
+    },
+    {
+      "screenID": "a-heart-in-the-fire",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "screenID": "breaking-the-contract",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        28,
+        30
+      ]
+    },
+    {
+      "screenID": "two-men-restored",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        24,
+        28,
+        31,
+        32
+      ]
+    },
+    {
+      "screenID": "rain-outside",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        23,
+        24,
+        25,
+        27
+      ]
+    },
+    {
+      "screenID": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": []
+    }
+  ]
+}

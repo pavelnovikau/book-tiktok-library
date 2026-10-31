@@ -1,0 +1,358 @@
+{
+  "slug": "enders-game",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:41:06.543280+00:00",
+  "findings": [
+    "EG-EN-001"
+  ],
+  "changedScreens": [
+    "launch"
+  ],
+  "counts": {
+    "essential": 16,
+    "core": 25,
+    "deep": 39
+  },
+  "sourceCheck": "EG-EN-001: parent checked SparkNotes Chapter4 Launch, Summary (not speculative Analysis), the buckle assault/arm-grab/collision paragraph. The boy breaks his arm, not the wall. Only the ambiguous EN object is made explicit; RU is unchanged. This restores bilingual clarity using the same accountable event source; no complete primary chapter4 reading or new physical event is claimed.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/enders-game.json",
+  "originalReviewSha256": "55a19aa7106333bc4c39aef8e26152ec9a073ea17661131badcd86f8538ac5c2",
+  "beforeHashes": {
+    "collector-output/enders-game/story-data.json": "06c797ad5039fd9e87419a4a2cee9be4569734aa7de0db5b064cd851a7ad3452",
+    "collector-output/enders-game/enders-game.html": "63c31c065125da09b6f4440b7d5b0ab71ac0d36cadb458c0545c62269b995361",
+    "collector-output/enders-game/sources.md": "c61cbc02b039cad16fef5453d5693f5eede8e31f41684b796a4e5664e1efcc0c",
+    "collector-output/enders-game/QA.md": "47f2accb2f4b75eaf9946ce905c479a3e043d7128afd9dd4f75f3e110959dd3b"
+  },
+  "afterHashes": {
+    "collector-output/enders-game/story-data.json": "d318041c79c08b5daaa9b4a6ae56251c32571e3e7c13e3c63dcc268626e224c8",
+    "collector-output/enders-game/enders-game.html": "73587e4fc7e1b914396596a387fa5381e1f1ea26edb973b3b0ce6a7af23743fb",
+    "collector-output/enders-game/sources.md": "790ebf40389b1fd1df5fbf663157529fe9ad20a7af95784efd03390e1ada97a5",
+    "collector-output/enders-game/QA.md": "62e1877d98923078794512198d6aad65ec329f24057f26d06930d9104d7513c0"
+  },
+  "screensBefore": [
+    {
+      "id": "launch",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Полёт",
+          "title": "Похвала на шаттле",
+          "body": "<p>На шаттле Графф хвалит его перед новобранцами так, что похвала становится мишенью на спине. Бернард бьёт Эндера по голове. Эндер хватает его руку; в невесомости мальчика уносит к стене, рука ломается. Ещё до прибытия у Эндера появился враг. Ночью в казарме он старается плакать неслышно.</p>"
+        },
+        "en": {
+          "section": "Launch",
+          "title": "Praise on the shuttle",
+          "body": "<p>On the shuttle Graff praises him before the recruits until the praise puts a target on his back. Bernard starts hitting his head. Ender grabs his arm; in null gravity the boy flies into a wall and breaks it. Before arrival Ender already has an enemy. That night in the barracks he tries to cry without being heard.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "launch",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Полёт",
+          "title": "Похвала на шаттле",
+          "body": "<p>На шаттле Графф хвалит его перед новобранцами так, что похвала становится мишенью на спине. Бернард бьёт Эндера по голове. Эндер хватает его руку; в невесомости мальчика уносит к стене, рука ломается. Ещё до прибытия у Эндера появился враг. Ночью в казарме он старается плакать неслышно.</p>"
+        },
+        "en": {
+          "section": "Launch",
+          "title": "Praise on the shuttle",
+          "body": "<p>On the shuttle Graff praises him before the recruits until the praise puts a target on his back. Bernard starts hitting his head. Ender grabs his arm; in null gravity the boy flies into a wall and breaks his arm. Before arrival Ender already has an enemy. That night in the barracks he tries to cry without being heard.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Orson Scott Card — Ender’s Game (novel)",
+      "url": "http://www.hatrack.com/osc/books/endersgame/",
+      "role": "author",
+      "note": {
+        "ru": "Карточка автора: роман, январь 1985; исходная семья и отбор детей. Не полный текст.",
+        "en": "Author’s listing: January 1985 novel; family and selection premise. Not the complete text."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Orson Scott Card — chapter 1, publisher-authorized excerpt",
+      "url": "https://www.abebooks.com/9780765337320/Enders-Game-Ender-Quintet-Card-0765337320/plp",
+      "role": "book",
+      "note": {
+        "ru": "Глава 1 романа в издании Tor Teen 2013, ISBN 9780765337320; фрагмент с разрешением Tom Doherty Associates / Dial-A-Book. Обложка приурочена к фильму, текст — роман.",
+        "en": "Chapter 1 of the novel, Tor Teen 2013, ISBN 9780765337320; permission-labelled Tom Doherty Associates / Dial-A-Book excerpt. Movie tie-in cover, novel text."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Starscape / Tor — Ender’s Game reader’s guide",
+      "url": "https://images.macmillan.com/folio-assets/readers-guides/9780765342294RG.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Пять страниц: описание, вопросы и выбранные цитаты. Вопросы не считались готовыми ответами. Файл содержит спойлеры.",
+        "en": "Five pages: overview, questions and selected quotations. Questions were not treated as answers. The linked file contains spoilers."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Hatrack — Study Guide for Ender’s Game (April 2004)",
+      "url": "http://www.hatrack.com/research/teachers/2004-04-01.shtml",
+      "role": "reference",
+      "note": {
+        "ru": "Учебный материал на сайте автора, а не авторский текст романа: пятнадцать глав, опорные цитаты и вопросы. Использован для сверки последовательности, не как ответы на собственные вопросы.",
+        "en": "Educational material on the author’s site, not the novel itself: fifteen chapters, anchor quotations and questions. Used to check sequence, not to answer its own questions."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Orson Scott Card / NCTE — reading Ender’s Game",
+      "url": "http://www.hatrack.com/research/teachers/reading_ender.shtml",
+      "role": "author",
+      "note": {
+        "ru": "Авторский комментарий о чтении истории и моральной неопределённости. Не заменяет роман и не даёт единственного толкования. Ссылка содержит спойлеры.",
+        "en": "Author commentary on reading the story and moral uncertainty. Neither a substitute for the novel nor a single required interpretation. Linked page contains spoilers."
+      }
+    },
+    {
+      "id": 6,
+      "title": "John Kessel — selected novel passages and critical cross-check",
+      "url": "https://johnjosephkessel.wixsite.com/kessel-website/creating-the-innocent-killer",
+      "role": "review",
+      "note": {
+        "ru": "Эссе Foundation (2004; с позднейшим послесловием). Проверены приведённые фрагменты романа и границы между событиями и спорной оценкой критика. Оценка не вставлена в пересказ. Содержит спойлеры.",
+        "en": "Foundation essay (2004; with later postscript). Consulted reproduced novel passages and distinguished events from the critic’s contested interpretation. His verdict is not inserted into the retelling. Contains spoilers."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Susanne Lindberg — The Murdering Hero (Halmstad repository)",
+      "url": "https://hh.diva-portal.org/smash/get/diva2:238047/FULLTEXT01.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Выборочно прочитаны цитаты романа из Starscape 2002: печатные с. 5, 9, 10, 13–17; библиография на с. 24. Это исследование, не полный роман. Суждения исследовательницы не приписываются Карду. Содержит спойлеры.",
+        "en": "Selected novel quotations from Starscape 2002 consulted on printed pp.5, 9, 10, 13–17; bibliography p.24. A thesis, not the complete novel. The researcher’s judgments are not attributed to Card. Contains spoilers."
+      }
+    },
+    {
+      "id": 8,
+      "title": "SparkNotes — Ender’s Game, chapter 2",
+      "url": "https://www.sparknotes.com/lit/endersgame/section3/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 2; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 2 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 9,
+      "title": "SparkNotes — Ender’s Game, chapter 4",
+      "url": "https://www.sparknotes.com/lit/endersgame/section5/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 4; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 4 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 10,
+      "title": "SparkNotes — Ender’s Game, chapter 5",
+      "url": "https://www.sparknotes.com/lit/endersgame/section6/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 5; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 5 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 11,
+      "title": "SparkNotes — Ender’s Game, chapter 6",
+      "url": "https://www.sparknotes.com/lit/endersgame/section7/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 6; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 6 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 12,
+      "title": "SparkNotes — Ender’s Game, chapter 7",
+      "url": "https://www.sparknotes.com/lit/endersgame/section8/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 7; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 7 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 13,
+      "title": "SparkNotes — Ender’s Game, chapter 8",
+      "url": "https://www.sparknotes.com/lit/endersgame/section9/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 8; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 8 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 14,
+      "title": "SparkNotes — Ender’s Game, chapter 9",
+      "url": "https://www.sparknotes.com/lit/endersgame/section10/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 9; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 9 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 15,
+      "title": "SparkNotes — Ender’s Game, chapter 10",
+      "url": "https://www.sparknotes.com/lit/endersgame/section11/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 10; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 10 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 16,
+      "title": "SparkNotes — Ender’s Game, chapter 11",
+      "url": "https://www.sparknotes.com/lit/endersgame/section12/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 11; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 11 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 17,
+      "title": "SparkNotes — Ender’s Game, chapter 12",
+      "url": "https://www.sparknotes.com/lit/endersgame/section13/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 12; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 12 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 18,
+      "title": "SparkNotes — Ender’s Game, chapter 13",
+      "url": "https://www.sparknotes.com/lit/endersgame/section14/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 13; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 13 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 19,
+      "title": "SparkNotes — Ender’s Game, chapter 14",
+      "url": "https://www.sparknotes.com/lit/endersgame/section15/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 14; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 14 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 20,
+      "title": "SparkNotes — Ender’s Game, chapter 15",
+      "url": "https://www.sparknotes.com/lit/endersgame/section16/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен раздел Summary главы 15; это поэпизодный путеводитель, не первичный текст. Его интерпретации не подменяют события романа. Содержит спойлеры.",
+        "en": "Consulted chapter 15 Summary: an episode guide, not primary text. Its interpretations do not replace the novel’s events. Contains spoilers."
+      }
+    },
+    {
+      "id": 21,
+      "title": "Hannah Wallace / Adam Kissel — chapter 14 guide and novel excerpts",
+      "url": "https://www.gradesaver.com/enders-game/study-guide/summary-chapter-14",
+      "role": "reference",
+      "note": {
+        "ru": "Именной путеводитель (2007): проверены рассказ о главе и включённые авторские выдержки. Отдельно сверены решающие связи; не заявляется чтение всей главы подряд. Содержит развязку.",
+        "en": "Named 2007 guide: consulted the chapter account and embedded author passages. Decisive links checked individually; no claim of continuous complete-chapter reading. Contains the ending."
+      }
+    },
+    {
+      "id": 22,
+      "title": "Hannah Wallace / Adam Kissel — chapter 15 guide and novel excerpts",
+      "url": "https://www.gradesaver.com/enders-game/study-guide/summary-chapter-15",
+      "role": "reference",
+      "note": {
+        "ru": "Именной путеводитель (2007): проверены события заключительной главы и приведённые фрагменты романа. Это выборочное чтение, не полный текст заключительной главы. Содержит развязку.",
+        "en": "Named 2007 guide: checked final-chapter events and reproduced novel passages. Selective reading, not the complete final chapter. Contains the ending."
+      }
+    },
+    {
+      "id": 23,
+      "title": "Hannah Wallace / Adam Kissel — chapters 11–12 guide",
+      "url": "https://www.gradesaver.com/enders-game/study-guide/summary-chapters-11-and-12",
+      "role": "reference",
+      "note": {
+        "ru": "Именной путеводитель (2007): проверены отдельные события и механизм последнего боя в Боевой школе. Материал не является текстом главы. Содержит спойлеры.",
+        "en": "Named 2007 guide: checked selected events and the mechanism of the last Battle School match. Not the chapter text. Contains spoilers."
+      }
+    },
+    {
+      "id": 24,
+      "title": "SparkNotes — Ender’s Game, chapter 3",
+      "url": "https://www.sparknotes.com/lit/endersgame/section4/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен рассказ о встрече с Граффом, выборе детей и отъезде в Боевую школу. Поэпизодный путеводитель, не первичный текст.",
+        "en": "Checked the account of Graff’s visit, selection of the children and departure for Battle School. A chapter guide, not primary text."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Краткий пересказ своими словами романа 1985 года, не рассказа 1977 года, фильма или продолжений. Полного издания в проверенных Apple Books не найдено; непрерывного чтения всего романа не было. Выборочно прочитаны издательская первая глава, авторские комментарии и цитаты из романа в именованных исследованиях и путеводителях. Остальные сохранённые эпизоды сверены по подробным поэпизодным материалам, а не по одной аннотации. Вопросы преподавателей не принимались за ответы. Это ограниченная сверка сохранённой истории, не аттестация всего текста. Essential и Core останавливаются перед развязкой; Deep раскрывает её после предупреждения. Внешние ссылки могут содержать спойлеры.",
+    "en": "An original-word condensation of the 1985 novel, excluding the 1977 short story, film and sequel events. No complete edition was found in the Apple Books metadata checked; the whole novel was not read continuously. Consulted the publisher-authorized first chapter, author commentary, and selected novel passages reproduced in named studies and guides. Other retained episodes were checked against detailed chapter accounts, not a blurb. Teachers’ questions were not treated as answers. This is a limited check of the retained story, not certification of the entire text. Essential and Core stop before the ending; Deep reveals it after a warning. External links may contain spoilers."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "matchingManuscriptsUpdated": [],
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/enders-game/enders-game.html",
+    "format": "v2",
+    "bytes": 310392,
+    "screenCount": 39,
+    "levels": {
+      "1": 16,
+      "2": 9,
+      "3": 14
+    },
+    "modes": {
+      "essential": 16,
+      "core": 25,
+      "deep": 39
+    },
+    "words": {
+      "ru": 1623,
+      "en": 1954
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-fiction-fix-browser.json",
+    "reportSha256": "6dbf42ddcf07836db322c1b34ef071bbf32cef474b54155e6f37162683b0ca8e",
+    "totalAssertionsAcrossFourReaders": 176,
+    "scope": "Changed-copy and tail checks, four representative viewport/theme cases in RU/EN, native browser/HTML consent, cancellation and saved restore; all owned processes/profiles cleaned. No physical iPhone/PWA claim."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

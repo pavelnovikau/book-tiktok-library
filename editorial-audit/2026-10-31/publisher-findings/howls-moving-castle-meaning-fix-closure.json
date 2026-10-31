@@ -1,0 +1,486 @@
+{
+  "slug": "howls-moving-castle",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:41:06.534177+00:00",
+  "findings": [
+    "HMC-R1",
+    "HMC-R2"
+  ],
+  "changedScreens": [
+    "hats-and-fortunes",
+    "the-hopping-scarecrow"
+  ],
+  "counts": {
+    "essential": 15,
+    "core": 25,
+    "deep": 39
+  },
+  "sourceCheck": "HMC-R1/R2: parent directly checked the HarperCollins/Litres chapter-one family passage: Fanny is Martha’s birth mother and Sophie’s stepmother. Only the collective EN relationship is narrowed. Parent also checked the public SuperSummary Chapter7 narrative account: Sophie is still worried about Martha before the scarecrow chase, while Michael’s clarification comes later. The opening now explicitly looks back to that earlier belief, retaining the existing compressed two-letties order. Source9 and other source IDs unchanged. The guide is secondary; no complete primary chapter7 or full-novel reading is claimed.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/howls-moving-castle.json",
+  "originalReviewSha256": "265387e86ea732084931fc963d12d77cbe8ba2cbe17ce23c92a765bd42a1de63",
+  "beforeHashes": {
+    "collector-output/howls-moving-castle/story-data.json": "b12a13297659423e6ea95ea99fd6d3f1c0e3d6e01fae08e449adcdfbbf1d440d",
+    "collector-output/howls-moving-castle/howls-moving-castle.html": "3086b998a8c0ab5a0973d2152495777caf4a28aa1972385411caf9e6147ab4a1",
+    "collector-output/howls-moving-castle/sources.md": "44dc0415511f0ac52e4550b72ca0c3c003d3bb38650569a128ba3a78f73428fd",
+    "collector-output/howls-moving-castle/QA.md": "5957429f76a6a6db950fb4d53a11b62fb350d50acaf955bdd0d09cc83b3089ea",
+    "collector-output/howls-moving-castle/prose-before-segmentation.md": "6eda5e2949d74f62c880328c5959da9f82c1483970ed04689c9f220879ffc8d3"
+  },
+  "afterHashes": {
+    "collector-output/howls-moving-castle/story-data.json": "fd5f311aff80f5840e7609da2a018a71e96f089f6174ca9ec21a07ce84ba0550",
+    "collector-output/howls-moving-castle/howls-moving-castle.html": "3504b00556526676d1b8a61e40b91c53a6dbd2443d3533149c921424ded0b431",
+    "collector-output/howls-moving-castle/sources.md": "17d401438690df214fb05f8a90a9c9c7f8a45319146f97284bbf7514ba65933b",
+    "collector-output/howls-moving-castle/QA.md": "06319dbca73e4a1a454d8e47217a588009bae9f2873e0ffc06ba1e3e0de5b76e",
+    "collector-output/howls-moving-castle/prose-before-segmentation.md": "9273d775275da78d009d4cf0229c249e249f870a4f9c63bf0e0788aad0fde88e"
+  },
+  "screensBefore": [
+    {
+      "id": "hats-and-fortunes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Ингария",
+          "title": "С кем разговаривают шляпы",
+          "body": "<p>Софи Хаттер — старшая из трёх сестёр. В Ингарии это считается надёжным способом остаться без приключений. После смерти отца мачеха Фанни распределяет девушек в ученицы: Летти — в кондитерскую, Марту — к ведьме миссис Фэрфакс, Софи оставляет украшать шляпы. Софи шьёт, скучает и разговаривает со шляпами: кому достанется богатый муж, кого полюбят. Шляпы расходятся на удивление хорошо.</p>"
+        },
+        "en": {
+          "section": "Ingary",
+          "title": "Who the hats hear",
+          "body": "<p>Sophie Hatter is the eldest of three sisters. In Ingary, that is considered a reliable way of missing out on adventures. After their father dies, their stepmother Fanny arranges apprenticeships: a pastry shop for Lettie, the witch Mrs. Fairfax for Martha, and hat trimming at home for Sophie. Sophie sews, grows bored, and talks to the hats about wealthy husbands and future admirers. The hats sell remarkably well.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-hopping-scarecrow",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        9,
+        25
+      ],
+      "copy": {
+        "ru": {
+          "section": "Ингария",
+          "title": "За замком кто-то скачет",
+          "body": "<p>Софи собирается уйти предупредить Летти, но снаружи появляется знакомое пугало — теперь оно скачет вслед за замком. Софи в панике требует от Кальцифера ехать быстрее. Огонь подчиняется, замок отрывается от преследователя. Хаул потом никак не может взять в толк, почему Кальцифер так старался ради Софи. Сама она пока не желает выяснять, чего пугалу нужно.</p>"
+        },
+        "en": {
+          "section": "Ingary",
+          "title": "Someone is hopping after the castle",
+          "body": "<p>Sophie means to leave and warn Lettie, but the familiar scarecrow appears outside, now hopping after the castle. In a panic, she demands that Calcifer go faster. The fire obliges, and the castle outdistances its pursuer. Later, Howl cannot understand why Calcifer took so much trouble for Sophie. Sophie herself has no intention of finding out what the scarecrow wants.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "hats-and-fortunes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Ингария",
+          "title": "С кем разговаривают шляпы",
+          "body": "<p>Софи Хаттер — старшая из трёх сестёр. В Ингарии это считается надёжным способом остаться без приключений. После смерти отца мачеха Фанни распределяет девушек в ученицы: Летти — в кондитерскую, Марту — к ведьме миссис Фэрфакс, Софи оставляет украшать шляпы. Софи шьёт, скучает и разговаривает со шляпами: кому достанется богатый муж, кого полюбят. Шляпы расходятся на удивление хорошо.</p>"
+        },
+        "en": {
+          "section": "Ingary",
+          "title": "Who the hats hear",
+          "body": "<p>Sophie Hatter is the eldest of three sisters. In Ingary, that is considered a reliable way of missing out on adventures. After their father dies, Sophie’s stepmother Fanny arranges apprenticeships: a pastry shop for Lettie, the witch Mrs. Fairfax for Martha, and hat trimming at home for Sophie. Sophie sews, grows bored, and talks to the hats about wealthy husbands and future admirers. The hats sell remarkably well.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-hopping-scarecrow",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        9,
+        25
+      ],
+      "copy": {
+        "ru": {
+          "section": "Ингария",
+          "title": "За замком кто-то скачет",
+          "body": "<p>Раньше, ещё думая, что Хаул ухаживает за Мартой, Софи собралась уйти предупредить её, но снаружи появилось знакомое пугало — оно скакало вслед за замком. Софи в панике требует от Кальцифера ехать быстрее. Огонь подчиняется, замок отрывается от преследователя. Хаул потом никак не может взять в толк, почему Кальцифер так старался ради Софи. Сама она пока не желает выяснять, чего пугалу нужно.</p>"
+        },
+        "en": {
+          "section": "Ingary",
+          "title": "Someone is hopping after the castle",
+          "body": "<p>Earlier, still thinking Howl was courting Martha, Sophie had tried to leave and warn her, but the familiar scarecrow appeared outside, hopping after the castle. In a panic, she demands that Calcifer go faster. The fire obliges, and the castle outdistances its pursuer. Later, Howl cannot understand why Calcifer took so much trouble for Sophie. Sophie herself has no intention of finding out what the scarecrow wants.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Kalamazoo Public Library — Howl’s Moving Castle (HarperTrophy, 2001)",
+      "url": "https://www.kpl.gov/catalog/item/?i=ent%3A%2F%2FSD_ILS%2F0%2FSD_ILS%3A1987644",
+      "role": "reference",
+      "note": {
+        "ru": "Библиотечная запись: переиздание романа 1986 года. Прочитаны индексированные библиографические сведения; прямое открытие вернуло 403.",
+        "en": "Library record for a reprint of the 1986 novel. Indexed bibliographic details were read; direct access returned 403."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Diana Wynne Jones — Howl’s Moving Castle: HarperCollins excerpt on Litres",
+      "url": "https://litres.com/book/diana-wynne-jones/howl-s-moving-castle-39784121/read/",
+      "role": "book",
+      "note": {
+        "ru": "Легальный фрагмент HarperCollins, ISBN 9780007380459: прочитана доступная часть первой главы. Не полное издание.",
+        "en": "Lawful HarperCollins excerpt, ISBN 9780007380459: the accessible portion of chapter one was read. Not the complete edition."
+      }
+    },
+    {
+      "id": 3,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 1",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-one",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 4,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 2",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-two",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 5,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 3",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-three",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 6,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 4",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-four",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 7,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 5",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-five",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 8,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 6",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-six",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 9,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 7",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-seven",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 10,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 8",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-eight",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 11,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 9",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-nine",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 12,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 10",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-ten",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 13,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 11",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-eleven",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 14,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 12",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-twelve",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 15,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 13",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-thirteen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 16,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 14",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-fourteen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 17,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 15",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-fifteen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 18,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 16",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-sixteen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 19,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 17",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-seventeen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 20,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 18",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-eighteen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 21,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 19",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-nineteen",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 22,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 20",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-twenty",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 23,
+      "title": "LitCharts — Howl’s Moving Castle, chapter 21",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/chapter-twenty-one",
+      "role": "review",
+      "note": {
+        "ru": "Открытые событийные разделы поглавного справочника. Это вторичный разбор, а не текст главы; закрытые фрагменты не использованы.",
+        "en": "Public event sections of the chapter guide. Secondary commentary, not the chapter text; locked portions were not used."
+      }
+    },
+    {
+      "id": 24,
+      "title": "LitCharts — selected novel passages",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/quotes",
+      "role": "primary",
+      "note": {
+        "ru": "Выборочно прочитаны цитаты Джонс из глав 2, 3, 19–21. Авторский текст отделён от комментариев сайта; номера страниц не перенесены.",
+        "en": "Selected Jones passages from chapters 2, 3 and 19–21 were read. The author’s words were distinguished from site commentary; page numbers were not reused."
+      }
+    },
+    {
+      "id": 25,
+      "title": "LitCharts — Calcifer: selected passages",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/calcifer",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны выбранные авторские цитаты из глав 3, 7, 9, 10, 17 и 21; рядом помещён вторичный комментарий.",
+        "en": "Selected author passages from chapters 3, 7, 9, 10, 17 and 21 were read; adjacent analysis is secondary."
+      }
+    },
+    {
+      "id": 26,
+      "title": "LitCharts — Miss Angorian: selected passages",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/miss-angorian",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны цитаты из глав 18 и 21 и открытая справка о персонаже. Цитаты и комментарий имеют разный доказательный статус.",
+        "en": "Passages from chapters 18 and 21 and the public character entry were read. Quoted text and commentary have different evidential status."
+      }
+    },
+    {
+      "id": 27,
+      "title": "LitCharts — Howl: character reference",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/wizard-howl",
+      "role": "review",
+      "note": {
+        "ru": "Прочитана вводная справка о персонаже; дополнительная проверка отношений, а не самостоятельная опора всего сюжета.",
+        "en": "The introductory character entry was read: an additional relationship check, not stand-alone evidence for the entire plot."
+      }
+    },
+    {
+      "id": 28,
+      "title": "SuperSummary — Howl’s Moving Castle, chapters 17–21",
+      "url": "https://www.supersummary.com/howl-s-moving-castle/chapters-17-21-summary/",
+      "role": "review",
+      "note": {
+        "ru": "Прочитаны открытые событийные описания глав 17–21 как вторая проверка поздней части. Это guide, а не роман.",
+        "en": "Public event accounts of chapters 17–21 were read as a second check on the late sequence. This is a guide, not the novel."
+      }
+    },
+    {
+      "id": 29,
+      "title": "LitCharts — Megan Parry: selected passage",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/megan-parry",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитана авторская цитата из главы 11 и открытая справка о семье.",
+        "en": "An author passage from chapter 11 and the public family reference were read."
+      }
+    },
+    {
+      "id": 30,
+      "title": "LitCharts — Sophie Hatter: character reference",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/sophie-hatter",
+      "role": "review",
+      "note": {
+        "ru": "Прочитана вводная справка и выбранные цитаты; дополнительные проверки действий и магии Софи.",
+        "en": "The introductory entry and selected passages were read as additional checks on Sophie’s actions and magic."
+      }
+    },
+    {
+      "id": 31,
+      "title": "LitCharts — Percival: character reference",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/the-dog-man-percival",
+      "role": "review",
+      "note": {
+        "ru": "Прочитана вводная справка и цитата из главы 19; дополнительная проверка событийной связи.",
+        "en": "The introductory entry and a chapter-19 passage were read as an additional check on the chain of events."
+      }
+    },
+    {
+      "id": 32,
+      "title": "LitCharts — Witch of the Waste: selected passages",
+      "url": "https://www.litcharts.com/lit/howl-s-moving-castle/characters/the-witch-of-the-waste",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны вводная справка и авторские цитаты из глав 12 и 21; их содержание отделено от толкований.",
+        "en": "The introductory entry and author passages from chapters 12 and 21 were read, separately from interpretations."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Краткий пересказ своими словами романа Джонс 1986 года, без событий фильма и продолжений. Прочитаны легальный фрагмент HarperCollins, открытые поглавные справочники и выбранные цитаты романа. Полное издание не прочитано непрерывно; RU/EN — оригинальный пересказ, не изданный перевод. Essential и Core останавливаются до поздних объяснений. Только Deep раскрывает их и развязку, после согласия. Внешние ссылки могут содержать спойлеры.",
+    "en": "An original-word condensation of Jones’s 1986 novel, excluding film and sequel events. Read the lawful HarperCollins excerpt, public chapter guides and selected quoted novel passages. No complete edition was read continuously; RU/EN are an original retelling, not a published translation. Essential and Core stop before the late explanations. Deep reveals those and the ending only after consent. External links may contain spoilers."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "matchingManuscriptsUpdated": [
+    "collector-output/howls-moving-castle/prose-before-segmentation.md"
+  ],
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/howls-moving-castle/howls-moving-castle.html",
+    "format": "v2",
+    "bytes": 328040,
+    "screenCount": 39,
+    "levels": {
+      "1": 15,
+      "2": 10,
+      "3": 14
+    },
+    "modes": {
+      "essential": 15,
+      "core": 25,
+      "deep": 39
+    },
+    "words": {
+      "ru": 2226,
+      "en": 2652
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-fiction-fix-browser.json",
+    "reportSha256": "6dbf42ddcf07836db322c1b34ef071bbf32cef474b54155e6f37162683b0ca8e",
+    "totalAssertionsAcrossFourReaders": 176,
+    "scope": "Changed-copy and tail checks, four representative viewport/theme cases in RU/EN, native browser/HTML consent, cancellation and saved restore; all owned processes/profiles cleaned. No physical iPhone/PWA claim."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

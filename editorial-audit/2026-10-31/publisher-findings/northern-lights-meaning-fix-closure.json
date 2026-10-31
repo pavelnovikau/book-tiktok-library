@@ -1,0 +1,173 @@
+{
+  "slug": "northern-lights",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:41:06.538075+00:00",
+  "findings": [
+    "NL-001"
+  ],
+  "changedScreens": [
+    "fog-and-ice"
+  ],
+  "counts": {
+    "essential": 17,
+    "core": 22,
+    "deep": 43
+  },
+  "sourceCheck": "NL-001: parent directly read Helen Mason/ZigZag official guide, printed79/PDF84, chapter18 Fog and Ice, declarative summary. The discussion ends with tiredness; the cliff-ghast attack occurs later. Both copies now say Later/Позже without inventing an interruption. No added sleep scene or reordering, new source, level or count. This is guide-supported chronology, not a claim of continuous primary chapter18 reading.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/northern-lights.json",
+  "originalReviewSha256": "f48549b1c0d8c35e41724f661963295923efd7fcb02068237c3bab917a5a3100",
+  "beforeHashes": {
+    "collector-output/northern-lights/story-data.json": "1d3caabf6657fa65a3707310b0b06eb0b702359871dac3b827437900a14ff10f",
+    "collector-output/northern-lights/northern-lights.html": "2be07fd4627e846d6b51314e77aaf6775ae17c9026488638af55fc59d6efd43f",
+    "collector-output/northern-lights/sources.md": "690215100d575f081986856684d18978f42578700694832bb8b84a7eba269f01",
+    "collector-output/northern-lights/QA.md": "0ca0294286c5134bfa08a15d98d9508bbc04bc738357d6c307b0f3ea2708686a",
+    "collector-output/northern-lights/narrative-en.md": "a62dfb89201ced93b9d285c2ac234fcd0b5ed50a2040db2498b8b3f0449f8957",
+    "collector-output/northern-lights/narrative-ru.md": "ad6c8291f7980a240aaf12cab49172d6b87790478c6afe5098267d7515e3bd99"
+  },
+  "afterHashes": {
+    "collector-output/northern-lights/story-data.json": "4b27f8e744e703efdb7ea12620567a6a7bf9c3d762b3f94b408b7f9af3b1e76e",
+    "collector-output/northern-lights/northern-lights.html": "ba85c52936b1c85b7e8bb09518b02a9fb4342392b7b83322b0e12a630046843b",
+    "collector-output/northern-lights/sources.md": "672506a63eff0e63189c64add2c2e22bea7d832d4bd344968a6c3220f996fa4f",
+    "collector-output/northern-lights/QA.md": "f0681df03f89eaf94db3fcff89a1215a6d725be84e4deb22b9fef7c7cc8b1af4",
+    "collector-output/northern-lights/narrative-en.md": "aeef49284cbc7429a1ec9489fa5cab88cba6d21935fa2e82a22f3adfe40eb868",
+    "collector-output/northern-lights/narrative-ru.md": "52b6bab73cd79c4d8bce639c344ab486425b01070b7a8e939d914f6dd39b4a50"
+  },
+  "screensBefore": [
+    {
+      "id": "fog-and-ice",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Дальше на Север",
+          "title": "Выпасть из корзины",
+          "body": "<p>Но разговор обрывается опасностью. На шар нападают скальные призраки. Среди рывков и столкновений Лира выпадает из корзины; внизу её находят медведи Свалбарда. Она ждала, что придёт к ним с Йореком, а оказывается пленницей одна.</p>"
+        },
+        "en": {
+          "section": "Further north",
+          "title": "Out of the basket",
+          "body": "<p>Danger ends their conversation. Cliff-ghasts attack the balloon. Amid the violent jolts and collisions Lyra falls out of the basket; below, Svalbard's bears find her. She expected to arrive among them with Iorek. Instead she is their prisoner, alone.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "fog-and-ice",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Дальше на Север",
+          "title": "Выпасть из корзины",
+          "body": "<p>Позже на шар нападают скальные призраки. Среди рывков и столкновений Лира выпадает из корзины; внизу её находят медведи Свалбарда. Она ждала, что придёт к ним с Йореком, а оказывается пленницей одна.</p>"
+        },
+        "en": {
+          "section": "Further north",
+          "title": "Out of the basket",
+          "body": "<p>Later, cliff-ghasts attack the balloon. Amid the violent jolts and collisions Lyra falls out of the basket; below, Svalbard's bears find her. She expected to arrive among them with Iorek. Instead she is their prisoner, alone.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Philip Pullman · Northern Lights — Scholastic opening extract",
+      "url": "https://www.lovereading4kids.co.uk/extract/955/Northern-Lights-by-Philip-Pullman.html",
+      "role": "book",
+      "note": {
+        "ru": "Первичный текст первой главы: издательский PDF Scholastic на LoveReading4Kids, 17 страниц PDF, из них текст романа на с. 3–17. ISBN и год этой выборки не указаны; прочитан отрывок, не весь роман.",
+        "en": "Primary chapter-one text: a Scholastic publisher PDF at LoveReading4Kids, 17 PDF pages, novel text on pp. 3–17. This extract does not state an ISBN or edition year; the extract, not the entire novel, was read."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Helen Mason · Northern Lights: Notes and Activities for KS3 (ZigZag Education, 2013)",
+      "url": "https://zigzageducation.co.uk/samplepdf/English/s5161.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Официальная ознакомительная копия учебного guide: 111 страниц PDF, пересказы всех 23 глав, ответы и выборочные цитаты романа. Guide опирается на Scholastic UK, 2011 [1995]. Использованы подтверждённые события и цитаты; задания на выдумывание сцен и сравнения с фильмом исключены. Это вторичный проводник по сюжету, не полное первичное издание.",
+        "en": "Official 111-page inspection copy: summaries of all 23 chapters, answer keys and selected novel quotations. Its stated base is Scholastic UK, 2011 [1995]. Retained events and quoted passages were checked; imaginative-writing tasks and film comparisons were excluded. This is a secondary plot guide, not a complete primary edition."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Systime · Philip Pullman: Northern Lights / The Golden Compass — supplementary extracts",
+      "url": "https://supplerendematerialer.systime.dk/fileadmin/indhold/SupplerendeMaterialer/A_Short_History_of_Literature_in_English/Fantasy/Pullmanwebopg.pdf",
+      "role": "primary",
+      "note": {
+        "ru": "Издательский учебный материал: первичный отрывок прибытия на Север и пять сопоставленных фрагментов UK/US, в том числе морской эпизод и визит к консулу ведьм. Прочитаны английские фрагменты; датский перевод не использован. Небольшие различия редакций не выданы за разные произведения.",
+        "en": "Publisher teaching supplement: a primary passage on arriving in the North and five paired UK/US extracts, including the sea voyage and the witches’ consul. The English passages were read; the Danish translation was not used. Minor editorial differences are not treated as different works."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Northern Lights · Scholastic 2019 publisher description carried by Foyles",
+      "url": "https://www.foyles.co.uk/book/his-dark-materials-northern-lights-gift-edition/philip-pullman/9781407198705",
+      "role": "publisher",
+      "note": {
+        "ru": "Только короткая реплика из романа в издательском описании и библиография издания Scholastic 2019, ISBN 9781407198705. Сверка одной позиции персонажа; аннотация не использована как замена сюжету.",
+        "en": "Only the short novel passage in the publisher description and the metadata of the Scholastic 2019 edition, ISBN 9781407198705. Used to check one character’s stated position; the blurb did not substitute for plot evidence."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Penguin Random House · The Golden Compass (His Dark Materials, Book 1)",
+      "url": "https://www.penguinrandomhouse.com/books/136447/his-dark-materials-the-golden-compass-book-1-by-philip-pullman/",
+      "role": "publisher",
+      "note": {
+        "ru": "Библиографическая сверка первого романа под американским названием: Knopf, 2002, ISBN 9780375823459. Это не утверждение о прочтении данного полного издания. Продолжения и экранизации не входят в пересказ.",
+        "en": "Bibliographic check of the first novel under its US title: Knopf, 2002, ISBN 9780375823459. This does not claim that this complete edition was read. Sequels and adaptations are outside the retelling."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Оригинальный сокращённый пересказ первого романа на RU/EN. Полного издания в доступной личной библиотеке Apple Books не найдено; весь роман непрерывно не прочитан. Прочитаны первая глава и другие законно опубликованные первичные фрагменты; последовательность сохранённых событий проверена по содержательному guide всех 23 глав, с отдельной сверкой цитат. Это выборочное исследование, не полный перевод и не сертификат сверки всего романа. Экранизации и дальнейшие книги не использованы. Развязки доступны только в Deep после согласия.",
+    "en": "An original condensed RU/EN retelling of the first novel. No matching complete edition was found in the accessible owned Apple Books library; no continuous reading of the whole novel is claimed. Chapter one and other lawfully published primary passages were read; retained events were checked against a substantial guide to all 23 chapters, with separate checks of quoted passages. This is selective research, not a full translation or whole-novel verification certificate. Adaptations and later books were not used. Outcomes are available only in Deep after consent."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "matchingManuscriptsUpdated": [
+    "collector-output/northern-lights/narrative-en.md",
+    "collector-output/northern-lights/narrative-ru.md"
+  ],
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/northern-lights.html",
+    "format": "v2",
+    "bytes": 306715,
+    "screenCount": 43,
+    "levels": {
+      "1": 17,
+      "2": 5,
+      "3": 21
+    },
+    "modes": {
+      "essential": 17,
+      "core": 22,
+      "deep": 43
+    },
+    "words": {
+      "ru": 1844,
+      "en": 2214
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-fiction-fix-browser.json",
+    "reportSha256": "6dbf42ddcf07836db322c1b34ef071bbf32cef474b54155e6f37162683b0ca8e",
+    "totalAssertionsAcrossFourReaders": 176,
+    "scope": "Changed-copy and tail checks, four representative viewport/theme cases in RU/EN, native browser/HTML consent, cancellation and saved restore; all owned processes/profiles cleaned. No physical iPhone/PWA claim."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

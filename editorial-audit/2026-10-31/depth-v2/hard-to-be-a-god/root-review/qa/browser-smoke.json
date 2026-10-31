@@ -1,0 +1,183 @@
+{
+  "phase": "smoke",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "hard-to-be-a-god.html": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+    "story-data.json": "a08671c0640cb4718d0469da791ab98abf20481d0d3f5c87fd0e69c5be67d60c"
+  },
+  "lastEvaluate": "(()=>{document.querySelector('#contentsList [data-go-to=\"final\"]').click();const el=document.querySelector('#story .slide-scroll'),h=el.querySelector('h1');el.scrollTop=el.scrollHeight;return{hasTitle:!!h?.textContent,noHorizontalOverflow:e",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "coverCases": [
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "subtitle": true,
+      "noImplementationLabel": true,
+      "minutes": true,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "localChanges": [
+    {
+      "lang": "ru",
+      "id": "deep-warning",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "ru",
+      "id": "drinking-night",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "ru",
+      "id": "aba-tsupik",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "ru",
+      "id": "condor-reversal",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "ru",
+      "id": "kira-window",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "ru",
+      "id": "final",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "en",
+      "id": "deep-warning",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "en",
+      "id": "drinking-night",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "en",
+      "id": "aba-tsupik",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "en",
+      "id": "condor-reversal",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "en",
+      "id": "kira-window",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    },
+    {
+      "lang": "en",
+      "id": "final",
+      "hasTitle": true,
+      "noHorizontalOverflow": true,
+      "reachableBottom": true
+    }
+  ],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "processGroupTerminated": true
+}

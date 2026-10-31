@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "atUtc": "2026-10-31T23:38:42.564272+00:00",
+  "slug": "hard-to-be-a-god",
+  "candidate": "expanded-depth-v2",
+  "verdict": "PASS",
+  "reviewer": "root",
+  "reviewKind": "Personal complete bilingual reading, route reading, coverage comparison and selected primary-scene checking",
+  "rootPersonalAcceptance": true,
+  "bookContentPublicationAllowed": true,
+  "onlyTheseHashesApproved": {
+    "story-data.json": "a08671c0640cb4718d0469da791ab98abf20481d0d3f5c87fd0e69c5be67d60c",
+    "hard-to-be-a-god.html": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746"
+  },
+  "allOtherBooksRemainHeld": true,
+  "readScope": {
+    "all94OriginalRuEnPairs": true,
+    "deepSequenceComplete": true,
+    "essentialRouteRereadComplete": true,
+    "coreRouteRereadComplete": true,
+    "globalMetadataMethodSources": true,
+    "originalWitnessReadContinuouslyByRoot": false,
+    "primaryRangesRead": [
+      "prologue P114–120 around Arata game",
+      "chapter1 selected P107–113,P141–145",
+      "complete chapter9 P001–053",
+      "complete epilogue P001–037",
+      "chapter8 P150–219 incl recovered P178–185",
+      "chapter8 P059–124 (P079–082 recovered and read)",
+      "chapter6 P019–033 (P029 recovered and read)",
+      "chapter4 P169–178",
+      "chapter7 selected P018–020,P068–070,P092–094",
+      "chapter10 selected P015–017,P033–041,P083–103",
+      "chapter1 P151–162",
+      "chapter4 P022–043 and P197–218"
+    ],
+    "allChangedFinalPairsReread": true,
+    "completeChapterSceneMap": true
+  },
+  "counts": {
+    "essential": 19,
+    "core": 47,
+    "deep": 94
+  },
+  "metrics": {
+    "wordDefinition": "Unicode letter/number token, retaining internal apostrophes/hyphens/dashes; same regex as maintained builder",
+    "rates": {
+      "ru": 180,
+      "en": 220
+    },
+    "depths": {
+      "essential": {
+        "screens": 19,
+        "narrativeScreens": 17,
+        "narrativeWords": {
+          "ru": 1428,
+          "en": 1774
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 1557,
+          "en": 1940
+        },
+        "narrativeMinutes": {
+          "ru": 7.93,
+          "en": 8.06
+        },
+        "builderCeilingMinutes": {
+          "ru": 9,
+          "en": 9
+        }
+      },
+      "core": {
+        "screens": 47,
+        "narrativeScreens": 45,
+        "narrativeWords": {
+          "ru": 3855,
+          "en": 4737
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 4064,
+          "en": 5019
+        },
+        "narrativeMinutes": {
+          "ru": 21.42,
+          "en": 21.53
+        },
+        "builderCeilingMinutes": {
+          "ru": 23,
+          "en": 23
+        }
+      },
+      "deep": {
+        "screens": 94,
+        "narrativeScreens": 91,
+        "narrativeWords": {
+          "ru": 7792,
+          "en": 9531
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 8166,
+          "en": 10039
+        },
+        "narrativeMinutes": {
+          "ru": 43.29,
+          "en": 43.32
+        },
+        "builderCeilingMinutes": {
+          "ru": 46,
+          "en": 46
+        }
+      }
+    }
+  },
+  "literaryJudgment": {
+    "sustainedNarrative": true,
+    "reason": "The missing-physician search develops through specific encounters and court action. Kira, Uno and Pampa have relationships and actions rather than lesson labels. The upheaval, contrasting appeals to Rumata, return home and indirect epilogue form a connected arc.",
+    "authorArguments": "Budakh and Arata retain distinct arguments, objections and Rumata’s uncertainty. Neither argument becomes a reader exercise or a settled authorial moral.",
+    "ending": "The fatal scene stops with Rumata waiting at the door. Pashka’s incomplete later account and the strawberry ending retain their uncertainty; no invented revenge sequence or body count.",
+    "shorterRoutes": "Both are explicitly incomplete openings ending after the court performance. They remain coherent and do not pretend to retell the whole resolution.",
+    "depthDecision": "The 91 narrative units sustain scenes, relationships, changing information and the central debates. Acceptance follows that reading and the mapped whole-work arc, not a word or screen quota.",
+    "transferLimit": "A workable fiction example, not a universal length template or approval of the pending nonfiction pilot."
+  },
+  "closedFindings": [
+    {
+      "id": "ROOT-HG-01",
+      "fix": "EN aba-tsupik: wrists -> hands",
+      "primary": "D2:ГЛАВА 7:P069,P093"
+    },
+    {
+      "id": "ROOT-HG-02",
+      "fix": "Natural RU wording for the unresolved Condor disagreement; meaning unchanged",
+      "primary": "D2:ГЛАВА 10:P013–039"
+    },
+    {
+      "id": "ROOT-HG-03",
+      "fix": "Ripat-to-wine bridge in both languages; locator broadened to P178–184",
+      "primary": "D2:ГЛАВА 4:P177–184"
+    },
+    {
+      "id": "ROOT-HG-04",
+      "fix": "Trim explanatory repetition after the fatal scene; end at the door, leave later knowledge to the epilogue",
+      "primary": "D2:ГЛАВА 10:P102–103"
+    },
+    {
+      "id": "ROOT-HG-05",
+      "fix": "Name actual RU controls; clarify the unrevealed-ending promise; remove implementation-stage subtitle; correct Russian minute inflection"
+    },
+    {
+      "id": "ROOT-HG-06",
+      "fix": "Revoke Deep consent after a real mode downgrade; Continue and picker require a fresh warning",
+      "regression": "4 real downgrade paths, 188 saved paths, both languages, fresh reloads and explicit entry passed"
+    }
+  ],
+  "closedSuspicions": [
+    {
+      "question": "Arata in the childhood game",
+      "result": "Present in the actual prologue; retained."
+    },
+    {
+      "question": "What happened to Vaga",
+      "result": "The source says Arata caught up with him at the port. The digest correctly retains this limited wording."
+    }
+  ],
+  "verification": {
+    "authoredEmbeddedParity": true,
+    "connectedDraftsMatch": true,
+    "allIdsLevelsUnchanged": true,
+    "protectedHistoricalFilesUnchanged": 12,
+    "finalStructuralAudit": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0,
+      "command": "node /Users/pn/.codex/skills/book-tiktok/scripts/audit_story_html.mjs hard-to-be-a-god.html --min-screens 94 --require-bilingual"
+    },
+    "finalHashBoundSmoke": "root-review/qa/browser-smoke.json",
+    "finalHashBoundConsent": "root-review/qa/browser-consent.json",
+    "intermediate320Matrix": "root-review/qa/browser-320.json: 1,280 rendered states; only cover subtitle changed afterwards. Final cover and changed scenes separately checked on final hash.",
+    "visualInspection": "Root viewed the 320px cover, RU Serif Kira scene and dense EN scene. Text remains scrollable; chrome stays compact.",
+    "noRemoteRequestsOrRuntimeErrors": true,
+    "chromeCleanupVerified": true
+  },
+  "omissionsAndLimits": [
+    "An original-word condensed retelling, not the complete author text or every minor episode and line of dialogue.",
+    "All twelve source divisions are represented. Repeated street detail, court business and incidental speech are compressed; mapped central actions and arguments remain.",
+    "The writer traversed the complete official Russian witness. Root read all candidate prose and selected primary ranges, not the whole primary continuously.",
+    "No print-variant collation or published-English translation fidelity is certified.",
+    "Chrome emulation only; no physical iPhone/Safari/PWA test."
+  ],
+  "progressPolicy": "Keep the candidate revision-specific namespace. Do not silently map old 33-screen progress to newly expanded scenes.",
+  "canonicalOldCollectorAndReadyUntouched": true
+}

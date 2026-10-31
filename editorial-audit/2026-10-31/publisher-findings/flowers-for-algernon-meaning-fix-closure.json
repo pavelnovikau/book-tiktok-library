@@ -1,0 +1,359 @@
+{
+  "slug": "flowers-for-algernon",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:51:17.009544+00:00",
+  "findings": [
+    "FFA-01",
+    "FFA-02"
+  ],
+  "counts": {
+    "essential": 14,
+    "core": 22,
+    "deep": 34
+  },
+  "changedScreens": [
+    "warren-visit"
+  ],
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/flowers-for-algernon.json",
+  "originalReviewSha256": "326d9808eb37482f0fd66358e932aee585adabdb404dd35bc516bb3db6fe7a1c",
+  "beforeHashes": {
+    "collector-output/flowers-for-algernon/story-data.json": "e879a91a337e47d6019e6b58a0e16b318ed057f0096f4f76f1b786b7d316886f",
+    "collector-output/flowers-for-algernon/flowers-for-algernon.html": "77dab3112a1a907fd0856acaf73ac3fc38a98fa4ee84a248f38d1f6ce48c4f97",
+    "collector-output/flowers-for-algernon/sources.md": "fc02a70c5c5b58a2d4351ae23bf7c80f4cf5b8f9401210c3571416a37ea98507",
+    "collector-output/flowers-for-algernon/QA.md": "2c9167c869fb575ebbf2f668c0735538a963ab5e6c7833c7155f40e746d16820",
+    "collector-output/flowers-for-algernon/evidence/connected-draft-ru.md": "d24c8f12bbc0aa0a01363a79cab7d7bcb59cbcee0a98531abeb4a7110ca6dc34",
+    "collector-output/flowers-for-algernon/evidence/connected-draft-en.md": "1863262ef1ff34bf2233d4c89d6c9d1bc5df26ca46efb1d3577c68f46a8e4af8",
+    "editorial-audit/2026-10-31/books/flowers-for-algernon-sol-implementation.md": "09b274332a6e008a83301e208e56f6c2c9a364de1d1e28d6a3e7edf4fbda583a"
+  },
+  "afterHashes": {
+    "collector-output/flowers-for-algernon/story-data.json": "fe553ef03afb5a8f070b9be9159e5b1f795ceb5b8aba2943904ebeecdf384d1e",
+    "collector-output/flowers-for-algernon/flowers-for-algernon.html": "70336f5d5a44e35c3df8afba01019bd01944725935afaed1532342daa707d2a1",
+    "collector-output/flowers-for-algernon/sources.md": "390fac41939aaa1d2c0694923de21ce0d9e3dc07c6064fd166b84bbb1ad61d46",
+    "collector-output/flowers-for-algernon/QA.md": "036a197ee930dcca0608e140770635a95d3e75eec0c5dbc091e0b04ab230d531",
+    "collector-output/flowers-for-algernon/evidence/connected-draft-ru.md": "f9991853da1ad59609778cbb8d2d44126c1ff4c1fad4d6f11eb3e55307c13be8",
+    "collector-output/flowers-for-algernon/evidence/connected-draft-en.md": "001bb32fdb7faad7ed92a3d43fdbeaeb75482f191168b0e9b1031f7dcf2a85c2",
+    "editorial-audit/2026-10-31/books/flowers-for-algernon-sol-implementation.md": "79b97d3396ee671dd6a0c3b0c4d7f77abfe68091b15f4c042693d3d243517c93"
+  },
+  "sourceCheck": "FFA-01: reproduced the actual RU/EN downgrade leak using the unchanged independent reviewer proof. A shallow mode selection now revokes document-local consent, clears obsolete pending action and closes an obsolete warning; existing central hidden-ID, saved Continue and mode-selection guards remain. No late prose or neutral resume labels changed. FFA-02: parent directly read Ullyatt’s selected Report15 discussion and reproduced novel conversation (Heinemann1989 pp.153–154), plus SparkNotes Report15 Summary. Nemur, not Burt, supplies the contingency answer; the two minimum corrections remove the wrong Burt attribution. Burt’s separate laboratory tour remains distinct. New sources23/24 support the corrected mapping; conflicting guide11 no longer maps to warren-visit and its global note discloses the attribution limit without revealing the answer. No full primary edition, full article reading or official translation certification.",
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Daniel Keyes — Flowers for Algernon",
+      "url": "https://danielkeyesauthor.com/algernon.html",
+      "role": "author",
+      "note": {
+        "ru": "Авторская библиография: роман 1966 года, отдельно от рассказа и адаптаций. Прочитана открытая страница, не полный роман.",
+        "en": "Author bibliography: the 1966 novel, distinguished from the short story and adaptations. The public page was read, not the complete novel."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Daniel Keyes — Frequently Asked Questions",
+      "url": "https://danielkeyesauthor.com/faq.html",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны ответы о вымышленном Чарли, форме отчётов и создании романа. Это авторские пояснения, не текст романа.",
+        "en": "Read the answers on the fictional Charlie, the report form and the making of the novel. Author commentary, not novel text."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Daniel Keyes — interview in Locus, June 1997",
+      "url": "https://www.locusmag.com/1997/Issues/06/Keyes.html",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан открытый фрагмент интервью. Сопоставлен с разбором поздних событий; внешняя страница раскрывает финал.",
+        "en": "Read the public interview excerpt. Cross-checked against accounts of the late events; the external page reveals the ending."
+      }
+    },
+    {
+      "id": 4,
+      "title": "CliffsNotes — Reports 1–6",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progris-riport-1-martch-3progris-riport-6th-mar-8",
+      "role": "reference",
+      "note": {
+        "ru": "Отбор и знакомство с Элджерноном. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "Selection and the first encounter with Algernon. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 5,
+      "title": "CliffsNotes — Report 7",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-7-march-11",
+      "role": "reference",
+      "note": {
+        "ru": "Операция и ожидание перемен. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "The operation and the wait for change. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 6,
+      "title": "CliffsNotes — Report 8",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-8",
+      "role": "reference",
+      "note": {
+        "ru": "Лабиринт, пекарня, воспоминания; проверен цитируемый отрывок о кормлении мыши. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "The maze, bakery and memories; checked the quoted passage about feeding the mouse. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 7,
+      "title": "CliffsNotes — Reports 9–10",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-9progress-report-10",
+      "role": "reference",
+      "note": {
+        "ru": "Рост способностей и спор исследователей о конференции. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "Growing abilities and the researchers’ disagreement about the convention. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 8,
+      "title": "CliffsNotes — Reports 11–12",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-11progress-report-12",
+      "role": "reference",
+      "note": {
+        "ru": "Алиса, Гимпи, пекарня; прочитаны событийный разбор и приведённые отрывки. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "Alice, Gimpy and the bakery; read the event account and the passages it quotes. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 9,
+      "title": "CliffsNotes — Report 13",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-13",
+      "role": "reference",
+      "note": {
+        "ru": "Конференция, Берт и отъезд. Медицинскую догадку комментатора о детском лечении в пересказ не переносили. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "The convention, Burt and departure. The commentator’s medical conjecture about childhood treatment is not carried into the retelling. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 10,
+      "title": "CliffsNotes — Report 14",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-14",
+      "role": "reference",
+      "note": {
+        "ru": "Отец, Фэй, закусочная и Элджернон. Разбор событий, не оригинал романа. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "The father, Fay, diner and Algernon. An event account, not the original novel. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 11,
+      "title": "CliffsNotes — Report 15",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-15",
+      "role": "reference",
+      "note": {
+        "ru": "Возвращение к исследованию и разговор с Бертом. Внешняя страница содержит поздние сведения. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "The return to research and conversation with Burt. The external page contains late information. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 12,
+      "title": "CliffsNotes — Report 16",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-16",
+      "role": "reference",
+      "note": {
+        "ru": "Поздние события и приведённые слова Чарли. Развязка здесь не пересказывается; внешняя ссылка её раскрывает. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "Late events and quoted words of Charlie. The resolution is not described here; the external link reveals it. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 13,
+      "title": "CliffsNotes — Report 17",
+      "url": "https://www.cliffsnotes.com/literature/f/flowers-for-algernon/summary-and-analysis/progress-report-17",
+      "role": "reference",
+      "note": {
+        "ru": "Последняя часть и приведённые первичные отрывки. Прочитана целиком; исход скрыт в этой заметке. Это подробный посреднический источник; полный текст главы не читался.",
+        "en": "The last part and its quoted primary passages. Read in full; the outcome is withheld in this note. This is a substantial intermediary source; the full chapter text was not read."
+      }
+    },
+    {
+      "id": 14,
+      "title": "SparkNotes — Progress Report 16",
+      "url": "https://www.sparknotes.com/lit/algernon/section7/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый событийный разбор для сверки поздней последовательности и отношений. Внешняя ссылка раскрывает финал.",
+        "en": "Read the public event account to cross-check the late sequence and relationships. The external link reveals the ending."
+      }
+    },
+    {
+      "id": 15,
+      "title": "SparkNotes — Progress Report 17",
+      "url": "https://www.sparknotes.com/lit/algernon/section8/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан разбор с короткими первичными отрывками. Проверены поздние действия и точная граница того, что рассказано о будущем.",
+        "en": "Read the account with short primary passages. Checked late actions and the exact boundary of what is narrated about the future."
+      }
+    },
+    {
+      "id": 16,
+      "title": "SparkNotes — selected passage, Report 6",
+      "url": "https://www.sparknotes.com/lit/algernon/quotes/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан цитируемый отрывок о желании Чарли участвовать в опыте. Цитата сверена в её контексте разбора; не с полным изданием.",
+        "en": "Read the quoted passage about Charlie’s wish to enter the experiment. Checked within the guide’s context, not against a complete edition."
+      }
+    },
+    {
+      "id": 17,
+      "title": "SparkNotes — selected passage, Report 14",
+      "url": "https://www.sparknotes.com/lit/algernon/quotes/page/4/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверены приведённые слова Чарли о встрече с отцом. Его страх не выдан за установленную реакцию отца.",
+        "en": "Checked the quoted words about meeting his father. Charlie’s fear is not presented as the father’s established response."
+      }
+    },
+    {
+      "id": 18,
+      "title": "BookRags — Progress Report 16, quoted research passage",
+      "url": "https://www.bookrags.com/notes/alg/part17.html",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан событийный разбор и приведённая формулировка из исследовательской работы Чарли. Это фантастическое допущение романа, не медицинский факт.",
+        "en": "Read the event account and the quoted formulation from Charlie’s research paper. This is a fictional premise of the novel, not a medical fact."
+      }
+    },
+    {
+      "id": 19,
+      "title": "Hachette / W&N — Flowers for Algernon, ISBN 9781474605731",
+      "url": "https://www.hachette.co.uk/titles/daniel-keyes/flowers-for-algernon/9781474605731/",
+      "role": "publisher",
+      "note": {
+        "ru": "Проверены издательские данные переиздания 2017 года. Кнопка фрагмента не дала текста; страница не использована как доказательство сцен.",
+        "en": "Checked the 2017 reissue’s publishing details. The excerpt button supplied no text; this page is not evidence for scenes."
+      }
+    },
+    {
+      "id": 20,
+      "title": "SparkNotes — Progress Reports 1–7",
+      "url": "https://www.sparknotes.com/lit/algernon/section1/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан открытый разбор отбора, тестов и первых отчётов. Дополняет проверку начальных действий.",
+        "en": "Read the public account of selection, tests and early reports. Supplements the check of opening actions."
+      }
+    },
+    {
+      "id": 21,
+      "title": "SparkNotes — Progress Reports 10–11",
+      "url": "https://www.sparknotes.com/lit/algernon/section3/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан разбор с отрывками о пекарне, Алисе и споре исследователей. Конкретные поступки отделены от выводов комментатора.",
+        "en": "Read the account with passages on the bakery, Alice and the researchers’ disagreement. Concrete actions are distinguished from the commentator’s conclusions."
+      }
+    },
+    {
+      "id": 22,
+      "title": "SparkNotes — selected passage, Report 13",
+      "url": "https://www.sparknotes.com/lit/algernon/quotes/page/3/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверен приведённый отрывок о конференции. Воображаемое Чарли представление не выдано за реально произнесённую речь.",
+        "en": "Checked the quoted convention passage. Charlie’s imagined introduction is not presented as a speech actually delivered."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Краткий пересказ романа 1966 года своими словами. Прочитаны авторские пояснения Киза, открытые подробные разборы CliffsNotes и SparkNotes и разбор BookRags. Ключевые места сверены с отрывками романа, процитированными внутри этих разборов; с полным изданием они не сверялись. Полный роман и русский перевод целиком не читались. RU и EN — две версии этого пересказа, не перевод опубликованных отчётов. Развязка — только в Deep. Внешние источники могут раскрывать её.",
+    "en": "A concise original-word retelling of the 1966 novel. Read Keyes’s author commentary, substantial public CliffsNotes and SparkNotes accounts, and the BookRags account. Key points were checked against novel passages quoted within those guides, not collated against a complete edition. The complete novel and a complete Russian translation were not read. RU and EN are two versions of this retelling, not translations of the published reports. The resolution is exclusive to Deep. External sources may reveal it."
+  },
+  "screensBefore": [
+    {
+      "id": "warren-visit",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        11,
+        12,
+        14
+      ],
+      "copy": {
+        "ru": {
+          "section": "Чарли и Элджернон",
+          "title": "Место, приготовленное заранее",
+          "body": "<p>От Берта Чарли узнаёт: если он утратит новые способности, предусмотрено место в учреждении Уоррена. Он просит показать ему это место, пока может понять, что видит. Персонал старается заботиться о жителях, но Чарли страшно представить себя среди них. Ещё он просит не уничтожать Элджернона вместе с другими умершими лабораторными животными: о мыши он позаботится сам.</p>"
+        },
+        "en": {
+          "section": "Charlie and Algernon",
+          "title": "A place already arranged",
+          "body": "<p>Burt tells Charlie that a place at the Warren Home has been arranged if he loses his new abilities. He asks to visit while he can still understand what he sees. The staff try to care for the residents, but imagining himself among them frightens him. He also asks that Algernon not be disposed of with other dead laboratory animals: he will take care of the mouse himself.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "warren-visit",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        12,
+        14,
+        23,
+        24
+      ],
+      "copy": {
+        "ru": {
+          "section": "Чарли и Элджернон",
+          "title": "Место, приготовленное заранее",
+          "body": "<p>Чарли узнаёт: если он утратит новые способности, предусмотрено место в учреждении Уоррена. Он просит показать ему это место, пока может понять, что видит. Персонал старается заботиться о жителях, но Чарли страшно представить себя среди них. Ещё он просит не уничтожать Элджернона вместе с другими умершими лабораторными животными: о мыши он позаботится сам.</p>"
+        },
+        "en": {
+          "section": "Charlie and Algernon",
+          "title": "A place already arranged",
+          "body": "<p>Charlie learns that a place at the Warren Home has been arranged if he loses his new abilities. He asks to visit while he can still understand what he sees. The staff try to care for the residents, but imagining himself among them frightens him. He also asks that Algernon not be disposed of with other dead laboratory animals: he will take care of the mouse himself.</p>"
+        }
+      }
+    }
+  ],
+  "allOtherScreenPairsUnchanged": true,
+  "outerReaderCodePreserved": false,
+  "runtimeChange": {
+    "old": "        if (mode === 'deep' && !endingConsent) { guardEnding(() => setMode(mode)); return; }\n        const currentId = currentScreen().id;",
+    "new": "        if (mode === 'deep' && !endingConsent) { guardEnding(() => setMode(mode)); return; }\n        if (mode !== 'deep') {\n          endingConsent = false;\n          pendingEnding = null;\n          if (spoilerDialog.open) spoilerDialog.close();\n        }\n        const currentId = currentScreen().id;",
+    "allOtherOuterCodePreserved": true
+  },
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/flowers-for-algernon/flowers-for-algernon.html",
+    "format": "v2",
+    "bytes": 314275,
+    "screenCount": 34,
+    "levels": {
+      "1": 14,
+      "2": 8,
+      "3": 12
+    },
+    "modes": {
+      "essential": 14,
+      "core": 22,
+      "deep": 34
+    },
+    "words": {
+      "ru": 1738,
+      "en": 1992
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "beforeBrowserProof": "editorial-audit/2026-10-31/publisher-findings/flowers-for-algernon-consent-before.json",
+  "beforeBrowserProofSha256": "3ce3206704d8dd78672e815c00da0eda4c82d6b3fc636f1865baadca5bb9e0b0",
+  "browser": {
+    "status": "passed",
+    "checks": 164,
+    "report": "editorial-audit/2026-10-31/publisher-findings/flowers-for-algernon-parent-regression.json",
+    "reportSha256": "747a475471e966eb7e8e6229294764eb30e9b2d6ce3f55775136ccde6c9474cc",
+    "scope": "Focused actual-browser FFA-01/02 regression, four viewport/language/theme cases; not independent literary PASS or physical iPhone/PWA certification.",
+    "ownedProfileCleaned": true
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false,
+  "matchingManuscriptsUpdated": [
+    "collector-output/flowers-for-algernon/evidence/connected-draft-ru.md",
+    "collector-output/flowers-for-algernon/evidence/connected-draft-en.md"
+  ]
+}

@@ -1,3 +1,9 @@
+> **2026-10-31 narrative pass 2: REBUILT, ready for independent check only.** Current 11/18/36 story replaces the analytical 24/60/96 corpus. The prior source-gap notices below are historical; the dated pass-2 record at the end supersedes them for this retained arc. Full novel not acquired/read; see [new source rescue](../../editorial-audit/2026-10-31/source-rescue/the-hitchhikers-guide-to-the-galaxy-pass2.md).
+
+> **2026-10-31 targeted acquisition update:** newly read Salem Press publisher-sample first-novel account supports the Ford → Vogon → Heart of Gold chain. SOURCE-GAP is now specifically Magrathea approach/brain-threat/physical escape links, not an automatic no-full-EPUB verdict. Pan ISBN 9781529034523's endpoint returned a generic homepage, not novel text. See [new evidence map](../../editorial-audit/2026-10-31/source-rescue/the-hitchhikers-guide-to-the-galaxy.md). No rewrite, ready manifest or independent approval.
+
+> **2026-10-31 corrected editorial audit: REBUILD / SOURCE-GAP; NOT READY.** All 96 RU/EN pairs and the effective root corpus were reviewed. Earlier analytical-companion approval below is historical and superseded. Complete first-novel primary access is still required; see `../../editorial-audit/2026-10-31/books/the-hitchhikers-guide-to-the-galaxy.md`. No new fidelity approval is claimed.
+
 # The Hitchhiker’s Guide to the Galaxy — evidence and prior map
 
 Research date: 2026-10-31. Scope: Douglas Adams’s first novel (1979), not the omnibus narrative, radio scripts, TV, game, film or sequels. The public edition identity is [Del Rey paperback, ISBN 9780345418913, 1997](https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780345418913). Its publisher page identifies 208 pages; these are bibliographic metadata, not claimed reading coverage or page locators. No private edition or workstation path is used.
@@ -160,3 +166,63 @@ B = reported book event/image; C = external context/criticism; S = original synt
 | `sequel-boundary` | 3 | S | 4 / series order; 7 / ending; sequels explicitly excluded |
 | `evidence-limit` | 3 | S | 1 / excerpt; 2–3 / author material; 5–7 / accessed secondary evidence |
 | `final` | 1 | S | 1 / Chapter One; 3 / satire; 7 / Woodford; original final model |
+
+---
+
+## 2026-10-31 narrative pass 2 — current record
+Current corpus: **36 RU/EN pairs, narrative mode, 11/18/36 cumulative screens**. The historical 96-pair analytical plan above is superseded and preserved as source history. No whole-book or independent fidelity certificate is issued.
+
+Read the original 96 intake pairs again and the new 36 pairs, compared effective root/collector/JSON intake, then compared every new embedded screen with canonical JSON. Connected prose was written before segmentation: [draft](pass2/connected-story.md). Exact nested mode order: [mode-orders.json](pass2/mode-orders.json).
+
+### Current evidence boundary
+
+The first novel (1979), identified by the individual Del Rey ISBN 9780345418913 (1997). No complete novel was acquired or read continuously. The publisher opening, Salem's separately headed first-novel account, named professional chapter accounts and selected actual novel quotations **within those accounts** support the retained arc. The drive activation and some physical transitions are accountable chapter narration, not falsely claimed newly read primary paragraphs. No film, radio, game or sequel fills a gap. The restaurant is a destination only.
+
+Full acquisition/disposition record: [pass-2 source rescue](../../editorial-audit/2026-10-31/source-rescue/the-hitchhikers-guide-to-the-galaxy-pass2.md). New live source IDs are **1, 7, 9, 10, 11**; older IDs remain only in the historical ledger above. ID 9 is Salem Press; ID 10 is Taylor Lannamann / LitCharts (2018), selected public chapter accounts and their quotations; ID 11 is Kristen Osborne-Bartucca / GradeSaver, editor Aaron Suduiko (2018). All five current source objects, direct public URLs and bilingual spoiler-safe notes are embedded in the current JSON/HTML. The global Sources dialog describes scope without disclosing the answer, Earth revelation, brain demand or escape outcome.
+
+Three previous gaps are now grounded for this retained story: attack → Arthur activates drive → transformed missiles → landing; computation history → Arthur's penultimate-program brain participation → actual whole-brain demand; gunfire → suit life support → offstage Marvin/ship-computer explanation → aircar/return/departure. The mice's theory remains a hope, not a verified result. Zaphod's incomplete self-knowledge stays incomplete. Trillian's map check, missing-mice discovery and help pulling Arthur are checked actions. Ford's relationship to Zaphod is narrowed to relative/old acquaintance. Arthur learns Ford's identity aboard ship; the pub is not falsely made the location of that disclosure.
+
+No extended prose quotation, copied chapter, published Russian translation, lyric, publisher art, private EPUB/text, invented dialogue or page number is included. The new text is original bilingual retelling. The short evidence-identification quotations are confined to the source-rescue report. The old ranked-poetry shorthand, suit-explosion specificity and blanket full-EPUB gate are not adopted.
+
+### Current per-screen map
+
+The machine-readable [source map](pass2/source-map.json) adds direct chapter URLs. Bilingual copies share each row.
+
+| Screen ID | Level | Provenance | Source IDs | Exact evidence locator |
+| --- | ---: | --- | --- | --- |
+| `cover` | 1 | synthesis |  | Original spoiler-safe navigation/framing; no new plot claim |
+| `yellow-bulldozer` | 1 | book | 1 | 1 / Chapter One: morning, delayed recognition, mud |
+| `notice-cellar` | 2 | book | 1, 7 | 1 / Chapter One: plans exchange; 7 / Earth |
+| `prosser-cottage` | 2 | book | 1 | 1 / Chapter One: Prosser, points D and E |
+| `ford-urgent` | 1 | book | 7, 9, 11 | 7 / Earth; 9 / printed 17; 11 / opening Ford paragraphs |
+| `vogon-plans` | 1 | book | 7, 9 | 7 / Earth; 9 / printed 17: Vogon demolition and escape |
+| `president-takes-ship` | 2 | book | 10 | 10 / chapter-4, quoted unveiling/theft and chapter narration |
+| `fish-and-guide` | 1 | book | 10, 11 | 10 / chapter-6, quoted announcement and Babel fish; 11 / Vogon ship paragraph |
+| `harmless-earth` | 2 | book | 10 | 10 / chapter-6: Earth entry and Ford update |
+| `poetry-airlock` | 1 | book | 7, 9, 11 | 7 / Hitchhiking; 9 / printed 17: punishment, expulsion; 11 / Vogon captivity |
+| `heart-rescue` | 1 | book | 9, 10 | 9 / printed 17: rescue; 10 / chapter-9: rescue and quoted penguin episode |
+| `marvin-fetches` | 2 | book | 7, 11 | 7 / Characters: Marvin; 11 / robot fetches newcomers and friendly ship |
+| `party-reunion` | 1 | book | 7, 11 | 7 / Heart of Gold-2; 11 / semi-cousin and party reunion. No extra relationship invented |
+| `trillian-map` | 2 | book | 10 | 10 / chapter-12, quoted map and drive conversation |
+| `magrathea-found` | 1 | book | 10 | 10 / chapter-16: Ford disbelief, Eddie confirmation, Zaphod motives left uncertain |
+| `planet-voicemail` | 2 | book | 10 | 10 / chapters-17-18: quoted recordings, Trillian advises departure, Zaphod ignores |
+| `missiles-approach` | 1 | book | 7, 10 | 10 / chapters-17-18: failed evasive/manual action; 7 / Eddie and Magrathea |
+| `deep-notice` | 3 | synthesis |  | Original spoiler-safe navigation/framing; no new plot claim |
+| `drive-activated` | 3 | book | 10, 11 | 10 / chapters-17-18: Arthur activates drive, missile transformation, quoted whale; 11 / attack |
+| `landing-and-split` | 3 | book | 10 | 10 / chapters-19-20: safe landing, missing mice, impact crater, split party |
+| `locked-brains` | 3 | book | 10 | 10 / chapters-19-20: quoted scan and initials; shutter and gas |
+| `slartibartfast-arrives` | 3 | book | 10 | 10 / chapter-22: quoted hibernation/aircar and name; chapters-19-20 surface split |
+| `earth-workshop` | 3 | book | 9, 10 | 10 / chapter-24: quoted Earth Mark Two, Norway, mice and dimensions; 9 / printed 17 broad premise |
+| `deep-thought-commission` | 3 | book | 10 | 10 / chapter-25: quoted commission and required duration |
+| `philosophers-protest` | 3 | book | 10 | 10 / chapter-25: quoted philosophers, career concern and computer proposal |
+| `deep-thought-answer` | 3 | book | 9, 10, 11 | 10 / chapter-28: quoted checked answer and missing precise question; 9 / printed 17; 11 / computation |
+| `earth-program` | 3 | book | 9, 10 | 10 / chapter-28: quoted successor, organic matrix, duration, name; chapter-24: quoted five minutes; 9 / printed 17 |
+| `zaphod-awakens` | 3 | book | 10 | 10 / chapter-29: waking, catalog, self-alteration remains unexplained, summons |
+| `brain-demand` | 3 | book | 10 | 10 / chapter-31: quoted organic part of penultimate configuration, inferred encoding, whole-brain demand |
+| `friends-pull-arthur` | 3 | book | 10 | 10 / chapter-31: replacement, withdrawal, Trillian/Ford/Zaphod pull Arthur, blockage, alarm |
+| `police-disruption` | 3 | book | 10 | 10 / chapter-32: alarm, escape, fake question, cops pursuing stolen ship and gunfire |
+| `gunfire-stops` | 3 | book | 10 | 10 / chapter-33: quoted suit life-support computer, atmosphere, deaths, Zaphod gives up search |
+| `aircar-return` | 3 | book | 7, 10, 11 | 10 / chapter-33: aircar, quoted uncertain note; 7 / Woodford aircar help; 11 / aircar return |
+| `marvin-ending` | 3 | book | 10, 11 | 10 / chapter-34: quoted external feed, lengthy conversation, computer suicide; chapter-33: life support; 11 / explicit causal link |
+| `restaurant-heading` | 3 | book | 10 | 10 / chapter-35: departure, Arthur reading, Zaphod hunger question and destination, not restaurant arrival |
+| `final` | 1 | synthesis |  | Original spoiler-safe navigation/framing; no new plot claim |

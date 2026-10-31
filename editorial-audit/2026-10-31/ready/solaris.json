@@ -1,0 +1,363 @@
+{
+  "slug": "solaris",
+  "date": "2026-10-31",
+  "status": "ready-for-independent-check",
+  "title": {
+    "ru": "Солярис",
+    "en": "Solaris"
+  },
+  "author": {
+    "ru": "Станислав Лем",
+    "en": "Stanisław Lem"
+  },
+  "deliverables": {
+    "storyData": "collector-output/solaris/story-data.json",
+    "reader": "collector-output/solaris/solaris.html",
+    "sources": "collector-output/solaris/sources.md",
+    "qa": "collector-output/solaris/QA.md",
+    "manuscript": "collector-output/solaris/narrative-draft.md"
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/solaris-implementation.md",
+  "sourceRescuePath": "editorial-audit/2026-10-31/source-rescue/solaris.md",
+  "counts": {
+    "essential": 10,
+    "core": 16,
+    "deep": 32
+  },
+  "levelAdditions": {
+    "1": 10,
+    "2": 6,
+    "3": 16
+  },
+  "previousCounts": {
+    "essential": 30,
+    "core": 72,
+    "deep": 112
+  },
+  "contentMode": "narrative",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential",
+    "readingFont": "sans"
+  },
+  "readingMinutes": {
+    "ru": {
+      "essential": 3,
+      "core": 5,
+      "deep": 9
+    },
+    "en": {
+      "essential": 3,
+      "core": 5,
+      "deep": 9
+    }
+  },
+  "builderWordCounts": {
+    "essential": {
+      "ru": 450,
+      "en": 543
+    },
+    "core": {
+      "ru": 753,
+      "en": 907
+    },
+    "deep": {
+      "ru": 1516,
+      "en": 1825
+    }
+  },
+  "narrativeBodyDensity": {
+    "ru": {
+      "min": 35,
+      "max": 58,
+      "mean": 47.66
+    },
+    "en": {
+      "min": 40,
+      "max": 67,
+      "mean": 56.9
+    }
+  },
+  "sourceCount": 23,
+  "readingScope": {
+    "previousPairsRead": 112,
+    "newPairsRead": 32,
+    "directNovel": "Complete estate-authorized Newcomer in Bill Johnston; bounded Polish ending quotations in credited critical publications.",
+    "laterActions": "Relevant public LitCharts chapters 2-14; Bryk/Interia, KLP, estate-hosted Kubies pp.64-67 and specified Staron/Czerwinski excerpts. Locked guide sections were not read.",
+    "completeEditionDownloaded": false,
+    "continuousWholeNovelRead": false,
+    "ownedAppleBooks": "Read-only title-scoped metadata/archive scan: 404 candidates checked, zero matches. No matching OPF/spine/body inspection possible; no unrelated names emitted.",
+    "filmsUsedAsNovelEvidence": false
+  },
+  "sourceAssessment": "Sufficient new explicit action accounts and checked primary quotations for the shorter retained arc, pending independent editorial review; not whole-book certification.",
+  "changes": [
+    "Replaced the 112-pair analytical companion with 29 connected original paragraphs per language, then derived 32 nested screens.",
+    "Corrected Snaut recognition and forgotten arrival against the complete primary chapter.",
+    "Restored investigation, scientific satire, Harey dependence/self-awareness, oxygen/recovery, changed relationship, distinct EEG/destructive plans, her request/letter and Kelvin discovery in supported order.",
+    "Retained gloved-hand/wave gap and unresolved waiting; no ocean intention, promised reunion or film homecoming.",
+    "Built with the maintained installed builder; retained source maps/global Sources and added Solaris-only volatile consent with generic safe bilingual saved-Deep resume.",
+    "Preserved the external baseline and immutable original audit; created a separate implementation report."
+  ],
+  "spoilerGuard": {
+    "version": "SOLARIS_VOLATILE_CONSENT_V1",
+    "file": "collector-output/solaris/guard_reader.py",
+    "consentStorage": "none",
+    "revokedBy": [
+      "reload",
+      "leaving Deep",
+      "BFCache restoration"
+    ],
+    "savedDeepLabel": "generic localized label; never saved late title"
+  },
+  "qa": {
+    "structurePasses": 69,
+    "structureFailures": 0,
+    "structureWarnings": [
+      "Source coverage gaps on deep-warning and final: navigation-only framing, intentionally without invented citations."
+    ],
+    "browser": "Google Chrome headless/new, offline file access; preview file protocol unsupported.",
+    "viewports": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "dimensions": [
+      "all screens",
+      "all modes",
+      "RU/EN",
+      "dark/light",
+      "Sans/Serif"
+    ],
+    "screenVisits": 1856,
+    "sourcesContentsDialogCases": 192,
+    "interactionChecks": 25,
+    "iosEmulationChecks": 5,
+    "horizontalOverflow": 0,
+    "runtimeErrors": 0,
+    "externalRuntimeRequests": 0,
+    "nativePointerAndTouch": true,
+    "physicalSafariTested": false,
+    "ownProfilesRemoved": true,
+    "contentServerStarted": false,
+    "evidenceDirectory": "collector-output/solaris/qa"
+  },
+  "unresolvedIssues": [
+    "Independent content review pending; this status is not an independent PASS.",
+    "Later primary reading is excerpt-limited and guide-mediated; no complete-edition or line-by-line translation certification.",
+    "Physical Safari/iPhone PWA and native vertical touch scrolling were not certified; iOS geometry is Chrome emulation.",
+    "One structural warning names two source-free navigation/consent screens."
+  ],
+  "publication": {
+    "performed": false,
+    "rootReaderOrCatalogueEdited": false,
+    "gitPrDeployPerformed": false
+  },
+  "builderDependencies": [
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "29386ade13039878dbfd1ead72deae294ccf2dfb9181a71c63190bd8b7ee02e4",
+      "access": "read-only"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "11f556efa62134a9f4c2ecbcbc8e8271c1bb4157b29391ae3176ee446bf45ce9",
+      "access": "read-only"
+    }
+  ],
+  "files": [
+    {
+      "path": "collector-output/solaris/QA.md",
+      "sha256": "4152483f0ae0e8ea776f4654fdc3e23319b97bcfb1d706e5cca1fbe5cad3b12c",
+      "bytes": 7570
+    },
+    {
+      "path": "collector-output/solaris/guard_reader.py",
+      "sha256": "5534ed74735a8733a56b9164af67a684889c9b8d97ae7af5fe555aa8d16f2e7e",
+      "bytes": 5008
+    },
+    {
+      "path": "collector-output/solaris/narrative-draft.md",
+      "sha256": "cf89f1488dca5917a38e0fd6614a9500bc7accc85ab5a93b66dc1bea90e997ab",
+      "bytes": 27554
+    },
+    {
+      "path": "collector-output/solaris/qa-solaris.mjs",
+      "sha256": "e5264b9d4fcfad1353b23280bfeb85b4d63e5d0058c57c328aaefcb370f0e8d7",
+      "bytes": 23758
+    },
+    {
+      "path": "collector-output/solaris/qa/1024.json",
+      "sha256": "eeb27b0aded90bdbcffe907838d2f3cf79104c44f28eeae666e04075b2c0fe4d",
+      "bytes": 939
+    },
+    {
+      "path": "collector-output/solaris/qa/1440.json",
+      "sha256": "e8cb50606cdc55b707811093100299916219466c4c35787d5d6bdf8c8ec4b1d9",
+      "bytes": 938
+    },
+    {
+      "path": "collector-output/solaris/qa/320.json",
+      "sha256": "f8023367ab7bbf9e634870e16db06221121ebf1daa1750de0dfcfc06ed2724b6",
+      "bytes": 937
+    },
+    {
+      "path": "collector-output/solaris/qa/390.json",
+      "sha256": "fa82d0a7a399c9166601beab403bd6f2c99a5ee206c52d629769aef55007203c",
+      "bytes": 937
+    },
+    {
+      "path": "collector-output/solaris/qa/consent-ru-dark-320.png",
+      "sha256": "2b250428bb7fa4bcb49991b69d9b89950f360935e29c5a2bebc87018dd782abe",
+      "bytes": 43574
+    },
+    {
+      "path": "collector-output/solaris/qa/cover-1440.png",
+      "sha256": "d1be64538cf4884b33038dad947d2786c2b2ba62fe753298c15c95ec8fbdd354",
+      "bytes": 114082
+    },
+    {
+      "path": "collector-output/solaris/qa/cover-320.png",
+      "sha256": "56806387af6be1d4ff7c1a31a650459c7841733550d03b148f9bfbe28025c120",
+      "bytes": 31100
+    },
+    {
+      "path": "collector-output/solaris/qa/ending-ru-dark-320.png",
+      "sha256": "42dd2d81175f6635a327e6a1cd330ce6b955cf55d8edaf1c1ff6cf2ff7280dcb",
+      "bytes": 30414
+    },
+    {
+      "path": "collector-output/solaris/qa/final-checks.json",
+      "sha256": "8edca048dae6e7f9db9c96ab211e9d9363d7ffff25805189fd278d52bea0df04",
+      "bytes": 527
+    },
+    {
+      "path": "collector-output/solaris/qa/final-ru-dark-320.png",
+      "sha256": "d089c867cde5e22ab7335f5cad239df750ba0959bcb5462c6aaad5c4edab4a2c",
+      "bytes": 23792
+    },
+    {
+      "path": "collector-output/solaris/qa/gesture-before.png",
+      "sha256": "a2034c47d313fb35af3377a41d1924331fc0fc90172eb83f80c73b3fbe8a774b",
+      "bytes": 42664
+    },
+    {
+      "path": "collector-output/solaris/qa/interactions.json",
+      "sha256": "6ad6aedb180e1a918eff66097e32c7aedbeb3d4bafbf744393997108a90879ab",
+      "bytes": 1612
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-320-en.png",
+      "sha256": "24bd5a3c0f0f50d31b840c7b1f1015254530e42682bffab90cffd4a610b00297",
+      "bytes": 46214
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-320.png",
+      "sha256": "992c3bc107f46b9b2fe07b3057fe2ffabbf386ca7d0f782f9065490837de6a8f",
+      "bytes": 49969
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-390-en.png",
+      "sha256": "a6b1511e166de0771fd81708d5a39f7361b365c9b55b322034f1eb13c02d588d",
+      "bytes": 55247
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-390.png",
+      "sha256": "1a5fb42bc4235f16596785c6a0b7e5b092685778d59d29e74ba50559dd813692",
+      "bytes": 60065
+    },
+    {
+      "path": "collector-output/solaris/qa/ios.json",
+      "sha256": "54e857aa12967b101ede868ab50e091fa8bf911e2d3eecbf653cb6dbfff4c825",
+      "bytes": 5010
+    },
+    {
+      "path": "collector-output/solaris/qa/letter-1440.png",
+      "sha256": "12cdf361558d66c90cc89c7db98a3ad1633f48d107ad95f9736cf9747de47664",
+      "bytes": 103253
+    },
+    {
+      "path": "collector-output/solaris/qa/letter-320.png",
+      "sha256": "cc584432540d1fae1041a368305be37ec7552cdb1b79718144f1d1da37500f26",
+      "bytes": 44820
+    },
+    {
+      "path": "collector-output/solaris/qa/oxygen-ru-dark-320.png",
+      "sha256": "4b06c89fda4b7c1b5911db49e4fb0c725d5aa5071c018a89c2cf3fd56e5ef6d8",
+      "bytes": 42089
+    },
+    {
+      "path": "collector-output/solaris/qa/restart-cover.png",
+      "sha256": "edbf9f546deabe4ee6e6dc970b31973189a0847f35b5adfc01a328c7f4afdf6a",
+      "bytes": 52578
+    },
+    {
+      "path": "collector-output/solaris/qa/resume-safe.png",
+      "sha256": "a23d7ea2ae225041573cf12c11dd72584dbb86f1cab86cc7bc1e394fc2b13fe8",
+      "bytes": 55578
+    },
+    {
+      "path": "collector-output/solaris/qa/structure.json",
+      "sha256": "55f8377df7d923356942f5f3e9caa986238f20bb71d5414f897a3fcf32a0e368",
+      "bytes": 440
+    },
+    {
+      "path": "collector-output/solaris/qa/tap-before.png",
+      "sha256": "4e3d324f5c8ff0007c73ccfc00aa4c3687a3baaf4eafd5b493b8c3970df9a472",
+      "bytes": 37474
+    },
+    {
+      "path": "collector-output/solaris/qa/touch-before.png",
+      "sha256": "ecbafab8e29aabec2b57cee0983741bd9c3585b631cab3dfa93fe4a9c844c525",
+      "bytes": 39205
+    },
+    {
+      "path": "collector-output/solaris/qa/visual.json",
+      "sha256": "5ea03ecaad07ab55762825d0cfae81207683d4a85a5d44da9e10eefd0164f50e",
+      "bytes": 599
+    },
+    {
+      "path": "collector-output/solaris/segment.py",
+      "sha256": "0205c8e6002d8a8d0d93becc21b83deecf8b27ce1fd97f171a5f033cd4abee0c",
+      "bytes": 16198
+    },
+    {
+      "path": "collector-output/solaris/solaris.html",
+      "sha256": "667af0c1c0e7cf1e3c1255a1a54df48409f7d5ad4266c79f44c2610855c59f10",
+      "bytes": 493435
+    },
+    {
+      "path": "collector-output/solaris/sources.md",
+      "sha256": "88e19f80ebb8a33e63318b889fa30ee6a6a29a479c5600e8d8340336f64d62be",
+      "bytes": 10440
+    },
+    {
+      "path": "collector-output/solaris/story-data.json",
+      "sha256": "493e8fcc07e9a1f9f288a98ab70e3d35663a3596ed9f15ccbba133b9db65bcdb",
+      "bytes": 63787
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/solaris-implementation.md",
+      "sha256": "e36e13add17f1c8e58c4d4059537f82abc9f19d84318e7053d4f367cf2554f26",
+      "bytes": 5560
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/solaris.md",
+      "sha256": "9abc297d7959c11e5a44264a4b0a19743153e19b9486692cc9e326679cde32a5",
+      "bytes": 8731
+    }
+  ]
+}

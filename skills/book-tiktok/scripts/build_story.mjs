@@ -70,7 +70,10 @@ function mimeFor(filePath) {
 function localizedMinutes(minutes, language) {
   if (typeof minutes === 'string') return minutes;
   if (!Number.isFinite(minutes) || minutes < 1) fail(`Invalid ${language} reading time`);
-  return language === 'ru' ? `${Math.ceil(minutes)} минут` : `${Math.ceil(minutes)} min`;
+  const rounded = Math.ceil(minutes);
+  if (language !== 'ru') return `${rounded} min`;
+  const unit = { one: 'минута', few: 'минуты' }[new Intl.PluralRules('ru').select(rounded)] || 'минут';
+  return `${rounded} ${unit}`;
 }
 
 const raw = JSON.parse(fs.readFileSync(dataPath, 'utf8'));

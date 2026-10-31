@@ -1,3 +1,42 @@
+# I, Robot — narrative candidate, source record (2026-10-31, pass 2)
+
+**Ready for a fresh independent check only after the accompanying implementation QA.** The four retained causal gaps in pass 1 were addressed with fresh professional/scholarly event accounts and actual quoted Asimov passages. No continuous whole-edition reading, official Russian translation or complete-text fidelity certification is claimed.
+
+The work is the **1950 nine-story I, Robot collection with Susan Calvin's interview frame**. Bibliographic reference: Del Rey paperback ISBN 9780553382563; this identifies the collection, not a completely read owned edition. No film, Reichert work, other robot collection or formal later Zeroth Law. Russian story titles and prose are this retelling's wording.
+
+Current evidence/access ledger, including direct supporting URLs, discrepancies and limits: [pass-2 source rescue](../../editorial-audit/2026-10-31/source-rescue/i-robot-pass2.md). Connected RU/EN narrative and exact editorial findings: [pass-2 book report](../../editorial-audit/2026-10-31/books/i-robot-narrative-pass2.md). These reviewer documents contain spoilers; the reader's global Sources notes do not disclose solutions.
+
+## Current reader source IDs
+
+| ID | Source and actual role | Consultation / limit |
+| --- | --- | --- |
+| 1 | Isaac Asimov / PRH, official opening excerpt | Primary Robbie opening, Three Laws, bibliographic data; not a full story/edition. |
+| 2 | Darryl Stephens / PRH, Teacher's Guide | Entire frame/nine-story plot-summary section; substantial secondary account. Wrong Gloria age, typo in lost-story heading and compressed/conflicting explanations are documented, not copied. Questions are not evidence of answers. |
+| 3–6 | Lizzy Emanuel / LitCharts (2019), Liar!, Little Lost Robot, Escape!, The Evitable Conflict | Actual accessible public event paragraphs; secondary professional accounts, distinct from their evaluative claims. Subscription placeholders not bypassed/read. Direct Python downloads returned empty bodies; actual consultation used the web tool's public text. |
+| 7 | Asimov quotations published within Emanuel's guide | Actual selected primary passages checked separately from surrounding commentary; not full chapters, no verification in an owned edition. |
+| 8 | Jeffrey Scott Blevins, Berkeley dissertation, Snake's Tail | Prefatory xiv–xv actually read, including terminal Liar! loop and ending quotation; not the full dissertation. |
+| 9 | Jérôme De Cooman / Nicolas Petit, Asimov for Lawmakers, ORBi postprint | Selected printed pp.26–27 with three Nestor tests and Dave coordination; scholarly secondary account. Legal lessons and later stories excluded. |
+| 10 | Mark R. Kelly, complete 2019 collection notes | Professional critic's personal rereading; actual regional case/itinerary and collection context. Critic's guesses and compressed Robbie staging not treated as primary facts. |
+| 11 | Katie M. Googe, UGA thesis (2017) | Selected indexed passages including novel interest/assembly/pride quotation. Direct PDF access failed; no downloaded or complete-thesis reading. |
+
+Owned Apple Books search read only assigned-title/creator metadata: 218 packages, zero candidate, zero package-read errors. No spine/body was available for an assigned title. No unrelated filenames exposed. Private source caches remain outside this public repository at `/Users/pn/.cache/book-tiktok/i-robot-pass2-20261031/`. No private/full book text is bundled.
+
+## Current narrative and spoiler decisions
+
+The corrected prose follows actions rather than our lessons: Gloria/Robbie's bargaining and separation; engineers retrieving Speedy; Cutie's converter faith and beam service; Dave's marches and trapped testers; Herbie's promises, Calvin's hurt and assembly dilemma; three Nestor tests and constrained attempted attack; the Brain's briefing, ship, actual jokes and explanation; Byerley's campaign with unresolved identity; an actual Almaden anomaly and Calvin's attributed reading.
+
+First/Second Law explanations in a compressed guide are not treated as omniscient diagnosis. Herbie's terminal trap is giving versus withholding the assembly answer, both hurting the scientists. Nestor's active-harm constraint remains; Second Law does not override it. Escape! has no invented matter-to-energy physics or adjusted-controls procedure. The final case remains Calvin's account of machine behavior rather than a transcript of hidden computations. No invented dialogue, motives, scenes, exercises, NIST/Turing course or managerial/moral takeaway.
+
+Connected prose was written first and segmented into **22 Essential / 32 Core / 53 Deep** screens (cover/final included), replacing historical 30/72/112. Source maps persist in narrative mode. The exact omitted First-Law duty, all decisive solutions and the closing exchange are Deep-only; the shared final is neutral navigation. Covers, source notes and unconsented Contents/resume labels are solution-free. Book-local volatile consent guards Deep mode, hidden-ID entry and saved Deep resume; cancel preserves state and downgrade/reload revoke acknowledgment. Rebuild with `node collector-output/i-robot/build-i-robot.mjs`, which invokes the accepted installed builder and adds only this book's local guard.
+
+---
+
+## Preserved historical source/audit record — superseded by pass 2 above
+
+> **2026-10-31 targeted nine-story rescue:** new full public EBSCO reference accounts and a fresh primary/guide comparison narrow the source gap. Several concise story arcs are supportable; pivotal remaining checks concern Liar!'s final logical trap, Little Lost Robot's discrimination/attack, Escape!'s actual accommodation/pranks, and an Evitable Conflict regional case. This is not a no-full-EPUB verdict. PRH primary Gloria is eight; the teaching summary says nine and misheads Little Lost Robot as Little Lost Rabbit. See [new acquisition map](../../editorial-audit/2026-10-31/source-rescue/i-robot.md). No rewrite, ready manifest or independent approval.
+
+> **2026-10-31 corrected editorial audit: REBUILD / SOURCE-GAP; NOT READY.** All 112 RU/EN pairs were read and matched to root embedded content. The analytical-companion approval below is historical and superseded. A full lawful collection is still needed; see `../../editorial-audit/2026-10-31/books/i-robot.md`. No replacement narrative or fresh fidelity approval is claimed.
+
 # Isaac Asimov — I, Robot / Я, робот
 
 Research/claim map prepared **2026-10-31, before screen authoring**. Scope: the original 1950 nine-story collection with its Susan Calvin interview frame. The 2008 Del Rey paperback (ISBN 9780553382563) is the publisher reference edition, not a claim that its complete text was read. No film, later Robot novels, Reichert prequels or later formal Zeroth Law is silently imported.

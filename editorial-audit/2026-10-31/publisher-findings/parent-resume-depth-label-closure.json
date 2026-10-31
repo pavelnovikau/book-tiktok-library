@@ -1,0 +1,20 @@
+{
+  "finding": "MIG-01",
+  "status": "prepared-and-browser-tested-awaiting-publisher-validation",
+  "originalReview": "editorial-audit/2026-10-31/publisher-findings/legacy-progress-after-rewrite-review.json",
+  "originalReviewSha256": "3619b6559aeec20f59cc319b5186ffae1765e012df7ba7a9fc854f5753c8ec8e",
+  "affectedSlugs": [
+    "skin-in-the-game",
+    "mindfulness"
+  ],
+  "resolutionDecision": "Keep exact saved-target resume semantics; the control now explicitly names the deeper destination before the click. Start over continues to honor Essential. No nonfiction confirmation dialog is introduced. This resolves silent widening by making the action explicit; the original review is not rewritten or self-marked PASS.",
+  "script": "editorial-audit/2026-10-31/publisher-findings/parent-release09-ui-metadata-fixes.py",
+  "scriptSha256": "29fd220353d3eec3e6e216804f12adb1b3ce0c9d78ddacd0bf2649bfddbcf915",
+  "fixtureProof": "editorial-audit/2026-10-31/publisher-findings/parent-release09-ui-metadata-fixture.json",
+  "fixtureProofSha256": "8c442ceddb608b1602da5309f2aa909b4c7fe3c973dcef92a338c4d5502f9a5b",
+  "browserProof": "editorial-audit/2026-10-31/publisher-findings/parent-release09-resume-depth-regression.json",
+  "browserProofSha256": "e90ddd4f29d8362165f80b44d3213b05f4228ce8fbaa07ea37210085217356ab",
+  "checks": 52,
+  "allBookBodiesUnchanged": true,
+  "publicationClaimed": false
+}

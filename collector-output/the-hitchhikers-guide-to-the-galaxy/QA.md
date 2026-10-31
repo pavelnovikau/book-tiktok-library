@@ -1,3 +1,9 @@
+> **2026-10-31 narrative pass 2: REBUILD delivered for independent check.** Current package is narrative 11/18/36 with maintained Settings and preserved custom spoiler/state guards. See the dated current record at the end; prior approvals/source-gap notices below are historical. No independent PASS or publication is claimed.
+
+> **2026-10-31 targeted acquisition update:** newly read Salem Press publisher-sample first-novel account supports the Ford → Vogon → Heart of Gold chain. SOURCE-GAP is now specifically Magrathea approach/brain-threat/physical escape links, not an automatic no-full-EPUB verdict. Pan ISBN 9781529034523's endpoint returned a generic homepage, not novel text. See [new evidence map](../../editorial-audit/2026-10-31/source-rescue/the-hitchhikers-guide-to-the-galaxy.md). No rewrite, ready manifest or independent approval.
+
+> **2026-10-31 corrected editorial audit: REBUILD / SOURCE-GAP; NOT READY.** All 96 RU/EN pairs and the effective root corpus were reviewed. Earlier analytical-companion approval below is historical and superseded. Complete first-novel primary access is still required; see `../../editorial-audit/2026-10-31/books/the-hitchhikers-guide-to-the-galaxy.md`. No new fidelity approval is claimed.
+
 # The Hitchhiker’s Guide to the Galaxy — collector QA
 
 Date: 2026-10-31. **Implementation/self-QA complete; ready for the parent’s cold editorial review.** This is not an independent editorial verdict or a publication approval.
@@ -107,3 +113,41 @@ There are no standalone documentary images, quantitative plots, comparison grids
 ## Cleanup
 
 Every Chrome launch used `/usr/bin/timeout 30`, a unique temporary profile and Chrome-assigned unique debugging port. Browser contexts/connections were closed and process groups terminated in `finally` on success and failure. One profile recreated preferences during shutdown; after confirming no owned Chrome process remained it was removed. Final cleanup verifies zero owned Chrome processes and zero remaining owned temporary profiles. Scratch research extracts, scripts, screenshots and raw QA reports outside the repository were removed; no book source files are in the deliverables. Exactly the four canonical files remain.
+
+---
+
+## 2026-10-31 narrative pass 2 — current record
+Status: **ready-for-independent-check**, not an independent PASS, approval to publish, full-novel read or universal fidelity claim. Earlier analytical-companion QA is preserved above and superseded.
+
+### Content and build
+
+- Re-read all **96 original RU/EN pairs** and the effective root corpus; intake screens matched collector/JSON. Read **36 new pairs** and the three ordered modes after writing connected prose. All new embedded screens and source objects match canonical JSON.
+- A real narrative replacement: 33 story beats and cover/warning/final framing. Old lessons, exercises, role-label discussions and critic-debate screens are removed. Actual events and comic causality carry the sequence. Exact new counts were derived after prose, not padded to the old 24/60/96 targets.
+- Preserved this book's custom runtime, typographic cover and spoiler/hidden-bookmark behavior, inside the installed builder's current validated data, offline fonts, Settings, header and focus shell. Book-local adapter: `pass2/build-narrative.mjs`. The installed skill was read-only. No root/shared synchronization run.
+- Strengthened downgrade and page-restoration revocation, invalidated removed old saved IDs safely. Core and Deep require real consent before exposing their content. Generic Continue reveals no saved Deep title. Numeric answer, late Earth/brain and escape outcomes remain level 3; shared final, cover, shallower contents and global source notes are safe.
+
+| Mode | Cumulative screens | RU words | EN words | RU / EN minutes |
+| --- | ---: | ---: | ---: | ---: |
+| Essential | 11 | 465 | 560 | 3 / 3 |
+| Core | 18 | 730 | 888 | 5 / 5 |
+| Deep | 36 | 1470 | 1774 | 9 / 9 |
+
+Word totals follow the maintained builder (title, subtitle, body; not source notes/UI). Body density: RU 23–48 words, mean 37.53; EN 25–56, mean 45.11. Defaults RU / dark / Essential / Sans. Five active evidence sources. No count quota was used.
+
+### Meaningful technical checks on final HTML
+
+[Structured audit](pass2/structure.json): **69 passes, zero warnings/failures**. [Combined receipt](pass2/validation.json) records final authoring/HTML SHA-256, source parity and all proof hashes.
+
+[Browser matrix](pass2/browser-matrix.json): **1,040 screen-state visits**, all 11/18/36 screens × RU/EN × dark/light × 320×568, 390×844, 1024×768, 1440×900. Checked actual body strings, final body-character reachability, exact mode counts, no horizontal overflow, synchronized desktop active rail, and compact labelled icon row. Source footnote/provenance chrome is absent in narrative. [320 cover](pass2/cover-320.png), [320 Deep prose](pass2/deep-320.png), [1440 cover](pass2/cover-1440.png), [1440 Deep prose](pass2/deep-1440.png) visually inspected after completing entrance animations; early transitional captures were replaced.
+
+[Consent/state](pass2/browser-consent.json): **17 checks** of Core/Deep picker gates, contents-origin entry, Cancel, native Escape, downgrade, a retained hidden-navigation handler, saved Core/Deep Continue, neutral resume labels, reload, removed legacy IDs, bilingual position preservation, spoiler-safe global Sources and simulated restored-page consent revocation.
+
+[Interactions](pass2/browser-interaction.json): **15 checks**, including Settings without position/depth loss, close-event focus return, four actual offline fonts, Cyrillic Serif fallback and Sans UI, real text tap, paging in focus, Escape, touch swipe, vertical movement without false tap/page, keyboard paging, final restart, preferences after reload, desktop cover/rail focus and restoration.
+
+[iOS emulation](pass2/browser-ios.json): **5 checks**: manual install guide, localization, all six controls in one row at 320, simulated nonzero top padding, `navigator.standalone` suppression. This is Chrome emulation; physical iPhone Safari/PWA and actual OS safe-area behavior remain untested.
+
+Each browser phase used `file://`, CDP offline mode, zero HTTP(S) page requests and zero runtime exceptions. No content server or `preview_*` tool. Every Chrome was bounded with `timeout 30`, owned unique `mktemp -d` profile, detached-process-group cleanup and profile removal on success/failure. Final process check found no owned Chrome left. Receipts: `pass2/cleanup-*.json`. Root reader still matches intake SHA; no Git/PR/deploy/external messages/subagents or root/catalogue/shared-shell/installed-skill/log edits.
+
+### Source and editorial limits
+
+New primary quotations were read **inside** named commentary, not complete later novel chapters. Some connective actions rest on detailed professional narration cross-checked against Gale/Salem and selected quotations. See the exact [source-rescue report](../../editorial-audit/2026-10-31/source-rescue/the-hitchhikers-guide-to-the-galaxy-pass2.md), not historical QA as authority. The parent must freshly read the 36 pairs, the sequence and source evidence. Only after independent approval may the publisher integrate/publish the matching hashes.

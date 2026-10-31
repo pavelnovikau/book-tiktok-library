@@ -1,0 +1,53 @@
+{
+  "slug": "the-giver",
+  "status": "metadata-corrected-awaiting-publisher-validation",
+  "finding": "CM-01",
+  "originalReviewPath": "editorial-audit/2026-10-31/publisher-findings/catalogue-meaning-after-rewrite-review.json",
+  "originalReviewSha256": "361a0036c7b84b626cdb437bba2b3cea6f8405ad6dfe03bc8fd21962e0c41656",
+  "beforeHashes": {
+    "collector-output/the-giver/story-data.json": "6a7607fa7e558cf9c4588c544a9dd6f588c328167f020b43b9f54124a2b6553d",
+    "collector-output/the-giver/the-giver.html": "df3b56939d148878a85c9d27f3176371c17c0c9d34d9cadbfa19834d758c4236",
+    "collector-output/the-giver/QA.md": "b2b06d855c1ad8c04a4d1bd58a517b818a0b10bdb28d7d0c4f149ce16d952970"
+  },
+  "afterHashes": {
+    "collector-output/the-giver/story-data.json": "26ae464f750981efbc9d8e24413cd4e310c890044003cb86db7c83e0fa8c0504",
+    "collector-output/the-giver/the-giver.html": "7e258aeaf2be30e73eec25b6d8ccfa9e8c028f8fb87fcac5db2b7c45d0833bb3",
+    "collector-output/the-giver/QA.md": "424046309e084fffc74450fdd826abeec0146dc521d99a16c68b11a410142b07"
+  },
+  "descriptionBefore": {
+    "ru": "Джонас получает необычное назначение и начинает узнавать мир, которого его община не помнит. Краткий рассказ по первому роману Лоис Лоури.",
+    "en": "An unusual Assignment leads Jonas into a world his community no longer remembers. A concise retelling of Lois Lowry’s first novel."
+  },
+  "descriptionAfter": {
+    "ru": "Джонас получает необычное назначение и начинает узнавать мир, которого его община не помнит. Краткий рассказ по первому роману цикла Лоис Лоури.",
+    "en": "An unusual Assignment leads Jonas into a world his community no longer remembers. A concise retelling of the first novel in Lois Lowry’s Giver Quartet."
+  },
+  "all27ScreenPairsUnchanged": true,
+  "sourcesUnchanged": true,
+  "runtimeCodeUnchanged": true,
+  "audit": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/the-giver.html",
+    "format": "v2",
+    "bytes": 289840,
+    "screenCount": 27,
+    "levels": {
+      "1": 11,
+      "2": 6,
+      "3": 10
+    },
+    "modes": {
+      "essential": 11,
+      "core": 17,
+      "deep": 27
+    },
+    "words": {
+      "ru": 916,
+      "en": 1124
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "sourceBoundary": "Independent author-page bibliography evidence; parent repeated fetch timed out. No source or novel-body alteration.",
+  "publicationClaimed": false
+}

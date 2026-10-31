@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-neverending-story",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "passNumber": 2,
+  "verdict": "REBUILD / queued-title source rescue",
+  "reportPath": "editorial-audit/2026-10-31/books/the-neverending-story-source-rescue-pass2.md",
+  "reportSHA256": "64ded1f1e78a01755acc65b5d0e3883b6895ebf4de2ced65b4c24d86c117de2a",
+  "sourceEvidenceMap": {
+    "path": "editorial-audit/2026-10-31/source-rescue/the-neverending-story-pass2.json",
+    "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/the-neverending-story-pass2.json",
+    "sha256": "cb8fcc895801943d59a7f92f7cd755cf124155a9604630a6fec04ac1a32c5ad0"
+  },
+  "work": {
+    "author": "Michael Ende",
+    "originalTitle": "Die unendliche Geschichte",
+    "originalYear": 1979,
+    "scope": "Both halves of the novel; not the 1984 film or a first-half-only account"
+  },
+  "counts": {
+    "essential": 20,
+    "core": 22,
+    "deep": 35
+  },
+  "levelCounts": {
+    "1": 20,
+    "2": 2,
+    "3": 13
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "narrative",
+  "spoilerPolicy": "full-plot-in-deep",
+  "reviewedPairs": {
+    "old": 0,
+    "newUniquePairsWrittenAndRead": 35,
+    "languageTexts": 70,
+    "modePairAppearances": 77,
+    "independentReviewCompleted": false
+  },
+  "sourceCount": 12,
+  "sourceScope": {
+    "fullEditionObtained": false,
+    "continuousWholeNovelReading": false,
+    "officialRUENTranslationCertified": false,
+    "primaryNovelBodyRead": "Spanish publisher opening, printed pp. 7–15, reconsulted from the same 15-page sample as pass1.",
+    "primaryLatePassages": "Selected actual novel quotations reproduced inside the professional guide and academic criticism, checked in those publications, not in a complete novel edition.",
+    "directPublisherAuthorizedLateChapterPreviewObtained": false,
+    "authorCommentaryUsedToSupplyEvents": false,
+    "ownedSearch": "No fresh repeat. Prior read-only title/creator search within the user-authorized Apple Books root found no matching candidate; no new OPF/spine/body claim.",
+    "newProfessionalGuide": "All six SuperSummary chapter-account pages; institutional publisher identified, no individual byline visible. Reference edition stated by guide: Ralph Manheim, Penguin, 1984.",
+    "criticism": "Selected Schnöbel 1995 sections/event lists/primary quotations; selected Meier pp. 92–95; Schueler 1987 and selected Nikolajeva excerpts reprinted by Gale; Stableford / EBSCO Form and Content."
+  },
+  "essentialMissingLinksForRetainedSequence": [],
+  "changes": [
+    "Wrote connected original prose before segmentation; built both halves and the closing frame.",
+    "Derived natural 20/22/35 nested counts, including cover/common final.",
+    "Kept the mirror antecedent in Essential; removed premature refusal wording from the earlier warning.",
+    "Preserved late answers in Deep with real bilingual volatile consent, safe cancellation, downgrade/reload revocation and neutral saved resume.",
+    "Built with maintained read-only Settings/fonts plus a bounded book-local consent/text-cover patch.",
+    "Preserved pass1 source map/report exactly and appended dated additions to sources/QA."
+  ],
+  "unresolvedIssues": [
+    "This worker’s source-sufficiency judgment awaits fresh independent content review.",
+    "No full edition or continuous reading. Primary excerpts remain quoted-primary evidence, not complete chapter access.",
+    "No new publisher-authorized late-chapter preview. Official RU/EN translation fidelity and page numbers are not certified.",
+    "Minor subplots are omitted; no scene, motive or ending is invented to fill them.",
+    "No actual physical iPhone/Safari/PWA or production integration test."
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/the-neverending-story/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/story-data.json",
+      "sha256": "da4a99eac3c2b86fababf87d029d926ace951829621ea8de04b582e118d1e9c8"
+    },
+    {
+      "path": "collector-output/the-neverending-story/the-neverending-story.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/the-neverending-story.html",
+      "sha256": "df8ae074ed01b241a5a5fc7a45923ae6a81f4b8127602e0b62e0a3d80516bbc9"
+    },
+    {
+      "path": "collector-output/the-neverending-story/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/sources.md",
+      "sha256": "cbb88b00a5c8d2f0ced37411fc99ec28cbcd6de7149f4e01034620d33754450c"
+    },
+    {
+      "path": "collector-output/the-neverending-story/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/QA.md",
+      "sha256": "8fc06e3719c8ddc5e92a2223c8265cb21270e80953b2cdd99285f281174fd848"
+    }
+  ],
+  "proofFiles": [
+    {
+      "path": "collector-output/the-neverending-story/qa/build-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/build-pass2.json",
+      "sha256": "fdcc1c02c945b1d5bddb2205366163074263a4bb85cb22ebdc8f1b80720b3d4d"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/audit-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/audit-pass2.json",
+      "sha256": "906e15036dace2b3d8ccc07f53358d5c608164f08dfb675cb5267d88db384bb0"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/consistency-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/consistency-pass2.json",
+      "sha256": "bfd3675c9981b9e316bf3657125a8c6c10685992ebb54070acb20304cdf82fcb"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/final-summary-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/final-summary-pass2.json",
+      "sha256": "a0c86f35e152397d82fb5445e194a216891a434eac8489c864bf261f73d98436"
+    }
+  ],
+  "checks": {
+    "structuralChecks": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "matrixCases": 96,
+    "screenRenders": 2464,
+    "behaviouralPhaseRecordedChecks": 38,
+    "offline": true,
+    "canonicalMatchesEffectiveHtml": true,
+    "ownedChromeProcessesRemaining": 0,
+    "ownedProfilesRemaining": 0,
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/the-neverending-story.html",
+      "format": "v2",
+      "bytes": 495974,
+      "screenCount": 35,
+      "levels": {
+        "1": 20,
+        "2": 2,
+        "3": 13
+      },
+      "modes": {
+        "essential": 20,
+        "core": 22,
+        "deep": 35
+      },
+      "words": {
+        "ru": 1599,
+        "en": 1951
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedBrowser": {
+      "status": "passed",
+      "checks": 196,
+      "report": "editorial-audit/2026-10-31/publisher-findings/the-neverending-story-parent-order-regression.json",
+      "reportSha256": "5ab3e27a98bc94b80fd3f8e7aab44b882d90b5ad9d2b39cce989bdd88c72e752",
+      "scope": "NES-ORDER-001 effective six-route ordering/count/title regression and preserved consent; unchanged prose not re-reviewed; no physical Safari/PWA claim.",
+      "ownedProfileCleaned": true
+    }
+  },
+  "readingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "5 минут",
+        "en": "6 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "6 минут",
+        "en": "6 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "9 минут",
+        "en": "9 min"
+      }
+    }
+  },
+  "ownership": "Only assigned collector, new named pass2 report, named source-rescue map and per-book ready manifest written. No subagents, Git/PR/publication, external messages, purchases, root/catalogue/shared shell/log or installed-skill writes.",
+  "independentContentAcceptance": "pending",
+  "publisherIntegration": "pending",
+  "publicationApprovalClaimed": false,
+  "parentCorrections": {
+    "findings": [
+      "NES-ORDER-001"
+    ],
+    "scope": "Adjacent order only; all35 pairs identical; shallow routes unchanged",
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/the-neverending-story-meaning-fix-closure.json"
+  }
+}

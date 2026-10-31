@@ -1,0 +1,23 @@
+{
+  "phase": "interaction",
+  "checks": [
+    "Gear opens Settings without changing position/theme",
+    "Settings theme/font change preserves exact screen/depth",
+    "Settings close restores focus to the gear",
+    "All four offline fonts loaded",
+    "Serif Cyrillic fallback and Sans controls",
+    "Real text tap enters focus and preserves Next",
+    "Focus survives paging",
+    "Escape restores normal chrome",
+    "Horizontal swipe advances without entering focus",
+    "Vertical touch movement does not page or enter focus",
+    "Keyboard advances",
+    "Final restart returns to cover with no remembered ID",
+    "Global Settings persist across reload",
+    "Desktop cover focus hides rail and art but keeps text and Next",
+    "Exiting desktop focus restores cover art and rail"
+  ],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "offline": true
+}

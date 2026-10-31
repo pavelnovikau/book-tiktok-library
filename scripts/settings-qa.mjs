@@ -328,8 +328,10 @@ try {
   }
 
   if (phase === 'consent' || phase === 'hitchhiker') {
-    const books = catalogue.books.filter(b=>b.spoilerPolicy === 'full-plot-in-deep').filter(b=>(b.slug==='the-hitchhikers-guide-to-the-galaxy') === (phase==='hitchhiker'));
-    const guarded = books.filter(book => /spoilerDialog|accelerandoSpoilerDialog|(?:window\.)?confirm\s*\(/.test(fs.readFileSync(path.join(root, book.file), 'utf8')));
+    const books = qaBooks.filter(b=>b.spoilerPolicy === 'full-plot-in-deep').filter(b=>(b.slug==='the-hitchhikers-guide-to-the-galaxy') === (phase==='hitchhiker'));
+    const guarded = books.filter(book => /spoilerDialog|[Ss]poilerDialog|deepConsentDialog|(?:window\.)?confirm\s*\(/.test(fs.readFileSync(path.join(root, book.file), 'utf8')));
+    const consentSelector = '#spoilerDialog[open],#accelerandoSpoilerDialog[open],#endingDialog[open],#duneSpoilerDialog[open],#solarisSpoilerDialog[open],#weeSpoilerDialog[open],#deepConsentDialog[open]';
+    const consentChoice = accept => `(()=>{const d=document.querySelector(${JSON.stringify(consentSelector)});const c=d.querySelector('input[type=checkbox]');if(${accept}&&c&&!c.checked)c.click();d.querySelector(${JSON.stringify(accept ? '#spoilerAccept,[data-spoiler-accept],#endingAccept,#duneSpoilerAccept,#solarisSpoilerAccept,#weeSpoilerAccept,#deepConfirm,[data-ending-accept],#deepConsentAccept' : '#spoilerCancel,[data-spoiler-cancel],#endingCancel,#duneSpoilerCancel,#solarisSpoilerCancel,#weeSpoilerCancel,#deepCancel,[data-ending-cancel],#deepConsentCancel')}).click();})()`;
     report.unchangedLegacyLimits = books.filter(b=>!guarded.includes(b)).map(b=>({file:b.file,limit:'Existing runtime has no explicit saved-Deep consent guard; Settings preserves it without changing reading policy.'}));
     for (const book of guarded) for (const lang of ['ru','en']) {
       await navigate(book.file);
@@ -344,13 +346,13 @@ try {
       await checkSafe();
       consentDecision = false;
       await evaluate("document.querySelector('[data-start=continue]').click()");
-      const custom = await evaluate("Boolean(document.querySelector('#spoilerDialog[open], #accelerandoSpoilerDialog[open]'))");
-      if (custom) await evaluate("document.querySelector('#spoilerDialog[open] #spoilerCancel, #spoilerDialog[open] [data-spoiler-cancel], #accelerandoSpoilerDialog[open] [data-spoiler-cancel]').click()");
+      const custom = await evaluate(`Boolean(document.querySelector(${JSON.stringify(consentSelector)}))`);
+      if (custom) { await evaluate(consentChoice(false)); await evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true))))'); }
       if (phase === 'hitchhiker') assert(custom, 'Hitchhiker custom consent missing');
       await checkSafe();
       consentDecision = true;
       await evaluate("document.querySelector('[data-start=continue]').click()");
-      if (custom) await evaluate("document.querySelector('#spoilerDialog[open] #spoilerAccept, #spoilerDialog[open] [data-spoiler-accept], #accelerandoSpoilerDialog[open] [data-spoiler-accept]').click(); new Promise(resolve=>setTimeout(resolve,0))");
+      if (custom) { await evaluate(consentChoice(true)); await evaluate('new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true))))'); }
       assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(late.copy[lang].title)}`), `${book.file}/${lang}: accepted Deep resume`);
       await evaluate(`${theme}.click(); document.querySelector('[name=book-theme][value=light]').click(); bookSettingsClose.click()`);
       assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(late.copy[lang].title)}`), 'Settings lost consented screen');

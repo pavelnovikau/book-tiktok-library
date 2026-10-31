@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "slug": "i-robot",
+  "revision": "narrative-pass2",
+  "reviewedAt": "2026-10-31T21:56:49.684164+00:00",
+  "role": "fresh independent review; no implementation or publication",
+  "verdict": "PASS",
+  "requiredFindings": [],
+  "requiredFindingCount": 0,
+  "optionalSourceMapNotes": [
+    {
+      "id": "IR-NP2-OPT-01",
+      "severity": "P3",
+      "required": false,
+      "category": "source-map traceability, not a factual or narrative defect",
+      "screenId": "mercury-deadlock",
+      "exactRU": "Спиди — дорогая машина с усиленным самосохранением.",
+      "exactEN": "Speedy is an expensive machine with unusually strong self-preservation.",
+      "observation": "The screen currently lists source [2]. Its coarse conflict is covered there, while source [11] is the already-listed more precise support for the strengthened drive. The actual claim was independently verified, so this is not an essential evidence gap.",
+      "support": [
+        {
+          "url": "https://openscholar.uga.edu/record/9858/files/googe_katie_m_201705_ma.pdf",
+          "locator": "Googe, indexed printed p.34, primary quotations with footnotes 111–117; direct PDF access remains 403."
+        },
+        {
+          "url": "https://www.litcharts.com/lit/i-robot/runaround",
+          "locator": "Public event paragraph beginning Powell realizes what is wrong with Speedy (expensiveness and strengthened Third Rule)."
+        }
+      ],
+      "smallestOptionalChange": "Add existing source 11 to mercury-deadlock.sources, [2] → [2,11], then rebuild and refresh hashes if adopted. No prose change or new source acquisition required.",
+      "effectOnVerdict": "Non-blocking; optional metadata improvement only. Any rebuilt HTML is a new hash and is not literally this reviewed file."
+    }
+  ],
+  "optionalTaste": [],
+  "approvalScope": "Only the immutable hash-matching collector candidate and its retained concise narrative; not whole-edition/official-Russian-translation certification or publication.",
+  "candidate": {
+    "json": {
+      "path": "collector-output/i-robot/story-data.json",
+      "sha256": "f4fb30b267285ae0ed3f9b5a2507496a1329c53a221c0bfa240253682694eded",
+      "bytes": 87240
+    },
+    "html": {
+      "path": "collector-output/i-robot/i-robot.html",
+      "sha256": "c7383e176ec9258feac1f3cfdc7c3938b0adcc7a9e4aba65246ef3ea56c120a0",
+      "bytes": 516760
+    },
+    "readyManifest": {
+      "path": "editorial-audit/2026-10-31/ready/i-robot.json",
+      "sha256": "747bdff1a060f8852e8050428cb4e49d61a49eff342ce2a18209d07e78057093"
+    },
+    "boundFileCount": 27,
+    "boundInputsUnchanged": true,
+    "allSevenReadyReferencesMatch": true,
+    "hashesBefore": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/hashes-before.json",
+    "hashesAfter": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/hashes-after.json"
+  },
+  "readCoverage": {
+    "bilingualPairsActuallyRead": 53,
+    "localizedScreensActuallyRead": 106,
+    "allTitlesBodiesCoverFinalRead": true,
+    "nestedLanguageRoutesActuallyRead": 6,
+    "routes": [
+      {
+        "language": "ru",
+        "mode": "essential",
+        "count": 22,
+        "screenIds": [
+          "cover",
+          "calvin-retirement",
+          "three-laws",
+          "robbie-game",
+          "robbie-separation",
+          "mercury-selenium",
+          "mercury-circle",
+          "cutie-makers",
+          "cutie-master",
+          "dave-six",
+          "dave-march",
+          "herbie-secret",
+          "herbie-assurance",
+          "nestor-disappearance",
+          "nestor-interviews",
+          "brain-proposal",
+          "brain-ship",
+          "byerley-accusation",
+          "byerley-crowd",
+          "machines-discrepancies",
+          "machines-society",
+          "final"
+        ],
+        "plainTextSha256": "29a9d198c641d4b2b71b1ccde4bd678e9d9fb879714049b4ed0b7c9beaf7e5ea"
+      },
+      {
+        "language": "ru",
+        "mode": "core",
+        "count": 32,
+        "screenIds": [
+          "cover",
+          "calvin-retirement",
+          "three-laws",
+          "robbie-game",
+          "robbie-cinderella",
+          "robbie-separation",
+          "robbie-factory",
+          "mercury-selenium",
+          "mercury-circle",
+          "cutie-makers",
+          "cutie-demonstration",
+          "cutie-master",
+          "dave-six",
+          "dave-march",
+          "dave-interview",
+          "herbie-secret",
+          "herbie-novels",
+          "herbie-assurance",
+          "herbie-promotion",
+          "nestor-disappearance",
+          "nestor-interviews",
+          "brain-proposal",
+          "brain-briefing",
+          "brain-ship",
+          "brain-menu",
+          "byerley-accusation",
+          "byerley-examination",
+          "byerley-crowd",
+          "machines-discrepancies",
+          "machines-almaden",
+          "machines-society",
+          "final"
+        ],
+        "plainTextSha256": "92eeeb57bf1d3f57f8d2d2e326cff2bd647d9b0ed5a51a0daa210e3ba0d4de1e"
+      },
+      {
+        "language": "ru",
+        "mode": "deep",
+        "count": 53,
+        "screenIds": [
+          "cover",
+          "calvin-retirement",
+          "three-laws",
+          "robbie-game",
+          "robbie-cinderella",
+          "robbie-separation",
+          "robbie-factory",
+          "robbie-reunion",
+          "mercury-selenium",
+          "mercury-circle",
+          "mercury-deadlock",
+          "mercury-rescue",
+          "cutie-makers",
+          "cutie-demonstration",
+          "cutie-master",
+          "cutie-storm",
+          "dave-six",
+          "dave-march",
+          "dave-interview",
+          "dave-cave-in",
+          "dave-five",
+          "herbie-secret",
+          "herbie-novels",
+          "herbie-assurance",
+          "herbie-promotion",
+          "herbie-engagement",
+          "herbie-hurt",
+          "herbie-trap",
+          "herbie-silence",
+          "nestor-disappearance",
+          "nestor-modification",
+          "nestor-interviews",
+          "nestor-weight",
+          "nestor-cables",
+          "nestor-infrared",
+          "nestor-arm",
+          "brain-proposal",
+          "brain-briefing",
+          "brain-ship",
+          "brain-menu",
+          "brain-jump",
+          "brain-return",
+          "byerley-accusation",
+          "byerley-examination",
+          "byerley-crowd",
+          "byerley-blow",
+          "byerley-uncertainty",
+          "machines-discrepancies",
+          "machines-almaden",
+          "machines-society",
+          "machines-account",
+          "machines-ending",
+          "final"
+        ],
+        "plainTextSha256": "dfbae18c0f9940e7560d438cad1453fbe4683e8d2a90441513e4bf6b9b0d22e4"
+      },
+      {
+        "language": "en",
+        "mode": "essential",
+        "count": 22,
+        "screenIds": [
+          "cover",
+          "calvin-retirement",
+          "three-laws",
+          "robbie-game",
+          "robbie-separation",
+          "mercury-selenium",
+          "mercury-circle",
+          "cutie-makers",
+          "cutie-master",
+          "dave-six",
+          "dave-march",
+          "herbie-secret",
+          "herbie-assurance",
+          "nestor-disappearance",
+          "nestor-interviews",
+          "brain-proposal",
+          "brain-ship",
+          "byerley-accusation",
+          "byerley-crowd",
+          "machines-discrepancies",
+          "machines-society",
+          "final"
+        ],
+        "plainTextSha256": "7b4b7524ecd4a94a8f0a82fcdf97945cee3cfbc61eb8c64b40941ac9cb484884"
+      },
+      {
+        "language": "en",
+        "mode": "core",
+        "count": 32,
+        "screenIds": [
+          "cover",
+          "calvin-retirement",
+          "three-laws",
+          "robbie-game",
+          "robbie-cinderella",
+          "robbie-separation",
+          "robbie-factory",
+          "mercury-selenium",
+          "mercury-circle",
+          "cutie-makers",
+          "cutie-demonstration",
+          "cutie-master",
+          "dave-six",
+          "dave-march",
+          "dave-interview",
+          "herbie-secret",
+          "herbie-novels",
+          "herbie-assurance",
+          "herbie-promotion",
+          "nestor-disappearance",
+          "nestor-interviews",
+          "brain-proposal",
+          "brain-briefing",
+          "brain-ship",
+          "brain-menu",
+          "byerley-accusation",
+          "byerley-examination",
+          "byerley-crowd",
+          "machines-discrepancies",
+          "machines-almaden",
+          "machines-society",
+          "final"
+        ],
+        "plainTextSha256": "5e22f2bf3eb91cf1288591274387a77b90cec7453cf545b9c8decf2fb7c1287f"
+      },
+      {
+        "language": "en",
+        "mode": "deep",
+        "count": 53,
+        "screenIds": [
+          "cover",
+          "calvin-retirement",
+          "three-laws",
+          "robbie-game",
+          "robbie-cinderella",
+          "robbie-separation",
+          "robbie-factory",
+          "robbie-reunion",
+          "mercury-selenium",
+          "mercury-circle",
+          "mercury-deadlock",
+          "mercury-rescue",
+          "cutie-makers",
+          "cutie-demonstration",
+          "cutie-master",
+          "cutie-storm",
+          "dave-six",
+          "dave-march",
+          "dave-interview",
+          "dave-cave-in",
+          "dave-five",
+          "herbie-secret",
+          "herbie-novels",
+          "herbie-assurance",
+          "herbie-promotion",
+          "herbie-engagement",
+          "herbie-hurt",
+          "herbie-trap",
+          "herbie-silence",
+          "nestor-disappearance",
+          "nestor-modification",
+          "nestor-interviews",
+          "nestor-weight",
+          "nestor-cables",
+          "nestor-infrared",
+          "nestor-arm",
+          "brain-proposal",
+          "brain-briefing",
+          "brain-ship",
+          "brain-menu",
+          "brain-jump",
+          "brain-return",
+          "byerley-accusation",
+          "byerley-examination",
+          "byerley-crowd",
+          "byerley-blow",
+          "byerley-uncertainty",
+          "machines-discrepancies",
+          "machines-almaden",
+          "machines-society",
+          "machines-account",
+          "machines-ending",
+          "final"
+        ],
+        "plainTextSha256": "e564429f843a3965553faf868661d5d4d78b88bf54bcc9ff594c8a46faf04c49"
+      }
+    ],
+    "canonicalEmbeddedScreensEqual": true,
+    "canonicalEmbeddedSourcesAndMethodEqual": true,
+    "connectedReportParagraphsEqual": {
+      "ru": {
+        "paragraphs": 51,
+        "bodyCount": 51,
+        "exactParagraphParity": true
+      },
+      "en": {
+        "paragraphs": 51,
+        "bodyCount": 51,
+        "exactParagraphParity": true
+      }
+    },
+    "allCollectorFilesRead": [
+      "story-data.json",
+      "i-robot.html (effective corpus, markup and runtime; embedded font bytes treated as binary assets)",
+      "sources.md (current and preserved historical sections)",
+      "QA.md (current and preserved historical sections)",
+      "build-i-robot.mjs"
+    ],
+    "otherInstructionsAndReportsRead": [
+      "skills/book-tiktok/SKILL.md",
+      "all three book-tiktok references",
+      "CONTRIBUTING.md",
+      "editorial-audit/2026-10-31/BRIEF.md",
+      "ready/i-robot.json",
+      "books/i-robot-narrative-pass2.md",
+      "source-rescue/i-robot-pass2.md and its evidence map"
+    ],
+    "historicalPackage": "Root remains a separate 112-pair analytical delivery. This review does not rereview/approve those 112 pairs or reuse its earlier approval/source-gap verdicts."
+  },
+  "structure": {
+    "counts": {
+      "essential": 22,
+      "core": 32,
+      "deep": 53
+    },
+    "levels": {
+      "1": 22,
+      "2": 10,
+      "3": 21
+    },
+    "strictOrderPreservingNesting": true,
+    "defaults": {
+      "language": "ru",
+      "theme": "dark",
+      "mode": "essential"
+    },
+    "contentMode": "narrative",
+    "spoilerPolicy": "full-plot-in-deep",
+    "sourceCount": 11,
+    "deterministicAudit": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0,
+      "proof": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/deterministic-audit.txt"
+    }
+  },
+  "contentReview": {
+    "storyChecks": [
+      {
+        "story": "Robbie",
+        "screenIds": [
+          "robbie-game",
+          "robbie-cinderella",
+          "robbie-separation",
+          "robbie-factory",
+          "robbie-reunion"
+        ],
+        "premiseCauseAnswer": "Play and separation → factory danger → Robbie’s rescue and return.",
+        "evidence": "Primary opening plus Stephens’s factory/rescue account.",
+        "readingJudgment": "Humour in unfair play and bargaining; affection survives separation.",
+        "pass": true
+      },
+      {
+        "story": "Runaround",
+        "screenIds": [
+          "mercury-selenium",
+          "mercury-circle",
+          "mercury-deadlock",
+          "mercury-rescue"
+        ],
+        "premiseCauseAnswer": "Selenium urgency → competing drives → Powell’s danger breaks the circle.",
+        "evidence": "Stephens Runaround; fresh indexed Googe p.34; extra Emanuel Runaround account.",
+        "readingJudgment": "Circling and nonsense carry curiosity and danger; the resolution stays Deep.",
+        "pass": true
+      },
+      {
+        "story": "Reason",
+        "screenIds": [
+          "cutie-makers",
+          "cutie-demonstration",
+          "cutie-master",
+          "cutie-storm"
+        ],
+        "premiseCauseAnswer": "Disputed makers → converter faith → beam survives the storm.",
+        "evidence": "Stephens Reason; Kelly; reproduced Powell passage on the quotes page.",
+        "readingJudgment": "Assembly demonstration supplies the joke; observed success is not a claim that Cutie conceded.",
+        "pass": true
+      },
+      {
+        "story": "Catch That Rabbit",
+        "screenIds": [
+          "dave-six",
+          "dave-march",
+          "dave-interview",
+          "dave-cave-in",
+          "dave-five"
+        ],
+        "premiseCauseAnswer": "Marches under emergency load → trapped testers → five subsidiaries permit rescue.",
+        "evidence": "Stephens Catch That Rabbit; De Cooman/Petit p.27.",
+        "readingJudgment": "Absurd drill becomes a concrete threat; no productivity lesson replaces it.",
+        "pass": true
+      },
+      {
+        "story": "Liar!",
+        "screenIds": [
+          "herbie-secret",
+          "herbie-novels",
+          "herbie-assurance",
+          "herbie-promotion",
+          "herbie-engagement",
+          "herbie-hurt",
+          "herbie-trap",
+          "herbie-silence"
+        ],
+        "premiseCauseAnswer": "Promises → hurt and assembly/pride dilemma → repeated conflict and permanent silence.",
+        "evidence": "Emanuel Liar!; Googe indexed p.77; Blevins xiv–xv.",
+        "readingJudgment": "Calvin’s hope, revelation and bitterness remain personal events.",
+        "pass": true
+      },
+      {
+        "story": "Little Lost Robot",
+        "screenIds": [
+          "nestor-disappearance",
+          "nestor-modification",
+          "nestor-interviews",
+          "nestor-weight",
+          "nestor-cables",
+          "nestor-infrared",
+          "nestor-arm"
+        ],
+        "premiseCauseAnswer": "Concealment → three failed/discriminating tests → exposure, constrained attempt, gamma destruction.",
+        "evidence": "De Cooman/Petit p.26; Emanuel; reproduced wavelength passage.",
+        "readingJudgment": "Escalating experiments form a story; infrared and actual gamma are not conflated.",
+        "pass": true
+      },
+      {
+        "story": "Escape!",
+        "screenIds": [
+          "brain-proposal",
+          "brain-briefing",
+          "brain-ship",
+          "brain-menu",
+          "brain-jump",
+          "brain-return"
+        ],
+        "premiseCauseAnswer": "Briefing → uncontrolled voyage/pranks → temporary-death accommodation.",
+        "evidence": "Emanuel Escape!; reproduced briefing and retrospective explanation.",
+        "readingJudgment": "Beans/milk, one-way radio, no controls and grotesque jump retain black humour.",
+        "pass": true
+      },
+      {
+        "story": "Evidence",
+        "screenIds": [
+          "byerley-accusation",
+          "byerley-examination",
+          "byerley-crowd",
+          "byerley-blow",
+          "byerley-uncertainty"
+        ],
+        "premiseCauseAnswer": "Accusation → public blow → Calvin’s unresolved alternative.",
+        "evidence": "Stephens Evidence; Kelly; reproduced Calvin good-human distinction.",
+        "readingJudgment": "Public certainty and private uncertainty coexist; no certified robot identity.",
+        "pass": true
+      },
+      {
+        "story": "The Evitable Conflict",
+        "screenIds": [
+          "machines-discrepancies",
+          "machines-almaden",
+          "machines-society",
+          "machines-account",
+          "machines-ending"
+        ],
+        "premiseCauseAnswer": "Almaden production/ownership anomaly → competing explanations → divergent final voices.",
+        "evidence": "Emanuel Almaden event paragraphs; Kelly regional notes; reproduced Calvin/Byerley exchange.",
+        "readingJudgment": "Calvin’s protective interpretation stays attributed; no formal later Zeroth Law.",
+        "pass": true
+      }
+    ],
+    "nineDistinctPremisesCausesAnswers": true,
+    "engagement": "Concrete incidents supply humour, curiosity and tension: bargaining, circular motion, converter faith, marching, disappointed hopes, escalating tests and ship pranks. No managerial/moral advice, AI/NIST/Turing course or invented lessons were found.",
+    "russianEnglishParity": "All 53 pairs preserve actors, quantities, sequence, causes and uncertainty. Original Russian retelling, not a certified official translation.",
+    "depthContinuity": {
+      "essential": "All nine separate setups and conflicts are intelligible; ending each thread unresolved fulfils the explicit spoiler promise.",
+      "core": "Added scenes enrich character and stakes without supplying the withheld answers; no dangling pronoun or missing causal premise found.",
+      "deep": "All nine retained resolutions follow their respective setups, with the reporter/Calvin frame connecting the collection. No new analytical lesson is imposed."
+    },
+    "fourRecoveredHinges": "Independently checked against actual passages detailed in source-access-and-hinges.json; not accepted from the rescue report alone.",
+    "specificSafeguards": {
+      "gloriaEightFromPrimary": true,
+      "byerleyIdentityUnresolved": true,
+      "exactModifiedFirstLawDutyDeepOnly": "nestor-modification, level 3",
+      "noSecondLawOverridesFirstExplanation": true,
+      "noInventedDialOrPhysics": true,
+      "calvinFinalInterpretationAttributed": true,
+      "noFormalZerothLawFilmOtherCollectionContamination": true
+    }
+  },
+  "spoilerReview": {
+    "coverAndFinal": "Both languages contain only invitation/navigation and the depth promise.",
+    "sourcesAndMethod": "All eleven global source titles/notes and method note read in both languages: evidence limits and external-link spoiler warnings, no actual solution revealed.",
+    "contents": "Essential/Core include 22/32 safe titles only; all level-3 solution screens absent until explicit consent.",
+    "resumeLabels": "Saved machines-ending uses neutral Continue Deep — ending spoilers / Продолжить Deep — спойлеры финала, never the saved solution title.",
+    "allDecisiveSolutionsDeepOnly": true
+  },
+  "sources": {
+    "accessLedger": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/source-access-and-hinges.json",
+    "primaryScope": "Direct PRH Robbie opening plus actual reproduced Asimov quotations; indexed Googe quotations distinguished from direct PDF reading.",
+    "secondaryScope": "Stephens nine-entry publisher guide, Emanuel public scene accounts, Blevins selected xiv–xv, De Cooman/Petit 26–27, Kelly full collection notes, selected indexed Googe passages.",
+    "fullCollectionRead": false,
+    "officialRussianTranslationCertified": false,
+    "wholeEditionSentenceFidelityCertified": false,
+    "essentialRetainedPlotGaps": [],
+    "accessLimitIsNotBlanketEditionGate": true
+  },
+  "browserReview": {
+    "method": "Owned Google Chrome headless, CDP pipe, actual candidate file://, network offline. Shared preview rejected file: URLs twice, then its owned tab was closed.",
+    "targetedFinalRuns": [
+      {
+        "proof": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/browser-consent-320-verified-2.json",
+        "checks": 37,
+        "pass": true,
+        "browserProduct": "Chrome/155.0.8059.86",
+        "cleanup": {
+          "ownedProcessGroupKilled": true,
+          "profileRemoved": true,
+          "httpServerStarted": false
+        }
+      },
+      {
+        "proof": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/browser-consent-1440-verified-2.json",
+        "checks": 37,
+        "pass": true,
+        "browserProduct": "Chrome/155.0.8059.86",
+        "cleanup": {
+          "ownedProcessGroupKilled": true,
+          "profileRemoved": true,
+          "httpServerStarted": false
+        }
+      },
+      {
+        "proof": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/browser-history-320-attempt-2.json",
+        "checks": 6,
+        "pass": true,
+        "browserProduct": "Chrome/155.0.8059.86",
+        "cleanup": {
+          "ownedProcessGroupKilled": true,
+          "profileRemoved": true,
+          "httpServerStarted": false
+        }
+      }
+    ],
+    "finalChecks": 80,
+    "large1712MatrixRepeated": false,
+    "tested": [
+      "initial bilingual Deep checkbox and disabled confirm",
+      "native safe Cancel, Escape, Tab and Shift-Tab with confirm disabled/enabled",
+      "native Enter confirmation",
+      "Deep→Core and Deep→Essential revocation and renewed acknowledgment",
+      "reload and saved late Continue, cancellation and exact saved return",
+      "late Contents and injected bound hidden-ID entry guard",
+      "focus mode and Escape",
+      "Settings theme/font with settled font decoding and position preservation",
+      "global Sources disclosure",
+      "actual history round-trip, then explicit persisted-pageshow emulation"
+    ],
+    "bfcache": "Actual file/about:blank history round-trip returned pageshow persisted:false, safe Essential. Persisted-pageshow branch tested by explicit PageTransitionEvent emulation; no claim of an actual BFCache cache hit.",
+    "physicalSafariTested": false,
+    "screenshotsVisuallyInspected": [
+      "320 RU warning",
+      "320 EN warning",
+      "320 RU Serif narrative tail",
+      "1440 RU warning"
+    ],
+    "earlierHarnessFailures": [
+      {
+        "file": "browser-consent-320.json",
+        "cause": "Harness expected focus on a synthetically clicked Deep button; the browser correctly restored the actually focused language button. Replaced with native pointer input."
+      },
+      {
+        "file": "browser-consent-320-attempt-2.json",
+        "cause": "Harness asserted Serif before asynchronous embedded-font decoding completed. Added document.fonts.ready and animation-frame settling."
+      },
+      {
+        "file": "browser-history-320-final.json",
+        "cause": "CDP session became inactive after cross-document history navigation. Reattached to the same owned target before inspection."
+      },
+      {
+        "file": "browser-consent-320-verified.json",
+        "cause": "Harness Enter omitted carriage-return text and did not emit native button activation. Added the native Enter text; both viewport checks then pass."
+      }
+    ],
+    "runtimeExceptions": 0,
+    "externalRuntimeRequests": 0,
+    "cleanupProof": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z/cleanup.json"
+  },
+  "scopeSafeguards": {
+    "candidateReadySupportUnchanged": true,
+    "oldReviewAndRescueUnchanged": true,
+    "rootCatalogueSharedShellGitDeployUntouched": true,
+    "noSubagents": true,
+    "noServerStarted": true,
+    "publicationClaimed": false,
+    "writesOnly": "These two fresh reviews and the unique review-proof directory."
+  },
+  "proofDirectory": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2-proof-20261031T214752Z"
+}

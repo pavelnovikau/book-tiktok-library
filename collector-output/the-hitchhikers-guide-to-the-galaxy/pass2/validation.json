@@ -1,0 +1,92 @@
+{
+  "htmlSha256": "9228c2e094dd1550a40997e79d2d01f14c14d26074e5bd800af16bbeedd308e6",
+  "storyDataSha256": "6b8a3d17be21d889f2c514f371e6d5c501491736e598952d4dd457660a09b2c6",
+  "authoringEmbeddedScreenParity": true,
+  "readIntakePairs": 96,
+  "readNewPairs": 36,
+  "before": {
+    "essential": 24,
+    "core": 60,
+    "deep": 96
+  },
+  "after": {
+    "essential": 11,
+    "core": 18,
+    "deep": 36
+  },
+  "words": {
+    "essential": {
+      "ru": 465,
+      "en": 560
+    },
+    "core": {
+      "ru": 730,
+      "en": 888
+    },
+    "deep": {
+      "ru": 1470,
+      "en": 1774
+    }
+  },
+  "readingMinutes": {
+    "ru": {
+      "essential": 3,
+      "core": 5,
+      "deep": 9
+    },
+    "en": {
+      "essential": 3,
+      "core": 5,
+      "deep": 9
+    }
+  },
+  "bodyDensity": {
+    "ru": {
+      "min": 23,
+      "median": 38.5,
+      "max": 48,
+      "average": 37.53
+    },
+    "en": {
+      "min": 25,
+      "median": 46.0,
+      "max": 56,
+      "average": 45.11
+    }
+  },
+  "structural": {
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browserProofs": {
+    "matrix": {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-matrix.json",
+      "sha256": "859ebcc28e55ac6b4f7e84423af99988a7019c823e80a60754e8cbfe71bbd219",
+      "visits": 1040,
+      "checks": 0
+    },
+    "consent": {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-consent.json",
+      "sha256": "be130b245fccdd42f14d6a783e42d2dfc947617fd3a7d2349a4fdff4b5ff084b",
+      "visits": null,
+      "checks": 17
+    },
+    "interaction": {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-interaction.json",
+      "sha256": "2cf48ee695f263cc0efb932daca9df672dda526036496a4e707837c5ce9e3d2d",
+      "visits": null,
+      "checks": 15
+    },
+    "ios": {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-ios.json",
+      "sha256": "a0771d259ee4398d1bf4431a800563e73077cf79e83dd4ac6d2bfbf1b63cd1a8",
+      "visits": null,
+      "checks": 5
+    }
+  },
+  "ownedChromeRemaining": [],
+  "allOwnedProfilesRemoved": true,
+  "rootReaderMatchesIntake": true,
+  "physicalIPhoneTested": false
+}

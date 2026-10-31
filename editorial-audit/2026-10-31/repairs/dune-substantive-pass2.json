@@ -1,0 +1,1244 @@
+{
+  "schemaVersion": 1,
+  "slug": "dune",
+  "date": "2026-10-31",
+  "updatedAt": "2026-10-31T21:29:01.745672+00:00",
+  "status": "ready-for-independent-check",
+  "editorialDecision": "EDIT",
+  "publicationApproved": false,
+  "originalReview": {
+    "verdict": "REQUIRES-FIXES",
+    "files": [
+      {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/dune-source-rescue.json",
+        "canonicalPath": "editorial-audit/2026-10-31/reviews/dune-source-rescue.json",
+        "sha256": "6b4c4ae9141db11bad155ef1f9f6efb2223eb5296d773fde1c3425fd0b9d0df1",
+        "bytes": 39564
+      },
+      {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/dune-source-rescue.md",
+        "canonicalPath": "editorial-audit/2026-10-31/reviews/dune-source-rescue.md",
+        "sha256": "b57860fdd169624876c7783094ceaf9591f02a24c8a67f619ef2105c877c93ad",
+        "bytes": 29611
+      }
+    ],
+    "preservedUnmodified": true
+  },
+  "reading": {
+    "uniquePairsBefore": 38,
+    "uniquePairsAfter": 38,
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "allCurrentAndEffectivePairsRead": true,
+    "allRevisedPairsReread": true,
+    "allCumulativeRoutesReread": true,
+    "routeCounts": {
+      "essential": 10,
+      "core": 17,
+      "deep": 38
+    },
+    "routes": {
+      "essential": [
+        "cover",
+        "night-visitor",
+        "the-box",
+        "change-of-fief",
+        "a-world-without-rain",
+        "the-stillsuit",
+        "worm-sign",
+        "the-sand-opens",
+        "under-the-roof",
+        "final"
+      ],
+      "core": [
+        "cover",
+        "night-visitor",
+        "the-box",
+        "jessicas-choice",
+        "training-blade",
+        "change-of-fief",
+        "a-world-without-rain",
+        "mapes-and-the-knife",
+        "hunter-in-the-room",
+        "the-hidden-garden",
+        "fremen-alliance",
+        "the-stillsuit",
+        "worm-sign",
+        "the-sand-opens",
+        "dinner-in-arrakeen",
+        "under-the-roof",
+        "final"
+      ],
+      "deep": [
+        "cover",
+        "night-visitor",
+        "the-box",
+        "jessicas-choice",
+        "training-blade",
+        "change-of-fief",
+        "a-world-without-rain",
+        "mapes-and-the-knife",
+        "hunter-in-the-room",
+        "the-hidden-garden",
+        "fremen-alliance",
+        "the-stillsuit",
+        "worm-sign",
+        "the-sand-opens",
+        "dinner-in-arrakeen",
+        "under-the-roof",
+        "deep-warning",
+        "yuehs-bargain",
+        "the-poisoned-tooth",
+        "the-ducal-ring",
+        "visions-in-the-tent",
+        "kynes-shelter",
+        "through-the-storm",
+        "fremen-at-the-rocks",
+        "jamis-challenge",
+        "water-for-the-dead",
+        "the-sietch",
+        "the-water-of-life",
+        "two-years",
+        "riding-the-maker",
+        "gurney-returns",
+        "pauls-ordeal",
+        "the-imperial-fleet",
+        "the-wall-breaks",
+        "spice-and-power",
+        "the-last-duel",
+        "the-settlement",
+        "final"
+      ]
+    },
+    "proseChangedIDs": [
+      "the-poisoned-tooth",
+      "two-years",
+      "the-imperial-fleet",
+      "the-wall-breaks",
+      "spice-and-power",
+      "the-last-duel",
+      "the-settlement"
+    ],
+    "mapAndProseChangedIDs": [
+      "the-poisoned-tooth",
+      "the-sietch",
+      "two-years",
+      "the-imperial-fleet",
+      "the-wall-breaks",
+      "spice-and-power",
+      "the-last-duel",
+      "the-settlement"
+    ]
+  },
+  "sourceScope": {
+    "work": "Frank Herbert, Dune (1965), first novel, three internal books; films/sequels excluded",
+    "completeEditionRead": false,
+    "specificCompleteEditionCollated": false,
+    "publishedRussianTranslationCollated": false,
+    "thisPass": "PRH opening relationship passage; SparkNotes 1/6/9/11 required passages; O’Reilly 3/4 ecology/Guild/final combat and identified embedded Herbert climax; Reactor 19 both Summary sections and 20 second Summary. Prior fuller guide acquisition remains attributed to the prior rescue record.",
+    "accessBoundary": "Reactor direct fetch 403; public indexed Summary text read through ordinary web search. No access bypass, account, purchase, unauthorized novel mirror, or full/private book in repo.",
+    "sourceCount": 18,
+    "newSources": [
+      {
+        "id": 18,
+        "title": "Emmet Asher-Perrin / Reactor — Dune reread, Part Nineteen",
+        "url": "https://reactormag.com/rereading-frank-herberts-dune-dune-part-nineteen/",
+        "role": "reference",
+        "note": {
+          "ru": "Проверены оба раздела Summary по открытому индексируемому тексту. Это подробный пересказ, не первичный роман; Commentary отделён. Внешняя страница содержит спойлеры.",
+          "en": "Both Summary sections checked through publicly indexed text. A detailed recap, not the primary novel; Commentary kept separate. External page contains spoilers."
+        }
+      }
+    ],
+    "primarySecondaryDistinguished": true,
+    "criticalRetainedSourceGaps": []
+  },
+  "findings": [
+    {
+      "findingId": "DUNE-SR-001",
+      "required": true,
+      "severity": "high",
+      "implementationStatus": "implemented-awaiting-independent-check",
+      "changedIDs": [
+        "deep-warning"
+      ],
+      "change": "Volatile bilingual consent before depth/title exposure or first level-3 ID; Cancel/Escape preserve safe state; downgrade/reload revoke; generic saved Deep label and exact destination restored after consent.",
+      "originalReviewedWording": {
+        "ru": "Если хотите сохранить эти события неизвестными, выберите Главное или Core.",
+        "en": "To keep those events unknown, choose Essential or Core."
+      },
+      "originalSupportingEvidence": [
+        {
+          "url": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/dune/dune.html",
+          "location": "renderCover lines 1312–1320; contentsHtml 1344–1349; goToId 1433–1446; setMode 1448–1457; start 1459–1463; single fresh-profile CDP reproduction below",
+          "role": "actual candidate code and observed runtime"
+        }
+      ],
+      "sourceLocators": {
+        "deep-warning": "Retained inline warning; runtime entry guards"
+      },
+      "before": {
+        "deep-warning": {
+          "id": "deep-warning",
+          "level": 3,
+          "claimType": "synthesis",
+          "sources": [],
+          "copy": {
+            "ru": {
+              "section": "Deep · Предупреждение",
+              "title": "Дальше — весь сюжет",
+              "body": "<p>Deep продолжает историю через предательство, гибель персонажей, жизнь среди фременов и соглашение в финале. Если хотите сохранить эти события неизвестными, выберите Главное или Core. Ни продолжения, ни события фильмов сюда не включены.</p>"
+            },
+            "en": {
+              "section": "Deep · Spoiler warning",
+              "title": "Ahead: the full story",
+              "body": "<p>Deep continues through betrayal, character deaths, life among the Fremen and the final settlement. To keep those events unknown, choose Essential or Core. Sequels and events from the films are excluded.</p>"
+            }
+          }
+        }
+      },
+      "after": {
+        "deep-warning": {
+          "id": "deep-warning",
+          "level": 3,
+          "claimType": "synthesis",
+          "sources": [],
+          "copy": {
+            "ru": {
+              "section": "Deep · Предупреждение",
+              "title": "Дальше — весь сюжет",
+              "body": "<p>Deep продолжает историю через предательство, гибель персонажей, жизнь среди фременов и соглашение в финале. Если хотите сохранить эти события неизвестными, выберите Главное или Core. Ни продолжения, ни события фильмов сюда не включены.</p>"
+            },
+            "en": {
+              "section": "Deep · Spoiler warning",
+              "title": "Ahead: the full story",
+              "body": "<p>Deep continues through betrayal, character deaths, life among the Fremen and the final settlement. To keep those events unknown, choose Essential or Core. Sequels and events from the films are excluded.</p>"
+            }
+          }
+        }
+      },
+      "runtimeHooks": [
+        "duneSpoilerDialog",
+        "warnedDeep",
+        "requestDeepConsent",
+        "finishDeepConsent",
+        "contentsHtml",
+        "goToPosition",
+        "goToId",
+        "setMode",
+        "renderCover",
+        "start"
+      ],
+      "sourceRole": "Observed production reader/runtime; no literary source needed for consent behavior."
+    },
+    {
+      "findingId": "DUNE-SR-002",
+      "required": true,
+      "severity": "medium",
+      "implementationStatus": "implemented-awaiting-independent-check",
+      "changedIDs": [
+        "the-imperial-fleet",
+        "the-wall-breaks"
+      ],
+      "change": "Moved southern raid/dead-son/captured-Alia news after breach and assault begins; preparation precedes news, without revenge initiating attack.",
+      "originalReviewedWording": {
+        "ru": "Пол готовит удар во время бури. Затем приходит весть о налёте на южное убежище: его маленький сын убит, Алия в плену.",
+        "en": "Paul prepares to strike during a storm. Then news comes of a raid on a southern refuge: his young son is dead and Alia has been captured."
+      },
+      "originalSupportingEvidence": [
+        {
+          "url": "https://www.sparknotes.com/lit/dune/section11/",
+          "location": "Book III, Third Section, Summary: first two paragraphs; shield-wall breach, then the message as Paul and his soldiers prepare to engage",
+          "role": "professional study-guide summary, not Herbert text"
+        },
+        {
+          "url": "https://reactormag.com/rereading-frank-herberts-dune-dune-part-nineteen/",
+          "location": "Second Summary, final paragraph: attack preparations, storm and breach, then the interrupted message",
+          "role": "detailed published reread summary; supplementary independent source"
+        }
+      ],
+      "sourceLocators": {
+        "the-imperial-fleet": "14 / Book III, Third Section, Summary, first paragraph: arrival and plan; 18 / second Summary, preparations before storm and breach",
+        "the-wall-breaks": "14 / Book III, Third Section, Summary: breach before message; 18 / second Summary, final paragraph: storm, breach, interrupted message; 15 / first Summary: Alia and assault; second Summary: return to palace"
+      },
+      "before": {
+        "the-imperial-fleet": {
+          "id": "the-imperial-fleet",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Битва",
+              "title": "Император прибывает сам",
+              "body": "<p>Император прибывает на Арракис с сардаукарами; над планетой стоят корабли Великих домов. Пол готовит удар во время бури. Затем приходит весть о налёте на южное убежище: его маленький сын убит, Алия в плену. Вражеская сила, которую он собирался сокрушить, уже добралась до его семьи.</p>"
+            },
+            "en": {
+              "section": "Deep · Battle",
+              "title": "The emperor comes himself",
+              "body": "<p>The emperor arrives with his Sardaukar, and ships of the Great Houses wait above Arrakis. Paul prepares to strike during a storm. Then news comes of a raid on a southern refuge: his young son is dead and Alia has been captured. The force he intends to defeat has already reached his own family.</p>"
+            }
+          }
+        },
+        "the-wall-breaks": {
+          "id": "the-wall-breaks",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Битва",
+              "title": "Стена рушится",
+              "body": "<p>Атомный взрыв пробивает защищающую равнину скальную стену. Буря и фремены на червях обрушиваются на императорскую армию. Во время нападения Алия убивает барона отравленной иглой и уходит. Сардаукары терпят поражение; Пол возвращается в прежний дворец Атрейдесов уже как победитель и вызывает императора на переговоры.</p>"
+            },
+            "en": {
+              "section": "Deep · Battle",
+              "title": "The wall breaks",
+              "body": "<p>Atomics breach the rock wall protecting the plain. Storm and worm-riding Fremen fall on the imperial army. During the attack Alia kills the baron with a poisoned needle and escapes. The Sardaukar are defeated. Paul returns to the former Atreides palace as victor and summons the emperor to negotiate.</p>"
+            }
+          }
+        }
+      },
+      "after": {
+        "the-imperial-fleet": {
+          "id": "the-imperial-fleet",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            18
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Битва",
+              "title": "Император прибывает сам",
+              "body": "<p>Император прибывает на Арракис с сардаукарами; над планетой стоят корабли Великих домов. Пол и Стилгар ждут большую песчаную бурю. Их план — пробить скальную стену, за которой укрылась императорская армия, и ударить, когда буря лишит её защиты. Фремены готовятся к наступлению.</p>"
+            },
+            "en": {
+              "section": "Deep · Battle",
+              "title": "The emperor comes himself",
+              "body": "<p>The emperor arrives with his Sardaukar, and ships of the Great Houses wait above Arrakis. Paul and Stilgar await a great sandstorm. Their plan is to breach the rock wall sheltering the imperial army and strike when the storm strips away its protection. The Fremen prepare to attack.</p>"
+            }
+          },
+          "evidenceLocator": "14 / Book III, Third Section, Summary, first paragraph: arrival and plan; 18 / second Summary, preparations before storm and breach"
+        },
+        "the-wall-breaks": {
+          "id": "the-wall-breaks",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            18,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Битва",
+              "title": "Стена рушится",
+              "body": "<p>Атомный взрыв пробивает скальную стену. Наступление начинается — и Пол получает весть о налёте на южное убежище: его маленький сын Лето убит, Алия в плену.</p><p>Буря и фремены на червях обрушиваются на императорскую армию. Во время нападения Алия убивает барона отравленной иглой и уходит. Сардаукары терпят поражение; Пол возвращается в прежний дворец Атрейдесов и вызывает императора на переговоры.</p>"
+            },
+            "en": {
+              "section": "Deep · Battle",
+              "title": "The wall breaks",
+              "body": "<p>Atomics breach the rock wall. As the assault begins, Paul receives news of a raid on a southern refuge: his young son Leto is dead and Alia has been captured.</p><p>Storm and worm-riding Fremen fall on the imperial army. During the attack Alia kills the baron with a poisoned needle and escapes. The Sardaukar are defeated. Paul returns to the former Atreides palace and summons the emperor to negotiate.</p>"
+            }
+          },
+          "evidenceLocator": "14 / Book III, Third Section, Summary: breach before message; 18 / second Summary, final paragraph: storm, breach, interrupted message; 15 / first Summary: Alia and assault; second Summary: return to palace"
+        }
+      }
+    },
+    {
+      "findingId": "DUNE-SR-003",
+      "required": true,
+      "severity": "high",
+      "implementationStatus": "implemented-awaiting-independent-check",
+      "changedIDs": [
+        "two-years",
+        "spice-and-power",
+        "the-last-duel"
+      ],
+      "change": "Restored explicit prophet/devotion, Paul losing friend Stilgar to worship, and his death/survival feeding the holy-war legend at the uncertain duel moment; no completed future war.",
+      "originalReviewedWording": {
+        "ru": "Но знамя Муад’Диба всё ещё стоит в видениях войны: победа её угрозу не снимает.",
+        "en": "Yet Muad’Dib’s banner still stands in Paul’s visions of war: victory has not removed that threat."
+      },
+      "originalSupportingEvidence": [
+        {
+          "url": "https://www.sparknotes.com/lit/dune/section9/",
+          "location": "Book III, First Section, Summary: Paul’s religious and political position during the two-year interval",
+          "role": "professional guide summary"
+        },
+        {
+          "url": "https://www.oreilly.com/tim/herbert/ch03.html",
+          "location": "Embedded primary passage beginning “He sampled the time winds”: Paul’s inner alternatives of death as sacrifice and survival as vindication",
+          "role": "Herbert passage quoted inside O’Reilly’s criticism; surrounding theory is secondary"
+        },
+        {
+          "url": "https://reactormag.com/rereading-frank-herberts-dune-dune-part-twenty/",
+          "location": "Second Summary: Stilgar becomes worshipper; palace/duel sequence and Paul’s view of jihad",
+          "role": "reread event-summary, not the subsequent Commentary"
+        }
+      ],
+      "sourceLocators": {
+        "two-years": "12 / Book III, First Section, Summary: two-year interval and religious prophet; 2 / first-novel account of Paul among the Fremen and visions of jihad",
+        "spice-and-power": "2 / The Evolution of Dune: water stealers and melange as worm-cycle byproduct (secondary); 3 / Spacing Guild navigation paragraph (secondary), later embedded Paul/Guild reflection (primary quotation); 18 / first Summary, final paragraph: means prepared with Jessica, not executed; 15 / second Summary: Stilgar becomes worshipper, Guild threat/compliance; 14 / final Summary: ships sent away",
+        "the-last-duel": "4 / Book I, First Section, Summary: Harkonnen kinship; 3 / final-combat introduction: nephew/heir (secondary), acceptance (embedded primary); 2 / embedded Herbert passage beginning He sampled the time winds: death/survival feeding the legend, not the critic’s biological explanation; 15 / second Summary: unseen duel outcome, poison, death, Fenring’s refusal; 14 / final Summary: duel/refusal"
+      },
+      "before": {
+        "two-years": {
+          "id": "two-years",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            12,
+            2
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Муад’Диб",
+              "title": "Два года в пустыне",
+              "body": "<p>Проходят два года. Пол и Чани становятся родителями мальчика, названного Лето. Алия растёт тревожно взрослым ребёнком. Муад’Диб обучает фременов и возглавляет их удары по Харконненам; его имя превращается в обещание освобождения. Сам Пол продолжает видеть опасность войны, которая может выйти далеко за пределы Арракиса.</p>"
+            },
+            "en": {
+              "section": "Deep · Muad’Dib",
+              "title": "Two years in the desert",
+              "body": "<p>Two years pass. Paul and Chani have a son named Leto. Alia grows as a disturbingly adult child. Muad’Dib trains the Fremen and leads their attacks on the Harkonnens; his name becomes a promise of deliverance. Paul continues to see the danger of a war reaching far beyond Arrakis.</p>"
+            }
+          }
+        },
+        "spice-and-power": {
+          "id": "spice-and-power",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Угроза пряности",
+              "body": "<p>Победы на земле мало: над Арракисом ждут чужие армии. Пол угрожает уничтожить производство пряности, без которой не сможет существовать Космическая гильдия. Её представители понимают, что он не блефует, и заставляют корабли уйти. Право повелевать оказывается у человека, способного лишить империю того, от чего она зависит.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The spice threat",
+              "body": "<p>Victory on the ground is not enough; other armies wait above Arrakis. Paul threatens to destroy spice production, without which the Spacing Guild cannot function. Its representatives realize he is serious and make the ships depart. Command now rests with the person able to deprive the empire of its indispensable resource.</p>"
+            }
+          }
+        },
+        "the-last-duel": {
+          "id": "the-last-duel",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15,
+            3
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Последний поединок",
+              "body": "<p>Фейд-Раута вызывает Пола на смертельный поединок. За политическим разгромом остаётся противник с ножом и скрытым ядом. Пол принимает вызов и убивает его. Граф Фенринг, которого император хотел бы сделать следующим орудием убийства, отказывается напасть. Перед императором больше нет прежних способов остановить победителя.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The final duel",
+              "body": "<p>Feyd-Rautha challenges Paul to a fight to the death. Political defeat leaves an opponent with a knife and concealed poison. Paul accepts and kills him. Count Fenring, whom the emperor would use as another instrument of murder, refuses to attack. The emperor’s remaining means of stopping the victor have fallen away.</p>"
+            }
+          }
+        }
+      },
+      "after": {
+        "two-years": {
+          "id": "two-years",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            12,
+            2
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Муад’Диб",
+              "title": "Два года в пустыне",
+              "body": "<p>Проходят два года. Пол и Чани становятся родителями мальчика, названного Лето. Алия растёт тревожно взрослым ребёнком. Муад’Диб обучает фременов и возглавляет их удары по Харконненам. Для них он уже пророк: ему следуют с религиозной преданностью. Сам Пол продолжает видеть опасность священной войны, которая может выйти далеко за пределы Арракиса.</p>"
+            },
+            "en": {
+              "section": "Deep · Muad’Dib",
+              "title": "Two years in the desert",
+              "body": "<p>Two years pass. Paul and Chani have a son named Leto. Alia grows as a disturbingly adult child. Muad’Dib trains the Fremen and leads their attacks on the Harkonnens. They now follow him as a prophet, with religious devotion. Paul continues to see the danger of a holy war reaching far beyond Arrakis.</p>"
+            }
+          },
+          "evidenceLocator": "12 / Book III, First Section, Summary: two-year interval and religious prophet; 2 / first-novel account of Paul among the Fremen and visions of jihad"
+        },
+        "spice-and-power": {
+          "id": "spice-and-power",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            2,
+            3,
+            18,
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Угроза пряности",
+              "body": "<p>Во дворце Пол видит, как Стилгар из друга становится поклонником. А над Арракисом всё ещё ждут чужие армии.</p><p>Пол знает, что пряность рождается в жизненном цикле червей. Он поручил Джессике подготовить изменённую Воду Жизни: с её помощью он может погубить этот цикл и прекратить появление меланжа. Навигаторам Космической гильдии пряность даёт предвидение, необходимое для межзвёздных перелётов.</p><p>Пол угрожает уничтожить источник пряности. Представители Гильдии понимают, что он не блефует, и приказывают кораблям уйти. Угроза остаётся угрозой: Пол не приводит свой план в действие.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The spice threat",
+              "body": "<p>At the palace, Paul watches Stilgar turn from friend into worshipper. Other armies still wait above Arrakis.</p><p>Paul knows that spice comes from the worms’ life cycle. He has told Jessica to prepare transformed Water of Life: with it he can destroy that cycle and end melange production. The Spacing Guild’s navigators need spice for the prescience that makes interstellar travel possible.</p><p>Paul threatens to destroy the source of spice. The Guild’s representatives recognize that he is serious and order the ships away. The threat remains a threat: Paul does not carry out his plan.</p>"
+            }
+          },
+          "evidenceLocator": "2 / The Evolution of Dune: water stealers and melange as worm-cycle byproduct (secondary); 3 / Spacing Guild navigation paragraph (secondary), later embedded Paul/Guild reflection (primary quotation); 18 / first Summary, final paragraph: means prepared with Jessica, not executed; 15 / second Summary: Stilgar becomes worshipper, Guild threat/compliance; 14 / final Summary: ships sent away"
+        },
+        "the-last-duel": {
+          "id": "the-last-duel",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            4,
+            3,
+            2,
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Последний поединок",
+              "body": "<p>Фейд-Раута Харконнен, племянник и наследник барона, вызывает Пола на смертельный поединок. Перед Полом — противник с ножом и скрытым ядом, и исхода боя он не видит.</p><p>Но теперь Пол не видит и способа остановить священную войну: погибни он здесь, его смерть сочтут жертвой; выживи — объявят Муад’Диба непобедимым.</p><p>Пол принимает вызов и убивает Фейда. Император хочет, чтобы граф Фенринг напал на победителя, но тот отказывается.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The final duel",
+              "body": "<p>Feyd-Rautha Harkonnen, the baron’s nephew and heir, challenges Paul to a fight to the death. His opponent has a knife and hidden poison, and Paul cannot see the fight’s outcome.</p><p>Yet Paul now sees no way to stop the holy war: if he dies here, his death will be taken as a sacrifice; if he lives, Muad’Dib will be proclaimed invincible.</p><p>Paul accepts and kills Feyd. The emperor wants Count Fenring to attack the victor, but the count refuses.</p>"
+            }
+          },
+          "evidenceLocator": "4 / Book I, First Section, Summary: Harkonnen kinship; 3 / final-combat introduction: nephew/heir (secondary), acceptance (embedded primary); 2 / embedded Herbert passage beginning He sampled the time winds: death/survival feeding the legend, not the critic’s biological explanation; 15 / second Summary: unseen duel outcome, poison, death, Fenring’s refusal; 14 / final Summary: duel/refusal"
+        }
+      }
+    },
+    {
+      "findingId": "DUNE-SR-004",
+      "required": true,
+      "severity": "medium",
+      "implementationStatus": "implemented-awaiting-independent-check",
+      "changedIDs": [
+        "the-settlement"
+      ],
+      "change": "Distinguished concubines from Irulan/dynastic marriage; restored Jessica/Chani negotiation, Chani’s doubt and Jessica’s attributed reassurance.",
+      "originalReviewedWording": {
+        "ru": "Джессика обращается к ней с уверенностью, что история назовёт жёнами именно их, хотя официальные браки устроены иначе.",
+        "en": "Jessica assures her that history will call women like them wives, despite the official marriages."
+      },
+      "originalSupportingEvidence": [
+        {
+          "url": "https://sites.prh.com/dune/read-an-excerpt",
+          "location": "Opening, paragraph identifying Jessica’s standing as Paul sees Mohiam address her",
+          "role": "official Herbert opening; establishes Jessica’s concubine status only"
+        },
+        {
+          "url": "https://reactormag.com/rereading-frank-herberts-dune-dune-part-twenty/",
+          "location": "Second Summary, closing settlement paragraphs: Jessica and Chani, terms, Chani’s uncertain reception and Jessica’s reassurance",
+          "role": "detailed professional recap; preferred here over G11’s reversed wife/concubine wording"
+        }
+      ],
+      "sourceLocators": {
+        "the-settlement": "1 / Chapter One: Jessica identified as a duke’s concubine; 15 / second Summary, closing paragraphs: throne/dynastic marriage demand, Jessica and Chani negotiate, Chani’s doubt, Jessica’s reassurance. Source 14’s wife/concubine reversal is not used"
+      },
+      "before": {
+        "the-settlement": {
+          "id": "the-settlement",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15,
+            2
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Соглашение и обещание",
+              "body": "<p>Пол требует престол и брак с принцессой Ирулан. Это политическое соглашение; Чани он обещает свою любовь. Джессика обращается к ней с уверенностью, что история назовёт жёнами именно их, хотя официальные браки устроены иначе. Власть завоёвана. Но знамя Муад’Диба всё ещё стоит в видениях войны: победа её угрозу не снимает.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "A settlement and a promise",
+              "body": "<p>Paul demands the throne and marriage to Princess Irulan. This is a political settlement; he promises his love to Chani. Jessica assures her that history will call women like them wives, despite the official marriages. Power has been won. Yet Muad’Dib’s banner still stands in Paul’s visions of war: victory has not removed that threat.</p>"
+            }
+          }
+        }
+      },
+      "after": {
+        "the-settlement": {
+          "id": "the-settlement",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            1,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Соглашение и обещание",
+              "body": "<p>Пол требует престола и брака с Ирулан, дочерью императора. Этот династический союз должен закрепить его власть. Он поручает Джессике вести переговоры вместе с Чани.</p><p>Чани не просит титула. Пол обещает ей, что Ирулан получит его имя, но не любовь; Чани не уверена, что верит ему. Она остаётся наложницей, как Джессика была наложницей Лето. Джессика утешает её: пусть Ирулан достанется имя Атрейдесов — по убеждению Джессики, история назовёт жёнами именно их.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "A settlement and a promise",
+              "body": "<p>Paul demands the throne and marriage to Irulan, the emperor’s daughter. The dynastic alliance is to secure his power. He asks Jessica to negotiate the terms with Chani beside her.</p><p>Chani asks for no title. Paul promises that Irulan will have his name but not his love; Chani is unsure she believes him. She remains a concubine, as Jessica was Leto’s concubine. Jessica reassures her: Irulan may receive the Atreides name, but Jessica believes history will call women like them wives.</p>"
+            }
+          },
+          "evidenceLocator": "1 / Chapter One: Jessica identified as a duke’s concubine; 15 / second Summary, closing paragraphs: throne/dynastic marriage demand, Jessica and Chani negotiate, Chani’s doubt, Jessica’s reassurance. Source 14’s wife/concubine reversal is not used"
+        }
+      }
+    },
+    {
+      "findingId": "DUNE-SR-005",
+      "required": true,
+      "severity": "medium",
+      "implementationStatus": "implemented-awaiting-independent-check",
+      "changedIDs": [
+        "the-poisoned-tooth",
+        "the-last-duel"
+      ],
+      "change": "Introduced Piter’s Mentat adviser role and Feyd-Rautha Harkonnen’s nephew/heir relation; no new subplot or Fenring inner motive.",
+      "originalReviewedWording": {
+        "ru": "Лето выпускает яд, но тот губит Питера и стоящих рядом людей; Харконнен спасается.",
+        "en": "Leto releases the poison, but it kills Piter and the people nearby while Harkonnen escapes."
+      },
+      "originalSupportingEvidence": [
+        {
+          "url": "https://www.sparknotes.com/lit/dune/section1/",
+          "location": "Book I, First Section, Summary: baron, nephew Feyd-Rautha, Mentat Piter",
+          "role": "professional guide identification"
+        },
+        {
+          "url": "https://www.oreilly.com/tim/herbert/ch04.html",
+          "location": "Paragraph introducing Paul’s acceptance of the final combat, immediately before the quoted disrobing/acceptance passage",
+          "role": "O’Reilly’s first-novel narrative identification; adjacent quoted acceptance is primary"
+        },
+        {
+          "url": "https://reactormag.com/rereading-frank-herberts-dune-dune-part-twenty/",
+          "location": "Second Summary: Feyd’s kanly challenge, duel and Fenring refusal",
+          "role": "professional reread summary"
+        }
+      ],
+      "sourceLocators": {
+        "the-poisoned-tooth": "7 / Book I, Fourth Section, Summary: Yueh and Leto; 4 / Book I, First Section, Summary: Piter identified as the baron’s Mentat",
+        "the-last-duel": "4 / Book I, First Section, Summary: Harkonnen kinship; 3 / final-combat introduction: nephew/heir (secondary), acceptance (embedded primary); 2 / embedded Herbert passage beginning He sampled the time winds: death/survival feeding the legend, not the critic’s biological explanation; 15 / second Summary: unseen duel outcome, poison, death, Fenring’s refusal; 14 / final Summary: duel/refusal"
+      },
+      "before": {
+        "the-poisoned-tooth": {
+          "id": "the-poisoned-tooth",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            7
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Падение дома",
+              "title": "Последнее оружие Лето",
+              "body": "<p>Юэ помещает Лето в рот зуб с ядом: когда герцога подведут к барону, он сможет убить обоих. Барон велит убить самого Юэ. Лето выпускает яд, но тот губит Питера и стоящих рядом людей; Харконнен спасается. Для Лето месть становится последним действием, а не выходом из плена.</p>"
+            },
+            "en": {
+              "section": "Deep · The house falls",
+              "title": "Leto’s last weapon",
+              "body": "<p>Yueh places a poison tooth in Leto’s mouth: brought close to the baron, the duke could kill them both. The baron orders Yueh killed. Leto releases the poison, but it kills Piter and the people nearby while Harkonnen escapes. For Leto, revenge becomes a final act rather than an escape from captivity.</p>"
+            }
+          }
+        },
+        "the-last-duel": {
+          "id": "the-last-duel",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15,
+            3
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Последний поединок",
+              "body": "<p>Фейд-Раута вызывает Пола на смертельный поединок. За политическим разгромом остаётся противник с ножом и скрытым ядом. Пол принимает вызов и убивает его. Граф Фенринг, которого император хотел бы сделать следующим орудием убийства, отказывается напасть. Перед императором больше нет прежних способов остановить победителя.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The final duel",
+              "body": "<p>Feyd-Rautha challenges Paul to a fight to the death. Political defeat leaves an opponent with a knife and concealed poison. Paul accepts and kills him. Count Fenring, whom the emperor would use as another instrument of murder, refuses to attack. The emperor’s remaining means of stopping the victor have fallen away.</p>"
+            }
+          }
+        }
+      },
+      "after": {
+        "the-poisoned-tooth": {
+          "id": "the-poisoned-tooth",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            7,
+            4
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Падение дома",
+              "title": "Последнее оружие Лето",
+              "body": "<p>Юэ помещает Лето в рот зуб с ядом: когда герцога подведут к барону, он сможет убить обоих. Барон велит убить самого Юэ. Лето выпускает яд, но тот губит Питера, ментата-советника барона, и стоящих рядом людей; Харконнен спасается. Для Лето месть становится последним действием, а не выходом из плена.</p>"
+            },
+            "en": {
+              "section": "Deep · The house falls",
+              "title": "Leto’s last weapon",
+              "body": "<p>Yueh places a poison tooth in Leto’s mouth: brought close to the baron, the duke could kill them both. The baron orders Yueh killed. Leto releases the poison, but it kills Piter, the baron’s Mentat adviser, and the people nearby while Harkonnen escapes. For Leto, revenge becomes a final act rather than an escape from captivity.</p>"
+            }
+          },
+          "evidenceLocator": "7 / Book I, Fourth Section, Summary: Yueh and Leto; 4 / Book I, First Section, Summary: Piter identified as the baron’s Mentat"
+        },
+        "the-last-duel": {
+          "id": "the-last-duel",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            4,
+            3,
+            2,
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Последний поединок",
+              "body": "<p>Фейд-Раута Харконнен, племянник и наследник барона, вызывает Пола на смертельный поединок. Перед Полом — противник с ножом и скрытым ядом, и исхода боя он не видит.</p><p>Но теперь Пол не видит и способа остановить священную войну: погибни он здесь, его смерть сочтут жертвой; выживи — объявят Муад’Диба непобедимым.</p><p>Пол принимает вызов и убивает Фейда. Император хочет, чтобы граф Фенринг напал на победителя, но тот отказывается.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The final duel",
+              "body": "<p>Feyd-Rautha Harkonnen, the baron’s nephew and heir, challenges Paul to a fight to the death. His opponent has a knife and hidden poison, and Paul cannot see the fight’s outcome.</p><p>Yet Paul now sees no way to stop the holy war: if he dies here, his death will be taken as a sacrifice; if he lives, Muad’Dib will be proclaimed invincible.</p><p>Paul accepts and kills Feyd. The emperor wants Count Fenring to attack the victor, but the count refuses.</p>"
+            }
+          },
+          "evidenceLocator": "4 / Book I, First Section, Summary: Harkonnen kinship; 3 / final-combat introduction: nephew/heir (secondary), acceptance (embedded primary); 2 / embedded Herbert passage beginning He sampled the time winds: death/survival feeding the legend, not the critic’s biological explanation; 15 / second Summary: unseen duel outcome, poison, death, Fenring’s refusal; 14 / final Summary: duel/refusal"
+        }
+      }
+    },
+    {
+      "findingId": "DUNE-SR-006",
+      "required": true,
+      "severity": "medium",
+      "implementationStatus": "implemented-awaiting-independent-check",
+      "changedIDs": [
+        "the-sietch",
+        "spice-and-power"
+      ],
+      "change": "Mapped Kynes/father project to source 9; restored worm-cycle/spice, prepared means, spice-fed Guild navigation, unexecuted credible threat and compliance without chemistry instructions.",
+      "originalReviewedWording": {
+        "ru": "Пол угрожает уничтожить производство пряности, без которой не сможет существовать Космическая гильдия. Её представители понимают, что он не блефует, и заставляют корабли уйти.",
+        "en": "Paul threatens to destroy spice production, without which the Spacing Guild cannot function. Its representatives realize he is serious and make the ships depart."
+      },
+      "originalSupportingEvidence": [
+        {
+          "url": "https://www.oreilly.com/tim/herbert/ch03.html",
+          "location": "The Evolution of Dune: paragraphs on water stealers, melange and the sandworm cycle",
+          "role": "critical monograph’s account of novel ecology; not a primary excerpt"
+        },
+        {
+          "url": "https://www.oreilly.com/tim/herbert/ch04.html",
+          "location": "Spacing Guild paragraph near beginning; quoted Paul reflection on the Guild later in the chapter",
+          "role": "secondary navigation explanation plus embedded primary reflection"
+        },
+        {
+          "url": "https://reactormag.com/rereading-frank-herberts-dune-dune-part-nineteen/",
+          "location": "First Summary, final paragraph of Paul/Jessica exchange: threatened means of ending spice production",
+          "role": "supplementary published recap; not its subsequent chemical shorthand in Commentary"
+        },
+        {
+          "url": "https://www.sparknotes.com/lit/dune/section6/",
+          "location": "Summary: Kynes’s father and the earlier planetary project",
+          "role": "existing guide evidence for the-sietch source-map correction"
+        }
+      ],
+      "sourceLocators": {
+        "the-sietch": "10–11 / Book II, Third/Fourth Section, Summary: community and evacuation; 9 / Book II, Second Section, Summary: Kynes’s father, decades-old ecological plan continued by Kynes",
+        "spice-and-power": "2 / The Evolution of Dune: water stealers and melange as worm-cycle byproduct (secondary); 3 / Spacing Guild navigation paragraph (secondary), later embedded Paul/Guild reflection (primary quotation); 18 / first Summary, final paragraph: means prepared with Jessica, not executed; 15 / second Summary: Stilgar becomes worshipper, Guild threat/compliance; 14 / final Summary: ships sent away"
+      },
+      "before": {
+        "the-sietch": {
+          "id": "the-sietch",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            10,
+            11
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Фремены",
+              "title": "За стенами сиетча",
+              "body": "<p>В Сиетч-Табре живут семьи, учатся дети и продолжается работа. Фремены копят воду для изменения планеты; это замысел поколений, связанный с Кайнзом и его отцом. Теперь приходит известие о гибели Кайнза. Пол и Чани сближаются среди людей, которые готовятся покинуть убежище из-за охоты сардаукаров.</p>"
+            },
+            "en": {
+              "section": "Deep · The Fremen",
+              "title": "Inside the sietch",
+              "body": "<p>Sietch Tabr contains families, children at lessons and work that continues. The Fremen store water for a transformation of their planet, a project spanning generations and associated with Kynes and his father. News of Kynes’s death arrives. Paul and Chani grow close among people preparing to leave their refuge because Sardaukar are hunting them.</p>"
+            }
+          }
+        },
+        "spice-and-power": {
+          "id": "spice-and-power",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Угроза пряности",
+              "body": "<p>Победы на земле мало: над Арракисом ждут чужие армии. Пол угрожает уничтожить производство пряности, без которой не сможет существовать Космическая гильдия. Её представители понимают, что он не блефует, и заставляют корабли уйти. Право повелевать оказывается у человека, способного лишить империю того, от чего она зависит.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The spice threat",
+              "body": "<p>Victory on the ground is not enough; other armies wait above Arrakis. Paul threatens to destroy spice production, without which the Spacing Guild cannot function. Its representatives realize he is serious and make the ships depart. Command now rests with the person able to deprive the empire of its indispensable resource.</p>"
+            }
+          }
+        }
+      },
+      "after": {
+        "the-sietch": {
+          "id": "the-sietch",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            10,
+            11,
+            9
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Фремены",
+              "title": "За стенами сиетча",
+              "body": "<p>В Сиетч-Табре живут семьи, учатся дети и продолжается работа. Фремены копят воду для изменения планеты; это замысел поколений, связанный с Кайнзом и его отцом. Теперь приходит известие о гибели Кайнза. Пол и Чани сближаются среди людей, которые готовятся покинуть убежище из-за охоты сардаукаров.</p>"
+            },
+            "en": {
+              "section": "Deep · The Fremen",
+              "title": "Inside the sietch",
+              "body": "<p>Sietch Tabr contains families, children at lessons and work that continues. The Fremen store water for a transformation of their planet, a project spanning generations and associated with Kynes and his father. News of Kynes’s death arrives. Paul and Chani grow close among people preparing to leave their refuge because Sardaukar are hunting them.</p>"
+            }
+          },
+          "evidenceLocator": "10–11 / Book II, Third/Fourth Section, Summary: community and evacuation; 9 / Book II, Second Section, Summary: Kynes’s father, decades-old ecological plan continued by Kynes"
+        },
+        "spice-and-power": {
+          "id": "spice-and-power",
+          "level": 3,
+          "claimType": "book",
+          "sources": [
+            2,
+            3,
+            18,
+            14,
+            15
+          ],
+          "copy": {
+            "ru": {
+              "section": "Deep · Во дворце",
+              "title": "Угроза пряности",
+              "body": "<p>Во дворце Пол видит, как Стилгар из друга становится поклонником. А над Арракисом всё ещё ждут чужие армии.</p><p>Пол знает, что пряность рождается в жизненном цикле червей. Он поручил Джессике подготовить изменённую Воду Жизни: с её помощью он может погубить этот цикл и прекратить появление меланжа. Навигаторам Космической гильдии пряность даёт предвидение, необходимое для межзвёздных перелётов.</p><p>Пол угрожает уничтожить источник пряности. Представители Гильдии понимают, что он не блефует, и приказывают кораблям уйти. Угроза остаётся угрозой: Пол не приводит свой план в действие.</p>"
+            },
+            "en": {
+              "section": "Deep · At the palace",
+              "title": "The spice threat",
+              "body": "<p>At the palace, Paul watches Stilgar turn from friend into worshipper. Other armies still wait above Arrakis.</p><p>Paul knows that spice comes from the worms’ life cycle. He has told Jessica to prepare transformed Water of Life: with it he can destroy that cycle and end melange production. The Spacing Guild’s navigators need spice for the prescience that makes interstellar travel possible.</p><p>Paul threatens to destroy the source of spice. The Guild’s representatives recognize that he is serious and order the ships away. The threat remains a threat: Paul does not carry out his plan.</p>"
+            }
+          },
+          "evidenceLocator": "2 / The Evolution of Dune: water stealers and melange as worm-cycle byproduct (secondary); 3 / Spacing Guild navigation paragraph (secondary), later embedded Paul/Guild reflection (primary quotation); 18 / first Summary, final paragraph: means prepared with Jessica, not executed; 15 / second Summary: Stilgar becomes worshipper, Guild threat/compliance; 14 / final Summary: ships sent away"
+        }
+      }
+    }
+  ],
+  "countsBefore": {
+    "essential": 10,
+    "core": 17,
+    "deep": 38
+  },
+  "countsAfter": {
+    "essential": 10,
+    "core": 17,
+    "deep": 38
+  },
+  "countsRationale": "Same coherent beats; no added screen, quota padding or invented subplot.",
+  "beforeSnapshot": {
+    "directory": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66",
+    "manifest": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/before.json",
+    "files": {
+      "collector-output/dune/story-data.json": {
+        "sha256": "788b94cecd5e4a91bb159c5b4bc09ed38680a09612bf0cb7555a060cc93b96c5",
+        "bytes": 63222
+      },
+      "collector-output/dune/dune.html": {
+        "sha256": "d251f3c7a9b1679c57f5778771a1d799c24a629df7ed458e9ddee8009159509c",
+        "bytes": 307278
+      },
+      "collector-output/dune/sources.md": {
+        "sha256": "fde116c00010457b6da76a7b2596656cf1efa818c347ba1fcaf791d83ebb7f39",
+        "bytes": 29408
+      },
+      "collector-output/dune/QA.md": {
+        "sha256": "5951b51a68b6643b8decc5e90ad7cc2a08bce99320921506e092b6430946dbf5",
+        "bytes": 2695
+      },
+      "editorial-audit/2026-10-31/reviews/dune-source-rescue.json": {
+        "sha256": "6b4c4ae9141db11bad155ef1f9f6efb2223eb5296d773fde1c3425fd0b9d0df1",
+        "bytes": 39564
+      },
+      "editorial-audit/2026-10-31/reviews/dune-source-rescue.md": {
+        "sha256": "b57860fdd169624876c7783094ceaf9591f02a24c8a67f619ef2105c877c93ad",
+        "bytes": 29611
+      },
+      "editorial-audit/2026-10-31/ready/dune.json": {
+        "sha256": "5cec132462ae7cdaf35dd62e798310544e9f0f4c9cee12df8a7302a51cd552a9",
+        "bytes": 3574
+      }
+    }
+  },
+  "afterDeliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/dune/story-data.json",
+      "canonicalPath": "collector-output/dune/story-data.json",
+      "sha256": "9990c370dbdb0fd605673ef066e6640ff2621a419f83274ca71ca595ab1d356b",
+      "bytes": 67963
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/dune/dune.html",
+      "canonicalPath": "collector-output/dune/dune.html",
+      "sha256": "a2d50092fbcd92fc02c46070b67cc4a9a0d76466768f6d6bbcf39dbb6553d68b",
+      "bytes": 316284
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/dune/sources.md",
+      "canonicalPath": "collector-output/dune/sources.md",
+      "sha256": "16cfc5be1845bcf115aa799798e91c44f3c7a42594a8a36e6224fbc925e91b7f",
+      "bytes": 18594
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/dune/QA.md",
+      "canonicalPath": "collector-output/dune/QA.md",
+      "sha256": "671c3ef8c54c57e46f6f4d61182a0e508d1862e9ea7aabd719badf80698a1b03",
+      "bytes": 5408
+    }
+  ],
+  "report": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/dune-substantive-pass2.md",
+    "canonicalPath": "editorial-audit/2026-10-31/books/dune-substantive-pass2.md",
+    "sha256": "f054a94780a5c10c2e809a1cc7b1ceb26abe2579e9ac8875dba256d7cd3d8e84",
+    "bytes": 10311
+  },
+  "checks": {
+    "structure": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/dune/dune.html",
+      "format": "v2",
+      "bytes": 316284,
+      "screenCount": 38,
+      "levels": {
+        "1": 10,
+        "2": 7,
+        "3": 21
+      },
+      "modes": {
+        "essential": 10,
+        "core": 17,
+        "deep": 38
+      },
+      "words": {
+        "ru": 1823,
+        "en": 2167
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "consistency": {
+      "changedIDs": [
+        "the-poisoned-tooth",
+        "the-sietch",
+        "two-years",
+        "the-imperial-fleet",
+        "the-wall-breaks",
+        "spice-and-power",
+        "the-last-duel",
+        "the-settlement"
+      ],
+      "bodyChangedIDs": [
+        "the-poisoned-tooth",
+        "two-years",
+        "the-imperial-fleet",
+        "the-wall-breaks",
+        "spice-and-power",
+        "the-last-duel",
+        "the-settlement"
+      ],
+      "canonicalEmbeddedAndBuilderEqual": true,
+      "stableIDsLevelsMedia": true,
+      "shallowScreensUnchanged": true,
+      "originalReviewsUnchanged": true,
+      "preservation": {
+        "styleBlocksIdentical": true,
+        "postReaderFocusInstallHeaderIdentical": true,
+        "embeddedMediaIdentical": true
+      },
+      "modes": {
+        "essential": {
+          "label": {
+            "ru": "Главное",
+            "en": "Essential"
+          },
+          "minutes": {
+            "ru": "3 минут",
+            "en": "3 min"
+          }
+        },
+        "core": {
+          "label": {
+            "ru": "Суть книги",
+            "en": "Core"
+          },
+          "minutes": {
+            "ru": "5 минут",
+            "en": "5 min"
+          }
+        },
+        "deep": {
+          "label": {
+            "ru": "Глубоко",
+            "en": "Deep"
+          },
+          "minutes": {
+            "ru": "11 минут",
+            "en": "10 min"
+          }
+        }
+      }
+    },
+    "settingsAdapter": {
+      "checks": {
+        "adapterRecognized": true,
+        "volatileGuardBlockEqual": true,
+        "spoilerDialogEqual": true,
+        "corpusEqual": true,
+        "contentsHtmlEqual": true,
+        "goToPositionEqual": true,
+        "goToIdEqual": true,
+        "setModeEqual": true,
+        "startEqual": true
+      },
+      "kind": "in-memory installed Settings theme adapter compatibility; canonical HTML not synchronized",
+      "htmlSha256": "a2d50092fbcd92fc02c46070b67cc4a9a0d76466768f6d6bbcf39dbb6553d68b"
+    },
+    "browser": {
+      "phases": [
+        {
+          "phase": "matrix-320",
+          "status": "passed",
+          "assertions": 7,
+          "visits": 260,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/matrix-320.json",
+            "canonicalPath": null,
+            "sha256": "c999e09ba17ce89e1e0d89c02f6e745000d46db484107a713d40a37c9712a658",
+            "bytes": 970
+          }
+        },
+        {
+          "phase": "matrix-390",
+          "status": "passed",
+          "assertions": 7,
+          "visits": 260,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/matrix-390.json",
+            "canonicalPath": null,
+            "sha256": "a73fcd8248a925b12ce6795859f598d71594b79406abb4384248ec8832149933",
+            "bytes": 970
+          }
+        },
+        {
+          "phase": "matrix-1024",
+          "status": "passed",
+          "assertions": 7,
+          "visits": 260,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/matrix-1024.json",
+            "canonicalPath": null,
+            "sha256": "479dc551840c52d15b980660b7c8d8e9c20c36c7f699928a7f78a948359282c1",
+            "bytes": 973
+          }
+        },
+        {
+          "phase": "matrix-1440",
+          "status": "passed",
+          "assertions": 7,
+          "visits": 260,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/matrix-1440.json",
+            "canonicalPath": null,
+            "sha256": "1c0382e23d34cd9c80289f8f89c2bb612f525ce6b38637ab519aea9a5b6d5455",
+            "bytes": 973
+          }
+        },
+        {
+          "phase": "behaviour-320",
+          "status": "passed",
+          "assertions": 38,
+          "visits": 0,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/behaviour-320.json",
+            "canonicalPath": null,
+            "sha256": "48f85b28156790363f8013661c09fde49438ee3b4d23eb3e8958d2c726850766",
+            "bytes": 2384
+          }
+        },
+        {
+          "phase": "behaviour-1440",
+          "status": "passed",
+          "assertions": 38,
+          "visits": 0,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/behaviour-1440.json",
+            "canonicalPath": null,
+            "sha256": "767a73b1b9ca2350d287f9e828ca0067079eee4104fccd2a15affe3c51cdd8be",
+            "bytes": 2389
+          }
+        },
+        {
+          "phase": "resume-ru",
+          "status": "passed",
+          "assertions": 107,
+          "visits": 21,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/resume-ru.json",
+            "canonicalPath": null,
+            "sha256": "0179f7f287cce3fbc3a24ce0e79fbd13019bf8b70fa49305a627a4fad7ae3552",
+            "bytes": 5715
+          }
+        },
+        {
+          "phase": "resume-en",
+          "status": "passed",
+          "assertions": 107,
+          "visits": 21,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/resume-en.json",
+            "canonicalPath": null,
+            "sha256": "661ab9e348d664c9796c1798df83b46dced166d2981fbdcb13b18d648f0270d4",
+            "bytes": 5715
+          }
+        },
+        {
+          "phase": "offline",
+          "status": "passed",
+          "assertions": 8,
+          "visits": 0,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/offline.json",
+            "canonicalPath": null,
+            "sha256": "e2f7d129e5bff4b9c1f9154e4664eafb28dd310cbfebe8772a5b1695075b055e",
+            "bytes": 539
+          }
+        },
+        {
+          "phase": "visual",
+          "status": "passed",
+          "assertions": 8,
+          "visits": 0,
+          "pageErrors": 0,
+          "externalRuntimeRequests": 0,
+          "profileRemoved": true,
+          "ownedChromeProcessesRemaining": 0,
+          "receipt": {
+            "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/visual.json",
+            "canonicalPath": null,
+            "sha256": "2476e1163655f346e30a1fb4dfadd121f14d4e3c51adbf0650a993425b334655",
+            "bytes": 4660
+          }
+        }
+      ],
+      "allModeLanguageThemeVisits": 1040,
+      "savedDeepTargets": 42,
+      "noServerOrPreview": true,
+      "chromePerProcessBoundSeconds": 30
+    },
+    "testHarness": {
+      "path": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/dune-substantive-pass2-z3eyjb66/qa.mjs",
+      "canonicalPath": null,
+      "sha256": "0fb448c2f60f169478205479fe39fc09ab3ed58c14d50c68682bc86469c89f64",
+      "bytes": 21118
+    }
+  },
+  "remainingLimits": [
+    "Independent content/source review pending; no self-PASS/publication approval.",
+    "No continuous complete-edition or published-Russian-translation collation.",
+    "No physical iPhone/Safari test.",
+    "Publisher must preserve listed gate hooks and recheck the final Settings/Geist-synchronized root reader."
+  ],
+  "ownership": {
+    "onlyDuneCanonicalAndOwnAuditReadyWrites": true,
+    "originalReviewsPreserved": true,
+    "sharedShellInstalledSkillRootCatalogueEdited": false,
+    "gitPRDeployMessagingSubagents": false
+  },
+  "readyRecordCanonicalPath": "editorial-audit/2026-10-31/ready/dune.json"
+}

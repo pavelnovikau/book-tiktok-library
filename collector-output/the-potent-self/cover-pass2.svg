@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1100" viewBox="0 0 800 1100">
+  <style>
+    :root { --color-bg: #FFFCF0; --color-text: #100F0F; --color-muted: #6F6E69; --color-line: #CECDC3; }
+    text { fill: var(--color-text, #100F0F); font-family: Arial, sans-serif; }
+    .small { font-size: 26px; letter-spacing: 5px; }
+    .title { font-size: 112px; font-weight: 700; letter-spacing: -5px; }
+    .sub { font-size: 34px; fill: var(--color-muted, #6F6E69); }
+  </style>
+  <rect width="800" height="1100" fill="var(--color-bg, #FFFCF0)"/>
+  <text x="70" y="120" class="small">MOSHE FELDENKRAIS</text>
+  <text x="63" y="385" class="title">THE</text>
+  <text x="63" y="510" class="title">POTENT</text>
+  <text x="63" y="635" class="title">SELF</text>
+  <path d="M70 755H730" stroke="var(--color-line, #CECDC3)" stroke-width="2"/>
+  <text x="70" y="840" class="sub">Spontaneity</text>
+  <text x="70" y="890" class="sub">and Compulsion</text>
+  <text x="70" y="1010" class="small">READING EDITION · RU / EN</text>
+</svg>

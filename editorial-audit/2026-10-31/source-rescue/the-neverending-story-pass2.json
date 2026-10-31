@@ -1,0 +1,728 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-neverending-story",
+  "passNumber": 2,
+  "date": "2026-10-31",
+  "status": "supported-candidate-for-independent-check",
+  "previousEvidenceMap": {
+    "path": "collector-output/the-neverending-story/source-evidence-map.json",
+    "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/source-evidence-map.json",
+    "sha256": "773873b9b65716e6d61e61880447924882d926abdefc7283c941c04c5b7307ff"
+  },
+  "previousReport": {
+    "path": "editorial-audit/2026-10-31/books/the-neverending-story-sol-implementation.md",
+    "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-neverending-story-sol-implementation.md",
+    "sha256": "0fad90d98c790576f255ad4d15b45cf18f5a63b280530b2bd5ebec1616184c54"
+  },
+  "work": {
+    "author": "Michael Ende",
+    "originalTitle": "Die unendliche Geschichte",
+    "originalYear": 1979,
+    "scope": "Both halves of the novel; not the 1984 film or a first-half-only account"
+  },
+  "actualConsultation": {
+    "fullEditionObtained": false,
+    "continuousWholeNovelReading": false,
+    "officialRUENTranslationCertified": false,
+    "primaryNovelBodyRead": "Spanish publisher opening, printed pp. 7–15, reconsulted from the same 15-page sample as pass1.",
+    "primaryLatePassages": "Selected actual novel quotations reproduced inside the professional guide and academic criticism, checked in those publications, not in a complete novel edition.",
+    "directPublisherAuthorizedLateChapterPreviewObtained": false,
+    "authorCommentaryUsedToSupplyEvents": false,
+    "ownedSearch": "No fresh repeat. Prior read-only title/creator search within the user-authorized Apple Books root found no matching candidate; no new OPF/spine/body claim.",
+    "newProfessionalGuide": "All six SuperSummary chapter-account pages; institutional publisher identified, no individual byline visible. Reference edition stated by guide: Ralph Manheim, Penguin, 1984.",
+    "criticism": "Selected Schnöbel 1995 sections/event lists/primary quotations; selected Meier pp. 92–95; Schueler 1987 and selected Nikolajeva excerpts reprinted by Gale; Stableford / EBSCO Form and Content."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Loqueleo Colombia — La historia interminable, publisher sample",
+      "url": "https://www.loqueleo.com/co/uploads/2019/07/9789585939301.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитано только испанское начало, печатные с. 7–15; перевод Мигеля Саэнса, ISBN 9789585939301. Весь роман не получен. Это не источник официального русского или английского перевода.",
+        "en": "Only the Spanish opening, printed pp. 7–15, was read; Miguel Sáenz translation, ISBN 9789585939301. The full novel was not obtained. This does not supply an official Russian or English translation."
+      },
+      "consultationChannel": "actual publisher sample reconsultation"
+    },
+    {
+      "id": 2,
+      "title": "SuperSummary — Prologue–Chapter 3",
+      "url": "https://www.supersummary.com/the-neverending-story/prologue-chapter-3-summary/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитаны поэпизодные главы профессионального guide, не полный текст романа. Guide ссылается на перевод Ральфа Манхайма, Penguin, 1984. События отделены от трактовок guide.",
+        "en": "The professional guide’s event accounts were read, not the full novel. The guide references Ralph Manheim’s translation, Penguin, 1984. Its events are distinguished from its interpretations."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 3,
+      "title": "SuperSummary — Chapters 4–7",
+      "url": "https://www.supersummary.com/the-neverending-story/chapters-4-7-summary/",
+      "role": "reference",
+      "note": {
+        "ru": "Поэпизодный вторичный рассказ. Рассмотрены главы и цитируемые отрывки; философские оценки и неточные пояснения guide в рассказ не переносились.",
+        "en": "A secondary chapter-event account. Chapters and quoted excerpts were consulted; the guide’s philosophical judgments and imprecise glosses were not adopted."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 4,
+      "title": "SuperSummary — Chapters 8–12",
+      "url": "https://www.supersummary.com/the-neverending-story/chapters-8-12-summary/",
+      "role": "reference",
+      "note": {
+        "ru": "Проверены последовательность событий и рамка чтения; это вторичный guide, а не прочитанные полные главы. Короткие цитируемые места сверены в доступной критике.",
+        "en": "The event sequence and reading frame were checked; this is a secondary guide, not full chapters read. Short quoted passages were cross-checked in accessible criticism."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 5,
+      "title": "SuperSummary — Chapters 13–18",
+      "url": "https://www.supersummary.com/the-neverending-story/chapters-13-18-summary/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичный поэпизодный рассказ и небольшие цитаты, прочитанные в guide. Отдельные формулировки проверены по другим источникам; чтение всего издания не заявляется.",
+        "en": "Secondary chapter-event accounts and short quotations read in the guide. Selected formulations were checked against other sources; no complete-edition reading is claimed."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 6,
+      "title": "SuperSummary — Chapters 19–22",
+      "url": "https://www.supersummary.com/the-neverending-story/chapters-19-22-summary/",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан профессиональный поэпизодный guide, дополненный выбранными первичными цитатами в критике. Это не полный первичный текст и не свидетельство чтения официального RU/EN издания.",
+        "en": "The professional chapter-event guide was read, supplemented by selected primary quotations in criticism. This is not full primary text or evidence of reading an official RU/EN edition."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 7,
+      "title": "SuperSummary — Chapters 23–26",
+      "url": "https://www.supersummary.com/the-neverending-story/chapters-23-26-summary/",
+      "role": "reference",
+      "note": {
+        "ru": "Поздние главы проверены по вторичному последовательному рассказу и выбранным цитируемым местам у исследователей. Полное издание не прочитано. По ссылке есть спойлеры.",
+        "en": "The late chapters were checked through a continuous secondary event account and selected passages quoted by researchers. The complete edition was not read. The linked page contains spoilers."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 8,
+      "title": "SuperSummary — Important Quotes",
+      "url": "https://www.supersummary.com/the-neverending-story/important-quotes/",
+      "role": "book",
+      "note": {
+        "ru": "Небольшие первичные отрывки, воспроизведённые внутри guide, отделены от соседнего комментария. Страницы относятся к указанному guide английскому изданию и здесь не сертифицируются. Ссылка со спойлерами.",
+        "en": "Short primary excerpts reproduced inside the guide are distinguished from adjacent commentary. Page references belong to the English edition cited by the guide and are not independently certified here. Spoilers at the link."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 9,
+      "title": "Marcus Schnöbel — Erzählung und Märchen (1995)",
+      "url": "https://d-nb.info/1050266595/34",
+      "role": "reference",
+      "note": {
+        "ru": "Выбранные разделы академической экзаменационной работы: событийные списки и явно выделенные цитаты романа. Это не издание романа и не рецензируемая монография. Интерпретации исследователя не выданы за события.",
+        "en": "Selected sections of an academic state-examination study: event lists and explicitly identified novel quotations. This is neither a novel edition nor a peer-reviewed monograph. The researcher’s interpretations are not presented as events."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 10,
+      "title": "Albert Meier — Postmoderne: Philosophie – Literatur",
+      "url": "https://www.litwiss-online.uni-kiel.de/wp-content/uploads/2017/03/Deutschsprachige-Texte-der-Postmoderne-Albert-Meier_Postmoderne.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Выбранные места раздела о романе, печатные с. 92–95. Вторичный комментарий и цитаты различены; приведённые исследователем номера страниц не заменяют проверки издания. Ссылка раскрывает сюжет.",
+        "en": "Selected passages in the novel section, printed pp. 92–95. Secondary commentary is distinguished from quotations; the researcher’s page numbers do not replace edition verification. Spoilers at the link."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 11,
+      "title": "Gale / Encyclopedia.com — The Neverending Story, critical anthology",
+      "url": "https://www.encyclopedia.com/children/academic-and-educational-journals/neverending-story",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитаны относящиеся к роману критические фрагменты, включая явно цитируемые первичные места. Символические трактовки критиков не приняты за авторские объяснения. Ссылка со спойлерами.",
+        "en": "Relevant critical extracts, including explicitly quoted primary passages, were read. Critics’ symbolic interpretations are not treated as the author’s explanations. Spoilers at the link."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    },
+    {
+      "id": 12,
+      "title": "Brian Stableford / EBSCO — The Neverending Story by Michael Ende",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/neverending-story-michael-ende",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитана именная справочная статья, раздел Form and Content. Это независимый вторичный рассказ, не первичный текст романа. По ссылке есть спойлеры.",
+        "en": "The named reference article’s Form and Content section was read. This is an independent secondary account, not primary novel text. The linked page contains spoilers."
+      },
+      "consultationChannel": "public web extraction; selected direct PDF extraction as specified in ledger"
+    }
+  ],
+  "essentialGapDecisions": [
+    {
+      "id": "G1",
+      "screens": [
+        "the-unseen-reader",
+        "wandering-mountain",
+        "a-grain"
+      ],
+      "eventSources": [
+        4,
+        5,
+        9,
+        10,
+        12
+      ],
+      "eventLocator": "SuperSummary XI–XIII: Empress intervention, Old Man narration while writing, repeated Bastian frame, spoken name and entry.",
+      "primaryCheck": {
+        "source": 9,
+        "location": "PDF pp. 148–149 / printed pp. 144–145, notes 598 and 600",
+        "scope": "Explicitly reproduced command to tell the story and entry-in-darkness passage; cited novel pp. 186, 193. Not complete chapter XII/XIII consultation."
+      },
+      "status": "supported-for-retained-condensation",
+      "supportKind": "Substantial accountable event account plus selected quoted-primary hinge; not a continuous primary-edition reading"
+    },
+    {
+      "id": "G2",
+      "screens": [
+        "a-grain",
+        "amarganth",
+        "the-price",
+        "xayides-counsel",
+        "picture-mine"
+      ],
+      "eventSources": [
+        5,
+        6,
+        7,
+        9,
+        10
+      ],
+      "eventLocator": "SuperSummary XIII, XVII, XVIII, XXI, XXV: changed appearance, warning, lost school/reading memory and final name loss.",
+      "primaryCheck": {
+        "source": 8,
+        "location": "Important Quotes, chapter XVIII, cited English p. 243",
+        "scope": "Actual quoted AURYN/memory rule; the page belongs to the guide’s stated Manheim/Penguin edition and was not checked in a whole copy."
+      },
+      "status": "supported-for-retained-condensation",
+      "supportKind": "Substantial accountable event account plus selected quoted-primary hinge; not a continuous primary-edition reading"
+    },
+    {
+      "id": "G3",
+      "screens": [
+        "seeing-hand",
+        "xayides-counsel",
+        "banishment",
+        "the-battle"
+      ],
+      "eventSources": [
+        6,
+        9,
+        11
+      ],
+      "eventLocator": "SuperSummary XX–XXII; Schnöbel appendix, PDF pp. 153–155 / printed pp. 149–151. Retains acts, friendship rupture, interrupted coronation and consequences.",
+      "primaryCheck": {
+        "source": 9,
+        "location": "PDF p. 90 / printed p. 86, note 366; cited novel p. 356",
+        "scope": "Explicit primary injury quotation. Sword/self-drawing warning checked against chapter XV account; forced drawing in the battle is distinct. No novel-wide combat certification."
+      },
+      "status": "supported-for-retained-condensation",
+      "supportKind": "Substantial accountable event account plus selected quoted-primary hinge; not a continuous primary-edition reading"
+    },
+    {
+      "id": "G4",
+      "screens": [
+        "old-emperors",
+        "sea-of-mist",
+        "house-of-change"
+      ],
+      "eventSources": [
+        7,
+        9,
+        10,
+        11
+      ],
+      "eventLocator": "SuperSummary XXIII–XXIV; Meier printed p. 93; Schueler discussion before the Mine.",
+      "primaryCheck": {
+        "source": 11,
+        "location": "Schueler essay (1987), passage quoting novel p. 394, after Yskalnari/House of Change",
+        "scope": "Explicit primary statement of the particular desire to love; criticism’s symbolism is excluded. Meier’s spent-memory quotation is corroborative, but his page-466 reference is not certified."
+      },
+      "status": "supported-for-retained-condensation",
+      "supportKind": "Substantial accountable event account plus selected quoted-primary hinge; not a continuous primary-edition reading"
+    },
+    {
+      "id": "G5",
+      "screens": [
+        "acharis",
+        "picture-mine",
+        "broken-picture",
+        "within-auryn",
+        "unfinished-stories"
+      ],
+      "eventSources": [
+        5,
+        7,
+        9,
+        11
+      ],
+      "eventLocator": "SuperSummary XVIII and XXV–XXVI; Schnöbel appendix PDF pp. 156–157 / printed pp. 152–153. Mine work and image precede the difficulty; Falkor translates, Atreyu supplies identity and undertakes unfinished stories.",
+      "primaryCheck": {
+        "source": 9,
+        "location": "PDF p. 156 / printed p. 152, note 610, cited novel p. 404; additionally source 11, Schueler quotation citing p. 416",
+        "scope": "Actual primary mining passage and restored-self passage as quoted. Picture identity, subsequent obstacle and distinct exit contributions are supported event accounts, not directly read full primary chapters."
+      },
+      "status": "supported-for-retained-condensation",
+      "supportKind": "Substantial accountable event account plus selected quoted-primary hinge; not a continuous primary-edition reading"
+    },
+    {
+      "id": "G6",
+      "screens": [
+        "home",
+        "bookshop-again"
+      ],
+      "eventSources": [
+        7,
+        9,
+        10,
+        12
+      ],
+      "eventLocator": "SuperSummary XXVI: attic/book, father conversation, bookseller admission and invitation; Meier printed p. 93 and Stableford Form and Content.",
+      "primaryCheck": {
+        "source": 11,
+        "location": "Schueler passage explicitly quoting the paternal response, cited novel p. 422; source 8 chapter XXVI quoted tears, cited English p. 373",
+        "scope": "Quoted primary paternal response/tears. Book status and Koreander actions are chapter/reference-account support; no invented explanation for the disappearance."
+      },
+      "status": "supported-for-retained-condensation",
+      "supportKind": "Substantial accountable event account plus selected quoted-primary hinge; not a continuous primary-edition reading"
+    }
+  ],
+  "unresolvedEssentialLinksForRetainedSequence": [],
+  "limitations": [
+    "This worker’s source-sufficiency judgment awaits fresh independent content review.",
+    "No full edition or continuous reading. Primary excerpts remain quoted-primary evidence, not complete chapter access.",
+    "No new publisher-authorized late-chapter preview. Official RU/EN translation fidelity and page numbers are not certified.",
+    "Minor subplots are omitted; no scene, motive or ending is invented to fill them.",
+    "No actual physical iPhone/Safari/PWA or production integration test."
+  ],
+  "failedFreshAccess": [
+    {
+      "url": "https://dc.swosu.edu/cgi/viewcontent.cgi?article=2442&context=mythlore",
+      "result": "403; no full Filmer article read, no retry/bypass"
+    },
+    {
+      "url": "https://services.phaidra.univie.ac.at/api/object/o:1334649/download",
+      "result": "No readable web lines; direct response empty; no thesis body read"
+    }
+  ],
+  "historicalFailuresRepeated": false,
+  "screenMap": [
+    {
+      "id": "cover",
+      "level": 1,
+      "sources": [],
+      "gapLinks": [],
+      "kind": "navigation/framing"
+    },
+    {
+      "id": "bookshop",
+      "level": 1,
+      "sources": [
+        1,
+        2
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "three-initials",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "school-attic",
+      "level": 1,
+      "sources": [
+        1,
+        2
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "fantastica-in-danger",
+      "level": 1,
+      "sources": [
+        2,
+        12
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "artax-and-morla",
+      "level": 1,
+      "sources": [
+        2,
+        9
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "ygramuls-secret",
+      "level": 1,
+      "sources": [
+        3,
+        9
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "mirror-gate",
+      "level": 1,
+      "sources": [
+        3,
+        11
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "oracle-and-winds",
+      "level": 1,
+      "sources": [
+        3,
+        4
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "gmork",
+      "level": 1,
+      "sources": [
+        4,
+        11
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "return-to-tower",
+      "level": 1,
+      "sources": [
+        4,
+        9
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "the-unseen-reader",
+      "level": 1,
+      "sources": [
+        4,
+        8
+      ],
+      "gapLinks": [
+        "G1"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "wandering-mountain",
+      "level": 1,
+      "sources": [
+        4,
+        9,
+        10
+      ],
+      "gapLinks": [
+        "G1"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "a-grain",
+      "level": 1,
+      "sources": [
+        5,
+        9
+      ],
+      "gapLinks": [
+        "G1",
+        "G2"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "forest-and-lion",
+      "level": 1,
+      "sources": [
+        5,
+        11
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "sikanda",
+      "level": 2,
+      "sources": [
+        5,
+        9
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "amarganth",
+      "level": 1,
+      "sources": [
+        5
+      ],
+      "gapLinks": [
+        "G2"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "living-stories",
+      "level": 2,
+      "sources": [
+        5,
+        10
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "acharis",
+      "level": 3,
+      "sources": [
+        5,
+        9
+      ],
+      "gapLinks": [
+        "G5"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "the-price",
+      "level": 1,
+      "sources": [
+        5,
+        8,
+        10
+      ],
+      "gapLinks": [
+        "G2"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "returning-roads",
+      "level": 1,
+      "sources": [
+        6,
+        9
+      ],
+      "gapLinks": [],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "seeing-hand",
+      "level": 1,
+      "sources": [
+        6,
+        9
+      ],
+      "gapLinks": [
+        "G3"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "xayides-counsel",
+      "level": 3,
+      "sources": [
+        6,
+        9
+      ],
+      "gapLinks": [
+        "G2",
+        "G3"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "banishment",
+      "level": 3,
+      "sources": [
+        6,
+        9
+      ],
+      "gapLinks": [
+        "G3"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "the-battle",
+      "level": 3,
+      "sources": [
+        6,
+        9,
+        11
+      ],
+      "gapLinks": [
+        "G3"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "old-emperors",
+      "level": 3,
+      "sources": [
+        7,
+        10,
+        11
+      ],
+      "gapLinks": [
+        "G4"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "sea-of-mist",
+      "level": 3,
+      "sources": [
+        7,
+        9
+      ],
+      "gapLinks": [
+        "G4"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "house-of-change",
+      "level": 3,
+      "sources": [
+        7,
+        8,
+        11
+      ],
+      "gapLinks": [
+        "G4"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "picture-mine",
+      "level": 3,
+      "sources": [
+        7,
+        9,
+        11
+      ],
+      "gapLinks": [
+        "G2",
+        "G5"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "broken-picture",
+      "level": 3,
+      "sources": [
+        7,
+        9
+      ],
+      "gapLinks": [
+        "G5"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "within-auryn",
+      "level": 3,
+      "sources": [
+        7,
+        9
+      ],
+      "gapLinks": [
+        "G5"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "unfinished-stories",
+      "level": 3,
+      "sources": [
+        7,
+        9,
+        11
+      ],
+      "gapLinks": [
+        "G5"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "home",
+      "level": 3,
+      "sources": [
+        7,
+        8,
+        11
+      ],
+      "gapLinks": [
+        "G6"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "bookshop-again",
+      "level": 3,
+      "sources": [
+        7,
+        10,
+        12
+      ],
+      "gapLinks": [
+        "G6"
+      ],
+      "kind": "original narrative of supported events"
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "sources": [],
+      "gapLinks": [],
+      "kind": "navigation/framing"
+    }
+  ],
+  "report": "editorial-audit/2026-10-31/books/the-neverending-story-source-rescue-pass2.md",
+  "canonicalPaths": [
+    "collector-output/the-neverending-story/story-data.json",
+    "collector-output/the-neverending-story/the-neverending-story.html",
+    "collector-output/the-neverending-story/sources.md",
+    "collector-output/the-neverending-story/QA.md"
+  ]
+}

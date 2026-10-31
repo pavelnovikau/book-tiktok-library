@@ -1,0 +1,608 @@
+{
+  "schemaVersion": 1,
+  "auditId": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e",
+  "writtenAtUtc": "2026-10-31T22:09:02.755536+00:00",
+  "status": "FAIL_WITHIN_BOUNDED_SCOPE",
+  "summary": "One P2 migration regression, reproduced in two nonfiction readers: Continue silently widens and persists Essential to Deep when a retained ID has moved to level 3.",
+  "freeze": {
+    "release": "accepted release07",
+    "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+    "repositoryReadOnly": "/Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031",
+    "catalogueBooks": 47,
+    "canonicalInputs": [
+      {
+        "file": "canonical/production-catalogue.json",
+        "sha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+        "bytes": 83079,
+        "sourcePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/production-catalogue.json"
+      },
+      {
+        "file": "canonical/publication-state.json",
+        "sha256": "a1a043fe0b32eac871c1f1253e1aa723cf5f1997c20da72b045f39d5d46af707",
+        "bytes": 3367,
+        "sourcePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publication-state.json"
+      }
+    ],
+    "canonicalAndAcceptedCatalogueByteIdentical": true,
+    "productionURLUsed": false,
+    "rootBooksJsonUsed": false,
+    "publisher08WorkingTreeReadForRuntimeOrModified": false
+  },
+  "method": {
+    "independentReadOnly": true,
+    "subagentsUsed": 0,
+    "targetReaders": [
+      "essentialism",
+      "skin-in-the-game",
+      "mindfulness",
+      "white-fang",
+      "monday-begins-on-saturday"
+    ],
+    "legacyInputs": 10,
+    "browser": {
+      "protocolVersion": "1.3",
+      "product": "Chrome/155.0.8059.86",
+      "revision": "@804d6b05f089b27af8342622a36558c49401a1d4",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36",
+      "jsVersion": "15.5.35.25"
+    },
+    "viewport": {
+      "width": 390,
+      "height": 844,
+      "mobileMetricsEmulation": true,
+      "physicalSafariOrPwa": false
+    },
+    "runtimeOrigin": "https://legacy-progress-owned.invalid",
+    "assets": "Unmodified git-show bytes from the accepted hash, frozen under own proof directory and fulfilled through Chrome CDP Fetch. Actual homepage links, reader controls, contents, HTML dialog, native confirm and settings execute in Chrome.",
+    "storage": "Old app runtime generated real lastScreen/mode pairs by selecting the old depth and old contents target in baseline.zip readers. Same origin is kept across /baseline/ and /accepted/. No numeric completion field was invented. Only isolated owned-profile localStorage/sessionStorage were changed.",
+    "baselineArchive": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/baseline.zip",
+      "sha256": "4b616c11d1d8825317d36c271fb98047c6364929a051052cf7e42405a8c49aa2"
+    },
+    "oldSourceCaveat": "Monday source is collector-output/monday-begins-on-saturday/monday-begins-on-saturday.html within the recorded baseline ZIP; it is authentic recorded source, not asserted as an old deployed root page. Other four use root HTML entries in that ZIP.",
+    "browserOwnership": "Five completed Chrome phases plus one corrected harness attempt, each under timeout --foreground 30 with its own mktemp -d profile; each process tree is killed and profile removed. The preliminary empty managed Incognito tab was closed. No server was started.",
+    "serviceWorker": "Installation disabled in owned fixtures; all product requests fulfilled from frozen files. No production traffic, user browser storage or service-worker/PWA assertion.",
+    "harnessCorrection": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/harness-corrections.json"
+  },
+  "findings": [
+    {
+      "id": "MIG-01",
+      "priority": "P2",
+      "status": "REPRODUCED",
+      "title": "Continue silently promotes a retained Essential target into Deep after its level changes",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "affectedRuntimeTestedSlugs": [
+        "skin-in-the-game",
+        "mindfulness"
+      ],
+      "impact": "The cover advertises Essential while Continue takes the person to Deep and persists the mode change. The silently changed preference survives return through the homepage.",
+      "reproductions": [
+        {
+          "slug": "skin-in-the-game",
+          "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+          "legacyKey": "book-tiktok.skin-in-the-game.lastScreen",
+          "legacyModeKey": "book-tiktok.skin-in-the-game.mode",
+          "inputState": {
+            "book-tiktok.skin-in-the-game.mode": "essential",
+            "book-tiktok.skin-in-the-game.lastScreen": "green-lumber"
+          },
+          "oldSource": {
+            "archivePath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/baseline.zip",
+            "archiveSha256": "4b616c11d1d8825317d36c271fb98047c6364929a051052cf7e42405a8c49aa2",
+            "zipEntry": "skin-in-the-game.html",
+            "oldTotalScreens": 112,
+            "oldScreenLevel": 1,
+            "oldSelectedDepth": "essential",
+            "oldSelectedDepthScreenCount": 30,
+            "oldCounter": "19 / 30"
+          },
+          "newScreenLevel": 3,
+          "repro": [
+            "In an isolated profile, open the old frozen reader, choose Essential and use its contents to visit green-lumber. The old runtime writes the exact inputState shown here.",
+            "Keep the same storage origin and open the frozen accepted release07 homepage. Activate the skin-in-the-game card.",
+            "Observe Essential selected on the cover and the plain Continue button. Activate Continue without touching the depth picker.",
+            "Inspect the resulting reader count, active depth picker in Contents and persisted mode. For Skin in the Game, return home and reopen to confirm persistence."
+          ],
+          "actual": {
+            "before": {
+              "screenId": "cover",
+              "screenLevel": 1,
+              "counter": "1 / 19",
+              "mode": [
+                "essential"
+              ],
+              "coverActions": [
+                {
+                  "action": "continue",
+                  "label": "Продолжить: «Он думал, что лес покрасили»"
+                },
+                {
+                  "action": "begin",
+                  "label": "Начать сначала"
+                }
+              ],
+              "nextLabel": "Дальше",
+              "storage": {
+                "book-tiktok.skin-in-the-game.theme": "dark",
+                "book-tiktok.skin-in-the-game.lastScreen": "green-lumber",
+                "bookLibrary.preferences.v2": "{\"language\":\"ru\",\"theme\":\"dark\"}",
+                "bookLibrary.preferences.v1": "{\"version\":1,\"theme\":\"dark\",\"readingFont\":\"sans\"}",
+                "book-tiktok.skin-in-the-game.mode": "essential"
+              },
+              "theme": "dark",
+              "font": "sans",
+              "language": "ru"
+            },
+            "after": {
+              "screenId": "green-lumber",
+              "screenLevel": 3,
+              "counter": "36 / 53",
+              "mode": [
+                "deep"
+              ],
+              "coverActions": [],
+              "nextLabel": "Дальше",
+              "storage": {
+                "book-tiktok.skin-in-the-game.theme": "dark",
+                "book-tiktok.skin-in-the-game.lastScreen": "green-lumber",
+                "bookLibrary.preferences.v2": "{\"language\":\"ru\",\"theme\":\"dark\"}",
+                "bookLibrary.preferences.v1": "{\"version\":1,\"theme\":\"dark\",\"readingFont\":\"sans\"}",
+                "book-tiktok.skin-in-the-game.mode": "deep"
+              },
+              "theme": "dark",
+              "font": "sans",
+              "language": "ru"
+            },
+            "newCounter": "36 / 53",
+            "consentRequestsDuringContinue": 0,
+            "newPersistedMode": "deep"
+          },
+          "expectedInvariant": "A retained ID that was in the saved Essential path must not silently switch the chosen path to Deep after a rewrite. Honest fallback within the selected path is acceptable.",
+          "minimalCause": {
+            "gitPath": "skin-in-the-game.html",
+            "line": 2038,
+            "frozenSource": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/accepted/skin-in-the-game.html",
+            "function": "goToId",
+            "code": "state.mode = requiredMode(hidden.level); save('mode', state.mode);",
+            "explanation": "The retained ID now has level 3. Continue calls goToId; the target is absent from Essential, so goToId widens and persists mode=deep. renderCover has an explicit Deep label only for full-plot-in-deep works, so this nonfiction Continue gives no depth notice.",
+            "coverLabelLine": 1915
+          },
+          "evidence": [
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+              "stepLabel": "baseline-generated-green-lumber"
+            },
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+              "stepLabel": "retained-id-promoted-to-deep-homepage"
+            },
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+              "stepLabel": "retained-id-promoted-to-deep-reader-cover"
+            },
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+              "stepLabel": "retained-promoted-after-continue"
+            },
+            "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-retained-essential-before-continue.png",
+            "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-retained-silently-deep.png"
+          ]
+        },
+        {
+          "slug": "mindfulness",
+          "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+          "legacyKey": "book-tiktok.mindfulness.lastScreen",
+          "legacyModeKey": "book-tiktok.mindfulness.mode",
+          "inputState": {
+            "book-tiktok.mindfulness.mode": "essential",
+            "book-tiktok.mindfulness.lastScreen": "one-minute-return"
+          },
+          "oldSource": {
+            "archivePath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/baseline.zip",
+            "archiveSha256": "4b616c11d1d8825317d36c271fb98047c6364929a051052cf7e42405a8c49aa2",
+            "zipEntry": "mindfulness.html",
+            "oldTotalScreens": 112,
+            "oldScreenLevel": 1,
+            "oldSelectedDepth": "essential",
+            "oldSelectedDepthScreenCount": 30,
+            "oldCounter": "28 / 30"
+          },
+          "newScreenLevel": 3,
+          "repro": [
+            "In an isolated profile, open the old frozen reader, choose Essential and use its contents to visit one-minute-return. The old runtime writes the exact inputState shown here.",
+            "Keep the same storage origin and open the frozen accepted release07 homepage. Activate the mindfulness card.",
+            "Observe Essential selected on the cover and the plain Continue button. Activate Continue without touching the depth picker.",
+            "Inspect the resulting reader count, active depth picker in Contents and persisted mode. For Skin in the Game, return home and reopen to confirm persistence."
+          ],
+          "actual": {
+            "before": {
+              "screenId": "cover",
+              "screenLevel": 1,
+              "counter": "1 / 14",
+              "mode": [
+                "essential"
+              ],
+              "coverActions": [
+                {
+                  "action": "continue",
+                  "label": "Продолжить: «Начать хотя бы с минуты»"
+                },
+                {
+                  "action": "begin",
+                  "label": "Начать сначала"
+                }
+              ],
+              "nextLabel": "Дальше",
+              "storage": {
+                "bookLibrary.preferences.v2": "{\"language\":\"ru\",\"theme\":\"dark\"}",
+                "book-tiktok.mindfulness.theme": "dark",
+                "book-tiktok.mindfulness.lastScreen": "one-minute-return",
+                "bookLibrary.preferences.v1": "{\"version\":1,\"theme\":\"dark\",\"readingFont\":\"sans\"}",
+                "book-tiktok.mindfulness.mode": "essential"
+              },
+              "theme": "dark",
+              "font": "sans",
+              "language": "ru"
+            },
+            "after": {
+              "screenId": "one-minute-return",
+              "screenLevel": 3,
+              "counter": "29 / 30",
+              "mode": [
+                "deep"
+              ],
+              "coverActions": [],
+              "nextLabel": "Дальше",
+              "storage": {
+                "bookLibrary.preferences.v2": "{\"language\":\"ru\",\"theme\":\"dark\"}",
+                "book-tiktok.mindfulness.theme": "dark",
+                "book-tiktok.mindfulness.lastScreen": "one-minute-return",
+                "bookLibrary.preferences.v1": "{\"version\":1,\"theme\":\"dark\",\"readingFont\":\"sans\"}",
+                "book-tiktok.mindfulness.mode": "deep"
+              },
+              "theme": "dark",
+              "font": "sans",
+              "language": "ru"
+            },
+            "newCounter": "29 / 30",
+            "consentRequestsDuringContinue": 0,
+            "newPersistedMode": "deep"
+          },
+          "expectedInvariant": "A retained ID that was in the saved Essential path must not silently switch the chosen path to Deep after a rewrite. Honest fallback within the selected path is acceptable.",
+          "minimalCause": {
+            "gitPath": "mindfulness.html",
+            "line": 2044,
+            "frozenSource": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/accepted/mindfulness.html",
+            "function": "goToId",
+            "code": "state.mode = requiredMode(hidden.level); save('mode', state.mode);",
+            "explanation": "The retained ID now has level 3. Continue calls goToId; the target is absent from Essential, so goToId widens and persists mode=deep. renderCover has an explicit Deep label only for full-plot-in-deep works, so this nonfiction Continue gives no depth notice.",
+            "coverLabelLine": 1921
+          },
+          "evidence": [
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+              "stepLabel": "baseline-generated-one-minute-return"
+            },
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+              "stepLabel": "retained-near-end-promoted-to-deep-homepage"
+            },
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+              "stepLabel": "retained-near-end-promoted-to-deep-reader-cover"
+            },
+            {
+              "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+              "stepLabel": "retained-promoted-after-continue"
+            },
+            "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness-retained-essential-before-continue.png",
+            "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness-retained-silently-deep.png"
+          ]
+        }
+      ],
+      "requiredOutcome": "Resolve the old target against the selected new depth before auto-widening mode. An honest valid restart/fallback is acceptable; preserving every old target is not required.",
+      "scope": "Two observed nonfiction depth regressions; the tested fiction spoiler gates worked."
+    }
+  ],
+  "legacyScenarios": [
+    {
+      "slug": "essentialism",
+      "id": "review-loop",
+      "mode": "core",
+      "oldCounter": "71 / 72",
+      "observed": "Removed ID has no Continue; cover 1/28, Start -> trisha-capacity 2/28, Next -> contribution-over-busyness 3/28. Start overwrites the obsolete raw key.",
+      "result": "PASS_SAFE_FALLBACK",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.essentialism.lastScreen",
+      "inputState": {
+        "book-tiktok.essentialism.lastScreen": "review-loop",
+        "book-tiktok.essentialism.mode": "core"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/essentialism.json",
+        "stepLabel": "baseline-generated-review-loop"
+      }
+    },
+    {
+      "slug": "essentialism",
+      "id": "final",
+      "mode": "deep",
+      "oldCounter": "112 / 112",
+      "observed": "Retained final resumes at 36/36; Restart clears lastScreen and returns to cover 1/36; Start reads 2/36.",
+      "result": "PASS_CURRENT_COUNTS",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.essentialism.lastScreen",
+      "inputState": {
+        "book-tiktok.essentialism.lastScreen": "final",
+        "book-tiktok.essentialism.mode": "deep"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/essentialism.json",
+        "stepLabel": "baseline-generated-final"
+      }
+    },
+    {
+      "slug": "skin-in-the-game",
+      "id": "green-lumber",
+      "mode": "essential",
+      "oldCounter": "19 / 30",
+      "observed": "Cover Essential 1/19; plain Continue -> Deep 36/53, mode persisted as deep; Next 37/53; home/reopen stays Deep 37/53.",
+      "result": "FAIL_MIG_01",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.skin-in-the-game.lastScreen",
+      "inputState": {
+        "book-tiktok.skin-in-the-game.lastScreen": "green-lumber",
+        "book-tiktok.skin-in-the-game.mode": "essential"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+        "stepLabel": "baseline-generated-green-lumber"
+      }
+    },
+    {
+      "slug": "skin-in-the-game",
+      "id": "objections",
+      "mode": "essential",
+      "oldCounter": "29 / 30",
+      "observed": "Removed ID has no Continue; cover 1/19 -> Start who-pays 2/19. Start overwrites the obsolete raw key.",
+      "result": "PASS_SAFE_FALLBACK",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.skin-in-the-game.lastScreen",
+      "inputState": {
+        "book-tiktok.skin-in-the-game.lastScreen": "objections",
+        "book-tiktok.skin-in-the-game.mode": "essential"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+        "stepLabel": "baseline-generated-objections"
+      }
+    },
+    {
+      "slug": "mindfulness",
+      "id": "one-minute-return",
+      "mode": "essential",
+      "oldCounter": "28 / 30",
+      "observed": "Cover Essential 1/14; plain Continue -> Deep 29/30, mode persisted as deep; Next final 30/30; Restart clears lastScreen.",
+      "result": "FAIL_MIG_01",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.mindfulness.lastScreen",
+      "inputState": {
+        "book-tiktok.mindfulness.lastScreen": "one-minute-return",
+        "book-tiktok.mindfulness.mode": "essential"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+        "stepLabel": "baseline-generated-one-minute-return"
+      }
+    },
+    {
+      "slug": "mindfulness",
+      "id": "portable-model",
+      "mode": "essential",
+      "oldCounter": "29 / 30",
+      "observed": "Removed ID is cleared; no Continue; Start reaction-loop 2/14; Next doing-mode 3/14 with valid new saved IDs.",
+      "result": "PASS_SAFE_FALLBACK",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.mindfulness.lastScreen",
+      "inputState": {
+        "book-tiktok.mindfulness.lastScreen": "portable-model",
+        "book-tiktok.mindfulness.mode": "essential"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+        "stepLabel": "baseline-generated-portable-model"
+      }
+    },
+    {
+      "slug": "white-fang",
+      "id": "quiet-last-image",
+      "mode": "deep",
+      "oldCounter": "93 / 96",
+      "observed": "Fresh document uses Essential 1/14 and generic Continue Deep warning. Cancel stays on cover with the same saved ID. Accept -> Deep 35/36; final 36/36; Restart clears lastScreen.",
+      "result": "PASS_GATED_RESUME",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.white-fang.lastScreen",
+      "inputState": {
+        "book-tiktok.white-fang.lastScreen": "quiet-last-image",
+        "book-tiktok.white-fang.mode": "deep"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+        "stepLabel": "baseline-generated-quiet-last-image"
+      }
+    },
+    {
+      "slug": "white-fang",
+      "id": "final",
+      "mode": "essential",
+      "oldCounter": "24 / 24",
+      "observed": "Continue -> current safe final 14/14, which explicitly reserves the outcome for Deep. Restart clears lastScreen.",
+      "result": "PASS_SAFE_RETAINED_FINAL",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.white-fang.lastScreen",
+      "inputState": {
+        "book-tiktok.white-fang.lastScreen": "final",
+        "book-tiktok.white-fang.mode": "essential"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+        "stepLabel": "baseline-generated-final"
+      }
+    },
+    {
+      "slug": "monday-begins-on-saturday",
+      "id": "deep-ending-exchange",
+      "mode": "deep",
+      "oldCounter": "96 / 112",
+      "observed": "Fresh document Essential 1/11; generic Continue Deep label and native confirm. Cancel preserves the cover and target; accept -> 27/29; Next 28/29, final 29/29. Restart clears lastScreen; new document relocks to Essential 1/11.",
+      "result": "PASS_GATED_RESUME",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.monday-begins-on-saturday.lastScreen",
+      "inputState": {
+        "book-tiktok.monday-begins-on-saturday.lastScreen": "deep-ending-exchange",
+        "book-tiktok.monday-begins-on-saturday.mode": "deep"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/monday-begins-on-saturday.json",
+        "stepLabel": "baseline-generated-deep-ending-exchange"
+      }
+    },
+    {
+      "slug": "monday-begins-on-saturday",
+      "id": "the-companion-has-a-boundary",
+      "mode": "deep",
+      "oldCounter": "111 / 112",
+      "observed": "Removed ID is cleared; fresh document Essential 1/11; no Continue; Start -> a-lift-becomes-an-invitation 2/11 without an ending reveal.",
+      "result": "PASS_SAFE_FALLBACK",
+      "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+      "legacyKey": "book-tiktok.monday-begins-on-saturday.lastScreen",
+      "inputState": {
+        "book-tiktok.monday-begins-on-saturday.lastScreen": "the-companion-has-a-boundary",
+        "book-tiktok.monday-begins-on-saturday.mode": "deep"
+      },
+      "proof": {
+        "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/monday-begins-on-saturday.json",
+        "stepLabel": "baseline-generated-the-companion-has-a-boundary"
+      }
+    }
+  ],
+  "boundedPassChecks": [
+    {
+      "area": "Version and catalogue",
+      "result": "PASS",
+      "observed": "Canonical production-catalogue.json is byte-identical to accepted books.json: 47 books. Root dirty 31-book books.json is unused. The five frozen new readers contain 36, 53, 30, 36 and 29 screens respectively.",
+      "evidence": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/manifest.json"
+    },
+    {
+      "area": "Homepage progress and book counts",
+      "result": "BOUNDED_PASS",
+      "observed": "Accepted homepage renders screenCount and reading-time estimates, with Open book links. It has no per-book progress, percent, completion badge or Continue component and does not read book-tiktok.* keys. All 14 captured homepage states retain the current per-book count and 47 cards. Old progress remains available to the reader. Missing homepage progress is not filed as a requested feature.",
+      "evidence": [
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/source-excerpts.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/evidence-validation.json"
+      ]
+    },
+    {
+      "area": "Removed IDs",
+      "result": "PASS_SAFE_FALLBACK",
+      "observed": "All five representative readers start successfully from removed real legacy targets. Essentialism and Skin in the Game leave the raw obsolete value until Start overwrites it; their cover suppresses Continue. The other three clear it on load. No complete percentage or dead Continue is shown.",
+      "evidence": [
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/essentialism.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/skin-in-the-game.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/mindfulness.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/monday-begins-on-saturday.json"
+      ]
+    },
+    {
+      "area": "Retained final and restart",
+      "result": "PASS_CURRENT_COUNTS",
+      "observed": "Actual final IDs resume at new-mode final positions. Essentialism 112/112 becomes 36/36; White Fang Essential 24/24 becomes 14/14 with a safe closing text. Restart clears lastScreen. Deep accepted endings and next/restart paths use new counts. No out-of-range counter, stale numeric completion or percent above 100 was observed.",
+      "evidence": [
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/essentialism.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/monday-begins-on-saturday.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/evidence-validation.json"
+      ]
+    },
+    {
+      "area": "Fresh shallow mode and saved fiction Deep",
+      "result": "PASS_WITHIN_SCENARIOS",
+      "observed": "Fresh Essentialism opens Essential 1/18. White Fang and Monday ignore stored Deep for the new document, open Essential 1/14 and 1/11, mask level-3 contents titles and use generic late-event consent. Both cancellation and acceptance were exercised. Current shallow final text did not expose the new ending.",
+      "evidence": [
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/essentialism.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/monday-begins-on-saturday.json"
+      ]
+    },
+    {
+      "area": "Global theme/font preferences with progress",
+      "result": "PASS_WITHIN_SCENARIO",
+      "observed": "After cancelling White Fang Deep consent, UI selection Light + Serif preserves the same saved target. Both values persist in bookLibrary.preferences.v1 across consent acceptance, reading, Restart, the homepage and a different reader (Mindfulness). That other reader starts Essential 1/14 with no inherited progress.",
+      "evidence": [
+        {
+          "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+          "stepLabel": "preferences-on-safe-cover"
+        },
+        {
+          "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+          "stepLabel": "global-prefs-home"
+        },
+        {
+          "file": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/white-fang.json",
+          "stepLabel": "global-prefs-other-reader-default"
+        },
+        "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/global-prefs-home.png"
+      ]
+    }
+  ],
+  "evidenceValidation": {
+    "counterChecks": 42,
+    "homeCardChecks": 14,
+    "errors": [],
+    "proof": "legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e/evidence-validation.json"
+  },
+  "limitations": [
+    "Exactly five representative readers and ten authentic old saved states; no full-library or all-inputs certificate.",
+    "Frozen accepted release07 runtime; current production deployment, publisher08 candidates, collector status and other agents were not polled.",
+    "No duplicate active-focus/header, catalogue-copy/tag or seven-candidate integration audit.",
+    "Storage-denied runtime was not added: all relevant saved-progress and preference reads/writes inspected here are guarded with try/catch, and no concrete unguarded access concern was found. This does not certify all storage-denial behavior.",
+    "No physical Safari, installed PWA, browser Back/BFCache, service-worker update or full-book content audit."
+  ],
+  "cleanup": {
+    "verifiedAtUtc": "2026-10-31T22:06:39.745627+00:00",
+    "ownedPidCount": 64,
+    "remainingOwnedProcesses": [],
+    "profiles": [
+      {
+        "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/legacy-progress-owned-6VW2jF",
+        "exists": false
+      },
+      {
+        "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/legacy-progress-owned-1bC2ON",
+        "exists": false
+      },
+      {
+        "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/legacy-progress-owned-ErMR9K",
+        "exists": false
+      },
+      {
+        "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/legacy-progress-owned-mOkZb7",
+        "exists": false
+      },
+      {
+        "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/legacy-progress-owned-pHki2E",
+        "exists": false
+      },
+      {
+        "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/legacy-progress-owned-TTk92Y",
+        "exists": false
+      }
+    ],
+    "noServerStarted": true,
+    "previewTabOpenedByAudit": "tab_8_4dab16f2-ea95-41d8-9e43-177ac84521e3",
+    "previewTabClosed": true
+  },
+  "proofDirectory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/legacy-progress-after-rewrite-proof-20261031T220054Z-70e29e",
+  "writes": "Only this uniquely named review JSON/MD and this audit-owned proof directory. No root, collector, ready, reviews, catalogue, shared shell, git, PR, deployment or log writes."
+}

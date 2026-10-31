@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-neverending-story",
+  "date": "2026-10-31",
+  "completedUTC": "2026-10-31T21:53:09.264399+00:00",
+  "reviewType": "Fresh independent review only; no subagents",
+  "status": "independent-review-complete",
+  "verdict": "EDIT",
+  "independentContentAcceptance": "EDIT",
+  "independentPass": false,
+  "publicationApprovalClaimed": false,
+  "summary": "35 RU/EN pairs and all six nested routes reviewed. Both halves and all six retained source chains are supportable within the disclosed mixed evidence scope. One mandatory Deep chronology correction remains. UI/consent checks pass.",
+  "counts": {
+    "essential": 20,
+    "core": 22,
+    "deep": 35
+  },
+  "levelCounts": {
+    "1": 20,
+    "2": 2,
+    "3": 13
+  },
+  "uniquePairsRead": 35,
+  "languageTextsRead": 70,
+  "nestedRoutesRead": 6,
+  "modeLanguageAppearancesRead": 154,
+  "hashBinding": {
+    "before": "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z/hashes-before.json",
+    "after": "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z/hashes-after.json",
+    "boundFileCount": 57,
+    "allBoundFilesUnchanged": true,
+    "readyDeclaredHashesMatch": true,
+    "readyManifestSHA256": "8a88ba3a86785c616b47979c74e295721e9a9098f9d75ce3ae812d2a28c9d09b",
+    "deliverables": [
+      {
+        "path": "collector-output/the-neverending-story/story-data.json",
+        "sha256": "b79d5a180c0a2e5e62352ea4372692695b22f4c7185f049ad3af777be99c4b37"
+      },
+      {
+        "path": "collector-output/the-neverending-story/the-neverending-story.html",
+        "sha256": "9bed696886c77c4abbe200a354cff0859c6e25a465469ddf9e248e1429e69b58"
+      },
+      {
+        "path": "collector-output/the-neverending-story/sources.md",
+        "sha256": "66c418ca1e669620bb0ec9a9075bf5bdec428ad7f5c3f03542fa385f98722182"
+      },
+      {
+        "path": "collector-output/the-neverending-story/QA.md",
+        "sha256": "b2b7b0750a03b29835e7f5cff734a3d45d7e79e7a5770b33f3c52c97224f56eb"
+      }
+    ],
+    "passAppliesToFutureVersions": false
+  },
+  "sourceScope": {
+    "sourceCount": 12,
+    "continuousWholeNovelReading": false,
+    "completePrimaryEditionObtained": false,
+    "officialRUENTranslationCertified": false,
+    "actualPrimaryScope": "Spanish publisher sample, printed pp. 7–15; selected actual novel quotations reproduced in the professional guide and criticism.",
+    "accountableNarration": "All six public SuperSummary chapter-event accounts; selected Schnöbel, Meier, Schueler and Stableford passages. Guide reference edition independently checked as Ralph Manheim / Penguin / 1984.",
+    "primaryAndSecondaryDistinguished": true,
+    "teacherQuestionsTreatedAsAnswers": false,
+    "totalEditionGateImposed": false,
+    "novelScope": "Both halves of Ende’s 1979 novel, including the late Bastian arc and closing frame; not the film’s first-half scope.",
+    "evidenceProof": "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z/source-checks.json",
+    "priorGapAndNewMapRead": true
+  },
+  "causalChainDecisions": [
+    {
+      "id": "G1",
+      "decision": "SUPPORTED",
+      "screens": [
+        "the-unseen-reader",
+        "wandering-mountain",
+        "a-grain"
+      ]
+    },
+    {
+      "id": "G2",
+      "decision": "SUPPORTED RULE/EXAMPLES; EDIT NES-ORDER-001",
+      "screens": [
+        "a-grain",
+        "amarganth",
+        "the-price",
+        "xayides-counsel",
+        "picture-mine"
+      ]
+    },
+    {
+      "id": "G3",
+      "decision": "SUPPORTED",
+      "screens": [
+        "seeing-hand",
+        "xayides-counsel",
+        "banishment",
+        "the-battle"
+      ]
+    },
+    {
+      "id": "G4",
+      "decision": "SUPPORTED",
+      "screens": [
+        "old-emperors",
+        "sea-of-mist",
+        "house-of-change"
+      ]
+    },
+    {
+      "id": "G5",
+      "decision": "SUPPORTED",
+      "screens": [
+        "picture-mine",
+        "broken-picture",
+        "within-auryn",
+        "unfinished-stories"
+      ]
+    },
+    {
+      "id": "G6",
+      "decision": "SUPPORTED",
+      "screens": [
+        "home",
+        "bookshop-again"
+      ]
+    }
+  ],
+  "requiredFindings": [
+    {
+      "id": "NES-ORDER-001",
+      "required": true,
+      "severity": "medium",
+      "category": "causal-chronology",
+      "stableScreenId": "the-price",
+      "relatedScreenId": "acharis",
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "observedDeepOrder": [
+        {
+          "ordinal": 19,
+          "id": "acharis"
+        },
+        {
+          "ordinal": 20,
+          "id": "the-price"
+        }
+      ],
+      "exactWording": {
+        "ru": {
+          "acharis": "<p>Однажды под землёй друзья слышат плач ахараев. Эти существа прячут свою безобразную внешность и создают тончайшие серебряные постройки. Бастиан меняет их вечно печальную жизнь: ахараи превращаются в смеющихся шламуфов. Только благодарности не получается. Новые создания насмехаются над ним и принимаются разрушать собственную прежнюю работу.</p>",
+          "the-price": "<p>Атрейю замечает цену чудес. Каждое исполненное желание отнимает у Бастиана память о человеческом мире. Он предупреждает друга: так можно забыть и себя, и дорогу домой. Но Бастиан остаётся в Фантазии. Здесь у него есть всё, чего ему прежде не хватало.</p>"
+        },
+        "en": {
+          "acharis": "<p>One day the friends hear the Acharis weeping underground. These creatures hide their ugly appearance and make delicate silver buildings. Bastian changes their endlessly sorrowful lives: they become laughing Shlamoofs. Gratitude does not follow. The new creatures mock him and begin destroying their own former handiwork.</p>",
+          "the-price": "<p>Atreyu notices the cost of the miracles. Every fulfilled wish takes away a memory of the human world. He warns his friend that he may forget both himself and his way home. But Bastian remains in Fantastica. Here he has everything he once lacked.</p>"
+        }
+      },
+      "problem": "The warning is factually supported, but the unmarked present-tense Deep sequence introduces Atreyu noticing the memory cost and warning only after Bastian transforms the Acharis. Both detailed accounts place this warning before that consequential wish. A subsequent strengthened warning is by Falkor. This changes what the reader sees Bastian know when he acts.",
+      "supportingLocators": [
+        {
+          "url": "https://www.supersummary.com/the-neverending-story/chapters-13-18-summary/",
+          "location": "Chapter XVIII: the paragraph about Atreyu noticing memory loss and warning precedes the cave encounter and transformation."
+        },
+        {
+          "url": "https://d-nb.info/1050266595/34",
+          "location": "PDF p. 152 / printed p. 148: b5 Atreyu warning; Sch19/Q10/c4 Acharis encounter and wish despite warning; b6 Falkor strengthens the warning."
+        }
+      ],
+      "smallestFaithfulCorrection": {
+        "action": "Move the existing the-price screen immediately before acharis in story-data.json, then rebuild the effective HTML. Keep all current wording, IDs and levels. No extra source research or invented material is needed.",
+        "expectedDeepExcerpt": [
+          "living-stories",
+          "the-price",
+          "acharis",
+          "returning-roads"
+        ],
+        "expectedModes": {
+          "essential": 20,
+          "core": 22,
+          "deep": 35
+        },
+        "whyMinimal": "acharis is Deep-only, so the correction restores Deep chronology while preserving the order of every Essential/Core screen."
+      },
+      "validationNeeded": "Confirm this relative order in both effective RU/EN routes, refresh candidate/ready hashes, and directly validate the regenerated HTML and consent patch. This review does not grant a PASS to any future hash."
+    }
+  ],
+  "requiredFindingCount": 1,
+  "severityCounts": {
+    "critical": 0,
+    "high": 0,
+    "medium": 1,
+    "low": 0
+  },
+  "tasteNotes": [],
+  "tasteOnlyChangesRequired": false,
+  "narrativeAssessment": {
+    "engagement": "Connected scene-led prose with concrete stakes, opening humour, loss, changing landscapes and damaged friendship. It is a condensed story rather than a management/moral companion.",
+    "inventedScenesDialogueOrLecturesFound": false,
+    "essential": "Coherent unresolved route through Xayide joining; mirror reunion has its antecedent. Movement into the travelling group is implicit but intelligible.",
+    "core": "Adds the sword condition and living library/explicit homeward departure without breaking the safe route.",
+    "deep": "Coherent full arc with the required warning/transformation order correction recorded above.",
+    "bilingual": "All 35 pairs preserve events, agents, quantities, uncertainty and causal meanings; no required meaning mismatch found. Localized name forms are not an official-translation certificate.",
+    "memory": "The narrator identifying the father-image does not claim that Bastian has consciously recovered that memory. The water passage states restored identity, not an invented restoration of every lost memory.",
+    "spoilerBoundary": "Cover, description, source/method notes, common final and Essential/Core bodies/contents keep the late answers withheld. Sources warn about external spoilers. Actual late saved resume uses a neutral label and renewed consent."
+  },
+  "checks": {
+    "canonicalEmbeddedParity": "PASS for every canonical top-level key, including all 35 bilingual screens; generated modes are additive.",
+    "structuralAudit": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browser": {
+      "status": "PASS",
+      "checks": 75,
+      "actualRouteRenders": 154,
+      "nestedRoutes": 6,
+      "representativeViewportLanguageThemeSamples": 16,
+      "viewports": [
+        "320x568",
+        "390x844",
+        "1024x768",
+        "1440x900"
+      ],
+      "runtimeErrors": 0,
+      "remoteRuntimeRequests": 0,
+      "offline": true,
+      "proof": "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z/browser-proof.json",
+      "behaviours": [
+        "Fresh RU/dark/Essential",
+        "Bilingual consent before Deep/full late contents",
+        "Cancel and native Escape preserve position/depth/storage",
+        "Deep downgrade to Core/Essential revokes consent",
+        "Reload revokes consent",
+        "Hidden Continue after reload is neutral and cannot expose the saved late screen before renewed consent",
+        "Cancel preserves exact saved late ID; accept resumes that ID",
+        "Page-cache lifecycle returns a safe cover and revokes consent",
+        "All six actual rendered routes match the embedded corpus"
+      ],
+      "screenshotFilesActuallyInspected": [
+        "consent-ru-320.png",
+        "consent-en-320.png",
+        "safe-hidden-continue-ru-320.png",
+        "safe-hidden-continue-en-320.png",
+        "picture-mine-320-ru-dark.png",
+        "picture-mine-1440-en-light.png"
+      ],
+      "firstAttempt": "Preserved as browser-proof-first-attempt.json and independent-browser-first-attempt.mjs. It timed out awaiting a background requestAnimationFrame after five routes; no candidate runtime exception or content failure. The independent harness was corrected with explicit background-throttling flags and a bounded screenshot-settle callback. Candidate bytes were not changed.",
+      "physicalSafariPWA": "Not tested",
+      "productionIntegration": "Not tested"
+    },
+    "ownedChromeCleanup": {
+      "remainingProcesses": 0,
+      "remainingProfiles": 0,
+      "proof": "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z/cleanup-proof.json"
+    }
+  },
+  "remainingGaps": {
+    "essentialSourceGapsForRetainedChains": [],
+    "requiredEditorialCorrections": [
+      "NES-ORDER-001"
+    ],
+    "limits": [
+      "No whole edition obtained or read continuously.",
+      "Primary late passages are quotations reproduced in other publications, not direct complete chapter access.",
+      "Official RU/EN translation and edition page fidelity are not certified.",
+      "Physical Safari/PWA and production integration are not certified."
+    ],
+    "publisherIntegration": "Still outstanding; this is a collector-only review."
+  },
+  "proofDirectory": "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z",
+  "reportPath": "editorial-audit/2026-10-31/reviews/the-neverending-story.md",
+  "ownership": {
+    "writtenOnly": [
+      "editorial-audit/2026-10-31/reviews/the-neverending-story.json",
+      "editorial-audit/2026-10-31/reviews/the-neverending-story.md",
+      "editorial-audit/2026-10-31/reviews/the-neverending-story-independent-20261031T214346033816Z/"
+    ],
+    "candidateOrReadyEdited": false,
+    "priorReviewsEdited": false,
+    "rootCatalogueShellGitDeployOrLogEdited": false,
+    "subagentsSpawned": false,
+    "externalMessagesSent": false,
+    "serverStarted": false
+  }
+}

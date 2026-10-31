@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-31",
+  "status": "implementation-checks-completed-not-independent-approval",
+  "htmlSha256": "5c9cb342f7b45ad622a120809b76f3f157d6c8cbbf8d766091e1f5e820d55335",
+  "targetModes": {
+    "essential": 13,
+    "core": 23,
+    "deep": 37
+  },
+  "structural": {
+    "checks": 69,
+    "warnings": 0,
+    "failures": 0
+  },
+  "offlineMatrix": [
+    {
+      "phase": "matrix-320x568-sans",
+      "width": 320,
+      "height": 568,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-320x568-serif",
+      "width": 320,
+      "height": 568,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-390x844-sans",
+      "width": 390,
+      "height": 844,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-390x844-serif",
+      "width": 390,
+      "height": 844,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-1024x768-sans",
+      "width": 1024,
+      "height": 768,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-1024x768-serif",
+      "width": 1024,
+      "height": 768,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-1440x900-sans",
+      "width": 1440,
+      "height": 900,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    {
+      "phase": "matrix-1440x900-serif",
+      "width": 1440,
+      "height": 900,
+      "visits": 292,
+      "uniqueIds": 37,
+      "maxOverflow": 0,
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    }
+  ],
+  "totalVisits": 2336,
+  "behaviorSuites": {
+    "consent": {
+      "phase": "consent",
+      "checks": [
+        "depth request",
+        "no late titles",
+        "cancel",
+        "downgrade revokes",
+        "direct hidden ID guard",
+        "direct accept"
+      ],
+      "savedId": "back-through-the-door",
+      "resume": [
+        "reload consent revoked",
+        "neutral Continue",
+        "saved Deep cancel safe",
+        "saved Deep accepted stable ID",
+        "bfcache simulated revocation"
+      ],
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "controls-320": {
+      "phase": "controls-320",
+      "width": 320,
+      "height": 568,
+      "setup": {
+        "checks": [
+          "RU/EN same stable screen",
+          "Settings changes theme/font",
+          "Settings keeps node/scroll",
+          "Settings focus return",
+          "Sources present",
+          "no narrative badges"
+        ],
+        "scrollBefore": 80,
+        "header": [
+          {
+            "x": 12,
+            "y": 23,
+            "right": 48,
+            "label": "К библиотеке"
+          },
+          {
+            "x": 52,
+            "y": 23,
+            "right": 88,
+            "label": "Главы"
+          },
+          {
+            "x": 192,
+            "y": 23,
+            "right": 228,
+            "label": "Switch to English"
+          },
+          {
+            "x": 232,
+            "y": 23,
+            "right": 268,
+            "label": "Источники"
+          },
+          {
+            "x": 272,
+            "y": 23,
+            "right": 308,
+            "label": "Настройки"
+          }
+        ]
+      },
+      "escape": true,
+      "focus": {
+        "on": true,
+        "header": "none",
+        "next": "flex",
+        "back": "none",
+        "counter": "none"
+      },
+      "inputs": [
+        "Sources Escape",
+        "F focus",
+        "Escape exits",
+        "pointer tap focus",
+        "ArrowRight",
+        "pointer horizontal swipe",
+        "vertical drag not tap or page",
+        "final restart",
+        "native spoiler Escape"
+      ],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "controls-1440": {
+      "phase": "controls-1440",
+      "width": 1440,
+      "height": 900,
+      "setup": {
+        "checks": [
+          "RU/EN same stable screen",
+          "Settings changes theme/font",
+          "Settings keeps node/scroll",
+          "Settings focus return",
+          "Sources present",
+          "no narrative badges"
+        ],
+        "scrollBefore": 0,
+        "header": [
+          {
+            "x": 143,
+            "y": 48,
+            "right": 179,
+            "label": "К библиотеке"
+          },
+          {
+            "x": 183,
+            "y": 48,
+            "right": 219,
+            "label": "Главы"
+          },
+          {
+            "x": 1181,
+            "y": 48,
+            "right": 1217,
+            "label": "Switch to English"
+          },
+          {
+            "x": 1221,
+            "y": 48,
+            "right": 1257,
+            "label": "Источники"
+          },
+          {
+            "x": 1261,
+            "y": 48,
+            "right": 1297,
+            "label": "Настройки"
+          }
+        ]
+      },
+      "escape": true,
+      "focus": {
+        "on": true,
+        "header": "none",
+        "next": "flex",
+        "back": "none",
+        "counter": "none"
+      },
+      "inputs": [
+        "Sources Escape",
+        "F focus",
+        "Escape exits",
+        "pointer tap focus",
+        "ArrowRight",
+        "pointer horizontal swipe",
+        "vertical drag not tap or page",
+        "final restart",
+        "native spoiler Escape"
+      ],
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "storage": {
+      "phase": "storage",
+      "width": 390,
+      "height": 844,
+      "setup": {
+        "checks": [
+          "RU/EN same stable screen",
+          "Settings changes theme/font",
+          "Settings keeps node/scroll",
+          "Settings focus return",
+          "Sources present",
+          "no narrative badges"
+        ],
+        "scrollBefore": 10,
+        "header": [
+          {
+            "x": 12,
+            "y": 23,
+            "right": 48,
+            "label": "К библиотеке"
+          },
+          {
+            "x": 52,
+            "y": 23,
+            "right": 88,
+            "label": "Главы"
+          },
+          {
+            "x": 262,
+            "y": 23,
+            "right": 298,
+            "label": "Switch to English"
+          },
+          {
+            "x": 302,
+            "y": 23,
+            "right": 338,
+            "label": "Источники"
+          },
+          {
+            "x": 342,
+            "y": 23,
+            "right": 378,
+            "label": "Настройки"
+          }
+        ]
+      },
+      "escape": true,
+      "focus": {
+        "on": true,
+        "header": "none",
+        "next": "flex",
+        "back": "none",
+        "counter": "none"
+      },
+      "inputs": [
+        "Sources Escape",
+        "F focus",
+        "Escape exits",
+        "pointer tap focus",
+        "ArrowRight",
+        "pointer horizontal swipe",
+        "vertical drag not tap or page",
+        "final restart",
+        "native spoiler Escape"
+      ],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "ios": {
+      "phase": "ios",
+      "width": 390,
+      "height": 844,
+      "ios": {
+        "checks": [
+          "guide auto opens",
+          "manual reopen",
+          "24px emulated safe top",
+          "compact single row",
+          "guide trigger hides in focus"
+        ],
+        "rects": [
+          {
+            "x": 12,
+            "y": 47,
+            "right": 48
+          },
+          {
+            "x": 52,
+            "y": 47,
+            "right": 88
+          },
+          {
+            "x": 222,
+            "y": 47,
+            "right": 258
+          },
+          {
+            "x": 262,
+            "y": 47,
+            "right": 298
+          },
+          {
+            "x": 302,
+            "y": 47,
+            "right": 338
+          },
+          {
+            "x": 342,
+            "y": 47,
+            "right": 378
+          }
+        ]
+      },
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "standalone": {
+      "phase": "standalone",
+      "width": 390,
+      "height": 844,
+      "ios": "Chrome emulated navigator.standalone suppresses install UI",
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "visual-320": {
+      "phase": "visual-320",
+      "width": 320,
+      "height": 568,
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "visual-1440": {
+      "phase": "visual-1440",
+      "width": 1440,
+      "height": 900,
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "counts": {
+      "phase": "counts",
+      "counterAndProgressVisits": 146,
+      "counts": {
+        "essential": 13,
+        "core": 23,
+        "deep": 37
+      },
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "legacy": {
+      "phase": "legacy",
+      "checks": [
+        "old essay late ID cleared",
+        "old Deep mode cleared",
+        "current revision stored",
+        "safe fresh cover"
+      ],
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    },
+    "en-consent": {
+      "phase": "en-consent",
+      "checks": [
+        "English warning/cancel",
+        "no pre-consent late title",
+        "English accept"
+      ],
+      "consoleErrors": [],
+      "runtimeExceptions": [],
+      "remoteRequests": []
+    }
+  },
+  "fonts": {
+    "fonts": [
+      {
+        "family": "Geist",
+        "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+        "matchesInstalled": true
+      },
+      {
+        "family": "Geist Mono",
+        "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+        "matchesInstalled": true
+      },
+      {
+        "family": "Geist Serif",
+        "sha256": "d11c9077e61bda553e2eea121409c584504319e08f972d11e0a38ed4b14de398",
+        "matchesInstalled": true
+      },
+      {
+        "family": "Source Serif 4",
+        "sha256": "6b053e98f0838afe81f3e784727be4583a7c13bb42f198dc5202ecffee0aaee0",
+        "matchesInstalled": true
+      }
+    ],
+    "allThreeLicenseFilesEmbedded": true
+  },
+  "limitations": [
+    "No independent literary approval",
+    "No complete edition read continuously",
+    "No physical iPhone/Safari/touch test",
+    "Synthetic page-transition events for bfcache revocation; no real history navigation",
+    "Layout matrix uses reduced motion"
+  ],
+  "cleanup": {
+    "temporaryProfilesAbsent": true,
+    "contentServerUsed": false
+  },
+  "counterAndProgressAdditionalVisits": 146
+}

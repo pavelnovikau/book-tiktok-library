@@ -1,3 +1,74 @@
+# I, Robot — narrative pass-2 implementation QA, 2026-10-31
+
+**Candidate ready for independent check. Not independently approved or published.** Everything below the historical separator is preserved old QA and is superseded for current content/fidelity acceptance.
+
+## Current files, method and counts
+
+Four canonical collector files: `story-data.json`, `i-robot.html`, `sources.md`, `QA.md`. Added `build-i-robot.mjs` is a reproducible **book-local** adapter: it invokes the installed accepted builder, then adds this book's volatile consent guard and a nine-story typographic cover. Installed/shared files were read-only. Build: `node collector-output/i-robot/build-i-robot.mjs`.
+
+Source rescue and limits: [pass-2 evidence map](../../editorial-audit/2026-10-31/source-rescue/i-robot-pass2.md). Prose, intake defects and decisions: [pass-2 report](../../editorial-audit/2026-10-31/books/i-robot-narrative-pass2.md). All **112 intake bilingual pairs** were read; root/collector/JSON effective screens equal. The new **53 bilingual pairs** are an original-word narrative of all nine stories and Calvin frame, written as connected RU/EN prose before segmentation. No NIST/Turing, exercises or managerial coaching remain. This is a writer/self-check, not independent editorial review.
+
+| Mode | Screens | RU reading words | EN reading words | RU estimate | EN estimate |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Essential | 22 | 1,098 | 1,240 | 7 min | 6 min |
+| Core | 32 | 1,609 | 1,840 | 9 min | 9 min |
+| Deep | 53 | 2,716 | 3,096 | 16 min | 15 min |
+
+22 level-1 + 10 level-2 + 21 level-3. Counts include cover/final and are derived from the rewritten 51 narrative paragraphs, not historical 30/72/112. Body-word diagnostic for non-cover screens: RU 37–59, mean 49.02; EN 40–66, mean 55.67. Eleven source IDs include several entries by the same professional guide writer: not eleven independent authorities. No media asset required; typographic cover shows the actual nine stories. HTML **516,760 bytes**.
+
+Defaults RU/dark/Essential; `contentMode: narrative`, `spoilerPolicy: full-plot-in-deep`. Geist Sans/Mono plus actual Geist Serif and Source Serif 4 with licenses embedded. Narrative has no per-screen academic labels; Sources remains globally accessible. A source/QA ledger may discuss spoilers for reviewers; global in-reader notes do not disclose solutions.
+
+## Deterministic checks
+
+`node /Users/pn/.codex/skills/book-tiktok/scripts/audit_story_html.mjs collector-output/i-robot/i-robot.html --min-screens 53 --require-bilingual` → **69 passes, zero warnings/failures** on the final HTML. Every embedded screen equals canonical JSON, 53/53. Unique IDs, nested exact counts and source maps retained. Current HTML SHA-256: `c7383e176ec9258feac1f3cfdc7c3938b0adcc7a9e4aba65246ef3ea56c120a0`. JSON SHA-256: `f4fb30b267285ae0ed3f9b5a2507496a1329c53a221c0bfa240253682694eded`.
+
+Root reader was read but not rewritten; SHA-256 remains `766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6` and still has the historical analytical content. Only the publisher may replace it after independent approval.
+
+## Real file-reader matrix
+
+Local headless Google Chrome / CDP pipe, **file://**, offline network state; no HTTP server, preview tools, shared browser or external runtime dependencies. Every visible screen traversed programmatically, both languages and themes, all modes. Verified title/counter/expected ID, strict nesting, zero document/scroll-body horizontal overflow and reachable paragraph tails.
+
+| Viewport | States per screen | Visits (22+32+53 × 4) | Completed |
+| --- | ---: | ---: | --- |
+| 320×568 | RU/EN × dark/light | 428 | Yes |
+| 390×844 | RU/EN × dark/light | 428 | Yes |
+| 1024×768 | RU/EN × dark/light | 428 | Yes |
+| 1440×900 | RU/EN × dark/light | 428 | Yes |
+
+**1,712 visits and body-tail assertions.** Exact data rendered, no unreachable body ends. The full matrix was rerun on the **final HTML**, after the Tab-wrap fix and moving the exact omitted First-Law duty back to Deep. Final keyboard/focus/consent behavior also reran at 320 and 1440. Earlier 22/33/53 counts and 1,728-visit development passes are superseded by this final 22/32/53, 1,712-visit record.
+
+At each viewport, actual `CSS.getPlatformFontsForNode` body records were taken in RU/EN × Sans/Serif. Sans uses embedded Geist; EN Serif uses embedded Geist Serif; RU Serif uses Source Serif 4 for Cyrillic with Geist Serif for supported Latin/punctuation. This is representative font coverage, not a second full-screen Serif matrix. Reading position preserved under Settings changes; UI stays Sans. Desktop rail visible; five normal icon controls align in one row; the iPhone guide adds a sixth in the same row.
+
+## Consent, focus, navigation and persistence
+
+Final behavior phases: **30 checks each at 320 and 1440**, including zero-runtime/zero-network checks. Both languages' actual warning and acknowledgment text tested. Requests to enter Deep leave safe mode, progress and contents unchanged until the checkbox is checked and Open Deep activated. Confirm is disabled before acknowledgment. Native Escape/cancel preserve safe state. Native Tab/Shift-Tab wrap within the consent dialog, and cancel restores reachable focus.
+
+Covered cover depth, late Contents depth, bound hidden-Deep-ID entry, saved Deep Continue, downgrade, reload and neutral resume label. Acknowledgment is a closure variable, never stored. Reload resets to Essential before contents/render; saved Deep remains available through generic Continue and asks again. Changing to Core/Essential revokes consent. Legacy analytical IDs are invalidated through a new narrative revision. Emulated BFCache `pageshow(persisted)` also revokes before restoring contents.
+
+Tested actual Sources with eleven items and honest incomplete-reading note, Settings gear, language/position preservation, native keyboard Next when focus is outside controls, text-tap focus, paging while focused, Escape exit, vertical gesture rejection, horizontal swipe and final restart clearing saved progress. The reader deliberately leaves hotkeys to a focused control; the harness was corrected to blur a Settings return target before testing global navigation. A separate harness variable-redeclaration error was corrected and rerun; neither is disguised as a reader/source result.
+
+**One actual reader finding repaired:** native Tab could leave the consent dialog at its last enabled control in headless desktop Chrome. The local dialog now wraps Tab/Shift-Tab. Final 320/1440 native-key checks pass. No shared dialog implementation changed.
+
+A further late-Contents confirmation check retained focus inside its still-open modal. Additional completed phases: seven checks for iPhone-style guide/standalone/inset and seven for storage-denied/legacy/BFCache edge cases. At 320 px with emulated 44px top inset, all six controls stay in one reachable row below the inset. Manual English guide opens/localizes; `navigator.standalone` suppresses guide/trigger; focus hides the trigger. Storage denial still permits safe defaults, cancellation and explicit Deep acknowledgment. These are Chrome emulations, **not physical iPhone/Safari/PWA verification**. Home `href="./"` was checked structurally; navigation to publisher-owned root/catalogue was not performed.
+
+## Visual evidence and cleanup
+
+Settled screenshots (after animation completion) inspected for 320px RU/EN consent, scroll-bottom cover/mode picker/start, dense narrative/body tail and shared final; desktop 1440 cover/rail/dense narrative/final. Earlier representative 320/1024 Serif/light pages also inspected. Cover Start is reachable after scrolling; mobile consent Cancel is reachable. No runtime external requests or unexplained exceptions in completed final checks.
+
+Raw QA harness, JSON phase reports and screenshots remain private outside Git at `/Users/pn/.cache/book-tiktok/i-robot-pass2-20261031/`. Every phase spawned `/usr/bin/timeout 30` with an owned process group and `mktemp -d /tmp/i-robot-pass2-chrome.XXXXXX`. Cleanup killed that owned group and removed its profile in `finally`, including failed harness iterations. No server was started. No browser/process/profile belonging to this task remains.
+
+## Limits and handoff
+
+The four essential retained causal links are supported by accountable scene accounts plus selected primary quotations, as individually mapped in the source rescue. No full owned edition was located or read, no complete Googe PDF was read, no official Russian translation or whole-edition fidelity certified. Existing history is retained; earlier analytical-companion approvals are not reused. Fresh independent review of all 53 pairs and supporting passages remains required. The manifest status is `ready-for-independent-check`; publication belongs to the parent/publisher. No Git/PR/deploy, root/catalogue/shared/installed-skill mutation, external message, purchase or subagent.
+
+---
+
+## Preserved historical QA — superseded for this narrative candidate
+
+> **2026-10-31 targeted nine-story rescue:** new full public EBSCO reference accounts and a fresh primary/guide comparison narrow the source gap. Several concise story arcs are supportable; pivotal remaining checks concern Liar!'s final logical trap, Little Lost Robot's discrimination/attack, Escape!'s actual accommodation/pranks, and an Evitable Conflict regional case. This is not a no-full-EPUB verdict. PRH primary Gloria is eight; the teaching summary says nine and misheads Little Lost Robot as Little Lost Rabbit. See [new acquisition map](../../editorial-audit/2026-10-31/source-rescue/i-robot.md). No rewrite, ready manifest or independent approval.
+
+> **2026-10-31 corrected editorial audit: REBUILD / SOURCE-GAP; NOT READY.** All 112 RU/EN pairs were read and matched to root embedded content. The analytical-companion approval below is historical and superseded. A full lawful collection is still needed; see `../../editorial-audit/2026-10-31/books/i-robot.md`. No replacement narrative or fresh fidelity approval is claimed.
+
 # I, Robot — implementation QA
 
 **Parent status, 2026-10-31:** independent cold review completed, all required findings repaired, fresh audit and targeted browser checks passed. Ready for catalogue integration; not published. Collector-stage notes/fingerprints are retained below, with the final repair record at the end.

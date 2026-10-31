@@ -81,12 +81,78 @@ for (const [index, collection] of (catalogue?.collections || []).entries()) {
   checkLocalized(collection.label, `${label}.label`);
 }
 
+// Discovery v1 is additive to schema 2. Existing standalone/story-data contracts
+// and older catalogues without this extension continue to validate.
+const discovery = catalogue?.discovery;
+const discoveryIds = {};
+if (discovery !== undefined) {
+  if (!isObject(discovery) || discovery.version !== 1) fail('discovery.version must be 1');
+  for (const kind of ['types', 'genres', 'subjects', 'topics']) {
+    const ids = discoveryIds[kind] = new Set();
+    if (!Array.isArray(discovery?.[kind])) { fail(`discovery.${kind} must be an array`); continue; }
+    for (const [index, item] of discovery[kind].entries()) {
+      const label = `discovery.${kind}[${index}]`;
+      if (!isObject(item)) { fail(`${label} must be an object`); continue; }
+      if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(item.id || '')) fail(`${label}.id must be kebab-case`);
+      if (item.id === 'all') fail(`${label}.id "all" is reserved`);
+      if (ids.has(item.id)) fail(`duplicate discovery ${kind} id: ${item.id}`);
+      ids.add(item.id);
+      checkLocalized(item.label, `${label}.label`);
+      if (item.aliases !== undefined) {
+        if (!Array.isArray(item.aliases) || item.aliases.length > 12) fail(`${label}.aliases must be an array of at most 12 useful search terms`);
+        else {
+          const aliases = new Set();
+          for (const alias of item.aliases) {
+            if (typeof alias !== 'string' || !alias.trim() || alias !== alias.trim() || alias.length > 80) {
+              fail(`${label}.aliases must contain short non-empty trimmed strings`);
+              continue;
+            }
+            const normalized = alias.normalize('NFKC').toLowerCase().replace(/ё/g, 'е');
+            if (aliases.has(normalized)) fail(`${label}.aliases contains a duplicate: ${alias}`);
+            aliases.add(normalized);
+          }
+        }
+      }
+    }
+  }
+  if ([...discoveryIds.types].sort().join(',') !== 'fiction,nonfiction') fail('discovery.types must contain fiction and nonfiction only');
+  for (const id of discoveryIds.genres) {
+    if (discoveryIds.subjects.has(id)) fail(`genre and subject IDs must be distinct: ${id}`);
+  }
+  for (const [key, knownIds] of [['legacySections', sectionIds], ['legacyCollections', new Set([...collectionIds, 'unassigned'])]]) {
+    const mappings = discovery?.[key];
+    if (!isObject(mappings)) { fail(`discovery.${key} must be an object`); continue; }
+    for (const id of knownIds) {
+      if (!Object.hasOwn(mappings, id)) fail(`discovery.${key} is missing a mapping for ${id}`);
+    }
+    for (const [id, mapping] of Object.entries(mappings)) {
+      const label = `discovery.${key}.${id}`;
+      if (!knownIds.has(id)) fail(`${label} references an unknown legacy ID`);
+      if (!isObject(mapping)) { fail(`${label} must be an object`); continue; }
+      if (Object.keys(mapping).some(field => !['type', 'topic', 'query'].includes(field))) fail(`${label} may only map to visible type/topic/query controls`);
+      if (mapping.type !== undefined && !discoveryIds.types.has(mapping.type)) fail(`${label}.type references an unknown type`);
+      if (mapping.topic !== undefined && !discoveryIds.genres.has(mapping.topic) && !discoveryIds.subjects.has(mapping.topic)) fail(`${label}.topic references an unknown genre or subject`);
+      if (mapping.query !== undefined && (typeof mapping.query !== 'string' || !mapping.query.trim())) fail(`${label}.query must be a non-empty string`);
+    }
+  }
+}
+
+function checkDiscoveryRefs(values, kind, label) {
+  if (!Array.isArray(values)) { fail(`${label} must be an array`); return; }
+  const assigned = new Set();
+  for (const id of values) {
+    if (!discoveryIds[kind]?.has(id)) fail(`${label} references unknown ${kind} ID: ${id}`);
+    if (assigned.has(id)) fail(`${label} contains duplicate value: ${id}`);
+    assigned.add(id);
+  }
+}
+
 const bookSlugs = new Set();
 const bookFiles = new Set();
 const bookCoverMotifs = new Set();
 let totalScreens = 0;
 const allowedCoverTypes = new Set(['year', 'constraint', 'split', 'typographic']);
-const allowedCoverMotifs = new Set(['balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response', 'latitude-search']);
+const allowedCoverMotifs = new Set(['balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response', 'latitude-search', 'conditioned-trust', 'rule-loop', 'testimony-compass', 'chalk-boundary', 'scale-question']);
 const allowedCoverTones = new Set(['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'magenta']);
 const allowedAudiences = new Set(['general', 'teen-14-plus', 'adult']);
 const allowedSpoilerPolicies = new Set(['not-applicable', 'spoiler-free', 'full-plot-in-deep']);
@@ -109,6 +175,20 @@ for (const [index, book] of (catalogue?.books || []).entries()) {
   bookFiles.add(book.file);
 
   if (!sectionIds.has(book.section)) fail(`${label}.section references unknown section: ${book.section}`);
+  if (discovery !== undefined) {
+    checkDiscoveryRefs(book.workTypes, 'types', `${label}.workTypes`);
+    checkDiscoveryRefs(book.genres, 'genres', `${label}.genres`);
+    checkDiscoveryRefs(book.subjects, 'subjects', `${label}.subjects`);
+    checkDiscoveryRefs(book.tags, 'topics', `${label}.tags`);
+    const types = Array.isArray(book.workTypes) ? book.workTypes : [];
+    const genres = Array.isArray(book.genres) ? book.genres : [];
+    const subjects = Array.isArray(book.subjects) ? book.subjects : [];
+    if (!types.length) fail(`${label}.workTypes must contain at least one type`);
+    if (types.includes('fiction') && !genres.length) fail(`${label}: fiction needs a recognizable genre`);
+    if (types.includes('nonfiction') && !subjects.length) fail(`${label}: nonfiction needs a subject`);
+    if (genres.length && !types.includes('fiction')) fail(`${label}: genres require the fiction work type`);
+    if (types.length > 1 || book.workTypeLabel !== undefined) checkLocalized(book.workTypeLabel, `${label}.workTypeLabel`);
+  }
   if (!Array.isArray(book.tags) || book.tags.length === 0) fail(`${label}.tags must be a non-empty array`);
   else {
     const tags = new Set();
@@ -195,15 +275,17 @@ if (!fs.existsSync(indexPath)) {
 } else {
   const indexHtml = fs.readFileSync(indexPath, 'utf8');
   if (!indexHtml.includes("fetch('./books.json', { cache: 'no-store' })")) fail('index.html must load books.json without an HTTP-cache shortcut');
-  if (!indexHtml.includes('id="sectionFilter"')) fail('index.html is missing the section filter');
-  if (!indexHtml.includes('id="collectionFilter"')) fail('index.html is missing the collection filter');
-  if (!indexHtml.includes('id="collectionSummary"')) fail('index.html is missing the collection coverage summary');
-  if (!indexHtml.includes("id === 'unassigned'")) fail('index.html is missing the unassigned-books collection filter');
+  if (!indexHtml.includes('id="typeFilter"')) fail('index.html is missing the work-type filter');
+  if (!/<select\s+[^>]*id="topicFilter"/.test(indexHtml)) fail('index.html is missing the native genre/subject selector');
+  if (!indexHtml.includes('id="resetFilters"')) fail('index.html is missing the clear-all action');
+  if (!indexHtml.includes('id="filterSummary"')) fail('index.html is missing the live result count');
+  if (/id="(?:sectionFilter|collectionFilter|collectionSummary)"/.test(indexHtml)) fail('index.html must not expose legacy shelf/collection controls');
+  if (/Сыну · 14\+|For my son · 14\+|Без подборки|No collection/.test(indexHtml)) fail('index.html must not expose personal or administrative collection choices');
   if (!indexHtml.includes('id="searchInput"')) fail('index.html is missing catalogue search');
   if (!indexHtml.includes('function coverArtwork(book)') || !indexHtml.includes('data-cover-motif')) {
     fail('index.html is missing semantic SVG cover artwork');
   }
-  if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"') || !indexHtml.includes('id="sectionStat"')) {
+  if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"') || !indexHtml.includes('id="topicStat"')) {
     fail('index.html is missing automatic counters');
   }
   if (!/<link\s+rel=["']manifest["']\s+href=["']\.\/manifest\.webmanifest["']/i.test(indexHtml)) fail('index.html is missing the web app manifest');

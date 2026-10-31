@@ -1,0 +1,3090 @@
+{
+  "schemaVersion": 2,
+  "slug": "the-two-captains",
+  "title": {
+    "ru": "Два капитана — Вениамин Каверин",
+    "en": "The Two Captains — Veniamin Kaverin"
+  },
+  "description": {
+    "ru": "Аналитический спутник: голос, свидетельство, взросление и Север. Развязка только в Deep, после предупреждения.",
+    "en": "An analytical companion on voice, testimony, growing up and the North. The resolution appears only in Deep, after a warning."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 36,
+    "core": 90,
+    "deep": 144
+  },
+  "audience": "teen-14-plus",
+  "spoilerPolicy": "full-plot-in-deep",
+  "methodNote": {
+    "ru": "Оригинальный аналитический спутник, не полный текст и не пересказ глав. Прочитан официальный 20-страничный PDF-отрывок «Азбуки» (художественный текст: печатные с. 7–22); поздние сведения проверены по указанной критике и библиотечному очерку. Полный роман не прочитан. «Книга» обозначает содержание романа, в том числе через вторичные источники; независимые сведения и наш синтез отмечены отдельно. Главное и Core сохраняют развязку; спойлеры находятся в предупреждённом блоке Deep. Внешние источники могут содержать спойлеры. Обложка — оригинальная геометрия; иллюстрации издателя не используются.",
+    "en": "An original analytical companion, not the full text or a chapter-by-chapter retelling. The official 20-page Azbooka PDF sample was read (narrative: printed pp. 7–22); later information was checked against the listed criticism and library essay. The complete novel was not read. “Book” identifies the novel’s content, including mediated evidence; independent material and our synthesis are labelled separately. Essential and Core preserve the resolution; spoilers appear in a warned Deep section. External sources may contain spoilers. The cover uses original geometry, with no publisher artwork."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Азбука — Два капитана, ISBN 978-5-389-25627-9",
+      "url": "https://azbooka.ru/books/dva-kapitana",
+      "role": "publisher",
+      "note": {
+        "ru": "Издательская карточка: идентификация издания 2024 года и официальный отрывок. Не полный текст.",
+        "en": "Publisher listing: the 2024 edition’s identity and official sample. Not the complete text."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Вениамин Каверин / Азбука — официальный отрывок",
+      "url": "https://cdn.azbooka.ru/fg/7193cde6-ab74-4496-8d97-5c32eedc41dc.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитан весь PDF-отрывок: 20 страниц файла, художественный текст на печатных с. 7–22, до начала главы 5. Только ранняя часть романа.",
+        "en": "The full 20-page PDF sample was read; narrative text occupies printed pp. 7–22, through the opening of chapter 5. Early novel only."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Мария Майофис — Как читать «Двух капитанов»",
+      "url": "https://arzamas.academy/mag/429-2cap",
+      "role": "review",
+      "note": {
+        "ru": "Содержательная критика: жанры, документы, взросление, историческое чтение. Прочитаны релевантные разделы; внешняя статья содержит спойлеры.",
+        "en": "Substantial criticism on genre, documents, growing up and historical interpretation. Relevant sections consulted; the external essay contains spoilers."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Александр Жолковский — Стойкое обаяние «Двух капитанов»",
+      "url": "https://nm1925.ru/articles/2018/201803/stoykoe-obayanie-dvukh-kapitanov-6865/",
+      "role": "review",
+      "note": {
+        "ru": "Прочитаны разделы о языке, чтении записей, встречах, двойниках и идеологической рамке. Это критическая трактовка; внешняя статья содержит спойлеры.",
+        "en": "Sections on language, interpreting records, encounters, doubles and ideological framing were consulted. A critical interpretation; the external essay contains spoilers."
+      }
+    },
+    {
+      "id": 5,
+      "title": "А. И. Ванюков — Авторская концепция и композиция романа",
+      "url": "https://journals.eco-vector.com/2413-9645/article/view/110349",
+      "role": "review",
+      "note": {
+        "ru": "Аннотация и доступное начало статьи: история публикации, композиция и первые главы. Вся статья не прочитана; повторный доступ был ограничен.",
+        "en": "Abstract and accessible opening: publication history, composition and early chapters. The whole paper was not read; subsequent access was restricted."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Е. Ю. Геймбух — Слово изображающее и слово изображенное",
+      "url": "https://filclass.ru/images/JOURNAL/47/St-10.pdf",
+      "role": "review",
+      "note": {
+        "ru": "Аннотация и выбранные разделы PDF: рассказчик, чужая речь, документы, клятва. Не полное чтение статьи. Внешний текст содержит спойлеры.",
+        "en": "Abstract and selected PDF sections on narrators, others’ speech, documents and the oath. Not a complete reading of the paper. The external text contains spoilers."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Ю. С. Андронова — Жанровые особенности романа",
+      "url": "https://journals.susu.ru/lcc/article/view/463/469",
+      "role": "review",
+      "note": {
+        "ru": "Прочитана короткая HTML-статья: развитие двух героев, фотографии и жанровые признаки. Неточная историческая формулировка статьи не перенесена. Внешний текст со спойлерами.",
+        "en": "The short HTML paper was read: two developing protagonists, photographs and genre. An imprecise historical description was not repeated. The external text contains spoilers."
+      }
+    },
+    {
+      "id": 8,
+      "title": "О. Ю. Осьмухина, Е. П. Овсянникова — Специфика хронотопа",
+      "url": "https://philology-journal.ru/article/phil20230036/fulltext",
+      "role": "review",
+      "note": {
+        "ru": "Только аннотация и библиография, не полный текст. Узкая опора для поэтапного расширения пространства и различения временных пластов.",
+        "en": "Abstract and bibliography only, not the complete paper. Limited support for staged spatial expansion and different layers of time."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Андреа Питцер — Последний из потерянных следов",
+      "url": "https://data.aari.ru/publicat/rpr/sources/46/RPR-46p_09-11.pdf",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитан отчёт участницы о реальной экспедиции 2021 года: условия поиска, сохранность следов и отсутствие новых находок на проверенном участке. Не свидетельство о вымышленном сюжете.",
+        "en": "Participant report on a real 2021 expedition was read: search conditions, preservation and negative findings in an examined area. Not evidence about the fictional plot."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Alfred Tennyson — Ulysses, Poems (1843), vol. 2",
+      "url": "https://en.wikisource.org/wiki/Ulysses_(Tennyson)",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитано полное стихотворение в общественном достоянии: источник девиза и контекст драматического голоса. Не доказательство частного замысла Каверина.",
+        "en": "Complete public-domain poem consulted: the motto’s source and its dramatic speaker’s context. Not proof of Kaverin’s private intention."
+      }
+    },
+    {
+      "id": 11,
+      "title": "РГБМ — Саня (Александр Иванович) Григорьев",
+      "url": "https://lithero.rgub.ru/characters/show/49",
+      "role": "reference",
+      "note": {
+        "ru": "Библиотечный очерк и синопсис: персонажи, прототипы и контекст. Прочитан; отдельные упрощения сверены с отрывком. Внешняя страница содержит спойлеры.",
+        "en": "Institutional character essay and synopsis consulted: characters, prototypes and context. Some simplifications checked against the sample. The external page contains spoilers."
+      }
+    }
+  ],
+  "media": {
+    "two-traces": {
+      "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2MjAiIGhlaWdodD0iNzYwIiB2aWV3Qm94PSIwIDAgNjIwIDc2MCI+PHN0eWxlPjpyb290ey0taW5rOiMxMDBmMGY7LS1wYXBlcjojZTZlNGQ5Oy0tcXVpZXQ6IzU3NTY1MzstLWN5YW46IzNhYTk5Zn0gLnNoZWV0e2ZpbGw6bm9uZTtzdHJva2U6dmFyKC0tcGFwZXIpO3N0cm9rZS13aWR0aDoyfS53cml0aW5ne2ZpbGw6bm9uZTtzdHJva2U6dmFyKC0tcXVpZXQpO3N0cm9rZS13aWR0aDozO3N0cm9rZS1saW5lY2FwOnJvdW5kfS50cmFjZXtmaWxsOm5vbmU7c3Ryb2tlOnZhcigtLWN5YW4pO3N0cm9rZS13aWR0aDozfS5ub2Rle2ZpbGw6dmFyKC0taW5rKTtzdHJva2U6dmFyKC0tY3lhbik7c3Ryb2tlLXdpZHRoOjN9PC9zdHlsZT48cmVjdCB3aWR0aD0iNjIwIiBoZWlnaHQ9Ijc2MCIgZmlsbD0idmFyKC0taW5rKSIvPjxwYXRoIGNsYXNzPSJzaGVldCIgZD0iTTE2NCAxNzhoMjI4bDY0IDY0djI5NkgxNjR6IE0zOTIgMTc4djY0aDY0Ii8+PHBhdGggY2xhc3M9IndyaXRpbmciIGQ9Ik0yMDIgMjgwaDE4MCBNMjAyIDMxMGgyMTUgTTIwMiAzNDBoMTQ0IE0yMDIgMzk0aDIxNSBNMjAyIDQyNGgxODAgTTIwMiA0NTRoMTA4Ii8+PHBhdGggY2xhc3M9InRyYWNlIiBkPSJNODggNjIyVjUxOGgzNlYxMzZoMTcyIE01MzIgNjIyVjU2OEg0OTZWMTM2SDM2NCIvPjxjaXJjbGUgY2xhc3M9Im5vZGUiIGN4PSIyOTYiIGN5PSIxMzYiIHI9IjgiLz48Y2lyY2xlIGNsYXNzPSJub2RlIiBjeD0iMzY0IiBjeT0iMTM2IiByPSI4Ii8+PGNpcmNsZSBjbGFzcz0ibm9kZSIgY3g9Ijg4IiBjeT0iNjIyIiByPSI4Ii8+PGNpcmNsZSBjbGFzcz0ibm9kZSIgY3g9IjUzMiIgY3k9IjYyMiIgcj0iOCIvPjxwYXRoIGNsYXNzPSJ3cml0aW5nIiBkPSJNMTY0IDU4NGgyOTIgTTE2NCA2MDBoMTg0Ii8+PC9zdmc+",
+      "alt": {
+        "ru": "Два отдельных маршрута вокруг листа письма; оригинальная абстрактная обложка",
+        "en": "Two separate traces around a letter; an original abstract cover"
+      },
+      "credit": {
+        "ru": "Оригинальная геометрическая обложка · Pavel Novikau",
+        "en": "Original geometric cover · Pavel Novikau"
+      }
+    }
+  },
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Вход",
+          "title": "Два капитана",
+          "body": "<p>Как превратить услышанную в детстве историю в дело жизни — и не спутать верность с упрямством. Аналитический спутник романа Вениамина Каверина для читателей от 14 лет. Главное и Core сохраняют развязку; Deep отдельно предупреждает о спойлерах. Полная книга здесь не пересказывается.</p>",
+          "subtitle": "Вениамин Каверин · свидетельство, взросление, Север"
+        },
+        "en": {
+          "section": "Opening",
+          "title": "The Two Captains",
+          "body": "<p>How can a story heard in childhood become a life’s work without turning loyalty into rigidity? An analytical companion to Veniamin Kaverin’s novel for readers aged 14 and up. Essential and Core preserve the resolution; Deep gives a separate spoiler warning. This is not a retelling of the complete book.</p>",
+          "subtitle": "Veniamin Kaverin · testimony, growing up, the North"
+        }
+      },
+      "type": "cover",
+      "media": "two-traces"
+    },
+    {
+      "id": "heard-at-last",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "Что нужно, чтобы тебя услышали?",
+          "body": "<p>У Сани Григорьева есть то, чего нет у окружающих: память о важных словах и увиденном событии. Но знание ещё не даёт возможности вмешаться. Читать роман интересно как историю разрыва между внутренней уверенностью и внешней убедительностью: чем придётся обзавестись человеку, чтобы его свидетельство обрело вес?</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "What does it take to be heard?",
+          "body": "<p>Sanya Grigoryev possesses something the people around him lack: remembered words and knowledge of an event he witnessed. Knowing does not yet let him intervene. Read the novel as an exploration of the distance between private conviction and public credibility. What must a person acquire before their testimony can carry weight?</p>"
+        }
+      }
+    },
+    {
+      "id": "premise-not-answer",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "Две жизни связывает пропавшая экспедиция",
+          "body": "<p>Саня растёт в Энске, оказывается в Москве, знакомится с Катей Татариновой и увлекается судьбой её отца, полярного капитана. Его собственное взросление начинает переплетаться с расследованием давней истории. Пока достаточно знать эту завязку: кто окажется прав, какие улики станут решающими и чем закончится поиск, здесь не раскрывается.</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "A missing expedition connects two lives",
+          "body": "<p>Sanya grows up in Ensk, reaches Moscow, meets Katya Tatarinova and becomes absorbed in the fate of her father, a polar captain. His coming of age intertwines with an investigation into the past. This premise is enough for now. The decisive evidence, final judgement and outcome of the search remain undisclosed here.</p>"
+        }
+      }
+    },
+    {
+      "id": "companion-boundary",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "Разбор не заменяет прочитанного романа",
+          "body": "<p>Здесь разобраны вопросы, устройство повествования и несколько проверенных эпизодов, а не восстановлена каждая глава. Прочитан официальный отрывок; остальное сверено с указанной критикой. Поэтому различаются события книги, исследовательские трактовки и наши выводы. Наличие ссылки означает опору для мысли, но не обещание доступа ко всему авторскому тексту.</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "A companion has a different job from a novel",
+          "body": "<p>This companion examines questions, narrative construction and selected verified episodes rather than reconstructing every chapter. An official excerpt was read; later material was checked against the listed criticism. Events in the novel, scholarly interpretations and our conclusions are distinguished. A citation identifies support for a point, not access to the entire original text.</p>"
+        }
+      }
+    },
+    {
+      "id": "will-needs-form",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "Желанию нужна форма действия",
+          "body": "<p>Санина решимость становится интересной там, где превращается в конкретную работу: научиться выражать мысль, читать, разбираться в чужих записях, освоить профессию. Так можно сформулировать наш главный вопрос к книге: какую способность герой приобретает на каждом этапе и почему одной этой способности всё равно недостаточно без других людей?</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "Desire needs a workable form",
+          "body": "<p>Sanya’s determination becomes most interesting when it turns into particular work: expressing a thought, reading, interpreting someone else’s records and learning a profession. Our central reading question is therefore practical. What capability does he acquire at each stage, and why does that capability still depend on the involvement of other people?</p>"
+        }
+      }
+    },
+    {
+      "id": "stakes-beyond-puzzle",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "У загадки есть человеческая цена",
+          "body": "<p>В обычной головоломке неверная версия означает неправильный ответ. Здесь версия касается чьего-то отца, семейной памяти и доверия между близкими. Поэтому расследование нельзя отделить от отношений: даже правдивое сообщение может причинить боль, а бережность без проверки способна законсервировать ошибку. Это напряжение важнее быстрого угадывания виновного.</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "The mystery has a human cost",
+          "body": "<p>In a puzzle, a mistaken theory produces a wrong answer. Here a theory concerns someone’s father, family memory and trust between people who care about each other. Investigation therefore cannot be separated from relationships. A truthful disclosure may hurt; kindness without examination may preserve an error. That tension matters more than guessing a culprit quickly.</p>"
+        }
+      }
+    },
+    {
+      "id": "question-before-verdict",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "Сначала выбери вопрос, потом ответ",
+          "body": "<p>Попробуй читать с двумя отдельными вопросами: что Саня хочет установить и каким человеком он становится, пока ищет? Первый удерживает интригу, второй раскрывает роман воспитания. Если смешать их слишком рано, симпатия к герою начнёт незаметно подменять проверку его доводов, а сюжет сведётся к соревнованию любимчиков.</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "Choose a question before choosing a verdict",
+          "body": "<p>Try keeping two questions separate: what is Sanya trying to establish, and what kind of person is the search making him? The first sustains the mystery; the second reveals a coming-of-age novel. Merge them too quickly and affection for the protagonist can quietly replace scrutiny of his reasoning, reducing the story to a contest between favourites.</p>"
+        }
+      }
+    },
+    {
+      "id": "reader-contract",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "01 · Вопрос романа",
+          "title": "Три глубины меняют подробность, не книгу",
+          "body": "<p>Главное даёт цельную линию взросления и расследования без развязки. Core добавляет персонажей, повествовательные приёмы и исторический контекст, сохраняя главные ответы. Deep включает более спорные чтения и отдельный финальный блок со спойлерами. Можно закончить на любом уровне: вопрос о цене убеждённости останется понятен без знания исхода.</p>"
+        },
+        "en": {
+          "section": "01 · The novel’s question",
+          "title": "Three depths change detail, not the book",
+          "body": "<p>Essential provides a coherent account of growing up and investigating without the resolution. Core adds characters, narrative devices and historical context while preserving the main answers. Deep includes more debatable readings and a separate final section with spoilers. Any depth can stand alone: the cost of conviction remains understandable without knowing the outcome.</p>"
+        }
+      }
+    },
+    {
+      "id": "silence-is-not-absence",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "Саня понимает больше, чем может сказать",
+          "body": "<p>В начале романа мальчик слышит окружающих и замечает происходящее, но не может свободно говорить. Эта разница определяет его положение среди взрослых: внутренне он участник событий, внешне его легко принять за пассивного наблюдателя. Каверин даёт читателю доступ именно к тому сознанию, которое другие персонажи не умеют услышать.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "Sanya understands more than he can say",
+          "body": "<p>At the beginning, the boy hears the people around him and notices events but cannot speak freely. This difference shapes his position among adults. Inwardly he participates; outwardly he is easily treated as a passive observer. Kaverin gives the reader access to the very consciousness that the other characters fail to hear.</p>"
+        }
+      }
+    },
+    {
+      "id": "ensk-pskov",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "За Энском стоит Псков, но не полный городской архив",
+          "body": "<p>Связь Энска с родным Каверину Псковом помогает понять узнаваемую конкретность дворов и речного пространства. Но смена имени предупреждает о художественном устройстве. Не следует требовать от каждого адреса документальной точности или объявлять любой персонаж портретом соседа автора. Реальное место может питать воображение, не превращая роман в справочник по городу.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "Behind Ensk lies Pskov, not a complete city archive",
+          "body": "<p>Ensk’s connection with Kaverin’s native Pskov helps explain the concrete courtyards and river setting. The changed name also signals fictional construction. It does not require every address to be exact or every figure to portray an actual neighbour. A real place can nourish imagination without turning the novel into a guide to a city.</p>"
+        }
+      }
+    },
+    {
+      "id": "knife-context",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "Нож становится уликой без своей истории",
+          "body": "<p>После убийства сторожа отца Сани арестовывают. Мальчик понимает, что найденный нож связан с ним самим, а не доказывает увиденную взрослыми версию. Предмет подлинный, но его значение зависит от утраченной цепочки обстоятельств. Так в первых главах возникает будущий нерв книги: вещь и объяснение вещи не совпадают автоматически.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "A knife becomes evidence without its history",
+          "body": "<p>After a watchman is killed, Sanya’s father is arrested. The boy understands that the discovered knife is connected to him, rather than proving the adults’ account. The object is genuine, but its meaning depends on a missing chain of circumstances. The opening establishes a lasting tension: an object and an explanation of it do not automatically coincide.</p>"
+        }
+      }
+    },
+    {
+      "id": "witness-certainty",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "Рассказчик помнит собственную неуверенность",
+          "body": "<p>Описывая ночную погоню, взрослый Саня не превращает детское впечатление в идеально ясную запись. Он оговаривается, что не вполне уверен в личности увиденного человека. Это маленькая, но существенная трещина в удобной модели безошибочного героя: честное свидетельство включает предел наблюдения, а не только яркость воспоминания.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "The narrator remembers his own uncertainty",
+          "body": "<p>When describing the pursuit at night, the adult Sanya does not turn a childhood impression into a perfectly clear recording. He qualifies his identification of the person he saw. This small reservation matters: it complicates the comfortable image of an infallible hero. Honest testimony includes the boundary of observation as well as the vividness of recollection.</p>"
+        }
+      }
+    },
+    {
+      "id": "guilt-is-not-cause",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "Детская вина шире детской ответственности",
+          "body": "<p>Саня связывает беду отца со своим потерянным ножом и неспособностью объясниться. Но переживаемая вина не равна полноте причин: решение принимают взрослые, следствие и власть. При чтении важно удержать обе стороны — подлинность его боли и несправедливость требования, будто ребёнок обязан был один исправить работу целого взрослого мира.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "A child’s guilt exceeds a child’s responsibility",
+          "body": "<p>Sanya connects his father’s disaster with his lost knife and inability to explain. Yet felt guilt is not a complete account of causation: adults, investigators and authorities make decisions. Hold both sides in view. His pain is real, while expecting a child to repair the failures of an entire adult world would be profoundly unfair.</p>"
+        }
+      }
+    },
+    {
+      "id": "gestures-misread",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "Даже любящие люди могут не понять",
+          "body": "<p>Мальчик пытается передать увиденное движениями. Мать и тётя Даша ищут смысл, но понимают его по-своему. Сцена сильна тем, что непонимание возникает без злого умысла: близость помогает, но не создаёт общего языка сама собой. Читатель знает больше взрослых и чувствует, насколько мучительно это несовпадение.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "Even loving people can misunderstand",
+          "body": "<p>The boy tries to communicate what he has seen through gestures. His mother and Aunt Dasha seek meaning but interpret him differently. The scene gains force because misunderstanding needs no malicious intention. Affection helps without creating a shared language by itself. Knowing more than the adults, the reader experiences the painful distance between them.</p>"
+        }
+      }
+    },
+    {
+      "id": "barrier-point-of-view",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "Власть впервые видна снизу",
+          "body": "<p>В учреждении ребёнок видит барьер, чужую руку, очки, слышит формальный голос. Наше чтение этой композиции: власть представлена через недоступность, ещё до понимания её правил. Дело семьи превращается для чиновника в категорию, а для Сани остаётся жизнью отца. Разные масштабы описания уже создают конфликт, которому не требуется эффектная злодейская речь.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "Authority first appears from below",
+          "body": "<p>Inside the office, the child sees a barrier, a stranger’s hand and spectacles, and hears an official voice. Our reading of this composition is that authority first appears as inaccessibility. An office classifies a case; Sanya experiences his father’s life. Those different scales of description create conflict without requiring an elaborate villain’s speech.</p>"
+        }
+      }
+    },
+    {
+      "id": "first-justice-question",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "02 · Ребёнок и свидетельство",
+          "title": "У справедливости есть проблема доставки",
+          "body": "<p>Начальная трагедия позволяет отличить наличие правды от её доступности. Кто-то должен суметь сообщить известное, кто-то — выслушать, а кто-то — проверить связь между сообщением и обвинением. Если рвётся любой переход, факт остаётся бессильным. Это аналитическая схема чтения первых глав, а не сформулированная Кавериным универсальная теория суда.</p>"
+        },
+        "en": {
+          "section": "02 · A child’s testimony",
+          "title": "Justice has a problem of delivery",
+          "body": "<p>The opening tragedy separates the existence of truth from its availability. Someone must communicate what they know; someone must listen; someone must examine how that account relates to an accusation. Break any connection and a fact becomes powerless. This is our analytical lens on the opening chapters, not a universal theory of justice stated by Kaverin.</p>"
+        }
+      }
+    },
+    {
+      "id": "help-precedes-self-making",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Самостоятельность начинается с чужой помощи",
+          "body": "<p>Саню легко запомнить как человека, который сделал себя сам. Но первые главы показывают другую опору: соседи, сестра, доктор, люди, способные делиться вниманием и теплом. Их помощь не отменяет его усилий. Она делает усилия возможными, и потому входит в устройство героизма наравне с решимостью самого героя.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "Independence begins with someone else’s help",
+          "body": "<p>It is easy to remember Sanya as a self-made person. The opening chapters supply another foundation: neighbours, his sister, the doctor and people willing to share warmth and attention. Their help does not cancel his effort. It makes that effort possible, and therefore belongs to the structure of his heroism as much as determination does.</p>"
+        }
+      }
+    },
+    {
+      "id": "aunt-dasha-public-reading",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Тётя Даша открывает чужой мир вслух",
+          "body": "<p>Намокшие письма читаются по вечерам не только мальчику: вокруг возникает маленькое сообщество слушателей. Морская история попадает в бедный двор через обычный домашний голос. Так приключение начинается раньше путешествия. Доступ к большому миру зависит не от собственного книжного шкафа, а от человека, который читает рядом и возвращается к тексту.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "Aunt Dasha opens another world aloud",
+          "body": "<p>The water-damaged letters are read aloud in the evenings to more than just the boy, creating a small community of listeners. A maritime story enters a poor courtyard through an ordinary domestic voice. Adventure begins before travel does. Access to a larger world depends on someone nearby who reads and returns to the same text.</p>"
+        }
+      }
+    },
+    {
+      "id": "care-is-not-spectacle",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Негромкие действия держат историю на весу",
+          "body": "<p>Приготовить еду, выслушать, пустить к теплу — такие действия легко пропустить, ожидая самолётов и льдов. Но без них герой не дожил бы до большого выбора. Полезный читательский эксперимент: мысленно убери одну бытовую помощь и посмотри, какая будущая возможность исчезнет. Так становится видна инфраструктура приключения, а не только его вершины.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "Quiet actions hold the story together",
+          "body": "<p>Preparing food, listening and offering warmth are easy to overlook while waiting for aeroplanes and ice. Yet the protagonist could not reach his larger choices without them. Try a reading experiment: remove one ordinary act of help and ask which future possibility disappears. This reveals the infrastructure of adventure rather than only its dramatic peaks.</p>"
+        }
+      }
+    },
+    {
+      "id": "voice-has-a-helper",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Доктор замечает возможность там, где ждут беду",
+          "body": "<p>Появление Ивана Иваныча связывает две линии: ребёнок помогает замёрзшему незнакомцу, а тот становится важным человеком в его жизни. Дальнейшее обучение речи критика рассматривает как первый большой шаг Сани к действию. Здесь существенен обмен заботой: помощь приходит не от всесильной фигуры, стоящей вне человеческой нужды.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "The doctor notices a possibility amid hardship",
+          "body": "<p>Ivan Ivanych’s arrival connects two strands: a child helps a freezing stranger, and that stranger becomes important in his life. Critics treat the subsequent work on speech as Sanya’s first major step towards agency. The reciprocal care matters. Help comes from someone who has himself needed help, rather than from a figure beyond human vulnerability.</p>"
+        }
+      }
+    },
+    {
+      "id": "speech-not-prescription",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Литературное исцеление не является назначением",
+          "body": "<p>Каверин связывает речь, упражнения, поддержку и настойчивость в выразительный сюжет. Из этого нельзя делать медицинский вывод, будто любое нарушение речи уступает силе характера. У романа другая задача: показать приобретение голоса конкретным героем. Переносить художественную причинность на реальных людей значило бы несправедливо обвинять тех, чья ситуация устроена иначе.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "A literary recovery is not a prescription",
+          "body": "<p>Kaverin connects speech, exercises, support and persistence in a powerful narrative. It does not establish that any speech difficulty yields to strength of character. The novel follows one particular person gaining a voice. Turning that literary causality into a judgement about real people would unfairly blame those whose circumstances and needs are different.</p>"
+        }
+      }
+    },
+    {
+      "id": "sister-before-side-character",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Сестра существует до роли «сестры героя»",
+          "body": "<p>В деревенских главах Саша разговаривает, хозяйничает и участвует в заботе о больной старухе. У маленькой девочки уже есть нагрузка, которой взрослый мир не должен был бы её наделять. Эту подробность стоит удержать: взросление в романе начинается не с красивой независимости, а с преждевременно возложенной на детей работы.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "His sister is present before she becomes a supporting role",
+          "body": "<p>In the village chapters, Sasha talks, manages household tasks and helps care for an elderly woman. The young girl already carries responsibilities that adults should not have placed upon her. Keep that detail in view. Growing up begins here with work imposed too early on children, before independence can appear as an attractive personal achievement.</p>"
+        }
+      }
+    },
+    {
+      "id": "scarcity-is-material",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "03 · Забота до подвига",
+          "title": "Бедность измеряется теплом, едой и временем",
+          "body": "<p>В официальном отрывке нехватка показана через дом, картошку, работу матери и дорогу к соседям. Это не отвлечённая декорация для будущей победы. Материальные условия определяют, кто может заботиться о детях и сколько сил остаётся на жизнь. Романное взросление начинается в таком конкретном мире, а не в лаборатории чистой воли.</p>"
+        },
+        "en": {
+          "section": "03 · Care before heroism",
+          "title": "Poverty is measured in warmth, food and time",
+          "body": "<p>The official excerpt presents scarcity through a house, potatoes, the mother’s work and the path to neighbours. These are more than scenery for a later triumph. Material conditions determine who can care for the children and how much strength daily life consumes. Growing up begins in this particular world rather than a laboratory of pure will.</p>"
+        }
+      }
+    },
+    {
+      "id": "learning-opens-range",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Школа расширяет доступный мир",
+          "body": "<p>После беспризорных скитаний московская школа становится для Сани местом обучения и новых связей. Здесь важны не только предметы: появляются товарищи, учителя, привычка обсуждать прочитанное. Человек получает возможность строить будущую жизнь дольше, чем до следующего ночлега. Поэтому школа в романе меняет горизонт времени, а не просто адрес героя.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "School enlarges the world within reach",
+          "body": "<p>After his homeless wanderings, a Moscow school becomes a place of learning and new connections for Sanya. Subjects matter, but so do friends, teachers and discussion of books. He gains the possibility of planning beyond the next night’s shelter. School therefore changes the horizon of his future as well as his address.</p>"
+        }
+      }
+    },
+    {
+      "id": "korablev-mentor",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Кораблёв связывает знание с требовательностью",
+          "body": "<p>Учитель Кораблёв — один из взрослых, чьё влияние нельзя свести к выдаче полезной информации. Его место в Саниной жизни связано с образованием и нравственной требовательностью. Такой наставник помогает подростку серьёзнее отнестись к себе. При этом уважение к учителю оставляет пространство для собственной работы, которую никто за ученика не выполнит.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "Korablev connects knowledge with demanding care",
+          "body": "<p>Korablev is one of the adults whose influence cannot be reduced to supplying useful information. His role in Sanya’s life connects education with moral expectations. Such a mentor helps a teenager take himself seriously. Respect for a teacher still leaves room for the pupil’s own work, which no mentor can complete on his behalf.</p>"
+        }
+      }
+    },
+    {
+      "id": "ship-name-reading",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Фамилия учителя работает как тихая подсказка",
+          "body": "<p>Жолковский обращает внимание на морские ассоциации фамилии Кораблёв и его связи с географией. Это пример литературоведческого чтения имён: оно объясняет, как персонаж включён в общий узор. Но ассоциация не служит биографическим фактом и не доказывает тайного плана автора. Имя может усиливать смысл, не расшифровывая человека целиком.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "The teacher’s name offers a quiet literary clue",
+          "body": "<p>Zholkovsky draws attention to the maritime associations of Korablev’s name and the character’s connection with geography. This is a literary reading of naming, explaining how a figure enters the novel’s pattern. An association is neither a biographical fact nor proof of a secret authorial plan. A name can strengthen meaning without fully decoding a person.</p>"
+        }
+      }
+    },
+    {
+      "id": "belonging-not-obedience",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Принадлежать не значит соглашаться со всем",
+          "body": "<p>Саня нуждается в людях и учреждениях, которые дают ему место в мире. Одновременно взросление требует различать помощь, авторитет и правоту. Эти вещи могут совпадать, но не обязаны. Напряжение между благодарностью и самостоятельным суждением делает школьную линию содержательнее простого рассказа о том, как хорошего ученика признали окружающие.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "Belonging need not mean agreeing with everything",
+          "body": "<p>Sanya needs people and institutions that give him a place in the world. Growing up also requires distinguishing help, authority and correctness. They may coincide, but they need not. The tension between gratitude and independent judgement makes the school story richer than a simple account of a good pupil earning everyone else’s approval.</p>"
+        }
+      }
+    },
+    {
+      "id": "friendship-petya",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        6,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Дружба создаёт обещание на будущее",
+          "body": "<p>Друг детства Петя Сковородников связан с Саней общими испытаниями и мальчишескими планами. Их клятва придаёт будущему форму, когда устойчивой взрослой жизни ещё нет. Здесь слово служит действием: двое определяют, как хотят держаться. Важно не превращать детский ритуал в готовую философскую систему — его сила также в наивности и игре.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "Friendship creates a promise addressed to the future",
+          "body": "<p>His childhood friend Petya Skovorodnikov shares Sanya’s early trials and plans. Their oath gives the future a form before stable adult lives exist. Words act here: two boys decide how they want to stand together. The childhood ritual should not be inflated into a complete philosophical system. Its force also comes from play and naivety.</p>"
+        }
+      }
+    },
+    {
+      "id": "oath-register-mixture",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "В клятве высокая речь встречается с детской игрой",
+          "body": "<p>Геймбух замечает в мальчишеской клятве смешение поэтического девиза с игровыми и фольклорными оборотами. Такое соседство делает обещание одновременно серьёзным и возрастным. В нём слышно не готового взрослого героя, а детей, которые пробуют связать жизнь словами. Сила сцены возникает из неоднородности языка, а не из безупречной торжественности.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "The oath brings elevated language into childhood play",
+          "body": "<p>Geymbukh notes how the boys’ oath mixes a poetic motto with playful and folkloric turns. Their promise consequently sounds serious and unmistakably young. We hear children trying to bind life through words, rather than already completed adult heroes. The scene gains force from its mixture of registers instead of an unbroken ceremonial solemnity.</p>"
+        }
+      }
+    },
+    {
+      "id": "peer-audience",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Сверстники дают другое зеркало",
+          "body": "<p>Взрослый может назначить ребёнку роль; сверстники могут подтвердить или оспорить её в общей жизни. Поэтому дружеская среда важна не только как поддержка. Она позволяет испытать характер в поступках, шутках, соревновании и несогласии. При чтении школы полезно замечать, чьё мнение меняет Санин взгляд на себя и почему именно этому голосу он верит.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "Peers provide another kind of mirror",
+          "body": "<p>An adult can assign a child a role; peers can confirm or challenge it through shared life. Friendship therefore matters as more than support. It lets character be tested through action, humour, competition and disagreement. While reading the school scenes, notice whose judgement changes Sanya’s view of himself and why he trusts that particular voice.</p>"
+        }
+      }
+    },
+    {
+      "id": "adult-role-map",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        4,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "04 · Школа и принадлежность",
+          "title": "Сравни взрослых по тому, что они разрешают",
+          "body": "<p>Полезно составить мысленную карту: один взрослый помогает заговорить, другой — учиться, третий обладает властью определять чужую репутацию. Не нужно заранее распределять окончательные приговоры. Достаточно спросить, увеличивает ли конкретное взаимодействие способность подростка понимать и действовать. Такой вопрос точнее, чем деление всех старших на строгих и добрых.</p>"
+        },
+        "en": {
+          "section": "04 · School and belonging",
+          "title": "Compare adults by the possibilities they permit",
+          "body": "<p>Build a mental map: one adult helps Sanya speak, another helps him learn, while another can influence somebody’s reputation. Final verdicts can wait. Ask whether a particular interaction increases a teenager’s ability to understand and act. This question distinguishes kinds of adult influence more accurately than dividing all grown-ups into the strict and the kind.</p>"
+        }
+      }
+    },
+    {
+      "id": "several-prototypes",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "Биография Сани собрана не с одного человека",
+          "body": "<p>Библиотечный очерк называет генетика Михаила Лобашёва источником ряда детских обстоятельств и лётчика Самуила Клебанова — консультантом по авиационной жизни. Отсюда не следует, что один реальный человек прожил все события Сани. Прототип помогает понять происхождение материала, а художественный персонаж возникает через его отбор, соединение и подчинение самостоятельному замыслу.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "Sanya does not reproduce one person’s biography",
+          "body": "<p>The library essay identifies the geneticist Mikhail Lobashyov as a source for some childhood circumstances and the pilot Samuil Klebanov as a consultant on aviation. This does not mean one real person lived every event in Sanya’s life. Prototypes explain material’s origins; selection and combination turn that material into a fictional character.</p>"
+        }
+      }
+    },
+    {
+      "id": "letter-outlives-route",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "Недоставленное письмо всё ещё действует",
+          "body": "<p>Письма попадают к Сане потому, что привычный путь доставки оборвался: почтальон погиб, сумка оказалась у реки, адреса пострадали от воды. Но сообщение продолжает жить через чтение и память. Уже завязка разводит намерение отправителя и судьбу текста: письмо может не попасть к адресату, а изменить жизнь другого человека.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "An undelivered letter can still have consequences",
+          "body": "<p>The letters reach Sanya because their intended delivery has failed: the postman has died, the bag has reached the riverbank and water has damaged addresses. Yet the message survives through reading and memory. The opening separates a sender’s intention from a text’s fate. A letter can miss its recipient and still alter someone else’s life.</p>"
+        }
+      }
+    },
+    {
+      "id": "letter-conditional-future",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "Письмо сохраняет неопределённое будущее",
+          "body": "<p>Первое прочитанное письмо сообщает о положении шхуны, пережитых трудностях и возможной дальнейшей судьбе людей. Автор письма ещё не знает того, что позднее станет предметом расследования. Поэтому документ ценен не всеведением: он удерживает ограниченную перспективу участника, для которого исход остаётся открытым. Читать его следует вместе с этой неопределённостью.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "The letter preserves an uncertain future",
+          "body": "<p>The first letter describes the schooner’s situation, hardships and possible futures. Its writer does not yet know what will later become the subject of investigation. The document matters because it preserves a participant’s limited perspective, with the outcome still open. Reading it attentively means retaining that uncertainty rather than supplying hindsight the writer could not possess.</p>"
+        }
+      }
+    },
+    {
+      "id": "letter-social-tone",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "Вежливая форма удерживает бедствие",
+          "body": "<p>Официальный отрывок позволяет заметить контраст между тяжёлыми обстоятельствами и учтивой формой обращения. Письмо связывает полярное испытание с человеком, который ждёт дома, и с обязанностью сообщить сведения. Такая форма не уменьшает страдание; она делает его передаваемым. Читатель слышит не только приключение, но и усилие сохранить человеческую связь внутри беды.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "Courtesy contains an account of disaster",
+          "body": "<p>The official excerpt allows us to notice a contrast between terrible circumstances and a courteous form of address. The letter connects polar hardship with someone waiting at home and with an obligation to convey information. Courtesy does not diminish suffering; it gives suffering a communicable form. We encounter an effort to preserve human connection inside disaster.</p>"
+        }
+      }
+    },
+    {
+      "id": "memory-needs-context",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "Помнить слова ещё не значит понимать их",
+          "body": "<p>Саня запоминает письма раньше, чем способен установить все связи между именами, местами и событиями. Позднее меняется не только объём известных ему сведений — меняется смысл уже знакомого текста. Это одна из самых точных моделей взросления в книге: старое воспоминание становится новым знанием, когда появляется недостающий контекст.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "Remembering words is not yet understanding them",
+          "body": "<p>Sanya remembers the letters before he can establish every connection between their names, places and events. Later he gains more than additional information: familiar wording acquires new meaning. This provides a precise model of growing up. An old memory becomes new knowledge when the context needed to understand it finally becomes available.</p>"
+        }
+      }
+    },
+    {
+      "id": "documents-have-material-body",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "У документа есть бумажная судьба",
+          "body": "<p>В начале адрес размыт; в другом исследовательском эпизоде трудность создаёт плохо читаемый дневник. Содержание зависит от сохранности носителя. Каверин делает смысл физически уязвимым: вода, время и условия письма вмешиваются в возможность понять написанное. Детективная работа поэтому включает обращение с повреждением, а не только поиск скрытой мысли.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "A document has a material life",
+          "body": "<p>A blurred address complicates the opening; elsewhere, a difficult diary makes interpretation laborious. Content depends on the condition of its carrier. Kaverin makes meaning physically vulnerable: water, time and the circumstances of writing interfere with understanding. Detective work consequently includes dealing with damaged records, not merely discovering a thought concealed inside otherwise transparent words.</p>"
+        }
+      }
+    },
+    {
+      "id": "repetition-as-reinterpretation",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "Повтор текста может двигать сюжет",
+          "body": "<p>Обычно повтор кажется остановкой. Здесь возвращение к тем же словам показывает, насколько изменился тот, кто их слушает или читает. Чтобы заметить движение, сравни не фразу с фразой, а ситуации чтения: что герой теперь знает, чего хочет и кому способен объяснить услышанное? Новизна возникает в отношении к документу.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "Repeating a text can move the story forward",
+          "body": "<p>Repetition often seems like a pause. Here, returning to familiar wording can reveal how much its listener or reader has changed. Compare the situations of reading rather than only the repeated sentences. What does the protagonist now know, want and have the ability to explain? The new element is the relationship to the document.</p>"
+        }
+      }
+    },
+    {
+      "id": "dead-person-not-clue",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "05 · Письма меняют значение",
+          "title": "За сумкой стоит чужая оборванная жизнь",
+          "body": "<p>Погибший почтальон мог бы остаться удобным устройством завязки. Однако описание молодого человека задерживает взгляд на нём самом. Так книга напоминает, что предметы приключения проходят через чьи-то жизни. Для внимательного чтения это важная поправка: интересная улика не исчерпывает значение человека, благодаря которому она вообще оказалась перед героем.</p>"
+        },
+        "en": {
+          "section": "05 · Letters change their meaning",
+          "title": "A lost bag belongs to an interrupted life",
+          "body": "<p>The dead postman could have been merely a convenient way to start a mystery. Yet the description pauses over the young man himself. Objects in an adventure pass through individual lives. This creates an important correction to puzzle-driven reading: the value of a clue does not exhaust the significance of the person through whom it reaches us.</p>"
+        }
+      }
+    },
+    {
+      "id": "investigation-is-comparison",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Поиск состоит из сопоставлений",
+          "body": "<p>В расследовании участвуют письма, записи, книги и газетные материалы. Ни один тип документа не даёт герою права перестать думать. Разнородные свидетельства нужно связать: что относится к одной истории, что объясняет знакомую деталь, а что меняет исходное предположение? Поэтому значительная часть приключения совершается за чтением, ещё до движения по карте.</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "Investigation proceeds through comparisons",
+          "body": "<p>Letters, notes, books and newspapers enter the investigation. No category of document releases the protagonist from thinking. Different kinds of testimony must be connected: which concern the same history, clarify a familiar detail or alter an initial assumption? Much of the adventure consequently occurs through reading, before movement across a map becomes possible.</p>"
+        }
+      }
+    },
+    {
+      "id": "source-versus-inference",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Отделяй запись от вывода",
+          "body": "<p>Для собственного чтения заведи два мысленных столбца: что буквально известно из документа и что герой заключает на его основе. Они не обязаны совпадать по объёму. В удачном расследовании вывод объясняет материал; в поспешном материал лишь украшает заранее выбранную версию. Эта проверка помогает следить за рассуждением, не зная развязки.</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "Separate a record from an inference",
+          "body": "<p>For your own reading, keep two mental columns: what a document directly establishes, and what the protagonist infers from it. The second may extend beyond the first. A sound investigation uses an inference to explain material; a hasty one uses material to decorate a preferred theory. This distinction helps follow reasoning without knowing the ending.</p>"
+        }
+      }
+    },
+    {
+      "id": "handwriting-pattern",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Неразборчивый почерк требует модели",
+          "body": "<p>В разборе Жолковского подробно рассмотрено чтение дневника: Саня сравнивает более ясные и трудные места, ищет повторяемые особенности письма. Продвижение появляется благодаря приёму, а не просто ещё одной порции терпения. В этой сцене герой действует как исследователь языка: понимает систему следов, оставленных другим человеком в тяжёлых обстоятельствах.</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "Illegible handwriting requires a model",
+          "body": "<p>Zholkovsky examines Sanya’s deciphering of a diary: he compares clearer and harder passages and looks for recurring features of the handwriting. Progress comes from a method rather than simply another dose of patience. The protagonist becomes an investigator of language, understanding a system of marks left by another person under difficult conditions.</p>"
+        }
+      }
+    },
+    {
+      "id": "certainty-can-hurt",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Убедительность требует ответственности",
+          "body": "<p>Чем сильнее история касается близких, тем опаснее принять убедительную версию за окончательное знание. Роман заставляет учитывать не только смелость говорящего, но и последствия сказанного. Наш вывод прост: сообщение правды требует добросовестной проверки и внимания к людям. Бережность не равна молчанию, а уверенность сама по себе ещё не равна доказательству.</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "Being convincing carries a responsibility",
+          "body": "<p>The more a story concerns people we love, the more dangerous it becomes to mistake a persuasive account for settled knowledge. The novel invites attention to consequences as well as courage. Our conclusion is straightforward: truthful disclosure requires careful checking and regard for people. Care need not mean silence, and confidence alone is not proof.</p>"
+        }
+      }
+    },
+    {
+      "id": "absence-of-record",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Отсутствие находки не равно опровержению",
+          "body": "<p>Если письмо не сохранилось или место не найдено, возможны разные объяснения: версии ошибочны, поиск неполон, след утрачен. Не следует выбирать удобное объяснение без дополнительной опоры. Этот аналитический вопрос годится и для романа, и для исторического поиска: что именно мы проверили, чтобы отсутствие результата действительно что-то значило?</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "Finding nothing is not automatically a refutation",
+          "body": "<p>A missing letter or an unsuccessful search permits several explanations: a theory is wrong, a search is incomplete or a trace has vanished. Choosing the most convenient answer requires further support. Ask this question of both fiction and historical investigation: what exactly was examined before the absence of a result could carry evidential weight?</p>"
+        }
+      }
+    },
+    {
+      "id": "negative-finding-case",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Реальный полярный поиск сообщает и о неудачах",
+          "body": "<p>В отчёте участницы экспедиции 2021 года описана проверка западного берега мыса Гранта: новых останков и предметов там не нашли. Авторы фиксируют условия и ограниченность вывода. Это конкретный противовес приключенческому ожиданию, будто упорная экспедиция обязательно получает решающую улику: содержательным результатом бывает честно описанное отсутствие находки.</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "A real polar search reports unsuccessful findings too",
+          "body": "<p>A participant’s report on a 2021 expedition describes examining the western shore of Cape Grant without finding additional human remains or artefacts. It records conditions and the limits of interpretation. This counters the adventure-reader’s expectation that persistence must produce a decisive clue. An honestly delimited absence of findings can itself be an informative result.</p>"
+        }
+      }
+    },
+    {
+      "id": "motive-not-proof",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "06 · Как устроена проверка",
+          "title": "Мотив объясняет возможность, не доказывает поступок",
+          "body": "<p>Ревность, тщеславие или страх способны сделать чужое поведение понятнее. Но во время чтения важно не превращать психологическое объяснение в готовую улику. Спрашивай отдельно: чего человек мог хотеть и что подтверждает его действие? Так литературный интерес к характеру не подменяет интереса к тому, как именно строится доказательство.</p>"
+        },
+        "en": {
+          "section": "06 · How investigation works",
+          "title": "A motive suggests a possibility, not a proven act",
+          "body": "<p>Jealousy, vanity or fear may make behaviour more understandable. While reading, however, do not turn a psychological explanation into ready-made evidence. Ask separately what a person might have wanted and what establishes what they actually did. This keeps an interest in character from replacing attention to the way a case is constructed.</p>"
+        }
+      }
+    },
+    {
+      "id": "katya-own-perspective",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Катя — ещё один центр истории",
+          "body": "<p>Катя Татаринова важна не только потому, что Саня её любит и интересуется судьбой её отца. Две части романа передают повествование ей самой. У неё появляется собственное поле опыта, а у читателя — возможность увидеть знакомый мир с другой стороны. История взросления перестаёт принадлежать одному мальчику без остатка.</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "Katya is another centre of the story",
+          "body": "<p>Katya Tatarinova matters beyond Sanya’s love for her and his interest in her father. Two parts of the novel give her the narration. She acquires a field of experience of her own, while readers see a familiar world from another side. The coming-of-age story no longer belongs entirely to one boy.</p>"
+        }
+      }
+    },
+    {
+      "id": "family-map",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Сначала различи имена и отношения",
+          "body": "<p>Иван Львович Татаринов — отец Кати и капитан пропавшей экспедиции. Николай Антонович — его двоюродный брат и руководитель московской школы. Марья Васильевна — мать Кати. Эта небольшая карта нужна, чтобы не спутать семейную близость с одинаковой ролью в событиях. Оценку поступков лучше оставить до знакомства с соответствующими свидетельствами.</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "First distinguish names from relationships",
+          "body": "<p>Ivan Lvovich Tatarinov is Katya’s father and the captain of the missing expedition. Nikolai Antonovich is his cousin and heads the Moscow school. Marya Vasilyevna is Katya’s mother. This small map prevents family proximity from being confused with identical roles in events. Judgements about conduct should wait for the relevant evidence.</p>"
+        }
+      }
+    },
+    {
+      "id": "photograph-presence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Фотография делает отсутствующего зримым",
+          "body": "<p>Андронова выделяет фотографии как один из способов связи времён в романе. Саня встречается с образом капитана раньше, чем способен восстановить его историю. Изображение создаёт ощущение присутствия, но не заменяет сведений о поступках. Полезно следить, когда портрет помогает приблизиться к человеку, а когда провоцирует дорисовать неизвестное силой воображения.</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "A photograph makes an absent person visible",
+          "body": "<p>Andronova identifies photographs as a way of connecting the novel’s different times. Sanya encounters the captain’s image before he can reconstruct his history. A picture offers a sense of presence without supplying an account of conduct. Notice when a portrait brings somebody closer and when it tempts a viewer to fill gaps through imagination.</p>"
+        }
+      }
+    },
+    {
+      "id": "love-needs-two-agents",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Любовь не отменяет права судить самой",
+          "body": "<p>Если читать Катю как награду за Санину настойчивость, исчезнет главное напряжение отношений: она должна сама разбираться в прошлом своей семьи и в настоящем. Её согласие не обязано следовать из того, что читатель симпатизирует герою. Более сильное чтение сохраняет двух людей с разной памятью, болью и ответственностью за доверие.</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "Love does not cancel independent judgement",
+          "body": "<p>Treating Katya as a reward for Sanya’s persistence erases the central tension in their relationship. She must judge her family’s past and her own present for herself. Her agreement does not follow from a reader liking the hero. A richer reading preserves two people with different memories, vulnerabilities and responsibilities for trust.</p>"
+        }
+      }
+    },
+    {
+      "id": "attachment-cost-of-revision",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        7,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Менять версию семьи особенно трудно",
+          "body": "<p>Когда новая версия касается постороннего, её можно оценить сравнительно спокойно. Когда она меняет представление о близких, на кону оказываются опора, благодарность и собственная биография. Это не делает любую семейную версию верной. Зато объясняет, почему требование немедленно согласиться может оказаться нечутким даже тогда, когда говорящий уверен в своих основаниях.</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "Revising a family story carries a special cost",
+          "body": "<p>A theory about a stranger can be assessed with relative distance. A theory that changes one’s understanding of family threatens security, gratitude and personal history. That does not make every family account correct. It explains why demanding immediate agreement may be insensitive even when the person presenting the theory feels confident about its foundations.</p>"
+        }
+      }
+    },
+    {
+      "id": "katya-work-world",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Работа Кати расширяет её пространство",
+          "body": "<p>В географическом разборе Жолковского Катина работа геологом важна как самостоятельная линия перемещений и опыта. Она не просто находится там, где нужен герой. Это меняет масштаб любовной истории: отношения существуют между людьми, чья жизнь включает труд и расстояния. Соединить их миры труднее, чем однажды произнести правильные слова.</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "Katya’s work enlarges her world",
+          "body": "<p>In Zholkovsky’s discussion of geography, Katya’s work as a geologist provides an independent line of movement and experience. She is not merely placed wherever the protagonist needs her. This enlarges the love story: it connects people whose lives include work and distance. Bringing their worlds together demands more than finding the right words once.</p>"
+        }
+      }
+    },
+    {
+      "id": "trust-speed",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "07 · Катя и семейная память",
+          "title": "Доверие живёт в другом темпе, чем спор",
+          "body": "<p>Убедительный довод может измениться за минуту; чувство безопасности рядом с человеком — не обязательно. Поэтому полезно различать логическое согласие и восстановление отношений. В романной истории любви интересен именно зазор между ними: что должно произойти, чтобы человека не только признали правым, но и смогли снова слушать без страха?</p>"
+        },
+        "en": {
+          "section": "07 · Katya and family memory",
+          "title": "Trust moves at a different speed from argument",
+          "body": "<p>A persuasive argument can change in a minute; a sense of safety with another person may not. Distinguish intellectual agreement from the repair of a relationship. The gap between them gives the love story much of its interest. What would allow somebody not merely to acknowledge a claim but to listen again without fear?</p>"
+        }
+      }
+    },
+    {
+      "id": "dream-needs-training",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Лётчиком становятся раньше первого подвига",
+          "body": "<p>Ещё школьником Саня готовится к авиации: занимается физически, читает и учится владеть собой. Критика подчёркивает систематичность этой подготовки. Мечта получает повседневную цену и проверяемое содержание. Важен переход от красивого имени будущей профессии к действиям, которые пока никому не кажутся приключением, но создают возможность работать в небе.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Becoming a pilot begins before any exploit",
+          "body": "<p>While still at school, Sanya prepares for aviation through physical practice, reading and learning self-command. Critics emphasise the systematic nature of this preparation. A dream acquires an everyday cost and concrete content. The important transition is from admiring a profession’s name to doing work that does not yet look adventurous but makes flight possible.</p>"
+        }
+      }
+    },
+    {
+      "id": "reading-technical-bridge",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Книги связывают желание с устройством мира",
+          "body": "<p>Авиационное чтение интересно не перечнем правильных книг, а изменением вопроса. Вместо «хочу летать» возникает «что я должен понимать, чтобы полёт был возможен». Это шаг от зрителя к участнику. При чтении профессиональной линии замечай, где герой приобретает способность действовать, а где пока только примеряет привлекательный образ себя.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Books connect desire with the workings of the world",
+          "body": "<p>Reading about aviation matters because it changes a question, not because it supplies a list of approved books. “I want to fly” becomes “What must I understand for flight to be possible?” A spectator begins turning into a participant. Notice where Sanya acquires an actual capability and where he is still trying on an attractive identity.</p>"
+        }
+      }
+    },
+    {
+      "id": "self-command-not-numbness",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Самообладание не равно отсутствию чувств",
+          "body": "<p>Санина горячность мешает говорить с людьми, от которых зависят решения. Учиться управлять собой здесь можно понимать как поиск формы для сильного чувства. Чувство не исчезает, но перестаёт единолично определять способ разговора. Важно не спутать это с требованием стать нечувствительным: без переживания несправедливости само расследование потеряло бы движущую силу.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Self-command does not mean having no feelings",
+          "body": "<p>Sanya’s impulsiveness complicates conversations with people who control decisions. Learning self-command can be understood as finding a form for strong feeling. Emotion remains without determining every feature of an exchange. This need not mean becoming unfeeling: without his response to injustice, the investigation itself would lose a major source of energy.</p>"
+        }
+      }
+    },
+    {
+      "id": "professional-duty",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Работа не обязана обслуживать личный поиск",
+          "body": "<p>Профессия даёт Сане средства двигаться к Северу, но авиация не существует только ради его собственной загадки. В ней есть другие люди, задания и ответственность. Такое двойное положение делает выбор содержательным: герой должен оставаться работником общего дела даже тогда, когда сильнее всего его занимает давнее личное обещание.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Work has obligations beyond a private quest",
+          "body": "<p>Aviation gives Sanya ways of moving towards the North, but it does not exist solely to serve his private mystery. The profession includes other people, assignments and obligations. This double commitment gives his choices substance. He must remain a participant in shared work even when a long-standing personal promise dominates his attention.</p>"
+        }
+      }
+    },
+    {
+      "id": "delayed-assignment",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Назначение на Север нельзя просто захотеть",
+          "body": "<p>В изложении Майофис между учёбой и полярной работой стоят трудности подготовки и ожидание назначения. Это важное замедление: направление жизни выбирается человеком, но доступ к конкретному месту зависит от системы. Саня не переносится к цели силой красивого девиза. Ему приходится существовать в промежутках, где результат ещё не подтверждает правильность выбора.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Wanting a northern posting does not produce one",
+          "body": "<p>Mayofis describes difficulties in training and a wait for a northern posting between study and polar work. This delay matters. A person may choose a direction while access to a particular job depends on an institution. A memorable motto cannot transport Sanya to his goal. He must live through intervals before results validate his choice.</p>"
+        }
+      }
+    },
+    {
+      "id": "competence-check",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Проверяй мечту по приобретённой способности",
+          "body": "<p>В качестве читательского упражнения сформулируй для каждого этапа одну новую способность Сани, а не одну новую мечту. Может ли он объяснить, прочитать, выдержать разговор, выполнить работу? Такой список показывает развитие точнее перечня громких намерений. Это способ анализировать романную профессию, а не требование к подростку немедленно определить всю свою будущую жизнь.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Judge a dream by the capability it produces",
+          "body": "<p>As a reading exercise, name one new capability at each stage of Sanya’s development instead of another ambition. Can he explain, interpret, sustain a conversation or perform a job? That list captures growth more precisely than impressive intentions. It is a way to analyse his professional story, not a demand that teenagers decide their entire future immediately.</p>"
+        }
+      }
+    },
+    {
+      "id": "vocation-not-ranking",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "08 · Профессия вместо мечты",
+          "title": "Чужая обычная работа тоже нужна",
+          "body": "<p>Рядом с лётчиком остаются учитель, врач, люди, которые кормят и читают вслух. Если признать ценность только за рискованной профессией, роман обеднеет: именно менее зрелищные занятия обеспечивают его героям жизнь и развитие. Север увеличивает масштаб действия, но не делает заботу во дворе или школьный урок менее важными по устройству этой истории.</p>"
+        },
+        "en": {
+          "section": "08 · A profession beyond a dream",
+          "title": "Other people’s ordinary work matters too",
+          "body": "<p>Alongside the pilot stand a teacher, a doctor and people who feed others and read aloud. Valuing only a dangerous profession would impoverish the novel: less spectacular work sustains its characters’ lives and development. The North enlarges the scale of action without making care in a courtyard or a school lesson structurally less important.</p>"
+        }
+      }
+    },
+    {
+      "id": "north-changes-scale",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Север расширяет масштаб знакомого вопроса",
+          "body": "<p>Лёд и расстояния придают истории приключенческую силу, но основной вопрос уже возник в детстве: как передать сведения и добиться понимания, когда обычная связь нарушена? На Севере эта проблема становится пространственной и материальной. Документ нужно не только понять, но и сохранить, доставить, связать с местом и чужим опытом.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "The North enlarges a familiar question",
+          "body": "<p>Ice and distance give the story its adventurous scale, but its central question begins in childhood: how can information reach others when ordinary communication breaks down? In the North, that problem becomes geographical and material. A record must be preserved and conveyed as well as understood, then connected with a place and another person’s experience.</p>"
+        }
+      }
+    },
+    {
+      "id": "expanding-space-abstract",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "География растёт ступенями вместе с героем",
+          "body": "<p>В доступной аннотации исследования хронотопа выделено расширение от локального пространства к внешнему миру по мере становления героя. Этого достаточно для узкой гипотезы чтения, но не для пересказа всей статьи. Сопоставляй новые места с новыми возможностями действия: география может обозначать приобретённую самостоятельность, а не только рост расстояния от дома.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "Geography expands in stages with the protagonist",
+          "body": "<p>The accessible abstract of the chronotope study identifies an expansion from local space towards the wider world as the protagonist develops. It supports this limited reading hypothesis, not a summary of the entire paper. Compare new places with new possibilities of action: geography can mark acquired agency rather than merely increasing distance from home.</p>"
+        }
+      }
+    },
+    {
+      "id": "composite-expedition",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Вымышленная экспедиция имеет несколько исторических опор",
+          "body": "<p>Библиотечный очерк связывает замысел с экспедициями Седова, Брусилова и Русанова 1912 года. Это несколько историй, а не готовый протокол одного происшествия под другими именами. Поэтому по роману нельзя выносить приговор реальным участникам. Каверин соединяет документальный материал с самостоятельным сюжетом, а читателю следует сохранять границу между ними.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "The fictional expedition has several historical anchors",
+          "body": "<p>The library essay connects the novel’s conception with the 1912 expeditions of Sedov, Brusilov and Rusanov. These are several histories, not a ready-made case report with renamed participants. The novel cannot establish guilt among real explorers. Kaverin combines historical material with an invented plot, and readers should preserve the boundary between those forms of knowledge.</p>"
+        }
+      }
+    },
+    {
+      "id": "ice-versus-intention",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Даже подготовленный маршрут меняется на месте",
+          "body": "<p>В отчёте о реальной экспедиции 2021 года лёд и погода ограничивают высадки и заставляют менять план. Этот небольшой факт полезнее романтического представления о победе человека над пространством. Намерение определяет направление, но условия определяют доступные действия. Историческое сопоставление не доказывает подробности вымышленных полётов Сани и не превращает роман в инструкцию.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "Even a prepared route changes on location",
+          "body": "<p>The report on the real 2021 expedition describes ice and weather limiting landings and changing plans. This concrete fact is more useful than an image of humanity simply conquering space. Intention sets a direction; conditions determine possible actions. The comparison establishes neither details of Sanya’s fictional flights nor the novel’s value as an expedition manual.</p>"
+        }
+      }
+    },
+    {
+      "id": "fiction-historical-boundary",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        9,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Художественная правда не закрывает историческое дело",
+          "body": "<p>Роман вправе собрать разрозненные следы в выразительное целое. Историк обязан оставить открытым то, для чего нет достаточной опоры. Эти задачи различаются даже при одинаковых именах кораблей на соседних страницах исследования. Любовь к приключению становится сильнее, когда читатель способен наслаждаться его формой и одновременно не принимать её за найденный архивный ответ.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "Literary truth does not close a historical case",
+          "body": "<p>A novel may bring scattered traces into an expressive whole. Historical inquiry must leave open what its evidence cannot settle. Those tasks remain different even when related ship names appear in a discussion. Adventure can be enjoyed more fully when a reader appreciates its construction without mistaking that construction for a recovered archival answer.</p>"
+        }
+      }
+    },
+    {
+      "id": "real-preservation",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Следы не ждут исследователя нетронутыми",
+          "body": "<p>Участники реального плавания описывают разрушение ранее замеченных исторических предметов камнями и льдом. Сохранность — не неизменное свойство находки. Это добавляет к чтению романа важную историческую меру: прошлое становится доступным не по одному нашему желанию, а через хрупкое сочетание записи, материала, условий и своевременного внимания.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "Traces do not wait untouched for investigators",
+          "body": "<p>Participants in the real voyage describe historical objects, observed earlier, being damaged by rocks and ice. Preservation is not a permanent property of a find. This gives the novel a useful historical counterpoint. The past becomes accessible through a fragile combination of records, material survival, conditions and timely attention, rather than through desire alone.</p>"
+        }
+      }
+    },
+    {
+      "id": "maps-are-knowledge",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Карта показывает и знание, и пробелы",
+          "body": "<p>Для приключенческого чтения карта часто обещает путь. Для внимательного чтения она ещё показывает степень известности пространства: что нанесено надёжно, чему доверились и где реальность может оказаться иной. Так география становится вопросом знания. Это наш способ сопоставить литературный Север с исследовательским, не приписывая герою современного картографического оборудования.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "A map contains knowledge and gaps",
+          "body": "<p>An adventure reader may treat a map as the promise of a route. An attentive reader can also see a distribution of knowledge: what is established, what has been trusted and where reality might differ. Geography becomes an epistemic question. This comparison connects the literary North with investigation without assigning modern mapping equipment to Sanya.</p>"
+        }
+      }
+    },
+    {
+      "id": "north-not-empty",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        4,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "09 · Север и реальная история",
+          "title": "Север нельзя свести к сцене для героя",
+          "body": "<p>Когда взгляд сосредоточен на подвиге, территория легко превращается в пустое препятствие. Но работа, связь и поиск всегда предполагают других людей и накопленные сведения. Даже в приключенческой оптике полезно спрашивать, чей опыт делает путь доступным. Такой вопрос расширяет чтение, а не добавляет к книге несуществующие встречи с придуманными местными жителями.</p>"
+        },
+        "en": {
+          "section": "09 · The North and real history",
+          "title": "The North is more than a stage for a hero",
+          "body": "<p>Focusing only on an exploit can turn a region into an apparently empty obstacle. Work, communication and searching depend on other people and accumulated knowledge. Even within an adventure, ask whose experience makes a route accessible. This broadens interpretation without adding invented encounters with local inhabitants or pretending the novel supplies perspectives it does not provide.</p>"
+        }
+      }
+    },
+    {
+      "id": "status-is-not-evidence",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Положение человека не доказывает его версию",
+          "body": "<p>Ребёнок, школьник, капитан, руководитель — эти роли дают словам разный общественный вес. Но роль не заменяет содержания свидетельства. Одно из напряжений романа можно читать так: герой должен научиться обращаться к общему миру, не принимая авторитет за автоматическую истину и не считая собственную уязвимость доказательством безошибочности.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "A person’s position does not prove their account",
+          "body": "<p>Child, pupil, captain and administrator are roles that give words different social weight. A role cannot replace the content of testimony. One tension in the novel is Sanya’s need to address a shared world without treating authority as automatic truth or treating his own vulnerability as proof that he cannot be mistaken.</p>"
+        }
+      }
+    },
+    {
+      "id": "record-versus-reputation",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Репутация и запись существуют по разным правилам",
+          "body": "<p>Репутация распространяется через повторение чужого мнения. Запись можно перечитать, сопоставить и оспорить её толкование. Но документ тоже входит в общественный мир через людей. Поэтому конфликт нельзя решить простым предпочтением бумаги слуху: нужно ещё понимать происхождение текста, доступ к нему и основания того, кто предлагает своё объяснение.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "Reputation and records follow different rules",
+          "body": "<p>Reputation travels through the repetition of somebody’s judgement. A record can be reread, compared and interpreted differently. Documents nevertheless enter public life through people too. Merely preferring paper to rumour does not solve the problem. One must consider a text’s origin, access to it and the grounds offered by the person interpreting it.</p>"
+        }
+      }
+    },
+    {
+      "id": "labels-political-pressure",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Ярлык может подменять обсуждение доводов",
+          "body": "<p>Геймбух рассматривает эпизод, где спор вокруг исследовательской работы переводится в политически окрашенную характеристику человека. Для эпохи такая риторика имеет особый вес. Литературоведческий вопрос здесь точен: обсуждают ли содержание утверждения или право говорящего вообще присутствовать в разговоре? Эта подмена различима по языку ещё до окончательного решения загадки.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "A label can replace discussion of an argument",
+          "body": "<p>Geymbukh examines an episode in which a dispute surrounding research is recast as a politically charged judgement about a person. Such language has particular weight in the period. The analytical question is precise: is the claim being discussed, or the speaker’s right to participate? Language can reveal that substitution before the mystery is resolved.</p>"
+        }
+      }
+    },
+    {
+      "id": "public-accountability",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Сказать всем — значит отвечать перед всеми",
+          "body": "<p>Личное обещание может направлять поиск, но публичное утверждение требует другого масштаба ответственности. Слушатели не обязаны разделять личные привязанности говорящего. Им нужны понятные основания и границы вывода. Так переход к общественному разговору становится частью взросления: недостаточно искренне верить, важно сделать утверждение доступным для чужой самостоятельной оценки.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "Addressing everyone means answering to everyone",
+          "body": "<p>A private promise may guide a search, but a public claim demands another scale of responsibility. Listeners need not share the speaker’s attachments. They need intelligible grounds and limits. Entering public discussion therefore becomes part of growing up. Sincerity matters, but a claim must also become available for other people’s independent assessment.</p>"
+        }
+      }
+    },
+    {
+      "id": "institutions-two-functions",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Система может помогать и препятствовать",
+          "body": "<p>Школа и профессиональная подготовка открывают Сане возможности; власть отдельных взрослых способна осложнять его путь. Эти функции не нужно сводить к одному лозунгу о хорошей или плохой системе. Интереснее различать, какие правила позволяют учиться и проверять сведения, а какие отношения делают человека зависимым от чужого расположения.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "An institution can enable and obstruct",
+          "body": "<p>School and professional training open possibilities for Sanya, while particular adults can use authority to complicate his path. These functions need not be collapsed into a single verdict about a good or bad system. Distinguish rules that enable learning and examination from relationships that make a person dependent on someone else’s favour.</p>"
+        }
+      }
+    },
+    {
+      "id": "private-public-document",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Частные слова получают общественную жизнь",
+          "body": "<p>В анализе Геймбух письма, заметки и другие включённые тексты ведут себя как самостоятельные документы: их цитируют, обсуждают, к ним возвращаются. После отделения от автора слова оказываются доступны чужому толкованию. Это усложняет простую модель признания: произнести мысль ещё не значит сохранить контроль над её дальнейшим использованием.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "Private words acquire a public life",
+          "body": "<p>Geymbukh shows how letters, notices and other embedded texts behave as independent documents: people quote them, discuss them and return to them. Once separated from a speaker, words become available for somebody else’s interpretation. This complicates recognition. Expressing a thought does not mean retaining control over all its subsequent uses.</p>"
+        }
+      }
+    },
+    {
+      "id": "opponent-not-audience",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "10 · Авторитет и публичная правда",
+          "title": "Противник и слушатель — разные адресаты",
+          "body": "<p>В споре легко говорить только человеку, которого хочешь опровергнуть. Но убедительность для него и ясность для остальных — не одно и то же. Читая конфликт, замечай адресата каждой реплики: это попытка уколоть соперника, защитить близкого, сообщить факт или объяснить связь? Один разговор может содержать все эти действия и оттого становиться труднее.</p>"
+        },
+        "en": {
+          "section": "10 · Authority and public truth",
+          "title": "An opponent and an audience are different addressees",
+          "body": "<p>In a dispute, it is easy to speak only to the person one wants to defeat. Convincing that person and being clear to others are different tasks. Notice the addressee of each exchange: is it an attack, protection of a loved one, a factual report or an explanation? One conversation may contain all those actions.</p>"
+        }
+      }
+    },
+    {
+      "id": "silence-to-narration",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Бывший безмолвный ребёнок рассказывает книгу",
+          "body": "<p>Взрослый Саня повествует о своём детстве от первого лица. Поэтому обретение голоса относится не только к событиям внутри истории: оно уже осуществлено в самой возможности рассказа. Читатель получает длинную речь человека, которого когда-то не могли понять. Форма романа превращает эту перемену в опыт, а не только в сообщение.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "The once-silent child becomes a storyteller",
+          "body": "<p>The adult Sanya tells his childhood in the first person. Gaining a voice is therefore more than an event within the story: it is enacted by the existence of his narration. Readers encounter the sustained speech of someone once unheard. The form lets us experience that transformation instead of merely being told it occurred.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-times-one-i",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Одно «я» принадлежит двум временам",
+          "body": "<p>Геймбух различает событие и момент его изображения. Ребёнок чего-то ещё не понимает, тогда как взрослый рассказчик может назвать заблуждение или добавить оговорку. Из этого возникает двойное зрение. Важно слышать, кто именно сейчас знает больше: маленький Саня в сцене или тот, кто спустя годы выбирает слова для её описания.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "One “I” belongs to two different times",
+          "body": "<p>Geymbukh distinguishes an event from the moment of its narration. The child may not understand something that the adult narrator can identify or qualify. This produces a double perspective. Listen for who knows more at a particular moment: the young Sanya inside a scene, or the later storyteller choosing how to describe it.</p>"
+        }
+      }
+    },
+    {
+      "id": "self-quote-distance",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Собственные прежние слова могут стать чужими",
+          "body": "<p>В литературоведческом разборе даже речь самого героя может отделяться от нынешнего рассказчика: он вспоминает, цитирует или оценивает прежнего себя. Так характер развивается не только через новые поступки. Меняется способность смотреть на старые слова со стороны. Это позволяет показать взросление без постоянного авторского пояснения, насколько герой теперь стал мудрее.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "One’s earlier words can become an object of scrutiny",
+          "body": "<p>In the scholarly account, the protagonist’s earlier speech can become distinct from his present narrating voice: he recalls, quotes or evaluates his former self. Character develops through more than new actions. The ability to inspect earlier language changes too. This conveys maturation without requiring an authorial explanation each time the protagonist becomes wiser.</p>"
+        }
+      }
+    },
+    {
+      "id": "katya-changes-knowledge",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Смена рассказчика меняет доступ к знанию",
+          "body": "<p>В шестой и седьмой частях рассказ ведёт Катя; в остальных восьми — Саня. Меняется не просто местоимение. То, что Саня переживал бы как собственное действие, Катя может знать по письму, ожиданию или чужому сообщению. Читатель вынужден жить с границей её доступа и видеть, что отношения состоят также из неполного знания друг о друге.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "Changing narrator changes access to knowledge",
+          "body": "<p>Katya narrates parts six and seven; Sanya narrates the other eight. The change involves more than a pronoun. What Sanya might experience as action, Katya may know through a letter, waiting or another person’s report. Readers live within her access to knowledge and see how relationships include incomplete knowledge of each other.</p>"
+        }
+      }
+    },
+    {
+      "id": "first-person-not-omniscience",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Близость к рассказчику не делает его всеведущим",
+          "body": "<p>Первое лицо даёт особую близость: мы слышим страх, неловкость, стремление оправдаться. Но близость не снимает вопроса, как человек узнал то, о чём рассказывает. При переходе от переживания к чужим мотивам проверяй источник знания. Такой способ чтения сохраняет симпатию к Сане и одновременно оставляет читателю собственную работу.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "Intimacy with a narrator does not create omniscience",
+          "body": "<p>First-person narration gives unusual intimacy: we hear fear, embarrassment and a desire to explain oneself. Intimacy does not remove the question of how a person knows what they report. When narration moves from experience to somebody else’s motives, consider its source. This preserves affection for Sanya while leaving readers interpretive work of their own.</p>"
+        }
+      }
+    },
+    {
+      "id": "heard-registers",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Чужой голос расширяет тесный мир рассказчика",
+          "body": "<p>Внутри первого лица слышны письма, официальные формулы, домашняя речь и слова друзей. Эти способы говорить различаются по цели и положению говорящего. При чтении можно отмечать не только сведения, но и регистр: кто приказывает, просит, обещает, объясняет? Так социальный мир проявляется через язык, а не только через перечисление персонажей.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "Other voices enlarge a narrator’s limited world",
+          "body": "<p>Letters, official formulas, domestic speech and friends’ words sound inside the first-person narration. Their purposes and social positions differ. Track register as well as information: who commands, asks, promises or explains? The social world then emerges through language, rather than only through a list of characters and their occupations or family connections.</p>"
+        }
+      }
+    },
+    {
+      "id": "selective-memory-reading",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "Не каждое прочитанное слово становится своим",
+          "body": "<p>В статье Геймбух важна избирательность Саниного отношения к чужой речи: разные чтения оставляют разный след. Поэтому герой не просто вместилище услышанных формул. Он привязывается к одним словам и не присваивает другие. Это позволяет точнее понимать влияние книг: присутствие текста рядом с ребёнком ещё не определяет, каким станет его внутренний голос.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "Not every word heard becomes one’s own",
+          "body": "<p>Geymbukh emphasises the selectivity of Sanya’s response to others’ words: different readings leave different traces. The protagonist is not merely a container for formulas he hears. Some become his own; others do not. This sharpens the idea of literary influence: a text’s presence near a child does not automatically determine the child’s inner voice.</p>"
+        }
+      }
+    },
+    {
+      "id": "reader-ahead-of-child",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "11 · Кто рассказывает",
+          "title": "Читатель иногда понимает раньше ребёнка",
+          "body": "<p>В эпизоде с обвинением отца взрослые термины постепенно складываются для Сани в смысл. Читатель может раньше заметить связь, которую ребёнок ещё нащупывает. Такое опережение усиливает тревогу, а не чувство превосходства: хочется помочь тому, кто пока не умеет объяснить очевидное нам. Повествовательная дистанция превращается в механизм сочувствия.</p>"
+        },
+        "en": {
+          "section": "11 · Who tells the story",
+          "title": "Readers sometimes understand before the child does",
+          "body": "<p>During the accusation against his father, adult terms gradually form a meaning for Sanya. Readers may recognise a connection before the child can grasp it. The advantage produces anxiety rather than superiority: we want to help someone unable to explain what appears clear to us. Narrative distance becomes a mechanism for sympathy.</p>"
+        }
+      }
+    },
+    {
+      "id": "reader-is-adventurer",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Чтение здесь само становится приключением",
+          "body": "<p>Приключенческий герой обычно ценен тем, что умеет двигаться через опасное пространство. У Сани рядом с этим стоит другая способность: двигаться через чужие слова и неполные записи. Эти пути связаны, но различаются. Роман позволяет почувствовать риск понимания: неверно прочитанный след способен направить человека не менее сильно, чем неверно выбранная дорога.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "Reading itself becomes an adventure",
+          "body": "<p>An adventure protagonist usually earns admiration by moving through dangerous space. Sanya also moves through other people’s language and incomplete records. Those journeys are connected but distinct. The novel makes interpretation feel consequential. A misread trace can send a person in the wrong direction as powerfully as a poorly chosen road.</p>"
+        }
+      }
+    },
+    {
+      "id": "verne-comparison",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Верновская загадка получает новый предмет поиска",
+          "body": "<p>Майофис сопоставляет сюжет с «Детьми капитана Гранта»: фрагментарный документ связывает путешествие с разгадкой. У Каверина большее значение получают история экспедиции и память о человеке. Это полезное сравнение механизмов, а не утверждение, что перед нами тот же роман с самолётами. Меняется то, ради чего нужно прочитать документ правильно.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "A Verne-like mystery gains another object of inquiry",
+          "body": "<p>Mayofis compares the plot with The Children of Captain Grant: a fragmentary document connects travel with decipherment. Kaverin gives particular weight to an expedition’s history and the memory of a person. This compares narrative mechanisms rather than declaring the books identical except for aeroplanes. What makes accurate interpretation matter has changed.</p>"
+        }
+      }
+    },
+    {
+      "id": "bildungsroman-tests",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        7,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Испытания проверяют становление характера",
+          "body": "<p>Исследования жанра определяют роман как соединение приключения и воспитания. Поэтому препятствие выполняет двойную работу: задерживает достижение цели и показывает, чем герой теперь располагает внутренне. Важно следить за обоими результатами. Эпизод, который почти не сдвигает географический маршрут, может существенно изменить способность героя разговаривать, ждать или понимать другого.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "Trials also test the formation of character",
+          "body": "<p>Genre studies describe a combination of adventure and the novel of formation. An obstacle therefore performs two jobs: it delays a goal and reveals the protagonist’s developing resources. Track both outcomes. An episode that barely changes a geographical route may significantly alter his ability to speak, wait or understand another person.</p>"
+        }
+      }
+    },
+    {
+      "id": "chance-and-preparation",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Случай открывает дверь, подготовка позволяет войти",
+          "body": "<p>Без случайной сумки у реки завязка сложилась бы иначе. Но случай не объясняет всего, что Саня затем делает с услышанным. Раздели происхождение возможности и способность ею воспользоваться. Так исчезают две одинаково бедные версии: будто герой сам создал каждое обстоятельство или будто любое его достижение сводится к везению.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "Chance opens a door; preparation makes entry possible",
+          "body": "<p>Without the chance discovery of a bag by the river, the opening would be different. Chance does not explain everything Sanya later does with what he hears. Separate the origin of an opportunity from the capacity to use it. This avoids attributing every circumstance to personal effort or reducing every achievement to luck.</p>"
+        }
+      }
+    },
+    {
+      "id": "dickens-orphan-structure",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Сиротство задаёт поиск места среди людей",
+          "body": "<p>Критика видит в Саниной биографии связь с диккенсовской традицией: ребёнок проходит через нужду, чужую власть и поиск опоры. Эта связь объясняет устройство читательского сочувствия. Мы хотим не только решения загадки, но и такого мира отношений, где герой сможет жить. Приключенческий маршрут одновременно становится поиском человеческого дома.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "Orphanhood creates a search for a place among people",
+          "body": "<p>Critics connect Sanya’s biography with the Dickensian tradition: a child encounters hardship, others’ authority and a search for support. This helps explain the organisation of sympathy. Readers want more than a solved mystery; they want relationships in which the protagonist can live. The adventurous journey also becomes a search for a human home.</p>"
+        }
+      }
+    },
+    {
+      "id": "too-adventurous",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Избыток приключений — старый предмет спора",
+          "body": "<p>Ванюков приводит отклик Чуковского: сильное впечатление от первой книги сочеталось с замечанием об избыточной авантюрности. Не обязательно выбирать между похвалой и возражением. Один и тот же приём способен захватывать и перегружать. Полезнее спросить, какое совпадение здесь создаёт смысловую связь, а какое главным образом ускоряет встречу нужных людей.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "The abundance of adventures has long invited criticism",
+          "body": "<p>Vanyukov reports Chukovsky’s response to the first book: admiration coexisted with concern about excessive adventure. Praise and objection need not cancel each other. The same device can captivate and overload. Ask which coincidence creates a meaningful connection and which mainly accelerates an encounter between people the plot needs to bring together.</p>"
+        }
+      }
+    },
+    {
+      "id": "meeting-as-device",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "12 · Машина приключения",
+          "title": "Встреча одновременно меняет карту и отношения",
+          "body": "<p>Повторные встречи особенно удобны для длинного романа: персонаж появляется в новом месте и обнаруживает, как изменился другой. Поэтому география не существует отдельно от человеческой сети. Неожиданное узнавание связывает пространство со временем. Когда оно кажется слишком удобным, можно признать условность и всё же увидеть, какую перемену автор делает заметной именно таким способом.</p>"
+        },
+        "en": {
+          "section": "12 · The machinery of adventure",
+          "title": "An encounter changes both geography and relationships",
+          "body": "<p>Repeated encounters suit a long novel: someone appears in a new place and discovers how another person has changed. Geography is inseparable from a human network. Recognition connects space with elapsed time. Even when an encounter seems convenient, we can acknowledge the convention while identifying the change that this particular device makes visible.</p>"
+        }
+      }
+    },
+    {
+      "id": "life-and-history",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Взросление происходит внутри большой истории",
+          "body": "<p>Санина биография проходит через революционное время, становление советской жизни и войну. Исторические перемены задают возможности и угрозы, которых герой не выбирал. Поэтому его путь нельзя читать как чистый эксперимент над силой характера. Личная решимость действует внутри эпохи, а роман придаёт этой встрече человека и истории определённую, художественно выстроенную форму.</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "Growing up takes place inside history",
+          "body": "<p>Sanya’s life passes through revolution, the development of Soviet life and war. Historical change creates possibilities and threats he did not choose. His path cannot therefore be read as a pure experiment in character. Personal resolve works within a period, and the novel gives the encounter between individual and history a deliberately constructed form.</p>"
+        }
+      }
+    },
+    {
+      "id": "publication-stages",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Роман появился по частям",
+          "body": "<p>По Ванюкову, первая книга печаталась в «Костре» в 1938–1940 годах и вышла отдельно в 1940-м. Вторая появилась в «Октябре» в 1944-м; первое полное издание — в 1945-м. Эти даты нельзя свести к одному «году книги»: они относятся к разным стадиям появления того произведения, которое сегодня читается как целое.</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "The novel appeared in stages",
+          "body": "<p>According to Vanyukov, the first book was serialised in Kostyor in 1938–1940 and appeared separately in 1940. The second appeared in Oktyabr in 1944; the first complete edition followed in 1945. These dates refer to different stages of publication, rather than interchangeable answers to the question of when the complete novel appeared.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-books-ten-parts",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        5,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "Две книги — это форма, а не число переплётов",
+          "body": "<p>Роман организован как две книги и десять частей; отдельно стоит эпилог. Это внутреннее деление не нужно путать с тем, сколько физических томов выпустил конкретный издатель. Для чтения важна организация переходов: смена периода жизни, рассказчика и масштаба. Номер части помогает ориентироваться, но сам по себе ещё не объясняет работу композиции.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "Two books describe structure, not a number of bindings",
+          "body": "<p>The novel is organised into two books and ten parts, with an epilogue. This internal division differs from the number of physical volumes in a particular edition. Reading depends on transitions between periods of life, narrators and scales. A part number provides orientation without by itself explaining how the composition works.</p>"
+        }
+      }
+    },
+    {
+      "id": "unfinished-world",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Продолжение писалось в изменившемся мире",
+          "body": "<p>Разрыв между появлением первой и второй книг важен для чтения: история создания пересекается с войной, которая входит в изображённую жизнь. Это не позволяет уверенно восстанавливать каждый первоначальный авторский план. Зато напоминает, что художественная цельность могла создаваться через переработку, а не существовать заранее как полностью готовая схема.</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "The continuation was written in a changed world",
+          "body": "<p>The interval between the two books matters: the work’s creation intersects with the war entering its fictional world. This does not let us reconstruct every original authorial plan with confidence. It reminds us that artistic unity may emerge through reworking, rather than having existed from the outset as a completely finished scheme.</p>"
+        }
+      }
+    },
+    {
+      "id": "selection-not-total-history",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Роман показывает эпоху через отбор",
+          "body": "<p>Широта событий не делает книгу полной историей страны. Каверин выбирает линии, которые соединяются с судьбой героя и с возможностью героического действия. В этом можно видеть и источник силы, и ограничение. Читатель вправе ценить живых людей на странице и одновременно замечать, какие стороны эпохи остаются за пределами выбранного света.</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "The novel presents its period through selection",
+          "body": "<p>The breadth of events does not make the book a complete history of the country. Kaverin selects lines connected with his protagonist and with the possibility of heroic action. This can be both a strength and a limit. We may value the people on the page while asking which aspects of the period remain outside its illumination.</p>"
+        }
+      }
+    },
+    {
+      "id": "socialist-realist-frame",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Советская рамка не исчезает от обаяния героя",
+          "body": "<p>Жолковский настаивает: человеческая привлекательность Сани не отменяет соцреалистической организации романа. Это полезная поправка к чтению, которое видит только вечные добродетели. Герой воплощает также определённое представление об образцовом человеке своей эпохи. Узнать эту рамку не значит отказаться от симпатии — значит понять, как именно она была художественно создана.</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "An appealing hero still belongs to a Soviet framework",
+          "body": "<p>Zholkovsky argues that Sanya’s human appeal does not cancel the novel’s socialist-realist organisation. This corrects a reading concerned only with timeless virtues. The protagonist also embodies a period’s idea of an exemplary person. Recognising that framework need not destroy affection; it helps explain the literary work through which that affection was produced.</p>"
+        }
+      }
+    },
+    {
+      "id": "critical-lenses-not-consensus",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Контекст · Дополнительный взгляд",
+          "title": "Разные критические линзы не обязаны сливаться",
+          "body": "<p>Майофис выделяет ценность частной памяти; Жолковский сохраняет внимание к идеологической конструкции героического мира. Эти ракурсы можно сопоставить, не выдавая их за единодушный вердикт. Один помогает заметить личный архив, другой — общественную рамку. Напряжение между ними полезно: книга способна давать человеческую свободу внутри формы, которая одновременно устанавливает границы допустимого.</p>"
+        },
+        "en": {
+          "section": "Context · An additional perspective",
+          "title": "Different critical lenses need not merge",
+          "body": "<p>Mayofis highlights private memory, while Zholkovsky keeps the ideological construction of the heroic world in view. These lenses can be compared without presenting them as a unanimous verdict. One draws attention to a personal archive, the other to a public framework. Their tension reveals human freedom operating inside a form that also establishes limits.</p>"
+        }
+      }
+    },
+    {
+      "id": "archive-historical-lens",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Личный архив допускает острое историческое чтение",
+          "body": "<p>Майофис предлагает видеть особый смысл в уважении к письмам и дневникам на фоне эпохи, опасной для частной памяти. Это интерпретация критика, а не доказанное тайное заявление Каверина. Она расширяет вопрос романа: кто сохраняет человеческую историю, когда текущий общественный рассказ не даёт ей места или не готов её услышать?</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "A private archive permits a pointed historical reading",
+          "body": "<p>Mayofis proposes reading the respect for letters and diaries against a period in which private memory could be dangerous. This is a critic’s interpretation, not proof of a secret declaration by Kaverin. It broadens the novel’s question: who preserves a human history when the current public account has no room for it?</p>"
+        }
+      }
+    },
+    {
+      "id": "war-no-private-schedule",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "13 · Личная жизнь и эпоха",
+          "title": "Война разрушает личное расписание",
+          "body": "<p>В военной линии человек не может расположить испытания в удобной очереди: сначала закончить поиск, затем заняться отношениями, потом ответить на общую беду. Задачи сталкиваются. Поэтому важно читать войну как изменение условий действия и связи между людьми, а не только как новый, более опасный фон для прежнего приключения.</p>"
+        },
+        "en": {
+          "section": "13 · A life and its period",
+          "title": "War breaks a private timetable",
+          "body": "<p>In the wartime strand, people cannot arrange trials in a convenient order: finish a search, attend to a relationship and only then respond to collective disaster. Obligations collide. War changes the conditions of action and communication between people, rather than merely supplying a more dangerous background for an adventure already in progress.</p>"
+        }
+      }
+    },
+    {
+      "id": "persistence-revisable-method",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "Верность цели допускает перемену способа",
+          "body": "<p>Важный вопрос к Саниной настойчивости: что именно должно оставаться постоянным? Можно хранить обязательство разобраться и при этом менять маршрут, способ чтения или прежнее предположение. Если неизменной объявить каждую первоначальную догадку, поиск остановится под видом верности. Это наша этическая проверка героического девиза, а не новая цитата из романа.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "Loyalty to a goal permits a change of method",
+          "body": "<p>A useful question about Sanya’s persistence is what must remain constant. One can preserve a commitment to understanding while changing a route, reading method or earlier assumption. Declaring every initial guess untouchable would stop inquiry in the name of loyalty. This is our ethical test of the heroic motto, not another quotation from the novel.</p>"
+        }
+      }
+    },
+    {
+      "id": "tennyson-motto",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        10,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "Девиз пришёл из чужой поэтической речи",
+          "body": "<p>Формула «Бороться и искать, найти и не сдаваться» связана с финалом теннисоновского «Улисса»: “To strive, to seek, to find, and not to yield”. В романе она входит в мальчишескую клятву и получает новую жизнь. Источник девиза важен: слова уже несут историю, которую новый контекст продолжает и меняет.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "The motto arrives from another poetic voice",
+          "body": "<p>The motto links the Russian formula of striving, seeking, finding and refusing to surrender with Tennyson’s ending to Ulysses: “To strive, to seek, to find, and not to yield.” Within the novel it enters a boyhood oath and acquires another life. The words bring a history that their new setting both continues and changes.</p>"
+        }
+      }
+    },
+    {
+      "id": "ulysses-is-speaker",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "У Теннисона говорит герой, а не учебник успеха",
+          "body": "<p>В стихотворении Улисс обращается к спутникам на исходе жизни и зовёт к новому плаванию. Он допускает и гибель, и достижение желанного берега. Поэтому стих не обещает, что настойчивость обеспечивает благополучный результат. Перед нами напряжённая речь персонажа, чья жажда продолжения может вызывать одновременно восхищение и вопросы о цене такого выбора.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "Tennyson gives us a speaker, not a success manual",
+          "body": "<p>In the poem, Ulysses addresses his companions late in life and calls for another voyage. He allows both destruction and arrival among the possibilities. The poem does not promise that persistence ensures a favourable outcome. It offers a character’s urgent speech, whose hunger to continue can invite admiration and questions about its cost.</p>"
+        }
+      }
+    },
+    {
+      "id": "goal-and-people",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "Не превращай людей в расход цели",
+          "body": "<p>Сильная цель может собрать жизнь в последовательность. Но если близкие становятся лишь помехами или наградами, последовательность достигается ценой их самостоятельности. При чтении задавай Сане трудный вопрос: оставляет ли выбранное дело место чужому страху, отказу и иной задаче? Именно здесь настойчивость проверяется отношениями, а не только способностью выдержать препятствие.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "Do not make people expendable to a goal",
+          "body": "<p>A powerful goal can give life coherence. But treating loved ones as obstacles or rewards purchases that coherence at the cost of their independence. Ask Sanya a difficult question: does his undertaking leave room for another person’s fear, refusal or different task? Relationships test persistence in ways that endurance of obstacles alone cannot.</p>"
+        }
+      }
+    },
+    {
+      "id": "promise-changes-age",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        6,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "Детское обещание должно пережить взросление",
+          "body": "<p>В мальчишеской клятве много безусловности: она помогает удержаться, когда жизнь непрочна. Взрослому предстоит понять, как сохранить её нравственное ядро без буквального подчинения каждому жесту детского ритуала. Это не предательство себя, а труд перевода. Один и тот же девиз в разные годы может требовать разных действий и разных ограничений.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "A childhood promise must survive growing up",
+          "body": "<p>A boyhood oath contains absolutes that help sustain an unstable life. An adult must learn how to preserve its ethical centre without obeying every feature of the childhood ritual literally. That is an effort of translation rather than necessarily a betrayal. The same motto can require different actions, and different limits, at different ages.</p>"
+        }
+      }
+    },
+    {
+      "id": "effort-without-entitlement",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        9,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "Усилие не создаёт долга мира перед героем",
+          "body": "<p>Мы можем восхищаться длительной работой и не считать, что история обязана выдать за неё нужный результат. Погода, утрата документов и чужая свобода не становятся несправедливостью только потому, что человек старался. Такое различение позволяет ценить упорство без опасного обещания: если достаточно захотеть, любая реальность должна уступить.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "Effort does not place the world in a hero’s debt",
+          "body": "<p>We can admire sustained work without assuming that reality owes it a particular result. Weather, lost documents and another person’s freedom do not become injustices merely because someone has tried hard. This distinction preserves the value of persistence without promising that any reality must surrender once desire becomes sufficiently intense.</p>"
+        }
+      }
+    },
+    {
+      "id": "rest-versus-surrender",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "14 · Что значит не сдаваться",
+          "title": "Остановка и капитуляция — разные события",
+          "body": "<p>В приключенческом ритме любое промедление легко принять за слабость. Однако ожидание, обучение и изменение плана тоже могут служить продолжению дела. При чтении различай бездействие, навязанное условиями, и отказ от обязательства. Эта оговорка особенно важна для подросткового чтения: героический образ не должен превращать обычную человеческую усталость в нравственный провал.</p>"
+        },
+        "en": {
+          "section": "14 · What persistence can mean",
+          "title": "A pause and a surrender are different events",
+          "body": "<p>An adventure’s momentum can make any delay resemble weakness. Waiting, learning and changing a plan may nevertheless sustain an undertaking. Distinguish inactivity imposed by circumstances from abandonment of a commitment. This qualification matters for teenage readers: admiration for a heroic figure should not turn ordinary human tiredness into a moral failure.</p>"
+        }
+      }
+    },
+    {
+      "id": "title-relation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Название предлагает искать связь двух судеб",
+          "body": "<p>Старший капитан принадлежит истории полярной экспедиции; Саня выбирает авиационную профессию. Название предлагает сопоставлять их, ещё не сообщая, как именно соединятся судьбы. В таком чтении вопрос шире профессионального звания: что человек наследует от предшественника — дело, вопрос, представление о достоинстве? Окончательный ответ сюжет даст позже; сравнение работает уже сейчас.</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "The title invites a relationship between two lives",
+          "body": "<p>The older captain belongs to a polar expedition’s history; Sanya chooses aviation. The title invites comparison before revealing how their lives connect. The question exceeds a professional rank: what can someone inherit from a predecessor—an undertaking, a question, an image of dignity? Comparison begins working before the plot supplies its eventual answer.</p>"
+        }
+      }
+    },
+    {
+      "id": "hero-measures-self",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Герой учится узнавать самого себя",
+          "body": "<p>В первых главах Саня видит себя и свой дом словно впервые, называет знакомые вещи заново. Позднее вопрос собственной личности возвращается в отношениях и профессии. Это важная сторона взросления: не только изменить жизнь, но и понять, что изменилось в тебе. Самоописание не сопровождает развитие со стороны — оно участвует в нём.</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "The protagonist learns how to recognise himself",
+          "body": "<p>In the opening chapters, Sanya sees himself and his home as though anew, naming familiar things again. Questions of identity return through relationships and work. Growing up means recognising what has changed in oneself as well as changing one’s life. Self-description does not simply observe development from outside; it participates in making it intelligible.</p>"
+        }
+      }
+    },
+    {
+      "id": "doubles-critical-lens",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Двойник показывает возможность другого выбора",
+          "body": "<p>Жолковский читает систему персонажей через сходства и контрасты между поколениями, взрослыми и детьми. Двойничество здесь полезно как аналитический инструмент: похожее положение может вести к разным поступкам. Но это не арифметика характера. Соответствие между двумя фигурами помогает заметить разницу, а не объявить их одинаковыми людьми с разными именами.</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "A double makes another choice imaginable",
+          "body": "<p>Zholkovsky reads the cast through similarities and contrasts across generations and between adults and children. Doubling becomes an analytical tool: a comparable position may lead to different choices. It is not character arithmetic. A correspondence between figures helps us notice a difference rather than declaring them identical people with different names.</p>"
+        }
+      }
+    },
+    {
+      "id": "dignity-not-image",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Достоинство проявляется до узнаваемого героического образа",
+          "body": "<p>Начальный Саня беден, уязвим и не умеет говорить так, чтобы взрослые поняли. Если ждать внешних признаков героя, его легко не заметить. Каверин заранее отдаёт ему внутреннюю сложность. Для читателя это проверка взгляда: способны ли мы признать человека значимым до того, как профессия, репутация или победа сделают признание удобным?</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "Dignity appears before a recognisable heroic image",
+          "body": "<p>The young Sanya is poor, vulnerable and unable to make adults understand him. Waiting for visible signs of a hero makes him easy to overlook. Kaverin grants him inner complexity from the beginning. Can readers recognise someone’s significance before profession, reputation or success makes that recognition socially easy? The opening tests our attention.</p>"
+        }
+      }
+    },
+    {
+      "id": "romashov-rivalry",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Ромашов вводит линию соперничества",
+          "body": "<p>Михаил Ромашов — сверстник Сани и существенная фигура в запутанных отношениях героев. Его присутствие заставляет внимательнее смотреть на сравнение себя с другим. Пока важен сам механизм соперничества: можно хотеть собственного пути, а можно измерять свою жизнь чужим продвижением. Окончательную оценку поздних поступков оставим для отдельного блока со спойлерами.</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "Romashov introduces a line of rivalry",
+          "body": "<p>Mikhail Romashov is Sanya’s contemporary and an important figure in the characters’ entangled relationships. His presence focuses attention on comparison. A person can pursue a path of their own or measure life through somebody else’s progress. For now, that mechanism matters; assessment of decisive later actions belongs in the separate spoiler section.</p>"
+        }
+      }
+    },
+    {
+      "id": "recognition-through-change",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Неузнавание показывает прошедшее время",
+          "body": "<p>Человек, которого давно не видели, остаётся знакомым именем и оказывается новым лицом. Повторные встречи позволяют Каверину показать это без отвлечённого отчёта о годах. Меняются внешность, опыт и отношения. Здесь особенно интересен вопрос: другой действительно стал чужим или наблюдатель слишком долго удерживал прежний образ и теперь должен его пересмотреть?</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "Failure to recognise someone makes elapsed time visible",
+          "body": "<p>A person absent for years remains a familiar name while becoming a different presence. Repeated encounters let Kaverin show this without an abstract account of elapsed time. Appearance, experience and relationships change. Has the other person become unfamiliar, or has the observer preserved an old image too long and must now revise it?</p>"
+        }
+      }
+    },
+    {
+      "id": "mentor-not-replacement-father",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "15 · Зеркала и двойники",
+          "title": "Несколько взрослых дают разные способы быть сильным",
+          "body": "<p>У Сани нет одной фигуры, которая могла бы заменить всё утраченное. Доктор, учитель и образ капитана связаны с разными потребностями: быть услышанным, учиться, выбрать направление. Такое распределение интересно само по себе. Взросление не обязательно означает найти единственный безупречный образец; оно может состоять в различении и соединении нескольких человеческих опор.</p>"
+        },
+        "en": {
+          "section": "15 · Mirrors and doubles",
+          "title": "Different adults offer different forms of strength",
+          "body": "<p>No single figure can replace everything Sanya has lost. The doctor, teacher and captain’s image connect with different needs: being heard, learning and finding a direction. This distribution matters. Growing up need not mean discovering one flawless model; it can involve distinguishing and combining several forms of human support without expecting any one to provide everything.</p>"
+        }
+      }
+    },
+    {
+      "id": "ordinary-life-keeps-hero-human",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "До большого поиска существует детское любопытство",
+          "body": "<p>Первое приключение у реки связано с мечтой поймать голубого рака. Эта маленькая цель соседствует с письмом о полярном бедствии и будущей семейной трагедией. Контраст сохраняет детский масштаб взгляда: Саня ещё не живёт внутри готовой героической биографии. Он занят тем, что имеет вес для него сейчас, а не только для будущего сюжета.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "Childhood curiosity comes before the great quest",
+          "body": "<p>The first riverbank adventure involves a wish to catch a blue crayfish. That small aim sits beside a letter about polar hardship and a family crisis. The contrast preserves a child’s scale of attention. Sanya does not yet inhabit a completed heroic biography; he cares about what matters now, not only what will later advance the plot.</p>"
+        }
+      }
+    },
+    {
+      "id": "crayfish-child-theory",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "Детское знание смешивает опыт и убеждение",
+          "body": "<p>Мальчишки уверены, что необычного рака можно приманить определённым способом. Взрослый рассказчик сохраняет эту уверенность как часть детского мира, а не предъявляет её в качестве научного факта. Так книга с самого начала показывает разницу между тем, во что герой верит, и тем, что читатель должен принять за надёжное знание.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "A child’s knowledge mixes observation and conviction",
+          "body": "<p>The boys are certain that a particular method will attract an unusual crayfish. The adult narrator preserves their confidence as part of childhood rather than presenting it as established biology. From the beginning, the book distinguishes between what a character believes and what readers should accept as reliable knowledge about the world.</p>"
+        }
+      }
+    },
+    {
+      "id": "word-chlopoty",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "Непонятное слово сначала принадлежит чужому миру",
+          "body": "<p>Слово о хлопотах вокруг дела отца сперва вызывает у Сани неверную бытовую ассоциацию. Затем он узнаёт, как за ним стоят прошение, учреждение, ожидание. Эпизод показывает овладение языком через жизненную цену слова. Значение приходит не из словаря, а из столкновения семейной нужды с непонятным устройством взрослой жизни.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "An unfamiliar word first belongs to somebody else’s world",
+          "body": "<p>A word concerning efforts on his father’s case first produces a mistaken everyday association for Sanya. He later learns how it connects with a petition, an office and waiting. The episode shows language being acquired through a word’s lived cost. Meaning arrives through the family’s encounter with an unfamiliar adult world rather than through a dictionary.</p>"
+        }
+      }
+    },
+    {
+      "id": "humour-protects-complexity",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "Юмор не отменяет тяжести происходящего",
+          "body": "<p>Детские догадки, странные слова и несовпадение ожидания с реальностью позволяют книге не превратить героя в одну сплошную рану. Смех сохраняет объём жизни рядом с бедой. Важно слышать направление юмора: иногда смешна ограниченность знания, но ребёнок не становится от этого менее достойным внимания, а его боль — менее настоящей.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "Humour does not cancel hardship",
+          "body": "<p>Childhood guesses, odd words and mismatches between expectation and reality keep the protagonist from becoming nothing but a wound. Humour preserves the breadth of life beside hardship. Attend to its direction: limited understanding may be funny without making the child less deserving of attention or making his pain any less real.</p>"
+        }
+      }
+    },
+    {
+      "id": "estate-disappointment",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "Большое слово обещает больше, чем бедный дом",
+          "body": "<p>Деревенская «усадьба» в воображении Сани оказывается больше и значительнее реального жилья. Приезд исправляет словесный образ. Это небольшой бытовой урок, который рифмуется с будущим расследованием: имя не гарантирует содержания. Чтобы понять, что перед тобой, нужно сопоставить обещание языка с конкретными обстоятельствами, не теряя при этом привязанности к своему дому.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "A grand word promises more than a poor house",
+          "body": "<p>The village property sounds grander in Sanya’s imagination than the actual dwelling proves to be. Arrival corrects a verbal image. This modest domestic lesson anticipates investigation: a name does not guarantee its contents. Understanding requires comparing linguistic expectations with particular circumstances, while disappointment need not erase attachment to a place that is still one’s home.</p>"
+        }
+      }
+    },
+    {
+      "id": "sensory-memory",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "Память хранит запахи раньше объяснений",
+          "body": "<p>В воспоминании об отце остаются запахи работы, еды, одежды, движение у пристани. Эти подробности не доказывают судебную версию, но создают присутствие человека, которого обвинение сводит к делу. Роман различает два способа знать: восстановить обстоятельства и помнить близкого в полноте повседневности. Одно не заменяет другого и не должно его стирать.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "Memory preserves sensations before explanations",
+          "body": "<p>Memories of Sanya’s father retain the smells of work, food and clothing, and movement at the wharf. They do not establish a legal case, but restore a person whom an accusation reduces to a file. Reconstructing circumstances and remembering somebody’s everyday presence are different ways of knowing. Neither should be allowed to erase the other.</p>"
+        }
+      }
+    },
+    {
+      "id": "mixed-attention",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "16 · Тон и малая деталь",
+          "title": "Детское внимание не подчиняется порядку трагедии",
+          "body": "<p>После ареста отца Саня думает о беде, но в его мыслях появляются и чужой мальчик, и желанный велосипед. Такая смена внимания не означает бессердечия. Она сохраняет достоверный ритм детского сознания, в котором тяжёлое и обыденное соседствуют. Поздняя героическая цель ещё не собрала все желания в одну прямую линию.</p>"
+        },
+        "en": {
+          "section": "16 · Tone and small details",
+          "title": "A child’s attention does not obey tragedy’s priorities",
+          "body": "<p>After his father’s arrest, Sanya’s thoughts include grief but also another boy and a coveted bicycle. This movement of attention does not imply coldness. It preserves a believable childhood rhythm in which the terrible and the ordinary coexist. A later heroic purpose has not yet arranged every desire along a single straight line.</p>"
+        }
+      }
+    },
+    {
+      "id": "admiration-with-questions",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "Восхищение не обязывает прекратить вопросы",
+          "body": "<p>Сане можно сочувствовать и одновременно проверять его уверенность, отношение к другим и общественный язык книги. Это не поиск повода разлюбить героя. Хороший роман выдерживает чтение, в котором эмоциональная близость соседствует с самостоятельным суждением. Вопросы позволяют сохранить живого человека там, где готовый образец требовал бы только подражания.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "Admiration does not require the end of questions",
+          "body": "<p>We can care about Sanya while examining his certainty, treatment of others and the novel’s public language. This need not be a search for reasons to reject him. A strong novel supports emotional closeness alongside independent judgement. Questions preserve a living person where an exemplary figure might otherwise demand nothing beyond imitation.</p>"
+        }
+      }
+    },
+    {
+      "id": "hero-not-total-standard",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "Один характер не задаёт меру всем людям",
+          "body": "<p>Надёжность героического мира притягательна: хочется верить, что честность и настойчивость непременно будут узнаны. Но литературный образец нельзя превращать в шкалу ценности каждого человека. Разные возможности говорить, учиться и выдерживать нагрузку не определяют достоинство. Читатель может перенять внимание к правде, не требуя от себя или других Саниной биографии.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "One character need not become everyone’s measure",
+          "body": "<p>A reliable heroic world is attractive: we want honesty and persistence to be recognised. A literary model should not become a scale for judging everyone’s worth. Different capacities for speaking, learning and enduring pressure do not determine dignity. Readers can value truthfulness without requiring Sanya’s biography from themselves or from the people around them.</p>"
+        }
+      }
+    },
+    {
+      "id": "moral-clarity-cost",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        4,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "Ясное распределение ролей имеет цену",
+          "body": "<p>Когда роман ярко разделяет противостоящие стороны, читателю проще эмоционально ориентироваться. Но такая ясность может сокращать пространство для смешанных мотивов и ошибок достойных людей. Это ограничение формы, а не разоблачение каждого положительного персонажа. Полезно спросить, какую сложность книга исследует подробно и какую оставляет за границами своего приключенческого устройства.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "Clear moral roles come with a cost",
+          "body": "<p>When a novel sharply distinguishes opposing sides, readers can orient their sympathies easily. Such clarity may leave less room for mixed motives and decent people’s mistakes. This is a limitation of form rather than a denunciation of every positive character. Ask which kinds of complexity the adventure explores and which it leaves outside its construction.</p>"
+        }
+      }
+    },
+    {
+      "id": "inherited-duty-not-copy",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "Продолжить чужое дело не значит прожить чужую жизнь",
+          "body": "<p>Санина связь со старшим капитаном предлагает модель преемственности: один человек принимает всерьёз незавершённый вопрос другого. Но у нового поколения остаются свои отношения, профессия и исторические обстоятельства. Именно различие делает продолжение содержательным. Уважение к предшественнику может требовать нового способа действия, а не повторения его маршрута и его образа.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "Continuing someone’s work is not copying a life",
+          "body": "<p>Sanya’s connection with the older captain suggests a model of continuity: one person takes another’s unfinished question seriously. A new generation still has its own relationships, profession and circumstances. Difference gives continuation substance. Respect for a predecessor may require a new form of action rather than repetition of the same route or identity.</p>"
+        }
+      }
+    },
+    {
+      "id": "read-with-three-scales",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "Держи одновременно три масштаба чтения",
+          "body": "<p>У каждого важного эпизода можно заметить личный масштаб, социальный и повествовательный. Что чувствует человек? Кто может помочь или помешать? Почему именно здесь рассказ устроен таким образом? Эти вопросы не дают анализу превратиться в перечень добродетелей. Они связывают переживание, отношения и форму, сохраняя удовольствие от самой истории.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "Keep three scales of reading in view",
+          "body": "<p>An important episode can be examined on three scales: personal, social and narrative. What does someone feel? Who can enable or obstruct them? Why is the scene told this way here? These questions keep analysis from becoming a list of virtues. They connect experience, relationships and form while preserving the pleasure of the story.</p>"
+        }
+      }
+    },
+    {
+      "id": "do-not-read-intent-backwards",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        5,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "Не выдавай эффект текста за доказанный замысел",
+          "body": "<p>Мы можем показать, как смена голоса расширяет перспективу или как письмо связывает поколения. Отсюда не следует, что известны все намерения Каверина в момент работы. Различай наблюдение над формой и утверждение о частном замысле автора. Эта осторожность не ослабляет анализ: она делает его проверяемым, оставляя место другим объяснениям того же устройства.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "A textual effect is not proof of authorial intention",
+          "body": "<p>We can show how a change of voice expands perspective or a letter connects generations without knowing every intention Kaverin held while writing. Distinguish an observation about form from a claim about the author’s private purpose. Such restraint strengthens analysis by making it examinable and leaving room for other explanations of the same device.</p>"
+        }
+      }
+    },
+    {
+      "id": "return-to-novel",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "17 · Границы героического образца",
+          "title": "После разбора возвращайся к способу рассказа",
+          "body": "<p>Зная основные вопросы, в полной книге можно внимательнее слушать паузы, повторы и смену интонации. Не нужно охотиться только за подтверждением этого разбора. Если сцена сопротивляется предложенной схеме, это повод исправить схему. Аналитический спутник полезен тогда, когда увеличивает свободу чтения, а не диктует единственный правильный способ пережить роман.</p>"
+        },
+        "en": {
+          "section": "17 · The limits of an exemplary hero",
+          "title": "After analysis, return to the telling",
+          "body": "<p>With the main questions in view, a full reading can attend more closely to pauses, repetitions and changes of tone. Do not hunt only for confirmation of this companion. A scene that resists its framework offers a reason to revise the framework. Analysis is useful when it enlarges reading rather than dictating a single approved response.</p>"
+        }
+      }
+    },
+    {
+      "id": "ending-warning",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Дальше раскрываются поздние события и финал",
+          "body": "<p>Этот блок предназначен для тех, кто уже прочитал роман или сознательно выбрал знание развязки. Здесь названы виновные действия, тяжёлые потери, результат расследования и исход отношений. Если хочешь сохранить интригу, перейди через оглавление к последнему экрану или выбери Главное либо Core. Остальная аналитическая линия останется цельной без этого раздела.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "The following screens disclose late events and the ending",
+          "body": "<p>This section is for people who have read the novel or deliberately chosen to know its resolution. It names culpable actions, serious losses, the investigation’s result and the relationship’s outcome. To preserve the mystery, use Chapters to reach the final screen or choose Essential or Core. The preceding analytical account stands without this section.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-first-cost",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: первое тяжёлое следствие",
+          "body": "<p>Саня обвиняет Николая Антоновича в причастности к гибели экспедиции. Поверив Сане, Марья Васильевна умирает в результате самоубийства; Катя после этого отдаляется от него. Важно видеть последовательность событий без упрощения ответственности: роман соединяет обвинение и семейную катастрофу, но не даёт читателю права свести человеческую трагедию к одному виноватому слову подростка.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: an early, grave consequence",
+          "body": "<p>Sanya accuses Nikolai Antonovich of involvement in the expedition’s destruction. After believing him, Marya Vasilyevna dies by suicide, and Katya distances herself from Sanya. Preserve the sequence without oversimplifying responsibility. The novel connects accusation with family catastrophe; that does not justify reducing a human tragedy to a single culpable utterance by a teenager.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-knowledge-aftermath",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: правота не отменяет последствий сообщения",
+          "body": "<p>После этой катастрофы расследование получает дополнительное бремя: нужно не только установить прошлое, но и жить с последствиями его первого истолкования. Аналитически важно различать содержание обвинения, способ сообщения и чужую последующую реакцию. Если всё слить в один поступок, потеряется сложность: стремление к справедливости может соседствовать с невозможностью контролировать происходящее после своих слов.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: being right does not erase an aftermath",
+          "body": "<p>After this catastrophe, investigation carries an additional burden: establishing the past while living with the consequences of its first interpretation. Distinguish an accusation’s content, the act of disclosing it and another person’s subsequent response. Combining them into one act loses complexity. Seeking justice does not give a person control over everything that follows their words.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-loyalty-tested",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: соперничество переходит опасную границу",
+          "body": "<p>В военных главах Ромашов оставляет тяжело раненного Саню без помощи, забрав его оружие. Здесь соперничество перестаёт быть только психологической темой. Поступок создаёт прямую угрозу чужой жизни. Каверин выводит конфликт за пределы обиды и ревности: отношение к беспомощному человеку становится конкретной проверкой нравственного выбора.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: rivalry crosses a dangerous boundary",
+          "body": "<p>In the wartime chapters, Romashov leaves the seriously wounded Sanya without help after taking his weapon. Rivalry is no longer merely a psychological theme. An action directly endangers another person’s life. The conflict moves beyond resentment and jealousy: treatment of someone helpless becomes a concrete test of moral choice.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-private-public-boundary",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: личный спор становится общим делом",
+          "body": "<p>Позднее Саня отказывается считать поступок Ромашова их частным расчётом: речь идёт о воинском преступлении, а не о возможности простить соперника за ревность. Ромашов разоблачён и арестован. Так книга различает личное чувство и общественную ответственность. Чужая помощь Кате не превращается в право распорядиться жизнью раненого человека.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: a private dispute becomes a public matter",
+          "body": "<p>Sanya later refuses to treat Romashov’s action as a private settlement: it is a military crime rather than a matter of forgiving jealousy. Romashov is exposed and arrested. The novel separates personal feeling from public responsibility. Having helped Katya does not give him the right to dispose of a wounded person’s life.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-search-result",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: материальные следы дополняют рассказ",
+          "body": "<p>В северной военной линии Саня находит последнюю стоянку экспедиции, останки капитана Татаринова и сохранившиеся документы. Среди поздних свидетельств — прощальные письма и судовой журнал. Это не спасение живого капитана, а восстановление истории погибшего человека. Различие определяет тон завершения поиска: открытие возвращает память и сведения, но не отменяет смерть.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: material traces complete the account",
+          "body": "<p>In the northern wartime strand, Sanya finds the expedition’s final camp, Captain Tatarinov’s remains and surviving documents. The late evidence includes farewell letters and the ship’s log. He is not rescuing a living captain but recovering a dead person’s history. Discovery restores memory and information; it does not undo death.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-accusation-evidence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: обвинение получает подтверждение",
+          "body": "<p>Расследование подтверждает пагубную роль Николая Антоновича в снаряжении экспедиции Татаринова и позволяет публично её разоблачить. Здесь достаточно назвать предмет доказанного: ответственность связана с подготовкой предприятия. Подробности снабжения, которые не были непосредственно прочитаны в доступном издании, этот спутник не достраивает по памяти или экранным версиям.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: an accusation receives support",
+          "body": "<p>The investigation establishes Nikolai Antonovich’s damaging role in equipping Tatarinov’s expedition and allows it to be exposed publicly. The supported point concerns responsibility for the undertaking’s preparation. This companion does not reconstruct detailed provisioning arrangements from memory or screen adaptations when those passages were not directly read in an accessible edition.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-case-becomes-shareable",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: история становится доступной другим",
+          "body": "<p>Финальное восстановление связывает разбросанные следы с общим объяснением. Уверенность перестаёт существовать только внутри Саниной памяти: её основания могут стать предметом общественного разговора. Так завершается начальный разрыв между знанием ребёнка и невозможностью высказаться. Однако убедительная композиционная рифма остаётся свойством романа, а не гарантией того, что любое реальное расследование получит такое завершение.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: the account becomes available to others",
+          "body": "<p>The final reconstruction connects scattered traces with an account that others can examine. Its grounds no longer exist only inside Sanya’s memory. This answers the opening distance between a child’s knowledge and his inability to communicate it. The powerful compositional echo remains a feature of the novel, not a guarantee about the completion of real investigations.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-relationship-outcome",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: возвращение близкого имеет собственную линию",
+          "body": "<p>Саня и Катя становятся супругами, но война снова разлучает их. Катя проходит через военную беду; после долгих поисков Саня находит её вновь. Такое завершение нельзя свести к награде за разгаданную загадку. История Кати включает отдельное испытание временем, расстоянием и выживанием, не контролируемое Саниной волей.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: recovering a relationship has its own strand",
+          "body": "<p>Sanya and Katya marry, but war separates them again. Katya passes through wartime hardship; after a long search, Sanya finds her again. This conclusion exceeds a reward for solving the mystery. Her experience includes a separate trial of time, distance and survival that Sanya’s determination cannot simply control.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-reunion-not-reset",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: встреча не стирает прожитого порознь",
+          "body": "<p>Воссоединение удовлетворяет сильное читательское желание вернуть отношениям целостность. Но встретившиеся люди несут опыт, которого другой не переживал рядом с ними. Даже счастливое завершение сохраняет эту разницу. Оно позволяет прочитать любовь как готовность узнавать изменившегося человека, а не как окончательную победу над временем, после которой больше нечего понимать.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: reunion does not erase separate experience",
+          "body": "<p>Reunion fulfils the reader’s wish for a relationship to become whole again. Yet the people meeting carry experiences the other did not share beside them. A happy conclusion can retain that difference. Love can therefore be read as a willingness to know a changed person, rather than a final victory over time that ends all interpretation.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-memorial",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: память получает видимую форму",
+          "body": "<p>Эпилог обращается к могиле старшего капитана и закрепляет известный девиз в мемориальном пространстве. Вещь, слово и имя соединяются иначе, чем в начале: теперь они обращены к будущим посетителям. История человека перестаёт зависеть только от частной памяти Сани. Завершение придаёт поиску публичную и одновременно траурную форму.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: memory receives a visible form",
+          "body": "<p>The epilogue turns to the older captain’s grave and places the familiar motto within a memorial setting. Object, word and name now address future visitors. The person’s history no longer depends only on Sanya’s private memory. The conclusion gives the search a public form while retaining mourning within the story’s resolution.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-letters-circle",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        2,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: письмо завершает начатый им круг",
+          "body": "<p>В начале чужое письмо попадает к ребёнку, который не понимает всего его значения. В конце документы помогают назвать судьбу человека, чьи слова пережили его. Композиционный круг связан с изменением читателя внутри романа: Саня научился не просто запоминать, но соотносить, объяснять и передавать дальше. Возвращается предмет, но изменяется способность с ним обращаться.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: letters close the circle they opened",
+          "body": "<p>A stranger’s letter reaches a child who cannot yet understand all its significance. Late documents help identify the fate of a person whose words have outlived him. The circular construction concerns a changing reader inside the novel: Sanya learns to connect, explain and transmit as well as remember. The object returns; his capacity changes.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-two-roles",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Ответственность принимает разные формы",
+          "body": "<p>Жолковский подчёркивает различие исходов: Николай Антонович опозорен, но не арестован; Ромашов арестован. Это не одинаковое наказание двух противников. Для нашего чтения важно разделить восстановление чужой репутации, нравственный приговор и уголовное преследование. Все три результата относятся к ответственности, но не подменяют друг друга.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Accountability takes different forms",
+          "body": "<p>Zholkovsky distinguishes the outcomes: Nikolai Antonovich is disgraced but not arrested; Romashov is arrested. The two antagonists do not receive identical sanctions. For our reading, restoring a person’s reputation, making a moral judgement and criminal prosecution are separate forms of accountability. Their connection does not make them interchangeable.</p>"
+        }
+      },
+      "spoiler": "ending",
+      "cognitiveJob": "Separate reputational restoration, moral judgement and criminal prosecution",
+      "evidence": "Zholkovsky, sections III.1 and III.3: distinct outcomes for Romashov and Nikolai Antonovich; analytical distinction is this digest’s synthesis."
+    },
+    {
+      "id": "resolution-epilogue-distance",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: эпилог меняет дистанцию",
+          "body": "<p>Геймбух отмечает, что в эпилоге повествование выходит за рамки рассказов Сани и Кати. Этот переход уменьшает зависимость завершения от индивидуального голоса героя. Читатель смотрит на закреплённую память с большей дистанции. Личная история получает внешнюю рамку, хотя нравственный смысл этой рамки по-прежнему можно обсуждать, а не принимать как приказ последнего слова.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: the epilogue changes the distance",
+          "body": "<p>Geymbukh notes that the epilogue moves beyond Sanya’s and Katya’s narration. The transition makes the conclusion less dependent on an individual protagonist’s voice. Readers view established memory from farther away. A personal history gains an external frame, whose ethical meaning can still be discussed instead of treated as an unquestionable final instruction.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-closure-caveat",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        4,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: завершённая книга не завершает все вопросы",
+          "body": "<p>В романе линии сходятся гораздо полнее, чем обычно сходятся сохранившиеся исторические сведения. Такое совпадение даёт эмоциональное удовлетворение и выражает нравственное желание справедливости. Но из него не следует, что реальный мир умеет вознаграждать правду столь же последовательно. Сопоставление с ограниченными результатами настоящего полярного поиска помогает удержать эту границу.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: a finished book leaves questions open",
+          "body": "<p>The novel’s strands converge more fully than surviving historical evidence ordinarily does. That convergence provides satisfaction and expresses an ethical desire for justice. It does not establish that reality rewards truth with the same consistency. Comparing the ending with the limited results of an actual polar search helps preserve this distinction.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "resolution-double-return",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Развязка · Только Deep · Спойлеры",
+          "title": "Развязка: возвращаются и история, и человек",
+          "body": "<p>Поиск экспедиции возвращает прошлому узнаваемую историю; поиск Кати возвращает возможность общего настоящего. Эти линии рифмуются, но не заменяют друг друга. Документ можно объяснить, близкого нужно продолжать узнавать. Сила финала в соединении двух желаний, а его предел — в соблазне поверить, будто после соединения исчезает вся дальнейшая работа доверия и памяти.</p>"
+        },
+        "en": {
+          "section": "Resolution · Deep only · Spoilers",
+          "title": "Resolution: a history and a person return differently",
+          "body": "<p>The expedition search restores an intelligible history to the past; the search for Katya restores a possible shared present. The strands echo without becoming interchangeable. A document can be explained, while a loved person must keep being known. Their union gives the ending power without removing the continuing work of trust and memory.</p>"
+        }
+      },
+      "spoiler": "ending"
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "С собой",
+          "title": "Заботиться, проверять, оставаться человеком",
+          "body": "<p>Из этой истории можно унести связку: внимание к человеку даёт поиску смысл; обучение даёт средства; проверка удерживает уверенность от произвола. Каждое звено нуждается в остальных. Читай Саню не как приказ стать безупречным, а как повод спросить, какую чужую историю ты готов услышать и насколько бережно обойдёшься с тем, что узнаешь.</p>"
+        },
+        "en": {
+          "section": "To carry forward",
+          "title": "Care, examine, remain human",
+          "body": "<p>Carry forward a connection: attention to a person gives inquiry meaning; learning supplies its means; examination prevents confidence becoming arbitrary. Each element needs the others. Read Sanya as an invitation to consider whose story you are willing to hear and how carefully you will handle what you learn, without requiring yourself to become a flawless hero.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

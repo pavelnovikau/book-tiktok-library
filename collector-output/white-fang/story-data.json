@@ -1,0 +1,2231 @@
+{
+  "schemaVersion": 2,
+  "slug": "white-fang",
+  "title": {
+    "ru": "Белый Клык — Джек Лондон",
+    "en": "White Fang — Jack London"
+  },
+  "author": {
+    "ru": "Джек Лондон",
+    "en": "Jack London"
+  },
+  "description": {
+    "ru": "Оригинальный аналитический спутник романа о голоде, человеческой власти и условиях доверия. 14+. Финал только в Deep.",
+    "en": "An original analytical companion about hunger, human power, and the conditions of trust. Ages 14+. Ending only in Deep."
+  },
+  "audience": "teen-14-plus",
+  "spoilerPolicy": "full-plot-in-deep",
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 24,
+    "core": 60,
+    "deep": 96
+  },
+  "methodNote": {
+    "ru": "Оригинальный аналитический разбор, не текст книги и не её перевод. Полное английское издание доступно; выборочные эпизоды всех пяти частей прочитаны и сверены, без заявления о сплошном чтении. Аннотации критики обозначены как аннотации. Метки различают роман, внешнюю проверку и синтез; научные теории и методы обращения с животными здесь не проверяются. Главное и Core сохраняют развязку; поздние спойлеры только в Deep после предупреждения. Внешние ссылки могут раскрывать сюжет.",
+    "en": "Original analytical companion, not the book text or a translation. The complete English edition is available; selected passages across all five parts were read and checked, without claiming continuous full-book reading. Critical abstracts are labelled as abstracts. Labels distinguish the novel, outside evidence, and synthesis; scientific theories and animal-handling methods are not verified here. Essential and Core preserve the resolution; later spoilers occur only in Deep after a warning. External links may reveal the plot."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Jack London — White Fang (Project Gutenberg #910)",
+      "url": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "role": "book",
+      "note": {
+        "ru": "Полное законно доступное английское издание; выборочно прочитаны и сверены эпизоды всех пяти частей. Не сплошное чтение. Основной источник сюжета и языка рассказчика. Внешняя ссылка ведёт к полному тексту и может раскрыть сюжет.",
+        "en": "Complete lawfully accessible English edition; selected passages read and checked across all five parts, not a continuous full-book reading. Main evidence for events and narration. The external full text may reveal the plot."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Jack London — The Other Animals (Revolution and Other Essays)",
+      "url": "https://www.gutenberg.org/cache/epub/4953/pg4953-images.html",
+      "role": "author",
+      "note": {
+        "ru": "Выбранные фрагменты авторского эссе, датированного мартом 1908 года. Полемика об изображении мышления животных; свидетельство замысла, не современная научная проверка и не прочтение всего сборника.",
+        "en": "Selected passages of the author’s essay dated March 1908. His defence of representing animal thought documents intention, not modern scientific verification or a reading of the entire collection."
+      }
+    },
+    {
+      "id": 3,
+      "title": "National Park Service — Gold Rush Writers",
+      "url": "https://www.nps.gov/klgo/learn/historyculture/writers.htm",
+      "role": "reference",
+      "note": {
+        "ru": "Прочитан раздел о Лондоне: поездка 1897 года, Чилкут, зимовка и болезнь. Исторический контекст не превращает сцены романа в документальные свидетельства.",
+        "en": "The London subsection was read: the 1897 journey, Chilkoot crossing, winter, and illness. Historical context does not turn the novel’s scenes into documentary evidence."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Sonoma State University — Jack London Online: Novels",
+      "url": "https://london.sonoma.edu/londons-writings/novels",
+      "role": "reference",
+      "note": {
+        "ru": "Университетский список романов: даты 1906 и 1903 годов и связь двух собачьих историй. «Зов предков» здесь не прочитан заново и не пересказывается.",
+        "en": "Institutional novel list: the 1906 and 1903 dates and the pairing of the canine stories. The Call of the Wild was not newly read or retold here."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Sue Walsh — The child in wolf’s clothing (2013): abstract",
+      "url": "https://intellectdiscover.com/content/journals/10.1386/ejac.32.1.55_1",
+      "role": "review",
+      "note": {
+        "ru": "Только аннотация на сайте издателя, не полная статья. Предлагает оспаривать простые границы природы, культуры и идентичности. Использована как ограниченное направление чтения.",
+        "en": "Publisher-hosted abstract only, not the full article. It proposes questioning simple boundaries of nature, culture, and identity. Used as a limited interpretive direction."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Kenneth K. Brandt — Into and Out of the Wild (2018): abstract",
+      "url": "https://academic.oup.com/liverpool-scholarship-online/book/31158/chapter-abstract/264197508",
+      "role": "review",
+      "note": {
+        "ru": "Только индексированная издательская аннотация: приспособление, господство и сотрудничество. Полная глава недоступна в этой проверке; её подробные доводы не приписываются автору конспекта.",
+        "en": "Indexed publisher abstract only: adaptation, domination, and cooperation. The full chapter was unavailable in this check; no detailed unseen arguments are attributed or relied upon."
+      }
+    }
+  ],
+  "media": {
+    "changing-trail": {
+      "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNzYwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9Ijc2MCIgZmlsbD0iI0U2RTREOSIvPjxnIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0I3QjVBQyIgc3Ryb2tlLXdpZHRoPSIyIj48cGF0aCBkPSJNMCAxODBINjAwTTAgMzgwSDYwME0wIDU4MEg2MDAiLz48cGF0aCBkPSJNMTUwIDBWNzYwTTQ1MCAwVjc2MCIvPjwvZz48cGF0aCBkPSJNMjY1IDcxMGw2NS04NS03NS05MCA4NS0xMDAtNjAtODAgNDUtODAtMjUtNTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzZGNkU2OSIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz48cGF0aCBkPSJNMzAwIDIyMGMtMzUtNzAtMTAtMTI1IDQ1LTE1MCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMUM2QzY2IiBzdHJva2Utd2lkdGg9IjciIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjxwYXRoIGQ9Ik0zNjUgNzBoNjVtLTY1IDB2NjUiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFDNkM2NiIgc3Ryb2tlLXdpZHRoPSIzIi8+PGcgZmlsbD0iIzZGNkU2OSI+PGVsbGlwc2UgY3g9IjIxMCIgY3k9IjY1MSIgcng9IjUiIHJ5PSI5IiB0cmFuc2Zvcm09InJvdGF0ZSgyNSAyMTAgNjUxKSIvPjxlbGxpcHNlIGN4PSIzNjUiIGN5PSI1NDgiIHJ4PSI1IiByeT0iOSIgdHJhbnNmb3JtPSJyb3RhdGUoLTI1IDM2NSA1NDgpIi8+PGVsbGlwc2UgY3g9IjIyMCIgY3k9IjQ0OCIgcng9IjUiIHJ5PSI5IiB0cmFuc2Zvcm09InJvdGF0ZSgyNSAyMjAgNDQ4KSIvPjwvZz48L3N2Zz4=",
+      "alt": {
+        "ru": "Ломаный след рядом с открытым пространством: авторская абстракция изменения привычного пути, не иллюстрация сцены.",
+        "en": "An angular trail beside open space: an original abstraction of changing a familiar path, not an illustrated scene."
+      },
+      "credit": {
+        "ru": "Оригинальная векторная обложка для этого разбора.",
+        "en": "Original vector cover created for this companion."
+      }
+    }
+  },
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        4
+      ],
+      "evidence": "Publication metadata: source 4; interpretive framing: source 1.",
+      "cognitiveJob": "White Fang",
+      "copy": {
+        "ru": {
+          "section": "Джек Лондон · 1906",
+          "title": "Белый Клык",
+          "body": "<p>Как жить, если всякий встречный кажется угрозой? Разбор приключения о голоде, власти и цене доверия. 14+. Главное и Core сохраняют развязку; полный финал — только в Deep.</p>",
+          "subtitle": "Страх учит быстро. Чему он не даёт научиться?",
+          "visualAlt": "Авторская абстракция: резкий след меняет направление рядом с открытым пространством."
+        },
+        "en": {
+          "section": "Jack London · 1906",
+          "title": "White Fang",
+          "body": "<p>How do you live when every encounter feels dangerous? An analytical companion about hunger, power, and the price of trust. Ages 14+. Essential and Core preserve the resolution; only Deep reveals the ending.</p>",
+          "subtitle": "Fear teaches quickly. What does it prevent us from learning?",
+          "visualAlt": "Original abstraction: an angular trail changes direction beside an open space."
+        }
+      },
+      "type": "cover",
+      "media": "changing-trail"
+    },
+    {
+      "id": "question-of-character",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "III.II–III.VI; IV.I–III. No later outcome disclosed.",
+      "cognitiveJob": "Is he cruel, or has he learned to survive this way?",
+      "copy": {
+        "ru": {
+          "section": "I · Вопрос",
+          "title": "Он жестокий — или так научился жить?",
+          "body": "<p>Встречая опасного зверя, легко увидеть только зубы. Лондон предлагает проследить, какие встречи сделали зубы главным способом отвечать миру. Вопрос книги шире борьбы за выживание: когда поведение помогает уцелеть, какую часть жизни оно одновременно закрывает? Ответ требует смотреть и на зверя, и на тех, кто задаёт условия.</p>"
+        },
+        "en": {
+          "section": "I · The question",
+          "title": "Is he cruel, or has he learned to survive this way?",
+          "body": "<p>When we meet a dangerous animal, it is easy to see only its teeth. London asks us to trace the encounters that made teeth its main answer to the world. Survival raises a second question: when behaviour keeps a creature alive, what possibilities does it close? We must watch both the animal and those shaping its surroundings.</p>"
+        }
+      }
+    },
+    {
+      "id": "reading-boundary",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        2
+      ],
+      "evidence": "Method disclosure; boundaries of literary interpretation.",
+      "cognitiveJob": "This is literary analysis, not a taming manual",
+      "copy": {
+        "ru": {
+          "section": "I · Вопрос",
+          "title": "Это разбор романа, а не инструкция по приручению",
+          "body": "<p>Здесь есть гибель животных, голод, побои и организованные бои; натуралистические подробности сокращены. Основа — выборочно прочитанные и сверенные эпизоды полного английского текста. Это не сплошное чтение всей книги и не пересказ каждого раздела. Метка под экраном различает роман, внешнюю проверку и нашу интерпретацию; русские формулировки написаны заново.</p>"
+        },
+        "en": {
+          "section": "I · The question",
+          "title": "This is literary analysis, not a taming manual",
+          "body": "<p>Expect animal deaths, hunger, beatings, and organised fighting; graphic detail is reduced. The basis is selected passages read and checked in the complete English text. This was not a continuous full-book reading or a chapter-by-chapter retelling. Each screen distinguishes the novel, outside evidence, and our interpretation. The Russian wording is newly written rather than borrowed from a translation.</p>"
+        }
+      }
+    },
+    {
+      "id": "klondike-experience",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        3,
+        4
+      ],
+      "evidence": "NPS Gold Rush Writers, Jack London subsection; SSU Novels entry.",
+      "cognitiveJob": "London knew the North; the novel is not reportage",
+      "copy": {
+        "ru": {
+          "section": "I · Вопрос",
+          "title": "Север был опытом автора, но роман не репортаж",
+          "body": "<p>В 1897 году двадцатиоднолетний Лондон отправился на Клондайк, прошёл Чилкут и зимовал на Юконе. Болезнь заставила его вернуться. Эти сведения подтверждает National Park Service. Они объясняют запас наблюдений, но не удостоверяют каждую сцену: опубликованный в 1906 году роман создаёт собственную причинную конструкцию из опыта и вымысла.</p>"
+        },
+        "en": {
+          "section": "I · The question",
+          "title": "London knew the North; the novel is not reportage",
+          "body": "<p>In 1897, twenty-one-year-old London headed for the Klondike, crossed the Chilkoot Pass, and wintered in the Yukon. Illness brought him home. The National Park Service documents that experience. It helps explain his material without authenticating every scene: the novel, published in 1906, builds its own causal structure from observation and invention.</p>"
+        }
+      }
+    },
+    {
+      "id": "hunger-before-hero",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "I.I–III.",
+      "cognitiveJob": "Hunger arrives before the protagonist",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Голод появляется раньше главного героя",
+          "body": "<p>Сначала мы видим двух людей, собак и зимнюю дорогу. Волки идут следом, потому что еды мало. Белого Клыка ещё нет в центре истории. Такая задержка задаёт масштаб: жизнь зависит от пищи и тепла раньше, чем получает имя, характер или красивую легенду о храбрости.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "Hunger arrives before the protagonist",
+          "body": "<p>First come two men, dogs, and a winter trail. Wolves follow because food is scarce. White Fang has not yet become the centre of the story. Delaying his arrival establishes the scale: life depends on food and warmth before it acquires a name, a personality, or an attractive legend of courage.</p>"
+        }
+      }
+    },
+    {
+      "id": "coffin-and-meat",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "I.I: the coffin, living travellers and narrator framing.",
+      "cognitiveJob": "The coffin challenges human exceptionalism",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Гроб спорит с человеческой исключительностью",
+          "body": "<p>Люди везут тело умершего, а сами могут стать пищей. Гроб сохраняет человеческую церемонию среди пространства, которому она безразлична. Это столкновение двух взглядов: для спутников человек — чья-то судьба, для голодного хищника — возможное мясо. Рассказ не требует отказаться от первого взгляда, но заставляет признать существование второго.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "The coffin challenges human exceptionalism",
+          "body": "<p>The men transport a dead body while facing the possibility of becoming food themselves. The coffin preserves human ceremony in surroundings indifferent to it. Two perspectives collide: a person is someone with a history to his companions, and potential meat to a hungry predator. The story makes us acknowledge the second perspective without surrendering the first.</p>"
+        }
+      }
+    },
+    {
+      "id": "extra-fish",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "I.I: six dogs, seven animals receiving fish.",
+      "cognitiveJob": "One extra fish exposes an unseen visitor",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Одна лишняя рыба обнаруживает невидимого гостя",
+          "body": "<p>Билл замечает несходство между числом собак и числом съеденных рыб. Волчица подходит к кормлению так близко, что привычная процедура перестаёт быть надёжной. Угроза сначала существует как маленькая ошибка учёта. Читателю предлагают заметить её раньше, чем люди полностью понимают, насколько проницаема граница между лагерем и лесом.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "One extra fish exposes an unseen visitor",
+          "body": "<p>Bill notices a mismatch between the number of dogs and the fish eaten. A she-wolf has approached feeding time closely enough to disrupt a familiar routine. Danger first appears as a small accounting discrepancy. The reader is invited to notice it before the men fully understand how permeable the boundary between camp and forest has become.</p>"
+        }
+      }
+    },
+    {
+      "id": "unseen-cost",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "I.III: Bill and One Ear; sounds heard by Henry.",
+      "cognitiveJob": "The worst event stays beyond the trees",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Самое страшное остаётся за деревьями",
+          "body": "<p>Когда Билл идёт спасать собаку, Генри слышит выстрелы и крики, но не видит самого конца погони. Лондон ограничивает доступ к событию слухом оставшегося человека. Так насилие действует через отсутствие: читатель достраивает потерю, а повествование избегает превращать каждый удар в зрелище. Это выбор формы, а не недостаток событий.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "The worst event stays beyond the trees",
+          "body": "<p>When Bill goes to save a dog, Henry hears shots and cries but cannot see the pursuit end. London restricts access to what the remaining man can hear. Violence works through absence: the reader reconstructs the loss, while the narrative avoids turning every blow into a spectacle. This is a formal choice, not a shortage of action.</p>"
+        }
+      }
+    },
+    {
+      "id": "fire-and-exhaustion",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "I.III: Henry, narrowing wolf circle, fire and rescue.",
+      "cognitiveJob": "Protection depends on someone staying awake",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Защита зависит от того, кто ещё может бодрствовать",
+          "body": "<p>Генри отгоняет стаю огнём, но сильнее самого огня оказывается вопрос сна. Дрова нужно заготавливать, костёр поддерживать, движение замечать. Защитная граница существует только пока у тела остаются силы. Эпизод делает выживание трудом обслуживания: хороший приём не отменяет истощения, а помощь приходит извне, не как награда за безошибочность.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "Protection depends on someone staying awake",
+          "body": "<p>Henry holds the pack off with fire, but sleep becomes the decisive pressure. Wood must be gathered, flames maintained, and movement noticed. The protective boundary lasts only while his body can sustain it. Survival becomes maintenance work: a useful technique does not abolish exhaustion, and outside help arrives without being a reward for flawless performance.</p>"
+        }
+      }
+    },
+    {
+      "id": "viewpoint-handoff",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "Transition I.III → II.I–III.",
+      "cognitiveJob": "The pursuit changes meaning when the viewpoint changes",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Погоня меняет смысл, когда меняется взгляд",
+          "body": "<p>После человеческого страха рассказ приближается к волкам, а затем к волчонку. То, что выглядело одной лишь угрозой, получает причины: голод, поиск пары, заботу о потомстве. Лондон не отменяет гибель жертв. Он лишает читателя удобства считать единственный человеческий ракурс полной картиной происходящего в лесу.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "The pursuit changes meaning when the viewpoint changes",
+          "body": "<p>After human terror, the narrative moves closer to wolves and then a cub. What appeared to be sheer menace acquires causes: hunger, mating, and caring for offspring. London does not undo the victims’ deaths. He removes the comfort of treating the human viewpoint as a complete account of everything happening in the forest.</p>"
+        }
+      }
+    },
+    {
+      "id": "different-memories",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.I–II: camp and rabbit snare.",
+      "cognitiveJob": "One smell carries two different histories",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Один запах хранит две разные истории",
+          "body": "<p>Волчица узнаёт человеческий лагерь и тянется к нему; Одноглазый настораживается. Позднее заячья петля пугает его движением, которого он не понимает. Знакомство с людьми даёт ей другой набор ожиданий. Разница в реакции объясняется не отвлечённой смелостью, а тем, какой опыт доступен каждому из двух животных.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "One smell carries two different histories",
+          "body": "<p>The she-wolf recognises a human camp and feels drawn to it; One Eye is wary. Later, a rabbit snare alarms him through movement he cannot explain. Her familiarity with people supplies another set of expectations. Their differing reactions are explained through experience rather than an abstract ranking of which animal has more courage.</p>"
+        }
+      }
+    },
+    {
+      "id": "trap-reveals-system",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.I: rabbit suspended by sapling snare.",
+      "cognitiveJob": "A trap puts an absent human into the forest",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Ловушка добавляет в лес невидимого человека",
+          "body": "<p>Заяц взлетает из-за петли и согнутого деревца. Животные видят движение, но не замысел того, кто устроил механизм. Человеку необязательно стоять рядом, чтобы менять чужие возможности. Этот ранний эпизод готовит важное различие: среда состоит не только из природы, но и из оставленных кем-то устройств и правил.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "A trap puts an absent human into the forest",
+          "body": "<p>A rabbit rises because of a snare and a bent sapling. The animals see motion without understanding the intention behind the mechanism. A human need not remain present to alter another creature’s options. This early incident prepares an important distinction: surroundings include arrangements and rules left by others, as well as natural features.</p>"
+        }
+      }
+    },
+    {
+      "id": "pack-is-not-everything",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.I–II: pack dispersal, pair hunting and lair.",
+      "cognitiveJob": "Wolf life is not one endless collective fight",
+      "copy": {
+        "ru": {
+          "section": "II · Голод и взгляд",
+          "title": "Волчья жизнь не сводится к вечной общей драке",
+          "body": "<p>Роман показывает не только соперничество. После распада стаи волчица и Одноглазый охотятся вместе; поиск логова меняет ритм их движения. Даже внутри сурового начала есть совместная добыча и ожидание другого. Читать лес только как арену индивидуального господства — значит вычеркнуть отношения, которые сам текст успел показать.</p>"
+        },
+        "en": {
+          "section": "II · Hunger and viewpoint",
+          "title": "Wolf life is not one endless collective fight",
+          "body": "<p>The novel depicts more than rivalry. After the pack disperses, the she-wolf and One Eye hunt together, and the search for a den changes their movement. Even this harsh beginning contains shared hunting and waiting for a companion. Reading the forest only as an arena of individual dominance erases relationships already present in the text.</p>"
+        }
+      }
+    },
+    {
+      "id": "cub-before-label",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.III: grey cub, lair and mother.",
+      "cognitiveJob": "Before reputation come warmth and curiosity",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "До репутации есть тепло и любопытство",
+          "body": "<p>Серый волчонок сначала знает мать как источник тепла, молока и прикосновения. Его мир мал, но он не считает его тесным: другого мира ещё нет. Так будущая опасность начинается не с готовой злобы. Повествование даёт увидеть зависимость и исследовательский порыв раньше, чем взрослые назовут зверя страшным.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Before reputation come warmth and curiosity",
+          "body": "<p>The grey cub first knows his mother through warmth, milk, and touch. His world is small without feeling cramped: he has no other world for comparison. The dangerous animal does not begin as completed malice. The narrative shows dependence and exploratory impulse before adults can describe the creature through a frightening reputation.</p>"
+        }
+      }
+    },
+    {
+      "id": "mixed-lineage",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.VI opening; III.I Kiche genealogy.",
+      "cognitiveJob": "Ancestry supplies possibilities, not a verdict",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Происхождение задаёт возможности, а не приговор",
+          "body": "<p>По счёту самого романа Белый Клык на три четверти волк и на четверть собака. Но эта дробь не вычисляет его судьбу. Лондон постоянно соединяет наследственные задатки с воздействием среды. Полезнее следить, что именно раскрывают или подавляют обстоятельства, чем объяснять каждый поступок одним словом «волк».</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Ancestry supplies possibilities, not a verdict",
+          "body": "<p>By the novel’s own account, White Fang is three-quarters wolf and one-quarter dog. That fraction does not calculate his destiny. London repeatedly joins inherited capacities to environmental pressure. It is more useful to watch what circumstances develop or suppress than to explain every action through the single label “wolf” as if it settled the question.</p>"
+        }
+      }
+    },
+    {
+      "id": "surviving-litter",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.III: famine, siblings and One Eye.",
+      "cognitiveJob": "His growth begins beside other lives disappearing",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Рост героя начинается рядом с чужим исчезновением",
+          "body": "<p>Голод останавливает игры волчат. Братья и сёстры серого детёныша погибают; Одноглазый тоже не возвращается. Будущая биография складывается на фоне жизней, которые не получили продолжения. Это меняет тон приключения: читатель следит за единственным выжившим, но роман оставляет рядом цену, которую нельзя записать ему в личную заслугу.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "His growth begins beside other lives disappearing",
+          "body": "<p>Hunger stops the cubs’ play. The grey cub’s siblings die, and One Eye does not return either. The protagonist’s future grows against lives that receive no continuation. This changes the adventure’s tone: we follow a survivor, but the narrative leaves beside him a cost that cannot be entered on the credit side of his personal achievements.</p>"
+        }
+      }
+    },
+    {
+      "id": "survival-is-not-desert",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.III; III.IV narrator counterfactual.",
+      "cognitiveJob": "Surviving does not make a life more deserving",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Выживший не становится поэтому более достойным",
+          "body": "<p>Способности серого волчонка важны, но они действуют среди нехватки пищи и случайных встреч. Рассказ о выжившем легко спутать с доказательством, будто выжить заслуживал только он. Это уже вывод читателя, а не необходимый смысл событий. Роман позволяет восхищаться силой, не превращая погибших в виновников собственной гибели.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Surviving does not make a life more deserving",
+          "body": "<p>The cub’s abilities matter, but they operate amid food shortages and chance encounters. A survivor’s story can easily become a claim that only the survivor deserved to live. That is an additional judgement, not a necessary meaning of the events. We can admire strength without treating those who died as responsible for their own destruction.</p>"
+        }
+      }
+    },
+    {
+      "id": "wall-of-light",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.III–IV: cave mouth and first emergence.",
+      "cognitiveJob": "An opening looks like a wall without experience",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Выход кажется стеной, пока нет опыта выхода",
+          "body": "<p>Светлый вход в пещеру волчонок воспринимает как особую стену. Мать проходит через неё, а собственный мир он пока представляет иначе. Первый выход перестраивает не только карту местности: приходится заново связать зрение, расстояние и движение тела. Знание здесь возникает при встрече с ограничением, которого нельзя понять заранее.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "An opening looks like a wall without experience",
+          "body": "<p>The cub experiences the bright mouth of the cave as a special wall. His mother passes through it, but his own world is organised differently. Emerging changes more than a map: sight, distance, and bodily movement must be connected afresh. Knowledge develops through encountering a limit that cannot be fully understood in advance.</p>"
+        }
+      }
+    },
+    {
+      "id": "body-calibrates",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.IV: twigs, footing, distances and walking.",
+      "cognitiveJob": "Movement has to be calibrated",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Умение двигаться приходится настраивать",
+          "body": "<p>На прогулке ветки оказываются ближе, чем ожидалось, камни переворачиваются, лапы промахиваются. Каждая неловкость уточняет связь между видимым и достижимым. Лондон описывает обучение без урока и объясняющей речи. Волчонок не становится непогрешимым; он точнее чувствует границы собственного тела, потому что уже испытал несходство ожидания и результата.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Movement has to be calibrated",
+          "body": "<p>On his first excursion, twigs are closer than expected, stones turn, and paws misjudge their landing. Each mistake refines the relation between what he sees and what he can reach. London describes learning without a lesson or explanatory speech. The cub becomes more accurately attuned to his body’s limits through experiencing mismatches between expectation and result.</p>"
+        }
+      }
+    },
+    {
+      "id": "predator-prey-reversal",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.IV: ptarmigan brood, mother and hawk.",
+      "cognitiveJob": "A hunter can become prey within one scene",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "В одной сцене охотник успевает стать добычей",
+          "body": "<p>Волчонок съедает птенцов, вступает в схватку с их матерью и сам едва не достаётся ястребу. Затем хищная птица уносит взрослую куропатку. Последовательность не оставляет ему постоянного места наверху. Размер и положение меняют роли; ощущение победы в одном столкновении ничего не гарантирует в следующем, начавшемся через мгновение.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "A hunter can become prey within one scene",
+          "body": "<p>The cub eats chicks, fights their mother, and narrowly escapes a hawk. The hawk then carries off the adult ptarmigan. This sequence gives him no permanent place at the top. Size and situation rearrange roles; the feeling of winning one encounter guarantees nothing in the next encounter, which may begin almost immediately.</p>"
+        }
+      }
+    },
+    {
+      "id": "water-and-appearance",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.IV: first encounter with stream and swimming.",
+      "cognitiveJob": "A smooth surface need not be solid ground",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Гладкая поверхность ещё не означает опору",
+          "body": "<p>Вода выглядит пригодной для шага, но волчонок проваливается. Его ошибка понятна: прежний опыт связывал видимую поверхность с опорой. Новый случай требует различать похожее. Этот маленький эпизод показывает механизм осторожности лучше общего лозунга: недоверие к внешнему виду вырастает из конкретного несоответствия, а не из знания всего мира заранее.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "A smooth surface need not be solid ground",
+          "body": "<p>The water looks walkable, but the cub sinks. His mistake makes sense: previous experience connected visible surfaces with support. This encounter demands a new distinction between things that look alike. The small incident explains caution better than a slogan: distrust of appearances grows from a specific mismatch, rather than arriving as advance knowledge of the whole world.</p>"
+        }
+      }
+    },
+    {
+      "id": "size-is-not-safety",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.IV: mother-weasel attacks; she-wolf intervenes.",
+      "cognitiveJob": "A small body does not promise a small danger",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Маленькое тело не обещает маленькой опасности",
+          "body": "<p>Ласка кажется волчонку достаточно маленькой для нападения, однако её мать оказывается смертельно опасной. Его спасает волчица. Сцена нарушает простое правило «крупнее — значит сильнее» и напоминает о зависимости детёныша. Исследование мира возможно не только благодаря личной дерзости, но и потому, что кто-то ещё способен вмешаться при неудаче.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "A small body does not promise a small danger",
+          "body": "<p>A young weasel seems small enough to attack, but its mother proves lethally dangerous. The she-wolf saves the cub. The scene disrupts a simple equation of size with safety and reminds us of his dependence. Exploration is possible not only through individual boldness, but because another creature can intervene when that boldness fails.</p>"
+        }
+      }
+    },
+    {
+      "id": "law-of-meat",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.V: law of meat, explicitly not verbal abstraction.",
+      "cognitiveJob": "The “law of meat” organises his experience",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "«Закон мяса» — устройство его опыта",
+          "body": "<p>Для волчонка живое постепенно делится на тех, кого можно съесть, и тех, кто способен съесть его. Рассказчик формулирует правило, но подчёркивает: детёныш не произносит его и не рассуждает о морали. Это сжатие пережитых опасностей, а не философская речь маленького человека, помещённого в волчью шкуру.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "The “law of meat” organises his experience",
+          "body": "<p>Living creatures gradually divide into those the cub can eat and those that can eat him. The narrator formulates the rule while stressing that the cub neither states it nor debates morality. It condenses experienced dangers. It is not a philosophical speech delivered by a small human dressed in a wolf’s skin.</p>"
+        }
+      }
+    },
+    {
+      "id": "maternal-cost",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.V: lynx kitten, mother lynx and wounded she-wolf.",
+      "cognitiveJob": "Maternal care remains inside the food chain",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Материнская забота не находится вне пищевой цепи",
+        "body": "<p>Волчица приносит сыну рысёнка, съев остальной выводок сама; позже мать погибших рысят приходит к логову. Здесь забота об одном детёныше оборачивается утратой для другой матери. Для читателя это труднее удобной сказки: понятная причина нападения не уменьшает телесной цены для другой стороны.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Maternal care remains inside the food chain",
+        "body": "<p>The she-wolf brings her son a lynx kitten after eating the rest of the litter herself; later the bereaved lynx comes to the den. Care for one cub has destroyed another mother’s young. That is harder for the reader than a convenient fable: understanding the reason for an attack does not lessen the bodily cost to the other side.</p>"
+        }
+      }
+    },
+    {
+      "id": "hunger-changes-risk",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "II.V: hunger, squirrel study and challenge to hawk.",
+      "cognitiveJob": "Hunger changes which risks seem bearable",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Голод меняет допустимую степень риска",
+          "body": "<p>Сначала волчонок охотится почти играя. При недостатке пищи он внимательнее изучает добычу и даже вызывает ястреба, от которого прежде прятался. Изменились не только мышцы или храбрость: изменилась цена ожидания. Один и тот же риск оценивается иначе, когда бездействие само становится опасным для выживания.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Hunger changes which risks seem bearable",
+          "body": "<p>At first the cub hunts almost in play. When food runs short, he studies prey more closely and even challenges the hawk he once hid from. More than muscles or courage have changed: waiting now carries a different cost. The same risk looks different when doing nothing has itself become dangerous to survival.</p>"
+        }
+      }
+    },
+    {
+      "id": "no-moral-from-biology",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.V; distinction between represented predation and human ethics.",
+      "cognitiveJob": "Predation does not supply a rule for human conduct",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Из поведения хищника не следует правило для человека",
+          "body": "<p>Лесное поедание не доказывает, что людям следует угнетать слабых. Описание того, как добывают пищу животные, не решает вопрос о справедливости человеческих действий. Более того, роман показывает людей, которые сознательно устраивают чужие страдания. Их выбор нельзя оправдать тем, что голодный волк тоже способен причинять боль.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "Predation does not supply a rule for human conduct",
+          "body": "<p>The forest’s predation does not prove that people ought to oppress the weak. Describing how animals obtain food does not settle the justice of human actions. The novel also depicts people who deliberately arrange suffering for others. Their choices cannot be justified by observing that a hungry wolf can cause pain too.</p>"
+        }
+      }
+    },
+    {
+      "id": "reader-knows-more",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.IV–V: narrator qualifications about cub not thinking in human fashion.",
+      "cognitiveJob": "The reader can see loss where the cub sees food",
+      "copy": {
+        "ru": {
+          "section": "III · Учиться миру",
+          "title": "Читатель видит утрату там, где герой видит пищу",
+          "body": "<p>У нас есть слова для гибели выводка и горя матери; у волчонка в этот момент — голод, вкус, страх. Повествование удерживает разницу между доступными смыслами. Сочувствовать зверю не значит соглашаться с каждым его действием. Сильный эффект возникает именно потому, что читатель способен одновременно понимать несколько несовместимых сторон одной сцены.</p>"
+        },
+        "en": {
+          "section": "III · Learning the world",
+          "title": "The reader can see loss where the cub sees food",
+          "body": "<p>We have words for a brood’s destruction and a mother’s loss; the cub has hunger, taste, and fear. The narrative keeps these different kinds of understanding apart. Sympathising with the animal does not require endorsing everything it does. The power lies in the reader’s ability to comprehend several incompatible sides of one scene at once.</p>"
+        }
+      }
+    },
+    {
+      "id": "human-power",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.I: first human encounter and Kiche.",
+      "cognitiveJob": "Humans bring a new kind of power",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Люди приносят власть, которой раньше не было",
+          "body": "<p>При встрече с людьми волчонок оказывается перед существами, способными хватать, ударять и распоряжаться вещами. Мать тоже подчиняется их голосу. С этого момента одного знания леса недостаточно. Нужно различать чужие намерения и запреты — причём наказание может исходить от того же существа, которое даёт пищу и защиту.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "Humans bring a new kind of power",
+          "body": "<p>When the cub meets humans, he encounters beings who can seize, strike, and control objects. His mother also submits to their voices. Knowledge of the forest is no longer enough. He must distinguish intentions and prohibitions, while punishment may come from the very being who also supplies food and protection to him.</p>"
+        }
+      }
+    },
+    {
+      "id": "kiche-recognition",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.I: Grey Beaver recognises Kiche; her prior ownership.",
+      "cognitiveJob": "His mother has a past he does not know",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "У матери есть прошлое, которого сын не знает",
+          "body": "<p>Серый Бобр узнаёт Кичи: раньше она жила у людей. Для волчонка её покорность неожиданна, потому что он знал её бесстрашной защитницей. Читатель узнаёт биографию, которой герой не располагает. Так поведение, кажущееся внезапным переломом характера, получает объяснение в более длинной истории отношений, памяти и человеческого владения.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "His mother has a past he does not know",
+          "body": "<p>Grey Beaver recognises Kiche: she previously lived among people. Her submission shocks the cub, who has known her as a fearless protector. The reader learns a biography unavailable to him. Behaviour that looks like a sudden change of character becomes intelligible within a longer history of relationships, memory, and human ownership.</p>"
+        }
+      }
+    },
+    {
+      "id": "name-from-teeth",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "III.I: naming after the cub bares and uses teeth.",
+      "cognitiveJob": "A name records a defensive reaction",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Имя запоминает защитную реакцию",
+          "body": "<p>Белым Клыком его называют по зубам, которые он показывает при приближении руки. Имя возникает внутри столкновения, а не как свободный выбор самого зверя. Человек замечает наиболее опасную черту и закрепляет её словом. Позднее полезно проверять: видим ли мы живое существо целиком или только характеристику, однажды вынесенную в название?</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "A name records a defensive reaction",
+          "body": "<p>He is named White Fang for the teeth exposed as a hand approaches. The name arises in a confrontation rather than through his own choice. A person notices the most dangerous feature and fixes it in a word. Later we can ask whether we see the whole creature or only the trait once selected as its label.</p>"
+        }
+      }
+    },
+    {
+      "id": "fire-and-laughter",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.I: touching fire, pain, laughter and Kiche restrained.",
+      "cognitiveJob": "The burn hurts; shared laughter adds isolation",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Ожог болит; общий смех добавляет одиночество",
+          "body": "<p>Любопытство приводит волчонка к огню. Он обжигается, люди смеются, а привязанная Кичи не может сразу помочь. Раньше незнакомое причиняло физическую боль; теперь боль получает зрителей. Рассказ соединяет познание с унижением. Читатель уже знает, что за смешной неловкостью стоит неопытность, и поэтому не обязан смеяться вместе с лагерем.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "The burn hurts; shared laughter adds isolation",
+          "body": "<p>Curiosity brings the cub to fire. He burns himself, people laugh, and the tethered Kiche cannot immediately help. The unfamiliar has caused physical pain before; now the pain has spectators. Learning becomes entangled with humiliation. Knowing the inexperience behind his awkwardness, the reader need not join the camp in finding it funny.</p>"
+        }
+      }
+    },
+    {
+      "id": "makers-of-fire",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.I–II: manipulation of matter; humans called gods.",
+      "cognitiveJob": "The “gods” can make things happen",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "«Боги» умеют создавать события",
+          "body": "<p>Люди разводят огонь, перемещают вещи и заставляют неживое действовать. Для зверя власть видна через последствия: движение руки может вызвать боль, тепло или пищу. Поэтому слово «боги» обозначает прежде всего превосходство возможностей. Оно не гарантирует доброты, а объясняет, почему подчинение так глубоко входит в его способ ориентироваться в мире.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "The “gods” can make things happen",
+          "body": "<p>People make fire, move objects, and set lifeless things in action. The animal encounters power through its effects: a hand can produce pain, warmth, or food. Calling humans “gods” mainly expresses their superior capacities. It guarantees no kindness; it explains why submission becomes embedded so deeply in his way of navigating the world.</p>"
+        }
+      }
+    },
+    {
+      "id": "gods-are-narrative-language",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        5
+      ],
+      "evidence": "III.I–II; Walsh publisher abstract only, nature/culture and identity categories.",
+      "cognitiveJob": "A narrator’s word is not an animal’s spoken thought",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Слово рассказчика не равно мысли животного",
+          "body": "<p>Белый Клык не составляет богословие. Рассказчик переводит его ощущение власти на человеческий язык. Аннотация статьи Сью Уолш предлагает читать роман как осложнение границ природы и культуры; полный текст статьи здесь не использован. Наша проверка проще: всякий раз отделять переживание героя от понятий, которыми нам помогает повествователь.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "A narrator’s word is not an animal’s spoken thought",
+          "body": "<p>White Fang is not constructing a theology. The narrator translates his experience of power into human language. Sue Walsh’s article abstract proposes reading the novel as complicating boundaries between nature and culture; the full article was not used here. Our more limited check is to distinguish the animal’s experience from the concepts the narrator supplies for us.</p>"
+        }
+      }
+    },
+    {
+      "id": "play-denied",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.II: Lip-lip excludes White Fang from puppy play.",
+      "cognitiveJob": "Bullying takes away play as well as peace",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Травля отнимает не только спокойствие, но и игру",
+          "body": "<p>Лип-Лип сильнее и старше; всякое появление волчонка среди щенков превращает в нападение. Лондон подчёркивает потерянную возможность играть. Герой тренируется замечать опасность, обходить врага и добывать пищу отдельно. Его развитие продолжается, но становится односторонним: навыки защиты растут там, где не могут сложиться навыки безопасного соседства.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "Bullying takes away play as well as peace",
+          "body": "<p>Lip-lip is older and stronger, turning the cub’s attempts to join other puppies into attacks. London stresses the lost opportunity to play. White Fang practises spotting danger, evading an enemy, and obtaining food alone. Development continues but becomes one-sided: defensive skills grow where the skills of living safely alongside others cannot develop.</p>"
+        }
+      }
+    },
+    {
+      "id": "theft-as-adjustment",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.II: exclusion at feeding and stealing.",
+      "cognitiveJob": "What looks like a vice can be an adjustment",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "То, что выглядит пороком, может быть приспособлением",
+          "body": "<p>Когда волчонку мешают получить еду вместе с остальными, он становится ловким вором. Повествование связывает нежелательное поведение с устройством кормления и травлей. Это не объявляет кражу хорошей. Оно меняет вопрос читателя: что поддерживает привычку сейчас и остаётся ли у героя доступный способ удовлетворить ту же нужду без неё?</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "What looks like a vice can be an adjustment",
+          "body": "<p>When the cub is prevented from sharing the feeding, he becomes an effective thief. The narrative connects unwanted behaviour to access to food and persecution. It does not declare stealing good. It changes the reader’s question: what currently sustains the habit, and does the creature have another available way to meet the same need?</p>"
+        }
+      }
+    },
+    {
+      "id": "pack-and-outcast",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.III: collective pursuit and attacks on isolated dogs.",
+      "cognitiveJob": "The outcast and the pack intensify each other’s fear",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Изгнанник и стая усиливают страх друг друга",
+          "body": "<p>Собаки преследуют его вместе; он нападает на тех, кто отделился. Одиночество становится опасным уже для обеих сторон. Взаимное ожесточение поддерживает порядок, где никто не может спокойно попробовать другой способ встречи. Лондон показывает не один дурной эпизод, а повторяющуюся структуру отношений, которая каждый раз подтверждает старое ожидание вражды.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "The outcast and the pack intensify each other’s fear",
+          "body": "<p>The dogs pursue him together; he attacks those caught alone. Solitude becomes dangerous on both sides. Mutual hostility sustains an arrangement in which nobody can safely try a different encounter. London depicts more than an isolated bad incident: a repeated relationship keeps confirming the old expectation that meeting the other means conflict.</p>"
+        }
+      }
+    },
+    {
+      "id": "snarl-buys-time",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.III: snarl interrupts attacks and enables retreat.",
+      "cognitiveJob": "A snarl can be a way to avoid fighting",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Оскал иногда нужен, чтобы не драться",
+          "body": "<p>Страшный оскал заставляет нападающего замедлиться. Выигранного мгновения хватает, чтобы решить, что делать, или отступить. Внешне угрожающее поведение здесь выполняет защитную работу, а не обязательно обещает атаку. Читатель учится различать видимый сигнал и его функцию внутри конкретного столкновения, где у героя мало времени и нет безопасного объяснения словами.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "A snarl can be a way to avoid fighting",
+          "body": "<p>A frightening snarl can make an attacker hesitate. The moment gained allows a decision or a retreat. Threatening behaviour here performs defensive work rather than necessarily announcing an attack. The reader learns to distinguish an observable signal from its function in a particular encounter, where the animal has little time and cannot explain itself in words.</p>"
+        }
+      }
+    },
+    {
+      "id": "mother-as-property",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.II: Kiche transferred to Three Eagles to settle debt.",
+      "cognitiveJob": "A human transaction breaks an animal bond",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Человеческая сделка разрывает нечеловеческую связь",
+          "body": "<p>Кичи передают Трём Орлам в счёт долга. Для людей это обмен имуществом; для сына — исчезновение главной опоры. Он бросается следом и получает побои. Сцена заставляет держать вместе два описания одного события: законность распоряжения вещью внутри лагеря и страдание существа, для которого эта «вещь» является матерью.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "A human transaction breaks an animal bond",
+          "body": "<p>Kiche is transferred to Three Eagles as part of settling a debt. For the humans it is a property transaction; for her son it is the removal of his main support. He follows and is beaten. The same event has two descriptions: an accepted disposal of property and the suffering of a creature for whom that “property” is his mother.</p>"
+        }
+      }
+    },
+    {
+      "id": "care-without-human-vow",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "II.III; III.II and III.VI; no universal claim about animal memory.",
+      "cognitiveJob": "A maternal bond is not a human promise",
+      "copy": {
+        "ru": {
+          "section": "IV · Власть и травля",
+          "title": "Связь с матерью нельзя измерять человеческой клятвой",
+          "body": "<p>Роман даёт материнской заботе сильное значение, но не превращает её в обещание неизменной семейной близости. Позднейшие реакции Кичи рассказчик объясняет иначе, чем объяснял бы человеческий разговор. Эти объяснения принадлежат художественному тексту. Проверять ими память или чувства реальных животных было бы отдельной задачей, для которой здесь нет научных данных.</p>"
+        },
+        "en": {
+          "section": "IV · Power and exclusion",
+          "title": "A maternal bond is not a human promise",
+          "body": "<p>The novel gives maternal care great weight without turning it into a promise of permanent family intimacy. The narrator explains Kiche’s later responses differently from a human conversation. Those explanations belong to the literary text. Testing the memory or feelings of actual animals would require a separate inquiry and scientific evidence not supplied here.</p>"
+        }
+      }
+    },
+    {
+      "id": "freedom-has-conditions",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.IV: hides during departure, loneliness and return.",
+      "cognitiveJob": "Freedom without support can also be frightening",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Свобода без опоры тоже может пугать",
+          "body": "<p>Волчонок прячется, когда лагерь уходит, и получает желанную свободу. Но тишина леса быстро становится одиночеством, холодом и голодом. Его возвращение к людям не делает прежнее обращение справедливым. Оно показывает выбор между трудными возможностями: отсутствие привязи ещё не обеспечивает ни защищённости, ни умения жить одному в изменившихся условиях.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Freedom without support can also be frightening",
+          "body": "<p>The cub hides when camp moves and gains the freedom he wanted. Forest silence soon becomes loneliness, cold, and hunger. Returning to people does not make their earlier treatment just. It reveals a choice among difficult options: the absence of a tether supplies neither security nor the ability to live alone in changed circumstances.</p>"
+        }
+      }
+    },
+    {
+      "id": "contingency-of-return",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.IV: Kloo-kooch sights moose; camp on near bank; explicit counterfactual.",
+      "cognitiveJob": "Chance changes the path as well as character",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Путь меняет случай, а не только характер",
+          "body": "<p>Клу-Куч замечает лося, и люди останавливаются на том берегу, где их может найти Белый Клык. Рассказчик прямо допускает другую биографию, если бы встречи не произошло. Судьба здесь не полностью вычисляется из наследственности. Случай размещает героя в определённой среде, а уже эта среда начинает формировать его дальше.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Chance changes the path as well as character",
+          "body": "<p>Kloo-kooch sees a moose, so the people camp on the bank where White Fang can find them. The narrator explicitly imagines a different life had this encounter not occurred. Destiny cannot be calculated entirely from heredity. Chance places the protagonist in particular surroundings, which then begin doing further work on him.</p>"
+        }
+      }
+    },
+    {
+      "id": "covenant-without-love",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.V: covenant explicitly distinguishes duty/awe from love.",
+      "cognitiveJob": "Food and protection are not yet love",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Пища и защита ещё не равны любви",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>Человек даёт</strong><p>Пищу, огонь, защиту и место рядом.</p></div><div class=\"compare-item\"><strong>Зверь отдаёт</strong><p>Труд, охрану, послушание и часть свободы.</p></div></div><p>Так рассказчик описывает договор с Серым Бобром. Связь держится на пользе и страхе; благодарность за безопасность не доказывает доверия к прикосновению. Различать эти отношения необходимо, даже если внешне оба выглядят как верная служба.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Food and protection are not yet love",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>The human supplies</strong><p>Food, fire, protection, and company.</p></div><div class=\"compare-item\"><strong>The animal supplies</strong><p>Labour, guarding, obedience, and some freedom.</p></div></div><p>The narrator describes this as a covenant with Grey Beaver. Usefulness and fear sustain it; receiving security does not establish trust in a touch. We need the distinction even when both kinds of relationship look like faithful service from outside.</p>"
+        }
+      }
+    },
+    {
+      "id": "defensive-exception",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.V: boy with meat chips, defensive bite, Grey Beaver supports White Fang.",
+      "cognitiveJob": "One exception changes a learned prohibition",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Одно исключение меняет усвоенный запрет",
+          "body": "<p>Загнанный мальчиком с дубинкой, Белый Клык кусает его и ждёт наказания за нападение на человека. Но Серый Бобр защищает собаку. Прежнее правило оказывается не безусловным: важны принадлежность и обстоятельства. Сцена показывает обучение через проверку границ, а не мгновенное получение цельного человеческого понятия права или справедливости.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "One exception changes a learned prohibition",
+          "body": "<p>Cornered by a boy with a club, White Fang bites and expects punishment for attacking a human. Grey Beaver defends him instead. The previous prohibition proves conditional: affiliation and circumstances matter. The scene depicts learning through the testing of boundaries rather than the sudden acquisition of a complete human concept of law or justice.</p>"
+        }
+      }
+    },
+    {
+      "id": "whose-justice",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "III.V: own gods/other gods, guarding property.",
+      "cognitiveJob": "Protecting one’s own is not equal treatment for all",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Защита своих ещё не означает равное правило для всех",
+          "body": "<p>Серый Бобр способен защитить Белого Клыка от постороннего, оставаясь источником боли для него самого. Порядок различает «наше» и «чужое». Это важная оговорка к слову «справедливость», которым пользуется рассказчик: речь о понятном герою распределении силы и защиты. Мы не обязаны считать такой порядок образцом человеческой этики.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Protecting one’s own is not equal treatment for all",
+          "body": "<p>Grey Beaver can protect White Fang from an outsider while remaining a source of pain himself. The arrangement distinguishes “ours” from “theirs.” This qualifies the narrator’s language of justice: the animal is learning an intelligible distribution of force and protection. We need not accept that arrangement as a model for human ethics.</p>"
+        }
+      }
+    },
+    {
+      "id": "harness-arranges-conflict",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.V: fan formation, unequal trace lengths and pursuit.",
+      "cognitiveJob": "The harness turns hostility into forward motion",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Упряжь превращает взаимную злость в движение саней",
+          "body": "<p>Разная длина постромок не позволяет собаке догнать бегущую впереди: чем быстрее преследователь, тем быстрее движутся сани и его цель. Человек использует конфликт как источник тяги. Лондон делает техническое устройство частью социальной сцены. Поведение животных направляется не одной командой, но и самой геометрией их связи друг с другом.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "The harness turns hostility into forward motion",
+          "body": "<p>Unequal trace lengths prevent a dog from catching the animal ahead: faster pursuit moves both the sled and its target faster. A human uses conflict to produce traction. London makes a technical arrangement part of the social scene. Behaviour is directed through the geometry of the dogs’ connections as well as through spoken commands.</p>"
+        }
+      }
+    },
+    {
+      "id": "leading-as-exposure",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.V Lip-lip as lead; IV.I White Fang in same formation.",
+      "cognitiveJob": "Being placed first can be a punishment",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Первое место может быть наказанием",
+          "body": "<p>Лип-Липа ставят впереди так, что остальные постоянно видят его убегающим. Позднее Белый Клык занимает подобное место и испытывает ненависть упряжки сам. Формально это лидерство, фактически — вынужденное бегство под давлением. Название позиции скрывает качество жизни в ней: видимое преимущество ещё нужно сопоставить с ценой, которую платит занимающий его.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Being placed first can be a punishment",
+          "body": "<p>Lip-lip is placed ahead, where the others continually see him running away. Later White Fang occupies a similar position and experiences the team’s hostility himself. It is leadership in name but enforced flight in practice. A position’s title can conceal life within it: an apparent advantage must be weighed against the cost borne by its occupant.</p>"
+        }
+      }
+    },
+    {
+      "id": "victim-can-dominate",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.III and III.V: obey strong, oppress weak.",
+      "cognitiveJob": "Being bullied does not automatically make him kind",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Пережитая травля не делает героя автоматически добрым",
+          "body": "<p>Белый Клык учится уступать сильным и подавлять слабых. Его понятная уязвимость не отменяет опасности для других собак. Это один из трудных ходов романа: сочувствие не требует идеального пострадавшего. Можно видеть, как сформировалась жестокость, и одновременно замечать, кто теперь страдает от действий того, кого прежде преследовали.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Being bullied does not automatically make him kind",
+          "body": "<p>White Fang learns to yield to the strong and oppress the weak. His understandable vulnerability does not remove the danger he poses to other dogs. This is a demanding move in the novel: sympathy does not require an ideal victim. We can see how cruelty developed while also noticing who now suffers at the former victim’s hands.</p>"
+        }
+      }
+    },
+    {
+      "id": "clay-and-pressure",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.VI: explicit heredity/clay/environment passage.",
+      "cognitiveJob": "Clay holds several possible forms",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Глина — не пустота, а множество возможных форм",
+          "body": "<p>Лондон сравнивает наследственность с глиной, а среду — с силой, придающей ей форму. Глина уже обладает свойствами; обстоятельства не создают всё из ничего. Но получившийся характер не исчерпывает всех возможностей материала. Метафора соединяет ограничение и изменяемость, поэтому роман сложнее лозунга «всё врождённое» или столь же простого «всё решает воспитание».</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Clay holds several possible forms",
+          "body": "<p>London compares heredity to clay and surroundings to the force shaping it. The clay already has properties; circumstances do not create everything from nothing. Yet the resulting character does not exhaust the material’s possibilities. The metaphor joins limitation to changeability, making the novel more complex than either “everything is inborn” or “upbringing decides everything.”</p>"
+        }
+      }
+    },
+    {
+      "id": "appearance-and-identity",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        5
+      ],
+      "evidence": "III.VI quarter-dog account; Walsh abstract only.",
+      "cognitiveJob": "Appearance cannot provide a complete biography",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Внешний облик не даёт законченной биографии",
+          "body": "<p>Волчий облик удобен тем, кто хочет сразу определить героя. Но мы знаем его связи с людьми, работу в упряжи и историю отдельных встреч. Аннотация Уолш оспаривает слишком простые категории идентичности; здесь это только направление чтения. Конкретный текст позволяет спросить: какую часть пережитого скрывает уверенный ярлык «дикий»?</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Appearance cannot provide a complete biography",
+          "body": "<p>A wolf-like appearance is convenient for anyone wanting to classify him immediately. We know about human ties, sled work, and individual encounters. Walsh’s abstract questions overly simple identity categories; that supplies a direction for reading, not a detailed borrowed argument. The novel lets us ask how much lived history disappears inside the confident label “wild.”</p>"
+        }
+      }
+    },
+    {
+      "id": "famine-tests-covenant",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.VI: famine and White Fang surviving outside camp.",
+      "cognitiveJob": "The protective bargain depends on food existing",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Договор защиты зависит от наличия пищи",
+          "body": "<p>Когда голод охватывает лагерь, человеческое превосходство не обеспечивает запаса еды. Белый Клык снова добывает её самостоятельно, в том числе крадёт из силков. Прежний обмен защиты на службу оказывается материально уязвим. Повествование проверяет договор предельными условиями: власть хозяина остаётся, но способность поддерживать зависимых существ не является безусловной.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "The protective bargain depends on food existing",
+          "body": "<p>When famine reaches camp, human power cannot guarantee a food supply. White Fang obtains food independently again, including stealing from snares. Exchanging service for protection proves materially vulnerable. The narrative tests the covenant under extreme conditions: a master’s authority remains, but the ability to sustain dependent creatures is not unconditional.</p>"
+        }
+      }
+    },
+    {
+      "id": "recognition-not-return",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "III.VI: Kiche with new litter; narrator account of recognition.",
+      "cognitiveJob": "Revisiting the familiar need not restore the relationship",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Возвращение к знакомому не возвращает прежнюю связь",
+          "body": "<p>Встречая Кичи с новым выводком, Белый Клык сначала откликается на память детства, а получает отпор. Рассказчик связывает её реакцию с защитой нынешних детёнышей и отсутствием узнавания. Это объяснение романа, не всеобщая теория материнской памяти. Сцена разрушает ожидание, будто знакомое место или родство обязательно восстановят утраченную близость.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Revisiting the familiar need not restore the relationship",
+          "body": "<p>Meeting Kiche with a new litter, White Fang responds through childhood memory and is driven away. The narrator connects her reaction to protecting the present cubs and not recognising him. This is the novel’s explanation, not a universal theory of maternal memory. Familiarity or kinship does not automatically restore a bond that has been lost.</p>"
+        }
+      }
+    },
+    {
+      "id": "revenge-not-repair",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "III.VI: encounter with Lip-lip in famine.",
+      "cognitiveJob": "Retaliation cannot restore the lost puppyhood",
+      "copy": {
+        "ru": {
+          "section": "V · Цена защиты",
+          "title": "Возмездие не возвращает отнятое детство",
+          "body": "<p>В голодном лесу Белый Клык встречает Лип-Липа и убивает его. Раннее неравенство сил перевёрнуто, но годы одиночества от этого не исчезают. Победа закрывает конкретное столкновение, не исправляя всю историю. Читателю полезно заметить разницу между прекращением внешнего преследования и появлением способности жить без постоянной готовности к нему.</p>"
+        },
+        "en": {
+          "section": "V · The price of protection",
+          "title": "Retaliation cannot restore the lost puppyhood",
+          "body": "<p>In the famine-stricken forest, White Fang encounters and kills Lip-lip. Their earlier imbalance has reversed, but the years of solitude do not disappear. Winning settles this confrontation without repairing the whole history. We can distinguish ending an external persecution from acquiring the ability to live without being continually prepared for it.</p>"
+        }
+      }
+    },
+    {
+      "id": "fort-yukon-market",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I: Fort Yukon, summer 1898; Grey Beaver trade.",
+      "cognitiveJob": "The gold rush brings a market as well as adventure",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Золотая лихорадка приносит рынок, а не только приключение",
+          "body": "<p>Летом 1898 года Серый Бобр привозит меха и сшитые изделия в Форт-Юкон, где идут потоки золотоискателей. Для него северная дорога становится торговой возможностью. Для Белого Клыка это новый мир собак, пароходов и зрителей. Движение людей расширяет не только пространство романа, но и способы извлекать выгоду из чужой силы.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "The gold rush brings a market as well as adventure",
+          "body": "<p>In summer 1898, Grey Beaver brings furs and sewn goods to Fort Yukon amid the flow of gold seekers. The northern journey becomes a trading opportunity for him. White Fang meets a new world of dogs, steamers, and spectators. Human movement expands not only the novel’s geography but the ways another creature’s strength can be exploited.</p>"
+        }
+      }
+    },
+    {
+      "id": "technology-as-divinity",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I: fort, buildings, steamers, gun and power.",
+      "cognitiveJob": "The steamer extends the logic of the first fire",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Пароход продолжает логику первого костра",
+          "body": "<p>Большие постройки, пароходы и оружие увеличивают человеческую власть в восприятии зверя. Действует прежняя связь: тот, кто сильнее управляет веществом, кажется могущественнее. Технический масштаб меняет чувство собственного размера. Это объясняет страх героя перед новым миром, но само по себе ничего не говорит о нравственном превосходстве его создателей.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "The steamer extends the logic of the first fire",
+          "body": "<p>Large buildings, steamers, and weapons magnify human power in the animal’s perception. The earlier connection persists: greater command over matter appears as greater divinity. Technical scale changes his sense of his own size. This explains his fear of the new world while establishing nothing about the moral superiority of those who built it.</p>"
+        }
+      }
+    },
+    {
+      "id": "racial-hierarchy-boundary",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I racial hierarchy and III.V; critical boundary, not scientific claim.",
+      "cognitiveJob": "Notice and challenge the narrator’s racial hierarchy",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Расовую лестницу рассказчика нужно замечать и оспаривать",
+          "body": "<p>Текст связывает белых людей с большей властью и пользуется унизительными обобщениями о коренных народах. Приписать всё только ограниченному взгляду зверя недостаточно: сравнения оформляет человеческий рассказчик. Мы можем разбирать устройство этой власти, не принимая расовую лестницу. Техническое преимущество не доказывает ни человеческой ценности, ни морального права распоряжаться другими.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "Notice and challenge the narrator’s racial hierarchy",
+          "body": "<p>The text connects white people with greater power and uses demeaning generalisations about Indigenous peoples. Attributing everything to the animal’s limited viewpoint is insufficient: a human narrator frames the comparisons. We can analyse that power without accepting the racial ladder. Technical advantage proves neither superior human worth nor a moral entitlement to control others.</p>"
+        }
+      }
+    },
+    {
+      "id": "spectator-complicity",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I–III: fort residents watching attacks, exhibition crowd.",
+      "cognitiveJob": "The spectator helps construct the cruel spectacle",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Зритель помогает построить жестокое зрелище",
+          "body": "<p>Люди собираются смотреть, как собаки нападают на новичков. Позднее интерес к ярости становится прямым источником дохода. Зрители не просто узнают, что зверь опасен: их внимание делает опасность выгодной. Так человеческая жестокость отличается от голода хищника — страдание организуют и поддерживают ради развлечения, которое могло бы не состояться.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "The spectator helps construct the cruel spectacle",
+          "body": "<p>People gather to watch attacks on newcomers’ dogs. Later, fascination with rage becomes a direct source of income. Spectators do more than discover that an animal is dangerous: their attention makes its danger profitable. Human cruelty differs here from predatory hunger because suffering is arranged and maintained for entertainment that need not have happened.</p>"
+        }
+      }
+    },
+    {
+      "id": "skill-without-virtue",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I: coordination, prior experience, narrator says not to praise natural advantage.",
+      "cognitiveJob": "Fighting skill is not a moral achievement",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Боевое мастерство не является нравственной заслугой",
+          "body": "<p>Белый Клык быстрее и опытнее многих прибывающих собак. Рассказчик даже замечает, что природное преимущество не заслуживает похвалы само по себе. Мы можем следить за точностью движений, не путать её с добротой и не презирать проигравших. Условия, в которых навык отточен, помогают понять результат, но не устанавливают ценность жизни.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "Fighting skill is not a moral achievement",
+          "body": "<p>White Fang is faster and more experienced than many arriving dogs. The narrator even notes that a natural advantage deserves no praise in itself. We can appreciate precision without confusing it with kindness or despising those defeated. The conditions under which a skill developed help explain an outcome without determining the value of a life.</p>"
+        }
+      }
+    },
+    {
+      "id": "sale-engineered",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.II: refusal to sell, whisky dependence and sale for bottles.",
+      "cognitiveJob": "The sale is engineered through the owner’s dependence",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Продажу подготавливают через зависимость хозяина",
+          "body": "<p>Красавчик Смит сначала не может купить Белого Клыка. Он снабжает Серого Бобра спиртным, и отказ сменяется сделкой за бутылки. Сюжет показывает приобретение контроля через чужую уязвимость. Это конкретный эпизод эксплуатации; обобщения рассказчика о целом народе, которыми он сопровождается, не нужно принимать для понимания поступка Смита.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "The sale is engineered through the owner’s dependence",
+          "body": "<p>Beauty Smith initially cannot buy White Fang. He supplies Grey Beaver with alcohol, and refusal eventually gives way to a sale for bottles. Control is acquired through another person’s vulnerability. This is a specific act of exploitation; understanding Smith’s conduct does not require accepting the narrator’s accompanying generalisations about an entire people.</p>"
+        }
+      }
+    },
+    {
+      "id": "appearance-not-morality",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.II: Beauty Smith physiognomic description and clay language.",
+      "cognitiveJob": "The wrongness of an act cannot be read from a face",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Зло поступка не читается по форме лица",
+          "body": "<p>Портрет Красавчика Смита соединяет неприятную внешность с жестокостью и трусостью. Это приём Лондона, который требует критической дистанции. Основание для оценки Смита — то, что он делает: мучает зависимого зверя и получает выгоду. Ни телесное отличие, ни происхождение не доказывают нравственный порок, даже если повествование соблазняет таким коротким выводом.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "The wrongness of an act cannot be read from a face",
+          "body": "<p>Beauty Smith’s portrait links unattractive features with cruelty and cowardice. London’s technique requires critical distance. The grounds for judging Smith are his actions: tormenting a dependent animal and profiting from it. Neither bodily difference nor ancestry establishes moral failure, even when the narrative tempts us toward that shortcut in its descriptive language.</p>"
+        }
+      }
+    },
+    {
+      "id": "rage-as-product",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.III: cage, teasing, fighting and paying spectators.",
+      "cognitiveJob": "The cage produces the rage it then sells",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Клетка производит ту ярость, которую потом продают",
+          "body": "<p>Смит дразнит Белого Клыка, ограничивает движение и допускает разрядку через бой. Потом зверя выставляют как доказательство природной свирепости. Причина исчезает из публичной картинки, остаётся результат. Лондон показывает круг: обращение усиливает ярость, ярость привлекает публику, интерес публики даёт повод продолжать то же обращение и продавать его последствия.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "The cage produces the rage it then sells",
+          "body": "<p>Smith torments White Fang, restricts movement, and permits release through fighting. The animal is then exhibited as evidence of natural ferocity. The cause disappears from the public picture, leaving the result. London builds a loop: treatment intensifies rage, rage attracts an audience, and that attention supplies a reason to continue the treatment and sell its effects.</p>"
+        }
+      }
+    },
+    {
+      "id": "rest-denied",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.III: exhibition in Dawson; poking sleeping animal.",
+      "cognitiveJob": "Even rest becomes an obstacle to revenue",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Даже отдых становится помехой выручке",
+          "body": "<p>Спящего зверя будят палкой, чтобы посетители получили ожидаемое зрелище. Доступ к покою зависит от того, приносит ли спокойствие доход хозяину. Эта деталь важнее ещё одной победы в бою: она показывает постоянство давления. У героя отнимают не только свободу передвижения, но и возможность перестать изображать опасность хотя бы между схватками.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "Even rest becomes an obstacle to revenue",
+          "body": "<p>A sleeping animal is prodded awake so visitors receive the spectacle they expect. Access to rest depends on whether calmness earns money for the owner. This detail matters more than another fighting victory because it shows the pressure’s continuity. White Fang loses not only movement but the chance to stop performing danger between confrontations.</p>"
+        }
+      }
+    },
+    {
+      "id": "reputation-feedback",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.III: audience behaviour reinforces ferocity, narrator clay account.",
+      "cognitiveJob": "Reputation becomes another part of the environment",
+      "copy": {
+        "ru": {
+          "section": "VI · Рынок жестокости",
+          "title": "Репутация превращается в дополнительную среду",
+          "body": "<p>Люди подходят к клетке с осторожностью и возбуждением: они уже знают, какого чудовища пришли увидеть. Их жесты и провокации усиливают поведение, которое подтверждает ожидание. Это не означает, что опасность выдумана. Она реальна, но поддерживается отношениями вокруг неё; ярлык не просто описывает зверя, он участвует в его дальнейшей жизни.</p>"
+        },
+        "en": {
+          "section": "VI · A market for cruelty",
+          "title": "Reputation becomes another part of the environment",
+          "body": "<p>People approach the cage cautiously and excitedly, already knowing what monster they came to see. Their gestures and provocations intensify the behaviour that confirms the expectation. The danger is not imaginary. It is real but sustained by surrounding relationships; a label does more than describe the animal, becoming part of the life he subsequently has to live.</p>"
+        }
+      }
+    },
+    {
+      "id": "strength-cannot-change-rules",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I–III: skill, captivity and owner control. No IV.IV outcome.",
+      "cognitiveJob": "Strength helps in a fight without changing the cage’s rules",
+      "copy": {
+        "ru": {
+          "section": "VII · Граница объяснения",
+          "title": "Сила помогает в схватке, но не меняет правил клетки",
+          "body": "<p>Чем успешнее Белый Клык дерётся, тем ценнее он для владельца. Выигрыш внутри устроенного людьми состязания не даёт права выйти из него. Вот главный предел приключенческого восхищения силой: герой может преодолевать соперников, оставаясь зависимым от тех, кто назначает следующего. Возможен ли выход, если совершенствование прежнего навыка только закрепляет ловушку?</p>"
+        },
+        "en": {
+          "section": "VII · Limits of explanation",
+          "title": "Strength helps in a fight without changing the cage’s rules",
+          "body": "<p>The more successfully White Fang fights, the more valuable he becomes to his owner. Winning a contest arranged by people does not confer the right to leave it. This limits an adventure’s celebration of strength: overcoming opponents can preserve dependence on whoever chooses the next opponent. What escape is possible when improving the existing skill tightens the trap?</p>"
+        }
+      }
+    },
+    {
+      "id": "unfamiliar-challenge",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.I and IV.III ending: experience and anticipated unfamiliar opponent; outcome withheld.",
+      "cognitiveJob": "Past success has not encountered every future condition",
+      "copy": {
+        "ru": {
+          "section": "VII · Граница объяснения",
+          "title": "Прошлый успех не знает всех будущих условий",
+          "body": "<p>Движения Белого Клыка отточены под определённые способы нападения. В конце этого отрезка появляется перспектива непривычного противника; результат здесь не раскрывается. Важен сам вопрос к опыту: умеет ли привычный победитель распознать ситуацию, где его преимущества работают иначе? Это напряжение точнее, чем обещание, будто лучший всегда побеждает.</p>"
+        },
+        "en": {
+          "section": "VII · Limits of explanation",
+          "title": "Past success has not encountered every future condition",
+          "body": "<p>White Fang’s movements have been refined against particular ways of attacking. This stretch ends with the prospect of an unfamiliar opponent; the result is withheld here. The important question concerns experience itself: can a habitual winner recognise circumstances in which his advantages operate differently? That creates more precise tension than a promise that the best always wins.</p>"
+        }
+      }
+    },
+    {
+      "id": "author-on-animal-thought",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "evidence": "The Other Animals opening and Rollo/Glen passages; selected author essay.",
+      "cognitiveJob": "London defended an animal’s ability to learn",
+      "copy": {
+        "ru": {
+          "section": "VII · Граница объяснения",
+          "title": "Лондон защищал способность зверя учиться",
+          "body": "<p>В эссе «The Other Animals» Лондон спорит с обвинением в очеловечивании животных. Он различает отвлечённое человеческое рассуждение и более простое связывание опыта, на котором настаивает у собак. Это свидетельство замысла автора, а не независимая научная проверка. Его полемические примеры помогают читать роман, но не заменяют исследование реального поведения.</p>"
+        },
+        "en": {
+          "section": "VII · Limits of explanation",
+          "title": "London defended an animal’s ability to learn",
+          "body": "<p>In “The Other Animals,” London disputes accusations of humanising animals. He distinguishes abstract human reasoning from the more rudimentary connections between experiences that he attributes to dogs. This documents his literary intention, not an independent scientific test. His polemical examples help us read the novel without replacing research into actual animal behaviour.</p>"
+        }
+      }
+    },
+    {
+      "id": "naturalism-with-questions",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        6
+      ],
+      "evidence": "III.VI and IV.I–III; Brandt indexed abstract only.",
+      "cognitiveJob": "Explaining causes does not settle inevitability",
+      "copy": {
+        "ru": {
+          "section": "VII · Граница объяснения",
+          "title": "Объяснять причины — не значит объявлять всё неизбежным",
+          "body": "<p>Наследственность и среда дают роману сильный причинный каркас, но случайные встречи мешают свести жизнь к готовой формуле. Аннотация главы Кеннета Брандта выделяет напряжение между господством и сотрудничеством; полная глава здесь не прочитана. Наш вывод ограничен: полезно отслеживать и давление условий, и возможности отношений, которых прежняя среда не давала испытать.</p>"
+        },
+        "en": {
+          "section": "VII · Limits of explanation",
+          "title": "Explaining causes does not settle inevitability",
+          "body": "<p>Heredity and surroundings give the novel a strong causal framework, while chance encounters resist a ready-made formula. Kenneth Brandt’s chapter abstract highlights tension between domination and cooperation; the full chapter was not read here. Our limited conclusion is to follow both environmental pressure and the possibilities of relationships that earlier conditions never allowed to be tried.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-spoiler-warning",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [],
+      "evidence": "Navigation boundary before any IV.IV–V.V plot disclosures.",
+      "cognitiveJob": "The complete ending is revealed from here",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Дальше раскрывается весь финал",
+          "body": "<p>С этого экрана Deep разбирает решающий поворот и заключительные события без сохранения тайны. Если вы собираетесь сначала прочитать роман, переключитесь на Главное или Core: оба режима обходят следующий отрезок. Дальнейшее чтение нужно для проверки причинности и противоречий развязки, а не только для ответа, чем всё закончилось.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "The complete ending is revealed from here",
+          "body": "<p>From this screen onward, Deep examines the decisive turn and the closing events without preserving their secrets. If you want to read the novel first, switch to Essential or Core: both bypass the following stretch. Continue to test the ending’s causes and contradictions, rather than merely to discover how the plot turns out.</p>"
+        }
+      }
+    },
+    {
+      "id": "different-fighting-system",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.IV: Cherokee, low build, grip and White Fang unable to disengage.",
+      "cognitiveJob": "The familiar response stops working",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Привычный ответ перестаёт работать",
+          "body": "<p>Бульдог Чероки не пытается повторить быстрые наскоки Белого Клыка. Он добивается захвата и удерживает его, лишая противника привычной дистанции. Прежний успех не подготовил героя к такому столкновению. Лондон меняет устройство боя, а не просто добавляет более крупного врага: спасавшая свобода движения исчезает именно там, где она нужнее всего.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "The familiar response stops working",
+          "body": "<p>Cherokee the bulldog does not copy White Fang’s quick attacks. He secures a grip and holds it, depriving his opponent of familiar distance. Past success has not prepared White Fang for this encounter. London changes the structure of fighting rather than merely adding a larger enemy: freedom of movement disappears precisely when it is most needed.</p>"
+        }
+      }
+    },
+    {
+      "id": "crowd-keeps-score",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.IV: bets, laughter incites White Fang, audience response.",
+      "cognitiveJob": "For the crowd, worsening danger increases excitement",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Для толпы ухудшение положения повышает азарт",
+          "body": "<p>Пока Белый Клык слабеет, зрители меняют ставки, а Смит пытается вызвать новый прилив ярости насмешкой. Их интерес устроен вокруг исхода пари, не прекращения страдания. Поэтому превосходство очередного участника не разрешает нравственную проблему сцены. Она находится снаружи круга — в людях, которые могли бы остановить происходящее, но продолжают считать.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "For the crowd, worsening danger increases excitement",
+          "body": "<p>As White Fang weakens, spectators adjust their bets while Smith uses mockery to provoke fresh rage. Their attention follows the wager’s outcome rather than the end of suffering. One contestant’s superiority cannot resolve the scene’s moral problem. That problem lies outside the ring, among people who could stop the event but continue keeping score.</p>"
+        }
+      }
+    },
+    {
+      "id": "interruption-from-outside",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.IV: Weedon Scott and Matt intervene and separate dogs.",
+      "cognitiveJob": "The event changes when someone interrupts its rules",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Событие меняется, когда кто-то прерывает его правила",
+          "body": "<p>Уидон Скотт и Мэтт вмешиваются в бой. Они разнимают собак; Скотт использует револьвер как рычаг, чтобы разжать захват. Герой не выигрывает ещё один поединок: вмешательство прекращает сам порядок, в котором его оставили погибать. Причинный поворот важен — выход возникает через чужое действие, а не через новую ступень личного боевого превосходства.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "The event changes when someone interrupts its rules",
+          "body": "<p>Weedon Scott and Matt intervene and separate the dogs; Scott uses a revolver as a lever to prise the grip apart. White Fang does not win another duel. Intervention stops the arrangement in which he has been left to die. Escape arrives through another’s action rather than a new level of personal superiority in combat.</p>"
+        }
+      }
+    },
+    {
+      "id": "rescue-and-power",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.IV: forced sale, blows to Beauty Smith; closing account of Scott connections.",
+      "cognitiveJob": "Intervention also relies on unequal power",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Вмешательство тоже опирается на неравную власть",
+          "body": "<p>Скотт принуждает Смита к продаже и применяет к нему силу. Его положение и связи с влиятельными людьми помогают сделать вмешательство возможным. Это не стерильная сцена доброты вне власти. Разница в направлении действия: один использует превосходство, чтобы продолжать мучить зависимого, другой — чтобы прекратить мучение. Но неравенство возможностей остаётся частью решения.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "Intervention also relies on unequal power",
+          "body": "<p>Scott forces Smith to sell and uses physical force against him. His standing and influential connections help make intervention possible. This is no pristine kindness outside power. The difference lies in its use: one man exploits superiority to continue tormenting a dependent creature; the other uses it to stop the torment. Unequal capacities remain part of the solution.</p>"
+        }
+      }
+    },
+    {
+      "id": "rescue-is-not-trust",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.V: Major killed, Matt bitten, Scott bitten, debate about killing White Fang.",
+      "cognitiveJob": "Trust does not switch on after rescue",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+        "title": "Доверие не возникает по требованию",
+          "body": "<p>Белый Клык убивает собаку, кусает Мэтта, затем ранит руку Скотта. Мужчины обсуждают, не придётся ли его застрелить, и дают ему время. Спасение изменило место, но не стёрло усвоенные ожидания. Сюжет отказывается требовать мгновенной благодарности: поведение, помогавшее выживать вчера, продолжает действовать в условиях, смысл которых герой ещё не понял.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+        "title": "Trust does not arise on demand",
+          "body": "<p>White Fang kills a dog, bites Matt, and then injures Scott’s hand. The men consider shooting him but allow more time. Rescue has changed his location without erasing learned expectations. The plot refuses immediate gratitude: behaviour that helped him survive yesterday still operates in circumstances whose new meaning he has not yet grasped.</p>"
+        }
+      }
+    },
+    {
+      "id": "discriminating-danger",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.V: Matt reaches for rifle; White Fang reacts to aim and takes cover.",
+      "cognitiveJob": "Observation finds distinctions inside “ferocity”",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Наблюдение обнаруживает различие внутри «свирепости»",
+          "body": "<p>Мэтт замечает, как Белый Клык меняет реакцию, когда человек берётся за ружьё и поднимает его. Зверь не просто беспрерывно нападает: он различает действия и укрывается от опасности. Для мужчин это основание пересмотреть поспешный приговор. Роман делает внимательное наблюдение практическим поворотом, хотя его сцена сама по себе не является научным экспериментом.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "Observation finds distinctions inside “ferocity”",
+          "body": "<p>Matt notices White Fang change his response when a man takes up and raises a rifle. The animal does not simply attack without distinction: he reads actions and takes cover from danger. This gives the men grounds to revise a hasty judgement. Attentive observation changes the story, although the fictional scene is not itself a scientific experiment.</p>"
+        }
+      }
+    },
+    {
+      "id": "nothing-happens",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.VI opening: Scott sits, speaks gently, gives meat, no punishment.",
+      "cognitiveJob": "The new experience is that no blow follows",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Новый опыт состоит в том, что удара не происходит",
+          "body": "<p>Скотт садится неподалёку, спокойно говорит и предлагает мясо. Белый Клык ожидает отсроченного наказания за укус. Он ест — и ничего страшного не происходит. Повторение отсутствия удара становится событием. Так Лондон показывает перемену через опровергнутое ожидание, а не через убедительную речь, которую зверь будто бы должен был понять целиком.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "The new experience is that no blow follows",
+          "body": "<p>Scott sits nearby, speaks gently, and offers meat. White Fang expects delayed punishment for biting him. He eats, and nothing terrible follows. The repeated absence of a blow becomes an event. London represents change through an expectation being contradicted, rather than a persuasive speech the animal is supposedly able to understand in full.</p>"
+        }
+      }
+    },
+    {
+      "id": "touch-needs-time",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.VI: first caress, resistance, extended daily care and narrator patience.",
+      "cognitiveJob": "Touch has to be learned again",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Прикосновение приходится учить заново",
+          "body": "<p>Рука прежде означала боль; теперь её приближение всё ещё вызывает напряжение, хотя Скотт не хочет ударить. Доверие к прикосновению складывается медленно, с настороженностью и повторениями. Сам роман подчёркивает терпение. Это художественное объяснение отношений, а не совет подходить к опасному животному: воспроизводить сцену как метод было бы неверным переносом.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "Touch has to be learned again",
+          "body": "<p>A hand previously meant pain. Its approach still produces tension even though Scott intends no blow. Trust in touch develops slowly, with vigilance and repetition; the novel stresses patience. This is a literary account of a relationship, not advice to approach a dangerous animal. Reproducing the scene as a practical method would be an unjustified transfer.</p>"
+        }
+      }
+    },
+    {
+      "id": "love-beyond-comfort",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.VI: foregoing meat/warmth to wait for Scott; like becomes love.",
+      "cognitiveJob": "Attachment becomes worth more than some comforts",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Близость становится важнее части удобств",
+          "body": "<p>Белый Клык оставляет тёплое место, чтобы встретить Скотта, и может предпочесть его присутствие еде. Рассказчик отличает любовь от прежнего обмена услуг на безопасность. Проверка различия — цена, которую зверь теперь сам допускает ради конкретного существа. Это не доказательство возвышенности страдания, а изменение того, что в его мире считается ценным.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "Attachment becomes worth more than some comforts",
+          "body": "<p>White Fang leaves warmth to greet Scott and may prefer his presence to food. The narrator distinguishes love from the earlier exchange of service for security. The difference appears in costs the animal now accepts for one particular being. Suffering is not made noble; the change concerns what has acquired value within his world.</p>"
+        }
+      }
+    },
+    {
+      "id": "absence-without-explanation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.VI: Scott travels to Circle City, White Fang ill, Matt letter and return.",
+      "cognitiveJob": "Separation is harder without an explanation",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Разлуку труднее вынести без объяснения",
+          "body": "<p>Скотт уезжает, а Белый Клык не понимает сборов и не знает, вернётся ли он. Мэтт продолжает заботиться о нём, но зверь тяжело переживает отсутствие и заболевает. Повествование связывает телесное состояние с этой конкретной разлукой. Мы можем заметить отсутствие общего языка, не превращая сцену в диагноз реальных людей или животных.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "Separation is harder without an explanation",
+          "body": "<p>Scott leaves, while White Fang fails to understand the packing or know whether he will return. Matt continues caring for him, but the animal suffers and becomes ill. The narrative connects his bodily condition to this particular absence. We can recognise the missing shared language without making the scene a diagnosis of actual people or animals.</p>"
+        }
+      }
+    },
+    {
+      "id": "old-owner-returns",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "IV.VI ending: Beauty Smith found with chain and club, attack, Scott reassurance.",
+      "cognitiveJob": "An old authority tries to regain access",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Прошлая власть пытается вернуть прежний доступ",
+          "body": "<p>Смит приходит за Белым Клыком с цепью и дубинкой. Попытка заканчивается нападением зверя; Скотт и Мэтт находят следы намерения. Теперь сопротивление защищает новую связь от возвращения прежнего обращения. Поведение нельзя оценить только по наличию укуса: различие между нападением ради зрелища и отпором захвату задаётся обстоятельствами сцены.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "An old authority tries to regain access",
+          "body": "<p>Smith comes for White Fang with a chain and club. His attempt ends in the animal’s attack; Scott and Matt find the implements that disclose his intention. Resistance now protects a new relationship from the return of old treatment. A bite alone does not explain the act: the circumstances distinguish staged aggression from resisting capture.</p>"
+        }
+      }
+    },
+    {
+      "id": "departure-and-window",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "V.I: White Fang breaks through cabin window, reaches Aurora, Scott takes him.",
+      "cognitiveJob": "Attachment disrupts the human’s convenient plan",
+      "copy": {
+        "ru": {
+          "section": "VIII · Deep: спойлеры",
+          "title": "Привязанность нарушает удобный план человека",
+          "body": "<p>Скотт собирается оставить зверя на Севере. Запертый в хижине Белый Клык пробивается через окно и появляется у парохода израненным. Скотт берёт его с собой. Эпизод заставляет человека признать последствия уже созданной связи: кормить можно поручить другому, но нельзя уверенно считать самого себя для зависимого существа полностью заменимым.</p>"
+        },
+        "en": {
+          "section": "VIII · Deep: spoilers",
+          "title": "Attachment disrupts the human’s convenient plan",
+          "body": "<p>Scott plans to leave the animal in the North. Locked inside the cabin, White Fang breaks through a window and reaches the steamer injured. Scott takes him along. The episode makes the human acknowledge consequences of an established bond: feeding can be delegated, but one cannot confidently assume that one’s own presence is wholly replaceable.</p>"
+        }
+      }
+    },
+    {
+      "id": "city-restarts-smallness",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.II: San Francisco, vehicles and close following.",
+      "cognitiveJob": "A new scale makes the adult feel small again",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "В новом масштабе взрослый снова чувствует себя маленьким",
+          "body": "<p>В Сан-Франциско здания, транспорт и толпы повторяют первое ошеломление человеческой властью, только в другом масштабе. Взрослая сила не избавляет от растерянности перед незнакомой средой. Белый Клык держится Скотта. Движение на юг поэтому не просто облегчает жизнь: оно требует заново учиться различать опасное, допустимое и непонятное среди множества новых сигналов.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "A new scale makes the adult feel small again",
+          "body": "<p>In San Francisco, buildings, traffic, and crowds repeat the first overwhelming encounter with human power at a different scale. Adult strength cannot remove confusion in unfamiliar surroundings. White Fang stays close to Scott. Moving south is more than relief: he must relearn distinctions among danger, permission, and uncertainty amid a mass of new signals.</p>"
+        }
+      }
+    },
+    {
+      "id": "embrace-misread",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.II: Scott mother embraces son; White Fang interprets threat.",
+      "cognitiveJob": "One gesture can mean attack or affection",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Один жест может означать нападение или любовь",
+          "body": "<p>Мать Скотта обнимает сына, а Белый Клык воспринимает захват за шею как угрозу. Его готовность защищать правильна внутри старой карты, но неверно считывает новую сцену. Приходится замечать интонации и последствия, а не судить по одному движению. Доброжелательность людей не делает их жесты автоматически понятными существу с другой историей.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "One gesture can mean attack or affection",
+          "body": "<p>Scott’s mother embraces her son, and White Fang reads the arms around his neck as a threat. Protective readiness makes sense within his old map but misreads this scene. He must attend to tones and consequences rather than a movement alone. Human goodwill does not make human gestures automatically intelligible to a creature with a different history.</p>"
+        }
+      }
+    },
+    {
+      "id": "household-outsider",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.II–III: Collie blocks and distrusts White Fang; narrator inherited/sex instincts.",
+      "cognitiveJob": "The new home already has its own rules",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Новый дом уже занят чужими правилами",
+          "body": "<p>Овчарка Колли встречает Белого Клыка как волчьего нарушителя. Скотт разрешает ему войти, но разрешение хозяина не сразу меняет её отношение. Рассказчик объясняет конфликт наследственными и половыми инстинктами; это его схема, не установленный здесь научный факт. На уровне сюжета важнее другое: новое место не бывает пустым пространством для прибывшего.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "The new home already has its own rules",
+          "body": "<p>Collie the sheepdog meets White Fang as a wolf-like intruder. Scott admits him, but permission does not immediately change her response. The narrator explains conflict through inherited and sex-specific instincts; that is his framework, not a scientific fact established here. The plot makes a more limited point: a newcomer never enters an unoccupied social space.</p>"
+        }
+      }
+    },
+    {
+      "id": "chicken-rule",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.III: fifty hens killed; punishment, chicken-yard practice and successful restraint.",
+      "cognitiveJob": "Familiar prey turns out to be prohibited",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Знакомая добыча оказывается под запретом",
+          "body": "<p>Белый Клык убивает пятьдесят кур и не понимает человеческого возмущения: для него это удачная добыча. Скотт наказывает его, затем учит оставлять птиц в покое своим голосом. Забота здесь сосуществует с ударами. Поэтому представлять нового хозяина воплощением безусловно ненасильственного метода было бы неточно и сглаживало бы важное противоречие романа.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "Familiar prey turns out to be prohibited",
+          "body": "<p>White Fang kills fifty hens and does not understand human outrage: he has obtained good prey. Scott punishes him, then uses his voice to teach restraint around the birds. Care still coexists with blows. Presenting the new master as an embodiment of an entirely nonviolent method would therefore smooth away a significant contradiction in the novel.</p>"
+        }
+      }
+    },
+    {
+      "id": "selective-peace",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "V.III: domestic animals protected, wild prey permitted; jackrabbit episode.",
+      "cognitiveJob": "The new world restricts violence selectively",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Новый мир ограничивает насилие избирательно",
+          "body": "<p>Сначала Белый Клык слишком широко усваивает запрет на охоту. Потом выясняет, что домашних животных трогать нельзя, а диких по-прежнему можно преследовать. «Цивилизация» не отменяет пищевую цепь; она проводит границы собственности и разрешения. Это существенный предел светлой перемены: безопасность расширяется для некоторых существ, но не одинаково для всех живых.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "The new world restricts violence selectively",
+          "body": "<p>At first White Fang generalises the hunting prohibition too widely. He then learns that domestic animals are protected while wild animals remain available prey. “Civilisation” does not abolish the food chain; it draws lines of ownership and permission. This limits the hopeful transformation: security expands for some creatures without being extended equally to all living beings.</p>"
+        }
+      }
+    },
+    {
+      "id": "children-and-distance",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.III: Weedon and Maud, initial growls, tolerating then liking contact, retreat.",
+      "cognitiveJob": "Tolerating closeness and enjoying it are different stages",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Терпеть близость и радоваться ей — разные этапы",
+          "body": "<p>Дети Скотта сначала вызывают память о жестоких детских руках. Белый Клык терпит их, затем начинает относиться к ним теплее, сохраняя сдержанность и возможность уйти. Лондон разводит внешнее послушание и внутреннюю перемену. Сцена не даёт разрешения детям испытывать опасное животное: важны конкретные отношения, а не привлекательный образ всеобщего дружелюбия.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "Tolerating closeness and enjoying it are different stages",
+          "body": "<p>Scott’s children initially recall cruel children’s hands. White Fang tolerates them, later grows warmer, and remains restrained and able to withdraw. London separates outward compliance from inward change. This scene does not authorise children to test a dangerous animal: the particular relationship matters more than an appealing image of universal friendliness.</p>"
+        }
+      }
+    },
+    {
+      "id": "play-becomes-possible",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.IV: laughter and rough play with Scott, snaps in empty air.",
+      "cognitiveJob": "Play requires the possibility of not fighting in earnest",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Игра требует возможности не отвечать всерьёз",
+          "body": "<p>Смех Скотта уже не действует так, как насмешка Смита. Белый Клык учится возиться с хозяином: движения похожи на драку, но зубы смыкаются в воздухе. Прежде травля отнимала игру; теперь другая связь делает её возможной. Изменилось не наличие силы, а условия, в которых силу можно удержать и использовать понарошку.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "Play requires the possibility of not fighting in earnest",
+          "body": "<p>Scott’s laughter no longer works like Smith’s mockery. White Fang learns to romp with him: movements resemble fighting, but the teeth close on empty air. Bullying previously denied play; another relationship now makes it possible. Strength has not disappeared. The conditions have changed so that strength can be restrained and used in make-believe.</p>"
+        }
+      }
+    },
+    {
+      "id": "voice-for-help",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.IV: Scott broken leg, command Home, White Fang barks at household.",
+      "cognitiveJob": "The bond produces a new way to communicate",
+      "copy": {
+        "ru": {
+          "section": "IX · Deep: спойлеры",
+          "title": "Сила связи проявляется в новом способе сообщить",
+          "body": "<p>Когда Скотт ломает ногу после падения с лошади, он отправляет Белого Клыка домой. Зверь привлекает внимание семьи необычным для себя лаем. Это не человеческое сообщение, произнесённое другими звуками: люди должны догадаться о нужде. Сюжет делает помощь результатом взаимодействия ограниченных способов понимать, а не чудесного исчезновения границы между видами.</p>"
+        },
+        "en": {
+          "section": "IX · Deep: spoilers",
+          "title": "The bond produces a new way to communicate",
+          "body": "<p>After Scott breaks a leg in a riding accident, he sends White Fang home. The animal attracts the household’s attention by barking, an unusual expression for him. This is not a human message delivered in another sound: the people must infer the need. Help emerges through limited ways of understanding working together, not a miraculous disappearance of species difference.</p>"
+        }
+      }
+    },
+    {
+      "id": "other-history",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.V opening: Jim Hall, abuse, prison and solitary confinement.",
+      "cognitiveJob": "The final threat repeats a familiar mechanism",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+          "title": "В последней угрозе повторяется знакомый механизм",
+          "body": "<p>Беглый заключённый Джим Холл описан через ту же глину, которую долго формировали жестоким обращением. Наказание усиливает сопротивление, а сопротивление вызывает ещё больше наказания. Лондон вводит человеческую параллель к клетке Белого Клыка. Но это намеренно построенное сходство повествования, а не основание считать преступника животным или выводить человеческую мораль из поведения собак.</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+          "title": "The final threat repeats a familiar mechanism",
+          "body": "<p>The escaped prisoner Jim Hall is described through the same clay shaped by harsh treatment. Punishment intensifies resistance, which brings further punishment. London constructs a human parallel to White Fang’s cage. It is a deliberate narrative comparison, not grounds for calling a criminal an animal or deriving human morality from dogs’ behaviour.</p>"
+        }
+      }
+    },
+    {
+      "id": "limited-knowledge-of-judge",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.V: last conviction wrongful; Judge Scott ignorant of police conspiracy.",
+      "cognitiveJob": "The judge does not know the whole story of his sentence",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+          "title": "Судья не знает всей истории вынесенного приговора",
+          "body": "<p>Холл невиновен в последнем преступлении, за которое судья Скотт назначил ему пятьдесят лет; прежние судимости при этом в романе остаются. Судья не знает о подложных доказательствах, а Холл считает его сознательным участником заговора. Несовпадение знаний производит месть. Это не полное оправдание Холла и не доказательство всеведения благополучного дома.</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+          "title": "The judge does not know the whole story of his sentence",
+          "body": "<p>Hall is innocent of the last crime for which Judge Scott gives him fifty years; the novel retains his earlier convictions. The judge is unaware of fabricated evidence, while Hall believes he knowingly participated in the conspiracy. Unequal knowledge generates revenge. The account neither wholly exonerates Hall nor grants the comfortable household complete understanding.</p>"
+        }
+      }
+    },
+    {
+      "id": "parallel-without-equivalence",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "V.V Jim Hall compared with III.VI and IV.III clay/cage; digest inference.",
+      "cognitiveJob": "The parallel asks who gets access to a way out",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+          "title": "Параллель ставит вопрос о неравно доступном выходе",
+          "body": "<p>Зверю встретился человек, способный изменить условия его жизни; Холл приходит к дому судьи уже как смертельная угроза. Эти линии не равны ни по ответственности, ни по последствиям. Но их соседство делает счастливое частное решение неудобным: почему история одного получает возможность перелома, пока история другого продолжается через взаимное ожесточение?</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+          "title": "The parallel asks who gets access to a way out",
+          "body": "<p>The animal encountered someone able to change his circumstances; Hall reaches the judge’s house as a lethal threat. Their responsibilities and consequences are not equivalent. Yet placing the stories together unsettles an easy private happy ending: why does one life receive a chance to change while another continues through mutually intensifying hostility?</p>"
+        }
+      }
+    },
+    {
+      "id": "last-confrontation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidence": "V.V: Hall enters house, White Fang kills intruder and is gravely wounded.",
+      "cognitiveJob": "Protection does not cancel the cost of violence",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+          "title": "Защита не отменяет цены насилия",
+          "body": "<p>Холл проникает в дом; Белый Клык убивает его и сам получает тяжёлые ранения. Навык, сформированный жестокостью, теперь защищает семью, но не становится поэтому безвредным. Лондон возвращает физическую цену в самый момент героического действия. Счастье дома зависит от смертельного столкновения, а не от окончательного исчезновения насилия из мира.</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+          "title": "Protection does not cancel the cost of violence",
+          "body": "<p>Hall enters the house; White Fang kills him and is gravely wounded. A skill developed through cruelty now protects the family without becoming harmless. London restores bodily cost at the moment of heroic action. The household’s safety depends on a lethal confrontation rather than the final disappearance of violence from the world.</p>"
+        }
+      }
+    },
+    {
+      "id": "care-as-material-work",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "V.V: surgeon, Judge demands every chance, recovery and dreams.",
+      "cognitiveJob": "Recovery requires resources as well as endurance",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+        "title": "Забота требует ресурсов",
+          "body": "<p>Хирург почти не оставляет надежды, но семья требует использовать все возможности помощи. Белый Клык выживает после долгого ухода; во сне к нему возвращаются прежние опасности. Финал приписывает ему исключительную жизненную силу, однако текст также показывает труд и средства других. Отмечать только стойкость — значит снова скрыть среду, поддержавшую тело.</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+        "title": "Care requires resources",
+          "body": "<p>The surgeon offers little hope, but the family demands every available chance. White Fang survives sustained care, while past dangers return in dreams. The ending credits exceptional vitality, yet it also depicts other people’s labour and resources. Celebrating endurance alone would once again conceal the surroundings that helped sustain the injured body.</p>"
+        }
+      }
+    },
+    {
+      "id": "quiet-last-image",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "V.V last paragraphs: Collie and six puppies, lick, patient rest in sun.",
+      "cognitiveJob": "The last image changes what stillness means",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+          "title": "Последний образ меняет смысл неподвижности",
+          "body": "<p>Белый Клык лежит возле Колли и щенков, позволяет им лазать по себе и дремлет на солнце. В начале неподвижность означала угрозу конца жизни; здесь она становится доступным отдыхом. Зубы не исчезли, тело ещё слабо, но встреча с маленьким существом уже не требует нападения. Перемена выражена в том, что можно спокойно не делать.</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+          "title": "The last image changes what stillness means",
+          "body": "<p>White Fang lies beside Collie and the puppies, lets them clamber over him, and dozes in sunlight. At the beginning, stillness threatened the end of life; here it becomes available rest. His teeth remain and his body is weak, but encountering a small creature no longer demands attack. Change appears in what he can peacefully refrain from doing.</p>"
+        }
+      }
+    },
+    {
+      "id": "limits-of-private-ending",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        4
+      ],
+      "evidence": "V.V; SSU pairing of novels, digest interpretation not other novel close reading.",
+      "cognitiveJob": "A hopeful ending does not repair the wider world",
+      "copy": {
+        "ru": {
+          "section": "X · Deep: финальные спойлеры",
+        "title": "У частного решения есть пределы",
+          "body": "<p>Одна семья способна дать безопасность одному существу, но рынок боёв и несправедливое наказание не исчезают из истории. Поэтому путь Белого Клыка нельзя свести к доказательству, будто всякое одомашнивание благо. Сопоставление с «Зовом предков» полезно как направление вопроса о разных условиях жизни; здесь соседний роман не пересказывается и заново не исследуется.</p>"
+        },
+        "en": {
+          "section": "X · Deep: ending spoilers",
+        "title": "A private solution has limits",
+          "body": "<p>One family can secure one creature’s safety without erasing fighting markets or unjust punishment from the story. White Fang’s path cannot therefore prove that all domestication is beneficial. Pairing the book with The Call of the Wild opens questions about different living conditions; this digest neither retells nor newly investigates that neighbouring novel.</p>"
+        }
+      }
+    },
+    {
+      "id": "three-reading-questions",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "Spoiler-safe return to III.II–VI and IV.I–III.",
+      "cognitiveJob": "Ask about conditions, costs, and viewpoint",
+      "copy": {
+        "ru": {
+          "section": "После чтения",
+          "title": "Проверяйте условия, цену и точку зрения",
+          "body": "<ol class=\"steps\"><li>Какую задачу решает поведение героя в этой среде?</li><li>Кто получает пользу и кто оплачивает результат?</li><li>Что видит рассказчик такого, чего не может понять сам герой?</li></ol><p>Эти вопросы помогают читать приключение точнее. Для человеческой жизни они остаются вопросами к обстоятельствам, а не диагнозом, оправданием насилия или обязанностью терпеть опасность ради чужого изменения.</p>"
+        },
+        "en": {
+          "section": "After reading",
+          "title": "Ask about conditions, costs, and viewpoint",
+          "body": "<ol class=\"steps\"><li>What problem does this behaviour solve in these surroundings?</li><li>Who benefits, and who pays for the result?</li><li>What can the narrator see that the protagonist cannot understand?</li></ol><p>These questions sharpen an adventure’s reading. Applied to human life, they remain questions about circumstances rather than a diagnosis, an excuse for violence, or a duty to endure danger while waiting for someone else to change.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "evidence": "Durable interpretive model; no ending disclosed.",
+      "cognitiveJob": "An act shows behaviour; its conditions reveal a history",
+      "copy": {
+        "ru": {
+          "section": "После чтения",
+          "title": "Характер виден в поступке. История — в условиях",
+          "body": "<p>Не останавливайтесь на слове «свирепый». Спросите, чему пришлось научиться этому существу, чего ему не дали испытать и кому выгодна его нынешняя реакция. Лондон делает эти вопросы частью приключения. Понимание причин не отменяет ответственности людей и боли пострадавших; оно позволяет увидеть больше, чем победителя, проигравшего и красивую легенду о силе.</p>"
+        },
+        "en": {
+          "section": "After reading",
+          "title": "An act shows behaviour; its conditions reveal a history",
+          "body": "<p>Do not stop at “ferocious.” Ask what this creature had to learn, what experiences were denied, and who benefits from its present response. London builds those questions into an adventure. Understanding causes does not erase human responsibility or victims’ pain. It lets us see more than a winner, a loser, and an attractive legend of strength.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

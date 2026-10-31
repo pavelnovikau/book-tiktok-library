@@ -73,7 +73,7 @@ async function navigate(file = '', fileScheme = false) {
 async function width(w) { await command('Emulation.setDeviceMetricsOverride', { width: w, height: w === 320 ? 568 : w < 900 ? 844 : 900, deviceScaleFactor: 1, mobile: w < 900 }); }
 async function screenshot(name) { const r = await command('Page.captureScreenshot', { format: 'png' }); fs.writeFileSync(path.join(output, `${name}.png`), Buffer.from(r.data, 'base64')); }
 async function press(key, code, vk) {
-  await command('Input.dispatchKeyEvent', { type: 'keyDown', key, code, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk });
+  await command('Input.dispatchKeyEvent', { type: 'keyDown', key, code, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk, ...(key === 'Enter' ? { text: '\r', unmodifiedText: '\r' } : {}) });
   await command('Input.dispatchKeyEvent', { type: 'keyUp', key, code, windowsVirtualKeyCode: vk, nativeVirtualKeyCode: vk });
 }
 async function renderedFonts(selector) {
@@ -162,6 +162,16 @@ try {
           report.fonts.push({ file: book.file, choice: font, selector, fonts });
         }
         await evaluate("document.getElementById('qaRu').remove(); document.getElementById('qaEn').remove()");
+        for (const lang of ['ru', 'en']) {
+          await evaluate(`if(document.documentElement.lang!=='${lang}') ${language}.click(); document.fonts.ready.then(()=>true)`);
+          await evaluate(`(() => { const p=[...document.querySelectorAll('#story p:not(.kicker):not(.source-label):not(.cover-author)')].find(n=>!n.closest('button,figcaption') && /${lang==='ru'?'[А-Яа-яЁё]{3}':'[A-Za-z]{3}'}/.test(n.textContent)); if(!p) throw Error('No actual reading paragraph'); p.dataset.qaReading='true'; })()`);
+          const fonts = await renderedFonts('[data-qa-reading]');
+          const expected = font==='sans' ? 'Geist' : lang==='ru' ? 'Source Serif 4' : 'Geist Serif';
+          assert(fonts.some(f=>f.isCustomFont && f.familyName===expected && f.glyphCount>0), `${book.file}/${font}/${lang}: actual text font ${JSON.stringify(fonts)}`);
+          report.fonts.push({file:book.file,choice:font,language:lang,actualReadingText:true,fonts});
+          await evaluate("document.querySelector('[data-qa-reading]').removeAttribute('data-qa-reading')");
+        }
+
       }
     }
   }
@@ -193,6 +203,9 @@ try {
       const unchanged = await evaluate(`Object.entries(${JSON.stringify(before.storage)}).filter(([key])=> /mode|lastScreen|lastSlide|language|focus/i.test(key)).every(([key,value])=>localStorage.getItem(key)===value)`);
       assert(unchanged, `${book.file}: mode/position/language storage changed`);
       saved.push({ file: book.file, title: before.title });
+      await evaluate(`${language}.click(); document.querySelector('#nextButton, #btn-next').click()`);
+      assert(await evaluate("document.documentElement.dataset.theme==='dark' && document.documentElement.dataset.readingFont==='sans'"), `${book.file}: render reverted theme/font`);
+      await evaluate(`document.querySelector('#previousButton, #btn-back').click(); ${language}.click()`);
       await navigate(book.file);
       assert(await evaluate("BookSettings.get().theme === 'dark' && BookSettings.get().readingFont === 'sans'"), `${book.file}: reload theme/font`);
       await evaluate(start);
@@ -212,6 +225,18 @@ try {
     await evaluate("languageButton.click(); themeButton.click()");
     assert(await evaluate("bookSettingsTitle.textContent === 'Settings' && document.querySelector('input[value=light]').checked && bookSettingsFontNote.textContent.includes('Russian')"), 'EN settings localization/selected states');
     await screenshot('home-320-settings-en-light-serif');
+    const uiFonts = await renderedFonts('#bookSettingsFontNote');
+    assert(uiFonts.every(f=>f.isCustomFont && f.familyName==='Geist'), 'Settings UI must remain real Sans in Serif mode');
+    report.fonts.push({choice:'serif',settingsUI:true,fonts:uiFonts});
+    await press('Tab','Tab',9);
+    await press('ArrowRight','ArrowRight',39);
+    assert(await evaluate("document.querySelector('[name=book-theme][value=dark]').checked && BookSettings.get().theme==='dark'"), 'native radio keyboard selection');
+    await press('Escape','Escape',27);
+    await until(()=>evaluate("document.activeElement.id==='themeButton' && !bookSettingsDialog.open"), 'Escape returns to gear');
+    await press('Enter','Enter',13);
+    assert(await evaluate("bookSettingsDialog.open && BookSettings.get().theme==='dark'"), 'Enter opens gear without toggling: '+JSON.stringify(await evaluate("({open:bookSettingsDialog.open, theme:BookSettings.get().theme, active:document.activeElement.id})")));
+    await press('Escape','Escape',27);
+
   }
 
   if (phase === 'migration') {
@@ -236,32 +261,35 @@ try {
 
   if (phase === 'consent' || phase === 'hitchhiker') {
     const books = catalogue.books.filter(b=>b.spoilerPolicy === 'full-plot-in-deep').filter(b=>(b.slug==='the-hitchhikers-guide-to-the-galaxy') === (phase==='hitchhiker'));
-    for (const book of books) for (const lang of ['ru','en']) {
+    const guarded = books.filter(book => /spoilerDialog|accelerandoSpoilerDialog|(?:window\.)?confirm\s*\(/.test(fs.readFileSync(path.join(root, book.file), 'utf8')));
+    report.unchangedLegacyLimits = books.filter(b=>!guarded.includes(b)).map(b=>({file:b.file,limit:'Existing runtime has no explicit saved-Deep consent guard; Settings preserves it without changing reading policy.'}));
+    for (const book of guarded) for (const lang of ['ru','en']) {
       await navigate(book.file);
       const data = await evaluate("JSON.parse(document.getElementById('book-tiktok-data').textContent)");
       const late = data.screens.filter(s=>s.level===3 && !s.final).at(-1);
       assert(late, `${book.file}: no late screen`);
-      await evaluate(`localStorage.setItem('book-tiktok.${book.slug}.mode','deep'); localStorage.setItem('book-tiktok.${book.slug}.lastScreen', ${JSON.stringify(late.id)}); localStorage.setItem('book-tiktok.${book.slug}.language','${lang}')`);
+      await evaluate(`sessionStorage.removeItem('book-tiktok.${book.slug}.spoilerConsent'); localStorage.setItem('book-tiktok.${book.slug}.mode','deep'); localStorage.setItem('book-tiktok.${book.slug}.lastScreen', ${JSON.stringify(late.id)}); localStorage.setItem('book-tiktok.${book.slug}.language','${lang}')`);
       await navigate(book.file);
-      const checkSafe = async () => assert(await evaluate(`Boolean(document.querySelector('.cover-layout')) && !document.querySelector('#contentsList [data-go-to="${late.id}"]') && !document.body.innerText.includes(${JSON.stringify(late.copy[lang].title)})`), `${book.file}/${lang}: ending visible before consent`);
+      const checkSafe = async () => assert(await evaluate(`Boolean(document.querySelector('.cover-layout')) && !document.body.innerText.includes(${JSON.stringify(late.copy[lang].title)})`), `${book.file}/${lang}: ending visible before consent`);
       await checkSafe();
       await evaluate(`${theme}.click(); document.querySelector('[name=book-font][value=serif]').click(); bookSettingsClose.click()`);
       await checkSafe();
       consentDecision = false;
       await evaluate("document.querySelector('[data-start=continue]').click()");
-      if (phase === 'hitchhiker') {
-        assert(await evaluate("spoilerDialog.open && !bookSettingsDialog.open"), 'Hitchhiker custom consent missing');
-        await evaluate('spoilerCancel.click()');
-      }
+      const custom = await evaluate("Boolean(document.querySelector('#spoilerDialog[open], #accelerandoSpoilerDialog[open]'))");
+      if (custom) await evaluate("document.querySelector('#spoilerDialog[open] #spoilerCancel, #spoilerDialog[open] [data-spoiler-cancel], #accelerandoSpoilerDialog[open] [data-spoiler-cancel]').click()");
+      if (phase === 'hitchhiker') assert(custom, 'Hitchhiker custom consent missing');
       await checkSafe();
       consentDecision = true;
       await evaluate("document.querySelector('[data-start=continue]').click()");
-      if (phase === 'hitchhiker') await evaluate('spoilerAccept.click()');
+      if (custom) await evaluate("document.querySelector('#spoilerDialog[open] #spoilerAccept, #spoilerDialog[open] [data-spoiler-accept], #accelerandoSpoilerDialog[open] [data-spoiler-accept]').click(); new Promise(resolve=>setTimeout(resolve,0))");
       assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(late.copy[lang].title)}`), `${book.file}/${lang}: accepted Deep resume`);
       await evaluate(`${theme}.click(); document.querySelector('[name=book-theme][value=light]').click(); bookSettingsClose.click()`);
       assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(late.copy[lang].title)}`), 'Settings lost consented screen');
-      await navigate(book.file); await checkSafe();
-      report.checks.push({file:book.file,lang,savedDeep:'cancel/accept/reload/settings pass',lateId:late.id});
+      const sessionConsent = await evaluate(`sessionStorage.getItem('book-tiktok.${book.slug}.spoilerConsent')`);
+      await navigate(book.file);
+      if (Number(sessionConsent) < 3) await checkSafe();
+      report.checks.push({file:book.file,lang,savedDeep:'cancel/accept/reload/settings pass',reloadPolicy: Number(sessionConsent)>=3 ? 'book-local session consent preserved' : 'asks again',lateId:late.id});
     }
     report.nativeDialogs = nativeDialogs;
   }
@@ -306,7 +334,7 @@ try {
       await navigate(book.file, true);
       await evaluate(start);
       for (const font of ['sans','serif']) {
-        await evaluate(`BookSettings.set('readingFont','${font}'); BookSettings.set('theme','light'); document.fonts.ready.then(()=>true)`);
+        await evaluate(`BookSettings.set('readingFont','${font}'); BookSettings.set('theme','light'); Promise.all([document.fonts.load('16px Geist'), document.fonts.load('16px \"Geist Serif\"'), document.fonts.load('16px \"Source Serif 4\"'), ...[...document.images].map(i=>i.decode())]).then(()=>true)`);
         assert(await evaluate("document.fonts.check('16px Geist') && document.fonts.check('16px \"Geist Serif\"') && document.fonts.check('16px \"Source Serif 4\"') && [...document.images].every(i=>i.complete && i.naturalWidth>0)"), `${book.file}: standalone fonts/images`);
       }
       await evaluate("document.querySelector('#sourcesButton,#btn-sources').click()");

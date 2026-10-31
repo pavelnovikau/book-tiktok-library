@@ -100,6 +100,12 @@ __SETTINGS_FONT_LICENSES__
     var next = read(event.newValue);
     if (next) { preferences = next; apply(); }
   });
+  window.addEventListener('pageshow', function () {
+    try {
+      var latest = read(localStorage.getItem(key));
+      if (latest) { preferences = latest; apply(); }
+    } catch (_) {}
+  });
   apply();
 }());
 </script>

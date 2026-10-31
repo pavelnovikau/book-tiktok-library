@@ -11,10 +11,10 @@ Use this reference when implementing or visually checking the artifact. New arti
 
 ## File and runtime
 
-- Embed CSS and JavaScript. Embed Geist, Geist Mono, the cover, and any archival images as data URLs.
+- Embed CSS and JavaScript. Embed Geist Sans, Geist Mono, Geist Serif Regular, Source Serif 4 Regular and their OFL notices, along with the cover, and any archival images as data URLs.
 - Do not use CDN imports, external scripts, remote stylesheets, runtime `fetch`, XHR, WebSocket, EventSource, or service workers.
 - Direct source/credit links are allowed because they are optional navigation, not runtime dependencies.
-- Namespace local storage with the book slug and persist theme, language, reading depth, and last screen ID.
+- Persist global theme and reading font through the [shared Settings contract](reader-settings.md). Keep language, reading depth, last screen ID and spoiler consent under the existing book-specific keys.
 - Include deterministic metadata generated from the structured data:
 
 ```html
@@ -41,7 +41,7 @@ Palette source and rationale: [Flexoki by Steph Ango](https://stephango.com/flex
 - Light is warm paper, not pure white; dark is warm near-black, not blue-black.
 - Muted Flexoki cyan is the single focus-action color: use cyan-700 (`#1C6C66`) with paper text in light mode and cyan-500 (`#2F968D`) with ink text in dark mode. These darker-than-default UI steps preserve normal-text contrast and feel quieter during bedtime reading. Use the accent for one primary action per screen, not decoration.
 - Status colors are for actual status only.
-- Use Geist for reading and Geist Mono for section labels, indices, and quantitative anchors.
+- Default to true Geist Sans. Offer actual Geist Serif for Latin and Source Serif 4 for Cyrillic through Settings, with a concise honest localized note. Both Serif files are static Regular: disable synthetic weights/italics. UI controls always remain Sans; quantitative anchors may retain Geist Mono.
 - Define sizes as `--text-*`, `--space-*`, `--radius-*`, or control tokens before use.
 - Do not use emoji, decorative glyphs, left-accent borders, gradients, or glass effects.
 - Keep image treatment quiet: documentary crops, restrained borders, factual captions.
@@ -51,7 +51,7 @@ Palette source and rationale: [Flexoki by Steph Ango](https://stephango.com/flex
 ### Phone, 320–440 CSS px
 
 - Use `100dvh`, safe-area insets, a fixed shell header/footer, and a vertically scrollable slide body.
-- Keep home, Chapters, language, Sources and theme in one compact row of icon buttons at 320 px. Every button needs a localized accessible label and tooltip. The optional iOS install-guide icon belongs in that same row; never add a second header row that reduces reading space. This is Pavel's explicit reader requirement and supersedes older text-only/no-glyph rules for these controls.
+- Keep home, Chapters, language, Sources and the Settings gear in one compact row of icon buttons at 320 px. Every button needs a localized accessible label and tooltip. The optional iOS install-guide icon belongs in that same row; never add a second header row that reduces reading space. This is Pavel's explicit reader requirement and supersedes older text-only/no-glyph rules for these controls.
 - Keep a compact home icon in the existing top bar with `href="./"`; localize its accessible label as `К библиотеке` / `Back to library`. Do not add a separate navigation row for it.
 - Include the iOS standalone metadata and the maintained in-reader install guide. In iPhone/iPad browser mode, explain that a page cannot programmatically remove Safari chrome, show the exact `Share → Add to Home Screen` route, and tell the reader to relaunch from the Home Screen rather than Telegram. Offer the guide automatically once and keep a manual trigger outside focus mode. Hide both in `display-mode: standalone` / `navigator.standalone` and in focus mode so an installed reader still shows only the text and Next.
 - Ensure horizontal overflow is impossible while long lists and evidence screens remain vertically scrollable.

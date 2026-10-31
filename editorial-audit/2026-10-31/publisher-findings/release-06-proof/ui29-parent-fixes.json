@@ -1,0 +1,296 @@
+{
+  "status": "locally-corrected-awaiting-independent-publisher-closure",
+  "updatedAtUtc": "2026-10-31T20:59:45.207747+00:00",
+  "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/29",
+  "head": "a976d54758fe688ca3de08d00fd4020608c2c0ef",
+  "base": "d6851936658c80765dfdf36d3a74711072fb39c5",
+  "originalReviewedHead": "a09d38dc852f2423bbf5a592f0cb600b65d83528",
+  "originalReviewSha256": "1836e8901f5da945b92a1715c37ad38db64985b93ee904c19890fc53c4fa639f",
+  "findings": {
+    "R1": "Settings keydown stops propagation without preventing native radio/Space/Escape defaults.",
+    "R2": "Inactive embedded faces decode before font family changes; actual scroller offsets restored against final metrics. Cached faces apply synchronously; revision guard keeps latest choice."
+  },
+  "browserRegressions": {
+    "phase": "review-regressions",
+    "checks": [
+      {
+        "case": "cold Serif with nonzero scroll",
+        "coldFaces": [
+          {
+            "family": "Geist Serif",
+            "status": "unloaded"
+          },
+          {
+            "family": "Source Serif 4",
+            "status": "unloaded"
+          }
+        ],
+        "before": {
+          "top": 40,
+          "max": 87,
+          "paragraphTop": 40
+        },
+        "after": {
+          "top": 40,
+          "max": 87,
+          "paragraphTop": 40,
+          "sameScroller": true,
+          "sameSlide": true
+        }
+      },
+      {
+        "case": "Hermes radio ArrowRight",
+        "lang": "ru",
+        "dark": true,
+        "theme": "dark",
+        "dialogOpen": true,
+        "sameSlide": true,
+        "sameSavedId": true
+      },
+      {
+        "case": "Hermes radio ArrowRight",
+        "lang": "en",
+        "dark": true,
+        "theme": "dark",
+        "dialogOpen": true,
+        "sameSlide": true,
+        "sameSavedId": true
+      },
+      {
+        "case": "rapid font changes retain the last choice"
+      }
+    ],
+    "fonts": [],
+    "runtimeErrors": [],
+    "remoteRequests": [],
+    "status": "pass"
+  },
+  "phases": {
+    "review-regressions": {
+      "status": "pass",
+      "checks": 4,
+      "fontRecords": 0,
+      "runtimeErrors": [],
+      "remoteRequests": []
+    },
+    "persistence": {
+      "status": "pass",
+      "checks": 1,
+      "fontRecords": 1,
+      "runtimeErrors": [],
+      "remoteRequests": []
+    },
+    "consent": {
+      "status": "pass",
+      "checks": 26,
+      "fontRecords": 0,
+      "runtimeErrors": [],
+      "remoteRequests": []
+    },
+    "layout-8": {
+      "status": "pass",
+      "checks": 16,
+      "fontRecords": 32,
+      "runtimeErrors": [],
+      "remoteRequests": []
+    },
+    "layout-9": {
+      "status": "pass",
+      "checks": 12,
+      "fontRecords": 24,
+      "runtimeErrors": [],
+      "remoteRequests": []
+    },
+    "offline-4": {
+      "status": "pass",
+      "checks": 7,
+      "fontRecords": 0,
+      "runtimeErrors": [],
+      "remoteRequests": []
+    }
+  },
+  "corpusProof": {
+    "base": "d6851936658c80765dfdf36d3a74711072fb39c5",
+    "books": 39,
+    "jsonCorporaUnchanged": [
+      {
+        "file": "skin-in-the-game.html",
+        "corpusSha256": "aa243e0b9c8b625ef23ec58673448af5b2cc60074f75886d9cf9f7e9c694e3a7"
+      },
+      {
+        "file": "hermes-nous.html",
+        "corpusSha256": "7fcc20d9739dcc394e85d8cff65172dbf79c10a024d4198adef1274d6a26bbf4"
+      },
+      {
+        "file": "essentialism.html",
+        "corpusSha256": "8dc085a1890a75791baf9300c8299eb4d8a0dc25968c11b0cd6ba5d33abb7711"
+      },
+      {
+        "file": "make-time.html",
+        "corpusSha256": "add9ac17652db4d01a0c965f1a47e51beda22d442beebd23654938a2f5302862"
+      },
+      {
+        "file": "four-thousand-weeks.html",
+        "corpusSha256": "810b21ffca738711fc5fd0705c86a1c74f0fdaba32da959a8d7454738ef405aa"
+      },
+      {
+        "file": "selfie.html",
+        "corpusSha256": "1451affbc085cf9595f646ab11c14bb26acc882f084c9dc985b526dd939cd9b8"
+      },
+      {
+        "file": "why-zebras-dont-get-ulcers.html",
+        "corpusSha256": "fb2f9c9124ad565245a2ee45286f0a4ffbf0923eb321f97896cabfa9d4fa8dcb"
+      },
+      {
+        "file": "huberman-protocols.html",
+        "corpusSha256": "6c08ade434d6f66b84cdaaa187cd65cba2650eead97750cfeeb2a04785cab46a"
+      },
+      {
+        "file": "awareness-through-movement.html",
+        "corpusSha256": "535152169966db6770ef4bc635dd2f16e7a62549cab0d71777624e4d2a19eec8"
+      },
+      {
+        "file": "the-body-keeps-the-score.html",
+        "corpusSha256": "cb3848b7567110fe7e21e4e38faceeff1f34c86d1ba2ed42c17a10b85fbdd90d"
+      },
+      {
+        "file": "a-guide-to-the-good-life.html",
+        "corpusSha256": "dad6d02d05c9aab518427f87f534316040a573304127ea5c5c4fa86bab5134e3"
+      },
+      {
+        "file": "letting-go.html",
+        "corpusSha256": "76aeb84636fba57b4c909c17c511eda4ebc0c126913a3c3253756ca8995e7cbb"
+      },
+      {
+        "file": "the-art-of-war.html",
+        "corpusSha256": "1c4ca5740efe9f0a5bc459fe9eb8d3ef6cdfd9e35fdb9c7d6028a5e08d298683"
+      },
+      {
+        "file": "the-hobbit.html",
+        "corpusSha256": "f9cded0caeecc39eedee98384614227358695bc8e7e290bbab0e2666ec2de98f"
+      },
+      {
+        "file": "a-wizard-of-earthsea.html",
+        "corpusSha256": "8fb2c8a897f9aa51b2e0aa8c66e9042e178223527e64d39b73d574c92f2e6d75"
+      },
+      {
+        "file": "treasure-island.html",
+        "corpusSha256": "28c8e537fd35b4c57bb1c5e47d0082df7c19dc41af093df05a3f150eed9037cc"
+      },
+      {
+        "file": "the-lost-world.html",
+        "corpusSha256": "bae2901356f161d3e858ae9aed7d04287a09936d29daf0404c1749f0c2a87ada"
+      },
+      {
+        "file": "akselerando.html",
+        "corpusSha256": "0579ba3ca41aa9107a33b788d1a663b2286ee7ab936c5c29caba8d1d6236ea74"
+      },
+      {
+        "file": "mindfulness.html",
+        "corpusSha256": "996f2c3ac306113cd747439f0d0c70c719c4f256aee9a595abb68d5e2ba6cd49"
+      },
+      {
+        "file": "behave.html",
+        "corpusSha256": "1dc59f21dbce86dd14ca1935d950c6ecff9011e89a722b33cda0fd3605e72e80"
+      },
+      {
+        "file": "determined.html",
+        "corpusSha256": "7f8e75f492059d026c9e665704699b3681062170e8a6d08a4f7dbf9fcbfd0347"
+      },
+      {
+        "file": "zen-and-the-art-of-motorcycle-maintenance.html",
+        "corpusSha256": "1418adae575873edcc55d726a304ea8ba04aa4702af255291e5603dd7c81bccb"
+      },
+      {
+        "file": "antifragile.html",
+        "corpusSha256": "a77d26c955f66bef94788fa861adfca9941181da3df204f44158b0851c819655"
+      },
+      {
+        "file": "children-of-captain-grant.html",
+        "corpusSha256": "0b5ba42be484a5fd3438b66ba539d23c68a07e59974bc515e6c7691f898b9947"
+      },
+      {
+        "file": "white-fang.html",
+        "corpusSha256": "b554193e200b8099e4af35e247e0e157e794b52eb5e91afd290234c13b1f0e02"
+      },
+      {
+        "file": "i-robot.html",
+        "corpusSha256": "e6b95d344ea02df6798f2af9742ccd103e4769eae5178c94e8ce020d4a6f2d3f"
+      },
+      {
+        "file": "the-two-captains.html",
+        "corpusSha256": "e2e04db5d364e2f726e710f853fd0c98b61a36eb951d9cd08d45687a56fafcf4"
+      },
+      {
+        "file": "the-wee-free-men.html",
+        "corpusSha256": "ee8ea8644b7cea2cab8c41ba9fd12ea6f6d979e86df518e467199a77439be602"
+      },
+      {
+        "file": "the-hitchhikers-guide-to-the-galaxy.html",
+        "corpusSha256": "8557d0040e03095dfb4a0127fcec006888fd473cade5de6bd3dab8b7d1bc8262"
+      },
+      {
+        "file": "amphibian-man.html",
+        "corpusSha256": "12692177945704c4ea8dcfb3285cc433b8df2823e36a9f8db8b774c5d3792749"
+      },
+      {
+        "file": "monday-begins-on-saturday.html",
+        "corpusSha256": "b0cd7bedcd18525f59fc0f880e9753794da7b102cb9dc0efb5dd04aee7cb5b48"
+      },
+      {
+        "file": "hard-to-be-a-god.html",
+        "corpusSha256": "295fb5a3b3f6ae84d732e604316aa805e7b613cff3c890125a4760bc58ef25ac"
+      },
+      {
+        "file": "adventures-of-huckleberry-finn.html",
+        "corpusSha256": "778eff354e5f4535594d017067dff221f932f91797cf85ada3a8db8d9aa6e1b8"
+      },
+      {
+        "file": "nonviolent-communication.html",
+        "corpusSha256": "18bff891c8e6e785f1a5b36f2addcd9fe429558ea0d315b76f0b9e0344c5dc1d"
+      },
+      {
+        "file": "the-fifth-discipline.html",
+        "corpusSha256": "d3215736c94eaa08b8a4f271c51f2c3cc4ec73a27af31daa77150010f1ba26c3"
+      },
+      {
+        "file": "meditations.html",
+        "corpusSha256": "7c506379ef326e513f60c34dc79e189c4ac873b9643f5b34d244709fa71aca14"
+      },
+      {
+        "file": "the-left-hand-of-darkness.html",
+        "corpusSha256": "c546d36d09b4a163b13c317076ae5d9e600eb72b59b577207942cea6dd7e1917"
+      }
+    ],
+    "remainingLegacy": "1873/TOC complete page transformation checked by virtual synchronizer proof"
+  },
+  "virtualSynchronization": {
+    "current-head": {
+      "files": 40,
+      "writes": 40,
+      "mismatches": []
+    },
+    "exact-base": {
+      "files": 40,
+      "writes": 40,
+      "mismatches": []
+    }
+  },
+  "catalogueBooks": 39,
+  "catalogueScreens": 2453,
+  "bookDataChanged": false,
+  "qaDir": "/tmp/book-settings-parent-39-20261031",
+  "proofDir": "/tmp/book-settings-parent-proof-20261031",
+  "checks": [
+    "npm run check",
+    "npm run build:site",
+    "font cmaps/licenses unchanged and verified",
+    "six focused QA phases incl real cold fonts and actual legacy Hermes radio arrows"
+  ],
+  "notes": [
+    "First matrix run exposed asynchronous cached-font selection; original failing layout8/9 reports preserved with before-cached-check suffix, then cached-face fast path added and all phases rerun successfully.",
+    "Original independent REQUIRES-FIXES remains unchanged; this is parent implementation, publisher06 must independently close R1/R2 on this exact new head.",
+    "No physical iPhone/PWA or actual BFCache claim.",
+    "Upstream full OFL license text/trailing spaces retained."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "phase": "persistence",
+  "origin": "owned-local-CDP-fixtures",
+  "checks": [
+    {
+      "homeCheck": {
+        "stats": [],
+        "open": true,
+        "heading": "bookSettingsTitle",
+        "theme": "dark",
+        "note": "Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста."
+      },
+      "all": {
+        "stats": [
+          "40 книг",
+          "2327 экранов"
+        ],
+        "tabs": [
+          93.328125,
+          93.328125,
+          93.34375
+        ]
+      },
+      "saved": [
+        {
+          "file": "essentialism.html",
+          "title": "Выбор нельзя отдать по привычке"
+        },
+        {
+          "file": "1873.html",
+          "title": "Это не репетиция 1929 года"
+        },
+        {
+          "file": "theory-of-constraints.html",
+          "title": "У Алекса Рого три месяца"
+        },
+        {
+          "file": "hermes-nous.html",
+          "title": "В феврале появляется агент"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "choice": "serif",
+      "settingsUI": true,
+      "fonts": [
+        {
+          "familyName": "Geist",
+          "postScriptName": "Geist-Regular",
+          "isCustomFont": true,
+          "glyphCount": 84
+        }
+      ]
+    }
+  ],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "pass"
+}

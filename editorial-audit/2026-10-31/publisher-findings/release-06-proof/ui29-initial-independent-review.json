@@ -1,0 +1,1705 @@
+{
+  "schemaVersion": 1,
+  "kind": "independent-code-ui-review",
+  "status": "REQUIRES-FIXES",
+  "verdict": "REQUIRES-FIXES",
+  "findingsCount": 2,
+  "severityCounts": {
+    "P2": 2
+  },
+  "reviewedAtUtc": "2026-10-31T20:42:54.486828+00:00",
+  "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/29",
+  "repository": "https://github.com/pavelnovikau/book-tiktok-library",
+  "checkout": "/Users/pn/.t3/checkouts/book-tiktok-library-settings-20261031",
+  "head": "a09d38dc852f2423bbf5a592f0cb600b65d83528",
+  "base": "bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c",
+  "remotePrMetadata": {
+    "readAtStartAndEnd": true,
+    "head": "a09d38dc852f2423bbf5a592f0cb600b65d83528",
+    "base": "bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c",
+    "state": "open",
+    "unchangedDuringObservedReview": true,
+    "checks": "Three green checks supplied by user; not used as independent acceptance."
+  },
+  "sourceIntegrity": {
+    "checkedAtUtc": "2026-10-31T20:40:31.278945+00:00",
+    "origin": "https://github.com/pavelnovikau/book-tiktok-library.git",
+    "head": "a09d38dc852f2423bbf5a592f0cb600b65d83528",
+    "baseResolved": "bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c",
+    "statusPorcelain": "",
+    "trackedFilesHashed": 351,
+    "changedFiles": [],
+    "beforeManifestSha256": "f0f27494d41252fd0fa6e128651ab1cd5e79aa5fa8fdcacee5c93f4519c1953f",
+    "afterManifestSha256": "f0f27494d41252fd0fa6e128651ab1cd5e79aa5fa8fdcacee5c93f4519c1953f"
+  },
+  "inputsReviewed": [
+    "CONTRIBUTING.md",
+    "editorial-audit/2026-10-31/BRIEF.md",
+    "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/reader-settings-build-v2.json",
+    "exact two-dot diff bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c..a09d38dc852f2423bbf5a592f0cb600b65d83528"
+  ],
+  "filesReviewed": [
+    "1873.html",
+    "CONTRIBUTING.md",
+    "a-guide-to-the-good-life.html",
+    "a-wizard-of-earthsea.html",
+    "akselerando.html",
+    "amphibian-man.html",
+    "antifragile.html",
+    "awareness-through-movement.html",
+    "behave.html",
+    "children-of-captain-grant.html",
+    "determined.html",
+    "essentialism.html",
+    "four-thousand-weeks.html",
+    "hermes-nous.html",
+    "huberman-protocols.html",
+    "i-robot.html",
+    "index.html",
+    "letting-go.html",
+    "make-time.html",
+    "mindfulness.html",
+    "monday-begins-on-saturday.html",
+    "package.json",
+    "scripts/apply-reader-shell.mjs",
+    "scripts/browser-qa.mjs",
+    "scripts/check-fonts.py",
+    "scripts/check-library.mjs",
+    "scripts/check-settings.mjs",
+    "scripts/settings-qa.mjs",
+    "selfie.html",
+    "skills/book-tiktok/SKILL.md",
+    "skills/book-tiktok/assets/fonts/GeistSerif-LICENSE.txt",
+    "skills/book-tiktok/assets/fonts/GeistSerif-Regular.woff2",
+    "skills/book-tiktok/assets/fonts/SourceSerif4-LICENSE.md",
+    "skills/book-tiktok/assets/fonts/SourceSerif4-Regular.woff2",
+    "skills/book-tiktok/assets/reader-header.html",
+    "skills/book-tiktok/assets/reader-settings-head.html",
+    "skills/book-tiktok/assets/reader-settings.html",
+    "skills/book-tiktok/assets/standalone-template.html",
+    "skills/book-tiktok/references/html-spec.md",
+    "skills/book-tiktok/references/reader-settings.md",
+    "skills/book-tiktok/scripts/build_story.mjs",
+    "skills/book-tiktok/scripts/reader-settings.mjs",
+    "skin-in-the-game.html",
+    "the-art-of-war.html",
+    "the-body-keeps-the-score.html",
+    "the-hitchhikers-guide-to-the-galaxy.html",
+    "the-hobbit.html",
+    "the-lost-world.html",
+    "the-two-captains.html",
+    "the-wee-free-men.html",
+    "theory-of-constraints.html",
+    "treasure-island.html",
+    "white-fang.html",
+    "why-zebras-dont-get-ulcers.html",
+    "zen-and-the-art-of-motorcycle-maintenance.html"
+  ],
+  "additionalMaintainedCodeReviewed": [
+    "scripts/check-library.mjs (existing validation path)",
+    "skills/book-tiktok/assets/fonts/Geist-Variable.woff2",
+    "skills/book-tiktok/assets/fonts/LICENSE.txt",
+    "sw.js (exact-base equality)",
+    "books.json (exact-base equality)"
+  ],
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "P2",
+      "priority": "medium",
+      "title": "Hermes Settings radio arrows page the book and overwrite its saved position",
+      "locations": [
+        {
+          "file": "skills/book-tiktok/assets/reader-settings.html",
+          "line": 57,
+          "function": "dialog keydown listener"
+        },
+        {
+          "file": "hermes-nous.html",
+          "line": 1197,
+          "function": "dialogOpen"
+        },
+        {
+          "file": "hermes-nous.html",
+          "line": 1434,
+          "function": "document keydown listener"
+        }
+      ],
+      "reproduce": [
+        "Open a fresh hosted /hermes-nous.html and start reading (default Deep, screen 2 / 50).",
+        "Open the Settings gear, select Light and Serif, focus the checked Light radio (Tab from the dialog heading also reaches it).",
+        "Press ArrowRight once."
+      ],
+      "expected": "Native radio wraps to Dark; current slide, progress and bookHermesNous.lastSlide stay unchanged.",
+      "actual": {
+        "dialogStillOpen": true,
+        "selectedTheme": "light",
+        "before": {
+          "counter": "2 / 50",
+          "lastSlide": "thesis"
+        },
+        "after": {
+          "counter": "3 / 50",
+          "lastSlide": "paradox"
+        },
+        "currentSlideNodeReplaced": true
+      },
+      "cause": "The shared dialog keydown handler intercepts only Tab and lets radio arrows bubble. Hermes dialogOpen recognizes only the old Contents/Sources dialogs, so its document listener calls go(1) and preventDefault, suppressing native radio selection.",
+      "smallestCorrection": "Stop propagation of dialog keydown events at the beginning of the maintained Settings keydown handler, without preventing native Arrow/Space/Escape defaults. Synchronize the shared module into current readers. An alternative is to extend Hermes dialogOpen to every open dialog and encode that in a maintained adapter that also repairs already connected pages.",
+      "diagnostic": "Adding only a temporary runtime keydown stopPropagation listener restored native radio changes and preserved the actual slide in RU and EN. No source edit was made and this diagnostic does not accept the reviewed head.",
+      "regressionCheck": "Exercise a real ArrowRight/ArrowLeft on both Settings radio groups in Hermes while recording the current node, counter and lastSlide. Current supplied keyboard QA checks the homepage, which misses this boundary.",
+      "evidence": {
+        "failedPhase": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/smoke-0.json",
+        "independentConfirmation": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/hermes-confirm.json",
+        "screenshot": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/hermes-arrow-regression.png"
+      }
+    },
+    {
+      "id": "R2",
+      "severity": "P2",
+      "priority": "medium",
+      "title": "First Serif activation loses reading scroll while embedded fonts decode",
+      "locations": [
+        {
+          "file": "skills/book-tiktok/assets/reader-settings-head.html",
+          "line": 75,
+          "function": "apply"
+        },
+        {
+          "file": "skills/book-tiktok/scripts/reader-settings.mjs",
+          "line": 4,
+          "function": "font (font-display: swap)"
+        },
+        {
+          "file": "essentialism.html",
+          "screenId": "three-part-cycle"
+        }
+      ],
+      "reproduce": [
+        "Use a fresh Chrome profile at 320 x 568 so neither Serif face has been decoded.",
+        "Open /essentialism.html in Sans/Essential; reach screen three-part-cycle, titled «Исследовать, отказаться, выполнить».",
+        "Scroll its actual .slide-scroll to 40 (maximum is 87), then open Settings and select Serif for the first time. Wait for document.fonts.ready and close Settings."
+      ],
+      "expected": "Keep the current reading position through the first font change. In this case the final loaded Serif has the same measured scroll extent, so 40 remains a valid offset.",
+      "actual": {
+        "beforeScrollTop": 40,
+        "beforeMaximum": 87,
+        "transientFallbackScrollTop": 11,
+        "transientFallbackMaximum": 11,
+        "loadedSerifScrollTop": 11,
+        "loadedSerifMaximum": 87,
+        "paragraphTopBefore": 175.390625,
+        "paragraphTopAfter": 204.390625,
+        "slideNodePreserved": true,
+        "gearFocusReturned": true
+      },
+      "cause": "apply changes data-reading-font synchronously before the data-URL Serif faces decode. The temporary system fallback shrinks the scroll range and the browser clamps scrollTop. When the real faces restore the content height, the offset is not restored. The final paragraph moves down 29px. This is distinct from unavoidable final font-metric reflow.",
+      "smallestCorrection": "Ensure the required embedded Serif faces are decoded before committing the reading-font attribute, or preserve and restore the active reading scroller after font decoding/layout with clamping only against final metrics. Preserve the existing slide and synchronous theme/closure behavior.",
+      "diagnostic": "In a fresh document, awaiting document.fonts.load for Geist Serif and Source Serif 4 before the existing Settings selection preserved scrollTop=40 and the exact paragraph viewport coordinate. A later cached-font Sans/Serif toggle also retained 40. These are runtime diagnostics, not edits or acceptance of this head.",
+      "regressionCheck": "Use a cold profile and a real, nonzero scroller before the very first Serif selection. Check after fonts settle, not only DOM-node identity or a font-loaded boolean.",
+      "evidence": {
+        "failedPhase": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/space-scroll.json",
+        "stageTrace": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/scroll-diagnostic.json",
+        "predecodeDiagnostic": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/scroll-preload-diagnostic.json",
+        "beforeScreenshot": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/scroll-sans-before.png",
+        "afterScreenshot": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/scroll-serif-after.png"
+      }
+    }
+  ],
+  "optionalPolish": [],
+  "nonBlockingObservations": [
+    {
+      "check": "git diff --check bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c a09d38dc852f2423bbf5a592f0cb600b65d83528",
+      "exitCode": 2,
+      "detail": "Reports 35 trailing-whitespace lines: SourceSerif4-LICENSE.md:21 and its 34 verbatim HTML copies. These are inherited bytes in the retained upstream OFL text, not a runtime defect; no license-text edits requested. This differs from the implementation handoff claim that diff --check passed."
+    }
+  ],
+  "preservation": {
+    "catalogueByteIdenticalToExactBase": true,
+    "catalogueSha256": "e022856e9ed61304048cf5b09af6518e5fc55019f416802f00eb0beb28d2ecb8",
+    "books": 33,
+    "catalogueScreenTotal": 2353,
+    "corpora": [
+      {
+        "file": "skin-in-the-game.html",
+        "corpusSha256": "aa243e0b9c8b625ef23ec58673448af5b2cc60074f75886d9cf9f7e9c694e3a7",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 53
+      },
+      {
+        "file": "1873.html",
+        "corpusSha256": "139c32302633a41f55202dcd55d859d0c6f357333d34b58f0e93b88b33b7bfac",
+        "unchanged": true,
+        "format": "legacy sources/slides/ui block",
+        "count": 57
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "corpusSha256": "f5615ef25da214d117fb2fd546093f1d3aaaf167ccbf97b7ef8cc4f3b20735ea",
+        "unchanged": true,
+        "format": "legacy sources/slides/ui block",
+        "count": 96
+      },
+      {
+        "file": "hermes-nous.html",
+        "corpusSha256": "7fcc20d9739dcc394e85d8cff65172dbf79c10a024d4198adef1274d6a26bbf4",
+        "unchanged": true,
+        "format": "book-data",
+        "count": 50
+      },
+      {
+        "file": "essentialism.html",
+        "corpusSha256": "8dc085a1890a75791baf9300c8299eb4d8a0dc25968c11b0cd6ba5d33abb7711",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 36
+      },
+      {
+        "file": "make-time.html",
+        "corpusSha256": "add9ac17652db4d01a0c965f1a47e51beda22d442beebd23654938a2f5302862",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 51
+      },
+      {
+        "file": "four-thousand-weeks.html",
+        "corpusSha256": "810b21ffca738711fc5fd0705c86a1c74f0fdaba32da959a8d7454738ef405aa",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 52
+      },
+      {
+        "file": "selfie.html",
+        "corpusSha256": "1451affbc085cf9595f646ab11c14bb26acc882f084c9dc985b526dd939cd9b8",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 62
+      },
+      {
+        "file": "why-zebras-dont-get-ulcers.html",
+        "corpusSha256": "fb2f9c9124ad565245a2ee45286f0a4ffbf0923eb321f97896cabfa9d4fa8dcb",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 51
+      },
+      {
+        "file": "huberman-protocols.html",
+        "corpusSha256": "6c08ade434d6f66b84cdaaa187cd65cba2650eead97750cfeeb2a04785cab46a",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "awareness-through-movement.html",
+        "corpusSha256": "535152169966db6770ef4bc635dd2f16e7a62549cab0d71777624e4d2a19eec8",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 42
+      },
+      {
+        "file": "the-body-keeps-the-score.html",
+        "corpusSha256": "cb3848b7567110fe7e21e4e38faceeff1f34c86d1ba2ed42c17a10b85fbdd90d",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 41
+      },
+      {
+        "file": "a-guide-to-the-good-life.html",
+        "corpusSha256": "dad6d02d05c9aab518427f87f534316040a573304127ea5c5c4fa86bab5134e3",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 36
+      },
+      {
+        "file": "letting-go.html",
+        "corpusSha256": "76aeb84636fba57b4c909c17c511eda4ebc0c126913a3c3253756ca8995e7cbb",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 39
+      },
+      {
+        "file": "the-art-of-war.html",
+        "corpusSha256": "1c4ca5740efe9f0a5bc459fe9eb8d3ef6cdfd9e35fdb9c7d6028a5e08d298683",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 36
+      },
+      {
+        "file": "the-hobbit.html",
+        "corpusSha256": "f9cded0caeecc39eedee98384614227358695bc8e7e290bbab0e2666ec2de98f",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "a-wizard-of-earthsea.html",
+        "corpusSha256": "8fb2c8a897f9aa51b2e0aa8c66e9042e178223527e64d39b73d574c92f2e6d75",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "treasure-island.html",
+        "corpusSha256": "28c8e537fd35b4c57bb1c5e47d0082df7c19dc41af093df05a3f150eed9037cc",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 34
+      },
+      {
+        "file": "the-lost-world.html",
+        "corpusSha256": "bae2901356f161d3e858ae9aed7d04287a09936d29daf0404c1749f0c2a87ada",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 34
+      },
+      {
+        "file": "akselerando.html",
+        "corpusSha256": "0579ba3ca41aa9107a33b788d1a663b2286ee7ab936c5c29caba8d1d6236ea74",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 52
+      },
+      {
+        "file": "mindfulness.html",
+        "corpusSha256": "996f2c3ac306113cd747439f0d0c70c719c4f256aee9a595abb68d5e2ba6cd49",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 30
+      },
+      {
+        "file": "behave.html",
+        "corpusSha256": "1dc59f21dbce86dd14ca1935d950c6ecff9011e89a722b33cda0fd3605e72e80",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "determined.html",
+        "corpusSha256": "7f8e75f492059d026c9e665704699b3681062170e8a6d08a4f7dbf9fcbfd0347",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "zen-and-the-art-of-motorcycle-maintenance.html",
+        "corpusSha256": "1418adae575873edcc55d726a304ea8ba04aa4702af255291e5603dd7c81bccb",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 52
+      },
+      {
+        "file": "antifragile.html",
+        "corpusSha256": "f2482f6a5984762228356da9b32ee86dc82e7d6c8086d092318c134a4bb994a2",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "children-of-captain-grant.html",
+        "corpusSha256": "0b5ba42be484a5fd3438b66ba539d23c68a07e59974bc515e6c7691f898b9947",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 37
+      },
+      {
+        "file": "white-fang.html",
+        "corpusSha256": "b554193e200b8099e4af35e247e0e157e794b52eb5e91afd290234c13b1f0e02",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 36
+      },
+      {
+        "file": "i-robot.html",
+        "corpusSha256": "e6b95d344ea02df6798f2af9742ccd103e4769eae5178c94e8ce020d4a6f2d3f",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 112
+      },
+      {
+        "file": "the-two-captains.html",
+        "corpusSha256": "e2e04db5d364e2f726e710f853fd0c98b61a36eb951d9cd08d45687a56fafcf4",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 144
+      },
+      {
+        "file": "the-wee-free-men.html",
+        "corpusSha256": "ee8ea8644b7cea2cab8c41ba9fd12ea6f6d979e86df518e467199a77439be602",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 96
+      },
+      {
+        "file": "the-hitchhikers-guide-to-the-galaxy.html",
+        "corpusSha256": "8557d0040e03095dfb4a0127fcec006888fd473cade5de6bd3dab8b7d1bc8262",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 96
+      },
+      {
+        "file": "amphibian-man.html",
+        "corpusSha256": "12692177945704c4ea8dcfb3285cc433b8df2823e36a9f8db8b774c5d3792749",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 35
+      },
+      {
+        "file": "monday-begins-on-saturday.html",
+        "corpusSha256": "b0cd7bedcd18525f59fc0f880e9753794da7b102cb9dc0efb5dd04aee7cb5b48",
+        "unchanged": true,
+        "format": "book-tiktok-data",
+        "count": 29
+      }
+    ],
+    "method": "Raw embedded JSON equality for 30 v2 readers and Hermes book-data; exact legacy sources/slides/ui block equality for 1873 and TOC, including TOC insert/replace logic. Legacy totals recorded from the unchanged catalogue; no regex count used as effective-array proof. All root HTML is also exactly reproduced from base by maintained synchronizer in virtual memory. No origin/main assumption.",
+    "collectorOrSourceChanges": false,
+    "swUnchanged": true
+  },
+  "maintainedIntegration": {
+    "virtualSynchronization": {
+      "current-head": {
+        "files": 34,
+        "writes": 34,
+        "mismatches": []
+      },
+      "exact-base": {
+        "files": 34,
+        "writes": 34,
+        "mismatches": []
+      }
+    },
+    "futureBuild": {
+      "file": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn/future-build.html",
+      "command": "node skills/book-tiktok/scripts/build_story.mjs skills/book-tiktok/assets/story-data.example.json --out <outside-checkout>/future-build.html",
+      "screens": 7,
+      "platformFontAndSettingsChecks": "pass",
+      "writesInsideCheckout": false
+    }
+  },
+  "fontAudit": {
+    "files": [
+      {
+        "file": "Geist-Variable.woff2",
+        "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+        "family": "Geist",
+        "subfamily": "Regular",
+        "cyrillicMissing": "",
+        "weight": 400,
+        "axes": [
+          "wght"
+        ]
+      },
+      {
+        "file": "GeistSerif-Regular.woff2",
+        "sha256": "d11c9077e61bda553e2eea121409c584504319e08f972d11e0a38ed4b14de398",
+        "family": "Geist Serif",
+        "subfamily": "Regular",
+        "cyrillicMissing": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+        "weight": 400,
+        "axes": []
+      },
+      {
+        "file": "SourceSerif4-Regular.woff2",
+        "sha256": "6b053e98f0838afe81f3e784727be4583a7c13bb42f198dc5202ecffee0aaee0",
+        "family": "Source Serif 4",
+        "subfamily": "Regular",
+        "cyrillicMissing": "",
+        "weight": 400,
+        "axes": []
+      }
+    ],
+    "sourceLicenseFiles": [
+      "skills/book-tiktok/assets/fonts/LICENSE.txt",
+      "skills/book-tiktok/assets/fonts/GeistSerif-LICENSE.txt",
+      "skills/book-tiktok/assets/fonts/SourceSerif4-LICENSE.md"
+    ],
+    "embeddedNotices": "All three full license texts match source byte-for-byte in all 34 HTML files. Embedded reading-font binaries match the parsed source font SHA-256s.",
+    "russianCoverage": "Geist Sans and Source Serif 4 contain all 66 Russian letters including Ё/ё. Geist Serif Regular lacks all 66; localized Settings disclosure is honest.",
+    "staticSemantics": "Both Serif faces are static 400, no weight axes; Serif text disables synthesis and uses Regular. Checked heading/body size hierarchy remains distinct. UI platform-font records remain Geist Sans.",
+    "platformFontMethod": "Chrome CDP CSS.getPlatformFontsForNode, familyName/isCustomFont/glyphCount on actual RU/EN reading paragraphs, Ё/ё probes, and Settings UI; not inferred from CSS stack or document.fonts.check.",
+    "platformFontRecords": [
+      {
+        "file": "index.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 40
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 40
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 42
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 42
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 32
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 7
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 32
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 7
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 42
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 42
+          }
+        ]
+      },
+      {
+        "file": "index.html",
+        "settingsUI": true,
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 84
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 282
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 12
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 264
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 242
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 40
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 10
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 2
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 269
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "settingsUI": true,
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 84
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular_wght2A80000",
+            "isCustomFont": true,
+            "glyphCount": 132
+          },
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 55
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 12
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular_wght2A80000",
+            "isCustomFont": true,
+            "glyphCount": 136
+          },
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 67
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 152
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 36
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 10
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 2
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 204
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "settingsUI": true,
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 84
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular_wght2A80000",
+            "isCustomFont": true,
+            "glyphCount": 59
+          },
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 125
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 12
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular_wght2A80000",
+            "isCustomFont": true,
+            "glyphCount": 61
+          },
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 116
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 159
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 25
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 10
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 2
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 177
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "settingsUI": true,
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 84
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 125
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 12
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 131
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 71
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 54
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 10
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 2
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 131
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "settingsUI": true,
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 84
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 76
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "sans",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 12
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 78
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "sans",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 67
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 9
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "serif",
+        "language": "ru",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 10
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 2
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewActualText",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 78
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "choice": "serif",
+        "language": "en",
+        "selector": "#reviewProbe",
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 15
+          }
+        ]
+      },
+      {
+        "file": "future-build.html",
+        "settingsUI": true,
+        "fonts": [
+          {
+            "familyName": "Geist",
+            "postScriptName": "Geist-Regular",
+            "isCustomFont": true,
+            "glyphCount": 84
+          }
+        ]
+      },
+      {
+        "file": "essentialism.html",
+        "offline": true,
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 242
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 40
+          }
+        ]
+      },
+      {
+        "file": "1873.html",
+        "offline": true,
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 152
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 36
+          }
+        ]
+      },
+      {
+        "file": "theory-of-constraints.html",
+        "offline": true,
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 159
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 25
+          }
+        ]
+      },
+      {
+        "file": "hermes-nous.html",
+        "offline": true,
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 71
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 54
+          }
+        ]
+      },
+      {
+        "file": "the-hitchhikers-guide-to-the-galaxy.html",
+        "offline": true,
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 232
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 41
+          }
+        ]
+      }
+    ]
+  },
+  "independentChecks": {
+    "npmRunCheck": "PASS: 33 books / 2353 catalogue screens, portable example build/audit, exact maintained Settings and font bytes",
+    "fontToolsCheck": "PASS: python3 scripts/check-fonts.py plus independent cmap/name/weight/axes/license and embedded-byte checks",
+    "browserFixture": "No content server; CDP Fetch.fulfillRequest supplies https://pr29-review.test routes directly from the read-only checkout. External HTTP(S) runtime requests blocked/recorded.",
+    "scope": [
+      "All 33 released readers: 320 compact icon geometry, one gear, no direct toggle, native modal geometry/selected radios, mouse switch keeps slide node/title/progress/non-theme storage, actual ArrowRight, Escape/focus return, closure state after language/Next/Back. Hermes Arrow test fails R1; other 32 pass.",
+      "Homepage: RU/dark/Sans default; stats strip and equal tabs; EN compact header; Enter/Arrow/Tab/Shift+Tab/Escape; real accessibility tree exposes a localized modal and four named radios.",
+      "Same-origin home -> v2 -> 1873 -> TOC -> Hermes -> home/reload; first-visited legacy migration, global precedence, invalid/unsupported data, storage denial, genuine cross-context storage event, pageshow handler.",
+      "Fonts on homepage, v2, 1873, TOC, Hermes and a fresh maintained builder output, in RU/EN and Sans/Serif, with actual platform-font records and static Regular heading hierarchy.",
+      "Five books with native/dynamic/bespoke/session Deep consent, both languages: safe saved resume, Settings safety, cancel, accept, exact resume, reload policy.",
+      "Sources/chapters, focus tap with visible Next and working advance, final Restart on v2 plus every legacy runtime.",
+      "320/1440 head-vs-exact-base header/story/nav geometry for four runtime types; no reduction in reading viewport. Nonzero scroll and active-focus checks: cold Serif failure R2; other three runtime samples pass.",
+      "Emulated iOS guide opens heading-first at scrollTop zero, retains safe header and one row, Settings fits safe insets; standalone hides guide. Five actual offline file:// readers work with embedded images and rendered Cyrillic Serif."
+    ],
+    "finalPhaseSummaries": [
+      {
+        "phase": "smoke-0",
+        "status": "requires-fixes",
+        "checks": 121,
+        "failures": [
+          {
+            "label": "hermes-nous.html: ArrowRight selects theme without paging",
+            "detail": {
+              "before": {
+                "title": "Они раздают модели и агента бесплатно — и стоят $1,5 млрд",
+                "counter": "2 / 50",
+                "keys": {
+                  "book-tiktok.skin-in-the-game.language": "en",
+                  "book-tiktok.skin-in-the-game.lastScreen": "who-pays",
+                  "book1873.language": "en",
+                  "tocbook.language": "en",
+                  "book1873.lastSlide": "thesis",
+                  "bookHermesNous.lastSlide": "thesis",
+                  "tocbook.lastSlide": "wrong-question"
+                },
+                "focus": null
+              },
+              "after": {
+                "title": "Парадокс: продукт бесплатный, а выручка растёт",
+                "counter": "3 / 50",
+                "keys": {
+                  "book-tiktok.skin-in-the-game.language": "en",
+                  "book-tiktok.skin-in-the-game.lastScreen": "who-pays",
+                  "book1873.language": "en",
+                  "tocbook.language": "en",
+                  "book1873.lastSlide": "thesis",
+                  "bookHermesNous.lastSlide": "paradox",
+                  "tocbook.lastSlide": "wrong-question"
+                },
+                "focus": null
+              },
+              "theme": "light",
+              "radio": "light",
+              "sameSlide": false,
+              "dialogOpen": true
+            }
+          }
+        ],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "smoke-1",
+        "status": "pass",
+        "checks": 114,
+        "failures": [],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "fonts-0",
+        "status": "pass",
+        "checks": 35,
+        "failures": [],
+        "platformFontRecords": 27,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "fonts-1",
+        "status": "pass",
+        "checks": 35,
+        "failures": [],
+        "platformFontRecords": 27,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "persistence",
+        "status": "pass",
+        "checks": 51,
+        "failures": [],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "consent",
+        "status": "pass",
+        "checks": 82,
+        "failures": [],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "mobile-offline",
+        "status": "pass",
+        "checks": 23,
+        "failures": [],
+        "platformFontRecords": 5,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "space-scroll",
+        "status": "requires-fixes",
+        "checks": 19,
+        "failures": [
+          {
+            "label": "essentialism.html: nonzero real reading scroll preserved",
+            "detail": {
+              "before": {
+                "top": 40,
+                "max": 87
+              },
+              "after": {
+                "top": 11,
+                "max": 87,
+                "nodeRetained": true,
+                "gearFocused": true
+              }
+            }
+          }
+        ],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": false
+      },
+      {
+        "phase": "hermes-confirm",
+        "status": "pass",
+        "checks": 7,
+        "failures": [],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": true
+      },
+      {
+        "phase": "scroll-diagnostic",
+        "status": "pass",
+        "checks": 3,
+        "failures": [],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": true
+      },
+      {
+        "phase": "scroll-preload-diagnostic",
+        "status": "pass",
+        "checks": 3,
+        "failures": [],
+        "platformFontRecords": 0,
+        "runtimeErrors": [],
+        "remoteRequests": [],
+        "cleanup": {
+          "ownedProfileRemoved": true,
+          "chromeBoundSeconds": 30
+        },
+        "diagnosticOnly": true
+      }
+    ]
+  },
+  "limits": [
+    "Physical iPhone/Safari and actual PWA/service-worker installation were not tested. iOS checks use Chrome user-agent and safe-area emulation (top 59/bottom 34). Fixture QA stubs serviceWorker.register; sw.js is byte-identical to exact base.",
+    "Hosted preference sharing was tested on one real fixture origin. file:// readers were independently exercised for five representative runtimes/books; cross-file localStorage sharing under file:// remains browser-dependent, not a hosted guarantee.",
+    "A real browser storage event was generated through another same-origin iframe context. pageshow was a synthetic persisted PageTransitionEvent; an actual BFCache restoration was not exercised.",
+    "Saved-Deep checks independently covered Amphibian Man, Earthsea, Accelerando, Hitchhiker and Hobbit in RU/EN. This is not a new certification of every book policy. I, Robot, Two Captains and Wee Free Men already lack an explicit saved-Deep guard at base; that unchanged limitation is not a new Settings blocker.",
+    "This is a CODE/UI review, not a new source, collector or editorial-fidelity audit. No publisher work was edited, awaited or polled.",
+    "Runtime-only stopPropagation/font-predecode diagnostics demonstrate small corrections but do not modify or approve the exact reviewed head. Remote green checks reported by the user do not establish independent acceptance."
+  ],
+  "integrationNote": "After R1/R2 are fixed and independently rechecked, the publisher should integrate the accepted maintained Settings/header/template/builder/synchronizer changes onto its CURRENT release, then run sync:readers on those freshly published standalone readers and the current catalogue. Do not replace them with the 33 older HTML snapshots from this PR, rebuild bespoke runtimes from a clean template, or restore this PR's older books.json. Compare effective embedded corpora against that publisher release before/after shell synchronization, retain custom consent/saved-ID logic, and rerun the two focused regressions plus relevant checks. The exact-base virtual synchronization proof here shows shell-only applicability for these recognized runtime versions; future unknown runtime shapes still require explicit adapters. Installed-skill synchronization and merge/release belong to the publisher after acceptance; neither was performed by this reviewer.",
+  "actions": {
+    "sourceEdits": false,
+    "handoffEdits": false,
+    "checkoutWrites": false,
+    "subagents": false,
+    "githubReviewOrComment": false,
+    "mergeOrPublish": false,
+    "installedSkillSync": false,
+    "contentServer": false,
+    "ownedChromeProcessesRemaining": 0,
+    "ownedChromeProfilesRemaining": 0
+  },
+  "evidenceDirectory": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-pr29-review-l2h9w_cn",
+  "canonicalReports": {
+    "markdown": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/reader-settings-pr29.md",
+    "json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/reader-settings-pr29.json"
+  }
+}

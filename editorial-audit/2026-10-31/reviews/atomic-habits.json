@@ -1,0 +1,873 @@
+{
+  "schemaVersion": 1,
+  "slug": "atomic-habits",
+  "reviewType": "fresh independent author-meaning and bilingual/route review",
+  "reviewDate": "2026-10-31",
+  "status": "complete",
+  "verdict": "PASS",
+  "editorialDisposition": "KEEP",
+  "blockingFindings": [],
+  "optionalPolish": [
+    {
+      "id": "AH-P01",
+      "severity": "optional-low",
+      "screenId": "small-changes",
+      "kind": "terminology precision",
+      "exactWording": {
+        "ru": "иллюстрирует сложение эффекта во времени",
+        "en": "illustrates compounding over time"
+      },
+      "reason": "RU can sound additive; the surrounding accumulation argument is still intact. EN explicitly preserves compounding.",
+      "smallestFaithfulCorrection": {
+        "ru": "иллюстрирует накопление эффекта по принципу сложного процента",
+        "en": "No change needed."
+      },
+      "sourceUrl": "https://penguinrandomhousehighereducation.com/book/?isbn=9780735211292",
+      "primaryLocator": "Open Excerpt: small improvements, compound interest, gym/Mandarin paragraphs and delayed results",
+      "blocksAcceptance": false
+    },
+    {
+      "id": "AH-P02",
+      "severity": "optional-low",
+      "screenId": "habit-stacking",
+      "kind": "cue precision",
+      "exactWording": {
+        "ru": "после утренней чашки кофе следует минута медитации",
+        "en": "pouring morning coffee is followed by a minute of meditation"
+      },
+      "reason": "The RU cue could be made as exact as EN. This does not change the retained stacking mechanism or the stated specificity/frequency conditions.",
+      "smallestFaithfulCorrection": {
+        "ru": "после того как нальёшь утренний кофе, следует минута медитации",
+        "en": "No change needed."
+      },
+      "sourceUrl": "https://jamesclear.com/habit-stacking",
+      "primaryLocator": "Habit Stacking Examples; matching frequency; Finding the Right Trigger; BJ Fogg footnote",
+      "blocksAcceptance": false
+    }
+  ],
+  "sourceGap": false,
+  "sourceScope": {
+    "targetEdition": "James Clear, Atomic Habits, Avery 2018, ISBN 9780735211292",
+    "actualEvidence": "Official summary plus fifteen actual-author excerpt pages and two PRH excerpts; retained passages checked independently. PRH Education required direct HTTP extraction after web timeout.",
+    "completeEditionRead": false,
+    "authorizedRussianTranslationCollated": false,
+    "modernScientificValidationClaimed": false,
+    "sufficientFor": "The disclosed concise central-method arc, retained cases and procedures",
+    "notCertified": [
+      "all 2018 chapters",
+      "continuous whole-volume reading",
+      "authorized RU/EN translation",
+      "independent efficacy/replication of every study"
+    ]
+  },
+  "sourcePassagesRead": [
+    {
+      "sourceId": 1,
+      "url": "https://jamesclear.com/atomic-habits-summary",
+      "locator": "Three key lessons; four stages and four laws/inversions"
+    },
+    {
+      "sourceId": 2,
+      "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780735211292",
+      "locator": "Open Excerpt: small improvements, compound interest, gym/Mandarin paragraphs and delayed results"
+    },
+    {
+      "sourceId": 3,
+      "url": "https://jamesclear.com/marginal-gains",
+      "locator": "Brailsford account: equipment, handwashing, pillows/mattresses; aggregation of gains"
+    },
+    {
+      "sourceId": 4,
+      "url": "https://jamesclear.com/goals-systems",
+      "locator": "Problems 1–2; goals give direction, systems produce progress"
+    },
+    {
+      "sourceId": 5,
+      "url": "https://jamesclear.com/identity-based-habits",
+      "locator": "How to Be Good at Remembering People’s Names; three layers; two-step identity procedure"
+    },
+    {
+      "sourceId": 6,
+      "url": "https://jamesclear.com/three-steps-habit-change",
+      "locator": "The Science of How Habits Work: four stages, television, interpretation and reward learning"
+    },
+    {
+      "sourceId": 7,
+      "url": "https://jamesclear.com/habits-scorecard",
+      "locator": "The Habits Scorecard; contextual assessment; Where to Go From Here"
+    },
+    {
+      "sourceId": 8,
+      "url": "https://jamesclear.com/implementation-intentions",
+      "locator": "Three exercise groups; Implementation Intentions; behavior/time/location formula"
+    },
+    {
+      "sourceId": 9,
+      "url": "https://jamesclear.com/habit-stacking",
+      "locator": "Habit Stacking Examples; matching frequency; Finding the Right Trigger; BJ Fogg footnote"
+    },
+    {
+      "sourceId": 10,
+      "url": "https://jamesclear.com/choice-architecture",
+      "locator": "The Impact of Choice Architecture: Anne Thorndike, refrigerators/bottles and sales directions; conspicuous cues"
+    },
+    {
+      "sourceId": 11,
+      "url": "https://jamesclear.com/temptation-bundling",
+      "locator": "Opening Ronan Byrne account: bike/Netflix, speed and pause; want/need pairing"
+    },
+    {
+      "sourceId": 12,
+      "url": "https://jamesclear.com/taking-action",
+      "locator": "Motion vs. Action: twenty article ideas/writing; planning and avoiding failure"
+    },
+    {
+      "sourceId": 13,
+      "url": "https://jamesclear.com/how-to-stop-procrastinating",
+      "locator": "Two-Minute Rule examples; gateway habit; actual stop; five-minute gym reader"
+    },
+    {
+      "sourceId": 14,
+      "url": "https://jamesclear.com/how-to-automate-a-habit",
+      "locator": "The Downside of Automation; Monday password reset/Friday return"
+    },
+    {
+      "sourceId": 15,
+      "url": "https://www.penguinrandomhouse.com/articles/atomic-habits-excerpt/",
+      "locator": "How to Keep Your Habits on Track: three benefits; tracking burden, automation, limit scope and record immediately"
+    },
+    {
+      "sourceId": 16,
+      "url": "https://jamesclear.com/habit-tracker",
+      "locator": "How to Recover Quickly; How Long Do I Need to Track My Habits?"
+    },
+    {
+      "sourceId": 17,
+      "url": "https://jamesclear.com/goldilocks-rule",
+      "locator": "Steve Martin opening; The Goldilocks Rule; Measure Your Progress"
+    },
+    {
+      "sourceId": 18,
+      "url": "https://jamesclear.com/stay-focused",
+      "locator": "The Myth of Passion and Motivation; It’s Not the Event, It’s the Process"
+    }
+  ],
+  "screenAudit": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "book framing; no new factual case",
+      "sourceIds": [],
+      "primaryLocators": [],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "small-changes",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        2
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780735211292",
+          "passage": "Open Excerpt: small improvements, compound interest, gym/Mandarin paragraphs and delayed results"
+        }
+      ],
+      "parity": "meaning preserved; optional lexical precision separately recorded"
+    },
+    {
+      "screenId": "british-cycling",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        3
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/marginal-gains",
+          "passage": "Brailsford account: equipment, handwashing, pillows/mattresses; aggregation of gains"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "goals-and-systems",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        4
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/goals-systems",
+          "passage": "Problems 1–2; goals give direction, systems produce progress"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "identity",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        5,
+        1
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/identity-based-habits",
+          "passage": "How to Be Good at Remembering People’s Names; three layers; two-step identity procedure"
+        },
+        {
+          "url": "https://jamesclear.com/atomic-habits-summary",
+          "passage": "Three key lessons; four stages and four laws/inversions"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "remembering-names",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        5
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/identity-based-habits",
+          "passage": "How to Be Good at Remembering People’s Names; three layers; two-step identity procedure"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "habit-loop",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        6
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/three-steps-habit-change",
+          "passage": "The Science of How Habits Work: four stages, television, interpretation and reward learning"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "four-laws",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        1
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/atomic-habits-summary",
+          "passage": "Three key lessons; four stages and four laws/inversions"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "scorecard",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        7
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/habits-scorecard",
+          "passage": "The Habits Scorecard; contextual assessment; Where to Go From Here"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "time-and-place",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        8
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/implementation-intentions",
+          "passage": "Three exercise groups; Implementation Intentions; behavior/time/location formula"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "habit-stacking",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        9
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/habit-stacking",
+          "passage": "Habit Stacking Examples; matching frequency; Finding the Right Trigger; BJ Fogg footnote"
+        }
+      ],
+      "parity": "meaning preserved; optional lexical precision separately recorded"
+    },
+    {
+      "screenId": "water-in-the-cafeteria",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        10
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/choice-architecture",
+          "passage": "The Impact of Choice Architecture: Anne Thorndike, refrigerators/bottles and sales directions; conspicuous cues"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "make-it-attractive",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        11
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/temptation-bundling",
+          "passage": "Opening Ronan Byrne account: bike/Netflix, speed and pause; want/need pairing"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "motion-and-action",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        12
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/taking-action",
+          "passage": "Motion vs. Action: twenty article ideas/writing; planning and avoiding failure"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "two-minutes",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        13
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/how-to-stop-procrastinating",
+          "passage": "Two-Minute Rule examples; gateway habit; actual stop; five-minute gym reader"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "permission-to-stop",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        13
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/how-to-stop-procrastinating",
+          "passage": "Two-Minute Rule examples; gateway habit; actual stop; five-minute gym reader"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "advance-decisions",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        14
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/how-to-automate-a-habit",
+          "passage": "The Downside of Automation; Monday password reset/Friday return"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "immediate-satisfaction",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        15,
+        6
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://www.penguinrandomhouse.com/articles/atomic-habits-excerpt/",
+          "passage": "How to Keep Your Habits on Track: three benefits; tracking burden, automation, limit scope and record immediately"
+        },
+        {
+          "url": "https://jamesclear.com/three-steps-habit-change",
+          "passage": "The Science of How Habits Work: four stages, television, interpretation and reward learning"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "tracking-without-burden",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        15
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://www.penguinrandomhouse.com/articles/atomic-habits-excerpt/",
+          "passage": "How to Keep Your Habits on Track: three benefits; tracking burden, automation, limit scope and record immediately"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "after-a-miss",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        16
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/habit-tracker",
+          "passage": "How to Recover Quickly; How Long Do I Need to Track My Habits?"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "no-finish-date",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        16
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/habit-tracker",
+          "passage": "How to Recover Quickly; How Long Do I Need to Track My Habits?"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "goldilocks",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        17
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/goldilocks-rule",
+          "passage": "Steve Martin opening; The Goldilocks Rule; Measure Your Progress"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "the-boredom-of-practice",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        18
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/stay-focused",
+          "passage": "The Myth of Passion and Motivation; It’s Not the Event, It’s the Process"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "sourceIds": [
+        1,
+        4,
+        16,
+        18
+      ],
+      "primaryLocators": [
+        {
+          "url": "https://jamesclear.com/atomic-habits-summary",
+          "passage": "Three key lessons; four stages and four laws/inversions"
+        },
+        {
+          "url": "https://jamesclear.com/goals-systems",
+          "passage": "Problems 1–2; goals give direction, systems produce progress"
+        },
+        {
+          "url": "https://jamesclear.com/habit-tracker",
+          "passage": "How to Recover Quickly; How Long Do I Need to Track My Habits?"
+        },
+        {
+          "url": "https://jamesclear.com/stay-focused",
+          "passage": "The Myth of Passion and Motivation; It’s Not the Event, It’s the Process"
+        }
+      ],
+      "parity": "meaning, roles, quantities and qualifications preserved"
+    }
+  ],
+  "routeAssessment": {
+    "essential": "Coherent four-law central method with cases and recovery; no missing antecedent.",
+    "core": "Procedures and cases deepen the same arc; easy initiation connects coherently with later manageable challenge.",
+    "deep": "Identity, actual stopping, varying formation time and boredom qualify rather than replace the method.",
+    "bilingual": "All 24 pairs retain roles, causes and qualifications; two nonblocking precision suggestions recorded."
+  },
+  "omissionAssessment": "Declared secondary omissions do not sever the promised concise method. No exhaustive every-chapter coverage inferred.",
+  "deterministicAudit": {
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "limits": [
+    "No physical-device or production integration test.",
+    "Author/publisher excerpt fidelity only; no whole-edition or translation certificate."
+  ],
+  "changesMade": [
+    "Only this independent review JSON and Markdown."
+  ],
+  "readingAndIntegrity": {
+    "scope": "NEW collector package; root delivery not present at intake and not reviewed/published here",
+    "pairsRead": 24,
+    "localizedScreensRead": 48,
+    "allPairIds": [
+      "cover",
+      "small-changes",
+      "british-cycling",
+      "goals-and-systems",
+      "identity",
+      "remembering-names",
+      "habit-loop",
+      "four-laws",
+      "scorecard",
+      "time-and-place",
+      "habit-stacking",
+      "water-in-the-cafeteria",
+      "make-it-attractive",
+      "motion-and-action",
+      "two-minutes",
+      "permission-to-stop",
+      "advance-decisions",
+      "immediate-satisfaction",
+      "tracking-without-burden",
+      "after-a-miss",
+      "no-finish-date",
+      "goldilocks",
+      "the-boredom-of-practice",
+      "final"
+    ],
+    "allTitlesSubtitlesBodiesAndMethodSourceNotesRead": true,
+    "routes": {
+      "essential": {
+        "count": 13,
+        "ids": [
+          "cover",
+          "small-changes",
+          "goals-and-systems",
+          "identity",
+          "habit-loop",
+          "four-laws",
+          "time-and-place",
+          "water-in-the-cafeteria",
+          "make-it-attractive",
+          "two-minutes",
+          "immediate-satisfaction",
+          "after-a-miss",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      },
+      "core": {
+        "count": 20,
+        "ids": [
+          "cover",
+          "small-changes",
+          "british-cycling",
+          "goals-and-systems",
+          "identity",
+          "habit-loop",
+          "four-laws",
+          "scorecard",
+          "time-and-place",
+          "habit-stacking",
+          "water-in-the-cafeteria",
+          "make-it-attractive",
+          "motion-and-action",
+          "two-minutes",
+          "advance-decisions",
+          "immediate-satisfaction",
+          "tracking-without-burden",
+          "after-a-miss",
+          "goldilocks",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      },
+      "deep": {
+        "count": 24,
+        "ids": [
+          "cover",
+          "small-changes",
+          "british-cycling",
+          "goals-and-systems",
+          "identity",
+          "remembering-names",
+          "habit-loop",
+          "four-laws",
+          "scorecard",
+          "time-and-place",
+          "habit-stacking",
+          "water-in-the-cafeteria",
+          "make-it-attractive",
+          "motion-and-action",
+          "two-minutes",
+          "permission-to-stop",
+          "advance-decisions",
+          "immediate-satisfaction",
+          "tracking-without-burden",
+          "after-a-miss",
+          "no-finish-date",
+          "goldilocks",
+          "the-boredom-of-practice",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      }
+    },
+    "hashes": {
+      "collector-output/atomic-habits/story-data.json": {
+        "before": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549",
+        "after": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549",
+        "unchanged": true
+      },
+      "collector-output/atomic-habits/atomic-habits.html": {
+        "before": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0",
+        "after": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0",
+        "unchanged": true
+      },
+      "collector-output/atomic-habits/sources.md": {
+        "before": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e",
+        "after": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e",
+        "unchanged": true
+      },
+      "collector-output/atomic-habits/QA.md": {
+        "before": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad",
+        "after": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad",
+        "unchanged": true
+      },
+      "collector-output/atomic-habits/evidence-map.sol.json": {
+        "before": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929",
+        "after": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929",
+        "unchanged": true
+      },
+      "editorial-audit/2026-10-31/ready/atomic-habits.json": {
+        "before": "e6dae579dda1204ecb765250445dcde2212d9b6f8697a5d710851f0fe274f77d",
+        "after": "e6dae579dda1204ecb765250445dcde2212d9b6f8697a5d710851f0fe274f77d",
+        "unchanged": true
+      },
+      "editorial-audit/2026-10-31/books/atomic-habits.sol-implementation.md": {
+        "before": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493",
+        "after": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493",
+        "unchanged": true
+      }
+    },
+    "snapshotBeforeAt": "2026-10-31T20:24:01.440377+00:00",
+    "snapshotAfterAt": "2026-10-31T20:27:35.935915+00:00",
+    "packageImmutability": {
+      "filesHashedBefore": 24,
+      "changedPaths": [],
+      "allUnchanged": true
+    },
+    "readyManifestVerification": [
+      {
+        "path": "collector-output/atomic-habits/story-data.json",
+        "expected": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549",
+        "actual": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549",
+        "matches": true
+      },
+      {
+        "path": "collector-output/atomic-habits/atomic-habits.html",
+        "expected": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0",
+        "actual": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0",
+        "matches": true
+      },
+      {
+        "path": "collector-output/atomic-habits/sources.md",
+        "expected": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e",
+        "actual": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e",
+        "matches": true
+      },
+      {
+        "path": "collector-output/atomic-habits/QA.md",
+        "expected": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad",
+        "actual": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad",
+        "matches": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/books/atomic-habits.sol-implementation.md",
+        "expected": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493",
+        "actual": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493",
+        "matches": true
+      },
+      {
+        "path": "collector-output/atomic-habits/evidence-map.sol.json",
+        "expected": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929",
+        "actual": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929",
+        "matches": true
+      }
+    ],
+    "freshChecks": {
+      "canonicalScreensEqualEffectiveEmbeddedScreens": true,
+      "canonicalSourcesEqualEffectiveEmbeddedSources": true,
+      "canonicalMethodEqualEffectiveEmbeddedMethod": true,
+      "allCanonicalFieldsExceptGeneratedModesAndMediaEqual": true,
+      "singleEmbeddedDataBlock": true,
+      "noSubsequentCorpusAssignment": true,
+      "uniqueScreenIds": true,
+      "targetModesMatchComputedCounts": true,
+      "defaultLanguage": "ru",
+      "defaultTheme": "dark",
+      "defaultMode": "essential",
+      "contentMode": "explanatory",
+      "browserMatrixRepeated": false,
+      "chromeStarted": false
+    }
+  },
+  "reviewFiles": {
+    "json": "editorial-audit/2026-10-31/reviews/atomic-habits.json",
+    "markdown": "editorial-audit/2026-10-31/reviews/atomic-habits.md"
+  }
+}

@@ -1,0 +1,648 @@
+{
+  "schemaVersion": 2,
+  "slug": "hermes-nous",
+  "title": {
+    "ru": "Hermes & Nous · исследовательский brief",
+    "en": "Hermes & Nous · research brief"
+  },
+  "description": {
+    "ru": "Исследовательский brief: открытый агент, платная инфраструктура и гипотезы Observatory.",
+    "en": "Research brief: an open agent, paid infrastructure and Observatory’s hypotheses."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 12,
+    "core": 17,
+    "deep": 22
+  },
+  "methodNote": {
+    "ru": "Это оригинальный исследовательский brief, не сокращение авторской книги. Полностью прочитан переданный HTML «Hermes & Nous» (Мефистофель / Observatory, 31.10.2026, 50 RU/EN пар), две копии сверены с прежним reader. Публичное ядро перепроверено по первичным страницам на 31.10.2026. Два внутренних исходных документа не восстановлены: один Google Doc недоступен коннектору, второй не идентифицирован. Поэтому утверждения об установленном Observatory, независимости разработки и доказанном преимуществе исключены; варианты A–D оставлены только как предложения из прочитанного brief. Тарифы и возможности — датированные публичные описания, не результаты внедрения; Hermes/плагины не устанавливались, код не исполнялся. Нет заявления о чтении недоступных документов, подтверждённом спросе или готовом решении.",
+    "en": "This is an original research brief, not a condensed authored book. The supplied Hermes & Nous HTML (Mefistofel / Observatory, 31 Oct 2026, 50 RU/EN pairs) was read in full and both copies compared with the previous reader. The public core was rechecked against primary pages on 31 Oct 2026. Two underlying internal documents were not recovered: one Google Doc was inaccessible to the connector; the second is unidentified. Existing Observatory implementation, independent invention and proven superiority are therefore excluded. Options A–D remain only as proposals in the brief that was actually read. Plans and capabilities are dated advertised/documented descriptions, not deployment results; Hermes/plugins were not installed or executed. No claim to reading the inaccessible documents, validated demand or a settled solution."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Предоставленный brief «Hermes & Nous» · Мефистофель / Observatory, 31.10.2026",
+      "url": "https://docs.google.com/document/d/1FrqXuWqLd0HgYsOxDdOvS7Kzaaswo3Jy0ZS7nQ42hUE",
+      "role": "author",
+      "note": {
+        "ru": "Полностью прочитан переданный пользователем HTML: 50 RU/EN пар, обе копии в Downloads идентичны; текст совпадает с прежним reader. Отсюда взяты только исходный вопрос и предложения A–D как предложения автора. Ссылка ведёт к одному из названных внутренних источников: доступный Drive-коннектор отказал, сам Google Doc и второй внутренний документ НЕ прочитаны. Заявления о действующем Observatory, независимости разработки и превосходстве не подтверждены и здесь не утверждаются.",
+        "en": "The user-supplied HTML was read completely: 50 RU/EN pairs; both Downloads copies are identical and match the previous reader. Only the original question and options A–D are retained as the author’s proposals. This URL points to one underlying internal source: the available Drive connector denied access. That Google Doc and the second internal document were NOT read. Existing Observatory capabilities, independent invention and superiority are not established or asserted here."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Nous Research · A Note on Our Fundraise, October 2026",
+      "url": "https://nousresearch.com/a-note-on-our-fundraise",
+      "role": "primary",
+      "note": {
+        "ru": "Полностью прочитан содержательный текст. Основание компании в 2023 году, дообучение Llama, MIT-релиз агента в феврале и планы Business — заявления компании. Записку подписывает Dillon Rolnick, CEO; прежняя должность Quesnelle исправлена. Числа загрузок и доли токенов независимо не проверялись и не перенесены.",
+        "en": "The substantive note was read fully. The 2023 formation, Llama post-training, February MIT agent release and Business plans are company statements. Signed by Dillon Rolnick, CEO, correcting the prior Quesnelle role. Download/token-share claims were not independently checked or retained."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "title": "Nous Research · Releases",
+      "url": "https://nousresearch.com/releases",
+      "role": "primary",
+      "note": {
+        "ru": "Проверены датированные записи Hermes Agent 25.02.2026, Hermes 4.3 03.12.2025, Atropos и Psyche. Для 4.3 прямо указано post-training, не предобучение модели с нуля. Счётчик релизов не используется как мера качества.",
+        "en": "Checked dated entries for Hermes Agent (25 Feb 2026), Hermes 4.3 (3 Dec 2025), Atropos and Psyche. The 4.3 entry says post-training, not base-model pretraining. Release count is not used as a quality measure."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 4,
+      "title": "NousResearch/hermes-agent · public repository / MIT licence",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "role": "primary",
+      "note": {
+        "ru": "Проверены README/лицензия и видимые счётчики на 31.10.2026: примерно 259 тысяч звёзд. Это интерес к репозиторию, не число клиентов и не проверка качества поддержки. Код не запускался.",
+        "en": "Checked README/licence and visible counters on 31 Oct 2026: roughly 259,000 stars. Repository interest, not customer count or a support-quality study. Code was not executed."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 5,
+      "title": "Hermes Agent · official documentation overview",
+      "url": "https://hermes-agent.nousresearch.com/docs",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитано содержательное введение: программный агент, выбор места запуска и моделей, инструменты, расписания. Возможности документированы, но не протестированы в рабочем развёртывании.",
+        "en": "Read the substantive overview: agent software, choice of runtime/models, tools and scheduling. Documented capabilities, not a tested production deployment."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 6,
+      "title": "Hermes Agent · Messaging Gateway",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/messaging",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны архитектура шлюза, таблица платформ и профильный статус. Сообщения маршрутизируются через отдельные сессии чатов; единая неделимая память всех каналов не утверждается.",
+        "en": "Read gateway architecture, platform table and profile-scoped status. Messages route through per-chat sessions; no claim of one undifferentiated memory across every channel."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 7,
+      "title": "Hermes Agent · Persistent Memory",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/memory",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны How It Works, profile scope, frozen snapshot и отдельный поиск прошлых сессий. MEMORY.md и USER.md ограничены по размеру; это не вся история в одном prompt.",
+        "en": "Read How It Works, profile scope, frozen snapshot and separate session recall. MEMORY.md and USER.md are bounded; not the entire history in one prompt."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 8,
+      "title": "Hermes Agent · Skills System",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/skills",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны определение skills, progressive disclosure, /learn, skill_manage и обновления/каталоги. Сохранение/повторное использование процедуры не выдано за измеренное улучшение результата.",
+        "en": "Read skill definition, progressive disclosure, /learn, skill_manage and update/catalogue sections. Saving and reusing a procedure is not treated as measured outcome improvement."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 9,
+      "title": "Hermes Agent · Bot Mode",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/bot-mode",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны вводная часть и соответствие Bot = profile, собственная конфигурация/память/skills, routines/group chats. Это публичная архитектура Hermes, не доказательство устройства или независимой разработки Observatory.",
+        "en": "Read the introduction and Bot = profile mapping, isolated configuration/memory/skills, routines and group chats. Hermes’s public architecture, not evidence about Observatory’s implementation or independent invention."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 10,
+      "title": "Hermes Agent · Security",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/security",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны Overview, Approval Modes, unattended controls, YOLO и Terminal Backend Comparison. Режимы smart/manual/off различаются; автоматическое согласование и отключение запросов возможны. Нет безусловного обещания, что опасное действие всегда ждёт человека.",
+        "en": "Read Overview, Approval Modes, unattended controls, YOLO and Terminal Backend Comparison. Smart/manual/off differ; unattended auto-approval and disabled prompts are possible. No unconditional promise that a dangerous action always waits for a human."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 11,
+      "title": "Nous Portal · Manage Subscription",
+      "url": "https://portal.nousresearch.com/manage-subscription",
+      "role": "primary",
+      "note": {
+        "ru": "Полностью прочитана видимая таблица тарифов: $0/$20/$100/$200 в месяц; включённое использование с лимитами и один Cloud agent, API через отдельные pay-as-you-go credits. Это текущий снимок, не обещание вечной цены.",
+        "en": "Read the complete visible plan table: $0/$20/$100/$200 monthly; bounded included usage and a Cloud agent, API billed to pay-as-you-go credits separately. A dated snapshot, not a permanent-price promise."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 12,
+      "title": "Hermes Business · product page and FAQ",
+      "url": "https://portal.nousresearch.com/business",
+      "role": "primary",
+      "note": {
+        "ru": "Обычный публичный HTTPS-запрос вернул страницу и полное FAQ; web-парсер эту страницу не открыл. Прочитаны central balance, per-member caps, spend visibility, roles, team skills, Business/Enterprise и размещение данных. Рекламируемое предложение не равно проверенному SLA или успешному кейсу внедрения.",
+        "en": "A normal public HTTPS request returned the page and complete FAQ when the web parser could not. Read central balance, per-member caps, spend visibility, roles, team skills, Business/Enterprise and tenancy. Advertised offering, not a tested SLA or deployment success."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 13,
+      "title": "Hermes Agent · Web Dashboard",
+      "url": "https://hermes-agent.nousresearch.com/docs/user-guide/features/web-dashboard",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны введение, multiple profiles, Sessions, Logs, Analytics и API sessions/messages/logs/usage. Есть панель управления установкой, история tool calls и экспорт. Масштаб распределённого флота и полнота независимого аудита каждого чтения не проверены.",
+        "en": "Read introduction, multiple profiles, Sessions, Logs, Analytics and sessions/messages/logs/usage API sections. An installation dashboard, tool-call history and export exist. Distributed-fleet scale and complete independent data-read audit were not tested."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 14,
+      "title": "Hermes plugin catalog · hermes_otel by briancaffey",
+      "url": "https://hermes-agent.nousresearch.com/docs/plugins/hermes_otel",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны карточка и описание: community plugin с OTLP traces/metrics/logs для сессий, инструментов, model calls и approvals; добавлен 04.10.2026. Это дополнение сообщества, не автоматически включённая корпоративная гарантия; не установлено.",
+        "en": "Read the catalogue card/description: community plugin exporting session/tool/model/approval OTLP traces, metrics and logs, added 4 Oct 2026. An optional community extension, not an automatic enterprise guarantee; not installed."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 15,
+      "title": "Sidley · Nous Research Series B announcement, 12 October 2026",
+      "url": "https://www.sidley.com/zh-hans/newslanding/newsannouncements/2026/10/sidley-represents-nous-research-in-us-90-million-series-b-financing",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитано сообщение юристов сделки: $90M, оценка $1,5 млрд, лидер Robot Ventures и названные инвесторы. 12 октября — дата публикации сообщения, не самостоятельно доказанная дата закрытия сделки.",
+        "en": "Read the deal-counsel announcement: $90M, $1.5B valuation, Robot Ventures lead and named investors. 12 October is the announcement date, not an independently established closing date."
+      },
+      "accessDate": "2026-10-31"
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        2,
+        15
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Hermes & Nous",
+          "body": "<p>Открытая лаборатория выпускает модели и бесплатный код агента, а затем привлекает $90 млн при оценке $1,5 млрд. Что именно она отдаёт бесплатно — и за что собирается получать деньги?</p><p>Исследовательский brief: от устройства Hermes до предложенных в Observatory вариантов работы с ним.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Hermes & Nous",
+          "body": "<p>An open lab releases models and free agent code, then raises $90 million at a $1.5 billion valuation. What exactly is free, and what does it charge for?</p><p>A research brief, from Hermes’s design to the options proposed in Observatory for working with it.</p>"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "four-different-things",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        3,
+        5,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Под одним именем — разные вещи",
+          "body": "<p>Nous Research — организация. Hermes — семейство моделей, а Hermes Agent — программа, которая вызывает модели и инструменты, выполняет задачи и сохраняет состояние. Portal — сервис доступа и размещения.</p><p>Код агента, веса модели и оплаченные вычисления — разные части предложения. Бесплатность одной не отменяет стоимость остальных.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "One name, different things",
+          "body": "<p>Nous Research is the organization. Hermes is a model family; Hermes Agent is software that calls models and tools, carries out tasks and preserves state. Portal provides access and hosting services.</p><p>Agent code, model weights and paid computation are different parts of the offering. Making one free does not remove the cost of the others.</p>"
+        }
+      }
+    },
+    {
+      "id": "company-origin",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Сначала — дообучение открытых моделей",
+          "body": "<p>В своём октябрьском обращении Nous датирует основание 2023 годом. Компания объясняет ранний выбор дообучением Llama: небольшой группе было проще заметно изменить поведение готовой модели, чем соперничать с крупнейшими лабораториями во всём сразу.</p><p>Её заявленная цель — дать пользователю больше контроля над моделью и способом её применения.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Open-model post-training came first",
+          "body": "<p>In its October note, Nous dates its formation to 2023. It explains its early choice of Llama post-training: a small group could make an impact on an existing model’s behaviour rather than compete with the largest labs across everything at once.</p><p>Its stated aim is greater user control over the model and its use.</p>"
+        }
+      }
+    },
+    {
+      "id": "research-and-models",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Сеть обучения — другой слой",
+          "body": "<p>Лента релизов отделяет модели от исследовательской инфраструктуры: Atropos — среды для обучения с подкреплением, Psyche — сеть обучения.</p><p>У Hermes 4.3 на базе Seed-36B сказано именно о дообучении целиком в Psyche. Это не означает, что базовую модель с нуля предобучили той же работой. И эта сеть не нужна для каждого запуска Hermes Agent.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "The training network is another layer",
+          "body": "<p>The release feed distinguishes models from research infrastructure: Atropos supplies reinforcement-learning environments, while Psyche is a training network.</p><p>The Seed-36B-based Hermes 4.3 entry specifically describes post-training entirely on Psyche. It does not mean that this work pretrained the base model from scratch. Nor does every Hermes Agent run require that network.</p>"
+        }
+      }
+    },
+    {
+      "id": "agent-release",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        2,
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "В феврале появляется агент",
+          "body": "<p>25 февраля 2026 года в ленте появляется Hermes Agent. Nous объясняет, что сначала строила этот стек для собственных задач. Код опубликован под MIT.</p><p>Агент можно размещать у себя и выбирать, какими моделями он пользуется. Лицензию кода при этом нельзя автоматически приписывать всем подключаемым моделям и сервисам.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "The agent arrives in February",
+          "body": "<p>Hermes Agent appears in the feed on 25 February 2026. Nous says it first built this stack for its own work. The code is MIT-licensed.</p><p>Users can host the agent and choose its models. The code’s licence does not automatically describe the licences of every connected model or service.</p>"
+        }
+      }
+    },
+    {
+      "id": "gateway",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Написать в привычный мессенджер",
+          "body": "<p>Шлюз принимает сообщения из Telegram, Discord, Slack и других платформ. Адаптеры направляют их в сессии соответствующих чатов, затем — агенту. Тот же шлюз запускает задачи по расписанию.</p><p>Так агент не обязан жить только в окне ноутбука. Но общая программа не означает единую неделимую историю всех людей и каналов.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Write through a familiar messenger",
+          "body": "<p>The gateway accepts messages from Telegram, Discord, Slack and other platforms. Adapters route them through per-chat sessions and then to the agent. The gateway also runs scheduled jobs.</p><p>The agent therefore need not live only in a laptop window. A shared program does not imply one undivided history for every person and channel.</p>"
+        }
+      }
+    },
+    {
+      "id": "bounded-memory",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Помнить — не значит перечитывать всё",
+          "body": "<p>Постоянная память состоит из ограниченных заметок об окружении и проектах и отдельного профиля пользователя. В начале сессии они попадают в контекст как снимок. Изменения на диске станут частью следующего такого снимка.</p><p>Поиск прошлых разговоров — отдельный механизм. Память привязана к профилю; второго агента не следует представлять вторым писателем в тот же общий файл.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Remembering does not mean rereading everything",
+          "body": "<p>Persistent memory contains bounded notes about the environment and projects plus a user profile. They enter the context as a snapshot at session start. Changes on disk enter the next snapshot.</p><p>Searching earlier conversations is a separate mechanism. Memory belongs to a profile; a second agent should not be imagined as another writer to the same shared file.</p>"
+        }
+      }
+    },
+    {
+      "id": "skills",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Процедуру можно сохранить",
+          "body": "<p>Skills хранят инструкции, которые агент подгружает по необходимости. Hermes умеет создавать и изменять их, в том числе превращать разобранную задачу или материалы в повторно используемую процедуру.</p><p>Это конкретный механизм накопления опыта. Само наличие сохранённой инструкции ещё не показывает, стала ли следующая попытка правильнее: такую разницу нужно измерять.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "A procedure can be saved",
+          "body": "<p>Skills hold instructions loaded when needed. Hermes can create and edit them, including turning a completed workflow or reference material into a reusable procedure.</p><p>This is a concrete mechanism for preserving experience. A saved instruction does not by itself show that the next attempt became more correct; that difference needs measurement.</p>"
+        }
+      }
+    },
+    {
+      "id": "bot-mode",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Несколько специалистов, отдельные профили",
+          "body": "<p>В Bot Mode именованный бот соответствует профилю: у него собственные модель, память, навыки, настройки и история. Боты могут иметь регулярные задачи и участвовать в групповых обсуждениях.</p><p>В исходном brief это напомнило автору его систему именованных помощников. Сходство общего устройства не доказывает ни независимость происхождения, ни превосходство одной реализации.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Several specialists, separate profiles",
+          "body": "<p>In Bot Mode a named bot corresponds to a profile, with its own model, memory, skills, configuration and history. Bots can run routines and participate in group discussions.</p><p>The original brief found this reminiscent of its own named assistants. Architectural resemblance establishes neither independent invention nor the superiority of either implementation.</p>"
+        }
+      }
+    },
+    {
+      "id": "security",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Кто решает, можно ли выполнить команду",
+          "body": "<p>Поведение подтверждений зависит от настроек. В smart риск оценивается автоматически, неясные случаи передаются человеку; manual запрашивает подтверждение опасных команд, off отключает этот слой запросов. Для работы без человека есть отдельные правила.</p><p>Контейнер и права отправителя решают другие части задачи. Нельзя обещать, что любое опасное действие всегда остановится до человеческого «да».</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Who decides whether a command may run",
+          "body": "<p>Approval behaviour depends on configuration. Smart mode assesses risk automatically and escalates uncertain cases; manual prompts for dangerous commands; off disables that approval layer. Unattended work has separate rules.</p><p>Containers and sender authorization address other boundaries. It is inaccurate to promise that every dangerous action always waits for a human yes.</p>"
+        }
+      }
+    },
+    {
+      "id": "code-and-compute",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        5,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Бесплатный код, оплачиваемая работа",
+          "body": "<p>Самостоятельный запуск убирает плату за получение кода, но оставляет модели, инструменты и инфраструктуру. Их можно оплачивать выбранным провайдерам. Portal объединяет часть этих услуг.</p><p>Поэтому противоречие между открытым агентом и коммерческим предложением исчезает: продаётся не только разрешение скачать программу.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Free code, paid execution",
+          "body": "<p>Self-hosting removes the charge for obtaining code, while models, tools and infrastructure remain. Users can pay their chosen providers. Portal bundles some of those services.</p><p>An open agent and a commercial offering can therefore coexist: permission to download the program is not the only thing being sold.</p>"
+        }
+      }
+    },
+    {
+      "id": "portal-plans",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Подписка не равна пакету API-кредитов",
+          "body": "<p>На 31 октября Plus стоит $20, Super — $100, Ultra — $200 в месяц. Платные планы включают использование агента в пределах лимитов и одного облачного агента предусмотренного размера.</p><p>API-ключи расходуют отдельные pay-as-you-go кредиты. Подписка на агента и оплата API существуют рядом: их условия и лимиты нужно различать.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "A subscription is not an API-credit bundle",
+          "body": "<p>On 31 October, Plus is $20, Super $100 and Ultra $200 per month. Paid plans include bounded agent usage and one Cloud agent of the plan’s included size.</p><p>API keys consume separate pay-as-you-go credits. Agent subscriptions and API billing coexist, with different limits and terms.</p>"
+        }
+      }
+    },
+    {
+      "id": "business-controls",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        12
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Управление уже входит в предложение",
+          "body": "<p>Hermes Business заявляет размещённых агентов для участников команды, общий баланс и индивидуальные лимиты расходов. Владельцы и администраторы управляют ролями, лимитами и ключами; созданные навыки попадают в командную библиотеку.</p><p>Это прямо меняет исходную конкурентную картину. Нельзя строить довод о новой панели на предположении, что общего управления расходами у Nous нет.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Control is already part of the offering",
+          "body": "<p>Hermes Business advertises hosted agents for team members, a central balance and individual spending caps. Owners and administrators manage roles, caps and keys; created skills enter a team library.</p><p>This changes the original competitive picture. A new-console argument cannot rest on the assumption that Nous lacks shared spending controls.</p>"
+        }
+      }
+    },
+    {
+      "id": "enterprise-placement",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        12
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Размещение — часть различия",
+          "body": "<p>В публичном FAQ Business работает на инфраструктуре Nous, с изолированным пространством команды. Enterprise предлагается на инфраструктуре клиента, с SSO, SLA и сопровождением.</p><p>Это описание продаваемого предложения. Оно ещё не сообщает точную стоимость конкретного договора и не подтверждает, как система отработала в конкретной компании.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Deployment is part of the distinction",
+          "body": "<p>The public FAQ places Business on Nous infrastructure in an isolated team tenant. Enterprise is offered on customer-controlled infrastructure with SSO, SLAs and onboarding.</p><p>This describes an offering. It supplies neither the exact price of a particular contract nor evidence of how a specific company’s deployment performed.</p>"
+        }
+      }
+    },
+    {
+      "id": "dashboard-exists",
+      "level": 1,
+      "claimType": "corroboration",
+      "sources": [
+        13
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Панель и журналы тоже существуют",
+          "body": "<p>Документация описывает web-панель управления установкой Hermes: профили, сессии, вызовы инструментов, журналы и аналитику использования. Есть чтение истории и экспорт сессий.</p><p>Панель охватывает установку и её профили. Готовность к управлению распределённым корпоративным флотом требует отдельной проверки.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "A dashboard and logs exist too",
+          "body": "<p>The documentation describes a web dashboard for a Hermes installation: profiles, sessions, tool calls, logs and usage analytics. Session history can be read and exported.</p><p>The dashboard covers an installation and its profiles. Readiness to manage a distributed enterprise fleet requires a separate check.</p>"
+        }
+      }
+    },
+    {
+      "id": "telemetry-extension",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        14
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Сообщество уже добавляет наблюдаемость",
+          "body": "<p>В официальном каталоге есть community plugin hermes_otel: он описывает передачу событий сессий, моделей, инструментов и подтверждений в системы OpenTelemetry.</p><p>Дополнение не равно включённой по умолчанию корпоративной функции. Но и пространство для стороннего продукта нельзя оценивать так, будто существующих дополнений нет.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "The community is adding observability",
+          "body": "<p>The official catalogue includes the community plugin hermes_otel, describing export of session, model, tool and approval events to OpenTelemetry systems.</p><p>An extension is not the same as a default enterprise feature. Nor can the opportunity for another product be assessed as though existing extensions were absent.</p>"
+        }
+      }
+    },
+    {
+      "id": "capital",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        15
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "$90 миллионов — на расширение",
+          "body": "<p>Sidley, юристы сделки, сообщили 12 октября о Series B на $90 млн при оценке $1,5 млрд. Раунд возглавил Robot Ventures; среди участников названы NVIDIA, Microsoft, Samsung и другие.</p><p>Объявление связывает деньги с выходом в корпоративные применения. Оно не доказывает ни прибыльность, ни причины изменения обсуждавшейся суммы раунда.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "$90 million for expansion",
+          "body": "<p>Deal counsel Sidley announced a $90 million Series B at a $1.5 billion valuation on 12 October. Robot Ventures led, with NVIDIA, Microsoft, Samsung and others participating.</p><p>The announcement connects the money with enterprise expansion. It establishes neither profitability nor why a previously discussed round size changed.</p>"
+        }
+      }
+    },
+    {
+      "id": "interest-is-not-reliability",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Популярность не отвечает за эксплуатацию",
+          "body": "<p>На 31 октября публичный репозиторий показывает около 259 тысяч звёзд. Это заметный интерес к проекту, но не число платящих команд.</p><p>Количество issue и pull request тоже не позволяет само по себе заключить, что поддержка не справляется. Для такого вывода нужны данные о проблемах, сроках ответа и решениях.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Popularity does not establish reliability",
+          "body": "<p>On 31 October the public repository shows roughly 259,000 stars. That is substantial interest, not a count of paying teams.</p><p>Issue and pull-request counts alone likewise cannot establish that maintainers are overwhelmed. That requires evidence about problems, response times and resolutions.</p>"
+        }
+      }
+    },
+    {
+      "id": "observatory-question",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        12,
+        13
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Что тогда остаётся вопросом для Observatory?",
+          "body": "<p>В переданном brief Observatory интересует управление несколькими агентами, прозрачность действий и аудит доступа к личным данным. Такой запрос конкретнее, чем просто ещё один чат с моделью.</p><p>Однако его нельзя объявить незанятой нишей из прежнего списка отсутствующих функций. Остаётся проверить, какого именно контроля не дают текущие Business, панель и расширения.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "What remains a question for Observatory?",
+          "body": "<p>The supplied brief asks about managing multiple agents, making actions visible and auditing access to personal data. That is more specific than another model chat.</p><p>It cannot, however, be declared an empty niche from the old missing-feature list. The question is which exact control current Business, the dashboard and extensions fail to provide.</p>"
+        }
+      }
+    },
+    {
+      "id": "options-a-and-c",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Два предложения исходного brief",
+          "body": "<p>Автор предлагает A — внешний пульт управления, и C — попробовать Hermes как движок существующих помощников. В первом случае нужно проверить полезность дополнительного контроля; во втором — совместимость и цену зависимости от чужого ядра.</p><p>Это варианты проверки, а не установленный спрос и не подтверждённый расчёт лёгкого переезда.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Two proposals in the original brief",
+          "body": "<p>The author proposes A, an external management console, and C, trying Hermes as the engine for existing assistants. A asks whether extra control is useful; C asks about compatibility and the cost of depending on another core.</p><p>These are proposals to investigate, not established demand or a verified easy migration.</p>"
+        }
+      }
+    },
+    {
+      "id": "other-options",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Ещё два варианта не исчезают",
+          "body": "<p>B в исходном brief — внедрять Hermes для клиентов. D — строить собственного агента. Автор предпочитает испытать C и спрос на A, а D отвергает.</p><p>Из доступного материала нельзя превратить эту позицию в доказательство быстрых денег от B, выгодности A или бесперспективности любой самостоятельной разработки. Для этого в brief нет проверенных результатов.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "Two other options remain",
+          "body": "<p>In the original brief, B means deploying Hermes for clients; D means building an agent independently. The author prefers testing C and demand for A, and rejects D.</p><p>The available material cannot turn that position into proof of quick revenue from B, attractive economics for A or the futility of every independent agent. Verified outcomes are absent from the brief.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        12,
+        13
+      ],
+      "copy": {
+        "ru": {
+          "section": "Hermes & Nous · исследовательский brief",
+          "title": "Вопрос стал точнее",
+          "body": "<p>Hermes уже соединяет открытый код, память, навыки, каналы общения и коммерческое управление. Поэтому исходный выбор «свой агент или пульт для чужого» требует более точной предпосылки.</p><p>У Observatory остаются предложения A и C. Чтобы выбрать между ними, нужны конкретный неудовлетворённый запрос и проверка совместимости. Публичные факты объясняют, почему это стоит исследовать; они пока не выбирают продукт за автора.</p>"
+        },
+        "en": {
+          "section": "Hermes & Nous · research brief",
+          "title": "The question has become more precise",
+          "body": "<p>Hermes already combines open code, memory, skills, communication channels and commercial controls. The original choice between our own agent and a console for someone else’s therefore needs a more precise premise.</p><p>Observatory’s proposals A and C remain. Choosing requires a specific unmet request and a compatibility check. Public facts explain why to investigate; they do not yet choose the product for the author.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

@@ -1,0 +1,696 @@
+{
+  "schemaVersion": 2,
+  "slug": "atomic-habits",
+  "title": {
+    "ru": "Атомные привычки",
+    "en": "Atomic Habits"
+  },
+  "description": {
+    "ru": "Связное изложение метода Джеймса Клира: от систем и идентичности до четырёх законов и возвращения после пропуска.",
+    "en": "A connected account of James Clear’s method, from systems and identity to four laws and recovery after a miss."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 13,
+    "core": 20,
+    "deep": 24
+  },
+  "methodNote": {
+    "ru": "Краткое изложение своими словами по официальному авторскому обзору и прочитанным открытым фрагментам Клира и Penguin Random House. Проверены сохранённые аргументы, случаи и процедуры, включая два издательских фрагмента; полного издания и авторизованного русского перевода в этой работе не было. Это связное сокращение центрального метода, не поглавная замена всего тома: часть второстепенных случаев и тем, включая генетические различия и подробный контракт привычки, опущена. Числовые гарантии и новые упражнения не добавлялись.",
+    "en": "An original-word condensation based on the official author overview and consulted open excerpts from Clear and Penguin Random House. Retained arguments, cases and procedures were checked, including two publisher excerpts; no complete edition or authorized Russian translation was read for this work. This is a connected condensation of the central method, not a chapter-by-chapter replacement for the volume: secondary cases and topics, including genetic differences and the detailed habit contract, are omitted. No numerical guarantees or new exercises were added."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Atomic Habits — official author summary",
+      "url": "https://jamesclear.com/atomic-habits-summary",
+      "role": "author",
+      "note": {
+        "ru": "Общая рамка, четыре закона и их обращение.",
+        "en": "Overall framework, four laws and their inversions."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Penguin Random House Education — Atomic Habits, official excerpt",
+      "url": "https://penguinrandomhousehighereducation.com/book/?isbn=9780735211292",
+      "role": "publisher",
+      "note": {
+        "ru": "Идентификация Avery 2018, ISBN 9780735211292; открытый фрагмент о накоплении малых изменений.",
+        "en": "Avery 2018, ISBN 9780735211292; open excerpt on accumulating small changes."
+      }
+    },
+    {
+      "id": 3,
+      "title": "James Clear — Marginal Gains",
+      "url": "https://jamesclear.com/marginal-gains",
+      "role": "author",
+      "note": {
+        "ru": "Авторский фрагмент о британском велоспорте; история сохранена как рассказ Клира, не как независимое объяснение всех побед.",
+        "en": "Author excerpt on British cycling; retained as Clear’s account, not an independent explanation of every victory."
+      }
+    },
+    {
+      "id": 4,
+      "title": "James Clear — Goals and Systems",
+      "url": "https://jamesclear.com/goals-systems",
+      "role": "author",
+      "note": {
+        "ru": "Авторский фрагмент: разница результата и повторяющегося процесса; цели сохраняют направление.",
+        "en": "Author excerpt: result versus repeated process; goals still give direction."
+      }
+    },
+    {
+      "id": 5,
+      "title": "James Clear — Identity-Based Habits",
+      "url": "https://jamesclear.com/identity-based-habits",
+      "role": "author",
+      "note": {
+        "ru": "Открытый фрагмент об идентичности, малых подтверждениях и случае с памятью жены на имена.",
+        "en": "Open excerpt on identity, small evidence and his wife remembering classmates’ names."
+      }
+    },
+    {
+      "id": 6,
+      "title": "James Clear — The Four-Step Habit Loop",
+      "url": "https://jamesclear.com/three-steps-habit-change",
+      "role": "author",
+      "note": {
+        "ru": "Несмотря на старый URL, прочитанный текст содержит четыре звена: cue/craving/response/reward.",
+        "en": "Despite the older URL, the consulted text contains cue/craving/response/reward."
+      }
+    },
+    {
+      "id": 7,
+      "title": "James Clear — Habits Scorecard",
+      "url": "https://jamesclear.com/habits-scorecard",
+      "role": "author",
+      "note": {
+        "ru": "Процедура наблюдения за повседневными действиями; оценка относительно желаемой идентичности, без самокритики.",
+        "en": "Procedure for noticing daily actions; evaluation against desired identity without self-criticism."
+      }
+    },
+    {
+      "id": 8,
+      "title": "James Clear — Implementation Intentions",
+      "url": "https://jamesclear.com/implementation-intentions",
+      "role": "author",
+      "note": {
+        "ru": "Фрагмент о точных времени и месте и опыте с планированием тренировок.",
+        "en": "Excerpt on specifying time/place and the exercise-planning study."
+      }
+    },
+    {
+      "id": 9,
+      "title": "James Clear — Habit Stacking",
+      "url": "https://jamesclear.com/habit-stacking",
+      "role": "author",
+      "note": {
+        "ru": "Конкретная формула, пример кофе/минуты медитации, выбор сигнала нужной частоты; ссылка автора на Б. Дж. Фогга.",
+        "en": "Concrete formula, coffee/one-minute meditation example, appropriate cue frequency and acknowledgment of BJ Fogg."
+      }
+    },
+    {
+      "id": 10,
+      "title": "James Clear — Choice Architecture",
+      "url": "https://jamesclear.com/choice-architecture",
+      "role": "author",
+      "note": {
+        "ru": "Случай столовой Торндайк и заметных сигналов. Проценты и нейробиологические обещания не переносились.",
+        "en": "Thorndike cafeteria case and visible cues. Percentages and neurobiological promises were not carried over."
+      }
+    },
+    {
+      "id": 11,
+      "title": "James Clear — Temptation Bundling",
+      "url": "https://jamesclear.com/temptation-bundling",
+      "role": "author",
+      "note": {
+        "ru": "Ронан Бирн, велотренажёр и Netflix; соединение желаемого с нужным.",
+        "en": "Ronan Byrne, an exercise bike and Netflix; linking a want with a need."
+      }
+    },
+    {
+      "id": 12,
+      "title": "James Clear — Taking Action",
+      "url": "https://jamesclear.com/taking-action",
+      "role": "author",
+      "note": {
+        "ru": "Отличие подготовки от практики, авторский пример замысла статьи и её написания.",
+        "en": "Preparation versus practice; the author’s article-planning versus writing example."
+      }
+    },
+    {
+      "id": 13,
+      "title": "James Clear — Two-Minute Rule",
+      "url": "https://jamesclear.com/how-to-stop-procrastinating",
+      "role": "author",
+      "note": {
+        "ru": "Малый вход в действие, страница чтения, открытые записи; возможность действительно остановиться.",
+        "en": "A small entry into action, one page, opening notes and permission to actually stop."
+      }
+    },
+    {
+      "id": 14,
+      "title": "James Clear — Automating a Habit",
+      "url": "https://jamesclear.com/how-to-automate-a-habit",
+      "role": "author",
+      "note": {
+        "ru": "Авторский опыт ограничения соцсетей; заблаговременные решения и обратная сторона автопроигрывания.",
+        "en": "The author’s social-media restriction; advance decisions and the downside of autoplay."
+      }
+    },
+    {
+      "id": 15,
+      "title": "Penguin Random House — Life-Changing Tips from Atomic Habits",
+      "url": "https://www.penguinrandomhouse.com/articles/atomic-habits-excerpt/",
+      "role": "publisher",
+      "note": {
+        "ru": "Проверенный первичный фрагмент об отслеживании: обратная связь, немедленная отметка, ограничение числа отслеживаемых привычек.",
+        "en": "Checked primary excerpt on tracking: feedback, immediate recording and limiting what is tracked."
+      }
+    },
+    {
+      "id": 16,
+      "title": "James Clear — Habit Tracker",
+      "url": "https://jamesclear.com/habit-tracker",
+      "role": "author",
+      "note": {
+        "ru": "Проверены разделы о восстановлении после пропуска, нагрузке учёта и отсутствии единого срока формирования привычки.",
+        "en": "Consulted sections on recovery after a miss, tracking burden and the lack of one universal formation deadline."
+      }
+    },
+    {
+      "id": 17,
+      "title": "James Clear — Goldilocks Rule",
+      "url": "https://jamesclear.com/goldilocks-rule",
+      "role": "author",
+      "note": {
+        "ru": "Стив Мартин, посильная трудность и быстрая обратная связь.",
+        "en": "Steve Martin, manageable difficulty and timely feedback."
+      }
+    },
+    {
+      "id": 18,
+      "title": "James Clear — Staying Focused Through Boredom",
+      "url": "https://jamesclear.com/stay-focused",
+      "role": "author",
+      "note": {
+        "ru": "Рассказ о разговоре с тренером: повторение, скука и работа без постоянного воодушевления.",
+        "en": "Account of a conversation with a coach: repetition, boredom and working without constant excitement."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир · 2018",
+          "title": "Атомные привычки",
+          "subtitle": "Как небольшое действие становится повторяющимся",
+          "body": "<p>Идентичность, четыре закона и реальные случаи из авторских фрагментов книги.</p>"
+        },
+        "en": {
+          "section": "James Clear · 2018",
+          "title": "Atomic Habits",
+          "subtitle": "How a small action becomes repeatable",
+          "body": "<p>Identity, four laws and actual cases from the author’s book excerpts.</p>"
+        }
+      }
+    },
+    {
+      "id": "small-changes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "То, что почти не видно сегодня",
+          "body": "<p>Клир начинает с разрыва между малым действием и большим ожиданием. Несколько тренировок не меняют тело на глазах, один вечер занятий не даёт нового языка. Из-за этого легко бросить то, что ещё не успело принести заметный результат.</p><p>Его аргумент — смотреть на повторяющееся направление изменений. Привычки накапливают последствия, в том числе нежелательные. Знаменитый подсчёт роста на один процент в день иллюстрирует сложение эффекта во времени; центральная мысль книги не требует ежедневно измерять себя с точностью до процента.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "What is almost invisible today",
+          "body": "<p>Clear begins with the gap between a small action and a large expectation. A few workouts do not visibly transform a body; one evening of study does not deliver a new language. It is easy to abandon an activity before its results become noticeable.</p><p>His argument is to look at the direction of repeated changes. Habits accumulate consequences, including unwanted ones. The famous calculation of one-percent daily improvement illustrates compounding over time; the book’s central idea does not require measuring yourself to a precise daily percentage.</p>"
+        }
+      }
+    },
+    {
+      "id": "british-cycling",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Подушки, велосипеды и малые прибавки",
+          "body": "<p>Клир рассказывает о Дейве Брейлсфорде и британском велоспорте. Улучшения искали не только в тренировке: меняли посадку и одежду, подбирали подушки и матрасы, учили спортсменов мыть руки, чтобы реже болеть.</p><p>В авторском рассказе эти малые изменения складываются в систему подготовки команды, чьи результаты заметно выросли. История вводит масштаб книги: не ждать одного чудесного решения, а менять условия повторяющейся работы. Это иллюстрация Клира, а не доказательство того, что любой результат объясняется только привычками.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Pillows, bicycles and marginal gains",
+          "body": "<p>Clear tells the story of Dave Brailsford and British cycling. Improvements were sought beyond training: seating and clothing were adjusted, pillows and mattresses selected, and riders taught how to wash their hands to reduce illness.</p><p>In Clear’s account, these small changes formed part of a preparation system for a team whose results improved dramatically. The story introduces his scale of attention: rather than waiting for one miraculous fix, alter the conditions of repeated work. It is Clear’s illustration, not proof that habits alone explain every outcome.</p>"
+        }
+      }
+    },
+    {
+      "id": "goals-and-systems",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "После достижения цели остаётся процесс",
+          "body": "<p>Победитель и проигравший могут хотеть одной и той же победы. Поэтому желание результата ещё не объясняет различие между ними. Клир отделяет цель — то, чего хочется добиться, — от системы: того, что человек регулярно делает.</p><p>Цель задаёт направление. Система определяет, что происходит между редкими моментами достижения. Вопрос книги постепенно смещается с «как заставить себя очень захотеть?» на «как устроить повторение?». Если после успеха исчезает прежний процесс, достигнутый результат тоже может оказаться временным.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "The process remains after the goal",
+          "body": "<p>A winner and a loser may want the same victory. Wanting the result therefore does not explain the difference between them. Clear separates a goal—the outcome sought—from a system: what someone repeatedly does.</p><p>Goals give direction. Systems determine what happens between the rare moments of achievement. The book gradually moves from “How can I want this intensely enough?” to “How can repetition be organized?” If the process disappears after success, the achieved result may prove temporary too.</p>"
+        }
+      }
+    },
+    {
+      "id": "identity",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5,
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Поступок становится свидетельством о себе",
+          "body": "<p>Следующий слой — представление о себе. Можно стремиться прочитать книгу; можно постепенно становиться человеком, который читает. У Клира идентичность получает опору в повторённых действиях, а не только в громком самоописании.</p><p>Он предлагает сначала определить желаемый тип человека, затем собирать маленькие подтверждения поступками. Это взаимная связь: убеждение поддерживает действие, а действие укрепляет убеждение. Одного удачного дня недостаточно, чтобы всё изменить, но отдельная ошибка тоже не обязана перечеркнуть накопленное.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "An action becomes evidence about oneself",
+          "body": "<p>The next layer is a person’s view of themselves. One can aim to finish a book; one can also gradually become someone who reads. For Clear, identity gains support from repeated actions rather than a grand declaration alone.</p><p>He proposes identifying the kind of person one wants to become, then building evidence through small actions. The relationship runs both ways: belief supports behavior and behavior reinforces belief. One successful day need not transform everything, and one mistake need not erase the accumulated evidence.</p>"
+        }
+      }
+    },
+    {
+      "id": "remembering-names",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Тридцать имён в школьном классе",
+          "body": "<p>Жена Клира рассказала ему, как в первый день занятий запомнила имена примерно тридцати одноклассников. Когда учитель спросил, кто может назвать всех, она справилась. Этот случай стал для неё подтверждением, что имена ей хорошо даются.</p><p>Клир использует историю, чтобы показать происхождение уверенности в идентичности: не просто убедить себя без основания, а заметить свидетельство в собственном действии. Случай не означает, что для новой привычки обязательно нужен эффектный успех перед целым классом.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Thirty names in a classroom",
+          "body": "<p>Clear’s wife told him how she remembered roughly thirty classmates’ names on the first day of school. When the teacher asked whether anyone could name everyone, she did. The occasion affirmed her sense of being good at remembering names.</p><p>Clear uses the story to show how an identity can gain credibility: rather than merely persuading oneself without grounds, notice evidence in an action. The story does not require a new habit to begin with a spectacular success in front of a classroom.</p>"
+        }
+      }
+    },
+    {
+      "id": "habit-loop",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Сигнал, желание, ответ, награда",
+          "body": "<p>Привычку Клир разбирает на четыре звена. Сигнал замечается; он вызывает ожидание изменения состояния. Затем следует ответ — действие или мысль. Полученная награда удовлетворяет желание и помогает запомнить связь между обстоятельством и ответом.</p><p>Важна не только сама вещь: телевизор обещает развлечение, а не просто включённый экран. Один и тот же сигнал по-разному действует на разных людей, потому что зависит от интерпретации. На этих четырёх звеньях строятся четыре закона изменения поведения.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Cue, craving, response, reward",
+          "body": "<p>Clear divides a habit into four stages. A cue is noticed and creates an expectation of a changed state. A response follows—an action or thought. The reward satisfies the desire and helps establish a connection between the circumstance and the response.</p><p>What matters is not merely the object: television promises entertainment, not just a lit screen. The same cue affects people differently because interpretation matters. These four stages underpin the book’s four laws of behavior change.</p>"
+        }
+      }
+    },
+    {
+      "id": "four-laws",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Четыре места, где меняется привычка",
+          "body": "<p>Для желаемого поведения Клир предлагает сделать сигнал очевидным, действие привлекательным, выполнение простым, а результат — приносящим удовлетворение. Так четыре звена превращаются в четыре практических вопроса.</p><p>Для нежелательной привычки направление меняется: скрыть сигнал, уменьшить привлекательность, затруднить выполнение и сделать последствия неудовлетворительными. Дальше книга наполняет эту рамку конкретными приёмами. Они работают с разными частями одного повторяющегося процесса, поэтому не сводятся к единственному требованию быть дисциплинированнее.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Four places to change a habit",
+          "body": "<p>For a desired behavior, Clear proposes making the cue obvious, the behavior attractive, the response easy and the outcome satisfying. Four stages become four practical questions.</p><p>For an unwanted habit, the direction reverses: remove the visible cue, reduce attractiveness, increase difficulty and make the consequences unsatisfying. The book develops concrete techniques within this framework. They address different parts of the same repeated process, rather than reducing change to a single demand for more discipline.</p>"
+        }
+      }
+    },
+    {
+      "id": "scorecard",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Сначала увидеть привычный день",
+          "body": "<p>Автоматическое действие легко не заметить. Поэтому Клир начинает перемены с наблюдения: составить список обычных действий за день и оценить каждое относительно того, каким человеком хочется стать.</p><p>В его таблице есть полезные, нежелательные и нейтральные привычки. Оценка зависит от обстоятельств и целей; это не постоянный нравственный ярлык. Сначала не требуется срочно всё исправлять. Смысл процедуры — увидеть, что уже происходит, и заметить сигналы, с которых начинается повторение.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "First notice an ordinary day",
+          "body": "<p>An automatic action is easy to overlook. Clear therefore begins change with observation: list ordinary actions through the day and assess each against the person one wants to become.</p><p>His scorecard distinguishes helpful, unwanted and neutral habits. The assessment depends on circumstances and goals; it is not a permanent moral label. There is no requirement to fix everything immediately. The procedure first makes existing behavior and the cues that initiate repetition visible.</p>"
+        }
+      }
+    },
+    {
+      "id": "time-and-place",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "У намерения появляются время и место",
+          "body": "<p>Обещание «больше заниматься» оставляет открытым момент действия. Первый закон Клир делает конкретным через намерение реализации: заранее определить, что делать, когда и где.</p><p>В описанном им исследовании планировавшие точные время и место тренировок занимались чаще, чем группы без такого плана. Вывод автора — не ждать, пока желание само выберет подходящий момент. Ясный план связывает действие с узнаваемой ситуацией. При этом результат отдельного исследования не превращается в гарантию для каждого нового намерения.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "An intention gets a time and place",
+          "body": "<p>A promise to “exercise more” leaves the moment of action undecided. Clear makes the first law concrete through an implementation intention: specify in advance what to do, when and where.</p><p>In the study he describes, participants planning an exact time and place exercised more often than groups without such a plan. His point is to avoid waiting for desire to select a convenient moment. A clear plan links behavior to a recognizable situation. The result of one study does not become a guarantee for every new intention.</p>"
+        }
+      }
+    },
+    {
+      "id": "habit-stacking",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Новое действие после уже знакомого",
+          "body": "<p>Другой способ закрепить сигнал — присоединить новую привычку к существующей. В примере Клира после утренней чашки кофе следует минута медитации. Знакомое действие становится точкой запуска следующего.</p><p>Выбор связи важен: ежедневную привычку неудобно привязывать к тому, что случается раз в неделю. Сигнал должен быть конкретным и оставлять возможность сразу действовать. Клир признаёт вклад Б. Дж. Фогга в этот подход. Короткая цепочка держится на ясной последовательности, а не просто на желании выполнить всё когда-нибудь утром.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "A new action after a familiar one",
+          "body": "<p>Another way to establish a cue is to attach a new habit to an existing one. In Clear’s example, pouring morning coffee is followed by a minute of meditation. The familiar action becomes the starting point for the next.</p><p>The connection matters: a daily habit should not depend on something that happens only weekly. A cue must be specific and leave an opportunity to act immediately. Clear acknowledges BJ Fogg’s contribution to this approach. A short stack depends on a clear sequence, not merely on wanting to do everything sometime in the morning.</p>"
+        }
+      }
+    },
+    {
+      "id": "water-in-the-cafeteria",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Вода оказывается перед глазами",
+          "body": "<p>В рассказе Клира исследователи под руководством Энн Торндайк меняют расположение напитков в больничной столовой: добавляют воду в холодильники и ставят бутылки в других заметных местах. Газировку не убирают, а посетителям не читают лекций.</p><p>Продажи воды растут, газировки — снижаются. Для Клира это пример силы среды: выбор меняется не только после внутреннего решения, но и вслед за тем, что доступно взгляду и руке. Отсюда его предложение делать сигналы желаемой привычки заметными там, где она должна происходить.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Water comes into view",
+          "body": "<p>In Clear’s account, researchers led by Anne Thorndike rearrange drinks in a hospital cafeteria, adding water to refrigerators and placing bottles in other visible locations. Soda remains available, and customers receive no lectures.</p><p>Water sales rise while soda sales fall. Clear uses this to show the influence of environment: choices change not only after an internal resolution, but with what comes readily into view and reach. He therefore proposes making cues for a desired habit conspicuous where the behavior should occur.</p>"
+        }
+      }
+    },
+    {
+      "id": "make-it-attractive",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Сериал включается, когда крутятся педали",
+          "body": "<p>Ронан Бирн, студент-электротехник из Дублина, хотел смотреть Netflix и больше заниматься. Он соединил велотренажёр с компьютером: сериал продолжался, пока он поддерживал нужный темп, и приостанавливался, если он замедлялся надолго.</p><p>Клир называет этот приём объединением соблазнов: желаемое действие связывается с нужным, чтобы второе стало привлекательнее. История показывает второй закон в действии. Требование полезного занятия получает немедленно желанный спутник, вместо того чтобы соперничать с ним за всё свободное время.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "The show runs when the pedals turn",
+          "body": "<p>Ronan Byrne, an electrical-engineering student in Dublin, wanted to watch Netflix and exercise more. He connected his exercise bike to a computer: the show continued while he maintained the required pace and paused if he slowed for too long.</p><p>Clear calls the technique temptation bundling: connect something one wants to do with something one needs to do, making the latter more attractive. The story puts the second law into action. The useful activity gains an immediately desirable companion instead of competing with it for all available time.</p>"
+        }
+      }
+    },
+    {
+      "id": "motion-and-action",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        12
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Подготовка ещё не стала практикой",
+          "body": "<p>Перечислить двадцать идей для статьи и написать статью — разные действия. В первом случае человек готовится; во втором получает результат, ради которого готовился. Клир различает motion и action, подготовительное движение и саму практику.</p><p>Планирование и обучение нужны, но могут стать безопасным способом откладывать проверку собственных возможностей. Поэтому третий закон не требует сначала придумать безупречный процесс. Он ведёт к простому действию, которое действительно повторяется и даёт опыт.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Preparation has not yet become practice",
+          "body": "<p>Listing twenty article ideas is different from writing an article. The first prepares; the second produces the result for which preparation was undertaken. Clear distinguishes motion from action: preparatory activity from practice itself.</p><p>Planning and learning are useful, but they can become a safe way to postpone testing one’s ability. The third law therefore does not require designing a perfect process first. It leads toward a simple action that is actually repeated and produces experience.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-minutes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        13
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Страница вместо обещания прочесть всё",
+          "body": "<p>Третий закон — сделать выполнение простым — получает форму правила двух минут. Новую привычку уменьшают до лёгкого начала: чтение перед сном — до одной страницы, занятие — до открытых записей, пробежку — до надетых кроссовок.</p><p>Задача не в том, чтобы навсегда ограничить чтение страницей. Сначала закрепляется само появление на месте действия. Начало становится знакомым, затем за ним можно нарастить более длинную работу. Клир отделяет привычку начинать от трудности того, что будет происходить дальше.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "One page instead of a promise to read everything",
+          "body": "<p>The third law—make the response easy—takes shape in the Two-Minute Rule. Scale a new habit down to an easy beginning: bedtime reading becomes one page, studying becomes opening notes, and a run becomes putting on running shoes.</p><p>The purpose is not to restrict reading to one page forever. First establish the act of showing up. Once the beginning becomes familiar, a longer activity can grow behind it. Clear distinguishes the habit of starting from the difficulty of the work that may follow.</p>"
+        }
+      }
+    },
+    {
+      "id": "permission-to-stop",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        13
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Две минуты могут действительно закончиться",
+          "body": "<p>Если маленькое начало чувствуется как обман, потому что за ним скрыто требование большой работы, Клир предлагает действительно остановиться через две минуты. Тогда краткое действие — вся договорённость, а не приманка.</p><p>Он рассказывает и о читателе, который сначала приходил в зал всего на несколько минут. Здесь важна последовательность: короткое посещение закрепляется прежде, чем удлиняется тренировка. Способ не равен совету выполнять любое занятие с минимальным усилием; он решает более узкую задачу регулярного начала.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Two minutes may genuinely be the end",
+          "body": "<p>If a tiny beginning feels like a trick concealing a demand for much more work, Clear proposes actually stopping after two minutes. The short action is then the whole agreement, not bait.</p><p>He also describes a reader who initially visited the gym for only a few minutes. The sequence matters: establish the brief visit before extending the workout. This is not a proposal to do every activity with minimal effort. It addresses the narrower problem of beginning consistently.</p>"
+        }
+      }
+    },
+    {
+      "id": "advance-decisions",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        14
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Решение принято до минуты соблазна",
+          "body": "<p>Клир описывает собственный порядок во время работы над книгой: по понедельникам помощница меняла пароли его социальных сетей, а в пятницу возвращала доступ. В рабочие дни привычное отвлечение становилось недоступным.</p><p>Это пример решения, принятого заранее, вместо ежедневного торга с собой. Автоматизация может помогать и мешать: автоматическое воспроизведение следующей серии делает продолжение просмотра проще остановки. Поэтому вопрос не только в том, что стало удобным, но и в том, какое повторение эта удобная система поддерживает.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "The decision comes before the temptation",
+          "body": "<p>While writing the book, Clear describes having his assistant reset his social-media passwords on Mondays and restore access on Fridays. A familiar distraction became unavailable during the working week.</p><p>This is an advance decision rather than a fresh negotiation with oneself each day. Automation can help or hinder: autoplay makes continuing a show easier than stopping. The question is therefore not simply what has become convenient, but which repeated behavior that convenience supports.</p>"
+        }
+      }
+    },
+    {
+      "id": "immediate-satisfaction",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        15,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Долгий результат нуждается в близком подкреплении",
+          "body": "<p>Первые три закона помогают начать, а четвёртый — захотеть повторить. Долгосрочный результат может запаздывать, тогда как неудобство нового действия чувствуется сразу. Клир предлагает сделать выполненное действие удовлетворительным уже сейчас.</p><p>Один из его способов — видимый след прогресса. Отметка в календаре не равна конечному успеху, но показывает, что действие состоялось. Она соединяет напоминание, наблюдение за продвижением и небольшое удовлетворение от завершения.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "A distant result needs nearer reinforcement",
+          "body": "<p>The first three laws help an action occur; the fourth helps make repetition desirable. A long-term result may be delayed while the inconvenience of a new action is immediate. Clear proposes making completion satisfying now.</p><p>One method is a visible record of progress. A calendar mark is not the final achievement, but it shows that an action happened. It combines a reminder, evidence of progress and a small satisfaction in completion.</p>"
+        }
+      }
+    },
+    {
+      "id": "tracking-without-burden",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        15
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Не измерять всю жизнь",
+          "body": "<p>Учёт сам становится дополнительной привычкой. Клир прямо признаёт, что он подходит не всем и не требует записывать всю жизнь. Лучше регулярно отслеживать одну важную привычку, чем время от времени десять.</p><p>Где возможно, данные можно получать автоматически. Ручную отметку он предлагает делать сразу после действия: окончание привычки становится сигналом для записи. Так отслеживание остаётся коротким подтверждением, а не отдельным сложным проектом, который вытесняет само занятие.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Do not measure an entire life",
+          "body": "<p>Tracking becomes an additional habit of its own. Clear explicitly acknowledges that it does not suit everyone and need not encompass an entire life. Tracking one important habit consistently is preferable to tracking ten sporadically.</p><p>Where possible, information can be gathered automatically. He proposes recording manual entries immediately after the action: completing the habit becomes the cue to log it. Tracking then remains a brief confirmation rather than a complicated project that crowds out the activity itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "after-a-miss",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        16
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Один пропуск не требует бросить всё",
+          "body": "<p>Цепочка когда-нибудь прервётся: болезнь, поездка или другие дела меняют день. Клир предлагает возвращаться как можно скорее, стараясь не превращать один пропуск в последовательность пропусков.</p><p>Смысл его правила — восстановление, а не безупречно заполненный календарь. Подход «всё или ничего» делает неудачный день поводом прекратить попытки. Возвращение сохраняет повторяющийся процесс даже после того, как непрерывная серия закончилась.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "One miss does not require abandoning everything",
+          "body": "<p>A streak will eventually break: illness, travel or other demands change the day. Clear proposes returning promptly, trying to prevent a single miss from becoming a pattern of misses.</p><p>The point of his rule is recovery, not a flawless calendar. All-or-nothing thinking makes an unsuccessful day a reason to stop altogether. Returning preserves the repeated process even after the uninterrupted streak has ended.</p>"
+        }
+      }
+    },
+    {
+      "id": "no-finish-date",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        16
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Когда привычка будет готова",
+          "body": "<p>На вопрос о сроке формирования привычки Клир отвечает иначе, чем обещаниями «за двадцать один день». Разные действия требуют разного времени, а среднее число из исследования не становится сроком для каждого человека.</p><p>За вопросом часто скрывается другое ожидание: когда больше не придётся стараться? Клир возвращает разговор к устойчивому образу жизни. Привычка — не одноразовая стройка, после которой можно перестать действовать; это продолжающееся повторение, которое должно помещаться в реальную жизнь.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "When will the habit be finished?",
+          "body": "<p>Asked how long a habit takes to form, Clear does not offer a promise of twenty-one days. Different behaviors take different amounts of time, and a study’s average is not a deadline for every person.</p><p>Behind the question often lies another expectation: when will effort no longer be necessary? Clear brings the discussion back to a sustainable way of living. A habit is not a one-time construction after which action can stop; it is continuing repetition that must fit into actual life.</p>"
+        }
+      }
+    },
+    {
+      "id": "goldilocks",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        17
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Стив Мартин удлиняет выступление",
+          "body": "<p>Клир рассказывает, как Стив Мартин годами осваивал выступления: короткие номера постепенно росли, материал проверялся на публике, а результат каждой шутки слышался сразу.</p><p>История ведёт к правилу посильной трудности. Слишком лёгкое занятие скучно, чрезмерно трудное быстро обескураживает. Клир ищет задачу на границе нынешних возможностей и понятную обратную связь. Простое начало привычки не отменяет дальнейшего усложнения самой работы, когда человек уже научился к ней возвращаться.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Steve Martin extends his act",
+          "body": "<p>Clear tells how Steve Martin spent years learning to perform: short acts gradually grew, material was tested before audiences, and a joke’s reception could be heard immediately.</p><p>The story leads to manageable difficulty. A task that is too easy is boring; an overwhelmingly difficult one discourages. Clear seeks a challenge near the edge of current ability and intelligible feedback. Making a habit easy to start does not prevent the work itself from becoming more demanding once returning to it is established.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-boredom-of-practice",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        18
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Воодушевление не приходит на каждую тренировку",
+          "body": "<p>Разговаривая с тренером, Клир ожидал услышать о таланте и упорстве. Тренер назвал также способность переносить скуку: изо дня в день выполнять знакомые упражнения, когда новизна исчезла.</p><p>Для Клира это уточнение всей системы. Привлекательное начало и приятная отметка не создают бесконечного восторга. Практика продолжается и в обыкновенные дни. Поэтому привычки должны поддерживать возвращение, а не зависеть от постоянного ощущения особенного события.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "Excitement does not attend every practice",
+          "body": "<p>Talking with a coach, Clear expected to hear about talent and effort. The coach also pointed to tolerating boredom: performing familiar exercises day after day after novelty has faded.</p><p>For Clear, this qualifies the entire system. An attractive beginning and a satisfying record do not create endless excitement. Practice continues through ordinary days. Habits must therefore support returning rather than depend on the constant feeling of a special occasion.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        4,
+        16,
+        18
+      ],
+      "copy": {
+        "ru": {
+          "section": "Джеймс Клир",
+          "title": "Не один решающий день",
+          "body": "<p>Книга связывает большие намерения с маленькими повторяемыми действиями. Идентичность получает подтверждение, сигнал становится заметным, действие — доступным, а выполненное — достаточно приятным, чтобы вернуться.</p><p>У Клира изменение держится не на одном решающем дне. Важен процесс, который продолжается после первого воодушевления, выдерживает пропуск и снова создаёт возможность действовать. Цель остаётся ориентиром; привычка превращает движение к ней в часть обычного дня.</p>"
+        },
+        "en": {
+          "section": "James Clear",
+          "title": "More than one decisive day",
+          "body": "<p>The book connects large intentions to small repeatable actions. Identity gains evidence, a cue becomes noticeable, the response becomes accessible and completion becomes satisfying enough to invite a return.</p><p>For Clear, change does not rest on one decisive day. It depends on a process that continues beyond early enthusiasm, recovers after a miss and makes another action possible. The goal remains a direction; the habit makes movement toward it part of an ordinary day.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

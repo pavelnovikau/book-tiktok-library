@@ -35,7 +35,7 @@ if (!phase) {
   console.log(`Browser QA passed. Reports and screenshots: ${outputDir}`);
   process.exit(0);
 }
-if (![...phases, 'release-state', 'release-cards', 'release-quotations'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
+if (![...phases, 'release-state', 'release-cards', 'release-quotations', 'release-migration'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let summary = {};
 let server;
@@ -244,8 +244,8 @@ if (phase === 'discovery') {
         assert(layout.overflow <= 1, `${width}/${language}/${theme}: homepage overflow ${layout.overflow}px`);
         assert(layout.controlsInside && layout.types.join(',') === 'all,fiction,nonfiction', `${width}/${language}/${theme}: discovery controls clipped/missing`);
         assert(layout.language === language && layout.theme === theme, 'homepage: language/theme did not change');
-        const expectedThemeAction = language === 'ru' ? (theme === 'dark' ? 'Светлая' : 'Тёмная') : (theme === 'dark' ? 'Light' : 'Dark');
-        assert(layout.themeAction === expectedThemeAction && layout.themeAria === expectedThemeAction, 'homepage: theme button does not describe its next action');
+        const expectedSettingsLabel = language === 'ru' ? 'Настройки' : 'Settings';
+        assert(layout.themeAction.trim() === '' && layout.themeAria === expectedSettingsLabel, 'homepage: icon must open localized Settings');
         assert(layout.primary === (theme === 'dark' ? '#2f968d' : '#1c6c66'), 'homepage: quiet action tokens changed');
         assert(layout.aria === (language === 'ru' ? 'Поиск и фильтры' : 'Search and filters') && layout.topicAria === (language === 'ru' ? 'Жанр или тема' : 'Genre or subject'), 'homepage: discovery aria labels not localized');
         assert(!layout.administrative, 'homepage: audience/admin choices leaked into discovery');
@@ -304,7 +304,7 @@ if (phase === 'discovery') {
     ['ИИ', ['hermes-nous', 'akselerando']], ['Сунь цзы', ['the-art-of-war']],
     ['Философия и смысл', catalogue.books.filter(book => book.subjects.includes('philosophy-meaning')).map(book => book.slug)],
     ['Psychology and relationships', catalogue.books.filter(book => book.subjects.includes('psychology-relationships')).map(book => book.slug)],
-    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness']
+    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness', 'atomic-habits', 'huberman-protocols', 'hermes-nous']
       .flatMap(slug => {
         const book = catalogue.books.find(book => book.slug === slug);
         return book ? [[book.title.ru, [slug]], [book.title.en, [slug]]] : [];
@@ -640,6 +640,11 @@ if (phase === 'repaired') {
                 await Promise.resolve();
                 const scroller = document.querySelector('.slide-scroll');
                 if (document.querySelector('#story h1').textContent !== screen.copy[language].title) failures.push(screen.id + ' title');
+                if (screen.type !== 'cover') {
+                  scroller.scrollTop = scroller.scrollHeight;
+                  const tail = [...scroller.querySelectorAll(':scope > p')].filter(node => getComputedStyle(node).display !== 'none').at(-1);
+                  if (tail && tail.getBoundingClientRect().bottom > scroller.getBoundingClientRect().bottom + 1) failures.push(screen.id + ' last line unreachable');
+                }
                 if (scroller.scrollWidth > scroller.clientWidth + 1 || document.documentElement.scrollWidth > innerWidth + 1) failures.push(screen.id + ' overflow');
                 count++;
               }
@@ -864,6 +869,38 @@ if (phase === 'release-closures') {
     }
   }
   summary = { checks, changedCopyIntegration: 'exact current title/body displayed', literaryScope: 'Source closure is separately recorded; this phase tests rendered corrected copy.' };
+}
+
+if (phase === 'release-migration') {
+  const checks = [];
+  for (const book of releaseBooks) {
+    const slug = book.slice(0, -5);
+    await navigate(book, "document.querySelector('[data-start]')");
+    await evaluate(`Object.keys(localStorage).filter(key => key.startsWith('book-tiktok.${slug}.')).forEach(key => localStorage.removeItem(key)); localStorage.setItem('book-tiktok.${slug}.lastScreen','cover')`);
+    await navigate(book, "document.querySelector('[data-start]')");
+    assert(await evaluate(`!localStorage.getItem('book-tiktok.${slug}.lastScreen') && !document.querySelector('[data-start=continue]') && Boolean(document.querySelector('.cover-layout'))`), `${book}: cover saved ID survived`);
+    checks.push({book,coverIdDiscarded:true});
+  }
+  for (const language of ['ru', 'en']) {
+    await evaluate(`localStorage.clear(); localStorage.setItem('bookHermesNous.language','${language}'); localStorage.setItem('bookHermesNous.theme','light'); localStorage.setItem('bookHermesNous.mode','core'); localStorage.setItem('bookHermesNous.lastSlide','gateway')`);
+    await navigate('hermes-nous.html', "document.querySelector('[data-start=continue]')");
+    assert(await evaluate(`document.documentElement.lang==='${language}' && document.documentElement.dataset.theme==='light' && localStorage.getItem('book-tiktok.hermes-nous.lastScreen')==='gateway' && localStorage.getItem('book-tiktok.hermes-nous.legacyMigration06')==='done'`), `${language}: legacy preferences/valid ID lost`);
+    await evaluate("document.querySelector('[data-start=continue]').click()");
+    assert(await evaluate(`document.querySelector('#story h1').textContent===JSON.parse(document.getElementById('book-tiktok-data').textContent).screens.find(s=>s.id==='gateway').copy['${language}'].title`), `${language}: legacy ID did not resume`);
+    await evaluate("document.querySelector('#contentsList [data-go-to=final]').click(); nextButton.click()");
+    await navigate('hermes-nous.html', "document.querySelector('[data-start=begin]')");
+    assert(await evaluate("!document.querySelector('[data-start=continue]') && !localStorage.getItem('book-tiktok.hermes-nous.lastScreen') && localStorage.getItem('bookHermesNous.lastSlide')==='gateway'"), `${language}: restart resurrected the old legacy ID`);
+    checks.push({language,validLegacyId:'gateway',preferencesMigrated:true,restartNotResurrected:true,originalLegacyUnchanged:true});
+    await evaluate(`localStorage.clear(); localStorage.setItem('bookHermesNous.language','${language}'); localStorage.setItem('bookHermesNous.mode','deep'); localStorage.setItem('bookHermesNous.lastSlide','console')`);
+    await navigate('hermes-nous.html', "document.querySelector('[data-start=begin]')");
+    assert(await evaluate("Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && !localStorage.getItem('book-tiktok.hermes-nous.lastScreen') && !document.querySelector('[data-start=continue]')"), `${language}: removed legacy ID unsafe`);
+    checks.push({language,removedLegacyId:'console',safeEssentialCover:true});
+  }
+  await evaluate("localStorage.clear(); localStorage.setItem('bookHermesNous.language','ru'); localStorage.setItem('bookHermesNous.theme','light'); localStorage.setItem('bookHermesNous.lastSlide','gateway'); localStorage.setItem('book-tiktok.hermes-nous.language','en'); localStorage.setItem('book-tiktok.hermes-nous.theme','dark'); localStorage.setItem('book-tiktok.hermes-nous.lastScreen','agent-release')");
+  await navigate('hermes-nous.html', "document.querySelector('[data-start=continue]')");
+  assert(await evaluate("document.documentElement.lang==='en' && document.documentElement.dataset.theme==='dark' && localStorage.getItem('book-tiktok.hermes-nous.lastScreen')==='agent-release'"), 'Modern Hermes preferences/progress must win');
+  checks.push({modernPreferencesAndProgressWin:true});
+  summary = {checks,physicalIPhone:false};
 }
 
 if (phase === 'release-state') {

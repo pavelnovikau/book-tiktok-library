@@ -1,0 +1,47 @@
+{
+  "phase": "release-migration",
+  "origin": "owned-local-test-server",
+  "checks": [
+    {
+      "book": "atomic-habits.html",
+      "coverIdDiscarded": true
+    },
+    {
+      "book": "huberman-protocols.html",
+      "coverIdDiscarded": true
+    },
+    {
+      "book": "hermes-nous.html",
+      "coverIdDiscarded": true
+    },
+    {
+      "language": "ru",
+      "validLegacyId": "gateway",
+      "preferencesMigrated": true,
+      "restartNotResurrected": true,
+      "originalLegacyUnchanged": true
+    },
+    {
+      "language": "ru",
+      "removedLegacyId": "console",
+      "safeEssentialCover": true
+    },
+    {
+      "language": "en",
+      "validLegacyId": "gateway",
+      "preferencesMigrated": true,
+      "restartNotResurrected": true,
+      "originalLegacyUnchanged": true
+    },
+    {
+      "language": "en",
+      "removedLegacyId": "console",
+      "safeEssentialCover": true
+    },
+    {
+      "modernPreferencesAndProgressWin": true
+    }
+  ],
+  "physicalIPhone": false,
+  "runtimeErrors": 0
+}

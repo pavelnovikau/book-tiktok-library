@@ -1,6 +1,6 @@
 # Make Time — QA and handoff
 
-Date: 2026-10-31. Collector branch: `collector/make-time`. Base: `5d266aa`. Isolated local clone: `/Users/pn/.t3/worktrees/smartcat/t3-2f7a565b/_artifacts/book-tiktok-library`.
+Date: 2026-10-31. Collector branch: `collector/make-time`. Base: `5d266aa`. The public report deliberately omits transient checkout and private workstation paths.
 
 ## Delivered scope
 
@@ -14,7 +14,7 @@ Essential contains the complete loop, criteria of urgency/satisfaction/joy, 60�
 
 All 87 tactic numbers appear either individually or in mechanism-related groups. Grouping is intentional: this is an analytical digest, not an exhaustive replacement for each instruction in the book. Disagreements preserved: morning/evening, fasting/snacking, and rest/wholehearted engagement. Defaults and personal experiments remain the organizing logic. No claim that every tactic works for every reader or that sprint observations validate the complete package.
 
-Provenance: 104 `book`, 3 `corroboration`, 4 `synthesis`, plus 1 cover. Every non-cover screen carries source IDs. Eight source records: one local book and seven public companions/checks; the book's HTTP link is explicitly bibliographic, not a claim that the publisher page contains the full text. Exact EPUB locations and coverage crosswalk are in `sources.md`.
+Provenance: 104 `book`, 3 `corroboration`, and 5 `synthesis` screens including the cover. Every screen carries source IDs. Eight source records: one local book and seven public companions/checks; the book's HTTP link is explicitly bibliographic, not a claim that the publisher page contains the full text. Exact EPUB locations and coverage crosswalk are in `sources.md`.
 
 ## Exact counts and density
 
@@ -42,20 +42,14 @@ Body-only density, excluding headings/interface: RU 5297 words, mean 47.29, medi
 Used the maintained builder:
 
 ```sh
-node /Users/pn/.codex/skills/book-tiktok/scripts/build_story.mjs \
+node ~/.codex/skills/book-tiktok/scripts/build_story.mjs \
   collector-output/make-time/story-data.json \
   --out collector-output/make-time/make-time.html
-node /Users/pn/.codex/skills/book-tiktok/scripts/audit_story_html.mjs \
+node ~/.codex/skills/book-tiktok/scripts/audit_story_html.mjs \
   collector-output/make-time/make-time.html --min-screens 112 --require-bilingual
 ```
 
-Output-only shell corrections after the maintained build, without modifying the skill/template/shared scripts:
-
-1. `html[data-focus-mode="true"] .counter { display: none !important; }` — maintained template hid `.nav-position`, while actual markup uses `.counter`.
-2. `.story h1 { overflow-wrap: anywhere; }` — one long Russian word otherwise exceeded its 320 px content box by 2 px.
-3. `.library-button { width: auto; }` and `els.libraryButton.textContent = state.language === 'ru' ? 'Домой' : 'Home';` immediately after the title assignment in `renderStaticText` — textual home control instead of a glyph. Header remains inside 320 px in both languages.
-
-These three local adjustments must be retained if rebuilding from JSON with this template version. No content or counts were changed by them.
+The integration maintainer rebuilt the artifact with the current maintained template. Its compact localized home control, focus counter behavior and long-heading wrapping now work without generated-HTML patches. The editable JSON remains the canonical content source.
 
 Final deterministic audit output (path shortened only):
 
@@ -63,7 +57,7 @@ Final deterministic audit output (path shortened only):
 {
   "file": "collector-output/make-time/make-time.html",
   "format": "v2",
-  "bytes": 397515,
+  "bytes": 397262,
   "screenCount": 112,
   "levels": { "1": 30, "2": 42, "3": 40 },
   "modes": { "essential": 30, "core": 72, "deep": 112 },
@@ -112,7 +106,9 @@ The book supplies author experiences and hypotheses, not equal-quality proof for
 
 Browser coverage is desktop Chrome with emulated viewports, not physical iOS/Android or a full assistive-technology audit. Safe-area CSS is inherited and the Next control was checked inside all emulated viewports; actual notched-device insets were not measured. Home links to `./` for eventual root-level library integration; in this unregistered collector folder it does not launch the main catalogue. Registration, root-copying and deployment are deliberately deferred to the maintainer.
 
+During integration, the maintainer rebuilt the root reader from this JSON on the current template and ran the automatic whole-library browser gate across nine readers at 320×568, 390×844 and 1440×900. Catalogue counts, compact home navigation, focus enter/exit, topbar bounds and horizontal overflow passed with zero runtime errors. This supplements rather than replaces the collector's four-viewport matrix above.
+
 ## Integrity
 
-- `story-data.json` SHA-256: `53e34db18820c8103b036a7e9d747b4c617188b16488c4b73fca2bab19b5d69c`
-- `make-time.html` SHA-256: `9e0d7675191ab8ddeaf4bd5d4c2e97156b84aee2af090eef963466066eb896a8`
+- `story-data.json` SHA-256: `c743c6bfbc2ef52e9b3367979d24826d145d5d329baed74b5da55e5dbe3e7830`
+- `make-time.html` SHA-256: `eecc02626649b69ddf1d1546b50a8f2e5d8857870271c9ba888f4b3aad76c4dc`

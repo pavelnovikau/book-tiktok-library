@@ -4,7 +4,7 @@ Prepared before screen writing, 2026-10-31. Scope: supplied Russian EPUB, not a 
 
 ## Exact source and edition boundary
 
-Jake Knapp and John Zeratsky, «Найди время: Как фокусироваться на Главном». Supplied EPUB is an expanded directory at `/Users/pn/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents/Найди время Как фокусироваться на Главном.epub`. OPF identifier ISBN 9785961420517; language ru; date 2018-10-14; modification 2018-10-21. These are package metadata, not independently verified print publication dates. English copy in this digest is a fresh meaning-preserving translation of the analysis, not quotations or transcription from the English edition. EPUB pages are reflowable; references use package filenames and tactic numbers, never invented pages. Book drawings and cover are not redistributed.
+Jake Knapp and John Zeratsky, «Найди время: Как фокусироваться на Главном». The supplied EPUB is an expanded directory named `Найди время Как фокусироваться на Главном.epub`. OPF identifier ISBN 9785961420517; language ru; date 2018-10-14; modification 2018-10-21. These are package metadata, not independently verified print publication dates. English copy in this digest is a fresh meaning-preserving translation of the analysis, not quotations or transcription from the English edition. EPUB pages are reflowable; references use package filenames and tactic numbers, never invented pages. Book drawings and cover are not redistributed.
 
 ## Coherent claim map
 
@@ -21,7 +21,7 @@ Durable model: choose → protect → replenish → learn. Measure whether the i
 ## Ledger
 
 ### 1 — Supplied book (role: book; argument authority)
-Local direct URI: `file:///Users/pn/Library/Mobile%20Documents/iCloud~com~apple~iBooks/Documents/Найди%20время%20Как%20фокусироваться%20на%20Главном.epub/OEBPS/`
+Private source object: the user-supplied EPUB directory identified above. Its absolute workstation URI is deliberately omitted from this public ledger.
 Public bibliographic companion (HTML source link): https://www.penguinrandomhouse.com/books/564727/make-time-by-jake-knapp-and-john-zeratsky/
 Consulted: OPF, NCX, introductions, all tactic groups, Reflect, conclusion, quick start, sample-day prose and endnotes; paragraph extraction used for long groups, targeted full passages for central mechanisms. No claim to have read a complete English edition. Some sample schedules and diagrams are images; their visual detail is not used as factual evidence.
 Coverage/locators:

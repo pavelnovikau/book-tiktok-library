@@ -1,5 +1,14 @@
 # Work log
 
+## 2026-10-31 — release08: семь narrative readers и production proof release07
+
+Intake запечатан на7 readers/274 RU/EN pairs: Howl15/25/39, Northern17/22/43, Ender16/25/39, Mockingbird14/28/41, Hobbit15/23/35, Holes14/23/39, Heinlein17/25/38. Пять локальных findings закрыты отдельно; обратная подстановка воспроизводит4 исходных JSON и4 HTML hashes, original REQUIRES-FIXES сохранены. Три fresh independent PASS привязаны к текущим hashes. Выборочные первичные отрывки и подробные guides не названы полным чтением. Oxford остаётся reviewer evidence; publisher дополнительно прочитал DBE, сохранив факт прежнего parent timeout.
+
+Catalogue53 books/2,206 screens,6 новых semantic motifs, story descriptions и реальные runtime reading times. Другие46 roots/entries byte-identical, включая Meditations. Reviewed custom HTML перенесён без plain rebuild; maintained Settings/fonts/header синхронизированы. Removed/cover IDs безопасно возвращают Essential, retained Hobbit IDs возобновляются с current consent; старое session consent удаляется. Fresh state test обнаружил retained Howl consent после downgrade — root-only reset исправляет это без изменения collector/review content. Harness отдельно научен endingDialog Heinlein и nested cover paragraphs; diagnostics сохранены.
+
+7×69 structural assertions, focused Settings/real rendered fonts/radio isolation включая Hermes, corrected copy, consent/reload/downgrade, progress/migration,320/390/desktop dense tails, discovery/stats/equal tabs, safe-area/focus и offline проходят. Public allowlist64 assets. Release07 теперь отдельно production verified:58 HTTP200 hashes exacthead2fbd3f5,12 живых RU/EN readers, PHM native и Giver/Earthsea custom consent, private404. Old pending receipts сохранены. PR/head/check/merge/production release08 — в own receipts; Flowers/Dune исключены. Использован только подготовленный checkout, без subagents/новых checkouts; canonical copyback только own receipts/proof. Physical iPhone/Safari/PWA не проверялись.
+
+
 ## 2026-10-31 — release07: 12 readers, локальные meaning fixes и безопасная миграция
 
 Приняты 10 parent-localized исправлений по 14 findings и свежие exact-hash PASS Kuhn/Scott: 334 RU/EN pairs. Обратная замена только зафиксированных правок воспроизводит все 10 original reviewed SHA; исходные REQUIRES-FIXES reviews сохранены. Source limits и зависимость Behave от actual independent Mindscape reading после повторного timeout не скрыты.

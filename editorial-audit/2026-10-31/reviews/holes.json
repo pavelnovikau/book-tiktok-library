@@ -1,0 +1,908 @@
+{
+  "schemaVersion": 1,
+  "slug": "holes",
+  "work": "Louis Sachar — Holes (1998 novel)",
+  "date": "2026-10-31",
+  "reviewType": "fresh-independent-review",
+  "verdict": "PASS",
+  "requiredFindings": [],
+  "optionalTaste": [],
+  "decision": "The retained bilingual condensation tells an engaging, source-supported story. All 39 pairs, the effective embedded corpus and all six cumulative language/depth routes were read. No required narrative, translation, spoiler-boundary or material source-gap correction was found. This verdict applies to the frozen candidate hashes and the specifically retained chain, not to an unabridged full-book or official-translation certificate.",
+  "scope": {
+    "uniquePairsRead": 39,
+    "languageTextsRead": 78,
+    "effectiveEmbeddedPairsRead": 39,
+    "cumulativeRoutesRead": 6,
+    "nestedPairAppearances": 76,
+    "nestedLanguageScreenAppearances": 152,
+    "sourceMapNarrativeEntriesChecked": 37,
+    "oldCollectorPairsRead": 0,
+    "oldPublishedPairsRead": 0,
+    "oldContentReason": "No root Holes reader and no prior Holes entries in the scoped external baseline ZIP. Only the current implementation handoff exists for this title.",
+    "rulesRead": [
+      "editorial-audit/2026-10-31/BRIEF.md",
+      "CONTRIBUTING.md",
+      "skills/book-tiktok/SKILL.md",
+      "skills/book-tiktok/references/content-model.md",
+      "skills/book-tiktok/references/data-contract.md",
+      "skills/book-tiktok/references/html-spec.md"
+    ],
+    "reportsRead": [
+      "editorial-audit/2026-10-31/books/holes-sol-implementation.md",
+      "collector-output/holes/sources.md",
+      "collector-output/holes/QA.md",
+      "collector-output/holes/source-evidence-map.json",
+      "editorial-audit/2026-10-31/ready/holes.json",
+      "collector-output/holes/qa/parity.json",
+      "collector-output/holes/qa/final-summary.json",
+      "collector-output/holes/qa/holes-390-behavior.json"
+    ]
+  },
+  "reviewedHashes": [
+    {
+      "path": "collector-output/holes/story-data.json",
+      "before": "7d449c451a1d01512ea3d0c761a6f3436b23b42bcd73a8b6b98d4ec70ae715b9",
+      "after": "7d449c451a1d01512ea3d0c761a6f3436b23b42bcd73a8b6b98d4ec70ae715b9",
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/holes/holes.html",
+      "before": "e8e4a3b46ff3962489ef3d73a18f33790bd8042b93a1e9d64943bd599bdaa82a",
+      "after": "e8e4a3b46ff3962489ef3d73a18f33790bd8042b93a1e9d64943bd599bdaa82a",
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/holes/sources.md",
+      "before": "508219ce4bde41a868a1767c9b548ecfa97c9f4024963c6a38a248706a8d7d58",
+      "after": "508219ce4bde41a868a1767c9b548ecfa97c9f4024963c6a38a248706a8d7d58",
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/holes/QA.md",
+      "before": "f11e8fc32d869dcd26c68bd391a6bad22df76254fee7b39470fb30d71e06fbf6",
+      "after": "f11e8fc32d869dcd26c68bd391a6bad22df76254fee7b39470fb30d71e06fbf6",
+      "unchanged": true
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/holes.json",
+      "before": "f8cdef8aaf1ca371d96c52f5866c279dd828f90e5f5a9b36f429e5dbbe6f828b",
+      "after": "f8cdef8aaf1ca371d96c52f5866c279dd828f90e5f5a9b36f429e5dbbe6f828b",
+      "unchanged": true
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/holes-sol-implementation.md",
+      "before": "70fe0e36ffd2896a26c244e1765becbd48dd7dfa7bb880adad56d455066d50cf",
+      "after": "70fe0e36ffd2896a26c244e1765becbd48dd7dfa7bb880adad56d455066d50cf",
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/holes/source-evidence-map.json",
+      "before": "d02f7ac90c906035e746e7516604d8db73fd19fd41c51c6e1689240a240b016c",
+      "after": "d02f7ac90c906035e746e7516604d8db73fd19fd41c51c6e1689240a240b016c",
+      "unchanged": true
+    }
+  ],
+  "independentDeterministicChecks": {
+    "sameAuthoredFields": true,
+    "levels": {
+      "1": 14,
+      "2": 9,
+      "3": 16
+    },
+    "routes": {
+      "essential": {
+        "count": 14,
+        "ids": [
+          "cover",
+          "shoes-from-the-sky",
+          "camp-green-lake",
+          "caveman",
+          "elya-and-the-piglet",
+          "the-missed-promise",
+          "the-gold-tube",
+          "zero-asks",
+          "an-hour-for-letters",
+          "the-schoolhouse",
+          "zero-leaves",
+          "not-too-late",
+          "the-water-truck",
+          "final"
+        ],
+        "wordTotals": {
+          "ru": 753,
+          "en": 924
+        },
+        "computedMinutes": {
+          "ru": 5,
+          "en": 5
+        },
+        "embeddedModes": {
+          "label": {
+            "ru": "Главное",
+            "en": "Essential"
+          },
+          "minutes": {
+            "ru": "5 минут",
+            "en": "5 min"
+          }
+        }
+      },
+      "core": {
+        "count": 23,
+        "ids": [
+          "cover",
+          "shoes-from-the-sky",
+          "a-notebook-in-the-toilet",
+          "a-name-backwards",
+          "camp-green-lake",
+          "the-only-shade",
+          "caveman",
+          "elya-and-the-piglet",
+          "the-missed-promise",
+          "kissin-kate",
+          "letters-home",
+          "the-gold-tube",
+          "zero-asks",
+          "sunflower-seeds",
+          "an-hour-for-letters",
+          "what-kb-might-mean",
+          "the-schoolhouse",
+          "trout-walker",
+          "a-thumb-in-lightning",
+          "zero-leaves",
+          "not-too-late",
+          "the-water-truck",
+          "final"
+        ],
+        "wordTotals": {
+          "ru": 1138,
+          "en": 1393
+        },
+        "computedMinutes": {
+          "ru": 7,
+          "en": 7
+        },
+        "embeddedModes": {
+          "label": {
+            "ru": "Суть книги",
+            "en": "Core"
+          },
+          "minutes": {
+            "ru": "7 минут",
+            "en": "7 min"
+          }
+        }
+      },
+      "deep": {
+        "count": 39,
+        "ids": [
+          "cover",
+          "shoes-from-the-sky",
+          "a-notebook-in-the-toilet",
+          "a-name-backwards",
+          "camp-green-lake",
+          "the-only-shade",
+          "caveman",
+          "elya-and-the-piglet",
+          "the-missed-promise",
+          "kissin-kate",
+          "letters-home",
+          "the-gold-tube",
+          "zero-asks",
+          "sunflower-seeds",
+          "an-hour-for-letters",
+          "what-kb-might-mean",
+          "the-schoolhouse",
+          "trout-walker",
+          "across-the-lake",
+          "the-secret-stays-buried",
+          "a-thumb-in-lightning",
+          "zero-leaves",
+          "not-too-late",
+          "the-water-truck",
+          "under-mary-lou",
+          "the-climb",
+          "on-the-thumb",
+          "the-old-song",
+          "where-the-shoes-went",
+          "laney-park",
+          "back-to-the-hole",
+          "a-night-in-the-hole",
+          "the-name-on-the-suitcase",
+          "both-boys",
+          "the-onion-smell",
+          "rain-over-green-lake",
+          "the-papers-and-the-peaches",
+          "in-front-of-the-television",
+          "final"
+        ],
+        "wordTotals": {
+          "ru": 1899,
+          "en": 2355
+        },
+        "computedMinutes": {
+          "ru": 11,
+          "en": 11
+        },
+        "embeddedModes": {
+          "label": {
+            "ru": "Глубоко",
+            "en": "Deep"
+          },
+          "minutes": {
+            "ru": "11 минут",
+            "en": "11 min"
+          }
+        }
+      }
+    },
+    "uniqueScreenIds": 39,
+    "evidenceMapMatches": true
+  },
+  "independentAcceptanceBasis": "Personal complete paired/route reading and independent consultation of identified source passages/accounts. Writer READY and structural/browser passes were inspected as implementation records, not accepted as independent editorial proof.",
+  "sourceScope": {
+    "primaryEdition": "Bloomsbury YA 2023 publisher sample of 1998 text, ePDF 9781526634191",
+    "primaryNovelPassagesActuallyRead": "Chapters 1–4 and opening of 5, printed pp. 3–16; source ends mid-sentence.",
+    "completeNovelObtainedByReviewer": false,
+    "completeNovelReadContinuously": false,
+    "officialRussianTranslationConsulted": false,
+    "privateLibrarySearchedByReviewer": false,
+    "writerOwnedLibraryInventory": "Inspected the writer's zero-match report only; did not repeat or independently certify its private metadata search.",
+    "primarySupportBoundary": "Only the stated sample, genuine short quotations embedded in the named guides, and actual author statements count as primary. Guide plot prose and SparkNotes Summary remain secondary even when their chapter references are precise.",
+    "sources": [
+      {
+        "id": "P1",
+        "url": "https://api.pageplace.de/preview/DT0400.9781526634191_A40517308/preview-9781526634191_A40517308.pdf",
+        "role": "primary-novel-excerpt",
+        "work": "Holes (1998 text), Bloomsbury YA 2023 sample, ePDF ISBN 9781526634191",
+        "actuallyRead": "Copyright/edition page (PDF p. 6); narrative chapters 1–4 and beginning of chapter 5, printed pp. 3–16 / PDF pp. 15–28. Chapter 5 ends mid-sentence.",
+        "downloadBytes": 975742,
+        "sha256": "91f1ded4e84f2a2b0d555efddb808bd1ecd6589af7ce29ba438625fb13a97c3f",
+        "access": "Public publisher PDF fetched in memory and extracted with pdftotext; no source file written."
+      },
+      {
+        "id": "G1",
+        "url": "https://www.scholastic.com/content/dam/teachers/activities/migrated-files-in-body/holes-bookfiles.pdf",
+        "role": "named-accountable-secondary-guide-with-embedded-primary-passages-and-author-interview",
+        "work": "Monique Vescia, Scholastic BookFiles: A Reading Guide to Holes; first printing July 2003, ISBN 043946336X",
+        "actuallyRead": "Copyright/identity; printed pp. 9–18, 26–47 and bibliography p. 64. Read connected plot, settings, characters, primary quotations and author interview. Critical commentary is distinguished from events.",
+        "downloadBytes": 273539,
+        "sha256": "3a08fccf8e3700e623257f4a33777b261234192083f035c3544557a3c5490b6c",
+        "access": "Public Scholastic PDF fetched in memory and extracted with pdftotext; no source file written."
+      },
+      {
+        "id": "A1",
+        "url": "https://www.louissachar.com/holes-q--a.html",
+        "role": "author-q-and-a",
+        "actuallyRead": "Complete Holes Q & A, including interweaving, Kate/Sam, the discarded Kate-descendant idea versus final Trout-granddaughter relationship, venom-polish and torture answers.",
+        "access": "Public page; web extraction and direct in-memory HTML text."
+      },
+      {
+        "id": "G2",
+        "url": "https://www.bloomsbury.com/media/dn5p2f3s/holes-teachers-notes.pdf",
+        "role": "publisher-teaching-guide-with-short-primary-quotations",
+        "actuallyRead": "All five PDF pages through web text, with particular checks of Q3, Q10–17, Q21, Q23–24 and the final discussion/resource material. Quoted clauses and explicit supplied events were separated from questions and conjectured motives.",
+        "access": "Direct Python fetch returned HTTP 403. Public web-tool PDF extraction was available and was read. No login or access bypass."
+      },
+      {
+        "id": "S3",
+        "url": "https://www.sparknotes.com/lit/holes/section3/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 6–7; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      },
+      {
+        "id": "S6",
+        "url": "https://www.sparknotes.com/lit/holes/section6/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 17–19; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      },
+      {
+        "id": "S7",
+        "url": "https://www.sparknotes.com/lit/holes/section7/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 20–24; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      },
+      {
+        "id": "S8",
+        "url": "https://www.sparknotes.com/lit/holes/section8/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 25–29; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      },
+      {
+        "id": "S9",
+        "url": "https://www.sparknotes.com/lit/holes/section9/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 30–35; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      },
+      {
+        "id": "S10",
+        "url": "https://www.sparknotes.com/lit/holes/section10/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 36–43; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      },
+      {
+        "id": "S11",
+        "url": "https://www.sparknotes.com/lit/holes/section11/",
+        "role": "secondary-named-chapter-event-account",
+        "actuallyRead": "All Summary accounts for chapters 44–50; Analysis is not evidence of events, motives, moral lessons or authorial intention.",
+        "access": "Public web-tool text. Direct Python fetch of later pages returned HTTP 403; no account, payment or bypass."
+      }
+    ],
+    "remainingLimits": [
+      "Later action relies substantially on the named secondary guides, not primary chapters read continuously.",
+      "Some genuine quotations embedded in guides supply a narrow hinge or a reaction, not the whole surrounding event. Independent evidence grading below preserves that distinction.",
+      "No continuous complete novel or official Russian translation claim; no real-world historical, zoological, clinical or scientific validation is inferred from fiction."
+    ]
+  },
+  "narrativeAssessment": {
+    "verdict": "PASS",
+    "reason": "Characters perform concrete actions with consequences: misplaced shoes, brutal absurd camp routine, false KB find, reciprocal lessons, fights, search, sick friend carried, night standoff, name/records/alibi and family reunion. Recurring shoes, names, song, onions and peaches connect the three periods. Humor and danger survive condensation; story events carry the ethical meaning. No management/moral replacement, fabricated dialogue or quota padding found.",
+    "routes": {
+      "essential": "Coherent invitation, injustice/camp, family thread, discovery, friendship and search, stopping before reunion or solutions.",
+      "core": "Adds bullying, repeated-name joke, outlaw, letters, venom/water episode, lipstick hypothesis, Sam/Katherine/Trout and thumb clue; stops at the same unresolved search.",
+      "deep": "Completes both past lines and present action with correctly supported cause/order, culminating in legal and family answers."
+    },
+    "bilingualAssessment": "All 39 pairs preserve names, relationships, causes, certainty and spoiler levels. RU is this condensation's rendering, not claimed to be an official published translation.",
+    "ancestryAndAmbiguity": "Elya's great-great-grandson and Madame Zeroni's great-great-great-grandson are distinguished from robbed great-grandfather Stanley I. Warden is Trout's granddaughter. Song/water/carrying parallel and invention timing remain story events; mother's disbelief prevents certainty about a literal curse mechanism.",
+    "ethicsAndWorldClaims": "The white teacher/Black man's kiss, town violence, sheriff and murder remain causally explicit without a modern lecture. Onions/lizards/rain remain within fiction; Zero's stomach pain is not diagnosed."
+  },
+  "perScreen": [
+    {
+      "screenId": "cover",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1"
+      ],
+      "reason": "Original invitation and accurate spoiler promise; no outcome or invented quotation."
+    },
+    {
+      "screenId": "shoes-from-the-sky",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1",
+        "S3"
+      ],
+      "reason": "Primary chs. 2–3 establish camp choice, poverty and shoe-recycling father; ch. 6 Summary supplies falling shoes, running/arrest and charity-theft chain."
+    },
+    {
+      "screenId": "a-notebook-in-the-toilet",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1",
+        "S3"
+      ],
+      "reason": "Primary ch. 3 establishes overweight bullied Stanley; ch. 6 Summary supplies Derrick, toilet, missed bus and overpass."
+    },
+    {
+      "screenId": "a-name-backwards",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1"
+      ],
+      "reason": "Primary ch. 3, printed pp. 8–10: joke/disbelief, inherited palindrome, III/IV, apartment and experiments. Not a literal curse proof."
+    },
+    {
+      "screenId": "camp-green-lake",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1",
+        "G1"
+      ],
+      "reason": "Primary chs. 1–4, pp. 3–15; five-foot measurements, dawn start, empty canteen, no fence and Mr. Sir's water claim are preserved."
+    },
+    {
+      "screenId": "the-only-shade",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1"
+      ],
+      "reason": "Primary ch. 1, pp. 3–4. Fatal lizards explicitly confined to this story."
+    },
+    {
+      "screenId": "caveman",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S3",
+        "G2"
+      ],
+      "reason": "Scholastic pp. 27, 41–45; ch. 7 Summary; publisher Q3 quoted Mom. Concrete blisters, group names, nickname and Stanley's discomfort carry the scene."
+    },
+    {
+      "screenId": "elya-and-the-piglet",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "A1",
+        "S3"
+      ],
+      "reason": "Ch. 7 Summary plus Scholastic pp. 28, 36, 42 and author interview: pig, training, water/song and threatened promise. No invented weights, dialogue or ritual law."
+    },
+    {
+      "screenId": "the-missed-promise",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S3"
+      ],
+      "reason": "Ch. 7 Summary and Scholastic pp. 28, 36: uninterested Myra, departure, forgotten promise, real remorse and inherited song. Remorse has a genuine novel quotation on p. 36."
+    },
+    {
+      "screenId": "kissin-kate",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1",
+        "G1"
+      ],
+      "reason": "Primary ch. 3, pp. 9–10: robbed Stanley I is the present boy's great-grandfather, distinct from Elya. Beach-house joke supported."
+    },
+    {
+      "screenId": "letters-home",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1"
+      ],
+      "reason": "Scholastic pp. 27, 43–44: Stanley's letters TO his mother, claimed friends/lake day and wish not to worry her. This is paraphrase, not invented quoted dialogue."
+    },
+    {
+      "screenId": "the-gold-tube",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1"
+      ],
+      "reason": "Scholastic p. 27 connected account and embedded wrong-place clause: KB, X-Ray's false find, Warden's search and original location all retained."
+    },
+    {
+      "screenId": "zero-asks",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "G2",
+        "S6",
+        "S7"
+      ],
+      "reason": "Chs. 18 and 22 Summary plus Scholastic pp. 39, 45–46: initial refusal, illiteracy, arithmetic and abusive dismissal. No fabricated reason for refusal."
+    },
+    {
+      "screenId": "sunflower-seeds",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "A1",
+        "G2",
+        "S6",
+        "S7"
+      ],
+      "reason": "Chs. 19–24 Summary; Scholastic p. 43; author and publisher notes: taking blame, venom scratch, water retaliation and Zero helping. No speculative Warden motive."
+    },
+    {
+      "screenId": "an-hour-for-letters",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S7",
+        "S8"
+      ],
+      "reason": "Chs. 22, 27 Summary: agreed hour, energy for lesson, arithmetic, writing Hector Zeroni and other boys' resentment. Early name is a clue; ancestry answer is not asserted here."
+    },
+    {
+      "screenId": "what-kb-might-mean",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S7"
+      ],
+      "reason": "Ch. 22 Summary confirms lipstick comparison and Stanley's question; preserves uncertainty."
+    },
+    {
+      "screenId": "the-schoolhouse",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S7",
+        "S8"
+      ],
+      "reason": "Chs. 23, 25 Summary and Scholastic pp. 28, 33: peaches, repairs and chosen conversations; Sam's exclusion from school remains concrete."
+    },
+    {
+      "screenId": "trout-walker",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S7",
+        "S8"
+      ],
+      "reason": "Chs. 23, 25 Summary: rich Trout's foot odor, refused motorboat invitation and witnessed kiss; no extra private motive."
+    },
+    {
+      "screenId": "across-the-lake",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "A1",
+        "G2",
+        "S8"
+      ],
+      "reason": "Ch. 26 Summary, Scholastic pp. 28, 36 and publisher Q16 quotation: racist attack, sheriff threat, faster motorboat, murder and subsequent drought. Not real-world historical proof."
+    },
+    {
+      "screenId": "the-secret-stays-buried",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "A1",
+        "S8"
+      ],
+      "reason": "Chs. 26, 28 Summary; Scholastic p. 28 embedded primary sheriff/outlaw passage; author torture answer. Kate's revenge, twenty years, Linda/Trout, lizard death and unrevealed location supported."
+    },
+    {
+      "screenId": "a-thumb-in-lightning",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S7",
+        "S8"
+      ],
+      "reason": "Chs. 21, 29 Summary and Scholastic p. 29 refuge quotation. A clue to the old refuge, without asserting the later rescue."
+    },
+    {
+      "screenId": "zero-leaves",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "G2",
+        "S9"
+      ],
+      "reason": "Ch. 30 Summary and Scholastic pp. 28–29, 46: quarrel, defense, adult humiliation, shovel strike, departure, thirst expectation and seven-hole demand."
+    },
+    {
+      "screenId": "not-too-late",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S9"
+      ],
+      "reason": "Ch. 31 Summary and Scholastic pp. 29, 38, 44: erasure plan and Stanley's actual fear of failing to help while help remains possible. Not added moral coaching."
+    },
+    {
+      "screenId": "the-water-truck",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S9"
+      ],
+      "reason": "Chs. 32–34 Summary and Scholastic p. 29: truck attempt, crash, running/search. Coherent unresolved stop for both shallow modes."
+    },
+    {
+      "screenId": "under-mary-lou",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S9"
+      ],
+      "reason": "Chs. 34–35 Summary and Scholastic pp. 35, 46: boat, found Zero, sploosh sharing/refusal and illness. Past objects are identified through the guide's connected account; no medical cause asserted."
+    },
+    {
+      "screenId": "the-climb",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S10"
+      ],
+      "reason": "Chs. 36–38 Summary and Scholastic pp. 29, 46: Zero's shovel help and injured hands precede Stanley carrying him."
+    },
+    {
+      "screenId": "on-the-thumb",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S10"
+      ],
+      "reason": "Chs. 38–40 Summary and Scholastic p. 29: damp ground, water/onions, initial theft confession BEFORE song."
+    },
+    {
+      "screenId": "the-old-song",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "G2",
+        "S10",
+        "S11"
+      ],
+      "reason": "Scholastic p. 35 genuine narrator lineage/timing quotation; pp. 29, 36–38; publisher Q23 mother's disbelief; chs. 39, 43, 50 Summary. Correct two-generation counts; fulfilled parallel without asserted supernatural mechanics."
+    },
+    {
+      "screenId": "where-the-shoes-went",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "G2",
+        "S10"
+      ],
+      "reason": "Ch. 41 Summary and publisher Q17: unable to read notice, old versus new shoe decision, PARKED car, arrest for a later pair. No film bridge-throwing version."
+    },
+    {
+      "screenId": "laney-park",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S10"
+      ],
+      "reason": "Scholastic p. 46 actual quoted park/month/tunnel exchange and ch. 43 Summary supply mother's instruction and song variant. No invented abandonment motive."
+    },
+    {
+      "screenId": "back-to-the-hole",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S10",
+        "S11"
+      ],
+      "reason": "Chs. 42–44 Summary and Scholastic p. 29: recovery, remembered actual find-location, return, night excavation, water/onions. Travel not incorrectly made nocturnal."
+    },
+    {
+      "screenId": "a-night-in-the-hole",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "A1",
+        "S11"
+      ],
+      "reason": "Chs. 44–46 Summary, Scholastic pp. 29, 38–39, p. 39 actual childhood-digging quotation; author's explicit Trout-granddaughter answer. Standoff, danger and adults' cover story remain events."
+    },
+    {
+      "screenId": "the-name-on-the-suitcase",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1",
+        "G1",
+        "S11"
+      ],
+      "reason": "Chs. 47–48 Summary, Scholastic p. 30 and author's interview p. 17; primary ch. 3 constrains robbed ancestor/name. Zero's learned reading has an actual payoff."
+    },
+    {
+      "screenId": "both-boys",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S11"
+      ],
+      "reason": "Chs. 48–49 Summary and Scholastic pp. 30, 40: Stanley's refusal, missing records, joint departure and Derrick's alibi. The alibi account on p. 40 is Vescia's prose; its embedded novel quotation concerns Stanley's embarrassment, not a standalone alibi statement."
+    },
+    {
+      "screenId": "the-onion-smell",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S11"
+      ],
+      "reason": "Ch. 49 Summary expressly supplies onion-based lizard protection; Scholastic pp. 29, 33 supplies adjacent story-world setting. Secondary-supported fictional explanation, not zoology or health advice."
+    },
+    {
+      "screenId": "rain-over-green-lake",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "P1",
+        "G1",
+        "S11"
+      ],
+      "reason": "Chs. 49–50 Summary and Scholastic pp. 30, 39; primary ch. 4 supports Girl Scout callback. No imported film arrests."
+    },
+    {
+      "screenId": "the-papers-and-the-peaches",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S11"
+      ],
+      "reason": "Ch. 50 Summary for jewels/financial papers, shared outcome, house and investigator; genuine narrator quotation on Scholastic p. 35 for invention's day-after timing. No exact fortune total or literal curse causation added."
+    },
+    {
+      "screenId": "in-front-of-the-television",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [
+        "G1",
+        "S11"
+      ],
+      "reason": "Ch. 50 Summary specifies commercial, Livingston present, woman resembling Hector and song; Scholastic pp. 38, 45–46 constrains his mother/family context. Reunion does not receive an invented scene or motive."
+    },
+    {
+      "screenId": "final",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveRead": true,
+      "verdict": "PASS",
+      "sources": [],
+      "reason": "Shared navigation/framing accurately states shallow stop and Deep continuation; no ending detail."
+    }
+  ],
+  "spoilerAssessment": {
+    "verdict": "PASS",
+    "scope": "Full static review of the effective reader's scripts and all cover/final/global Sources/method copy, alongside existing current-hash behavior receipts. No fresh browser run.",
+    "contentBoundary": "All decisive historical outcomes, reunion, explicit ancestry, theft answer, treasure/name, legal release and final family outcomes are level 3. Shallow clues such as KB and Hector Zeroni's name are not presented as solved ancestry.",
+    "coverFinalSourcesMethod": "Spoiler-safe in both languages; external sources carry explicit spoiler notices. Shared final discloses navigation only.",
+    "contentsAndRail": "safeTitle masks every level-3 title whenever consent is absent or depth is not Deep. Both contents surfaces use it.",
+    "firstLateAccess": "setMode, goToId and goToPosition gate Deep actions with localized explicit modal consent; contents closes before the consent modal opens.",
+    "cancelEscape": "Both clear pending action without changing position, mode or saved lastScreen. No late content is rendered before acceptance.",
+    "reloadDowngrade": "Consent is a non-persisted local variable. Saved Deep mode is downgraded before initial render; any shallower setMode revokes consent.",
+    "continue": "renderCover uses generic Deep spoiler wording instead of a saved late title; accepted Continue uses the exact saved ID, and rejected Continue preserves it.",
+    "runtimeConcernRequiringBrowser": false
+  },
+  "browserAndImplementationLimits": {
+    "newBrowserRuns": 0,
+    "reason": "No concrete runtime defect emerged from script inspection; the user requested targeted browser work only for a concrete issue. Did not rerun the writer's large matrix.",
+    "writerReceiptsInspected": "Current-hash parity, final summary and 390px behavior. These remain writer checks, not newly executed reviewer tests.",
+    "nativeTouch": "Writer explicitly discloses two bounded native-touch synthesis failures. This is a test limitation, not evidence that ordinary navigation failed.",
+    "physicalIPhoneSafariTest": false,
+    "claimedPhysicalSafari": false,
+    "serversStarted": 0,
+    "chromeProcessesStarted": 0,
+    "sourceFilesWritten": 0
+  },
+  "nonBlockingSourceRoleNotes": [
+    {
+      "screenId": "both-boys",
+      "category": "source-role-precision",
+      "severity": "informational",
+      "candidateWording": "sources.md calls the notebook/alibi callback constrained by a 'primary passage embedded on Scholastic p. 40'; the implementation handoff similarly calls it a primary alibi passage.",
+      "actualEvidence": "Vescia's own prose on p. 40 supplies Derrick's account. The embedded novel sentence describes Stanley's embarrassed reaction. SparkNotes ch. 49 independently supplies the actual timed alibi.",
+      "url": "https://www.scholastic.com/content/dam/teachers/activities/migrated-files-in-body/holes-bookfiles.pdf",
+      "location": "Printed p. 40; novel ch. 49 via the named guide",
+      "suggestedPrecision": "Call this 'Vescia's alibi account, with an embedded novel reaction' rather than a direct alibi quotation.",
+      "readerRU": "именно Деррик подтвердил, что в момент кражи тот ещё вытаскивал из унитаза тетрадь.",
+      "readerEN": "Derrick confirmed that at the time of the theft he was still fishing his notebook out of the toilet.",
+      "blocksAcceptance": false,
+      "reason": "Reader event is supported and accurately retold. This note limits evidence grading; it does not create a missing narrative hinge."
+    },
+    {
+      "screenId": "letters-home",
+      "category": "source-role-precision",
+      "severity": "informational",
+      "candidateWording": "The working source ledger and handoff shorthand 'mother's letter' for the primary quotation on Scholastic p. 44.",
+      "actualEvidence": "That quoted lake-day letter is written BY Stanley TO his mother. Vescia also discusses her letter separately on p. 38.",
+      "url": "https://www.scholastic.com/content/dam/teachers/activities/migrated-files-in-body/holes-bookfiles.pdf",
+      "location": "Printed pp. 38, 44",
+      "suggestedPrecision": "Describe the p. 44 quotation as 'Stanley's letter to his mother'.",
+      "readerRU": "пишет матери о лагере",
+      "readerEN": "He writes to his mother",
+      "blocksAcceptance": false,
+      "reason": "The actual RU/EN narrative already has the direction of the letter correct."
+    }
+  ],
+  "boundary": {
+    "writesOnly": [
+      "editorial-audit/2026-10-31/reviews/holes.json",
+      "editorial-audit/2026-10-31/reviews/holes.md"
+    ],
+    "candidateEdited": false,
+    "readyEdited": false,
+    "sharedShellEdited": false,
+    "gitOrPRUsed": false,
+    "published": false,
+    "subagentsStarted": 0,
+    "waitOrPollUsed": false,
+    "fullSourceFilesAddedToPublicRepo": false,
+    "privateBookListingsOpened": false
+  },
+  "handoff": "PASS for the exact authoring/HTML hashes. Parent owns integration and any optional source-label precision edits; no self-fix or publication performed."
+}

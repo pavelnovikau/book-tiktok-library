@@ -316,7 +316,7 @@ if (phase === 'discovery') {
     ['ИИ', ['hermes-nous', 'akselerando']], ['Сунь цзы', ['the-art-of-war']],
     ['Философия и смысл', catalogue.books.filter(book => book.subjects.includes('philosophy-meaning')).map(book => book.slug)],
     ['Psychology and relationships', catalogue.books.filter(book => book.subjects.includes('psychology-relationships')).map(book => book.slug)],
-    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness', 'atomic-habits', 'huberman-protocols', 'hermes-nous', 'thinking-fast-and-slow', 'thinking-in-systems', 'project-hail-mary', 'the-giver', 'governing-the-commons', 'the-structure-of-scientific-revolutions', 'seeing-like-a-state', 'determined', 'theory-of-constraints', '1873', 'a-wizard-of-earthsea']
+    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man', 'monday-begins-on-saturday', 'meditations', 'the-left-hand-of-darkness', 'atomic-habits', 'huberman-protocols', 'hermes-nous', 'thinking-fast-and-slow', 'thinking-in-systems', 'project-hail-mary', 'the-giver', 'governing-the-commons', 'the-structure-of-scientific-revolutions', 'seeing-like-a-state', 'determined', 'theory-of-constraints', '1873', 'a-wizard-of-earthsea'].concat(releaseBooks.map(file=>file.slice(0,-5)))
       .flatMap(slug => {
         const book = catalogue.books.find(book => book.slug === slug);
         return book ? [[book.title.ru, [slug]], [book.title.en, [slug]]] : [];
@@ -635,7 +635,7 @@ if (phase === 'repaired') {
             if (document.documentElement.dataset.theme !== theme) BookSettings.set("theme", document.documentElement.dataset.theme === "dark" ? "light" : "dark");
             for (const [mode, level] of [['essential', 1], ['core', 2], ['deep', 3]]) {
               document.querySelector('[data-mode="' + mode + '"]').click();
-              document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();
+              document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept, #endingDialog[open] #endingAccept')?.click();
               await Promise.resolve();
               const visible = data.screens.filter(s => s.level <= level);
               const contents = [...document.querySelectorAll('#contentsList [data-go-to]')];
@@ -797,9 +797,9 @@ if (phase === 'release-consent') {
   const modalDecisions = [];
   async function decide(accept) {
     const modal = await evaluate(`(() => {
-      const dialog = document.querySelector('#accelerandoSpoilerDialog[open], #spoilerDialog[open]');
+      const dialog = document.querySelector('#accelerandoSpoilerDialog[open], #spoilerDialog[open], #endingDialog[open]');
       if (!dialog) return null;
-      const selected = dialog.querySelector(${JSON.stringify(accept ? '[data-spoiler-accept], #spoilerAccept' : '[data-spoiler-cancel], #spoilerCancel')});
+      const selected = dialog.querySelector(${JSON.stringify(accept ? '[data-spoiler-accept], #spoilerAccept, #endingAccept' : '[data-spoiler-cancel], #spoilerCancel, #endingCancel')});
       if (!selected) throw Error('Missing book-local consent control');
       const result = { id: dialog.id, accepted: ${accept}, title: dialog.querySelector('h2').textContent };
       selected.click(); return result;
@@ -856,10 +856,10 @@ if (phase === 'release-tail') {
   for (const book of releaseBooks) {
     const data = JSON.parse(fs.readFileSync(path.join(root, book), 'utf8').match(/<script id="book-tiktok-data" type="application\/json">\s*([\s\S]*?)<\/script>/)[1]);
     const longest = data.screens.filter(s=>s.type!=='cover'&&!s.final).sort((a,b)=>b.copy.ru.body.length-a.copy.ru.body.length)[0];
-    for (const [language, theme, width] of [['ru','dark',320],['en','light',1440]]) {
-      await command('Emulation.setDeviceMetricsOverride', {width,height:width===320?568:900,deviceScaleFactor:1,mobile:width<900});
+    for (const [language, theme, width] of [['ru','dark',320],['en','light',320],['ru','light',390],['en','dark',1440]]) {
+      await command('Emulation.setDeviceMetricsOverride', {width,height:width===320?568:width===390?844:900,deviceScaleFactor:1,mobile:width<900});
       await navigate(book, "document.querySelector('[data-start]')");
-      await evaluate(`if(document.documentElement.lang!=='${language}')languageButton.click(); BookSettings.set('theme','${theme}'); document.querySelector('[data-mode=deep]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click()`);
+      await evaluate(`if(document.documentElement.lang!=='${language}')languageButton.click(); BookSettings.set('theme','${theme}'); document.querySelector('[data-mode=deep]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept, #endingDialog[open] #endingAccept')?.click()`);
       await evaluate(`document.querySelector('#contentsList [data-go-to="${longest.id}"]').click()`);
       for (const font of ['sans','serif']) {
         await evaluate(`BookSettings.set('readingFont','${font}'); document.fonts.ready.then(()=>true)`);
@@ -876,7 +876,7 @@ if (phase === 'release-tail') {
       if(width===320){const shot=await command('Page.captureScreenshot',{format:'png'});fs.writeFileSync(path.join(outputDir,book.slice(0,-5)+'-dense-320.png'),Buffer.from(shot.data,'base64'));}
     }
   }
-  summary={checks,scope:'Longest actual reading screen in each accepted book, RU320dark/EN1440light, both fonts; corrected screens have a separate exact-copy phase.'};
+  summary={checks,scope:'Longest actual reading screen in each accepted book, RU/EN320, RU390, EN1440, both fonts; corrected screens have a separate exact-copy phase.'};
 }
 
 if (phase === 'release-closures') {
@@ -890,7 +890,7 @@ if (phase === 'release-closures') {
     for (const [language, theme, width] of [['ru', 'dark', 320], ['en', 'light', 1440]]) {
       await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : 900, deviceScaleFactor: 1, mobile: width < 900 });
       await navigate(book, "document.querySelector('[data-start]')");
-      await evaluate(`if (document.documentElement.lang !== '${language}') languageButton.click(); BookSettings.set('theme', '${theme}'); document.querySelector('[data-mode=deep]').click(); document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click();`);
+      await evaluate(`if (document.documentElement.lang !== '${language}') languageButton.click(); BookSettings.set('theme', '${theme}'); document.querySelector('[data-mode=deep]').click(); document.querySelector('#accelerandoSpoilerDialog [data-spoiler-accept], #spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept, #endingDialog[open] #endingAccept')?.click();`);
       await evaluate('Promise.resolve(true)');
       for (const id of candidate.checkedScreens) {
         await evaluate(`document.querySelector('#contentsList [data-go-to="${id}"]').click()`);
@@ -899,11 +899,11 @@ if (phase === 'release-closures') {
           const expected = document.createElement('template'); expected.innerHTML = screen.copy['${language}'].body;
           const scroll = document.querySelector('.slide-scroll');
           scroll.scrollTop = scroll.scrollHeight;
-          const tail = [...scroll.querySelectorAll(':scope > p')].filter(node => getComputedStyle(node).display !== 'none').at(-1);
+          const tail = [...scroll.querySelectorAll('p')].filter(node => getComputedStyle(node).display !== 'none').at(-1);
           return { title: document.querySelector('#story h1').textContent === screen.copy['${language}'].title,
             body: scroll.textContent.includes(expected.content.textContent), overflow: scroll.scrollWidth > scroll.clientWidth + 1 || document.documentElement.scrollWidth > innerWidth + 1,
             lastLineReachable: tail && tail.getBoundingClientRect().bottom <= scroll.getBoundingClientRect().bottom + 1,
-            sourceMap: screen.sources.length > 0 || screen.id === 'final' };
+            sourceMap: screen.sources.length > 0 || screen.id === 'final' || screen.type === 'cover' };
         })()`);
         assert(result.title && result.body && !result.overflow && result.sourceMap && result.lastLineReachable, `${book}/${language}/${id}: changed-copy integration failed: ${JSON.stringify(result)}`);
         checks.push({ book, language, theme, width, id, ...result });
@@ -918,10 +918,22 @@ if (phase === 'release-migration') {
   for (const book of releaseBooks) {
     const slug = book.slice(0, -5);
     await navigate(book, "document.querySelector('[data-start]')");
-    await evaluate(`Object.keys(localStorage).filter(key => key.startsWith('book-tiktok.${slug}.')).forEach(key => localStorage.removeItem(key)); localStorage.setItem('book-tiktok.${slug}.lastScreen','cover')`);
-    await navigate(book, "document.querySelector('[data-start]')");
-    assert(await evaluate(`!localStorage.getItem('book-tiktok.${slug}.lastScreen') && !document.querySelector('[data-start=continue]') && Boolean(document.querySelector('.cover-layout'))`), `${book}: cover saved ID survived`);
-    checks.push({book,coverIdDiscarded:true});
+    for (const removedId of ['cover', 'not-a-current-screen', ...(slug === 'the-hobbit' ? ['a-voice-nearby', 'a-contract'] : [])]) {
+      await evaluate(`Object.keys(localStorage).filter(key => key.startsWith('book-tiktok.${slug}.')).forEach(key => localStorage.removeItem(key)); localStorage.setItem('book-tiktok.${slug}.lastScreen','${removedId}'); localStorage.setItem('book-tiktok.${slug}.mode','core'); localStorage.setItem('book-tiktok.${slug}.language','en')`);
+      await navigate(book, "document.querySelector('[data-start]')");
+      assert(await evaluate(`!localStorage.getItem('book-tiktok.${slug}.lastScreen') && !document.querySelector('[data-start=continue]') && Boolean(document.querySelector('.cover-layout')) && Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && document.documentElement.lang==='en'`), `${book}: invalid/cover saved ID survived: ${removedId}`);
+      checks.push({book,removedId,safeEssentialCover:true,languagePreserved:true});
+    }
+    if (slug === 'the-hobbit') {
+      for (const validId of ['a-good-morning','e-gollum']) {
+        await evaluate(`localStorage.setItem('book-tiktok.${slug}.lastScreen','${validId}'); localStorage.setItem('book-tiktok.${slug}.mode','deep'); sessionStorage.setItem('book-tiktok.${slug}.spoilerConsent','3')`);
+        await navigate(book, "document.querySelector('[data-start=continue]')");
+        assert(await evaluate(`!sessionStorage.getItem('book-tiktok.${slug}.spoilerConsent') && Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]'))`), 'Hobbit: old session approval survived');
+        await evaluate("document.querySelector('[data-start=continue]').click(); document.querySelector('#spoilerDialog[open] #spoilerAccept')?.click()");
+        assert(await evaluate(`document.querySelector('#story h1').textContent===JSON.parse(document.getElementById('book-tiktok-data').textContent).screens.find(s=>s.id==='${validId}').copy.en.title`), 'Hobbit: retained old ID did not resume');
+        checks.push({book,validId,resumed:true,staleSessionConsentCleared:true});
+      }
+    }
   }
   const migrations = [
     { book:'1873.html', old:'book1873', valid:'bimetallism', removed:'thesis', marker:'legacyMigration07' },
@@ -965,26 +977,26 @@ if (phase === 'release-state') {
       assert(await evaluate("Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: fresh reader is not Essential/cover`);
       const stable = await evaluate(`(() => { const data = JSON.parse(document.getElementById('book-tiktok-data').textContent); const screen = data.screens.find(s => s.level === 2); localStorage.setItem('book-tiktok.${slug}.lastScreen', screen.id); return { id: screen.id, title: screen.copy['${language}'].title }; })()`);
       await navigate(book, "document.querySelector('[data-start=continue]')");
-      await evaluate("document.querySelector('[data-start=continue]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept')?.click()");
+      await evaluate("document.querySelector('[data-start=continue]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept, #endingDialog[open] #endingAccept')?.click()");
       assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(stable.title)}`), `${book}/${language}: Core stable saved ID was not restored`);
       await evaluate("sourcesButton.click()");
       assert(await evaluate(`sourcesDialog.open && methodNote.textContent === JSON.parse(document.getElementById('book-tiktok-data').textContent).methodNote['${language}']`), `${book}/${language}: source scope changed`);
       await evaluate("sourcesDialog.close(); document.querySelector('#contentsList [data-go-to=final]').click(); nextButton.click()");
       assert(await evaluate(`!localStorage.getItem('book-tiktok.${slug}.lastScreen') && Boolean(document.querySelector('[data-start=begin]'))`), `${book}/${language}: final restart retained saved progress`);
-      const custom = await evaluate("Boolean(document.getElementById('spoilerDialog'))");
+      const custom = await evaluate("Boolean(document.querySelector('#spoilerDialog, #endingDialog'))");
       if (custom) {
         await evaluate("document.querySelector('[data-mode=deep]').click()");
-        assert(await evaluate('spoilerDialog.open'), `${book}/${language}: custom consent missing`);
+        assert(await evaluate(`Boolean(document.querySelector('#spoilerDialog[open], #endingDialog[open]'))`), `${book}/${language}: custom consent missing`);
         await command('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
         await command('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
-        assert(await evaluate("!spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]') && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: Escape opened an ending`);
-        await evaluate("document.querySelector('[data-mode=deep]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept').click(); document.querySelector('[data-mode=core]').click(); document.querySelector('[data-mode=deep]').click()");
+        assert(await evaluate("!Boolean(document.querySelector('#spoilerDialog[open], #endingDialog[open]')) && !document.querySelector('[data-mode=deep][aria-pressed=true]') && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: Escape opened an ending`);
+        await evaluate("document.querySelector('[data-mode=deep]').click(); document.querySelector('#spoilerDialog[open] [data-spoiler-accept], #spoilerDialog[open] #spoilerAccept, #endingDialog[open] #endingAccept').click(); document.querySelector('[data-mode=core]').click(); document.querySelector('[data-mode=deep]').click()");
         if (book === 'a-wizard-of-earthsea.html') {
           // Preserve its existing document-local depth consent; reload still revokes it.
           assert(await evaluate("Boolean(document.querySelector('[data-mode=deep][aria-pressed=true]'))"), 'Earthsea existing session consent');
         } else {
-          assert(await evaluate("spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]')"), `${book}/${language}: lowering depth retained consent`);
-          await evaluate("document.querySelector('#spoilerDialog[open] [data-spoiler-cancel], #spoilerDialog[open] #spoilerCancel').click()");
+          assert(await evaluate("Boolean(document.querySelector('#spoilerDialog[open], #endingDialog[open]')) && !document.querySelector('[data-mode=deep][aria-pressed=true]')"), `${book}/${language}: lowering depth retained consent`);
+          await evaluate("document.querySelector('#spoilerDialog[open] [data-spoiler-cancel], #spoilerDialog[open] #spoilerCancel, #endingDialog[open] #endingCancel').click()");
         }
       }
       checks.push({ book, language, freshEssential: true, savedCoreId: stable.id, finalRestart: true, sourceScope: true, customEscapeAndDowngrade: custom ? (book === 'a-wizard-of-earthsea.html' ? 'Escape passed; existing same-document depth consent preserved; reload separately verified' : 'passed') : 'not applicable' });

@@ -1,5 +1,14 @@
 # Next steps
 
+## Release08 handoff — 2026-10-31
+
+1. Read `editorial-audit/2026-10-31/publisher-findings/release-08-verification.json` for the exact PR/head/check state. One readiness check only; root owns pending CI/reviews, with no child polling or auto-merge.
+2. If pending, merge only the exact accepted head after required checks are green and required review findings are absent. Then verify all64 production asset hashes, effective corpora, live53-book catalogue/reader interactions and private404. Local checks alone do not establish publication.
+3. Keep the sealed seven-reader scope. Flowers and Dune remain excluded; future candidates need a separate intake.
+4. Preserve original REQUIRES-FIXES reviews, exact current collector packages and source boundaries. Do not rebuild roots from the plain template: Hobbit’s volatile consent and Howl’s root downgrade reset must survive.
+5. Release07’s58 assets and live interactions are now verified in `release-07-production-verification.json`; retain its original pending receipts as history. No complete-edition/translation or physical-iPhone certificate follows.
+
+
 ## 2026-10-31 — release07 sealed handoff
 
 - Read [release07 receipt](editorial-audit/2026-10-31/publisher-findings/release-07.json) for the exact PR/head/readiness/merge/production state. This publisher checks readiness once; pending checks return to root without child watching/polling.

@@ -1,0 +1,422 @@
+{
+  "slug": "the-hobbit",
+  "status": "corrected-awaiting-fresh-independent-review",
+  "atUtc": "2026-10-31T21:24:32.019781+00:00",
+  "findings": [
+    "HOB-SR-001",
+    "HOB-SR-002",
+    "HOB-SR-003",
+    "HOB-SR-004",
+    "HOB-SR-005",
+    "HOB-SR-006"
+  ],
+  "changedScreens": [
+    "e-gollum",
+    "k-smaug",
+    "k-bare-patch",
+    "l-arkenstone",
+    "l-smaug-death",
+    "n-unconscious",
+    "o-settlement"
+  ],
+  "counts": {
+    "essential": 15,
+    "core": 23,
+    "deep": 35
+  },
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/the-hobbit-source-rescue.json",
+  "originalReviewSha256": "66941b5e3ba1628da96ce5469099ee4b8fe6fc9ac239d1ef3f1f602fc227292f",
+  "beforeHashes": {
+    "collector-output/the-hobbit/story-data.json": "5f0adc8cf75786801c36aabb9f52a236897a802b7674544bcad61ac9136ed7a1",
+    "collector-output/the-hobbit/the-hobbit.html": "1e38c67d949a1717ff38797123ce186e82329c517c3aaf72e6ce44b537c12f3e",
+    "collector-output/the-hobbit/sources.md": "3b4983b1dfdec7b17760c365c7defed45672ab26123a3f62220d8e59e980bc23",
+    "collector-output/the-hobbit/QA.md": "71997b04a4204bef25c5ed9411f5f009b39c5482de3f8ee721dd41f7d9341102"
+  },
+  "afterHashes": {
+    "collector-output/the-hobbit/story-data.json": "7daa1faf39f729772768f970ea63ec955870e44d42547f38aa04a99c51d8037d",
+    "collector-output/the-hobbit/the-hobbit.html": "5976e32fd091b86397fac3371f1efa3839de77b30ae71d0f33eb296356a81e69",
+    "collector-output/the-hobbit/sources.md": "ac1977ae595b90830bf63e608ed6f21e41668d234a99b3a70f2e3c395354d169",
+    "collector-output/the-hobbit/QA.md": "b8411b4a0f89e81e1eeadec745dc0cdf7c6cb7d45c906a4fd9e803c7047d6183"
+  },
+  "screensBefore": [
+    {
+      "id": "e-gollum",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Состязание в темноте",
+          "body": "<p>В темноте Бильбо нащупывает кольцо и убирает его в карман. У подземного озера ему встречается Голлум. Тот предлагает состязание в загадках: выиграет Бильбо — получит дорогу наружу; проиграет — будет съеден. Бильбо удаётся победить. Но Голлум обнаруживает, что его кольцо пропало, и понимает, у кого оно теперь. Кольцо делает Бильбо невидимым, и он следует за Голлумом к выходу.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A contest in the dark",
+          "body": "<p>In the darkness Bilbo finds a ring and puts it in his pocket. Beside an underground lake he encounters Gollum. They agree to a riddle contest: if Bilbo wins, he will be shown the way out; if he loses, Gollum will eat him. Bilbo wins. Then Gollum discovers that his ring is missing and realises who has it. The ring makes Bilbo invisible, and he follows Gollum towards the exit.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "k-smaug",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Голос над сокровищем",
+          "body": "<p>Бильбо оказывается перед Смаугом. Невидимость ещё не делает его безопасным: дракон умеет разговаривать и выпытывать сведения. Бильбо скрывает прямое имя за намёками на свои приключения. Смауг отвечает подозрениями о гномах и обещанной награде. Между маленьким взломщиком и огромным хозяином сокровищ идёт разговор, в котором слишком многое можно выдать одним неосторожным словом.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A voice above the treasure",
+          "body": "<p>Bilbo finds himself before Smaug. Invisibility does not make him safe: the dragon can talk and draw out information. Bilbo conceals his name behind hints about his adventures. Smaug responds with suspicions about the dwarves and their promised reward. The little burglar and the enormous owner of the hoard exchange words in which one careless hint can reveal far too much.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 12",
+        "en": "Chapter 12"
+      }
+    },
+    {
+      "id": "k-bare-patch",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Просвет в броне",
+          "body": "<p>В разговоре Бильбо замечает незащищённое место на груди Смауга. С этим открытием он возвращается к гномам. Бильбо опасается новой атаки и убеждает спутников уйти в туннель. Когда Смауг обрушивается на их стоянку, они укрыты — но оказываются заперты внутри горы.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A gap in the armour",
+          "body": "<p>During their conversation Bilbo notices an unprotected patch on Smaug’s breast. He brings that discovery back to the dwarves. Bilbo urges his companions into the tunnel before another attack. When Smaug strikes their camp, they are sheltered, but trapped inside the Mountain.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 12",
+        "en": "Chapter 12"
+      }
+    },
+    {
+      "id": "l-arkenstone",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Камень в пустом зале",
+          "body": "<p>Выход наружу закрыт, и компания спускается в сокровищницу. Смауга там нет. Гномы снова стоят среди своего богатства; Бильбо находит Аркенстон и тайно оставляет его у себя. Для Торина этот камень имеет особую цену. Радость возвращения сокровища не успокаивает Бильбо: дракон исчез, но никто ещё не знает, куда и зачем он полетел.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A jewel in an empty hall",
+          "body": "<p>With the way outside blocked, the company descends into the treasure hall. Smaug is gone. The dwarves stand among their wealth again; Bilbo discovers the Arkenstone and secretly keeps it. The jewel is especially precious to Thorin. Recovering the hoard does not reassure Bilbo. The dragon has vanished, and they do not yet know where he has gone.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 13",
+        "en": "Chapter 13"
+      }
+    },
+    {
+      "id": "l-smaug-death",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Огонь над озером",
+          "body": "<p>Смауг летит мстить Озёрному городу. Огонь уничтожает дома. Среди защитников — лучник Бард, потомок правителей Дейла. Дрозд сообщает ему о слабом месте, замеченном Бильбо. Бард поражает дракона. Смауг погибает, но жители остаются без крова. Вместо обещанного потока золота к ним пришло бедствие, и пережить его ещё только предстоит.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "Fire over the lake",
+          "body": "<p>Smaug flies to take revenge on Lake-town. Fire destroys its houses. Among the defenders is Bard the bowman, a descendant of the rulers of Dale. A thrush tells him about the weak spot Bilbo discovered. Bard strikes the dragon down. Smaug dies, but the people are left homeless. Instead of the promised flood of gold, disaster has come, and they must survive its aftermath.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 14",
+        "en": "Chapter 14"
+      }
+    },
+    {
+      "id": "n-unconscious",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Пропущенный конец битвы",
+          "body": "<p>Камень ударяет Бильбо, и он теряет сознание. О победе ему рассказывают после пробуждения: орлы очистили склоны от гоблинов; Беорн вынес раненого Торина и убил Болга, предводителя врагов. Сам Бильбо не видел конца сражения. Теперь его ведут к Торину — тот ещё жив, но ранен смертельно.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "The battle ends without him",
+          "body": "<p>A stone strikes Bilbo and knocks him unconscious. He learns of the victory after waking: the Eagles cleared the slopes of goblins; Beorn carried out the wounded Thorin and killed Bolg, the enemy leader. Bilbo himself saw none of the battle’s ending. Now he is taken to Thorin, who is still alive but mortally wounded.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 17–18",
+        "en": "Chapter 17–18"
+      }
+    },
+    {
+      "id": "o-settlement",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Дорога от горы",
+          "body": "<p>Новым королём становится Даин. Он заключает щедрое соглашение с Бардом. Бильбо не требует всей обещанной доли сокровищ: после пережитого ему хочется домой. Вместе с Гэндальфом он отправляется в обратный путь, прощаясь с гномами, лесным королём и Беорном. На этот раз каждый шаг приближает его к Холму.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "The road away",
+          "body": "<p>Dáin becomes the new king and makes a generous settlement with Bard. Bilbo does not claim the enormous share he was promised. After everything he has endured, he wants to go home. He and Gandalf begin the return journey, parting from the dwarves, the Elvenking and Beorn. This time each step brings him closer to the Hill.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 18",
+        "en": "Chapter 18"
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "e-gollum",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Состязание в темноте",
+          "body": "<p>В темноте Бильбо нащупывает кольцо и убирает его в карман. У подземного озера ему встречается Голлум. Они договариваются о состязании в загадках: выиграет Бильбо — получит дорогу наружу; проиграет — будет съеден. Бильбо удаётся победить. Но Голлум обнаруживает, что его кольцо пропало, и понимает, у кого оно теперь. Кольцо делает Бильбо невидимым, и он следует за Голлумом к выходу.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A contest in the dark",
+          "body": "<p>In the darkness Bilbo finds a ring and puts it in his pocket. Beside an underground lake he encounters Gollum. They agree to a riddle contest: if Bilbo wins, he will be shown the way out; if he loses, Gollum will eat him. Bilbo wins. Then Gollum discovers that his ring is missing and realises who has it. The ring makes Bilbo invisible, and he follows Gollum towards the exit.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 5",
+        "en": "Chapter 5"
+      }
+    },
+    {
+      "id": "k-smaug",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Голос над сокровищем",
+          "body": "<p>Бильбо оказывается перед Смаугом. Невидимость ещё не делает его безопасным: дракон умеет разговаривать и выпытывать сведения. Бильбо скрывает прямое имя за намёками на свои приключения. Между маленьким взломщиком и огромным хозяином сокровищ идёт разговор, в котором слишком многое можно выдать одним неосторожным словом.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A voice above the treasure",
+          "body": "<p>Bilbo finds himself before Smaug. Invisibility does not make him safe: the dragon can talk and draw out information. Bilbo conceals his name behind hints about his adventures. The little burglar and the enormous owner of the hoard exchange words in which one careless hint can reveal far too much.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 12",
+        "en": "Chapter 12"
+      }
+    },
+    {
+      "id": "k-bare-patch",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Заперты в горе",
+          "body": "<p>Бильбо возвращается к гномам и опасается новой атаки. Он убеждает спутников уйти в туннель. Когда Смауг обрушивается на их стоянку, они укрыты — но оказываются заперты внутри горы.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "Trapped inside the Mountain",
+          "body": "<p>Bilbo returns to the dwarves, fearing another attack. He urges his companions into the tunnel. When Smaug strikes their camp, they are sheltered, but trapped inside the Mountain.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 12",
+        "en": "Chapter 12"
+      }
+    },
+    {
+      "id": "l-arkenstone",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Камень в пустом зале",
+          "body": "<p>Выход наружу закрыт, и компания спускается в сокровищницу. Смауга там нет. Гномы снова стоят среди своего богатства; Бильбо находит Аркенстон и тайно оставляет его у себя. Для Торина этот камень имеет особую цену. Радость возвращения сокровища не успокаивает Бильбо: Смауг всё ещё опасен.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "A jewel in an empty hall",
+          "body": "<p>With the way outside blocked, the company descends into the treasure hall. Smaug is gone. The dwarves stand among their wealth again; Bilbo discovers the Arkenstone and secretly keeps it. The jewel is especially precious to Thorin. Recovering the hoard does not reassure Bilbo. Smaug remains dangerous.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 13",
+        "en": "Chapter 13"
+      }
+    },
+    {
+      "id": "l-smaug-death",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Огонь над озером",
+          "body": "<p>Заподозрив, что Озёрный город помог гномам, Смауг летит туда мстить. Огонь уничтожает дома. Среди защитников — лучник Бард, потомок правителей Дейла. Дрозд сообщает ему о незащищённом месте на груди дракона, которое Бильбо заметил во время разговора в горе. Бард поражает дракона. Смауг погибает, но жители остаются без крова. Вместо обещанного потока золота к ним пришло бедствие, и пережить его ещё только предстоит.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "Fire over the lake",
+          "body": "<p>Suspecting that Lake-town helped the dwarves, Smaug flies there for revenge. Fire destroys its houses. Among the defenders is Bard the bowman, a descendant of the rulers of Dale. A thrush tells him about the unprotected patch on the dragon’s breast that Bilbo noticed during their conversation in the Mountain. Bard strikes the dragon down. Smaug dies, but the people are left homeless. Instead of the promised flood of gold, disaster has come, and they must survive its aftermath.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 14",
+        "en": "Chapter 14"
+      }
+    },
+    {
+      "id": "n-unconscious",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Пропущенный конец битвы",
+          "body": "<p>Камень ударяет Бильбо, и он теряет сознание. Очнувшегося Бильбо приводят к смертельно раненому Торину. Сам хоббит не видел конца битвы.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "The battle ends without him",
+          "body": "<p>A stone strikes Bilbo and knocks him unconscious. After he wakes, Bilbo is taken to the mortally wounded Thorin. He has not seen the end of the battle.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 17–18",
+        "en": "Chapter 17–18"
+      }
+    },
+    {
+      "id": "o-settlement",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Хоббит",
+          "title": "Дорога от горы",
+          "body": "<p>О конце битвы Бильбо узнаёт от других: Беорн вынес раненого Торина и убил Болга, а победа пришла, когда орлы очистили склоны от гоблинов. Новым королём становится Даин. Он заключает щедрое соглашение с Бардом. Бильбо не требует всей обещанной доли сокровищ: после пережитого ему хочется домой. Вместе с Гэндальфом он отправляется в обратный путь, прощаясь с гномами, лесным королём и Беорном. На этот раз каждый шаг приближает его к Холму.</p>"
+        },
+        "en": {
+          "section": "The Hobbit",
+          "title": "The road away",
+          "body": "<p>From others Bilbo learns how the battle ended: Beorn carried out the wounded Thorin and killed Bolg; victory came when the Eagles cleared the slopes of goblins. Dáin becomes the new king and makes a generous settlement with Bard. Bilbo does not claim the enormous share he was promised. After everything he has endured, he wants to go home. He and Gandalf begin the return journey, parting from the dwarves, the Elvenking and Beorn. This time each step brings him closer to the Hill.</p>"
+        }
+      },
+      "chapterAnchor": {
+        "ru": "Глава 18",
+        "en": "Chapter 18"
+      }
+    }
+  ],
+  "previousWriterChanges": "Troll rescue promoted level2->1 and unverified precise details omitted before parent intake; old independent candidate14/23/35, parent intake15/23/35.",
+  "sourceCheck": "Parent repair, not independent acceptance. The older review bound a 14/23/35 candidate. The implementation worker subsequently promoted the already present troll rescue to Essential (15/23/35) and removed the unsupported exact voice trick/pocket-question/leap. Those existing changes already close HOB-SR-001 and part of HOB-SR-004; they must not be falsely attributed to this parent pass or treated as the old reviewed hashes.\n\nParent read all 35 current RU/EN pairs and directly checked Foster’s publisher-guide chapter summaries 12–14 and 18, plus their narrow quoted/scene references. HOB-SR-002 moves the explicitly second-hand detailed battle outcome after Thorin’s final conversation. HOB-SR-003 gives the level-2 retreat screen a neutral title/body; the specific vulnerability is described only within warned Deep before Bard uses it. Counts and levels remain 15/23/35.\n\nHOB-SR-004 now aligns the RU riddle agreement with EN, and does not restore the already omitted precise mechanisms. The current acquisition map no longer claims that Foster described an exact pocket-question/physical leap. HOB-SR-005 removes the unsupported specific reward topic from Smaug’s speech. HOB-SR-006 replaces collective omniscient ignorance with continuing danger and adds the supported suspicion of Lake-town’s assistance before the attack.\n\nSource 3 is Caroline Batten’s Oxford 2021 Narrative Summary, printed pp.1–2, actually checked by the original independent reviewer. It supports the retained attack-target causal link; it is not Tolkien primary prose. Parent repeat web retrieval and ordinary direct HTTPS download timed out, so no new direct Oxford reading is claimed. No expired Glasgow Estate extract or unofficial full text was accessed. Source roles and this access limit remain explicit.\n\nOnly seven screen records plus the new source/method disclosure changed here. Other current pairs, levels, cover/media and unrelated outer code/styles remain unchanged; the retained spoiler approval lifetime, downgrade cap and neutral saved-Deep label were repaired after the first browser run. Original independent review and writer report are preserved. Because the candidate had changed after the older review, this version requires a fresh independent full-route check before publisher acceptance; it is not a parent self-issued PASS.",
+  "outerReaderCodePreserved": false,
+  "allOtherCurrentScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-hobbit/the-hobbit.html",
+    "format": "v2",
+    "bytes": 313432,
+    "screenCount": 35,
+    "levels": {
+      "1": 15,
+      "2": 8,
+      "3": 12
+    },
+    "modes": {
+      "essential": 15,
+      "core": 23,
+      "deep": 35
+    },
+    "words": {
+      "ru": 1708,
+      "en": 2031
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "pass",
+    "assertions": 148,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-hobbit-pass2-browser.json",
+    "priorFailurePreserved": "editorial-audit/2026-10-31/publisher-findings/parent-hobbit-pass2-before-consent-repair.json"
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false,
+  "outerReaderChanges": [
+    "in-memory spoiler approval and removal of legacy stored permission",
+    "approval capped on selecting shallower mode",
+    "generic explicit Deep resume label"
+  ]
+}

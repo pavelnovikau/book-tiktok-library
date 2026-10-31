@@ -1,0 +1,348 @@
+{
+  "atUtc": "2026-10-31T21:47:32.499689+00:00",
+  "kind": "fresh-bounded-publisher-closure",
+  "accepted": [
+    {
+      "slug": "howls-moving-castle",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/howls-moving-castle.json",
+      "reviewSha256": "265387e86ea732084931fc963d12d77cbe8ba2cbe17ce23c92a765bd42a1de63",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/howls-moving-castle.json",
+      "readySha256": "216cc65ea6cd1edb9069c204fcc696a5fee23492f89cfa6b0139638c20fe6b06",
+      "counts": {
+        "essential": 15,
+        "core": 25,
+        "deep": 39
+      },
+      "pairs": 39,
+      "sourceCount": 32,
+      "contentMode": "narrative",
+      "files": [
+        {
+          "path": "collector-output/howls-moving-castle/QA.md",
+          "sha256": "06319dbca73e4a1a454d8e47217a588009bae9f2873e0ffc06ba1e3e0de5b76e"
+        },
+        {
+          "path": "collector-output/howls-moving-castle/howls-moving-castle.html",
+          "sha256": "3504b00556526676d1b8a61e40b91c53a6dbd2443d3533149c921424ded0b431"
+        },
+        {
+          "path": "collector-output/howls-moving-castle/prose-before-segmentation.md",
+          "sha256": "9273d775275da78d009d4cf0229c249e249f870a4f9c63bf0e0788aad0fde88e"
+        },
+        {
+          "path": "collector-output/howls-moving-castle/sources.md",
+          "sha256": "17d401438690df214fb05f8a90a9c9c7f8a45319146f97284bbf7514ba65933b"
+        },
+        {
+          "path": "collector-output/howls-moving-castle/story-data.json",
+          "sha256": "fd5f311aff80f5840e7609da2a018a71e96f089f6174ca9ec21a07ce84ba0550"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/howls-moving-castle.json",
+          "sha256": "216cc65ea6cd1edb9069c204fcc696a5fee23492f89cfa6b0139638c20fe6b06"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/howls-moving-castle.json",
+          "sha256": "265387e86ea732084931fc963d12d77cbe8ba2cbe17ce23c92a765bd42a1de63"
+        }
+      ],
+      "decision": "accepted-localized-finding-closure",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/howls-moving-castle-meaning-fix-closure.json",
+      "parentClosureSha256": "18e079b19720271e7fd7bf1eaeec289c0cc694b24ea5d91540ddbbcd0c68501a",
+      "baselineAuthoringSha256": "b12a13297659423e6ea95ea99fd6d3f1c0e3d6e01fae08e449adcdfbbf1d440d",
+      "baselineHtmlReconstructedExactly": true,
+      "checkedScreens": [
+        "hats-and-fortunes",
+        "the-hopping-scarecrow"
+      ],
+      "unchangedReviewedPairs": 37,
+      "findingIds": [
+        "HMC-R1",
+        "HMC-R2"
+      ],
+      "sourceScope": "HMC-R1/R2: parent directly checked the HarperCollins/Litres chapter-one family passage: Fanny is Martha’s birth mother and Sophie’s stepmother. Only the collective EN relationship is narrowed. Parent also checked the public SuperSummary Chapter7 narrative account: Sophie is still worried about Martha before the scarecrow chase, while Michael’s clarification comes later. The opening now explicitly looks back to that earlier belief, retaining the existing compressed two-letties order. Source9 and other source IDs unchanged. The guide is secondary; no complete primary chapter7 or full-novel reading is claimed.",
+      "integrationGuards": [
+        "Original custom consent and navigation retained",
+        "Removed/cover saved IDs clear and fall back to Essential; valid IDs retained",
+        "Maintained Settings applied without a corpus rebuild",
+        "Fresh release-state test exposed retained consent after downgrade in reviewed local runtime; root-only one-line reset now renews consent when leaving Deep. Collector/review content bytes unchanged."
+      ],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 8,
+          "deep": 13
+        },
+        "en": {
+          "essential": 5,
+          "core": 8,
+          "deep": 13
+        }
+      },
+      "rootSha256": "bf371440d8a68ee8c7eebc6ba0384a0518dbdeed592274414e0f5d0e078e5cc6",
+      "effectiveCorpusSha256": "36b20f5867dcded41f712a949aac96f55547c51bdc0bea14edf7d057dcf2ff25"
+    },
+    {
+      "slug": "northern-lights",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/northern-lights.json",
+      "reviewSha256": "f48549b1c0d8c35e41724f661963295923efd7fcb02068237c3bab917a5a3100",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/northern-lights.json",
+      "readySha256": "f0bc2c053d5982f60e4a390ce9f18d75b06cf1925cd40c35cc06724b9c451df9",
+      "counts": {
+        "essential": 17,
+        "core": 22,
+        "deep": 43
+      },
+      "pairs": 43,
+      "sourceCount": 5,
+      "contentMode": "narrative",
+      "files": [
+        {
+          "path": "collector-output/northern-lights/QA.md",
+          "sha256": "f0681df03f89eaf94db3fcff89a1215a6d725be84e4deb22b9fef7c7cc8b1af4"
+        },
+        {
+          "path": "collector-output/northern-lights/narrative-en.md",
+          "sha256": "aeef49284cbc7429a1ec9489fa5cab88cba6d21935fa2e82a22f3adfe40eb868"
+        },
+        {
+          "path": "collector-output/northern-lights/narrative-ru.md",
+          "sha256": "52b6bab73cd79c4d8bce639c344ab486425b01070b7a8e939d914f6dd39b4a50"
+        },
+        {
+          "path": "collector-output/northern-lights/northern-lights.html",
+          "sha256": "ba85c52936b1c85b7e8bb09518b02a9fb4342392b7b83322b0e12a630046843b"
+        },
+        {
+          "path": "collector-output/northern-lights/sources.md",
+          "sha256": "672506a63eff0e63189c64add2c2e22bea7d832d4bd344968a6c3220f996fa4f"
+        },
+        {
+          "path": "collector-output/northern-lights/story-data.json",
+          "sha256": "4b27f8e744e703efdb7ea12620567a6a7bf9c3d762b3f94b408b7f9af3b1e76e"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/northern-lights.json",
+          "sha256": "f0bc2c053d5982f60e4a390ce9f18d75b06cf1925cd40c35cc06724b9c451df9"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/northern-lights.json",
+          "sha256": "f48549b1c0d8c35e41724f661963295923efd7fcb02068237c3bab917a5a3100"
+        }
+      ],
+      "decision": "accepted-localized-finding-closure",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/northern-lights-meaning-fix-closure.json",
+      "parentClosureSha256": "31c330fd1aeaafa47bc34cd7fd317243e643e477f1567ce0381d955a469e4727",
+      "baselineAuthoringSha256": "1d3caabf6657fa65a3707310b0b06eb0b702359871dac3b827437900a14ff10f",
+      "baselineHtmlReconstructedExactly": true,
+      "checkedScreens": [
+        "fog-and-ice"
+      ],
+      "unchangedReviewedPairs": 42,
+      "findingIds": [
+        "NL-001"
+      ],
+      "sourceScope": "NL-001: parent directly read Helen Mason/ZigZag official guide, printed79/PDF84, chapter18 Fog and Ice, declarative summary. The discussion ends with tiredness; the cliff-ghast attack occurs later. Both copies now say Later/Позже without inventing an interruption. No added sleep scene or reordering, new source, level or count. This is guide-supported chronology, not a claim of continuous primary chapter18 reading.",
+      "integrationGuards": [
+        "Original custom consent and navigation retained",
+        "Removed/cover saved IDs clear and fall back to Essential; valid IDs retained",
+        "Maintained Settings applied without a corpus rebuild"
+      ],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 6,
+          "deep": 11
+        },
+        "en": {
+          "essential": 5,
+          "core": 5,
+          "deep": 11
+        }
+      },
+      "rootSha256": "944613abadbc92dc6281e8b77478b4ad4ae2103b755d0bfe550f1e1855ccf7a4",
+      "effectiveCorpusSha256": "d5a7eeca3c527b531fb5dd95e820b65b9a981858030e2e4e3013f0ed8bd7c98a"
+    },
+    {
+      "slug": "enders-game",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/enders-game.json",
+      "reviewSha256": "55a19aa7106333bc4c39aef8e26152ec9a073ea17661131badcd86f8538ac5c2",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/enders-game.json",
+      "readySha256": "99031b4804d0c2f587ef5b57e350bf4461f44d998d02e4c6a248e6933346c4a7",
+      "counts": {
+        "essential": 16,
+        "core": 25,
+        "deep": 39
+      },
+      "pairs": 39,
+      "sourceCount": 24,
+      "contentMode": "narrative",
+      "files": [
+        {
+          "path": "collector-output/enders-game/QA.md",
+          "sha256": "62e1877d98923078794512198d6aad65ec329f24057f26d06930d9104d7513c0"
+        },
+        {
+          "path": "collector-output/enders-game/enders-game.html",
+          "sha256": "73587e4fc7e1b914396596a387fa5381e1f1ea26edb973b3b0ce6a7af23743fb"
+        },
+        {
+          "path": "collector-output/enders-game/sources.md",
+          "sha256": "790ebf40389b1fd1df5fbf663157529fe9ad20a7af95784efd03390e1ada97a5"
+        },
+        {
+          "path": "collector-output/enders-game/story-data.json",
+          "sha256": "d318041c79c08b5daaa9b4a6ae56251c32571e3e7c13e3c63dcc268626e224c8"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/enders-game.json",
+          "sha256": "99031b4804d0c2f587ef5b57e350bf4461f44d998d02e4c6a248e6933346c4a7"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/enders-game.json",
+          "sha256": "55a19aa7106333bc4c39aef8e26152ec9a073ea17661131badcd86f8538ac5c2"
+        }
+      ],
+      "decision": "accepted-localized-finding-closure",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/enders-game-meaning-fix-closure.json",
+      "parentClosureSha256": "f5f4236fd0bb068c64f6338c68b9c9ed20e6ba67f314762dc3e7a99d162a4605",
+      "baselineAuthoringSha256": "06c797ad5039fd9e87419a4a2cee9be4569734aa7de0db5b064cd851a7ad3452",
+      "baselineHtmlReconstructedExactly": true,
+      "checkedScreens": [
+        "launch"
+      ],
+      "unchangedReviewedPairs": 38,
+      "findingIds": [
+        "EG-EN-001"
+      ],
+      "sourceScope": "EG-EN-001: parent checked SparkNotes Chapter4 Launch, Summary (not speculative Analysis), the buckle assault/arm-grab/collision paragraph. The boy breaks his arm, not the wall. Only the ambiguous EN object is made explicit; RU is unchanged. This restores bilingual clarity using the same accountable event source; no complete primary chapter4 reading or new physical event is claimed.",
+      "integrationGuards": [
+        "Original custom consent and navigation retained",
+        "Removed/cover saved IDs clear and fall back to Essential; valid IDs retained",
+        "Maintained Settings applied without a corpus rebuild"
+      ],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 7,
+          "deep": 10
+        },
+        "en": {
+          "essential": 4,
+          "core": 6,
+          "deep": 9
+        }
+      },
+      "rootSha256": "e9ce0d9541283c79d63b7641fd81df4ae64f2a53f8def4e4e9cc7563ecefd2e9",
+      "effectiveCorpusSha256": "1e25ee6fdd0bbf2257b73f8e1da92de3bd1b160cba19ca60862cef4ed13ef940"
+    },
+    {
+      "slug": "to-kill-a-mockingbird",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/to-kill-a-mockingbird.json",
+      "reviewSha256": "0321ddbaed164f5b818c5a8b774a6e00242ad24da8e11d113f6ac28750d24955",
+      "originalVerdict": "REQUIRES-FIXES",
+      "readyPath": "editorial-audit/2026-10-31/ready/to-kill-a-mockingbird.json",
+      "readySha256": "b96c248a3722d62e3dfb1130446d5b6dc334a9131c697f3c37fb8d9178243c4d",
+      "counts": {
+        "essential": 14,
+        "core": 28,
+        "deep": 41
+      },
+      "pairs": 41,
+      "sourceCount": 4,
+      "contentMode": "narrative",
+      "files": [
+        {
+          "path": "collector-output/to-kill-a-mockingbird/QA.md",
+          "sha256": "1e141f630995a378c8f731fb0ecf17e1a500a2ef5294703c99ae6fd47ab34815"
+        },
+        {
+          "path": "collector-output/to-kill-a-mockingbird/sources.md",
+          "sha256": "e9966a0cf31a57c48feda44e7cd6b73dd4c7e7205431e1a610e96a8bde8eb4bd"
+        },
+        {
+          "path": "collector-output/to-kill-a-mockingbird/story-data.json",
+          "sha256": "9d27ef82771c0294f8af9ced059d74e25f906a63a7780c7744f489dfbf30c7e9"
+        },
+        {
+          "path": "collector-output/to-kill-a-mockingbird/to-kill-a-mockingbird.html",
+          "sha256": "24ee67fa15de6d00f47089d35151a42dea0368e0984d18d6c3b020fb24caf0ca"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/ready/to-kill-a-mockingbird.json",
+          "sha256": "b96c248a3722d62e3dfb1130446d5b6dc334a9131c697f3c37fb8d9178243c4d"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/reviews/to-kill-a-mockingbird.json",
+          "sha256": "0321ddbaed164f5b818c5a8b774a6e00242ad24da8e11d113f6ac28750d24955"
+        }
+      ],
+      "decision": "accepted-localized-finding-closure",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/to-kill-a-mockingbird-meaning-fix-closure.json",
+      "parentClosureSha256": "b18f69eec59e8b63d746153645d1cb0cff5c4efccaacbd19a9770701b2085759",
+      "baselineAuthoringSha256": "60fa3739c545f8c8ed55582a22865b1ab5c4f680cf07242e1fbead00176b816f",
+      "baselineHtmlReconstructedExactly": true,
+      "checkedScreens": [
+        "cover"
+      ],
+      "unchangedReviewedPairs": 40,
+      "findingIds": [
+        "TKAM-R1"
+      ],
+      "sourceScope": "TKAM-R1: the two cover clauses now name Tom Robinson and qualify hostility as coming from many white neighbours, avoiding narrator-certified town-wide consensus. All40 other reviewed screen records remain unchanged. The fresh independent reviewer actually checked the DBE guide chapter14/22 and qualification answer at printed58/79/99 (PDF74/95/115); parent repeat retrieval of that PDF timed out, so no fresh direct DBE reading is claimed. This narrows the same supported premise, not a new motive, legal judgment or ending revelation.",
+      "integrationGuards": [
+        "Original custom consent and navigation retained",
+        "Removed/cover saved IDs clear and fall back to Essential; valid IDs retained",
+        "Maintained Settings applied without a corpus rebuild"
+      ],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 7,
+          "deep": 9
+        },
+        "en": {
+          "essential": 4,
+          "core": 7,
+          "deep": 10
+        }
+      },
+      "rootSha256": "d2afd5110e1a6719a771b8c263cbc9b2a4ff87d1f7e461e59bdf6a43c2508950",
+      "effectiveCorpusSha256": "9088a86e35d21f9b09f037a8c890f7125a371bfe7a92f7f2a49089c3de7f3d00"
+    }
+  ],
+  "allOtherPairsInheritedFromExactOriginalIndependentReviews": true,
+  "originalReviewsUnchanged": true,
+  "directSourceChecks": [
+    {
+      "slug": "howls-moving-castle",
+      "finding": "HMC-R1/R2",
+      "urls": [
+        "https://litres.com/book/diana-wynne-jones/howl-s-moving-castle-39784121/read/",
+        "https://www.supersummary.com/howl-s-moving-castle/chapters-5-8-summary/"
+      ],
+      "read": "Litres primary ch1 family paragraph and SuperSummary ch7 event account: Fanny gave birth to Martha; earlier worry precedes scarecrow, Michael clarification later. Retrospective clause preserves compressed sequence. No primary whole ch7 claim."
+    },
+    {
+      "slug": "northern-lights",
+      "finding": "NL-001",
+      "url": "https://zigzageducation.co.uk/samplepdf/English/s5161.pdf#page=84",
+      "read": "Official guide printed79/PDF84 ch18 declarative prose: discussion ends in tiredness, later balloon motion wakes Lyra before attack. Later removes the false causal interruption without adding a sleep scene."
+    },
+    {
+      "slug": "enders-game",
+      "finding": "EG-EN-001",
+      "url": "https://www.sparknotes.com/lit/endersgame/section5/",
+      "read": "Chapter4 Summary paragraph: grabbed arm, null-gravity collision, arm injury. Only EN object made explicit; RU unchanged. Secondary account, not a complete primary ch4 reading."
+    },
+    {
+      "slug": "to-kill-a-mockingbird",
+      "finding": "TKAM-R1",
+      "url": "https://www.education.gov.za/Portals/0/Documents/Manuals/MTG%20EFAL%20P2n%20TKAM%2019_01_2015%20WEB.pdf",
+      "read": "Fresh publisher retrieval succeeded through web extracted PDF. Read printed58/PDF74 ch14 many white community criticisms; printed79/PDF95 Black community respect/food gifts; printed99/PDF115 answer explicitly many but not all whites. This is additional scoped direct reading, not relabelling the parent timeout as success. Cover qualification matches; other40 screen records unchanged."
+    }
+  ]
+}

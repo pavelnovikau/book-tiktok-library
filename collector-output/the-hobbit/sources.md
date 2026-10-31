@@ -1,133 +1,32 @@
-# The Hobbit — source ledger and claim map
+# The Hobbit — sources and scope, 2026-10-31 rescue
 
-Access date: 2026-10-31. Book author: J. R. R. Tolkien. Digest: original bilingual analytical writing.
+Work: J. R. R. Tolkien, *The Hobbit, or There and Back Again*. Modern narrative represented by the Ballantine guide, with an actual publisher sample from paperback ISBN 9780345339683 (1986). Original Russian/English digest wording; no Russian translation or whole printing was collated.
 
-## Evidence boundary / Граница доказательств
+## What was read
 
-This is an original analytical digest, not the novel’s text or a translation of any edition. No EPUB/FB2/PDF edition of The Hobbit was found in the checked local library; the full novel was neither read nor downloaded. The event structure was compared with the public publisher chapter guide for chapters 1–19, but that guide is not the novel and does not verify every detail; unsupported specifics are omitted. Context was checked against Tolkien Estate, an archival finding aid and bibliography. No page references or verbatim quotations are claimed. “Book” identifies reported events or imagery; “Context” identifies external evidence; “Synthesis” identifies our interpretation. Essential is substantially spoiler-light; Core reveals episodes; only Deep contains the full resolution. External sources may themselves contain spoilers.
+1. [Robert Foster / Ballantine teacher's guide](https://www.penguinrandomhouse.com/books/179206/the-hobbit-by-jrr-tolkien/teachers-guide), accessed 2026-10-31: all nineteen chapter plot summaries, relevant questions and adjacent scene commentary. This supports the retained event chain. It is a publisher guide, not Tolkien's full prose. Its interpretive teaching claims are not automatically adopted.
+2. [Ballantine edition and Read Sample](https://www.penguinrandomhouse.com/books/179206/the-hobbit-by-jrr-tolkien/), accessed 2026-10-31: edition metadata and the entire available chapter-1 opening, from the home to Bilbo's recognition of Gandalf. The extract was actually obtained from the publisher page and read. It does not contain the complete chapter or later novel.
 
-Это самостоятельный аналитический дайджест, не текст романа и не перевод какого-либо издания. В проверенной локальной библиотеке EPUB/FB2/PDF «Хоббита» не найден; полный текст романа не читался и не загружался. Каркас событий сопоставлен с открытым издательским руководством по главам 1–19, но руководство не является романом и не подтверждает каждую подробность; неподтверждённая конкретика опущена. Контекст сверялся с Tolkien Estate, архивной описью и библиографией. Страницы и дословные цитаты не заявляются. «Книга» означает сообщаемое событие или образ; «Контекст» — внешние сведения; «Синтез» — нашу интерпретацию. Essential почти без спойлеров; Core раскрывает эпизоды; только Deep содержит всю развязку. Внешние источники могут сами содержать спойлеры.
+The [new acquisition report](../../editorial-audit/2026-10-31/source-rescue/the-hobbit.md) maps every retained scene to its supporting chapter/primary passage, lists exclusions, and records the retired Glasgow permission boundary. No complete novel, Russian translation, archival manuscript or unavailable audio was read during this rescue. Private fetched material is outside public Git; no copied novel text is bundled.
 
-Local search covered the user’s ebook folder (including EPUB title/creator metadata), Documents, Downloads, Apple Books container locations, and filename/index discovery. No matching edition was found in checked locations. This does not claim exhaustive inspection of every private disk. No source ebook, private path, protected illustration or full text is included. No pirated full-text site was opened.
+## Limits and rights
 
-## Claim map prepared before screen writing
+The rewrite is an original-word concise retelling, not an analytical workbook. The 35 RU/EN pairs retain a checked short plot. No invented dialogue, scenes, motives, quotations, pages, songs or exact riddle text. The guide's inconsistent raven name is avoided. Exact light/calendar mechanics, burial objects and unverified minor losses are omitted. This supports the retained arc, not complete-edition or translation fidelity.
 
-- Desire: adventure without already being fearless, strong or important.
-- Tension: comfort and curiosity coexist; a legitimate grievance cannot settle every later moral question.
-- Reading thesis (synthesis, not a declared author thesis): growth means resourcefulness, compassion and independent judgement, not merely greater power.
-- Causal arc: recruitment → early dependence → solitary initiative → responsibility for others → persuasive power → conflicting claims → costly choices → a changed relation to home.
-- Cases: dinner, trolls, Elrond, tunnels, riddles, forest, captivity, lake community, dragon conversation, treasure dispute, battle and return. Complete resolutions are confined to Deep.
-- Counterweights: rescue and luck limit self-sufficiency; Bilbo is fallible; friendship does not erase competing rights; reconciliation cannot undo loss.
-- Voice: domestic comedy, different song registers and riddling speech are described, not reproduced.
-- History: 1937 publication; 1951 revision; unfinished 1960 rewrite; actual third edition in 1966.
-- Durable model: notice → attempt → care → judge → remember the worth of ordinary life. This is the digest’s synthesis.
+Source notes stay in the Sources dialog; screen source IDs remain embedded. Essential tells the opening journey to the dragon encounter; Core adds escapes and detail. Decisive outcomes and the return appear only in Deep after book-local consent. These external pages themselves can contain spoilers.
 
-## Sources
 
-### [1] The Hobbit — Teacher’s Guide
+## Parent repair of HOB-SR-001–006 — 2026-10-31
 
-URL: https://www.penguinrandomhouse.com/books/179206/the-hobbit-by-jrr-tolkien/teachers-guide
+Parent repair, not independent acceptance. The older review bound a 14/23/35 candidate. The implementation worker subsequently promoted the already present troll rescue to Essential (15/23/35) and removed the unsupported exact voice trick/pocket-question/leap. Those existing changes already close HOB-SR-001 and part of HOB-SR-004; they must not be falsely attributed to this parent pass or treated as the old reviewed hashes.
 
-Role: publisher. Consulted: 2026-10-31.
+Parent read all 35 current RU/EN pairs and directly checked Foster’s publisher-guide chapter summaries 12–14 and 18, plus their narrow quoted/scene references. HOB-SR-002 moves the explicitly second-hand detailed battle outcome after Thorin’s final conversation. HOB-SR-003 gives the level-2 retreat screen a neutral title/body; the specific vulnerability is described only within warned Deep before Bard uses it. Counts and levels remain 15/23/35.
 
-Events in chapters 1–19. A guide, not the novel; its interpretations are not treated as Tolkien’s statements.
+HOB-SR-004 now aligns the RU riddle agreement with EN, and does not restore the already omitted precise mechanisms. The current acquisition map no longer claims that Foster described an exact pocket-question/physical leap. HOB-SR-005 removes the unsupported specific reward topic from Smaug’s speech. HOB-SR-006 replaces collective omniscient ignorance with continuing danger and adds the supported suspicion of Lake-town’s assistance before the attack.
 
-События глав 1–19. Руководство, не текст романа; его интерпретации не приравниваются к словам Толкина.
+Source 3 is Caroline Batten’s Oxford 2021 Narrative Summary, printed pp.1–2, actually checked by the original independent reviewer. It supports the retained attack-target causal link; it is not Tolkien primary prose. Parent repeat web retrieval and ordinary direct HTTPS download timed out, so no new direct Oxford reading is claimed. No expired Glasgow Estate extract or unofficial full text was accessed. Source roles and this access limit remain explicit.
 
-### [2] The Hobbit — publisher book page
+Only seven screen records plus the new source/method disclosure changed here. Other current pairs, levels, cover/media and unrelated runtime remain unchanged. Parent subsequently repaired the lifetime of the existing spoiler approval, its cap on downgrade and the neutral explicit Deep resume label; existing dialogs, routing, focus and presentation are retained. Original independent review and writer report are preserved. Because the candidate had changed after the older review, this version requires a fresh independent full-route check before publisher acceptance; it is not a parent self-issued PASS.
 
-URL: https://www.penguinrandomhouse.com/books/179206/the-hobbit-by-jrr-tolkien/
 
-Role: publisher. Consulted: 2026-10-31.
-
-Publisher description: protagonist and premise.
-
-Издательское описание: герой и исходная ситуация.
-
-### [3] John D. Rateliff — The Hobbit
-
-URL: https://www.tolkienestate.com/writing/john-d-rateliff-the-hobbit/
-
-Role: reference. Consulted: 2026-10-31.
-
-Composition, family audience, northern names, publication in 1937.
-
-Создание, семейная аудитория, северные имена, публикация в 1937 году.
-
-### [4] J. R. R. Tolkien — Letter to Milton Waldman, 1951
-
-URL: https://www.tolkienestate.com/letters/letter-to-milton-waldman-publisher-1951/
-
-Role: author. Consulted: 2026-10-31.
-
-Retrospective author commentary: the small hero and growth in wisdom.
-
-Ретроспективный авторский комментарий: маленький герой и рост мудрости.
-
-### [5] Verlyn Flieger — On Fairy Stories
-
-URL: https://www.tolkienestate.com/scholarship/verlyn-flieger-on-fairy-stories/
-
-Role: reference. Consulted: 2026-10-31.
-
-The 1939 lecture, secondary worlds and fairy-story theory.
-
-Лекция 1939 года, вторичный мир, теория волшебной истории.
-
-### [6] Tolkien Library — Editions of The Hobbit
-
-URL: https://tolkienlibrary.com/booksbytolkien/hobbit/editions.php
-
-Role: reference. Consulted: 2026-10-31.
-
-The 1937, 1951, 1966 editions; revision of the Gollum encounter.
-
-Издания 1937, 1951, 1966 годов; изменение встречи с Голлумом.
-
-### [7] Marquette University — Tolkien Collection: Scope and Content
-
-URL: https://www.marquette.edu/library/archives/Mss/JRRT/JRRT-sc.php
-
-Role: primary. Consulted: 2026-10-31.
-
-The finding aid was read; the manuscripts were not examined.
-
-Прочитана архивная опись; сами рукописи не изучались.
-
-### [8] Tom Shippey — Tolkien and Philology
-
-URL: https://www.tolkienestate.com/scholarship/tom-shippey-j-r-r-tolkien-and-philology/
-
-Role: reference. Consulted: 2026-10-31.
-
-Philology: languages and names as traces of history.
-
-Филология: языки и имена как следы истории.
-
-### [9] Devin Brown — Happy 75th Birthday to The Hobbit!
-
-URL: https://www.cslewis.com/happy-75th-birthday-to-the-hobbit/
-
-Role: review. Consulted: 2026-10-31.
-
-The reported 1937 assessment by Lewis, who was Tolkien’s friend.
-
-Приведённая оценка Льюиса 1937 года; он был другом Толкина.
-
-### [10] Tolkien Library — The History of the Hobbit: Description
-
-URL: https://tolkienlibrary.com/booksbytolkien/historyofhobbit/description.php
-
-Role: reference. Consulted: 2026-10-31.
-
-Description of Rateliff’s study and the unfinished 1960 rewrite; not the full study.
-
-Описание исследования Рэтлиффа и незавершённой правки 1960 года; не полный текст исследования.
-
-## Fidelity, uncertainty and rights
-
-The chapter guide supports the event structure, not Tolkien’s exact wording or every detail. The cold review removed unsupported specifics about Fíli and Kíli’s final defence, Thorin’s burial objects, Bilbo’s exact chests and the precise 1937 Gollum bargain. Its broad theological and psychological interpretations are not automatically adopted. Its chapter-15 summary misnames the raven; this digest uses Roäc, not Carc. Source 9’s mistaken date for the later novel is not reused. Source 10 is a description of a scholarly book, not evidence that all of that book was read. Source 7 establishes the existence of archival items, not their unexamined contents.
-
-No lyrics, riddle texts, reconstructed dialogue, extended quotations, edition-specific page references or Tolkien artwork are reproduced. The two-word greeting discussed is ordinary language. Proper names and book/chapter titles identify the work. No claim is made to have read or collated a complete edition during this session.
-
-Essential preserves the premise, reading tools and ethical questions without named deaths or resolution. Core adds selected episodes and analysis, with a spoiler warning. Deep contains the full dragon/battle/return resolution and named losses. External sources can contain spoilers even in Essential. Each screen has source IDs and a provenance label. Chapter anchors identify scenes; they are not page citations.
+Focused runtime finding: the first parent browser run exposed sessionStorage approval surviving downgrade/reload (preserved in parent-hobbit-pass2-before-consent-repair.json). Approval is now in-memory only, legacy permission removed on load, capped to the selected shallower depth, and a hidden late bookmark uses the explicit generic Deep spoiler label. Fresh review and focused rerun remain required.

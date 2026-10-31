@@ -1,0 +1,171 @@
+{
+  "slug": "howls-moving-castle",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD — new approved queued narrative package",
+  "reportPath": "editorial-audit/2026-10-31/books/howls-moving-castle-sol-implementation.md",
+  "evidenceMapPath": "editorial-audit/2026-10-31/books/howls-moving-castle-sol-implementation-evidence.md",
+  "reviewedPairs": {
+    "old": 0,
+    "final": 39,
+    "finalLocalizedTexts": 78,
+    "reviewer": "implementer; no independent content approval"
+  },
+  "counts": {
+    "essential": 15,
+    "core": 25,
+    "deep": 39
+  },
+  "contentMode": "narrative",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential"
+  },
+  "spoilerPolicy": "full-plot-in-deep",
+  "sourceScope": "Jones’s 1986 novel, not the film or sequels. No matching owned Apple Books EPUB after 216 OPFs were inspected; no candidate spine/body claim. Read the lawful HarperCollins/Litres chapter-one excerpt (ISBN 9780007380459), public chapter-event guides and selected actual Jones passages quoted by LitCharts; cross-checked the late sequence with SuperSummary. Secondary and primary roles are separated in sources.md and the evidence map. No continuous complete-edition reading, verified print pagination or published-RU-translation certification. Library bibliography was available as indexed metadata; direct opening returned 403. No identified essential retained link is left without an accountable locator within this stated scope.",
+  "changes": [
+    "Created the four canonical collector files for an already approved queued title; no previous corpus existed.",
+    "Wrote connected original RU/EN prose first; segmented and derived exact 15/25/39 nested totals without quota padding.",
+    "Preserved Sophie/Howl/Calcifer/Michael/sisters relationships, domestic humour, magic restrictions, Donne curse and the guide-supported late causal chain.",
+    "Kept all fourteen late-answer screens in Deep with fresh-session consent for mode selection and saved hidden-ID resume; shallow contents and shared notes/final remain safe.",
+    "Fixed the Essential castle-entry bridge, an unintroduced dog reference, ambiguous English love pronoun, overly certain contract-danger wording and chapter-11 source IDs.",
+    "Used the maintained standalone builder/audit/header/fonts; added only book-local spoiler guarding and an embedded original typographic cover. No Settings PR 29 code copied.",
+    "Saved selective-reading source ledger, all-screen evidence map, scoped browser results/screenshots and exact artifact hash binding."
+  ],
+  "unresolvedIssues": [
+    "Independent content review must read the 39 changed RU/EN pairs and accountable source locations; no independent PASS is asserted.",
+    "The complete primary novel and a published Russian translation were not read continuously or certified; exact pagination, omitted episodes and whole-edition fidelity remain outside scope.",
+    "Publisher owns root/catalogue integration, deployment, production saved-progress checks and physical iPhone/PWA verification; current iOS checks are emulated only."
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/howls-moving-castle/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/howls-moving-castle/story-data.json",
+      "sha256": "fd5f311aff80f5840e7609da2a018a71e96f089f6174ca9ec21a07ce84ba0550"
+    },
+    {
+      "path": "collector-output/howls-moving-castle/howls-moving-castle.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/howls-moving-castle/howls-moving-castle.html",
+      "sha256": "3504b00556526676d1b8a61e40b91c53a6dbd2443d3533149c921424ded0b431"
+    },
+    {
+      "path": "collector-output/howls-moving-castle/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/howls-moving-castle/sources.md",
+      "sha256": "17d401438690df214fb05f8a90a9c9c7f8a45319146f97284bbf7514ba65933b"
+    },
+    {
+      "path": "collector-output/howls-moving-castle/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/howls-moving-castle/QA.md",
+      "sha256": "06319dbca73e4a1a454d8e47217a588009bae9f2873e0ffc06ba1e3e0de5b76e"
+    }
+  ],
+  "reportSha256": "584042b8344dbe98f99df6aa490fd71e04328dadc7c43ac9f9f7186f700ea824",
+  "evidenceMapSha256": "8b0a5cd30f7bf52294bcdab50abcb3dca583d8e235890ee83be2344a6edd6079",
+  "checks": {
+    "structural": {
+      "passed": 69,
+      "warnings": 0,
+      "failures": 0,
+      "reportPath": "collector-output/howls-moving-castle/qa/structural-audit.txt"
+    },
+    "browser": {
+      "reportPath": "collector-output/howls-moving-castle/qa/verified-artifact.json",
+      "sha256": "c5093aabe054695b39c432423c9fe0ad1096b86cb82dbafd73957ea94cf7ff84",
+      "viewports": [
+        "320x568",
+        "390x844",
+        "1024x768",
+        "1440x900"
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modeTraversals": 1264,
+      "runtimeErrors": 0,
+      "externalRuntimeRequests": 0
+    },
+    "embeddedCorpusParity": true,
+    "ownedChromeProcessesRemaining": 0,
+    "ownedTemporaryProfilesRemaining": 0,
+    "localServerStarted": false,
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/howls-moving-castle/howls-moving-castle.html",
+      "format": "v2",
+      "bytes": 328040,
+      "screenCount": 39,
+      "levels": {
+        "1": 15,
+        "2": 10,
+        "3": 14
+      },
+      "modes": {
+        "essential": 15,
+        "core": 25,
+        "deep": 39
+      },
+      "words": {
+        "ru": 2226,
+        "en": 2652
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedBrowser": {
+      "status": "passed",
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-fiction-fix-browser.json",
+      "reportSha256": "6dbf42ddcf07836db322c1b34ef071bbf32cef474b54155e6f37162683b0ca8e",
+      "totalAssertionsAcrossFourReaders": 176,
+      "scope": "Changed-copy and tail checks, four representative viewport/theme cases in RU/EN, native browser/HTML consent, cancellation and saved restore; all owned processes/profiles cleaned. No physical iPhone/PWA claim."
+    }
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "5 минут",
+        "en": "5 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "8 минут",
+        "en": "8 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "13 минут",
+        "en": "13 min"
+      }
+    }
+  },
+  "parentCorrections": {
+    "findings": [
+      "HMC-R1",
+      "HMC-R2"
+    ],
+    "changedScreens": [
+      "hats-and-fortunes",
+      "the-hopping-scarecrow"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/howls-moving-castle-meaning-fix-closure.json"
+  }
+}

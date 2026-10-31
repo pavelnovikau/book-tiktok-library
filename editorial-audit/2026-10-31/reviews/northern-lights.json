@@ -1,0 +1,661 @@
+{
+  "schemaVersion": 1,
+  "slug": "northern-lights",
+  "date": "2026-10-31",
+  "reviewType": "Fresh independent editorial review",
+  "verdict": "REQUIRES-FIXES",
+  "verdictReason": "One minor, source-demonstrable chronology error in the transition into fog-and-ice. A local bilingual correction suffices; no rebuild of the narrative or general full-novel source gate is requested.",
+  "requiredFindingCount": 1,
+  "optionalFindingCount": 0,
+  "blockingSourceGaps": [],
+  "work": {
+    "author": "Philip Pullman",
+    "title": "Northern Lights",
+    "originalYear": 1995,
+    "alternateUSTitle": "The Golden Compass",
+    "scope": "First novel only; no film, television or sequel events used as evidence."
+  },
+  "ownership": {
+    "candidateReadOnly": true,
+    "readyReadOnly": true,
+    "originalReportsReadOnly": true,
+    "onlyWrites": [
+      "editorial-audit/2026-10-31/reviews/northern-lights.json",
+      "editorial-audit/2026-10-31/reviews/northern-lights.md"
+    ],
+    "subagentsSpawned": 0,
+    "gitPrDeployActions": false,
+    "sharedShellChanges": false,
+    "browserStarted": false,
+    "serverStarted": false,
+    "sourceTextOrScansSaved": false
+  },
+  "reading": {
+    "authoringUniqueBilingualPairs": 43,
+    "effectiveEmbeddedHtmlUniqueBilingualPairs": 43,
+    "uniquePairs": 43,
+    "languageTexts": 86,
+    "storyScenePairs": 41,
+    "coverAndFinalPairs": 2,
+    "continuousRoutesRead": 6,
+    "continuousRoutesByLanguage": {
+      "ru": {
+        "essential": 17,
+        "core": 22,
+        "deep": 43
+      },
+      "en": {
+        "essential": 17,
+        "core": 22,
+        "deep": 43
+      }
+    },
+    "pairAppearancesPerLanguageAcrossDepths": 82,
+    "languageScreenAppearancesAcrossAllRoutes": 164,
+    "routeIds": {
+      "essential": [
+        "cover",
+        "lyras-jordan",
+        "forbidden-room",
+        "the-glass",
+        "the-photograms",
+        "roger-is-missing",
+        "the-secret-gift",
+        "the-party",
+        "the-net",
+        "the-roping",
+        "truth-and-spies",
+        "trollesund",
+        "the-bear-without-armour",
+        "armour-and-snow",
+        "lizzie-brooks",
+        "inside-bolvangar",
+        "final"
+      ],
+      "core": [
+        "cover",
+        "lyras-jordan",
+        "forbidden-room",
+        "the-glass",
+        "the-photograms",
+        "the-masters-fear",
+        "roger-is-missing",
+        "the-secret-gift",
+        "softness-and-pain",
+        "the-party",
+        "the-net",
+        "the-roping",
+        "tall-stories",
+        "truth-and-spies",
+        "pan-at-sea",
+        "trollesund",
+        "the-bear-without-armour",
+        "armour-and-snow",
+        "fencing",
+        "lizzie-brooks",
+        "inside-bolvangar",
+        "final"
+      ],
+      "deep": [
+        "cover",
+        "lyras-jordan",
+        "forbidden-room",
+        "the-glass",
+        "the-photograms",
+        "the-masters-fear",
+        "roger-is-missing",
+        "the-secret-gift",
+        "softness-and-pain",
+        "the-party",
+        "the-net",
+        "the-roping",
+        "tall-stories",
+        "truth-and-spies",
+        "pan-at-sea",
+        "trollesund",
+        "out-of-earshot",
+        "the-bear-without-armour",
+        "armour-and-snow",
+        "the-shed",
+        "the-coin",
+        "fencing",
+        "lizzie-brooks",
+        "inside-bolvangar",
+        "the-forbidden-building",
+        "the-next-alarm",
+        "the-separator",
+        "the-tin",
+        "through-the-guards",
+        "the-balloon",
+        "serafinas-story",
+        "fog-and-ice",
+        "the-bear-kings-doll",
+        "an-offer-for-iofur",
+        "before-the-fight",
+        "a-outrance",
+        "asriels-house",
+        "asriels-plan",
+        "morning-tracks",
+        "the-weak-bridge",
+        "on-the-heights",
+        "beyond-the-lights",
+        "final"
+      ]
+    },
+    "globalCopyRead": [
+      "title",
+      "description",
+      "cover",
+      "shared final",
+      "methodNote RU/EN",
+      "all five source notes RU/EN",
+      "pre-consent contents/rail labels",
+      "Deep warning",
+      "saved Continue label and routing"
+    ],
+    "note": "Counts refer to actual human reading and separately extracted embedded routes, not a traversal receipt treated as editorial approval."
+  },
+  "independentChecks": {
+    "authoringHtml": {
+      "screensExact": true,
+      "sourceObjectsExact": true,
+      "methodNoteExact": true,
+      "sourceIdListsExact": true,
+      "stableIdLevelAndClaimTypeExact": true,
+      "metadataAndDefaultsExact": true,
+      "targetModesExact": true,
+      "expectedBuilderAddition": "Localized mode labels and reading minutes within modes; no reading-copy divergence."
+    },
+    "counts": {
+      "essential": 17,
+      "core": 22,
+      "deep": 43
+    },
+    "physicalLevels": {
+      "1": 17,
+      "2": 5,
+      "3": 21
+    },
+    "nestedOrderedSubsequences": true,
+    "uniqueScreenIds": 43,
+    "originalEvidenceMapRecords": 43,
+    "evidenceMapScreenIdLevelSourceIdsMatch": true,
+    "manuscriptSegmentation": {
+      "ru": "Exact original sentence order and coverage",
+      "en": "Exact original sentence order and coverage"
+    },
+    "defaults": {
+      "language": "ru",
+      "theme": "dark",
+      "mode": "essential"
+    },
+    "contentMode": "narrative",
+    "spoilerPolicy": "full-plot-in-deep",
+    "maintainedStructuralAudit": {
+      "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/northern-lights/northern-lights.html --min-screens 43 --require-bilingual",
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0,
+      "editorialApproval": false
+    },
+    "spoilerFlow": {
+      "kind": "Narrow VM control-flow check of the actual embedded reader; render is an in-memory recorder, DOM/storage are stubs; not real-browser QA",
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "lateIds": [
+        "out-of-earshot",
+        "the-shed",
+        "the-coin",
+        "the-forbidden-building",
+        "the-next-alarm",
+        "the-separator",
+        "the-tin",
+        "through-the-guards",
+        "the-balloon",
+        "serafinas-story",
+        "fog-and-ice",
+        "the-bear-kings-doll",
+        "an-offer-for-iofur",
+        "before-the-fight",
+        "a-outrance",
+        "asriels-house",
+        "asriels-plan",
+        "morning-tracks",
+        "the-weak-bridge",
+        "on-the-heights",
+        "beyond-the-lights"
+      ],
+      "counts": {
+        "deepPicker": 2,
+        "hiddenContentsId": 84,
+        "savedDeepContinue": 42,
+        "reloadRevokes": 42,
+        "downgradeRevokes": 2
+      },
+      "failures": []
+    },
+    "spoilerPublicCopy": "No decisive late answer found in Essential/Core, cover, shared final, source/method notes, pre-consent contents/rail or saved Continue. Locked titles and renewed-consent routing are implemented, not just a static warning.",
+    "browserScope": "No independent browser or visual QA run. The narrow VM uses actual embedded logic with stubbed DOM/storage and a recorded render. Existing four browser receipts were inspected and bind to the reviewed HTML hash; their author-reported emulation results are not claimed as this reviewer’s browser work.",
+    "legacyReceipts": [
+      "collector-output/northern-lights/qa/browser-mobile.json",
+      "collector-output/northern-lights/qa/browser-desktop.json",
+      "collector-output/northern-lights/qa/browser-behaviour.json",
+      "collector-output/northern-lights/qa/browser-ios.json"
+    ]
+  },
+  "sourcesActuallyRead": [
+    {
+      "id": 1,
+      "title": "Scholastic publisher opening extract hosted by LoveReading4Kids",
+      "url": "https://www.lovereading4kids.co.uk/extract/955/Northern-Lights-by-Philip-Pullman.html",
+      "kind": "Primary novel extract",
+      "scope": "All chapter-one novel pages, PDF pp. 3–17 of 17; read sequentially from in-memory OCR. Also inspected the web-exposed publisher/title identification.",
+      "editionLimit": "The sample does not identify a print ISBN/year. This is the complete opening chapter, not a complete novel.",
+      "access": "Public URL returned PDF through requests with its normal defaults; no credentials, spoofed headers or bypass. An earlier urllib request returned 403. Web screenshot wrappers supplied no usable image payload; they were not counted as reading.",
+      "bytes": 303090,
+      "sha256": "4278f7b512e2df42abeec1fa7aaab14d620fc6bcce5fde2a78a723e8bf5c67c7",
+      "retainedOnDisk": false
+    },
+    {
+      "id": 2,
+      "title": "Helen Mason, Northern Lights: Notes and Activities for KS3, ZigZag Education, POD 5161, June 2013",
+      "url": "https://zigzageducation.co.uk/samplepdf/English/s5161.pdf",
+      "kind": "Accountable substantial secondary chapter guide plus selected authentic primary quotations",
+      "scope": "Independently read all 23 prose chapter summaries, relevant factual answer keys and selected authentic quoted passages via the official 111-page inspection PDF. Questions, imaginative model writing and adaptation tables were not accepted as plot proof.",
+      "baseEdition": "Introduction, printed p. 1 / PDF p. 6: Scholastic UK, 2011 [1995], no ISBN stated.",
+      "summaryLocations": [
+        {
+          "chapter": 1,
+          "guidePrintedPage": 12,
+          "pdfPage1Based": 17
+        },
+        {
+          "chapter": 2,
+          "guidePrintedPage": 16,
+          "pdfPage1Based": 21
+        },
+        {
+          "chapter": 3,
+          "guidePrintedPage": 20,
+          "pdfPage1Based": 25
+        },
+        {
+          "chapter": 4,
+          "guidePrintedPage": 23,
+          "pdfPage1Based": 28
+        },
+        {
+          "chapter": 5,
+          "guidePrintedPage": 27,
+          "pdfPage1Based": 32
+        },
+        {
+          "chapter": 6,
+          "guidePrintedPage": 31,
+          "pdfPage1Based": 36
+        },
+        {
+          "chapter": 7,
+          "guidePrintedPage": 35,
+          "pdfPage1Based": 40
+        },
+        {
+          "chapter": 8,
+          "guidePrintedPage": 38,
+          "pdfPage1Based": 43
+        },
+        {
+          "chapter": 9,
+          "guidePrintedPage": 41,
+          "pdfPage1Based": 46
+        },
+        {
+          "chapter": 10,
+          "guidePrintedPage": 49,
+          "pdfPage1Based": 54
+        },
+        {
+          "chapter": 11,
+          "guidePrintedPage": 53,
+          "pdfPage1Based": 58
+        },
+        {
+          "chapter": 12,
+          "guidePrintedPage": 57,
+          "pdfPage1Based": 62
+        },
+        {
+          "chapter": 13,
+          "guidePrintedPage": 60,
+          "pdfPage1Based": 65
+        },
+        {
+          "chapter": 14,
+          "guidePrintedPage": 63,
+          "pdfPage1Based": 68
+        },
+        {
+          "chapter": 15,
+          "guidePrintedPage": 66,
+          "pdfPage1Based": 71
+        },
+        {
+          "chapter": 16,
+          "guidePrintedPage": 69,
+          "pdfPage1Based": 74
+        },
+        {
+          "chapter": 17,
+          "guidePrintedPage": 72,
+          "pdfPage1Based": 77
+        },
+        {
+          "chapter": 18,
+          "guidePrintedPage": 79,
+          "pdfPage1Based": 84
+        },
+        {
+          "chapter": 19,
+          "guidePrintedPage": 82,
+          "pdfPage1Based": 87
+        },
+        {
+          "chapter": 20,
+          "guidePrintedPage": 85,
+          "pdfPage1Based": 90
+        },
+        {
+          "chapter": 21,
+          "guidePrintedPage": 89,
+          "pdfPage1Based": 94
+        },
+        {
+          "chapter": 22,
+          "guidePrintedPage": 93,
+          "pdfPage1Based": 98
+        },
+        {
+          "chapter": 23,
+          "guidePrintedPage": 96,
+          "pdfPage1Based": 101
+        }
+      ],
+      "selectedPrimaryQuotationPrintedPages": [
+        29,
+        54,
+        64,
+        65,
+        70,
+        78,
+        83,
+        84,
+        88,
+        92,
+        97
+      ],
+      "editionLimit": "This is a guide, not the full primary edition. Later action and final chapter sequence remain guide-backed. Primary sound/landscape fragments do not verify the entire final scene.",
+      "retainedOnDisk": false
+    },
+    {
+      "id": 3,
+      "title": "Systime: Philip Pullman, Northern Lights / The Golden Compass, supplementary teaching extracts",
+      "url": "https://supplerendematerialer.systime.dk/fileadmin/indhold/SupplerendeMaterialer/A_Short_History_of_Literature_in_English/Fantasy/Pullmanwebopg.pdf",
+      "kind": "Selected primary English passages in a publisher educational supplement",
+      "scope": "Arrival passage on PDF p. 1, identified by the supplement as novel p. 116; all five paired UK/US English extracts on PDF pp. 2–4. Danish translations were not used.",
+      "editionLimit": "Selection only, not either whole UK/US edition. Extra US cloud-pine business and exact symbol numbers are not silently required of the UK-based condensation.",
+      "retainedOnDisk": false
+    },
+    {
+      "id": 4,
+      "title": "Scholastic 2019 Northern Lights gift edition description carried by Foyles",
+      "url": "https://www.foyles.co.uk/book/his-dark-materials-northern-lights-gift-edition/philip-pullman/9781407198705",
+      "kind": "Narrow original passage and bibliographic check",
+      "scope": "Read the short Asriel passage in Synopsis and publisher metadata, ISBN 9781407198705, 17 October 2019. Used narrowly for his stated position in asriels-plan, not as an action synopsis.",
+      "editionLimit": "The listed complete edition was not read; the displayed speech is a character’s position, not narrator-certified trilogy cosmology."
+    },
+    {
+      "id": 5,
+      "title": "Penguin Random House: The Golden Compass, His Dark Materials Book 1",
+      "url": "https://www.penguinrandomhouse.com/books/136447/his-dark-materials-the-golden-compass-book-1-by-philip-pullman/",
+      "kind": "Publisher bibliographic identification",
+      "scope": "Title/first-volume identity and product details: Knopf Books for Young Readers, 10 September 2002, ISBN 9780375823459.",
+      "editionLimit": "Metadata only; no complete edition downloaded or read, and later-series promotion not used."
+    }
+  ],
+  "sourceSufficiency": "The disclosed primary extracts plus official substantive chapter guide support the retained concise chain, subject to the one correction below. Absence of a continuous complete-novel reading is a stated limit, not by itself a rejection. No additional essential retained-link source gap was established.",
+  "editorialAssessment": {
+    "form": "Concrete story prose with actions, relationships, atmosphere, danger and some humour; no managerial or moral lesson substitutes for the novel.",
+    "translation": "All 43 RU/EN pairs compared. No material translation mismatch established; NL-001 is shared by both languages.",
+    "characterAndCausalHingesChecked": [
+      "lyras-jordan / forbidden-room / the-glass",
+      "roger-is-missing / the-party / the-net / the-roping",
+      "truth-and-spies / pan-at-sea / trollesund",
+      "the-bear-without-armour / armour-and-snow",
+      "the-shed / the-coin / the-forbidden-building / the-separator / the-tin",
+      "serafinas-story / fog-and-ice",
+      "the-bear-kings-doll / an-offer-for-iofur / before-the-fight / a-outrance",
+      "asriels-house / asriels-plan / morning-tracks / the-weak-bridge / on-the-heights / beyond-the-lights"
+    ],
+    "ending": "Open first-novel ending preserved; no later answers imposed. Asriel’s Dust account remains attributed to him. Intercision is not rewritten as a universal immediate-death rule."
+  },
+  "requiredFindings": [
+    {
+      "id": "NL-001",
+      "screenID": "fog-and-ice",
+      "level": 3,
+      "severity": "minor",
+      "required": true,
+      "category": "Incorrect chronology / invented causal transition",
+      "location": "copy.ru.body and copy.en.body; identical in authoring, both connected manuscripts and effective HTML",
+      "exactClause": {
+        "ru": "Но разговор обрывается опасностью.",
+        "en": "Danger ends their conversation."
+      },
+      "replacementSpan": {
+        "ru": {
+          "before": "Но разговор обрывается опасностью. На шар нападают скальные призраки.",
+          "after": "Позже на шар нападают скальные призраки."
+        },
+        "en": {
+          "before": "Danger ends their conversation. Cliff-ghasts attack the balloon.",
+          "after": "Later, cliff-ghasts attack the balloon."
+        }
+      },
+      "reason": "This says the attack interrupts Lyra’s conversation with Serafina. The consulted chapter prose instead ends the discussion with Lyra becoming too tired, then places her awakening and the attack later. Omitting sleep is legitimate compression; changing what ends the conversation introduces a false causal link. The attack, fall and capture otherwise need no change.",
+      "evidence": {
+        "url": "https://zigzageducation.co.uk/samplepdf/English/s5161.pdf#page=84",
+        "title": "Helen Mason / ZigZag Education official guide",
+        "novelChapter": 18,
+        "chapterTitle": "Fog and Ice",
+        "guidePrintedPage": 79,
+        "pdfPage1Based": 84,
+        "webTextLines": "2945–2951",
+        "kind": "Declarative prose chapter summary, not a teacher question",
+        "paraphrase": "The discussion ends in tiredness; subsequently the balloon’s violent movement wakes Lyra before the cliff-ghast attack and fall.",
+        "limit": "This correction is supported within the substantial guide’s scope; it is not a claim of a complete primary reading of chapter 18."
+      },
+      "smallestSupportedCorrection": "Replace only the two leading sentences with the supplied Later/Позже sentence. No added scene, dialogue, motive or new screen is needed.",
+      "impact": "Deep only; counts, IDs, source IDs, shallow routes and spoiler guards can remain as reviewed. Parent can make the local correction personally."
+    }
+  ],
+  "optionalFindings": [],
+  "limits": [
+    "No continuous reading of a complete primary novel is claimed by this reviewer.",
+    "No published Russian translation was independently consulted; RU/EN parity concerns the candidate’s original retellings.",
+    "The final action chain is checked within the official guide’s prose/answer scope, not a complete primary chapter 23.",
+    "No independent browser/physical iPhone QA or publication/integration check was performed."
+  ],
+  "integrity": {
+    "algorithm": "SHA-256",
+    "guardedFileCount": 27,
+    "allUnchanged": true,
+    "files": [
+      {
+        "path": "collector-output/northern-lights/QA.md",
+        "before": "0ca0294286c5134bfa08a15d98d9508bbc04bc738357d6c307b0f3ea2708686a",
+        "after": "0ca0294286c5134bfa08a15d98d9508bbc04bc738357d6c307b0f3ea2708686a",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/build-local.mjs",
+        "before": "7cd8eff5b2d0ad34449ce2602afb2952b64e25afbf6aba7b354e6647182cfe1f",
+        "after": "7cd8eff5b2d0ad34449ce2602afb2952b64e25afbf6aba7b354e6647182cfe1f",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/narrative-en.md",
+        "before": "a62dfb89201ced93b9d285c2ac234fcd0b5ed50a2040db2498b8b3f0449f8957",
+        "after": "a62dfb89201ced93b9d285c2ac234fcd0b5ed50a2040db2498b8b3f0449f8957",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/narrative-ru.md",
+        "before": "ad6c8291f7980a240aaf12cab49172d6b87790478c6afe5098267d7515e3bd99",
+        "after": "ad6c8291f7980a240aaf12cab49172d6b87790478c6afe5098267d7515e3bd99",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/northern-lights.html",
+        "before": "2be07fd4627e846d6b51314e77aaf6775ae17c9026488638af55fc59d6efd43f",
+        "after": "2be07fd4627e846d6b51314e77aaf6775ae17c9026488638af55fc59d6efd43f",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/browser-behaviour.json",
+        "before": "117bbfd6ce0fc944f29ef07af4049a3ff15c72b0bb3ae9e7dd547b756a250640",
+        "after": "117bbfd6ce0fc944f29ef07af4049a3ff15c72b0bb3ae9e7dd547b756a250640",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/browser-desktop.json",
+        "before": "ea4249ba190f39e9ec4d46e68bf765a4ffacf286746e5f55a3199f81eca7f84f",
+        "after": "ea4249ba190f39e9ec4d46e68bf765a4ffacf286746e5f55a3199f81eca7f84f",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/browser-ios.json",
+        "before": "b410ad2df12780b1d76d0e61360173ea79eeee057d54c67f075862807e50a53b",
+        "after": "b410ad2df12780b1d76d0e61360173ea79eeee057d54c67f075862807e50a53b",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/browser-mobile.json",
+        "before": "d7ab819e48d668b72e127904a8942b897f196fcf543926f79085338e2e3b9e6c",
+        "after": "d7ab819e48d668b72e127904a8942b897f196fcf543926f79085338e2e3b9e6c",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/browser.mjs",
+        "before": "ad17284db223de47af83d0756275bc90be0d7092caeef7ea5adc38f9c89c5e03",
+        "after": "ad17284db223de47af83d0756275bc90be0d7092caeef7ea5adc38f9c89c5e03",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/build.json",
+        "before": "a4dee08b3ed21b75a74861daaff5ce08f47b756f7558242efa362a0e318fb17d",
+        "after": "a4dee08b3ed21b75a74861daaff5ce08f47b756f7558242efa362a0e318fb17d",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/check-corpus.mjs",
+        "before": "42be7ac7975c60e0d19cc765db2231b4d5ac0c40d35e495e54b51339dcd315d5",
+        "after": "42be7ac7975c60e0d19cc765db2231b4d5ac0c40d35e495e54b51339dcd315d5",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/corpus-parity.json",
+        "before": "a721f5cd68dabf140d808bf19766647a39ee082a084036b64837efccc4a69cb9",
+        "after": "a721f5cd68dabf140d808bf19766647a39ee082a084036b64837efccc4a69cb9",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/cover-320-dark-ru.png",
+        "before": "e0a94d599b6863e1081de2c8a9c0c62413805f2a63ae3670be63c367c3871f12",
+        "after": "e0a94d599b6863e1081de2c8a9c0c62413805f2a63ae3670be63c367c3871f12",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/dense-320-light-en.png",
+        "before": "5b89d6ea4a5e5c41e0bc58c492870c8dcb92baab278b10f1f6643c3e5fe07a97",
+        "after": "5b89d6ea4a5e5c41e0bc58c492870c8dcb92baab278b10f1f6643c3e5fe07a97",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/desktop-1440-dark-en.png",
+        "before": "14edc6bb43b5eb7828b957a9f1e92b64b5f9d866cc291aeafd171ec884aba76d",
+        "after": "14edc6bb43b5eb7828b957a9f1e92b64b5f9d866cc291aeafd171ec884aba76d",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/effective-reading.txt",
+        "before": "24de98a052589cd53cf61ee3959b5267a91be4128703ee3c6cd61a888b2cf6d2",
+        "after": "24de98a052589cd53cf61ee3959b5267a91be4128703ee3c6cd61a888b2cf6d2",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/final-390-dark-ru.png",
+        "before": "63a00a3757c3c4eee9a62051c04ddfa9257a3165752026371d93ecd71c8c8e53",
+        "after": "63a00a3757c3c4eee9a62051c04ddfa9257a3165752026371d93ecd71c8c8e53",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/ios-320-safe-area-en.png",
+        "before": "bafada517c9d9172ff65cf50c58358f625cf1baf6cd1bc26618c672c2221d0fa",
+        "after": "bafada517c9d9172ff65cf50c58358f625cf1baf6cd1bc26618c672c2221d0fa",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/make-evidence.py",
+        "before": "3cbc3d826a24f84a7ef269ef2074cb73ed3db39b70517d1f75dc285543a6df31",
+        "after": "3cbc3d826a24f84a7ef269ef2074cb73ed3db39b70517d1f75dc285543a6df31",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/segmentation.json",
+        "before": "a6179d07c66d4b872bd0db24c25761c39e715db240fb39332c1d70ac2bf78cb0",
+        "after": "a6179d07c66d4b872bd0db24c25761c39e715db240fb39332c1d70ac2bf78cb0",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/qa/structure-audit.json",
+        "before": "767d4a3900606101d6ba6cd84568e3ca443ad8376cae1399c9a11639435d09ec",
+        "after": "767d4a3900606101d6ba6cd84568e3ca443ad8376cae1399c9a11639435d09ec",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/segment-manuscript.py",
+        "before": "c6a6844062ef1378190ab2c06b66ce0d6bb9584122cd6a808be532ef974c48da",
+        "after": "c6a6844062ef1378190ab2c06b66ce0d6bb9584122cd6a808be532ef974c48da",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/source-evidence-map.json",
+        "before": "b5c0b866ee51bdb1e0dfafdd87bf9445fd33b50c2b011738290294299b74b2d4",
+        "after": "b5c0b866ee51bdb1e0dfafdd87bf9445fd33b50c2b011738290294299b74b2d4",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/sources.md",
+        "before": "690215100d575f081986856684d18978f42578700694832bb8b84a7eba269f01",
+        "after": "690215100d575f081986856684d18978f42578700694832bb8b84a7eba269f01",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/northern-lights/story-data.json",
+        "before": "1d3caabf6657fa65a3707310b0b06eb0b702359871dac3b827437900a14ff10f",
+        "after": "1d3caabf6657fa65a3707310b0b06eb0b702359871dac3b827437900a14ff10f",
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/ready/northern-lights.json",
+        "before": "073a66cdabae705eb725710512543ff9ddf773d082127542f127ec98dcece6e6",
+        "after": "073a66cdabae705eb725710512543ff9ddf773d082127542f127ec98dcece6e6",
+        "unchanged": true
+      }
+    ],
+    "readyCanonicalHashesMatch": true
+  },
+  "handoff": "Parent may apply NL-001 directly, regenerate the corresponding manuscripts/authoring/HTML as appropriate and refresh exact hashes/checks. Publisher can validate that narrow delta against the cited finding; this record does not approve unrelated changes or publication of the uncorrected candidate."
+}

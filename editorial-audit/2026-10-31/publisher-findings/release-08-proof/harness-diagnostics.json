@@ -1,0 +1,17 @@
+{
+  "productRuntimeChanged": false,
+  "diagnostics": [
+    {
+      "phase": "release-consent",
+      "message": "Heinlein accepted resume lost target",
+      "cause": "Harness selected only spoilerDialog, ignoring this reviewed reader\u2019s endingDialog/endingAccept. Actual runtime unchanged.",
+      "fix": "Recognize its actual custom native HTML dialog controls."
+    },
+    {
+      "phase": "release-closures",
+      "message": "Mockingbird cover sourceMap false / tail omitted",
+      "cause": "Harness required per-screen sources on a typographic cover and selected only direct p children, while the cover\u2019s real paragraphs are nested in cover-copy.",
+      "fix": "Allow cover without per-screen citation and inspect actual nested paragraphs; Sources and complete effective-source parity are separate mandatory checks."
+    }
+  ]
+}

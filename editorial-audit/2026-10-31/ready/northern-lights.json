@@ -1,0 +1,312 @@
+{
+  "slug": "northern-lights",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD / first implementation of an already approved queued novel",
+  "work": {
+    "title": {
+      "ru": "Северное сияние",
+      "en": "Northern Lights"
+    },
+    "author": "Philip Pullman",
+    "originalYear": 1995,
+    "alternateTitle": "The Golden Compass",
+    "scope": "FIRST His Dark Materials novel only; no adaptations or sequels",
+    "guideBaseEdition": "Scholastic UK, 2011 [1995], as identified by Helen Mason 2013; no ISBN supplied",
+    "primaryOpeningEdition": "Scholastic opening extract; exact edition year/ISBN unspecified",
+    "bibliographicListingsOnly": [
+      "Knopf paperback 2002, ISBN 9780375823459",
+      "Scholastic 2019, ISBN 9781407198705"
+    ]
+  },
+  "canonicalFiles": [
+    {
+      "path": "collector-output/northern-lights/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/story-data.json",
+      "sha256": "4b27f8e744e703efdb7ea12620567a6a7bf9c3d762b3f94b408b7f9af3b1e76e",
+      "bytes": 59654
+    },
+    {
+      "path": "collector-output/northern-lights/northern-lights.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/northern-lights.html",
+      "sha256": "ba85c52936b1c85b7e8bb09518b02a9fb4342392b7b83322b0e12a630046843b",
+      "bytes": 306715
+    },
+    {
+      "path": "collector-output/northern-lights/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/sources.md",
+      "sha256": "672506a63eff0e63189c64add2c2e22bea7d832d4bd344968a6c3220f996fa4f",
+      "bytes": 7385
+    },
+    {
+      "path": "collector-output/northern-lights/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/QA.md",
+      "sha256": "f0681df03f89eaf94db3fcff89a1215a6d725be84e4deb22b9fef7c7cc8b1af4",
+      "bytes": 6981
+    }
+  ],
+  "reportPath": "editorial-audit/2026-10-31/books/northern-lights-sol-implementation.md",
+  "reportSHA256": "d9d6cea38ae6a3273128704c9cf0ba747b58b1f4ce1f334e05ac878b53b1fcde",
+  "counts": {
+    "essential": 17,
+    "core": 22,
+    "deep": 43
+  },
+  "levelCounts": {
+    "1": 17,
+    "2": 5,
+    "3": 21
+  },
+  "contentMode": "narrative",
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "spoilerPolicy": "full-plot-in-deep",
+  "sourceCount": 5,
+  "mediaCount": 0,
+  "readingMinutes": {
+    "essential": {
+      "ru": "5 минут",
+      "en": "5 min"
+    },
+    "core": {
+      "ru": "6 минут",
+      "en": "5 min"
+    },
+    "deep": {
+      "ru": "11 минут",
+      "en": "11 min"
+    }
+  },
+  "builderWordTotals": {
+    "essential": {
+      "ru": 737,
+      "en": 886
+    },
+    "core": {
+      "ru": 919,
+      "en": 1093
+    },
+    "deep": {
+      "ru": 1850,
+      "en": 2221
+    }
+  },
+  "bodyWordDensity": {
+    "ru": {
+      "min": 21,
+      "max": 64,
+      "mean": 40.6
+    },
+    "en": {
+      "min": 22,
+      "max": 80,
+      "mean": 48.4
+    }
+  },
+  "reviewedPairs": {
+    "oldCollector": 0,
+    "oldPublished": 0,
+    "newAuthoring": 43,
+    "newEffectiveEmbeddedHtml": 43,
+    "uniqueNewPairs": 43,
+    "languageTexts": 86,
+    "modePairAppearances": 82,
+    "independentContentReview": "pending"
+  },
+  "sourceScope": "No matching owned edition found in 217 expanded OPFs and one ZIP EPUB OPF. No complete primary novel or published Russian translation was read continuously. Read the complete publisher chapter-one extract, Systime primary English UK/US fragments, and selected authentic novel quotations in the official Helen Mason/ZigZag 111-page inspection guide. All 23 guide prose chapter summaries and relevant factual answers support the retained actions/causal links. Final chapter action is guide-backed, not a complete primary reading of chapter 23. Foyles publisher excerpt narrowly checks Asriel’s stated position; PRH supplies bibliographic/first-novel identification. Questions, invented exercises, film/TV and sequels do not fill gaps. No full book or copyrighted source text distributed.",
+  "sourceEvidenceMap": {
+    "path": "collector-output/northern-lights/source-evidence-map.json",
+    "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/source-evidence-map.json",
+    "sha256": "b5c0b866ee51bdb1e0dfafdd87bf9445fd33b50c2b011738290294299b74b2d4",
+    "bytes": 33380
+  },
+  "changes": [
+    "Created four canonical collector files for the approved queued Northern Lights title; no previous collector or root reader was repaired.",
+    "Wrote 16 connected original prose paragraphs per language before segmentation; derived 17/22/43 exact nested counts without quota padding.",
+    "Told Lyra/Pan/Roger’s connected northern quest with gyptians, Iorek, witches, relationships and adults’ morally conflicting actions; omitted management lessons, modern sermons, exercises, invented scenes and dialogue.",
+    "Corrected Kaisa/armour ordering and Silvertongue naming order against guide locations; replaced an invented-feeling formulation with observed taunting.",
+    "Established London/hostess in the Essential party sentence; removed unsupported kitchen-job detail, implied tale-persuasion mechanism and physical alethiometer handover.",
+    "Added book-local volatile Deep consent, generic saved-Deep Continue, locked shallow titles, spoiler-safe cover/shared final and shorter mobile cover warning.",
+    "Built from the maintained v2 builder, preserved canonical/embedded parity and source maps, and kept shared fonts/settings untouched."
+  ],
+  "spoilerBoundary": {
+    "shallowEndpoint": "Lyra finds the children inside Bolvangar; imminent danger remains unresolved.",
+    "decisiveOutcomes": "Deep only after consent; includes remaining northern events and first-novel final scene.",
+    "guardedRoutes": [
+      "Deep picker",
+      "direct hidden chapter",
+      "saved Deep Continue"
+    ],
+    "consentRevokedOn": [
+      "reload",
+      "mode downgrade"
+    ],
+    "safePublicSurfaces": [
+      "cover",
+      "shared final",
+      "shallow contents",
+      "Continue label",
+      "global method/source notes"
+    ]
+  },
+  "checks": {
+    "maintainedStructure": {
+      "checks": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "canonicalEmbeddedParity": true,
+    "manuscriptSentenceOrderParity": true,
+    "browserViewportSizes": [
+      "320x568",
+      "390x844",
+      "1024x768",
+      "1440x900"
+    ],
+    "browserRenderedScreenChecks": 1312,
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "runtimeErrorsObserved": 0,
+    "runtimeHttpRequestsObserved": 0,
+    "horizontalOverflowObserved": 0,
+    "serverStarted": false,
+    "physicalIphoneTest": false,
+    "ownedChromeProfilesRemoved": true,
+    "temporaryResearchSourceTextRemoved": true,
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/northern-lights.html",
+      "format": "v2",
+      "bytes": 306715,
+      "screenCount": 43,
+      "levels": {
+        "1": 17,
+        "2": 5,
+        "3": 21
+      },
+      "modes": {
+        "essential": 17,
+        "core": 22,
+        "deep": 43
+      },
+      "words": {
+        "ru": 1844,
+        "en": 2214
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedBrowser": {
+      "status": "passed",
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-fiction-fix-browser.json",
+      "reportSha256": "6dbf42ddcf07836db322c1b34ef071bbf32cef474b54155e6f37162683b0ca8e",
+      "totalAssertionsAcrossFourReaders": 176,
+      "scope": "Changed-copy and tail checks, four representative viewport/theme cases in RU/EN, native browser/HTML consent, cancellation and saved restore; all owned processes/profiles cleaned. No physical iPhone/PWA claim."
+    }
+  },
+  "supportingFiles": [
+    {
+      "path": "collector-output/northern-lights/source-evidence-map.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/source-evidence-map.json",
+      "sha256": "b5c0b866ee51bdb1e0dfafdd87bf9445fd33b50c2b011738290294299b74b2d4",
+      "bytes": 33380
+    },
+    {
+      "path": "collector-output/northern-lights/qa/build.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/build.json",
+      "sha256": "a4dee08b3ed21b75a74861daaff5ce08f47b756f7558242efa362a0e318fb17d",
+      "bytes": 1184
+    },
+    {
+      "path": "collector-output/northern-lights/qa/structure-audit.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/structure-audit.json",
+      "sha256": "767d4a3900606101d6ba6cd84568e3ca443ad8376cae1399c9a11639435d09ec",
+      "bytes": 405
+    },
+    {
+      "path": "collector-output/northern-lights/qa/corpus-parity.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/corpus-parity.json",
+      "sha256": "12dd58bff94d959df5b8a63592f14a0608f078593c6d32497da813f3b33e3424",
+      "bytes": 3375
+    },
+    {
+      "path": "collector-output/northern-lights/qa/browser-mobile.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/browser-mobile.json",
+      "sha256": "d7ab819e48d668b72e127904a8942b897f196fcf543926f79085338e2e3b9e6c",
+      "bytes": 5730
+    },
+    {
+      "path": "collector-output/northern-lights/qa/browser-desktop.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/browser-desktop.json",
+      "sha256": "ea4249ba190f39e9ec4d46e68bf765a4ffacf286746e5f55a3199f81eca7f84f",
+      "bytes": 5679
+    },
+    {
+      "path": "collector-output/northern-lights/qa/browser-behaviour.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/browser-behaviour.json",
+      "sha256": "117bbfd6ce0fc944f29ef07af4049a3ff15c72b0bb3ae9e7dd547b756a250640",
+      "bytes": 2941
+    },
+    {
+      "path": "collector-output/northern-lights/qa/browser-ios.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/northern-lights/qa/browser-ios.json",
+      "sha256": "b410ad2df12780b1d76d0e61360173ea79eeee057d54c67f075862807e50a53b",
+      "bytes": 1265
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/owned-edition-search.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/owned-edition-search.json",
+      "sha256": "4472ecf24508e99c557d13a5cf2db6aa77ef5a98b20b188a751f7f5192e8a104",
+      "bytes": 663
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/source-access.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/source-access.json",
+      "sha256": "547e1e992a2a715a7ffe7761c74993c0b0aa2e8bd36bc784322fe5c646ea8e9c",
+      "bytes": 3252
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/implementation-reading.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/implementation-reading.json",
+      "sha256": "db7d4cd7871497cc91084e30b745a7da72fbe337cafd74a7ea3db52c905e7ff9",
+      "bytes": 5836
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/cleanup.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/northern-lights-sol-implementation-evidence/cleanup.json",
+      "sha256": "1918d01ec4bc79807036e03ced8019d1e010a7d710be231f093f5f6e247f2d4a",
+      "bytes": 229
+    }
+  ],
+  "boundaries": [
+    "Writes only assigned collector, own implementation report/evidence and this ready file.",
+    "No root reader/catalogue/index/shared shell/installed skill/log edits.",
+    "No shared font/UI edits or integration of separately reviewed Global Settings PR29.",
+    "No subagents, Git/PR/deploy, source acquisition purchases/loans/credential changes or external messages.",
+    "Publisher owns independent check, root/catalogue integration and publication."
+  ],
+  "unresolvedIssues": [
+    "Independent editorial check remains pending; this record is not self-approval.",
+    "Evidence is selective primary plus accountable guide, not continuous complete-novel or published-translation verification.",
+    "Physical Safari/installed-PWA behavior remains untested; browser checks use Chromium emulation.",
+    "Root library navigation/discovery integration and the separate Global Settings PR29 review belong to the publisher."
+  ],
+  "essentialUnsupportedRetainedLinks": [],
+  "parentCorrections": {
+    "findings": [
+      "NL-001"
+    ],
+    "changedScreens": [
+      "fog-and-ice"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/northern-lights-meaning-fix-closure.json"
+  }
+}

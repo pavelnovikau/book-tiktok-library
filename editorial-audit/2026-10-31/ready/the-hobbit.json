@@ -1,0 +1,165 @@
+{
+  "slug": "the-hobbit",
+  "status": "ready-for-independent-check",
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-hobbit/story-data.json",
+      "sha256": "7daa1faf39f729772768f970ea63ec955870e44d42547f38aa04a99c51d8037d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-hobbit/the-hobbit.html",
+      "sha256": "5976e32fd091b86397fac3371f1efa3839de77b30ae71d0f33eb296356a81e69"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-hobbit/sources.md",
+      "sha256": "ac1977ae595b90830bf63e608ed6f21e41668d234a99b3a70f2e3c395354d169"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-hobbit/QA.md",
+      "sha256": "b8411b4a0f89e81e1eeadec745dc0cdf7c6cb7d45c906a4fd9e803c7047d6183"
+    }
+  ],
+  "counts": {
+    "essential": 15,
+    "core": 23,
+    "deep": 35
+  },
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-hobbit.md",
+  "report": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/the-hobbit.md",
+    "sha256": "8204de14dfe84e7ef272c154f40cd508208d6eec6468cb223199cc17583fa756"
+  },
+  "acquisitionEvidence": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/the-hobbit.md",
+    "sha256": "482636d882f59a8576d97d7a95e89a0b6b83375378bcd052d1bffbb1f3283c5c"
+  },
+  "sourceScope": {
+    "completeBookRead": false,
+    "translationCollated": false,
+    "actualRead": "Ballantine ISBN 9780345339683 current publisher chapter-1 opening; Robert Foster publisher chapter-summary guide 1–19 and relevant scene commentary",
+    "sufficiency": "Claim-mapped support for retained concise modern plot; no entire-edition fidelity certification"
+  },
+  "changes": [
+    "144 analytical bilingual pairs replaced with 35 original-word narrative pairs",
+    "Exact nested modes changed 36/90/144 to 15/23/35",
+    "Lessons, exercises and research tail removed; unsupported specifics excluded",
+    "Preserved session-scoped book-local consent, generic saved labels, safe restored-depth behaviour and typographic cover",
+    "Built maintained standalone plus scoped maintained compact header shell",
+    "Retained troll rescue in Essential to close capture before Rivendell; final claim audit removed specifics not established by accessed sources"
+  ],
+  "checks": {
+    "structure": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browserScreenVisits": 1168,
+    "viewports": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "runtimeExceptions": 0,
+    "httpRuntimeRequests": 0,
+    "embeddedCorpusEqualsCanonical": true,
+    "consentAndSavedDepth": "implementation checks passed; no independent claim",
+    "builderWordTotals": {
+      "essential": {
+        "ru": 742,
+        "en": 878
+      },
+      "core": {
+        "ru": 1119,
+        "en": 1327
+      },
+      "deep": {
+        "ru": 1726,
+        "en": 2057
+      }
+    },
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-hobbit/the-hobbit.html",
+      "format": "v2",
+      "bytes": 313432,
+      "screenCount": 35,
+      "levels": {
+        "1": 15,
+        "2": 8,
+        "3": 12
+      },
+      "modes": {
+        "essential": 15,
+        "core": 23,
+        "deep": 35
+      },
+      "words": {
+        "ru": 1708,
+        "en": 2031
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedRegression": {
+      "status": "pass",
+      "assertions": 148,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-hobbit-pass2-browser.json"
+    }
+  },
+  "unresolvedIssues": [
+    "Independent content/source review pending",
+    "No continuous full-novel reading or specific translation verification",
+    "Physical iOS/Safari not tested"
+  ],
+  "publicationAuthorizedByThisRecord": false,
+  "parentCorrections": {
+    "findings": [
+      "HOB-SR-001",
+      "HOB-SR-002",
+      "HOB-SR-003",
+      "HOB-SR-004",
+      "HOB-SR-005",
+      "HOB-SR-006"
+    ],
+    "changedScreens": [
+      "e-gollum",
+      "k-smaug",
+      "k-bare-patch",
+      "l-arkenstone",
+      "l-smaug-death",
+      "n-unconscious",
+      "o-settlement"
+    ],
+    "newIndependentAcceptance": false,
+    "requiresFreshIndependentReview": true,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/the-hobbit-meaning-fix-closure.json",
+    "runtimeChanges": [
+      "volatile approval",
+      "downgrade cap",
+      "neutral explicit saved-Deep label"
+    ]
+  },
+  "parentRepairReport": "editorial-audit/2026-10-31/repairs/the-hobbit-parent-pass2.md",
+  "sourceCount": 3
+}

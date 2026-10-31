@@ -1,0 +1,827 @@
+{
+  "atUtc": "2026-10-31T21:43:00.891Z",
+  "catalogueBooks": 47,
+  "catalogueScreens": 2076,
+  "excluded": [
+    {
+      "pass": true,
+      "path": "collector-output/amphibian-man/story-data.json",
+      "status": 404
+    },
+    {
+      "pass": true,
+      "path": "editorial-audit/2026-10-31/BRIEF.md",
+      "status": 404
+    },
+    {
+      "pass": true,
+      "path": "skills/book-tiktok/SKILL.md",
+      "status": 404
+    },
+    {
+      "pass": true,
+      "path": "private/index.html",
+      "status": 404
+    },
+    {
+      "pass": true,
+      "path": "research/index.html",
+      "status": 404
+    },
+    {
+      "pass": true,
+      "path": ".env.local",
+      "status": 404
+    }
+  ],
+  "expectedCommit": "2fbd3f584e121375093293f0bc2e99b3465056af",
+  "kind": "actual-production-byte-and-effective-corpus-verification",
+  "mergeCommit": "77b62beb173c424ed37311c8a3fce7b651163c57",
+  "origin": "https://book-tiktok-library.vercel.app",
+  "pass": true,
+  "publicAllowlistFiles": 58,
+  "responses": [
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "6e661893041ac3fea33a7d7afc07310d9d0cf9addb37de0e88cdb95c24f92e09",
+      "effectivePairs": 36,
+      "expectedSha256": "d51c32b09e25983243539e6fc4347655197792da0bf939a3cc6fba53cf97d35b",
+      "file": "a-guide-to-the-good-life.html",
+      "pass": true,
+      "sha256": "d51c32b09e25983243539e6fc4347655197792da0bf939a3cc6fba53cf97d35b",
+      "status": 200,
+      "targetModes": {
+        "core": 32,
+        "deep": 36,
+        "essential": 18
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "c369f63fb6e105cb3416d7e1323fcc0300818ec6b25981e1e6064916e43be7bf",
+      "effectivePairs": 28,
+      "expectedSha256": "78e46057c89b12161f05ce8832f4169dd54b4611380b2fb7d4f575f9349d9270",
+      "file": "a-wizard-of-earthsea.html",
+      "pass": true,
+      "sha256": "78e46057c89b12161f05ce8832f4169dd54b4611380b2fb7d4f575f9349d9270",
+      "status": 200,
+      "targetModes": {
+        "core": 24,
+        "deep": 28,
+        "essential": 17
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "dfbd0eb3c2331d6119fec4c119a3dabfb120fed731d4e29cebbfe3dd2a7677f4",
+      "effectivePairs": 54,
+      "expectedSha256": "407f350970ec24446783cfb4b6558f083a92fa490f8b00410a400a894afd1b7b",
+      "file": "adventures-of-huckleberry-finn.html",
+      "pass": true,
+      "sha256": "407f350970ec24446783cfb4b6558f083a92fa490f8b00410a400a894afd1b7b",
+      "status": 200,
+      "targetModes": {
+        "core": 36,
+        "deep": 54,
+        "essential": 24
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "c3ca5f0bd8d9845654d197d56027b408f37b6ff9cb0280f58634686d2555d5ba",
+      "effectivePairs": 21,
+      "expectedSha256": "eafc395c3d93333020f4951dfe7673c6989e36626f842f69d67a2bd316fe83a7",
+      "file": "1873.html",
+      "pass": true,
+      "sha256": "eafc395c3d93333020f4951dfe7673c6989e36626f842f69d67a2bd316fe83a7",
+      "status": 200,
+      "targetModes": {
+        "core": 17,
+        "deep": 21,
+        "essential": 10
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "1b2302b01575df87960251dce928e82553b0eaceec988b3b5c69c9ede62bae3d",
+      "effectivePairs": 52,
+      "expectedSha256": "94feb7658ca8db4cd6ef34886c54d5ff06b771099bea389c3f4384f9fda48345",
+      "file": "akselerando.html",
+      "pass": true,
+      "sha256": "94feb7658ca8db4cd6ef34886c54d5ff06b771099bea389c3f4384f9fda48345",
+      "status": 200,
+      "targetModes": {
+        "core": 26,
+        "deep": 52,
+        "essential": 14
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "de3df8a998d4ad09e1144630322503cf69768afc0e20ee0784d4c83b4fd962d1",
+      "effectivePairs": 35,
+      "expectedSha256": "4adf4d5324adadbc86e8e1987bea70a7ea25d0b831fdac12f8b89fd0f4b69d20",
+      "file": "amphibian-man.html",
+      "pass": true,
+      "sha256": "4adf4d5324adadbc86e8e1987bea70a7ea25d0b831fdac12f8b89fd0f4b69d20",
+      "status": 200,
+      "targetModes": {
+        "core": 19,
+        "deep": 35,
+        "essential": 12
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "cc534fb4d5a4d0ed23716c575e0a193ad84995ead0c8f5c35c565e65cd751836",
+      "effectivePairs": 24,
+      "expectedSha256": "28eb59574240b632892d9a41ef4afef207dbe82ad31e037e297f5ed918fcf8a6",
+      "file": "antifragile.html",
+      "pass": true,
+      "sha256": "28eb59574240b632892d9a41ef4afef207dbe82ad31e037e297f5ed918fcf8a6",
+      "status": 200,
+      "targetModes": {
+        "core": 17,
+        "deep": 24,
+        "essential": 11
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "d37a67294a0c5813dde24b0b39507b2f7d2b4d125296e2741841bb1ae25a4398",
+      "effectivePairs": 24,
+      "expectedSha256": "4282f7bf801076fb9bbfde1be087524adbd0777577c753eb0bec214634c4d842",
+      "file": "atomic-habits.html",
+      "pass": true,
+      "sha256": "4282f7bf801076fb9bbfde1be087524adbd0777577c753eb0bec214634c4d842",
+      "status": 200,
+      "targetModes": {
+        "core": 20,
+        "deep": 24,
+        "essential": 13
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "1b91455971fad30983928608329622cc45de9020855e243297e46bf6c56d3040",
+      "effectivePairs": 42,
+      "expectedSha256": "2a0b633f1e8338641ba632a405b89f3dc3f0f42928ce57fdadbefb9d16e9f1f0",
+      "file": "awareness-through-movement.html",
+      "pass": true,
+      "sha256": "2a0b633f1e8338641ba632a405b89f3dc3f0f42928ce57fdadbefb9d16e9f1f0",
+      "status": 200,
+      "targetModes": {
+        "core": 35,
+        "deep": 42,
+        "essential": 19
+      }
+    },
+    {
+      "expectedSha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+      "file": "books.json",
+      "pass": true,
+      "sha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+      "status": 200
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "1a4ef1b9a836ecd9de72efffafcab2d676fa4c3a8fcc47bc02d09585d2e71852",
+      "effectivePairs": 22,
+      "expectedSha256": "8ee4c27ae37e3a60087dc131c6f78509c7621676611847cd7363e81e13c8bc72",
+      "file": "behave.html",
+      "pass": true,
+      "sha256": "8ee4c27ae37e3a60087dc131c6f78509c7621676611847cd7363e81e13c8bc72",
+      "status": 200,
+      "targetModes": {
+        "core": 18,
+        "deep": 22,
+        "essential": 11
+      }
+    },
+    {
+      "expectedSha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+      "file": "fonts/Geist-Variable.woff2",
+      "pass": true,
+      "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+      "status": 200
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "773d0aab833787642b5a84fb5d71d8c3cbe484a08041a50b096588932d3c0d7c",
+      "effectivePairs": 37,
+      "expectedSha256": "3ba64ce4e9fb95f6e1aa8e1f54f855ba673b397d71d26a3f15697386357974f8",
+      "file": "children-of-captain-grant.html",
+      "pass": true,
+      "sha256": "3ba64ce4e9fb95f6e1aa8e1f54f855ba673b397d71d26a3f15697386357974f8",
+      "status": 200,
+      "targetModes": {
+        "core": 23,
+        "deep": 37,
+        "essential": 14
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "a87d300d73056071824048aa1217c4297a9ac0787a8aa521c58c52e98be364b6",
+      "effectivePairs": 36,
+      "expectedSha256": "dd1bec0773ae30a130bf19e92564f1cb1627dbc2c533c663f4e0299f825bb5b2",
+      "file": "essentialism.html",
+      "pass": true,
+      "sha256": "dd1bec0773ae30a130bf19e92564f1cb1627dbc2c533c663f4e0299f825bb5b2",
+      "status": 200,
+      "targetModes": {
+        "core": 28,
+        "deep": 36,
+        "essential": 18
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "d8b8047c46024d48f90faefc4bc075cbc0fd230618ccca394f8c8e104130d520",
+      "effectivePairs": 21,
+      "expectedSha256": "d8622cac2dd418e20b8092499375a22ef63bc744c5c527bfd658ca6fdab46fcb",
+      "file": "determined.html",
+      "pass": true,
+      "sha256": "d8622cac2dd418e20b8092499375a22ef63bc744c5c527bfd658ca6fdab46fcb",
+      "status": 200,
+      "targetModes": {
+        "core": 16,
+        "deep": 21,
+        "essential": 9
+      }
+    },
+    {
+      "expectedSha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+      "file": "fonts/GeistMono-Variable.woff2",
+      "pass": true,
+      "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+      "status": 200
+    },
+    {
+      "expectedSha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+      "file": "fonts/LICENSE.txt",
+      "pass": true,
+      "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+      "status": 200
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "05e7aa9274e6cdc375f8c64c90dd8234c8f6843ad4512a30a33536d4b6d7aaa6",
+      "effectivePairs": 52,
+      "expectedSha256": "42b3232fff25159c30cdf286d6c4c710a71dd7d01953a2386fa191befc1eb8b6",
+      "file": "four-thousand-weeks.html",
+      "pass": true,
+      "sha256": "42b3232fff25159c30cdf286d6c4c710a71dd7d01953a2386fa191befc1eb8b6",
+      "status": 200,
+      "targetModes": {
+        "core": 32,
+        "deep": 52,
+        "essential": 21
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "aba2a0889110d7c8cf38263f3d06833e30b536caf898c15d95f6ffeb4f944861",
+      "effectivePairs": 33,
+      "expectedSha256": "874abe26fdc0a02968ab0dcc939894ec27672a1ff70fea136688301412fab9f7",
+      "file": "governing-the-commons.html",
+      "pass": true,
+      "sha256": "874abe26fdc0a02968ab0dcc939894ec27672a1ff70fea136688301412fab9f7",
+      "status": 200,
+      "targetModes": {
+        "core": 24,
+        "deep": 33,
+        "essential": 14
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "71b01bddffe18c890ff5e88bbccacef2cabb4c5a5514d65e2b6a19e2a7cc5e7f",
+      "effectivePairs": 22,
+      "expectedSha256": "99f70aba5735d3052e327f33334415d0885026a62960df62cc5fe01b06181a53",
+      "file": "hermes-nous.html",
+      "pass": true,
+      "sha256": "99f70aba5735d3052e327f33334415d0885026a62960df62cc5fe01b06181a53",
+      "status": 200,
+      "targetModes": {
+        "core": 17,
+        "deep": 22,
+        "essential": 12
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "295ac63a2d136b46e958c28c3b8dfbf862689dbfb8fe382dc44563cd9dec4395",
+      "effectivePairs": 33,
+      "expectedSha256": "3303d4692946aa4486cf2f73d8cdee08da96804b56ce921863bf7b34c3905678",
+      "file": "hard-to-be-a-god.html",
+      "pass": true,
+      "sha256": "3303d4692946aa4486cf2f73d8cdee08da96804b56ce921863bf7b34c3905678",
+      "status": 200,
+      "targetModes": {
+        "core": 13,
+        "deep": 33,
+        "essential": 8
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "b1753465f6690049069e182e96a92c1a5cba3c2f2b1ab74db8829c18126700be",
+      "effectivePairs": 22,
+      "expectedSha256": "cd824854e5cccb4cbdd1c1c4603cba5e8578768043d105d2055350c0afba705a",
+      "file": "huberman-protocols.html",
+      "pass": true,
+      "sha256": "cd824854e5cccb4cbdd1c1c4603cba5e8578768043d105d2055350c0afba705a",
+      "status": 200,
+      "targetModes": {
+        "core": 16,
+        "deep": 22,
+        "essential": 10
+      }
+    },
+    {
+      "expectedSha256": "6776a52972b7c767ea0e2fc1666bf3181dc06aa311e5918a00ebd883055d816f",
+      "file": "icons/apple-touch-icon.png",
+      "pass": true,
+      "sha256": "6776a52972b7c767ea0e2fc1666bf3181dc06aa311e5918a00ebd883055d816f",
+      "status": 200
+    },
+    {
+      "expectedSha256": "ec63329f3bc5264a13fd633315b9801216cd03413d753ef2932d05b5ad888f37",
+      "file": "icons/app-icon.svg",
+      "pass": true,
+      "sha256": "ec63329f3bc5264a13fd633315b9801216cd03413d753ef2932d05b5ad888f37",
+      "status": 200
+    },
+    {
+      "expectedSha256": "73bfe5b5f79c57aac6ec42ebf6c4420c179d2349bed7b877abb83e9d820b9b13",
+      "file": "icons/icon-192.png",
+      "pass": true,
+      "sha256": "73bfe5b5f79c57aac6ec42ebf6c4420c179d2349bed7b877abb83e9d820b9b13",
+      "status": 200
+    },
+    {
+      "contentMode": "legacy",
+      "effectiveCorpusSha256": "651d08c1cd47569a622e16261460c8024fa9d142fd3e9d56b68d564650f12725",
+      "effectivePairs": 112,
+      "expectedSha256": "bbefb261a4ef1301be815fda42cd48f5a28f0bfc6e9eb597822253310c0a2b7f",
+      "file": "i-robot.html",
+      "pass": true,
+      "sha256": "bbefb261a4ef1301be815fda42cd48f5a28f0bfc6e9eb597822253310c0a2b7f",
+      "status": 200,
+      "targetModes": {
+        "core": 72,
+        "deep": 112,
+        "essential": 30
+      }
+    },
+    {
+      "expectedSha256": "ad0bef907622476934e5871859d5713ad436be41dfa4a5976300a3f5ded78062",
+      "file": "icons/icon-512.png",
+      "pass": true,
+      "sha256": "ad0bef907622476934e5871859d5713ad436be41dfa4a5976300a3f5ded78062",
+      "status": 200
+    },
+    {
+      "expectedSha256": "a1bc2fd220a7b221a90c7575ab758380cdcd9aa1b13c38591f9577f25531843a",
+      "file": "index.html",
+      "pass": true,
+      "sha256": "a1bc2fd220a7b221a90c7575ab758380cdcd9aa1b13c38591f9577f25531843a",
+      "status": 200
+    },
+    {
+      "expectedSha256": "d78462ce7f004e62062c583d63c5e5ef7d97b33f776325275c5f9d49a0ffcc19",
+      "file": "manifest.webmanifest",
+      "pass": true,
+      "sha256": "d78462ce7f004e62062c583d63c5e5ef7d97b33f776325275c5f9d49a0ffcc19",
+      "status": 200
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "ea9c3b828387164721ac6617db0dbcca5507536ab9ae0e9180fb9781db24ece5",
+      "effectivePairs": 39,
+      "expectedSha256": "00507ba2c8bf8c8b5f7f90e15a9d4d133a5930e2a59e0c53f9d3a8bd93846667",
+      "file": "letting-go.html",
+      "pass": true,
+      "sha256": "00507ba2c8bf8c8b5f7f90e15a9d4d133a5930e2a59e0c53f9d3a8bd93846667",
+      "status": 200,
+      "targetModes": {
+        "core": 32,
+        "deep": 39,
+        "essential": 16
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "454d40771af9a393d440da1607331a4fb01b2818fca75d211b72e611a3475b8e",
+      "effectivePairs": 51,
+      "expectedSha256": "6d1d1d2b9a12e3e541d77f48e1b230d3e2bf9345b82a1051f27a2370b70ae906",
+      "file": "make-time.html",
+      "pass": true,
+      "sha256": "6d1d1d2b9a12e3e541d77f48e1b230d3e2bf9345b82a1051f27a2370b70ae906",
+      "status": 200,
+      "targetModes": {
+        "core": 39,
+        "deep": 51,
+        "essential": 19
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "e71de56f20688eef8ce82d99923f6b484874c1170d67f2ed911a6cf5fd2c2442",
+      "effectivePairs": 39,
+      "expectedSha256": "1138c6b024e39bbead9dcd007adb41b947c7d3f115b5b734afa86eabd40173ba",
+      "file": "meditations.html",
+      "pass": true,
+      "sha256": "1138c6b024e39bbead9dcd007adb41b947c7d3f115b5b734afa86eabd40173ba",
+      "status": 200,
+      "targetModes": {
+        "core": 30,
+        "deep": 39,
+        "essential": 18
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "8fd3063c8d327f3f1b1fcc4c952b19c61a7c6f79cdd60c3b55cf48f64b8486af",
+      "effectivePairs": 30,
+      "expectedSha256": "5a09a7dfa08d5b97d8bf285aa759dfa71afdabe6434b74b8a7e93fb0133b1b10",
+      "file": "mindfulness.html",
+      "pass": true,
+      "sha256": "5a09a7dfa08d5b97d8bf285aa759dfa71afdabe6434b74b8a7e93fb0133b1b10",
+      "status": 200,
+      "targetModes": {
+        "core": 26,
+        "deep": 30,
+        "essential": 14
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "92ba702ac174248360c74bb33b835aa108326b5f6b80efc6f3c3ec34c1b12017",
+      "effectivePairs": 29,
+      "expectedSha256": "7f4b8b8b8db6f3fe32d92fdfaac72b9ee0f8c798b83defcaa93e0e918725f41c",
+      "file": "monday-begins-on-saturday.html",
+      "pass": true,
+      "sha256": "7f4b8b8b8db6f3fe32d92fdfaac72b9ee0f8c798b83defcaa93e0e918725f41c",
+      "status": 200,
+      "targetModes": {
+        "core": 17,
+        "deep": 29,
+        "essential": 11
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "0c38761c15ecd3458454d896e7679bf4f905045e1e85923f3a8bd54b0b842824",
+      "effectivePairs": 30,
+      "expectedSha256": "88bc81e9ba952fe9c4c99da9bdfce4a4252f67ca50295e2028783c2727be60db",
+      "file": "nonviolent-communication.html",
+      "pass": true,
+      "sha256": "88bc81e9ba952fe9c4c99da9bdfce4a4252f67ca50295e2028783c2727be60db",
+      "status": 200,
+      "targetModes": {
+        "core": 26,
+        "deep": 30,
+        "essential": 16
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "1f070f07c732eb0db6e26f3896450b274269c475805a7483d400cc5775fdb35d",
+      "effectivePairs": 31,
+      "expectedSha256": "58b2e74640fc6d4660045bfc1be95ff913b89cd4f86147cfc049bf9ef82182d7",
+      "file": "seeing-like-a-state.html",
+      "pass": true,
+      "sha256": "58b2e74640fc6d4660045bfc1be95ff913b89cd4f86147cfc049bf9ef82182d7",
+      "status": 200,
+      "targetModes": {
+        "core": 25,
+        "deep": 31,
+        "essential": 17
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "b0c853f9608fb9096a544b12ee1b688e7a6a7b27f5920c6f911312b38abc1c0b",
+      "effectivePairs": 36,
+      "expectedSha256": "726834b05daadcce8ff2e3831c277f9fc7641a04a7cdd1c34ae0ad174c665b6c",
+      "file": "project-hail-mary.html",
+      "pass": true,
+      "sha256": "726834b05daadcce8ff2e3831c277f9fc7641a04a7cdd1c34ae0ad174c665b6c",
+      "status": 200,
+      "targetModes": {
+        "core": 13,
+        "deep": 36,
+        "essential": 8
+      }
+    },
+    {
+      "expectedSha256": "4f561340d2cf416052092eb3803c6d6b3dd5356c6e67ab66606c0f7d4b1ffddf",
+      "file": "sw.js",
+      "pass": true,
+      "sha256": "4f561340d2cf416052092eb3803c6d6b3dd5356c6e67ab66606c0f7d4b1ffddf",
+      "status": 200
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "8c2548ca50136305c2610c1ccbc0303833cfe5e22a26fd948b00844b7b3e5db9",
+      "effectivePairs": 62,
+      "expectedSha256": "700f3623df64d86ba187b385ec074a046128a3d33bfba681e19c009187a4511f",
+      "file": "selfie.html",
+      "pass": true,
+      "sha256": "700f3623df64d86ba187b385ec074a046128a3d33bfba681e19c009187a4511f",
+      "status": 200,
+      "targetModes": {
+        "core": 39,
+        "deep": 62,
+        "essential": 27
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "2ed8852c9c2d0a126b71834f3962ea84220bdaf13c26b889ecf17a8396729192",
+      "effectivePairs": 53,
+      "expectedSha256": "0ff2b19db0f6de99780bf5f382e8305b659cfaa6d63f7977c994a5848d992ba8",
+      "file": "skin-in-the-game.html",
+      "pass": true,
+      "sha256": "0ff2b19db0f6de99780bf5f382e8305b659cfaa6d63f7977c994a5848d992ba8",
+      "status": 200,
+      "targetModes": {
+        "core": 37,
+        "deep": 53,
+        "essential": 19
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "9efffc92a12b69b1f628231cc9e1bc28ac48b7524aeb3f5f564a274f8f0b77a1",
+      "effectivePairs": 36,
+      "expectedSha256": "a4778d91a98416196144a476371566ea8cf28b0f70cff73b7de309f8f3643310",
+      "file": "the-art-of-war.html",
+      "pass": true,
+      "sha256": "a4778d91a98416196144a476371566ea8cf28b0f70cff73b7de309f8f3643310",
+      "status": 200,
+      "targetModes": {
+        "core": 30,
+        "deep": 36,
+        "essential": 15
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "5e5a57641a470cd6449ebf06385346a68aac309729a86b3a94e2b732643dad09",
+      "effectivePairs": 41,
+      "expectedSha256": "c926e5b4f20ff0b5b02cbe3ff08f7c48105ab2d1039d0bcfe1c42be2c6cfe238",
+      "file": "the-body-keeps-the-score.html",
+      "pass": true,
+      "sha256": "c926e5b4f20ff0b5b02cbe3ff08f7c48105ab2d1039d0bcfe1c42be2c6cfe238",
+      "status": 200,
+      "targetModes": {
+        "core": 33,
+        "deep": 41,
+        "essential": 21
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "8c1c9f28b3f40413519c37b079643fccbd015e0b472b2bcb53aac73859e812d7",
+      "effectivePairs": 29,
+      "expectedSha256": "22835b6153107c20b4b7498573f34aa11d25740465143f72939f7b486cf8e607",
+      "file": "the-fifth-discipline.html",
+      "pass": true,
+      "sha256": "22835b6153107c20b4b7498573f34aa11d25740465143f72939f7b486cf8e607",
+      "status": 200,
+      "targetModes": {
+        "core": 22,
+        "deep": 29,
+        "essential": 11
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "3e4be952e296b03107dfc57888cfe0bbc94a22c3ceb111e1bc107d11df997a1a",
+      "effectivePairs": 27,
+      "expectedSha256": "d573580c7ee320d946d16da40935bf7528ec11f8196a933943a319c87de1849b",
+      "file": "the-giver.html",
+      "pass": true,
+      "sha256": "d573580c7ee320d946d16da40935bf7528ec11f8196a933943a319c87de1849b",
+      "status": 200,
+      "targetModes": {
+        "core": 17,
+        "deep": 27,
+        "essential": 11
+      }
+    },
+    {
+      "contentMode": "legacy",
+      "effectiveCorpusSha256": "d7a66826529028efea021cdd5b511ce43addb5ec23285be5e0f314ea736421e3",
+      "effectivePairs": 96,
+      "expectedSha256": "8b63adec5605af099e52f8fd381a064435cfa136f7b5fae40b2bff566545c742",
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "pass": true,
+      "sha256": "8b63adec5605af099e52f8fd381a064435cfa136f7b5fae40b2bff566545c742",
+      "status": 200,
+      "targetModes": {
+        "core": 60,
+        "deep": 96,
+        "essential": 24
+      }
+    },
+    {
+      "contentMode": "legacy",
+      "effectiveCorpusSha256": "59e167b01634cdcb55897f2f86f1a27962d86970ca247ca95d70ac6af119c520",
+      "effectivePairs": 144,
+      "expectedSha256": "4b8dbb2cb48c007b97df32c24b4574243792a1a480393f25f96805b0e43dcae4",
+      "file": "the-hobbit.html",
+      "pass": true,
+      "sha256": "4b8dbb2cb48c007b97df32c24b4574243792a1a480393f25f96805b0e43dcae4",
+      "status": 200,
+      "targetModes": {
+        "core": 90,
+        "deep": 144,
+        "essential": 36
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "b2ecf943f376c5db5e843476d58d305c48ec99f49f9fb5f312f8ad2ab46b1341",
+      "effectivePairs": 34,
+      "expectedSha256": "385fac650c145121b63a38bb33e9de87376acb895500fdc380cffe4ed6023779",
+      "file": "the-lost-world.html",
+      "pass": true,
+      "sha256": "385fac650c145121b63a38bb33e9de87376acb895500fdc380cffe4ed6023779",
+      "status": 200,
+      "targetModes": {
+        "core": 23,
+        "deep": 34,
+        "essential": 13
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "a4b4dadb6c7e642f79a82de972661818335101d6de76f834110deaef8570d668",
+      "effectivePairs": 35,
+      "expectedSha256": "5d61cb4b2297016af2a2f26251efe2955f509cd6439382e2020b7da72d5bcc25",
+      "file": "the-left-hand-of-darkness.html",
+      "pass": true,
+      "sha256": "5d61cb4b2297016af2a2f26251efe2955f509cd6439382e2020b7da72d5bcc25",
+      "status": 200,
+      "targetModes": {
+        "core": 15,
+        "deep": 35,
+        "essential": 11
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "036ffaa51f08635dcfe60b2d5ef2fa4fae1af7bcd7527694bdcd666ae62f72d6",
+      "effectivePairs": 35,
+      "expectedSha256": "1f1a10ff2d00fbf4b52bbe3b6d228433b3fa6fa0a1e85c6bfdbc914f08a03f91",
+      "file": "the-structure-of-scientific-revolutions.html",
+      "pass": true,
+      "sha256": "1f1a10ff2d00fbf4b52bbe3b6d228433b3fa6fa0a1e85c6bfdbc914f08a03f91",
+      "status": 200,
+      "targetModes": {
+        "core": 27,
+        "deep": 35,
+        "essential": 16
+      }
+    },
+    {
+      "contentMode": "legacy",
+      "effectiveCorpusSha256": "9b17d666df1ff98917ad70b1b900161d8305e4b11f75ae88c37f1aedf5c290c1",
+      "effectivePairs": 144,
+      "expectedSha256": "5d9bcad499d2c65ec5cd09d343cd915c756768a8cf6e13f729defb0ac00cf7a7",
+      "file": "the-two-captains.html",
+      "pass": true,
+      "sha256": "5d9bcad499d2c65ec5cd09d343cd915c756768a8cf6e13f729defb0ac00cf7a7",
+      "status": 200,
+      "targetModes": {
+        "core": 90,
+        "deep": 144,
+        "essential": 36
+      }
+    },
+    {
+      "contentMode": "legacy",
+      "effectiveCorpusSha256": "14d93fb0b4ec06afbf84e551e4f84b5b179494671584c13bc35f0db7b4319553",
+      "effectivePairs": 96,
+      "expectedSha256": "53bc9d83b1db9ef003cfb9f70e20bf62f69afac53270532be8676cd5974617ac",
+      "file": "the-wee-free-men.html",
+      "pass": true,
+      "sha256": "53bc9d83b1db9ef003cfb9f70e20bf62f69afac53270532be8676cd5974617ac",
+      "status": 200,
+      "targetModes": {
+        "core": 60,
+        "deep": 96,
+        "essential": 24
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "82c276b5b6af2c4636a503a72c95fcc6a09cfb98f20db2b1dbaf11098922e95f",
+      "effectivePairs": 26,
+      "expectedSha256": "a300d918c40b5eb2c21dd7a3e99a8705457abe932120c9fe52e27aeea98588cf",
+      "file": "theory-of-constraints.html",
+      "pass": true,
+      "sha256": "a300d918c40b5eb2c21dd7a3e99a8705457abe932120c9fe52e27aeea98588cf",
+      "status": 200,
+      "targetModes": {
+        "core": 22,
+        "deep": 26,
+        "essential": 13
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "8ef476b2380d40119803bfb0f0f2ba05042aa2d195c157a36a4783c0854e255d",
+      "effectivePairs": 29,
+      "expectedSha256": "aa2cd20ed2016b26b052c9bb1a86bdd46d8038337a84312ac1cbcc5c053e2567",
+      "file": "thinking-fast-and-slow.html",
+      "pass": true,
+      "sha256": "aa2cd20ed2016b26b052c9bb1a86bdd46d8038337a84312ac1cbcc5c053e2567",
+      "status": 200,
+      "targetModes": {
+        "core": 24,
+        "deep": 29,
+        "essential": 14
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "61a4a4efc5b2ad905f224befa4972e2e83d7795dca597d44249256d5a523aaea",
+      "effectivePairs": 25,
+      "expectedSha256": "fd5f4ae4107ab428df6dcdd0b1ef9a2ef2930a74991d986c55b983157d611484",
+      "file": "thinking-in-systems.html",
+      "pass": true,
+      "sha256": "fd5f4ae4107ab428df6dcdd0b1ef9a2ef2930a74991d986c55b983157d611484",
+      "status": 200,
+      "targetModes": {
+        "core": 22,
+        "deep": 25,
+        "essential": 13
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "c32e6bdcabdc62e35322257bd3e19e37080c3953bd6267348241ae39111b9ded",
+      "effectivePairs": 34,
+      "expectedSha256": "c0ce2e185630b5c1d5e188a124f53d927f12981ee8258b257975a9515fb4af6c",
+      "file": "treasure-island.html",
+      "pass": true,
+      "sha256": "c0ce2e185630b5c1d5e188a124f53d927f12981ee8258b257975a9515fb4af6c",
+      "status": 200,
+      "targetModes": {
+        "core": 20,
+        "deep": 34,
+        "essential": 12
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "d586b6b0cc486664f147ef01a8bba51d4c3d7dc2331ceb42ca870f76776a201e",
+      "effectivePairs": 36,
+      "expectedSha256": "01898f9620f8d978b8ac5d905ee566a067f6b61f70e1339c22ba0b0a59e0db94",
+      "file": "white-fang.html",
+      "pass": true,
+      "sha256": "01898f9620f8d978b8ac5d905ee566a067f6b61f70e1339c22ba0b0a59e0db94",
+      "status": 200,
+      "targetModes": {
+        "core": 21,
+        "deep": 36,
+        "essential": 14
+      }
+    },
+    {
+      "contentMode": "explanatory",
+      "effectiveCorpusSha256": "556ccac564aa36797fc92c3d2f0b22fb54dfde2fe618dc0f3b90a6a3378dc78b",
+      "effectivePairs": 51,
+      "expectedSha256": "90d33718039ba0d97d35d13b056858133087c1f46847277a604f5504dc632ae4",
+      "file": "why-zebras-dont-get-ulcers.html",
+      "pass": true,
+      "sha256": "90d33718039ba0d97d35d13b056858133087c1f46847277a604f5504dc632ae4",
+      "status": 200,
+      "targetModes": {
+        "core": 42,
+        "deep": 51,
+        "essential": 25
+      }
+    },
+    {
+      "contentMode": "narrative",
+      "effectiveCorpusSha256": "13fdd57a29cce50162896cd4942159e29f71a01f137c452b1a06db5992d8d988",
+      "effectivePairs": 52,
+      "expectedSha256": "d2330c3bbaa716a8246e0cb009615f82310b82cf280f87f96faf051a606c9f14",
+      "file": "zen-and-the-art-of-motorcycle-maintenance.html",
+      "pass": true,
+      "sha256": "d2330c3bbaa716a8246e0cb009615f82310b82cf280f87f96faf051a606c9f14",
+      "status": 200,
+      "targetModes": {
+        "core": 38,
+        "deep": 52,
+        "essential": 20
+      }
+    }
+  ]
+}

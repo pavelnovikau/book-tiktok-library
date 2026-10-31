@@ -1,0 +1,974 @@
+{
+  "schemaVersion": 2,
+  "slug": "holes",
+  "title": {
+    "ru": "Ямы",
+    "en": "Holes"
+  },
+  "description": {
+    "ru": "Стэнли Елнатс в лагере без озера: ямы, тайная находка и дружба с молчаливым Зеро. Роман Луиса Сэкера в кратком повествовании.",
+    "en": "Stanley Yelnats at a camp without a lake: holes, a mysterious find and a friendship with quiet Zero. A concise narrative of Louis Sachar’s novel."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "narrative",
+  "spoilerPolicy": "full-plot-in-deep",
+  "targetModes": {
+    "essential": 14,
+    "core": 23,
+    "deep": 39
+  },
+  "methodNote": {
+    "ru": "Краткий пересказ своими словами романа Holes (1998), не фильма и не перевод полного текста. Первично прочитаны главы 1–4 и начало 5 в образце Bloomsbury 2023; поздние связи сверены по подробному Scholastic BookFiles, включённым там цитатам из романа, издательским цитатам, ответам Сэкера и поглавным справкам SparkNotes. Полный роман непрерывно не прочитан; сокращение выборочное. Причинные связи принадлежат вымышленному миру романа. Внешние источники могут раскрывать развязки.",
+    "en": "An original-word condensation of the novel Holes (1998), not the film or a translation of the full text. Primary reading: chapters 1–4 and the start of 5 in the Bloomsbury 2023 sample. Later links were checked against the substantial Scholastic BookFiles guide, its embedded novel quotations, publisher quotations, Sachar’s answers and SparkNotes chapter accounts. The complete novel was not read continuously; this is a selective condensation. Causal links belong to the novel’s fictional world. External sources may reveal outcomes."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Louis Sachar — Holes: Bloomsbury 2023 publisher sample",
+      "url": "https://api.pageplace.de/preview/DT0400.9781526634191_A40517308/preview-9781526634191_A40517308.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Первичный текст: главы 1–4 и начало главы 5 в издательском образце издания 2023 года. Это отрывок романа 1998 года, не полный роман.",
+        "en": "Primary text: chapters 1–4 and the beginning of chapter 5 in the publisher’s 2023 edition sample. This is an extract of the 1998 novel, not the complete novel."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Monique Vescia — A Reading Guide to Holes (Scholastic BookFiles, 2003)",
+      "url": "https://www.scholastic.com/content/dam/teachers/activities/migrated-files-in-body/holes-bookfiles.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Подробное вторичное руководство: прочитаны с. 9–18 и 26–47, включая сюжет, персонажей, интервью и короткие цитаты из романа. Вопросы для учеников не приняты за ответы. Внешний файл раскрывает сюжет.",
+        "en": "Substantial secondary guide: pages 9–18 and 26–47 read, including plot, characters, interview and short novel quotations. Student questions were not treated as answers. The external file contains spoilers."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Louis Sachar — Holes Q & A",
+      "url": "https://www.louissachar.com/holes-q--a.html",
+      "role": "author",
+      "note": {
+        "ru": "Прочитаны ответы автора о месте действия, переплетении времён, персонажах и сочетании юмора с опасностью. Это интервью, не текст всех глав. На внешней странице есть спойлеры.",
+        "en": "Author’s answers on setting, interwoven time periods, characters, humor and danger were read. This is an interview, not the text of every chapter. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Bloomsbury — Holes: Teachers’ Guide",
+      "url": "https://www.bloomsbury.com/media/dn5p2f3s/holes-teachers-notes.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Издательские заметки и короткие первичные цитаты: сверены конкретные формулировки. Вопросы и предположения составителя не превращены в факты; справка о фильме не использована. Внешний файл раскрывает сюжет.",
+        "en": "Publisher’s notes and short primary quotations checked for particular wording. Questions and editorial conjectures were not converted into facts; film metadata was excluded. The external file contains spoilers."
+      }
+    },
+    {
+      "id": 5,
+      "title": "SparkNotes — Holes: Chapters 6–7",
+      "url": "https://www.sparknotes.com/lit/holes/section3/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная поглавная сверка начальных событий и ранней семейной истории; прочитан раздел Summary. Не полный текст и не источник авторских намерений. Внешняя страница содержит спойлеры.",
+        "en": "Secondary chapter check of the opening events and early family history; the Summary section was read. Neither full text nor evidence of authorial intention. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 6,
+      "title": "SparkNotes — Holes: Chapters 20–24",
+      "url": "https://www.sparknotes.com/lit/holes/section7/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная сверка последовательности лагерных событий и знакомства с прошлым; использован Summary, не готовые моральные интерпретации. Внешняя страница содержит спойлеры.",
+        "en": "Secondary check of camp-event order and the introduction of the past; Summary used, not its ready-made moral interpretations. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 7,
+      "title": "SparkNotes — Holes: Chapters 25–29",
+      "url": "https://www.sparknotes.com/lit/holes/section8/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная сверка двух временных линий по разделу Summary; сопоставлена с Scholastic и словами автора. Внешняя страница содержит спойлеры.",
+        "en": "Secondary check of two time periods in the Summary section, compared with Scholastic and the author’s statements. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 8,
+      "title": "SparkNotes — Holes: Chapters 30–35",
+      "url": "https://www.sparknotes.com/lit/holes/section9/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная поглавная сверка действий и маршрута по разделу Summary, с отдельным различением факта и предположения персонажа. Внешняя страница содержит спойлеры.",
+        "en": "Secondary chapter check of actions and route in the Summary section, distinguishing events from a character’s suspicion. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 9,
+      "title": "SparkNotes — Holes: Chapters 36–43",
+      "url": "https://www.sparknotes.com/lit/holes/section10/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная сверка причинных связей и личных рассказов по разделу Summary; сопоставлена с подробным Scholastic и приведёнными там первичными фрагментами. Внешняя страница содержит спойлеры.",
+        "en": "Secondary check of causal links and personal accounts in Summary, compared with the substantial Scholastic guide and its primary extracts. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 11,
+      "title": "SparkNotes — Holes: Chapters 17–19",
+      "url": "https://www.sparknotes.com/lit/holes/section6/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная поглавная сверка просьбы об уроках и событий перед визитом к начальнице. Прочитан Summary; предположения из Analysis о мотивах не использованы. На внешней странице есть спойлеры.",
+        "en": "Secondary chapter check of the request for lessons and events before the visit to the Warden. Summary read; Analysis conjectures about motives excluded. The external page contains spoilers."
+      }
+    },
+    {
+      "id": 10,
+      "title": "SparkNotes — Holes: Chapters 44–50",
+      "url": "https://www.sparknotes.com/lit/holes/section11/",
+      "role": "reference",
+      "note": {
+        "ru": "Вторичная сверка поздней последовательности и последних сцен по Summary. Не выдаётся за чтение полного первичного текста; интерпретации о судьбе не приняты за доказательства. Внешняя страница содержит спойлеры.",
+        "en": "Secondary check of the later sequence and last scenes in Summary. Not presented as complete-primary reading; interpretations about fate were not treated as proof. The external page contains spoilers."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Луис Сэкер · Роман, 1998",
+          "title": "Ямы",
+          "subtitle": "Holes",
+          "body": "<p>Кроссовки падают с неба, а наказание почему-то приходится откапывать из земли.</p><p class=\"muted\">Essential и Core останавливаются на поисках в пустыне. Deep продолжает историю и раскрывает развязки после предупреждения.</p>",
+          "visualAlt": "Название романа"
+        },
+        "en": {
+          "section": "Louis Sachar · Novel, 1998",
+          "title": "Holes",
+          "subtitle": "",
+          "body": "<p>Sneakers fall from the sky. Somehow, the punishment has to be dug out of the ground.</p><p class=\"muted\">Essential and Core stop during the desert search. Deep continues the story and reveals the outcomes after a warning.</p>",
+          "visualAlt": "The novel’s title"
+        }
+      }
+    },
+    {
+      "id": "shoes-from-the-sky",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Кроссовки с неба",
+          "body": "<p>Стэнли Елнатсу на голову падают кроссовки. Старые, вонючие — как раз то, что нужно отцу, который пытается изобрести способ переработки старой обуви. Стэнли бежит домой с находкой. Полицейскому это кажется подозрительным. Кроссовки принадлежали знаменитому бейсболисту Клайду Ливингстону; их собирались продать на благотворительном аукционе в пользу приюта для бездомных. В историю про подарок с неба никто не верит. Судья предлагает тюрьму или лагерь «Зелёное озеро». Стэнли никогда не бывал в лагере. Может быть, хоть поплавает.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Sneakers from the sky",
+          "body": "<p>A pair of sneakers drops onto Stanley Yelnats's head. Old, smelly sneakers: just the thing for his father, who is trying to invent a way to recycle worn-out shoes. Stanley runs home with his find. A police officer thinks this looks suspicious. The sneakers belonged to the famous baseball player Clyde Livingston; a homeless shelter was going to auction them for charity. Nobody believes the story about shoes falling out of the sky. A judge offers Stanley prison or Camp Green Lake. He has never been to camp. Perhaps he will get to swim.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-notebook-in-the-toilet",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Тетрадь в унитазе",
+          "body": "<p>Дома у него нет друзей. Над полным, нескладным мальчиком издевается даже Деррик Данн, который гораздо меньше его. В день ареста Деррик бросил его тетрадь в унитаз. Пока Стэнли вытаскивал её, автобус ушёл — поэтому он и оказался под эстакадой.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A notebook in the toilet",
+          "body": "<p>He has no friends at home. Even Derrick Dunne, who is much smaller than this heavy, awkward boy, bullies him. On the day of the arrest, Derrick threw his notebook into a toilet. Retrieving it made Stanley miss the bus; that was why he ended up under the overpass.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-name-backwards",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Имя задом наперёд",
+          "body": "<p>В семье таким несчастьям давно нашли виновника: прапрадеда, якобы укравшего свинью и навлёкшего проклятие. Родители в проклятия не верят, но ругать давно умершего родственника удобно. Зато имя наследуют с удовольствием: в английском Stanley превращается в Yelnats, если читать с конца. Отец — Стэнли Третий, сын — Четвёртый. Их тесная квартира пахнет отцовскими опытами: жжёной резиной и старыми кроссовками.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A name backwards",
+          "body": "<p>His family has a convenient culprit for misfortunes like these: a great-great-grandfather who supposedly stole a pig and brought down a curse. His parents do not believe in curses, but blaming a long-dead relative helps. They are happier to inherit his name: Stanley becomes Yelnats when read backwards. His father is Stanley the Third; he is the Fourth. Their cramped apartment smells of his father's experiments: burning rubber and old sneakers.</p>"
+        }
+      }
+    },
+    {
+      "id": "camp-green-lake",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Лагерь без озера",
+          "body": "<p>Озера в лагере нет. Вместо него — сухая техасская равнина, изрытая ямами. Стэнли привозят в наручниках. Ему выдают оранжевую одежду, лопату и пустую флягу. Каждый день, без выходных, он должен выкопать яму глубиной и шириной в пять футов — примерно полтора метра. Лопатой проверяют размеры. Якобы так исправляют характер. Начинают до рассвета, пока жара не стала совсем невыносимой. Забора нет: по словам охранника мистера Сэра, единственная вода на сто миль вокруг находится в лагере. Бежать можно. Добежать некуда.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A camp without a lake",
+          "body": "<p>There is no lake at the camp. There is a dry Texas wasteland pitted with holes. Stanley arrives in handcuffs and receives orange clothes, a shovel and an empty canteen. Every day, including weekends, he must dig a hole five feet deep and five feet across. The shovel measures it. Supposedly this improves his character. Work starts before dawn, before the heat becomes unbearable. There is no fence. According to the guard, Mr. Sir, the camp has the only water for a hundred miles. Stanley can run away. There is nowhere to run to.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-only-shade",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Чужой гамак",
+          "body": "<p>Единственная приличная тень — под двумя дубами возле домика начальницы. Между дубами висит её гамак. Мальчикам туда нельзя. По высохшему дну ползают скорпионы, змеи и жёлтопятнистые ящерицы, чей укус в этой истории смертелен. Яма может подарить встречу с любой из них.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Somebody else’s hammock",
+          "body": "<p>The only decent shade is beneath two oaks beside the Warden's cabin. Her hammock hangs between them. The boys are forbidden to use it. Scorpions, snakes and yellow-spotted lizards roam the lakebed; in this story, a lizard's bite is fatal. A hole may hold any of them.</p>"
+        }
+      }
+    },
+    {
+      "id": "caveman",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Пещерный человек",
+          "body": "<p>Утешений мало: руки быстро покрываются волдырями, а вынутая земля всё время мешает копать дальше. В палатке D тоже приходится разбираться, кто есть кто. Ребята зовут друг друга Подмышкой, Рентгеном, Зигзагом. Воспитателя Пендански прозвали Мамочкой. Стэнли достаётся имя Пещерный человек — куда внушительнее того, как он сам себя чувствует.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Caveman",
+          "body": "<p>There is little comfort in digging: blisters rise on Stanley's hands, and the dirt he has dug out keeps getting in his way. In Tent D he must also learn who is who. The boys call one another Armpit, X-Ray and Zigzag. Their counselor, Mr. Pendanski, is Mom. Stanley becomes Caveman, a name considerably more impressive than he feels.</p>"
+        }
+      }
+    },
+    {
+      "id": "elya-and-the-piglet",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Эля и поросёнок",
+          "body": "<p>А задолго до этого, в Латвии, его прапрадед Эля Елнатс хотел жениться на Майре Менке. Другой жених мог предложить её отцу большую свинью; у Эли такой не было. Старая мадам Зерони считала затею глупой, но всё-таки дала ему поросёнка. Каждый день Эля должен был нести его на гору, поить из ручья и петь особую песню. Поросёнок рос; Эля постепенно становился достаточно сильным, чтобы носить его. Взамен он обещал однажды поднять туда саму мадам Зерони, дать ей напиться и спеть. За невыполненное обещание она пригрозила проклятием его потомкам.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Elya and the piglet",
+          "body": "<p>Long before this, in Latvia, his great-great-grandfather Elya Yelnats wanted to marry Myra Menke. Another suitor could offer her father a large pig; Elya could not. Old Madame Zeroni thought the whole scheme foolish, but she gave him a piglet anyway. Each day he was to carry it up a mountain, let it drink from a stream and sing a particular song. The pig grew; Elya gradually became strong enough to carry it. In return, he promised to carry Madame Zeroni up there herself, give her water and sing. She threatened a curse on his descendants if he broke his promise.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-missed-promise",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Корабль в Америку",
+          "body": "<p>Когда пришло время свататься, оказалось, что Майре почти всё равно, за кого выходить. Разочарованный Эля уехал в Америку и забыл о старухе. Потом он жалел, что так и не отнёс её к ручью. В Америке у него появилась семья; песню он передал жене, а дальше её пели детям. Неудачи тоже продолжались.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A ship for America",
+          "body": "<p>When the time came to claim Myra, it turned out that she hardly cared whom she married. Disappointed, Elya sailed for America and forgot the old woman. Afterwards he regretted never carrying her to the stream. He made a family in America and taught his wife the song; it passed down to their children. Misfortunes continued too.</p>"
+        }
+      }
+    },
+    {
+      "id": "kissin-kate",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Знаменитая разбойница",
+          "body": "<p>Сын Эли, первый Стэнли Елнатс, сумел разбогатеть — но разбойница Поцелуйная Кейт Барлоу ограбила его и оставила в пустыне. Он выжил. Для нынешнего Стэнли иметь в семье человека, ограбленного знаменитой преступницей, даже немного почётно, хотя дом на берегу океана ему понравился бы больше.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A famous outlaw",
+          "body": "<p>Elya's son, the first Stanley Yelnats, managed to make a fortune, but the outlaw Kissin' Kate Barlow robbed him and abandoned him in the desert. He survived. To the present Stanley, having someone in the family robbed by a famous outlaw is even a little impressive, though he would have preferred a house beside the ocean.</p>"
+        }
+      }
+    },
+    {
+      "id": "letters-home",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Целый день на озере",
+          "body": "<p>На высохшем озере день за днём Стэнли становится крепче. Он уже не совсем чужой среди мальчиков и пишет матери о лагере так, будто всё идёт неплохо: появились друзья, целый день провели на озере. Мать не должна волноваться.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "All day on the lake",
+          "body": "<p>On the dry lake, Stanley grows stronger day by day. He is no longer quite an outsider among the boys. He writes to his mother as though camp is going well: he has made friends; they have spent the day out on the lake. She must not worry.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-gold-tube",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Две буквы",
+          "body": "<p>Рентген, неофициальный главарь группы, просит отдавать ему интересные находки: за них можно получить выходной. Когда Стэнли выкапывает золотистый футляр с буквами KB, он выполняет уговор. Рентген выдаёт вещицу за собственную находку. Начальница немедленно оживляется и велит усиленно рыть рядом. Стэнли понимает: ищут что-то определённое. Только ищут не там, где он нашёл футляр.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Two letters",
+          "body": "<p>X-Ray, the group's unofficial leader, asks Stanley to hand over anything interesting he finds: a discovery might earn a day off. When Stanley digs up a gold-colored tube marked KB, he keeps the agreement. X-Ray presents it as his own find. The Warden immediately takes an interest and orders concentrated digging nearby. Stanley realizes they are looking for something specific. But they are looking somewhere other than where he found the tube.</p>"
+        }
+      }
+    },
+    {
+      "id": "zero-asks",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        6,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "У Ноля есть просьба",
+          "body": "<p>Самого молчаливого мальчика зовут Зеро — Ноль. Пендански любит объяснять прозвище отсутствием мыслей в его голове. Зеро не умеет читать, но умеет считать в уме; он гораздо внимательнее, чем окружающим удобно замечать. Он просит Стэнли научить его буквам. Тот сначала отказывается.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Zero has a request",
+          "body": "<p>The quietest boy is called Zero. Pendanski enjoys explaining the nickname by saying there is nothing inside his head. Zero cannot read, but he can do arithmetic in his head. He notices much more than other people find convenient. He asks Stanley to teach him his letters. Stanley refuses at first.</p>"
+        }
+      }
+    },
+    {
+      "id": "sunflower-seeds",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        4,
+        6,
+        11
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Семечки и красный лак",
+          "body": "<p>Потом Стэнли берёт на себя вину за украденные у мистера Сэра семечки и попадает к начальнице. Она царапает охраннику лицо ногтями, покрытыми лаком с ядом гремучей змеи. Боль достаётся охраннику, а за водой после этого особенно трудно становится Стэнли. Вернувшись к своей яме, мальчик видит, что Зеро уже поработал за него.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Seeds and red polish",
+          "body": "<p>Then Stanley takes the blame for some sunflower seeds stolen from Mr. Sir and is brought before the Warden. She scratches the guard's face with nails coated in rattlesnake-venom polish. The guard gets the pain, and Stanley subsequently has particular trouble getting water. When Stanley returns to his hole, he finds that Zero has done some digging for him.</p>"
+        }
+      }
+    },
+    {
+      "id": "an-hour-for-letters",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Час за буквы",
+          "body": "<p>Позже Стэнли соглашается учить его читать. Они договариваются: Зеро час копает за Стэнли, чтобы у того хватало сил на урок. За молчанием обнаруживается быстрый ум. Постепенно Зеро учится писать собственное имя: Гектор Зерони. У Стэнли появляется друг, но остальные недовольны тем, что часть его работы делает другой.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "An hour for letters",
+          "body": "<p>Later Stanley agrees to teach him to read. They make a deal: Zero will dig for Stanley for an hour, leaving him enough energy for the lesson. Behind the silence Stanley discovers a quick mind. Zero gradually learns to write his own name: Hector Zeroni. Stanley has a friend, but the other boys resent someone doing part of his work.</p>"
+        }
+      }
+    },
+    {
+      "id": "what-kb-might-mean",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Что может значить KB",
+          "body": "<p>А золотой футляр получает возможное объяснение: у начальницы Стэнли видел похожую вещь для губной помады. Неужели KB — Кейт Барлоу, та самая разбойница из семейной истории?</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "What KB might mean",
+          "body": "<p>Meanwhile, the gold tube has a possible explanation. At the Warden's cabin Stanley saw a similar container for lipstick. Could KB stand for Kate Barlow, the outlaw from his family history?</p>"
+        }
+      }
+    },
+    {
+      "id": "the-schoolhouse",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Школа у настоящего озера",
+          "body": "<p>Сто с лишним лет назад Кэтрин Барлоу была учительницей в городке у настоящего Зелёного озера. На берегу росли персиковые деревья; она готовила знаменитые пряные персики. Сэм продавал лук и чинил ей школу в обмен на угощение. Они разговаривали, и Кэтрин всё находила, что ещё нужно починить. Сэм был чернокожим: работать в школе ему позволяли, учиться в ней — нет.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The school beside the lake",
+          "body": "<p>More than a century earlier, Katherine Barlow taught school beside a real Green Lake. Peach trees grew along its shore, and she made famous spiced peaches. Sam sold onions and repaired her schoolhouse in exchange for treats. They talked, and Katherine kept finding things for him to fix. Sam was Black: he could work in the school but was not allowed to attend it.</p>"
+        }
+      }
+    },
+    {
+      "id": "trout-walker",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2,
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Лодка Форели Уокера",
+          "body": "<p>Богатый Чарльз Уокер, прозванный Форелью за неприятный запах ног, хотел жениться на Кэтрин. Она отказалась даже прокатиться с ним на его новой моторной лодке. С Сэмом ей было хорошо. Их поцелуй увидели в городе.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Trout Walker’s boat",
+          "body": "<p>Wealthy Charles Walker, nicknamed Trout because of his terrible foot odor, wanted to marry Katherine. She refused even a ride in his new motorboat. With Sam she was happy. Someone in town saw them kiss.</p>"
+        }
+      }
+    },
+    {
+      "id": "across-the-lake",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Через озеро",
+          "body": "<p>Белая учительница поцеловалась с чернокожим мужчиной — и город поднялся против них. Толпа разгромила школу. Кэтрин побежала к шерифу, но тот не собирался защищать Сэма: сам заговорил о виселице и потребовал поцелуй. Кэтрин и Сэм попытались уйти по озеру. Лодка Уокера была быстрее. Сэма убили. После этого, рассказывает роман, дождь над Зелёным озером перестал идти.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Across the lake",
+          "body": "<p>A white teacher has kissed a Black man, and the town turns against them. A mob wrecked the schoolhouse. Katherine ran to the sheriff, but he had no intention of protecting Sam: he spoke of hanging him and demanded a kiss himself. Katherine and Sam tried to escape across the lake. Walker's boat was faster. Sam was killed. After that, the novel relates, rain stopped falling on Green Lake.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-secret-stays-buried",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Тайна остаётся в земле",
+          "body": "<p>Через три дня Кэтрин застрелила шерифа и оставила поцелуй на его мёртвом лице. Так появилась Поцелуйная Кейт, двадцать лет грабившая на Западе. Когда она вернулась к высыхающему озеру, Уокер с женой Линдой стали пытать её, добиваясь места, где спрятана добыча. Укус жёлтопятнистой ящерицы оборвал её жизнь. Тайну она им не выдала.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The secret stays buried",
+          "body": "<p>Three days later Katherine shot the sheriff and kissed his dead face. She became Kissin' Kate, an outlaw who robbed people across the West for twenty years. When she returned to the dwindling lake, Walker and his wife Linda tortured her to learn where she had buried her loot. A yellow-spotted lizard bit her, ending her life. She never gave them the hiding place.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-thumb-in-lightning",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2,
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Палец в свете молнии",
+          "body": "<p>В лагере гроза вспыхивает над далёкими горами, но дождя нет. В свете молнии Стэнли различает скалу, похожую на поднятый большой палец. Его прадед после спасения из пустыни говорил, что укрылся на Божьем пальце.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A thumb in lightning",
+          "body": "<p>At camp a storm flashes over distant mountains, bringing no rain. In the lightning Stanley glimpses a rock shaped like a raised thumb. After being rescued from the desert, his great-grandfather had said he found refuge on God's thumb.</p>"
+        }
+      }
+    },
+    {
+      "id": "zero-leaves",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Зеро уходит",
+          "body": "<p>Тем временем ссора вокруг уроков перерастает в драку: Зигзаг нападает на Стэнли, Зеро вступается. Начальница запрещает уроки. Пендански снова издевается над Зеро, уверяя, что тот годится только копать. Зеро бьёт его лопатой по лицу и уходит в пустыню. Взрослые рассчитывают, что жажда вернёт беглеца. Остальным велят выкопать и его яму.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Zero leaves",
+          "body": "<p>Meanwhile, the quarrel over the lessons becomes a fight. Zigzag attacks Stanley; Zero intervenes. The Warden forbids the lessons. Pendanski mocks Zero again, saying digging is all he is good for. Zero hits him in the face with his shovel and walks into the desert. The adults expect thirst to bring the runaway back. The others are ordered to dig his hole as well.</p>"
+        }
+      }
+    },
+    {
+      "id": "not-too-late",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "А если ещё не поздно?",
+          "body": "<p>Дни проходят, Зеро не возвращается. Стэнли слышит, как взрослые собираются уничтожить его записи: мальчика всё равно никто не станет искать. Его мучает мысль, что помогать уже поздно. Ещё хуже другая: вдруг пока не поздно, а он ничего не делает?</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "What if it is not too late?",
+          "body": "<p>Days pass without Zero returning. Stanley hears the adults planning to erase his records: nobody will look for him anyway. He is tormented by the thought that it is too late to help. Worse is the possibility that it is not too late and he is doing nothing.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-water-truck",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Машина с водой",
+          "body": "<p>Когда к ним подъезжает машина с водой, Стэнли пытается угнать её. Водить он не умеет и почти сразу загоняет грузовик в яму. Тогда бежит пешком. Впереди — сухое дно, жара и далёкая гора. Долгое время он не находит ничего, кроме новых ям.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The water truck",
+          "body": "<p>When the water truck arrives, he tries to steal it. He cannot drive and almost immediately runs it into a hole. Then he runs on foot. Ahead lie the dry lakebed, the heat and a distant mountain. For a long time he finds nothing but more holes.</p>"
+        }
+      }
+    },
+    {
+      "id": "under-mary-lou",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Под лодкой «Мэри Лу»",
+          "body": "<p>Потом в пыли появляется перевёрнутая лодка с именем «Мэри Лу». Под ней прячется Зеро. Он выжил на старых банках с персиковой массой, которую назвал «сплуш». Живот у него сильно болит, но возвращаться он отказывается. Последнюю банку он делит со Стэнли. Лодка Сэма и персики Кэтрин пережили свой город; теперь возле них встретились два беглеца.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Under Mary Lou",
+          "body": "<p>Then an overturned boat appears in the dust, with the name Mary Lou on it. Zero is hiding beneath it. He has survived on old jars of peach mush, which he calls sploosh. His stomach hurts badly, but he refuses to go back. He shares the last jar with Stanley. Sam's boat and Katherine's peaches have outlasted their town; now the two runaways have met beside them.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-climb",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Подъём",
+          "body": "<p>Они выбираются к горе. Даже больной Зеро помогает Стэнли подняться на уступ, удерживая лопату и раня себе руки. Потом он теряет силы. Дальше Стэнли несёт друга сам.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The climb",
+          "body": "<p>They head for the mountain. Even sick, Zero helps Stanley up a ledge, gripping the shovel and cutting his own hands. Then his strength gives out. Stanley carries him the rest of the way.</p>"
+        }
+      }
+    },
+    {
+      "id": "on-the-thumb",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Влажная земля",
+          "body": "<p>Наверху есть влажная земля, вода и дикий лук. Мальчики едят, пьют и остаются жить на склоне. Всё ещё больной Зеро признаётся: кроссовки Ливингстона украл он. Стэнли поёт больному Зеро старую семейную песню.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Damp earth",
+          "body": "<p>At the top there are damp earth, water and wild onions. The boys eat, drink and stay on the mountainside. Still sick, Zero confesses: he stole Livingston's sneakers. Stanley sings the sick Zero an old family song.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-old-song",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        9,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Старая песня",
+          "body": "<p>Это та песня, которую мадам Зерони когда-то научила петь Элю. Праправнук Эли принёс к воде прапраправнука мадам Зерони: старый уговор исполнился через поколения, хотя мальчики своей родословной не знают. Мать Стэнли, впрочем, так и не поверит, что проклятие существовало.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The old song",
+          "body": "<p>It is the song Madame Zeroni taught Elya. Elya's great-great-grandson has carried Madame Zeroni's great-great-great-grandson up to water: the old promise has been fulfilled across generations, although the boys do not know their ancestry. Stanley's mother, however, will still insist there never was a curse.</p>"
+        }
+      }
+    },
+    {
+      "id": "where-the-shoes-went",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        4,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Куда делись кроссовки",
+          "body": "<p>Позже Зеро объясняет, как всё случилось. Не прочитав табличку в приюте, он взял старую пару, полагая, что это лучше, чем красть новую. Когда поднялся шум, оставил обувь на припаркованной машине. Так начался путь кроссовок, которые потом свалились на Стэнли. Самого Зеро арестовали за другую пару.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Where the sneakers went",
+          "body": "<p>Later Zero explains how it happened. Unable to read the notice at the shelter, he took an old pair, thinking that better than stealing new ones. When the alarm went up, he left them on a parked car. That began the journey of the shoes that later dropped onto Stanley. Zero himself was arrested for another pair.</p>"
+        }
+      }
+    },
+    {
+      "id": "laney-park",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Ожидание в парке",
+          "body": "<p>Он рассказывает и о матери: однажды она велела ждать её в парке и не вернулась. Он ждал больше месяца и ночевал внутри трубы на детской площадке. Стэнли знает этот парк — сам там играл. Зеро тоже знает эту песню с детства: мать пела ему похожую, с другими словами.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Waiting in the park",
+          "body": "<p>He also tells Stanley about his mother: one day she told him to wait in a park and did not return. He waited for more than a month, sleeping inside a tunnel on the playground. Stanley knows the park; he played there himself. Zero knows the song from childhood too: his mother sang a version with different words.</p>"
+        }
+      }
+    },
+    {
+      "id": "back-to-the-hole",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        9,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Назад к яме",
+          "body": "<p>Зеро поправляется. Стэнли помнит место, где на самом деле лежал золотой футляр; начальница копала совсем в другом месте. Они решают вернуться к лагерю, а ночью поискать клад и уйти. Набирают воду в банки, берут лук.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Back to the hole",
+          "body": "<p>Zero recovers. Stanley remembers where the gold tube really lay; the Warden was digging in quite the wrong place. They decide to return to camp, look for the treasure after dark and leave. They fill jars with water and take onions.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-night-in-the-hole",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Ночь в яме",
+          "body": "<p>В яме удаётся откопать металлический чемодан. И тут их освещает фонарь: над ними стоит начальница. Но взять добычу она не может. По чемодану и мальчикам ползают жёлтопятнистые ящерицы. Стэнли попал прямо в гнездо. Мальчики не двигаются, взрослые ждут их смерти и обсуждают, как объяснить случившееся. Ночь тянется. Выясняется, что начальница — внучка Форели Уокера и с детства искала здесь клад вместе с родителями.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "A night in the hole",
+          "body": "<p>In the hole they manage to uncover a metal suitcase. Then a flashlight shines on them: the Warden is standing above. But she cannot take the prize. Yellow-spotted lizards are crawling over the suitcase and the boys. Stanley has dug straight into a nest. The boys keep still while the adults wait for them to die and discuss how to explain what happened. The night drags on. The Warden turns out to be Trout Walker's granddaughter; she grew up searching here with her parents.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-name-on-the-suitcase",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Имя на чемодане",
+          "body": "<p>К утру приезжает адвокат Стэнли, госпожа Моренго, с генеральным прокурором штата. Стэнли признали невиновным; его должны отпустить. Начальница пытается объявить чемодан своей собственностью. Но Зеро уже умеет читать. На другой стороне он разобрал имя: Stanley Yelnats. Чемодан принадлежал тому самому прадеду, которого когда-то ограбила Кейт. Одинаковые имена в семье вдруг оказываются очень кстати.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The name on the suitcase",
+          "body": "<p>By morning Stanley's lawyer, Ms. Morengo, arrives with the state Attorney General. Stanley has been cleared and must be released. The Warden tries to claim the suitcase as her property. But Zero can read now. On the other side he has deciphered a name: Stanley Yelnats. It belonged to the very great-grandfather Kate robbed. The family's habit of repeating names has suddenly become extremely useful.</p>"
+        }
+      }
+    },
+    {
+      "id": "both-boys",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Вместе",
+          "body": "<p>Стэнли отказывается уходить без Гектора. Моренго требует его документы; записи уничтожены, и лагерь даже не может объяснить, почему держит мальчика. Она увозит обоих. Позже Моренго объясняет, почему Стэнли оправдали: именно Деррик подтвердил, что в момент кражи тот ещё вытаскивал из унитаза тетрадь. Мальчик, из-за которого Стэнли оказался под эстакадой, невольно обеспечил ему алиби.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Together",
+          "body": "<p>Stanley refuses to leave without Hector. Morengo demands his records; they have been destroyed, and the camp cannot even explain why it is holding him. She takes both boys away. Later Morengo explains why Stanley was cleared: Derrick confirmed that at the time of the theft he was still fishing his notebook out of the toilet. The boy who made Stanley end up under the overpass has unwittingly given him an alibi.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-onion-smell",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Запах лука",
+          "body": "<p>В машине из-за их лукового запаха приходится открывать окна. Ящерицы не кусали их по той же причине: Сэм когда-то продавал охотникам луковый сок для защиты от них. Дни на луковом поле, едва позволившие мальчикам выжить, потом спасли их в гнезде.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "The smell of onions",
+          "body": "<p>In the car their onion smell means the windows have to stay open. The lizards did not bite for the same reason: Sam used to sell hunters onion juice to protect them from the creatures. The days in the onion field, which barely enabled the boys to survive, later saved them in the nest.</p>"
+        }
+      }
+    },
+    {
+      "id": "rain-over-green-lake",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Дождь",
+          "body": "<p>Впервые за сто с лишним лет над озером идёт дождь. Лагерь закрывают, начальница продаёт землю; на этом месте собираются открыть лагерь для девочек-скаутов — мистер Сэр столько раз напоминал, что здесь не скауты.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Rain",
+          "body": "<p>For the first time in more than a century, rain falls on the lake. The camp closes and the Warden sells the land; a Girl Scout camp is planned for the site, after Mr. Sir's repeated reminders that this was no Girl Scout camp.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-papers-and-the-peaches",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Бумаги и персики",
+          "body": "<p>В чемодане оказываются драгоценности и ценные бумаги. Стэнли делится находкой с Гектором. Семья Елнатсов покупает дом, Гектор нанимает сыщика, чтобы найти мать. Отец Стэнли тем временем изобретает средство от запаха ног, пахнущее персиками. Рассказчик отмечает: удача пришла на следующий день после того, как Стэнли поднял Зеро на гору.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "Papers and peaches",
+          "body": "<p>The suitcase holds jewels and valuable financial papers. Stanley shares the find with Hector. The Yelnats family buys a house; Hector hires an investigator to find his mother. Meanwhile, Stanley's father invents a cure for foot odor that smells of peaches. The narrator notes that his luck changed the day after Stanley carried Zero up the mountain.</p>"
+        }
+      }
+    },
+    {
+      "id": "in-front-of-the-television",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Зелёное озеро",
+          "title": "Перед телевизором",
+          "body": "<p>Позже все смотрят рекламу отцовского средства: в ней снялся Клайд Ливингстон. Сам бейсболист тоже сидит у Елнатсов перед телевизором. У Гектора рядом женщина с такими же глазами и знакомой улыбкой — мать, которую он нашёл. Она поёт ему старую песню. Рядом с ним наконец тот человек, которого он так долго ждал.</p>"
+        },
+        "en": {
+          "section": "Green Lake",
+          "title": "In front of the television",
+          "body": "<p>Later, everyone watches an advertisement for the invention, starring Clyde Livingston. The baseball player himself is sitting with the Yelnatses in front of the television. Beside Hector is a woman with eyes like his and a familiar smile: the mother he has found. She sings him the old song. Beside him at last is the person he waited for so long.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "final": true,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Пауза",
+          "title": "У края пустыни",
+          "body": "<p>В Essential и Core рассказ останавливается на поисках Зеро. Дальнейшие события и развязки открываются в Deep после предупреждения.</p><p>Оригинальный роман — «Holes», Луис Сэкер.</p>"
+        },
+        "en": {
+          "section": "A pause",
+          "title": "At the desert’s edge",
+          "body": "<p>Essential and Core stop during the search for Zero. Deep continues the events and reveals the outcomes after a warning.</p><p>The original novel is Holes by Louis Sachar.</p>"
+        }
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Four Thousand Weeks — QA and handoff
 
-Date: 2026-10-31. Scope: `collector-output/four-thousand-weeks/` only. No catalogue integration, deployment, shared script edits, existing book edits, or global skill edits. Work was performed in the isolated local clone at `/Users/pn/.t3/worktrees/smartcat/t3-c4a31d11/_artifacts/book-tiktok-library`.
+Date: 2026-10-31. Scope: `collector-output/four-thousand-weeks/` only. No catalogue integration, deployment, shared script edits, existing book edits, or global skill edits. Transient checkout and private workstation paths are deliberately omitted from this public report.
 
 ## Claim map and fidelity
 
@@ -8,7 +8,7 @@ The pre-writing map and complete working ledger are in `sources.md`. The argumen
 
 Core adds examples, mechanisms and practical proposals; Deep adds secondary cases, philosophical detail, qualifications and synthesis. There are **30 level-1**, **42 level-2** and **40 level-3** screens, hence exactly **30 / 72 / 112 cumulative**. Cover and final are level 1. There is one stable ordered corpus; the modes filter it rather than replace it.
 
-All fourteen chapters, the afterword, five final questions, and all ten appendix proposals are represented. Source-sensitive cases include Coutts/Lubbock, Kafka/Felice, the watermelon stream, Young, Setiya, Roberts, Minkkinen, digital nomads and the Swedish vacation study. Historical accounts are labeled as the book's accounts, rather than silently becoming independent evidence. Each non-cover screen carries a provenance label and source IDs; `bookLocator` records the EPUB chapter/appendix territory. Provenance totals: **97 book / 3 corroboration / 11 synthesis**, plus one cover.
+All fourteen chapters, the afterword, five final questions, and all ten appendix proposals are represented. Source-sensitive cases include Coutts/Lubbock, Kafka/Felice, the watermelon stream, Young, Setiya, Roberts, Minkkinen, digital nomads and the Swedish vacation study. Historical accounts are labeled as the book's accounts, rather than silently becoming independent evidence. Every screen carries source IDs; `bookLocator` records the EPUB chapter/appendix territory. Provenance totals: **97 book / 3 corroboration / 12 synthesis**, including the cover.
 
 **Seven bibliography entries:** supplied EPUB, publisher, author interview, three primary corroborations, one independent review. Six are attached to screens; the review is a reception cross-check only. The current Russian publisher page identifies a newer edition; it is not represented as the source of the supplied EPUB. Exact local ISBN: **9785961486391**. EN is a translation of this original digest, not a consulted English book edition.
 
@@ -44,26 +44,17 @@ The audit has a slightly different tokenizer (6166 RU / 7135 EN including titles
 Built from schema v2 using the maintained builder, never by copying another book HTML:
 
 ```sh
-node /Users/pn/.codex/skills/book-tiktok/scripts/build_story.mjs \
+node ~/.codex/skills/book-tiktok/scripts/build_story.mjs \
   collector-output/four-thousand-weeks/story-data.json \
   --out collector-output/four-thousand-weeks/four-thousand-weeks.html
 ```
 
-One artifact-only compatibility correction follows the build: add the existing `nav-position` class to the counter so the inherited focus CSS hides it. No shared file or behavior was changed. The maintained template targets `.nav-position`, while its counter has only `.counter`; the first browser run exposed the mismatch. Reproduce the correction after rebuilding:
-
-```python
-from pathlib import Path
-p = Path('collector-output/four-thousand-weeks/four-thousand-weeks.html')
-s = p.read_text()
-s = s.replace('<span class="counter" id="counter">',
-              '<span class="counter nav-position" id="counter">')
-p.write_text(s)
-```
+The integration maintainer rebuilt the artifact with the current maintained template. Its compact localized home control and focus counter behavior now work without generated-HTML patches. The editable JSON remains the canonical content source.
 
 The artifact then passed the maintained deterministic bilingual audit:
 
 ```sh
-node /Users/pn/.codex/skills/book-tiktok/scripts/audit_story_html.mjs \
+node ~/.codex/skills/book-tiktok/scripts/audit_story_html.mjs \
   collector-output/four-thousand-weeks/four-thousand-weeks.html \
   --min-screens 112 --require-bilingual
 ```
@@ -74,7 +65,7 @@ Final audit output (file path abbreviated):
 {
   "file": "collector-output/four-thousand-weeks/four-thousand-weeks.html",
   "format": "v2",
-  "bytes": 410384,
+  "bytes": 410395,
   "screenCount": 112,
   "levels": {"1": 30, "2": 42, "3": 40},
   "modes": {"essential": 30, "core": 72, "deep": 112},
@@ -114,6 +105,8 @@ Visually inspected screenshots of RU/dark phone and desktop covers; the long fiv
 
 These are emulated Chrome desktop/phone CSS sizes, not physical iOS or Android device testing. The invisible/chosen-depth chapters are not listed in the inherited contents UI; automatic raising was exercised through a saved chapter. The Home control retains the maintained `./` link; catalogue placement is left to the integrator.
 
+During integration, the maintainer rebuilt the root reader from this JSON on the current template and ran the automatic whole-library browser gate across ten readers at 320×568, 390×844 and 1440×900. Catalogue counts, compact home navigation, focus enter/exit, topbar bounds and horizontal overflow passed with zero runtime errors. This supplements rather than replaces the collector's four-viewport matrix above.
+
 ## Evidence boundaries and limitations
 
 The private full EPUB was available. Consultation combined a paragraph-level structural survey with close reading of argument-bearing passages and all ten proposals; it was not uninterrupted line-by-line reading. No extracted book text, chapter copy, extended quotation or source images are distributed. The compact English version is not an independently checked translation against an English edition.
@@ -124,7 +117,5 @@ No deployment, catalogue registration, external delivery, PR or push occurred. E
 
 ## File integrity
 
-- `story-data.json` SHA-256: `eed2e42cfe2adfdab2199b37e67edd2c93395feb9a142c654a43933f58f9b019`.
-- Maintained builder SHA-256: `c88078eb41ae3d63bfd05e3a94834f2bc960f554ce3736965f3467398c44f88d`.
-- Maintained template SHA-256 at final build: `fb276dad4034e189ac5c573fb871fab495d760243d41604516aa5e294cb8de55`.
-- Final HTML SHA-256: `3c836743690808eab3d1e7b3a88c6b0e8807b77dc821fb4cc11000a9bfb78216`.
+- `story-data.json` SHA-256: `cab74d85b824a8a32cdde17999341c44b84e80ed2c5fcb695d507a687b17deff`.
+- Final HTML SHA-256: `5e0ccd0c34e7a54db09929b1957b7f0630cadaf4b82c1ced968968ecceea52a0`.

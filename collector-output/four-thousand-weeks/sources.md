@@ -4,7 +4,7 @@ Research date: 2026-10-31. Approved cumulative Maximum counts: **30 / 72 / 112**
 
 ## Exact supplied edition and access boundary
 
-The supplied Apple Books EPUB is an unpacked directory at `/Users/pn/Library/Mobile Documents/iCloud~com~apple~iBooks/Documents/Четыре тысячи недель Тайм-менеджмент для смертных.epub`. OPF title: *Четыре тысячи недель: Тайм-менеджмент для смертных*; creator: Оливер Беркман; ISBN **9785961486391**; publication metadata 2021; modification 2023-02-09. English original: *Four Thousand Weeks: Time Management for Mortals* (2021). The current Russian publisher landing page has a different title/subtitle and a 2026 ISBN: it identifies the work, not the edition used. No English full edition was consulted.
+The supplied Apple Books EPUB is an unpacked directory named `Четыре тысячи недель Тайм-менеджмент для смертных.epub`. OPF title: *Четыре тысячи недель: Тайм-менеджмент для смертных*; creator: Оливер Беркман; ISBN **9785961486391**; publication metadata 2021; modification 2023-02-09. English original: *Four Thousand Weeks: Time Management for Mortals* (2021). The current Russian publisher landing page has a different title/subtitle and a 2026 ISBN: it identifies the work, not the edition used. No English full edition was consulted. The private absolute workstation path is deliberately omitted from this public ledger.
 
 Reproducible source fingerprint: SHA-256 `de5a28ecbe33d7ac50a4cf3bd98ed2f0eff028f30c42746d5e60beb193595aa7`, computed by iterating sorted EPUB files whose parent is `Text` or `OEBPS`, updating the hash with each relative UTF-8 pathname followed by its raw bytes. This covers OPF, NCX, and chapter content without copying them into this repository.
 

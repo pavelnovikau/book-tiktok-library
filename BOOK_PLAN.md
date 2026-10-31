@@ -1,5 +1,18 @@
 # Library expansion plan
 
+## 2026-10-31 — authorized editorial repair, release 01
+
+This supersedes the historical STOP/expansion/refill instructions below. Repair authorization is active; do not restart the old expansion queue or dispatch replacement collectors. One publisher owns root readers/catalogue/shared shell/Git/deploy; workers own only their assigned packages and reports.
+
+- Independently accepted and integrated: The Art of War 15/30/36, Essentialism 18/28/36, Skin in the Game 19/37/53 — 125 revised bilingual pairs. No fiction rewrite is approved in this release. Catalogue: 31 books / 3,504 screens; baseline: 41 records under audit, 195 original files preserved externally.
+- Shared writing rules, equal homepage tabs and iOS safe-area header are repaired. Statistics strip stays; one compact icon-only row. Narrative presentation is optional and is not an editorial verdict.
+- Next publisher reads new READY manifests and actual RU/EN/evidence, verifies hashes, writes per-book findings, and integrates only passing packages. No waiting/polling workers or watchers. Source gaps require actual lawful coverage, never reconstruction from blurbs.
+- I, Robot, The Two Captains, Dune and A Fall of Moondust have reported primary-source blockers; their full narrative rebuilds are not accepted. Other books' status remains open until their own review.
+- Check `editorial-audit/2026-10-31/publisher-findings/release-01.json` for merge/production state; do not infer deployment from a local pass. Vercel builds only explicit public assets; no collector/source folders.
+
+Historical notes follow; their old publication endorsements and throughput plans are not current editorial approval.
+
+
 The approved expansion queue contains **58 books**: the original 25, the 13-book classic-fiction wave and the additional 10+10 list, all approved by 2026-10-31. Counts already assigned below are cumulative `Essential / Core / Deep`, include the cover and final screens, and use the approved **Maximum** density. The newest twenty have list approval; exact edition and screen-count contracts remain to be established before their collector builds. Deeper screens must add a distinct mechanism, case, caveat, application or synthesis; counts are a fidelity contract, not permission to pad.
 
 | Section | Book | Counts | Collection | Source boundary |

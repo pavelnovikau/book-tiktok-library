@@ -7,7 +7,7 @@
 
 ## Rights
 
-- [ ] This submission is an original analytical digest or uses lawfully reusable material.
+- [ ] This submission is an original-word condensed narrative or explanation or uses lawfully reusable material.
 - [ ] It contains no pirated full text, copied chapters or fabricated quotations/page references.
 
 ## Verification

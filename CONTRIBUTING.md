@@ -14,10 +14,12 @@ The file must:
 - use Flexoki light/dark themes;
 - use a single compact row of icon-only header controls with localized tooltips and accessibility labels; keep the home control linking to `./` and the optional iOS guide trigger in that same row;
 - support the shared focus-mode contract: a tap on non-interactive text hides reader chrome while preserving text and Next; a second tap restores it;
-- identify sources and distinguish the book’s argument from independent corroboration and synthesis;
+- identify sources and distinguish the book’s narrative/argument from independent checks and any digest inference;
 - contain no remote runtime scripts or stylesheets.
 
-Do not submit copyrighted full text, copied chapters, pirated source files, invented quotations or invented page references. A digest should restate ideas in the contributor’s own words and cite lawful sources.
+Do not submit copyrighted full text, copied chapters, pirated source files, invented quotations or invented page references. Write in original words and cite lawful sources. Fiction must tell the author’s story through supported events, characters and causal links; nonfiction must convey the author’s argument and actual examples; practical/hybrid works retain their real procedures and the relationship between narrative and ideas. Do not substitute management or moral lessons, invented scenes or quota padding. Write connected prose first, segment afterwards, then derive exact nested counts. A task that leaves length to the author needs no additional count-confirmation gate.
+
+The optional v2 `contentMode` is `narrative` or `explanatory`. Narrative mode hides per-screen provenance/footnote chrome while keeping screen source maps and the accessible global Sources dialog. Omission preserves legacy behavior. Changing that field alone does not repair an analytical retelling. Preserve the book’s spoiler boundary in all modes, cover/final, contents, resume labels and global source/method notes. State which edition and passages were actually consulted; a fetched full text does not mean it was read continuously.
 
 ## 2. Register it in `books.json`
 
@@ -74,4 +76,4 @@ Use a fork, push your branch and open a PR. Include:
 - a copyright/rights statement;
 - mobile and desktop verification notes.
 
-The automated check validates the catalogue, local files, bilingual metadata, counts that can be read deterministically, the home control and offline runtime invariants. A maintainer reviews content quality before merge. Merging to `main` publishes through Vercel automatically.
+The automated check validates the catalogue, local files, bilingual metadata, counts that can be read deterministically, the home control and offline runtime invariants. A maintainer reads the actual RU/EN content and checks its scenes/mechanisms against supporting passages before merge. Passing the structural audit does not establish editorial approval. Merging to `main` publishes through Vercel automatically.

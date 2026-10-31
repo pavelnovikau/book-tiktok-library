@@ -6,7 +6,8 @@
   "scripts": {
     "check": "node scripts/check-library.mjs",
     "sync:readers": "node scripts/apply-reader-shell.mjs",
-    "qa:browser": "node scripts/browser-qa.mjs"
+    "qa:browser": "node scripts/browser-qa.mjs",
+    "build:site": "node scripts/build-site.mjs"
   },
   "engines": {
     "node": ">=20"

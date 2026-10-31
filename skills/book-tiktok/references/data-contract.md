@@ -4,9 +4,9 @@ Use this reference when starting a new artifact, preparing structured story data
 
 ## Build flow
 
-1. Obtain the user’s approved cumulative Essential/Core/Deep counts. If they provide only a total, propose and confirm a split; counts include cover and final.
-2. Create a claim map and source ledger in working notes.
-3. Write one `story-data.json` following this contract.
+1. Identify the actual work, edition, writing form and evidence boundary; honor explicit user length constraints.
+2. Map the narrative/argument/procedures and sources, then write connected original-word prose.
+3. Segment it into coherent nested modes, derive exact cumulative counts from the justified content, and write one `story-data.json` following this contract.
    A minimal working example is available at `assets/story-data.example.json`.
 4. Build the final descriptive HTML:
 
@@ -29,7 +29,8 @@ Do not create a new book by copying a previously generated HTML file. Reuse the 
   "description": { "ru": "Краткое описание", "en": "Short description" },
   "defaultLanguage": "ru",
   "defaultTheme": "dark",
-  "defaultMode": "deep",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
   "targetModes": { "essential": 24, "core": 56, "deep": 96 },
   "methodNote": { "ru": "...", "en": "..." },
   "sources": [],
@@ -41,7 +42,8 @@ Do not create a new book by copying a previously generated HTML file. Reuse the 
 - `schemaVersion` must be `2`.
 - `slug` and every screen/media ID are stable lowercase kebab-case identifiers.
 - `title`, `description`, and other localized fields require complete `ru` and `en` values.
-- `targetModes` records the cumulative Essential/Core/Deep counts approved by the user. These counts include the cover and final screens. The build fails if the corpus does not match them exactly.
+- `targetModes` records the exact cumulative Essential/Core/Deep counts derived from the finished, justified content. Include cover and final. The builder fails on any mismatch; it must never pad prose to satisfy this assertion. Honor explicit user constraints, but do not add a confirmation gate when the task permits you to choose length.
+- Optional `contentMode` is `narrative` or `explanatory`. Choose by the actual prose: fiction is normally narrative; nonfiction/practical prose normally explanatory; hybrids preserve the work’s own mix. Narrative presentation hides per-screen provenance/source-footnote chrome, preserving embedded source maps and the accessible global Sources dialog. Omit the field to retain legacy presentation; never relabel an unchanged analytical fiction digest as a repair.
 - The builder computes mode counts and reading times. Optional `modes.<mode>.label` and `modes.<mode>.minutes` may override labels or estimates.
 - The default delivery filename is `<slug>.html`, not `index.html`, so a shared file remains identifiable.
 
@@ -90,9 +92,9 @@ The source ledger in working notes should additionally record access date, evide
 
 - `level: 1` appears in every mode; `2` adds the core; `3` adds deep detail.
 - `claimType` is required on non-cover screens:
-  - `book` — the author’s argument or evidence;
+  - `book` — the author’s narrative, argument, example, procedure or evidence;
   - `corroboration` — independent factual scaffolding or a qualified challenge;
-  - `synthesis` — the digest’s inference, analogy, or practical translation.
+  - `synthesis` — an explicitly attributed digest inference when useful and permitted. No type is a mandatory quota; no management, moral or motivational synthesis is required.
 - `sources` may be empty only when the screen is framing, navigation, or clearly marked synthesis that makes no external factual claim.
 - RU and EN must preserve the same quantities, names, causal qualifiers, claim type, sources, and cognitive job.
 - `body` accepts restrained semantic HTML. Supported presentation classes in the clean template include `lede`, `muted`, `hero-number`, `fact`, `fact-label`, `compare`, `compare-item`, `metric-grid`, `metric-card`, `story-list`, `steps`, and `index`.
@@ -128,25 +130,20 @@ The last screen must be the single level-1 final screen and set `"final": true`.
 
 The builder resolves `file` relative to the JSON, embeds it as a data URI, and removes the path from the final artifact. A prebuilt image `dataUri` is also accepted. Every media item needs bilingual alt text and credit; an empty credit is allowed only for a user-supplied private cover.
 
-## Screen-count gate and density profiles
+## Counts, continuity and spoilers
 
-Do not choose the count silently. If the user did not specify a full triple, offer three concrete profiles with exact cumulative mode counts and approximate reading time, recommend one, and wait. If they provided only a Deep total, propose and confirm its Essential/Core/Deep split. Counts include cover and final. Record the selected triple in `targetModes` before research and corpus writing.
+Write faithful prose first, then segment it. Historical totals and suggested density bands are not quotas. When the task leaves length to you, choose it and derive `targetModes` from the finished screens. Only a conflict with an explicit user constraint needs clarification; a single requested Deep total does not itself require a separate approval gate for its nested split.
 
-Use these as proposal bands:
+Every deeper screen adds real story, reasoning, cases, procedures or qualifications. Each nested sequence must read coherently, with transitions and causal links intact. Scene/place/action/question titles are valid; titles need not state lessons. Merge repetition rather than splitting prose to hit a number.
 
-| Profile | Essential | Core | Deep | Typical use |
-|---|---:|---:|---:|---|
-| Compact | 16–24 | 30–48 | 45–64 | One main idea, short argument |
-| Standard | 20–30 | 42–68 | 64–90 | Most idea-driven nonfiction |
-| Dense | 24–36 | 56–90 | 90–130+ | Systems books, histories, handbooks |
-
-Choose the proposal from an initial assessment of the book, then honor the user’s selection. A deeper layer is justified only by a distinct mechanism, case, consequence, caveat, application, or synthesis. If later research proves the selected count unsuitable, ask again with a reasoned revision; never pad or silently change it.
+Keep the book-specific spoiler policy. For `full-plot-in-deep`, decisive endings belong only in level 3 behind a clear warning/consent. The level-1 final is shared by all modes, so it must remain spoiler-safe. Covers, global source notes, pre-consent contents and saved-resume labels must also remain safe.
 
 ## Working checks before build
 
-- Every central claim has at least one supporting source or an explicit evidence gap.
-- The Essential sequence still forms a complete causal argument on its own.
-- Core and Deep preserve the Essential order and insert detail rather than telling a different story.
-- Each title states a claim; each body earns it; no two screens perform the same cognitive job.
-- All numerical anchors and qualifications match across languages.
-- No screen contains material inherited from another book.
+- Scenes, motives, mechanisms and factual claims are supported by actual consulted evidence; evidence gaps and access boundaries are explicit.
+- The Essential sequence is an intelligible story/argument on its own, respecting its spoiler promise.
+- Core and Deep preserve Essential order and causal continuity while adding meaningful content.
+- No invented scenes, dialogue, examples, motives or compulsory lessons; no quota padding.
+- RU/EN preserve names, quantities, events, qualifications and spoiler boundaries.
+- The method note describes actual reading/verification, not just a downloaded edition.
+- No content was inherited from another book. A structural audit is necessary but does not establish editorial approval.

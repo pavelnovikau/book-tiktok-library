@@ -15,12 +15,12 @@ Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` 
 - Every book remains a standalone HTML file and can be opened without the library shell.
 - `manifest.webmanifest` and `sw.js` let the site run as an iOS/Android Home Screen app. The shell and catalogue are cached immediately; book HTML is cached after it is opened.
 - `scripts/apply-reader-shell.mjs` adds shared focus mode, optional PWA metadata and the maintained compact icon header to registered books. The header and optional iOS guide share one row; localized tooltips and accessibility labels explain the icons. Focus mode toggles by tapping non-interactive text; only reading content and Next remain.
-- A push to `main` deploys the production site through Vercel. Pull requests run validation and can receive Vercel previews.
+- A push to `main` builds the public allowlist and deploys it through Vercel. Pull requests run validation and can receive Vercel previews.
 
 ## Add a book
 
 External contributors can fork the repository and open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the exact contract.
-The approved 58-title expansion is tracked in [BOOK_PLAN.md](BOOK_PLAN.md); the current handoff is [NEXT_STEPS.md](NEXT_STEPS.md).
+The historical expansion is tracked in [BOOK_PLAN.md](BOOK_PLAN.md); it is suspended during the active repair. The current handoff is [NEXT_STEPS.md](NEXT_STEPS.md).
 
 The complete reusable Codex skill lives in [`skills/book-tiktok`](skills/book-tiktok). It includes the research/content contract, portable RU/EN reader template, embedded Geist fonts, example story data, builder and deterministic auditor. To install it, ask Codex to install the skill from:
 
@@ -46,28 +46,30 @@ Type, genre/subject and query compose with AND. Type counts respect the current 
 
 Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit defaults). Existing `section` links map to their corresponding new subject, and `section=fiction-adventure` opens Fiction. Former collections map to visible controls: `for-son` → Fiction, `taleb` / `sapolsky` → author search, `practices` → Nonfiction, `unassigned` → All. A notice explains that the link has been updated; these are new discovery views, not hidden historical subsets. The mappings live in `books.json` and old parameters are replaced by the canonical visible filters. Unknown filters are cleared with a notice. Language/theme preferences retain their existing storage key; standalone reader progress and URLs are unchanged.
 
-`npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard and iOS-install emulation. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
+`npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
 
-## 2026-10-31 release verification
+## 2026-10-31 editorial repair — release 01
 
-Production is verified at **31 books / 3,673 screens**, adding exactly these five reviewed and repaired books to the previous 26 / 3,129. [PR #23](https://github.com/pavelnovikau/book-tiktok-library/pull/23) was squash-merged as `49ab18f1f4ca3a82392b2ad3aad6c2630e314758` with all three checks green and no review findings. At 18:01 UTC on 2026-10-31, production HTTP reads matched the catalogue, homepage and five reader files byte-for-byte. A separate production browser check rendered all 31 distinct cards, checked the counters and universal controls, opened all five routes and their Home links, and verified Hitchhiker consent/Cancel. Zero runtime errors. The existing `.html` links correctly redirect to their clean reader routes. This is deployment proof after merge.
+The baseline has **41 records under audit**: 31 published works, nine structured unpublished packages and source-only Project Hail Mary. Earlier technical/cold-review approvals followed an analytical-companion brief and do not establish the requested fidelity. The expansion/refill queue remains suspended. [The current brief](editorial-audit/2026-10-31/BRIEF.md) authorizes ten repair workers and one publisher, with immediate publication only after independent checks.
 
-| Book | Essential / Core / Deep | RU minutes | Listed sources |
-| --- | ---: | ---: | ---: |
-| White Fang | 24 / 60 / 96 | 7 / 18 / 29 | 6 |
-| I, Robot | 30 / 72 / 112 | 10 / 23 / 36 | 17 |
-| The Two Captains | 36 / 90 / 144 | 11 / 27 / 42 | 11 |
-| The Wee Free Men | 24 / 60 / 96 | 8 / 18 / 29 | 13 |
-| The Hitchhiker’s Guide to the Galaxy | 24 / 60 / 96 | 7 / 17 / 27 | 8 |
+This release independently reads and accepts exactly **three rewritten nonfiction readers, 125 RU/EN pairs**. No fiction story is editorially repaired by this release. The catalogue remains **31 books / 3,504 screens**; the other 28 published corpora are unchanged and retain unestablished editorial status. All 31 receive the shared header correction.
 
-All five received independent full-pair cold reviews and the required parent repairs. Each root copy passed a fresh 68-check audit at its exact Deep total and has exact structured-data parity with its canonical collector package. The I, Robot list includes ten reviews by one critic; source totals do not imply independent witnesses. Access boundaries remain in each `sources.md` and the reader's method note. These checks do not claim new full-book reading or repeat the historical collector-wide matrices.
+| Rewritten and independently accepted | Essential / Core / Deep | RU minutes | Source boundary |
+| --- | ---: | ---: | --- |
+| The Art of War | 15 / 30 / 36 | 4 / 8 / 10 | Giles 1910 thirteen-chapter base text; no Chinese/manuscript certification |
+| Essentialism | 18 / 28 / 36 | 5 / 8 / 10 | Complete owned Russian edition, targeted argument/case reading; not every paragraph |
+| Skin in the Game | 19 / 37 / 53 | 5 / 10 / 14 | Complete owned Russian edition, targeted passages plus final chapter/epilogue; not whole-edition line-by-line verification |
 
-Fresh integration QA passed all 31 readers, 120 filter cases, 116 bilingual searches, 13 legacy routes, five homepage widths in both languages/themes, reader layouts, keyboard/focus and iOS browser/standalone behavior. Targeted root checks passed 64 saved-Deep resume states, 72 repaired-screen states, 40 localized source panels and 96 Hitchhiker consent actions. Additional iOS emulation checked all 31 readers at 320/390: 372 control hit tests, 124 actual Language clicks and 62 guide openings. No runtime errors, external reader requests or horizontal overflow were found. Representative homepage, new covers, repaired screens, safe Continue and focus screenshots were inspected.
+Per-book publisher findings live in [publisher-findings](editorial-audit/2026-10-31/publisher-findings/); the release receipt distinguishes integration, merge and production verification. Public sources remain available in each reader. Private/full book text is excluded from the repository. Worker source blockers already reported for I, Robot, The Two Captains, Dune and A Fall of Moondust require lawful primary coverage; no replacement narrative is certified from their excerpts or reviews. Further worker results belong to a subsequent publishing batch.
 
-The synchronizer is idempotent on all 31 readers. Canonical and installed templates use RU «Обзор» and safe fictional Deep-resume labels; the synchronizer propagates them to registered readers. Hitchhiker retains its local «Критика» label, generic Continue, session Core/Deep consent, Cancel/Escape behavior, Essential after reload, focus cover/source rules, reduced motion and static iOS control. Its main reader script remains byte-identical to the reviewed/repaired collector HTML. Copy its current HTML before shell synchronization; a plain rebuild discards those local features.
+The skill now chooses narrative, explanatory or practical/hybrid writing from the actual book: prose first, segmentation afterwards, exact counts from justified content, no mandatory lesson or count-confirmation gate. Optional `contentMode` supports narrative/explanatory presentation; no unchanged analytical fiction was relabelled. Narrative reading hides per-screen provenance chrome while keeping source maps and the global Sources dialog. Installed-skill changes were mirrored file by file after comparing for unrelated differences.
 
-Evidence for this run is outside git at `/tmp/book-library-release-20261031/`. Existing 26 catalogue records and embedded corpora are unchanged. The five canonical four-file packages retain their ledgers; no other queued collector output is included. The latest authorized pipeline concurrency is ten workers, with one exclusive owner for shared release files.
+Homepage tabs now have equal widths, RU/EN labels wrap, and the statistics strip remains. The compact icon-only header reserves the iOS status safe area, which the previous flat-padding override discarded. Normal/focus/standalone/scroll checks use actual engine safe-area overrides; physical-device behavior remains untested. The synchronizer shares the same module with new builds and preserves legacy readers and book-specific spoiler controls.
+
+`npm run build:site` emits an explicit public allowlist: catalogue/PWA shell, registered root readers, fonts and icons. Vercel serves that output only. Collector, audit, skill and source directories are never deployment assets. The original external baseline ZIP and its manifest retain 195 files and are not overwritten.
+
+Validation includes the library/package check, skill validation, exact root/canonical parity, idempotent shell synchronization, discovery/mobile/legacy/focus/iOS checks and full revised-reader traversal. The v2 auditor passes 69 checks for each rewritten root. Its standalone audit still has pre-existing compatibility failures for legacy 1873 metadata, orphan TOC corpus in Theory of Constraints, and Hermes/Nous detection; the library validator/browser checks pass those readers. Those legacy editorial/structural issues are not claimed repaired here. Reports/screenshots remain outside Git at `/tmp/book-publisher-qa-20261031/`.
 
 ## Repository policy
 
-This repository accepts original analytical digests and lawfully reusable material. Do not submit pirated book text, copied chapters or fabricated quotations and page references. Existing book content is not placed under an open-content licence merely by being public; contributors must state the rights to their own submission.
+This repository accepts original-word condensed narratives, explanations and lawfully reusable material. Do not submit pirated book text, copied chapters or fabricated quotations and page references. Existing book content is not placed under an open-content licence merely by being public; contributors must state the rights to their own submission.

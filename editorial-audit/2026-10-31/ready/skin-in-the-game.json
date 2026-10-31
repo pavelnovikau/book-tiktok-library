@@ -1,0 +1,91 @@
+{
+  "slug": "skin-in-the-game",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD",
+  "group": 7,
+  "date": "2026-10-31",
+  "contentMode": "explanatory",
+  "deliverables": [
+    {
+      "path": "collector-output/skin-in-the-game/story-data.json",
+      "sha256": "15351af617840f6d95e7200d5681ce1d7e2937aff0dd3de8fa45f3ca03e3e197",
+      "bytes": 80352
+    },
+    {
+      "path": "collector-output/skin-in-the-game/skin-in-the-game.html",
+      "sha256": "b0f7d4584665a8b9ec3279ff3044fe43ad871cf2f4e508018ff457f8dfa21d03",
+      "bytes": 322950
+    },
+    {
+      "path": "collector-output/skin-in-the-game/sources.md",
+      "sha256": "be172a21edf68856666214f6d5811771cce4dccf5c7e16f37aa2c7eeb7fb849e",
+      "bytes": 6324
+    },
+    {
+      "path": "collector-output/skin-in-the-game/QA.md",
+      "sha256": "c88062a20c805d953baf3e71b40463aa29be5e2cc88d129ad8bdaf6b7e1d209c",
+      "bytes": 3100
+    }
+  ],
+  "counts": {
+    "essential": 19,
+    "core": 37,
+    "deep": 53
+  },
+  "reviewedPairs": {
+    "originalCollector": 112,
+    "originalPublishedEffective": 112,
+    "originalDistinct": 112,
+    "revised": 53
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/skin-in-the-game.md",
+  "reportSha256": "83ab5b1aba171ec5cbbbb82b7098c5cdab3c0db0a765245f15f3522bc973a41c",
+  "sourceScope": {
+    "work": "Skin in the Game (2018)",
+    "edition": "Russian translation Nikolay Karayev, KoLibri / Azbuka-Attikus, 2018, ISBN 978-5-389-15581-7",
+    "access": "Complete owned EPUB structurally verified; introduction and meaningful argument/example passages across chapters read, chapter 19 and epilogue read continuously. Not a whole-edition line-by-line fidelity certificate.",
+    "english": "Translation of the new paraphrase, not independently checked against an English full edition."
+  },
+  "changes": [
+    "Rewrite all reading copy around Taleb argument and actual cases",
+    "Correct disagreement section to intended-position/charity argument",
+    "Remove invented organisational example, exercise, later research and reviewer detours",
+    "Replace repeated EPUB body footers with source map in sources.md and metadata",
+    "Reduce cumulative counts 30/72/112 to 19/37/53; default RU/dark/Essential"
+  ],
+  "checks": {
+    "structural": {
+      "passes": 69,
+      "failures": 0,
+      "warnings": 0
+    },
+    "browser": {
+      "viewports": [
+        "320x568",
+        "1440x900"
+      ],
+      "renders": 872,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "allDepths": true,
+      "overflow": false,
+      "runtimeExceptions": 0,
+      "httpRuntimeRequests": 0,
+      "focusTap": true,
+      "sourcesDialog": true
+    }
+  },
+  "unresolvedIssues": [
+    "Independent publisher editorial review required",
+    "Physical iPhone Safari/PWA and final maintained shell not covered by worker checks",
+    "Publisher must integrate root/catalogue counts and handle removed saved-progress IDs safely",
+    "Shared nonfiction source labels remain a maintained-shell decision"
+  ],
+  "publicationApproved": false
+}

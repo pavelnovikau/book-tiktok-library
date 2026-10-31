@@ -74,7 +74,7 @@ Palette source and rationale: [Flexoki by Steph Ango](https://stephango.com/flex
 - Support a focus mode that toggles when the reader taps non-interactive text. It hides the header, progress, desktop rail, back control, and other reader chrome while preserving the current text and a safe-area-aware Next button. A second tap restores the chrome; `F` toggles it and `Escape` exits it on desktop. Ignore links, buttons, dialogs, text selection, long presses, and scroll/swipe gestures, and preserve focus mode while paging.
 - Use native dialogs or an equivalently accessible modal pattern for Chapters and Sources.
 - Give large embedded images `decoding="sync"` or preserve decoded elements so rapid language/theme switching does not show partial scans.
-- Display whether a screen is the book’s argument, independent corroboration, or synthesis.
+- In explanatory/legacy presentation, show provenance for the book’s narrative/argument, independent checks or digest inference. For `contentMode: "narrative"`, hide per-screen academic provenance/source-footnote chrome; keep source maps embedded and the global Sources dialog accessible. Do not infer or change the content mode from the book title.
 
 ## Accessibility and semantics
 
@@ -94,24 +94,24 @@ node <skill-dir>/scripts/audit_story_html.mjs <book-slug>.html \
   --min-screens <justified-minimum> --require-bilingual
 ```
 
-The v2 audit verifies the structured corpus rather than trusting only metadata. It checks exact level/mode counts against the user-approved `targetModes`, unique IDs, bilingual copy, provenance types, source/media references, offline invariants, responsive shell hooks, Flexoki identity, and unreachable legacy story data.
+The v2 audit verifies the structured corpus rather than trusting only metadata. It checks exact level/mode counts against the exact `targetModes` derived from the finished content, unique IDs, bilingual copy, provenance types, source/media references, offline invariants, responsive shell hooks, Flexoki identity, and unreachable legacy story data.
 
 ## Browser QA protocol
 
-Do not use the collaborative preview to verify a page you just authored. Use the available local/browser automation path and keep any manually launched headless Chrome bounded and isolated.
+Use the browser path authorized by the task/environment. Keep any manually launched headless Chrome bounded and isolated, with owned-process/profile cleanup. Emulated iOS/standalone behavior is not a physical-device test.
 
 Test 320×568, 390×844, 1024×768, and 1440×900. At minimum:
 
 1. Load the cover in the default language and theme.
 2. Switch language and theme rapidly; wait for images to decode and inspect the cover.
-3. Assert exact Essential/Core/Deep counts against the user-approved `targetModes`, metadata, and structured data.
+3. Assert exact Essential/Core/Deep counts against the exact `targetModes` derived from the finished content, metadata, and structured data.
 4. Programmatically traverse every screen in RU and EN; verify unique, non-empty titles, valid position, and no horizontal overflow.
 5. Visually inspect representative cover, dense prose, long list, image, comparison, quantitative, provenance, and final screens.
 6. Open and close both dialogs; test hidden-screen chapter navigation and automatic mode raising.
 7. Confirm embedded fonts and images decode.
 8. Test buttons, keyboard, pointer swipe, saved position, Continue, Start over, and final restart.
 9. Toggle focus mode by tap and keyboard at phone and desktop widths; verify that only reading content and Next remain, that vertical scrolling and horizontal page swipes are not misread as taps, and that exiting restores the full shell.
-10. At 320 px, assert every top control lies inside its container. At 1024/1440, assert the rail is visible, scrollable, and synchronized.
+10. At 320 px, assert every top control lies inside its container in one compact icon-only row. With a nonzero iOS safe-area inset, assert the row lies below the status area and remains reachable after scrolling or toggling focus; retain Back/counter only in normal mode. At 1024/1440, assert the rail is visible, scrollable, and synchronized.
 11. Emulate iPhone Safari in ordinary browser mode and verify the install guide opens, localizes, closes, and remains available from its trigger. Emulate standalone mode and verify the guide and trigger are absent. Do not claim that ordinary Safari can be forced into fullscreen.
 12. Collect console/runtime exceptions and require zero unexplained errors.
 

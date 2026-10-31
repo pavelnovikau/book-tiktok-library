@@ -36,7 +36,7 @@
       color-scheme: light;
       --color-bg: #fffcf0;
       --color-surface: #f2f0e5;
-      --color-surface-raised: #ffffff;
+      --color-surface-raised: #fffcf0;
       --color-surface-strong: #e6e4d9;
       --color-border: #dad8ce;
       --color-border-strong: #b7b5ac;
@@ -115,10 +115,11 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    button, input, a { -webkit-tap-highlight-color: transparent; }
-    button, input { color: inherit; font: inherit; }
+    button, input, select, a { -webkit-tap-highlight-color: transparent; }
+    button, input, select { color: inherit; font: inherit; }
     a { color: inherit; }
     [hidden] { display: none !important; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 
     :focus-visible {
       outline: 3px solid var(--color-primary);
@@ -134,21 +135,6 @@
         calc(var(--space-8) + env(safe-area-inset-bottom, 0px))
         max(var(--space-5), env(safe-area-inset-left, 0px));
     }
-
-    .progress {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: var(--space-2);
-      margin-bottom: var(--space-4);
-    }
-
-    .progress span {
-      height: 3px;
-      border-radius: var(--radius-round);
-      background: var(--color-border-strong);
-    }
-
-    .progress span:first-child { background: var(--color-primary); }
 
     .topbar {
       display: flex;
@@ -187,11 +173,7 @@
     .control--primary:hover { color: var(--color-on-primary); background: var(--color-primary); border-color: var(--color-primary); }
 
     .hero {
-      display: grid;
-      grid-template-columns: minmax(0, 1.65fr) minmax(18rem, 0.75fr);
-      gap: var(--space-12);
-      align-items: end;
-      padding: clamp(3.5rem, 8vw, 8rem) 0 var(--space-12);
+      padding: var(--space-6) 0;
     }
 
     .hero__eyebrow, .section-label {
@@ -205,19 +187,18 @@
     }
 
     .hero h1 {
-      max-width: 13ch;
       margin: 0;
-      font-size: var(--text-4xl);
+      font-size: var(--text-3xl);
       font-weight: 640;
-      line-height: 0.94;
+      line-height: 1.1;
       letter-spacing: -0.055em;
       text-wrap: balance;
     }
 
     .hero__intro {
-      margin: 0 0 var(--space-6);
+      margin: var(--space-2) 0 0;
       color: var(--color-text-muted);
-      font-size: var(--text-lg);
+      font-size: var(--text-sm);
       line-height: 1.45;
       text-wrap: pretty;
     }
@@ -235,18 +216,15 @@
 
     .discovery {
       display: grid;
-      grid-template-columns: minmax(15rem, 0.7fr) minmax(0, 1.3fr);
-      gap: var(--space-6);
-      margin-bottom: var(--space-12);
-      padding: var(--space-6);
-      border: 1px solid var(--color-border);
-      border-radius: var(--radius-xl);
-      background: var(--color-surface-raised);
+      grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.8fr);
+      gap: var(--space-3) var(--space-4);
+      margin-bottom: var(--space-1);
     }
 
     .search {
       position: relative;
       align-self: start;
+      grid-column: 1 / -1;
     }
 
     .search label { display: block; margin-bottom: var(--space-2); }
@@ -256,32 +234,37 @@
       padding: 0 var(--space-4);
       border: 1px solid var(--color-border);
       border-radius: var(--radius-md);
-      background: var(--color-bg);
+      background: var(--color-surface-raised);
       color: var(--color-text);
       appearance: none;
     }
 
     .search input::placeholder { color: var(--color-text-faint); }
-    .filter-block + .filter-block { margin-top: var(--space-5); }
-    .filter-head { display: flex; align-items: baseline; justify-content: space-between; gap: var(--space-4); margin-bottom: var(--space-3); }
-    .filter-head h2 { margin: 0; font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.1em; text-transform: uppercase; color: var(--color-text-muted); }
-    .filter-summary { color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); }
-    .filter-row { display: flex; flex-wrap: wrap; gap: var(--space-2); }
+    .filter-summary { color: var(--color-text-muted); font-family: var(--font-mono); font-size: var(--text-xs); }
+    .type-filter { display: grid; grid-template-columns: auto minmax(0, 1.5fr) minmax(0, 1fr); gap: var(--space-1); }
 
     .filter-button {
-      min-height: 40px;
-      padding: 0 var(--space-4);
+      min-width: 0;
+      min-height: 48px;
+      padding: var(--space-2) var(--space-3);
       border: 1px solid var(--color-border);
-      border-radius: var(--radius-round);
+      border-radius: var(--radius-md);
       background: transparent;
       color: var(--color-text-muted);
-      font-family: var(--font-mono);
-      font-size: var(--text-xs);
+      font-size: var(--text-sm);
+      line-height: 1.2;
       cursor: pointer;
     }
+    .filter-button__count { margin-inline-start: var(--space-2); font-family: var(--font-mono); font-size: var(--text-xs); }
 
     .filter-button:hover { color: var(--color-text); border-color: var(--color-border-strong); background: var(--color-surface); }
     .filter-button[aria-pressed="true"] { color: var(--color-text); border-color: var(--color-text); background: var(--color-surface); font-weight: 650; }
+    .topic-control { min-width: 0; }
+    .topic-control select { width: 100%; min-height: 48px; padding: var(--space-2) var(--space-3); border: 1px solid var(--color-border); border-radius: var(--radius-md); background: var(--color-surface-raised); color: var(--color-text); font-size: var(--text-sm); cursor: pointer; }
+    .results-bar { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); min-height: 44px; margin-bottom: var(--space-2); border-bottom: 1px solid var(--color-border); }
+    .reset-button { min-height: 44px; padding: var(--space-2); border: 0; background: transparent; color: var(--color-text); font-size: var(--text-sm); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+    .reset-button:disabled { color: var(--color-text-faint); text-decoration: none; cursor: default; }
+    .discovery-notice { grid-column: 1 / -1; margin: 0; color: var(--color-text-muted); font-size: var(--text-sm); }
 
     .library-status {
       margin: 0;
@@ -376,13 +359,12 @@
     .cover strong { position: relative; z-index: 2; max-width: 12ch; font-size: clamp(2rem, 4vw, 4rem); font-weight: 640; line-height: 0.93; letter-spacing: -0.055em; overflow-wrap: anywhere; text-wrap: balance; }
     .cover--year strong { font-family: Georgia, "Times New Roman", serif; font-size: clamp(4.5rem, 8vw, 7.5rem); font-weight: 500; }
     .book__body { display: flex; flex-direction: column; min-height: 20rem; padding: var(--space-6); }
-    .book__meta { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-5); color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.04em; text-transform: uppercase; }
+    .book__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-5); color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.04em; text-transform: uppercase; }
     .book h3 { margin: 0 0 var(--space-3); font-size: var(--text-2xl); font-weight: 640; line-height: 1.05; letter-spacing: -0.035em; }
     .book__author { margin: 0 0 var(--space-5); color: var(--color-text-muted); font-size: var(--text-sm); }
     .book__description { margin: 0 0 var(--space-6); color: var(--color-text-muted); text-wrap: pretty; }
     .tags { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0 0 var(--space-6); padding: 0; list-style: none; }
     .tags li { color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); }
-    .tags li::before { content: "#"; }
     .book__footer { display: flex; align-items: end; justify-content: space-between; gap: var(--space-4); margin-top: auto; padding-top: var(--space-5); border-top: 1px solid var(--color-border); }
     .depths { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); }
     .open-label { flex: 0 0 auto; padding-bottom: 2px; border-bottom: 1px solid currentColor; font-size: var(--text-sm); font-weight: 650; }
@@ -416,7 +398,7 @@
     @media (max-width: 1060px) { .library { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
     @media (max-width: 780px) {
       .page { padding-left: max(var(--space-4), env(safe-area-inset-left, 0px)); padding-right: max(var(--space-4), env(safe-area-inset-right, 0px)); }
-      .hero { grid-template-columns: 1fr; gap: var(--space-6); padding: var(--space-16) 0 var(--space-10); }
+      .hero { padding: var(--space-3) 0; }
       .hero__intro { max-width: 38rem; }
       .discovery { grid-template-columns: 1fr; }
       .library { grid-template-columns: 1fr; }
@@ -426,10 +408,9 @@
     @media (max-width: 480px) {
       .brand { max-width: 8rem; }
       .control { padding-inline: var(--space-2); }
-      .hero { padding-top: var(--space-12); }
-      .hero h1 { font-size: clamp(2.65rem, 14vw, 4.25rem); }
-      .hero__intro { font-size: var(--text-base); }
-      .discovery { padding: var(--space-4); }
+      .hero h1 { font-size: var(--text-2xl); }
+      .filter-button { padding-inline: var(--space-2); font-size: var(--text-xs); }
+      .filter-button__count { display: block; margin: var(--space-1) 0 0; color: var(--color-text-muted); }
       .shelf__head { grid-template-columns: 1fr; gap: var(--space-2); }
       .cover { min-height: 12rem; }
       .book__body { padding: var(--space-5); }
@@ -448,60 +429,49 @@
 </head>
 <body>
   <main class="page">
-    <div class="progress" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
-
     <header class="topbar">
       <p class="brand" data-i18n="brand">Книги за вечер</p>
       <div class="topbar__spacer"></div>
       <button class="control control--primary install-control" id="installButton" type="button" hidden data-i18n="install">На экран</button>
       <button class="control" id="languageButton" type="button" aria-label="Переключить язык">EN</button>
-      <button class="control" id="themeButton" type="button" aria-label="Переключить тему" data-i18n="themeLight">Светлая</button>
+      <button class="control" id="themeButton" type="button" aria-label="Переключить тему">Светлая</button>
     </header>
 
     <section class="hero" aria-labelledby="pageTitle">
-      <div>
-        <p class="hero__eyebrow" data-i18n="eyebrow">Открытая библиотека</p>
-        <h1 id="pageTitle" data-i18n="title">Книги, после которых видишь систему.</h1>
-      </div>
-      <div>
-        <p class="hero__intro" data-i18n="intro">Плотные самостоятельные разборы: авторская логика, механизмы, примеры, возражения и ограничения.</p>
-        <ul class="stats" aria-label="Состав библиотеки">
-          <li id="bookStat">Загрузка</li>
-          <li id="screenStat">Загрузка</li>
-          <li id="sectionStat">Загрузка</li>
-          <li>RU / EN</li>
-        </ul>
-      </div>
+      <h1 id="pageTitle" data-i18n="title">Выберите книгу.</h1>
+      <p class="hero__intro" data-i18n="intro">Истории и идеи. На русском и английском.</p>
     </section>
 
-    <section class="discovery" aria-label="Поиск и фильтры">
+    <section class="discovery" aria-label="Поиск и фильтры" data-i18n-aria="discoveryLabel">
       <div class="search">
         <label class="section-label" for="searchInput" data-i18n="searchLabel">Поиск</label>
         <input id="searchInput" type="search" autocomplete="off" placeholder="Название, автор или тема" data-i18n-placeholder="searchPlaceholder">
       </div>
-      <div>
-        <div class="filter-block">
-          <div class="filter-head">
-            <h2 data-i18n="sections">Разделы</h2>
-            <span class="filter-summary" id="filterSummary" aria-live="polite"></span>
-          </div>
-          <div class="filter-row" id="sectionFilter" role="group" aria-label="Фильтр по разделам"></div>
-        </div>
-        <div class="filter-block">
-          <div class="filter-head">
-            <h2 data-i18n="collections">Подборки</h2>
-            <span class="filter-summary" id="collectionSummary" aria-live="polite"></span>
-          </div>
-          <div class="filter-row" id="collectionFilter" role="group" aria-label="Фильтр по подборкам"></div>
-        </div>
+      <div class="type-filter" id="typeFilter" role="group" aria-label="Тип книги" data-i18n-aria="typeLabel"></div>
+      <div class="topic-control">
+        <label class="sr-only" for="topicFilter" data-i18n="topicLabel">Жанр или тема</label>
+        <select id="topicFilter" aria-label="Жанр или тема" data-i18n-aria="topicLabel"><option value="all">Все жанры и темы</option></select>
       </div>
+      <p class="discovery-notice" id="discoveryNotice" role="status" hidden></p>
     </section>
 
+    <div class="results-bar">
+      <span class="filter-summary" id="filterSummary" role="status" aria-live="polite" aria-atomic="true"></span>
+      <button class="reset-button" id="resetFilters" type="button" data-i18n="reset" disabled>Сбросить всё</button>
+    </div>
     <p class="library-status" id="libraryStatus" role="status" data-i18n="loading">Загружаю каталог…</p>
-    <div id="shelves" aria-busy="true"></div>
+    <div class="library" id="books" aria-busy="true"></div>
 
     <footer class="footer">
-      <p data-i18n="footer">Каждая книга хранит тему, язык и прогресс прямо в браузере.</p>
+      <div>
+        <p data-i18n="footer">Каждая книга хранит тему, язык и прогресс прямо в браузере.</p>
+        <ul class="stats" aria-label="Состав библиотеки" data-i18n-aria="statsLabel">
+          <li id="bookStat">Загрузка</li>
+          <li id="screenStat">Загрузка</li>
+          <li id="topicStat">Загрузка</li>
+          <li>RU / EN</li>
+        </ul>
+      </div>
       <div class="footer__links">
         <a class="contribute-link" href="https://github.com/pavelnovikau/book-tiktok-library/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer" data-i18n="contribute">Добавить книгу</a>
         <p class="footer__format"><span data-i18n="palette">Палитра</span>: <a class="flexoki-credit" href="https://stephango.com/flexoki" target="_blank" rel="noreferrer">Flexoki · Steph Ango</a></p>
@@ -533,12 +503,15 @@
       var translations = {
         ru: {
           brand: 'Книги за вечер', themeLight: 'Светлая', themeDark: 'Тёмная', install: 'На экран',
-          eyebrow: 'Открытая библиотека', title: 'Книги, после которых видишь систему.',
-          intro: 'Плотные самостоятельные разборы: авторская логика, механизмы, примеры, возражения и ограничения.',
-          searchLabel: 'Поиск', searchPlaceholder: 'Название, автор или тема', sections: 'Разделы', collections: 'Подборки',
-          allSections: 'Все', allBooks: 'Все книги', unassigned: 'Без подборки', collectionSummary: '{assigned} из {total} в подборках · могут пересекаться', open: 'Открыть книгу', minute: 'мин',
+          title: 'Выберите книгу.', intro: 'Истории и идеи. На русском и английском.',
+          searchLabel: 'Поиск', searchPlaceholder: 'Название, автор или тема', all: 'Все',
+          discoveryLabel: 'Поиск и фильтры', typeLabel: 'Тип книги', topicLabel: 'Жанр или тема', statsLabel: 'Состав библиотеки',
+          allTopics: 'Все жанры и темы', genres: 'Жанры', subjects: 'Темы', reset: 'Сбросить всё',
+          legacyNotice: 'Прежняя ссылка открыта через новые фильтры. Их можно изменить или сбросить.',
+          invalidNotice: 'Неизвестный фильтр в ссылке сброшен. Текущие условия показаны в поиске и фильтрах.',
+          spoilers: 'Deep: есть развязка', open: 'Открыть книгу', minute: 'мин',
           loading: 'Загружаю каталог…', loadingShort: 'Загрузка', loadError: 'Каталог не загрузился. Обновите страницу.',
-          empty: 'По этим условиям книг пока нет.', contribute: 'Добавить книгу', palette: 'Палитра',
+          empty: 'Ничего не найдено. Измените запрос или сбросьте фильтры.', contribute: 'Добавить книгу', palette: 'Палитра',
           footer: 'Каждая книга хранит тему, язык и прогресс прямо в браузере.',
           installTitle: 'Читать без строки Safari',
           installIntro: 'Обычная вкладка Safari не может скрыть адресную строку. Добавьте библиотеку на экран «Домой»: она откроется как отдельное полноэкранное приложение.',
@@ -547,12 +520,15 @@
         },
         en: {
           brand: 'Books for one evening', themeLight: 'Light', themeDark: 'Dark', install: 'Install',
-          eyebrow: 'Open library', title: 'Books that let you see the system.',
-          intro: 'Dense independent briefs: the author’s logic, mechanisms, examples, objections and limits.',
-          searchLabel: 'Search', searchPlaceholder: 'Title, author or topic', sections: 'Sections', collections: 'Collections',
-          allSections: 'All', allBooks: 'All books', unassigned: 'No collection', collectionSummary: '{assigned} of {total} collected · may overlap', open: 'Open book', minute: 'min',
+          title: 'Find your next book.', intro: 'Stories and ideas. In Russian and English.',
+          searchLabel: 'Search', searchPlaceholder: 'Title, author or topic', all: 'All',
+          discoveryLabel: 'Search and filters', typeLabel: 'Book type', topicLabel: 'Genre or subject', statsLabel: 'Library contents',
+          allTopics: 'All genres and subjects', genres: 'Genres', subjects: 'Subjects', reset: 'Clear all',
+          legacyNotice: 'This older link now uses the new filters. You can change or clear them.',
+          invalidNotice: 'An unknown URL filter was cleared. The current search and filters show all active conditions.',
+          spoilers: 'Deep: ending revealed', open: 'Open book', minute: 'min',
           loading: 'Loading the catalogue…', loadingShort: 'Loading', loadError: 'The catalogue failed to load. Refresh the page.',
-          empty: 'No books match these filters yet.', contribute: 'Add a book', palette: 'Palette',
+          empty: 'No books found. Try another search or clear the filters.', contribute: 'Add a book', palette: 'Palette',
           footer: 'Each book keeps its theme, language and progress in the browser.',
           installTitle: 'Read without the Safari bar',
           installIntro: 'A normal Safari tab cannot hide its address bar. Add the library to your Home Screen and it will open as a standalone full-screen app.',
@@ -569,12 +545,16 @@
       var state = {
         language: saved.language === 'en' ? 'en' : 'ru',
         theme: saved.theme === 'light' ? 'light' : 'dark',
-        section: params.get('section') || 'all',
-        collection: params.get('collection') || 'all',
+        type: params.get('type') || 'all',
+        topic: params.get('topic') || 'all',
         query: params.get('q') || ''
       };
 
       var catalog = { sections: [], collections: [], books: [] };
+      var discovery = { types: [], genres: [], subjects: [], topics: [] };
+      var noticeKey = '';
+      var searchIndex = new Map();
+      var urlTimer;
       var catalogReady = false;
       var deferredInstallPrompt = null;
       var languageButton = document.getElementById('languageButton');
@@ -584,16 +564,18 @@
       var installConfirm = document.getElementById('installConfirm');
       var themeMeta = document.querySelector('meta[name="theme-color"]');
       var descriptionMeta = document.querySelector('meta[name="description"]');
-      var sectionFilter = document.getElementById('sectionFilter');
-      var collectionFilter = document.getElementById('collectionFilter');
-      var collectionSummary = document.getElementById('collectionSummary');
+      var typeFilter = document.getElementById('typeFilter');
+      var topicFilter = document.getElementById('topicFilter');
+      var renderedTopicOptions = '';
+      var resetFilters = document.getElementById('resetFilters');
+      var discoveryNotice = document.getElementById('discoveryNotice');
       var searchInput = document.getElementById('searchInput');
       var filterSummary = document.getElementById('filterSummary');
-      var shelves = document.getElementById('shelves');
+      var booksGrid = document.getElementById('books');
       var libraryStatus = document.getElementById('libraryStatus');
       var bookStat = document.getElementById('bookStat');
       var screenStat = document.getElementById('screenStat');
-      var sectionStat = document.getElementById('sectionStat');
+      var topicStat = document.getElementById('topicStat');
 
       function save() {
         try { localStorage.setItem(storageKey, JSON.stringify({ language: state.language, theme: state.theme })); } catch (_) {}
@@ -609,13 +591,71 @@
         return value[state.language] || value.ru || value.en || '';
       }
 
-      function sectionById(id) { return catalog.sections.find(function (item) { return item.id === id; }); }
-      function collectionById(id) { return catalog.collections.find(function (item) { return item.id === id; }); }
-      function belongsToCollection(book, id) {
-        var collections = book.collections || [];
-        if (id === 'all') return true;
-        if (id === 'unassigned') return collections.length === 0;
-        return collections.includes(id);
+      function facetById(id) {
+        return discovery.genres.concat(discovery.subjects).find(function (item) { return item.id === id; });
+      }
+
+      function hasType(book, id) { return id === 'all' || book.workTypes.includes(id); }
+      function hasTopic(book, id) { return id === 'all' || book.genres.includes(id) || book.subjects.includes(id); }
+
+      // Schema 2 remains readable without the additive discovery extension. Older tags are
+      // indexed as-is; the maintained catalogue supplies controlled bilingual names and aliases.
+      function prepareDiscovery() {
+        discovery = catalog.discovery || { version: 1,
+          types: [
+            { id: 'fiction', label: { ru: 'Художественное', en: 'Fiction' } },
+            { id: 'nonfiction', label: { ru: 'Нон-фикшн', en: 'Nonfiction' } }
+          ],
+          genres: [{ id: 'adventure', label: { ru: 'Приключения', en: 'Adventure' } }],
+          subjects: catalog.sections.filter(function (section) { return section.id !== 'fiction-adventure'; }),
+          topics: [], legacySections: {}, legacyCollections: {}
+        };
+        catalog.books = catalog.books.map(function (book) {
+          if (book.workTypes) return book;
+          var fiction = book.section === 'fiction-adventure';
+          return Object.assign({}, book, {
+            workTypes: [fiction ? 'fiction' : 'nonfiction'],
+            genres: fiction ? ['adventure'] : [], subjects: fiction ? [] : [book.section]
+          });
+        });
+        catalog.books.forEach(function (book) {
+          var terms = discovery.types.filter(function (item) { return book.workTypes.includes(item.id); })
+            .concat(discovery.genres.filter(function (item) { return book.genres.includes(item.id); }))
+            .concat(discovery.subjects.filter(function (item) { return book.subjects.includes(item.id); }))
+            .concat(discovery.topics.filter(function (item) { return (book.tags || []).includes(item.id); }));
+          var values = [book.title.ru, book.title.en, book.author.ru, book.author.en,
+            book.description.ru, book.description.en, (book.tags || []).join(' '),
+            book.workTypeLabel && book.workTypeLabel.ru, book.workTypeLabel && book.workTypeLabel.en];
+          terms.forEach(function (item) { values.push(item.label.ru, item.label.en, item.id, (item.aliases || []).join(' ')); });
+          searchIndex.set(book.slug, normalize(values.join(' ')));
+        });
+      }
+
+      function readUrl() {
+        params = new URLSearchParams(window.location.search);
+        state.type = params.get('type') || 'all';
+        state.topic = params.get('topic') || 'all';
+        state.query = params.get('q') || '';
+        noticeKey = '';
+        [['section', discovery.legacySections], ['collection', discovery.legacyCollections]].forEach(function (entry) {
+          var oldId = params.get(entry[0]);
+          if (!oldId || oldId === 'all') return;
+          var mapped = (entry[1] || {})[oldId];
+          if (!mapped && entry[0] === 'section' && facetById(oldId)) mapped = { topic: oldId };
+          noticeKey = mapped ? 'legacyNotice' : 'invalidNotice';
+          if (!mapped) return;
+          if (!params.has('type') && mapped.type) state.type = mapped.type;
+          if (!params.has('topic') && mapped.topic) state.topic = mapped.topic;
+          if (mapped.query) state.query = [state.query, mapped.query].filter(Boolean).join(' ');
+        });
+        if (state.type !== 'all' && !discovery.types.some(function (item) { return item.id === state.type; })) {
+          state.type = 'all'; noticeKey = 'invalidNotice';
+        }
+        if (state.topic !== 'all' && !facetById(state.topic)) {
+          state.topic = 'all'; noticeKey = 'invalidNotice';
+        }
+        searchInput.value = state.query;
+        updateUrl(true);
       }
 
       function pluralRu(number, one, few, many) {
@@ -634,25 +674,31 @@
       var countTypes = {
         books: { ruOne: 'книга', ruFew: 'книги', ruMany: 'книг', enOne: 'book', enMany: 'books' },
         screens: { ruOne: 'экран', ruFew: 'экрана', ruMany: 'экранов', enOne: 'screen', enMany: 'screens' },
-        sections: { ruOne: 'раздел', ruFew: 'раздела', ruMany: 'разделов', enOne: 'section', enMany: 'sections' }
+        topics: { ruOne: 'жанр и тема', ruFew: 'жанра и темы', ruMany: 'жанров и тем', enOne: 'genre / subject', enMany: 'genres / subjects' }
       };
 
-      function normalize(value) { return String(value || '').toLocaleLowerCase(state.language === 'ru' ? 'ru' : 'en').trim(); }
+      function normalize(value) {
+        return String(value || '').normalize('NFKC').toLowerCase().replace(/ё/g, 'е')
+          .replace(/[\p{P}\p{S}]+/gu, ' ').replace(/\s+/g, ' ').trim();
+      }
+
+      function matchesQuery(book) {
+        var terms = normalize(state.query).split(' ').filter(Boolean);
+        var words = (searchIndex.get(book.slug) || '').split(' ');
+        return terms.every(function (term) {
+          return words.some(function (word) { return term.length <= 2 ? word === term : word.indexOf(term) === 0; });
+        });
+      }
 
       function visibleBooks() {
-        var query = normalize(state.query);
         return catalog.books.filter(function (book) {
-          if (state.section !== 'all' && book.section !== state.section) return false;
-          if (!belongsToCollection(book, state.collection)) return false;
-          if (!query) return true;
-          var haystack = [localized(book.title), localized(book.author), localized(book.description), (book.tags || []).join(' ')].join(' ');
-          return normalize(haystack).includes(query);
+          return hasType(book, state.type) && hasTopic(book, state.topic) && matchesQuery(book);
         });
       }
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -668,7 +714,33 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'latitude-search') {
+        if (motif === 'conditioned-trust') {
+          // Repeated pressures bend a path; a different encounter leaves room to move.
+          content = '<path class="art-quiet" d="M133 38 V142 M166 38 V142 M199 38 V142 M232 38 V70 M232 112 V142 M265 38 V70 M265 112 V142"/>' +
+            '<path class="art-bold" d="M121 91 L145 111 L177 72 L209 91 H292"/>' +
+            '<path class="art-line" d="M281 81 L292 91 L281 101"/><circle class="art-fill" cx="209" cy="91" r="6"/>';
+        } else if (motif === 'rule-loop') {
+          // Three ordered rules constrain a feedback loop rather than resolving it.
+          content = '<path class="art-quiet" d="M128 49 H296 M128 91 H296 M128 133 H296"/>' +
+            '<path class="art-bold" d="M155 49 H247 V133 H180 V91 H247"/>' +
+            '<path class="art-line" d="M237 81 L247 91 L237 101"/><rect class="art-fill" x="150" y="44" width="10" height="10" rx="2"/>' +
+            '<circle class="art-fill" cx="180" cy="91" r="5"/><circle class="art-fill" cx="247" cy="133" r="5"/>';
+        } else if (motif === 'testimony-compass') {
+          // Fragmentary testimony aligns with a bearing; it is a search, not its answer.
+          content = '<path class="art-quiet" d="M128 46 H192 V75 H128 Z M137 53 H182 M137 64 H173 M139 105 H202 V136 H139 Z M148 114 H191 M148 125 H181"/>' +
+            '<path class="art-line" d="M192 61 L239 83 M202 121 L239 96 M255 31 V148 M217 91 H297"/>' +
+            '<path class="art-bold" d="M255 42 L243 91 L255 81 L267 91 Z"/><path class="art-quiet" d="M255 140 L243 91 M255 140 L267 91"/>';
+        } else if (motif === 'chalk-boundary') {
+          // Layers of chalk ground a threshold in ordinary, closely observed land.
+          content = '<path class="art-quiet" d="M124 111 C171 90 201 116 237 101 C265 90 282 91 301 97 M124 129 C171 108 201 134 237 119 C265 108 282 109 301 115 M124 147 C171 126 201 152 237 137 C265 126 282 127 301 133"/>' +
+            '<path class="art-bold" d="M185 105 V41 H251 V101"/><path class="art-line" d="M173 105 H197 M239 101 H263 M199 56 H237"/>' +
+            '<rect class="art-fill" x="212" y="76" width="11" height="11" rx="2"/>';
+        } else if (motif === 'scale-question') {
+          // A pocket guide meets an unexplained leap in scale, with no numerical answer.
+          content = '<rect class="art-line" x="126" y="63" width="49" height="72" rx="5"/><path class="art-quiet" d="M137 78 H164 M137 90 H159 M137 102 H164 M137 114 H153 M221 39 V145 M213 47 H229 M213 91 H229 M213 137 H229"/>' +
+            '<path class="art-bold" d="M175 99 H197 M244 99 H264 C289 99 298 77 281 62 C271 53 255 58 252 68"/>' +
+            '<circle class="art-fill" cx="264" cy="126" r="5"/>';
+        } else if (motif === 'latitude-search') {
           content = '<ellipse class="art-quiet" cx="220" cy="90" rx="82" ry="61"/><ellipse class="art-quiet" cx="220" cy="90" rx="34" ry="61"/>' +
             '<path class="art-quiet" d="M149 60 H291 M138 90 H302 M155 127 H285 M220 29 V151"/>' +
             '<path class="art-bold" d="M143 112 H297"/><path class="art-line" d="M166 105 V119 M220 105 V119 M274 105 V119"/>' +
@@ -795,92 +867,107 @@
       }
 
       function bookMarkup(book) {
-        var section = sectionById(book.section);
+        var category = facetById(book.genres[0] || book.subjects[0]);
+        var typeLabel = book.workTypeLabel || discovery.types.find(function (item) { return item.id === book.workTypes[0]; }).label;
         var title = localized(book.title);
         var mark = book.cover && (book.cover.mark || book.cover.left) ? (book.cover.mark || book.cover.left) : title;
         var modes = [book.readingMinutes.essential, book.readingMinutes.core, book.readingMinutes.deep]
           .map(function (value, index) { return '<span>' + value + (index === 2 ? ' ' + translations[state.language].minute : '') + '</span>'; }).join('');
-        var tags = (book.tags || []).slice(0, 4).map(function (tag) { return '<li>' + escapeHTML(tag) + '</li>'; }).join('');
+        var tags = (book.tags || []).slice(0, 4).map(function (tag) {
+          var topic = discovery.topics.find(function (item) { return item.id === tag; });
+          return '<li>' + escapeHTML(topic ? localized(topic.label) : tag) + '</li>';
+        }).join('');
         return '<a class="book" href="./' + escapeHTML(book.file) + '" data-book="' + escapeHTML(book.slug) + '" aria-label="' +
           escapeHTML(translations[state.language].open + ': ' + title) + '">' +
           '<div class="cover ' + coverClass(book) + '" data-cover-motif="' + coverMotif(book) + '" aria-hidden="true">' + coverArtwork(book) + '<div class="cover__meta"><span>' +
-          escapeHTML(section ? localized(section.label) : book.section) + '</span><span>' + book.screenCount + '</span></div><strong>' + escapeHTML(mark) + '</strong></div>' +
-          '<div class="book__body"><div class="book__meta"><span>' + escapeHTML(book.audience === 'teen-14-plus' ? '14+' : 'RU / EN') +
-          '</span><span>' + escapeHTML(book.spoilerPolicy === 'full-plot-in-deep' ? 'Deep: spoilers' : '') + '</span></div>' +
+          escapeHTML(category ? localized(category.label) : localized(typeLabel)) + '</span><span>' + book.screenCount + '</span></div><strong>' + escapeHTML(mark) + '</strong></div>' +
+          '<div class="book__body"><div class="book__meta"><span>' + escapeHTML(localized(typeLabel)) +
+          '</span><span>' + escapeHTML(book.spoilerPolicy === 'full-plot-in-deep' ? translations[state.language].spoilers : '') + '</span></div>' +
           '<h3>' + escapeHTML(title) + '</h3><p class="book__author">' + escapeHTML(localized(book.author)) + '</p>' +
           '<p class="book__description">' + escapeHTML(localized(book.description)) + '</p><ul class="tags">' + tags + '</ul>' +
           '<div class="book__footer"><div class="depths">' + modes + '</div><span class="open-label">' +
           escapeHTML(translations[state.language].open) + '</span></div></div></a>';
       }
 
-      function updateUrl() {
-        try {
-          var url = new URL(window.location.href);
-          [['section', state.section], ['collection', state.collection], ['q', state.query]].forEach(function (entry) {
-            if (!entry[1] || entry[1] === 'all') url.searchParams.delete(entry[0]);
-            else url.searchParams.set(entry[0], entry[1]);
-          });
-          history.replaceState(null, '', url.pathname + url.search + url.hash);
-        } catch (_) {}
-      }
-
-      function filterButton(item, kind, active) {
-        return '<button class="filter-button" type="button" data-' + kind + '="' + escapeHTML(item.id) + '" aria-pressed="' +
-          (active === item.id ? 'true' : 'false') + '">' + escapeHTML(item.label) + ' · ' + item.count + '</button>';
+      function updateUrl(immediate) {
+        clearTimeout(urlTimer);
+        function writeUrl() {
+          try {
+            var url = new URL(window.location.href);
+            url.searchParams.delete('section');
+            url.searchParams.delete('collection');
+            [['type', state.type], ['topic', state.topic], ['q', state.query]].forEach(function (entry) {
+              if (!entry[1] || (entry[0] !== 'q' && entry[1] === 'all')) url.searchParams.delete(entry[0]);
+              else url.searchParams.set(entry[0], entry[1]);
+            });
+            history.replaceState(null, '', url.pathname + url.search + url.hash);
+          } catch (_) {}
+        }
+        // Results update immediately. Batch URL writes while typing or rapidly
+        // changing filters so browser History rate limits cannot lose the query.
+        if (immediate) writeUrl();
+        else urlTimer = setTimeout(writeUrl, 150);
       }
 
       function renderFilters() {
         var copy = translations[state.language];
-        var sectionButtons = [{ id: 'all', label: copy.allSections, count: catalog.books.length }];
-        catalog.sections.forEach(function (section) {
-          var count = catalog.books.filter(function (book) { return book.section === section.id; }).length;
-          if (count) sectionButtons.push({ id: section.id, label: localized(section.label), count: count });
+        var queryBooks = catalog.books.filter(matchesQuery);
+        var typeItems = [{ id: 'all', label: { ru: 'Все', en: 'All' } }].concat(discovery.types);
+        // Keep button nodes stable: keyboard focus survives a result/count update.
+        typeItems.forEach(function (item) {
+          var button = typeFilter.querySelector('[data-type="' + item.id + '"]');
+          if (!button) {
+            button = document.createElement('button');
+            button.type = 'button'; button.className = 'filter-button'; button.dataset.type = item.id;
+            button.innerHTML = '<span class="filter-button__label"></span><span class="filter-button__count"></span>';
+            typeFilter.appendChild(button);
+          }
+          var count = queryBooks.filter(function (book) { return hasType(book, item.id) && hasTopic(book, state.topic); }).length;
+          button.setAttribute('aria-pressed', String(state.type === item.id));
+          button.setAttribute('aria-label', localized(item.label) + ': ' + countLabel(count, countTypes.books));
+          button.querySelector('.filter-button__label').textContent = localized(item.label);
+          button.querySelector('.filter-button__count').textContent = count;
         });
-        sectionFilter.innerHTML = sectionButtons.map(function (item) { return filterButton(item, 'section', state.section); }).join('');
-
-        var assignedCount = catalog.books.filter(function (book) { return (book.collections || []).length > 0; }).length;
-        var unassignedCount = catalog.books.length - assignedCount;
-        var collectionButtons = [{ id: 'all', label: copy.allBooks, count: catalog.books.length }];
-        catalog.collections.forEach(function (collection) {
-          var count = catalog.books.filter(function (book) { return (book.collections || []).includes(collection.id); }).length;
-          if (count) collectionButtons.push({ id: collection.id, label: localized(collection.label), count: count });
+        var typeBooks = catalog.books.filter(function (book) { return hasType(book, state.type); });
+        var options = '<option value="all">' + escapeHTML(copy.allTopics) + ' · ' +
+          queryBooks.filter(function (book) { return hasType(book, state.type); }).length + '</option>';
+        [['genres', copy.genres], ['subjects', copy.subjects]].forEach(function (group) {
+          var items = discovery[group[0]].filter(function (item) {
+            // Globally unused options stay hidden; an active zero-count selection stays
+            // visible so changing the type never leaves a hidden restriction behind.
+            return item.id === state.topic || typeBooks.some(function (book) { return hasTopic(book, item.id); });
+          });
+          if (!items.length) return;
+          options += '<optgroup label="' + escapeHTML(group[1]) + '">' + items.map(function (item) {
+            var count = queryBooks.filter(function (book) { return hasType(book, state.type) && hasTopic(book, item.id); }).length;
+            return '<option value="' + escapeHTML(item.id) + '">' + escapeHTML(localized(item.label)) + ' · ' + count + '</option>';
+          }).join('') + '</optgroup>';
         });
-        if (unassignedCount) collectionButtons.push({ id: 'unassigned', label: copy.unassigned, count: unassignedCount });
-        collectionFilter.innerHTML = collectionButtons.map(function (item) { return filterButton(item, 'collection', state.collection); }).join('');
-        collectionSummary.textContent = copy.collectionSummary
-          .replace('{assigned}', assignedCount)
-          .replace('{total}', catalog.books.length);
-      }
-
-      function renderShelves() {
-        var visible = visibleBooks();
-        var groups = catalog.sections.map(function (section) {
-          return { section: section, books: visible.filter(function (book) { return book.section === section.id; }) };
-        }).filter(function (group) { return group.books.length; });
-
-        shelves.innerHTML = groups.map(function (group) {
-          return '<section class="shelf" aria-labelledby="shelf-' + escapeHTML(group.section.id) + '"><div class="shelf__head"><div><h2 id="shelf-' +
-            escapeHTML(group.section.id) + '">' + escapeHTML(localized(group.section.label)) + '</h2><p>' + escapeHTML(localized(group.section.description)) +
-            '</p></div><span class="shelf__count">' + escapeHTML(countLabel(group.books.length, countTypes.books)) + '</span></div><div class="library">' +
-            group.books.map(bookMarkup).join('') + '</div></section>';
-        }).join('');
-
-        shelves.setAttribute('aria-busy', 'false');
-        libraryStatus.hidden = visible.length > 0;
-        libraryStatus.textContent = translations[state.language].empty;
-        filterSummary.textContent = countLabel(visible.length, countTypes.books);
+        if (renderedTopicOptions !== options) {
+          topicFilter.innerHTML = options;
+          renderedTopicOptions = options;
+        }
+        topicFilter.value = state.topic;
+        resetFilters.disabled = state.type === 'all' && state.topic === 'all' && !state.query && !noticeKey;
+        discoveryNotice.hidden = !noticeKey;
+        discoveryNotice.textContent = noticeKey ? copy[noticeKey] : '';
       }
 
       function renderCatalog() {
-        var activeSections = catalog.sections.filter(function (section) {
-          return catalog.books.some(function (book) { return book.section === section.id; });
-        }).length;
         var screens = catalog.books.reduce(function (sum, book) { return sum + book.screenCount; }, 0);
+        var activeTopics = discovery.genres.concat(discovery.subjects).filter(function (item) {
+          return catalog.books.some(function (book) { return hasTopic(book, item.id); });
+        }).length;
         bookStat.textContent = countLabel(catalog.books.length, countTypes.books);
         screenStat.textContent = countLabel(screens, countTypes.screens);
-        sectionStat.textContent = countLabel(activeSections, countTypes.sections);
+        topicStat.textContent = countLabel(activeTopics, countTypes.topics);
         renderFilters();
-        renderShelves();
+        var visible = visibleBooks();
+        booksGrid.innerHTML = visible.map(bookMarkup).join('');
+        booksGrid.setAttribute('aria-busy', 'false');
+        libraryStatus.hidden = visible.length > 0;
+        libraryStatus.textContent = translations[state.language].empty;
+        filterSummary.textContent = countLabel(visible.length, countTypes.books);
       }
 
       function render() {
@@ -904,11 +991,14 @@
           var key = node.getAttribute('data-i18n-placeholder');
           if (copy[key] != null) node.setAttribute('placeholder', copy[key]);
         });
+        document.querySelectorAll('[data-i18n-aria]').forEach(function (node) {
+          node.setAttribute('aria-label', copy[node.getAttribute('data-i18n-aria')]);
+        });
         if (catalogReady) renderCatalog();
         else {
           bookStat.textContent = copy.loadingShort;
           screenStat.textContent = copy.loadingShort;
-          sectionStat.textContent = copy.loadingShort;
+          topicStat.textContent = copy.loadingShort;
         }
       }
 
@@ -923,20 +1013,28 @@
 
       languageButton.addEventListener('click', function () { state.language = state.language === 'ru' ? 'en' : 'ru'; save(); render(); });
       themeButton.addEventListener('click', function () { state.theme = state.theme === 'dark' ? 'light' : 'dark'; save(); render(); });
-      sectionFilter.addEventListener('click', function (event) {
-        var button = event.target.closest('[data-section]');
+      typeFilter.addEventListener('click', function (event) {
+        var button = event.target.closest('[data-type]');
         if (!button) return;
-        state.section = button.getAttribute('data-section');
+        state.type = button.dataset.type;
+        noticeKey = '';
         updateUrl(); renderCatalog();
       });
-      collectionFilter.addEventListener('click', function (event) {
-        var button = event.target.closest('[data-collection]');
-        if (!button) return;
-        state.collection = button.getAttribute('data-collection');
+      topicFilter.addEventListener('change', function () {
+        state.topic = topicFilter.value;
+        noticeKey = '';
         updateUrl(); renderCatalog();
+      });
+      resetFilters.addEventListener('click', function () {
+        state.type = 'all'; state.topic = 'all'; state.query = ''; noticeKey = '';
+        searchInput.value = '';
+        updateUrl(); renderCatalog(); searchInput.focus();
       });
       searchInput.value = state.query;
-      searchInput.addEventListener('input', function () { state.query = searchInput.value; updateUrl(); if (catalogReady) renderShelves(); });
+      searchInput.addEventListener('input', function () {
+        state.query = searchInput.value; noticeKey = ''; updateUrl(); if (catalogReady) renderCatalog();
+      });
+      window.addEventListener('popstate', function () { if (catalogReady) { readUrl(); renderCatalog(); } });
 
       installButton.addEventListener('click', function () {
         if (deferredInstallPrompt) {
@@ -970,16 +1068,16 @@
         .then(function (data) {
           if (!data || data.schema !== 2 || !Array.isArray(data.books) || !Array.isArray(data.sections) || !Array.isArray(data.collections)) throw new Error('Invalid catalogue');
           catalog = data;
-          if (state.section !== 'all' && !sectionById(state.section)) state.section = 'all';
-          if (state.collection !== 'all' && state.collection !== 'unassigned' && !collectionById(state.collection)) state.collection = 'all';
+          prepareDiscovery();
+          readUrl();
           catalogReady = true;
           render();
         })
         .catch(function () {
-          shelves.setAttribute('aria-busy', 'false');
+          booksGrid.setAttribute('aria-busy', 'false');
           libraryStatus.hidden = false;
           libraryStatus.textContent = translations[state.language].loadError;
-          bookStat.textContent = '—'; screenStat.textContent = '—'; sectionStat.textContent = '—';
+          bookStat.textContent = '—'; screenStat.textContent = '—'; topicStat.textContent = '—';
         });
 
       if ('serviceWorker' in navigator && location.protocol !== 'file:') {

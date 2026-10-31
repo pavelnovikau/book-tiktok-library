@@ -1,5 +1,111 @@
 {
   "schema": 2,
+  "discovery": {
+    "version": 1,
+    "types": [
+      {"id": "fiction", "label": {"ru": "Художественное", "en": "Fiction"}},
+      {"id": "nonfiction", "label": {"ru": "Нон-фикшн", "en": "Nonfiction"}, "aliases": ["non-fiction", "non fiction", "нонфикшн", "документальная проза"]}
+    ],
+    "genres": [
+      {"id": "science-fiction", "label": {"ru": "Фантастика", "en": "Science fiction"}, "aliases": ["sci-fi", "scifi", "научная фантастика"]},
+      {"id": "fantasy", "label": {"ru": "Фэнтези", "en": "Fantasy"}, "aliases": ["фентези"]},
+      {"id": "adventure", "label": {"ru": "Приключения", "en": "Adventure"}},
+      {"id": "life-people", "label": {"ru": "О жизни и людях", "en": "Life and people"}, "aliases": ["литературная проза", "literary fiction"]}
+    ],
+    "subjects": [
+      {"id": "thinking-decisions", "label": {"ru": "Мышление и решения", "en": "Thinking and decisions"}},
+      {"id": "psychology-relationships", "label": {"ru": "Психология и отношения", "en": "Psychology and relationships"}},
+      {"id": "philosophy-meaning", "label": {"ru": "Философия и смысл", "en": "Philosophy and meaning"}},
+      {"id": "time-habits", "label": {"ru": "Время и привычки", "en": "Time and habits"}},
+      {"id": "health-body", "label": {"ru": "Здоровье и тело", "en": "Health and body"}},
+      {"id": "systems-society", "label": {"ru": "Системы и общество", "en": "Systems and society"}},
+      {"id": "history-power", "label": {"ru": "История и власть", "en": "History and power"}},
+      {"id": "technology-future", "label": {"ru": "Технологии и будущее", "en": "Technology and future"}}
+    ],
+    "topics": [
+      {"id": "acceptance", "label": {"ru": "Принятие", "en": "Acceptance"}},
+      {"id": "adventure", "label": {"ru": "Приключения", "en": "Adventure"}},
+      {"id": "agents", "label": {"ru": "Агенты", "en": "Agents"}},
+      {"id": "ai", "label": {"ru": "Искусственный интеллект", "en": "Artificial intelligence"}, "aliases": ["ИИ"]},
+      {"id": "asymmetry", "label": {"ru": "Асимметрия", "en": "Asymmetry"}},
+      {"id": "attention", "label": {"ru": "Внимание", "en": "Attention"}},
+      {"id": "behavior", "label": {"ru": "Поведение", "en": "Behavior"}, "aliases": ["behaviour"]},
+      {"id": "biology", "label": {"ru": "Биология", "en": "Biology"}},
+      {"id": "body-awareness", "label": {"ru": "Чувство тела", "en": "Body awareness"}},
+      {"id": "care", "label": {"ru": "Забота", "en": "Care"}},
+      {"id": "causality", "label": {"ru": "Причинность", "en": "Causality"}},
+      {"id": "coming-of-age", "label": {"ru": "Взросление", "en": "Coming of age"}},
+      {"id": "conflict", "label": {"ru": "Конфликт", "en": "Conflict"}},
+      {"id": "control", "label": {"ru": "Контроль", "en": "Control"}},
+      {"id": "coping", "label": {"ru": "Преодоление стресса", "en": "Coping"}},
+      {"id": "courage", "label": {"ru": "Смелость", "en": "Courage"}},
+      {"id": "crisis", "label": {"ru": "Кризис", "en": "Crisis"}},
+      {"id": "decision-making", "label": {"ru": "Принятие решений", "en": "Decision making"}},
+      {"id": "economics", "label": {"ru": "Экономика", "en": "Economics"}},
+      {"id": "ego", "label": {"ru": "Эго", "en": "Ego"}},
+      {"id": "emotions", "label": {"ru": "Эмоции", "en": "Emotions"}},
+      {"id": "essentialism", "label": {"ru": "Эссенциализм", "en": "Essentialism"}},
+      {"id": "ethics", "label": {"ru": "Этика", "en": "Ethics"}},
+      {"id": "evidence", "label": {"ru": "Доказательства", "en": "Evidence"}},
+      {"id": "exercise", "label": {"ru": "Физическая активность", "en": "Exercise"}, "aliases": ["тренировки"]},
+      {"id": "exploration", "label": {"ru": "Исследования и открытия", "en": "Exploration"}},
+      {"id": "fantasy", "label": {"ru": "Фэнтези", "en": "Fantasy"}, "aliases": ["фентези"]},
+      {"id": "finance", "label": {"ru": "Финансы", "en": "Finance"}},
+      {"id": "finitude", "label": {"ru": "Конечность жизни", "en": "Finitude"}},
+      {"id": "flow", "label": {"ru": "Поток", "en": "Flow"}},
+      {"id": "focus", "label": {"ru": "Сосредоточенность", "en": "Focus"}},
+      {"id": "free-will", "label": {"ru": "Свобода воли", "en": "Free will"}},
+      {"id": "future", "label": {"ru": "Будущее", "en": "Future"}},
+      {"id": "habits", "label": {"ru": "Привычки", "en": "Habits"}},
+      {"id": "health", "label": {"ru": "Здоровье", "en": "Health"}},
+      {"id": "history", "label": {"ru": "История", "en": "History"}},
+      {"id": "home", "label": {"ru": "Дом", "en": "Home"}},
+      {"id": "leadership", "label": {"ru": "Лидерство", "en": "Leadership"}},
+      {"id": "learning", "label": {"ru": "Обучение", "en": "Learning"}},
+      {"id": "management", "label": {"ru": "Управление", "en": "Management"}, "aliases": ["менеджмент"]},
+      {"id": "meaning", "label": {"ru": "Смысл", "en": "Meaning"}},
+      {"id": "meditation", "label": {"ru": "Медитация", "en": "Meditation"}},
+      {"id": "memory", "label": {"ru": "Память", "en": "Memory"}},
+      {"id": "mindfulness", "label": {"ru": "Осознанность", "en": "Mindfulness"}},
+      {"id": "movement", "label": {"ru": "Движение", "en": "Movement"}},
+      {"id": "neuroscience", "label": {"ru": "Нейронаука", "en": "Neuroscience"}, "aliases": ["нейробиология"]},
+      {"id": "nutrition", "label": {"ru": "Питание", "en": "Nutrition"}},
+      {"id": "open-models", "label": {"ru": "Открытые модели", "en": "Open models"}},
+      {"id": "operations", "label": {"ru": "Организация работы", "en": "Operations"}},
+      {"id": "optionality", "label": {"ru": "Возможность выбора", "en": "Optionality"}},
+      {"id": "perfectionism", "label": {"ru": "Перфекционизм", "en": "Perfectionism"}},
+      {"id": "philosophy", "label": {"ru": "Философия", "en": "Philosophy"}},
+      {"id": "physiology", "label": {"ru": "Физиология", "en": "Physiology"}},
+      {"id": "pirates", "label": {"ru": "Пираты", "en": "Pirates"}},
+      {"id": "power", "label": {"ru": "Власть", "en": "Power"}},
+      {"id": "practice", "label": {"ru": "Практика", "en": "Practice"}},
+      {"id": "priorities", "label": {"ru": "Приоритеты", "en": "Priorities"}},
+      {"id": "psychology", "label": {"ru": "Психология", "en": "Psychology"}},
+      {"id": "ptsd", "label": {"ru": "Посттравматическое расстройство", "en": "Post-traumatic stress disorder"}, "aliases": ["ПТСР"]},
+      {"id": "quality", "label": {"ru": "Качество", "en": "Quality"}},
+      {"id": "responsibility", "label": {"ru": "Ответственность", "en": "Responsibility"}},
+      {"id": "risk", "label": {"ru": "Риск", "en": "Risk"}},
+      {"id": "road-journey", "label": {"ru": "Путешествие", "en": "Road journey"}},
+      {"id": "science-fiction", "label": {"ru": "Фантастика", "en": "Science fiction"}, "aliases": ["sci-fi", "научная фантастика"]},
+      {"id": "selfhood", "label": {"ru": "Личность", "en": "Selfhood"}},
+      {"id": "singularity", "label": {"ru": "Сингулярность", "en": "Singularity"}},
+      {"id": "sleep", "label": {"ru": "Сон", "en": "Sleep"}},
+      {"id": "social-media", "label": {"ru": "Социальные сети", "en": "Social media"}, "aliases": ["соцсети"]},
+      {"id": "somatics", "label": {"ru": "Соматика", "en": "Somatics"}},
+      {"id": "stoicism", "label": {"ru": "Стоицизм", "en": "Stoicism"}, "aliases": ["стоики", "stoic"]},
+      {"id": "strategy", "label": {"ru": "Стратегия", "en": "Strategy"}},
+      {"id": "stress", "label": {"ru": "Стресс", "en": "Stress"}},
+      {"id": "systems", "label": {"ru": "Системы", "en": "Systems"}},
+      {"id": "time-management", "label": {"ru": "Управление временем", "en": "Time management"}, "aliases": ["тайм-менеджмент"]},
+      {"id": "tranquility", "label": {"ru": "Спокойствие", "en": "Tranquility"}},
+      {"id": "trauma", "label": {"ru": "Психологическая травма", "en": "Trauma"}},
+      {"id": "treatment-evidence", "label": {"ru": "Доказательность лечения", "en": "Treatment evidence"}},
+      {"id": "trust", "label": {"ru": "Доверие", "en": "Trust"}},
+      {"id": "uncertainty", "label": {"ru": "Неопределённость", "en": "Uncertainty"}}
+    ],
+    "legacySections": {"risk-decisions": {"type": "nonfiction", "topic": "thinking-decisions"}, "systems-work": {"type": "nonfiction", "topic": "systems-society"}, "human-behavior": {"type": "nonfiction", "topic": "psychology-relationships"}, "consciousness-calm": {"type": "nonfiction", "topic": "philosophy-meaning"}, "health-protocols": {"type": "nonfiction", "topic": "health-body"}, "history-power-strategy": {"type": "nonfiction", "topic": "history-power"}, "technology-future": {"type": "nonfiction", "topic": "technology-future"}, "fiction-adventure": {"type": "fiction"}},
+    "legacyCollections": {"for-son": {"type": "fiction"}, "taleb": {"query": "Taleb"}, "sapolsky": {"query": "Sapolsky"}, "practices": {"type": "nonfiction"}, "unassigned": {}}
+  },
   "sections": [
     {
       "id": "risk-decisions",
@@ -51,6 +157,9 @@
   "books": [
     {
       "slug": "skin-in-the-game",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["thinking-decisions", "systems-society", "philosophy-meaning"],
       "file": "skin-in-the-game.html",
       "section": "risk-decisions",
       "tags": ["risk", "asymmetry", "ethics", "decision-making"],
@@ -69,6 +178,9 @@
     },
     {
       "slug": "1873",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["history-power", "systems-society"],
       "file": "1873.html",
       "section": "history-power-strategy",
       "tags": ["history", "economics", "finance", "crisis"],
@@ -93,6 +205,9 @@
     },
     {
       "slug": "theory-of-constraints",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["systems-society", "thinking-decisions"],
       "file": "theory-of-constraints.html",
       "section": "systems-work",
       "tags": ["management", "operations", "systems", "flow"],
@@ -116,6 +231,9 @@
     },
     {
       "slug": "hermes-nous",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["technology-future", "systems-society"],
       "file": "hermes-nous.html",
       "section": "technology-future",
       "tags": ["ai", "agents", "strategy", "open-models"],
@@ -142,6 +260,9 @@
     },
     {
       "slug": "essentialism",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["time-habits", "thinking-decisions"],
       "file": "essentialism.html",
       "section": "systems-work",
       "tags": ["essentialism", "priorities", "attention", "management"],
@@ -160,6 +281,9 @@
     },
     {
       "slug": "make-time",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["time-habits"],
       "file": "make-time.html",
       "section": "systems-work",
       "tags": ["time-management", "attention", "focus", "habits"],
@@ -178,6 +302,9 @@
     },
     {
       "slug": "four-thousand-weeks",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["time-habits", "philosophy-meaning"],
       "file": "four-thousand-weeks.html",
       "section": "systems-work",
       "tags": ["finitude", "time-management", "attention", "meaning"],
@@ -196,6 +323,9 @@
     },
     {
       "slug": "selfie",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["psychology-relationships", "systems-society"],
       "file": "selfie.html",
       "section": "human-behavior",
       "tags": ["selfhood", "perfectionism", "psychology", "social-media"],
@@ -214,6 +344,9 @@
     },
     {
       "slug": "why-zebras-dont-get-ulcers",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["health-body", "psychology-relationships"],
       "file": "why-zebras-dont-get-ulcers.html",
       "section": "health-protocols",
       "tags": ["stress", "physiology", "health", "coping"],
@@ -232,6 +365,9 @@
     },
     {
       "slug": "huberman-protocols",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["health-body", "time-habits"],
       "file": "huberman-protocols.html",
       "section": "health-protocols",
       "tags": ["sleep", "exercise", "nutrition", "evidence"],
@@ -250,6 +386,9 @@
     },
     {
       "slug": "awareness-through-movement",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["health-body"],
       "file": "awareness-through-movement.html",
       "section": "health-protocols",
       "tags": ["movement", "body-awareness", "learning", "somatics"],
@@ -268,6 +407,9 @@
     },
     {
       "slug": "the-body-keeps-the-score",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["health-body", "psychology-relationships"],
       "file": "the-body-keeps-the-score.html",
       "section": "health-protocols",
       "tags": ["trauma", "ptsd", "memory", "treatment-evidence"],
@@ -286,6 +428,9 @@
     },
     {
       "slug": "a-guide-to-the-good-life",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["philosophy-meaning", "psychology-relationships"],
       "file": "a-guide-to-the-good-life.html",
       "section": "consciousness-calm",
       "tags": ["stoicism", "tranquility", "control", "practice"],
@@ -304,6 +449,9 @@
     },
     {
       "slug": "letting-go",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["psychology-relationships", "philosophy-meaning"],
       "file": "letting-go.html",
       "section": "consciousness-calm",
       "tags": ["emotions", "acceptance", "ego", "evidence"],
@@ -322,6 +470,9 @@
     },
     {
       "slug": "the-art-of-war",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["history-power", "thinking-decisions"],
       "file": "the-art-of-war.html",
       "section": "history-power-strategy",
       "tags": ["strategy", "conflict", "leadership", "evidence"],
@@ -340,6 +491,9 @@
     },
     {
       "slug": "the-hobbit",
+      "workTypes": ["fiction"],
+      "genres": ["fantasy", "adventure"],
+      "subjects": [],
       "file": "the-hobbit.html",
       "section": "fiction-adventure",
       "tags": ["fantasy", "adventure", "courage", "home"],
@@ -358,6 +512,9 @@
     },
     {
       "slug": "a-wizard-of-earthsea",
+      "workTypes": ["fiction"],
+      "genres": ["fantasy", "adventure"],
+      "subjects": [],
       "file": "a-wizard-of-earthsea.html",
       "section": "fiction-adventure",
       "tags": ["fantasy", "coming-of-age", "power", "responsibility"],
@@ -376,6 +533,9 @@
     },
     {
       "slug": "treasure-island",
+      "workTypes": ["fiction"],
+      "genres": ["adventure"],
+      "subjects": [],
       "file": "treasure-island.html",
       "section": "fiction-adventure",
       "tags": ["adventure", "pirates", "trust", "coming-of-age"],
@@ -394,6 +554,9 @@
     },
     {
       "slug": "the-lost-world",
+      "workTypes": ["fiction"],
+      "genres": ["science-fiction", "adventure"],
+      "subjects": [],
       "file": "the-lost-world.html",
       "section": "fiction-adventure",
       "tags": ["science-fiction", "adventure", "evidence", "exploration"],
@@ -412,6 +575,9 @@
     },
     {
       "slug": "akselerando",
+      "workTypes": ["fiction"],
+      "genres": ["science-fiction"],
+      "subjects": [],
       "file": "akselerando.html",
       "section": "fiction-adventure",
       "tags": ["science-fiction", "singularity", "ai", "future"],
@@ -430,6 +596,9 @@
     },
     {
       "slug": "mindfulness",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["psychology-relationships", "time-habits", "philosophy-meaning"],
       "file": "mindfulness.html",
       "section": "consciousness-calm",
       "tags": ["mindfulness", "attention", "meditation", "practice"],
@@ -448,6 +617,9 @@
     },
     {
       "slug": "behave",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["psychology-relationships", "health-body", "systems-society"],
       "file": "behave.html",
       "section": "human-behavior",
       "tags": [
@@ -488,6 +660,9 @@
     },
     {
       "slug": "determined",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["thinking-decisions", "philosophy-meaning", "psychology-relationships"],
       "section": "human-behavior",
       "tags": [
         "free-will",
@@ -528,6 +703,10 @@
     },
     {
       "slug": "zen-and-the-art-of-motorcycle-maintenance",
+      "workTypes": ["fiction", "nonfiction"],
+      "genres": ["life-people"],
+      "subjects": ["philosophy-meaning", "thinking-decisions"],
+      "workTypeLabel": {"ru": "Философский роман", "en": "Philosophical novel"},
       "section": "consciousness-calm",
       "tags": [
         "philosophy",
@@ -566,6 +745,9 @@
     },
     {
       "slug": "antifragile",
+      "workTypes": ["nonfiction"],
+      "genres": [],
+      "subjects": ["thinking-decisions", "systems-society"],
       "file": "antifragile.html",
       "section": "risk-decisions",
       "tags": [
@@ -606,6 +788,9 @@
     },
     {
       "slug": "children-of-captain-grant",
+      "workTypes": ["fiction"],
+      "genres": ["adventure"],
+      "subjects": [],
       "file": "children-of-captain-grant.html",
       "section": "fiction-adventure",
       "tags": ["adventure", "exploration", "evidence", "trust"],
@@ -621,6 +806,245 @@
       },
       "readingMinutes": { "essential": 10, "core": 25, "deep": 40 },
       "cover": { "type": "typographic", "mark": "37°11′ S", "motif": "latitude-search", "tone": "blue" }
+    },
+    {
+      "slug": "white-fang",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "file": "white-fang.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "adventure",
+        "learning",
+        "trust",
+        "power"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 96,
+      "title": {
+        "ru": "Белый Клык",
+        "en": "White Fang"
+      },
+      "author": {
+        "ru": "Джек Лондон",
+        "en": "Jack London"
+      },
+      "description": {
+        "ru": "Как голод и человеческая власть формируют поведение — и от чего зависит доверие. Приключение и разговор об ответственности; развязка только в Deep.",
+        "en": "How hunger and human power shape behaviour, and what trust depends on. An adventure about responsibility; the resolution stays in Deep."
+      },
+      "readingMinutes": {
+        "essential": 7,
+        "core": 18,
+        "deep": 29
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "TRUST / PRESSURE",
+        "motif": "conditioned-trust",
+        "tone": "green"
+      }
+    },
+    {
+      "slug": "i-robot",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "file": "i-robot.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "ethics",
+        "decision-making",
+        "future"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 112,
+      "title": {
+        "ru": "Я, робот",
+        "en": "I, Robot"
+      },
+      "author": {
+        "ru": "Айзек Азимов",
+        "en": "Isaac Asimov"
+      },
+      "description": {
+        "ru": "Девять мысленных опытов: почему ясные правила дают неожиданные последствия и кто за них отвечает. Решения сюжетных задач — только в Deep.",
+        "en": "Nine thought experiments on why clear rules have unexpected consequences, and who is responsible. Plot solutions appear only in Deep."
+      },
+      "readingMinutes": {
+        "essential": 10,
+        "core": 23,
+        "deep": 36
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "THREE / LAWS",
+        "motif": "rule-loop",
+        "tone": "cyan"
+      }
+    },
+    {
+      "slug": "the-two-captains",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "file": "the-two-captains.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "exploration",
+        "evidence",
+        "courage",
+        "responsibility"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 144,
+      "title": {
+        "ru": "Два капитана",
+        "en": "The Two Captains"
+      },
+      "author": {
+        "ru": "Вениамин Каверин",
+        "en": "Veniamin Kaverin"
+      },
+      "description": {
+        "ru": "Взросление и поиск на Севере: как услышанный рассказ становится вопросом к доказательствам и собственной ответственности. Развязка — только в Deep.",
+        "en": "Growing up and searching in the North: how a story becomes a question of evidence and personal responsibility. The resolution stays in Deep."
+      },
+      "readingMinutes": {
+        "essential": 11,
+        "core": 27,
+        "deep": 42
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "VOICE / BEARING",
+        "motif": "testimony-compass",
+        "tone": "blue"
+      }
+    },
+    {
+      "slug": "the-wee-free-men",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "the-wee-free-men.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "responsibility",
+        "home",
+        "courage"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 96,
+      "title": {
+        "ru": "Маленький свободный народец",
+        "en": "The Wee Free Men"
+      },
+      "author": {
+        "ru": "Терри Пратчетт",
+        "en": "Terry Pratchett"
+      },
+      "description": {
+        "ru": "Тиффани замечает странности в привычном мире: фэнтези о внимании, заботе и умении думать самой. Essential и Core берегут развязку; финал — в Deep.",
+        "en": "Tiffany notices strangeness in her familiar world: fantasy about attention, care and thinking for yourself. Essential and Core preserve the ending; Deep reveals it."
+      },
+      "readingMinutes": {
+        "essential": 8,
+        "core": 18,
+        "deep": 29
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "CHALK / ATTENTION",
+        "motif": "chalk-boundary",
+        "tone": "yellow"
+      }
+    },
+    {
+      "slug": "the-hitchhikers-guide-to-the-galaxy",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "meaning",
+        "uncertainty",
+        "systems"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 96,
+      "title": {
+        "ru": "Автостопом по галактике",
+        "en": "The Hitchhiker’s Guide to the Galaxy"
+      },
+      "author": {
+        "ru": "Дуглас Адамс",
+        "en": "Douglas Adams"
+      },
+      "description": {
+        "ru": "Обычный человек в необъяснимой вселенной: как сатира проверяет инструкции, уверенность и смысл. Первый роман; поздние тайны и финал — только в Deep.",
+        "en": "An ordinary person in an inexplicable universe: satire puts instructions, certainty and meaning to the test. First novel; late mysteries and the ending stay in Deep."
+      },
+      "readingMinutes": {
+        "essential": 7,
+        "core": 17,
+        "deep": 27
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "GUIDE / QUESTION",
+        "motif": "scale-question",
+        "tone": "magenta"
+      }
     }
   ]
 }

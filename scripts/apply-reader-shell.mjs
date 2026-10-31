@@ -364,6 +364,13 @@ for (const filename of files) {
   if (!filePath.startsWith(`${root}${path.sep}`)) throw new Error(`Refusing path outside repository: ${filename}`);
   let html = fs.readFileSync(filePath, 'utf8');
 
+  // This source role includes literary criticism as well as research reviews.
+  html = html.replace("review: 'Обзор исследований'", "review: 'Обзор'");
+  html = html.replace(
+    'const primaryLabel = remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start;',
+    "const resumeHasEnding = remembered && data.spoilerPolicy === 'full-plot-in-deep' && remembered.level === 3;\n        const primaryLabel = resumeHasEnding ? (state.language === 'ru' ? 'Продолжить Deep — спойлеры финала' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start;"
+  );
+
   // Older standalone readers share these handlers. Keep native keyboard activation
   // on their controls while maintaining paging shortcuts on reading text.
   const pagingGuard = "if (document.querySelector('dialog[open]') || event.metaKey || event.ctrlKey || event.altKey || event.target.closest?.('a, button, input, textarea, select, summary, details, [role=\"button\"], [contenteditable]')) return;";

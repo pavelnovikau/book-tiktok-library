@@ -1,0 +1,211 @@
+{
+  "slug": "i-robot",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "revision": "narrative-pass2",
+  "deliverables": [
+    {
+      "path": "collector-output/i-robot/story-data.json",
+      "sha256": "f4fb30b267285ae0ed3f9b5a2507496a1329c53a221c0bfa240253682694eded",
+      "bytes": 87240
+    },
+    {
+      "path": "collector-output/i-robot/i-robot.html",
+      "sha256": "c7383e176ec9258feac1f3cfdc7c3938b0adcc7a9e4aba65246ef3ea56c120a0",
+      "bytes": 516760
+    },
+    {
+      "path": "collector-output/i-robot/sources.md",
+      "sha256": "0010e5dac2449ea23e2e9b5419a2bac2f4a2e17b92ea1ac62864215817311dc4",
+      "bytes": 19578
+    },
+    {
+      "path": "collector-output/i-robot/QA.md",
+      "sha256": "ee05a8740ee4d9edfbd59f6fc444877e3c1742a6da08b15aef0ab8465833554e",
+      "bytes": 22456
+    }
+  ],
+  "buildHelper": {
+    "path": "collector-output/i-robot/build-i-robot.mjs",
+    "sha256": "a71b2ef42646f05b8ad9c7bee1cc19e440398f5d8091905dc0a321d64acceffe",
+    "bytes": 8750
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/i-robot-narrative-pass2.md",
+  "report": {
+    "path": "editorial-audit/2026-10-31/books/i-robot-narrative-pass2.md",
+    "sha256": "678220a2201af8cff60d6482182f9e4ec954b85b86fbb09f30e9e09e3b16dd09",
+    "bytes": 58640
+  },
+  "sourceRescueReport": {
+    "path": "editorial-audit/2026-10-31/source-rescue/i-robot-pass2.md",
+    "sha256": "48899232e49c7967f1b2e0ddaae37e73cd8cc59b4b8abfe67526137cf4cc589b",
+    "bytes": 10697
+  },
+  "counts": {
+    "essential": 22,
+    "core": 32,
+    "deep": 53
+  },
+  "levels": {
+    "1": 22,
+    "2": 10,
+    "3": 21
+  },
+  "pairsRead": {
+    "intake": 112,
+    "replacement": 53
+  },
+  "languages": [
+    "ru",
+    "en"
+  ],
+  "contentMode": "narrative",
+  "spoilerPolicy": "full-plot-in-deep",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential"
+  },
+  "readingWords": {
+    "essential": {
+      "ru": 1098,
+      "en": 1240
+    },
+    "core": {
+      "ru": 1609,
+      "en": 1840
+    },
+    "deep": {
+      "ru": 2716,
+      "en": 3096
+    }
+  },
+  "readingMinutes": {
+    "ru": {
+      "essential": 7,
+      "core": 9,
+      "deep": 16
+    },
+    "en": {
+      "essential": 6,
+      "core": 9,
+      "deep": 15
+    }
+  },
+  "sourceScope": {
+    "work": "1950 nine-story collection and Susan Calvin frame",
+    "referenceEdition": "Del Rey ISBN 9780553382563; bibliographic identification only",
+    "fullEditionRead": false,
+    "officialTranslationCertified": false,
+    "ownedAppleBooks": {
+      "metadataPackagesChecked": 218,
+      "matchingCandidates": 0,
+      "packageReadErrors": 0
+    },
+    "primaryConsultation": "PRH Robbie opening and selected actual Asimov quotations in named published guides/scholarship",
+    "secondaryConsultation": "Darryl Stephens full nine-entry publisher plot guide; Lizzy Emanuel public scene accounts; selected Blevins dissertation section; De Cooman/Petit pp.26–27; complete Mark R. Kelly collection notes; selected indexed Googe passages",
+    "sourceCount": 11,
+    "accessLimits": [
+      "No complete collection read or owned candidate located.",
+      "Googe consulted through indexed passages only; direct PDF unavailable.",
+      "LitCharts public web-tool text actually consulted; empty direct downloads were not treated as reading.",
+      "Subscription placeholders and unverified full-text/condensed-reader search results excluded."
+    ],
+    "pivotalLinksAddressed": [
+      "Liar!: assembly answer, pride, painful withholding and repeated terminal conflict.",
+      "Little Lost Robot: three tests; harmless infrared, learned discrimination, constrained attempted attack and actual gamma destruction.",
+      "Escape!: actual verbal briefing, temporary-death accommodation and concrete ship/jump pranks.",
+      "The Evitable Conflict: Almaden production/ownership anomaly tied to Calvin’s attributed protective interpretation."
+    ]
+  },
+  "exactChanges": [
+    "Replaced all 112 analytical pairs with connected original-word narrative segmented into 53 bilingual pairs.",
+    "Preserved all nine stories and Calvin frame; removed modern AI/NIST/Turing, exercises and managerial/moral coaching.",
+    "Corrected Gloria to eight; kept Byerley identity unresolved; no formal later Zeroth Law or film plot.",
+    "Kept exact First-Law omission, all decisive answers and closing exchange Deep-only; global notes/cover/final/neutral saved resume remain solution-free.",
+    "Used accepted installed builder/Settings/fonts read-only with a reproducible book-local volatile explicit Deep guard, central hidden-entry checks, downgrade/reload/BFCache revocation, safe cancel, focus wrapping and old-ID invalidation.",
+    "Updated current collector source/QA records above preserved historical sections; added new named reports only."
+  ],
+  "validation": {
+    "deterministicAudit": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "canonicalEmbeddedPairsEqual": 53,
+    "finalMatrix": {
+      "viewports": [
+        "320x568",
+        "390x844",
+        "1024x768",
+        "1440x900"
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "counts": [
+        22,
+        32,
+        53
+      ],
+      "visits": 1712,
+      "checks": [
+        "exact titles/counters/nesting",
+        "no horizontal overflow",
+        "reachable body tails",
+        "icon header",
+        "desktop rail"
+      ]
+    },
+    "behavior": {
+      "320": 30,
+      "1440": 30,
+      "checks": [
+        "explicit bilingual acknowledgment",
+        "safe cancellation/native Escape",
+        "native Tab and Shift-Tab trap",
+        "late Contents depth and hidden-ID entry",
+        "generic saved Deep resume with renewed consent",
+        "reload/downgrade revocation",
+        "Sources/Settings",
+        "position preservation",
+        "focus/swipes/keyboard",
+        "restart"
+      ]
+    },
+    "edgeChecks": [
+      "storage denied",
+      "legacy IDs invalidated",
+      "emulated BFCache",
+      "iPhone-style guide/standalone",
+      "emulated 44px safe area",
+      "late Contents acceptance retains modal focus"
+    ],
+    "fonts": "Actual platform-font records at every viewport for representative RU/EN body text in Sans and Serif; all local fonts.",
+    "runtimeExceptions": 0,
+    "externalRuntimeRequests": 0,
+    "offline": "Actual file:// reader with network offline; no server/preview tools.",
+    "visualInspection": "Settled 320/1440 cover, cover bottom/start, bilingual consent, dense body/tail and shared final; representative 1024 light/Serif inspected.",
+    "evidenceDirectoryOutsideRepo": "/Users/pn/.cache/book-tiktok/i-robot-pass2-20261031",
+    "browserCleanup": "Each timeout-30 phase killed its owned process group and removed unique mktemp profile, including failed harness iterations."
+  },
+  "unresolvedEssentialPlotGaps": [],
+  "unresolvedIssues": [
+    "Fresh independent review of all 53 replacement pairs and cited decisive evidence is required before publication.",
+    "Evidence is selected primary passages plus substantial named secondary accounts; whole-edition sentence/translation fidelity is outside the evidence boundary.",
+    "Chrome iPhone/standalone/inset/BFCache checks are emulations, not physical Safari/PWA verification."
+  ],
+  "releaseScope": {
+    "rootReaderChanged": false,
+    "rootReaderSha256Unchanged": "766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6",
+    "catalogueSharedInstalledSkillGitPRPublishTouched": false,
+    "independentApprovalClaimed": false,
+    "publicationClaimed": false,
+    "publisherOwnsRelease": true
+  }
+}

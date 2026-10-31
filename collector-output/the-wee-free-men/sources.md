@@ -1,4 +1,11 @@
+> **2026-10-31 pass 2 — narrative rebuild submitted:** new 13/23/37 RU/EN corpus; targeted event gaps closed for the retained arc using named detailed accounts plus checked primary hinges. Full novel not read continuously. Status is **ready-for-independent-check**, not independent PASS or publication. Earlier SOURCE-GAP/green-QA records below are preserved history; see [pass-2 report](../../editorial-audit/2026-10-31/books/the-wee-free-men-narrative-pass2.md).
+
+> **2026-10-31 targeted rescue update:** SOURCE-GAP remains for specific dream-escape/climax links, not because a complete EPUB is mandatory. Newly inspected Penguin Schools Activity Sheet Four contains real chapter-8 Land of Winter fragments; Resource Three contains the henhouse encounter. These expand primary evidence beyond the earlier chapter-5 fragment, but do not establish the escape/return/climax chain. See [new acquisition map](../../editorial-audit/2026-10-31/source-rescue/the-wee-free-men.md). No new story, ready manifest, full-text claim or independent approval.
+
 # The Wee Free Men — evidence ledger and pre-screen map
+
+> **2026-10-31 corrected-brief audit: SUPERSEDED / SOURCE-GAP.** All 96 RU/EN pairs were re-read. REBUILD is required; no complete lawful novel was found, and the old Harper guide/interview URLs now return 404. Prior green QA below is historical and does not approve this as a condensed narrative. No new story, build or ready manifest has been issued. Current findings and exact source need: [total editorial audit](../../editorial-audit/2026-10-31/books/the-wee-free-men.md).
+
 
 Research completed and map frozen before writing the 96 bilingual screens, 2026-10-31. This is an original analytical digest for readers 14+, not a substitute edition or a claim to have read the complete novel. Counts approved: Essential/Core/Deep = 24/60/96, including cover/final at level 1.
 
@@ -253,3 +260,21 @@ All 96 screen-level source arrays and provenance labels are shared between langu
 ## Rights and editorial handoff
 
 Original analysis and bilingual paraphrase only; no copied prose, dialogue, publisher art or source-book files in this package. No book media files are embedded; the maintained shell provides a neutral abstract cover and embeds licensed Geist/Geist Mono fonts. Source document caches and QA scripts live temporarily outside the repository and are removed after QA. The four canonical deliverables are story-data.json, the-wee-free-men.html, sources.md and QA.md. Cold independent editorial review, catalogue integration and publication belong to the parent stage; this collector does not self-certify that review.
+
+
+---
+
+## 2026-10-31 pass 2 — new evidence and original narrative
+
+This addendum supersedes the preceding source-gap verdict **only for the new retained 37-pair corpus**. Historical 96-pair maps and access statements above describe the old analytical essay. New source IDs are defined in `story-data.json` and `source-map-pass2.json`; do not apply the old numeric map to the replacement.
+
+[Source rescue pass 2](../../editorial-audit/2026-10-31/source-rescue/the-wee-free-men-pass2.md) records actual new access and precise causal coverage. No full matching EPUB was located/read; no continuous full novel or full Russian translation was consulted. Direct official passages plus selected novel quotations in reviews anchor the retained hinges; substantial named chapter-event accounts cover the intervening actions. Claims of primary access stop at the fragments actually seen. The retired Harper material is not a fresh source. Video page descriptions are not video transcripts.
+
+New prose tells Tiffany’s actions, household comedy, alliances, fear, successive dream escapes and actual ending in original RU/EN words. No invented dialogue, motives, shark-fight reconstruction or literal Granny resurrection. Essential/Core stop during the search; all later answers/vision/resolution are level 3 behind volatile consent. Source-dialog titles and notes are spoiler-safe, with warnings that outgoing links contain spoilers.
+
+The exact retained-scene evidence table is `source-map-pass2.json` (37 entries, same IDs/languages as HTML). The connected first draft is `narrative-prose-pass2.md` (35 narrative paragraphs per language before cover/shared final). Embedded sources have 15 entries; roles distinguish official text/publisher, detailed reviews and identity records. The four canonical deliverables remain `story-data.json`, `the-wee-free-men.html`, `sources.md`, `QA.md`; the two additional original authored audit assets carry no private/full-source files. Private sample/cache and harness are outside public Git. A new source count does not itself certify fidelity.
+
+
+## Parent local correction — 2026-10-31
+
+WFM-NP2-F01: corrected only the reflexive object in eggs-in-the-henhouse, RU грели → грелись and EN them → themselves. The Feegles’ excuse is that they were warming themselves under the hen, not warming eggs/stones. Parent checked the actual Pratchett henhouse dialogue reproduced in official Puffin Schools Resource Three, PDF page21/index20; classroom invention prompts are not used as novel actions. Source2 mapping, every other36 pair, IDs/levels/order/counts and all outer runtime/Settings/fonts/consent code remain unchanged. The connected manuscript is synchronized. No full primary novel reading or independent self-PASS claimed.

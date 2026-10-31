@@ -1,0 +1,163 @@
+{
+  "slug": "the-neverending-story",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T22:09:18.014426+00:00",
+  "findings": [
+    "NES-ORDER-001"
+  ],
+  "changedScreens": [],
+  "reorderedScreens": [
+    "the-price",
+    "acharis"
+  ],
+  "counts": {
+    "essential": 20,
+    "core": 22,
+    "deep": 35
+  },
+  "sourceCheck": "NES-ORDER-001: moved the existing the-price record immediately before acharis, as the independent review requires. Every screen field, RU/EN word, ID, level, source mapping and media assignment is unchanged; Essential/Core ID order is exactly unchanged. Only Deep’s two adjacent records change order. The matching connected draft and preparation metadata order are synchronized. The original review checked the Chapter XVIII account and DNB dissertation printed148/PDF152; its exact source locators remain preserved. Outer reader code/styles, Settings/fonts and bespoke consent guard are byte-identical. No extra invented narrative, full-edition reading or independent self-PASS. Parent directly read the public SuperSummary ChapterXVIII event account: warning paragraph precedes cave encounter/transformation. No fresh DNB dissertation or full-primary-novel reading claimed.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/the-neverending-story.json",
+  "originalReviewSha256": "1901f7693e9fff1648ba9ac84ee0b3b5dea1b4c9cbcdd33d626936d73742a877",
+  "beforeHashes": {
+    "collector-output/the-neverending-story/story-data.json": "b79d5a180c0a2e5e62352ea4372692695b22f4c7185f049ad3af777be99c4b37",
+    "collector-output/the-neverending-story/the-neverending-story.html": "9bed696886c77c4abbe200a354cff0859c6e25a465469ddf9e248e1429e69b58",
+    "collector-output/the-neverending-story/sources.md": "66c418ca1e669620bb0ec9a9075bf5bdec428ad7f5c3f03542fa385f98722182",
+    "collector-output/the-neverending-story/QA.md": "b2b7b0750a03b29835e7f5cff734a3d45d7e79e7a5770b33f3c52c97224f56eb",
+    "collector-output/the-neverending-story/narrative-draft-pass2.md": "239f24e4bb556cc4b889682d834cc8490e7f73fa9a470dee09ac045015d84155",
+    "collector-output/the-neverending-story/prepare-pass2.py": "2605b57a994ed53bdcbcd12ce3a8cbb83fa1c04508b280c9b789055d3c57df2e"
+  },
+  "afterHashes": {
+    "collector-output/the-neverending-story/story-data.json": "da4a99eac3c2b86fababf87d029d926ace951829621ea8de04b582e118d1e9c8",
+    "collector-output/the-neverending-story/the-neverending-story.html": "df8ae074ed01b241a5a5fc7a45923ae6a81f4b8127602e0b62e0a3d80516bbc9",
+    "collector-output/the-neverending-story/sources.md": "cbb88b00a5c8d2f0ced37411fc99ec28cbcd6de7149f4e01034620d33754450c",
+    "collector-output/the-neverending-story/QA.md": "8fc06e3719c8ddc5e92a2223c8265cb21270e80953b2cdd99285f281174fd848",
+    "collector-output/the-neverending-story/narrative-draft-pass2.md": "50dd517dc92822611f9b6cddd6ddd551c956243fedd2980a7e59b446171e10d3",
+    "collector-output/the-neverending-story/prepare-pass2.py": "5a3497e3e131b5d5fd93814b099159e53c958c880d1868b98a9add7c7a19473d"
+  },
+  "screensBefore": [
+    {
+      "id": "acharis",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "В Фантазии",
+          "title": "Смех вместо плача",
+          "body": "<p>Однажды под землёй друзья слышат плач ахараев. Эти существа прячут свою безобразную внешность и создают тончайшие серебряные постройки. Бастиан меняет их вечно печальную жизнь: ахараи превращаются в смеющихся шламуфов. Только благодарности не получается. Новые создания насмехаются над ним и принимаются разрушать собственную прежнюю работу.</p>"
+        },
+        "en": {
+          "section": "In Fantastica",
+          "title": "Laughter instead of tears",
+          "body": "<p>One day the friends hear the Acharis weeping underground. These creatures hide their ugly appearance and make delicate silver buildings. Bastian changes their endlessly sorrowful lives: they become laughing Shlamoofs. Gratitude does not follow. The new creatures mock him and begin destroying their own former handiwork.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-price",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5,
+        8,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "В Фантазии",
+          "title": "Чего не помнит Бастиан",
+          "body": "<p>Атрейю замечает цену чудес. Каждое исполненное желание отнимает у Бастиана память о человеческом мире. Он предупреждает друга: так можно забыть и себя, и дорогу домой. Но Бастиан остаётся в Фантазии. Здесь у него есть всё, чего ему прежде не хватало.</p>"
+        },
+        "en": {
+          "section": "In Fantastica",
+          "title": "What Bastian cannot remember",
+          "body": "<p>Atreyu notices the cost of the miracles. Every fulfilled wish takes away a memory of the human world. He warns his friend that he may forget both himself and his way home. But Bastian remains in Fantastica. Here he has everything he once lacked.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "the-price",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        5,
+        8,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "В Фантазии",
+          "title": "Чего не помнит Бастиан",
+          "body": "<p>Атрейю замечает цену чудес. Каждое исполненное желание отнимает у Бастиана память о человеческом мире. Он предупреждает друга: так можно забыть и себя, и дорогу домой. Но Бастиан остаётся в Фантазии. Здесь у него есть всё, чего ему прежде не хватало.</p>"
+        },
+        "en": {
+          "section": "In Fantastica",
+          "title": "What Bastian cannot remember",
+          "body": "<p>Atreyu notices the cost of the miracles. Every fulfilled wish takes away a memory of the human world. He warns his friend that he may forget both himself and his way home. But Bastian remains in Fantastica. Here he has everything he once lacked.</p>"
+        }
+      }
+    },
+    {
+      "id": "acharis",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        5,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "В Фантазии",
+          "title": "Смех вместо плача",
+          "body": "<p>Однажды под землёй друзья слышат плач ахараев. Эти существа прячут свою безобразную внешность и создают тончайшие серебряные постройки. Бастиан меняет их вечно печальную жизнь: ахараи превращаются в смеющихся шламуфов. Только благодарности не получается. Новые создания насмехаются над ним и принимаются разрушать собственную прежнюю работу.</p>"
+        },
+        "en": {
+          "section": "In Fantastica",
+          "title": "Laughter instead of tears",
+          "body": "<p>One day the friends hear the Acharis weeping underground. These creatures hide their ugly appearance and make delicate silver buildings. Bastian changes their endlessly sorrowful lives: they become laughing Shlamoofs. Gratitude does not follow. The new creatures mock him and begin destroying their own former handiwork.</p>"
+        }
+      }
+    }
+  ],
+  "allScreenPairsUnchanged": true,
+  "essentialCoreOrderUnchanged": true,
+  "outerReaderCodePreserved": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/the-neverending-story.html",
+    "format": "v2",
+    "bytes": 495974,
+    "screenCount": 35,
+    "levels": {
+      "1": 20,
+      "2": 2,
+      "3": 13
+    },
+    "modes": {
+      "essential": 20,
+      "core": 22,
+      "deep": 35
+    },
+    "words": {
+      "ru": 1599,
+      "en": 1951
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "checks": 196,
+    "report": "editorial-audit/2026-10-31/publisher-findings/the-neverending-story-parent-order-regression.json",
+    "reportSha256": "5ab3e27a98bc94b80fd3f8e7aab44b882d90b5ad9d2b39cce989bdd88c72e752",
+    "scope": "NES-ORDER-001 effective six-route ordering/count/title regression and preserved consent; unchanged prose not re-reviewed; no physical Safari/PWA claim.",
+    "ownedProfileCleaned": true
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

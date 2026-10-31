@@ -67,3 +67,8 @@ GIV-001: parent directly checked the Scholastic BookFiles official guide, printe
 Only the embedded data/derived reading estimates changed. Outer reader runtime/styles and unrelated pairs remain byte-identical. Focused browser verification is pending. Original independent reviews remain unchanged; this is not a new independent PASS or a publication claim.
 
 Parent focused browser regression: passed across 320/390/768/1440 px, RU/EN and both themes. Exact changed copy, complete body-tail reachability, zero horizontal overflow/runtime exceptions/remote requests; Behave added source links and scope notes visible; both fictional saved-Deep covers conceal late titles and warn explicitly; The Giver renews consent on downgrade/reload and cancellation retains Essential. Combined report: 160 assertions. Owned Chrome process/profile removed. Not physical iPhone/PWA or a new independent literary PASS.
+
+
+## Parent metadata correction CM-01 — 2026-10-31
+
+Description now identifies the first novel in Lowry’s cycle, removing the author-debut claim. All27 RU/EN screen pairs, sources and runtime/consent/Settings code are unchanged; only description metadata and initial RU meta tag changed. Independent catalogue reviewer checked the author biography; parent repeat fetch timed out, no fresh direct biography reading claimed. Original reviews and release07 receipt remain historical; next publisher validates integration.

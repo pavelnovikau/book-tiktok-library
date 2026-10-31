@@ -1,0 +1,734 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-hitchhikers-guide-to-the-galaxy",
+  "reviewKind": "fresh-independent-narrative-pass2",
+  "date": "2026-10-31",
+  "completedAt": "2026-10-31T21:59:23.683516+00:00",
+  "verdict": "PASS",
+  "scope": "Current immutable collector only, 1979 FIRST NOVEL; this is not publication or root-reader approval.",
+  "binding": {
+    "authoringSha256": "6b8a3d17be21d889f2c514f371e6d5c501491736e598952d4dd457660a09b2c6",
+    "htmlSha256": "9228c2e094dd1550a40997e79d2d01f14c14d26074e5bd800af16bbeedd308e6",
+    "readySha256": "2a8de0ef391a698403b6f6cc12c6328a25befc4cf2bb18ad51a87ab44fc6cce2",
+    "canonicalFiles": {
+      "collector-output/the-hitchhikers-guide-to-the-galaxy/story-data.json": {
+        "sha256": "6b8a3d17be21d889f2c514f371e6d5c501491736e598952d4dd457660a09b2c6",
+        "bytes": 56484
+      },
+      "collector-output/the-hitchhikers-guide-to-the-galaxy/the-hitchhikers-guide-to-the-galaxy.html": {
+        "sha256": "9228c2e094dd1550a40997e79d2d01f14c14d26074e5bd800af16bbeedd308e6",
+        "bytes": 487758
+      },
+      "collector-output/the-hitchhikers-guide-to-the-galaxy/sources.md": {
+        "sha256": "b77cc46d0f0d8c4d73ed55abf6669550b25bac9bc756e03940ae0e9debe1095f",
+        "bytes": 30621
+      },
+      "collector-output/the-hitchhikers-guide-to-the-galaxy/QA.md": {
+        "sha256": "ecd19469464d2c5cb7d28e891035e259c04f743fd5bb28061ee19761ef5df958",
+        "bytes": 19258
+      }
+    },
+    "all47BoundFilesUnchanged": true,
+    "readyReferencedHashesVerified": 22,
+    "readyAllMatch": true,
+    "validOnlyWhileReviewedHashesMatch": true
+  },
+  "counts": {
+    "uniquePairsRead": 36,
+    "localizedScreensRead": 72,
+    "orderedRoutesRead": 6,
+    "cumulative": {
+      "essential": 11,
+      "core": 18,
+      "deep": 36
+    },
+    "levels": {
+      "1": 11,
+      "2": 7,
+      "3": 18
+    },
+    "freshBrowserRouteRenders": 130,
+    "freshBrowserAssertions": 43,
+    "sources": 5
+  },
+  "defaults": {
+    "defaultLanguage": "ru",
+    "defaultMode": "essential",
+    "defaultTheme": "dark",
+    "contentMode": "narrative"
+  },
+  "readingMinutesFromEmbeddedBuilder": {
+    "ru": {
+      "essential": 3,
+      "core": 5,
+      "deep": 9
+    },
+    "en": {
+      "essential": 3,
+      "core": 5,
+      "deep": 9
+    }
+  },
+  "parity": {
+    "allAuthoringAndEmbeddedScreens": true,
+    "allSources": true,
+    "connectedStoryParagraphsPerLanguage": 33,
+    "connectedStoryAllBodiesMatch": true,
+    "stableIDsAndLevelsSharedByLanguages": true
+  },
+  "editorialAssessment": "Connected original-word comic story carried by Arthur/Ford/Trillian/Zaphod/Marvin actions. No mandatory morals, management analysis, exercises, fabricated dialogue, invented late mission or sequel scene. Source support assessed per retained claim, not from source count or legacy QA.",
+  "routeAssessments": [
+    {
+      "language": "ru",
+      "mode": "essential",
+      "screens": 11,
+      "verdict": "PASS",
+      "assessment": "Intelligible opening-to-missiles cliffhanger; the shared final clearly offers Deep for the rest."
+    },
+    {
+      "language": "ru",
+      "mode": "core",
+      "screens": 18,
+      "verdict": "PASS",
+      "assessment": "Adds Prosser, theft, Guide entry, Marvin, coordinate check and recordings without late mechanisms; mild arrival repetition is optional taste."
+    },
+    {
+      "language": "ru",
+      "mode": "deep",
+      "screens": 36,
+      "verdict": "PASS",
+      "assessment": "Extends the same ordered story through the three checked causal chains; Restaurant remains a destination."
+    },
+    {
+      "language": "en",
+      "mode": "essential",
+      "screens": 11,
+      "verdict": "PASS",
+      "assessment": "Intelligible opening-to-missiles cliffhanger; the shared final clearly offers Deep for the rest."
+    },
+    {
+      "language": "en",
+      "mode": "core",
+      "screens": 18,
+      "verdict": "PASS",
+      "assessment": "Adds Prosser, theft, Guide entry, Marvin, coordinate check and recordings without late mechanisms; mild arrival repetition is optional taste."
+    },
+    {
+      "language": "en",
+      "mode": "deep",
+      "screens": 36,
+      "verdict": "PASS",
+      "assessment": "Extends the same ordered story through the three checked causal chains; Restaurant remains a destination."
+    }
+  ],
+  "formerEssentialGaps": [
+    {
+      "stableId": "HHG-P2-GAP-1",
+      "status": "CLOSED-FOR-RETAINED-ARC",
+      "screenIds": [
+        "planet-voicemail",
+        "missiles-approach",
+        "drive-activated",
+        "landing-and-split"
+      ],
+      "locators": [
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapters-17-18",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapters-19-20",
+        "https://www.gradesaver.com/the-hitchhikers-guide-to-the-galaxy/study-guide/summary"
+      ],
+      "assessment": "Warning → failed steering → Arthur activates drive → transformed weapons → safe landing. Activation is accountable guide narration, not a claimed newly read primary paragraph; the landing account is indexed."
+    },
+    {
+      "stableId": "HHG-P2-GAP-2",
+      "status": "CLOSED-FOR-RETAINED-ARC",
+      "screenIds": [
+        "deep-thought-commission",
+        "deep-thought-answer",
+        "earth-program",
+        "brain-demand"
+      ],
+      "locators": [
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-24",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-25",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-28",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-31"
+      ],
+      "assessment": "Commission/answer/question/successor and interruption are supported. The direct Chapter 31 quoted passage specifically ties Arthur to the penultimate program configuration; hoped-for encoding remains the mice’s hypothesis. No full-novel gate imposed."
+    },
+    {
+      "stableId": "HHG-P2-GAP-3",
+      "status": "CLOSED-FOR-RETAINED-ARC",
+      "screenIds": [
+        "police-disruption",
+        "gunfire-stops",
+        "aircar-return",
+        "marvin-ending",
+        "restaurant-heading"
+      ],
+      "locators": [
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-32",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-33",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-34",
+        "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapter-35",
+        "https://www.gradesaver.com/the-hitchhikers-guide-to-the-galaxy/study-guide/summary"
+      ],
+      "assessment": "Police fire → suit support failure; aircar return; Marvin’s reported computer conversation explains the failure. No intentional rescue motive, invented conversation, or sequel restaurant visit."
+    }
+  ],
+  "requiredFindings": [],
+  "requiredFindingCount": 0,
+  "remainingRequiredSourceOrStoryGaps": [],
+  "tasteOnly": [
+    {
+      "stableId": "HHG-P2-T01",
+      "severity": "taste-only",
+      "required": false,
+      "screenIds": [
+        "planet-voicemail",
+        "missiles-approach"
+      ],
+      "exactRU": [
+        "Вежливость сохранена; гостям уже отправлены две управляемые ракеты.",
+        "С Магратеи приходит автоматическое предупреждение, а следом — ракеты."
+      ],
+      "exactEN": [
+        "The courtesy remains intact; two guided missiles have been dispatched to the visitors.",
+        "An automated warning arrives from Magrathea, followed by missiles."
+      ],
+      "sourceLocator": "https://www.litcharts.com/lit/the-hitchhiker-s-guide-to-the-galaxy/chapters-17-18 / successive recordings and approaching missiles",
+      "observation": "Core/Deep briefly repeat the warning-to-missiles arrival at the adjacent screen boundary. Essential needs the standalone introduction. This is a small pacing preference, not false content, missing causality or a publication blocker.",
+      "smallestFaithfulFix": "No change required. If revisiting pacing, shorten only the repeated arrival wording and reread Essential before adopting any shared-screen edit."
+    }
+  ],
+  "pairReviews": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "PRH-opening",
+      "sourceLocator": "Excerpt / Chapter One, house and Thursday morning through Prosser asking how much damage the bulldozer would suffer",
+      "reviewNote": "Premise/framing; early demolition only, clear late-spoiler promise."
+    },
+    {
+      "screenId": "yellow-bulldozer",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "PRH-opening",
+      "sourceLocator": "Excerpt / Chapter One, house and Thursday morning through Prosser asking how much damage the bulldozer would suffer",
+      "reviewNote": "Thursday, hangover, shaving, delayed recognition and muddy obstruction match the actual excerpt."
+    },
+    {
+      "screenId": "notice-cellar",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "PRH-opening",
+      "sourceLocator": "Excerpt / Chapter One, house and Thursday morning through Prosser asking how much damage the bulldozer would suffer",
+      "reviewNote": "Inaccessible notice is Arthur’s reported discovery; no hidden-intent motive invented."
+    },
+    {
+      "screenId": "prosser-cottage",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "PRH-opening",
+      "sourceLocator": "Excerpt / Chapter One, house and Thursday morning through Prosser asking how much damage the bulldozer would suffer",
+      "reviewNote": "Cottage wish and drivers are in the opening; no managerial lesson substituted."
+    },
+    {
+      "screenId": "ford-urgent",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "Gale-events",
+      "sourceLocator": "Plot Summary / Earth, The Heart of Gold, Hitchhiking, The Heart of Gold-2, Magrathea; relevant character entries",
+      "reviewNote": "Actual friend, pub demand and Prosser substitution; also supported by indexed Chapter 1 exposed during search."
+    },
+    {
+      "screenId": "vogon-plans",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "Gale-events",
+      "sourceLocator": "Plot Summary / Earth, The Heart of Gold, Hitchhiking, The Heart of Gold-2, Magrathea; relevant character entries",
+      "reviewNote": "Parallel demolition and timely lift retained; no precise unverified countdown."
+    },
+    {
+      "screenId": "president-takes-ship",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-4",
+      "sourceLocator": "chapter-4 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Unveiling and theft are actions; late memory/mission mechanism withheld."
+    },
+    {
+      "screenId": "fish-and-guide",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "Gale-events",
+      "sourceLocator": "Plot Summary / Earth, The Heart of Gold, Hitchhiking, The Heart of Gold-2, Magrathea; relevant character entries",
+      "reviewNote": "Guide handover and translator fish are event-supported; Chapter 6 index confirms announcement/search."
+    },
+    {
+      "screenId": "harmless-earth",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-6",
+      "sourceLocator": "chapter-6 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Entry expansion preserved as Ford’s work; old printed entry versus proposed update is not made an invented scene."
+    },
+    {
+      "screenId": "poetry-airlock",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "GradeSaver-events",
+      "sourceLocator": "Named Kristen Osborne-Bartucca / Aaron Suduiko first-novel summary, opening through departure; byline and May 10, 2018 attribution",
+      "reviewNote": "Punishment then expulsion; no inflated poetry ranking or survival advice."
+    },
+    {
+      "screenId": "heart-rescue",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-9",
+      "sourceLocator": "chapter-9 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Rescue and penguin are checked; no real-physics claim."
+    },
+    {
+      "screenId": "marvin-fetches",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "GradeSaver-events",
+      "sourceLocator": "Named Kristen Osborne-Bartucca / Aaron Suduiko first-novel summary, opening through departure; byline and May 10, 2018 attribution",
+      "reviewNote": "Fetch assignment and cheerful doors supply the character comedy."
+    },
+    {
+      "screenId": "party-reunion",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "Gale-events",
+      "sourceLocator": "Plot Summary / Earth, The Heart of Gold, Hitchhiking, The Heart of Gold-2, Magrathea; relevant character entries",
+      "reviewNote": "Relative/old acquaintance and earlier Earth party; no romance or new motive invented."
+    },
+    {
+      "screenId": "trillian-map",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-12",
+      "sourceLocator": "chapter-12 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Concrete coordinate/map check and drive reminder replace generic competence praise."
+    },
+    {
+      "screenId": "magrathea-found",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-16",
+      "sourceLocator": "chapter-16 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Disbelief, screen confirmation and uncertain motive; planet-making corroborated by Gale."
+    },
+    {
+      "screenId": "planet-voicemail",
+      "level": 2,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapters-17-18",
+      "sourceLocator": "chapters-17-18 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Commercial recordings, advice to leave and refusal precede missiles."
+    },
+    {
+      "screenId": "missiles-approach",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapters-17-18",
+      "sourceLocator": "chapters-17-18 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Eddie’s failed evasive response and Ford’s unsuccessful manual action checked."
+    },
+    {
+      "screenId": "deep-notice",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "framing",
+      "sourceLocator": "Original navigation/framing",
+      "reviewNote": "Safe warning, only level 3; no late facts disclosed before consent."
+    },
+    {
+      "screenId": "drive-activated",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapters-17-18",
+      "sourceLocator": "chapters-17-18 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Arthur acts; drive transforms the weapons. Whale reaction is in quoted text, not a moral."
+    },
+    {
+      "screenId": "landing-and-split",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapters-19-20",
+      "sourceLocator": "chapters-19-20 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Landing, missing mice, impact route and split party accountably linked."
+    },
+    {
+      "screenId": "locked-brains",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapters-19-20",
+      "sourceLocator": "chapters-19-20 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Framed as Zaphod’s account; initials/gas checked, no solved ultimate purpose."
+    },
+    {
+      "screenId": "slartibartfast-arrives",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-22",
+      "sourceLocator": "chapter-22 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Explanatory speech and aircar invitation retained without the critic’s judgement."
+    },
+    {
+      "screenId": "earth-workshop",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-24",
+      "sourceLocator": "chapter-24 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Replacement, Norwegian coastline and mice exposition arise from Slartibartfast’s encounter."
+    },
+    {
+      "screenId": "deep-thought-commission",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-25",
+      "sourceLocator": "chapter-25 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Commission and delay checked against quoted dialogue in guide."
+    },
+    {
+      "screenId": "philosophers-protest",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-25",
+      "sourceLocator": "chapter-25 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Career protest and media opportunity are the scene’s actual joke; no added prescription."
+    },
+    {
+      "screenId": "deep-thought-answer",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-28",
+      "sourceLocator": "chapter-28 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Recorded computer pronouncement and answer/question mismatch; the check is its in-world assurance, no independent truth certificate."
+    },
+    {
+      "screenId": "earth-program",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-28",
+      "sourceLocator": "chapter-28 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Organic successor and ten-million-year program; five-minute loss separately supported by direct Chapter 24."
+    },
+    {
+      "screenId": "zaphod-awakens",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-29",
+      "sourceLocator": "chapter-29 / indexed Summary and its quoted novel fragments",
+      "reviewNote": "Catalog and summons checked; self-alteration remains his belief and motive stays unknown."
+    },
+    {
+      "screenId": "brain-demand",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-31",
+      "sourceLocator": "chapter-31 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Arthur-specific late-program status motivates offer; encoding is expressly a hope, not demonstrated extraction."
+    },
+    {
+      "screenId": "friends-pull-arthur",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-31",
+      "sourceLocator": "chapter-31 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Refusal, replacement offer, physical assistance, blocked exit and alarm are checked actions."
+    },
+    {
+      "screenId": "police-disruption",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-32",
+      "sourceLocator": "chapter-32 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Alarm escape, mice’s fake-question plan and pursuit for theft preserve causality."
+    },
+    {
+      "screenId": "gunfire-stops",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-33",
+      "sourceLocator": "chapter-33 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Death via failed suit life support and unusable air; no explosion embellishment."
+    },
+    {
+      "screenId": "aircar-return",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-33",
+      "sourceLocator": "chapter-33 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Recognizable aircar, uncertain note and physical route back checked."
+    },
+    {
+      "screenId": "marvin-ending",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-34",
+      "sourceLocator": "chapter-34 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Ford hears Marvin’s offstage account; link to suit systems cross-checked with GradeSaver, no planned heroic rescue asserted."
+    },
+    {
+      "screenId": "restaurant-heading",
+      "level": 3,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "LC-chapter-35",
+      "sourceLocator": "chapter-35 / Summary, and explicitly quoted novel fragments within Summary",
+      "reviewNote": "Zaphod proposes destination; departure and Guide reading checked. No sequel visit narrated."
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "ruRead": true,
+      "enRead": true,
+      "translationParity": "PASS",
+      "narrativeAndFidelity": "PASS",
+      "evidenceId": "framing",
+      "sourceLocator": "Original navigation/framing",
+      "reviewNote": "Shared final safely describes selected-depth stopping point; no outcome leak or moral."
+    }
+  ],
+  "reportedClaimsAssessment": {
+    "prosser": "Notice accessibility framed as his assertion and challenged by Arthur’s discovery.",
+    "slartibartfast": "Hibernation/Earth account is established as his explanation, including a viewed record.",
+    "deepThought": "42 and checking are in the displayed record and the computer’s assurance; this review does not certify their omniscient/real-world truth.",
+    "mice": "Arthur-specific account supports their proposal; They hope / Они надеются preserves uncertainty about extracting a Question. No successful extraction or surgery is narrated.",
+    "zaphod": "Brain-alteration disclosure framed as his account; increasingly certain is belief, with ultimate purpose unresolved.",
+    "marvin": "Offstage acts are introduced through Ford hearing Marvin’s account. No conscious rescue plan is invented."
+  },
+  "spoilerAssessment": {
+    "PASS": true,
+    "lateNumericComputerEarthMiceBrainMemoryEndingMechanismsOnlyLevel3": true,
+    "coverDescriptionMethodGlobalSourcesFinalShallowContentsAndResumeLabelsSafe": true,
+    "newConsentOnDowngradeReloadSavedLateContinueAndDeepContents": "fresh bilingual actual Chromium checks passed",
+    "cancelAndNativeEscape": "passed",
+    "savedRestorationLifecycle": "simulated page-transition event check; not a physical Safari/bfcache certification"
+  },
+  "evidenceScope": {
+    "work": "Douglas Adams, The Hitchhiker’s Guide to the Galaxy, first novel (1979)",
+    "editionIdentity": "Del Rey individual paperback ISBN 9780345418913 (1997), bibliographic identity only",
+    "fullNovelAcquired": false,
+    "fullNovelReadContinuously": false,
+    "actualPrimary": "Public publisher opening; selected novel fragments quoted within named guides (some accessed through index)",
+    "laterEvidence": "Substantial accountable named professional narration and specified mediated quotations; direct versus indexed status in source-access.json",
+    "primaryChapterBodiesNotClaimed": true,
+    "newSourceFilesRetained": false,
+    "wholeNovelAccessUniversalGateUsed": false,
+    "sourceAccessProof": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/source-access.json"
+  },
+  "browserAssessment": {
+    "scope": "Targeted fresh local-file Chrome, six routes at 390 dark; bilingual consent at 320; Settings/focus at 320 and desktop synchronization at 1440. No repeated giant matrix.",
+    "allOwnChecksPassed": true,
+    "runtimeExceptions": 0,
+    "consoleErrors": 0,
+    "remoteRuntimeRequests": 0,
+    "contentServerStarted": false,
+    "ownedChromeRemaining": [],
+    "allOwnedProfilesRemoved": true,
+    "physicalSafariTested": false,
+    "previewFallback": "preview_status unavailable; preview_open file URL unsupported-protocol. No preview tab created.",
+    "workerEvidence": "All existing pass2 matrix/consent/interaction/iOS receipts and four screenshots read/inspected as historical self-QA, not substituted for fresh checks."
+  },
+  "structuralAudit": {
+    "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/the-hitchhikers-guide-to-the-galaxy/the-hitchhikers-guide-to-the-galaxy.html --min-screens 36 --require-bilingual",
+    "passes": 69,
+    "warnings": [],
+    "failures": [],
+    "standaloneOffline": true
+  },
+  "limits": [
+    "No complete primary first novel acquired or continuously read; this is a retained-arc fidelity PASS, not an edition-complete certificate.",
+    "Some chapter evidence was read through search-indexed guide text after direct-origin interstitial/429 responses. These are not mislabeled as complete primary chapters.",
+    "Physical iPhone Safari/PWA, hosted catalogue/Home integration, deployment and production state were not tested or approved."
+  ],
+  "ownership": {
+    "subagents": false,
+    "candidateReadySupportRootCatalogueSharedShellEdited": false,
+    "historicalReviewsEdited": false,
+    "gitCommitPushPrDeployActions": false,
+    "publicationClaim": false,
+    "onlyNewReviewAndUniqueOwnProofsWritten": true
+  },
+  "proofs": [
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/brain-320-light-serif-ru.png",
+      "sha256": "3fd3fdd15bf2601517536639e246cdbc40083bd33b65eb528e260666e05d0c7b",
+      "bytes": 45382
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/browser-independent-consent.json",
+      "sha256": "a44c261b125fd20593bfb8aa2c0576511a79446f8312417a4bc8ba2d71512217",
+      "bytes": 11188
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/browser-independent-routes.json",
+      "sha256": "ef1eb34ad5880d8bd498e95ff969148d1470eca101bd853f27ddec09cea2afc1",
+      "bytes": 39562
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/browser-independent-settings.json",
+      "sha256": "024a77b5d22be4f07aae924f911161bc7167fa9d7f66b29dc6b4254e83563745",
+      "bytes": 1709
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/browser-independent.mjs",
+      "sha256": "a8ab74adabefd891d1fdfe4afdba53c40702e3b38f51d23784beab9a40041afe",
+      "bytes": 15678
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/consent-before-deep-320-ru.png",
+      "sha256": "099c63d4656378a91b9beed5e9b2491d1b691d9395e66f1fdbc7279c025f89ca",
+      "bytes": 38803
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/git-status-after.txt",
+      "sha256": "113cf87cbd2b8c79bb0d23022f2a21455ce77df8634c61ca82ae2b620d8daaf0",
+      "bytes": 10400
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/git-status-before.txt",
+      "sha256": "113cf87cbd2b8c79bb0d23022f2a21455ce77df8634c61ca82ae2b620d8daaf0",
+      "bytes": 10400
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/hashes-after.json",
+      "sha256": "eadb0ae23c9b2f255fd9871ebd72a0dd5c91c4c4fd85d4b924b3ca8fcec2fad8",
+      "bytes": 8791
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/hashes-before.json",
+      "sha256": "287bfc801fe9f8dd2660a5877ec82e634ae965cd330aa4b6cb3df161381b88b1",
+      "bytes": 8729
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/late-desktop-1440-light-serif-en.png",
+      "sha256": "89501ebd9ba29e800a5e8a7f2ced5108a0e11fc4cdf0cd54cc39aa93929bd445",
+      "bytes": 107968
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/runtime-readonly-extract.js",
+      "sha256": "fabb371cd20fbe0b65786486b4279e43488deaaed3a2085d941acc6714c5b6d6",
+      "bytes": 53084
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/source-access.json",
+      "sha256": "972972202af61204ad4d3fa1aefe6c21fbacb522efcca6d42a1626eb8d0495e5",
+      "bytes": 11853
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/hhg-pass2-independent-20261031T214802Z/structure-parity-ready.json",
+      "sha256": "8807c5aaf7a2e5c796d32324177da7ffebeb1df663c9d98b75d43e793637d06c",
+      "bytes": 4035
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "phase": "320",
+  "width": 320,
+  "height": 568,
+  "checks": [
+    "fresh RU/dark/Essential",
+    "home control links to ./",
+    "narrative presentation",
+    "effective embedded corpus equals canonical 34 RU/EN pairs",
+    "embedded source map equals canonical",
+    "all bilingual/theme/mode traversals and layout checks: []",
+    "embedded fonts load while offline",
+    "contents opens",
+    "sources and honest method accessible",
+    "zero runtime exceptions",
+    "zero HTTP runtime requests while offline"
+  ],
+  "visits": 280,
+  "traversal": {
+    "failures": [],
+    "visits": 280,
+    "metrics": [
+      {
+        "mode": "essential",
+        "language": "ru",
+        "theme": "dark",
+        "count": 14
+      },
+      {
+        "mode": "core",
+        "language": "ru",
+        "theme": "dark",
+        "count": 22
+      },
+      {
+        "mode": "deep",
+        "language": "ru",
+        "theme": "dark",
+        "count": 34
+      },
+      {
+        "mode": "essential",
+        "language": "ru",
+        "theme": "light",
+        "count": 14
+      },
+      {
+        "mode": "core",
+        "language": "ru",
+        "theme": "light",
+        "count": 22
+      },
+      {
+        "mode": "deep",
+        "language": "ru",
+        "theme": "light",
+        "count": 34
+      },
+      {
+        "mode": "essential",
+        "language": "en",
+        "theme": "dark",
+        "count": 14
+      },
+      {
+        "mode": "core",
+        "language": "en",
+        "theme": "dark",
+        "count": 22
+      },
+      {
+        "mode": "deep",
+        "language": "en",
+        "theme": "dark",
+        "count": 34
+      },
+      {
+        "mode": "essential",
+        "language": "en",
+        "theme": "light",
+        "count": 14
+      },
+      {
+        "mode": "core",
+        "language": "en",
+        "theme": "light",
+        "count": 22
+      },
+      {
+        "mode": "deep",
+        "language": "en",
+        "theme": "light",
+        "count": 34
+      }
+    ],
+    "controls": [
+      {
+        "id": "libraryButton",
+        "x": 12,
+        "y": 23,
+        "width": 36,
+        "height": 36,
+        "label": "Back to library",
+        "text": "",
+        "icon": true
+      },
+      {
+        "id": "contentsButton",
+        "x": 52,
+        "y": 23,
+        "width": 36,
+        "height": 36,
+        "label": "Chapters",
+        "text": "",
+        "icon": true
+      },
+      {
+        "id": "languageButton",
+        "x": 192,
+        "y": 23,
+        "width": 36,
+        "height": 36,
+        "label": "Переключить на русский",
+        "text": "",
+        "icon": true
+      },
+      {
+        "id": "sourcesButton",
+        "x": 232,
+        "y": 23,
+        "width": 36,
+        "height": 36,
+        "label": "Sources",
+        "text": "",
+        "icon": true
+      },
+      {
+        "id": "themeButton",
+        "x": 272,
+        "y": 23,
+        "width": 36,
+        "height": 36,
+        "label": "Dark theme",
+        "text": "",
+        "icon": true
+      }
+    ],
+    "fonts": "loaded"
+  },
+  "errors": [],
+  "httpRequests": [],
+  "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/flowers-chrome-sol.2hP6Xl",
+  "profileRemoved": true
+}

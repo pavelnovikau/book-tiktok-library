@@ -1,0 +1,2557 @@
+{
+  "schemaVersion": 1,
+  "review": "catalogue-meaning-after-rewrite-review",
+  "createdAtUtc": "2026-10-31T22:05:38.946219+00:00",
+  "mode": "independent read-only editorial metadata review, performed directly without subagents",
+  "verdict": {
+    "metadata": "EDIT",
+    "newConcreteFindings": 2,
+    "affectedAcceptedEntries": [
+      "the-giver",
+      "awareness-through-movement"
+    ],
+    "universalDiscovery": "No type/facet/audience gate defect found within the existing taxonomy. One source-title alias miss is CM-02.",
+    "accepted42Meaning": "No additional concrete moral/managerial fiction framing, invented author-intent claim or complete practical-course/full-book-proof promise found in the reviewed accepted metadata. This is a metadata conclusion, not a fresh prose-fidelity PASS.",
+    "oldFive": "Old analytical versions are separately inventoried; they are not counted as accepted rewrites or new unpublished collector packages.",
+    "releaseAuthority": "No rollback, publication decision, whole-library approval or statement about later production."
+  },
+  "binding": {
+    "acceptedHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+    "merge": "77b62beb173c424ed37311c8a3fce7b651163c57",
+    "gitRepoReadOnly": "/Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031",
+    "catalogueSha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+    "scope": "Frozen accepted release07, not a claim about later production or publisher08 working files.",
+    "sourceReceipt": "editorial-audit/2026-10-31/publisher-findings/parent-pr33-merge-catalogue.json",
+    "receiptObservedAtUtc": "2026-10-31T21:39:06.768804+00:00",
+    "receiptScope": "47-book production catalogue bytes matched accepted release07 head at the recorded observation; release07 all-assets/interactions were outside that receipt.",
+    "laterProductionObserved": false
+  },
+  "scope": {
+    "catalogueEntriesReviewed": 47,
+    "acceptedRevisedOrNew": 42,
+    "oldOnSiteVersions": [
+      "the-hobbit",
+      "i-robot",
+      "the-hitchhikers-guide-to-the-galaxy",
+      "the-wee-free-men",
+      "the-two-captains"
+    ],
+    "liveCatalogueUsed": "editorial-audit/2026-10-31/production-catalogue.json, byte-identical to immutable accepted-head books.json",
+    "canonicalRootBooksJsonUsed": false,
+    "immutableRootReadersRead": 47,
+    "readerBodyScreensReaudited": 0,
+    "screensReadForThisReview": "Cover metadata only; no full book-prose pass. Global method/source notes and source identities bound the editorial claims.",
+    "publisherAssetMatrixReaudited": false,
+    "publicPlotResearch": false,
+    "singleBibliographicCheck": "Author biography used only for CM-01. Source capture/hash scope and one unsuccessful strict direct-HTML quote extraction are disclosed in own checks proof.",
+    "workingCheckoutFilesUsed": false,
+    "otherAgentsPolled": false,
+    "subagentsSpawned": 0,
+    "mutations": "Only this report pair and own two proof JSON files; no logs, source/candidate/ready/catalogue/shell/branch/Git/PR/deploy edits."
+  },
+  "findings": [
+    {
+      "id": "CM-01",
+      "priority": "P2",
+      "kind": "incorrect-bibliographic-promise",
+      "slug": "the-giver",
+      "appliesTo": "accepted-revised-or-new",
+      "binding": "release07-only",
+      "status": "proposed-only",
+      "fields": [
+        "books[slug=the-giver].description.ru",
+        "books[slug=the-giver].description.en",
+        "the-giver.html#book-tiktok-data.description.ru",
+        "the-giver.html#book-tiktok-data.description.en",
+        "the-giver.html meta[name=description] (RU initial value)"
+      ],
+      "currentWording": {
+        "ru": "Джонас получает необычное назначение и начинает узнавать мир, которого его община не помнит. Краткий рассказ по первому роману Лоис Лоури.",
+        "en": "An unusual Assignment leads Jonas into a world his community no longer remembers. A concise retelling of Lois Lowry’s first novel."
+      },
+      "problem": "“Первому роману Лоис Лоури” / “Lois Lowry’s first novel” asserts an authorial debut. The retained story is The Giver (1993), the first work of the Giver sequence, not Lowry’s first novel.",
+      "effectiveEvidence": [
+        {
+          "path": "the-giver.html @ accepted head, #book-tiktok-data.methodNote",
+          "wording": {
+            "ru": "Новый краткий пересказ романа The Giver (1993), а не фильма или продолжений. Основа — подробные официальные guides, разрешённые фрагменты романа и материалы Лоури. Полное издание не прочитано непрерывно. RU/EN написаны своими словами; это не изданный перевод. Главные открытия и последняя сцена доступны только в Deep после согласия. Внешние источники могут содержать спойлеры.",
+            "en": "An original concise retelling of The Giver (1993), excluding the film and later novels. It draws on substantial official guides, authorised novel passages and Lowry’s own material. No complete edition was read continuously. RU/EN use original words, not a published translation. The central discoveries and last scene are reserved for Deep after consent. External sources may contain spoilers."
+          },
+          "meaning": "Names The Giver (1993); excludes film and later novels."
+        },
+        {
+          "path": "the-giver.html @ accepted head, cover.copy.en.section",
+          "wording": "A novel · 1993",
+          "meaning": "The effective cover makes no author-debut claim."
+        },
+        {
+          "url": "https://loislowry.com/biography/",
+          "proof": "catalogue-meaning-after-rewrite-review-checks.json#/primaryMetadataVerification",
+          "meaning": "The author identifies A Summer to Die as her first book and The Giver as the beginning of the quartet. No new plot inference is needed."
+        }
+      ],
+      "minimalProposedReplacement": {
+        "ru": "Джонас получает необычное назначение и начинает узнавать мир, которого его община не помнит. Краткий рассказ по первому роману цикла Лоис Лоури.",
+        "en": "An unusual Assignment leads Jonas into a world his community no longer remembers. A concise retelling of the first novel in Lois Lowry’s Giver Quartet."
+      },
+      "changeScope": "Local wording correction in catalogue and corresponding reader description metadata. No title/author/facet/spoiler/body rewrite proposed. Publisher decides integration; no changes made.",
+      "snapshotProof": {
+        "catalogueSha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+        "rootHtmlSha256": "d573580c7ee320d946d16da40935bf7528ec11f8196a933943a319c87de1849b",
+        "rootEmbeddedJsonSha256": "b57c6d57ddd3a9f669e3cc2fc04af7a518e249761cc6b06130604f04b4d61e6c"
+      }
+    },
+    {
+      "id": "CM-02",
+      "priority": "P2",
+      "kind": "source-title-discovery-miss",
+      "slug": "awareness-through-movement",
+      "appliesTo": "accepted-revised-or-new",
+      "binding": "release07-only",
+      "status": "proposed-only",
+      "fields": [
+        "books[slug=awareness-through-movement].searchAliases"
+      ],
+      "currentWording": {
+        "title": {
+          "ru": "Осознавание через движение",
+          "en": "Awareness Through Movement"
+        },
+        "searchAliases": null,
+        "note": "searchAliases is absent; null here denotes absence, not a literal catalogue value."
+      },
+      "problem": "The short Russian title of the edition explicitly named in the effective source boundary, “Сознавание через движение”, returns no book. The current title “Осознавание через движение” works; the initial extra letter is not folded by the maintained search normalizer.",
+      "effectiveEvidence": [
+        {
+          "path": "awareness-through-movement.html @ accepted head, #book-tiktok-data.methodNote.ru",
+          "wording": "Самостоятельное краткое изложение по пользовательскому полному RU EPUB: «Сознавание через движение», перевод М. Папуша, ISBN 5-88230-060-6; год файла не установлен. В этой редакции прочитана линия аргумента теоретических разделов и ключевые последовательности/сравнения всех 12 уроков, но полного непрерывного чтения каждой инструкции не заявляется. Сохранены реальные процедуры в кратком описании; это не полный курс выполнения. EN переводит изложение, не сверяется с полным английским изданием. Медицинские уточнения обозначены отдельно; не лечение.",
+          "meaning": "Names the consulted Russian edition “Сознавание через движение”, M. Papush, ISBN 5-88230-060-6."
+        },
+        {
+          "path": "awareness-through-movement.html @ accepted head, #book-tiktok-data.sources[id=1].title",
+          "wording": "Feldenkrais — Awareness Through Movement / Сознавание через движение"
+        },
+        {
+          "proof": "catalogue-meaning-after-rewrite-review-checks.json#/results/queries",
+          "query": "Сознавание через движение",
+          "result": [],
+          "implementation": "Accepted index.html prepareDiscovery/normalize/matchesQuery executed unchanged against accepted books.json, without browser or server."
+        }
+      ],
+      "minimalProposedReplacement": {
+        "field": "searchAliases",
+        "operation": "add-existing-source-title-alias",
+        "value": [
+          "Сознавание через движение"
+        ]
+      },
+      "changeScope": "Use the existing searchAliases field; keep the displayed title, author, audience and existing health-body facet. In-memory check with this sole alias returns awareness-through-movement. No new genre architecture or age boundary.",
+      "snapshotProof": {
+        "catalogueSha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+        "rootHtmlSha256": "2a0b633f1e8338641ba632a405b89f3dc3f0f42928ce57fdadbefb9d16e9f1f0",
+        "rootEmbeddedJsonSha256": "535152169966db6770ef4bc635dd2f16e7a62549cab0d71777624e4d2a19eec8"
+      }
+    }
+  ],
+  "universalDiscovery": {
+    "schema": "Catalogue schema 2, discovery version 1; existing types, four genres, eight subjects and controlled bilingual topics.",
+    "result": "No genre/type reassignment proposed. All 47 catalogue title searches round-trip. Every fiction item has an existing genre and every nonfiction item a subject; all tag/facet IDs resolve.",
+    "typeAssignment": "Fiction stays fiction irrespective of audience. Pirsig remains the declared fiction/nonfiction hybrid with a bilingual philosophical-novel label. Hermes and TOC are honestly labelled brief/corpus, respectively.",
+    "audience": "general, teen-14-plus and adult stay internal context. Accepted index.html does not reference audience; public controls/cards do not expose the legacy for-son collection label. Adult-tagged fiction is discoverable beside the other fiction.",
+    "legacyForSonMapping": {
+      "type": "fiction"
+    },
+    "legacyLabelIsNotPublicDefect": "The old “Сыну · 14+ / For my son · 14+” label remains compatibility data, not a public shelf; no removal or age-profile architecture is proposed.",
+    "statisticsStrip": "Explicit user choice retained; no UI change requested.",
+    "proof": "catalogue-meaning-after-rewrite-review-checks.json"
+  },
+  "sourceBoundaryNonFindings": [
+    {
+      "slug": "hermes-nous",
+      "disposition": "KEEP",
+      "reason": "Both catalogue languages explicitly say research brief; cover and method state its original research/proposal form. Generic library vocabulary does not turn it into an authored book."
+    },
+    {
+      "slug": "theory-of-constraints",
+      "disposition": "KEEP",
+      "reason": "Title and author line explicitly say Goldratt/TOC corpus; cover names checked arguments/passages across works. It is not advertised as one complete book."
+    },
+    {
+      "slug": "huberman-protocols",
+      "disposition": "KEEP",
+      "reason": "Catalogue explicitly promises selected verified passages about premise, sleep, light and attention; cover excludes the remaining seven-part entirety."
+    },
+    {
+      "slug": "awareness-through-movement",
+      "disposition": "KEEP practical-scope wording; CM-02 is discovery only",
+      "reason": "“Design/устройство of twelve lessons” does not promise complete runnable instructions; effective cover/method reserve complete sequences to the book."
+    },
+    {
+      "slug": "mindfulness",
+      "disposition": "KEEP",
+      "reason": "Eight-week sequence is the actual method; metadata does not claim that the reader receives all meditation scripts or completes a course."
+    },
+    {
+      "slugs": [
+        "1873",
+        "behave",
+        "determined",
+        "antifragile",
+        "nonviolent-communication",
+        "the-fifth-discipline",
+        "atomic-habits",
+        "thinking-in-systems",
+        "governing-the-commons",
+        "the-structure-of-scientific-revolutions",
+        "seeing-like-a-state"
+      ],
+      "disposition": "No full-book-proof finding",
+      "reason": "Catalogue blurbs describe the retained argument/topics; effective method notes disclose selected-source reading. Selective sourcing alone is not a defect or a reason to invent a full-edition prerequisite."
+    },
+    {
+      "slugs": [
+        "a-wizard-of-earthsea",
+        "the-left-hand-of-darkness",
+        "project-hail-mary",
+        "the-giver"
+      ],
+      "disposition": "No full-edition-reading finding",
+      "reason": "Concise original retelling/plot-through-ending is a narrative-scope promise, not a claim to have read or reproduced every line of a whole edition. Method limits are explicit."
+    }
+  ],
+  "legacySnapshotObservations": [
+    {
+      "slug": "the-hobbit",
+      "status": "old-on-site-at-release07-not-an-accepted-rewrite",
+      "catalogueField": "description.ru / description.en",
+      "currentWording": {
+        "ru": "Как выйти за порог, научиться действовать без готового героического образа, возразить друзьям и вернуться домой, не сделав приключение культом силы.",
+        "en": "How to cross the threshold, act without a ready-made heroic identity, disagree with friends and return home without turning adventure into a cult of strength."
+      },
+      "effectiveEvidence": {
+        "reader": "the-hobbit.html",
+        "htmlSha256": "4b8dbb2cb48c007b97df32c24b4574243792a1a480393f25f96805b0e43dcae4",
+        "embeddedDescription": {
+          "ru": "Маленький герой, большой мир: приключение, юмор и нравственный выбор. 36 / 90 / 144 экрана.",
+          "en": "A small hero in a wide world: adventure, humour and moral choice. 36 / 90 / 144 screens."
+        },
+        "methodNote": {
+          "ru": "Это самостоятельный аналитический дайджест, не текст романа и не перевод какого-либо издания. В проверенной локальной библиотеке EPUB/FB2/PDF «Хоббита» не найден; полный текст романа не читался и не загружался. Каркас событий сопоставлен с открытым издательским руководством по главам 1–19, но руководство не является романом и не подтверждает каждую подробность; неподтверждённая конкретика опущена. Контекст сверялся с Tolkien Estate, архивной описью и библиографией. Страницы и дословные цитаты не заявляются. «Книга» означает сообщаемое событие или образ; «Контекст» — внешние сведения; «Синтез» — нашу интерпретацию. Essential почти без спойлеров; Core раскрывает эпизоды; только Deep содержит всю развязку. Внешние источники могут сами содержать спойлеры.",
+          "en": "This is an original analytical digest, not the novel’s text or a translation of any edition. No EPUB/FB2/PDF edition of The Hobbit was found in the checked local library; the full novel was neither read nor downloaded. The event structure was compared with the public publisher chapter guide for chapters 1–19, but that guide is not the novel and does not verify every detail; unsupported specifics are omitted. Context was checked against Tolkien Estate, an archival finding aid and bibliography. No page references or verbatim quotations are claimed. “Book” identifies reported events or imagery; “Context” identifies external evidence; “Synthesis” identifies our interpretation. Essential is substantially spoiler-light; Core reveals episodes; only Deep contains the full resolution. External sources may themselves contain spoilers."
+        },
+        "cover": {
+          "ru": {
+            "section": "1 · За порогом",
+            "title": "Хоббит",
+            "body": "<p>Дж. Р. Р. Толкин. Как отправиться к дракону, если больше всего любишь спокойный вечер? Перед вами самостоятельный разбор приключения и выбора, а не замена романа. Начните с Essential: почти без спойлеров. Core раскрывает эпизоды; Deep — всю развязку. Касание текста включает тихий режим.</p>",
+            "subtitle": "Туда и обратно · Приключение и независимое суждение"
+          },
+          "en": {
+            "section": "1 · Across the threshold",
+            "title": "The Hobbit",
+            "body": "<p>J. R. R. Tolkien. How do you set out towards a dragon when you mostly enjoy a quiet evening? This is an original exploration of adventure and choice, not a substitute for the novel. Start with Essential: substantially spoiler-light. Core reveals episodes; Deep reveals the whole ending. Tap reading text for focus mode.</p>",
+            "subtitle": "There and Back Again · Adventure and independent judgement"
+          }
+        }
+      },
+      "observation": "Old analytical version only; moral/how-to catalogue frame remains. Its replacement is already within publisher08 intake.",
+      "disposition": "Snapshot-only historical carryover, excluded from the two new metadata findings against the accepted 42. Do not present this old root as the current unpublished/revised collector. Hobbit is already in publisher08’s seven-candidate intake; no competing integration or candidate inspection performed."
+    },
+    {
+      "slug": "i-robot",
+      "status": "old-on-site-at-release07-not-an-accepted-rewrite",
+      "catalogueField": "description.ru / description.en",
+      "currentWording": {
+        "ru": "Девять мысленных опытов: почему ясные правила дают неожиданные последствия и кто за них отвечает. Решения сюжетных задач — только в Deep.",
+        "en": "Nine thought experiments on why clear rules have unexpected consequences, and who is responsible. Plot solutions appear only in Deep."
+      },
+      "effectiveEvidence": {
+        "reader": "i-robot.html",
+        "htmlSha256": "bbefb261a4ef1301be815fda42cd48f5a28f0bfc6e9eb597822253310c0a2b7f",
+        "embeddedDescription": {
+          "ru": "Девять мысленных опытов о правилах, доверии и ответственности. Оригинальный аналитический спутник сборника для читателей 14+.",
+          "en": "Nine thought experiments about rules, trust and responsibility. An original analytical companion to the collection for readers aged 14+."
+        },
+        "methodNote": {
+          "ru": "Оригинальный аналитический спутник, не сокращённый перевод. Полный сборник не прочитан: использованы официальный фрагмент «Робби» (1 551 слово), издательский гид по девяти рассказам, интервью и критика; доступ к диссертации — через индексированные фрагменты. События за пределами фрагмента сверены по вторичным источникам. Метка «Книга» указывает на материал произведения, а не на полное чтение. Внешняя проверка и наши интерпретации обозначены отдельно. Essential/Core сохраняют развязки; Deep предварён предупреждением. Внешние ссылки могут содержать спойлеры. Фантастические законы не гарантируют безопасность настоящего ИИ. Цитат, выдуманных страниц и издательской графики нет.",
+          "en": "An original analytical companion, not an abridged translation. The complete collection was not read: sources are the official Robbie excerpt (1,551 words), the publisher’s nine-story guide, interview material and criticism; thesis access was through indexed passages. Events beyond the excerpt are cross-checked through secondary accounts. Book provenance identifies material from the work, not complete-text reading. Outside evidence and our interpretations are labeled separately. Essential/Core preserve resolutions; Deep begins with a warning. External links may contain spoilers. Fictional laws do not guarantee real AI safety. No quotations, invented pages or publisher artwork are used."
+        },
+        "cover": {
+          "ru": {
+            "section": "01 · Вход",
+            "title": "Я, робот",
+            "body": "<p>Можно ли доверять тому, кто умнее тебя и обязан помогать? Девять рассказов Азимова превращают этот вопрос в лабораторию решений. Здесь — самостоятельный аналитический спутник книги для читателей 14+: главное без развязок, дополнительные вопросы в Core, спойлеры только в Deep.</p>",
+            "subtitle": "Айзек Азимов · сборник 1950 года"
+          },
+          "en": {
+            "section": "01 · Way in",
+            "title": "I, Robot",
+            "body": "<p>Can you trust a being that is smarter than you and required to help? Asimov turns that question into nine experiments in judgment. This original analytical companion is for readers aged 14+: Essential preserves the mysteries, Core develops the questions, and only Deep discusses resolutions.</p>",
+            "subtitle": "Isaac Asimov · the 1950 collection"
+          }
+        }
+      },
+      "observation": "Old analytical companion only; nine story experiments and spoiler scope are identified, not accepted as a repaired narrative.",
+      "disposition": "Snapshot-only historical carryover, excluded from the two new metadata findings against the accepted 42. Do not present this old root as the current unpublished/revised collector. This review makes no assertion about later collector repair/publication state."
+    },
+    {
+      "slug": "the-hitchhikers-guide-to-the-galaxy",
+      "status": "old-on-site-at-release07-not-an-accepted-rewrite",
+      "catalogueField": "description.ru / description.en",
+      "currentWording": {
+        "ru": "Обычный человек в необъяснимой вселенной: как сатира проверяет инструкции, уверенность и смысл. Первый роман; поздние тайны и финал — только в Deep.",
+        "en": "An ordinary person in an inexplicable universe: satire puts instructions, certainty and meaning to the test. First novel; late mysteries and the ending stay in Deep."
+      },
+      "effectiveEvidence": {
+        "reader": "the-hitchhikers-guide-to-the-galaxy.html",
+        "htmlSha256": "8b63adec5605af099e52f8fd381a064435cfa136f7b5fae40b2bff566545c742",
+        "embeddedDescription": {
+          "ru": "Дуглас Адамс: самостоятельный аналитический дайджест первого романа для 14+. RU/EN, 24/60/96 экранов, развязка только в Deep.",
+          "en": "Douglas Adams: an original analytical digest of the first novel for ages 14+. RU/EN, 24/60/96 screens, resolution only in Deep."
+        },
+        "methodNote": {
+          "ru": "Самостоятельный аналитический дайджест, не текст романа и не опубликованный перевод. Полный роман не прочитан и не загружался. Проверены законный издательский отрывок первой главы, авторское предисловие и интервью, издательская справка, учебный разбор, открытая аннотация Кропфа и критика Вудфорд; поздние события сообщаются по вторичным источникам, без реконструкции сцен и выдуманных страниц. «Книга» — сообщаемое событие или образ, не заявление о постраничной сверке; «Контекст» — внешние сведения и критика; «Синтез» — наше прочтение. Essential не раскрывает развязку; Core добавляет эпизоды без решения главной тайны; Deep с предупреждением раскрывает поздние тайны и финал. Внешние источники могут содержать спойлеры. Вымышленные технологии и опасности не являются научными сведениями или советами.",
+          "en": "An original analytical digest, not novel text or a published translation. The complete novel was neither read nor downloaded. Evidence comprises a lawful publisher Chapter One excerpt, the author’s introduction and interview, publisher guidance, a teaching unit, Kropf’s open abstract and Woodford’s criticism; late events rely on secondary sources, without reconstructed scenes or invented pages. “Book” labels a reported event or image, not page-by-page collation; “Context” labels external evidence and criticism; “Synthesis” labels our reading. Essential withholds the resolution; Core adds episodes without solving the central mystery; Deep explicitly warns before late revelations and the ending. External sources may spoil events. Imaginary technologies and dangers are not science or advice."
+        },
+        "cover": {
+          "ru": {
+            "section": "01 · Вход",
+            "title": "Автостопом по галактике",
+            "body": "<p>Дуглас Адамс отправляет обычного человека туда, где привычные объяснения перестают работать. Этот самостоятельный дайджест для читателя 14+ помогает заметить устройство шуток и вопросы романа. Essential знакомит без развязки; Core добавляет эпизоды; Deep открывает поздние тайны и финал. Полный роман не прочитан.</p>",
+            "subtitle": "Дуглас Адамс · первый роман, 1979 · 14+",
+            "visualAlt": "Оригинальная типографическая обложка, без издательских изображений."
+          },
+          "en": {
+            "section": "01 · Entry",
+            "title": "The Hitchhiker’s Guide to the Galaxy",
+            "body": "<p>Douglas Adams sends an ordinary person into a universe where familiar explanations stop working. This original analytical digest for readers aged fourteen and up explores the jokes and questions. Essential withholds the resolution; Core adds episodes; Deep reveals late mysteries and the ending. The complete novel was not read.</p>",
+            "subtitle": "Douglas Adams · first novel, 1979 · 14+",
+            "visualAlt": "Original typographic cover without publisher artwork."
+          }
+        }
+      },
+      "observation": "Old analytical digest of the first novel only; satirical premise is not evidence of a repaired narrative.",
+      "disposition": "Snapshot-only historical carryover, excluded from the two new metadata findings against the accepted 42. Do not present this old root as the current unpublished/revised collector. This review makes no assertion about later collector repair/publication state."
+    },
+    {
+      "slug": "the-wee-free-men",
+      "status": "old-on-site-at-release07-not-an-accepted-rewrite",
+      "catalogueField": "description.ru / description.en",
+      "currentWording": {
+        "ru": "Тиффани замечает странности в привычном мире: фэнтези о внимании, заботе и умении думать самой. Essential и Core берегут развязку; финал — в Deep.",
+        "en": "Tiffany notices strangeness in her familiar world: fantasy about attention, care and thinking for yourself. Essential and Core preserve the ending; Deep reveals it."
+      },
+      "effectiveEvidence": {
+        "reader": "the-wee-free-men.html",
+        "htmlSha256": "53bc9d83b1db9ef003cfb9f70e20bf62f69afac53270532be8676cd5974617ac",
+        "embeddedDescription": {
+          "ru": "Оригинальный аналитический дайджест RU/EN, 14+. 24/60/96 экранов; развязка только в отмеченном блоке Deep. Полный текст не читался.",
+          "en": "Original RU/EN analytical digest, 14+. 24/60/96 screens; resolution only in an explicitly marked Deep section. Complete text not read."
+        },
+        "methodNote": {
+          "ru": "Оригинальный аналитический дайджест, не текст романа. Полная книга не читалась: официальный отрывок (глава 1, печатные с. 1–20), предисловие, интервью, пособия и обзоры. «Книга» — поддержанное содержание, в том числе через пособие/обзор; «Проверка» — внешний контекст; «Синтез» — наша интерпретация. Essential/Core без развязки; Deep 85–94 — явные спойлеры. Источники тоже могут содержать спойлеры. Старые лекарства, насилие и обычаи вымышленных существ не рекомендации читателю.",
+          "en": "Original analytical digest, not novel text. Complete book not read: official excerpt (chapter 1, printed pp. 1–20), foreword, interviews, guides and reviews. “Book” means supported content, including through a guide/review; “Corroboration” means external context; “Synthesis” means our interpretation. Essential/Core withhold resolution; Deep 85–94 explicitly label spoilers. Sources may also contain spoilers. Old remedies, violence and fantasy customs are not advice for readers."
+        },
+        "cover": {
+          "ru": {
+            "section": "I · Порог",
+            "title": "Маленький свободный народец",
+            "body": "<p>Терри Пратчетт. Девочка с фермы замечает угрозу, которой не место в её обычном мире. Что помогает действовать, когда ты ещё мала, а опасность совсем не мала? Аналитический дайджест RU/EN для 14+: Essential и Core без развязки; Deep содержит явно отмеченные спойлеры. Сам роман остаётся главным приключением.</p>",
+            "subtitle": "Терри Пратчетт · Аналитический дайджест · 14+",
+            "visualAlt": "Нейтральная абстрактная обложка; не издательская иллюстрация"
+          },
+          "en": {
+            "section": "I · Threshold",
+            "title": "The Wee Free Men",
+            "body": "<p>Terry Pratchett. A farm girl notices a threat that does not belong in her ordinary world. What makes action possible when you are small and the danger is not? An original RU/EN analytical digest for readers 14+: Essential and Core withhold the resolution; Deep includes explicitly marked spoilers. The novel remains the main adventure.</p>",
+            "subtitle": "Terry Pratchett · Analytical digest · 14+",
+            "visualAlt": "Neutral abstract cover; not publisher artwork"
+          }
+        }
+      },
+      "observation": "Old analytical digest only; farm-girl/fantasy premise and spoiler policy retained, not accepted as a repaired narrative.",
+      "disposition": "Snapshot-only historical carryover, excluded from the two new metadata findings against the accepted 42. Do not present this old root as the current unpublished/revised collector. This review makes no assertion about later collector repair/publication state."
+    },
+    {
+      "slug": "the-two-captains",
+      "status": "old-on-site-at-release07-not-an-accepted-rewrite",
+      "catalogueField": "description.ru / description.en",
+      "currentWording": {
+        "ru": "Взросление и поиск на Севере: как услышанный рассказ становится вопросом к доказательствам и собственной ответственности. Развязка — только в Deep.",
+        "en": "Growing up and searching in the North: how a story becomes a question of evidence and personal responsibility. The resolution stays in Deep."
+      },
+      "effectiveEvidence": {
+        "reader": "the-two-captains.html",
+        "htmlSha256": "5d9bcad499d2c65ec5cd09d343cd915c756768a8cf6e13f729defb0ac00cf7a7",
+        "embeddedDescription": {
+          "ru": "Аналитический спутник: голос, свидетельство, взросление и Север. Развязка только в Deep, после предупреждения.",
+          "en": "An analytical companion on voice, testimony, growing up and the North. The resolution appears only in Deep, after a warning."
+        },
+        "methodNote": {
+          "ru": "Оригинальный аналитический спутник, не полный текст и не пересказ глав. Прочитан официальный 20-страничный PDF-отрывок «Азбуки» (художественный текст: печатные с. 7–22); поздние сведения проверены по указанной критике и библиотечному очерку. Полный роман не прочитан. «Книга» обозначает содержание романа, в том числе через вторичные источники; независимые сведения и наш синтез отмечены отдельно. Главное и Core сохраняют развязку; спойлеры находятся в предупреждённом блоке Deep. Внешние источники могут содержать спойлеры. Обложка — оригинальная геометрия; иллюстрации издателя не используются.",
+          "en": "An original analytical companion, not the full text or a chapter-by-chapter retelling. The official 20-page Azbooka PDF sample was read (narrative: printed pp. 7–22); later information was checked against the listed criticism and library essay. The complete novel was not read. “Book” identifies the novel’s content, including mediated evidence; independent material and our synthesis are labelled separately. Essential and Core preserve the resolution; spoilers appear in a warned Deep section. External sources may contain spoilers. The cover uses original geometry, with no publisher artwork."
+        },
+        "cover": {
+          "ru": {
+            "section": "Вход",
+            "title": "Два капитана",
+            "body": "<p>Как превратить услышанную в детстве историю в дело жизни — и не спутать верность с упрямством. Аналитический спутник романа Вениамина Каверина для читателей от 14 лет. Главное и Core сохраняют развязку; Deep отдельно предупреждает о спойлерах. Полная книга здесь не пересказывается.</p>",
+            "subtitle": "Вениамин Каверин · свидетельство, взросление, Север"
+          },
+          "en": {
+            "section": "Opening",
+            "title": "The Two Captains",
+            "body": "<p>How can a story heard in childhood become a life’s work without turning loyalty into rigidity? An analytical companion to Veniamin Kaverin’s novel for readers aged 14 and up. Essential and Core preserve the resolution; Deep gives a separate spoiler warning. This is not a retelling of the complete book.</p>",
+            "subtitle": "Veniamin Kaverin · testimony, growing up, the North"
+          }
+        }
+      },
+      "observation": "Old analytical companion only; catalogue still foregrounds evidence and personal responsibility instead of a narrative premise.",
+      "disposition": "Snapshot-only historical carryover, excluded from the two new metadata findings against the accepted 42. Do not present this old root as the current unpublished/revised collector. This review makes no assertion about later collector repair/publication state."
+    }
+  ],
+  "publisher08Boundary": {
+    "handoffReadOnce": "editorial-audit/2026-10-31/publisher-findings/parent-release08-intake.json",
+    "candidateSlugs": [
+      "howls-moving-castle",
+      "northern-lights",
+      "enders-game",
+      "to-kill-a-mockingbird",
+      "the-hobbit",
+      "holes",
+      "have-space-suit-will-travel"
+    ],
+    "overlapWithAccepted47": [
+      "the-hobbit"
+    ],
+    "otherSix": "Not entries in this accepted47 snapshot; neither reviewed as live catalogue entries nor integrated.",
+    "scope": "No candidate/ready/collector or publisher08 branch file was edited or read as a replacement for immutable release07 metadata. Any later publication can supersede snapshot findings."
+  },
+  "coverage": [
+    {
+      "slug": "skin-in-the-game",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Рискуя собственной шкурой",
+        "en": "Skin in the Game"
+      },
+      "author": {
+        "ru": "Нассим Николас Талеб",
+        "en": "Nassim Nicholas Taleb"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "systems-society",
+        "philosophy-meaning"
+      ],
+      "tags": [
+        "risk",
+        "asymmetry",
+        "ethics",
+        "decision-making"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Author’s argument and examples; selected passages across chapters and all chapter 19/epilogue. No claim of independent validation of Taleb’s polemics.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "1873",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "1873 · Лиакват Ахамед",
+        "en": "1873 · Liaquat Ahamed"
+      },
+      "author": {
+        "ru": "Лиакват Ахамед",
+        "en": "Liaquat Ahamed"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "history-power",
+        "systems-society"
+      ],
+      "tags": [
+        "history",
+        "economics",
+        "finance",
+        "crisis"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Bounded opening chapter plus author interviews and chronology checks. The blurb names its subjects without promising all later chapters.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "theory-of-constraints",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Теория ограничений · корпус Голдратта",
+        "en": "Theory of Constraints · the Goldratt corpus"
+      },
+      "author": {
+        "ru": "Элияху Голдратт · корпус TOC",
+        "en": "Eliyahu Goldratt · the TOC corpus"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "thinking-decisions"
+      ],
+      "tags": [
+        "management",
+        "operations",
+        "systems",
+        "flow"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Explicit Goldratt corpus in title/author line; selected arguments and examples, not one novel or the complete Handbook.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "hermes-nous",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Hermes & Nous · исследовательский brief",
+        "en": "Hermes & Nous · research brief"
+      },
+      "author": {
+        "ru": "Разбор Мефистофеля · Observatory",
+        "en": "Mefistofel’s brief · Observatory"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "technology-future",
+        "systems-society"
+      ],
+      "tags": [
+        "ai",
+        "agents",
+        "strategy",
+        "open-models"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Explicit original research brief in both titles/descriptions and cover. Hypotheses and proposals remain proposals; not an authored book.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "essentialism",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Эссенциализм",
+        "en": "Essentialism"
+      },
+      "author": {
+        "ru": "Грег МакКеон",
+        "en": "Greg McKeown"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "thinking-decisions"
+      ],
+      "tags": [
+        "essentialism",
+        "priorities",
+        "attention",
+        "management"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Four-part argument and appendix checked according to method note; blurb describes the central method, not every anecdote.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "make-time",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Найди время",
+        "en": "Make Time"
+      },
+      "author": {
+        "ru": "Джейк Кнапп и Джон Зерацки",
+        "en": "Jake Knapp & John Zeratsky"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "time-habits"
+      ],
+      "tags": [
+        "time-management",
+        "attention",
+        "focus",
+        "habits"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Four steps and selected tactics. No promise to reproduce all 87 tactics.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "four-thousand-weeks",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Четыре тысячи недель",
+        "en": "Four Thousand Weeks"
+      },
+      "author": {
+        "ru": "Оливер Беркман",
+        "en": "Oliver Burkeman"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "philosophy-meaning"
+      ],
+      "tags": [
+        "finitude",
+        "time-management",
+        "attention",
+        "meaning"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Finitude and choice, with leisure and shared time; no productivity guarantee.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "selfie",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Селфи",
+        "en": "Selfie"
+      },
+      "author": {
+        "ru": "Уилл Сторр",
+        "en": "Will Storr"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "systems-society"
+      ],
+      "tags": [
+        "selfhood",
+        "perfectionism",
+        "psychology",
+        "social-media"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Storr’s eight-part cultural argument and selected reportage; no invented author intent in the catalogue description.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "why-zebras-dont-get-ulcers",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Почему у зебр не бывает инфаркта",
+        "en": "Why Zebras Don't Get Ulcers"
+      },
+      "author": {
+        "ru": "Роберт Сапольски",
+        "en": "Robert M. Sapolsky"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "psychology-relationships"
+      ],
+      "tags": [
+        "stress",
+        "physiology",
+        "health",
+        "coping"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Stress-response explanation and author examples; selected arguments across chapters 1–18, not a treatment course.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "huberman-protocols",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Protocols · сон, свет и внимание",
+        "en": "Protocols · sleep, light and attention"
+      },
+      "author": {
+        "ru": "Эндрю Хуберман с Джессикой Уопнер",
+        "en": "Andrew Huberman with Jessica Wapner"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "time-habits"
+      ],
+      "tags": [
+        "sleep",
+        "attention",
+        "evidence"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Selected verified passages explicitly stated in title/description/cover; introduction, sleep sample and Personal Growth Protocol 1.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "awareness-through-movement",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Осознавание через движение",
+        "en": "Awareness Through Movement"
+      },
+      "author": {
+        "ru": "Моше Фельденкрайз",
+        "en": "Moshe Feldenkrais"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "health-body"
+      ],
+      "tags": [
+        "movement",
+        "body-awareness",
+        "learning",
+        "somatics"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "EDIT",
+      "findings": [
+        "CM-02"
+      ],
+      "effectiveEvidenceSummary": "Theory and structure of twelve lessons; cover and method explicitly reserve the complete sequences to the book. Existing consulted Russian title is missing from search aliases (CM-02).",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-body-keeps-the-score",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Тело помнит всё",
+        "en": "The Body Keeps the Score"
+      },
+      "author": {
+        "ru": "Бессел ван дер Колк",
+        "en": "Bessel van der Kolk"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "psychology-relationships"
+      ],
+      "tags": [
+        "trauma",
+        "ptsd",
+        "memory",
+        "treatment-evidence"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Author’s clinical accounts and argument across five parts; does not promise verified patient records or a treatment programme.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "a-guide-to-the-good-life",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Радость жизни",
+        "en": "A Guide to the Good Life"
+      },
+      "author": {
+        "ru": "Уильям Б. Ирвин",
+        "en": "William B. Irvine"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "philosophy-meaning",
+        "psychology-relationships"
+      ],
+      "tags": [
+        "stoicism",
+        "tranquility",
+        "control",
+        "practice"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Irvine’s own practical reading of Stoicism, including his adaptations and doubts, consistent with the cover and source boundary.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "letting-go",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Отпускание",
+        "en": "Letting Go"
+      },
+      "author": {
+        "ru": "Дэвид Р. Хокинс",
+        "en": "David R. Hawkins"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "philosophy-meaning"
+      ],
+      "tags": [
+        "emotions",
+        "acceptance",
+        "ego",
+        "evidence"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Spiritual/healing claims attributed to Hawkins; blurb does not promise scientific validation.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-art-of-war",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Искусство войны",
+        "en": "The Art of War"
+      },
+      "author": {
+        "ru": "Сунь-цзы",
+        "en": "Sunzi"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "history-power",
+        "thinking-decisions"
+      ],
+      "tags": [
+        "strategy",
+        "conflict",
+        "leadership",
+        "evidence"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Thirteen-chapter historical treatise in Giles’s translation; the leadership tag is applicable to its actual military-command subject.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-hobbit",
+      "release07Status": "old-on-site-not-accepted-rewrite",
+      "title": {
+        "ru": "Хоббит",
+        "en": "The Hobbit"
+      },
+      "author": {
+        "ru": "Дж. Р. Р. Толкин",
+        "en": "J. R. R. Tolkien"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "fantasy",
+        "adventure",
+        "courage",
+        "home"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": false,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "LEGACY-SCOPE-ONLY",
+      "findings": [],
+      "effectiveEvidenceSummary": "Old analytical version only; moral/how-to catalogue frame remains. Its replacement is already within publisher08 intake.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "a-wizard-of-earthsea",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Волшебник Земноморья",
+        "en": "A Wizard of Earthsea"
+      },
+      "author": {
+        "ru": "Урсула К. Ле Гуин",
+        "en": "Ursula K. Le Guin"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "fantasy",
+        "coming-of-age",
+        "adventure",
+        "identity"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "First Earthsea novel, Ged and the shadow, with the last encounter reserved to Deep. Method discloses guides and authorised author passages/recording transcript.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "treasure-island",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Остров сокровищ",
+        "en": "Treasure Island"
+      },
+      "author": {
+        "ru": "Роберт Льюис Стивенсон",
+        "en": "Robert Louis Stevenson"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "adventure",
+        "pirates",
+        "trust",
+        "coming-of-age"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Map, Jim and the cook match the cover’s sea-adventure premise; story scope is chapters I–XXXIV.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-lost-world",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Затерянный мир",
+        "en": "The Lost World"
+      },
+      "author": {
+        "ru": "Артур Конан Дойл",
+        "en": "Arthur Conan Doyle"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "evidence",
+        "exploration"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Reporter, two professors and a traveller match the expedition cover; chapters I–XVI, not leadership lessons.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "akselerando",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Акселерандо",
+        "en": "Accelerando"
+      },
+      "author": {
+        "ru": "Чарльз Стросс",
+        "en": "Charles Stross"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "singularity",
+        "ai",
+        "future"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Macx family across nine chapters; source-scoped narrative, later events in Deep. Correct science-fiction type/genre.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "mindfulness",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Осознанность",
+        "en": "Mindfulness"
+      },
+      "author": {
+        "ru": "Марк Уильямс и Денни Пенман",
+        "en": "Mark Williams & Danny Penman"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "time-habits",
+        "philosophy-meaning"
+      ],
+      "tags": [
+        "mindfulness",
+        "attention",
+        "meditation",
+        "practice"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Central explanation and eight-week sequence; no claim that reading substitutes for completing all meditation scripts.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "behave",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Биология добра и зла",
+        "en": "Behave"
+      },
+      "author": {
+        "ru": "Роберт Сапольски",
+        "en": "Robert Sapolsky"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "health-body",
+        "systems-society"
+      ],
+      "tags": [
+        "biology",
+        "behavior",
+        "neuroscience",
+        "causality"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Bounded author-argument account from authorised beginning, author talks/interviews and identified excerpts. Blurb does not claim continuous full-book proof.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "determined",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Determined · Роберт Сапольски",
+        "en": "Determined · Robert Sapolsky"
+      },
+      "author": {
+        "ru": "Роберт Сапольски",
+        "en": "Robert Sapolsky"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "philosophy-meaning",
+        "psychology-relationships"
+      ],
+      "tags": [
+        "free-will",
+        "causality",
+        "ethics",
+        "neuroscience"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Bounded author argument about intention, punishment and desert, not a promise of scientific consensus or every later chapter.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "zen-and-the-art-of-motorcycle-maintenance",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Дзен и искусство ухода за мотоциклом",
+        "en": "Zen and the Art of Motorcycle Maintenance"
+      },
+      "author": {
+        "ru": "Роберт М. Пирсиг",
+        "en": "Robert M. Pirsig"
+      },
+      "workTypes": [
+        "fiction",
+        "nonfiction"
+      ],
+      "workTypeLabel": {
+        "ru": "Философский роман",
+        "en": "Philosophical novel"
+      },
+      "genres": [
+        "life-people"
+      ],
+      "subjects": [
+        "philosophy-meaning",
+        "thinking-decisions"
+      ],
+      "tags": [
+        "philosophy",
+        "quality",
+        "care",
+        "road-journey"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Road narrative and inquiry into Quality retained together. Honest fiction/nonfiction hybrid and philosophical-novel label.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "antifragile",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Антихрупкость",
+        "en": "Antifragile"
+      },
+      "author": {
+        "ru": "Нассим Николас Талеб",
+        "en": "Nassim Nicholas Taleb"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "systems-society"
+      ],
+      "tags": [
+        "risk",
+        "uncertainty",
+        "optionality",
+        "systems"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Author argument from opening, author texts and manuscript conversation; no whole-edition coverage promise in the blurb.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "children-of-captain-grant",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Дети капитана Гранта",
+        "en": "The Children of Captain Grant"
+      },
+      "author": {
+        "ru": "Жюль Верн",
+        "en": "Jules Verne"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "adventure",
+        "exploration",
+        "evidence",
+        "trust"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Bottle, damaged message and two children match the cover and declared Horne/Hetzel source scope; no moral lesson substituted in the blurb.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "white-fang",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Белый Клык",
+        "en": "White Fang"
+      },
+      "author": {
+        "ru": "Джек Лондон",
+        "en": "Jack London"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "tags": [
+        "adventure",
+        "learning",
+        "trust",
+        "power"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Cub, hunger and human power match the cover and five-part novel scope. Adventure/life-people facets are consistent.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "i-robot",
+      "release07Status": "old-on-site-not-accepted-rewrite",
+      "title": {
+        "ru": "Я, робот",
+        "en": "I, Robot"
+      },
+      "author": {
+        "ru": "Айзек Азимов",
+        "en": "Isaac Asimov"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "ethics",
+        "decision-making",
+        "future"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": false,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "LEGACY-SCOPE-ONLY",
+      "findings": [],
+      "effectiveEvidenceSummary": "Old analytical companion only; nine story experiments and spoiler scope are identified, not accepted as a repaired narrative.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-two-captains",
+      "release07Status": "old-on-site-not-accepted-rewrite",
+      "title": {
+        "ru": "Два капитана",
+        "en": "The Two Captains"
+      },
+      "author": {
+        "ru": "Вениамин Каверин",
+        "en": "Veniamin Kaverin"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "tags": [
+        "exploration",
+        "evidence",
+        "courage",
+        "responsibility"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": false,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "LEGACY-SCOPE-ONLY",
+      "findings": [],
+      "effectiveEvidenceSummary": "Old analytical companion only; catalogue still foregrounds evidence and personal responsibility instead of a narrative premise.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-wee-free-men",
+      "release07Status": "old-on-site-not-accepted-rewrite",
+      "title": {
+        "ru": "Маленький свободный народец",
+        "en": "The Wee Free Men"
+      },
+      "author": {
+        "ru": "Терри Пратчетт",
+        "en": "Terry Pratchett"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "fantasy",
+        "responsibility",
+        "home",
+        "courage"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": false,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "LEGACY-SCOPE-ONLY",
+      "findings": [],
+      "effectiveEvidenceSummary": "Old analytical digest only; farm-girl/fantasy premise and spoiler policy retained, not accepted as a repaired narrative.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-hitchhikers-guide-to-the-galaxy",
+      "release07Status": "old-on-site-not-accepted-rewrite",
+      "title": {
+        "ru": "Автостопом по галактике",
+        "en": "The Hitchhiker’s Guide to the Galaxy"
+      },
+      "author": {
+        "ru": "Дуглас Адамс",
+        "en": "Douglas Adams"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "meaning",
+        "uncertainty",
+        "systems"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": false,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "LEGACY-SCOPE-ONLY",
+      "findings": [],
+      "effectiveEvidenceSummary": "Old analytical digest of the first novel only; satirical premise is not evidence of a repaired narrative.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "amphibian-man",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Человек-амфибия",
+        "en": "Amphibian Man"
+      },
+      "author": {
+        "ru": "Александр Беляев",
+        "en": "Alexander Belyaev"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "home",
+        "trust"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Ichthyander, underwater world and first love match the cover and three-part Russian source scope.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "monday-begins-on-saturday",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Понедельник начинается в субботу",
+        "en": "Monday Begins on Saturday"
+      },
+      "author": {
+        "ru": "Аркадий и Борис Стругацкие",
+        "en": "Arkady and Boris Strugatsky"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "fantasy",
+        "science-fiction"
+      ],
+      "subjects": [],
+      "tags": [
+        "fantasy",
+        "science-fiction",
+        "learning"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Programmer, cat and institute match the three-story cover/source scope; fantasy and science-fiction facets remain accessible. Internal general audience does not become an age filter.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "hard-to-be-a-god",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Трудно быть богом",
+        "en": "Hard to Be a God"
+      },
+      "author": {
+        "ru": "Аркадий и Борис Стругацкие",
+        "en": "Arkady and Boris Strugatsky"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "power",
+        "conflict"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Rumata, missing physician and persecution match the cover. Adult fiction remains reachable through science fiction/adventure.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "adventures-of-huckleberry-finn",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Приключения Гекльберри Финна",
+        "en": "Adventures of Huckleberry Finn"
+      },
+      "author": {
+        "ru": "Марк Твен",
+        "en": "Mark Twain"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "tags": [
+        "adventure",
+        "road-journey",
+        "trust",
+        "coming-of-age"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Huck and Jim’s escapes and raft journey match the cover and selected scenes across 43 chapters; no moral lesson advertised instead of the story.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "nonviolent-communication",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Ненасильственное общение",
+        "en": "Nonviolent Communication"
+      },
+      "author": {
+        "ru": "Маршалл Розенберг",
+        "en": "Marshall B. Rosenberg"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "psychology-relationships"
+      ],
+      "tags": [
+        "conflict",
+        "emotions",
+        "care",
+        "practice"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Central method and actual author cases, willingness and boundaries; official excerpts rather than a promised complete course or one fully collated edition.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-fifth-discipline",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Пятая дисциплина",
+        "en": "The Fifth Discipline"
+      },
+      "author": {
+        "ru": "Питер Сенге",
+        "en": "Peter M. Senge"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "systems-society"
+      ],
+      "tags": [
+        "systems",
+        "learning",
+        "management"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Five-discipline argument and shared learning, supported within the disclosed official sample/article scope; not a promise to recount all later cases.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "meditations",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Наедине с собой",
+        "en": "Meditations"
+      },
+      "author": {
+        "ru": "Марк Аврелий",
+        "en": "Marcus Aurelius"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "philosophy-meaning"
+      ],
+      "tags": [
+        "stoicism",
+        "philosophy",
+        "ethics",
+        "finitude"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Thematic condensation of personal notes; the checked-quotation promise is limited to the stated Rogovin/Long excerpts, not complete translation fidelity. Quotations themselves were not re-audited here.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-left-hand-of-darkness",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Левая рука Тьмы",
+        "en": "The Left Hand of Darkness"
+      },
+      "author": {
+        "ru": "Урсула К. Ле Гуин",
+        "en": "Ursula K. Le Guin"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "trust",
+        "exploration",
+        "power"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Genly Ai, Gethen and distrust match the cover. Declared passages/guides boundary does not promise full-text or published-translation fidelity.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "atomic-habits",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Атомные привычки",
+        "en": "Atomic Habits"
+      },
+      "author": {
+        "ru": "Джеймс Клир",
+        "en": "James Clear"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "psychology-relationships"
+      ],
+      "tags": [
+        "habits",
+        "identity",
+        "behavior",
+        "environment"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Central method, identity and four laws, source-scoped to authorised author/publisher material; no all-chapter or numerical-outcome guarantee.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "thinking-fast-and-slow",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Думай медленно… Решай быстро",
+        "en": "Thinking, Fast and Slow"
+      },
+      "author": {
+        "ru": "Даниэль Канеман",
+        "en": "Daniel Kahneman"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "psychology-relationships"
+      ],
+      "tags": [
+        "decision-making",
+        "uncertainty",
+        "risk",
+        "psychology"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Judgment, uncertainty, choice and remembered experience match the argument cover; no claim to independent proof of all psychology experiments.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "thinking-in-systems",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Азбука системного мышления",
+        "en": "Thinking in Systems"
+      },
+      "author": {
+        "ru": "Донелла Медоуз",
+        "en": "Donella Meadows"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "systems-society"
+      ],
+      "tags": [
+        "systems",
+        "control",
+        "environment",
+        "learning"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Central argument and checked themes from draft/book excerpts and author essays; no promise of all models, traps or full control.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "project-hail-mary",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Проект «Аве Мария»",
+        "en": "Project Hail Mary"
+      },
+      "author": {
+        "ru": "Энди Вейр",
+        "en": "Andy Weir"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "tags": [
+        "science-fiction",
+        "exploration",
+        "uncertainty"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Amnesiac opening preserves later discoveries; complete plot in Deep describes narrative scope, not complete-edition reading or full-text proof.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-giver",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Дающий",
+        "en": "The Giver"
+      },
+      "author": {
+        "ru": "Лоис Лоури",
+        "en": "Lois Lowry"
+      },
+      "workTypes": [
+        "fiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [
+        "science-fiction",
+        "life-people"
+      ],
+      "subjects": [],
+      "tags": [
+        "memory",
+        "coming-of-age",
+        "control",
+        "care"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "EDIT",
+      "findings": [
+        "CM-01"
+      ],
+      "effectiveEvidenceSummary": "Cover and method identify the 1993 novel, excluding film and sequels. Catalogue and embedded description incorrectly call it the author’s first novel (CM-01).",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "governing-the-commons",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Управляя общим",
+        "en": "Governing the Commons"
+      },
+      "author": {
+        "ru": "Элинор Остром",
+        "en": "Elinor Ostrom"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "history-power"
+      ],
+      "tags": [
+        "systems",
+        "economics",
+        "environment",
+        "power"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Bounded central argument on actual common-pool institutions, endurance and failure; no all-case or later climate-argument promise.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "the-structure-of-scientific-revolutions",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Структура научных революций",
+        "en": "The Structure of Scientific Revolutions"
+      },
+      "author": {
+        "ru": "Томас С. Кун",
+        "en": "Thomas S. Kuhn"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "philosophy-meaning"
+      ],
+      "tags": [
+        "evidence",
+        "history",
+        "learning",
+        "uncertainty"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Normal science, anomaly, crisis, incommensurability and progress with 1969 postscript; selected primary passages disclosed, not all-edition fidelity.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    },
+    {
+      "slug": "seeing-like-a-state",
+      "release07Status": "accepted-revised-or-new",
+      "title": {
+        "ru": "Благими намерениями государства",
+        "en": "Seeing Like a State"
+      },
+      "author": {
+        "ru": "Джеймс К. Скотт",
+        "en": "James C. Scott"
+      },
+      "workTypes": [
+        "nonfiction"
+      ],
+      "workTypeLabel": null,
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "history-power"
+      ],
+      "tags": [
+        "systems",
+        "power",
+        "control",
+        "history"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "descriptionMatchesEffectiveRoot": true,
+      "reviewedFields": [
+        "title.ru/en",
+        "author.ru/en",
+        "description.ru/en",
+        "workTypes/workTypeLabel",
+        "genres/subjects",
+        "tags",
+        "audience/spoilerPolicy",
+        "effective cover copy.ru/en",
+        "effective method/source-boundary metadata"
+      ],
+      "result": "NO-CONCRETE-METADATA-DEFECT-FOUND",
+      "findings": [],
+      "effectiveEvidenceSummary": "Forests, cities and farming within Scott’s 1998 central argument; selected chapters/excerpts disclosed, no all-chapter or later-book promise.",
+      "proof": "catalogue-meaning-after-rewrite-review-proof.json (books entry with matching slug)"
+    }
+  ],
+  "ownProofs": [
+    {
+      "path": "catalogue-meaning-after-rewrite-review-proof.json",
+      "sha256": "837df3fed5b120e7abde67a656fe17cc3f6c67c1d744a287794089168160ca5b",
+      "scope": "Frozen local-input hashes, accepted head/merge, all 47 catalogue entries and effective root cover/method/source metadata; HTML and embedded JSON hashes, no fonts/full story corpus."
+    },
+    {
+      "path": "catalogue-meaning-after-rewrite-review-checks.json",
+      "sha256": "78288dfc527e4796562e6c92667589cf577fc5aebc517d27e753da49d30f9e3b",
+      "scope": "Accepted discovery function hashes/results, one in-memory alias proposal, audience/legacy mapping and primary bibliographic evidence with capture-hash limitation."
+    }
+  ]
+}

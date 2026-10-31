@@ -1,0 +1,514 @@
+{
+  "phase": "review-regressions",
+  "origin": "owned-local-CDP-fixtures",
+  "checks": [
+    {
+      "case": "cold Serif with nonzero scroll",
+      "coldFaces": [
+        {
+          "family": "Geist Serif",
+          "status": "unloaded"
+        },
+        {
+          "family": "Source Serif 4",
+          "status": "unloaded"
+        }
+      ],
+      "before": {
+        "top": 40,
+        "max": 87,
+        "paragraphTop": 40
+      },
+      "after": {
+        "top": 40,
+        "max": 87,
+        "paragraphTop": 40,
+        "sameScroller": true,
+        "sameSlide": true
+      }
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "1873.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "1873.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "1873.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "1873.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "theory-of-constraints.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "theory-of-constraints.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "theory-of-constraints.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "theory-of-constraints.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "hermes-nous.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "hermes-nous.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "hermes-nous.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "hermes-nous.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "dune.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "dune.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "dune.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "dune.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "i-robot.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "i-robot.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "i-robot.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "i-robot.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-potent-self.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-potent-self.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-potent-self.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-potent-self.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "solaris.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "solaris.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "solaris.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "solaris.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "flowers-for-algernon.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "flowers-for-algernon.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "flowers-for-algernon.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "flowers-for-algernon.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-neverending-story.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-neverending-story.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-neverending-story.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-neverending-story.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-wee-free-men.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-wee-free-men.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-wee-free-men.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-wee-free-men.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-giver.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-giver.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "the-giver.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "the-giver.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "skin-in-the-game.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "skin-in-the-game.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "skin-in-the-game.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "skin-in-the-game.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "mindfulness.html",
+      "lang": "ru",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "mindfulness.html",
+      "lang": "ru",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "native radio ArrowRight",
+      "file": "mindfulness.html",
+      "lang": "en",
+      "dark": true,
+      "theme": "dark",
+      "dialogOpen": true,
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "both radio groups native Left/Right wrap",
+      "file": "mindfulness.html",
+      "lang": "en",
+      "sameSlide": true,
+      "sameSavedId": true
+    },
+    {
+      "case": "rapid font changes retain the last choice"
+    }
+  ],
+  "fonts": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "pass"
+}

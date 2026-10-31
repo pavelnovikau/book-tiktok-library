@@ -1,0 +1,837 @@
+{
+  "atUtc": "2026-10-31T22:33:13.973705+00:00",
+  "scope": "Sealed nine candidates only; byte-exact immutable snapshots. Canonical source is read-only. No collector glob.",
+  "copied": [
+    {
+      "path": "editorial-audit/2026-10-31/ready/dune.json",
+      "sha256": "bdef6db6f6a33e89575944010bdfc9dfff370fbec8a1757e05bdb14993bb0f16",
+      "bytes": 7146
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/dune-pass2.json",
+      "sha256": "a21fefa0edb7f8b598d8c422f982d898e8b146e8340afa60cbe9b03ee4287bda",
+      "bytes": 54046
+    },
+    {
+      "path": "collector-output/dune/story-data.json",
+      "sha256": "9990c370dbdb0fd605673ef066e6640ff2621a419f83274ca71ca595ab1d356b",
+      "bytes": 67963
+    },
+    {
+      "path": "collector-output/dune/dune.html",
+      "sha256": "a2d50092fbcd92fc02c46070b67cc4a9a0d76466768f6d6bbcf39dbb6553d68b",
+      "bytes": 316284
+    },
+    {
+      "path": "collector-output/dune/sources.md",
+      "sha256": "16cfc5be1845bcf115aa799798e91c44f3c7a42594a8a36e6224fbc925e91b7f",
+      "bytes": 18594
+    },
+    {
+      "path": "collector-output/dune/QA.md",
+      "sha256": "671c3ef8c54c57e46f6f4d61182a0e508d1862e9ea7aabd719badf80698a1b03",
+      "bytes": 5408
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/dune-substantive-pass2.md",
+      "sha256": "f054a94780a5c10c2e809a1cc7b1ceb26abe2579e9ac8875dba256d7cd3d8e84",
+      "bytes": 10311
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/dune.md",
+      "sha256": "84ea1641e7b718e8d6b410b75f7588924a6240113894de2c190833e57673576b",
+      "bytes": 6678
+    },
+    {
+      "path": "editorial-audit/2026-10-31/repairs/dune-substantive-pass2.json",
+      "sha256": "e623be54d2c5fb872e93610693a89a58c88b69aced72aba63f62bec743d32d72",
+      "bytes": 69048
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/i-robot.json",
+      "sha256": "747bdff1a060f8852e8050428cb4e49d61a49eff342ce2a18209d07e78057093",
+      "bytes": 7688
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/i-robot-narrative-pass2.json",
+      "sha256": "f2596d85e78379644c547596b5914ffbe66580201af5713ff5b3e41733a0b8c5",
+      "bytes": 24498
+    },
+    {
+      "path": "collector-output/i-robot/story-data.json",
+      "sha256": "f4fb30b267285ae0ed3f9b5a2507496a1329c53a221c0bfa240253682694eded",
+      "bytes": 87240
+    },
+    {
+      "path": "collector-output/i-robot/i-robot.html",
+      "sha256": "c7383e176ec9258feac1f3cfdc7c3938b0adcc7a9e4aba65246ef3ea56c120a0",
+      "bytes": 516760
+    },
+    {
+      "path": "collector-output/i-robot/sources.md",
+      "sha256": "0010e5dac2449ea23e2e9b5419a2bac2f4a2e17b92ea1ac62864215817311dc4",
+      "bytes": 19578
+    },
+    {
+      "path": "collector-output/i-robot/QA.md",
+      "sha256": "ee05a8740ee4d9edfbd59f6fc444877e3c1742a6da08b15aef0ab8465833554e",
+      "bytes": 22456
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/i-robot-narrative-pass2.md",
+      "sha256": "678220a2201af8cff60d6482182f9e4ec954b85b86fbb09f30e9e09e3b16dd09",
+      "bytes": 58640
+    },
+    {
+      "path": "collector-output/i-robot/build-i-robot.mjs",
+      "sha256": "a71b2ef42646f05b8ad9c7bee1cc19e440398f5d8091905dc0a321d64acceffe",
+      "bytes": 8750
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/the-hitchhikers-guide-to-the-galaxy.json",
+      "sha256": "2a8de0ef391a698403b6f6cc12c6328a25befc4cf2bb18ad51a87ab44fc6cce2",
+      "bytes": 13765
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/the-hitchhikers-guide-to-the-galaxy-narrative-pass2.json",
+      "sha256": "fa811174ccfbc025a4558140dce0b3077cb2d111bc35db6809945f38bc934c94",
+      "bytes": 31466
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/story-data.json",
+      "sha256": "6b8a3d17be21d889f2c514f371e6d5c501491736e598952d4dd457660a09b2c6",
+      "bytes": 56484
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/the-hitchhikers-guide-to-the-galaxy.html",
+      "sha256": "9228c2e094dd1550a40997e79d2d01f14c14d26074e5bd800af16bbeedd308e6",
+      "bytes": 487758
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/sources.md",
+      "sha256": "b77cc46d0f0d8c4d73ed55abf6669550b25bac9bc756e03940ae0e9debe1095f",
+      "bytes": 30621
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/QA.md",
+      "sha256": "ecd19469464d2c5cb7d28e891035e259c04f743fd5bb28061ee19761ef5df958",
+      "bytes": 19258
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/the-hitchhikers-guide-to-the-galaxy-narrative-pass2.md",
+      "sha256": "433a202b052afaf423271d34d9c6e25dc890a0e57a94d13755f260975311ee7c",
+      "bytes": 7432
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/the-hitchhikers-guide-to-the-galaxy-pass2.md",
+      "sha256": "fdbe6dcb7b3b0b6558b0afadcaaf268c26e51879105747a97a98f9967d72b4e9",
+      "bytes": 10364
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/intake-hashes.json",
+      "sha256": "ddd8675acb13d4ce9a6b9de39720ea52ab0615293c85e881c18c5d4957780480",
+      "bytes": 898
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/source-map.json",
+      "sha256": "a7c88259e625d6d0e9f40f40450a57881d3157465cb4fb351904eb6ab9636cdb",
+      "bytes": 15461
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/mode-orders.json",
+      "sha256": "acc223321f830b998c25c96dd5d9f4f98538605c7b43298f54ddcbacd2b016b5",
+      "bytes": 1469
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/validation.json",
+      "sha256": "e633d6e31b850ca87ca8f2687b27628e78d7190aaa131e8325c8cce592721616",
+      "bytes": 2202
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/structure.json",
+      "sha256": "aaf204de836576fbcc52fa6f5fcd334b76f7e7ddd36b27f95067c56c02fcd024",
+      "bytes": 445
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-matrix.json",
+      "sha256": "859ebcc28e55ac6b4f7e84423af99988a7019c823e80a60754e8cbfe71bbd219",
+      "bytes": 4548
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-consent.json",
+      "sha256": "be130b245fccdd42f14d6a783e42d2dfc947617fd3a7d2349a4fdff4b5ff084b",
+      "bytes": 1004
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-interaction.json",
+      "sha256": "2cf48ee695f263cc0efb932daca9df672dda526036496a4e707837c5ce9e3d2d",
+      "bytes": 862
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/browser-ios.json",
+      "sha256": "a0771d259ee4398d1bf4431a800563e73077cf79e83dd4ac6d2bfbf1b63cd1a8",
+      "bytes": 314
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/cleanup-matrix.json",
+      "sha256": "3c0f6e757b64abe377660d53060ef20b134524a6193e8d0a5e76d636585b54e9",
+      "bytes": 122
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/cleanup-consent.json",
+      "sha256": "b38e9ca24a075624dacc3ff8bd771f8e0e80a7522d81311b93066a440a1c3fc5",
+      "bytes": 122
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/cleanup-interaction.json",
+      "sha256": "6b50202b8c62e93a49813178729ebd95655e65bb66986f0800375d949564e0b3",
+      "bytes": 122
+    },
+    {
+      "path": "collector-output/the-hitchhikers-guide-to-the-galaxy/pass2/cleanup-ios.json",
+      "sha256": "57f4cf8431033edae8558b96cc1ecb11cae0fd4835df6c64fd0d23632f44de42",
+      "bytes": 122
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/the-potent-self.json",
+      "sha256": "a82812ef4901b9d79b2b6aeaf59de4f2b0a5742417948b3f6c2c4c6ff64600cf",
+      "bytes": 6091
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/the-potent-self-pass2.json",
+      "sha256": "70cfbaa7bd823f0dc105c6f11804619664fd8bbcea0cbb95fc8d37641ac0f408",
+      "bytes": 31671
+    },
+    {
+      "path": "collector-output/the-potent-self/story-data.json",
+      "sha256": "1f17368f0b80e8bb5e05fec8de6a73e8427f30741e765f92472fafe83dbaf91e",
+      "bytes": 41572
+    },
+    {
+      "path": "collector-output/the-potent-self/the-potent-self.html",
+      "sha256": "c798556249df49f81fe17beebb09ebd5bb453e191114b560f349bb50e65c3fd4",
+      "bytes": 472737
+    },
+    {
+      "path": "collector-output/the-potent-self/sources.md",
+      "sha256": "8f34a6e8963385a9c2d281660665ee52dcc6d6bc43212c5845c655f9f051049b",
+      "bytes": 9407
+    },
+    {
+      "path": "collector-output/the-potent-self/QA.md",
+      "sha256": "441a1fd59a056a66eae66e207c3902b6c2b5974487e5eeda8ccacbdcfc48e5ee",
+      "bytes": 4466
+    },
+    {
+      "path": "collector-output/the-potent-self/evidence-map-pass2.json",
+      "sha256": "c9eb6b15053d8bc74706d0f04c3b8ae705730f2b76df1a65df1989b203416497",
+      "bytes": 16882
+    },
+    {
+      "path": "collector-output/the-potent-self/argument-draft-pass2.md",
+      "sha256": "03ed73993b46f4b61096e3445307fa78959683d3d48f84c124ed26c9e6dd094e",
+      "bytes": 24006
+    },
+    {
+      "path": "collector-output/the-potent-self/segment-pass2.py",
+      "sha256": "943ee91628bb8cbb243a45ee16ff4cb3baf5bba4cbe35dc60ba9418634c615b2",
+      "bytes": 14287
+    },
+    {
+      "path": "collector-output/the-potent-self/qa-pass2.mjs",
+      "sha256": "268995208dea6ec117bf2bc10865eb8cedc28856de7e3d987bd110ac53180c71",
+      "bytes": 21759
+    },
+    {
+      "path": "collector-output/the-potent-self/audit-pass2.json",
+      "sha256": "5c07ade66691f4c1edd9f4297549bb987628eb31762b61d347eeb57b9bea7e11",
+      "bytes": 404
+    },
+    {
+      "path": "collector-output/the-potent-self/qa-results-pass2.json",
+      "sha256": "45a4d2cc476c0246d4de7bc58c595d4db7ff8f3115130aaf1832b0c3dcb5e53a",
+      "bytes": 9091
+    },
+    {
+      "path": "collector-output/the-potent-self/cover-pass2.svg",
+      "sha256": "51c91073cf41d00dafb760420c0769ab5b69b5f4145378f59436f40cb80170ed",
+      "bytes": 1033
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/the-potent-self-source-rescue-pass2.md",
+      "sha256": "868915e55313bceadb9246a5f4f7974e899b51ed264a0af708a9dfab0e25d401",
+      "bytes": 6454
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/the-potent-self-pass2.md",
+      "sha256": "7a43f9fba184290f1ac3d8e97c6e50211bd019f6d96ff2ae7fe004392240cc6c",
+      "bytes": 8849
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/solaris.json",
+      "sha256": "4459b153040beb7cdb59c36c3e40194590ffd9b2a79328a523e2bfd28dc21aa9",
+      "bytes": 12196
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/solaris-narrative-pass2.json",
+      "sha256": "730ce992503eff184eef5e764504942eb1a4baef04637d79829e56d9d717187e",
+      "bytes": 20102
+    },
+    {
+      "path": "collector-output/solaris/story-data.json",
+      "sha256": "493e8fcc07e9a1f9f288a98ab70e3d35663a3596ed9f15ccbba133b9db65bcdb",
+      "bytes": 63787
+    },
+    {
+      "path": "collector-output/solaris/solaris.html",
+      "sha256": "667af0c1c0e7cf1e3c1255a1a54df48409f7d5ad4266c79f44c2610855c59f10",
+      "bytes": 493435
+    },
+    {
+      "path": "collector-output/solaris/sources.md",
+      "sha256": "88e19f80ebb8a33e63318b889fa30ee6a6a29a479c5600e8d8340336f64d62be",
+      "bytes": 10440
+    },
+    {
+      "path": "collector-output/solaris/QA.md",
+      "sha256": "4152483f0ae0e8ea776f4654fdc3e23319b97bcfb1d706e5cca1fbe5cad3b12c",
+      "bytes": 7570
+    },
+    {
+      "path": "collector-output/solaris/narrative-draft.md",
+      "sha256": "cf89f1488dca5917a38e0fd6614a9500bc7accc85ab5a93b66dc1bea90e997ab",
+      "bytes": 27554
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/solaris-implementation.md",
+      "sha256": "e36e13add17f1c8e58c4d4059537f82abc9f19d84318e7053d4f367cf2554f26",
+      "bytes": 5560
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/solaris.md",
+      "sha256": "9abc297d7959c11e5a44264a4b0a19743153e19b9486692cc9e326679cde32a5",
+      "bytes": 8731
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/flowers-for-algernon.json",
+      "sha256": "e0365cac3f6ee38189dd8120097be0c992d209cdc2c9153f4b5e35dd3b5a8f60",
+      "bytes": 12100
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/flowers-for-algernon.json",
+      "sha256": "326d9808eb37482f0fd66358e932aee585adabdb404dd35bc516bb3db6fe7a1c",
+      "bytes": 43992
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/flowers-for-algernon-meaning-fix-closure.json",
+      "sha256": "60341efd214d2237b1be8f62c44efb3fc236393d4e5fc977cf80c5d2eb2f7ce1",
+      "bytes": 24185
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/story-data.json",
+      "sha256": "fe553ef03afb5a8f070b9be9159e5b1f795ceb5b8aba2943904ebeecdf384d1e",
+      "bytes": 67388
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/flowers-for-algernon.html",
+      "sha256": "70336f5d5a44e35c3df8afba01019bd01944725935afaed1532342daa707d2a1",
+      "bytes": 314275
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/sources.md",
+      "sha256": "390fac41939aaa1d2c0694923de21ce0d9e3dc07c6064fd166b84bbb1ad61d46",
+      "bytes": 11919
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/QA.md",
+      "sha256": "036a197ee930dcca0608e140770635a95d3e75eec0c5dbc091e0b04ab230d531",
+      "bytes": 6685
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/flowers-for-algernon-sol-implementation.md",
+      "sha256": "79b97d3396ee671dd6a0c3b0c4d7f77abfe68091b15f4c042693d3d243517c93",
+      "bytes": 5023
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/author.py",
+      "sha256": "b57272ba3a943c504c7235facf30da1965e8b7713d31e4eaef755c6c871fa8e8",
+      "bytes": 47317
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-1024.json",
+      "sha256": "fe183282a5fda93aacb364dd8a4859aa9b74820e9c4a6a4880e84ba23426434c",
+      "bytes": 3219
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-1440.json",
+      "sha256": "3c0cd7bce979a46ebc908ee879d561b166b0bb0078cec2e3aa9b16a4153469b5",
+      "bytes": 3224
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-320.json",
+      "sha256": "34c406cd9fa1db8fe8730fdab6d72fb6b144851e2a67adb253f9d58a10687790",
+      "bytes": 3217
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-390.json",
+      "sha256": "3348b1316d0aadaa5a315a392fb1b1f3173d1e7228548f18eee58f4dbec5279e",
+      "bytes": 3217
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-behavior.json",
+      "sha256": "59c07beb9d02594ed03542df731663c37877c339599d09c41d3bbb49f41b1cb2",
+      "bytes": 1276
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-ios.json",
+      "sha256": "cab41b5c73bf1e2ea49d56db8f4a8c44993635a81ae76eebc6270be7bfed5854",
+      "bytes": 678
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/browser-qa.mjs",
+      "sha256": "d1c96e39ec697915c49221d3cea56820b059d9da6748d7c7e63602a772ceb14f",
+      "bytes": 14639
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/build-local.mjs",
+      "sha256": "2c5aa8e728f02bdd955bbb188f6fb4945378a2c673c1f19282981d766e07c30c",
+      "bytes": 6708
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/build-result.json",
+      "sha256": "f8904e2dd97b63731e8f1145afa0d30111e6a26fa2b7b5433b8a37ce9833cd16",
+      "bytes": 965
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/chrome-session.mjs",
+      "sha256": "c2b4c494a85f306aa2b3dbe5afb68c477e8a5554fe216b2a9ff3d6eca2ad0e6b",
+      "bytes": 2945
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/connected-draft-en.md",
+      "sha256": "001bb32fdb7faad7ed92a3d43fdbeaeb75482f191168b0e9b1031f7dcf2a85c2",
+      "bytes": 10509
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/connected-draft-ru.md",
+      "sha256": "f9991853da1ad59609778cbb8d2d44126c1ff4c1fad4d6f11eb3e55307c13be8",
+      "bytes": 18613
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/cover-1440-ru-dark.png",
+      "sha256": "1ebb9a1c4df83f502bd336666760c3fdbb8f3269095c0cc6ed1eaa4bcdd08d85",
+      "bytes": 129958
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/cover-320-ru-dark.png",
+      "sha256": "2df8f0937e5386cd670f8a10aeb45ea2d29afd04f363eb47e30e47df9a374dc7",
+      "bytes": 34739
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/dense-1440-en-light.png",
+      "sha256": "cd705251c6f7ddfab0bef7e4c30fca40a6da55dda9d61485a82dacf8f964c91e",
+      "bytes": 113639
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/dense-320-en-light.png",
+      "sha256": "a7594bf00ee3ca69e659a6c06aa33904677be2b5fee5257cbfb29073577fa904",
+      "bytes": 42701
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/integrity.json",
+      "sha256": "110f9a4b54e4809334abb349e87d36fcc6c46b0434a03559dfd77f2f9107c11d",
+      "bytes": 2910
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/source-review.md",
+      "sha256": "81d3d039ab7d7d12635a1537e29e4f5438f6326846fd56661d1604160ee80631",
+      "bytes": 10843
+    },
+    {
+      "path": "collector-output/flowers-for-algernon/evidence/structural-audit.txt",
+      "sha256": "7552da2d284a763844e5296197723f7750ced3ff6d71a08d67b1d33f954b7b3b",
+      "bytes": 415
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/the-neverending-story.json",
+      "sha256": "b9a824596d12872ac82818067497bc6b300a051dd404df8d65f6c9ab8a6c64c8",
+      "bytes": 8942
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/the-neverending-story.json",
+      "sha256": "1901f7693e9fff1648ba9ac84ee0b3b5dea1b4c9cbcdd33d626936d73742a877",
+      "bytes": 13557
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/the-neverending-story-meaning-fix-closure.json",
+      "sha256": "063c5dda0a07a954f6e3e83e230190e0b370cff856d54df1e39913f6d1ea6089",
+      "bytes": 9350
+    },
+    {
+      "path": "collector-output/the-neverending-story/story-data.json",
+      "sha256": "da4a99eac3c2b86fababf87d029d926ace951829621ea8de04b582e118d1e9c8",
+      "bytes": 57385
+    },
+    {
+      "path": "collector-output/the-neverending-story/the-neverending-story.html",
+      "sha256": "df8ae074ed01b241a5a5fc7a45923ae6a81f4b8127602e0b62e0a3d80516bbc9",
+      "bytes": 495974
+    },
+    {
+      "path": "collector-output/the-neverending-story/sources.md",
+      "sha256": "cbb88b00a5c8d2f0ced37411fc99ec28cbcd6de7149f4e01034620d33754450c",
+      "bytes": 17629
+    },
+    {
+      "path": "collector-output/the-neverending-story/QA.md",
+      "sha256": "8fc06e3719c8ddc5e92a2223c8265cb21270e80953b2cdd99285f281174fd848",
+      "bytes": 9693
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/the-neverending-story-source-rescue-pass2.md",
+      "sha256": "64ded1f1e78a01755acc65b5d0e3883b6895ebf4de2ced65b4c24d86c117de2a",
+      "bytes": 10054
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/the-neverending-story-pass2.json",
+      "sha256": "cb8fcc895801943d59a7f92f7cd755cf124155a9604630a6fec04ac1a32c5ad0",
+      "bytes": 26790
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/build-pass2.json",
+      "sha256": "fdcc1c02c945b1d5bddb2205366163074263a4bb85cb22ebdc8f1b80720b3d4d",
+      "bytes": 515
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/audit-pass2.json",
+      "sha256": "906e15036dace2b3d8ccc07f53358d5c608164f08dfb675cb5267d88db384bb0",
+      "bytes": 417
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/consistency-pass2.json",
+      "sha256": "bfd3675c9981b9e316bf3657125a8c6c10685992ebb54070acb20304cdf82fcb",
+      "bytes": 1016
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/final-summary-pass2.json",
+      "sha256": "a0c86f35e152397d82fb5445e194a216891a434eac8489c864bf261f73d98436",
+      "bytes": 4712
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/the-wee-free-men.json",
+      "sha256": "c21e8da19aa6e38a7395bf16043b40ac22eedeec4bd8d0b2bdd9f0083cec2821",
+      "bytes": 6262
+    },
+    {
+      "path": "editorial-audit/2026-10-31/reviews/the-wee-free-men-narrative-pass2.json",
+      "sha256": "f4f26dc6d92fe8d5bca9a27c1c019723a4f978f0f7fd8da0fe775de98f7f45de",
+      "bytes": 20237
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/the-wee-free-men-meaning-fix-closure.json",
+      "sha256": "c7a26dc73f86dba90f3996f7a570ea07c8480ed8864a9ba700db590247523118",
+      "bytes": 17451
+    },
+    {
+      "path": "collector-output/the-wee-free-men/story-data.json",
+      "sha256": "67d51684a25eb80627ccaeafeddf8e153bf62f5ea26e83be0f214b8a9a73d2d3",
+      "bytes": 62612
+    },
+    {
+      "path": "collector-output/the-wee-free-men/the-wee-free-men.html",
+      "sha256": "b1f3693cf46a197351c283942903ca35138932ba8d5492e75ed4a227fa5e4797",
+      "bytes": 508080
+    },
+    {
+      "path": "collector-output/the-wee-free-men/sources.md",
+      "sha256": "acabccae21d15cb9264e1e14268b36260330584c890e79f1512298b79e8f665d",
+      "bytes": 30426
+    },
+    {
+      "path": "collector-output/the-wee-free-men/QA.md",
+      "sha256": "7117cf0d405b3466cbac9601228ed97846b0331584d01b40ba7b6eb3a6e20d7d",
+      "bytes": 22297
+    },
+    {
+      "path": "collector-output/the-wee-free-men/narrative-prose-pass2.md",
+      "sha256": "2a00abaa1d7a90399e132dba13bb6a86370614b07f56bc16a8c9b4e3eb61165c",
+      "bytes": 31931
+    },
+    {
+      "path": "collector-output/the-wee-free-men/source-map-pass2.json",
+      "sha256": "dc1c123bb8e52cdfa7fc7bd12b71f232668a94861d065e794b68d53773bf0bde",
+      "bytes": 25674
+    },
+    {
+      "path": "collector-output/the-wee-free-men/QA-pass2-summary.json",
+      "sha256": "1118e6207302a6108ed4c5ca2f086ca79d56f2b74ee568d57774ee5418731bb0",
+      "bytes": 11164
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/the-wee-free-men-narrative-pass2.md",
+      "sha256": "37353a5a9c6c25eaf29e1b50728a1458b6ce00cc540884fe8eb2444084957838",
+      "bytes": 9727
+    },
+    {
+      "path": "editorial-audit/2026-10-31/source-rescue/the-wee-free-men-pass2.md",
+      "sha256": "e35cc31d9eb2dd5eb20d43c2e96e007594cd39b9b55b2826503351448c05ebe4",
+      "bytes": 6971
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/the-giver.json",
+      "sha256": "a83f0a7f934a993d8f757ae9519107413808c8e0942dfdcad4ac96500b068b0a",
+      "bytes": 10060
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/the-giver-metadata-fix-closure.json",
+      "sha256": "6e7ca987b59f1316555f2f317a19d114b88c85f8202f46b3bd05b05feb7e70a1",
+      "bytes": 2688
+    },
+    {
+      "path": "collector-output/the-giver/story-data.json",
+      "sha256": "26ae464f750981efbc9d8e24413cd4e310c890044003cb86db7c83e0fa8c0504",
+      "bytes": 34057
+    },
+    {
+      "path": "collector-output/the-giver/the-giver.html",
+      "sha256": "7e258aeaf2be30e73eec25b6d8ccfa9e8c028f8fb87fcac5db2b7c45d0833bb3",
+      "bytes": 289840
+    },
+    {
+      "path": "collector-output/the-giver/sources.md",
+      "sha256": "cd9fe40c4c79d24325bfcd70785a73ad6ad4424b0298678c5c8dd16d1e8857a7",
+      "bytes": 9736
+    },
+    {
+      "path": "collector-output/the-giver/QA.md",
+      "sha256": "424046309e084fffc74450fdd826abeec0146dc521d99a16c68b11a410142b07",
+      "bytes": 8531
+    },
+    {
+      "path": "editorial-audit/2026-10-31/books/the-giver-sol-implementation.md",
+      "sha256": "7ed59c3e7aaa2a6827db75e97689a206f8b168401a413c62f36bfd82d782743c",
+      "bytes": 15824
+    },
+    {
+      "path": "collector-output/the-giver/source-evidence-map.json",
+      "sha256": "5975d93cfe0000d2a9cc12f1f5cb78b829308cf273847a9b54456a108e44e0d1",
+      "bytes": 18056
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/parent-release09-ui-metadata-fixes.py",
+      "sha256": "29fd220353d3eec3e6e216804f12adb1b3ce0c9d78ddacd0bf2649bfddbcf915",
+      "bytes": 5760
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/parent-release09-ui-metadata-fixture.json",
+      "sha256": "8c442ceddb608b1602da5309f2aa909b4c7fe3c973dcef92a338c4d5502f9a5b",
+      "bytes": 2611
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/parent-release09-resume-depth-regression.json",
+      "sha256": "e90ddd4f29d8362165f80b44d3213b05f4228ce8fbaa07ea37210085217356ab",
+      "bytes": 3446
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/parent-resume-depth-label-closure.json",
+      "sha256": "48189bdc7702a6cbf80428c2c8453fccc96af00543beac30ecfa0a7996851a73",
+      "bytes": 1396
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/the-potent-self-ready-ingestion.json",
+      "sha256": "dcea257aae92c8c274ef62e2aa992b79d99522136a26210311b031e6d6c4d234",
+      "bytes": 572
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/catalogue-meaning-after-rewrite-review.json",
+      "sha256": "361a0036c7b84b626cdb437bba2b3cea6f8405ad6dfe03bc8fd21962e0c41656",
+      "bytes": 106723
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/legacy-progress-after-rewrite-review.json",
+      "sha256": "3619b6559aeec20f59cc319b5186ffae1765e012df7ba7a9fc854f5753c8ec8e",
+      "bytes": 31172
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/martian-chronicles-partial-scope-hold.json",
+      "sha256": "986ac9e6ac648cf5f848c8a0819d68a070efce7ee8d56efc40337e92ca6597ba",
+      "bytes": 943
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/flowers-for-algernon-parent-regression.json",
+      "sha256": "747a475471e966eb7e8e6229294764eb30e9b2d6ce3f55775136ccde6c9474cc",
+      "bytes": 8633
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/the-neverending-story-parent-order-regression.json",
+      "sha256": "5ab3e27a98bc94b80fd3f8e7aab44b882d90b5ad9d2b39cce989bdd88c72e752",
+      "bytes": 10129
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/the-wee-free-men-parent-reflexive-regression.json",
+      "sha256": "0bf9bc5b1d38a7d1be4d7b3a65e396c45b9eac6e024c1fb4f2f98d66ba5d5e54",
+      "bytes": 2268
+    },
+    {
+      "path": "collector-output/the-potent-self/ready-pass2.json",
+      "sha256": "a82812ef4901b9d79b2b6aeaf59de4f2b0a5742417948b3f6c2c4c6ff64600cf",
+      "bytes": 6091
+    },
+    {
+      "path": "collector-output/solaris/guard_reader.py",
+      "sha256": "5534ed74735a8733a56b9164af67a684889c9b8d97ae7af5fe555aa8d16f2e7e",
+      "bytes": 5008
+    },
+    {
+      "path": "collector-output/solaris/qa-solaris.mjs",
+      "sha256": "e5264b9d4fcfad1353b23280bfeb85b4d63e5d0058c57c328aaefcb370f0e8d7",
+      "bytes": 23758
+    },
+    {
+      "path": "collector-output/solaris/qa/1024.json",
+      "sha256": "eeb27b0aded90bdbcffe907838d2f3cf79104c44f28eeae666e04075b2c0fe4d",
+      "bytes": 939
+    },
+    {
+      "path": "collector-output/solaris/qa/1440.json",
+      "sha256": "e8cb50606cdc55b707811093100299916219466c4c35787d5d6bdf8c8ec4b1d9",
+      "bytes": 938
+    },
+    {
+      "path": "collector-output/solaris/qa/320.json",
+      "sha256": "f8023367ab7bbf9e634870e16db06221121ebf1daa1750de0dfcfc06ed2724b6",
+      "bytes": 937
+    },
+    {
+      "path": "collector-output/solaris/qa/390.json",
+      "sha256": "fa82d0a7a399c9166601beab403bd6f2c99a5ee206c52d629769aef55007203c",
+      "bytes": 937
+    },
+    {
+      "path": "collector-output/solaris/qa/consent-ru-dark-320.png",
+      "sha256": "2b250428bb7fa4bcb49991b69d9b89950f360935e29c5a2bebc87018dd782abe",
+      "bytes": 43574
+    },
+    {
+      "path": "collector-output/solaris/qa/cover-1440.png",
+      "sha256": "d1be64538cf4884b33038dad947d2786c2b2ba62fe753298c15c95ec8fbdd354",
+      "bytes": 114082
+    },
+    {
+      "path": "collector-output/solaris/qa/cover-320.png",
+      "sha256": "56806387af6be1d4ff7c1a31a650459c7841733550d03b148f9bfbe28025c120",
+      "bytes": 31100
+    },
+    {
+      "path": "collector-output/solaris/qa/ending-ru-dark-320.png",
+      "sha256": "42dd2d81175f6635a327e6a1cd330ce6b955cf55d8edaf1c1ff6cf2ff7280dcb",
+      "bytes": 30414
+    },
+    {
+      "path": "collector-output/solaris/qa/final-checks.json",
+      "sha256": "8edca048dae6e7f9db9c96ab211e9d9363d7ffff25805189fd278d52bea0df04",
+      "bytes": 527
+    },
+    {
+      "path": "collector-output/solaris/qa/final-ru-dark-320.png",
+      "sha256": "d089c867cde5e22ab7335f5cad239df750ba0959bcb5462c6aaad5c4edab4a2c",
+      "bytes": 23792
+    },
+    {
+      "path": "collector-output/solaris/qa/gesture-before.png",
+      "sha256": "a2034c47d313fb35af3377a41d1924331fc0fc90172eb83f80c73b3fbe8a774b",
+      "bytes": 42664
+    },
+    {
+      "path": "collector-output/solaris/qa/interactions.json",
+      "sha256": "6ad6aedb180e1a918eff66097e32c7aedbeb3d4bafbf744393997108a90879ab",
+      "bytes": 1612
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-320-en.png",
+      "sha256": "24bd5a3c0f0f50d31b840c7b1f1015254530e42682bffab90cffd4a610b00297",
+      "bytes": 46214
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-320.png",
+      "sha256": "992c3bc107f46b9b2fe07b3057fe2ffabbf386ca7d0f782f9065490837de6a8f",
+      "bytes": 49969
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-390-en.png",
+      "sha256": "a6b1511e166de0771fd81708d5a39f7361b365c9b55b322034f1eb13c02d588d",
+      "bytes": 55247
+    },
+    {
+      "path": "collector-output/solaris/qa/ios-390.png",
+      "sha256": "1a5fb42bc4235f16596785c6a0b7e5b092685778d59d29e74ba50559dd813692",
+      "bytes": 60065
+    },
+    {
+      "path": "collector-output/solaris/qa/ios.json",
+      "sha256": "54e857aa12967b101ede868ab50e091fa8bf911e2d3eecbf653cb6dbfff4c825",
+      "bytes": 5010
+    },
+    {
+      "path": "collector-output/solaris/qa/letter-1440.png",
+      "sha256": "12cdf361558d66c90cc89c7db98a3ad1633f48d107ad95f9736cf9747de47664",
+      "bytes": 103253
+    },
+    {
+      "path": "collector-output/solaris/qa/letter-320.png",
+      "sha256": "cc584432540d1fae1041a368305be37ec7552cdb1b79718144f1d1da37500f26",
+      "bytes": 44820
+    },
+    {
+      "path": "collector-output/solaris/qa/oxygen-ru-dark-320.png",
+      "sha256": "4b06c89fda4b7c1b5911db49e4fb0c725d5aa5071c018a89c2cf3fd56e5ef6d8",
+      "bytes": 42089
+    },
+    {
+      "path": "collector-output/solaris/qa/restart-cover.png",
+      "sha256": "edbf9f546deabe4ee6e6dc970b31973189a0847f35b5adfc01a328c7f4afdf6a",
+      "bytes": 52578
+    },
+    {
+      "path": "collector-output/solaris/qa/resume-safe.png",
+      "sha256": "a23d7ea2ae225041573cf12c11dd72584dbb86f1cab86cc7bc1e394fc2b13fe8",
+      "bytes": 55578
+    },
+    {
+      "path": "collector-output/solaris/qa/structure.json",
+      "sha256": "55f8377df7d923356942f5f3e9caa986238f20bb71d5414f897a3fcf32a0e368",
+      "bytes": 440
+    },
+    {
+      "path": "collector-output/solaris/qa/tap-before.png",
+      "sha256": "4e3d324f5c8ff0007c73ccfc00aa4c3687a3baaf4eafd5b493b8c3970df9a472",
+      "bytes": 37474
+    },
+    {
+      "path": "collector-output/solaris/qa/touch-before.png",
+      "sha256": "ecbafab8e29aabec2b57cee0983741bd9c3585b631cab3dfa93fe4a9c844c525",
+      "bytes": 39205
+    },
+    {
+      "path": "collector-output/solaris/qa/visual.json",
+      "sha256": "5ea03ecaad07ab55762825d0cfae81207683d4a85a5d44da9e10eefd0164f50e",
+      "bytes": 599
+    },
+    {
+      "path": "collector-output/solaris/segment.py",
+      "sha256": "0205c8e6002d8a8d0d93becc21b83deecf8b27ce1fd97f171a5f033cd4abee0c",
+      "bytes": 16198
+    },
+    {
+      "path": "collector-output/the-neverending-story/narrative-draft-pass2.md",
+      "sha256": "50dd517dc92822611f9b6cddd6ddd551c956243fedd2980a7e59b446171e10d3",
+      "bytes": 28525
+    },
+    {
+      "path": "collector-output/the-neverending-story/prepare-pass2.py",
+      "sha256": "5a3497e3e131b5d5fd93814b099159e53c958c880d1868b98a9add7c7a19473d",
+      "bytes": 16561
+    }
+  ],
+  "solarisReadyBindingsVerified": 36
+}

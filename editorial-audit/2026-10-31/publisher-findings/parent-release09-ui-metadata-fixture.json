@@ -1,0 +1,54 @@
+{
+  "baseHead": "2fbd3f584e121375093293f0bc2e99b3465056af",
+  "scope": "Four-file test fixture, not a checkout or production write",
+  "fixturePath": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/book-release09-fixes-fixture-ub0w6k9o",
+  "changes": [
+    {
+      "path": "books.json",
+      "changed": true,
+      "beforeSha256": "28cf936060bebd79b792d638e228689ff2630d0b26ff4912554f3e10bbc15f8f",
+      "afterSha256": "23b105023264c417c5433e94855ee5246aec8279e7fe6759ce5b0b387c6830ba"
+    },
+    {
+      "path": "the-giver.html",
+      "changed": true,
+      "beforeSha256": "d573580c7ee320d946d16da40935bf7528ec11f8196a933943a319c87de1849b",
+      "afterSha256": "ae5e8cd59a0247def79ac93ccac48e378838ea04a8dc2eb46da2843f5257f9ef"
+    },
+    {
+      "path": "skin-in-the-game.html",
+      "changed": true,
+      "beforeSha256": "0ff2b19db0f6de99780bf5f382e8305b659cfaa6d63f7977c994a5848d992ba8",
+      "afterSha256": "6ef2918c363e8ed7417bd18aa9259e037953a041040b1c7a78e500477dbfd638"
+    },
+    {
+      "path": "mindfulness.html",
+      "changed": true,
+      "beforeSha256": "5a09a7dfa08d5b97d8bf285aa759dfa71afdabe6434b74b8a7e93fb0133b1b10",
+      "afterSha256": "d4dacebeaaf41325e73ca397242a64a85c7dfa7514367ee4444eeb00dcada599"
+    }
+  ],
+  "secondApplicationIdempotent": true,
+  "giver27PairsUnchanged": true,
+  "catalogueAliasAdded": "Сознавание через движение",
+  "runtimeResolution": "Resume target is kept, destination depth now explicit before action; no nonfiction spoiler-consent flow is added. Fresh publisher acceptance remains required.",
+  "proof": {
+    "path": "editorial-audit/2026-10-31/publisher-findings/parent-release09-resume-depth-regression.json",
+    "sha256": "e90ddd4f29d8362165f80b44d3213b05f4228ce8fbaa07ea37210085217356ab",
+    "checks": 52,
+    "scope": "Authentic retained-ID Essential→Deep cases from MIG-01, now explicitly labelled before action. Four-file frozen release07 fixture with prepared patch; no production or physical Safari/PWA claim."
+  },
+  "optionalPotentUiFix": {
+    "id": "TPS2-L10N-001",
+    "rootOnlyDerivedLabel": "4 минуты",
+    "sourceCollectorUnchangedSha256": "c798556249df49f81fe17beebb09ebd5bb453e191114b560f349bb50e65c3fd4",
+    "fixtureChange": {
+      "path": "the-potent-self.html",
+      "changed": true,
+      "beforeSha256": "c798556249df49f81fe17beebb09ebd5bb453e191114b560f349bb50e65c3fd4",
+      "afterSha256": "6ec42458eaea908570afa71d540dcaa803c452a32cf3876ae7967a784c691399"
+    }
+  },
+  "helperSha256": "29fd220353d3eec3e6e216804f12adb1b3ce0c9d78ddacd0bf2649bfddbcf915",
+  "fixtureRemoved": true
+}

@@ -4,6 +4,7 @@ import net from 'node:net';
 import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runRelease09QA } from './release09-browser-checks.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const chromeBinary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
@@ -35,7 +36,7 @@ if (!phase) {
   console.log(`Browser QA passed. Reports and screenshots: ${outputDir}`);
   process.exit(0);
 }
-if (![...phases, 'release-state', 'release-cards', 'release-quotations', 'release-migration', 'release-tail'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
+if (![...phases, 'release-state', 'release-cards', 'release-quotations', 'release-migration', 'release-tail', 'release09-guards', 'release09-metadata', 'release09-corrections', 'release09-tail'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let summary = {};
 let chrome;
@@ -190,6 +191,8 @@ await command('Network.enable');
 await command('Fetch.enable', { patterns: [{ urlPattern: 'http*' }] });
 if (!requestedOrigin) await command('Page.addScriptToEvaluateOnNewDocument', { source: "Object.defineProperty(navigator, 'serviceWorker', { value: { register: () => Promise.resolve({}), ready: Promise.resolve({}) } });" });
 await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
+
+if (phase.startsWith('release09-')) summary = await runRelease09QA({ phase, books: releaseBooks, navigate, evaluate, command, assert, catalogue, outputDir });
 
 if (phase === 'discovery') {
   await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);

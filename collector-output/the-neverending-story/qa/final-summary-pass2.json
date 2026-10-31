@@ -1,0 +1,158 @@
+{
+  "status": "local-checks-completed",
+  "date": "2026-10-31",
+  "htmlSHA256": "9bed696886c77c4abbe200a354cff0859c6e25a465469ddf9e248e1429e69b58",
+  "storyDataSHA256": "b79d5a180c0a2e5e62352ea4372692695b22f4c7185f049ad3af777be99c4b37",
+  "counts": {
+    "essential": 20,
+    "core": 22,
+    "deep": 35
+  },
+  "levelCounts": {
+    "1": 20,
+    "2": 2,
+    "3": 13
+  },
+  "uniquePairsRead": 35,
+  "modePairAppearances": 77,
+  "languageTexts": 70,
+  "sourceCount": 12,
+  "matrixCases": 96,
+  "screenRenders": 2464,
+  "finalBrowserRuns": 7,
+  "behaviouralPhaseRecordedChecks": 38,
+  "recordedBrowserChecks": 69,
+  "runtimeExceptions": 0,
+  "remoteRuntimeRequests": 0,
+  "audit": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/the-neverending-story.html",
+    "format": "v2",
+    "bytes": 487956,
+    "screenCount": 35,
+    "levels": {
+      "1": 20,
+      "2": 2,
+      "3": 13
+    },
+    "modes": {
+      "essential": 20,
+      "core": 22,
+      "deep": 35
+    },
+    "words": {
+      "ru": 1599,
+      "en": 1951
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "readingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "5 минут",
+        "en": "6 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "6 минут",
+        "en": "6 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "9 минут",
+        "en": "9 min"
+      }
+    }
+  },
+  "browserReports": [
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-320-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-320-pass2.json",
+      "sha256": "9c60ed43f17affb874846707fa7b0f160b91ae434ee06a2551a68a2a55761268"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-390-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-390-pass2.json",
+      "sha256": "48b239a83f76140373d107c243183d3038e9734940cb2d12d9b84f5bb46a6620"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-1024-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-1024-pass2.json",
+      "sha256": "a466ab4dc81073d372ada43da845f2cbd7c91ae8f2a47e62ae4ba508a3aca5b1"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-1440-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-1440-pass2.json",
+      "sha256": "bc7e85ef257391554273704600961996e347aaeb92adb06ecba56577d48399fb"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-behaviour-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-behaviour-pass2.json",
+      "sha256": "320addc7899e45bc38c506ad4397d7bd99c3f03e91087d36a733d2a109da99c5"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-ios-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-ios-pass2.json",
+      "sha256": "1a873651784d5585a3b599b36e1e2506a431782819ec59967ea2020598e8875d"
+    },
+    {
+      "path": "collector-output/the-neverending-story/qa/browser-visual-pass2.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-neverending-story/qa/browser-visual-pass2.json",
+      "sha256": "f32429b59b4c3482ffe91ebe07fdd3ea11b0716e82fd189b78f0b99a3ad236bd"
+    }
+  ],
+  "viewportMatrix": [
+    [
+      320,
+      568
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "languages": [
+    "ru",
+    "en"
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "fonts": [
+    "sans",
+    "serif"
+  ],
+  "visualInspection": "Actual fresh cover, bilingual consent, dense Cyrillic Serif prose, shared final, English Serif desktop and iOS inset screenshots inspected.",
+  "serverStarted": false,
+  "previewToolsUsed": false,
+  "ownedProfilesRemaining": 0,
+  "ownedChromeProcessesRemaining": 0,
+  "physicalIPhoneTest": false,
+  "iosAutomaticOnceTimerCertified": false,
+  "independentContentAcceptance": "pending",
+  "publication": false
+}

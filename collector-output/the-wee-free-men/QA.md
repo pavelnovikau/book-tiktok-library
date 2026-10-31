@@ -1,4 +1,18 @@
+> **2026-10-31 pass 2 — current implementation QA:** narrative corpus is now 13/23/37 RU/EN screens, submitted as **ready-for-independent-check**. Earlier SOURCE-GAP and historical green results below refer to the superseded 96-pair essay. This addendum does not grant independent editorial PASS or publication.
+
+> **2026-10-31 targeted rescue update:** SOURCE-GAP remains for specific dream-escape/climax links, not because a complete EPUB is mandatory. Newly inspected Penguin Schools Activity Sheet Four contains real chapter-8 Land of Winter fragments; Resource Three contains the henhouse encounter. These expand primary evidence beyond the earlier chapter-5 fragment, but do not establish the escape/return/climax chain. See [new acquisition map](../../editorial-audit/2026-10-31/source-rescue/the-wee-free-men.md). No new story, ready manifest, full-text claim or independent approval.
+
 # The Wee Free Men — implementation QA
+
+> **2026-10-31 corrected-brief audit: SUPERSEDED / SOURCE-GAP.** All 96 RU/EN pairs were re-read. REBUILD is required; no complete lawful novel was found, and the old Harper guide/interview URLs now return 404. Prior green QA below is historical and does not approve this as a condensed narrative. No new story, build or ready manifest has been issued. Current findings and exact source need: [total editorial audit](../../editorial-audit/2026-10-31/books/the-wee-free-men.md).
+
+## Corrected-brief verification addendum
+
+Final collector HTML was rechecked with the maintained structural auditor: **69 passes, zero warnings, zero failures** (`--min-screens 3 --require-bilingual`). This is structural evidence only. No ready status or narrative fidelity follows from it. See the linked current audit above for actual literary scope and source blocks.
+
+
+## Historical QA (superseded for editorial approval)
+
 
 2026-10-31. Status: **ready for the parent’s cold editorial review and catalogue integration**. This is collector implementation QA, not independent editorial certification or publication approval. The commissioned audience is 14+; that is not a claim that all editions carry the same publisher age label.
 
@@ -80,3 +94,79 @@ At 390×844 with iPhone Safari user agent emulated in Chrome, the install guide 
 ## Handoff limitations
 
 Technical checks do not establish independent literary quality or full-book fidelity. The analytical depth is deliberately interpretation-heavy and its screen jobs/provenance are exposed for cold review. Remaining work belongs to the parent: cold editorial review, any requested corrections, catalogue/root integration and publication decision. Temporary research downloads, screenshots, scripts and native profiles are removed after the implementation checks. Only the four canonical files remain.
+
+
+---
+
+## 2026-10-31 pass 2 — final narrative implementation checks
+
+Status: **ready-for-independent-check only**. [Narrative report](../../editorial-audit/2026-10-31/books/the-wee-free-men-narrative-pass2.md) and [new acquisition](../../editorial-audit/2026-10-31/source-rescue/the-wee-free-men-pass2.md) supersede the old essay’s editorial/access state. Original history remains above; no fresh independent PASS or publication.
+
+### Final corpus and meaningful source boundary
+
+Old 96 RU/EN pairs were actually read and matched to the root effective embed. Replaced by **37 original pairs**, with connected prose saved first in `narrative-prose-pass2.md`. Every pair’s actual scene and consulted evidence is mapped in `source-map-pass2.json`. `contentMode` is genuinely narrative. The exact retained arc uses official opening and selected publisher passages plus selected primary quotations in attributed chapter criticism and substantial named event accounts. Complete novel/complete Russian translation were not read continuously; no new owned EPUB, OPF/spine or unabridged-edition verification is claimed. Scope/uncertainty is disclosed in Sources. No later Tiffany novel or film used.
+
+| Mode | Cumulative screens | RU / EN words, builder | RU / EN estimated minutes |
+| --- | ---: | ---: | ---: |
+| Essential | 13 | 639 / 777 | 4 / 4 |
+| Core | 23 | 1110 / 1335 | 7 / 7 |
+| Deep | 37 | 1814 / 2201 | 11 / 11 |
+
+Level populations 13 + 10 + 14, with level-1 cover and shared spoiler-safe final. Word counts include localized headings/subtitle; structural auditor excludes three cover-subtitle words and reports 1811 / 2198. Body-only Unicode token diagnostic: RU 1717 total, 24–57 per screen, mean 46.41; EN 2074 total, 25–71, mean 56.05. Bands are descriptive, not quotas. All three language/depth sequences read continuously; shallower modes deliberately leave the rescue unresolved.
+
+### Preserved shell / maintained build
+
+Used read-only installed `/Users/pn/.codex/skills/book-tiktok` builder. Built the new data/fonts/metadata into an external intermediate, then synchronized its generated corpus with this book’s released outer shell. Preserved same-book cover geometry, focus/install scripts and navigation; changed the cover’s analytical labels to book-specific labels. Installed Settings and compact icon header bytes were imported, not edited. Full Sans/Mono/Serif/Cyrillic fallback fonts and license texts are embedded. No remote runtime dependency.
+
+- Installed builder SHA-256: `29386ade13039878dbfd1ead72deae294ccf2dfb9181a71c63190bd8b7ee02e4`.
+- Installed template SHA-256: `11f556efa62134a9f4c2ecbcbc8e8271c1bb4157b29391ae3176ee446bf45ce9`.
+- Installed Settings adapter SHA-256: `49d323167a9175b60bd2f0d8d5f77d47fe92d82bcd0dca8d113d22414b945482`.
+- All four embedded WOFF2 buffers matched installed font files byte for byte; complete three upstream license files present. Browser platform-font records on Russian serif paragraphs showed actual Source Serif 4 and supported Geist Serif glyphs, not a renamed Mono/system substitute. Sans/Mono loaded in the matrix; Serif faces load only when selected.
+
+Default RU / dark / Essential. Essay saved-screen IDs are invalidated once by `contentRevision`, while language, legacy/global theme and global font preferences persist. Exact authoring→HTML screen/source/method equality verified; builder adds derived `modes` metadata only. No unreachable second corpus.
+
+### Structural and offline browser checks actually run
+
+Maintained `audit_story_html.mjs --min-screens 3 --require-bilingual`: **69 checks, zero warnings, zero failures**, final descriptive collector HTML. This minimum is merely structural; it does not ask the author to pad to 96 screens.
+
+Native Chrome `file://` only, external runtime blocked/offline emulation, unique temporary profile and dedicated ephemeral CDP endpoint per phase, `/usr/bin/timeout 30`, owned process-group/profile cleanup. No content server or `preview_*`.
+
+| Viewport | Visits across both fonts | IDs | Horizontal overflow | Unreachable final paragraph tails | Runtime exceptions / HTTP runtime requests |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 320×568 | 584 | 37 | 0 | 0 | 0 / 0 |
+| 390×844 | 584 | 37 | 0 | 0 | 0 / 0 |
+| 1024×768 | 584 | 37 | 0 | 0 | 0 / 0 |
+| 1440×900 | 584 | 37 | 0 | 0 | 0 / 0 |
+
+Total **2336 actual DOM-navigation visits** = (13+23+37) × two languages × two themes × two fonts × four viewports. Each title/counter selection was checked against the correct stable ID; every slide scrolled to its bottom and its last paragraph measured within the scrolling viewport. Desktop rail was visible, current item synchronized and within view. Layout matrix uses reduced-motion emulation and two animation frames; it does not represent a physical device or measure performance during animation. Native page runtime exceptions and attempted HTTP(S) runtime requests were zero; additional control/visual suites also collected zero console errors.
+
+Representative 320 and 1440 cover, English serif kitchen, Russian dark confrontation, shared final, and warning screenshots visually inspected. Preserved geometric cover, no publisher artwork. Prose-only corpus: no photo/list/comparison/chart layout invented merely to exercise a template.
+
+### Navigation, Settings, focus and spoiler checks
+
+- Native keyboard and pointer suites at 320 and 1440: ArrowRight, F, Escape, tap focus, horizontal pointer swipe, vertical-drag discrimination, Sources native Escape, final restart. Focus hides header/rail/progress/back/counter and keeps text/Next. These are Chrome pointer events, not physical phone touch tests.
+- RU/EN switching preserves stable screen. Settings changes theme/font without rendering a new story node, preserving nonzero phone scroll (80 px), selected depth and position. Settings closes back to its trigger. Native Sources dialog remains accessible; no per-screen academic badges.
+- Explicit Deep request opens native warning before mode/contents change; cancel and native Escape stay safe. Hidden late-ID navigation also requests consent before rendering title/body. Accept allows the action. Downgrading revokes consent, so re-entry warns again.
+- Saved late position: reload opens safe cover/contents; visible button is neutral `Продолжить` / `Continue`, with no remembered scene title. Continue warns; cancel does not reveal content; accept restores the exact stable late ID. Consent is closure-only, never persisted. Pagehide/pageshow revocation tested with synthetic page-transition events, not an actual bfcache navigation journey.
+- Storage-denial phase overrides localStorage/sessionStorage methods to throw; reading, Settings, navigation/focus and native spoiler cancellation still work in the open document.
+- Chrome with iPhone Safari user agent: install guide appears after its existing 450ms delay, closes/reopens, hides in focus. Six visible controls remain one row; with 24px simulated safe top all were at y=47 and x=12…378 inside 390 px. Injected `navigator.standalone=true` suppresses guide and trigger. No physical Safari/iPhone/PWA install/hosting claim.
+
+Test-harness corrections, retained honestly: wrong initial radio selector names; animation measured before settling; oversized combined-font phase exceeded request bound; native Escape initially omitted virtual-key codes; desktop pointer coordinates initially landed in the rail; iOS auto-guide was first asserted before its 450ms delay. Corrected harness and bounded per-font phases then passed. Artifact content/guard was not silently skipped to turn these into success. Four early completed Node harness processes that held their handles open were explicitly stopped; no associated Chrome/profile remained. Final harness exits explicitly after owned cleanup.
+
+### Handoff scope
+
+Files/hashes are in the ready manifest. Private source sample, intake backups, build scripts, raw QA JSON and screenshots stay outside the public repository. The only public deliverables changed are the assigned collector package and new pass-2 reports/ready manifest. Root reader SHA-256 remains `8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3`; catalogue/root/home/shared shell/installed skill/original audit/rescue/Git/PR/deploy were not changed. No source purchase, credential use, external message or subagent. Independent literary check is still required before a publisher decides to integrate.
+
+
+### 2026-10-31 pass 2 — final targeted assertions
+
+Additional final browser suites checked **146 counter/progress selections** (all nested modes × RU/EN) against exact 13/23/37 values and embedded metadata; seeded old essay revision/Deep/late ID were invalidated safely; English warning/cancel/accept and pre-consent title withholding passed. No runtime/console errors or HTTP(S) runtime requests. These supplement the 2336 layout visits without inflating that matrix count.
+
+Deploy/review the exact submitted HTML hash. A fresh generic builder output alone lacks this book-local volatile consent integration; preserve/reapply the reviewed guard when synchronizing Settings or rebuilding. The working intermediate and integration script were kept privately outside public Git; no shared builder/installed-skill change is part of this package.
+
+
+## Parent local correction — 2026-10-31
+
+WFM-NP2-F01: corrected only the reflexive object in eggs-in-the-henhouse, RU грели → грелись and EN them → themselves. The Feegles’ excuse is that they were warming themselves under the hen, not warming eggs/stones. Parent checked the actual Pratchett henhouse dialogue reproduced in official Puffin Schools Resource Three, PDF page21/index20; classroom invention prompts are not used as novel actions. Source2 mapping, every other36 pair, IDs/levels/order/counts and all outer runtime/Settings/fonts/consent code remain unchanged. The connected manuscript is synchronized. No full primary novel reading or independent self-PASS claimed.
+
+Parent focused regression: 48 checks passed; the corrected paragraph rendered exactly in Essential/Core/Deep in both languages,13/23/37 totals, complete body tails, zero horizontal overflow. The original body36otherpairs, runtime and reviewed guards remain unchanged. Zero runtime exceptions/remote requests; owned Chrome/process/profile cleaned. Existing large matrices remain historical; no physical Safari/PWA claim or self-issued independent PASS.

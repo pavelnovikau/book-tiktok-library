@@ -1,0 +1,53 @@
+{
+  "phase": "release09-metadata",
+  "origin": "owned-local-CDP-fixtures",
+  "checks": [
+    {
+      "slug": "skin-in-the-game",
+      "language": "ru",
+      "label": "Продолжить: Глубоко",
+      "explicitDestination": true,
+      "exactTarget": true,
+      "startOverEssential": true
+    },
+    {
+      "slug": "skin-in-the-game",
+      "language": "en",
+      "label": "Continue: Deep",
+      "explicitDestination": true,
+      "exactTarget": true,
+      "startOverEssential": true
+    },
+    {
+      "slug": "mindfulness",
+      "language": "ru",
+      "label": "Продолжить: Глубоко",
+      "explicitDestination": true,
+      "exactTarget": true,
+      "startOverEssential": true
+    },
+    {
+      "slug": "mindfulness",
+      "language": "en",
+      "label": "Continue: Deep",
+      "explicitDestination": true,
+      "exactTarget": true,
+      "startOverEssential": true
+    },
+    {
+      "finding": "CM-02",
+      "aliasSearch": true
+    },
+    {
+      "finding": "CM-01",
+      "readerMetadata": true
+    },
+    {
+      "finding": "TPS2-L10N-001",
+      "derivedLabel": true
+    }
+  ],
+  "physicalIPhone": false,
+  "scope": "Focused release09 integration controls; immutable independent literary reviews remain separate.",
+  "runtimeErrors": 0
+}

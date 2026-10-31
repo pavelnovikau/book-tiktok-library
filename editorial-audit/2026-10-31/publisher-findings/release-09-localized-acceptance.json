@@ -1,0 +1,152 @@
+{
+  "release": "09",
+  "atUtc": "2026-10-31T22:40:25.863340+00:00",
+  "scope": "Bounded publisher closure of three corrected narratives and one metadata correction; five unchanged full independent PASS packages separately accepted.",
+  "originalReviewsModified": false,
+  "wholeEditionCertified": false,
+  "reconstructedBindings": "editorial-audit/2026-10-31/publisher-findings/release-09-proof/reviewed-baseline-bindings.json",
+  "accepted": [
+    {
+      "findingIds": [
+        "FFA-01",
+        "FFA-02"
+      ],
+      "checkedScreens": [
+        "warren-visit"
+      ],
+      "sourceValidation": "Directly read the selected Nemur/Charlie exchange in Ullyatt, which reproduces Heinemann1989 pp153–154; SparkNotes Report15 independently attributes the contingency to Nemur. Both current openings remove Burt. The separate Burt lab tour remains distinct; current scene maps23/24 and qualifies conflicting guide11. No full novel or whole article reading claimed.",
+      "urls": [
+        "https://literator.org.za/index.php/literator/article/view/1076/1461",
+        "https://www.sparknotes.com/lit/algernon/section6/"
+      ],
+      "runtimeValidation": "Preserved the exact parent setMode revocation/pending-action cancellation delta; final integrated RU/EN consent, Escape, both downgrades, hidden-ID and reload checked separately.",
+      "slug": "flowers-for-algernon",
+      "decision": "accepted-bounded-publisher-closure",
+      "originalReviewPath": "editorial-audit/2026-10-31/reviews/flowers-for-algernon.json",
+      "originalReviewSha256": "326d9808eb37482f0fd66358e932aee585adabdb404dd35bc516bb3db6fe7a1c",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/flowers-for-algernon-meaning-fix-closure.json",
+      "parentClosureSha256": "60341efd214d2237b1be8f62c44efb3fc236393d4e5fc977cf80c5d2eb2f7ce1",
+      "sourceJsonSha256": "fe553ef03afb5a8f070b9be9159e5b1f795ceb5b8aba2943904ebeecdf384d1e",
+      "sourceHtmlSha256": "70336f5d5a44e35c3df8afba01019bd01944725935afaed1532342daa707d2a1",
+      "rootSha256": "5ec8c9cd819cc1f76b8e7f1c303fdb2ab961b9dd43d20e4ed707bdcbb96bd896",
+      "baselineReconstruction": {
+        "slug": "flowers-for-algernon",
+        "originalReviewSha256": "326d9808eb37482f0fd66358e932aee585adabdb404dd35bc516bb3db6fe7a1c",
+        "authoringReconstructedExactly": true,
+        "authoringHash": "e879a91a337e47d6019e6b58a0e16b318ed057f0096f4f76f1b786b7d316886f",
+        "htmlReconstructedExactly": true,
+        "htmlHash": "77dab3112a1a907fd0856acaf73ac3fc38a98fa4ee84a248f38d1f6ce48c4f97",
+        "expectedHtmlHash": "77dab3112a1a907fd0856acaf73ac3fc38a98fa4ee84a248f38d1f6ce48c4f97",
+        "allAfterHashesMatch": true,
+        "allOtherPairsUnchanged": 33,
+        "changedScreens": [
+          "warren-visit"
+        ],
+        "reorderedScreens": []
+      }
+    },
+    {
+      "findingIds": [
+        "NES-ORDER-001"
+      ],
+      "checkedScreens": [],
+      "reorderedScreens": [
+        "the-price",
+        "acharis"
+      ],
+      "sourceValidation": "Directly read SuperSummary Chapter XVIII event account: Atreyu warning precedes the cave encounter and wish. DNB printed148/PDF152 remains original independent-reviewer evidence, not fresh publisher reading. Every35 pair field and both shallow route orders remain exact; no added scene.",
+      "urls": [
+        "https://www.supersummary.com/the-neverending-story/chapters-13-18-summary/"
+      ],
+      "slug": "the-neverending-story",
+      "decision": "accepted-bounded-publisher-closure",
+      "originalReviewPath": "editorial-audit/2026-10-31/reviews/the-neverending-story.json",
+      "originalReviewSha256": "1901f7693e9fff1648ba9ac84ee0b3b5dea1b4c9cbcdd33d626936d73742a877",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/the-neverending-story-meaning-fix-closure.json",
+      "parentClosureSha256": "063c5dda0a07a954f6e3e83e230190e0b370cff856d54df1e39913f6d1ea6089",
+      "sourceJsonSha256": "da4a99eac3c2b86fababf87d029d926ace951829621ea8de04b582e118d1e9c8",
+      "sourceHtmlSha256": "df8ae074ed01b241a5a5fc7a45923ae6a81f4b8127602e0b62e0a3d80516bbc9",
+      "rootSha256": "14e142eaddb500f949b7835b5457be08cd391e979c91647b839d2a8e4a82c2f3",
+      "baselineReconstruction": {
+        "slug": "the-neverending-story",
+        "originalReviewSha256": "1901f7693e9fff1648ba9ac84ee0b3b5dea1b4c9cbcdd33d626936d73742a877",
+        "authoringReconstructedExactly": true,
+        "authoringHash": "b79d5a180c0a2e5e62352ea4372692695b22f4c7185f049ad3af777be99c4b37",
+        "htmlReconstructedExactly": true,
+        "htmlHash": "9bed696886c77c4abbe200a354cff0859c6e25a465469ddf9e248e1429e69b58",
+        "expectedHtmlHash": "9bed696886c77c4abbe200a354cff0859c6e25a465469ddf9e248e1429e69b58",
+        "allAfterHashesMatch": true,
+        "allOtherPairsUnchanged": 33,
+        "changedScreens": [],
+        "reorderedScreens": [
+          "the-price",
+          "acharis"
+        ],
+        "originalSerializer": {
+          "indent": 0,
+          "escapedClosingSlashes": true
+        }
+      }
+    },
+    {
+      "findingIds": [
+        "WFM-NP2-F01"
+      ],
+      "checkedScreens": [
+        "eggs-in-the-henhouse"
+      ],
+      "sourceValidation": "Directly read official Puffin Resource3 PDF21/index20 text and screenshot. The excuse concerns the Feegles warming themselves under the hen; reflexive meaning is now retained in both languages. Other36 pairs and all source mappings unchanged.",
+      "urls": [
+        "https://www.puffinschools.co.uk/wp-content/uploads/2018/02/Wee-Free-Men-Terry-Pratchett-resource.pdf"
+      ],
+      "slug": "the-wee-free-men",
+      "decision": "accepted-bounded-publisher-closure",
+      "originalReviewPath": "editorial-audit/2026-10-31/reviews/the-wee-free-men-narrative-pass2.json",
+      "originalReviewSha256": "f4f26dc6d92fe8d5bca9a27c1c019723a4f978f0f7fd8da0fe775de98f7f45de",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/the-wee-free-men-meaning-fix-closure.json",
+      "parentClosureSha256": "c7a26dc73f86dba90f3996f7a570ea07c8480ed8864a9ba700db590247523118",
+      "sourceJsonSha256": "67d51684a25eb80627ccaeafeddf8e153bf62f5ea26e83be0f214b8a9a73d2d3",
+      "sourceHtmlSha256": "b1f3693cf46a197351c283942903ca35138932ba8d5492e75ed4a227fa5e4797",
+      "rootSha256": "fc78c7757cc91692f6e8f18dbb86e03938b34c242f4fd0541624453b305cf558",
+      "baselineReconstruction": {
+        "slug": "the-wee-free-men",
+        "originalReviewSha256": "f4f26dc6d92fe8d5bca9a27c1c019723a4f978f0f7fd8da0fe775de98f7f45de",
+        "authoringReconstructedExactly": true,
+        "authoringHash": "d66af1ab4eb172bf0a1dc0d95c8190e549e116b3609db3686689535fba735efe",
+        "htmlReconstructedExactly": true,
+        "htmlHash": "5c9cb342f7b45ad622a120809b76f3f157d6c8cbbf8d766091e1f5e820d55335",
+        "expectedHtmlHash": "5c9cb342f7b45ad622a120809b76f3f157d6c8cbbf8d766091e1f5e820d55335",
+        "allAfterHashesMatch": true,
+        "allOtherPairsUnchanged": 36,
+        "changedScreens": [
+          "eggs-in-the-henhouse"
+        ],
+        "reorderedScreens": [],
+        "originalSerializer": {
+          "indent": 0,
+          "escapedClosingSlashes": true
+        }
+      }
+    },
+    {
+      "findingIds": [
+        "CM-01"
+      ],
+      "checkedScreens": [],
+      "sourceValidation": "Bibliographic correction relies on the original independent reviewer’s author-biography reading/indexed evidence. This publisher repeat fetch timed out; no new direct bio reading claimed. First novel in Lowry’s cycle/Giver Quartet replaces the author-debut claim; root27 pairs, sources, previous GIV001 actor repair and runtime exact.",
+      "urls": [
+        "https://loislowry.com/biography/"
+      ],
+      "slug": "the-giver",
+      "decision": "accepted-bounded-publisher-closure",
+      "originalReviewPath": "editorial-audit/2026-10-31/publisher-findings/catalogue-meaning-after-rewrite-review.json",
+      "originalReviewSha256": "361a0036c7b84b626cdb437bba2b3cea6f8405ad6dfe03bc8fd21962e0c41656",
+      "parentClosure": "editorial-audit/2026-10-31/publisher-findings/the-giver-metadata-fix-closure.json",
+      "parentClosureSha256": "6e7ca987b59f1316555f2f317a19d114b88c85f8202f46b3bd05b05feb7e70a1",
+      "sourceJsonSha256": "26ae464f750981efbc9d8e24413cd4e310c890044003cb86db7c83e0fa8c0504",
+      "sourceHtmlSha256": "7e258aeaf2be30e73eec25b6d8ccfa9e8c028f8fb87fcac5db2b7c45d0833bb3",
+      "rootSha256": "ae5e8cd59a0247def79ac93ccac48e378838ea04a8dc2eb46da2843f5257f9ef",
+      "baselineReconstruction": null
+    }
+  ]
+}

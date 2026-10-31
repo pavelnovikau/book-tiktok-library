@@ -1,0 +1,2357 @@
+{
+  "schemaVersion": 2,
+  "slug": "make-time",
+  "title": {
+    "ru": "Найди время — Джейк Кнапп и Джон Зерацки",
+    "en": "Make Time — Jake Knapp and John Zeratsky"
+  },
+  "description": {
+    "ru": "Выбрать Главное, защитить внимание, поддержать энергию и учиться на каждом дне. Аналитическая история по русскому EPUB.",
+    "en": "Choose a Highlight, protect attention, support energy, and learn from each day. An analytical story based on the Russian EPUB."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "deep",
+  "targetModes": {
+    "essential": 30,
+    "core": 72,
+    "deep": 112
+  },
+  "methodNote": {
+    "ru": "Аналитический пересказ предоставленного русского EPUB (ISBN 9785961420517), а не текст книги. Английская версия переводит этот анализ. Основной источник — EPUB; его публичная ссылка ведёт к библиографической странице. Локаторы разделов и тактик приведены в sources.md. Метки различают аргумент книги, независимую проверку и синтез конспекта. Личные примеры и 87 тактик не являются универсально доказанными протоколами; весь цикл как единая система здесь независимо не проверен. Научные источники проверяют только узкие утверждения.",
+    "en": "An analytical paraphrase of the supplied Russian EPUB (ISBN 9785961420517), not the book text. English translates this analysis. The main source is the EPUB; its public link is bibliographic. Section and tactic locators are recorded in sources.md. Labels separate book arguments, independent corroboration, and digest synthesis. Personal examples and the 87 tactics are not universally proven protocols; the whole loop has not been independently validated here. Scientific sources address only narrow claims."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Make Time / «Найди время» — supplied RU EPUB, ISBN 9785961420517",
+      "url": "https://www.penguinrandomhouse.com/books/564727/make-time-by-jake-knapp-and-john-zeratsky/",
+      "role": "book",
+      "note": {
+        "ru": "Основной источник — предоставленный EPUB: разделы и тактики 1–87. Ссылка ведёт к библиографической странице, не к полному тексту; точные локаторы — в sources.md.",
+        "en": "The supplied Russian EPUB is the main source: sections and tactics 1–87. Link is bibliographic, not the full text; exact locators are in sources.md."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Penguin Random House — Make Time",
+      "url": "https://www.penguinrandomhouse.com/books/564727/make-time-by-jake-knapp-and-john-zeratsky/",
+      "role": "publisher",
+      "note": {
+        "ru": "Идентификация оригинала 2018 года и заявленный гибкий подход; не проверка эффективности.",
+        "en": "Identifies the 2018 original and its flexible scope; not an effectiveness test."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Make Time — official framework",
+      "url": "https://maketime.blog/",
+      "role": "author",
+      "note": {
+        "ru": "Четыре шага и персонализация. Современные курсы и отзывы не заменяют доказательств.",
+        "en": "Four steps and personalization. Current courses and testimonials are not efficacy evidence."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Jake Knapp — Inside Intercom interview (2018)",
+      "url": "https://www.intercom.com/blog/podcasts/jake-knapp-on-making-time-for-your-most-important-work/",
+      "role": "author",
+      "note": {
+        "ru": "Развёрнутое объяснение настроек по умолчанию, спринтов и командной работы самим автором.",
+        "en": "Long-form author explanation of defaults, sprints, and teamwork."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Make Time — Tools & Resources",
+      "url": "https://maketime.blog/tools/",
+      "role": "author",
+      "note": {
+        "ru": "Заметки по итогам дня и выбор тактик; приложения не обязательны.",
+        "en": "Daily notes and tactic selection; apps are optional."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Drake et al. (2013) — Caffeine effects on sleep",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24235903/",
+      "role": "primary",
+      "note": {
+        "ru": "400 мг, 12 здоровых участников: нарушение сна даже за 6 часов до него. Не универсальное время отсечения.",
+        "en": "400 mg in 12 healthy participants: sleep disruption even 6 hours before bedtime. Not a universal cutoff."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Oppezzo & Schwartz (2014) — Give your ideas some legs",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24749966/",
+      "role": "primary",
+      "note": {
+        "ru": "Четыре эксперимента: ходьба и генерация идей. Не доказательство роста любой умственной эффективности.",
+        "en": "Four experiments on walking and idea generation. Not evidence that every cognitive task improves."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Alan Black — Blackad bookshelf: Make Time",
+      "url": "https://www.blackad.co.uk/make-time-review/",
+      "role": "review",
+      "note": {
+        "ru": "Независимая положительная рецензия с возражением против крайних ограничений Wi-Fi. Не эксперимент.",
+        "en": "Independent favorable review questioning extreme Wi-Fi restrictions. Not a trial."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Найди время",
+          "body": "<p>Джейк Кнапп и Джон Зерацки предлагают перестроить день вокруг того, что действительно важно. Не выполнить всё, а выбрать Главное, защитить внимание, поддержать энергию и проверить, что сработало. Аналитическая история по предоставленному русскому EPUB: полный аргумент в Essential, механизмы и примеры в Core, эксперименты и ограничения в Deep.</p>",
+          "subtitle": "Как фокусироваться на Главном · 2018"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Make Time",
+          "body": "<p>Jake Knapp and John Zeratsky propose redesigning the day around what actually matters. Choose a Highlight, protect attention, sustain energy, and learn what worked. This analytical story uses the supplied Russian EPUB: Essential contains the complete argument, Core adds mechanisms and cases, and Deep explores experiments and limits.</p>",
+          "subtitle": "How to Focus on What Matters Every Day · 2018"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "memorable-day",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "День может быть полным и всё же пустым",
+          "body": "<p>Вечером можно помнить десятки ответов и ни одного важного момента. Вопрос книги — не как быстрее обработать день, а как выделить время для того, что хочется в нём увидеть. Главное может относиться к работе, семье или удовольствию: ценность не определяется количеством завершённых задач.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "A full day can still feel empty",
+          "body": "<p>At night you may remember dozens of replies but no important moment. The book asks how to make room for something you want the day to contain, rather than merely process the day faster. That something may concern work, family, or enjoyment; its value is not measured by completed-task counts.</p>"
+        }
+      }
+    },
+    {
+      "id": "busy-bandwagon",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Занятость становится чужим планом на вашу жизнь",
+          "body": "<p>Движение Занятых делает переполненный календарь признаком серьёзности. Срочные сообщения и встречи получают место автоматически, а собственные намерения ждут свободного окна. Авторы критикуют именно эту норму: когда скорость реакции считается успехом, можно весь день действовать эффективно и ни разу не выбрать направление самостоятельно.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Busyness lets other people plan your life",
+          "body": "<p>The Busy Bandwagon makes a crowded calendar a badge of seriousness. Messages and meetings receive space automatically while personal intentions wait for an opening. The authors challenge that norm: when responsiveness becomes the measure of success, you can work efficiently all day without once choosing your own direction.</p>"
+        }
+      }
+    },
+    {
+      "id": "infinity-pools",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Бесконечный контент не подаёт сигнала остановиться",
+          "body": "<p>Бассейны Бесконечности — источники, где всегда можно обновить ленту или получить ещё порцию интересного. После рабочего напряжения они выглядят наградой, но поглощают освободившиеся минуты. Проблема не сводится к конкретной соцсети: важна архитектура без естественного конца и привычка входить в неё при малейшей скуке.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Endless content provides no stopping cue",
+          "body": "<p>Infinity Pools are sources where refreshing or continuing always reveals another interesting item. After demanding work they look like a reward, yet absorb the minutes left over. The problem extends beyond any particular social network: an architecture without a natural ending meets a habit of entering whenever boredom appears.</p>"
+        }
+      }
+    },
+    {
+      "id": "defaults",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Незаметный выбор уже сделан за вас",
+          "body": "<p>Уведомления включены, встречи занимают стандартные интервалы, гостиная обращена к телевизору. Такие настройки не обязательно продуманы под вашу жизнь, но продолжают действовать, пока вы их не меняете. Центральный ход книги — обращаться с устройствами, календарём и привычками как с редактируемым дизайном, а не как с неизменными условиями.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "The invisible choice has already been made",
+          "body": "<p>Notifications arrive, meetings occupy standard slots, and living rooms face televisions. These arrangements need not have been designed for your life, yet persist until you change them. The book’s central move is to treat devices, calendars, and habits as editable design rather than fixed conditions you simply have to accept.</p>"
+        }
+      }
+    },
+    {
+      "id": "efficiency-trap",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Быстрее отвечать не значит выбирать лучше",
+          "body": "<p>Джейк пытался стать производительнее, чтобы успевать домой к ужину. Формально это удалось, но дома внимание оставалось в телефоне. Для авторов это провал прежнего критерия: освобождённое время снова заполняется входящим. Поэтому эффективность полезна лишь после решения, ради чего нужна свобода, — сама по себе она этого решения не принимает.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Faster replies do not mean better choices",
+          "body": "<p>Jake tried to become more productive so he could get home for dinner. He succeeded on the clock, yet his attention stayed with his phone at home. The authors see this as a failure of the old criterion: incoming demands refill the space efficiency creates. Efficiency needs a chosen purpose; it cannot supply that purpose itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "phone-origin",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Вопрос сына обнаружил разрыв между намерением и вниманием",
+          "body": "<p>В начале книги Джейк рассказывает, как отвлекался на iPhone, пока сыновья играли рядом. Удаление социальных приложений и Gmail принесло ему неожиданное облегчение. Это личный поворот, а не доказательство, что каждому нужно то же самое: пример показывает, как изменить доступность привычного отвлечения вместо обещания быть дисциплинированнее.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "His son exposed the gap between intention and attention",
+          "body": "<p>Early in the book Jake describes checking his iPhone while his sons played nearby. Removing social apps and Gmail brought unexpected relief. This is a personal turning point, not proof that everyone needs the same setup. It illustrates changing access to a habitual distraction instead of promising to become more disciplined.</p>"
+        }
+      }
+    },
+    {
+      "id": "loop",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Четыре шага образуют петлю обучения",
+          "body": "<ol class=\"steps\"><li>Highlight — выбрать Главное.</li><li>Laser — убрать помехи и сосредоточиться.</li><li>Energize — заботиться о теле, чтобы поддержать внимание.</li><li>Reflect — заметить результат и изменить подход.</li></ol><p>Энергия нужна весь день, а осмысление влияет на следующий: это повторяемая петля, а не четыре жёстко отгороженных блока расписания.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Four steps form a learning loop",
+          "body": "<ol class=\"steps\"><li>Highlight chooses what matters today.</li><li>Laser removes obstacles and focuses attention.</li><li>Energize cares for the body that supports attention.</li><li>Reflect notices results and adjusts the approach.</li></ol><p>Energy matters throughout the day, and reflection shapes tomorrow: these steps form a recurring learning loop rather than four rigidly separated calendar blocks.</p>"
+        }
+      }
+    },
+    {
+      "id": "sprint-laboratory",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Спринты дали авторам рабочую лабораторию",
+          "body": "<p>В дизайнерских спринтах команда несколько дней решала одну задачу, ограничив обычные встречи и устройства. Авторы заметили пользу общего фокуса, барьеров для отвлечений, управления энергией и повторного улучшения процесса. Это источник их гипотез о повседневности, но наблюдение за специально организованной командой ещё не доказывает эффективность всей системы в любой жизни.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Design sprints supplied a working laboratory",
+          "body": "<p>In design sprints a team spent several days on one challenge while limiting ordinary meetings and device use. The authors noticed the value of shared focus, distraction barriers, energy management, and repeated process improvement. These observations generated their daily-life hypotheses; a specially organized team is not proof that the whole system works in every life.</p>"
+        }
+      }
+    },
+    {
+      "id": "inside-products",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Инсайдерский опыт объясняет соблазн, но не даёт клинического доказательства",
+          "body": "<p>Джейк работал над Gmail, Джон — над YouTube. Они описывают, как любовь к продукту, измерение вовлечённости и конкуренция делают сервисы всё привлекательнее. Это не рассказ о тайном заговоре. Дизайнеры могут искренне помогать людям и одновременно усиливать привычку возвращаться — а интерес пользователя к собственной жизни не совпадает с метрикой сервиса.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "Insider experience explains attraction, not clinical efficacy",
+          "body": "<p>Jake worked on Gmail and John on YouTube. They describe how enthusiasm for a product, engagement measurement, and competition make services increasingly compelling. Their account does not require a secret conspiracy. Designers can sincerely help people while strengthening return habits, and a service’s metric need not match the user’s priorities for life.</p>"
+        }
+      }
+    },
+    {
+      "id": "experiments",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "87 тактик — меню экспериментов, а не обязанностей",
+          "body": "<p>Авторы предлагают выбрать по одной тактике для Главного, фокуса и энергии, а вечером оценить результат. Не нужно выполнять все 87 или каждый день изобретать новое. Подходящий приём можно повторять; неудачный — изменить либо отбросить. Персонализация здесь является частью метода, а не исключением для тех, кто не справился.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "The 87 tactics are experiments, not obligations",
+          "body": "<p>The authors suggest choosing one tactic for the Highlight, one for focus, and one for energy, then reviewing the result at night. There is no need to perform all 87 or invent a new routine daily. Keep what works; modify or drop what does not. Personalization is part of the method, not an exemption for people who fail.</p>"
+        }
+      }
+    },
+    {
+      "id": "no-perfection",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Вернуть себе день",
+          "title": "Идеальная система способна стать новым отвлечением",
+          "body": "<p>Даже авторы не используют все тактики постоянно. Джейк возвращает почту на телефон в поездках, Джон иногда смотрит сериал запоем. Смысл этих признаний — не отменить намерение, а разрешить менять настройки под обстоятельства. Пропущенный день не обнуляет предыдущий опыт; следующий день позволяет снова выбрать полезное действие.</p>"
+        },
+        "en": {
+          "section": "I · Reclaim the day",
+          "title": "The perfect system can become another distraction",
+          "body": "<p>Even the authors do not use every tactic all the time. Jake reinstalls phone email when traveling, and John sometimes binges a series. These admissions permit settings to change with circumstances without abandoning intention. A missed day does not erase earlier learning; the next day offers another opportunity to choose a useful action.</p>"
+        }
+      }
+    },
+    {
+      "id": "middle-size",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Главное связывает большую цель с сегодняшним днём",
+          "body": "<p>Долгосрочная цель задаёт направление, но слишком велика для одного дня; мелкие поручения легко вытесняют её из поля зрения. Главное занимает промежуточный масштаб: заметный шаг, занятие или момент, которому вы заранее отдаёте приоритет. Это не единственное дело дня, а его выбранная точка фокусировки, по которой вечером можно понять, на что ушло внимание.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A Highlight connects a large goal with today",
+          "body": "<p>A long-term goal supplies direction but exceeds one day; small errands can obscure it entirely. A Highlight occupies the middle scale: a meaningful step, activity, or moment you decide to prioritize. It is not the day’s only task. It is a chosen focal point that lets you recognize where your attention went.</p>"
+        }
+      }
+    },
+    {
+      "id": "three-tests",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Срочность, удовлетворение и радость дают три входа",
+          "body": "<p>Выбор начинается с трёх вопросов: что сегодня действительно нельзя отложить; какое продвижение принесёт удовлетворение вечером; какое переживание порадует само по себе? Это альтернативные основания, а не баллы в обязательной формуле. Иногда приоритетом станет рабочий дедлайн, иногда давно отложенный проект, иногда время с ребёнком без иной пользы.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Urgency, satisfaction, and joy offer three entry points",
+          "body": "<p>Ask what genuinely cannot wait today, which progress would feel satisfying tonight, or which experience would bring joy in itself. These are alternative grounds for choice, not points in a mandatory formula. One day brings a work deadline, another a neglected project, another time with a child that requires no further justification.</p>"
+        }
+      }
+    },
+    {
+      "id": "size-heuristic",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "60–90 минут — ориентир масштаба, не закон мозга",
+          "body": "<p>Авторы советуют выбирать Главное примерно на 60–90 минут: достаточно, чтобы погрузиться и сделать нечто значимое, но не перестраивать всю жизнь. Это их практическое правило, а не установленная для каждого биологическая норма. Если обстоятельства требуют меньшего окна или нескольких этапов, важно сохранить ясность выбранного занятия, а не поклоняться числу.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "60–90 minutes is a sizing guide, not a law of the brain",
+          "body": "<p>The authors suggest a Highlight of roughly 60–90 minutes: enough to settle in and accomplish something meaningful without redesigning an entire life. This is their practical rule, not an established biological norm for everyone. If circumstances allow a smaller window or require stages, preserve clarity about the activity rather than treating the number as sacred.</p>"
+        }
+      }
+    },
+    {
+      "id": "urgency-case",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Дедлайн заслуживает Главного только после выбора",
+          "body": "<p>При срочном выборе ищут дело существенного масштаба: закончить предложение клиенту или помочь ребёнку с завтрашним проектом. Не каждое письмо становится Главным лишь потому, что пришло сейчас. Критерий отличает реальное последствие задержки от громкости сигнала и позволяет направить внимание туда, где сегодняшний шаг действительно нужен.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A deadline earns Highlight status through selection",
+          "body": "<p>For an urgent Highlight, look for something substantial, such as finishing a client proposal or helping a child with a project due tomorrow. An email does not become the Highlight merely by arriving now. The test distinguishes consequences of delay from loud signals and directs attention where today’s progress genuinely matters.</p>"
+        }
+      }
+    },
+    {
+      "id": "satisfaction-case",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Несрочный проект иначе всегда проиграет входящим",
+          "body": "<p>Удовлетворяющее Главное помогает сдвинуть дело, которое важно, но никого не заставляет напоминать о себе: набросать часть главы, разобраться с будущей поездкой, подготовить замысел. Здесь нет обещания завершить мечту за день. Есть выбранный фрагмент работы, после которого можно увидеть продвижение и перестать бесконечно переносить начало на когда-нибудь.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "An unhurried project otherwise keeps losing to incoming work",
+          "body": "<p>A satisfying Highlight advances something important that nobody else is prompting: drafting part of a chapter, investigating a future trip, or developing an idea. There is no promise to finish a dream in a day. There is a chosen piece of work that makes progress visible and ends the habit of indefinitely postponing a start.</p>"
+        }
+      }
+    },
+    {
+      "id": "joy-legitimate",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Радость не обязана оправдываться производительностью",
+          "body": "<p>Игра, чтение, музыка или встреча могут быть Главным без карьерного результата. Для авторов напрасно потраченное время связано прежде всего с бессознательной реакцией, а не с отсутствием полезного продукта. Выбрав удовольствие намеренно, вы не проваливаете систему: возвращаете себе право решать, каким воспоминанием наполнить день.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Joy need not justify itself through productivity",
+          "body": "<p>Play, reading, music, or a visit can be the Highlight without producing a career result. The authors connect wasted time primarily with unchosen reaction rather than the absence of a useful output. Choosing enjoyment deliberately does not fail the system; it restores your authority to decide which memory the day will contain.</p>"
+        }
+      }
+    },
+    {
+      "id": "write-choice",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Запись превращает смутное намерение в выбранное дело",
+          "body": "<p>Тактика 1 предлагает записать Главное. Важен переход от множества возможностей к одному ясному решению, которое можно увидеть и вспомнить. Авторы приписывают записи усиление намерения, но не предлагают считать её гарантией исполнения. Одного названия недостаточно, если в календаре нет места или входящие по-прежнему получают преимущество.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Writing turns a vague intention into a chosen activity",
+          "body": "<p>Tactic 1 asks you to write down the Highlight. The useful transition is from many possibilities to a decision you can see and recall. The authors treat writing as a way to strengthen intention, not a guarantee of completion. A title alone cannot protect time if the calendar has no room and incoming demands still take priority.</p>"
+        }
+      }
+    },
+    {
+      "id": "groundhog",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Повтор вчерашнего выбора экономит новое решение",
+          "body": "<p>Тактика 2 разрешает сделать вчерашнее Главное сегодняшним: продолжить незавершённое или повторить занятие, которое оказалось ценным. Каждому дню не требуется новый сюжет. Приём убирает давление новизны и полезен, когда смысл сохраняется, но требует честно проверить, продолжаете ли вы важное дело или просто избегаете нового выбора.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Repeating yesterday’s choice saves another decision",
+          "body": "<p>Tactic 2 allows yesterday’s Highlight to become today’s: continue unfinished work or repeat an activity that proved valuable. Each day does not need a new plot. This removes pressure for novelty when the purpose still holds, while requiring an honest check that repetition serves something important rather than merely avoiding another choice.</p>"
+        }
+      }
+    },
+    {
+      "id": "rank-life",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Жизненные приоритеты помогают пережить конфликт ролей",
+          "body": "<p>В тактике 3 авторы предлагают явно расположить крупные области жизни по важности. Когда одновременно требуют внимания работа, семья и личный проект, общий список снижает колебания при выборе Главного. Такой порядок отражает текущий сезон жизни, а не вечный рейтинг человеческих ценностей; пересматривать его допустимо, когда меняются обязательства и желания.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Life priorities help resolve competing roles",
+          "body": "<p>Tactic 3 makes the relative importance of major life areas explicit. When work, family, and a personal project compete, an overall ranking can reduce hesitation about a Highlight. The order describes the current season of life rather than an eternal ranking of human values; changing obligations and desires can justify revising it.</p>"
+        }
+      }
+    },
+    {
+      "id": "batch-small",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Мелочи иногда заслуживают одного общего окна",
+          "body": "<p>Тактика 4 объединяет накопившиеся небольшие дела в одно Главное. Освободить место от писем, звонков и бытовых хвостов бывает удовлетворяющим результатом. Оговорка авторов существенна: это периодическая уборка, а не повседневный способ объявлять реактивную занятость своей высшей целью. Иначе пакетная обработка просто переименует прежний режим.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Small tasks sometimes deserve one shared window",
+          "body": "<p>Tactic 4 bundles accumulated small tasks into one Highlight. Clearing messages, calls, and household loose ends can be satisfying. The authors add an important qualification: use this as occasional maintenance rather than a daily way of declaring reactive busyness your highest aim. Otherwise batching merely gives the old default a new name.</p>"
+        }
+      }
+    },
+    {
+      "id": "might-do",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Список возможностей отделяет хранение от обязательства",
+          "body": "<p>В тактике 5 Джон хранит возможные дела отдельно, а в календарь переносит только выбранное Главное. Так список не диктует повестку и не требует погасить все пункты. Это особенно полезно для большого проекта: сохранить задачи нужно, но решать, какой из них заняться сегодня, следует отдельно от процесса их накопления.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A Might-Do List separates storage from commitment",
+          "body": "<p>In tactic 5 John keeps possible tasks in a Might-Do List and moves a chosen Highlight into the calendar. The list stores options without dictating the agenda or demanding that every item disappear. A large project needs task storage, but deciding what deserves today should remain separate from accumulating everything that could be done.</p>"
+        }
+      }
+    },
+    {
+      "id": "burner-list",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Ограниченный список делает отказ видимым",
+          "body": "<p>В тактике 6 Джейк отводит лист главному проекту, второму проекту и небольшому набору остальных дел. Кухонная метафора важна ограничением: нельзя готовить всё сразу. Пустое место рядом с главным проектом сохраняют для его развития, а список регулярно переписывают. Это способ заново выбирать нагрузку, а не бесконечно переносить любой старый пункт.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A limited list makes refusal visible",
+          "body": "<p>In tactic 6 Jake gives one sheet to a main project, a secondary project, and a small collection of other tasks. The kitchen metaphor imposes a limit: you cannot cook everything at once. Space beside the main project remains available for its development, and rewriting the list means choosing the load again instead of perpetually carrying every old item.</p>"
+        }
+      }
+    },
+    {
+      "id": "boat-case",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Большой проект требует отбора даже среди полезных задач",
+          "body": "<p>Подготовка яхты у Джона и его жены включала множество мелочей, от крючков до водопровода. Список возможностей позволял сохранить их, а выбор Главного — решить, что даст нужное продвижение сегодня. Смысл примера не в яхтинге: полезных задач может быть больше, чем доступного внимания, и полезность каждой ещё не определяет порядок.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A large project needs selection even among useful tasks",
+          "body": "<p>Preparing a sailboat gave John and his wife many tasks, from installing hooks to working on the water system. Their option list retained the details while the Highlight selected the progress that mattered today. The point extends beyond sailing: there can be more useful tasks than available attention, and usefulness alone does not determine their order.</p>"
+        }
+      }
+    },
+    {
+      "id": "personal-sprint",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Несколько дней одного проекта уменьшают повторный разгон",
+          "body": "<p>Тактика 7 соединяет несколько ежедневных Главных в персональный спринт. Авторы сравнивают возвращение к проекту с загрузкой контекста: после перерыва приходится снова вспоминать, где остановился. Последовательные дни помогают сохранить погружение. Это наблюдение из их писательства и спринтов, а не обещание измеренного множителя эффективности для любого вида работы.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Several days on one project reduce repeated warm-up",
+          "body": "<p>Tactic 7 links several daily Highlights into a personal sprint. The authors compare returning to a project with reloading context: after a gap, you must recover where you stopped. Consecutive days can preserve immersion. This comes from their writing and sprint experience, not a measured promise of a productivity multiplier for every kind of work.</p>"
+        }
+      }
+    },
+    {
+      "id": "calendar-choice",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "В календаре видно, чем вы платите за Главное",
+          "body": "<p>Тактика 8 требует назначить Главному реальное время. Это вынуждает увидеть обмен: какие встречи подвинуть, чему отказать, что оставить на потом. Намерение перестаёт жить в воображаемом свободном остатке дня. В календаре появляется обещание себе, которое нужно защищать так же осознанно, как любую другую важную договорённость.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "The calendar reveals what a Highlight costs",
+          "body": "<p>Tactic 8 gives the Highlight an actual calendar slot. This exposes the exchange: which meeting to move, what to decline, what to postpone. Intention no longer depends on an imaginary remainder of free time. The calendar contains a promise to yourself that needs the same deliberate protection as another important commitment.</p>"
+        }
+      }
+    },
+    {
+      "id": "block-ahead",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Бронировать заранее легче, чем искать остатки",
+          "body": "<p>Тактика 9 создаёт повторяющиеся блоки до того, как другие их заполнят. Авторы советуют занимать время целенаправленно — для Главного или энергии — и не блокировать весь календарь. Начать можно с ограниченного окна. Свободные участки нужны коллегам и неожиданным возможностям; защита внимания не означает полную недоступность.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Reserve ahead rather than search for leftovers",
+          "body": "<p>Tactic 9 creates recurring reservations before other commitments fill the space. The authors advise using them purposefully for the Highlight or energy rather than blocking the entire calendar. Begin with a limited window. Colleagues and unexpected opportunities still need openings; protecting attention does not require becoming completely unavailable.</p>"
+        }
+      }
+    },
+    {
+      "id": "graham-case",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Граница работает, когда её считают настоящей встречей",
+          "body": "<p>Джон описывает руководителя Грэма Дженкина, который резервировал утренние часы и отвечал на попытки занять их как на конфликт с существующими планами. Пример показывает социальную сторону календаря: название блока мало помогает, если сам владелец немедленно уступает его любому запросу. При этом возможности руководителя и новичка заметно различаются.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A boundary works when treated as a real appointment",
+          "body": "<p>John describes manager Graham Jenkin reserving morning hours and treating attempts to fill them as conflicts with existing plans. The example reveals the calendar’s social dimension: a named block helps little if its owner immediately yields it to every request. A manager and a new employee, however, have markedly different power to maintain that boundary.</p>"
+        }
+      }
+    },
+    {
+      "id": "bulldoze",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Длительность встречи тоже можно пересмотреть",
+          "body": "<p>В тактике 10 календарный бульдозер сокращает или сдвигает существующие встречи, чтобы собрать непрерывное окно. Авторы предлагают сомневаться, действительно ли выбранные время и длительность необходимы. Это переговоры с людьми, а не право единолично отменить их планы. Книга признаёт: начальнику такая перестройка даётся проще, чем стажёру.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A meeting’s duration can be reconsidered",
+          "body": "<p>In tactic 10 a calendar bulldozer shortens or moves existing meetings to create an uninterrupted window. Question whether their current timing and duration are necessary. This requires negotiation with people, not unilateral authority over their plans. The book acknowledges that a boss can usually make these changes more easily than an intern.</p>"
+        }
+      }
+    },
+    {
+      "id": "cancel-honestly",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Отмена — аварийная разгрузка, а не постоянная стратегия",
+          "body": "<p>Тактика 11 допускает отказаться от уже намеченного, если календарь стал непосильным. Авторы требуют честно объяснить причину и использовать освободившееся время для стоящего дела. Они прямо ограничивают приём: систематическое нарушение обещаний не заменяет умение брать меньше обязательств заранее. Иначе контроль возвращается одному человеку за счёт чужой неопределённости.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Canceling is emergency relief, not a permanent strategy",
+          "body": "<p>Tactic 11 permits canceling an existing commitment when the calendar becomes unmanageable. Explain honestly and use the recovered time for something worthwhile. The authors explicitly limit this move: regularly breaking promises cannot replace learning to accept fewer obligations in advance. Otherwise one person recovers control by making everyone else’s plans less dependable.</p>"
+        }
+      }
+    },
+    {
+      "id": "say-no",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Добрый отказ предотвращает будущую перегрузку",
+          "body": "<p>Тактика 12 меняет привычный ответ с автоматического согласия на осознанный выбор. Честно назвать отсутствие времени или интереса лучше, чем придумывать туманные оправдания и переносить неприятное решение. При возможности можно предложить другой путь. Но оставлять надежду на будущее стоит лишь тогда, когда вы действительно готовы когда-нибудь согласиться.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A kind refusal prevents future overload",
+          "body": "<p>Tactic 12 replaces automatic agreement with deliberate choice. Honestly acknowledging limited time or interest is preferable to vague excuses that postpone the difficult decision. Where appropriate, suggest another route. Offer hope of future participation only when you genuinely might agree; otherwise the polite-sounding delay merely preserves an obligation you do not intend to meet.</p>"
+        }
+      }
+    },
+    {
+      "id": "design-day",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Подробный план нужен как прототип, который можно менять",
+          "body": "<p>Тактика 13 распространяет дизайн на весь день. Джон планирует подробно; Джейку помогает пример Сары Купер, которая придаёт дням устойчивую форму и пересматривает её. Важно сравнивать замысел с фактом и учиться, а не доказывать безошибочность расписания. Предсказуемость может освобождать внимание, если план остаётся инструментом, а не новым начальником.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A detailed day plan is a revisable prototype",
+          "body": "<p>Tactic 13 extends design to the entire day. John plans in detail; Jake draws encouragement from Sarah Cooper’s stable but revisable routine. Compare intention with reality and learn rather than prove that the schedule was flawless. Predictability can release attention when a plan remains an instrument instead of turning into another demanding boss.</p>"
+        }
+      }
+    },
+    {
+      "id": "morning-transition",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Утреннее окно начинается с предыдущего вечера",
+          "body": "<p>Рассказывая о тактике 14, Джон связывает ранний подъём с более ранним отходом ко сну, светом и приятным первым занятием. Если просто переставить будильник, свободный час получится за счёт восстановления. Отдельный механизм — подготовить переход между днями: изменить вечернюю обстановку и дать утру понятный вход, а не потребовать от сонного человека новой силы воли.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "A morning window begins the evening before",
+          "body": "<p>Describing tactic 14, John connects early rising with earlier sleep, light, and an enjoyable first activity. Moving the alarm alone buys an hour at the expense of recovery. The distinct mechanism prepares a transition between days: change the evening environment and give the morning an inviting entry rather than demand more willpower from a sleepy person.</p>"
+        }
+      }
+    },
+    {
+      "id": "morning-evening",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Подходящее время важнее культа раннего подъёма",
+          "body": "<p>В тактиках 14–15 авторы расходятся. Джон перестраивает вечер и находит спокойное утро; Джейк использует позднее окно после детского сна, предварительно отдыхает и отключает интернет. Ни один вариант не обязывает всех стать жаворонками. Оба требуют учитывать сон и переход к отдыху, иначе сегодняшнее Главное отнимет силы у завтрашнего.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "Suitable timing matters more than worshiping early mornings",
+          "body": "<p>In tactics 14–15 the authors diverge. John changes his evenings to gain quiet mornings; Jake uses a late window after his children sleep, first taking a break and disconnecting the internet. Neither makes early rising compulsory. Both require attention to sleep and winding down, so today’s Highlight does not consume tomorrow’s energy.</p>"
+        }
+      }
+    },
+    {
+      "id": "revise-stop",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Главное / Highlight",
+          "title": "Изменить Главное допустимо; закончить день тоже",
+          "body": "<p>Когда планы Джейка разрушили домашние проблемы, он сменил редактирование рукописи на приятный ужин с гостями. Это не механическое оправдание любой потери времени, а новый осознанный выбор. Тактика 16 дополняет его разрешением остановиться: бесконечная доработка ради ощущения занятости может вытеснить радость и восстановление, ради которых вообще искали время.</p>"
+        },
+        "en": {
+          "section": "II · Highlight",
+          "title": "You may revise the Highlight and stop for the day",
+          "body": "<p>When household problems disrupted Jake’s plans, he replaced manuscript editing with enjoying dinner with visitors. This was a fresh deliberate choice, not an automatic excuse for every lost hour. Tactic 16 adds permission to stop: endless polishing for the feeling of busyness can crowd out the enjoyment and recovery that making time was meant to serve.</p>"
+        }
+      }
+    },
+    {
+      "id": "attention-quality",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Найти час недостаточно — нужно оказаться в нём",
+          "body": "<p>Календарное окно может существовать, пока внимание прыгает между сообщениями. Laser нужен, чтобы действительно погрузиться в Главное. Авторы считают, что непрерывность меняет качество времени: по мере работы становится легче удерживать контекст и интерес. Это не требование напряжённо трудиться всегда; игра и разговор тоже выигрывают, когда им уделяют полное присутствие.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Finding an hour is not enough; you must inhabit it",
+          "body": "<p>A calendar window can exist while attention keeps jumping between messages. Laser helps you actually enter the Highlight. The authors argue that continuity changes the quality of time: sustained engagement makes context and interest easier to maintain. This is not a demand for constant strenuous work; play and conversation also benefit from undivided presence.</p>"
+        }
+      }
+    },
+    {
+      "id": "metrics-compete",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Метрика сервиса не знает вашего Главного",
+          "body": "<p>Истории Gmail и YouTube показывают авторам конфликт целей: команде нужно делать продукт привлекательнее, а пользователю — иногда закончить взаимодействие. Измерение посещений и времени помогает сервису совершенствоваться. Но даже удачный продукт не выбирает за вас момент выхода, соответствующий семейному разговору или собственной работе. Эту границу приходится проектировать отдельно.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A service metric does not know your Highlight",
+          "body": "<p>The Gmail and YouTube stories expose a conflict of goals: a team wants a more compelling product, while a user sometimes needs to stop using it. Measuring visits and time helps a service improve. Yet even a successful product cannot choose the right exit for your family conversation or independent work. That boundary needs separate design.</p>"
+        }
+      }
+    },
+    {
+      "id": "restore-friction",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Верните трение туда, где выбор стал автоматическим",
+          "body": "<p>Вместо ежедневного поединка с силой воли авторы предлагают затруднить доступ к отвлечению. Удалить приложение, разлогиниться или отключить сеть — значит вставить паузу между импульсом и действием. Барьер не обязан быть непреодолимым: даже дополнительное усилие может дать шанс вспомнить, что вы намеревались делать, и решить заново.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Restore friction where choice became automatic",
+          "body": "<p>Rather than fight a daily contest of willpower, make distraction harder to reach. Removing an app, signing out, or disconnecting inserts a pause between impulse and action. The barrier need not be impossible to cross. An extra effort can create an opportunity to remember the intended activity and make the decision again.</p>"
+        }
+      }
+    },
+    {
+      "id": "phone-tool",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Телефон может сохранить пользу без всех приманок",
+          "body": "<p>Тактика 17 удаляет с телефона Бассейны Бесконечности: социальные сервисы, игры, почту и при необходимости браузер. Полезные функции вроде карты или камеры остаются. Предлагается изменить роль устройства, а не доказать добродетель отказом от техники. Это проба нового набора функций; нужное приложение можно вернуть, когда обстоятельства действительно требуют его.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A phone can retain its uses without every lure",
+          "body": "<p>Tactic 17 removes Infinity Pools from the phone: social services, games, email, and where necessary the browser. Useful functions such as maps and the camera remain. The experiment changes the device’s role rather than proving virtue through technological abstinence. You can restore an app when circumstances genuinely require it instead of treating removal as a lifelong vow.</p>"
+        }
+      }
+    },
+    {
+      "id": "notifications",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Уведомление назначает момент переключения за вас",
+          "body": "<p>Тактика 19 предлагает отключать уведомления, чтобы самостоятельно решать, когда заглянуть в сервис. Каждый звуковой или визуальный сигнал превращает потенциально полезную связь в незапрошенный перерыв. Суть не в запрете общения, а в переносе инициативы к человеку. Для необходимых контактов можно сохранить исключения, вместо того чтобы приравнивать все события к срочным.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A notification chooses your switching moment",
+          "body": "<p>Tactic 19 turns off notifications so you can decide when to check a service. Each sound or visual cue can turn useful communication into an unsolicited interruption. The purpose is to return initiative to the person rather than ban contact. Necessary exceptions can remain without treating every event as equally urgent.</p>"
+        }
+      }
+    },
+    {
+      "id": "sign-out",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Выход из аккаунта делает импульс заметным",
+          "body": "<p>Тактика 18 использует самое обычное разлогинивание. Пока вход мгновенный, привычное движение пальца почти не требует решения. Экран авторизации создаёт небольшой порог: теперь нужно совершить дополнительное действие. Если услуга действительно нужна, вы войдёте; если это было машинальное бегство от трудного абзаца, появляется возможность вернуться к нему.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Signing out makes an impulse visible",
+          "body": "<p>Tactic 18 uses ordinary signing out. Instant access lets a familiar finger movement happen almost without a decision. A login screen adds a small threshold that requires another action. If the service is genuinely needed, you can enter; if the impulse was an automatic escape from a difficult paragraph, you have a chance to return to it.</p>"
+        }
+      }
+    },
+    {
+      "id": "home-screen",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Первый экран можно сделать нейтральной прихожей",
+          "body": "<p>Тактика 20 убирает с первого экрана соблазняющие иконки. Устройство перестаёт сразу предлагать готовый маршрут к ленте. Это работа с видимостью сигнала, отличная от удаления доступа: приложение существует, но не зовёт всякий раз, когда вы открыли телефон по другой причине. Так сокращается число ненамеренных переходов между задачами.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "The home screen can become a quiet entrance",
+          "body": "<p>Tactic 20 removes tempting icons from the first screen. The device no longer immediately offers a route into a feed. This changes cue visibility rather than access itself: the app remains available but stops calling whenever you unlock the phone for another reason. That can reduce unintentional detours between otherwise useful actions.</p>"
+        }
+      }
+    },
+    {
+      "id": "watch",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Проверка времени не обязана открывать дверь в ленту",
+          "body": "<p>Тактика 21 предлагает наручные часы, чтобы не доставать смартфон только ради времени. Механизм скромный и конкретный: одно законное действие слишком легко превращается в цепочку незапланированных. Отдельный инструмент сокращает число входов в среду отвлечений. Приём не требует дорогих часов и не утверждает, что каждый взгляд на телефон неизбежно заканчивается потерянным часом.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Checking the time need not open a feed",
+          "body": "<p>Tactic 21 uses a wristwatch to avoid unlocking a smartphone merely to check the time. The mechanism is modest and specific: one legitimate action can become a chain of unintended ones. A separate tool reduces entrances into a distracting environment. No expensive watch is required, and not every phone glance inevitably becomes a lost hour.</p>"
+        }
+      }
+    },
+    {
+      "id": "physical-distance",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Расстояние меняет поведение без нового обещания",
+          "body": "<p>В тактике 22 телефон остаётся в сумке, другой комнате или дома на коротком выходе. Физический барьер делает проверку менее удобной и помогает быть с теми, кто рядом. Выбор зависит от реальных обязанностей и безопасности: практический смысл — убрать необязательную доступность, а не исчезнуть для людей, которым вы нужны.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Distance changes behavior without another promise",
+          "body": "<p>In tactic 22 the phone stays in a bag, another room, or at home during a short outing. Physical distance makes checking less convenient and supports presence with nearby people. Real responsibilities and safety matter: the practical aim is to remove unnecessary availability, not disappear from people who genuinely depend on reaching you.</p>"
+        }
+      }
+    },
+    {
+      "id": "protect-morning",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Утренняя проверка запускает чужую повестку раньше вашей",
+          "body": "<p>Тактика 23 предлагает не начинать день с почты и лент. Ночной перерыв уже отделил вас от потока; первая проверка снова втягивает в него. Сохранить это окно полезно даже без раннего подъёма. Но приём относится к началу вашего дня, а не устанавливает универсальное время, когда никто не вправе ожидать ответа.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Morning checking starts someone else’s agenda before yours",
+          "body": "<p>Tactic 23 avoids starting the day with email and feeds. Sleep has already separated you from the stream; the first check pulls you back in. Preserving that opening can help without requiring an early alarm. The tactic concerns the start of your day, not a universal clock time when nobody may reasonably expect a response.</p>"
+        }
+      }
+    },
+    {
+      "id": "kryptonite",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Начните с отвлечения, которое сильнее именно для вас",
+          "body": "<p>Тактика 24 называет личный криптонит — сервис, который особенно легко затягивает. Вместо равной войны со всем интернетом ограничьте именно его и посмотрите, изменился ли фокус. Для одного это новости, для другого спорт или почта. Такой выбор делает эксперимент проверяемым: меняется конкретный вход, а не вся жизнь одновременно.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Start with the distraction strongest for you",
+          "body": "<p>Tactic 24 identifies personal distraction kryptonite: the service that pulls you in most powerfully. Instead of fighting the entire internet equally, restrict that one entry point and see whether focus changes. It may be news, sports, or email. This makes the experiment identifiable by changing a specific access route rather than your whole life at once.</p>"
+        }
+      }
+    },
+    {
+      "id": "news",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Понимать события и непрерывно обновлять новости — разные задачи",
+          "body": "<p>В тактике 25 авторы противопоставляют постоянные обновления более редкому осмысленному чтению. Джон выбирает еженедельный обзор, чтобы знать важное без ежедневного потока. Это его информационная диета, не универсальная обязанность игнорировать события. Работа, безопасность и гражданское участие могут требовать другого режима; вопрос в нужной частоте, а не в полном неведении.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Understanding events differs from continuously refreshing news",
+          "body": "<p>Tactic 25 contrasts constant updates with less frequent, more considered reading. John chooses a weekly overview to stay informed without a daily stream. This is his information diet, not a universal duty to ignore events. Work, safety, and civic participation may require another rhythm; the question concerns sufficient frequency rather than complete ignorance.</p>"
+        }
+      }
+    },
+    {
+      "id": "tidy-tabs",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Вечерняя уборка вкладок защищает завтрашнее начало",
+          "body": "<p>Тактика 26 закрывает почту, чаты и лишние вкладки перед окончанием работы. Иначе завтра экран предложит реагировать ещё до осознанного выбора. В отличие от блокировщика, здесь важна подготовка исходного состояния: в следующую сессию легче войти туда, куда вы намеревались, а не туда, куда указывает вчерашний цифровой беспорядок.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Tidying tabs tonight protects tomorrow’s start",
+          "body": "<p>Tactic 26 closes email, chat, and unnecessary tabs before work ends. Otherwise tomorrow’s screen invites reaction before deliberate choice begins. Unlike a blocker, this prepares the starting condition: the next session opens toward the intended task rather than following yesterday’s digital clutter. A small closing ritual can therefore influence the quality of a later beginning.</p>"
+        }
+      }
+    },
+    {
+      "id": "flight",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Ограниченная среда может стать резервом личного времени",
+          "body": "<p>Тактика 27 оставляет полёт без Wi-Fi. Джейк описывает самолёт как место для собственного письма, а не продолжение офиса. Полезен сам принцип: доступность сети не обязывает подключаться. В примечаниях авторы оговаривают полёт с детьми — там отвлечения могут понадобиться. Пример показывает возможность, а не правило для каждой поездки.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A constrained environment can reserve personal time",
+          "body": "<p>Tactic 27 leaves airplane Wi-Fi unused. Jake describes flights as a place for his own writing rather than an extension of the office. The principle is that available connectivity does not oblige connection. The authors qualify the example for traveling with children, when distractions may be useful. It offers a possibility, not a rule for every journey.</p>"
+        }
+      }
+    },
+    {
+      "id": "internet-timer",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Автоматическое отключение убирает повторяющийся торг",
+          "body": "<p>В тактике 28 таймер ограничивает доступ к интернету. Джейку вечернее отключение роутера помогало перейти от спортивных новостей к письму. Важен заранее принятый выбор: в момент усталости не нужно заново решать, нельзя ли ещё проверить один сайт. Подготовить материалы для работы следует до отключения, иначе барьер ударит и по самому Главному.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "An automatic cutoff removes repeated bargaining",
+          "body": "<p>Tactic 28 limits internet access with a timer. An evening router cutoff helped Jake move from sports news to writing. Its point is a prior decision: tired-you need not renegotiate whether one more site would be acceptable. Prepare needed materials before disconnecting so the barrier does not also obstruct the Highlight itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "cancel-internet",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Крайний барьер проверяет, сколько связи действительно нужно",
+          "body": "<p>Тактика 29 описывает читательницу Криссу, отказавшуюся от домашнего интернета: телефон оставлял медленный и неудобный запасной путь. Более мягкая проба — временно усложнить доступ. Это отдельный пользовательский случай. Его нельзя превращать в требование отключить дом: общий быт, удалённая работа и потребности других людей меняют цену такого эксперимента.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "An extreme barrier tests how much connection is needed",
+          "body": "<p>Tactic 29 describes reader Chrissa canceling home internet while retaining an inconvenient phone-based route. A milder trial temporarily complicates access. This is one user’s case, not a requirement to disconnect a household. Shared living arrangements, remote work, and other people’s needs change the cost of the experiment and whether it makes sense at all.</p>"
+        }
+      }
+    },
+    {
+      "id": "household-objection",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Ваш барьер не должен незаметно стать чужим ограничением",
+          "body": "<p>В рецензии Blackad хвалят доступность книги, но крайности вроде чужого пароля к Wi-Fi кажутся чрезмерными. Это полезное практическое возражение: легко оценить выигрыш личного фокуса и забыть цену общей инфраструктуры. Рецензия не опровергает петлю целиком; она показывает, почему подходящая одному тактика не становится нормой для всего дома.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Your barrier can quietly become someone else’s restriction",
+          "body": "<p>Blackad’s review praises the book’s accessibility but finds extremes such as someone else controlling the Wi-Fi password excessive. This practical objection exposes an overlooked cost: personal focus may rely on infrastructure other people also need. It does not refute the entire loop, but shows why a tactic that suits one person cannot automatically become a household rule.</p>"
+        }
+      }
+    },
+    {
+      "id": "time-craters",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Стоимость отвлечения больше времени самого клика",
+          "body": "<p>Тактика 30 предлагает искать кратеры во времени: маленькое действие оставляет большой след. За коротким сообщением может последовать спор и трудное возвращение; поздний просмотр отзывается вялостью завтра. Авторы расширяют оценку до последствий и восстановления. Не нужен единый норматив минут: важнее увидеть, какие небольшие входы систематически разрушают именно ваш день.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A distraction costs more than the click itself",
+          "body": "<p>Tactic 30 looks for time craters: small actions with large aftermaths. A brief message may trigger an argument and a difficult return; late viewing can produce sluggishness tomorrow. Evaluate consequences and recovery, not just the initial action. No single recovery-time constant is needed to notice which small entry points repeatedly disrupt your own day.</p>"
+        }
+      }
+    },
+    {
+      "id": "fake-wins",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Ощущение достижения может вытеснить настоящее продвижение",
+          "body": "<p>Тактика 31 называет ложными победами действия, которые дают приятную завершённость, но уводят от Главного. Это может быть не только лайк, но и безупречно обновлённая таблица. Критерий контекстный: полезная работа становится заменой более важной. Проверять следует связь с сегодняшним выбором, а не объявлять любой административный результат бессмысленным.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A feeling of achievement can replace actual progress",
+          "body": "<p>Tactic 31 calls something a fake win when it feels complete yet diverts effort from the Highlight. It may be a social interaction or a perfectly updated spreadsheet. The criterion is contextual: useful work can substitute for more important work. Test its connection with today’s choice rather than declaring every administrative accomplishment meaningless.</p>"
+        }
+      }
+    },
+    {
+      "id": "use-tools",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Заранее выбранная цель возвращает сервису роль инструмента",
+          "body": "<p>В тактике 32 Джон использует Twitter для работы и ответов читателям вместо бесцельного пребывания. Джейку нужен жёсткий лимит, потому что одного намерения ему недостаточно. Оба сохраняют полезную функцию, но задают условия входа и выхода. Это показывает два разных уровня необходимого барьера, а не соревнование в нравственной силе.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A chosen purpose turns a service back into a tool",
+          "body": "<p>In tactic 32 John uses Twitter for work and reader replies rather than aimless browsing. Jake needs a strict limit because intention alone does not suffice for him. Both retain a useful function while defining entry and exit conditions. Their difference illustrates required barrier strength rather than a competition in moral character.</p>"
+        }
+      }
+    },
+    {
+      "id": "sports",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Можно сохранить любимую часть увлечения, сократив сопровождение",
+          "body": "<p>Тактика 33 пересматривает спортивное боление: смотреть избранные матчи вместо бесконечного новостного сопровождения. Джону важен совместный просмотр Packers, а не всё происходящее между играми. Выигрыш возникает не из презрения к хобби, а из разделения настоящей радости и привычной информационной обвязки. Для другого человека ценным может быть именно обсуждение — выбирать приходится самому.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Keep the favorite part of a hobby and reduce its overhead",
+          "body": "<p>Tactic 33 rethinks sports fandom: watch selected games instead of consuming endless surrounding coverage. John values watching the Packers together with others more than following every development between games. The gain comes from distinguishing real enjoyment from habitual informational overhead. Someone else may value the discussion itself; the choice still belongs to that person.</p>"
+        }
+      }
+    },
+    {
+      "id": "email-end",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Почта в конце дня получает естественную границу",
+          "body": "<p>Тактика 34 переносит письма ближе к завершению работы. Перед важным занятием почта легко разрастается, а перед уходом имеет ограниченный горизонт. Авторы предлагают сначала продвинуть выбранное, а потом реактивное. Это возможный порядок для подходящей роли: если утренний ответ нужен коллеге для продолжения работы, механическое ожидание вечера создаст другую потерю времени.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "End-of-day email receives a natural boundary",
+          "body": "<p>Tactic 34 moves email toward the end of work. Before an important activity it can expand indefinitely; before leaving it faces a boundary. The authors suggest advancing chosen work before reactive work. This suits some roles, but mechanically waiting until evening can waste someone else’s time when a morning answer is necessary for their progress.</p>"
+        }
+      }
+    },
+    {
+      "id": "email-windows",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Окна связи лучше постоянной фоновой проверки",
+          "body": "<p>Тактика 35 выделяет почте конкретные интервалы. Вне них приложение закрыто: даже если отвечать всё равно нужно, проверка не сопровождает каждое другое дело. Важна не магическая частота, а разделение режимов. Нужное количество окон зависит от работы, часовых поясов и обещанного срока ответа, поэтому чужой график не следует копировать буквально.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Communication windows beat continuous background checking",
+          "body": "<p>Tactic 35 assigns email specific windows and closes it outside them. Even when replying remains necessary, checking need not accompany every other activity. The point is separation of modes, not a magical frequency. The required windows depend on work, time zones, and promised response times, so another person’s schedule is not a literal template.</p>"
+        }
+      }
+    },
+    {
+      "id": "inbox-zero",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Пустые входящие можно сделать периодической уборкой",
+          "body": "<p>Тактика 36 оставляет полное обнуление почты примерно на еженедельную уборку, а не делает его ежедневной мерой успеха. Это сохраняет возможность разбирать накопившееся, но снижает власть счётчика над вниманием. Логика та же, что у пакетных мелочей: обслуживать систему связи нужно, однако её чистота не обязана определять ценность каждого дня.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "An empty inbox can become periodic maintenance",
+          "body": "<p>Tactic 36 reserves a full inbox clear-out for roughly weekly maintenance instead of making it the daily measure of success. Accumulated items still receive attention, while the counter gains less power over the day. Communication systems need upkeep, but their cleanliness need not determine whether every day has been valuable.</p>"
+        }
+      }
+    },
+    {
+      "id": "letters-slow",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Мгновенная доставка не обязывает к мгновенному ответу",
+          "body": "<p>Тактики 37–38 предлагают относиться к письмам как к корреспонденции, требующей времени, и отвечать медленнее. Быстрота транспорта и срочность содержания — разные вещи. Замедление может также уменьшить встречный поток, но не освобождает от обязательств. Ответ следует соотносить с реальной задачей отправителя, а не только с собственным желанием не отвлекаться.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Instant delivery does not require an instant reply",
+          "body": "<p>Tactics 37–38 treat email like correspondence that takes time and encourage slower replies. Delivery speed and content urgency are different. Slowing down may also reduce the returning stream, but does not remove obligations. A response needs to reflect the sender’s real task, not merely your own wish to avoid interruption.</p>"
+        }
+      }
+    },
+    {
+      "id": "reset-expectations",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Границу связи нужно объяснить, иначе её будут угадывать",
+          "body": "<p>Тактика 39 прямо сообщает людям, когда ожидать ответа и как связаться по действительно срочному поводу. Личная настройка тогда становится понятной договорённостью. Это важная социальная часть фокуса: закрыть приложение легко, а сохранить доверие требует ясности. Необъявленное замедление может выглядеть как игнорирование, даже если ваша цель — выполнить полезную работу.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Explain communication boundaries instead of making people guess",
+          "body": "<p>Tactic 39 tells people when to expect a reply and how to reach you for something genuinely urgent. A private setting becomes a comprehensible agreement. This is the social work of focus: closing an app is easy, preserving trust requires clarity. Unannounced delay may look like neglect even when your aim is valuable work.</p>"
+        }
+      }
+    },
+    {
+      "id": "send-only",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Отправить письмо можно без обхода всех входящих",
+          "body": "<p>Тактика 40 отделяет создание письма от просмотра входящих. Иногда почта нужна лишь для одного исходящего действия, но интерфейс подсовывает сразу весь поток чужих задач. Режим только отправки сохраняет полезный инструмент и убирает лишний повод переключиться. Это тот же дизайн точечного доступа, что телефон без лент, применённый к отдельному действию.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Sending a message need not expose the whole inbox",
+          "body": "<p>Tactic 40 separates composing a message from viewing incoming mail. You may need one outgoing action while the interface presents an entire stream of other people’s tasks. Send-only access retains the tool while removing an unnecessary invitation to switch. It applies the same selective-access design as a phone without feeds to a single operation.</p>"
+        }
+      }
+    },
+    {
+      "id": "vacation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Отдых тоже заслуживает защищённого внимания",
+          "body": "<p>Тактика 41 отключает рабочую почту на время отпуска с предварительными договорённостями. Отпускной день не менее конечен, чем рабочий; возвращать ему внимание так же важно. Главное здесь может состоять в отношениях и переживаниях. Защита отдыха не должна зависеть от того, успели ли вы сначала бесследно исчезнуть из всех рабочих процессов.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Rest also deserves protected attention",
+          "body": "<p>Tactic 41 disconnects work email during vacation after arranging expectations. A vacation day is as finite as a working day, and deserves attention just as much. Its Highlight may concern relationships and experience. Protecting rest should not depend on first making yourself completely unnecessary to every ongoing process at work.</p>"
+        }
+      }
+    },
+    {
+      "id": "email-case",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Хорошее ограничение учитывает реальную зависимость других",
+          "body": "<p>В тактике 42 Джейк подбирает окна проверки с учётом коллег в Европе и США и ограничивает доступ блокировщиком. Он не просто выбирает приятное время: ищет самый поздний момент без нежелательных последствий. Пример соединяет барьер с обязательствами. Переносим сам вопрос о допустимой задержке, а не его конкретные часы в другое расписание.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A good restriction accounts for real dependencies",
+          "body": "<p>In tactic 42 Jake selects checking windows around colleagues in Europe and the United States, then enforces access with a blocker. He seeks the latest time without unwanted consequences, not merely a convenient time. The example combines a barrier with obligations. Transfer the question about acceptable delay rather than copying his clock times into another schedule.</p>"
+        }
+      }
+    },
+    {
+      "id": "tv-treat",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Телевизор можно превратить из фона в событие",
+          "body": "<p>В тактиках 43–47 авторы сохраняют любовь к хорошему просмотру, но делают его редким лакомством. Отказ от теленовостей уменьшает непрерывный поток, а заранее выбранная программа возвращает намерение. Главная граница проходит между осознанным удовольствием и автоматическим заполнением вечера. Книга не утверждает, что любая экранная история является плохим отдыхом.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Turn television from background into an event",
+          "body": "<p>Across tactics 43–47 the authors retain enjoyment of good viewing while making it an occasional treat. Avoiding television news reduces the stream, and selecting a program in advance restores intention. The distinction concerns deliberate pleasure versus automatic evening filling. The book does not claim that every screen-based story is poor recreation.</p>"
+        }
+      }
+    },
+    {
+      "id": "room-projector",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Расстановка мебели задаёт домашний сценарий",
+          "body": "<p>Тактики 44–45 меняют доступность просмотра физически: телевизор перестаёт быть центром комнаты, а проектор требует подготовки. Тогда беседа становится проще по умолчанию, просмотр — более намеренным. Это пример дизайна среды, не рекомендация всем покупать устройство. Похожий результат иногда даёт простая перестановка, если она подходит тем, кто пользуется комнатой.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Furniture placement sets a household script",
+          "body": "<p>Tactics 44–45 change physical access: the television stops dominating the room, or a projector requires setup. Conversation becomes easier by default and viewing more deliberate. This illustrates environmental design rather than a recommendation that everyone buy equipment. A simple rearrangement may serve a similar purpose when it suits the people sharing the room.</p>"
+        }
+      }
+    },
+    {
+      "id": "ala-carte",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Безлимитная подписка меняет цену ещё одного просмотра",
+          "body": "<p>Тактика 46 сравнивает отдельный выбранный просмотр с бесконечным буфетом контента. Когда продолжение кажется бесплатным, остановку приходится выбирать заново. Разовая покупка или временная подписка возвращает границу. Это не универсальный финансовый совет: экономия денег и экономия внимания могут расходиться, а подходящая модель зависит от того, как вы действительно смотрите.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "An unlimited subscription changes the price of one more viewing",
+          "body": "<p>Tactic 46 compares selecting individual viewing with an endless content buffet. When continuing feels free, stopping requires a fresh decision. Individual purchases or temporary subscriptions can restore a boundary. This is not universal financial advice: saving money and saving attention may point in different directions, depending on how you actually watch.</p>"
+        }
+      }
+    },
+    {
+      "id": "tv-absence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Пробное отсутствие обнаруживает привычку, которую трудно оценить изнутри",
+          "body": "<p>Тактика 47 предлагает месяц без телевизора, если мягкие изменения не помогают. Джейк обнаружил после переезда, что ежедневного просмотра ему не так уж недостаёт. Это анекдот о пересмотре нормы. Эксперимент нужен, чтобы узнать собственную реакцию и затем решить, что вернуть, а не чтобы навсегда доказать превосходство жизни без экрана.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A trial absence reveals a habit hard to judge from inside",
+          "body": "<p>Tactic 47 suggests a month without television when gentler changes fail. After moving, Jake discovered he did not miss daily viewing as much as expected. This is an anecdote about reconsidering a norm. The trial reveals your response so you can decide what to restore, rather than permanently proving that life without a screen is superior.</p>"
+        }
+      }
+    },
+    {
+      "id": "door-deadline",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Сигнал окружающим и реальный срок облегчают вход в работу",
+          "body": "<p>Тактика 48 использует дверь или иной сигнал недоступности; тактика 49 — срок, перед которым кто-то ждёт результата. В спринтах пятничная проверка делает подготовку конкретной. Оба приёма уменьшают расплывчатость, но по-разному: один защищает пространство, другой создаёт обязательство. Самодельный дедлайн полезен, если связан с настоящим действием, а не бесконечной тревогой.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A social boundary and a real deadline ease entry into work",
+          "body": "<p>Tactic 48 uses a door or another signal of unavailability; tactic 49 establishes a deadline with someone awaiting the result. Friday testing makes sprint preparation concrete. One protects space, the other creates commitment. A self-made deadline is useful when tied to an actual action rather than becoming an indefinite source of anxiety.</p>"
+        }
+      }
+    },
+    {
+      "id": "explode-highlight",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Слишком большое Главное можно разбить на действия с глаголами",
+          "body": "<p>Тактика 50 превращает общее название в небольшие выполнимые шаги. Неясное дело сопротивляется началу; конкретное действие позволяет набрать ход. Это не возврат к случайному списку мелочей: каждый шаг обслуживает уже выбранное Главное. Если связь потеряна, дробление лишь производит удобные галочки вместо движения к тому, ради чего вы выделили время.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Break an intimidating Highlight into actions with verbs",
+          "body": "<p>Tactic 50 turns a broad label into small executable steps. An unclear activity resists starting; a specific action creates momentum. This does not return you to a random list of errands: each step serves the Highlight already selected. Without that connection, breaking work down merely produces convenient checkmarks instead of progress toward its purpose.</p>"
+        }
+      }
+    },
+    {
+      "id": "cue-timer",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Входной ритуал и видимый таймер решают разные проблемы",
+          "body": "<p>Тактика 51 закрепляет определённую музыку за работой, чтобы она стала сигналом входа. Тактика 52 делает оставшееся время видимым. Первая помогает переключить состояние, вторая — почувствовать конечность окна. Авторы любят конкретный таймер, но важна функция. Покупка инструмента не заменяет выбора задачи и не гарантирует, что счётчик поможет именно вам.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "An entry cue and a visible timer solve different problems",
+          "body": "<p>Tactic 51 reserves certain music as a work-entry cue. Tactic 52 makes remaining time visible. The first supports a state transition; the second makes the window feel finite. The authors like a particular timer, but its function matters more than the purchase. A device cannot choose your task or guarantee that a countdown suits you.</p>"
+        }
+      }
+    },
+    {
+      "id": "simple-tools",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Инструмент может стать хрупким проектом вместо помощи",
+          "body": "<p>Тактики 53–54 предпочитают простые средства и начало на бумаге. Джон вспоминает часы настройки Mori, а затем проблемы совместимости и прекращение поддержки. Цена инструмента включает обслуживание и зависимость. Бумага убирает вкладки и настройки, но не обязана заменять весь цифровой процесс: полезно отделить раннее мышление от производства окончательного результата.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "A tool can become a fragile project of its own",
+          "body": "<p>Tactics 53–54 favor simple tools and beginning on paper. John recalls configuring Mori, then encountering compatibility problems and discontinued support. A tool’s cost includes maintenance and dependence. Paper removes tabs and settings, but need not replace an entire digital workflow; separating early thinking from final production may be enough.</p>"
+        }
+      }
+    },
+    {
+      "id": "urge-stuck",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Позыв проверить можно записать, а затруднение — выдержать",
+          "body": "<p>Тактики 55–58 предлагают записывать случайные вопросы, сделать осознанный вдох, допустить скуку и не сбегать сразу из тупика. Это разные способы не превращать внутренний импульс в смену деятельности. Не всякая трудность означает, что задача выбрана неверно; иногда ей нужно время без новой стимуляции. Прогулка или бумага могут сохранить работу над вопросом без ленты.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Write down an urge and stay with a difficulty",
+          "body": "<p>Tactics 55–58 suggest recording random questions, taking a conscious breath, allowing boredom, and not escaping immediately from stuckness. These prevent an internal impulse from automatically switching the activity. Difficulty does not always mean the task was wrong; it may need time without fresh stimulation. A walk or paper can retain the question without opening a feed.</p>"
+        }
+      }
+    },
+    {
+      "id": "rest-whole",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Фокус / Laser",
+          "title": "Отдых и полное погружение — варианты, а не враги",
+          "body": "<p>Тактики 59–60 оставляют два выхода из усталости: сделать паузу или попробовать вовлечься целиком. Авторы описывают прилив сил при значимом погружении, но не отменяют физический и умственный отдых. Важно различать рассеянное нежелание и реальное истощение. Воодушевление нельзя использовать как универсальное лечение выгорания или повод игнорировать потребности организма.</p>"
+        },
+        "en": {
+          "section": "III · Laser",
+          "title": "Rest and wholehearted engagement are alternatives, not enemies",
+          "body": "<p>Tactics 59–60 offer two responses to tiredness: take a break or try wholehearted engagement. The authors describe feeling energized by meaningful immersion without denying physical and mental rest. Distinguish distracted reluctance from genuine depletion. Enthusiasm is not a universal treatment for burnout or a reason to disregard what the body needs.</p>"
+        }
+      }
+    },
+    {
+      "id": "body-support",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Внимание зависит от тела, которое его поддерживает",
+          "body": "<p>Авторы сравнивают энергию с зарядом батареи: в истощённом состоянии легче отдаться простому отвлечению и труднее удержать намерение. Поэтому движение, питание, сон, тишина и общение входят в систему времени. Метафора не означает единого измеримого запаса энергии; она напоминает, что календарь и блокировщик не компенсируют полностью потребности живого организма.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Attention depends on the body supporting it",
+          "body": "<p>The authors compare energy with a battery: depletion makes easy distraction more attractive and intention harder to maintain. Movement, food, sleep, quiet, and social contact therefore belong inside a system for time. The metaphor does not establish a single measurable energy store; it reminds us that a calendar and blocker cannot fully compensate for bodily needs.</p>"
+        }
+      }
+    },
+    {
+      "id": "evolution-limit",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Первобытный человек — эвристика автора, а не готовый протокол",
+          "body": "<p>Образ охотника-собирателя помогает авторам поставить под вопрос сидение, непрерывную стимуляцию и искусственно длинный световой день. Но из того, что привычка древняя, не следует, что она оптимальна сегодня. Предыстория здесь упрощённая объяснительная рамка. Каждый вывод о здоровье требует собственной проверки; аналогия не доказывает эффективность голодания, диеты или режима сна.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "The prehistoric human is an author heuristic, not a protocol",
+          "body": "<p>The hunter-gatherer image helps the authors question prolonged sitting, constant stimulation, and artificially extended daylight. But an ancient practice is not automatically optimal today. Prehistory supplies a simplified explanatory frame. Each health claim needs its own assessment; the analogy does not establish the effectiveness of fasting, a diet, or a sleep schedule.</p>"
+        }
+      }
+    },
+    {
+      "id": "nonheroic-movement",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Снизьте порог движения, чтобы оно стало обычным",
+          "body": "<p>Тактика 61 предлагает около двадцати минут движения ежедневно и разрешает меньшую дозу вместо полного отказа. Авторы борются с установкой, будто упражнения считаются только тогда, когда они героические. Число — их практический ориентир, не универсальная лечебная доза. В системе важна выполнимая регулярность, которая поддерживает день, а не выматывает ради спортивного образа себя.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Lower the movement threshold so it becomes ordinary",
+          "body": "<p>Tactic 61 suggests roughly twenty minutes of daily movement and permits less instead of abandoning it altogether. The authors challenge the belief that exercise counts only when heroic. Their number is a practical guide, not a universal therapeutic dose. What matters here is feasible regularity that supports the day rather than exhausting you to preserve an athletic self-image.</p>"
+        }
+      }
+    },
+    {
+      "id": "basketball-case",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Интенсивность может отнять ту энергию, которую вы хотели получить",
+          "body": "<p>Джейк рассказывает, как длинные баскетбольные игры заканчивались травмой и бессилием, а короткая пробежка с коляской оставляла его бодрее. Он снижает собственную планку допустимого упражнения. Это личное сравнение, не запрет серьёзного спорта. Его функция в аргументе — показать, что тренировка для ежедневной энергии и тренировка для спортивного результата имеют разные критерии.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Intensity can consume the energy you hoped to gain",
+          "body": "<p>Jake contrasts long basketball sessions ending in injury and exhaustion with a short stroller run that left him refreshed. He lowers his own threshold for what counts as exercise. This personal comparison does not prohibit demanding sport. It shows that training for daily energy and training for athletic performance can have different criteria of success.</p>"
+        }
+      }
+    },
+    {
+      "id": "walking-route",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Ходьба может заменить дорогу и освободить мысль",
+          "body": "<p>Тактика 62 встраивает прогулку в путь на работу или его часть. Джон замечает, что более медленная дорога субъективно добавляет времени: появляется пространство обдумать Главное, которого не давала прежняя поездка. Это его опыт, не буквальное увеличение суток. Приём экономит отдельную организацию тренировки, если расстояние, среда и возможности тела позволяют такой маршрут.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Walking can replace a journey and make room for thought",
+          "body": "<p>Tactic 62 builds walking into a commute or part of it. John finds that a slower journey subjectively adds time by creating space to think about the Highlight. This is his experience, not a literal extension of the day. It avoids separately organizing exercise when distance, surroundings, and physical ability make the route feasible.</p>"
+        }
+      }
+    },
+    {
+      "id": "walking-evidence",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Ходьба помогает некоторым видам мышления, а не всем сразу",
+          "body": "<p>В четырёх экспериментах Оппеццо и Шварца ходьба улучшала генерацию разнообразных идей во время движения и вскоре после него. Задания с единственным сходящимся ответом не показывали такого же общего преимущества. Это более узкая поддержка прогулок, чем обещание улучшить любую работу мозга. Исследование не проверяет систему Make Time целиком или ежедневный результат конкретного читателя.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Walking helps some forms of thinking, not all at once",
+          "body": "<p>In four experiments by Oppezzo and Schwartz, walking improved divergent idea generation during movement and shortly afterward. Tasks seeking a single convergent answer did not show the same general advantage. This supports a narrower claim than improving all mental work. The study does not test the whole Make Time framework or a particular reader’s daily outcomes.</p>"
+        }
+      }
+    },
+    {
+      "id": "use-inconvenience",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Небольшое неудобство возвращает движение в обычный день",
+          "body": "<p>Тактика 63 использует лестницы, собственную готовку и другие небольшие усилия вместо тотальной экономии движений. В контексте книги удобство оценивают не только сбережёнными минутами: оно может убрать полезную активность. Однако доступность и помощь важны сами по себе. Речь о добровольных выполнимых действиях, а не об обязанности отказаться от приспособлений, которые человеку необходимы.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "A small inconvenience restores movement to an ordinary day",
+          "body": "<p>Tactic 63 uses stairs, cooking, and other small efforts instead of eliminating every movement. Convenience is evaluated beyond minutes saved because it may remove useful activity. Accessibility and assistance have value in themselves, however. These are voluntary feasible choices, not an obligation to abandon adaptations or support that a person genuinely needs.</p>"
+        }
+      }
+    },
+    {
+      "id": "brief-workout",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Короткая тренировка уменьшает организационную цену старта",
+          "body": "<p>Тактика 64 предлагает суперкраткую зарядку, когда длинное занятие не помещается. Её отдельный механизм — убрать поездку, экипировку и большое свободное окно как обязательные условия. Так сохраняется возможность подвигаться в загруженный день. Краткость не делает любую интенсивность подходящей каждому и не заменяет адаптацию нагрузки к состоянию здоровья и возможностям.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "A short workout lowers the organizational cost of starting",
+          "body": "<p>Tactic 64 suggests a very brief workout when a long session will not fit. Its distinct mechanism removes travel, equipment, and a large opening as prerequisites. Movement remains possible on a busy day. Brevity does not make every intensity suitable for everyone or remove the need to adapt effort to health and physical ability.</p>"
+        }
+      }
+    },
+    {
+      "id": "recognizable-food",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Менять запас еды проще, чем каждый раз бороться у тарелки",
+          "body": "<p>В тактике 65 авторы предпочитают узнаваемые ингредиенты и менее обработанную еду. Джейк заранее продумывает покупки и перекусы, Джон делает домашнюю готовку частью дня. Для общей логики важна перенастройка доступного выбора. Кулинарная привычка описана как источник самочувствия и удовольствия, а не как доказанная единая диета, которую следует назначить всем читателям.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Changing food availability reduces repeated battles at the plate",
+          "body": "<p>In tactic 65 the authors favor recognizable ingredients and less processed food. Jake plans shopping and snacks; John makes home cooking part of the day. The broader mechanism changes which choices are available. Their cooking habits concern experience and enjoyment, not a proven single diet that should be prescribed to every reader.</p>"
+        }
+      }
+    },
+    {
+      "id": "plate-design",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Порядок на тарелке тоже является настройкой по умолчанию",
+          "body": "<p>Тактика 66 сначала помещает на тарелку салат, а остальное располагает вокруг. Приём переносит дизайн из календаря в среду питания: пропорции задаются до того, как началось автоматическое доедание. Это авторская стратегия против тяжёлого обеда, а не установленное лечение усталости. Работает ли такая перемена именно для вас, остаётся вопросом наблюдения.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Plate arrangement is another default setting",
+          "body": "<p>Tactic 66 puts salad on the plate first and arranges the rest around it. Design moves from the calendar into the eating environment: proportions are set before automatic finishing begins. This is the authors’ strategy against a heavy lunch, not an established treatment for fatigue. Whether that change helps you remains a question for observation.</p>"
+        }
+      }
+    },
+    {
+      "id": "fasting-snacks",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Разногласие о еде защищает метод от универсального рецепта",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><p>В тактике 67 Джон описывает ясность при периодическом голодании.</p></div><div class=\"compare-item\"><p>в тактике 68 Джейк предпочитает подготовленные качественные перекусы, чтобы не становиться раздражительным.</p></div></div><p>Книга сохраняет обе позиции. Эти личные реакции нельзя превращать в совет каждому пропускать еду или есть чаще: состояние здоровья, лечение и отношения с питанием меняют допустимость эксперимента.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Disagreement about food protects the method from a universal recipe",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><p>In tactic 67 John describes clarity with intermittent fasting.</p></div><div class=\"compare-item\"><p>in tactic 68 Jake prefers prepared, good-quality snacks to avoid irritability.</p></div></div><p>The book keeps both positions. These personal responses cannot become instructions for everyone to skip meals or eat more often: health, treatment, and a person’s relationship with food affect whether an experiment is appropriate.</p>"
+        }
+      }
+    },
+    {
+      "id": "chocolate",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Замена привычного десерта не доказывает лечебность шоколада",
+          "body": "<p>Тактика 69 заменяет стандартные сладости тёмным шоколадом, сохраняя удовольствие. Джейк связывает смену привычки с более ровным самочувствием. В примечании авторы упоминают финансирование шоколадных исследований производителями, а также кофеин. Важно сохранить границу: это личная стратегия выбора лакомства; из неё не следует доказанная необходимость шоколада или гарантированный когнитивный эффект.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Replacing a habitual dessert does not prove chocolate is medicinal",
+          "body": "<p>Tactic 69 substitutes dark chocolate for habitual sweets while keeping enjoyment. Jake associates the change with steadier energy. The notes acknowledge industry funding of chocolate research and chocolate’s caffeine. Keep the boundary clear: this is a personal treat-selection strategy, not proof that chocolate is necessary or guarantees a cognitive benefit.</p>"
+        }
+      }
+    },
+    {
+      "id": "caffeine-mechanism",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Кофеин маскирует сонливость, а не заменяет восстановление",
+          "body": "<p>Перед тактиками 70–76 авторы объясняют действие кофеина через препятствие аденозиновому сигналу сонливости. Из этого они выводят важность времени приёма, а не просто количества чашек. Объяснение упрощено, но практический обмен ясен: бодрость сейчас может иметь цену ночью. Кофеин не отменяет потребность во сне и не создаёт бесконечную работоспособность.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Caffeine masks sleepiness rather than replacing recovery",
+          "body": "<p>Before tactics 70–76 the authors explain caffeine through interference with adenosine-related sleepiness. They derive an emphasis on timing rather than merely counting cups. The account is simplified, but the practical trade-off is clear: alertness now may cost sleep later. Caffeine does not eliminate the need for sleep or create unlimited working capacity.</p>"
+        }
+      }
+    },
+    {
+      "id": "morning-coffee",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Совет отложить утренний кофе остаётся гипотезой книги",
+          "body": "<p>Тактика 70 связывает задержку первой чашки с естественным утренним пробуждением и кортизолом. Авторы описывают изменение собственного самочувствия. В этом конспекте нет независимой проверки, устанавливающей оптимальную задержку для всех. Поэтому приём показан как авторский эксперимент, а не обязательное правило физиологии, которое должен выполнять каждый любитель кофе.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Delaying morning coffee remains a book hypothesis",
+          "body": "<p>Tactic 70 connects delaying the first cup with natural morning waking and cortisol. The authors report changes in their own experience. This digest has no independent verification establishing an optimal delay for everyone. The tactic therefore remains an author experiment rather than a compulsory physiological rule for every coffee drinker.</p>"
+        }
+      }
+    },
+    {
+      "id": "precrash-nap",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Кофе до спада и кофе перед сном — разные эксперименты",
+          "body": "<p>Тактика 71 предлагает принять кофеин до ожидаемого спада; тактика 72 — выпить кофе и сразу ненадолго прилечь, пока эффект ещё не наступил. Джон сообщает личную пользу кофеинового сна. Ни один результат не гарантирован каждому. Отдельно наблюдать время, сонливость и последующий сон полезнее, чем считать любую такую комбинацию научно доказанным усилителем.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Coffee before a slump and before a nap are different experiments",
+          "body": "<p>Tactic 71 suggests caffeine before an expected slump; tactic 72 combines coffee with lying down briefly before its effect begins. John reports personal benefits from a coffee nap. Neither outcome is guaranteed for everyone. Observe timing, sleepiness, and later sleep rather than treating every such combination as a scientifically established performance booster.</p>"
+        }
+      }
+    },
+    {
+      "id": "caffeine-cutoff",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Последняя чашка участвует в качестве следующего дня",
+          "body": "<p>Тактика 75 предлагает найти собственное последнее время для кофеина. Его действие сохраняется часами, поэтому вечерняя бодрость может ухудшить ночное восстановление и утренний фокус. Здесь петля замыкается: решение ради сегодняшнего Главного способно подорвать завтрашнее. Авторы советуют наблюдать сон и при необходимости сдвигать последнюю чашку раньше, не копируя единую часовую границу.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "The last cup helps determine tomorrow’s quality",
+          "body": "<p>Tactic 75 asks you to find your own last caffeine time. Its effects persist for hours, so evening alertness may undermine nighttime recovery and morning focus. The loop becomes visible: a decision serving today’s Highlight can weaken tomorrow’s. Observe sleep and move the last cup earlier when needed rather than copying one universal clock-time cutoff.</p>"
+        }
+      }
+    },
+    {
+      "id": "caffeine-evidence",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Исследование подтверждает риск поздней дозы, но не всю кофейную стратегию",
+          "body": "<p>В исследовании Дрейка и коллег 12 здоровых участников получали 400 мг кофеина за 0, 3 или 6 часов до сна либо плацебо. Нарушение сна обнаружили во всех трёх временных условиях. Это поддерживает осторожность с поздней большой дозой, но не устанавливает личный порог, не проверяет все напитки и не подтверждает остальные тактики книги.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Research supports late-dose risk, not the entire coffee strategy",
+          "body": "<p>In Drake and colleagues’ study, 12 healthy participants received 400 mg of caffeine 0, 3, or 6 hours before bed, or placebo. Sleep disruption occurred in all three timing conditions. This supports caution with a substantial late dose, but does not establish an individual cutoff, cover every beverage, or validate the book’s other caffeine tactics.</p>"
+        }
+      }
+    },
+    {
+      "id": "smaller-doses",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Более мягкий напиток меняет рисунок стимуляции",
+          "body": "<p>Тактика 73 предлагает зелёный чай и меньшие порции вместо крупных кофейных толчков. Авторы ищут более ровное субъективное состояние. Содержание кофеина зависит от приготовления и объёма, поэтому название напитка само по себе не является точной дозой. Важна проверка собственной реакции, а не уверенность, будто зелёный чай автоматически решает любую проблему с энергией.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "A gentler drink changes the pattern of stimulation",
+          "body": "<p>Tactic 73 proposes green tea and smaller servings instead of large coffee jolts. The authors seek steadier subjective energy. Caffeine content depends on preparation and volume, so a beverage name is not a precise dose. Assess your own response rather than assuming that green tea automatically resolves every difficulty with energy.</p>"
+        }
+      }
+    },
+    {
+      "id": "boost-separate-sugar",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Привяжите стимуляцию к цели и отделите её от сладкого ритуала",
+          "body": "<p>Тактика 74 связывает кофеин с временем Главного, а тактика 76 отделяет его от сладких напитков. Это два вмешательства: выбрать момент и изменить состав привычного потребления. Авторы не требуют отказаться от любого десерта. Если менять сразу и напиток, и сон, и питание, понять источник перемены будет сложнее — это уже ограничение домашнего эксперимента.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Connect stimulation with a purpose and separate it from sugar",
+          "body": "<p>Tactic 74 connects caffeine with the Highlight’s timing; tactic 76 separates it from sugary drinks. These change two different things: when consumption occurs and what the usual drink contains. The authors do not demand abandoning every dessert. Changing drinks, sleep, and food simultaneously also makes the source of any improvement harder to identify in a home experiment.</p>"
+        }
+      }
+    },
+    {
+      "id": "nature",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Природа предлагает стимулы без постоянной необходимости отвечать",
+          "body": "<p>В тактике 77 авторы описывают прогулку в зелени как восстановление внимания: вокруг достаточно интересного, но меньше требований к целенаправленному контролю. Джейк вспоминает лесные выходы отца между делами. Это не обещание лечения стрессовых расстройств и не необходимость дальнего похода. Небольшой доступный парк может выполнять ту же практическую роль паузы от потока.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Nature offers stimulation without constant demands to respond",
+          "body": "<p>In tactic 77 the authors describe green surroundings as an attention break: there is interest without so many demands for directed control. Jake recalls his father visiting woods between appointments. This does not promise treatment for stress disorders or require a remote hike. An accessible small park can serve the practical role of interrupting the stream.</p>"
+        }
+      }
+    },
+    {
+      "id": "meditation",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Медитация в книге — короткая практика, не экзамен на пустой ум",
+          "body": "<p>Тактика 78 снижает порог медитации: короткая проба и помощь простого руководства вместо идеала безмыслия. Авторы описывают отдых и тренировку возвращения внимания. Их широкие заявления о пользе здесь не превращены в гарантии или лечение. Для петли важен навык замечать уход мысли и пробовать вернуться, а не безупречно выполнять ещё одно требование.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Meditation is a brief practice, not a test of an empty mind",
+          "body": "<p>Tactic 78 lowers the threshold for meditation: try a short practice with simple guidance rather than demand thoughtlessness. The authors describe rest and practice in returning attention. Their broad benefit claims are not converted here into guarantees or treatment. Within the loop, notice wandering and practice returning instead of perfectly satisfying one more demand.</p>"
+        }
+      }
+    },
+    {
+      "id": "real-break",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Смена одного потока на другой может не быть перерывом",
+          "body": "<p>Тактики 79–80 оставляют наушники дома и предлагают настоящие паузы без лент. Постоянный звук заполняет пространство, где могла бы отдохнуть мысль. Другая информация тоже требует обработки, даже если она приятная. Это не запрет музыки или подкастов: иногда выберите тишину и движение, чтобы проверить, чем отдых отличается от очередной порции содержания.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Replacing one stream with another may not be a break",
+          "body": "<p>Tactics 79–80 leave headphones at home and create breaks without feeds. Constant audio can fill the space where thought might rest; pleasant information still requires processing. This does not prohibit music or podcasts. Sometimes choose quiet and movement to discover whether a break feels different from receiving another portion of content.</p>"
+        }
+      }
+    },
+    {
+      "id": "people-meals",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Время с людьми не должно всё время конкурировать с экраном",
+          "body": "<p>Тактики 81–82 выделяют личное общение и еду без устройств. Для авторов близкий контакт — часть энергетической поддержки, а не досадный перерыв в настоящей работе. Экранная коммуникация может быть необходимой и ценной; здесь пересматривается автоматическое разделение внимания за общим столом. Полноценная встреча иногда одновременно служит Главным и способом восстановления.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Time with people should not always compete with a screen",
+          "body": "<p>Tactics 81–82 make room for personal contact and meals without devices. The authors treat close interaction as energy support rather than an annoying interruption of real work. Screen-mediated communication can be necessary and valuable; the target here is automatic divided attention at a shared table. A meaningful encounter may serve as both Highlight and restoration.</p>"
+        }
+      }
+    },
+    {
+      "id": "sleep-cave",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Спальня может перестать быть филиалом цифрового дня",
+          "body": "<p>Тактика 83 убирает телефон и другие помехи из спальни. Темнота, тишина и отдельный будильник помогают задать другой сценарий, чем проверка всего перед сном. Логика среды повторяется: убрать лишний вход легче, чем каждый вечер запрещать себе ещё одно действие. Это полезная организационная идея, но не гарантия устранения любых причин бессонницы.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "The bedroom can stop extending the digital day",
+          "body": "<p>Tactic 83 removes the phone and other intrusions from the bedroom. Darkness, quiet, and a separate alarm support a different script from checking everything before sleep. The environmental logic repeats: removing an entry point can be easier than forbidding one more action every night. This organizational idea does not guarantee relief from every cause of insomnia.</p>"
+        }
+      }
+    },
+    {
+      "id": "sunset-rhythm",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Завершение дня требует перехода, а не мгновенного выключения",
+          "body": "<p>Тактика 84 приглушает вечерний свет; 85 допускает короткий дневной сон или отдых; 86 стремится сохранить устойчивый суточный ритм. Это разные рычаги восстановления, а не взаимозаменяемые способы меньше спать. Совет книги не отсыпаться хаотично нельзя читать как требование игнорировать недосып. Если ночи нарушены внешними обязанностями, возможные изменения будут ограничены.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Ending a day requires a transition, not an instant shutdown",
+          "body": "<p>Tactic 84 dims evening light; 85 allows a brief nap or rest; 86 seeks a steadier daily rhythm. These are different recovery levers, not interchangeable methods for sleeping less. The book’s concern about erratic catch-up schedules should not become an instruction to ignore sleep loss. External nighttime responsibilities also constrain what can realistically change.</p>"
+        }
+      }
+    },
+    {
+      "id": "caregiver",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Энергия / Energize",
+          "title": "Забота о себе поддерживает заботу о другом",
+          "body": "<p>В тактике 87 кислородная маска напоминает: ухаживающий человек тоже нуждается в сне, питании и паузах. Авторы признают, что при уходе за младенцем или взрослым многие советы кажутся непрактичными. Это существенное ограничение контроля, не недостаток дисциплины. Полезный шаг должен помещаться в реальную зависимость людей друг от друга, а не требовать воображаемой свободы.</p>"
+        },
+        "en": {
+          "section": "IV · Energize",
+          "title": "Caring for yourself helps sustain care for another",
+          "body": "<p>In tactic 87 the oxygen-mask analogy reminds caregivers that they also need sleep, food, and pauses. The authors acknowledge that many suggestions may seem impractical while caring for a baby or adult. This is a genuine limit on control, not deficient discipline. A useful change must fit real interdependence rather than require imaginary freedom.</p>"
+        }
+      }
+    },
+    {
+      "id": "reflection",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Заметки превращают совет в вашу работающую систему",
+          "body": "<p>Reflect спрашивает, получилось ли выделить время для Главного, насколько удалось сосредоточиться, как менялась энергия и что порадовало. Несколько записей позволяют решить, что сохранить, изменить или бросить. Без этой обратной связи набор тактик легко становится новым сводом требований. С ней неудачный приём сообщает что-то о настройке, а не выносит приговор вашему характеру.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Notes turn advice into a system fitted to you",
+          "body": "<p>Reflect asks whether you made time for the Highlight, how well you focused, how energy changed, and what felt good. Brief notes guide what to keep, modify, or discard. Without feedback, tactics easily become another rulebook. With it, an unsuccessful tactic tells you something about the arrangement instead of passing judgment on your character.</p>"
+        }
+      }
+    },
+    {
+      "id": "three-hypotheses",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Книга предлагает три гипотезы, которые читатель проверяет",
+          "body": "<p>Авторы формулируют ожидания: единый приоритет улучшает день; барьеры помогают фокусу; забота о теле поддерживает энергию. Тактики служат 87 возможными проверками этих ожиданий. Но домашнее наблюдение не равно контролируемому исследованию: одновременно меняются задачи, настроение и обстоятельства. Полезность личной настройки можно оценить без заявления, будто доказана универсальная причинность.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "The book offers three hypotheses for readers to test",
+          "body": "<p>The authors predict that a single priority improves the day, barriers support focus, and bodily care sustains energy. The 87 tactics offer possible tests. Home observation is not a controlled study: tasks, mood, and circumstances also change. You can assess whether a personal arrangement is useful without claiming to have established universal causality.</p>"
+        }
+      }
+    },
+    {
+      "id": "honest-notes",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Записывайте результат, а не историю об идеальном себе",
+          "body": "<p>Короткая фиксация удерживает от удобной памяти: понравившаяся идея могла не помочь, а скромная прогулка — оказаться полезнее нового приложения. Следует различать, удалось ли вообще попробовать тактику и какой эффект вы заметили. Иногда нужен повтор или подгонка, иногда — отказ. Осмысление оценивает изменения дня, а не награждает за верность системе.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Record the result rather than a story about your ideal self",
+          "body": "<p>A short record resists convenient memory: an attractive idea may not help, while an ordinary walk may matter more than a new app. Distinguish whether you actually tried the tactic from what effect you noticed. Sometimes repeat or adapt it; sometimes drop it. Reflection evaluates the day’s changes rather than rewarding loyalty to the system.</p>"
+        }
+      }
+    },
+    {
+      "id": "gratitude",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Благодарность не даёт эксперименту превратиться в поиск ошибок",
+          "body": "<p>Авторы включают в вечерние заметки то, за что можно быть благодарным. Это меняет угол рассмотрения: день может содержать ценное, даже если Главное не удалось выполнить. Такой вопрос не отменяет проблемы и не доказывает, что всякий ущерб полезен. Он помогает увидеть работающую часть жизни, которую следующая перестройка не должна случайно разрушить.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Gratitude keeps an experiment from becoming an error hunt",
+          "body": "<p>The authors include something to be grateful for in evening notes. A day can contain value even when the Highlight was missed. This question neither cancels a problem nor proves that every setback was beneficial. It helps reveal what already works, so the next redesign does not accidentally destroy a valuable part of life.</p>"
+        }
+      }
+    },
+    {
+      "id": "record-example",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Простая запись связывает действие, ощущение и следующую пробу",
+          "body": "<p>Джейк приводит заметку с утренними упражнениями, хорошей первой половиной дня и послеобеденной усталостью. Запись подсказала ему повторять движение и пересмотреть другие привычки. Она не изолирует причину каждого ощущения: сон, обед и нагрузка могли влиять одновременно. Сила примера в превращении смутного впечатления в конкретный вопрос для следующего дня.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "A simple note links action, experience, and the next trial",
+          "body": "<p>Jake shows a note linking morning exercise with a good morning and afternoon fatigue. It prompted him to repeat movement and reconsider other habits. The note does not isolate the cause of each sensation: sleep, food, and workload could contribute together. Its strength is turning a vague impression into a concrete question for the next day.</p>"
+        }
+      }
+    },
+    {
+      "id": "small-start",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Начните с трёх тактик на три дня",
+          "body": "<p>Быстрый старт книги предлагает назначить Главное в календаре, заблокировать личный криптонит и больше ходить — тактики 8, 24 и 62. Затем три вечера кратко оценить результат. Это небольшая начальная конфигурация, не обязательная лучшая комбинация для всех. Она позволяет пройти всю петлю, прежде чем усложнять её дополнительными приёмами.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Begin with three tactics for three days",
+          "body": "<p>The book’s quick start schedules the Highlight, blocks personal kryptonite, and adds walking: tactics 8, 24, and 62. Review the result for three evenings. This is a small starting configuration, not the mandatory best combination for everyone. It lets you experience the entire loop before adding further tactics and making the arrangement more complex.</p>"
+        }
+      }
+    },
+    {
+      "id": "bounded-test",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Хорошая личная проба заранее называет ожидаемое изменение",
+          "body": "<p>Практический вывод конспекта: выберите помеху, изменение и наблюдаемый результат. Например, убрать телефон во время чтения и вечером отметить, удалось ли читать без неплановых проверок. Сохраните объяснения альтернатив: день мог быть легче обычного. Такой протокол не делает вас лабораторией, но уменьшает риск назвать успехом любое приятное ощущение после нововведения.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "A useful personal trial names the expected change in advance",
+          "body": "<p>This digest suggests naming an obstacle, a change, and an observable result. For example, put the phone away while reading and note whether unplanned checks declined. Keep alternative explanations visible: the day may simply have been easier. This does not create a laboratory, but reduces the temptation to call every pleasant feeling after a change a success.</p>"
+        }
+      }
+    },
+    {
+      "id": "limits",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Личная перенастройка имеет пределы власти и ресурсов",
+          "body": "<p>Книга признаёт ограничения календаря, разные привычки и обязанности ухода. Из этого следует важная граница: личная тактика не отменяет нехватку людей, денег или права отказать начальнику. Испытывать доступное изменение разумно, но отсутствие результата не доказывает лень. Иногда необходима общая договорённость, изменение нагрузки или помощь, которую нельзя заменить лучшим таймером.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Personal redesign has limits of power and resources",
+          "body": "<p>The book recognizes limited calendar control, differing habits, and caregiving duties. A key implication follows: a personal tactic cannot erase shortages of people, money, or permission to refuse a boss. Trying an available change is reasonable, but failure does not establish laziness. Sometimes shared agreements, workload changes, or assistance are needed instead of a better timer.</p>"
+        }
+      }
+    },
+    {
+      "id": "notes-have-cost",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Записи должны помогать жить, а не создавать пожизненный долг",
+          "body": "<p>В разделе Reflect авторы допускают, что записи понадобятся только первые недели. Одни изменения заметны сразу, другие требуют терпения и подгонки; это не повод бессрочно обслуживать таблицу. Цена самой системы тоже важна. Если наблюдение стало тяжёлым, его можно упростить, сохранив вопрос о результате и конкретное решение, что попробовать дальше.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Notes should help life rather than create a lifelong debt",
+          "body": "<p>In Reflect the authors allow notes to be useful mainly in the first weeks. Some changes appear quickly, while others need patience and adjustment; this does not create an obligation to maintain a spreadsheet indefinitely. The system has its own cost. Simplify burdensome tracking while keeping the outcome question and a concrete decision about what to try next.</p>"
+        }
+      }
+    },
+    {
+      "id": "life-pivot",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Найденное время может изменить не скорость, а направление",
+          "body": "<p>В финале Джейк описывает переход к писательству, Джон — к жизни с большим местом для паруса. Повторное внимание усилило их понимание собственных желаний. Авторы не требуют повторять эти биографии или увольняться. Возможен и более тихий результат: прежняя работа и семья остаются, но в дне появляется то, что раньше бесконечно откладывалось.</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Recovered time can change direction rather than speed",
+          "body": "<p>At the end Jake describes turning toward writing and John toward a life with more sailing. Repeated attention clarified what they wanted. The authors do not ask readers to repeat those biographies or quit their jobs. A quieter outcome is possible: the same work and family remain, with room for something that used to be postponed indefinitely.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Осмысление / Reflect",
+          "title": "Выбрать, защитить, подпитать, проверить — и повторить",
+          "body": "<p>Сохраняйте причинную цепочку: Главное задаёт смысл времени; барьеры помогают отдать ему внимание; тело поддерживает возможность выбирать; заметки позволяют менять настройки. Цель — не идеальный день и не коллекция выполненных тактик. К вечеру спросите: получило ли важное реальное место в моей жизни и что стоит попробовать иначе завтра?</p>"
+        },
+        "en": {
+          "section": "V · Reflect",
+          "title": "Choose, protect, replenish, learn — then repeat",
+          "body": "<p>Keep the causal chain intact: the Highlight gives time a purpose, barriers help direct attention toward it, bodily care supports the ability to choose, and notes improve the settings. The aim is neither a perfect day nor a collection of completed tactics. Ask tonight whether something important received real space in your life and what to try differently tomorrow.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

@@ -354,7 +354,8 @@ for (const filename of files) {
   else throw new Error(`${filename}: missing </head>`);
 
   const bodyWithoutInjectedFocus = withoutBlock(html, '<!-- book-library-focus:start -->', '<!-- book-library-focus:end -->');
-  const hasBuiltInFocus = bodyWithoutInjectedFocus.includes('bookFocusMode:');
+  const hasBuiltInFocus = bodyWithoutInjectedFocus.includes('bookFocusMode:') ||
+    /book-tiktok\.[a-z0-9-]+\.focus/.test(bodyWithoutInjectedFocus);
   if (hasBuiltInFocus) {
     html = bodyWithoutInjectedFocus;
   } else {

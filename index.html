@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -756,6 +756,11 @@
             '<path class="art-fill-soft" d="M149 70 C174 49 214 53 229 78 C245 104 222 132 193 125 C165 119 151 91 169 75 C184 62 204 68 210 84 C216 101 201 112 187 105 C176 99 176 87 184 82 C191 78 198 83 197 89 C196 94 192 96 188 94 C186 93 185 91 186 89"/>' +
             '<path class="art-bold" d="M124 123 C147 79 174 58 202 62 C230 66 243 91 231 111 C218 132 188 132 173 112 C158 92 171 72 189 72 C207 72 217 89 210 102 C203 115 184 114 178 101"/>' +
             '<path class="art-line" d="M231 111 C247 131 269 133 298 111 M286 104 L298 111 L287 119"/><rect class="art-fill" x="117" y="117" width="13" height="13" rx="3"/>';
+        } else if (motif === 'somatic-trace') {
+          content = '<path class="art-quiet" d="M164 38 C150 57 148 78 154 98 C160 119 154 138 140 153 M201 34 C184 57 181 81 189 103 C197 124 193 143 181 157 M238 40 C220 61 216 83 224 103 C232 123 231 139 222 153"/>' +
+            '<path class="art-fill-soft" d="M182 47 C196 37 222 37 237 48 C252 59 258 78 253 96 C249 111 239 120 243 146 H176 C181 122 170 112 167 96 C163 77 168 58 182 47 Z"/>' +
+            '<path class="art-bold" d="M200 39 C216 33 236 38 246 52 M188 58 C177 75 178 96 189 109 C199 121 202 133 199 151 M238 60 C248 77 246 96 235 109 C226 121 224 134 228 151"/>' +
+            '<path class="art-line" d="M126 91 H173 M253 91 H303 M136 82 L126 91 L136 100 M293 82 L303 91 L293 100"/><rect class="art-fill" x="207" y="83" width="14" height="14" rx="3"/>';
         } else {
           content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +

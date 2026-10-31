@@ -32,6 +32,11 @@
       --color-on-primary: #100f0f;
       --color-focus-ring: rgba(58, 169, 159, 0.34);
     }
+    @media (min-width: 900px) and (max-width: 1199px) {
+      html .cover-layout { display: flex; flex-direction: column; min-width: 0; max-width: 100%; }
+      html .cover-visual { min-height: 220px; grid-row: auto; }
+      html .cover-copy { min-width: 0; width: 100%; }
+    }
     html[data-focus-mode="true"] body { overscroll-behavior-y: none; }
     html[data-focus-mode="true"] .app-stage { padding: 0 !important; }
     html[data-focus-mode="true"] .app-shell {
@@ -48,7 +53,9 @@
     html[data-focus-mode="true"] .topbar,
     html[data-focus-mode="true"] .progress,
     html[data-focus-mode="true"] .progress-track,
-    html[data-focus-mode="true"] .desktop-rail { display: none !important; }
+    html[data-focus-mode="true"] .desktop-rail,
+    html[data-focus-mode="true"] .cover-actions,
+    html[data-focus-mode="true"] .cover-copy .mode-picker { display: none !important; }
     html[data-focus-mode="true"] .story {
       min-width: 0 !important;
       min-height: 0 !important;
@@ -72,9 +79,10 @@
       background: var(--color-bg, #fffcf0) !important;
     }
     html[data-focus-mode="true"] .app-nav.is-hidden,
-    html[data-focus-mode="true"] .nav[hidden] { display: none !important; }
+    html[data-focus-mode="true"] .nav[hidden] { display: grid !important; }
     html[data-focus-mode="true"] #previousButton,
     html[data-focus-mode="true"] #btn-back,
+    html[data-focus-mode="true"] #counter,
     html[data-focus-mode="true"] .nav-position,
     html[data-focus-mode="true"] .counter { display: none !important; }
     html[data-focus-mode="true"] #nextButton,
@@ -1641,7 +1649,7 @@
       });
 
       document.addEventListener('keydown', (event) => {
-        if (els.contentsDialog.open || els.sourcesDialog.open) return;
+        if (document.querySelector('dialog[open]') || event.metaKey || event.ctrlKey || event.altKey || event.target.closest?.('a, button, input, textarea, select, summary, details, [role="button"], [contenteditable]')) return;
         if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') {
           event.preventDefault();
           next();
@@ -1718,7 +1726,7 @@
       }, true);
       story.addEventListener('pointercancel', () => { tap = null; }, true);
       document.addEventListener('keydown', (event) => {
-        if (isInteractive(event.target) || document.querySelector('dialog[open]')) return;
+        if (event.target.closest?.('input, textarea, select, [contenteditable]') || document.querySelector('dialog[open]')) return;
         if ((event.key === 'f' || event.key === 'F' || event.key === 'а' || event.key === 'А') && !event.metaKey && !event.ctrlKey && !event.altKey) {
           event.preventDefault();
           setFocus(root.getAttribute('data-focus-mode') !== 'true');
@@ -1778,6 +1786,7 @@
       function isStandalone() {
         return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
       }
+      function focusActive() { return root.hasAttribute('data-focus-mode'); }
       function language() { return String(root.lang || 'ru').toLowerCase().indexOf('en') === 0 ? 'en' : 'ru'; }
       function localize() {
         var current = copy[language()];
@@ -1791,6 +1800,7 @@
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
+        if (focusActive() || isStandalone()) return;
         localize();
         if (!dialog.open) dialog.showModal();
       }
@@ -1799,7 +1809,10 @@
       root.setAttribute('data-book-installable', 'true');
       trigger.hidden = false;
       localize();
-      new MutationObserver(localize).observe(root, { attributes: true, attributeFilter: ['lang'] });
+      new MutationObserver(function () {
+        localize();
+        if (focusActive() && dialog.open) dialog.close();
+      }).observe(root, { attributes: true, attributeFilter: ['lang', 'data-focus-mode'] });
       trigger.addEventListener('click', show);
       close.addEventListener('click', function () { markSeen(); dialog.close(); });
       dialog.addEventListener('click', function (event) {

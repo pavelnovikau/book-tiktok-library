@@ -37,6 +37,11 @@ const headBlock = `
       --color-on-primary: #100f0f;
       --color-focus-ring: rgba(58, 169, 159, 0.34);
     }
+    @media (min-width: 900px) and (max-width: 1199px) {
+      html .cover-layout { display: flex; flex-direction: column; min-width: 0; max-width: 100%; }
+      html .cover-visual { min-height: 220px; grid-row: auto; }
+      html .cover-copy { min-width: 0; width: 100%; }
+    }
     html[data-focus-mode="true"] body { overscroll-behavior-y: none; }
     html[data-focus-mode="true"] .app-stage { padding: 0 !important; }
     html[data-focus-mode="true"] .app-shell {
@@ -53,7 +58,9 @@ const headBlock = `
     html[data-focus-mode="true"] .topbar,
     html[data-focus-mode="true"] .progress,
     html[data-focus-mode="true"] .progress-track,
-    html[data-focus-mode="true"] .desktop-rail { display: none !important; }
+    html[data-focus-mode="true"] .desktop-rail,
+    html[data-focus-mode="true"] .cover-actions,
+    html[data-focus-mode="true"] .cover-copy .mode-picker { display: none !important; }
     html[data-focus-mode="true"] .story {
       min-width: 0 !important;
       min-height: 0 !important;
@@ -227,7 +234,7 @@ const bodyBlock = `
 
       story.addEventListener('pointercancel', function () { tap = null; }, true);
       document.addEventListener('keydown', function (event) {
-        if (isInteractive(event.target) || document.querySelector('dialog[open]')) return;
+        if (event.target.closest?.('input, textarea, select, [contenteditable]') || document.querySelector('dialog[open]')) return;
         if ((event.key === 'f' || event.key === 'F' || event.key === 'а' || event.key === 'А') && !event.metaKey && !event.ctrlKey && !event.altKey) {
           event.preventDefault();
           setFocus(root.getAttribute('data-focus-mode') !== 'true');
@@ -305,7 +312,7 @@ const installBlock = `
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
-        if (focusActive()) return;
+        if (focusActive() || isStandalone()) return;
         localize();
         if (!dialog.open) dialog.showModal();
       }
@@ -347,6 +354,18 @@ for (const filename of files) {
   const filePath = path.resolve(root, filename);
   if (!filePath.startsWith(`${root}${path.sep}`)) throw new Error(`Refusing path outside repository: ${filename}`);
   let html = fs.readFileSync(filePath, 'utf8');
+
+  // Older standalone readers share these handlers. Keep native keyboard activation
+  // on their controls while maintaining paging shortcuts on reading text.
+  const pagingGuard = "if (document.querySelector('dialog[open]') || event.metaKey || event.ctrlKey || event.altKey || event.target.closest?.('a, button, input, textarea, select, summary, details, [role=\"button\"], [contenteditable]')) return;";
+  for (const oldGuard of [
+    'if (els.contentsDialog.open || els.sourcesDialog.open) return;',
+    'if (contentsDialog.open || sourcesDialog.open) return;'
+  ]) html = html.replace(oldGuard, pagingGuard);
+  html = html.replace(
+    "if (isInteractive(event.target) || document.querySelector('dialog[open]')) return;",
+    "if (event.target.closest?.('input, textarea, select, [contenteditable]') || document.querySelector('dialog[open]')) return;"
+  );
 
   const updatedHead = replaceBlock(html, '<!-- book-library-pwa:start -->', '<!-- book-library-pwa:end -->', headBlock);
   if (updatedHead !== null) html = updatedHead;

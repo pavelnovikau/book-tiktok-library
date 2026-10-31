@@ -30,6 +30,15 @@ The active expansion queue contains 25 books. All counts are cumulative `Essenti
 | Fiction and adventure | Douglas Adams — *The Hitchhiker’s Guide to the Galaxy* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
 | Fiction and adventure | Andy Weir — *Project Hail Mary* | 24 / 60 / 96 | For my son · 14+ | Copyright-safe analytical digest; no ending in Essential, full plot only in Deep |
 
+## Execution status — 2026-10-31
+
+The catalogue currently registers **22 books / 2,553 screens**, including **18 of the 25 expansion titles** and four pre-existing readers. Registration is local until the associated PR is merged and its production deployment verified.
+
+- Ready for release: *Mindfulness* and *Behave* after cold-review corrections and standalone matrices of 3,424 and 6,480 visits respectively.
+- In repair/review: *Antifragile*, *Determined*, *Zen and the Art of Motorcycle Maintenance*.
+- Collectors restarted under the approved analytical-digest source boundary: *The Wee Free Men*, *The Hitchhiker’s Guide to the Galaxy*, *Project Hail Mary*. Missing a full EPUB alone is not a blocker; each package still needs enough lawful, claim-level evidence for 24 / 60 / 96 distinct screens and a cold review before publication.
+- Source-blocked: *The Potent Self*. An active controlled loan or supplied purchased EPUB is still needed for the planned fidelity build.
+
 ## Source-access notes
 
 | Requested book | Status | Next action |

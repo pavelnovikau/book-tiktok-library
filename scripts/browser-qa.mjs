@@ -187,13 +187,19 @@ await evaluate(`searchInput.value = 'Theory'; searchInput.dispatchEvent(new Even
 await waitFor(async () => (await evaluate(`document.querySelectorAll('.book').length`)) === 1, 'catalogue search');
 await evaluate(`navigator.serviceWorker.ready.then(() => true)`);
 
-await command('Emulation.setDeviceMetricsOverride', { width: 320, height: 568, deviceScaleFactor: 2, mobile: true });
+for (const width of [320, 900, 960]) {
+await command('Emulation.setDeviceMetricsOverride', { width, height: 768, deviceScaleFactor: 1, mobile: width < 900 });
 for (const book of books) {
   await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
   const compact = await evaluate(`(() => {
     const controls = [...document.querySelectorAll('.app-header .topbar a, .app-header .topbar button, .topbar a, .topbar button')]
       .filter(node => getComputedStyle(node).display !== 'none');
     return {
+      coverInside: [...document.querySelectorAll('.cover-layout .cover-copy, .cover-layout .cover-visual')].every(node => {
+        const pane = document.getElementById('story').getBoundingClientRect();
+        const rect = node.getBoundingClientRect();
+        return rect.left >= pane.left - 1 && rect.right <= pane.right + 1;
+      }),
       controls: controls.length,
       inside: controls.every(node => { const rect = node.getBoundingClientRect(); return rect.left >= -1 && rect.right <= innerWidth + 1; }),
       overflow: document.documentElement.scrollWidth - innerWidth,
@@ -201,14 +207,25 @@ for (const book of books) {
       onPrimary: getComputedStyle(document.documentElement).getPropertyValue('--color-on-primary').trim()
     };
   })()`);
-  assert(compact.inside, `${book}: topbar control escaped the 320px viewport`);
+  assert(compact.coverInside, `${book}: cover clipped inside the ${width}px reader pane`);
+  assert(compact.inside, `${book}: topbar control escaped the ${width}px viewport`);
   assert(compact.overflow <= 1, `${book}: 320px overflow: ${compact.overflow}px`);
   assert(compact.primary === '#2f968d' && compact.onPrimary === '#100f0f', `${book}: quiet dark action colors were not applied`);
 }
 
+}
 await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
 for (const book of books) {
   await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
+  const chapterControl = await evaluate(`(() => {
+    const button = document.querySelector('#contentsButton, #btn-contents');
+    button.focus();
+    return button.id;
+  })()`);
+  await command('Input.dispatchKeyEvent', { type: 'keyDown', key: ' ', code: 'Space', windowsVirtualKeyCode: 32 });
+  await command('Input.dispatchKeyEvent', { type: 'keyUp', key: ' ', code: 'Space', windowsVirtualKeyCode: 32 });
+  assert(await evaluate(`Boolean(document.querySelector('dialog[open]'))`), `${book}: Space did not activate ${chapterControl}`);
+  await evaluate(`document.querySelectorAll('dialog[open]').forEach(dialog => dialog.close()); document.activeElement.blur()`);
   await evaluate(`(() => {
     const start = document.querySelector('[data-start], [data-action="start"]');
     if (start) start.click();

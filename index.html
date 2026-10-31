@@ -466,11 +466,11 @@
   <dialog id="installDialog" aria-labelledby="installTitle">
     <div class="dialog__body">
       <h2 id="installTitle" data-i18n="installTitle">Читать без строки Safari</h2>
-      <p data-i18n="installIntro">Добавьте библиотеку на экран «Домой»: она откроется как отдельное полноэкранное приложение.</p>
+      <p data-i18n="installIntro">Обычная вкладка Safari не может скрыть адресную строку. Добавьте библиотеку на экран «Домой»: она откроется как отдельное полноэкранное приложение.</p>
       <ol id="iosInstallSteps">
-        <li data-i18n="installStepOne">Нажмите «Поделиться» в Safari.</li>
-        <li data-i18n="installStepTwo">Выберите «На экран Домой».</li>
-        <li data-i18n="installStepThree">Откройте библиотеку с новой иконки.</li>
+        <li data-i18n="installStepOne">Нажмите кнопку меню рядом с адресом и выберите «Поделиться».</li>
+        <li data-i18n="installStepTwo">Нажмите «На экран Домой».</li>
+        <li data-i18n="installStepThree">Запускайте библиотеку с новой иконки, а не из Telegram.</li>
       </ol>
       <div class="dialog__actions">
         <button type="button" id="installClose" data-i18n="close">Закрыть</button>
@@ -495,9 +495,9 @@
           empty: 'По этим условиям книг пока нет.', contribute: 'Добавить книгу',
           footer: 'Каждая книга хранит тему, язык и прогресс прямо в браузере.',
           installTitle: 'Читать без строки Safari',
-          installIntro: 'Добавьте библиотеку на экран «Домой»: она откроется как отдельное полноэкранное приложение.',
-          installStepOne: 'Нажмите «Поделиться» в Safari.', installStepTwo: 'Выберите «На экран Домой».',
-          installStepThree: 'Откройте библиотеку с новой иконки.', close: 'Закрыть', installNow: 'Установить'
+          installIntro: 'Обычная вкладка Safari не может скрыть адресную строку. Добавьте библиотеку на экран «Домой»: она откроется как отдельное полноэкранное приложение.',
+          installStepOne: 'Нажмите кнопку меню рядом с адресом и выберите «Поделиться».', installStepTwo: 'Нажмите «На экран Домой».',
+          installStepThree: 'Запускайте библиотеку с новой иконки, а не из Telegram.', close: 'Закрыть', installNow: 'Установить'
         },
         en: {
           brand: 'Books for one evening', themeLight: 'Light', themeDark: 'Dark', install: 'Install',
@@ -509,9 +509,9 @@
           empty: 'No books match these filters yet.', contribute: 'Add a book',
           footer: 'Each book keeps its theme, language and progress in the browser.',
           installTitle: 'Read without the Safari bar',
-          installIntro: 'Add the library to your Home Screen and it will open as a standalone full-screen app.',
-          installStepOne: 'Tap Share in Safari.', installStepTwo: 'Choose Add to Home Screen.',
-          installStepThree: 'Open the library from its new icon.', close: 'Close', installNow: 'Install'
+          installIntro: 'A normal Safari tab cannot hide its address bar. Add the library to your Home Screen and it will open as a standalone full-screen app.',
+          installStepOne: 'Open the menu beside the address and choose Share.', installStepTwo: 'Tap Add to Home Screen.',
+          installStepThree: 'Launch the library from its new icon, not from Telegram.', close: 'Close', installNow: 'Install'
         }
       };
 
@@ -721,7 +721,8 @@
       }
 
       function canOfferIosInstall() {
-        return /iphone|ipad|ipod/i.test(navigator.userAgent) && !isStandalone();
+        var ios = /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        return ios && !isStandalone();
       }
 
       languageButton.addEventListener('click', function () { state.language = state.language === 'ru' ? 'en' : 'ru'; save(); render(); });

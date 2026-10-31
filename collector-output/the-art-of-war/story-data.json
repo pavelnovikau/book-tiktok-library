@@ -1,0 +1,1612 @@
+{
+  "schemaVersion": 2,
+  "slug": "the-art-of-war",
+  "title": {
+    "ru": "Сунь-цзы · Искусство войны",
+    "en": "Sunzi · The Art of War"
+  },
+  "description": {
+    "ru": "70 экранов о цене конфликта, устройстве преимущества и границах знания. Все 13 глав; текст, комментарии и современный синтез разделены.",
+    "en": "70 screens on the cost of conflict, the configuration of advantage, and the limits of knowledge. All 13 chapters; text, commentary, and modern synthesis distinguished."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "deep",
+  "targetModes": {
+    "essential": 22,
+    "core": 46,
+    "deep": 70
+  },
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Сунь-цзы · 13 глав",
+          "title": "Искусство войны",
+          "body": "<p class=\"lede\">Как принимать решения, когда сама победа может обернуться разорением?</p><p>Цена конфликта, устройство преимущества, пределы знания. Древний текст прочитан целиком в переводе Giles; комментарии и современный синтез отделены.</p>",
+          "subtitle": "Не коллекция хитростей, а трактат об ответственности за конфликт",
+          "visualAlt": "Условный типографический мотив читателя; не древняя рукопись и не издательская обложка"
+        },
+        "en": {
+          "section": "Sunzi · 13 chapters",
+          "title": "The Art of War",
+          "body": "<p class=\"lede\">How do you judge well when victory itself can leave a country ruined?</p><p>The cost of conflict, the configuration of advantage, the limits of knowledge. The complete ancient text was read in Giles’s translation; commentary and modern synthesis remain distinct.</p>",
+          "subtitle": "A treatise on responsibility for conflict, beyond clever tricks",
+          "visualAlt": "An abstract typographic reader motif, not an ancient manuscript or publisher cover"
+        }
+      },
+      "locator": "",
+      "type": "cover"
+    },
+    {
+      "id": "stakes",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Перед чтением",
+          "title": "На кону — жизнь государства",
+          "body": "<p>Книга начинается не с приёма победы, а с масштаба ответственности: война может сохранить государство или погубить его. Поэтому её нужно исследовать до действия. Дальнейшие рассуждения о расчёте, снабжении и командовании подчинены этой рамке. Успешное столкновение ещё не доказывает разумность войны: нужно спросить, что осталось от сообщества, ради которого её начали.</p>"
+        },
+        "en": {
+          "section": "Before reading",
+          "title": "The survival of the state is at stake",
+          "body": "<p>The opening establishes responsibility before technique: war may preserve a state or destroy it, so it demands inquiry before action. Assessment, supply, and command belong inside that frame. Winning an encounter does not by itself establish that a war was sensible. The reader must also ask what remains of the community for whose sake the conflict began.</p>"
+        }
+      },
+      "locator": "I.1–2; II.19–20; XII.17–22",
+      "claimType": "book"
+    },
+    {
+      "id": "uncertain-author",
+      "level": 2,
+      "sources": [
+        3,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "Перед чтением",
+          "title": "Имя автора не устраняет историю текста",
+          "body": "<p>Традиция связывает трактат с Сунь У, полководцем государства У около 500 года до н. э. Morillo отмечает сомнения в этой биографии и основания для более поздней компиляции. Smith рассматривает формулу «Сунь-цзы сказал» как след передачи учениками. Это разные аргументы против наивного чтения книги как личного дневника; точную дату и единственного автора они не устанавливают.</p>"
+        },
+        "en": {
+          "section": "Before reading",
+          "title": "An author’s name does not settle textual history",
+          "body": "<p>Tradition associates the treatise with Sun Wu, a commander in Wu around 500 BCE. Morillo reports doubts about that biography and grounds for later compilation. Smith interprets the attribution formula introducing Sunzi’s words as a sign of transmission by disciples. These are distinct reasons to avoid treating the book as a personal diary; neither establishes a precise date or a single author.</p>"
+        }
+      },
+      "locator": "Morillo abstract; Smith I opening note",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "manuscript-witness",
+      "level": 3,
+      "sources": [
+        4,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "Перед чтением",
+          "title": "Ранняя рукопись — свидетель, не автограф",
+          "body": "<p>Бамбуковый текст из Иньцюэшань — фрагментарный рукописный свидетель II века до н. э. Обзор Smith и археологическая датировка захоронения описывают разные временные границы: дата погребения не равна точной дате переписывания текста. Свидетель помогает сравнивать версии, но не доказывает традиционную биографию автора и не даёт неповреждённого оригинала: пробелы нельзя заполнять уверенностью.</p>"
+        },
+        "en": {
+          "section": "Before reading",
+          "title": "An early manuscript is a witness, not an autograph",
+          "body": "<p>The Yinqueshan bamboo text is a fragmentary second-century-BCE manuscript witness. Smith’s overview and the archaeological dating of the burial describe different boundaries: a tomb date is not the exact copying date of a text. The witness permits comparison between versions, but neither proves the traditional author’s biography nor supplies an intact original. Gaps in a manuscript must remain gaps in our certainty.</p>"
+        }
+      },
+      "locator": "Smith Overview; Yates archaeological context; copying date distinguished from burial date",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "layers-of-reading",
+      "level": 2,
+      "sources": [
+        2,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Перед чтением",
+          "title": "Текст и его читатели говорят разными голосами",
+          "body": "<p>Здесь разделены четыре слоя: древний трактат; перевод Giles 1910 года; поздние комментаторы, которых он цитирует; наш современный синтез. Boorman описывает накопление текста и традицию одиннадцати комментаторов. Поэтому пример из поздней истории нельзя незаметно превратить в случай, известный древнему автору. А возражение редактора нужно читать как возражение, даже если оно напечатано рядом с самим трактатом.</p>"
+        },
+        "en": {
+          "section": "Before reading",
+          "title": "Text and readers speak in different voices",
+          "body": "<p>Four layers remain separate here: the ancient treatise; Giles’s 1910 translation; the later commentators he cites; and this digest’s modern synthesis. Boorman describes textual accretion and a tradition of eleven commentators. A later historical example therefore cannot silently become an event known to the ancient author. An editor’s objection remains an objection, even when printed beside the treatise itself.</p>"
+        }
+      },
+      "locator": "Giles introduction/notes; Boorman public summary",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "whole-book-map",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Перед чтением",
+          "title": "Тринадцать глав связывают цену, условия и знание",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>I–VI</strong><p>Оценка, цена войны, сохранение целого, позиция, совокупная сила, относительное преимущество.</p></div><div class=\"compare-item\"><strong>VII–XIII</strong><p>Трение движения, изменчивость, наблюдение, местность, ситуации людей, необратимость, человеческие сведения.</p></div></div><p>Это карта нашего чтения, не деление самого автора на две части. Книга движется от решения о конфликте к условиям его ведения и заканчивается ценой незнания.</p>"
+        },
+        "en": {
+          "section": "Before reading",
+          "title": "Thirteen chapters connect cost, conditions, and knowledge",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>I–VI</strong><p>Assessment, war’s cost, preserving the whole, positioning, collective force, relative advantage.</p></div><div class=\"compare-item\"><strong>VII–XIII</strong><p>Friction in movement, variation, observation, terrain, human situations, irreversibility, human intelligence.</p></div></div><p>This is our reading map, not the author’s own two-part division. The book moves from judging conflict to the conditions of its conduct, ending with the price of ignorance.</p>"
+        }
+      },
+      "locator": "Synthesis of I–XIII",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "modern-reception",
+      "level": 2,
+      "sources": [
+        7,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "Перед чтением",
+          "title": "Всемирный афоризм родился не вне истории",
+          "body": "<p>Трактат относится к миру межгосударственного соперничества и массовых армий; Lewis связывает такие армии с развитием военных специалистов. Его нынешняя популярность тоже исторична: Lorge подчёркивает роль перевода Griffith 1963 года в западной рецепции. Узнаваемость имени не делает любой приписанный ему совет достоверным. Два контекста — древнее государство и современный рынок цитат — нельзя принимать за один.</p>"
+        },
+        "en": {
+          "section": "Before reading",
+          "title": "The global aphorism has its own history",
+          "body": "<p>The treatise belongs to a world of interstate competition and mass armies; Lewis links such armies with military specialists. Its present celebrity also has a history: Lorge stresses Griffith’s 1963 translation in Western reception. Familiarity with the name does not authenticate every piece of advice attached to it. The ancient state and the modern quotation market are two contexts, not one.</p>"
+        }
+      },
+      "locator": "Lewis public summary; Lorge excerpt pp.1–2",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "assessment-before-action",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Предварительная оценка",
+          "title": "Сравнение предшествует уверенности",
+          "body": "<p>В начале Сунь-цзы сопоставляет стороны по условиям, а не по их самооценке. Расчёты до столкновения позволяют судить о шансах; затем план должен учитывать возникающие обстоятельства. В военном противоборстве глава также требует искажать восприятие противника о намерениях и возможностях; это описание враждебного принципа, а не разрешение манипулировать людьми в обычных отношениях. Подготовка ценна потому, что обнаруживает различия между желаниями и доступными возможностями, а не потому, что заменяет контакт с меняющейся действительностью.</p>"
+        },
+        "en": {
+          "section": "I · Initial assessments",
+          "title": "Comparison must precede confidence",
+          "body": "<p>Sunzi begins by comparing sides through their conditions rather than their self-image. Deliberation before an encounter allows judgment about prospects; plans must then incorporate circumstances as they arise. In military opposition the chapter also requires manipulating an opponent’s perception of intentions and capabilities; that adversarial principle is not a license to manipulate people in ordinary relationships. Preparation matters because it reveals the distance between wishes and available capabilities, not because it replaces contact with changing reality.</p>"
+        }
+      },
+      "locator": "I.3–26; adversarial deception at I.18–25",
+      "claimType": "book"
+    },
+    {
+      "id": "five-factors",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Предварительная оценка",
+          "title": "Пять факторов связывают власть и материальный мир",
+          "body": "<ul class=\"story-list\"><li><span class=\"index\">1</span><div><strong>Путь</strong><span>Согласованность людей и правителя.</span></div></li><li><span class=\"index\">2</span><div><strong>Небо</strong><span>Время, сезоны, холод и жара.</span></div></li><li><span class=\"index\">3</span><div><strong>Земля</strong><span>Расстояния, опасность, доступность.</span></div></li><li><span class=\"index\">4</span><div><strong>Командующий</strong><span>Рассудительность, доверие, забота, смелость, строгость.</span></div></li><li><span class=\"index\">5</span><div><strong>Порядок</strong><span>Подразделения, полномочия, снабжение, расходы.</span></div></li></ul><p>Это исходные области сравнения, а не пять независимых секретов успеха. Преимущество в одной области не отменяет провала другой.</p>"
+        },
+        "en": {
+          "section": "I · Initial assessments",
+          "title": "Five factors join authority to material conditions",
+          "body": "<ul class=\"story-list\"><li><span class=\"index\">1</span><div><strong>The Way</strong><span>Concord between people and ruler.</span></div></li><li><span class=\"index\">2</span><div><strong>Heaven</strong><span>Timing, seasons, heat and cold.</span></div></li><li><span class=\"index\">3</span><div><strong>Earth</strong><span>Distance, danger, accessibility.</span></div></li><li><span class=\"index\">4</span><div><strong>Commander</strong><span>Judgment, trust, care, courage, strictness.</span></div></li><li><span class=\"index\">5</span><div><strong>Organization</strong><span>Units, authority, supplies, expenditure.</span></div></li></ul><p>These are initial domains for comparison, not five independent secrets of success. An advantage in one does not cancel failure in another.</p>"
+        }
+      },
+      "locator": "I.3–10",
+      "claimType": "book"
+    },
+    {
+      "id": "dao-translation",
+      "level": 3,
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Предварительная оценка",
+          "title": "«Путь» нельзя без остатка перевести как мораль",
+          "body": "<p>Giles обозначает dao словами, которые по-английски звучат как нравственный закон. Но пояснение самого трактата говорит о согласованности людей с правителем, включая готовность разделять смертельный риск. В этом конспекте «путь» сохраняет политическую связь и не выдаётся за современную этическую добродетель. Нравственно одобрять режим и объяснять, почему ему подчиняются, — разные мыслительные действия. Сам выбор русского слова уже требует оговорки.</p>"
+        },
+        "en": {
+          "section": "I · Initial assessments",
+          "title": "The Way cannot be reduced to morality",
+          "body": "<p>Giles renders dao in language suggesting a moral law. Yet the treatise’s explanation concerns concord between people and ruler, including willingness to share mortal danger. This digest uses “the Way” to preserve the political relationship without equating it with a modern ethical virtue. Endorsing a regime morally and explaining why people follow it are different intellectual acts. Even choosing an English or Russian label requires a qualification.</p>"
+        }
+      },
+      "locator": "I.4–6; Giles note on Moral Law",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "seven-comparisons",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Предварительная оценка",
+          "title": "Качество отношений становится предметом сравнения",
+          "body": "<p>Семь сопоставлений уточняют пять факторов: правитель, командующий, природные условия, дисциплина, сила, обучение, устойчивость наград и наказаний. Смысл перечня — перевести впечатление «мы сильнее» в проверяемые различия. Численность здесь лишь одна часть. Если люди плохо обучены, приказам не доверяют, а правила применяются непоследовательно, объявленная мощь ещё не стала действующей силой. Перечень связывает ресурсы с тем, как ими действительно распоряжаются.</p>"
+        },
+        "en": {
+          "section": "I · Initial assessments",
+          "title": "Relationships become objects of comparison",
+          "body": "<p>Seven comparisons refine the five factors: ruler, commander, natural conditions, discipline, strength, training, and consistency of rewards and punishments. Their purpose is to turn an impression of superiority into specific differences. Numbers are only one component. Poor training, distrusted commands, and inconsistent rules can prevent nominal power from becoming effective force. The list connects resources with the way they are actually governed.</p>"
+        }
+      },
+      "locator": "I.12–14",
+      "claimType": "book"
+    },
+    {
+      "id": "deception-domain",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Предварительная оценка",
+          "title": "Обман меняет чужое восприятие, а не реальность",
+          "body": "<p>Глава связывает обман с расхождением между действительной способностью и видимым состоянием. Другой участник действует на основании того, что считает известным; значит, видимость входит в причинную цепь конфликта. Однако текст не говорит, что одна инсценировка заменяет силы, снабжение или порядок. Это описание враждебного взаимодействия внутри военного трактата, а не универсальное разрешение лгать коллегам, клиентам и близким. Последний перенос был бы уже нашей моральной подменой.</p>"
+        },
+        "en": {
+          "section": "I · Initial assessments",
+          "title": "Deception alters perception, not underlying reality",
+          "body": "<p>The chapter makes deception depend on a gap between actual capability and apparent condition. Another participant acts on what they believe they know, so appearances become part of conflict’s causal structure. But a performance does not replace strength, supply, or organization in the text. This is an account of hostile interaction within a military treatise, not a universal permission to deceive colleagues, customers, or family. That transfer would be our own moral substitution.</p>"
+        }
+      },
+      "locator": "I.18–25",
+      "claimType": "book"
+    },
+    {
+      "id": "depletion",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Цена войны",
+          "title": "Время съедает не только деньги",
+          "body": "<p>Затяжная война изнашивает оружие, истощает людей и опустошает казну. Ослабление замечают другие правители: цена продолжения растёт через изменение всей политической среды. Поэтому Сунь-цзы не отделяет эффективность армии от жизнеспособности государства. Даже успешные действия могут вести к общей уязвимости, если их продолжение разрушает способность поддерживать результат. Противопоставление здесь — между достигнутой целью и бесконечным расходованием сил, а не между трудолюбием и ленью.</p>"
+        },
+        "en": {
+          "section": "II · The cost of war",
+          "title": "Time consumes more than money",
+          "body": "<p>Prolonged war wears out equipment, exhausts people, and drains the treasury. Other rulers notice the resulting weakness, so continuation changes the wider political environment as well. Sunzi therefore connects military effectiveness to the state’s viability. Even successful actions can create general vulnerability if sustaining them destroys the capacity to maintain their result. The contrast is between achieving an objective and indefinitely consuming strength, not between working hard and being lazy.</p>"
+        }
+      },
+      "locator": "II.1–7,19–20",
+      "claimType": "book"
+    },
+    {
+      "id": "economy-beyond-camp",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Цена войны",
+          "title": "Армия тянет за собой экономику населения",
+          "body": "<p>Доставка издалека ложится на население; близость армии повышает цены; истощение хозяйств вызывает новые поборы. В главе показана петля, где обеспечение войны подрывает источник самого обеспечения. Современный читатель может заметить системную логику, но конкретные доли потерь остаются числами трактата. Он описывает бремя войны прежде всего с точки зрения сохранения государства, а не предлагает сегодняшнюю экономическую статистику или полноценную теорию благосостояния граждан.</p>"
+        },
+        "en": {
+          "section": "II · The cost of war",
+          "title": "An army draws on the population’s economy",
+          "body": "<p>Long-distance supply burdens the population; the army’s presence raises prices; depleted households face further levies. The chapter describes a loop in which maintaining war undermines the source of maintenance itself. A modern reader may recognize a systemic argument, but the stated fractions remain the treatise’s figures. Its primary concern is preserving the state, not supplying contemporary economic statistics or a complete theory of citizens’ welfare.</p>"
+        }
+      },
+      "locator": "II.9–15",
+      "claimType": "book"
+    },
+    {
+      "id": "numbers-are-textual",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Цена войны",
+          "title": "Числа показывают масштаб, но не дают калькулятора",
+          "body": "<div class=\"fact\"><span class=\"fact-label\">Текстуальный пример · II.15</span><p>Одна повозка припасов противника, добытых на его территории, сопоставлена с двадцатью, доставленными из своего государства.</p></div><p>Соотношение делает видимой цену перевозки. Оно не является измеренным коэффициентом для любой эпохи. Так же нельзя превращать упомянутые 100 000 воинов и 1 000 li в точный исторический отчёт или современную модель расходов: единицы, жанр и условия требуют отдельной проверки.</p>"
+        },
+        "en": {
+          "section": "II · The cost of war",
+          "title": "Numbers establish scale, not a calculator",
+          "body": "<div class=\"fact\"><span class=\"fact-label\">Textual illustration · II.15</span><p>One cartload of enemy provisions obtained in enemy territory is compared with twenty transported from one’s own state.</p></div><p>The ratio makes transport costs visible; it is not a measured coefficient valid across periods. Likewise, the stated 100,000 troops and 1,000 li cannot become a precise historical report or modern cost model without examining units, genre, and conditions separately.</p>"
+        }
+      },
+      "locator": "II.1,13–15; synthesis of evidentiary limits",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "captured-people",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Цена войны",
+          "title": "Бережное обращение здесь связано с выгодой",
+          "body": "<p>В главе о расходах предлагается сохранять захваченные средства и хорошо обращаться с пленёнными солдатами, присоединяя их к собственной силе. Это ограничивает разрушение, но аргумент остаётся инструментальным. Не нужно ни вычёркивать этот момент из жестокого текста, ни превращать его в современную декларацию прав человека. Его точный смысл возникает из задачи: победа должна увеличивать способность действовать, а не только уничтожать способность противника.</p>"
+        },
+        "en": {
+          "section": "II · The cost of war",
+          "title": "Humane treatment here is tied to advantage",
+          "body": "<p>In the cost chapter, captured equipment is preserved and captured soldiers are to be treated well and incorporated into one’s strength. This limits destruction, but the reasoning remains instrumental. We should neither erase that feature from a coercive text nor convert it into a modern declaration of human rights. Its meaning follows from the objective: victory should increase the capacity to act, rather than merely eliminate an opponent’s capacity.</p>"
+        }
+      },
+      "locator": "II.16–18",
+      "claimType": "book"
+    },
+    {
+      "id": "whole-over-destroyed",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Замысел и сохранение",
+          "title": "Высшая победа сохраняет целое",
+          "body": "<p>Глава ставит овладение целым государством или войском выше их уничтожения. Серия выигранных сражений не равна высшему мастерству: сопротивление желательно преодолеть без разрушительной борьбы. Это меняет критерий успеха с числа побед на состояние достигнутого результата. Но речь всё ещё о подчинении другой стороны. Сбережение здесь нельзя автоматически читать как взаимное согласие, равенство сторон или отказ от применения силы.</p>"
+        },
+        "en": {
+          "section": "III · Planning and preservation",
+          "title": "The highest victory preserves the whole",
+          "body": "<p>The chapter ranks taking a state or army intact above destroying it. A succession of battlefield victories falls short of the highest skill: resistance should ideally be overcome without destructive fighting. Success is judged by the condition of the achieved result, not a count of victories. Yet the objective remains subordinating the other side. Preservation cannot automatically be read as mutual consent, equality, or a rejection of force.</p>"
+        }
+      },
+      "locator": "III.1–7",
+      "claimType": "book"
+    },
+    {
+      "id": "hierarchy-of-conflict",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Замысел и сохранение",
+          "title": "Сражение занимает не верхнюю ступень",
+          "body": "<p>Последовательность главы идёт от воздействия на замысел к связям между силами, затем к армии и, наконец, к осаде города. Чем ниже ступень, тем больше прямое материальное столкновение. Этот порядок связывает политику, отношения и бой в одном рассуждении. Он не обещает бескровный способ для любой ситуации: более низкие варианты остаются в тексте. Смысл иерархии — в цене перехода к ним, а не в мистическом всесилии хитрости.</p>"
+        },
+        "en": {
+          "section": "III · Planning and preservation",
+          "title": "Battle is not the highest-ranked instrument",
+          "body": "<p>The chapter moves from frustrating plans to disrupting connections, then confronting armies, and finally besieging cities. Lower positions in the ranking involve more direct material collision. Politics, relationships, and combat thus belong to one argument. This is not a guarantee of a bloodless answer to every situation: the lower-ranked alternatives remain in the text. The hierarchy highlights their cost, not a mysterious omnipotence of cleverness.</p>"
+        }
+      },
+      "locator": "III.3–7",
+      "claimType": "book"
+    },
+    {
+      "id": "siege-emotion",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Замысел и сохранение",
+          "title": "Осада показывает цену нетерпения руководителя",
+          "body": "<p>В примере осады подготовка занимает месяцы, после чего раздражённый командующий может погубить множество людей без достижения цели. Важна связка: уже понесённые затраты и ожидание создают эмоциональное давление; оно подменяет суждение о результате. Приведённая доля погибших — утверждение трактата, не собранная статистика осад. Пример нужен, чтобы лишить зрелищное наступление автоматического статуса разумного действия и вернуть в оценку людей, время и сохраняемую способность.</p>"
+        },
+        "en": {
+          "section": "III · Planning and preservation",
+          "title": "A siege exposes the cost of a leader’s impatience",
+          "body": "<p>In the siege example, preparation takes months; an irritated commander can then sacrifice many people without taking the city. The important connection is between accumulated expenditure, waiting, and emotional pressure that displaces judgment about outcomes. The stated proportion killed is a textual claim, not a collected siege statistic. The example removes automatic prestige from spectacular action and restores people, time, and preserved capacity to the assessment.</p>"
+        }
+      },
+      "locator": "III.4–5",
+      "claimType": "book"
+    },
+    {
+      "id": "ruler-and-general",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Замысел и сохранение",
+          "title": "Политическая власть не заменяет знание обстановки",
+          "body": "<p>Правитель способен повредить войску, требуя невозможного движения, перенося гражданские способы управления без различения условий или вмешиваясь в назначения неуместным образом. Трактат защищает компетентность командующего перед далёкой властью. Но это не теория неограниченной автономии: цель остаётся государственной. Конфликт между полномочием и знанием встроен в книгу. Его нельзя разрешить одним лозунгом «начальник всегда прав» или противоположным лозунгом «профессионал никому не отвечает».</p>"
+        },
+        "en": {
+          "section": "III · Planning and preservation",
+          "title": "Political authority cannot replace situated knowledge",
+          "body": "<p>A ruler can harm an army by ordering impossible movements, transferring civilian administration without regard to conditions, or intervening in appointments inappropriately. The text defends a commander’s competence against distant authority. It does not establish unlimited autonomy: the purpose remains political. Authority and knowledge can conflict inside the book’s model. Neither “the superior is always right” nor “the expert answers to nobody” resolves that tension.</p>"
+        }
+      },
+      "locator": "III.11–17",
+      "claimType": "book"
+    },
+    {
+      "id": "know-both",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Замысел и сохранение",
+          "title": "Знание себя требует знания другой стороны",
+          "body": "<p>Знаменитая связка знания себя и противника завершает перечень условий победы. Знать себя — не просто верить в собственные достоинства: нужно понимать состояние, пределы и согласованность своих людей. Знать другого — не обладать красивым портретом его характера, а судить о его возможностях и действиях. Формула о сотне сражений выражает уверенность трактата; она не является статистической гарантией и не отменяет неопределённости, которую позднее раскрывают местность и сведения.</p>"
+        },
+        "en": {
+          "section": "III · Planning and preservation",
+          "title": "Knowing yourself requires knowing the other side",
+          "body": "<p>The famous pairing of self-knowledge and knowledge of the opponent concludes a set of conditions for victory. Self-knowledge means understanding condition, limits, and cohesion, not believing in one’s virtues. Knowing the other means judging capabilities and actions, not possessing an elegant personality portrait. The formula involving a hundred battles expresses the treatise’s confidence; it is no statistical guarantee and does not remove the uncertainty later explored through terrain and intelligence.</p>"
+        }
+      },
+      "locator": "III.17–18; X.25–31",
+      "claimType": "book"
+    },
+    {
+      "id": "ratios-not-laws",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Замысел и сохранение",
+          "title": "Соотношения сил не отменяют остальные главы",
+          "body": "<p>В III главе численные соотношения задают разные варианты поведения. Но уже VI глава объясняет, как общая численность отличается от силы в конкретном месте, а X — почему состояние людей и местность меняют возможность действия. Поэтому вынимать числовую формулу как универсальный закон — значит обрезать собственную логику книги. В конспекте это исторические положения трактата, не нормативные коэффициенты, инструкции или проверенная модель исходов.</p>"
+        },
+        "en": {
+          "section": "III · Planning and preservation",
+          "title": "Force ratios do not cancel the other chapters",
+          "body": "<p>Chapter III assigns different responses to numerical ratios. Yet chapter VI distinguishes overall numbers from strength at a particular point, while chapter X makes condition and terrain decisive for feasibility. Extracting a ratio as a universal law would cut away the book’s own reasoning. These are historical propositions within the treatise, not normative coefficients, operational instructions, or a validated model of outcomes.</p>"
+        }
+      },
+      "locator": "III.8–10; VI.13–20; X.27–29",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "security-before-opportunity",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Позиция",
+          "title": "Свою устойчивость можно создать, чужую ошибку — не гарантировать",
+          "body": "<p>Глава различает два вида контроля: собственную защищённость можно готовить, а возможность победы зависит также от другой стороны. Поэтому знание пути к победе не означает, что его сейчас можно осуществить. Сильный руководитель не обязан непрерывно действовать, чтобы доказать свою силу. Он сначала уменьшает собственную уязвимость и не принимает желаемую возможность за уже возникшую. Это ограничение притязаний важнее популярного обещания полной управляемости ситуации.</p>"
+        },
+        "en": {
+          "section": "IV · Positioning",
+          "title": "You can secure yourself, not guarantee another’s mistake",
+          "body": "<p>The chapter separates two kinds of control: one can prepare one’s own security, while an opportunity to win also depends on the other side. Knowing how victory might be achieved does not mean it is presently achievable. A capable leader need not act continuously to demonstrate strength. First comes reducing one’s vulnerability and refusing to treat a desired opportunity as an existing one. This limits mastery rather than promising complete control.</p>"
+        }
+      },
+      "locator": "IV.1–7",
+      "claimType": "book"
+    },
+    {
+      "id": "uncelebrated-success",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Позиция",
+          "title": "Лучшее мастерство может выглядеть непримечательно",
+          "body": "<p>Трактат противопоставляет громкую славу победителю, который выигрывает при заранее созданных условиях. Зритель видит финальное действие, но не работу, сделавшую его относительно лёгким. Поэтому отсутствие героического напряжения не свидетельствует об отсутствии мастерства. Внутри книги это спор о критерии оценки: храбрость в тяжёлом столкновении заметнее, чем подготовленная возможность избежать тяжёлого столкновения. Причина успеха может быть скрыта именно потому, что сработала заранее.</p>"
+        },
+        "en": {
+          "section": "IV · Positioning",
+          "title": "The greatest skill may look unremarkable",
+          "body": "<p>The text contrasts spectacular acclaim with success under conditions prepared beforehand. A spectator sees the final action but misses the work that made it comparatively easy. A lack of heroic exertion therefore need not mean a lack of skill. The dispute concerns evaluation: courage in a difficult encounter is more visible than preparing the possibility of avoiding such difficulty. A cause of success may be hidden precisely because it operated earlier.</p>"
+        }
+      },
+      "locator": "IV.8–15",
+      "claimType": "book"
+    },
+    {
+      "id": "measurement-chain",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Позиция",
+          "title": "Оценка связывает землю с решением",
+          "body": "<p>Измерение, оценка количества, расчёт, сопоставление и победа образуют в главе последовательность. Она начинается с земли: материальные условия ограничивают возможное. Это не готовый алгоритм, куда можно подставить пять значений и получить достоверный исход. Перечень показывает требование опосредовать решение оценкой. Между громким намерением и действием должны стоять рассуждения о масштабе, соотношении и осуществимости, а не только вера в качества командира.</p>"
+        },
+        "en": {
+          "section": "IV · Positioning",
+          "title": "Assessment connects terrain to judgment",
+          "body": "<p>Measurement, estimates of quantity, calculation, comparison, and victory form a sequence in the chapter. It begins with terrain: material conditions constrain what is possible. This is no ready-made algorithm accepting five inputs and returning a certain outcome. The sequence demands that assessment mediate judgment. Between a bold intention and action stand questions of scale, relation, and feasibility, rather than faith in a commander’s qualities alone.</p>"
+        }
+      },
+      "locator": "IV.16–20",
+      "claimType": "book"
+    },
+    {
+      "id": "defense-variant",
+      "level": 3,
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Позиция",
+          "title": "Разночтение меняет саму причинность",
+          "body": "<p>В передаваемой Giles версии оборона указывает на недостаток сил, наступление — на избыток. Smith отмечает другое чтение бамбукового свидетеля: оборона создаёт достаточность, наступление — недостаточность. Это уже причинное утверждение, а не простое описание состояния. Редакторы Denma предпочитают второе; здесь обе версии показаны как текстологический выбор, без объявления одной бесспорным оригиналом.</p>"
+        },
+        "en": {
+          "section": "IV · Positioning",
+          "title": "A textual variant changes the causal claim",
+          "body": "<p>In the received version used by Giles, defense indicates insufficient strength and attack a surplus. Smith identifies a bamboo reading in which defense produces sufficiency and attack insufficiency. That makes a causal claim rather than describing an existing condition. The Denma editors prefer the latter. Both are presented here as a textual choice, without declaring either an uncontested original.</p>"
+        }
+      },
+      "locator": "Smith Overview comparison of IV; Giles IV.5–7",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "shi-configuration",
+      "level": 1,
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Совокупная сила",
+          "title": "Сила возникает из устройства ситуации",
+          "body": "<p>Камень на ровной земле неподвижен, на склоне — катится. Так глава объясняет shi: действенность положения и собранной силы, а не особую внутреннюю энергию героя. Важны расположение, координация и момент. Giles выбирает слово, близкое к энергии; здесь оно раскрыто через собственные образы трактата. Командующий создаёт условия совместного действия, вместо того чтобы требовать от каждого человека невозможного индивидуального превосходства.</p>"
+        },
+        "en": {
+          "section": "V · Collective force",
+          "title": "Force emerges from how a situation is arranged",
+          "body": "<p>A stone lies still on level ground and rolls on a slope. The chapter uses such images to explain shi: the efficacy of a configuration and of collective force, rather than a hero’s special inner energy. Arrangement, coordination, and timing matter. Giles uses the language of energy; this digest explains it through the treatise’s own images. Command creates conditions for joint action instead of demanding impossible individual superiority.</p>"
+        }
+      },
+      "locator": "V.12–15,21–23; Giles V notes",
+      "claimType": "book"
+    },
+    {
+      "id": "organization-at-scale",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Совокупная сила",
+          "title": "Большой коллектив требует структуры восприятия",
+          "body": "<p>Управление многими людьми сопоставляется с управлением немногими через подразделение и сигналы. Сложность не исчезает; она получает устройство, позволяющее различать роли и согласовывать действия. Войско не становится единым только потому, что у него один руководитель. Глава переносит внимание с личного присутствия командующего на средства, через которые множество людей вообще может действовать как связанное целое. Эта логика предшествует разговору о выдающейся личной отваге.</p>"
+        },
+        "en": {
+          "section": "V · Collective force",
+          "title": "Large groups need an organized field of perception",
+          "body": "<p>Managing many people is compared with managing a few through subdivision and signaling. Complexity does not disappear; it is organized so roles can be distinguished and actions coordinated. An army does not become unified merely by having one commander. Attention shifts from the leader’s personal presence to the means through which many people can act as a connected whole. This reasoning comes before any appeal to exceptional individual courage.</p>"
+        }
+      },
+      "locator": "V.1–4",
+      "claimType": "book"
+    },
+    {
+      "id": "zheng-qi",
+      "level": 3,
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Совокупная сила",
+          "title": "«Прямое» и «косвенное» — не вечные ярлыки действий",
+          "body": "<p>Пара zheng/qi у Giles передана через прямой и косвенный способы. В главе они переходят друг в друга и образуют новые сочетания. Поэтому «косвенный» нельзя просто приравнять к хитрому, а «прямой» — к глупому. Это связанные функции внутри взаимодействия; один и тот же поступок не обязан сохранять один ярлык во всех обстоятельствах. Такой пересказ сохраняет зависимость терминов от ситуации, не предлагая единственного окончательного перевода китайских понятий.</p>"
+        },
+        "en": {
+          "section": "V · Collective force",
+          "title": "Direct and indirect are not permanent labels",
+          "body": "<p>Giles renders zheng/qi through direct and indirect methods. In the chapter they transform into one another and generate further combinations. Indirect therefore cannot simply mean clever, with direct meaning foolish. They are related functions within an interaction; an action need not retain one label in every situation. This reading preserves the terms’ situational dependence without claiming a single definitive English equivalent for the Chinese concepts.</p>"
+        }
+      },
+      "locator": "V.3–11; Giles V terminology notes",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "finite-elements",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Совокупная сила",
+          "title": "Малое число элементов не ограничивает разнообразие",
+          "body": "<p>Пять звуков, цветов и вкусов служат аналогиями множества сочетаний. Задача образов — объяснить, как повторяемые элементы могут давать неповторяющиеся отношения. Разнообразие возникает не из бесконечного запаса новых приёмов, а из комбинаций и переходов. Это аргумент по аналогии внутри трактата, не доказательство математической полноты модели. Он подготавливает следующую главу: действенность формы зависит от конкретного отношения к другой стороне.</p>"
+        },
+        "en": {
+          "section": "V · Collective force",
+          "title": "Few elements can produce extensive variety",
+          "body": "<p>Five notes, colors, and tastes illustrate the variety produced by combinations. The images explain how recurring elements can generate nonrecurring relationships. Variety need not require an endless supply of new techniques; combinations and transitions can produce it. This is an analogy within the treatise, not a proof that its model is mathematically complete. It prepares the next chapter’s dependence of effective form on a particular opponent.</p>"
+        }
+      },
+      "locator": "V.5–11",
+      "claimType": "book"
+    },
+    {
+      "id": "apparent-disorder",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · Совокупная сила",
+          "title": "Управляемая видимость беспорядка предполагает порядок",
+          "body": "<p>Глава различает подлинную утрату связности и кажущийся беспорядок, за которым сохраняется организация. Видимость слабости может работать только при наличии сил, а видимость страха — при способности удержаться. Это оговорка против культа одной лишь инсценировки. Нельзя вычеркнуть внутренние условия и оставить красивую внешнюю картину. В логике текста эффект создаёт отношение между тем, что есть, и тем, что воспринимается, а не произвольное объявление любого хаоса стратегией.</p>"
+        },
+        "en": {
+          "section": "V · Collective force",
+          "title": "Controlled appearances of disorder presuppose order",
+          "body": "<p>The chapter distinguishes real disintegration from apparent disorder that still conceals organization. An appearance of weakness requires underlying strength, and apparent fear requires the ability to remain steady. This qualifies any cult of performance alone. Internal conditions cannot be removed while the attractive surface remains. The effect depends on a relationship between reality and perception, not on arbitrarily declaring every instance of chaos strategic.</p>"
+        }
+      },
+      "locator": "V.16–20",
+      "claimType": "book"
+    },
+    {
+      "id": "relative-strength",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Полнота и пустота",
+          "title": "Преимущество — отношение, а не имущество",
+          "body": "<p>Общая численность не равна действующей силе в определённом месте и времени. Распределение, готовность и необходимость отвечать на разные угрозы меняют соотношение. Поэтому сильный «вообще» может оказаться слабым в конкретной ситуации. Глава переносит вопрос с количества имеющегося на условия его совместного использования. Это не отменяет материальных ресурсов; наоборот, показывает, почему их нельзя оценивать вне размещения, доступности и решений другой стороны.</p>"
+        },
+        "en": {
+          "section": "VI · Solidity and emptiness",
+          "title": "Advantage is a relationship, not a possession",
+          "body": "<p>Total numbers do not equal effective strength at a particular place and time. Distribution, readiness, and the need to answer several demands alter the relationship. A side strong in general may be weak in a specific situation. The question shifts from how much exists to the conditions under which it can be used together. Material resources still matter; they must be assessed through location, availability, and the other side’s decisions.</p>"
+        }
+      },
+      "locator": "VI.13–20",
+      "claimType": "book"
+    },
+    {
+      "id": "initiative-and-cost",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Полнота и пустота",
+          "title": "Инициатива меняет, кому приходится приспосабливаться",
+          "body": "<p>Глава различает возможность действовать в выбранных условиях и необходимость реагировать на условия, заданные другим. Усталость, ожидание и направление внимания распределяются неравномерно. Поэтому инициатива — не просто первое движение: поспешивший может прийти истощённым, а ожидающий — сохранить готовность. Понять инициативу означает увидеть, кто несёт издержки приспособления. Это объясняет, почему скорость и активность без оценки ситуации сами по себе ещё не создают преимущества.</p>"
+        },
+        "en": {
+          "section": "VI · Solidity and emptiness",
+          "title": "Initiative changes who must adjust",
+          "body": "<p>The chapter distinguishes acting under chosen conditions from reacting to conditions imposed by another. Fatigue, waiting, and attention are unevenly distributed. Initiative therefore means more than moving first: a hurried arrival can be exhausted while a waiting force remains ready. Understanding initiative means seeing who bears the cost of adjustment. Speed and activity alone create no advantage without an assessment of the situation they produce.</p>"
+        }
+      },
+      "locator": "VI.1–12",
+      "claimType": "book"
+    },
+    {
+      "id": "information-asymmetry",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Полнота и пустота",
+          "title": "Неопределённость заставляет распылять возможности",
+          "body": "<p>Когда предполагаемое место действия неизвестно, подготовка распределяется по нескольким направлениям. У другого участника, сумевшего сохранить согласованность, возникает относительное преимущество. Глава соединяет информацию и материальную силу: незнание меняет не только убеждения, но и размещение возможностей. При этом секретность не тождественна достоверному знанию. Скрывая собственное положение, можно всё равно ошибаться в чужом; финальная глава возвращает вопрос о том, откуда берутся проверяемые сведения.</p>"
+        },
+        "en": {
+          "section": "VI · Solidity and emptiness",
+          "title": "Uncertainty disperses available capacity",
+          "body": "<p>When the expected location of action is unknown, preparation spreads across several possibilities. Another participant who maintains coordination can gain a relative advantage. Information thus affects material strength: ignorance changes not just beliefs but the distribution of capacity. Secrecy is nevertheless different from reliable knowledge. Concealing one’s own position does not prevent errors about another’s; the final chapter returns to the source of verifiable intelligence.</p>"
+        }
+      },
+      "locator": "VI.13–27; XIII.4–6",
+      "claimType": "book"
+    },
+    {
+      "id": "water-with-conditions",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Полнота и пустота",
+          "title": "Гибкость имеет конкретный предмет",
+          "body": "<p>Вода принимает ход по земле; действие принимает форму в отношении к противнику. Образ объясняет отсутствие вечной выигрышной конфигурации. Он не призывает быть бесформенным во всех смыслах или отказываться от цели. Меняются условия осуществления, а не исчезает ответственность за результат. Чтобы приспособиться, нужно знать, к чему именно приспосабливаешься. Без наблюдения и оценки «гибкость» превращается в произвольную смену решений, которой текст не даёт оправдания.</p>"
+        },
+        "en": {
+          "section": "VI · Solidity and emptiness",
+          "title": "Adaptation has a definite object",
+          "body": "<p>Water takes its course from the ground; action takes shape in relation to the opponent. The image explains why no configuration wins forever. It does not require abandoning every form or giving up a purpose. Conditions of realization change, while responsibility for results remains. Adaptation requires knowing what one is adapting to. Without observation and assessment, flexibility becomes arbitrary switching, for which the text offers no justification.</p>"
+        }
+      },
+      "locator": "VI.28–34",
+      "claimType": "book"
+    },
+    {
+      "id": "do-not-copy-success",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Полнота и пустота",
+          "title": "Повторить победный рисунок — не значит повторить причину",
+          "body": "<p>Наблюдатель видит форму выигранного столкновения, но не всегда понимает отношения, из которых она возникла. Поэтому прежняя победа не становится достаточным основанием повторить те же действия. Новая сторона, время или расположение меняют их смысл. Эта глава связывает обучение с отказом от механического копирования: помнить нужно не только «что сделали», но и «почему это стало возможным». Даже точное воспроизведение внешней последовательности может потерять её причинные условия.</p>"
+        },
+        "en": {
+          "section": "VI · Solidity and emptiness",
+          "title": "Repeating a winning pattern need not repeat its cause",
+          "body": "<p>Observers see the form of a successful encounter without necessarily grasping the relationships that produced it. Previous success therefore cannot justify simply repeating the same actions. A changed opponent, time, or arrangement alters their meaning. Learning requires more than copying: remember not only what was done but why it became possible. Even an exact reproduction of the visible sequence can lose the conditions that originally made it effective.</p>"
+        }
+      },
+      "locator": "VI.25–28",
+      "claimType": "book"
+    },
+    {
+      "id": "speed-has-a-bill",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Движение и трение",
+          "title": "Ускорение может доставить к цели непригодную силу",
+          "body": "<p>Соперничество за выгодное положение сталкивается со снабжением и человеческой выносливостью. Движение с полным обозом медленнее; отрыв от обеспечения делает достигнутую позицию хрупкой. Глава показывает, что выиграть гонку на карте и сохранить действующее войско — разные задачи. Скорость следует оценивать вместе с тем, кто дошёл, в каком состоянии и с какими средствами. Это критика изолированной метрики, содержащаяся в самом военном рассуждении.</p>"
+        },
+        "en": {
+          "section": "VII · Movement and friction",
+          "title": "Acceleration can deliver an unusable force",
+          "body": "<p>Competition for a favorable position collides with supply and human endurance. A full baggage train slows movement; separation from support makes the destination fragile. Winning a race on a map differs from preserving an effective army. Speed must be judged alongside who arrives, in what condition, and with what resources. The chapter’s military reasoning thus contains a critique of evaluating one isolated measure of performance.</p>"
+        }
+      },
+      "locator": "VII.1–14",
+      "claimType": "book"
+    },
+    {
+      "id": "shared-signals",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Движение и трение",
+          "title": "Сигнал создаёт возможность общего действия",
+          "body": "<p>Голос не достигает всех, а отдельный предмет не виден каждому: поэтому глава обсуждает общие слышимые и видимые сигналы. Их задача — согласовать восприятие большого войска, ограничив самовольные рывки и отступления отдельных людей. Речь не только о передаче сообщения от начальника вниз. Инфраструктура связи создаёт практическую возможность быть коллективом. Без неё личная смелость или дисциплина не гарантируют, что действия разных частей вообще сложатся в целое.</p>"
+        },
+        "en": {
+          "section": "VII · Movement and friction",
+          "title": "Signals make collective action possible",
+          "body": "<p>A voice cannot reach everyone, and an object cannot be seen by all; the chapter therefore discusses shared audible and visible signals. They coordinate perception across a large force and constrain isolated advances or retreats. This is more than sending a superior’s message downward. Communication infrastructure makes collective action practically possible. Without it, personal courage or discipline cannot ensure that separate units’ actions will combine into a whole.</p>"
+        }
+      },
+      "locator": "VII.23–26",
+      "claimType": "book"
+    },
+    {
+      "id": "outlet-and-resistance",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Движение и трение",
+          "title": "Отсутствие выхода меняет поведение людей",
+          "body": "<p>Предостережение против чрезмерного давления на отчаявшуюся сторону связано с её меняющейся готовностью сопротивляться. Читатель может увидеть здесь человеколюбие, но непосредственная логика текста — оценка опасности. В XI главе та же связь между безвыходностью и сопротивлением рассматривается уже применительно к собственным людям. Этот переход важен: один психологический механизм служит и ограничению давления, и обоснованию принуждения. Книга не снимает возникающее этическое противоречие.</p>"
+        },
+        "en": {
+          "section": "VII · Movement and friction",
+          "title": "The absence of an exit changes behavior",
+          "body": "<p>The warning against excessive pressure on a desperate opponent concerns changing willingness to resist. Readers may find humanity in it, but the immediate reasoning assesses danger. Chapter XI applies the connection between desperation and resistance to one’s own people. The shift matters: a psychological mechanism can support both limiting pressure and imposing coercion. The book does not dissolve the ethical contradiction this creates.</p>"
+        }
+      },
+      "locator": "VII.35–36; XI.23–25,50–51",
+      "claimType": "book"
+    },
+    {
+      "id": "moods-and-readiness",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Движение и трение",
+          "title": "Состояние людей меняется во времени",
+          "body": "<p>Уверенность, усталость и желание вернуться в лагерь становятся частью обстановки. Глава сопоставляет внешнюю собранность с внутренним состоянием, спокойствие руководителя — с беспорядком у противника; механизма эмоционального заражения она не устанавливает. Её схема дня не является универсальной психологической кривой, измеренной экспериментально. Содержательный ход другой: одна и та же численность в разные моменты не означает одну и ту же способность действовать. Изображение людей как постоянного запаса силы здесь явно недостаточно.</p>"
+        },
+        "en": {
+          "section": "VII · Movement and friction",
+          "title": "Human readiness changes over time",
+          "body": "<p>Confidence, fatigue, and the wish to return to camp become elements of the situation. The chapter connects outward order with internal condition, and a commander’s composure with an opponent’s disorder; it does not establish a mechanism of emotional contagion. Its daily pattern is no experimentally measured universal psychological curve. The substantive point is that identical numbers at different moments need not mean identical capacity to act. Treating people as a constant stock of force is inadequate even within this text.</p>"
+        }
+      },
+      "locator": "VII.27–32",
+      "claimType": "book"
+    },
+    {
+      "id": "exceptions-need-judgment",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Изменчивость решений",
+          "title": "Правило не освобождает от суждения",
+          "body": "<p>Глава перечисляет ситуации, где привычный путь, цель или приказ не должны определять действие автоматически. Понимание выгод требует видеть и недостатки, а трудность может содержать возможность. Поэтому знание категорий местности ещё не равно умению ими пользоваться. Сунь-цзы требует удерживать две стороны ситуации одновременно. Это не разрешение нарушать любое правило ради удобства; исключение должно следовать из условий и цели, а не из самолюбия исполнителя.</p>"
+        },
+        "en": {
+          "section": "VIII · Variation in judgment",
+          "title": "A rule does not remove the need for judgment",
+          "body": "<p>The chapter identifies situations in which a familiar route, objective, or command should not automatically dictate action. Understanding advantage requires considering disadvantages, and difficulty may contain opportunity. Knowing categories of terrain therefore differs from using them intelligently. Sunzi demands attention to both sides of a situation. This is no license to disregard any inconvenient rule: an exception must follow from conditions and purpose, not the actor’s vanity.</p>"
+        }
+      },
+      "locator": "VIII.1–10",
+      "claimType": "book"
+    },
+    {
+      "id": "five-faults",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Изменчивость решений",
+          "title": "Добродетель становится уязвимостью без меры",
+          "body": "<p>Пять опасностей командующего у Giles:</p><ul class=\"story-list\"><li><span class=\"index\">1</span><div><strong>Безрассудство</strong><span>Риск уничтожения.</span></div></li><li><span class=\"index\">2</span><div><strong>Трусость</strong><span>Риск пленения.</span></div></li><li><span class=\"index\">3</span><div><strong>Вспыльчивость</strong><span>Зависимость от провокации.</span></div></li><li><span class=\"index\">4</span><div><strong>Болезненная честь</strong><span>Подчинение страху стыда.</span></div></li><li><span class=\"index\">5</span><div><strong>Чрезмерная забота</strong><span>Уязвимость через тревогу за людей.</span></div></li></ul><p>Это суровая этика военного руководства, не современная типология личности. Даже одобряемое качество нужно оценивать по его связи с решением.</p>"
+        },
+        "en": {
+          "section": "VIII · Variation in judgment",
+          "title": "A virtue can become a vulnerability without proportion",
+          "body": "<p>Giles identifies five dangers in a commander:</p><ul class=\"story-list\"><li><span class=\"index\">1</span><div><strong>Recklessness</strong><span>Risk of destruction.</span></div></li><li><span class=\"index\">2</span><div><strong>Cowardice</strong><span>Risk of capture.</span></div></li><li><span class=\"index\">3</span><div><strong>Quick temper</strong><span>Dependence on provocation.</span></div></li><li><span class=\"index\">4</span><div><strong>Fragile honor</strong><span>Subjection to fear of shame.</span></div></li><li><span class=\"index\">5</span><div><strong>Excessive concern</strong><span>Vulnerability through anxiety for people.</span></div></li></ul><p>This is a severe military ethic, not a modern personality taxonomy. Even an admired quality must be judged through its relationship to decisions.</p>"
+        }
+      },
+      "locator": "VIII.12–14",
+      "claimType": "book"
+    },
+    {
+      "id": "readiness-not-hope",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Изменчивость решений",
+          "title": "Надежда на чужое бездействие не равна готовности",
+          "body": "<p>Опора на то, что противник не придёт или не начнёт действовать, противопоставляется собственной подготовленности. Будущее намерение другого не находится в полном распоряжении руководителя; состояние собственных возможностей ближе к его ответственности. Это возвращает ограничение из IV главы: делать зависящее от себя, не выдавая ожидание за контроль. Но подготовленность сама требует ресурсов и оценки; текст не доказывает возможности сделать любое положение абсолютно безопасным.</p>"
+        },
+        "en": {
+          "section": "VIII · Variation in judgment",
+          "title": "Hope for another’s inaction is not readiness",
+          "body": "<p>Relying on an opponent not arriving or acting is contrasted with one’s own preparedness. Another’s future intention is not fully under a commander’s control; the condition of one’s capabilities lies closer to their responsibility. This returns to chapter IV’s limit: act on what depends on you without confusing expectation with control. Preparedness itself still requires resources and judgment; the text does not demonstrate that every position can be made absolutely secure.</p>"
+        }
+      },
+      "locator": "VIII.11; IV.1–4",
+      "claimType": "book"
+    },
+    {
+      "id": "nine-variations-problem",
+      "level": 3,
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Изменчивость решений",
+          "title": "Неясное название не нужно чинить выдуманным перечнем",
+          "body": "<p>Название VIII главы связано с девятью изменениями, но её дошедший текст не даёт простого, бесспорного списка из девяти пунктов. Giles замечает несоответствие и обсуждает возможную нарушенность текста вместе с повторами XI главы. Это редакторская гипотеза 1910 года, а не установленная история каждой строки. Конспект сохраняет проблему открытой: удобная новая девятка сделала бы рассказ стройнее, но выдала бы нашу конструкцию за древнюю архитектуру.</p>"
+        },
+        "en": {
+          "section": "VIII · Variation in judgment",
+          "title": "An obscure heading should not be repaired by invention",
+          "body": "<p>Chapter VIII’s heading refers to nine variations, yet the surviving chapter supplies no simple, uncontested nine-item list. Giles notes the mismatch and discusses possible textual disturbance alongside repetitions in chapter XI. That is an editorial hypothesis from 1910, not an established history of every line. This digest leaves the problem open: inventing a convenient new set of nine would improve neatness by disguising our construction as ancient architecture.</p>"
+        }
+      },
+      "locator": "Giles VIII heading and XI.50 note",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "signs-as-evidence",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Наблюдение и доверие",
+          "title": "Обстановка читается через наблюдаемые признаки",
+          "body": "<p>После природных условий глава переходит к косвенным признакам состояния войска: движению, усталости, воде, поведению людей, порядку наград и наказаний. Знание строится не только из прямых заявлений другой стороны. Но перечень принадлежит древнему миру и жанру трактата. Его нельзя принять за безошибочный диагностический справочник. Главное для чтения книги — переход от уверенного предположения к вниманию к материальным следам и состоянию людей.</p>"
+        },
+        "en": {
+          "section": "IX · Observation and trust",
+          "title": "A situation is read through observable signs",
+          "body": "<p>After natural conditions, the chapter turns to indirect signs of an army’s condition: movement, fatigue, water, behavior, rewards, and punishments. Knowledge does not come only from the other side’s declarations. Yet this list belongs to an ancient setting and the genre of the treatise; it is no infallible diagnostic handbook. The important move is from confident assumption toward attention to material traces and the condition of people.</p>"
+        }
+      },
+      "locator": "IX.1–41",
+      "claimType": "book"
+    },
+    {
+      "id": "signs-are-ambiguous",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Наблюдение и доверие",
+          "title": "Признак и объяснение — разные вещи",
+          "body": "<p>Слишком частые награды и наказания трактат связывает с напряжённым состоянием. Но сама книга предупреждает о намеренно созданной видимости. Поэтому читателю приходится удерживать противоречие: наблюдение необходимо, а однозначность наблюдаемого не гарантирована. Современный вывод конспекта — отделять то, что действительно замечено, от предполагаемой причины и альтернатив. Это не заявленный Сунь-цзы научный метод; это способ ответственно читать его уверенные диагнозы рядом с его же рассуждением об обмане.</p>"
+        },
+        "en": {
+          "section": "IX · Observation and trust",
+          "title": "A sign differs from its explanation",
+          "body": "<p>The text associates unusually frequent rewards and punishments with distress. Yet the book also warns that appearances can be deliberately manufactured. Readers must hold both points together: observation is necessary, while its meaning is not guaranteed. This digest’s modern inference is to distinguish what was observed from a proposed cause and alternatives. That is not a scientific method proclaimed by Sunzi; it is a responsible way to read his confident diagnoses alongside his account of deception.</p>"
+        }
+      },
+      "locator": "IX.24–39; I.18–25; V.16–18",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "care-and-discipline",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Наблюдение и доверие",
+          "title": "Забота и порядок должны существовать вместе",
+          "body": "<p>Наказание до появления привязанности не создаёт устойчивого подчинения; привязанность без исполнения требований тоже недостаточна. Глава сочетает человеческое обращение с последовательностью командования. Это условная взаимосвязь, а не формула «будь мягким» или «будь жёстким». При этом военное подчинение не становится добровольным партнёрством. Текст объясняет действенность доверия внутри иерархии, сохраняя её принудительную основу; современный перенос должен заметить обе части, а не только приятную.</p>"
+        },
+        "en": {
+          "section": "IX · Observation and trust",
+          "title": "Care and order must coexist",
+          "body": "<p>Punishment before attachment does not create reliable obedience; attachment without consistent requirements is also insufficient. The chapter combines humane treatment with continuity of command. This is a conditional relationship, not a slogan favoring softness or severity alone. Military obedience does not thereby become voluntary partnership. The text explains trust’s efficacy within hierarchy while retaining hierarchy’s coercive basis. Any modern transfer must notice both parts, not only the attractive one.</p>"
+        }
+      },
+      "locator": "IX.42–45",
+      "claimType": "book"
+    },
+    {
+      "id": "body-and-environment",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Наблюдение и доверие",
+          "title": "Тело солдата входит в устройство преимущества",
+          "body": "<p>Здоровье людей, вода, освещённость и состояние земли рассматриваются как условия сохранения войска. Забота о телесном состоянии оказывается частью командования, а не внешним дополнением к стратегии. Категорическое обещание отсутствия болезней в подходящем месте — утверждение текста, не медицинская истина. Но сам поворот существенен: никакая отвлечённая сила не существует отдельно от уязвимых тел, среды и способности людей продолжать действовать. Человеческое ограничение нельзя компенсировать одним приказом.</p>"
+        },
+        "en": {
+          "section": "IX · Observation and trust",
+          "title": "Soldiers’ bodies belong inside the account of advantage",
+          "body": "<p>Health, water, sunlight, and ground conditions enter the preservation of the army. Bodily care is part of command rather than an external supplement to strategy. The categorical promise of freedom from disease in suitable conditions is a textual claim, not medical truth. The underlying move nevertheless matters: abstract force does not exist independently of vulnerable bodies, environment, and people’s capacity to keep acting. An order alone cannot cancel human limits.</p>"
+        }
+      },
+      "locator": "IX.1–17,29–31",
+      "claimType": "book"
+    },
+    {
+      "id": "terrain-is-not-background",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Местность и ответственность",
+          "title": "Знать стороны недостаточно без знания условий",
+          "body": "<p>В конце X главы знание себя и противника дополняется знанием земли и времени. Можно верно оценить чужую уязвимость и собственную готовность, но ошибиться в осуществимости действия из-за местности. Это не второстепенная поправка к формуле III главы: пространство входит в саму возможность результата. Книга тем самым расширяет модель знания от двух участников к отношениям между участниками и средой, где они вынуждены действовать.</p>"
+        },
+        "en": {
+          "section": "X · Terrain and responsibility",
+          "title": "Knowing both sides is insufficient without conditions",
+          "body": "<p>Chapter X adds terrain and timing to knowledge of oneself and the opponent. An assessment of another’s vulnerability and one’s own readiness may be sound, yet the environment can make action infeasible. This is more than a secondary correction to chapter III’s formula: space enters the possibility of an outcome itself. The model of knowledge expands from two participants to relationships between participants and the environment in which they must act.</p>"
+        }
+      },
+      "locator": "X.21–31",
+      "claimType": "book"
+    },
+    {
+      "id": "six-terrain-types",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Местность и ответственность",
+          "title": "Шесть типов местности различают возможности движения",
+          "body": "<p>У Giles перечислены шесть типов:</p><div class=\"compare\"><div class=\"compare-item\"><strong>1–3</strong><p>Доступная обеим сторонам; позволяющая выйти, но затрудняющая возвращение; не дающая выгоды первому движению.</p></div><div class=\"compare-item\"><strong>4–6</strong><p>Узкие проходы; крутые высоты; большое удаление от другой стороны.</p></div></div><p>Классификация соединяет геометрию с обратимостью движения и относительным положением участников. Это её отличие от простого перечня ландшафтов. Русские названия здесь поясняющие, а не единственно возможные переводные термины.</p>"
+        },
+        "en": {
+          "section": "X · Terrain and responsibility",
+          "title": "Six terrain types distinguish possibilities of movement",
+          "body": "<p>Giles distinguishes six types:</p><div class=\"compare\"><div class=\"compare-item\"><strong>1–3</strong><p>Accessible to both sides; easy to leave but difficult to return to; offering neither side an advantage in moving first.</p></div><div class=\"compare-item\"><strong>4–6</strong><p>Narrow passes; steep heights; great distance from the other side.</p></div></div><p>The classification joins geometry to reversibility and relative position. That distinguishes it from a mere landscape inventory. The labels here are explanatory rather than uniquely authoritative translations.</p>"
+        }
+      },
+      "locator": "X.1–13",
+      "claimType": "book"
+    },
+    {
+      "id": "six-command-failures",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Местность и ответственность",
+          "title": "Не всякое поражение можно списать на землю",
+          "body": "<p>Рядом с шестью типами местности стоят шесть бедствий: бегство, неподчинение, надлом, разрушение, беспорядок, разгром. Перевод названий условен; важнее причины.</p><p>Глава связывает их с несоответствием сил, отношениями офицеров и солдат, самовольством, неясными обязанностями и ошибочной оценкой другой стороны. Природное препятствие и дефект командования — разные объяснения. Руководитель обязан различать их, иначе слово «обстоятельства» спрячет то, что возникло из его собственных решений.</p>"
+        },
+        "en": {
+          "section": "X · Terrain and responsibility",
+          "title": "Not every defeat can be blamed on terrain",
+          "body": "<p>Alongside six terrain types stand six calamities: flight, insubordination, collapse, ruin, disorganization, and rout. The translated labels are less important than their causes.</p><p>The chapter connects them with mismatched forces, officer–soldier relationships, unauthorized action, unclear duties, and mistaken assessment of the opponent. A natural obstacle differs from a failure of command. Leaders must distinguish them, or the word “circumstances” will conceal conditions produced by their own decisions.</p>"
+        }
+      },
+      "locator": "X.14–20",
+      "claimType": "book"
+    },
+    {
+      "id": "responsibility-and-reputation",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Местность и ответственность",
+          "title": "Слава не должна определять решение командира",
+          "body": "<p>Командующий оценивается по защите людей и служению государству, а не по стремлению к известности или страху осуждения. Глава допускает расхождение с приказом, когда условия требуют иного решения. Но оправдание лежит в ответственности за результат, а не в привилегии не подчиняться. Это трудное требование: ни успех задним числом, ни громкое заявление о благих намерениях сами по себе не доказывают качества суждения в момент выбора.</p>"
+        },
+        "en": {
+          "section": "X · Terrain and responsibility",
+          "title": "Reputation should not determine command judgment",
+          "body": "<p>Command is judged through protecting people and serving the state rather than seeking fame or fearing blame. The chapter allows disagreement with an order when conditions demand another decision. Responsibility for the result provides the justification, not a privilege of disobedience. This is demanding: neither retrospective success nor a loud declaration of good intentions by itself proves that judgment was sound at the moment of choice.</p>"
+        }
+      },
+      "locator": "X.22–26",
+      "claimType": "book"
+    },
+    {
+      "id": "situation-changes-cohesion",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Девять ситуаций",
+          "title": "Одинаковые люди действуют иначе в разных ситуациях",
+          "body": "<p>В XI главе положение определяется не только рельефом, но и глубиной проникновения, близостью дома, возможностью отступить, связями с другими государствами. Эти отношения меняют сплочённость, внимание и готовность сопротивляться. Книга не считает характер людей единственным источником их поведения. Командующий воздействует на ситуацию, а через неё — на коллектив. Именно поэтому глава одновременно богата психологическими наблюдениями и опасна своими оправданиями управления людьми через лишение выбора.</p>"
+        },
+        "en": {
+          "section": "XI · Nine situations",
+          "title": "The same people act differently in different situations",
+          "body": "<p>Chapter XI defines position through more than landforms: depth of penetration, proximity to home, possibilities of withdrawal, and relations with other states matter. These relationships affect cohesion, attention, and willingness to resist. Character alone does not explain behavior. Command alters situations and thereby the collective. That makes this chapter both rich in psychological observations and troubling in its justification of governing people by removing their choices.</p>"
+        }
+      },
+      "locator": "XI.1–14,20–25,42–51",
+      "claimType": "book"
+    },
+    {
+      "id": "nine-situations-list",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Девять ситуаций",
+          "title": "Девять ситуаций — это карта отношений, не только рельефа",
+          "body": "<ol><li>Собственная земля: близость дома рассеивает.</li><li>Неглубокое проникновение: возвращение ещё близко.</li><li>Спорная земля: ценна обеим сторонам.</li><li>Открытая: свобода перемещения обеих сторон.</li><li>Перекрёстная: связи нескольких государств.</li><li>Глубокая: чужие укрепления остаются позади.</li><li>Трудная: движение затруднено средой.</li><li>Стеснённая: доступ и возвращение ограничены.</li><li>Гибельная: спасение связано с немедленной борьбой.</li></ol><p>Названия переданы описательно. В отличие от X главы, здесь особенно важны политическое положение и поведение людей.</p>"
+        },
+        "en": {
+          "section": "XI · Nine situations",
+          "title": "Nine situations map relationships as well as land",
+          "body": "<ol><li>Home ground: proximity to home disperses attention.</li><li>Shallow penetration: return remains close.</li><li>Contested ground: valuable to either side.</li><li>Open ground: movement available to both.</li><li>Intersecting ground: connections among several states.</li><li>Deep ground: hostile strongholds remain behind.</li><li>Difficult ground: environment impedes movement.</li><li>Confined ground: access and return are restricted.</li><li>Desperate ground: survival depends on immediate struggle.</li></ol><p>Labels are descriptive. Unlike chapter X, this classification especially concerns political position and human behavior.</p>"
+        }
+      },
+      "locator": "XI.1–10",
+      "claimType": "book"
+    },
+    {
+      "id": "coercion-is-in-the-text",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Девять ситуаций",
+          "title": "Текст не позволяет оставить только мягкую мудрость",
+          "body": "<p>Сунь-цзы не только советует беречь людей. В этой главе он описывает создание безвыходного положения, ограничение знания собственных солдат и подчинение через опасность. Это не поздний управленческий анекдот, а неудобная часть трактата. Сохранение государства соседствует с обращением с людьми как средством. Честное чтение удерживает оба мотива, не маскируя принуждение словом «мотивация» и не выдавая историческое описание за рекомендацию современной организации.</p>"
+        },
+        "en": {
+          "section": "XI · Nine situations",
+          "title": "The text cannot be reduced to gentle wisdom",
+          "body": "<p>Sunzi does more than advise care for people. This chapter describes creating situations without escape, restricting soldiers’ knowledge, and securing obedience through danger. These are uncomfortable features of the treatise itself, not a later management anecdote. Preserving the state coexists with treating people as instruments. A faithful reading holds both motives together, without relabeling coercion as motivation or turning historical description into a recommendation for present organizations.</p>"
+        }
+      },
+      "locator": "XI.23–25,35–40,50–59",
+      "claimType": "book"
+    },
+    {
+      "id": "same-boat",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Девять ситуаций",
+          "title": "Общая опасность связывает даже противников",
+          "body": "<p>Образ людей У и Юэ в одной лодке во время бури объясняет взаимопомощь без предварительной дружбы. Другой образ — змея, чьи части отвечают совместно, — показывает желаемую связанность войска. Это аналогии координации через ситуацию, а не рассказы о проведённом эксперименте. Они не доказывают, что любая искусственно созданная опасность даст доверие. Трактат показывает совместное действие; вопрос добровольного согласия участников при этом остаётся за пределами его главного интереса.</p>"
+        },
+        "en": {
+          "section": "XI · Nine situations",
+          "title": "Shared danger can connect even enemies",
+          "body": "<p>The image of people from Wu and Yue sharing a boat in a storm explains mutual aid without prior friendship. A snake whose parts respond together provides another image of connected action. These are situational analogies for coordination, not reports of an experiment. They do not prove that any manufactured danger creates trust. The treatise depicts joint action; participants’ voluntary consent remains outside its central concern.</p>"
+        }
+      },
+      "locator": "XI.29–34",
+      "claimType": "book"
+    },
+    {
+      "id": "secrecy-within",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Девять ситуаций",
+          "title": "Секретность распространяется и на собственных людей",
+          "body": "<p>В XI главе руководитель скрывает замысел не только от противника, но и от подчинённых. Изменение планов, ограниченное объяснение и внезапное вовлечение поддерживают его контроль. Это создаёт напряжение с доверием и заботой из IX–X глав. Нельзя сгладить его фразой «прозрачность важна»: книга не даёт такого универсального принципа. Её единство войска может опираться на неравное знание, а не на совместное понимание цели всеми участниками.</p>"
+        },
+        "en": {
+          "section": "XI · Nine situations",
+          "title": "Secrecy also reaches one’s own people",
+          "body": "<p>In chapter XI, the leader conceals intentions from subordinates as well as opponents. Changed plans, limited explanation, and sudden involvement maintain control. This creates tension with the trust and care discussed in chapters IX–X. Saying that transparency matters cannot smooth it away: the book supplies no such universal principle. Its unity can depend on unequal knowledge rather than a goal jointly understood by every participant.</p>"
+        }
+      },
+      "locator": "XI.35–40,56–57; IX.42–45; X.25–26",
+      "claimType": "book"
+    },
+    {
+      "id": "no-exit-modern-limit",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Девять ситуаций",
+          "title": "Искусственный кризис — не проверка верности Сунь-цзы",
+          "body": "<p>Перенос «безвыходности» в команду легко превращается в оправдание давления: отнять ресурсы, скрыть риск, а затем требовать сплочённости. Это наш современный пример опасного прочтения, не совет трактата о компании. Работники, граждане и клиенты имеют права и возможности, которых древняя модель командования не обсуждает. Из главы можно вынести вопрос о влиянии ситуации на поведение; создавать отчаяние ради производительности из этого не следует. Объясняющий механизм не становится этическим разрешением.</p>"
+        },
+        "en": {
+          "section": "XI · Nine situations",
+          "title": "Manufactured crisis is no test of fidelity to Sunzi",
+          "body": "<p>Transferring desperation into a workplace can excuse pressure: remove resources, conceal risk, then demand cohesion. This is our example of a dangerous modern reading, not Sunzi’s advice about a company. Workers, citizens, and customers have rights and choices absent from the ancient command model. The chapter can prompt a question about situations shaping behavior; it does not justify manufacturing despair for productivity. An explanatory mechanism is not ethical permission.</p>"
+        }
+      },
+      "locator": "Modern synthesis; XI.23–25,35–40,58–59",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "irreversible-loss",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XII · Необратимость",
+          "title": "Настроение пройдёт, уничтоженное не вернётся",
+          "body": "<p>Глава о разрушительном средстве заканчивается предостережением правителю и командующему: гнев и раздражение переменчивы, гибель государства и смерть людей необратимы. Поэтому действие нельзя обосновать одним эмоциональным состоянием. Это один из сильнейших ограничителей всей книги. Он возвращает начальный вопрос о сохранении государства после множества рассуждений о преимуществах. Результат должен оцениваться по тому, что останется после эмоции, а не по силе чувства в момент решения.</p>"
+        },
+        "en": {
+          "section": "XII · Irreversibility",
+          "title": "A mood passes; destruction does not reverse",
+          "body": "<p>A chapter on destructive means ends by warning ruler and commander: anger and irritation can pass, while the destruction of a state and the death of people cannot be reversed. Emotion alone therefore cannot justify action. This is one of the book’s strongest restraints. After many discussions of advantage, it returns to the opening concern with preservation. Judge the result by what remains after the emotion, not by the emotion’s intensity at decision time.</p>"
+        }
+      },
+      "locator": "XII.17–22",
+      "claimType": "book"
+    },
+    {
+      "id": "fire-chapter-place",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XII · Необратимость",
+          "title": "Разрушительное средство не создаёт разумной цели",
+          "body": "<p>Огонь в XII главе — реальное средство древней войны, не метафора страсти предпринимателя. Трактат рассматривает его зависимость от условий и последствий, а затем требует осмысленного результата. Здесь сохраняется роль главы в архитектуре, но не воспроизводятся процедуры применения. Ключевой переход — от возможности нанести ущерб к вопросу, зачем он нужен. Техническая осуществимость и полезный политический итог остаются разными уровнями суждения; первое не доказывает второго.</p>"
+        },
+        "en": {
+          "section": "XII · Irreversibility",
+          "title": "A destructive instrument cannot supply a sensible purpose",
+          "body": "<p>Fire in chapter XII is a material instrument of ancient warfare, not a metaphor for entrepreneurial passion. The text considers its dependence on conditions and consequences before insisting on a worthwhile result. This digest preserves the chapter’s architectural role without reproducing application procedures. Its key transition is from the capacity to cause damage to the purpose of doing so. Technical feasibility and a beneficial political outcome remain different judgments; the former does not establish the latter.</p>"
+        }
+      },
+      "locator": "XII.1–16; procedures deliberately omitted",
+      "claimType": "book"
+    },
+    {
+      "id": "restraint-not-passivity",
+      "level": 3,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XII · Необратимость",
+          "title": "Осторожность оценивает цену, а не запрещает любое действие",
+          "body": "<p>Сочетание главы о разрушении с запретом действовать из гнева не делает трактат пацифистским. Оно вводит различие между способностью применить силу и основанием для её применения. Современный читатель может использовать это как вопрос о необратимых последствиях решений, но не как полное моральное учение. Текст прежде всего бережёт государство и войско. Современные критерии правомерности, согласия и ответственности перед пострадавшими нельзя считать уже выведенными из его осторожности.</p>"
+        },
+        "en": {
+          "section": "XII · Irreversibility",
+          "title": "Caution judges cost rather than forbidding all action",
+          "body": "<p>Combining a chapter about destruction with a prohibition on acting from anger does not make the treatise pacifist. It separates the ability to use force from a reason to use it. Modern readers may derive a question about irreversible consequences, but not a complete moral doctrine. The text primarily preserves state and army. Contemporary criteria of legitimacy, consent, and responsibility to those harmed cannot be treated as already established by its caution.</p>"
+        }
+      },
+      "locator": "Synthesis of XII.17–22 and III.1–7",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "knowledge-has-a-price",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XIII · Человеческое знание",
+          "title": "Экономить на знании может быть бесчеловечно",
+          "body": "<p>Финальная глава сопоставляет огромную цену войны с гораздо меньшими расходами на сведения. Отказ узнать состояние противника из скупости назван пороком руководства. Предварительное знание связывается с людьми, а не с духами или одним расчётом по аналогии. Это завершает исходную рамку исследования: оценка условий требует источников, которым платят и которые понимают. При этом наличие сообщения не гарантирует истины; глава требует способности различать качество человеческих сведений.</p>"
+        },
+        "en": {
+          "section": "XIII · Human intelligence",
+          "title": "Saving on knowledge can be inhumane",
+          "body": "<p>The final chapter contrasts war’s enormous cost with much smaller expenditure on intelligence. Refusing to learn about an opponent through stinginess is treated as a failure of leadership. Foreknowledge comes from people rather than spirits or calculation by analogy alone. This completes the opening demand for inquiry: assessing conditions requires understood and supported sources. Receiving a report does not itself guarantee truth; the chapter also requires judgment about the quality of human information.</p>"
+        }
+      },
+      "locator": "XIII.1–6,14–18",
+      "claimType": "book"
+    },
+    {
+      "id": "five-spies-historical",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XIII · Человеческое знание",
+          "title": "Пять категорий описывают неодинаковые источники",
+          "body": "<p>Глава различает пять категорий: местные жители; люди внутри чужого управления; обращённые агенты другой стороны; носители предназначенных для обмана сведений; возвращающиеся с сообщениями.</p><p>Это историческая классификация, не руководство по созданию сети. Она показывает, что происхождение сообщения и его функция важны для понимания содержания. Термин Giles для обречённых агентов также напоминает о жестокости системы: информация здесь добывается и передаётся в условиях опасности и инструментального отношения к человеку.</p>"
+        },
+        "en": {
+          "section": "XIII · Human intelligence",
+          "title": "Five categories distinguish different information roles",
+          "body": "<p>The chapter distinguishes five categories: local inhabitants; people inside the other administration; turned agents from the other side; carriers of information intended to deceive; and returning reporters.</p><p>This is a historical classification, not a guide to building a network. It shows that a message’s origin and function matter to its meaning. Giles’s label for doomed agents also recalls the system’s cruelty: information is acquired and transmitted amid danger and an instrumental treatment of people.</p>"
+        }
+      },
+      "locator": "XIII.7–13; non-operational historical classification",
+      "claimType": "book"
+    },
+    {
+      "id": "intelligence-needs-judgment",
+      "level": 3,
+      "sources": [
+        1,
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "XIII · Человеческое знание",
+          "title": "Человеческий источник не отменяет проверку суждения",
+          "body": "<p>Трактат требует от руководителя проницательности, человечности и способности различать правду сообщений. В конце Giles приводит предупреждение Du Mu: опора на разведку способна привести и к разрушению. Это поздний комментарий, не дополнительная фраза древнего автора. Рядом оказываются тезис о необходимости сведений и оговорка об их опасности. Знание не возникает автоматически ни из дороговизны источника, ни из секретности канала, ни из уверенности человека, пересказывающего услышанное.</p>"
+        },
+        "en": {
+          "section": "XIII · Human intelligence",
+          "title": "A human source does not eliminate judgment",
+          "body": "<p>The treatise requires discernment, humane conduct, and the ability to judge reports. At the end, Giles cites Du Mu’s warning that reliance on intelligence can also bring destruction. This is later commentary, not an additional sentence by the ancient author. Necessity and danger sit beside one another. Knowledge does not automatically follow from an expensive source, a secret channel, or the confidence of the person relaying a report.</p>"
+        }
+      },
+      "locator": "XIII.14–18,27; Giles note citing Du Mu at XIII.27",
+      "claimType": "book"
+    },
+    {
+      "id": "assessment-and-foreknowledge",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XIII · Человеческое знание",
+          "title": "Начало и конец книги проверяют друг друга",
+          "body": "<p>I глава требует сравнения и предварительных расчётов; XIII объясняет, почему расчёта недостаточно без человеческого знания конкретной ситуации. Это не противоречие между разумом и наблюдением. Расчёт организует вопрос, сведения наполняют его содержанием, а суждение оценивает качество содержания. Так читать книгу точнее, чем выбирать один полюс — «всё просчитай» или «доверься интуиции». Эта связка сформулирована конспектом и не выдаётся за готовую формулу самого Сунь-цзы.</p>"
+        },
+        "en": {
+          "section": "XIII · Human intelligence",
+          "title": "The beginning and ending test one another",
+          "body": "<p>Chapter I demands comparison and prior calculation; chapter XIII explains why calculation alone cannot replace human knowledge of a particular situation. Reason and observation need not conflict. Calculation structures the question, reports supply its content, and judgment assesses the content’s quality. This reading is more faithful than choosing between calculating everything and trusting intuition. The connection is formulated by the digest, rather than presented as a ready-made formula authored by Sunzi.</p>"
+        }
+      },
+      "locator": "Synthesis of I.3–17,26 and XIII.1–6,14–18",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "dated-hypotheses",
+      "level": 3,
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "После тринадцати глав",
+          "title": "Современная научная позиция тоже имеет автора",
+          "body": "<p>В описании Columbia позиция Mair сформулирована жёстко: Сунь У не существовал, а трактат складывался от середины IV до начала III века до н. э. Здесь это гипотеза конкретного исследователя, не доказанный итог всей науки. Мы использовали описание и оглавление, не полный текст перевода Mair. Такое ограничение доступа важно: уверенная издательская формулировка не разрешает приписывать прочитанному больше доказательств, чем оно действительно содержит.</p>"
+        },
+        "en": {
+          "section": "After thirteen chapters",
+          "title": "A modern scholarly position also has an author",
+          "body": "<p>Columbia describes Mair’s position forcefully: Sun Wu did not exist, and the treatise coalesced from the mid-fourth to early-third century BCE. This is a named scholar’s hypothesis, not a proven conclusion of all scholarship. We consulted the description and contents, not Mair’s complete translation. That access boundary matters: a confident publisher statement does not authorize attributing more evidence to a source than it actually provides.</p>"
+        }
+      },
+      "locator": "Columbia public description/contents; Mair hypothesis",
+      "claimType": "corroboration"
+    },
+    {
+      "id": "bounded-modern-example",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "После тринадцати глав",
+          "title": "Современная аналогия должна назвать то, что не переносится",
+          "body": "<p>Допустим, организация выбирает большой запуск. Вопросы книги помогают заметить цену затягивания, состояние команды, зависимость результата от условий и нехватку сведений. Но рынок не тождествен войне, а клиент — не подчиняемый противник. Здесь желательным итогом может быть сотрудничество и взаимная выгода. Поэтому полезен не древний приказ, а явно ограниченный вопрос: не разрушает ли выбранный способ достижения цели саму способность людей и организации жить после её достижения?</p>"
+        },
+        "en": {
+          "section": "After thirteen chapters",
+          "title": "A modern analogy must name what does not transfer",
+          "body": "<p>Suppose an organization considers a major launch. The book’s questions can reveal delay costs, team condition, dependence on circumstances, and missing information. But a market is not identical to war, and a customer is not an enemy to subordinate. Cooperation and mutual benefit can be desirable outcomes. What transfers is a bounded question rather than an ancient order: does the chosen means of achieving the goal destroy people’s and the organization’s capacity to live after achieving it?</p>"
+        }
+      },
+      "locator": "Modern hypothetical example; II, IV, VI, XII, XIII",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "what-book-cannot-prove",
+      "level": 1,
+      "sources": [
+        1,
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "После тринадцати глав",
+          "title": "Трактат — не эмпирическая гарантия и не полная этика",
+          "body": "<p>Книга даёт связный язык цены, условий, относительной силы и знания, но не проверенную универсальную модель успеха. Её историческое авторство спорно; некоторые чтения зависят от версии; примеры и уверенные числа не заменяют доказательств. Она ограничивает разрушение и одновременно допускает принуждение. Поэтому её можно читать внимательно, не отдавая ей окончательное моральное или научное право решать за нас. Сила древнего вопроса не требует притворяться, что древний ответ исчерпывает современную ситуацию.</p>"
+        },
+        "en": {
+          "section": "After thirteen chapters",
+          "title": "The treatise supplies neither empirical guarantees nor a complete ethics",
+          "body": "<p>The book offers a connected language of cost, conditions, relative force, and knowledge, not a validated universal model of success. Authorship is disputed, some readings depend on the textual witness, and examples or confident numbers are not substitutes for evidence. It restrains destruction while allowing coercion. We can read it attentively without granting it final moral or scientific authority over us. An ancient question’s force does not require pretending its answer exhausts a modern situation.</p>"
+        }
+      },
+      "locator": "Synthesis of source boundary; I–XIII; Morillo/Smith for historical limits",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "five-reading-questions",
+      "level": 2,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "После тринадцати глав",
+          "title": "Пять вопросов удерживают причинность без культа цитат",
+          "body": "<ol><li><strong>Цель:</strong> что должно остаться целым?</li><li><strong>Цена:</strong> что истощается и что необратимо?</li><li><strong>Состояние:</strong> что действительно способны делать люди и система?</li><li><strong>Отношение:</strong> какие условия создают преимущество именно здесь?</li><li><strong>Знание:</strong> что наблюдалось, кем сообщено и что остаётся неизвестным?</li></ol><p>Это наш каркас перечитывания, а не найденные у автора «пять законов». Для каждого решения отдельно нужен предел: когда продолжение уже разрушает его смысл?</p>"
+        },
+        "en": {
+          "section": "After thirteen chapters",
+          "title": "Five questions preserve the reasoning without a cult of quotations",
+          "body": "<ol><li><strong>Purpose:</strong> what should remain intact?</li><li><strong>Cost:</strong> what is depleted, and what is irreversible?</li><li><strong>Condition:</strong> what can people and the system actually do?</li><li><strong>Relationship:</strong> which circumstances create an advantage here?</li><li><strong>Knowledge:</strong> what was observed, who reported it, and what remains unknown?</li></ol><p>This is our rereading framework, not five laws discovered in the author. Every decision also needs a limit: when does continuation destroy its purpose?</p>"
+        }
+      },
+      "locator": "Digest synthesis across I–XIII",
+      "claimType": "synthesis"
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Финал · Модель для перечитывания",
+          "title": "Сберечь возможность жить после победы",
+          "body": "<p class=\"lede\">Цель, цена, состояние, отношение, знание — прежде зрелищного действия.</p><p>Тринадцать глав связывают решение о конфликте с тем, что оно сохраняет и разрушает. Наш итог: сначала спросить, что должно уцелеть; затем — какие условия и сведения делают действие осмысленным; наконец — где остановиться. Это модель чтения, не универсальный приказ. Её этическую границу нельзя заимствовать у древнего авторитета: ответственность за современное решение остаётся у нас.</p>"
+        },
+        "en": {
+          "section": "Finale · A model for rereading",
+          "title": "Preserve the possibility of life after victory",
+          "body": "<p class=\"lede\">Purpose, cost, condition, relationship, knowledge — before spectacular action.</p><p>Thirteen chapters connect decisions about conflict with what they preserve and destroy. Our conclusion: first ask what must survive; then which conditions and evidence make action meaningful; finally where to stop. This is a reading model, not a universal command. Its ethical boundary cannot be borrowed from ancient authority: responsibility for a present decision remains ours.</p>"
+        }
+      },
+      "locator": "Final digest synthesis; I.1–2; II; XII.17–22; XIII",
+      "claimType": "synthesis",
+      "final": true
+    }
+  ],
+  "methodNote": {
+    "ru": "Оригинальный аналитический конспект, не полный текст и не перевод с китайского. Основа: все 13 глав в общедоступном переводе Lionel Giles (1910). Его примечания отделены от древнего текста. Современная рамка: открытая текстология Bowdoin и доступные описания, аннотации и отрывок научных изданий, а не прочтение всех этих книг целиком. Smart Reading не использован. Авторство и датировка спорны; археологическая рукопись фрагментарна. Метка «Аргумент книги» передаёт тезис текста, не подтверждает его истинность. «Проверка» — историческая или текстологическая рамка; «Синтез» — интерпретация составителя. Современные аналогии не являются советами по ведению войны. Цитат и издательских иллюстраций нет.",
+    "en": "An original analytical digest, neither the full text nor a translation from Chinese. Base: all 13 chapters in the publicly accessible Lionel Giles translation (1910). His notes are distinguished from the ancient text. Modern framing uses open Bowdoin textual scholarship and available descriptions, abstracts, and an excerpt of scholarly publications, not complete readings of all those books. Smart Reading was not used. Authorship and dating are disputed; the archaeological manuscript is fragmentary. “Book argument” reports a textual claim, not a verification of its truth. “Corroboration” supplies historical or textual context; “Synthesis” is the compiler’s interpretation. Modern analogies are not advice on conducting war. No quotations or publisher illustrations."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Sunzi · The Art of War · Giles 1910 · base text",
+      "url": "https://www.gutenberg.org/cache/epub/17405/pg17405-images.html",
+      "role": "book",
+      "note": {
+        "ru": "Полный текст 13 глав прочитан; номера глав и параграфов относятся к Giles. Пересказ оригинальный.",
+        "en": "All 13 chapters consulted; chapter/paragraph locators follow Giles. Original paraphrase."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Lionel Giles · Introduction and critical notes · 1910",
+      "url": "https://www.gutenberg.org/files/132/132-h/132-h.htm",
+      "role": "reference",
+      "note": {
+        "ru": "Выборочные примечания: dao, shi, zheng/qi, структура VIII/XI, поздние комментаторы. Не голос самого Сунь-цзы.",
+        "en": "Selected notes: dao, shi, zheng/qi, VIII/XI structure, later commentators. Distinct from Sunzi’s own voice."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Stephen Morillo · Sun Zi · The Encyclopedia of War · 2011",
+      "url": "https://onlinelibrary.wiley.com/doi/abs/10.1002/9781444338232.wbeow613",
+      "role": "reference",
+      "note": {
+        "ru": "Открытая аннотация: спорное авторство и более поздняя компиляция. Полная статья не прочитана.",
+        "en": "Public abstract: disputed authorship and later compilation. Full entry not accessed."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Kidder Smith / Denma · Bowdoin textual apparatus · Overview",
+      "url": "https://learn.bowdoin.edu/suntzu/overview.html",
+      "role": "reference",
+      "note": {
+        "ru": "Ранний рукописный свидетель, фрагментарность и разночтение главы IV; позиция редакторов Denma.",
+        "en": "Early manuscript witness, fragmentary survival, and chapter IV variant; the Denma editors’ position."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Victor H. Mair · Sun Zi’s Military Methods · Columbia University Press",
+      "url": "https://cup.columbia.edu/book/the-art-of-war/9780231133838/",
+      "role": "publisher",
+      "note": {
+        "ru": "Описание и оглавление издания 2007/2009: гипотеза Мэйра, не полный текст его книги.",
+        "en": "Description and contents of the 2007/2009 edition: Mair’s hypothesis, not the full book."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Scott Boorman · Background: Historical and Textual · Cambridge · 2024",
+      "url": "https://www.cambridge.org/core/books/abs/three-faces-of-sun-tzu/background-historical-and-textual/A73F375D8A28B97EDB6277495D663D1A",
+      "role": "reference",
+      "note": {
+        "ru": "Открытое резюме главы: накопление текста и поздние комментарии. Полная глава не прочитана.",
+        "en": "Public chapter summary: textual accretion and later commentaries. Full chapter not accessed."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Peter Lorge · Sun Tzu in the West · official Cambridge excerpt",
+      "url": "https://assets.cambridge.org/97811088/30652/excerpt/9781108830652_excerpt.pdf",
+      "role": "reference",
+      "note": {
+        "ru": "Начало официального отрывка: современная рецепция, Griffith 1963, опасность авторитетных псевдоцитат.",
+        "en": "Opening of the official excerpt: modern reception, Griffith 1963, and authoritative misattribution."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Kidder Smith · Sun Tzu Said · Bowdoin · I",
+      "url": "https://learn.bowdoin.edu/suntzu/content/chapter_01/section_02.html",
+      "role": "reference",
+      "note": {
+        "ru": "Формула атрибуции как признак передачи учениками; интерпретация, не доказанная биография.",
+        "en": "Attribution formula as evidence of transmission by disciples; interpretation, not a proven biography."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Mark Lewis · Warring States Political History · Cambridge",
+      "url": "https://www.cambridge.org/core/books/abs/cambridge-history-of-ancient-china/warring-states-political-history/1BCAF34A599BA322F3812203EB74F7D8",
+      "role": "reference",
+      "note": {
+        "ru": "Открытое резюме: массовые крестьянские армии и военные специалисты. Не проверка численности у Сунь-цзы.",
+        "en": "Public summary: mass peasant armies and military specialists. Does not validate Sunzi’s army figures."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Robin D. S. Yates · Yinqueshan archaeological context · Early China",
+      "url": "https://www.cambridge.org/core/journals/early-china/article/abs/yinyang-texts-from-yinqueshan-an-introduction-and-partial-reconstruction-with-notes-on-their-significance-in-relation-to-huanglao-daoism/3445D7ABDA8D2437C70344444A883378",
+      "role": "reference",
+      "note": {
+        "ru": "Археологический контекст Иньцюэшань: датировка захоронения и датировка переписывания текста — разные вопросы.",
+        "en": "Archaeological context for Yinqueshan: the burial date and the text’s copying date are distinct questions."
+      }
+    }
+  ]
+}

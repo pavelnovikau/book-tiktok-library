@@ -4,7 +4,7 @@
 
 This supersedes the historical STOP/expansion/refill instructions below. Repair authorization is active; do not restart the old expansion queue or dispatch replacement collectors. One publisher owns root readers/catalogue/shared shell/Git/deploy; workers own only their assigned packages and reports.
 
-- Independently accepted and integrated: The Art of War 15/30/36, Essentialism 18/28/36, Skin in the Game 19/37/53 — 125 revised bilingual pairs. No fiction rewrite is approved in this release. Catalogue: 31 books / 3,504 screens; baseline: 41 records under audit, 195 original files preserved externally.
+- Independently accepted, published and production-verified via PR #25: The Art of War 15/30/36, Essentialism 18/28/36, Skin in the Game 19/37/53 — 125 revised bilingual pairs. No fiction rewrite is approved in this release. Catalogue: 31 books / 3,504 screens; baseline: 41 records under audit, 195 original files preserved externally.
 - Bounded parent fixes only: Earthsea clamps stored depth to Essential before new-session spoiler consent; Hobbit `o-settlement` fixes one RU agreement error. Both remain REBUILD/SOURCE-GAP. The Lost World timing finding must be resolved in its eventual READY review, before acceptance.
 - Shared writing rules, equal homepage tabs and iOS safe-area header are repaired. Statistics strip stays; one compact icon-only row. Narrative presentation is optional and is not an editorial verdict.
 - Next publisher reads new READY manifests and actual RU/EN/evidence, verifies hashes, writes per-book findings, and integrates only passing packages. No waiting/polling workers or watchers. Source gaps require actual lawful coverage, never reconstruction from blurbs.

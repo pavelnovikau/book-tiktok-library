@@ -32,12 +32,12 @@ The approved expansion queue contains **58 books**: the original 25, the 13-book
 
 ## Execution status — 2026-10-31
 
-Published catalogue: **26 books / 3,129 screens**, including 22 of 58 expansion titles plus four pre-existing readers. Children of Captain Grant was published through PR #22 (`018517b`); production catalogue and direct reader verified after merge. Antifragile and compact icon headers remain live from PR #21. Candidate books are not live until merge and deployment verification.
+Published catalogue: **31 books / 3,673 screens**, including 27 of 58 expansion titles plus four pre-existing readers. Universal discovery and five reviewed/repaired fiction readers were published through [PR #23](https://github.com/pavelnovikau/book-tiktok-library/pull/23), squash `49ab18f1f4ca3a82392b2ad3aad6c2630e314758`. Actual production catalogue, rendered homepage and all five routes were verified after merge at 18:01 UTC on 2026-10-31. Children of Captain Grant remains live from PR #22 (`018517b`), Antifragile and compact icon headers from PR #21. Candidate books are not live until merge and deployment verification.
 
 - Published from the previously pending group: Mindfulness, Behave, Determined and Zen and the Art of Motorcycle Maintenance (PRs #19–20).
 - Published: Antifragile via PR #21; all evidence findings remediated, 68 audit checks, final 4,320-visit matrix and whole-library/icon-header QA passed.
 - Published: Children of Captain Grant via PR #22; independent review READY, audit 68/68 and integration browser QA passed all 26 readers. Production verified at 26 books / 3,129 screens, including the 144-screen reader and shared icon header.
-- Release candidate: White Fang (24/60/96, six sources), I, Robot (30/72/112, seventeen listed sources; ten reviews share one critic), The Two Captains (36/90/144, eleven sources), The Wee Free Men (24/60/96, thirteen sources) and The Hitchhiker’s Guide to the Galaxy (24/60/96, eight sources). Independent full-pair cold reviews and all required parent repairs are complete. All five are now registered as root readers; release manifest **31 books / 3,673 screens**. No other queued book is included. Last verified production remains 26 / 3,129 until the release is merged and deployed.
+- Published via PR #23: White Fang (24/60/96, six sources), I, Robot (30/72/112, seventeen listed sources; ten reviews share one critic), The Two Captains (36/90/144, eleven sources), The Wee Free Men (24/60/96, thirteen sources) and The Hitchhiker’s Guide to the Galaxy (24/60/96, eight sources). Independent full-pair cold reviews and all required parent repairs are complete. All five are registered root readers and are verified live in the **31 books / 3,673 screens** production catalogue. No other queued book is included.
 - Project Hail Mary remains unintegrated; the earlier source-blocked result must be resolved with adequate lawful evidence or a concrete replacement. No successful new collector delivery is claimed here.
 - The Potent Self remains source-gated; Pavel asked us to find sufficient lawful sources ourselves or propose a replacement. It is not a dependency of the rest of the queue.
 
@@ -48,9 +48,9 @@ Pavel approved all thirteen previously proposed titles and a maximum of **ten co
 | Group | Slug / book | Counts | Work state |
 | --- | --- | ---: | --- |
 | Son: adventure | `children-of-captain-grant` — Jules Verne, The Children of Captain Grant | 36 / 90 / 144 | Published PR #22; production verified |
-| Son: adventure | `white-fang` — Jack London, White Fang | 24 / 60 / 96 | Cold-reviewed and repaired; registered root reader in 31-book release candidate |
-| Son: adventure | `the-two-captains` — Veniamin Kaverin, The Two Captains | 36 / 90 / 144 | Cold-reviewed and repaired; registered root reader in 31-book release candidate |
-| Son: science fiction | `i-robot` — Isaac Asimov, I, Robot | 30 / 72 / 112 | Cold-reviewed and repaired; registered root reader in 31-book release candidate |
+| Son: adventure | `white-fang` — Jack London, White Fang | 24 / 60 / 96 | Published PR #23; production route and catalogue verified |
+| Son: adventure | `the-two-captains` — Veniamin Kaverin, The Two Captains | 36 / 90 / 144 | Published PR #23; production route and catalogue verified |
+| Son: science fiction | `i-robot` — Isaac Asimov, I, Robot | 30 / 72 / 112 | Published PR #23; production route and catalogue verified |
 | Son: science fiction | `amphibian-man` — Alexander Belyaev, Amphibian Man | 24 / 60 / 96 | Freed collector slot allocated |
 | Son: science fiction | `a-fall-of-moondust` — Arthur C. Clarke, A Fall of Moondust | 24 / 60 / 96 | Next available collector slot |
 | Son: science fiction | `the-martian-chronicles` — Ray Bradbury, The Martian Chronicles | 30 / 72 / 112 | Queued |
@@ -120,7 +120,7 @@ Identified RU starting point: Semyon Rogovin's 1914 translation, indexed at http
 
 ## Home discovery — approved approach, 2026-10-31
 
-Pavel accepted the universal approach with “ок”: one common catalogue, search, “Все / Художественное / Нон-фикшн” and recognizable genres or subjects. Both he and his son should quickly find books suitable for themselves, and the son's books must not look like a “children's” collection. Remove the public “Сыну · 14+ / For my son · 14+” presentation when implementing the new navigation; keep honest internal audience/context metadata. Implementation is complete and independently integration-tested at 31 books; production publication still requires merge and deployment verification.
+Pavel accepted the universal approach with “ок”: one common catalogue, search, “Все / Художественное / Нон-фикшн” and recognizable genres or subjects. Both he and his son should quickly find books suitable for themselves, and the son's books must not look like a “children's” collection. Remove the public “Сыну · 14+ / For my son · 14+” presentation when implementing the new navigation; keep honest internal audience/context metadata. Implementation is published via PR #23 and independently verified in production at 31 books.
 
 - Latest clarification supersedes the personal-shelf idea: Pavel wants a universal approach, found “личная полка” confusing, and asked for one understandable library. Use one common catalogue for everyone. Do not introduce named-reader profiles or personal recommendations as a prerequisite for choosing a book.
 - Keep search prominent. Provide “Все / Художественное / Нон-фикшн” as the broad catalogue entry points. Adult fiction remains discoverable; nonfiction is not an age gate.
@@ -131,7 +131,7 @@ Pavel accepted the universal approach with “ок”: one common catalogue, sea
 - For example, *I, Robot* can match fiction, science fiction and ethics; *The Hobbit* fiction, fantasy and adventure; *Meditations* nonfiction, philosophy and personal practice. Show readable book metadata and a concrete one-sentence reason to choose a book, with the same editorial and visual treatment for all readers.
 - Proposed first-screen order: search and “Все / Художественное / Нон-фикшн”, a compact genre/subject trigger, then books. A teenager can choose science fiction and an adult can choose philosophy or the same science fiction. Keep the existing shared icon-only reader header contract unchanged.
 
-Homepage builder finished and handed off its six files. Release review retained the shared catalogue/search/type/compact-selector design and additive schema-2 discovery vocabulary. Fresh integration QA passes at 31 books: 120 filter cases, 116 bilingual searches, 13 legacy routes, five homepage widths in both languages/themes, all-reader icon layout/focus/keyboard and iOS browser/standalone checks. Existing 26 titles, URLs, covers, times and embedded corpora remain unchanged. Fresh root audits pass 68/68 for each new book at exact Deep totals. This is release-candidate validation, not a claim that production is already updated.
+Homepage builder finished and handed off its six files. Release review retained the shared catalogue/search/type/compact-selector design and additive schema-2 discovery vocabulary. Fresh integration QA passes at 31 books: 120 filter cases, 116 bilingual searches, 13 legacy routes, five homepage widths in both languages/themes, all-reader icon layout/focus/keyboard and iOS browser/standalone checks. Existing 26 titles, URLs, covers, times and embedded corpora remain unchanged. Fresh root audits pass 68/68 for each new book at exact Deep totals. After merge, production HTTP reads matched the catalogue, homepage and all five reader files byte-for-byte. A separate production browser visit rendered 31 distinct cards / 3,673 screens, verified the universal controls and all five reader/Home routes, and exercised Hitchhiker consent/Cancel with zero runtime errors. Evidence: `/tmp/book-library-release-20261031/production-http.json` and `production/production-browser.json`.
 
 Sources consulted for the preliminary selection:
 

@@ -50,7 +50,7 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 ## 2026-10-31 release verification
 
-The release manifest contains **31 books / 3,673 screens**, adding exactly these five reviewed and repaired books to the verified production baseline of 26 / 3,129. Publication is complete only after the production catalogue, homepage and five direct routes serve this release; merge alone is not deployment proof.
+Production is verified at **31 books / 3,673 screens**, adding exactly these five reviewed and repaired books to the previous 26 / 3,129. [PR #23](https://github.com/pavelnovikau/book-tiktok-library/pull/23) was squash-merged as `49ab18f1f4ca3a82392b2ad3aad6c2630e314758` with all three checks green and no review findings. At 18:01 UTC on 2026-10-31, production HTTP reads matched the catalogue, homepage and five reader files byte-for-byte. A separate production browser check rendered all 31 distinct cards, checked the counters and universal controls, opened all five routes and their Home links, and verified Hitchhiker consent/Cancel. Zero runtime errors. The existing `.html` links correctly redirect to their clean reader routes. This is deployment proof after merge.
 
 | Book | Essential / Core / Deep | RU minutes | Listed sources |
 | --- | ---: | ---: | ---: |

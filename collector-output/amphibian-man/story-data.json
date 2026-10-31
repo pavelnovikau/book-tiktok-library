@@ -1,0 +1,833 @@
+{
+  "schemaVersion": 2,
+  "slug": "amphibian-man",
+  "title": {
+    "ru": "Человек-амфибия",
+    "en": "Amphibian Man"
+  },
+  "description": {
+    "ru": "Тайный сад, подводный дом и первая любовь Ихтиандра. Сокращённая история; развязка только в Deep.",
+    "en": "A secret garden, an underwater home and Ichthyander’s first love. A condensed story; resolution only in Deep."
+  },
+  "author": {
+    "ru": "Александр Беляев",
+    "en": "Alexander Belyaev"
+  },
+  "audience": "teen-14-plus",
+  "spoilerPolicy": "full-plot-in-deep",
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 12,
+    "core": 19,
+    "deep": 35
+  },
+  "methodNote": {
+    "ru": "Сокращённая история по русской транскрипции романа на Викитеке, своими словами. Проверены сюжетные эпизоды всех трёх частей, включая финал; не заявляется непрерывное чтение каждого слова или сверка с первым изданием. Английский текст — перевод этого пересказа. Развязка только в Deep. Внешний источник содержит полный сюжет.",
+    "en": "An original condensed telling based on the Russian Wikisource transcription. Plot passages across all three parts, including the ending, were checked; this is not a claim to continuous reading of every word or collation with the first edition. English translates this retelling. Resolution only in Deep. The external source contains the full plot."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Александр Беляев · Человек-амфибия · русский текст",
+      "url": "https://ru.wikisource.org/wiki/Человек-амфибия_(Беляев)",
+      "role": "book",
+      "note": {
+        "ru": "Транскрипция по тому 3 восьмитомного собрания сочинений. Сюжетные сцены трёх частей проверены непосредственно; раннее издание постранично не сверялось. Внешняя страница раскрывает весь сюжет.",
+        "en": "Transcription citing volume 3 of the eight-volume collected works. Plot scenes across three parts checked directly; no page-by-page collation with an early edition. The external page discloses the full plot."
+      }
+    }
+  ],
+  "media": {
+    "two-habitats": {
+      "dataUri": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNjQwIj48c3R5bGU+OnJvb3R7LS1jb2xvci1wYXBlcjojRkZGQ0YwOy0tY29sb3ItaW5rOiMxMDBGMEY7LS1jb2xvci1tdXRlZDojODc4NTgwOy0tY29sb3Itd2F0ZXI6I0RERjFFNH0gLmlua3tzdHJva2U6dmFyKC0tY29sb3ItaW5rLCMxMDBGMEYpfSAubXV0ZWR7c3Ryb2tlOnZhcigtLWNvbG9yLW11dGVkLCM4Nzg1ODApfTwvc3R5bGU+PHJlY3Qgd2lkdGg9IjY0MCIgaGVpZ2h0PSI2NDAiIGZpbGw9InZhcigtLWNvbG9yLXBhcGVyLCNGRkZDRjApIi8+PHBhdGggZD0iTTAgMzEwUTgwIDI5MiAxNjAgMzEwVDMyMCAzMTBUNDgwIDMxMFQ2NDAgMzEwVjY0MEgwWiIgZmlsbD0idmFyKC0tY29sb3Itd2F0ZXIsI0RERjFFNCkiLz48ZyBmaWxsPSJub25lIiBzdHJva2Utd2lkdGg9IjIiIGNsYXNzPSJtdXRlZCI+PHBhdGggZD0iTTQwIDM5MFExNDAgMzcwIDI0MCAzOTBUNDQwIDM5MFQ2NDAgMzkwTTAgNDcwUTEwMCA0NTAgMjAwIDQ3MFQ0MDAgNDcwVDY0MCA0NzBNNDAgNTUwUTE0MCA1MzAgMjQwIDU1MFQ0NDAgNTUwVDY0MCA1NTAiLz48cGF0aCBkPSJNNzIgMTAwVjI3NU0xMjAgMTAwVjI3NU0xNjggMTAwVjI3NU01NiAxNDVIMTg0TTU2IDIyNUgxODQiLz48L2c+PGcgY2xhc3M9ImluayIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiPjxjaXJjbGUgY3g9IjM0MCIgY3k9IjIzOCIgcj0iMjMiLz48cGF0aCBkPSJNMzQwIDI2MlYzNDlNMzQwIDI4NUwzMDAgMzIzTTM0MCAyODVMMzc4IDMyMk0zNDAgMzQ5TDMxMSA0MDVNMzQwIDM0OUwzNzMgNDA1Ii8+PHBhdGggZD0iTTIxNSAzMTBRMjUwIDMwMyAyODAgMzEwTTQwNyAzMTBRNDQ5IDMwMSA0ODkgMzEwIi8+PC9nPjxwYXRoIGQ9Ik00NDMgNDE4UTQ3OSAzODMgNTIyIDQxOFE0NzcgNDQ1IDQ0MyA0MThMNDI4IDQwMlY0MzRaIiBmaWxsPSJub25lIiBzdHJva2U9InZhcigtLWNvbG9yLW11dGVkLCM4Nzg1ODApIiBzdHJva2Utd2lkdGg9IjIiLz48Y2lyY2xlIGN4PSI1MDgiIGN5PSI0MTUiIHI9IjMiIGZpbGw9InZhcigtLWNvbG9yLW11dGVkLCM4Nzg1ODApIi8+PC9zdmc+",
+      "alt": {
+        "ru": "Символический человек на границе воздуха и воды; на суше ограда, под водой рыба. Это не иллюстрация анатомии.",
+        "en": "A symbolic person at the air–water boundary, a fence on land and a fish below. Not an anatomical illustration."
+      },
+      "credit": {
+        "ru": "Оригинальная композиция · Pavel Novikau",
+        "en": "Original composition · Pavel Novikau"
+      }
+    }
+  },
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "evidenceLocator": "рамка",
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Вход",
+          "title": "Человек-амфибия",
+          "body": "<p>В аргентинском заливе появился таинственный пловец. Рыбаки боятся его, капитан Зурита хочет поймать, а сам он впервые влюбляется. Сокращённая история романа Александра Беляева; развязка — только в Deep.</p>",
+          "subtitle": "Александр Беляев · 1928"
+        },
+        "en": {
+          "section": "Opening",
+          "title": "Amphibian Man",
+          "body": "<p>A mysterious swimmer appears in an Argentine bay. Fishermen fear him, Captain Zurita wants to capture him, and he is falling in love for the first time. A condensed telling of Alexander Belyaev’s novel; the resolution appears only in Deep.</p>",
+          "subtitle": "Alexander Belyaev · 1928"
+        }
+      },
+      "type": "cover",
+      "media": "two-habitats"
+    },
+    {
+      "id": "night",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Морской дьявол», начало",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Ночь на «Медузе»",
+          "body": "<p>Над аргентинским берегом стоит душная январская ночь. На палубе «Медузы» спят ловцы жемчуга, измученные жарой и нырянием. Бальтазар, старый помощник капитана Педро Зуриты, остаётся на вахте. Море кажется неподвижным, но среди рыбаков уже ходит тревожный слух: в воде поселился тот, кого никто не умеет объяснить.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "Night aboard the Medusa",
+          "body": "<p>A stifling January night hangs over the Argentine coast. Pearl divers sleep on the Medusa’s deck, worn out by heat and diving. Balthazar, Captain Pedro Zurita’s ageing assistant, keeps watch. The sea seems still, yet an unsettling rumour is moving among the fishermen: something lives beneath the surface that nobody can explain.</p>"
+        }
+      }
+    },
+    {
+      "id": "rumor",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Морской дьявол», слухи",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Звук над водой",
+          "body": "<p>Неведомый пловец разрезает сети, выпускает рыбу и появляется рядом с дельфином. Рыбаки называют его морским дьяволом; газеты, полиция и учёные предлагают собственные объяснения. В ночной темноте звук раковины страшнее любого рассказа. Люди готовы бросить промысел, лишь бы больше не встречаться с существом из глубины.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "A sound across the water",
+          "body": "<p>An unknown swimmer cuts nets, releases fish and appears beside a dolphin. Fishermen call him the sea devil; newspapers, police and scientists offer explanations of their own. In the dark, the sound of his shell is more frightening than any story. Men would rather abandon their work than meet the creature beneath them.</p>"
+        }
+      }
+    },
+    {
+      "id": "hunt",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Морской дьявол», проволочная сеть",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Добыча с ножом",
+          "body": "<p>Зурита думает о жемчуге. Если поймать пловца, который не нуждается в воздухе, тот принесёт ему состояние. У подводной пещеры ставят проволочную сеть. Ночью в ней бьётся серебристое тело. Добыча уже почти на берегу, когда освобождает руку, вынимает нож, прорезает проволоку и исчезает в море. Зурита отступать не собирается.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "A captive with a knife",
+          "body": "<p>Zurita is thinking about pearls. Catch a swimmer who needs no air, and a fortune will follow. A wire net is set outside an underwater cave. At night a silvery body struggles inside it. Almost ashore, the captive frees a hand, draws a knife, cuts through the wire and vanishes. Zurita refuses to give up.</p>"
+        }
+      }
+    },
+    {
+      "id": "underwater-grille",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Доктор Сальватор», подводная решётка",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Дверь на дне",
+          "body": "<p>Зурита и Бальтазар спускаются к пещере в водолазных костюмах. Внутри оказывается железная решётка с петлями и запором изнутри. За морской тайной обнаружилась чья-то работа. Но открыть подводную дверь не удаётся. Поиски приходится продолжать на суше, где неподалёку живёт необыкновенный хирург Сальватор.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "A door beneath the sea",
+          "body": "<p>Zurita and Balthazar descend to the cave in diving suits. Inside they find an iron grille with hinges and a lock on the far side. Someone has built a door at the bottom of the sea. They cannot force it open. The search turns towards land, where the remarkable surgeon Salvator lives nearby.</p>"
+        }
+      }
+    },
+    {
+      "id": "doctor",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Доктор Сальватор»; «Третья стена»",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Дом за стенами",
+          "body": "<p>Сальватор бесплатно лечит людей, которые приходят к нему издалека, но посторонних в свой дом не пускает. Брат Бальтазара Кристо берётся проникнуть внутрь. Он приносит больную девочку, выдаёт её за внучку и после её выздоровления предлагает доктору преданную службу. Сальватор принимает помощника, не зная, кто его послал.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "The walled estate",
+          "body": "<p>Salvator treats people who travel far to see him without charging them, but keeps strangers out of his home. Balthazar’s brother Cristo undertakes to get inside. He brings a sick girl, passes her off as his granddaughter and offers devoted service after her recovery. Salvator accepts the helper without knowing who sent him.</p>"
+        }
+      }
+    },
+    {
+      "id": "staged-rescue",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Третья стена», заговор и нападение",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Спаситель по уговору",
+          "body": "<p>Кристо нужно больше доверия. Вместе с Зуритой он устраивает нападение на Сальватора, а затем играет роль спасителя. Хитрость срабатывает: доктор допускает его туда, куда раньше не водил. За одной стеной оказывается другая; в саду живут животные, чей облик заставляет Кристо то отшатываться, то протирать глаза.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "A rescue arranged in advance",
+          "body": "<p>Cristo needs greater trust. With Zurita, he arranges an attack on Salvator and then plays the rescuer. The trick works: the doctor admits him to places previously forbidden. One wall gives way to another. In the garden, animals of impossible appearance make Cristo recoil and rub his eyes in disbelief.</p>"
+        }
+      }
+    },
+    {
+      "id": "third-wall",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Третья стена», знакомство",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "По ту сторону стекла",
+          "body": "<p>Сальватор ведёт Кристо вниз, в пещеру со стеклянной стеной. За стеклом движутся рыбы; из воды выходит существо с огромными глазами и перепончатыми лапами. Оно снимает очки и перчатки. Перед Кристо стоит красивый юноша и приветливо протягивает руку. Это Ихтиандр. Морской дьявол умеет улыбаться и говорить.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "On the other side of the glass",
+          "body": "<p>Salvator leads Cristo down into a cave with a glass wall. Fish move beyond it; a creature with enormous eyes and webbed hands emerges from the water. It removes its goggles and gloves. A handsome young man stands before Cristo, smiling and offering his hand. His name is Ichthyander. The sea devil can speak.</p>"
+        }
+      }
+    },
+    {
+      "id": "day",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «День Ихтиандра»",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Его дорога в море",
+          "body": "<p>До рассвета Ихтиандр уходит из сада через бассейн и подводный туннель. В море он знает течения, укрытия и повадки рыб. Защищающая тело чешуя, очки и перепончатые перчатки помогают ему плавать и охотиться. Здесь не нужно прятаться от человеческих взглядов. Он возвращается домой только после долгого дня в воде.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "His road to the sea",
+          "body": "<p>Before dawn, Ichthyander leaves the garden through a pool and an underwater tunnel. At sea he knows the currents, shelters and habits of fish. His protective scales, goggles and webbed gloves help him swim and hunt. Here he has no need to hide from human eyes. Only after a long day underwater does he return home.</p>"
+        }
+      }
+    },
+    {
+      "id": "liding",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «День Ихтиандра»",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Лидинг слышит зов",
+          "body": "<p>Ихтиандр трубит в раковину, и к нему приходит дельфин Лидинг. Вместе они несутся вдоль берега. Рыбакам такой всадник кажется чудовищем; самому Ихтиандру это привычная прогулка с другом. Дома Сальватор требует другого порядка: юноша должен проводить время и на суше, хотя спать в бассейне ему гораздо приятнее.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "Liding answers the call",
+          "body": "<p>Ichthyander blows his shell, and the dolphin Liding comes to him. Together they race along the coast. Fishermen see a monster riding through the waves; Ichthyander is enjoying an ordinary outing with a friend. At home, Salvator insists on another routine: he must spend time on land too, although he much prefers sleeping in the pool.</p>"
+        }
+      }
+    },
+    {
+      "id": "rescue",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Девушка и смуглый»",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Девушка после грозы",
+          "body": "<p>После грозы Ихтиандр находит в море девушку, привязанную к доске. Он выносит её на берег и приводит в чувство. Открыв глаза, она пугается его облика. Услышав шаги, Ихтиандр прячется за камнями: он не хочет снова её напугать, но уйти, пока она так слаба, тоже не может.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "The girl after the storm",
+          "body": "<p>After a storm, Ichthyander finds a girl tied to a board at sea. He carries her ashore and revives her. When she opens her eyes, his appearance terrifies her. Hearing footsteps, he hides behind rocks. He does not want to frighten her again, yet cannot leave her there alone and helpless.</p>"
+        }
+      }
+    },
+    {
+      "id": "stolen-credit",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Девушка и смуглый», смуглый на берегу",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Другой спаситель",
+          "body": "<p>К девушке подбегает смуглый мужчина. Сначала он окунается в прибой, затем склоняется над ней, словно только что вытащил её из воды. Девушка благодарит его за спасение. Из-за камней Ихтиандр видит и слышит всё, но не выходит. Позже, бродя по берегу, он относит в воду выброшенных волнами рыб и морских звёзд.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "Another rescuer",
+          "body": "<p>A dark-haired man hurries towards the girl. First he plunges into the surf, then bends over her as though he has just pulled her from the sea. She thanks him for saving her. Ichthyander watches and hears everything from behind the rocks, but stays hidden. Afterwards he returns stranded fish and starfish to the water.</p>"
+        }
+      }
+    },
+    {
+      "id": "city",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Слуга Ихтиандра»; «В городе»",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Белый костюм",
+          "body": "<p>После встречи с девушкой Ихтиандр соглашается пойти с Кристо в Буэнос-Айрес. На нём белый костюм, но от пыли, жары и толпы одежда не спасает. В лавке Бальтазара он наконец видит Гуттиэре, приёмную дочь хозяина. Именно её он искал. Смущение и нехватка воздуха гонят его обратно к морю.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "The white suit",
+          "body": "<p>After meeting the girl, Ichthyander agrees to visit Buenos Aires with Cristo. He wears a white suit, but clothes cannot protect him from dust, heat and crowds. In Balthazar’s shop he finally sees Guttiere, the shopkeeper’s foster daughter. She is the girl he has been seeking. Embarrassment and breathlessness send him fleeing back to the sea.</p>"
+        }
+      }
+    },
+    {
+      "id": "necklace",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Маленькая месть», ожерелье",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Жемчуг на закате",
+          "body": "<p>Ихтиандр ждёт Гуттиэре на берегу и однажды видит её с высоким светловолосым Ольсеном. Девушка передаёт ему ожерелье, но оно падает в море. Ихтиандр забывает ревность, ныряет и возвращает потерю. Теперь у него есть повод заговорить с ней. Зачем ожерелье понадобилось Ольсену, он пока не знает.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "Pearls at sunset",
+          "body": "<p>Waiting for Guttiere by the shore, Ichthyander sees her with the tall, fair-haired Olsen. She hands Olsen a necklace, but drops it into the sea. Forgetting his jealousy, Ichthyander dives and brings it back. Now he has a reason to speak to her. He still does not know why Olsen needed the necklace.</p>"
+        }
+      }
+    },
+    {
+      "id": "pearl",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Маленькая месть», подарок и прогулки",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Слишком дорогой подарок",
+          "body": "<p>Ихтиандр снова находит Гуттиэре и предлагает ей огромную жемчужину. Она отказывается от подарка, который стоит целое состояние. Он бросает жемчуг в море и уходит в слезах; девушка догоняет его. После этой неловкой встречи они гуляют у воды. Гуттиэре удивляется, сколько он знает о море и как мало — об обычной жизни.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "A gift too valuable to accept",
+          "body": "<p>Ichthyander finds Guttiere again and offers her an enormous pearl. She refuses a gift worth a fortune. He throws it into the sea and walks away in tears; she runs after him. After this awkward encounter they begin walking beside the water. She marvels at his knowledge of the sea and his ignorance of ordinary life.</p>"
+        }
+      }
+    },
+    {
+      "id": "unpleasant-meeting",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Неприятная встреча»; II «В пути», объяснение прыжка",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Всадник на дороге",
+          "body": "<p>Однажды навстречу им выезжает Зурита и называет Гуттиэре своей невестой. Она возмущена. Потрясённый Ихтиандр чувствует невыносимую боль в боках, задыхается и бросается с обрыва в море. Гуттиэре думает, что он погиб. Дома Бальтазар снова требует согласиться на брак: почти весь товар в его лавке принадлежит Зурите. Гуттиэре отвечает отказом.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "The rider on the road",
+          "body": "<p>One day Zurita rides towards them and calls Guttiere his fiancée. She protests. Shaken and struggling to breathe through sharp pains in his sides, Ichthyander leaps from the cliff into the sea. Guttiere believes he has died. At home, Balthazar again presses her to marry: almost all the stock in his shop belongs to Zurita. Guttiere refuses.</p>"
+        }
+      }
+    },
+    {
+      "id": "underwater-home",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Бой со спрутами»",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Комната, где некому остаться",
+          "body": "<p>Среди людей Ихтиандр всё чаще чувствует боль и растерянность. В море он устраивает себе жилище в гроте, отвоёванном у спрутов. Ставит стол и вазы, сажает растения. Всё готово, но позвать сюда человека нельзя. Даже Лидинг, заглянув в гости, вскоре уходит наверх: дельфину нужен воздух.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "A room where nobody can stay",
+          "body": "<p>Among people, Ichthyander increasingly feels pain and bewilderment. At sea he makes a home in a grotto won from its octopuses. He arranges a table, vases and plants. Everything is ready, but no human guest can visit. Even Liding, brought in to admire the room, soon leaves for the surface: a dolphin needs air.</p>"
+        }
+      }
+    },
+    {
+      "id": "new-friend",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Новый друг», начало разговора",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Человек, которого он считал врагом",
+          "body": "<p>Ихтиандр разыскивает Ольсена. Тот работает на пуговичной фабрике и принимает добытые со дна раковины. Их знакомство начинается в воде и продолжается разговором о Гуттиэре. Ихтиандр хочет наконец понять то, о чём до сих пор только догадывался. За девушкой стоит не одна любовная тайна: Зурита уже готовит свои планы.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "The man he thought was an enemy",
+          "body": "<p>Ichthyander seeks out Olsen, a button-factory worker who receives shells gathered from the seabed. They meet in the water and begin talking about Guttiere. Ichthyander wants to understand what he has so far only guessed at. There is more at stake than a romantic mystery: Zurita is already making plans of his own.</p>"
+        }
+      }
+    },
+    {
+      "id": "spoiler-warning",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "Навигационное предупреждение",
+      "spoiler": "warning",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Дальше — поздние события и финал",
+          "body": "<p>Следующие экраны раскрывают дальнейшую судьбу Гуттиэре и Ихтиандра, тайну, которую обсуждают братья, суд и последнюю страницу романа. Чтобы сохранить развязку, выберите «Главное» или «Суть книги». Продолжая Deep, вы переходите к полному сокращённому сюжету.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Late events and the ending follow",
+          "body": "<p>The following screens reveal what happens next to Guttiere and Ichthyander, the brothers’ discovery, the trial and the novel’s final page. To preserve the resolution, choose Essential or Core. Continue in Deep to read the rest of the condensed story.</p>"
+        }
+      }
+    },
+    {
+      "id": "marriage-evidence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "I «Новый друг», рассказ Ольсена",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Рассказ Ольсена",
+          "body": "<p>Ольсен объясняет: ожерелье должно было оплатить отъезд Гуттиэре из-под власти Зуриты. Он сам собирался ехать с ней. Но, по рассказу Бальтазара, Зурита увёз девушку против воли, и она стала его женой. Теперь она в гасиенде «Долорес». Ихтиандр расспрашивает о дороге и немедленно отправляется к ней.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Olsen’s account",
+          "body": "<p>Olsen explains that the necklace was meant to pay for Guttiere’s departure beyond Zurita’s reach. He intended to leave with her. But according to Balthazar’s account, Zurita carried her off against her will and she became his wife. She is now at the Dolores hacienda. Ichthyander asks the way and sets out at once.</p>"
+        }
+      }
+    },
+    {
+      "id": "river-route",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «В пути», река и полицейский",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Вверх по реке",
+          "body": "<p>По Ла-Плате и Паране Ихтиандр добирается к гасиенде. Вместо прозрачного моря вокруг мутная речная вода; на суше он устаёт и задыхается. Полицейский принимает его за подозрительного беглеца и надевает наручники. Ихтиандр спасается в пруду, но до дома Гуттиэре доходит со скованными руками.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Up the river",
+          "body": "<p>Ichthyander travels through La Plata and up the Paraná towards the hacienda. Muddy river water replaces the clear sea; on land he grows tired and breathless. A policeman takes him for a suspicious fugitive and puts him in handcuffs. He escapes into a pond, but reaches Guttiere’s home with his hands still bound.</p>"
+        }
+      }
+    },
+    {
+      "id": "hacienda",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «В пути», Долорес и пруд",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Возвращение из пруда",
+          "body": "<p>Зурита замечает незнакомца у дома, ударяет лопатой и вместе с матерью бросает в пруд, привязав камни. Но вода возвращает Ихтиандра к жизни. Когда он появляется перед Гуттиэре, она сначала видит в нём призрака. Чтобы избавить его от наручников, приходится обратиться к Зурите. Тот наконец узнаёт свою желанную добычу.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "The return from the pond",
+          "body": "<p>Zurita finds a stranger outside his house, strikes him with a spade and, with his mother’s help, sinks him in the pond with stones attached. Water revives Ichthyander. When he appears before Guttiere, she first takes him for a ghost. Freeing him from his handcuffs requires Zurita’s help. Zurita finally recognises the prize he has been hunting.</p>"
+        }
+      }
+    },
+    {
+      "id": "promise",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «В пути»; «Необычайный пленник»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Обещание на палубе",
+          "body": "<p>Зурита обещает отпустить Ихтиандра в заливе. Но на «Медузе» юношу хватают и запирают в трюме, а Гуттиэре — в каюте. Внизу невыносимо душно. Услышав знакомый голос, девушка понимает, что муж солгал. Ихтиандру приносят тесную бочку с дурно пахнущей водой: другого спасения от удушья ему не дают.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "A promise aboard ship",
+          "body": "<p>Zurita promises to release Ichthyander in the bay. On the Medusa, however, the young man is seized and locked in the hold; Guttiere is confined to a cabin. Below deck the air is unbearable. Hearing his voice, she realises her husband has lied. Ichthyander receives a cramped barrel of foul-smelling water, his only relief from suffocation.</p>"
+        }
+      }
+    },
+    {
+      "id": "chain",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «Необычайный пленник»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Жемчуг на цепи",
+          "body": "<p>В море Ихтиандра спускают на длинной цепи. Чистая вода достаётся ему только вместе с работой: он должен добывать жемчуг для Зуриты. Гуттиэре отказывается от богатства, добытого таким образом. Она не согласна и уговаривать юношу принести спрятанный жемчуг: слишком хорошо знает, чего стоят обещания мужа.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Pearls on a chain",
+          "body": "<p>Ichthyander is lowered into the sea on a long chain. Clean water comes with a condition: he must gather pearls for Zurita. Guttiere refuses wealth obtained this way. Nor will she persuade the young man to fetch his hidden pearls. She knows too well what her husband’s promises are worth.</p>"
+        }
+      }
+    },
+    {
+      "id": "mutiny",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «Покинутая Медуза»; «Затонувший корабль»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Не только капитан",
+          "body": "<p>Матросы тоже хотят завладеть Ихтиандром и поднимают мятеж. Тем временем Сальватор ищет юношу на подводной лодке; с ним Кристо и Бальтазар. При её появлении команда бежит. Зурита увозит Гуттиэре к берегу, прикрываясь ею от выстрелов. На опустевшей шхуне спасатели находят цепь, но не Ихтиандра.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "More than one captor",
+          "body": "<p>The sailors want Ichthyander for themselves and mutiny. Meanwhile Salvator searches for him in a submarine, with Cristo and Balthazar aboard. Its arrival sends the crew fleeing. Zurita rows Guttiere ashore, using her to shield himself from gunfire. The rescuers find the chain on the deserted schooner, but no Ichthyander.</p>"
+        }
+      }
+    },
+    {
+      "id": "forged-letter",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «Затонувший корабль»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Письмо не её рукой",
+          "body": "<p>Перед мятежом Зурита отправил Ихтиандра на затонувший «Мафальду», подделав просьбу Гуттиэре. Среди мёртвых пассажиров юноша не может поверить, что девушка послала его за такой добычей. Он возвращается и слышит с берега её настоящий голос: Зурита лжёт, надо спасаться. Ихтиандр уходит в открытое море, а затем возвращается к Сальватору.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "A letter she never wrote",
+          "body": "<p>Before the mutiny, Zurita sent Ichthyander into the sunken Mafaldu with a forged request from Guttiere. Among its dead passengers, he cannot believe she would ask him to seek such spoils. Returning, he hears her real voice from shore: Zurita is lying; he must escape. He swims out to sea and later returns to Salvator.</p>"
+        }
+      }
+    },
+    {
+      "id": "kinship-evidence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "II «В пути», пятно; III «Новоявленный отец»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Сын, которого считали умершим",
+          "body": "<p>Кристо рассказывает брату о родимом пятне Ихтиандра. Оно напоминает пятно на теле младенца Бальтазара, которого двадцать лет назад отнесли Сальватору и объявили умершим. Кристо допускает ошибку, но Бальтазар уже уверен: сын жив. Он требует вернуть его и обращается в суд, не желая ждать и торговаться.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "The son believed dead",
+          "body": "<p>Cristo tells his brother about Ichthyander’s birthmark. It resembles one on Balthazar’s baby, taken to Salvator twenty years earlier and reported dead. Cristo admits he may be mistaken, but Balthazar is certain: his son is alive. He demands the young man’s return and goes to court, refusing to wait or bargain.</p>"
+        }
+      }
+    },
+    {
+      "id": "bishop",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «Юридический казус»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Сальватор перед судом",
+          "body": "<p>Против Сальватора выступает и Зурита. Епископ требует наказать человека, который переделывает божественное творение. Эксперты поражены результатами операций и предлагают признать доктора невменяемым, надеясь смягчить его участь. Сальватор отказывается от такого спасения. Он готов сам объяснить, что сделал с ребёнком и почему скрывал открытие.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Salvator before the court",
+          "body": "<p>Zurita also acts against Salvator. The bishop demands punishment for a man who alters divine creation. Experts, astonished by the operations, suggest treating the doctor as insane in the hope of softening his fate. Salvator refuses that escape. He will explain what he did to the child and why he concealed his discovery.</p>"
+        }
+      }
+    },
+    {
+      "id": "speech",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «Слово подсудимого»",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Жабры молодой акулы",
+          "body": "<p>Сальватор рассказывает, что пересадил ребёнку жабры молодой акулы. Он мечтал открыть людям океан, но боялся, что Ихтиандра заставят добывать богатства или топить военные корабли. Теперь у юноши нарушено равновесие между лёгочным и жаберным дыханием. Долгое пребывание на суше повредило ему: большую часть жизни придётся проводить под водой.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "The gills of a young shark",
+          "body": "<p>Salvator explains that he transplanted a young shark’s gills into the child. He dreamed of opening the ocean to humanity, but feared Ichthyander would be forced to gather wealth or sink warships. The balance between the young man’s lungs and gills has now broken down. Prolonged time on land has harmed him; he must live mostly underwater.</p>"
+        }
+      }
+    },
+    {
+      "id": "custody",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «В тюрьме», опека",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Новый способ завладеть им",
+          "body": "<p>Ихтиандр не знает календарных дат и не понимает обычных вопросов экспертов. Его признают недееспособным и назначают опеку. Зурита подкупает тех, от кого зависит решение. Свидетельства Кристо суду недостаточно, чтобы установить отцовство Бальтазара. В тюрьме старик приходит к юноше, но тот не узнаёт в нём отца.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Another way to possess him",
+          "body": "<p>Ichthyander cannot answer the experts’ ordinary questions about calendar dates. He is declared legally incapable and placed under guardianship. Zurita bribes the officials who decide the matter. Cristo’s testimony is judged insufficient to establish Balthazar’s paternity. In prison, the old man visits Ichthyander, but the young man does not recognise him as his father.</p>"
+        }
+      }
+    },
+    {
+      "id": "tank",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «В тюрьме», смотритель и план",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Вода в тюремном баке",
+          "body": "<p>Ихтиандр слабеет в грязной воде тюремного бака. Смотритель, чью жену Сальватор когда-то спас, предлагает доктору побег. Но Сальватор требует прежде спасти юношу: его собираются тайно убить. Самому доктору ещё предстоит отбывать наказание. Для Ихтиандра он готовит другой путь — к другу-океанографу на островах Туамоту.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Water in the prison tank",
+          "body": "<p>Ichthyander weakens in the prison tank’s dirty water. The warder, whose wife Salvator once saved, offers the doctor an escape. Salvator insists that the young man must be saved first: a secret killing is planned. The doctor still faces imprisonment. For Ichthyander he prepares another route, to an oceanographer friend in Tuamotu.</p>"
+        }
+      }
+    },
+    {
+      "id": "escape-plan",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «В тюрьме», Вильбуа; «Побег», бочка",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Ночной водовоз",
+          "body": "<p>Сальватор объясняет, как искать остров Армана Вильбуа, где надеется найти Ихтиандру друзей и научную работу. Прибытия никто не может обещать. Ночью Ольсен въезжает в тюрьму как водовоз. В бочку, в которой привозят морскую воду, прячется сам Ихтиандр. Повозка спокойно выезжает со двора и движется к берегу.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "The night water carrier",
+          "body": "<p>Salvator explains how to find Armand Vilbois’s island, where he hopes Ichthyander will find friends and scientific work. Arrival cannot be promised. At night Olsen enters the prison as a water carrier. Ichthyander hides inside the barrel used to deliver seawater. The cart leaves the yard quietly and makes its way to the coast.</p>"
+        }
+      }
+    },
+    {
+      "id": "farewell",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «Побег», разговор Гуттиэре и Ольсена перед побегом и прощание на берегу",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "За прибрежными камнями",
+          "body": "<p>Гуттиэре ушла от мужа и пришла за помощью к Ольсену. Он убеждает её не показываться: ради новых встреч Ихтиандр снова станет выходить на сушу, а это может его погубить. Она соглашается увидеть его только издали. Теперь она стоит за камнями, пока он выпускает Ихтиандра из бочки. Юноша благодарит друга и бежит к морю. На прощание просит передать Гуттиэре, что всегда будет помнить её. Он не знает, что она рядом. Её тихого ответа он не слышит.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Behind the shore rocks",
+          "body": "<p>Guttiere has left her husband and sought Olsen’s help. He warns that seeing her would draw Ichthyander back to meetings on land and endanger his life. She agrees to watch without revealing herself. Now she waits behind rocks while he releases Ichthyander from the barrel. The young man thanks his friend and runs towards the sea. He asks Olsen to tell Guttiere that he will always remember her. He does not know she is nearby. Her quiet answer goes unheard.</p>"
+        }
+      }
+    },
+    {
+      "id": "epilogue",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "III «Побег», заключительные абзацы",
+      "spoiler": "late",
+      "copy": {
+        "ru": {
+          "section": "За предупреждением · Спойлеры",
+          "title": "Тот, кто ещё зовёт",
+          "body": "<p>Сальватор возвращается к работе, Кристо остаётся у него. Зурита снова ловит жемчуг. Гуттиэре разводится с ним, выходит за Ольсена и уезжает в Нью-Йорк. О морском дьяволе остаются легенды. Лишь Бальтазар во время бури выходит на камни и зовёт сына. Доплыл ли Ихтиандр до далёкого острова, море не рассказывает.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "The man who still calls",
+          "body": "<p>Salvator returns to his work; Cristo remains with him. Zurita gathers pearls again. Guttiere divorces him, marries Olsen and moves to New York. The sea devil becomes a legend. Only Balthazar still goes out onto the rocks in a storm and calls for his son. Whether Ichthyander reached the distant island remains untold.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "Спойлеробезопасное завершение сокращённого чтения",
+      "spoiler": "safe",
+      "copy": {
+        "ru": {
+          "section": "Море и берег",
+          "title": "Между морем и берегом",
+          "body": "<p>В воде Ихтиандр движется свободно, а на берегу его ждут чужие тайны, любовь и охота за ним самим. Гуттиэре живёт совсем близко — и в мире, куда ему трудно войти. Их встречи связывают два берега одной истории. Продолжение и развязка находятся в Deep, после отдельного предупреждения.</p>"
+        },
+        "en": {
+          "section": "Sea and shore",
+          "title": "Between the sea and the shore",
+          "body": "<p>Ichthyander moves freely underwater; on land he encounters other people’s secrets, love and a hunt for himself. Guttiere lives close by, yet in a world he struggles to enter. Their meetings join the two shores of one story. The continuation and resolution are in Deep, after a separate warning.</p>"
+        }
+      },
+      "final": true
+    }
+  ],
+  "contentMode": "narrative"
+}

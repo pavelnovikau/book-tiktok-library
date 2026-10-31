@@ -1,0 +1,81 @@
+{
+  "slug": "four-thousand-weeks",
+  "verdict": "PASS",
+  "reviewDate": "2026-10-31",
+  "reviewerRole": "Independent content reviewer; not the rewrite author or publisher",
+  "storyDataSha256": "e028b45202489f12ca582c8fbafd0ef853fa8abc5aeac61c62e78b4f948dca4d",
+  "collectorHtmlSha256": "7eb5827265156ce063102dce6acf082fb1e8a83ef4a444e556846ce227684aaf",
+  "reviewedFiles": [
+    {
+      "path": "collector-output/four-thousand-weeks/story-data.json",
+      "sha256": "e028b45202489f12ca582c8fbafd0ef853fa8abc5aeac61c62e78b4f948dca4d"
+    },
+    {
+      "path": "collector-output/four-thousand-weeks/four-thousand-weeks.html",
+      "sha256": "7eb5827265156ce063102dce6acf082fb1e8a83ef4a444e556846ce227684aaf"
+    }
+  ],
+  "actualRuEnPairCount": 52,
+  "cumulativeRoutesRead": {
+    "essential": 21,
+    "core": 32,
+    "deep": 52
+  },
+  "languagesRead": [
+    "ru",
+    "en"
+  ],
+  "effectiveCollectorCheck": {
+    "embeddedScreensEqualStoryData": true,
+    "materialCopyDivergence": false,
+    "difference": "HTML adds computed modes/reading-time metadata. The 52 bilingual screen objects and source/method copy match. No later corpus replacement found in the collector scripts."
+  },
+  "contentJudgment": "The condensation preserves the argument rather than turning finitude into another promise of efficiency. The move from limited life to deliberate omission, attention, uncertain plans, intrinsically valuable leisure, patience, shared time and ordinary significance is intelligible at all three depths. Deep supplies actual cases and the ten genuine appendix practices. No required meaning correction found.",
+  "primaryEvidenceActuallyChecked": [
+    {
+      "edition": "Owned expanded Russian EPUB, Oliver Burkeman, Четыре тысячи недель: Тайм-менеджмент для смертных, ISBN 9785961486391",
+      "check": "Read OPF metadata and inspected the 28-item spine and chapter/appendix structure; a full edition with notes and publication matter, not a third-party summary. Approximately 55,495 extracted words including paratext; this is an edition-completeness check, not a claim of continuous full-book reading."
+    },
+    {
+      "locator": "OEBPS/Text/content04.html, introductory paragraphs 3–5 and 18–23; content1.html, paragraphs 19–21, 23–26 and 29–30",
+      "checked": "Four-thousand-week scale, failed productivity quest, Brooklyn bench, limitation paradox and external/social constraints. Paragraph numbers refer to h1–h4/p blocks in document order, excluding empty blocks."
+    },
+    {
+      "locator": "OEBPS/Text/content2.html, paragraph 11 excerpt, 12–13, 23–24, 28 and 31–34; content3.html, paragraph 13 excerpt and 23–26; content4.html, 3–5, 8–13, 15–18 and 24–29",
+      "checked": "Email feedback, important work amid unfinished tasks, convenience costs, Hägglund/value, choice, big rocks, paying oneself first, three-slot Kanban, perfectionism and commitment."
+    },
+    {
+      "locator": "OEBPS/Text/content5.html, 3–5 and 18 (argument excerpt); content6.html, 11 and 16–17 excerpts; content7.html, 19 closing argument; content8.html, 12 and 31 closing excerpt",
+      "checked": "Actual watermelon broadcast and its non-moralizing use; discomfort/attention; plans as present intentions; instrumental parenting; the trap of forcing presence. These are selected passages, not entire chapters."
+    },
+    {
+      "locator": "OEBPS/Text/content9.html, 28–30 and 35–36; content10.html, closing argument excerpt at 18; content11.html, 22–27 (selected argument passages)",
+      "checked": "Setiya, intrinsic leisure, actual surfing/keyboard examples, patience, incremental work and the Helsinki bus. The summary does not claim that hobbies must become achievements."
+    },
+    {
+      "locator": "OEBPS/Text/content12.html, 28–29 excerpts; content13.html, 21 and 23 excerpts; content14.html, 27 excerpt and 32–36; content15.html, 12–14",
+      "checked": "Shared/social time, collective action, ordinary significance, no rehearsal and next necessary thing. No conversion into a promise of certainty or a requirement of world-historical impact."
+    },
+    {
+      "locator": "OEBPS/Text/content16.html, complete appendix, paragraphs 1–29",
+      "checked": "Read the ten proposals continuously. Verified ten-item closed list, fixed hours as an addition, serial major projects with everyday duties retained, strategic failure, done list, bounded causes, boring devices, ordinary novelty, curiosity, immediate generosity and five/ten-minute doing-nothing exercise."
+    }
+  ],
+  "requiredFindings": [],
+  "optionalSuggestions": [
+    {
+      "screenId": "important-never-starts",
+      "category": "English fluency, nonblocking",
+      "ru": "Важное не просто получает меньше времени: оно систематически не начинается.",
+      "en": "Important work receives more than insufficient time: it systematically fails to start.",
+      "suggestion": "A more natural English sentence would be: “Important work does not merely get too little time; it repeatedly fails to get started.” The existing continuation already makes the intended meaning clear.",
+      "sourceLocator": "OEBPS/Text/content2.html, argument about clearing minor tasks before important work."
+    }
+  ],
+  "materialLimitations": [
+    "Primary reading was targeted to delivered arguments and cases, with the appendix read continuously. I did not read every chapter continuously or certify all historical/philosophical sources and psychological effects.",
+    "No complete English edition was read; EN was assessed as a translation of the condensation against the checked Russian primary passages.",
+    "Collector content review only. Root integration, production, browser/device behavior and saved-progress migration are the publisher’s responsibility. No browser matrix rerun.",
+    "The source note accurately discloses a selective condensation. Omitted anecdotes and the exact five-question presentation do not make an essential argument unsupported in this version."
+  ]
+}

@@ -48,6 +48,27 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 `npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
 
+## 2026-10-31 editorial repair — release 02
+
+This release accepts five nonfiction revisions from hash-matched independent PASS reviews (221 RU/EN pairs) and the first repaired fiction narrative, *Amphibian Man* (35 pairs). Its full 35-pair independent review required only two causal corrections; the reviewer has now rechecked both and issued a matching-hash PASS. Fresh publisher passage checks accept both: pain/suffocation causes the leap, and Guttiere remains unseen to avoid drawing Ichthyander back onto dangerous land. Reverting just those two screen objects reproduces the exact reviewed authoring hash; the other 33 pairs and metadata are unchanged.
+
+| Accepted reader | Essential / Core / Deep | RU minutes | EN minutes |
+| --- | ---: | ---: | ---: |
+| Four Thousand Weeks | 21 / 32 / 52 | 6 / 10 / 15 | 6 / 9 / 14 |
+| Mindfulness | 14 / 26 / 30 | 4 / 8 / 9 | 4 / 7 / 8 |
+| A Guide to the Good Life | 18 / 32 / 36 | 5 / 9 / 10 | 5 / 8 / 9 |
+| The Body Keeps the Score | 21 / 33 / 41 | 7 / 10 / 12 | 6 / 9 / 11 |
+| Amphibian Man | 12 / 19 / 35 | 4 / 6 / 10 | 4 / 5 / 10 |
+| Selfie | 27 / 39 / 62 | 8 / 11 / 16 | 7 / 10 / 16 |
+
+The integrated catalogue has **32 books / 3,168 screens**. Together with release 01, nine books have accepted repairs; the other 23 published books retain unestablished editorial status. No other pending candidate or late 1873/TOC repair is included. Primary reading boundaries, source links, author attribution and `contentMode` remain exact. Nonfiction source checks do not certify every underlying clinical claim or whole-edition fidelity.
+
+Amphibian Man has a distinct sea/air cover, existing controlled science-fiction/adventure discovery, internal `teen-14-plus` audience and `full-plot-in-deep` policy. No age shelf or extra header row is introduced. Narrative screens hide per-screen source footers, while the global Sources dialog and embedded mappings remain. A document-local ending-consent guard covers both the depth picker and saved Deep continuation, resets on reload, and keeps ending titles out of lower-depth contents and resume labels. Removed saved IDs are discarded; valid stable IDs remain resumable. The compact icon row, safe-area protection, equal homepage tabs and statistics strip are preserved.
+
+[Release 02 receipt and source acceptance](editorial-audit/2026-10-31/publisher-findings/release-02.json) records exact input/root hashes, local checks and the actual merge/production state. Publication is established only by that receipt's production evidence. The public build allowlist remains unchanged in scope: registered readers, catalogue/PWA shell, fonts and icons only. No private primary text, collector package, audit or research folder is deployed.
+
+The 41-record baseline and previous release evidence below remain historical. Legacy standalone-auditor limitations for 1873, Theory of Constraints and Hermes/Nous are unchanged. Browser emulation is not a physical iPhone/PWA test.
+
 ## 2026-10-31 editorial repair — release 01
 
 The baseline has **41 records under audit**: 31 published works, nine structured unpublished packages and source-only Project Hail Mary. Earlier technical/cold-review approvals followed an analytical-companion brief and do not establish the requested fidelity. The expansion/refill queue remains suspended. [The current brief](editorial-audit/2026-10-31/BRIEF.md) authorizes ten repair workers and one publisher, with immediate publication only after independent checks.

@@ -10,17 +10,20 @@ const chromeBinary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chro
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
 const expectedBookCount = catalogue.books.length;
 const expectedCoverMotifs = catalogue.books.map(book => book.cover.motif).sort();
-const books = catalogue.books.map(book => book.file);
+const requestedBooks = process.argv.find(arg => arg.startsWith('--books='))?.slice(8).split(',') || [];
+const books = requestedBooks.length ? requestedBooks : catalogue.books.map(book => book.file);
+const releaseBooks = requestedBooks.length ? books : ['four-thousand-weeks.html', 'mindfulness.html', 'a-guide-to-the-good-life.html', 'the-body-keeps-the-score.html', 'amphibian-man.html', 'selfie.html'];
+if (books.some(file => !catalogue.books.some(book => book.file === file))) throw new Error('QA reader must be registered');
 // Each phase owns a fresh browser/profile and finishes within Chrome's 30s limit.
 // Reader layout, focus, desktop rail and iOS coverage stay independent of discovery.
-const phases = ['discovery', 'readers-320', 'readers-900', 'readers-960', 'focus', 'ios', 'safe-area', 'repaired'];
+const phases = ['discovery', 'readers-320', 'readers-900', 'readers-960', 'focus', 'ios', 'safe-area', 'repaired', 'release-interactions', 'offline'];
 const phase = process.argv.find(arg => arg.startsWith('--phase='))?.slice(8);
 const outputDir = process.env.BOOK_LIBRARY_QA_DIR || fs.mkdtempSync(path.join(os.tmpdir(), 'book-library-discovery-qa-'));
 if (path.resolve(outputDir) === root || path.resolve(outputDir).startsWith(root + path.sep)) throw new Error('QA artifacts must stay outside the repository');
 fs.mkdirSync(outputDir, { recursive: true });
 if (!phase) {
   for (const nextPhase of phases) {
-    const run = spawnSync(process.execPath, [fileURLToPath(import.meta.url), `--phase=${nextPhase}`], {
+    const run = spawnSync(process.execPath, [fileURLToPath(import.meta.url), `--phase=${nextPhase}`, ...process.argv.filter(arg => arg.startsWith('--books='))], {
       cwd: root, encoding: 'utf8', timeout: 45000,
       env: { ...process.env, BOOK_LIBRARY_QA_DIR: outputDir }
     });
@@ -112,6 +115,10 @@ await new Promise((resolve, reject) => {
 let commandId = 0;
 const pending = new Map();
 const runtimeErrors = [];
+const consentDialogs = [];
+let consentDecision = false;
+let testingFileStandalone = false;
+const standaloneManifestDiagnostics = [];
 socket.addEventListener('message', event => {
   const message = JSON.parse(String(event.data));
   if (message.id && pending.has(message.id)) {
@@ -119,10 +126,16 @@ socket.addEventListener('message', event => {
     pending.delete(message.id);
     if (message.error) reject(new Error(message.error.message));
     else resolve(message.result || {});
+  } else if (message.method === 'Page.javascriptDialogOpening' && phase === 'release-interactions') {
+    consentDialogs.push({ type: message.params.type, message: message.params.message, accepted: consentDecision });
+    command('Page.handleJavaScriptDialog', { accept: consentDecision }).catch(error => runtimeErrors.push(error.message));
   } else if (message.method === 'Runtime.exceptionThrown') {
     runtimeErrors.push(message.params.exceptionDetails?.text || 'Runtime exception');
   } else if (message.method === 'Log.entryAdded' && message.params.entry.level === 'error') {
-    runtimeErrors.push(message.params.entry.text);
+    const entry = message.params.entry;
+    if (testingFileStandalone && (/Access to manifest at 'file:/.test(entry.text) || /\/manifest\.webmanifest$/.test(entry.url || ''))) {
+      standaloneManifestDiagnostics.push({ text: entry.text, url: entry.url });
+    } else runtimeErrors.push(entry.text);
   }
 });
 socket.addEventListener('close', () => {
@@ -290,7 +303,7 @@ if (phase === 'discovery') {
     ['ИИ', ['hermes-nous', 'akselerando']], ['Сунь цзы', ['the-art-of-war']],
     ['Философия и смысл', catalogue.books.filter(book => book.subjects.includes('philosophy-meaning')).map(book => book.slug)],
     ['Psychology and relationships', catalogue.books.filter(book => book.subjects.includes('psychology-relationships')).map(book => book.slug)],
-    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy']
+    ...['white-fang', 'i-robot', 'the-two-captains', 'the-wee-free-men', 'the-hitchhikers-guide-to-the-galaxy', 'amphibian-man']
       .flatMap(slug => {
         const book = catalogue.books.find(book => book.slug === slug);
         return book ? [[book.title.ru, [slug]], [book.title.en, [slug]]] : [];
@@ -582,7 +595,7 @@ if (phase === 'ios') {
 }
 
 if (phase === 'repaired') {
-  const revised = ['the-art-of-war.html', 'essentialism.html', 'skin-in-the-game.html'];
+  const revised = requestedBooks.length ? books : ['the-art-of-war.html', 'essentialism.html', 'skin-in-the-game.html'];
   let rendered = 0;
   const checks = [];
   for (const book of revised) {
@@ -591,6 +604,8 @@ if (phase === 'repaired') {
     await evaluate(`localStorage.setItem('book-tiktok.${slug}.lastScreen', 'removed-old-screen'); localStorage.setItem('book-tiktok.${slug}.mode', 'deep')`);
     await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
     assert(await evaluate(`!document.querySelector('[data-start="continue"]') && document.querySelector('.cover-layout')`), `${book}: stale saved ID did not safely fall back to cover`);
+    // This phase measures rendering. Native ending consent is separately exercised below.
+    await evaluate('window.confirm = () => true');
     await evaluate(`document.fonts.ready.then(() => true)`);
     for (const width of [320, 390, 1024, 1440]) {
       await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : width < 900 ? 844 : 900, deviceScaleFactor: 1, mobile: width < 900 });
@@ -644,6 +659,109 @@ if (phase === 'repaired') {
     assert(result.sources && result.mapped && result.labels === (presentation === 'narrative' ? 0 : 1), `${presentation}: source presentation regression`);
   }
   summary = { readers: revised, rendered, checks, sourcePresentation: 'narrative/explanatory fixtures passed; embedded maps and global Sources preserved', savedProgress: 'removed and retained IDs passed' };
+}
+
+if (phase === 'release-interactions') {
+  const checks = [];
+  for (const book of releaseBooks) {
+    await navigate(book, "document.querySelector('[data-start]')");
+    const result = await evaluate(`(() => {
+      const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
+      const first = data.screens.find(s => s.type !== 'cover' && s.level === 1);
+      document.querySelector('[data-start]').click();
+      const title = document.querySelector('#story h1').textContent;
+      languageButton.click();
+      if (document.querySelector('#story h1').textContent !== first.copy.en.title) throw Error('language lost position');
+      themeButton.click();
+      if (document.querySelector('#story h1').textContent !== first.copy.en.title) throw Error('theme lost position');
+      sourcesButton.click();
+      const sources = sourcesDialog.open && sourcesList.querySelectorAll('a').length === data.sources.length && methodNote.textContent === data.methodNote.en;
+      sourcesDialog.close();
+      const labels = document.querySelectorAll('.source-label').length;
+      const pointer = (id, x, y, x2, y2) => {
+        story.dispatchEvent(new PointerEvent('pointerdown', { bubbles: true, pointerId: id, pointerType: 'touch', clientX: x, clientY: y }));
+        story.dispatchEvent(new PointerEvent('pointerup', { bubbles: true, pointerId: id, pointerType: 'touch', clientX: x2, clientY: y2 }));
+      };
+      pointer(81, 180, 250, 180, 370);
+      const verticalPreserved = document.querySelector('#story h1').textContent === first.copy.en.title && document.documentElement.dataset.focusMode !== 'true';
+      pointer(82, 270, 250, 90, 250);
+      const swipeAdvanced = document.querySelector('#story h1').textContent !== first.copy.en.title && document.documentElement.dataset.focusMode !== 'true';
+      return { title, sources, labels, narrative: data.contentMode === 'narrative', saved: localStorage.getItem('book-tiktok.' + data.slug + '.lastScreen') === data.screens.filter(s => s.level === 1)[2].id, verticalPreserved, swipeAdvanced, home: libraryButton.getAttribute('href') };
+    })()`);
+    assert(result.sources && result.saved && result.home === './', `${book}: Sources/progress/Home failed`);
+    assert(result.verticalPreserved && result.swipeAdvanced, `${book}: swipe/vertical motion violated reading/focus contract`);
+    assert(result.labels === (result.narrative ? 0 : 1), `${book}: narrative footer suppression failed`);
+    checks.push({ book, ...result });
+  }
+  const book = 'amphibian-man.html';
+  for (const language of ['ru', 'en']) {
+    await navigate(book, "document.querySelector('[data-start]')");
+    await evaluate(`localStorage.setItem('book-tiktok.amphibian-man.language', '${language}'); localStorage.setItem('book-tiktok.amphibian-man.mode', 'deep'); localStorage.setItem('book-tiktok.amphibian-man.lastScreen', 'farewell')`);
+    await navigate(book, "document.querySelector('[data-start=continue]')");
+    assert(await evaluate(`(() => {
+      const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
+      const late = data.screens.filter(s => s.level === 3);
+      const text = document.body.innerText;
+      return document.querySelector('[data-mode=essential][aria-pressed=true]') && document.querySelector('[data-start=continue]').textContent.includes('Deep') && late.every(s => !text.includes(s.copy['${language}'].title));
+    })()`), `${language}: saved Deep leaked before consent`);
+    consentDecision = false;
+    await evaluate("document.querySelector('[data-start=continue]').click()");
+    assert(await evaluate("Boolean(document.querySelector('.cover-layout')) && !document.querySelector('#contentsList [data-go-to=farewell]')"), `${language}: cancelled saved Deep still opened ending`);
+    consentDecision = true;
+    await evaluate("document.querySelector('[data-start=continue]').click()");
+    assert(await evaluate(`document.querySelector('#story h1').textContent === JSON.parse(document.getElementById('book-tiktok-data').textContent).screens.find(s => s.id === 'farewell').copy['${language}'].title && document.querySelectorAll('.source-label').length === 0`), `${language}: accepted saved Deep did not resume`);
+    await navigate(book, "document.querySelector('[data-start=continue]')");
+    assert(await evaluate("!document.querySelector('#contentsList [data-go-to=farewell]')"), `${language}: reload retained ending consent`);
+    consentDecision = false;
+    await evaluate("document.querySelector('[data-mode=deep]').click()");
+    assert(await evaluate("!document.querySelector('#contentsList [data-go-to=farewell]')"), `${language}: cancelled Deep picker exposed ending`);
+    consentDecision = true;
+    await evaluate("document.querySelector('[data-mode=deep]').click(); document.querySelector('#contentsList [data-go-to=final]').click(); nextButton.click()");
+    assert(await evaluate("!localStorage.getItem('book-tiktok.amphibian-man.lastScreen') && Boolean(document.querySelector('[data-start=begin]'))"), `${language}: restart retained saved ending`);
+  }
+  assert(consentDialogs.length === 8 && consentDialogs.every(d => d.type === 'confirm' && /спойлер|spoiler/i.test(d.message)), 'missing localized native consent dialogs');
+  await navigate('?type=fiction&topic=science-fiction&q=Беляев', "document.querySelectorAll('.book').length === 1");
+  const newCard = await evaluate(`(() => {
+    const card = document.querySelector('[data-book=amphibian-man]');
+    return { present: Boolean(card), motif: card?.querySelector('[data-cover-motif]')?.dataset.coverMotif, artwork: Boolean(card?.querySelector('.cover__art svg')), stats: [bookStat.textContent, screenStat.textContent], noAgeShelf: !/14[+]|Сыну|For my son/.test(document.body.innerText) };
+  })()`);
+  assert(newCard.present && newCard.motif === 'sea-air' && newCard.artwork && newCard.noAgeShelf, 'new narrative card/discovery regression');
+  for (const width of [320, 1440]) {
+    await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : 900, deviceScaleFactor: 1, mobile: width < 900 });
+    const capture = await command('Page.captureScreenshot', { format: 'png' });
+    fs.writeFileSync(path.join(outputDir, `amphibian-card-${width}.png`), Buffer.from(capture.data, 'base64'));
+  }
+  summary = { checks, savedDeepConsent: consentDialogs, reloadRequiresConsent: true, restartClearsProgress: true, newCard };
+}
+
+if (phase === 'offline') {
+  await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
+  await evaluate('navigator.serviceWorker.ready.then(() => true)');
+  await waitFor(() => evaluate('Boolean(navigator.serviceWorker.controller)'), 'service worker control');
+  for (const book of releaseBooks) {
+    await navigate(book, "document.querySelector('[data-start]')");
+    await waitFor(() => evaluate(`caches.open('book-tiktok-library-v3-live-catalogue').then(cache => cache.match(new URL('${book}', location.href)).then(Boolean))`), `cached ${book}`);
+  }
+  await command('Network.emulateNetworkConditions', { offline: true, latency: 0, downloadThroughput: 0, uploadThroughput: 0 });
+  await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
+  const offlineBooks = [];
+  for (const book of releaseBooks) {
+    await navigate(book, "document.querySelector('[data-start]')");
+    const data = await evaluate("JSON.parse(document.getElementById('book-tiktok-data').textContent)");
+    assert(data.slug + '.html' === book, `${book}: offline navigation fell back to homepage`);
+    await evaluate("document.querySelector('[data-start=begin], [data-start]').click(); sourcesButton.click()");
+    assert(await evaluate("sourcesDialog.open && sourcesList.textContent.trim().length > 0 && document.fonts.check('16px Geist')"), `${book}: offline Sources/font failed`);
+    offlineBooks.push(book);
+  }
+  // Portable HTML also works without an HTTP origin or a service worker.
+  testingFileStandalone = true;
+  for (const book of releaseBooks) {
+    await command('Page.navigate', { url: 'file://' + path.join(root, book) });
+    await waitFor(() => evaluate("location.protocol === 'file:' && document.querySelector('[data-start]')"), `standalone ${book}`);
+    assert(await evaluate("document.images.length === 0 || [...document.images].every(image => image.complete && image.naturalWidth > 0)"), `${book}: embedded image failed offline`);
+  }
+  summary = { catalogue: expectedBookCount, pwaOffline: offlineBooks, fileStandaloneOffline: releaseBooks, standaloneManifestDiagnostics,
+    limitation: 'Chrome blocks optional PWA manifest loading under file://; embedded reading remains usable. No physical iPhone/PWA claim.' };
 }
 
 if (phase === 'safe-area') {
@@ -700,7 +818,7 @@ if (phase === 'safe-area') {
 assert(runtimeErrors.length === 0, `browser errors: ${runtimeErrors.join(' | ')}`);
 const report = { phase, ...summary, runtimeErrors: runtimeErrors.length };
 fs.writeFileSync(path.join(outputDir, `${phase}.json`), JSON.stringify(report, null, 2) + '\n');
-console.log(JSON.stringify(report, null, 2));
+console.log(JSON.stringify({ phase, books: books.length, runtimeErrors: runtimeErrors.length, report: path.join(outputDir, `${phase}.json`) }));
 
 cleanup();
 process.exit(0);

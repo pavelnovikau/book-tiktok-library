@@ -1,5 +1,15 @@
 # Next steps
 
+## 2026-10-31 — release 02 handoff
+
+- Release 02 integrates Four Thousand Weeks 21/32/52, Mindfulness 14/26/30, A Guide to the Good Life 18/32/36, The Body Keeps the Score 21/33/41, Amphibian Man 12/19/35 and Selfie 27/39/62: 256 pairs, 32 catalogue books / 3,168 screens. Check `publisher-findings/release-02.json` for exact PR/head/check/production state before any further publication.
+- Five nonfiction PASS reviews match both reviewed authoring/HTML hashes and current READY manifests. Amphibian AMP-01/02 have fresh publisher acceptance against I «Неприятная встреча», II «В пути» and III «Побег». Keep source scopes and original-spoiler protections.
+- Publish further candidates only through their own completed independent review and fresh hash verification. Other reviews/workers were not polled and their packages were not rebuilt by this release.
+- Preserve root-only saved-progress invalidation, Amphibian document-local Deep consent and its semantic sea/air cover. The exact accepted collector HTML remains unmodified; future rebuilds need to preserve the root integration guards.
+- Keep public allowlist, compact icon row, safe-area/focus contract and universal catalogue/stats. No collector/private/research/audit deployment. Legacy 1873/TOC/Hermes limitations and physical-device verification remain separate.
+
+The release-01 section below and older queue notes are historical; they do not override this release or approve any pending book.
+
 ## 2026-10-31 — authorized editorial repair, release 01
 
 This supersedes the historical STOP/expansion/refill instructions below. Repair authorization is active; do not restart the old expansion queue or dispatch replacement collectors. One publisher owns root readers/catalogue/shared shell/Git/deploy; workers own only their assigned packages and reports.

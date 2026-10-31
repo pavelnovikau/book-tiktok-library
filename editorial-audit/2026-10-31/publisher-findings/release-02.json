@@ -1,0 +1,556 @@
+{
+  "release": "02",
+  "date": "2026-10-31",
+  "updatedAt": "2026-10-31T19:41:20.833700+00:00",
+  "state": "accepted-local-checks-passed-awaiting-push",
+  "baseMain": "ae8fd406c5791b5cef3c8eee578e4cc697f3c9e3",
+  "baseIncludes": [
+    "PR25",
+    "PR26"
+  ],
+  "releaseBranch": "release/editorial-02-20261031",
+  "checkout": "/Users/pn/.t3/worktrees/smartcat/t3-4248f409",
+  "checkoutSetup": "Tool-provided Smartcat worktree only; fetched library main into isolated book-release/main ref; no shell worktree/clone, canonical source Git operations or parent branch changes.",
+  "baselineRecords": 41,
+  "catalogueBooks": 32,
+  "catalogueScreens": 3168,
+  "catalogueSha256": "dadc85d61254033f58e22f149aa07e237483a834b9d8bb7cba02e98a7f1a5754",
+  "acceptedRuEnPairs": 256,
+  "acceptedNonfictionPairs": 221,
+  "acceptedFictionPairs": 35,
+  "acceptedCandidates": [
+    {
+      "slug": "four-thousand-weeks",
+      "decision": "accepted",
+      "independentVerdict": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/four-thousand-weeks.json",
+      "reviewSha256": "a99114e1bfc7fcddab28fc57613582c4211b8a51d4709465260bf4dfd88d62b4",
+      "readyPath": "editorial-audit/2026-10-31/ready/four-thousand-weeks.json",
+      "readySha256": "37c82af3475226b14550005b0c38d3bf53fc12ec240eae6076e766ca3178ac47",
+      "reviewedDeliverables": [
+        {
+          "path": "collector-output/four-thousand-weeks/story-data.json",
+          "sha256": "e028b45202489f12ca582c8fbafd0ef853fa8abc5aeac61c62e78b4f948dca4d"
+        },
+        {
+          "path": "collector-output/four-thousand-weeks/four-thousand-weeks.html",
+          "sha256": "7eb5827265156ce063102dce6acf082fb1e8a83ef4a444e556846ce227684aaf"
+        },
+        {
+          "path": "collector-output/four-thousand-weeks/sources.md",
+          "sha256": "58601c3ec5b1f3a6d6ec56015f92450879effc03e193ee0b603baf46860dc392"
+        },
+        {
+          "path": "collector-output/four-thousand-weeks/QA.md",
+          "sha256": "597b06992477af5b4dae978234406664677bcaa85f7dd42ba8e69babb3362639"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/four-thousand-weeks.md",
+          "sha256": "ea3a42d0249b891e8289e8785aa213ef8b71c63436e08fee71933e5b724c36c0"
+        }
+      ],
+      "counts": {
+        "essential": 21,
+        "core": 32,
+        "deep": 52
+      },
+      "contentMode": "explanatory",
+      "rootSha256": "fc16d4a03a92933b94695f6f81d7adc22d7e1e4047a4c1282cfe1016d652c6d7",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 6,
+          "core": 10,
+          "deep": 15
+        },
+        "en": {
+          "essential": 6,
+          "core": 9,
+          "deep": 14
+        }
+      },
+      "sourceCount": 2,
+      "sourceScope": "Owned full expanded edition inspected through OPF/spine and chapter structure, not a condensation. Read introduction continuously (completed in successive chunks), the ten appendix proposals continuously (completed across chunks), the closing afterword, the closing next-necessary-thing argument of chapter 14, and substantive closing arguments from chapters 1–13: external constraints, selection, finitude, commitment, attention, discomfort, planning, presence, leisure, speed/patience, sustained work, shared time and cosmic significance. Read actual case/procedure material in the current digest against those arguments. Some interior anecdotes and historical/philosophical expositions were not read continuously in full; no English full edition was consulted. Do not equate full-file availability with an exhaustive reading or whole-book fidelity certification.",
+      "reviewLimitations": [
+        "Primary reading was targeted to delivered arguments and cases, with the appendix read continuously. I did not read every chapter continuously or certify all historical/philosophical sources and psychological effects.",
+        "No complete English edition was read; EN was assessed as a translation of the condensation against the checked Russian primary passages.",
+        "Collector content review only. Root integration, production, browser/device behavior and saved-progress migration are the publisher’s responsibility. No browser matrix rerun.",
+        "The source note accurately discloses a selective condensation. Omitted anecdotes and the exact five-question presentation do not make an essential argument unsupported in this version."
+      ]
+    },
+    {
+      "slug": "mindfulness",
+      "decision": "accepted",
+      "independentVerdict": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/mindfulness.json",
+      "reviewSha256": "f8a6000e66027d6af88932ccb29813ce9ca305551bd8a4c39ef60613269e5380",
+      "readyPath": "editorial-audit/2026-10-31/ready/mindfulness.json",
+      "readySha256": "1b68cb5d029c041ae47ea7de46b9daaa18eed73d9b01082dfe34111e0631d693",
+      "reviewedDeliverables": [
+        {
+          "path": "collector-output/mindfulness/story-data.json",
+          "sha256": "0942e4a88906fd32ac1bb96a340abc5077624b3d40c903f010ad2aeb16285400"
+        },
+        {
+          "path": "collector-output/mindfulness/mindfulness.html",
+          "sha256": "12114c735b743e8b2bb028b22e165a24a1d1a123d348397151a15305d70efb55"
+        },
+        {
+          "path": "collector-output/mindfulness/sources.md",
+          "sha256": "c9449789cde4e31c0c3a14f3b0afc8d63688cb60aa15d7c4a894e3a1f1d2d158"
+        },
+        {
+          "path": "collector-output/mindfulness/QA.md",
+          "sha256": "b5310ecd5f5932d9b699519e830f5fb5c3a4f4e08637384c51378527e6fe4b03"
+        }
+      ],
+      "counts": {
+        "essential": 14,
+        "core": 26,
+        "deep": 30
+      },
+      "contentMode": "explanatory",
+      "rootSha256": "eb1f4d04a9294717d1d302bb52e1b2b345037fe9b49038ba62142bdbebf07c25",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 8,
+          "deep": 9
+        },
+        "en": {
+          "essential": 4,
+          "core": 7,
+          "deep": 8
+        }
+      },
+      "sourceCount": 3,
+      "sourceScope": "Primary edition: Williams/Penman, «Осознанность: как обрести гармонию в нашем безумном мире», MIF 2014, ISBN 9785000572139, translation Ю. Цыбышева, scientific editor Н. Никольская. The complete owned expanded EPUB was identified by metadata, 12 chapters and full spine; not a Smart Reading summary. Read-only access. This repair read the continuous central explanation in chapter 2 from «Наше беспокойное сознание» through the chapter end, the seven doing/being contrasts in chapter 3, the full weekly-progression section in chapter 4, principal complete instructions for body/breath (ch5), body scan (ch6), three-minute breathing space (ch7), sounds/thoughts (ch8), difficulty (ch9), befriending (ch10), day-activity balance and post-pause action (ch11), and continuation/motivation (ch12). Read additional whole passages for Alex, Lucy, raisin stages, habitual seat, expectations, movement limits and the cinema/whispering-commentary image. This gives the meaningful central argument and all eight program stages, not continuous cover-to-cover reading of every case, empirical claim, poem or note. EN is a new translation of this account, not collation with a complete EN edition.\n\nOfficial author recordings page was inspected as a cross-check of this first book's practices; the later *Deeper Mindfulness* material is excluded. Current NCCIH safety page was consulted only for the separately identified safety qualification, not as the book's argument. Publisher web copy was inspected for identification, not accepted as efficacy proof. The anomalous 2001 copyright field in the RU package is not used to redetermine the English work's date.",
+      "reviewLimitations": [
+        "Targeted primary passage verification, not continuous cover-to-cover reading or verification of every empirical claim, poem, note and omitted example.",
+        "The owned primary edition is Russian; English was reviewed against this condensation and checked primary meaning, not collated with a complete published English edition.",
+        "This approves only the hashed revised collector package. The root HTML inspected for status still contains 112 old pairs and differs from this 30-pair revision; root integration and publication belong to the publisher.",
+        "No repeated browser/device matrix, clinical literature review, or full meditation-course usability certification was performed."
+      ]
+    },
+    {
+      "slug": "a-guide-to-the-good-life",
+      "decision": "accepted",
+      "independentVerdict": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/a-guide-to-the-good-life.json",
+      "reviewSha256": "3b00dac56718810afddb9bd3aa7aac0a8af36e60b893200348613bb6cc544852",
+      "readyPath": "editorial-audit/2026-10-31/ready/a-guide-to-the-good-life.json",
+      "readySha256": "4108a53334e99cc60b66593b69a8ffef53c87b529a8153cbd4f539d2e86e5d2d",
+      "reviewedDeliverables": [
+        {
+          "path": "collector-output/a-guide-to-the-good-life/story-data.json",
+          "sha256": "f2bd42ccccb5a74c09364e6ba1650247dd3fbb70e74cf3cf6a838607105f832f"
+        },
+        {
+          "path": "collector-output/a-guide-to-the-good-life/a-guide-to-the-good-life.html",
+          "sha256": "47d19befe692b4789d738d990802ddeef004ac7d5646d606376bb383904a0cf3"
+        },
+        {
+          "path": "collector-output/a-guide-to-the-good-life/sources.md",
+          "sha256": "3e285c96987554f1c08caed761e19da11ecf50b45121c5e2f23d400edda0ed8b"
+        },
+        {
+          "path": "collector-output/a-guide-to-the-good-life/QA.md",
+          "sha256": "53d58c04025539b084eb8fb51afbed7d11d49b97bb3b345e82c02dbfe4d54b20"
+        }
+      ],
+      "counts": {
+        "essential": 18,
+        "core": 32,
+        "deep": 36
+      },
+      "contentMode": "explanatory",
+      "rootSha256": "3ee5939171f0497b6ec089be48cc5028c133c651ffd0d194a34fa9990f1b6da1",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 9,
+          "deep": 10
+        },
+        "en": {
+          "essential": 5,
+          "core": 8,
+          "deep": 9
+        }
+      },
+      "sourceCount": 2,
+      "sourceScope": "Primary edition: William B. Irvine, *A Guide to the Good Life: The Ancient Art of Stoic Joy*, owned complete English Oxford University Press EPUB, ©2009, ISBN 9780195374612. Package date is 2008; this is not used to invent a different work. Complete introduction, 22 chapters, reading program, notes and index are present, not a condensation. English primary text was the argument base. RU: *Радость жизни. Философия стоицизма для XXI века*, MIF 2021, translation Василий Горохов, scientific editor Станислав Наранович, ISBN 9785001461937; copyright information and the entire editor's preface were read directly. EN/RU publisher records were inspected for edition identity.\n\nActual reading for this repair: chapters 4–9 and 11–13 were read continuously through their full substantive text (negative visualization, control, fatalism, self-denial, review, duty, insults, grief, anger). Introduction opening and closing; chapter 2 opening, virtue/tranquility argument and conclusion; chapter 3 opening and ending; chapter 10 opening social-relations argument; chapter 14 opening banquet example; chapter 15 opening and substantive luxury/simple-pleasure passage; chapter 16 throughout its exile discussion and ending; chapter 17 opening and substantive closing argument on age/mortality; chapter 18 opening; chapter 19 opening and ending; chapter 21 opening recap, substantial evolutionary-justification section, modernization confession and ending; chapter 22 opening practice advice, rowing/self-contest section and the full closing self-assessment/doubts/invitation. Chapter 20 and other omitted subarguments are not newly certified. A tiny truncated interior boundary in the displayed chapter-15 housing passage is not counted as read and supports no claim. No claim of cover-to-cover reading of the full EN book or full RU translation. This establishes a meaningful coherent practical argument, not an exhaustive critical edition. Private extracts stay outside the repository.",
+      "reviewLimitations": [
+        "Targeted primary-text verification of represented arguments and examples, not continuous reading or certification of the entire 22-chapter book, omitted chapter-20 polemics, every ancient quotation or note.",
+        "RU condensation was compared with English primary meaning. Full Russian published translation was not collated; its edition page and complete editor preface were checked.",
+        "Verdict covers only the hashed revised collector package. Root HTML at inspection still had 112 old pairs; publisher must integrate the approved revision.",
+        "No new clinical-efficacy certification or repeated browser/device matrix; author’s philosophy is not approved as treatment."
+      ]
+    },
+    {
+      "slug": "the-body-keeps-the-score",
+      "decision": "accepted",
+      "independentVerdict": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/the-body-keeps-the-score.json",
+      "reviewSha256": "edb9ad1b34cfae829c7e6a69a293dda6a17a784e121adf96d5ab1fe7f717820e",
+      "readyPath": "editorial-audit/2026-10-31/ready/the-body-keeps-the-score.json",
+      "readySha256": "7c891ccafdb6837088283fb3182c9b8a7193ff86ea6654c60ca3fd7717030aa4",
+      "reviewedDeliverables": [
+        {
+          "path": "collector-output/the-body-keeps-the-score/story-data.json",
+          "sha256": "49487a95027bac3930ce7cfdbf8e2eafcfafd922fbb92a1a1b2c5ca97ad848b8"
+        },
+        {
+          "path": "collector-output/the-body-keeps-the-score/the-body-keeps-the-score.html",
+          "sha256": "8aa48a5e48ef35b7823f5cc745531d598a653a6defacc32bcab5d4d84bfe2ae5"
+        },
+        {
+          "path": "collector-output/the-body-keeps-the-score/sources.md",
+          "sha256": "3b045ddc198edb72eb63a9531c361a0703816aafb4537f67c6ff60e12c33cc8b"
+        },
+        {
+          "path": "collector-output/the-body-keeps-the-score/QA.md",
+          "sha256": "8a5bae0852ec008745dc8d6bf2091eedac860e71a5c2e06152bdfd8a5c831be2"
+        }
+      ],
+      "counts": {
+        "essential": 21,
+        "core": 33,
+        "deep": 41
+      },
+      "contentMode": "explanatory",
+      "rootSha256": "c064c57c0cbfa239a7be99eead3f4877c97cf880370c9ad4f710ca3f4d3bf255",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 7,
+          "core": 10,
+          "deep": 12
+        },
+        "en": {
+          "essential": 6,
+          "core": 9,
+          "deep": 11
+        }
+      },
+      "sourceCount": 4,
+      "sourceScope": "Owned complete RU edition available; key five-part argument and selected cases across chapters 1–20 consulted, not continuous full-edition reading, every-note verification or English collation. Clinical stories attributed to author. Current VA/Grossman/Otgaar qualifications explicit.",
+      "reviewLimitations": [
+        "Targeted primary argument/case checking across the represented book, not continuous full-edition reading or all-notes verification.",
+        "No independently verified patient records; these remain the author’s accounts. English translation was compared with the represented primary meaning, not with a complete English edition.",
+        "Current sources were checked for the narrow qualifications used, not a systematic clinical review or approval of any treatment for an individual.",
+        "Verdict covers the hashed revised collector package. Root HTML still contained 144 old pairs at inspection. Publication/root integration and browser/device QA remain publisher-owned."
+      ]
+    },
+    {
+      "slug": "amphibian-man",
+      "decision": "accepted",
+      "independentVerdict": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/amphibian-man.json",
+      "reviewSha256": "6b2a500d12cd999d54d1d13be75948bef2eccad778187e10452f9122e34c7c4c",
+      "readyPath": "editorial-audit/2026-10-31/ready/amphibian-man.json",
+      "readySha256": "304f831f431478e2ae74ffc4a0e984455bc9f53941af0c0a8440c4ac2e255197",
+      "reviewedDeliverables": [
+        {
+          "path": "collector-output/amphibian-man/story-data.json",
+          "sha256": "2ef05a99896f94dfc5d07eb9ab5876be23b44fe18028874cddf6e70c182d1d35"
+        },
+        {
+          "path": "collector-output/amphibian-man/amphibian-man.html",
+          "sha256": "73ab4b352421a864b683c8eca6916282844d564ec41060f35db4a419f689dc01"
+        },
+        {
+          "path": "collector-output/amphibian-man/sources.md",
+          "sha256": "032d6fe48f21f57cce1b3cdecdf0bbbacb988f16fb7f3780e8692874a838a287"
+        },
+        {
+          "path": "collector-output/amphibian-man/QA.md",
+          "sha256": "6addf51ac3c01ddcc245d3d77c1c081f5d2ab9bab7ea4e6c2b4b97ac58c5b21d"
+        }
+      ],
+      "counts": {
+        "essential": 12,
+        "core": 19,
+        "deep": 35
+      },
+      "contentMode": "narrative",
+      "rootSha256": "378fdb81bf0b9a63931cd1425ead8b034b411e002b990b7cf00c49b7eb8c9c45",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 6,
+          "deep": 10
+        },
+        "en": {
+          "essential": 4,
+          "core": 5,
+          "deep": 10
+        }
+      },
+      "sourceCount": 1,
+      "sourceScope": {
+        "primaryUrl": "https://ru.wikisource.org/wiki/Человек-амфибия_(Беляев)",
+        "meaningfulPlotThroughEndingRead": true,
+        "entireTextReadSequentially": false,
+        "printEditionCollated": false,
+        "wholeEditionFidelityCertified": false,
+        "detailsPath": "collector-output/amphibian-man/sources.md",
+        "privateExtractionOutsidePublicRepo": true
+      },
+      "reviewLimitations": [
+        "All 35 revised bilingual pairs, titles, source/method framing and the actual 12/19/35 cumulative routes were read. The collector’s embedded corpus, rather than a different root reader, is the reviewed deliverable.",
+        "Primary reading was selective continuous scenes across the whole plot, not every word of the complete novel; no published English translation was used or collated.",
+        "No browser matrix, production acceptance, saved-progress runtime or physical iPhone/PWA test is claimed.",
+        "PASS applies only to the current two hashes. The initial two required findings are retained as resolved history. No collector edit or publication was performed by this reviewer."
+      ]
+    },
+    {
+      "slug": "selfie",
+      "decision": "accepted",
+      "independentVerdict": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/selfie.json",
+      "reviewSha256": "9b9910e070dfbe4259e5b113b934e631d634e6dbb7c835ca863a2fc6b1d9c876",
+      "readyPath": "editorial-audit/2026-10-31/ready/selfie.json",
+      "readySha256": "037e7ddf4a3a95c9a556a31215bfd9da72e949de0260a20aa70bbff159f503fe",
+      "reviewedDeliverables": [
+        {
+          "path": "collector-output/selfie/story-data.json",
+          "sha256": "4a1c0013c828cb2d7e5879b687910c89d66a003f07ece95247ebdcb42c9c5d8b"
+        },
+        {
+          "path": "collector-output/selfie/selfie.html",
+          "sha256": "c3550c2db2db8bdda3ce516431544733d9358deb60b13347a244a9529c10bfa3"
+        },
+        {
+          "path": "collector-output/selfie/sources.md",
+          "sha256": "2332c2d9e9d9a7c280079305bdcf58232f91d46c4a61633f8bae10b6497f1e0a"
+        },
+        {
+          "path": "collector-output/selfie/QA.md",
+          "sha256": "4cc2befe31952a75e9cf39e96d98f4416c3b952407604c4410a454e327238a6e"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/selfie.md",
+          "sha256": "6cc1480825c37bee571a79d6961475cd75e42632dd28c23e4c17d827b28e4bf9"
+        }
+      ],
+      "counts": {
+        "essential": 27,
+        "core": 39,
+        "deep": 62
+      },
+      "contentMode": "explanatory",
+      "rootSha256": "54c00c466e359b49ed1604546352060504a6bbc37945eeee401ecac57bd469a4",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 8,
+          "core": 11,
+          "deep": 16
+        },
+        "en": {
+          "essential": 7,
+          "core": 10,
+          "deep": 16
+        }
+      },
+      "sourceCount": 2,
+      "sourceScope": "The owned EPUB is a full expanded Russian edition: publication metadata, spine, all eight numbered books (0–7), methodology and endnotes present. Read the complete framing argument at the end of book 0, substantive self/interpreter argument in book 1, Greek/cultural comparison and transition passages, Pluscarden/Rogers/Perls/Esalen argument/reporting passages, self-esteem campaign documentary reporting and Smelser interview passages, the narcissism-versus-esteem experiment and disputed generational claims, economic/digital transitions, and the extended personality/conclusion argument in book 7. Checked the authentic-self reversal at ch1-20 p57, change/trait qualifications p39–51, accountability/projects/environment at ch1-21 p18–28 and the complete actual rocket ending p30–39. The methodology note was read in full. Longer narratives and some interiors were sampled, not read as a continuous 97,000-word text. This scope supports the represented argument and selected cases, not certification of the entire book or a comprehensive 2026 science update.",
+      "reviewLimitations": [
+        "Primary reading was targeted across all eight numbered books, with the actual closing argument/rocket scene and methodology read in the specified continuous passages. Longer narratives and much interior exposition were not read continuously. No full-book reading claim.",
+        "No full English edition consulted. EN was read as a translation of the condensation and checked against the supplied Russian primary meaning.",
+        "This verifies the condensation’s representation of Storr, not the entire historical causal chain, primary clinical records, all underlying social psychology or a comprehensive current science update.",
+        "The source note honestly frames the historical chain as Storr’s account and describes selective reading; these limits do not leave a particular essential passage unsupported.",
+        "Root/catalogue/publication, browser/device behavior and saved-progress integration are outside this content review."
+      ]
+    }
+  ],
+  "rejectedCandidates": [],
+  "deferredCandidates": [
+    {
+      "slug": "make-time",
+      "reason": "Parent corrected required meaning findings; fresh publisher acceptance deferred by direct handoff. Not integrated or rereviewed."
+    },
+    {
+      "slug": "monday-begins-on-saturday",
+      "reason": "Parent corrected required meaning findings; fresh publisher acceptance deferred by direct handoff. Not integrated or rereviewed."
+    },
+    {
+      "slug": "akselerando",
+      "reason": "Parent corrected required meaning findings; fresh publisher acceptance deferred by direct handoff. Not integrated or rereviewed."
+    },
+    {
+      "slug": "why-zebras-dont-get-ulcers",
+      "reason": "Parent corrected required meaning findings; fresh publisher acceptance deferred by direct handoff. Not integrated or rereviewed."
+    }
+  ],
+  "excludedChanges": [
+    "Late 1873 date/metadata changes",
+    "Late Theory of Constraints TOC/source changes",
+    "Other workers packages and shared root readers/catalogue/shell"
+  ],
+  "amphibianClosure": {
+    "decision": "AMP-01 and AMP-02 accepted by fresh publisher and later matching-hash independent PASS",
+    "screens": [
+      "unpleasant-meeting",
+      "farewell"
+    ],
+    "primaryPassages": [
+      "I «Неприятная встреча», witness lines 1645–1682",
+      "II «В пути», witness lines 2244–2268",
+      "III «Побег», witness lines 3554–3600 and shore farewell 3620–3656"
+    ],
+    "assessment": [
+      "Pain and inability to breathe cause the leap; Guttiere mistakes it for death.",
+      "Olsen warns that renewed land meetings would endanger Ichthyander; Guttiere chooses to watch unseen."
+    ],
+    "unchangedOther33Proof": "Replacing only the two corrected screen objects with their original authoring-script values reproduces exactly the initially reviewed story-data SHA-256 693da83b690d81093693aa72b26649026386376d7b2ee03b737ebf54429a6fc8. No primary text copied into Git.",
+    "reviewedCurrentAuthoringSha256": "2ef05a99896f94dfc5d07eb9ab5876be23b44fe18028874cddf6e70c182d1d35"
+  },
+  "integration": {
+    "unmodifiedExistingReaders": 26,
+    "reviewedCollectorFilesUnmodified": true,
+    "rootCorpusAndSourceScopeExact": true,
+    "removedSavedIDs": "Discard unavailable or cover IDs; retain valid stable IDs. Tested removed and retained IDs.",
+    "endingConsent": "Amphibian root-only document-local native localized confirm on Deep picker and saved Deep continuation; stored Deep clamps to Essential; Cancel keeps lower depth; reload requires consent; restart clears progress; generic resume label.",
+    "discovery": "Existing controlled fiction/science-fiction/adventure; internal teen-14-plus; full-plot-in-deep; unique sea-air motif in renderer/validator; no age shelf.",
+    "publicAssetAllowlistFiles": 43,
+    "privateCollectorAuditResearchDeployed": false,
+    "sharedHeaderSafeAreaFocusUnchanged": true
+  },
+  "checks": {
+    "libraryAndSkill": "PASS",
+    "structuralAudits": "6 x 69 passes; no warnings/failures",
+    "exactReviewReadyCollectorRootParity": "PASS; scripts/check-editorial-release-02.mjs",
+    "readerShellSync": "Idempotent for all six roots",
+    "browserRendering": {
+      "instances": 8800,
+      "widths": [
+        320,
+        390,
+        1024,
+        1440
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ]
+    },
+    "discovery": "32 cards / 3168 screens; all facets/searches and equal tabs; new Belyaev card has sea-air SVG",
+    "safeArea": "All six roots at 320/390, engine inset top59/bottom34, scrolling and focus exit",
+    "focusKeyboardSwipe": "All six roots pass tap focus, keyboard contents, retained Next, vertical movement exclusion and swipe navigation",
+    "sourcesAndNarrativeFooter": "Global dialog/source maps retained; AMP footer absent; nonfiction footers retained",
+    "savedDeepConsent": "8 localized native confirmations per interaction phase; cancel/accept, reload, resume and restart pass",
+    "offline": "All six via cached PWA navigation and file:// standalone; only known file-manifest CORS diagnostics separated",
+    "runtimeExceptions": 0,
+    "physicalIPhone": false,
+    "manualChrome": "Each run timeout30, fresh mkdtemp profile, owned process-group cleanup; no owned server/browser left running"
+  },
+  "proofFiles": [
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/hash-parity.json",
+      "sha256": "ae84317ee105bffa06b80a011dc473019d0b20c34fb4a209f8e69b516ea1b97c"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/structural.json",
+      "sha256": "b24f37d330766882cb023292cb2b3207db627270d055072bc6fd460197a36c7a"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/public-allowlist.json",
+      "sha256": "25be104b90755b8e7d0d00ea28d8788fc0de58417f32f44c149ace8774b38922"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/discovery.json",
+      "sha256": "e5d3970d910b40b7546da07342d6bc2582caf09bcc956c082e9d0d4a1c194939"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/first-five-interactions.json",
+      "sha256": "45160730eb3174d1de13ce12bdfa8be0f1760cbdb5c43a905a80a07ba41b5c9f"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/first-five-safe-area.json",
+      "sha256": "ac2bc4b72cb399636a89d9ab2f65240afe828d9c091129fc430ec88b591f9904"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/first-five-offline.json",
+      "sha256": "19d7bb7f7a46070930c0ffab37b03d2b70ef44f168ab8064b364b343cbf1ab10"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/first-five-focus.json",
+      "sha256": "ddb73c26854de5f05732670ca449bd319d7f100741a9a12d0a1e265f2e2ab527"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/first-five-320-header.json",
+      "sha256": "b01d3a7937a087a7eea35f7b0f11d18fbfd6b22b40c6ab98f6fef67b31dcfda5"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/selfie-interactions.json",
+      "sha256": "7426bd8672ba292ab58359b0cda0450f3c8e9c5a77a4818595b04020a2c659cd"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/selfie-safe-area.json",
+      "sha256": "88df2a67150d75b9f99408410b9dce277f0c53e8def7e8f2620f34a25f0a561f"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/selfie-offline.json",
+      "sha256": "015def2edf0253a4be73090aa668c156b412bab81190d54a3a97ee89cc34530a"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/selfie-focus.json",
+      "sha256": "8051c03ce91d7ae8311c49be9f05d1729ed53daea40281fdeea6efe351b01de7"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/production-before.json",
+      "sha256": "763413693b02b5e1b3397338422eaee50333c44d3e5879daa699ca60509c4b33"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/four-thousand-weeks-rendering.json",
+      "sha256": "3c38a519cd6325cac3150d6e29e75599ff7ea6cc71d7111a9138d76d60355724"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/mindfulness-rendering.json",
+      "sha256": "b96bdb0d19b51c80d1649022f95564123268d4e64e60b54b10ec315807d21dd7"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/a-guide-to-the-good-life-rendering.json",
+      "sha256": "bc7e261ee190ef15991ddceec1176c5bf8f2a8dc2f2039cebd2286f324e3f3d5"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/the-body-keeps-the-score-rendering.json",
+      "sha256": "d43eab15693cfde30f7d91d813407443151ed09016cd9802f9b1eeaaa456c1a1"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/amphibian-man-rendering.json",
+      "sha256": "14cb09f2f8f80b316aefefeca1acc594dafd245bbd51c40de6738a7eeb925aeb"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/selfie-rendering.json",
+      "sha256": "6c4f9f37decf50871035499e4dc4ab88386124d6b6ea91303a839e644b3bd7cc"
+    }
+  ],
+  "knownLegacyLimitations": [
+    "1873 standalone auditor metadata compatibility",
+    "Theory of Constraints orphan TOC corpus audit compatibility",
+    "Hermes/Nous standalone auditor detection",
+    "Chrome blocks optional PWA manifest loading under file://; embedded reader remains usable",
+    "No physical iPhone/PWA verification; content source scopes are targeted, not exhaustive full-edition certification"
+  ],
+  "publication": {
+    "pr": null,
+    "head": null,
+    "checks": "not-submitted",
+    "reviews": "Six independent content PASS, zero required findings",
+    "merged": false,
+    "productionVerified": false,
+    "productionBefore": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/production-before.json",
+    "observedProductionBooks": 31,
+    "observedProductionScreens": 3504,
+    "amphibianProductionBeforeStatus": 404,
+    "instruction": "If remote checks are pending, return exact PR/head/state immediately to parent; no polling or watch."
+  }
+}

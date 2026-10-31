@@ -1,0 +1,223 @@
+{
+  "slug": "a-guide-to-the-good-life",
+  "verdict": "PASS",
+  "reviewRole": "independent-content-review",
+  "reviewedOn": "2026-10-31",
+  "reviewedArtifacts": {
+    "storyData": {
+      "path": "collector-output/a-guide-to-the-good-life/story-data.json",
+      "sha256": "f2bd42ccccb5a74c09364e6ba1650247dd3fbb70e74cf3cf6a838607105f832f"
+    },
+    "collectorHtml": {
+      "path": "collector-output/a-guide-to-the-good-life/a-guide-to-the-good-life.html",
+      "sha256": "47d19befe692b4789d738d990802ddeef004ac7d5646d606376bb383904a0cf3"
+    }
+  },
+  "actualRuEnPairCount": 36,
+  "effectiveCollectorCorpusMatchesStoryData": true,
+  "routesRead": {
+    "essential": {
+      "pairCount": 18,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "aim-before-achievement",
+        "tranquility-and-joy",
+        "adaptation-treadmill",
+        "negative-visualization",
+        "trichotomy",
+        "tennis-test",
+        "past-is-settled",
+        "voluntary-simplicity",
+        "evening-review",
+        "social-duty",
+        "insult-and-judgment",
+        "grief-is-human",
+        "anger-and-action",
+        "fame-and-freedom",
+        "finite-time",
+        "start-small",
+        "final"
+      ]
+    },
+    "core": {
+      "pairCount": 32,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "aim-before-achievement",
+        "four-voices",
+        "tranquility-and-joy",
+        "adaptation-treadmill",
+        "negative-visualization",
+        "relationships-now",
+        "picnic-objection",
+        "trichotomy",
+        "tennis-test",
+        "novelist-test",
+        "internalization-provenance",
+        "past-is-settled",
+        "voluntary-simplicity",
+        "enjoyment-without-servitude",
+        "evening-review",
+        "social-duty",
+        "friendship-selection",
+        "insult-and-judgment",
+        "humor-option",
+        "grief-is-human",
+        "reason-has-limits",
+        "anger-and-action",
+        "fame-and-freedom",
+        "luxury-dependence",
+        "exile-portable-values",
+        "finite-time",
+        "modern-adaptation",
+        "start-small",
+        "rowing-and-self-contest",
+        "personal-report",
+        "final"
+      ]
+    },
+    "deep": {
+      "pairCount": 36,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "aim-before-achievement",
+        "four-voices",
+        "tranquility-and-joy",
+        "editor-disagrees",
+        "adaptation-treadmill",
+        "negative-visualization",
+        "relationships-now",
+        "picnic-objection",
+        "last-occurrence",
+        "trichotomy",
+        "mental-control-limit",
+        "tennis-test",
+        "novelist-test",
+        "internalization-provenance",
+        "past-is-settled",
+        "voluntary-simplicity",
+        "enjoyment-without-servitude",
+        "evening-review",
+        "social-duty",
+        "friendship-selection",
+        "insult-and-judgment",
+        "humor-option",
+        "author-political-claim",
+        "grief-is-human",
+        "reason-has-limits",
+        "anger-and-action",
+        "fame-and-freedom",
+        "luxury-dependence",
+        "exile-portable-values",
+        "finite-time",
+        "modern-adaptation",
+        "start-small",
+        "rowing-and-self-contest",
+        "personal-report",
+        "final"
+      ]
+    }
+  },
+  "primaryEvidenceActuallyChecked": [
+    {
+      "primary": "Owned complete EN OUP EPUB, A Guide to the Good Life: The Ancient Art of Stoic Joy, William B. Irvine, ISBN 9780195374612",
+      "locator": "content.opf; text/part0002.html; text/part0004.html; complete introduction, 22-chapter text, notes and index spine",
+      "actuallyChecked": "Bibliographic metadata and substantial full chapter files distinguish this edition from a summary. Read-only access."
+    },
+    {
+      "locator": "text/part0007.html Introduction opening; part0010.html ch2 virtue/tranquility passage; part0011.html ch3 opening; part0019.html ch9 duty; part0020.html ch10 opening friendship advice",
+      "screens": [
+        "cover",
+        "aim-before-achievement",
+        "four-voices",
+        "tranquility-and-joy",
+        "social-duty",
+        "friendship-selection"
+      ],
+      "actuallyChecked": "Grand goal plus strategy; virtue remains linked to tranquility; four complementary Roman sources; shared life and selective friendship."
+    },
+    {
+      "locator": "text/part0013.html ch4 opening hedonic adaptation, two fathers, picnic objection, regret response and last-occurrence conclusion",
+      "screens": [
+        "adaptation-treadmill",
+        "negative-visualization",
+        "relationships-now",
+        "picnic-objection",
+        "last-occurrence"
+      ],
+      "actuallyChecked": "Original examples and qualifications: periodic contemplation rather than constant anxiety; first father also grieves, with less regret."
+    },
+    {
+      "locator": "text/part0014.html ch5 trichotomy, impulse qualms, tennis/internal goals, aspiring novelist and closing confession; part0015.html ch6 past/future distinction; part0016.html ch7 opening and pleasures; part0017.html ch8 bedtime examples",
+      "screens": [
+        "trichotomy",
+        "mental-control-limit",
+        "tennis-test",
+        "novelist-test",
+        "internalization-provenance",
+        "past-is-settled",
+        "voluntary-simplicity",
+        "enjoyment-without-servitude",
+        "evening-review"
+      ],
+      "actuallyChecked": "Internal goals are explicitly Irvine’s reconstructive addition. Novelist submissions and residual sting are in the text. Past/present fatalism does not excuse abandoning future action. Review examples are Seneca’s."
+    },
+    {
+      "locator": "text/part0021.html ch11 insult responses, correction exception and political-correctness conclusion; part0022.html ch12 grief, retrospective visualization, reason and counseling qualification; part0023.html ch13 shipwreck, protection/correction and apology",
+      "screens": [
+        "insult-and-judgment",
+        "humor-option",
+        "author-political-claim",
+        "grief-is-human",
+        "reason-has-limits",
+        "anger-and-action"
+      ],
+      "actuallyChecked": "Author’s controversial claim is actually reported, with its voice separated from the account’s narrow qualification. Involuntary grief, reason’s limitations and counseling are not silently erased."
+    },
+    {
+      "locator": "text/part0024.html ch14 banquet opening; part0025.html ch15 simple pleasures/luxury; part0026.html ch16 Seneca/Musonius exile consolations and transition to old age; part0027.html ch17 opening; part0032.html ch21 evolutionary justification; part0033.html ch22 opening, rowing/other-self passage and full closing doubts/invitation",
+      "screens": [
+        "fame-and-freedom",
+        "luxury-dependence",
+        "exile-portable-values",
+        "finite-time",
+        "modern-adaptation",
+        "start-small",
+        "rowing-and-self-contest",
+        "personal-report",
+        "final"
+      ],
+      "actuallyChecked": "Actual banquet price, luxury dependence, portable virtue, author’s evolutionary rejustification, sequential practice, rowing competition and explicitly uncertain ending."
+    },
+    {
+      "primary": "Owned RU MIF edition, Радость жизни, ISBN 9785001461937",
+      "locator": "OEBPS/Text/info.xhtml; OEBPS/Text/pre.xhtml, scientific editor Stanislav Naranovich’s complete preface",
+      "screens": [
+        "editor-disagrees"
+      ],
+      "actuallyChecked": "Read the whole editor’s preface directly; he disputes overstated Roman tranquility emphasis and affirms practical value. This is a separate voice from Irvine."
+    }
+  ],
+  "contentJudgment": "A coherent, engaging concise account of Irvine’s practical Stoicism. It keeps virtue/social duty alongside tranquility, preserves original cases, identifies his modern additions, and reaches the actual qualified ending. No material factual reversal, fabricated incident or RU/EN meaning shift found.",
+  "requiredFindings": [],
+  "optionalSuggestions": [],
+  "materialLimitations": [
+    "Targeted primary-text verification of represented arguments and examples, not continuous reading or certification of the entire 22-chapter book, omitted chapter-20 polemics, every ancient quotation or note.",
+    "RU condensation was compared with English primary meaning. Full Russian published translation was not collated; its edition page and complete editor preface were checked.",
+    "Verdict covers only the hashed revised collector package. Root HTML at inspection still had 112 old pairs; publisher must integrate the approved revision.",
+    "No new clinical-efficacy certification or repeated browser/device matrix; author’s philosophy is not approved as treatment."
+  ],
+  "publicationDecisionOwner": "publisher"
+}

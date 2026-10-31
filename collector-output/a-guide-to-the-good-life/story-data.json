@@ -1,0 +1,805 @@
+{
+  "schemaVersion": 2,
+  "slug": "a-guide-to-the-good-life",
+  "title": {
+    "ru": "Радость жизни",
+    "en": "A Guide to the Good Life"
+  },
+  "description": {
+    "ru": "Практическое прочтение стоиков Уильямом Ирвином: желания, контроль, обязанности и радость, с его собственными доработками и сомнениями.",
+    "en": "William Irvine’s practical reading of the Stoics: desire, control, duty, and joy, including his own adaptations and doubts."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 18,
+    "core": 32,
+    "deep": 36
+  },
+  "methodNote": {
+    "ru": "Самостоятельный сокращённый пересказ практического аргумента Ирвина по полному локальному EN EPUB OUP ©2009; RU издание МИФ 2021 использовано для выходных данных и редакторского предисловия. Основные практические главы прочитаны целиком, остальные — содержательными разделами; точная граница в sources.md. Непрерывное чтение всей книги и всех примечаний не заявляется. Это версия стоицизма Ирвина; его личные результаты и философские предложения не являются доказательством лечения. Цитат, издательских изображений и полных текстов нет.",
+    "en": "An original condensed account of Irvine’s practical argument from the complete owned EN OUP ©2009 EPUB; the RU MIF 2021 edition supplies edition details and the editor’s preface. Main practical chapters were read in full, others through substantive sections, with exact scope in sources.md. No continuous reading of the entire book and all notes is claimed. This is Irvine’s version of Stoicism; personal outcomes and philosophical proposals are not treatment evidence. No quotations, publisher artwork, or full source text are reproduced."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "William B. Irvine — A Guide to the Good Life (local EN EPUB; OUP edition)",
+      "url": "https://academic.oup.com/book/50088",
+      "role": "book",
+      "note": {
+        "ru": "Полный локальный английский EPUB OUP ©2009, ISBN 9780195374612. Центральные главы 4–9, 11–13 прочитаны целиком для этой редакции; другие главы — указанными в sources.md содержательными разделами. Ссылка — запись издания.",
+        "en": "Complete owned English OUP ©2009 EPUB, ISBN 9780195374612. Central chapters 4–9 and 11–13 read in full for this revision; other chapters through substantive sections identified in sources.md. Link identifies the edition."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Уильям Ирвин — Радость жизни (local RU EPUB; МИФ, 2021)",
+      "url": "https://www.mann-ivanov-ferber.ru/catalog/product/radost-zhizni/",
+      "role": "book",
+      "note": {
+        "ru": "Полное локальное издание МИФ 2021, перевод Василия Горохова, ISBN 9785001461937. Выходные данные и предисловие Нарановича прочитаны целиком; основной источник аргумента — EN.",
+        "en": "Complete owned MIF 2021 edition, Vasily Gorokhov translation, ISBN 9785001461937. Edition information and Naranovich’s preface read in full; the EN edition supplies the argument."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "sources": [],
+      "locator": "Introduction",
+      "copy": {
+        "ru": {
+          "section": "Уильям Б. Ирвин",
+          "title": "Радость жизни",
+          "body": "<p>Можно добиваться успеха и однажды обнаружить, что жизнь ушла не на то. Ирвин обращается к римским стоикам в поисках практики: меньше зависеть от ненасытных желаний и чужого одобрения, действовать среди людей и снова радоваться тому, что уже есть.</p>"
+        },
+        "en": {
+          "section": "William B. Irvine",
+          "title": "A Guide to the Good Life",
+          "body": "<p>A life can be successful and still be spent on the wrong things. Irvine turns to the Roman Stoics for a practice: depend less on insatiable desires and approval, remain active among other people, and recover delight in what is already here.</p>"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "aim-before-achievement",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Introduction · A Plan for Living",
+      "copy": {
+        "ru": {
+          "section": "Жизненный план",
+          "title": "Чего хочется от всей жизни?",
+          "body": "<p>Хорошая работа, дом и отношения — цели внутри жизни. Ирвин начинает с другого вопроса: какое благо должно направлять их все? Философия жизни соединяет такую главную цель со способом её достигать. Без неё легко потратить годы на то, что кажется важным только потому, что за этим гонятся окружающие.</p>"
+        },
+        "en": {
+          "section": "A plan for living",
+          "title": "What do you want from a whole life?",
+          "body": "<p>A good job, home, and relationships are goals within life. Irvine begins with another question: what good should direct them all? A philosophy of life joins a highest aim to a strategy for attaining it. Without one, years can go into things that seem important because everyone else is pursuing them.</p>"
+        }
+      }
+    },
+    {
+      "id": "four-voices",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch3 · Roman Stoicism, opening",
+      "copy": {
+        "ru": {
+          "section": "Римские собеседники",
+          "title": "Письма, уроки и дневник императора",
+          "body": "<p>Сенека пишет о переживаниях, Музоний Руф — о привычках повседневности, Эпиктет разбирает выбор, Марк Аврелий наставляет самого себя среди обязанностей правителя. Ирвин собирает руководство из этих разных голосов. Стоицизм в его книге нужен для жизни в обществе, а не для ухода от него.</p>"
+        },
+        "en": {
+          "section": "Roman companions",
+          "title": "Letters, lessons, an emperor’s journal",
+          "body": "<p>Seneca writes about emotional life, Musonius Rufus about daily habits, Epictetus analyzes choice, and Marcus Aurelius instructs himself amid an emperor’s duties. Irvine builds a guide from these different voices. His Stoicism is intended for living in society rather than withdrawing from it.</p>"
+        }
+      }
+    },
+    {
+      "id": "tranquility-and-joy",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch2 closing; Ch9; Ch21 opening",
+      "copy": {
+        "ru": {
+          "section": "Чего ищет практика",
+          "title": "Спокойствие с местом для радости",
+          "body": "<p>Ирвина привлекает спокойствие, при котором тревога, зависть и гнев меньше распоряжаются жизнью. Это не бесчувственность: положительным переживаниям, особенно радости, должно стать просторнее. Он связывает такую жизнь с разумным поведением и обязанностями перед людьми; довольство собой не исчерпывает стоическую задачу.</p>"
+        },
+        "en": {
+          "section": "What practice seeks",
+          "title": "Tranquility with room for joy",
+          "body": "<p>Irvine seeks tranquility in which anxiety, envy, and anger have less command over life. This is not numbness: positive feelings, especially joy, should have more room. He connects such a life with reasonable conduct and duties toward others; private contentment does not exhaust the Stoic task.</p>"
+        }
+      }
+    },
+    {
+      "id": "editor-disagrees",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        2
+      ],
+      "locator": "RU pre.xhtml · предисловие научного редактора",
+      "copy": {
+        "ru": {
+          "section": "Чья это версия",
+          "title": "Спокойствие — спорный акцент",
+          "body": "<p>В предисловии русского издания Станислав Наранович оспаривает силу приписанного римлянам поворота от добродетели к спокойствию. Это голос редактора, не самого Ирвина. Различие помогает понять книгу точнее: перед нами современное практическое прочтение стоиков, а не бесспорное изложение всей античной школы.</p>"
+        },
+        "en": {
+          "section": "Whose version?",
+          "title": "Tranquility is a disputed emphasis",
+          "body": "<p>In the Russian edition’s preface, Stanislav Naranovich questions how strongly Irvine shifts Roman Stoicism from virtue toward tranquility. This is the editor’s voice, not Irvine’s. The distinction clarifies the book: it is a modern practical reading of the Stoics rather than an uncontested account of the entire ancient school.</p>"
+        }
+      }
+    },
+    {
+      "id": "adaptation-treadmill",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch4 · opening argument",
+      "copy": {
+        "ru": {
+          "section": "Желания",
+          "title": "Получить — и привыкнуть",
+          "body": "<p>Работа, о которой мечтали, становится обычной работой; желанная покупка перестаёт радовать. В объяснении Ирвина исполненное желание уступает место следующему. Поэтому простое накопление благ не решает проблему ненасытности. Он ищет способ снова захотеть то, что уже имеешь, прежде чем строить очередную жизнь мечты.</p>"
+        },
+        "en": {
+          "section": "Desire",
+          "title": "Acquire it, then grow accustomed",
+          "body": "<p>The dream job becomes an ordinary job; a desired purchase loses its delight. In Irvine’s account, a fulfilled desire gives way to another. Accumulating goods therefore fails to settle insatiability. He seeks a way to want what one already has before constructing another dream life.</p>"
+        }
+      }
+    },
+    {
+      "id": "negative-visualization",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch4 · Negative Visualization",
+      "copy": {
+        "ru": {
+          "section": "Желания",
+          "title": "На время представить отсутствие",
+          "body": "<p>Негативная визуализация — размышление о том, что ценное можно потерять. Она должна не предсказать катастрофу, а прервать привычку считать благо гарантированным. Ирвин предлагает время от времени помнить о конечности отношений, вещей и собственной жизни, затем возвращаться к ним с большей признательностью.</p>"
+        },
+        "en": {
+          "section": "Desire",
+          "title": "Briefly imagine its absence",
+          "body": "<p>Negative visualization means considering the possible loss of something valued. Its purpose is to interrupt the assumption that a good is guaranteed, rather than predict catastrophe. Irvine periodically recalls the finitude of relationships, possessions, and life itself, then returns to them with renewed appreciation.</p>"
+        }
+      }
+    },
+    {
+      "id": "relationships-now",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch4 · two fathers; objection and reply",
+      "copy": {
+        "ru": {
+          "section": "Желания",
+          "title": "Время с ребёнком не обещано навсегда",
+          "body": "<p>Ирвин сравнивает двух отцов. Один считает дочь неизменно доступной и откладывает внимание к ней; другой помнит, что время вместе ограничено. Второй, по его мысли, полнее пользуется возможностью быть рядом. Если ребёнок умрёт, горе останется, но к нему не обязательно добавится столько сожалений об упущенном.</p>"
+        },
+        "en": {
+          "section": "Desire",
+          "title": "Time with a child is not promised forever",
+          "body": "<p>Irvine compares two fathers. One takes his daughter’s continued presence for granted and postpones attention; the other remembers their time is limited. In his account, the second makes fuller use of being together. Bereavement would still bring grief, but need not bring as much regret about neglected time.</p>"
+        }
+      }
+    },
+    {
+      "id": "picnic-objection",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch4 · picnic objection",
+      "copy": {
+        "ru": {
+          "section": "Желания",
+          "title": "Не провести пикник в ожидании беды",
+          "body": "<p>Ирвин сам возражает себе: мысли об испорченной еде, травме или грозе способны уничтожить удовольствие от пикника. Его ответ — различать редкое спокойное рассмотрение возможности и непрерывную тревогу. Упражнение служит возвращению к жизни. Он не предлагает проводить всё время в мысленном перечне несчастий.</p>"
+        },
+        "en": {
+          "section": "Desire",
+          "title": "Do not spend the picnic awaiting disaster",
+          "body": "<p>Irvine raises his own objection: thinking about spoiled food, injury, or storms could ruin a picnic. His reply distinguishes occasional calm consideration from continuous worry. The exercise serves a return to living. He does not propose spending all one’s time listing possible disasters.</p>"
+        }
+      }
+    },
+    {
+      "id": "last-occurrence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch4 · closing impermanence argument",
+      "copy": {
+        "ru": {
+          "section": "Желания",
+          "title": "У каждого повторения будет последний раз",
+          "body": "<p>Обычное действие когда-нибудь произойдёт в последний раз, причём предупреждения может не быть. Ирвин перечисляет знакомые занятия и встречи, чтобы показать: конечность меняет качество участия уже сегодня. Задача не в том, чтобы отказаться от планов, а в том, чтобы перестать считать настоящий день бесконечно заменимым.</p>"
+        },
+        "en": {
+          "section": "Desire",
+          "title": "Every repeated activity has a last time",
+          "body": "<p>A familiar activity will someday happen for the last time, perhaps without warning. Irvine turns to ordinary activities and encounters to show how finitude changes participation today. The point is to continue planning while ceasing to treat the present day as endlessly replaceable.</p>"
+        }
+      }
+    },
+    {
+      "id": "trichotomy",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch5 · trichotomy",
+      "copy": {
+        "ru": {
+          "section": "Контроль",
+          "title": "Три области вместо двух",
+          "body": "<p>Различение Эпиктета Ирвин перестраивает в трихотомию: полный контроль, полное отсутствие контроля и частичное влияние. К первому он относит выбор целей и ценностей. Во второе не стоит направлять бесплодное беспокойство. Третье охватывает большую часть обычной жизни, где усилия важны, но не дают гарантии.</p>"
+        },
+        "en": {
+          "section": "Control",
+          "title": "Three domains instead of two",
+          "body": "<p>Irvine recasts Epictetus’s distinction into three domains: complete control, no control, and partial control. He places choosing goals and values in the first. Futile worry should not be spent on the second. The third covers much ordinary life, where effort matters without providing a guarantee.</p>"
+        }
+      }
+    },
+    {
+      "id": "mental-control-limit",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch5 · qualms about impulses, desires and aversions",
+      "copy": {
+        "ru": {
+          "section": "Контроль",
+          "title": "Импульс ещё не выбранное действие",
+          "body": "<p>Даже Ирвин не считает внезапную тягу к удовольствию или отвращение полностью подвластными воле. Он различает появление импульса и действие вслед за ним. Это важная граница его схемы: фраза о власти над собственным выбором не означает, что человек способен по приказу прекратить любую возникающую мысль или чувство.</p>"
+        },
+        "en": {
+          "section": "Control",
+          "title": "An impulse is not yet a chosen action",
+          "body": "<p>Even Irvine does not place a sudden craving or aversion entirely under voluntary control. He distinguishes an impulse appearing from acting on it. This bounds his framework: control of choice does not mean a person can command every thought or feeling to disappear.</p>"
+        }
+      }
+    },
+    {
+      "id": "tennis-test",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch5 · tennis and internalized goals",
+      "copy": {
+        "ru": {
+          "section": "Контроль",
+          "title": "Сыграть хорошо — другая цель",
+          "body": "<p>Победа в теннисе зависит и от соперника. Поэтому Ирвин переносит цель внутрь: подготовиться и сыграть настолько хорошо, насколько возможно. Такое намерение не требует поддаваться. Он считает, что оно сохраняет усилие, уменьшая зависимость собственного удовлетворения от счёта, которым один игрок не распоряжается.</p>"
+        },
+        "en": {
+          "section": "Control",
+          "title": "Playing well is a different goal",
+          "body": "<p>A tennis victory also depends on the opponent. Irvine therefore moves the goal inward: prepare and play as well as possible. This does not require giving the match away. He argues that it preserves effort while reducing dependence of contentment on a score that one player cannot command.</p>"
+        }
+      }
+    },
+    {
+      "id": "novelist-test",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch5 · aspiring novelist",
+      "copy": {
+        "ru": {
+          "section": "Контроль",
+          "title": "Работать и снова отправлять рукопись",
+          "body": "<p>Начинающему писателю нужны и мастерство, и способность пережить отказ. Ирвин предлагает ставить целью работу над рукописью и повторные отправки, а не обязательное согласие издателя. Отказ всё ещё может ранить. Надежда автора скромнее: уменьшить его цену настолько, чтобы стало возможно продолжать работу.</p>"
+        },
+        "en": {
+          "section": "Control",
+          "title": "Work and submit again",
+          "body": "<p>An aspiring novelist needs craft and the ability to endure rejection. Irvine suggests goals concerning work on the manuscript and repeated submissions rather than guaranteed acceptance. A rejection can still hurt. His narrower hope is to reduce its cost enough to allow the work to continue.</p>"
+        }
+      }
+    },
+    {
+      "id": "internalization-provenance",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch5 · closing confession",
+      "copy": {
+        "ru": {
+          "section": "Контроль",
+          "title": "Ирвин признаёт собственную доработку",
+          "body": "<p>В конце главы автор признаётся: прямых подтверждений описанной техники внутренних целей в стоических текстах он нашёл мало. Он выводит её из общих принципов и допускает, что меняет или улучшает стоицизм. Поэтому теннисная схема — прежде всего предложение Ирвина, а не дословная формула Эпиктета.</p>"
+        },
+        "en": {
+          "section": "Control",
+          "title": "Irvine acknowledges his own addition",
+          "body": "<p>At the chapter’s end, Irvine admits finding little direct support for his precise internal-goal technique in Stoic writings. He derives it from broader principles and allows that he may be altering or improving Stoicism. The tennis framework is therefore Irvine’s proposal rather than an exact formula from Epictetus.</p>"
+        }
+      }
+    },
+    {
+      "id": "past-is-settled",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch6 · past/present versus future fatalism",
+      "copy": {
+        "ru": {
+          "section": "Прошлое и настоящее",
+          "title": "Не требовать другого прошлого",
+          "body": "<p>Ирвин предлагает фатализм по отношению к прошлому и уже наступившему мгновению. Их нельзя переиграть новым усилием. При этом прошлое можно изучить, исправить ещё доступные последствия и изменить будущее. Его ограниченное принятие не требует сидеть без дела: оно должно прекратить бесплодные требования к тому, что уже произошло.</p>"
+        },
+        "en": {
+          "section": "Past and present",
+          "title": "Do not demand a different past",
+          "body": "<p>Irvine recommends fatalism toward the past and the moment already arrived: new effort cannot replay them. Yet the past can be studied, remaining consequences addressed, and the future changed. His restricted acceptance is intended to end futile demands upon what happened rather than encourage inactivity.</p>"
+        }
+      }
+    },
+    {
+      "id": "voluntary-simplicity",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch7 · Self-Denial",
+      "copy": {
+        "ru": {
+          "section": "Тренировка",
+          "title": "Иногда обойтись без удобства",
+          "body": "<p>Размышление об утрате дополняется добровольной простотой. Сенека в изложении Ирвина предлагает иногда жить скромнее, чем позволяют средства. Цель — подготовиться к неудобству, меньше бояться его и сильнее ценить доступный комфорт. В книге это упражнение независимости от удовольствия, а не наказание за способность наслаждаться.</p>"
+        },
+        "en": {
+          "section": "Training",
+          "title": "Sometimes do without a comfort",
+          "body": "<p>Reflection on loss is joined by voluntary simplicity. Seneca, as Irvine presents him, sometimes lives more modestly than his means allow. The aims are preparation for discomfort, less fear of it, and renewed appreciation of comfort. This is practice in independence from pleasure rather than punishment for enjoying it.</p>"
+        }
+      }
+    },
+    {
+      "id": "enjoyment-without-servitude",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch7 · discomfort and pleasure",
+      "copy": {
+        "ru": {
+          "section": "Тренировка",
+          "title": "Удовольствие не должно стать хозяином",
+          "body": "<p>Стоики Ирвина могут наслаждаться дружбой, семьёй, едой и богатством. Опасность начинается, когда сохранение удовольствия диктует всю жизнь. Иногда отказаться от приятного означает проверить, осталась ли возможность выбора. Древние примеры холода и голода здесь описываются как аргумент книги, а не предлагаются читателю как безопасные для каждого процедуры.</p>"
+        },
+        "en": {
+          "section": "Training",
+          "title": "Pleasure must not become the master",
+          "body": "<p>Irvine’s Stoics can enjoy friendship, family, food, and wealth. Danger begins when retaining pleasure dictates the whole of life. Occasionally declining it tests whether choice remains. Ancient examples of cold and hunger belong to the book’s argument; this account does not offer them as procedures safe for everyone.</p>"
+        }
+      }
+    },
+    {
+      "id": "evening-review",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch8 · Seneca’s review; action versus words",
+      "copy": {
+        "ru": {
+          "section": "Тренировка",
+          "title": "Вернуться к прожитому дню",
+          "body": "<p>Перед сном Сенека пересматривал события дня и собственные ответы. Где критика только рассердила другого? Почему плохое место на пиру вызвало зависть? Ирвин использует этот обзор как активное рассуждение о практике. Нужны поступки и меняющиеся оценки, а не умение говорить стоические слова.</p>"
+        },
+        "en": {
+          "section": "Training",
+          "title": "Return to the day just lived",
+          "body": "<p>Before sleep, Seneca reviewed the day and his responses. Where had criticism merely annoyed someone? Why had a poor banquet seat provoked envy? Irvine uses this review as active reflection on practice. What matters is conduct and revised judgment rather than the ability to recite Stoic principles.</p>"
+        }
+      }
+    },
+    {
+      "id": "social-duty",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch9 · Duty",
+      "copy": {
+        "ru": {
+          "section": "Среди людей",
+          "title": "Покой не оправдывает отшельничество",
+          "body": "<p>Другие люди приносят и радость, и раздражение. Но ради покоя стоик не должен отказываться от общей жизни. Ирвин объясняет общественный долг через Марка Аврелия: человек — разумное и социальное существо, предназначенное сотрудничать. Работа на общее благо остаётся обязанностью, даже когда окружающие не особенно приятны.</p>"
+        },
+        "en": {
+          "section": "Among people",
+          "title": "Tranquility does not excuse withdrawal",
+          "body": "<p>Other people bring both delight and irritation. Yet a Stoic should not abandon shared life for peace. Through Marcus Aurelius, Irvine explains social duty: humans are rational and social beings meant to cooperate. Working for common benefit remains an obligation even when companions are disagreeable.</p>"
+        }
+      }
+    },
+    {
+      "id": "friendship-selection",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch10 · opening social-relations argument",
+      "copy": {
+        "ru": {
+          "section": "Среди людей",
+          "title": "Обязанности и дружба",
+          "body": "<p>Выполняя долг, приходится встречаться с самыми разными людьми; близких друзей можно выбирать. Ирвин передаёт совет искать тех, кто поддерживает хорошие ценности, и учиться у них. Разговоры, привычки и оценки компании постепенно влияют на собственную жизнь. Принадлежность обществу не требует одинаковой близости со всеми.</p>"
+        },
+        "en": {
+          "section": "Among people",
+          "title": "Duty and friendship",
+          "body": "<p>Duty brings contact with many kinds of people; close friends can be chosen. Irvine passes on the advice to seek companions who support sound values and to learn from them. Company’s conversations, habits, and judgments gradually affect one’s own life. Belonging to society does not require equal intimacy with everyone.</p>"
+        }
+      }
+    },
+    {
+      "id": "insult-and-judgment",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch11 · sting-elimination strategies",
+      "copy": {
+        "ru": {
+          "section": "Среди людей",
+          "title": "Чьему голосу дана власть?",
+          "body": "<p>Оскорбление ранит и после того, как разговор закончился. Ирвин предлагает сначала проверить сказанное: верно ли оно, достаточно ли знает говорящий, почему его мнение так важно? Критика учителя может быть полезна. Слова человека, чьим суждением не дорожат, не обязаны становиться приговором собственной жизни.</p>"
+        },
+        "en": {
+          "section": "Among people",
+          "title": "Whose voice has authority?",
+          "body": "<p>An insult can hurt long after the conversation. Irvine first examines what was said: is it true, is the speaker informed, and why does this opinion matter? A teacher’s criticism may help. Someone whose judgment is not valued need not acquire authority to pronounce on one’s life.</p>"
+        }
+      }
+    },
+    {
+      "id": "humor-option",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch11 · responses and correction",
+      "copy": {
+        "ru": {
+          "section": "Среди людей",
+          "title": "Юмор или отсутствие ответа",
+          "body": "<p>Вместо ответного унижения книга предлагает юмор, особенно самоиронию, либо молчание. Не всякому сразу придёт остроумная реплика. Но Ирвин сохраняет исключение: иногда проступок нужно пресечь, например ради порядка в классе. Тогда цель — исправление поведения, а не возмездие за уязвлённое самолюбие.</p>"
+        },
+        "en": {
+          "section": "Among people",
+          "title": "Humor or no reply",
+          "body": "<p>Instead of a counterinsult, the book offers humor, especially self-deprecation, or silence. Not everyone can produce wit on demand. Irvine retains an exception: misconduct may need correcting, for example to preserve a classroom’s work. The purpose then is changing conduct rather than avenging wounded pride.</p>"
+        }
+      }
+    },
+    {
+      "id": "author-political-claim",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch11 · final political-correctness argument",
+      "copy": {
+        "ru": {
+          "section": "Среди людей",
+          "title": "Спорный перенос на защиту уязвимых",
+          "body": "<p>Ирвин также предполагает, что защита уязвимых групп от оскорблений способна усиливать чувствительность и зависимость от властей. Это его современная полемика, изложенная от имени возможного ответа Эпиктета, а не установленный вывод исследования. Личную защиту от колкостей нельзя незаметно превратить в доказательство ненужности защиты от дискриминации.</p>"
+        },
+        "en": {
+          "section": "Among people",
+          "title": "A disputed application to protection",
+          "body": "<p>Irvine also suggests that protecting disadvantaged groups from insults can increase sensitivity and dependence on authorities. This is his modern polemic, framed as a possible reply from Epictetus, rather than an established research finding. Personal defense against jibes cannot silently become proof that protection from discrimination is unnecessary.</p>"
+        }
+      }
+    },
+    {
+      "id": "grief-is-human",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch12 · grief and retrospective visualization",
+      "copy": {
+        "ru": {
+          "section": "Утрата и гнев",
+          "title": "Стоик тоже плачет",
+          "body": "<p>Ирвин прямо признаёт непроизвольное горе при смерти близкого. Следуя Сенеке, он затем ищет способы уменьшить то страдание, которое считает добавочным: сожаление об упущенном, бесконечное требование другого прошлого. Один из его ходов — вспомнить не только окончание отношений, но и то, что эта встреча вообще состоялась.</p>"
+        },
+        "en": {
+          "section": "Loss and anger",
+          "title": "A Stoic also weeps",
+          "body": "<p>Irvine explicitly recognizes involuntary grief when someone loved dies. Following Seneca, he then seeks to reduce what he considers added suffering: regret about neglected time and endless demands for a different past. One approach recalls not only a relationship’s ending but the fact that it existed at all.</p>"
+        }
+      }
+    },
+    {
+      "id": "reason-has-limits",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch12 · rational persuasion and counseling qualification",
+      "copy": {
+        "ru": {
+          "section": "Утрата и гнев",
+          "title": "Разум как утешитель",
+          "body": "<p>Книга придаёт разуму большую роль в преодолении горя, но признаёт, что при сильном переживании доводы могут не сработать; некоторым людям нужна психологическая помощь. Такой философский рассказ не задаёт правильного срока для слёз. Пересказ сохраняет предложение Ирвина, не выдавая его за доказанный способ лечения утраты.</p>"
+        },
+        "en": {
+          "section": "Loss and anger",
+          "title": "Reason as consolation",
+          "body": "<p>The book gives reason a large role in overcoming grief, while acknowledging that arguments may fail during intense distress and that some people benefit from counseling. A philosophical account does not establish a proper deadline for tears. This retelling preserves Irvine’s proposal without presenting it as a proven treatment for bereavement.</p>"
+        }
+      }
+    },
+    {
+      "id": "anger-and-action",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch13 · anger as motivation; apology",
+      "copy": {
+        "ru": {
+          "section": "Утрата и гнев",
+          "title": "Можно защищать без ярости",
+          "body": "<p>Сенека у Ирвина сравнивает пользу гнева с пользой, иногда извлекаемой из кораблекрушения: удачный исход ещё не причина желать бедствия. Гнев трудно остановить после запуска. Защищать человека и пресекать вред можно твёрдо, но без мести. Если вспышка всё же произошла, Ирвин предлагает извиниться.</p>"
+        },
+        "en": {
+          "section": "Loss and anger",
+          "title": "Protection need not require rage",
+          "body": "<p>Irvine’s Seneca compares anger’s occasional benefit to benefits someone might gain from a shipwreck: a fortunate consequence gives no reason to seek disaster. Anger is difficult to stop once released. Protection and correction can be firm without revenge. After an outburst, Irvine recommends apologizing.</p>"
+        }
+      }
+    },
+    {
+      "id": "fame-and-freedom",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch14 · banquet example",
+      "copy": {
+        "ru": {
+          "section": "Статус и имущество",
+          "title": "Цена приглашения на пир",
+          "body": "<p>Не получить приглашение кажется потерей. Но в примере Эпиктета приглашённые уже заплатили вниманием и лестью хозяину. Ирвин распространяет вопрос на повседневную славу: одобрение друзей, соседей и коллег. Если оно определяет цель жизни, чужой вкус получает власть над собственным выбором.</p>"
+        },
+        "en": {
+          "section": "Status and possessions",
+          "title": "The price of a banquet invitation",
+          "body": "<p>Missing an invitation seems a loss. In Epictetus’s example, however, the guests have paid through attention and flattery to the host. Irvine extends this to everyday fame: approval from friends, neighbors, and colleagues. If approval sets life’s aim, other people’s tastes gain power over one’s choices.</p>"
+        }
+      }
+    },
+    {
+      "id": "luxury-dependence",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch15 · luxury, simple pleasure and permitted wealth",
+      "copy": {
+        "ru": {
+          "section": "Статус и имущество",
+          "title": "Разучиться радоваться простому",
+          "body": "<p>Ирвин опасается роскоши, которая постепенно делает человека трудным для удовольствия. То, что прежде радовало, кажется слишком простым; теперь нужно только лучшее. Богатство у стоиков при этом не запрещено. Книга требует не покупать его ценой характера и не делать сохранение имущества условием всякого удовлетворения.</p>"
+        },
+        "en": {
+          "section": "Status and possessions",
+          "title": "Losing delight in ordinary things",
+          "body": "<p>Irvine fears luxury that gradually makes a person hard to please. Former delights seem too ordinary; only the finest will do. The Stoics nevertheless do not prohibit wealth. The book asks that it not be purchased at the cost of character or made the condition of all contentment.</p>"
+        }
+      }
+    },
+    {
+      "id": "exile-portable-values",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch16 · consolations; Ch17",
+      "copy": {
+        "ru": {
+          "section": "Конечность",
+          "title": "Что уезжает вместе с изгнанником",
+          "body": "<p>Изгнание отнимает место, имущество и привычные связи. В утешении Сенеки и рассуждении Музония, которые пересказывает Ирвин, с человеком остаются разум и способность поступать достойно. Книга использует этот пример, чтобы искать менее хрупкие основания жизни, затем переносит вопрос к старению и потере привычного образа существования.</p>"
+        },
+        "en": {
+          "section": "Finitude",
+          "title": "What travels with the exile",
+          "body": "<p>Exile removes place, possessions, and familiar ties. In Seneca’s consolation and Musonius’s reflections as Irvine recounts them, reason and the ability to act decently remain. The example seeks less fragile foundations for life, then leads toward aging and the loss of familiar ways of living.</p>"
+        }
+      }
+    },
+    {
+      "id": "finite-time",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch17–19 · finitude and beginning now",
+      "copy": {
+        "ru": {
+          "section": "Конечность",
+          "title": "Учиться жить до последнего испытания",
+          "body": "<p>Старение и смерть показывают предел попытки сохранить всё неизменным. Ирвин считает философию подготовкой: понять ценное и начать жить ради него до того, как времени почти не осталось. Он не предлагает ждать идеального спокойного периода. Жизнь, ради которой нужна практика, уже идёт.</p>"
+        },
+        "en": {
+          "section": "Finitude",
+          "title": "Learn to live before the final test",
+          "body": "<p>Aging and death expose the limits of keeping everything unchanged. Irvine treats philosophy as preparation: identify what matters and begin living for it before time nearly runs out. He does not suggest waiting for an ideally calm period. The life for which practice is needed has already begun.</p>"
+        }
+      }
+    },
+    {
+      "id": "modern-adaptation",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch21 · evolutionary justification and adaptation confession",
+      "copy": {
+        "ru": {
+          "section": "Современная версия",
+          "title": "Обоснование тоже меняется",
+          "body": "<p>Ирвин не требует принять античную веру в Зевса. Вместо неё он предлагает эволюционное объяснение: склонности, полезные для выживания и размножения, не обязательно ведут к спокойствию. Разум позволяет стремиться к другим целям. Это объяснение самого автора; практические приёмы он собирает из разных стоиков, не объявляя систему точной копией одной школы.</p>"
+        },
+        "en": {
+          "section": "A modern version",
+          "title": "The justification also changes",
+          "body": "<p>Irvine does not require ancient belief in Zeus. He proposes an evolutionary account instead: tendencies useful for survival and reproduction need not bring tranquility. Reason allows different aims. This is his explanation; he assembles techniques from different Stoics without claiming an exact replica of one ancient school.</p>"
+        }
+      }
+    },
+    {
+      "id": "start-small",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch22 · opening practical advice",
+      "copy": {
+        "ru": {
+          "section": "Личная проба",
+          "title": "Начать с одного приёма",
+          "body": "<p>В последней главе Ирвин советует не осваивать всё сразу. Сначала — негативная визуализация; затем различение контроля, внутренние цели и принятие прошлого. Он даже предлагает практиковать незаметно, чтобы не тратить силы на насмешки. Философия должна становиться способом действия, а не новой публичной ролью.</p>"
+        },
+        "en": {
+          "section": "A personal trial",
+          "title": "Begin with one technique",
+          "body": "<p>In the final chapter, Irvine advises against mastering everything at once. Start with negative visualization, then add control distinctions, internal goals, and acceptance of the past. He even suggests practicing quietly to avoid spending energy on mockery. Philosophy should become a way of acting rather than a new public identity.</p>"
+        }
+      }
+    },
+    {
+      "id": "rowing-and-self-contest",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch22 · contest with the other self",
+      "copy": {
+        "ru": {
+          "section": "Личная проба",
+          "title": "Соперники помогают состязанию с собой",
+          "body": "<p>В гребле Ирвин борется не только с другими участниками. Часть его самого не хочет вставать, тренироваться и продолжать гонку. Соперники помогают преодолеть это сопротивление. Можно прийти последним и всё же выиграть собственное состязание. Так внутренние цели становятся для него конкретным опытом, а не только философской схемой.</p>"
+        },
+        "en": {
+          "section": "A personal trial",
+          "title": "Competitors help the contest with oneself",
+          "body": "<p>In rowing, Irvine competes beyond the other rowers. Part of himself resists getting up, training, and continuing the race. Competitors help him overcome that resistance. He can finish last and still win his own contest. Internal goals become a concrete experience for him rather than only a philosophical framework.</p>"
+        }
+      }
+    },
+    {
+      "id": "personal-report",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch22 · closing assessment",
+      "copy": {
+        "ru": {
+          "section": "Личная проба",
+          "title": "Лучше — ещё не безупречно",
+          "body": "<p>Ирвин сообщает, что стал спокойнее, терпимее к обычным обидам и чаще испытывает радость от самого участия в жизни. Эмоции не исчезли. Он также не знает, сохранит ли признательность после серьёзной потери: главные испытания, возможно, впереди. Это итог его собственной практики, а не обещание результата каждому читателю.</p>"
+        },
+        "en": {
+          "section": "A personal trial",
+          "title": "Better is not perfect",
+          "body": "<p>Irvine reports greater tranquility, tolerance of ordinary insults, and bursts of delight in participating in life. Emotions have not vanished. He also does not know whether appreciation will survive a major loss: his greatest tests may lie ahead. This is his experience rather than a promised outcome for every reader.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "locator": "Ch22 · final misgivings and invitation",
+      "copy": {
+        "ru": {
+          "section": "Последнее сомнение",
+          "title": "А если стоики ошибаются?",
+          "body": "<p>В финале Ирвин признаёт сомнение: вдруг годы, отданные спокойствию вместо привычного успеха, окажутся ошибкой? Доказательства единственно верной философии у него нет. Но жизнь без осмысленного выбора тоже может быть ошибкой. Поэтому книга заканчивается приглашением испытать подходящую философию — ради жизни с большей радостью, а не с большей уверенностью в собственной непогрешимости.</p>"
+        },
+        "en": {
+          "section": "A final doubt",
+          "title": "What if the Stoics are wrong?",
+          "body": "<p>At the end, Irvine admits doubt: what if years spent seeking tranquility rather than conventional success prove mistaken? He has no proof of one correct philosophy. Yet living without a considered choice can also be a mistake. The book closes by inviting a suitable philosophy to be tried, in pursuit of greater joy rather than certainty of being right.</p>"
+        }
+      },
+      "final": true
+    }
+  ],
+  "contentMode": "explanatory"
+}

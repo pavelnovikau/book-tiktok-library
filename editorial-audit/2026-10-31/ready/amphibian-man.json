@@ -1,0 +1,91 @@
+{
+  "slug": "amphibian-man",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD",
+  "deliverables": [
+    {
+      "path": "collector-output/amphibian-man/story-data.json",
+      "sha256": "2ef05a99896f94dfc5d07eb9ab5876be23b44fe18028874cddf6e70c182d1d35"
+    },
+    {
+      "path": "collector-output/amphibian-man/amphibian-man.html",
+      "sha256": "73ab4b352421a864b683c8eca6916282844d564ec41060f35db4a419f689dc01"
+    },
+    {
+      "path": "collector-output/amphibian-man/sources.md",
+      "sha256": "032d6fe48f21f57cce1b3cdecdf0bbbacb988f16fb7f3780e8692874a838a287"
+    },
+    {
+      "path": "collector-output/amphibian-man/QA.md",
+      "sha256": "6addf51ac3c01ddcc245d3d77c1c081f5d2ab9bab7ea4e6c2b4b97ac58c5b21d"
+    }
+  ],
+  "counts": {
+    "essential": 12,
+    "core": 19,
+    "deep": 35
+  },
+  "oldReviewedPairs": 96,
+  "newReviewedPairs": 35,
+  "contentMode": "narrative",
+  "reportPath": "editorial-audit/2026-10-31/books/amphibian-man.md",
+  "reportSha256": "3feca314bc325e9627c3ba2b9865cd07acd8166a0a6f23fdcbde0b63824610f7",
+  "sourceScope": {
+    "primaryUrl": "https://ru.wikisource.org/wiki/Человек-амфибия_(Беляев)",
+    "meaningfulPlotThroughEndingRead": true,
+    "entireTextReadSequentially": false,
+    "printEditionCollated": false,
+    "wholeEditionFidelityCertified": false,
+    "detailsPath": "collector-output/amphibian-man/sources.md",
+    "privateExtractionOutsidePublicRepo": true
+  },
+  "changes": [
+    "Rebuilt entire analytical companion as a connected sea/shore adventure",
+    "Removed reader exercises, repeated prescriptions and external context screens",
+    "Retained qualified paternity, bodily prognosis and unshown arrival",
+    "Kept decisive outcomes in warned Deep",
+    "Changed cover credit to original composition"
+  ],
+  "unresolvedIssues": [],
+  "reviewLimits": [
+    "Selected continuous primary plot passages across the whole story; not every word or variant certified",
+    "Independent editorial acceptance still required",
+    "No physical iPhone/PWA or production verification"
+  ],
+  "checks": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "authoringEqualsEffectiveHtml": true,
+    "browserReport": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/qa-amphibian-man/browser.json",
+    "renderedInstances": 528,
+    "savedDeepReturnPaths": 64,
+    "finalRestartClearsProgress": true,
+    "sizes": [
+      "320x568",
+      "1440x900"
+    ],
+    "allModesLanguagesThemes": true,
+    "noRuntimeExceptionsOrRemoteRequests": true
+  },
+  "publisherAttention": [
+    "Integrate only after independent editorial text review",
+    "Update root metadata, counts, descriptions and reading times",
+    "Retain Sources, outcome-safe lower contents and generic saved-Deep warning",
+    "Invalidate or deliberately migrate prior circulated progress because IDs and meaning changed"
+  ],
+  "parentCorrections": {
+    "findings": [
+      "AMP-01",
+      "AMP-02"
+    ],
+    "changedScreens": [
+      "unpleasant-meeting",
+      "farewell"
+    ],
+    "newIndependentAcceptance": false,
+    "reviewReport": "editorial-audit/2026-10-31/reviews/amphibian-man.json",
+    "closure": "editorial-audit/2026-10-31/publisher-findings/amphibian-meaning-fix-closure.json"
+  }
+}

@@ -6,20 +6,20 @@
     "en": "Mindfulness — Williams & Penman"
   },
   "description": {
-    "ru": "Как выйти из круга автоматических реакций: аргумент книги, восемь недель обучения и границы доказательств.",
-    "en": "Changing automatic reactions: the book’s argument, eight weeks of learning, and the limits of the evidence."
+    "ru": "Как выйти из круга автоматических реакций: объяснение Уильямса и Пенмана и последовательность восьми недель.",
+    "en": "Williams and Penman’s account of automatic reactions and the sequence of eight weeks."
   },
   "defaultLanguage": "ru",
   "defaultTheme": "dark",
-  "defaultMode": "deep",
+  "defaultMode": "essential",
   "targetModes": {
-    "essential": 30,
-    "core": 72,
-    "deep": 112
+    "essential": 14,
+    "core": 26,
+    "deep": 30
   },
   "methodNote": {
-    "ru": "Авторский аналитический пересказ по полному локальному русскому EPUB МИФ 2014 (ISBN 9785000572139). Прочитаны структура и содержательные фрагменты всех 12 глав, включая описания практик; это не утверждение о построчном чтении каждого абзаца. Цитат, текста инструкций и изображений книги нет. Аргумент книги, независимые данные и наш синтез отмечены отдельно. Это карта идей, а не лечебный курс: результаты клинических MBCT/MBSR нельзя переносить на чтение конспекта или обещать каждому. EN — новый перевод пересказа. Источники проверены 31 октября 2026.",
-    "en": "An original analytical digest based on the complete local Russian MIF 2014 EPUB (ISBN 9785000572139). Structure and substantive passages across all 12 chapters, including practice descriptions, were consulted; this is not a claim of line-by-line reading of every paragraph. No quotations, copied instruction scripts or book images. Book argument, independent evidence and our synthesis are labeled separately. This is an idea map, not a treatment course: clinical MBCT/MBSR results cannot be transferred to reading a digest or promised to everyone. EN is a new translation of the digest. Sources checked 31 October 2026."
+    "ru": "Самостоятельный пересказ центрального аргумента и восьминедельной программы по полному локальному русскому изданию МИФ 2014. Основные инструкции и связанные объяснения прочитаны; не заявляется непрерывное чтение каждого абзаца книги и всех примечаний. EN — перевод нового пересказа. Полные медитативные сценарии не воспроизводятся; официальные записи доступны в источниках. Современное уточнение о рисках отдельно опирается на NCCIH. Чтение не равно прохождению курса или лечению.",
+    "en": "An original account of the central argument and eight-week program from the complete owned Russian MIF 2014 edition. Principal instructions and related explanations were read; no continuous reading of every paragraph and note is claimed. EN translates the new account. Full meditation scripts are not reproduced; official recordings are linked in Sources. A separate current safety qualification draws on NCCIH. Reading is neither completing the course nor receiving treatment."
   },
   "sources": [
     {
@@ -28,18 +28,8 @@
       "url": "https://www.mann-ivanov-ferber.ru/catalog/product/osoznannost/",
       "role": "book",
       "note": {
-        "ru": "Полный локальный EPUB владельца: предисловие, главы 1–12, сведения об издании и примечания. Ссылка ведёт к издателю, не к частному файлу.",
-        "en": "The owner’s complete local EPUB: foreword, chapters 1–12, edition information and notes. Link identifies the publisher, not the private file."
-      }
-    },
-    {
-      "id": 2,
-      "title": "МИФ — Осознанность: страница книги",
-      "url": "https://www.mann-ivanov-ferber.ru/catalog/product/osoznannost/",
-      "role": "publisher",
-      "note": {
-        "ru": "Название, авторы и публичное описание. Аннотация не считается независимым медицинским доказательством.",
-        "en": "Title, authors and public description. Promotional copy is not independent medical evidence."
+        "ru": "Полный локальный EPUB МИФ 2014, ISBN 9785000572139; для этой редакции прочитаны центральный аргумент и полные основные инструкции по неделям, с границами в sources.md. Ссылка идентифицирует книгу.",
+        "en": "Complete owned MIF 2014 EPUB, ISBN 9785000572139; central argument and principal weekly instructions read for this revision, with exact limits in sources.md. Link identifies the book."
       }
     },
     {
@@ -53,16 +43,6 @@
       }
     },
     {
-      "id": 4,
-      "title": "NICE NG222 — Depression in adults: recommendations",
-      "url": "https://www.nice.org.uk/guidance/ng222/chapter/recommendations",
-      "role": "reference",
-      "note": {
-        "ru": "Рекомендации 1.8.5–1.8.7: профилактика рецидива после ремиссии на антидепрессантах, варианты продолжения или замены и ограничения групповой практики. Клиническая MBCT отличается от чтения книги.",
-        "en": "Recommendations 1.8.5–1.8.7: relapse prevention after remission with antidepressants, continuation or alternative options, and group-practice limits. Clinical MBCT differs from reading a book."
-      }
-    },
-    {
       "id": 5,
       "title": "NCCIH — Meditation and Mindfulness: Effectiveness and Safety",
       "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
@@ -71,66 +51,6 @@
         "ru": "Неоднородность исследований, возможные нежелательные эффекты, недопустимость подмены помощи медитацией.",
         "en": "Heterogeneous research, possible adverse effects, and the need not to replace care with meditation."
       }
-    },
-    {
-      "id": 6,
-      "title": "Kuyken et al. — PREVENT randomized controlled trial, Lancet 2015",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/25907157/",
-      "role": "primary",
-      "note": {
-        "ru": "424 участника, 24 месяца: превосходство MBCT с поддержкой отмены над поддерживающей фармакотерапией не установлено.",
-        "en": "424 participants, 24 months: superiority of MBCT with taper support over maintenance medication was not established."
-      }
-    },
-    {
-      "id": 7,
-      "title": "Hoge et al. — MBSR vs Escitalopram, randomized trial",
-      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9647561/",
-      "role": "primary",
-      "note": {
-        "ru": "Исследование тревожных расстройств: программа, критерий не меньшей эффективности и нежелательные эффекты. Не испытание книги.",
-        "en": "Anxiety-disorder trial: protocol, noninferiority and adverse events. Not a trial of the book."
-      }
-    },
-    {
-      "id": 8,
-      "title": "Publishers Weekly — Mindfulness, review 10 October 2011",
-      "url": "https://www2.publishersweekly.com/978-1-60961-198-9",
-      "role": "review",
-      "note": {
-        "ru": "Независимое описание структуры и светской подачи первой книги; благожелательная рецензия, не проверка эффективности.",
-        "en": "Independent description of structure and secular presentation; favorable reception, not an efficacy test."
-      }
-    },
-    {
-      "id": 9,
-      "title": "Tees Esk and Wear Valleys NHS — Mindfulness based cognitive therapy",
-      "url": "https://www.tewv.nhs.uk/about-your-care/treatments-therapies/mindfulness-cognitive-therapy/",
-      "role": "reference",
-      "note": {
-        "ru": "Реальная клиническая организация: оценка пригодности, подготовленный специалист, групповые занятия и домашняя практика.",
-        "en": "Actual clinical delivery: suitability assessment, trained professional, group sessions and home practice."
-      }
-    },
-    {
-      "id": 10,
-      "title": "van der Velden et al. — Dynamic Repertoire of Brain Networks During Rumination, 2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42518781/",
-      "role": "primary",
-      "note": {
-        "ru": "Первичный анализ нейронной динамики при руминации; возможный механизм, а не доказательство всей модели книги.",
-        "en": "Primary analysis of neural dynamics during rumination; a candidate mechanism, not proof of the book’s entire model."
-      }
-    },
-    {
-      "id": 11,
-      "title": "Heeren et al. — Executive processes and autobiographical memory specificity, 2009",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/19232573/",
-      "role": "primary",
-      "note": {
-        "ru": "Квазиэкспериментальное первичное исследование специфичности памяти с подобранной контрольной группой; узкая поддержка, не рандомизированный тест и не диагностика.",
-        "en": "Quasi-experimental primary memory-specificity study with matched controls; narrow support, not a randomized test or a diagnostic tool."
-      }
     }
   ],
   "media": {},
@@ -138,49 +58,21 @@
     {
       "id": "cover",
       "level": 1,
-      "claimType": "synthesis",
-      "sources": [
-        1,
-        2
-      ],
+      "sources": [],
+      "locator": "gl1–gl12.xhtml",
       "copy": {
         "ru": {
-          "section": "Рамка и доказательства",
+          "section": "Марк Уильямс · Денни Пенман",
           "title": "Осознанность",
-          "body": "<p>Марк Уильямс и Денни Пенман предлагают вернуть внимание к собственной жизни, пока она происходит. Этот пересказ показывает их объяснение автоматических реакций, логику восьминедельного обучения и границы медицинских выводов. Перед вами карта книги: прочитать её можно быстро, освоение навыка требует другого времени. Синтез по книге; издание МИФ, 2014.</p>",
-          "subtitle": "От автоматической реакции к осознанному ответу",
-          "visualAlt": "Типографическая схема последовательности внимания"
+          "body": "<p>День заполнен делами, а сама жизнь всё время откладывается. Уильямс и Пенман предлагают увидеть, как привычки и борьба с собственными чувствами захватывают внимание, а затем постепенно освоить другой способ быть в происходящем. Восемь недель связывают внимание к дыханию, телу, мыслям и повседневным решениям.</p>"
         },
         "en": {
-          "section": "Frame and evidence",
+          "section": "Mark Williams · Danny Penman",
           "title": "Mindfulness",
-          "body": "<p>Mark Williams and Danny Penman propose returning attention to life while it is happening. This digest follows their account of automatic reactions, the logic of eight weeks of learning, and the limits of medical conclusions. It is a map of the book: reading can be quick, while developing a skill takes a different kind of time. Synthesis from the book; Russian MIF edition, 2014.</p>",
-          "subtitle": "From automatic reaction to a deliberate response",
-          "visualAlt": "Typographic sequence of attention"
+          "body": "<p>The day fills with tasks while life itself keeps being postponed. Williams and Penman explore how habits and struggles with feelings capture attention, then teach another way of being with experience. Eight weeks connect awareness of breathing, the body, thoughts, and everyday decisions.</p>"
         }
       },
       "type": "cover"
-    },
-    {
-      "id": "live-now",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Вопрос книги",
-          "title": "Жизнь не начинается после последней задачи",
-          "body": "<p>Авторы обращаются к человеку, который всё время готовится наконец пожить: закончит работу, перестанет тревожиться, выспится в выходные. Но список не заканчивается. Их вопрос — можно ли восстановить контакт с настоящим посреди несовершенной жизни, не превращая спокойствие в ещё одно условие, которое нужно сначала выполнить.</p>"
-        },
-        "en": {
-          "section": "The book’s question",
-          "title": "Life does not begin after the last task",
-          "body": "<p>The authors address someone who is always preparing to start living: finish work, stop worrying, catch up on sleep at the weekend. Yet the list never ends. Their question is whether contact with the present can return within an imperfect life, without making calm one more condition that must first be satisfied.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl1.xhtml"
     },
     {
       "id": "reaction-loop",
@@ -189,288 +81,40 @@
       "sources": [
         1
       ],
+      "locator": "gl2.xhtml · Наше беспокойное сознание",
       "copy": {
         "ru": {
-          "section": "Вопрос книги",
-          "title": "Борьба с настроением может продолжать его",
-          "body": "<p>Мимолётная грусть иногда запускает поиск причин, воспоминания о неудачах и оценку собственного характера. Теперь неприятно уже не только из-за исходного события: добавляется упрёк за то, что не удалось быстро прийти в норму. Книга исследует этот дополнительный круг реакции, а не объявляет любые неприятные чувства ошибкой.</p>"
+          "section": "Когда ум ходит по кругу",
+          "title": "Грусть и рассказ о грусти",
+          "body": "<p>Короткий спад настроения может вызвать воспоминания о прошлых неудачах. За ними приходят упрёки: почему опять не получается взять себя в руки? Мысли усиливают чувство, тело напрягается, и это напряжение становится новым поводом тревожиться. В книге эмоция — связка ощущений, мыслей, чувств и импульсов, способных подхватывать друг друга.</p>"
         },
         "en": {
-          "section": "The book’s question",
-          "title": "Fighting a mood can prolong it",
-          "body": "<p>A passing sadness can trigger a search for causes, memories of failures, and judgments about personal character. Distress then comes not only from the original event: there is an accusation of failing to recover quickly enough. The book examines this additional loop of reaction rather than declaring every unpleasant feeling a mistake.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl1.xhtml"
-    },
-    {
-      "id": "not-empty",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Вопрос книги",
-          "title": "Практика не требует пустой головы",
-          "body": "<p>Если считать медитацию соревнованием по отсутствию мыслей, каждое отвлечение станет поражением. Авторы предлагают другую задачу: увидеть, что внимание ушло, и мягко вернуть его. Мысли могут продолжаться. Меняется отношение к ним и возможность выбирать, каким из них сейчас следовать, вместо попытки подавить всю умственную деятельность.</p>"
-        },
-        "en": {
-          "section": "The book’s question",
-          "title": "Practice does not require an empty head",
-          "body": "<p>If meditation becomes a competition to have no thoughts, every distraction counts as defeat. The authors propose a different task: recognize that attention has wandered and gently bring it back. Thoughts may continue. What changes is the relationship to them and the opportunity to choose which deserve attention, rather than suppress all mental activity.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl1.xhtml"
-    },
-    {
-      "id": "clinical-origins",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Вопрос книги",
-          "title": "У книги есть клиническое происхождение",
-          "body": "<p>Уильямс описывает работу с Джоном Тисдейлом и Зинделом Сигалом над MBCT — когнитивной терапией на основе осознанности. Она соединяет медитативное обучение с подходами когнитивной терапии и опирается на более раннюю работу Джона Кабат-Зинна. Книга переносит часть этой логики в доступное самостоятельное обучение; происхождение важно, но перенос требует оговорок.</p>"
-        },
-        "en": {
-          "section": "The book’s question",
-          "title": "The book has clinical roots",
-          "body": "<p>Williams describes developing MBCT, mindfulness-based cognitive therapy, with John Teasdale and Zindel Segal. It combines meditative learning with approaches from cognitive therapy and draws on Jon Kabat-Zinn’s earlier work. The book translates part of that logic into accessible independent learning. Its origins matter, but transferring a clinical approach requires qualifications.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl1.xhtml"
-    },
-    {
-      "id": "book-versus-therapy",
-      "level": 1,
-      "claimType": "synthesis",
-      "sources": [
-        1,
-        4,
-        9
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "Чтение книги и лечение — разные вмешательства",
-          "body": "<p>Клинические результаты относятся к определённым участникам, программе, преподавателям и сопровождению. Здесь мы читаем объяснение книги, а не проходим такую программу. Это различие удерживает полезную идею в честных границах: пересказ может помочь понять подход, но не обещает лечебного результата и не служит основанием менять назначенное лечение.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "Reading and treatment are different interventions",
-          "body": "<p>Clinical results concern particular participants, a program, teachers, and support. Here we are reading an explanation of a book rather than receiving that program. This distinction keeps a useful idea within honest limits: a digest may clarify the approach, but it promises no treatment outcome and provides no basis for changing prescribed care.</p>"
+          "section": "When the mind goes in circles",
+          "title": "Sadness and its story",
+          "body": "<p>A brief low mood can call up memories of earlier failures. Accusations follow: why can’t I pull myself together again? Thoughts intensify the feeling, the body tightens, and that tension becomes another reason for worry. The book treats emotion as an interacting bundle of sensations, thoughts, feelings, and impulses.</p>"
         }
       }
-    },
-    {
-      "id": "service-context",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        9
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "В реальной MBCT есть оценка и преподаватель",
-          "body": "<p>Страница службы NHS описывает обсуждение пригодности курса, квалифицированного специалиста, восемь встреч по два с четвертью часа и более длинное занятие. Между встречами нужна домашняя практика. Это конкретный пример организации помощи, а не универсальный стандарт для всех курсов. Он показывает, сколько сопровождения исчезает, когда исследование пересказывают как совет просто помедитировать.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "Actual MBCT includes assessment and a teacher",
-          "body": "<p>An NHS service describes discussing course suitability, a qualified professional, eight sessions of two and a quarter hours, and a longer session. Home practice takes place between meetings. This is one concrete service model, not a universal standard for every course. It shows how much support disappears when research is reduced to advice simply to meditate.</p>"
-        }
-      }
-    },
-    {
-      "id": "nice-boundary",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        4
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "NICE рекомендует определённую терапию определённым людям",
-          "body": "<p>В NG222 групповая MBCT — вариант для людей с повышенным риском рецидива, достигших ремиссии при лечении только антидепрессантами: если они не хотят продолжать препарат или вместе с ним. Обычно это восемь встреч за два–три месяца. Для других путей к ремиссии есть отдельные рекомендации. Это совместное клиническое решение, а не совет заменить лекарства самостоятельным чтением.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "NICE recommends particular therapy for particular people",
-          "body": "<p>In NG222, group MBCT is an option for people at higher relapse risk who remitted with antidepressant medication alone: if they do not wish to continue medication, or alongside it. It usually involves eight sessions over two to three months. Other routes to remission have separate recommendations. This is a shared clinical decision, not advice to replace medication with independent reading.</p>"
-        }
-      }
-    },
-    {
-      "id": "prevent-trial",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        6
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "Отсутствие превосходства не доказывает тождество",
-          "body": "<p class=\"hero-number\">424</p><p class=\"fact-label\">участника · наблюдение 24 месяца</p><p>В PREVENT 424 человека с повторными эпизодами депрессии сравнивали MBCT с поддержкой снижения препаратов и поддерживающую фармакотерапию. За 24 месяца превосходство MBCT не установлено: отношение рисков 0,89, доверительный интервал 0,67–1,18. Исследование касается этой выборки и профессиональной поддержки, а не самостоятельной отмены лечения или гарантированного равенства для каждого.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "Lack of superiority does not establish identity",
-          "body": "<p class=\"hero-number\">424</p><p class=\"fact-label\">participants · 24 months of follow-up</p><p>PREVENT compared MBCT with support for medication tapering against maintenance medication in 424 people with recurrent depression. Over 24 months, MBCT superiority was not established: hazard ratio 0.89, confidence interval 0.67–1.18. This concerns that population and professional support, not independent discontinuation or guaranteed equivalence for every individual.</p>"
-        }
-      }
-    },
-    {
-      "id": "tame-workload",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        7
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "Исследование тревоги проверяло интенсивный курс",
-          "body": "<p>В исследовании 276 взрослых MBSR соответствовала заданному критерию не меньшей эффективности относительно эсциталопрама по основному показателю тревоги. Курс включал еженедельные занятия по 2,5 часа, длительный день практики и ежедневные домашние занятия по 45 минут. Этот результат не проверяет эффективность книги, приложения или нескольких минут без сопровождения.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "The anxiety trial tested an intensive course",
-          "body": "<p>In a trial of 276 adults, MBSR met the prespecified noninferiority criterion against escitalopram on the primary anxiety outcome. The course included weekly 2.5-hour classes, an extended practice day, and 45 minutes of daily home practice. This result does not test the effectiveness of a book, an app, or a few unsupported minutes.</p>"
-        }
-      }
-    },
-    {
-      "id": "safety-boundary",
-      "level": 1,
-      "claimType": "corroboration",
-      "sources": [
-        5
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "Неприятный опыт нельзя объявлять обязательной платой",
-          "body": "<p>NCCIH отмечает, что нежелательные эффекты изучены недостаточно; среди описанных — усиление тревоги и депрессивных переживаний. Поэтому обещание полной безвредности из ранней подачи книги здесь не принимается. Не следует заменять медитацией обычную помощь или откладывать обращение за ней. Ухудшение заслуживает внимания, а не объяснения личной недостаточной старательностью.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "Distress is not a required price of practice",
-          "body": "<p>NCCIH notes that adverse effects are insufficiently studied; reported experiences include increased anxiety and depressive feelings. The early presentation’s promise of complete harmlessness is therefore not accepted here. Meditation should not replace conventional care or delay seeking it. Deterioration deserves attention rather than an explanation that the person simply failed to try hard enough.</p>"
-        }
-      }
-    },
-    {
-      "id": "evidence-scope",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1,
-        5
-      ],
-      "copy": {
-        "ru": {
-          "section": "Рамка и доказательства",
-          "title": "Один удачный результат не подтверждает все обещания",
-          "body": "<p>В книге рядом стоят данные о настроении, мозге, здоровье и личные истории. Для этого пересказа они не образуют единый пакет доказательств. Мы сохраняем модель обучения, отдельно уточняем клинические выводы и не обещаем читателю долголетия, усиления иммунитета или универсального изменения мозга. Разные исходы требуют разных исследований и разных оговорок.</p>"
-        },
-        "en": {
-          "section": "Frame and evidence",
-          "title": "One positive result cannot validate every promise",
-          "body": "<p>The book places findings about mood, the brain, health, and personal accounts alongside one another. They do not form a single evidential package in this digest. We retain the learning model, qualify clinical conclusions separately, and promise no longevity, stronger immunity, or universal brain change. Different outcomes require different investigations and different qualifications.</p>"
-        }
-      }
-    },
-    {
-      "id": "emotion-components",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Круг реакции",
-          "title": "Эмоция — связка, а не один монолит",
-          "body": "<p>Книга предлагает различать мысли, чувства, ощущения тела и импульсы к действию. Вместо общей оценки своего состояния можно заметить напряжение плеч, мысль о провале и желание уйти. Компоненты связаны, но различение делает опыт точнее и позволяет увидеть, в каком месте автоматическая реакция уже началась и что именно она соединяет.</p>"
-        },
-        "en": {
-          "section": "The reaction loop",
-          "title": "An emotion is a bundle rather than a monolith",
-          "body": "<p>The book distinguishes thoughts, feelings, bodily sensations, and impulses to act. Instead of the global description complete exhaustion, one can notice tense shoulders, a thought about failure, and an urge to leave. These components interact, but distinguishing them makes experience more specific and reveals where an automatic reaction has already begun.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
-    },
-    {
-      "id": "mood-memory",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Круг реакции",
-          "title": "Настроение меняет доступные воспоминания",
-          "body": "<p>В объяснении авторов память зависит от текущего контекста, в том числе эмоционального. Грусть может сделать похожие прошлые переживания более доступными; они начинают выглядеть как полная история собственной жизни. Важен круг обратной связи: настроение подбирает материал, а подобранный материал усиливает настроение. Это модель книги, а не диагноз конкретному читателю.</p>"
-        },
-        "en": {
-          "section": "The reaction loop",
-          "title": "Mood changes which memories become available",
-          "body": "<p>In the authors’ account, memory depends on current context, including emotional context. Sadness can make similar past experiences more available until they seem to constitute an entire life story. The important feature is feedback: mood selects material, and the selected material reinforces mood. This is the book’s model, not a diagnosis of a particular reader.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
-    },
-    {
-      "id": "body-feedback",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Круг реакции",
-          "title": "Тело участвует в круге реакции",
-          "body": "<p>Авторы не помещают переживания исключительно в голову. Напряжение, усталость и характер движения входят в тот же опыт, что мысли и настроение. Отсюда место тела в программе: обращаясь к непосредственному ощущению, человек исследует другую часть связки. Это не означает, что исправленная поза сама по себе лечит депрессию.</p>"
-        },
-        "en": {
-          "section": "The reaction loop",
-          "title": "The body participates in the reaction loop",
-          "body": "<p>The authors do not place experience exclusively inside the head. Tension, fatigue, and patterns of movement belong to the same experience as thought and mood. This explains the body’s place in the program: attending to direct sensation explores another part of the bundle. It does not imply that correcting posture by itself treats depression.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
     },
     {
       "id": "lucy-case",
-      "level": 3,
+      "level": 2,
       "claimType": "book",
       "sources": [
         1
       ],
+      "locator": "gl2.xhtml · история Люси",
       "copy": {
         "ru": {
-          "section": "Круг реакции",
-          "title": "Успех Люси не защищал её от самокритики",
-          "body": "<p>В истории книги Люси много добилась, но страх не справиться превращал краткий спад сил в обвинение собственной слабости. Работа, когда-то помогавшая пережить трудности, заполнила почти всю жизнь. Кейс показывает, как полезная стратегия может стать негибкой. Он не доказывает, что карьерный успех вызывает депрессию или что все похожие состояния имеют одну причину.</p>"
+          "section": "Когда ум ходит по кругу",
+          "title": "Люси всё делала правильно",
+          "body": "<p>После развода родителей Люси нашла опору в учёбе, затем в работе. Она стала успешным байером, вышла замуж, родила двух дочерей — и всё же чувствовала, что жизнь проходит мимо. Работа заняла почти всё пространство, а обычная усталость теперь вызывала страх неудачи и обвинение в слабости. То, что когда-то помогло, стало действовать слишком негибко.</p>"
         },
         "en": {
-          "section": "The reaction loop",
-          "title": "Lucy’s success did not protect her from self-criticism",
-          "body": "<p>In the book’s account, Lucy has achieved a great deal, yet fear of failing turns a brief loss of energy into an accusation of weakness. Work, once a way through difficulty, has occupied almost all of life. The case illustrates a useful strategy becoming inflexible. It does not establish that career success causes depression or that similar experiences share one cause.</p>"
+          "section": "When the mind goes in circles",
+          "title": "Lucy was doing everything right",
+          "body": "<p>After her parents’ divorce, Lucy found support in study and then work. She became a successful buyer, married, and had two daughters, yet felt life passing her by. Work occupied almost everything, while ordinary tiredness triggered fear of failure and accusations of weakness. What had once helped had become too inflexible.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
+      }
     },
     {
       "id": "doing-mode",
@@ -479,80 +123,17 @@
       "sources": [
         1
       ],
+      "locator": "gl2.xhtml · заключительное объяснение режима действия",
       "copy": {
         "ru": {
-          "section": "Круг реакции",
-          "title": "Решатель задач может получить неподходящую задачу",
-          "body": "<p>Режим действия сравнивает текущее с желаемым и ищет способ сократить разрыв.</p><div class=\"compare\"><div class=\"compare-item\"><strong>Внешняя задача</strong><p>Для маршрута, ремонта или плана сравнение помогает определить следующий шаг.</p></div><div class=\"compare-item\"><strong>Приказ чувству</strong><p>Требование немедленно перестать грустить может оставить сравнение без выхода: внимание вновь отмечает расстояние до нужного состояния.</p></div></div>"
+          "section": "Когда ум ходит по кругу",
+          "title": "Решать чувство как задачу",
+          "body": "<p>Режим действия сравнивает нынешнее с желаемым и сокращает разрыв. Так удобно планировать дорогу или работу. Но требование немедленно стать счастливее снова и снова показывает человеку, что он ещё несчастлив. Авторы предлагают замечать момент, когда полезный анализ превратился в бесплодное пережёвывание собственной несостоятельности.</p>"
         },
         "en": {
-          "section": "The reaction loop",
-          "title": "The problem solver can receive the wrong problem",
-          "body": "<p>Doing mode compares the current state with a desired one and searches for ways to close the gap.</p><div class=\"compare\"><div class=\"compare-item\"><strong>An external task</strong><p>For a route, repair, or plan, comparison helps identify the next step.</p></div><div class=\"compare-item\"><strong>An order to a feeling</strong><p>Demanding an immediate end to sadness can leave comparison unresolved: attention repeatedly measures the distance from the required state.</p></div></div>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
-    },
-    {
-      "id": "discrepancy",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Круг реакции",
-          "title": "Разрыв становится ещё одним источником боли",
-          "body": "<p>К исходному неприятному чувству добавляется мысль, что сейчас должно быть иначе. Затем возникает оценка: если я не могу исправить состояние, со мной что-то не так. Книга показывает, как измерение разрыва перестаёт направлять действие и начинает производить новые поводы для упрёка. Предлагаемая смена режима относится именно к этому моменту.</p>"
-        },
-        "en": {
-          "section": "The reaction loop",
-          "title": "The gap becomes an additional source of distress",
-          "body": "<p>An unpleasant feeling acquires an additional thought: things ought to be different right now. A judgment follows that inability to fix the state means something is wrong with the self. The book shows discrepancy monitoring ceasing to guide action and instead producing further accusations. The proposed change of mode addresses this particular moment.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
-    },
-    {
-      "id": "rumination",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1,
-        4
-      ],
-      "copy": {
-        "ru": {
-          "section": "Круг реакции",
-          "title": "Повторное обдумывание отличается от решения",
-          "body": "<p>В авторской модели важно не количество мыслей, а то, куда они ведут. Разбор конкретного дела может закончиться следующим шагом. Руминация возвращает человека к общим вопросам собственной несостоятельности, не давая нового действия. Умение замечать этот переход позволяет не делать вывод, будто любое мышление вредно и его нужно заменить ощущениями.</p>"
-        },
-        "en": {
-          "section": "The reaction loop",
-          "title": "Repeated thinking differs from solving",
-          "body": "<p>In the authors’ model, what matters is not the number of thoughts but where they lead. Considering a concrete problem can end in a next step. Rumination returns to global questions of personal inadequacy without generating a new action. Recognizing that transition avoids concluding that all thinking is harmful and should be replaced by sensation.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl2.xhtml"
-    },
-    {
-      "id": "keep-planning",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        10
-      ],
-      "copy": {
-        "ru": {
-          "section": "Механизм и данные",
-          "title": "Механизм остаётся исследовательским вопросом",
-          "body": "<p>Первичный анализ 2026 года изучает нейронную динамику при вызванной руминации после MBCT. Изменения связаны с уменьшением руминации и последующими симптомами, но авторы говорят о возможных механизмах. Это поддерживает исследование внимания и телесного опыта, не доказывая всю причинную цепочку книги. Связь показателей не даёт индивидуального прогноза и не превращает метафору в установленную нейробиологию.</p>"
-        },
-        "en": {
-          "section": "Mechanism and evidence",
-          "title": "The mechanism remains a research question",
-          "body": "<p>A 2026 primary analysis examines neural dynamics during induced rumination following MBCT. Changes are associated with reduced rumination and later symptoms, but the authors discuss candidate mechanisms. This supports investigation of attention and bodily experience rather than proving the book’s entire causal chain. Associations between measures provide neither an individual prognosis nor established neurobiology for every metaphor.</p>"
+          "section": "When the mind goes in circles",
+          "title": "Trying to solve a feeling",
+          "body": "<p>Doing mode compares the present with a desired state and closes the gap. It helps plan a journey or complete work. But demanding immediate happiness repeatedly reminds a person that happiness is still missing. The authors ask readers to recognize when useful analysis has become a fruitless rehearsal of personal inadequacy.</p>"
         }
       }
     },
@@ -563,166 +144,40 @@
       "sources": [
         1
       ],
+      "locator": "gl3.xhtml · Семь характеристик",
       "copy": {
         "ru": {
-          "section": "Два режима",
-          "title": "Осознание меняет способ знать происходящее",
-          "body": "<p>Альтернатива книге — не мыслить позитивнее о том же самом, а на время перейти от объяснения к непосредственному восприятию. Звук, дыхание, опора ног и телесная реакция становятся доступными сейчас. Режим осознания не устраняет задачи; он даёт возможность увидеть их и собственную реакцию прежде, чем привычный ответ займёт всё пространство.</p>"
+          "section": "Другой способ внимания",
+          "title": "Почувствовать вместо объяснения",
+          "body": "<p>Режим осознания на время отступает от объяснений к непосредственному опыту: звуку, вкусу, прикосновению, движению дыхания. При этом мысль можно заметить как событие сознания, а не как обязательный приговор. Задачи остаются. Меняется возможность увидеть свою реакцию прежде, чем она автоматически определит следующий шаг.</p>"
         },
         "en": {
-          "section": "Two modes",
-          "title": "Being mode changes how experience is known",
-          "body": "<p>The book’s alternative is not to think more positively about the same thing, but temporarily to shift from explanation to direct perception. Sound, breathing, support under the feet, and bodily reaction become available now. Being mode does not remove tasks; it creates an opportunity to notice them and one’s response before a habitual answer fills the space.</p>"
+          "section": "Another way of attending",
+          "title": "Sense rather than explain",
+          "body": "<p>Being mode steps back for a while from explanation into direct experience: sound, taste, touch, the movement of breathing. A thought can then be noticed as an event in the mind rather than a binding verdict. Tasks remain. What changes is the chance to see a reaction before it automatically determines the next step.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
-    },
-    {
-      "id": "autopilot-value",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Два режима",
-          "title": "Автопилот нужен; важна возможность переключиться",
-          "body": "<p>Привычки освобождают внимание: не требуется заново изучать каждое движение при ходьбе или бытовом деле. Проблема начинается, когда такая автоматичность распространяется на всё и подменяет намерение. Книга не предлагает замечать каждую секунду одинаково пристально. Она учит узнавать режим и возвращать выбор там, где повторение уже перестало служить человеку.</p>"
-        },
-        "en": {
-          "section": "Two modes",
-          "title": "Autopilot is useful; switching matters",
-          "body": "<p>Habits free attention: every movement in walking or an ordinary task need not be learned again. Difficulty begins when automaticity spreads everywhere and replaces intention. The book does not demand equally intense monitoring of every second. It teaches recognition of a mode and recovery of choice where repetition has ceased to serve the person.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
-    },
-    {
-      "id": "sense-not-comment",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Два режима",
-          "title": "Описание вкуса не заменяет сам вкус",
-          "body": "<p>Режим анализа работает с названиями, оценками и сравнениями. Сенсорное внимание обращено к тому, как опыт ощущается прямо сейчас. Оба способа могут пригодиться, но они не взаимозаменяемы. Поэтому программа начинается с простых объектов: различие легче обнаружить на знакомой еде, чем понять только через ещё одно абстрактное объяснение.</p>"
-        },
-        "en": {
-          "section": "Two modes",
-          "title": "Describing a taste does not replace tasting",
-          "body": "<p>Analytical mode works with names, evaluations, and comparisons. Sensory attention concerns how experience actually feels now. Both ways of knowing can be useful, but they are not interchangeable. This is why the program begins with simple objects: the distinction is easier to discover with familiar food than to grasp through yet another abstract explanation.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
+      }
     },
     {
       "id": "acceptance-choice",
-      "level": 1,
+      "level": 2,
       "claimType": "book",
       "sources": [
         1
       ],
+      "locator": "gl3.xhtml · характеристики 3–6",
       "copy": {
         "ru": {
-          "section": "Два режима",
-          "title": "Признать происходящее — значит уточнить точку старта",
-          "body": "<p>В книге принятие означает заметить уже существующий опыт, прежде чем воевать с ним. Оно не требует одобрять несправедливость или отказываться менять ситуацию. Если человек признаёт страх, он получает более точную исходную точку для действия. Борьба с самим фактом страха иногда только добавляет новую задачу к той, что уже существует.</p>"
+          "section": "Другой способ внимания",
+          "title": "Принять — и получить выбор",
+          "body": "<p>Принять чувство в этой книге означает признать уже происходящее. Это не покорность обстоятельствам. Вместо спора с самим фактом страха или усталости человек пробует встретить их с любопытством и сочувствием. Память остаётся памятью, план — планом: их можно использовать, не переживая каждую внутреннюю историю как событие настоящего.</p>"
         },
         "en": {
-          "section": "Two modes",
-          "title": "Acknowledgment clarifies the starting point",
-          "body": "<p>In the book, acceptance means noticing experience that already exists before fighting it. It requires neither approval of injustice nor refusal to change a situation. Acknowledging fear can provide a more accurate starting point for action. Fighting the mere fact of fear may simply add another task to the one already present.</p>"
+          "section": "Another way of attending",
+          "title": "Acceptance opens a choice",
+          "body": "<p>Acceptance here means acknowledging what is already happening, rather than surrendering to circumstances. Instead of arguing with the existence of fear or tiredness, a person tries meeting it with curiosity and care. A memory remains a memory and a plan a plan: both can be used without reliving every internal story as a present event.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
-    },
-    {
-      "id": "thoughts-events",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Два режима",
-          "title": "Мысль является событием, а её содержание требует проверки",
-          "body": "<p>Авторы предлагают видеть мысль как возникающий в сознании комментарий. Она может содержать полезную информацию, ошибку, прогноз или привычный упрёк. Сам факт её появления ещё не устанавливает истинность. Такое различение не обесценивает мышление: оно уменьшает принуждение немедленно поверить каждой внутренней фразе и выполнить подразумеваемый ею приказ.</p>"
-        },
-        "en": {
-          "section": "Two modes",
-          "title": "A thought is an event; its content needs assessment",
-          "body": "<p>The authors invite readers to notice a thought as a comment arising in the mind. It may contain useful information, a mistake, a prediction, or a familiar accusation. Its occurrence alone does not establish its truth. This distinction preserves the value of thinking while reducing pressure to believe every internal sentence immediately and obey its implied command.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
-    },
-    {
-      "id": "approach-limit",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Два режима",
-          "title": "Любопытство отличается от принуждения терпеть",
-          "body": "<p>Один из контрастов книги — привычное избегание неприятного и возможность осторожно приблизиться к опыту. Речь идёт о готовности заметить реакцию, а не о героическом преодолении любых пределов. Позже программа прямо выбирает посильную трудность. Сохранять эту постепенность необходимо, иначе идея открытости легко превращается в очередное требование к себе.</p>"
-        },
-        "en": {
-          "section": "Two modes",
-          "title": "Curiosity differs from being forced to endure",
-          "body": "<p>One of the book’s contrasts is habitual avoidance versus cautiously approaching experience. The point is willingness to notice a reaction rather than heroic endurance beyond every limit. Later the program explicitly selects a manageable difficulty. Preserving that gradual progression matters; otherwise openness easily becomes another demand imposed on oneself.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
-    },
-    {
-      "id": "mental-time",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Два режима",
-          "title": "Память и прогнозы не происходят заново прямо сейчас",
-          "body": "<p>Воспоминания и планирование полезны, но могут захватывать внимание так, будто переживаемая история уже снова стала внешней реальностью. Программа учит замечать путешествие в прошлое или будущее и находить текущий сенсорный контекст. Это различение времени, а не предложение забыть историю, отменить обязательства или перестать готовиться к реальным событиям.</p>"
-        },
-        "en": {
-          "section": "Two modes",
-          "title": "Memories and predictions are not happening again now",
-          "body": "<p>Remembering and planning are useful, yet can capture attention as though an internal story has again become external reality. The program teaches noticing travel into past or future and finding the current sensory context. This distinguishes times rather than asking anyone to forget history, cancel obligations, or stop preparing for real events.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
-    },
-    {
-      "id": "nourishment-axis",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Два режима",
-          "title": "Ресурсы зависят и от состава повседневности",
-          "body": "<p>Последний из семи контрастов авторов касается дел, которые питают человека или истощают его. Осознанность здесь выходит за пределы сидячей практики: нужно увидеть, что реально занимает день. Позже седьмая неделя возвращается к этому вопросу, чтобы связь между вниманием и выбором была выражена в изменении занятий, а не осталась красивой идеей.</p>"
-        },
-        "en": {
-          "section": "Two modes",
-          "title": "Resources also depend on the composition of daily life",
-          "body": "<p>The last of the authors’ seven contrasts concerns activities that nourish a person or drain them. Mindfulness here extends beyond sitting practice: what actually occupies the day must become visible. Week seven returns to this question so that the relationship between attention and choice appears in changed activities rather than remaining an attractive idea.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl3.xhtml"
+      }
     },
     {
       "id": "eight-weeks",
@@ -731,165 +186,59 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
+      "locator": "gl4.xhtml · Описание программы по неделям",
       "copy": {
         "ru": {
           "section": "Подготовка",
-          "title": "Восемь недель строят навык по частям",
-          "body": "<p>Первые недели помогают удерживать внимание и различать ощущение с мыслью о нём. Затем поле расширяется: мысли, сложности, доброта к себе, повседневные действия. Последняя неделя посвящена продолжению. Порядок важен, потому что работа с трудностью опирается на уже знакомые способы возвращения, а не предлагается как первая проверка силы воли.</p>"
+          "title": "Навык складывается постепенно",
+          "body": "<p>Первые недели знакомят с телом и возвращением внимания. Затем появляются мысли, посильная сложность, дружественное отношение к себе и выбор действий. Каждая неделя соединяет отдельные медитации с небольшим изменением привычки. Авторы просят выделить для этого реальное время: понимание объяснения не заменяет повторяющегося опыта.</p>"
         },
         "en": {
           "section": "Preparation",
-          "title": "Eight weeks build the skill in stages",
-          "body": "<p>The first weeks stabilize attention and distinguish a sensation from thinking about it. The field then expands to thoughts, difficulty, self-kindness, and everyday action. The final week concerns continuation. The order matters because engaging with difficulty relies on familiar ways of returning; it is not presented as an initial test of willpower.</p>"
+          "title": "A skill grows in stages",
+          "body": "<p>The first weeks introduce the body and the return of attention. Thoughts, manageable difficulty, self-kindness, and choices of action follow. Each week combines dedicated meditations with a small habit change. The authors ask for real time to be set aside: understanding an explanation does not replace repeated experience.</p>"
         }
       }
     },
     {
-      "id": "sequence-map",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Подготовка",
-          "title": "Каждая новая практика меняет один аспект отношения",
-          "body": "<p>Авторы не предлагают восемь несвязанных способов расслабиться. Еда раскрывает автоматизм; сканирование тела — прямое ощущение; движение — отношение к усилию; звуки — отношение к мыслям. Далее появляются принятие и дружественность. Разные входы учат одной возможности: заметить привычный режим и отнестись к опыту иначе, прежде чем снова выбирать действие.</p>"
-        },
-        "en": {
-          "section": "Preparation",
-          "title": "Each new practice changes an aspect of relationship",
-          "body": "<p>The authors do not offer eight unrelated relaxation techniques. Eating reveals automaticity; the body scan reveals direct sensation; movement reveals the relationship to effort; sounds reveal the relationship to thoughts. Acceptance and befriending follow. Different entry points teach the same possibility: notice a habitual mode and relate differently to experience before choosing another action.</p>"
-        }
-      }
-    },
-    {
-      "id": "time-commitment",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Подготовка",
-          "title": "Краткое чтение не сокращает время обучения",
-          "body": "<p>В издательской подаче выделяются короткие ежедневные занятия, но в отдельных неделях книга сочетает несколько практик и передышки. Поэтому оценка времени этого файла относится только к чтению. Она не означает, что восьминедельный процесс можно пройти за час, и не устанавливает минимальную дозу с гарантированной пользой. Навык нельзя подтвердить одним завершённым счётчиком экранов.</p>"
-        },
-        "en": {
-          "section": "Preparation",
-          "title": "A short reading does not compress learning time",
-          "body": "<p>Promotional descriptions highlight short daily sessions, but individual weeks combine several practices and breathing spaces. This file’s time estimate therefore refers only to reading. It does not imply that eight weeks of learning can be completed in an hour or establish a minimum dose with guaranteed benefit. A completed screen counter cannot establish a skill.</p>"
-        }
-      }
-    },
-    {
-      "id": "formal-informal",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Подготовка",
-          "title": "Отдельное занятие и обычный день поддерживают друг друга",
-          "body": "<p>Формальная медитация создаёт место для внимательного наблюдения без параллельной задачи. Повседневные упражнения проверяют, доступно ли это качество внимания при еде, прогулке или работе. В книге они образуют пару. Только специальное занятие может остаться отдельным островом, а только намерение быть внимательнее легко исчезает при первой сильной спешке.</p>"
-        },
-        "en": {
-          "section": "Preparation",
-          "title": "Dedicated practice and ordinary life support each other",
-          "body": "<p>Formal meditation creates space for observation without a competing task. Everyday exercises explore whether that quality of attention is available while eating, walking, or working. The book pairs them. Dedicated sessions alone can remain isolated islands, while an unsupported intention to be more attentive can disappear at the first intense rush.</p>"
-        }
-      }
-    },
-    {
-      "id": "habit-releasers",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Подготовка",
-          "title": "Небольшое изменение привычки показывает её власть",
-          "body": "<p>Еженедельные приёмы освобождения от привычек нарочно просты: другое место, прогулка, иначе выбранное развлечение. Они не должны перестроить всю жизнь за один вечер. Их работа — сделать незаметное решение заметным и вернуть любопытство. Неудобство или сопротивление становятся материалом наблюдения, а не доказательством, что привычка сама по себе плоха.</p>"
-        },
-        "en": {
-          "section": "Preparation",
-          "title": "A small habit change makes its power visible",
-          "body": "<p>The weekly habit releasers are deliberately simple: a different seat, a walk, choosing entertainment differently. They need not redesign life in an evening. Their job is to make an unnoticed decision visible and restore curiosity. Discomfort or resistance becomes something to observe rather than proof that the habit itself is bad.</p>"
-        }
-      }
-    },
-    {
-      "id": "make-space",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Подготовка",
-          "title": "Время для практики приходится выделять",
-          "body": "<p>Книга признаёт, что свободные полчаса обычно уже заняты. Поэтому подготовка касается расписания, тёплого удобного места и возможности уменьшить прерывания. Если практика переносится на утро, авторы отдельно напоминают раньше ложиться. Идея — создать условия для обучения, а не получить ещё одно достижение ценой сна и дополнительного истощения.</p>"
-        },
-        "en": {
-          "section": "Preparation",
-          "title": "Practice time needs to be allocated",
-          "body": "<p>The book acknowledges that spare time is usually already occupied. Preparation therefore involves a schedule, a warm comfortable place, and fewer interruptions where possible. If practice moves into the morning, the authors explicitly mention going to bed earlier. The idea is to create conditions for learning rather than secure another achievement through less sleep and greater exhaustion.</p>"
-        }
-      }
-    },
-    {
-      "id": "process-not-score",
+      "id": "clinical-origins",
       "level": 3,
       "claimType": "book",
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
+      "locator": "gl1–gl4.xhtml; история MBCT",
       "copy": {
         "ru": {
           "section": "Подготовка",
-          "title": "Спокойствие не становится ежедневной оценкой",
-          "body": "<p>Авторское предупреждение перед программой: беспокойство, скука и сонливость могут создавать впечатление неудачи. Но цель не сводится к производству определённого состояния. Замечать эти явления — часть наблюдения. Это описание обычных трудностей обучения; оно не даёт основания считать любое ухудшение безопасным или обязательно продолжать практику, которая заметно дестабилизирует человека.</p>"
+          "title": "От терапии — к самостоятельному обучению",
+          "body": "<p>Книга выросла из работы Уильямса, Тисдейла и Сигала над когнитивной терапией на основе осознанности — MBCT, опиравшейся и на программу Кабат-Зинна. Но книга рассчитана не только на людей с повторяющейся депрессией. Она предлагает более широкому читателю последовательное знакомство с навыками, которые прежде изучались в клинической работе.</p>"
         },
         "en": {
           "section": "Preparation",
-          "title": "Calm does not become the daily score",
-          "body": "<p>The authors warn that restlessness, boredom, or sleepiness can feel like failure. Yet the task is not simply to manufacture a specified state. Noticing these experiences belongs to observation itself. This describes ordinary learning difficulties; it does not establish that every deterioration is safe or require persistence with a practice that clearly destabilizes someone.</p>"
+          "title": "From therapy to self-directed learning",
+          "body": "<p>The book grew from Williams, Teasdale, and Segal’s work on mindfulness-based cognitive therapy, MBCT, drawing also on Kabat-Zinn’s program. Its readership extends beyond people with recurrent depression. It offers a broader audience a gradual introduction to skills previously developed in clinical work.</p>"
         }
       }
     },
     {
-      "id": "reading-scope",
-      "level": 3,
-      "claimType": "synthesis",
+      "id": "book-versus-therapy",
+      "level": 2,
+      "claimType": "corroboration",
       "sources": [
-        1,
-        3
+        5
       ],
-      "epubLocator": "OEBPS/Text/gl4.xhtml",
+      "locator": "NCCIH · safety and conventional care",
       "copy": {
         "ru": {
-          "section": "Подготовка",
-          "title": "Карта объясняет назначение, а не заменяет руководство",
-          "body": "<p>Дальше изложено, чему авторы отводят каждую практику. Полные медитативные сценарии здесь не воспроизводятся: их последовательность, длительность и адаптация имеют значение. Для знакомства с оригинальной подачей в источниках указан официальный ресурс записей. Наличие ссылки не превращает этот файл в курс и не переносит на него результаты исследований клинических программ.</p>"
+          "section": "Перед практикой",
+          "title": "Краткое чтение — не курс лечения",
+          "body": "<p>Этот пересказ объясняет книгу, но не заменяет её полные инструкции или помощь специалиста. Важное современное уточнение: медитация не гарантированно безвредна; у некоторых людей усиливаются тревога и подавленность. Заметное ухудшение — причина остановиться и обратиться за подходящей помощью, а не доказательство недостаточного старания. Назначенную помощь чтением не заменяют.</p>"
         },
         "en": {
-          "section": "Preparation",
-          "title": "A map explains purpose rather than replacing guidance",
-          "body": "<p>The following screens explain the role the authors assign to each practice. Complete meditation scripts are not reproduced: sequence, duration, and adaptation matter. Sources include the official recordings for readers interested in the original presentation. Including a link does not turn this file into a course or transfer clinical trial results to it.</p>"
+          "section": "Before practice",
+          "title": "A short read is not treatment",
+          "body": "<p>This account explains the book without replacing its full instructions or professional care. A present-day qualification matters: meditation is not guaranteed harmless, and some people experience increased anxiety or low mood. Clear deterioration calls for stopping and seeking suitable help, rather than trying harder. Reading is no substitute for prescribed care.</p>"
         }
       }
     },
@@ -900,17 +249,17 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
+      "locator": "gl5.xhtml · начало",
       "copy": {
         "ru": {
           "section": "Неделя 1 · Автопилот",
-          "title": "Первая неделя возвращает намерение в знакомое действие",
-          "body": "<p>Алекс из книги идёт переодеться перед вечеринкой и обнаруживает себя в пижаме: привычный вечерний маршрут выбрал цель за него. Это бытовой вход в большую тему. Первая неделя учит замечать автоматический переход и возвращаться к тому, что человек действительно собирался делать, без требования уничтожить все полезные привычки.</p>"
+          "title": "Пижама перед вечеринкой",
+          "body": "<p>Алекс поднялся переодеться перед выходом на вечеринку, задумался о делах — и надел пижаму. Привычная вечерняя последовательность выполнилась без него. С этого узнаваемого сбоя начинается первая неделя: увидеть автопилот и снова соединить намерение с действием. Привычки полезны, пока незаметно не выбирают за человека его жизнь.</p>"
         },
         "en": {
           "section": "Week 1 · Autopilot",
-          "title": "Week one restores intention within a familiar action",
-          "body": "<p>Alex goes upstairs to change for a party and finds himself in pajamas: a familiar evening routine has selected the goal for him. This ordinary episode introduces the larger theme. Week one teaches noticing an automatic transition and returning to the actual intention without demanding the destruction of every useful habit.</p>"
+          "title": "Pajamas before a party",
+          "body": "<p>Alex went upstairs to change for a party, became absorbed in his concerns, and put on pajamas. His familiar evening sequence ran without him. Week one begins with this recognizable slip: notice autopilot and reconnect intention with action. Useful habits can otherwise start choosing unnoticed how a person lives.</p>"
         }
       }
     },
@@ -921,164 +270,59 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
+      "locator": "gl5.xhtml · Изюмная медитация; Повседневные занятия",
       "copy": {
         "ru": {
           "section": "Неделя 1 · Автопилот",
-          "title": "Изюминка показывает разницу между знакомством и вниманием",
-          "body": "<p>Обычный маленький продукт становится объектом рассматривания, осязания, запаха и вкуса. Авторы используют его, чтобы раскрыть детали, которые привычное название уже как будто объяснило. Смысл не в особой силе изюма. Эксперимент противопоставляет знание о знакомом предмете и непосредственное исследование того, что в конкретный момент действительно воспринимается.</p>"
+          "title": "Одна изюминка",
+          "body": "<p>Авторы предлагают исследовать знакомую еду: рассмотреть её, ощутить пальцами, заметить запах, затем вкус и желание проглотить. Изюминка оказывается гораздо подробнее, чем её привычное название. Такое же внимание переносят на одно обычное занятие, например чистку зубов. Не нужно замедлять весь день — достаточно впервые заметить то, что обычно исчезает из него.</p>"
         },
         "en": {
           "section": "Week 1 · Autopilot",
-          "title": "A raisin separates familiarity from attention",
-          "body": "<p>An ordinary small food becomes an object of sight, touch, smell, and taste. The authors use it to reveal details that a familiar label seems already to explain. There is no special power in raisins. The experiment contrasts knowing about a familiar object with directly exploring what is actually perceived at a particular moment.</p>"
-        }
-      }
-    },
-    {
-      "id": "impulse-gap",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 1 · Автопилот",
-          "title": "Между желанием и движением можно заметить переход",
-          "body": "<p>В упражнении с едой авторы обращают внимание не только на вкус, но и на желание начать жевать или проглотить. Обычно эти моменты сливаются. Здесь становится виден импульс до его исполнения. Это маленькая демонстрация различения намерения и действия, а не требование замедлять всю еду или контролировать каждое телесное движение.</p>"
-        },
-        "en": {
-          "section": "Week 1 · Autopilot",
-          "title": "An urge and a movement have a noticeable transition",
-          "body": "<p>The eating exercise attends not only to taste but to the urge to chew or swallow. These moments usually merge. Here an impulse becomes noticeable before it is carried out. This is a small demonstration of distinguishing intention from action, not a demand to slow every meal or control every bodily movement.</p>"
-        }
-      }
-    },
-    {
-      "id": "one-routine",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 1 · Автопилот",
-          "title": "Для переноса навыка достаточно одной знакомой сцены",
-          "body": "<p>Чистка зубов или душ служат в книге примерами повседневного внимания. Нового события не требуется: меняется участие в уже происходящем. Авторы подчёркивают, что не обязательно выполнять действие медленнее или искать особое переживание. Важнее заметить текущие ощущения и тот момент, когда внимание опять ушло в планирование следующего дела.</p>"
-        },
-        "en": {
-          "section": "Week 1 · Autopilot",
-          "title": "One familiar scene can carry the learning into life",
-          "body": "<p>Brushing teeth or showering are the book’s examples of everyday attention. No new event is needed: participation in an existing one changes. The authors emphasize that the action need not become slower or produce a special experience. What matters is noticing present sensations and the moment attention moves back into planning the next task.</p>"
+          "title": "A single raisin",
+          "body": "<p>The authors explore familiar food through sight, touch, smell, taste, and the urge to swallow. A raisin contains more detail than its familiar name suggests. The same attention is brought to one routine activity, such as brushing teeth. The whole day need not slow down; something usually lost from it becomes noticeable.</p>"
         }
       }
     },
     {
       "id": "breath-anchor",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 1 · Автопилот",
-          "title": "Дыхание используется как ориентир, а не экзамен",
-          "body": "<p>Дыхание происходит сейчас и даёт повторяющийся телесный ориентир. В первой основной практике внимание возвращается к ощущениям тела и дыхания. Авторы не предлагают заслужить правильный вдох или управлять каждым выдохом. Роль ориентира — помочь заметить уход внимания; задача возвращения отличается от требования держаться за один объект без малейшего перерыва.</p>"
-        },
-        "en": {
-          "section": "Week 1 · Autopilot",
-          "title": "Breathing serves as an anchor rather than an exam",
-          "body": "<p>Breathing happens now and offers a recurring bodily reference. The first main practice returns attention to sensations of body and breath. The authors do not ask readers to earn a correct inhalation or control every exhalation. The anchor helps reveal wandering; returning differs from demanding an unbroken grip on a single object.</p>"
-        }
-      }
-    },
-    {
-      "id": "return-kindly",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 1 · Автопилот",
-          "title": "Заметить отвлечение — уже момент осознания",
-          "body": "<p>Во время практики внимание уходит в планы, образы и воспоминания. Когда это обнаруживается, возникает возможность вернуться без наказания. В логике книги ключевым становится именно этот переход: человек уже увидел работу сознания, а не только оказался внутри очередной истории. Повторение возвращений важнее фантазии о занятии, в котором ни одна мысль не появилась.</p>"
-        },
-        "en": {
-          "section": "Week 1 · Autopilot",
-          "title": "Noticing distraction is already a moment of awareness",
-          "body": "<p>During practice, attention moves into plans, images, and memories. Discovering this creates an opportunity to return without punishment. In the book’s logic, this transition is central: the person has noticed the mind working instead of only inhabiting another story. Repeated returns matter more than the fantasy of a session in which no thought appears.</p>"
-        }
-      }
-    },
-    {
-      "id": "hannah-weather",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 1 · Автопилот",
-          "title": "Ханна научилась наблюдать погоду сознания",
-          "body": "<p>Ханна сначала тоже ждала пустой головы, а затем стала различать бурные и спокойные периоды. В её истории мысли уподобляются погоде над озером. Значение кейса — в смене позиции наблюдения, а не в обещании навсегда остановить внутреннюю бурю. Личный рассказ показывает возможное переживание программы, но не предсказывает опыт каждого читателя.</p>"
-        },
-        "en": {
-          "section": "Week 1 · Autopilot",
-          "title": "Hannah learned to observe the mind’s weather",
-          "body": "<p>Hannah initially expects an empty head, then begins distinguishing turbulent and calmer periods. Her account compares thoughts to weather over a lake. The case concerns a changed observing position rather than a promise to end internal storms permanently. A personal account illustrates a possible experience of the program without predicting every reader’s experience.</p>"
-        }
-      }
-    },
-    {
-      "id": "change-seat",
       "level": 2,
       "claimType": "book",
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
+      "locator": "gl5.xhtml · Осознанность тела и дыхания",
       "copy": {
         "ru": {
           "section": "Неделя 1 · Автопилот",
-          "title": "Другой стул обнаруживает невидимое решение",
-          "body": "<p>Приём первой недели предлагает изменить привычное место. Человек обнаруживает, что часть пространства уже давно распределена без нового решения: здесь я сижу, отсюда смотрю. Небольшое смещение помогает увидеть знакомую сцену иначе и заметить сопротивление. Ценность в исследовании автоматизма, а не в обязанности ежедневно искать необычное ради необычного.</p>"
+          "title": "Вернуться к дыханию",
+          "body": "<p>В основной медитации сначала замечают опору и ощущения тела, затем естественное движение дыхания. Управлять вдохом не требуется. Внимание неизбежно уйдёт в планы и воспоминания. Обнаружив это, человек мягко возвращается к ощущениям: само обнаружение отвлечения уже стало мгновением осознанности. Это повторение, а не экзамен на пустую голову.</p>"
         },
         "en": {
           "section": "Week 1 · Autopilot",
-          "title": "A different seat reveals an invisible decision",
-          "body": "<p>The first week’s habit releaser changes a familiar seat. It reveals that space has long been assigned without a fresh decision: this is where I sit and look from. A small shift offers a different view of a familiar scene and makes resistance visible. The value is exploring automaticity, not compulsory novelty for its own sake.</p>"
+          "title": "Return to breathing",
+          "body": "<p>The main meditation begins with bodily support and sensations, then the natural movement of breathing. The breath need not be controlled. Attention inevitably wanders into plans and memories. On noticing this, the person gently returns to sensation: noticing distraction is itself a moment of awareness. This is repetition, not a test of an empty mind.</p>"
         }
       }
     },
     {
-      "id": "missed-session",
+      "id": "change-seat",
       "level": 3,
       "claimType": "book",
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl5.xhtml",
+      "locator": "gl5.xhtml · Насиженное место",
       "copy": {
         "ru": {
           "section": "Неделя 1 · Автопилот",
-          "title": "Пропуск тоже может показать привычный внутренний голос",
-          "body": "<p>Авторы заранее учитывают, что занятость иногда вытеснит практику. Они предлагают не делать из этого повод для нападения на себя: можно заметить, как быстро возникла оценка неудачи. Так схема программы сохраняет последовательность и доброту одновременно. Пропуск не превращается ни в катастрофу, ни в доказательство, что для обучения вообще не нужны условия.</p>"
+          "title": "Сесть в другом месте",
+          "body": "<p>Первое изменение привычки совсем невелико: поменять привычное место. Другой стул даёт иной вид знакомой комнаты и обнаруживает, насколько прочно был закреплён прежний выбор. Авторы используют такие небольшие сдвиги всю программу. Они возвращают любопытство в обыденность, вместо того чтобы требовать необыкновенных переживаний.</p>"
         },
         "en": {
           "section": "Week 1 · Autopilot",
-          "title": "A missed session can reveal a familiar internal voice",
-          "body": "<p>The authors anticipate that busyness will sometimes displace practice. They discourage turning this into self-attack: the quick appearance of a failure judgment can itself be noticed. The program thus holds consistency and kindness together. A missed session becomes neither a catastrophe nor proof that learning requires no supportive conditions.</p>"
+          "title": "Take a different seat",
+          "body": "<p>The first habit change is small: sit somewhere different. Another seat gives a new view of a familiar room and reveals how firmly the old choice was fixed. Such small shifts recur throughout the program, bringing curiosity back to ordinary life instead of demanding extraordinary experiences.</p>"
         }
       }
     },
@@ -1089,59 +333,17 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
+      "locator": "gl6.xhtml · Сканирование тела",
       "copy": {
         "ru": {
           "section": "Неделя 2 · Тело",
-          "title": "Вторая неделя различает ощущение и рассказ о теле",
-          "body": "<p>Можно часами думать о собственной усталости и почти не замечать, что именно ощущается. Сканирование тела возвращает внимание к конкретным участкам и их текущему опыту. Эта неделя не делает тело ещё одним проектом исправления. Она исследует, как ощущение отличается от оценки, ожидания и объяснения, которые обычно приходят вместе с ним.</p>"
+          "title": "Не думать о теле, а чувствовать его",
+          "body": "<p>На второй неделе внимание последовательно проходит по участкам тела и в конце охватывает его целиком. Это сканирование учит различать ощущение и рассказ о нём. Где-то ощущение яркое, где-то почти отсутствует; придумывать его не нужно. Задача — исследовать доступный опыт, а не добиться определённой степени расслабления.</p>"
         },
         "en": {
           "section": "Week 2 · Body",
-          "title": "Week two distinguishes sensation from a story about the body",
-          "body": "<p>One can think about fatigue for hours while hardly noticing what is actually felt. The body scan returns attention to particular regions and their present experience. This week does not make the body another improvement project. It explores how sensation differs from the evaluation, expectation, and explanation that usually accompany it.</p>"
-        }
-      }
-    },
-    {
-      "id": "scan-purpose",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Сканирование тренирует способ внимания",
-          "body": "<p>Последовательное обращение к телу помогает обнаружить, где есть отчётливое ощущение, где оно едва заметно, а где внимание уже ушло. Авторы рассматривают эту практику как исследование, а не поиск скрытой неисправности. Прямой контакт с телом отличается от бесконечной проверки, достаточно ли человек расслаблен и хорошо ли выполнил очередное занятие.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "The scan trains a way of attending",
-          "body": "<p>Moving attention through the body reveals where sensation is distinct, where it is faint, and where attention has wandered. The authors frame this as exploration rather than a search for hidden defects. Direct bodily contact differs from repeatedly checking whether one is relaxed enough or has performed the latest session correctly.</p>"
-        }
-      }
-    },
-    {
-      "id": "no-sensation",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Отсутствие яркого ощущения не требует его выдумывать",
-          "body": "<p>Книга учитывает, что обычные телесные ощущения иногда почти не различаются. Это может удивить человека, который чувствует боль и нормально пользуется осязанием. Авторы предлагают заметить именно доступный опыт. Такой ход сохраняет исследовательскую позицию: не нужно производить сенсорный результат ради соответствия воображаемому правильному сканированию.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "A faint sensation need not be invented",
-          "body": "<p>The book acknowledges that ordinary bodily sensations can be hard to distinguish. This may surprise someone who feels pain and has ordinary touch sensitivity. The authors invite attention to the experience that is actually available. This preserves exploration: no sensory result needs to be manufactured to match an imagined correct body scan.</p>"
+          "title": "Feel the body directly",
+          "body": "<p>In week two, attention moves through regions of the body and finally includes it as a whole. The body scan distinguishes sensation from a story about sensation. Some regions feel vivid and others almost blank; nothing needs to be invented. The task is exploring available experience rather than attaining a prescribed degree of relaxation.</p>"
         }
       }
     },
@@ -1152,122 +354,17 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
+      "locator": "gl6.xhtml · Ожидания и реальность; прогулка",
       "copy": {
         "ru": {
           "section": "Неделя 2 · Тело",
-          "title": "Проверка расслабления может вернуть режим действия",
-          "body": "<p>Человек начинает сканирование, чтобы успокоиться, затем оценивает, получилось ли, и раздражается на отсутствие нужного эффекта. Книга показывает в этой сцене знакомое сравнение желаемого с действительным. Вторая неделя важна тем, что сама практика делает режим действия видимым. Медитацию тоже легко превратить в задачу, которая постоянно сообщает о несоответствии.</p>"
+          "title": "Проверка результата возвращает старую ловушку",
+          "body": "<p>Во время сканирования легко начать проверять, стало ли спокойнее, и сердиться, если нет. Так режим действия проникает в саму медитацию. Авторы возвращают мягкое внимание к тому, что есть. Сонливость тоже замечают без упрёков; при необходимости меняют положение или открывают глаза. Прогулка переносит исследование ощущений в движение.</p>"
         },
         "en": {
           "section": "Week 2 · Body",
-          "title": "Checking for relaxation can bring doing mode back",
-          "body": "<p>Someone begins a scan to become calm, checks whether it worked, then becomes irritated at the missing effect. The book identifies the familiar comparison between desired and actual states. Week two matters because practice itself makes doing mode visible. Meditation can also become a task that continually reports a failure to measure up.</p>"
-        }
-      }
-    },
-    {
-      "id": "sleep-information",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Сонливость сообщает об условиях практики",
-          "body": "<p>Некоторые участники книги засыпают при сканировании лёжа. Авторы предлагают не ругать себя и при необходимости менять положение или открывать глаза. Рассказ возвращает внимание к фактической усталости, которую прежде игнорировали. Это не универсальное объяснение сонливости и не лечение нарушений сна: здесь важна возможность заметить потребность тела вместо очередного морального вывода.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "Sleepiness provides information about practice conditions",
-          "body": "<p>Some participants fall asleep during a lying-down body scan. The authors discourage self-blame and suggest changing position or opening the eyes if needed. The account returns attention to actual tiredness previously ignored. This is neither a universal explanation of sleepiness nor a sleep-disorder treatment; its point is noticing bodily need instead of making another moral judgment.</p>"
-        }
-      }
-    },
-    {
-      "id": "elsa-case",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Элса перестала соревноваться со своим сознанием",
-          "body": "<p>В истории Элсы беспокойство во время сканирования выглядело ещё одной проблемой, которую необходимо победить. Позже она заметила саму привычку превращать опыт в состязание. Важный сдвиг — не превосходный контроль, а узнавание отношения. Так кейс добавляет к инструкции человеческую трудность: даже намерение относиться мягче сначала может исполняться с напряжённым требованием результата.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "Elsa stopped competing against her mind",
-          "body": "<p>In Elsa’s account, restlessness during the scan becomes another problem to defeat. Later she notices the habit of turning experience into a competition. The shift concerns recognizing a relationship rather than gaining superior control. The case adds a human difficulty: even the intention to be gentler can initially be pursued with a tense demand for results.</p>"
-        }
-      }
-    },
-    {
-      "id": "walk-senses",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Прогулка меняет внимание без обязательной смены места",
-          "body": "<p>Приём второй недели — внимательно пройтись, замечая движение тела, звуки, запахи и свет. Книга не требует особого ландшафта: знакомая улица тоже содержит нерассмотренные детали. Это перенос сенсорной практики в движение. Новизну создаёт не только поездка в другое место, но и способ участвовать в уже известном окружении.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "A walk can change attention without a new destination",
-          "body": "<p>The second week’s habit releaser is an attentive walk, noticing movement, sounds, smells, and light. The book requires no special landscape: a familiar street also contains unexamined detail. Sensory practice moves into motion. Novelty comes not only from traveling elsewhere but from how one participates in surroundings that are already known.</p>"
-        }
-      }
-    },
-    {
-      "id": "gratitude-detail",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Благодарность направляет внимание на незаметные события",
-          "body": "<p>Авторы предлагают вспоминать десять поводов для благодарности, пересчитывая их по пальцам. После первых очевидных ответов приходится увидеть малые события дня. Число здесь задаёт устройство авторского упражнения, а не научно установленный оптимум. Его смысл — расширить замечаемый материал, а не доказать себе, что любая трудность обязана вызывать благодарность.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "Gratitude directs attention toward overlooked events",
-          "body": "<p>The authors suggest recalling ten things to appreciate, counting them on the fingers. After the obvious first answers, smaller events need to be noticed. The number structures their exercise rather than establishing a scientifically optimal dose. Its purpose is to broaden what becomes visible, not prove that every difficulty ought to inspire gratitude.</p>"
-        }
-      }
-    },
-    {
-      "id": "pleasant-not-force",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl6.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 2 · Тело",
-          "title": "Замечать приятное не значит отменять неприятное",
-          "body": "<p>Прогулка и благодарность могут прозвучать как требование немедленно увидеть хорошее. Но логика этой недели допускает и скуку, и отсутствие яркого эффекта. Поэтому полезно различать расширение внимания и принудительную позитивность. Первое добавляет детали к опыту; второе запрещает часть опыта и тем самым возвращает борьбу, которую книга пытается сделать заметной.</p>"
-        },
-        "en": {
-          "section": "Week 2 · Body",
-          "title": "Noticing pleasure does not cancel distress",
-          "body": "<p>Walking and gratitude can sound like demands to find something positive immediately. Yet the week’s logic allows boredom and the absence of a vivid effect. It helps to distinguish broadening attention from forced positivity. The former adds detail to experience; the latter forbids part of experience and recreates the struggle the book is trying to reveal.</p>"
+          "title": "Checking the result revives the trap",
+          "body": "<p>During a scan, it is easy to check whether calm has arrived and become annoyed when it has not. Doing mode has entered meditation itself. The authors return to gentle attention to what is here. Sleepiness can be noticed without blame; posture or open eyes can help. An attentive walk brings sensory exploration into movement.</p>"
         }
       }
     },
@@ -1278,206 +375,38 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
+      "locator": "gl4.xhtml · неделя 3; gl7.xhtml · Осознанное движение",
       "copy": {
         "ru": {
           "section": "Неделя 3 · Движение",
-          "title": "Третья неделя переносит осознание в движение",
-          "body": "<p>После неподвижного наблюдения программа обращается к движению. Внимание замечает ощущения во время простых растяжений и отношение к границам усилия. Новая задача — не сделать упражнение красивее, а увидеть, как человек стремится, сравнивает, пугается или продолжает автоматически. Это помогает связать отдельное занятие с подвижной и требовательной повседневностью.</p>"
+          "title": "Предел движения",
+          "body": "<p>Простые движения и растяжения делают заметными усилие и пределы тела. Кто-то тянется дальше возможного, кто-то пугается любого неудобства. Авторы предлагают исследовать собственную реакцию, не соревнуясь с чужой. После движения программа возвращается к телу и дыханию: внимание учится сохраняться, когда человек уже не неподвижен.</p>"
         },
         "en": {
           "section": "Week 3 · Movement",
-          "title": "Week three brings awareness into movement",
-          "body": "<p>After relatively still observation, the program turns to movement. Attention notices sensations during simple stretches and the relationship to the limits of effort. The new task is not to make an exercise look better, but to recognize striving, comparing, fear, or automatic continuation. This connects dedicated practice with an active and demanding everyday life.</p>"
-        }
-      }
-    },
-    {
-      "id": "movement-safety",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Движение",
-          "title": "Движение не должно доказывать выносливость",
-          "body": "<p>Сама книга предупреждает: при боли в спине или других участках тела сначала нужна консультация врача или физиотерапевта. Её движения не предлагаются как соревнование. Для понимания главы достаточно сохранить принцип: возможности тела и доступная амплитуда имеют значение. Внимание к границе отличается от давления на неё ради выполнения идеальной формы.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Movement",
-          "title": "Movement need not demonstrate endurance",
-          "body": "<p>The book itself warns that back pain or pain elsewhere calls for consultation with a doctor or physiotherapist before these movements. They are not offered as a competition. The chapter’s principle is that bodily capacity and available range matter. Attending to a limit differs from pushing against it to achieve an ideal shape.</p>"
-        }
-      }
-    },
-    {
-      "id": "striving-pattern",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "И чрезмерное усилие, и страх раскрывают отношение",
-          "body": "<p>В рассказах о движении одни участники обнаруживают привычку тянуться слишком сильно, другие — немедленно останавливаться при любом дискомфорте. Авторы используют различия, чтобы показать, как одна практика выявляет разные паттерны. Значит, копировать чужое ощущение бессмысленно. Важнее узнавать собственную реакцию, сохраняя бережность и не превращая сравнение участников в оценку правильности.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "Both overexertion and fear reveal a relationship",
-          "body": "<p>In the movement accounts, some participants discover a habit of stretching too hard; others stop immediately at any discomfort. The authors use these differences to show one practice revealing different patterns. Reproducing someone else’s sensation would miss the point. Recognizing one’s own response matters more, with care rather than ranking participants by correctness.</p>"
-        }
-      }
-    },
-    {
-      "id": "donkey-parable",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "Притча об осле меняет способ приглашать к действию",
-          "body": "<p>Мальчик безуспешно тянет осла за верёвку; дед предлагает другой способ, оставляющий животному возможность двинуться. В книге это образ отношения к собственному сознанию: более сильное принуждение не всегда даёт движение. Притча не доказывает психологический закон и не отменяет необходимости усилий. Она делает различимыми давление и создание условий.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "The donkey parable changes how action is invited",
-          "body": "<p>A boy unsuccessfully pulls a donkey by a rope; his grandfather offers another approach that allows it to move. The book uses this as an image for relating to one’s own mind: greater coercion does not always generate movement. The parable proves no psychological law and abolishes no need for effort. It distinguishes pressure from creating conditions.</p>"
-        }
-      }
-    },
-    {
-      "id": "maze-example",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "Мышь в лабиринте иллюстрирует разные установки",
-          "body": "<p>Книга пересказывает эксперимент: в одном варианте мышь движется к сыру, в другом избегает совы; после задания авторы связывают установку с различиями в творческих результатах. Здесь это сохранено как иллюстрация авторской идеи приближения и избегания. Мы не используем отдельный эксперимент как универсальное доказательство, что положительная установка всегда повышает творческие способности.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "The maze mouse illustrates different orientations",
-          "body": "<p>The book recounts an experiment: one maze mouse moves toward cheese, another avoids an owl; the account connects this framing with later differences on creativity tasks. Here it illustrates the authors’ approach–avoidance distinction. A single experiment is not treated as universal proof that a positive orientation always improves creativity.</p>"
+          "title": "The edge of a movement",
+          "body": "<p>Simple movements and stretches reveal effort and bodily limits. One person pushes beyond what is possible; another fears any discomfort. The authors explore each person’s response without competition. After movement, the program returns to body and breath: awareness is learning to remain available beyond stillness.</p>"
         }
       }
     },
     {
       "id": "breathing-space",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "Короткая передышка связывает практику с трудным моментом",
-          "body": "<p>Отдельное занятие легче помнить в спокойной комнате, чем посреди перегруженного дня. Поэтому третья неделя вводит короткую медитацию-передышку. Она создаёт переход от автоматической реакции к более широкому взгляду. Её назначение — восстановить контакт с происходящим и возможность ответа, а не гарантированно удалить неприятное чувство за установленное число минут.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "A brief breathing space links practice to a difficult moment",
-          "body": "<p>A dedicated practice is easier to remember in a quiet room than in an overloaded day. Week three therefore introduces a brief breathing space. It creates a transition from automatic reaction to a broader view. Its purpose is to recover contact with experience and the possibility of responding, not guarantee removal of distress within a fixed number of minutes.</p>"
-        }
-      }
-    },
-    {
-      "id": "hourglass",
       "level": 2,
       "claimType": "book",
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
+      "locator": "gl7.xhtml · Трёхминутная медитация-передышка",
       "copy": {
         "ru": {
           "section": "Неделя 3 · Передышка",
-          "title": "Песочные часы описывают движение внимания",
-          "body": "<p>Три части передышки имеют форму широкое — узкое — широкое. Внимание не должно навсегда оставаться в узком фокусе.</p><ol class=\"steps\"><li><strong>Заметить.</strong> Включить текущие мысли, чувства и телесный опыт.</li><li><strong>Собрать.</strong> Вернуться к ощущению дыхания как ориентиру.</li><li><strong>Расширить.</strong> Снова включить тело и ситуацию, из которой предстоит продолжать жизнь и выбирать действие.</li></ol>"
+          "title": "Три минуты в форме песочных часов",
+          "body": "<p>Короткая передышка начинается широко: какие сейчас мысли, чувства и ощущения? Затем внимание собирается на естественном дыхании. В конце оно снова расширяется на тело, позу и выражение лица. Авторы вводят эту последовательность дважды в день, чтобы она стала доступной и среди спешки, когда о ней труднее всего вспомнить.</p>"
         },
         "en": {
           "section": "Week 3 · Breathing space",
-          "title": "The hourglass describes the movement of attention",
-          "body": "<p>The breathing space moves through wide, narrow, and wide attention. It is not designed to remain permanently narrow.</p><ol class=\"steps\"><li><strong>Notice.</strong> Include current thoughts, feelings, and bodily experience.</li><li><strong>Gather.</strong> Return to breathing sensations as an anchor.</li><li><strong>Expand.</strong> Include the body and situation again, returning to the context from which living and choosing an action continue.</li></ol>"
-        }
-      }
-    },
-    {
-      "id": "notice-first",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "Передышка начинается с того, что уже есть",
-          "body": "<p>Первый этап не требует сначала успокоиться. В поле внимания входят мысли, настроение и телесные ощущения, в том числе неприятные. Это сохраняет отличие наблюдения от быстрого ремонта. Если подготовкой объявить отсутствие тревоги, практика станет доступна только после того, как решена сама проблема, ради которой к ней обратились.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "The breathing space begins with what is already here",
-          "body": "<p>The first stage requires no prior calm. Thoughts, mood, and bodily sensations enter awareness, including unpleasant ones. This preserves the distinction between observing and quick repair. If being free of anxiety becomes the entry requirement, practice would be available only after the difficulty that prompted it had already been resolved.</p>"
-        }
-      }
-    },
-    {
-      "id": "space-not-fix",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "Передышка меняет отношение, а не погоду снаружи",
-          "body": "<p>Книга позднее сравнивает передышку с остановкой под дождём. Неприятные обстоятельства могут продолжиться. Если ожидать мгновенного спасения от них, раздражение только получит новый повод. Если использовать момент, чтобы увидеть реакцию и обстановку шире, возникает иной способ продолжить путь. В обоих случаях дождь остаётся дождём.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "A breathing space changes the relationship, not outside weather",
-          "body": "<p>The book later compares a breathing space with pausing in the rain. Unpleasant circumstances may continue. Expecting immediate rescue gives irritation another reason to grow. Using the pause to see the response and surroundings more broadly creates another way to continue. In both cases, the rain remains rain.</p>"
-        }
-      }
-    },
-    {
-      "id": "television-choice",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl7.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 3 · Передышка",
-          "title": "Выключенный телевизор делает выбор видимым",
-          "body": "<p>Приём третьей недели предлагает заранее выбрать интересные передачи и завершить просмотр после них. Авторская цель — снова ценить развлечение, которое превратилось в фон. Это не осуждение телевидения. В центре граница между намеренным просмотром и продолжением по инерции, когда следующая программа сама определяет, чем будет занят вечер.</p>"
-        },
-        "en": {
-          "section": "Week 3 · Breathing space",
-          "title": "Turning the television off makes choice visible",
-          "body": "<p>The third week’s habit releaser selects programs in advance and ends viewing afterward. Its aim is to restore appreciation for entertainment that has become background. Television itself is not condemned. The relevant boundary lies between deliberate viewing and inertial continuation, where the next program decides how the evening will be spent.</p>"
+          "title": "Three minutes shaped like an hourglass",
+          "body": "<p>The brief breathing space begins broadly: what thoughts, feelings, and sensations are here? Attention then gathers around natural breathing. Finally it widens again to the body, posture, and face. The authors introduce this sequence twice a day so it can become available amid the rush, when remembering it is hardest.</p>"
         }
       }
     },
@@ -1488,59 +417,17 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
+      "locator": "gl8.xhtml · Опровержение слухов; Звуки и мысли",
       "copy": {
         "ru": {
           "section": "Неделя 4 · Мысли",
-          "title": "Четвёртая неделя рассматривает мысли как внутренние слухи",
-          "body": "<p>Слух может казаться убедительным раньше, чем проверены основания. Авторы используют этот образ для тревожных внутренних историй: повторение и эмоциональная сила ещё не делают их фактами. Практика переносит внимание с обязательного спора с каждым утверждением на наблюдение самого возникновения мыслей. Это добавляет дистанцию, сохраняя возможность позднее проверить содержание.</p>"
+          "title": "Внутренние слухи",
+          "body": "<p>Мысль способна казаться достоверной потому, что повторяется и вызывает сильное чувство. На четвёртой неделе авторы сравнивают такие мысли со слухами. Медитация сначала обращается к звукам, которые возникают и исчезают, затем — к мыслям. Их тоже можно замечать, не продолжая автоматически каждую предложенную ими историю.</p>"
         },
         "en": {
           "section": "Week 4 · Thoughts",
-          "title": "Week four treats thoughts as internal rumors",
-          "body": "<p>A rumor can seem convincing before its basis has been checked. The authors use this image for anxious internal stories: repetition and emotional force do not make them facts. Practice shifts attention from obligatory debate with every statement toward observing thoughts arising. It adds distance while retaining the possibility of assessing the content later.</p>"
-        }
-      }
-    },
-    {
-      "id": "sounds-entry",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "Звуки дают доступный пример появления и исчезновения",
-          "body": "<p>Звуковая среда меняется сама: что-то приближается, затихает, возникает на фоне другого. Книга использует это наблюдение как переход к мыслям. Не требуется остановить все звуки, чтобы их замечать; сходным образом можно исследовать мыслительный поток без требования полного молчания. Аналогия касается отношения внимания, а не одинакового происхождения звуков и мыслей.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "Sounds provide an accessible example of arising and passing",
-          "body": "<p>The soundscape changes by itself: something approaches, fades, or appears behind another sound. The book uses this observation as a bridge to thoughts. Sounds need not all stop before they can be noticed; similarly, thinking can be explored without demanding complete silence. The analogy concerns attention’s relationship, not identical origins of sounds and thoughts.</p>"
-        }
-      }
-    },
-    {
-      "id": "sound-meaning",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "К звуку быстро добавляются имя и история",
-          "body": "<p>Авторы различают непосредственное слышание и значения, которые сознание к нему добавляет. Звук становится транспортом, раздражителем или обещанием встречи; затем появляется оценка. Замечать этот переход важно, потому что мысли тоже приходят с готовым толкованием. Практика делает видимой добавленную историю, не утверждая, будто распознавание и оценка вообще не нужны.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "A sound quickly acquires a name and a story",
-          "body": "<p>The authors distinguish hearing directly from the meanings the mind adds. A sound becomes traffic, an irritation, or the promise of a meeting, followed by evaluation. Noticing this transition matters because thoughts also arrive with interpretations attached. Practice reveals the added story without claiming that recognition and evaluation are unnecessary.</p>"
+          "title": "Internal rumors",
+          "body": "<p>A thought can seem trustworthy because it repeats and carries a strong feeling. Week four compares such thoughts with rumors. Meditation turns first toward sounds arising and passing, then toward thoughts. They too can be noticed without automatically continuing every story they offer.</p>"
         }
       }
     },
@@ -1551,143 +438,38 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
+      "locator": "gl8.xhtml · Мысли; Наблюдение за мыслями и чувствами",
       "copy": {
         "ru": {
           "section": "Неделя 4 · Мысли",
-          "title": "Наблюдать мысль можно без её завершения",
-          "body": "<p>В практике звуков и мыслей внимание замечает появление образа, фразы или цепочки ассоциаций. Не обязательно довести каждую историю до последнего аргумента. Возможность не продолжать отличает наблюдение от поглощённости. Если поток снова захватил внимание, обнаружение этого возвращает к той же работе, а не аннулирует всё предыдущее занятие.</p>"
+          "title": "Из зрительного зала — на экран",
+          "body": "<p>Книга предлагает образ кино: мысль появляется на экране, а человек наблюдает. Иногда сюжет настолько увлекает, что он обнаруживает себя уже внутри действия. Это не провал: можно снова занять место наблюдателя. Даже оценка того, насколько хорошо идёт медитация, — ещё одна мысль, а не голос независимого судьи.</p>"
         },
         "en": {
           "section": "Week 4 · Thoughts",
-          "title": "A thought can be observed without being completed",
-          "body": "<p>In sounds-and-thoughts practice, attention notices an image, phrase, or chain of associations appearing. Every story need not be taken to its final argument. The possibility of not continuing distinguishes observation from absorption. If the stream captures attention again, recognizing this returns to the same work rather than invalidating the entire session.</p>"
-        }
-      }
-    },
-    {
-      "id": "watcher-comment",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "Комментарий о медитации тоже является мыслью",
-          "body": "<p>Книга обращает внимание на незаметный внутренний шёпот: оценки того, насколько хорошо идёт наблюдение, кажутся голосом независимого судьи. Но они тоже появляются внутри опыта. Этот дополнительный слой важен: иначе человек дистанцируется от одной тревожной истории и сразу попадает в другую — о том, как плохо он умеет от историй дистанцироваться.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "A comment about meditation is also a thought",
-          "body": "<p>The book points to a quieter internal commentary: judgments about how well observation is going can seem like the voice of an independent judge. Yet these too arise within experience. This extra layer matters; otherwise a person steps back from one anxious story only to enter another about being poor at stepping back from stories.</p>"
-        }
-      }
-    },
-    {
-      "id": "thought-check",
-      "level": 2,
-      "claimType": "synthesis",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "Дистанция и проверка содержания дополняют друг друга",
-          "body": "<p>Признать тревожный прогноз мыслью — ещё не доказать, что он ложен. Можно сначала заметить захват внимания, а затем проверить конкретный вопрос: есть ли данные, срок, реальный риск, требуемое действие? Такой перевод идеи сохраняет и осознанность, и ответственность. Внутренняя фраза перестаёт быть приказом, но полезная информация из неё не обязана исчезать.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "Distance and checking content complement each other",
-          "body": "<p>Recognizing an anxious prediction as a thought does not prove it false. One can first notice captured attention, then examine a concrete question: evidence, deadline, actual risk, or required action. This translation preserves awareness and responsibility. An internal sentence ceases to be an order, while useful information within it need not disappear.</p>"
+          "title": "From the audience onto the screen",
+          "body": "<p>The book offers a cinema image: a thought appears on the screen and the person watches. Sometimes the story becomes so absorbing that the watcher ends up inside it. This is not failure; the observing position can be resumed. Even an assessment of how well meditation is going is another thought, not an independent judge’s voice.</p>"
         }
       }
     },
     {
       "id": "queue-case",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "Очередь показывает разницу между задержкой и раскручиванием",
-          "body": "<p>В медленной очереди есть реальная задержка. К ней легко добавляются сравнения соседних рядов, злость на выбор и рассказы о потерянном дне. Книга использует эту обычную сцену, чтобы увидеть добавочный круг. Очередь от этого не движется быстрее; меняется возможность заметить реакцию и выбрать, оставаться ли, уйти или продолжить ожидание иначе.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "A queue separates delay from escalation",
-          "body": "<p>A slow queue involves an actual delay. It easily acquires comparisons with other lines, anger about choosing badly, and stories of a ruined day. The book uses this ordinary scene to reveal an added loop. The queue does not move faster; the opportunity changes to notice the response and choose whether to stay, leave, or wait differently.</p>"
-        }
-      }
-    },
-    {
-      "id": "primary-secondary",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "Первичная трудность и добавочная реакция различимы",
-          "body": "<p>Авторы разделяют неприятное событие и вторичное страдание, возникающее вокруг него. Разделение нужно для точности, а не для обвинения человека в собственной боли. Некоторые обстоятельства действительно тяжёлые. И всё же дополнительные слои сопротивления иногда доступны наблюдению, даже если сам источник трудности сейчас изменить нельзя. Именно это различие книга тренирует на простых ситуациях.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "The initial difficulty and added reaction can be distinguished",
-          "body": "<p>The authors distinguish an unpleasant event from the secondary distress that develops around it. The distinction aims at precision, not blaming someone for pain. Some circumstances are genuinely difficult. Still, additional layers of resistance can sometimes be observed even when the original difficulty cannot currently be changed. The book practices that distinction in ordinary situations.</p>"
-        }
-      }
-    },
-    {
-      "id": "resume-deliberately",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 4 · Мысли",
-          "title": "После паузы важно заметить возвращение к делу",
-          "body": "<p>Авторы отмечают, что после передышки легко немедленно вернуться к прежнему автопилоту. Поэтому переход обратно в действие — часть практики. Можно заметить, что сейчас продолжается, какие мысли опять начинают захватывать внимание и какое намерение сохраняется. Это не бесконечная остановка жизни, а короткая связка между наблюдением и продолжением.</p>"
-        },
-        "en": {
-          "section": "Week 4 · Thoughts",
-          "title": "Returning to a task also deserves attention",
-          "body": "<p>The authors note how easily a breathing space is followed by an immediate return to autopilot. Reentering action therefore belongs to practice. One can notice the task being resumed, the thoughts beginning to capture attention again, and the intention that remains. This is not endless suspension of life but a brief connection between observation and continuation.</p>"
-        }
-      }
-    },
-    {
-      "id": "cinema-releaser",
       "level": 3,
       "claimType": "book",
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl8.xhtml",
+      "locator": "gl8.xhtml · Медитация в очереди",
       "copy": {
         "ru": {
           "section": "Неделя 4 · Мысли",
-          "title": "Поход в кино меняет привычный порядок выбора",
-          "body": "<p>Приём четвёртой недели предлагает сначала выделить время для кино, а уже на месте выбрать фильм. Книга исследует открытость непредусмотренному, а не рекомендует потреблять случайное без ограничений. Для истории важен небольшой сдвиг: заранее возникает возможность участия, вместо того чтобы разрешать себе выход только при наличии идеально выбранного варианта.</p>"
+          "title": "Очередь остаётся медленной",
+          "body": "<p>В медленной очереди к задержке прибавляется раздражение: почему соседняя движется быстрее, зачем я встал именно сюда? Книга использует эту сцену, чтобы различить неприятное событие и вторичную реакцию. Внимание возвращается к дыханию, телу и окружающему пространству. Очередь не ускоряется; меняется способ провести уже существующий момент жизни.</p>"
         },
         "en": {
           "section": "Week 4 · Thoughts",
-          "title": "A cinema visit changes the usual order of choice",
-          "body": "<p>The fourth week’s habit releaser sets aside time for the cinema before choosing a film on arrival. The book explores openness to something unplanned rather than recommending unrestricted random consumption. The small shift matters: an opportunity to participate exists before the outing is permitted only on condition of an ideally selected option.</p>"
+          "title": "The queue remains slow",
+          "body": "<p>In a slow queue, delay acquires irritation: why is the next line faster, and why did I choose this one? The book distinguishes the unpleasant event from the secondary reaction. Attention returns to breathing, the body, and surrounding space. The line does not speed up; the way this existing moment is lived can change.</p>"
         }
       }
     },
@@ -1698,38 +480,17 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
+      "locator": "gl9.xhtml · Практика пятой недели; Исследование сложной ситуации",
       "copy": {
         "ru": {
           "section": "Неделя 5 · Сложность",
-          "title": "Пятая неделя добавляет посильную сложность",
-          "body": "<p>После обучения возвращению внимания программа обращается к неприятному опыту. Новизна не в том, чтобы наконец заставить себя страдать. Авторы предлагают исследовать реакцию на ограниченную трудность, удерживая знакомую опору. Так проверяется возможность признать уже существующее чувство и не строить всё дальнейшее поведение исключительно вокруг его немедленного удаления.</p>"
+          "title": "Приблизиться к посильной трудности",
+          "body": "<p>После знакомых практик тела, дыхания, звуков и мыслей пятая неделя осторожно обращается к неприятной ситуации. Это может быть небольшой спор или незавершённое дело, а не самая болезненная память. Внимание переносится на телесный отклик: где чувствуется напряжение и как меняется? Авторы предлагают позволить ощущению быть, не требуя немедленно его устранить.</p>"
         },
         "en": {
           "section": "Week 5 · Difficulty",
-          "title": "Week five introduces manageable difficulty",
-          "body": "<p>After learning to return attention, the program approaches unpleasant experience. The point is not finally to force oneself to suffer. The authors explore the response to a limited difficulty while retaining a familiar anchor. This tests acknowledging an existing feeling without organizing all subsequent behavior exclusively around removing it immediately.</p>"
-        }
-      }
-    },
-    {
-      "id": "acceptance-two-stages",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "Принятие начинается с замеченного сопротивления",
-          "body": "<p>Авторское объяснение различает два хода: увидеть желание прогнать неприятное и затем осторожно исследовать сам опыт. Не нужно сначала стать человеком, который ничего не отвергает. Сопротивление тоже становится доступным наблюдению. Благодаря этому принятие не объявляется мгновенным нравственным достижением: оно постепенно изучается на конкретной реакции и в конкретных условиях.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "Acceptance starts with noticing resistance",
-          "body": "<p>The authors distinguish two moves: notice the wish to push the unpleasant away, then cautiously explore the experience itself. One need not first become someone who rejects nothing. Resistance also becomes observable. Acceptance is therefore not an instant moral accomplishment; it is gradually investigated in a particular response under particular conditions.</p>"
+          "title": "Approach a manageable difficulty",
+          "body": "<p>After familiar body, breath, sounds, and thoughts practices, week five cautiously approaches a difficult situation. It may be a small disagreement or unfinished matter, rather than the most painful memory. Attention moves to the bodily response: where is tension, and how does it change? The authors allow sensation to be present without demanding its immediate removal.</p>"
         }
       }
     },
@@ -1740,165 +501,17 @@
       "sources": [
         1
       ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
+      "locator": "gl9.xhtml · Исследование сложной ситуации",
       "copy": {
         "ru": {
           "section": "Неделя 5 · Сложность",
-          "title": "Сложность исследуется через сопровождающие ощущения",
-          "body": "<p>Когда неприятная ситуация удерживается в памяти, книга предлагает замечать её телесный отклик. Центр внимания переносится с бесконечного сюжета на напряжение, тяжесть или другую доступную реакцию. Это объясняет, зачем раньше изучалось тело. Работа с ощущениями не решает внешнюю проблему автоматически; она меняет способ встречать реакцию, пока проблема рассматривается.</p>"
+          "title": "История и её телесный отклик",
+          "body": "<p>Аналитический ум может снова начать спорить, искать виноватого или подавлять мысль. Поэтому авторы работают с тем же опытом через ощущения тела. Сначала становится заметно сопротивление неприятному, затем появляется возможность исследовать его мягче. Когда ощущение перестаёт требовать внимания, фокус возвращается к дыханию. Это изменение отношения, а не решение спора за его участников.</p>"
         },
         "en": {
           "section": "Week 5 · Difficulty",
-          "title": "Difficulty is explored through accompanying sensations",
-          "body": "<p>While a difficult situation is held in mind, the book attends to its bodily response. Attention moves from an endless story to tension, heaviness, or another available reaction. This explains the earlier work with the body. Attending to sensation does not automatically solve an external problem; it changes how the response is encountered while that problem is considered.</p>"
-        }
-      }
-    },
-    {
-      "id": "right-to-stop",
-      "level": 1,
-      "claimType": "synthesis",
-      "sources": [
-        1,
-        5
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "Граница важнее доказательства, что выдержишь",
-          "body": "<p>В этой главе сама книга выбирает не слишком серьёзную трудность и допускает возвращение к опоре, когда реакция чрезмерна. Для пересказа это центральная граница: открытость не требует оставаться в практике любой ценой. Если переживание заметно ухудшает состояние, разумно остановиться и обсудить подход с подходящим специалистом. Настойчивость не измеряется переносимой тяжестью.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "A boundary matters more than proving endurance",
-          "body": "<p>The chapter itself selects a difficulty that is not too serious and permits returning to an anchor when the response is too much. This is central here: openness does not require staying in practice at any cost. If an experience clearly worsens one’s condition, pausing and discussing the approach with an appropriate professional is reasonable. Persistence is not measured by distress endured.</p>"
-        }
-      }
-    },
-    {
-      "id": "manageable-example",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "Задача не требует возвращаться к самой тяжёлой памяти",
-          "body": "<p>Авторская последовательность опирается на обычную, ограниченную неприятность, а не на максимальную интенсивность. Это существенно для понимания метода: новое отношение исследуется постепенно. Подменив выбор трудности самой болезненной историей, читатель изменил бы задачу программы. Карта книги не предоставляет руководство для самостоятельной работы с травмой и не обещает готовности к ней после предыдущих экранов.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "The task does not require the most painful memory",
-          "body": "<p>The authors’ sequence uses an ordinary, limited difficulty rather than maximum intensity. This matters to understanding the method: a new relationship is explored gradually. Choosing the most painful memory would change the program’s task. This map supplies no guide to independent trauma work and promises no readiness for it after the preceding screens.</p>"
-        }
-      }
-    },
-    {
-      "id": "preparation-chain",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "Пятая практика опирается на уже знакомую подготовку",
-          "body": "<p>В пятой неделе книга соединяет внимание к телу и дыханию, звукам и мыслям, а затем исследование сложности. Сочетание показывает, почему практики не стоит вырывать из последовательности. Неприятный материал появляется внутри более широкого поля опыта. Это организационная логика курса, а не доказательство, что такая подготовка автоматически делает любое исследование безопасным.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "The fifth-week practice relies on familiar preparation",
-          "body": "<p>Week five links attention to body and breath, sounds and thoughts, and then difficulty. This combination explains why practices should not be detached from sequence. Unpleasant material appears within a wider field of experience. This is the course’s organizational logic, not proof that such preparation automatically makes every investigation safe.</p>"
-        }
-      }
-    },
-    {
-      "id": "elana-help",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "История Эланы показывает возможность принять помощь",
-          "body": "<p>Преподаватель Элана Розенбаум проходит лечение рака и продолжает считать себя обязанной вести занятия. Предложение коллеги помочь раскрывает незамеченный выбор: можно признать усталость, страх и потребность в поддержке. В книге принятие выражается здесь в изменённом действии и отношениях, а не в идеальной невозмутимости перед тяжёлой жизненной ситуацией.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "Elana’s story shows the possibility of receiving help",
-          "body": "<p>Teacher Elana Rosenbaum is receiving cancer treatment while still feeling obliged to teach. A colleague’s offer of help reveals an unnoticed choice: tiredness, fear, and the need for support can be acknowledged. Acceptance appears here in changed action and relationships rather than perfect composure in the face of a serious life situation.</p>"
-        }
-      }
-    },
-    {
-      "id": "no-cancer-inference",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "История о жизни с болезнью не объясняет её исход",
-          "body": "<p>Рассказ Эланы соседствует с медицинским лечением, включая химиотерапию и трансплантацию. Из него нельзя вывести, что осознанность вылечила рак или определила выживание. Мы сохраняем узкую смысловую работу истории: помощь может быть принята, а сила не обязательно означает продолжать всё одной. Причинный вывод о лечении потребовал бы другого типа данных.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "A story of living with illness does not explain its outcome",
-          "body": "<p>Elana’s story includes medical treatment, including chemotherapy and transplantation. It cannot establish that mindfulness cured cancer or determined survival. We retain the story’s narrower role: help can be received, and strength need not mean continuing alone. A causal conclusion about treatment would require a different kind of evidence.</p>"
-        }
-      }
-    },
-    {
-      "id": "king-parable",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "Бегство от неудобного сына бесконечно увеличивает крепость",
-          "body": "<p>В притче король отправляет нелюбимого сына всё дальше, но новые опасности требуют новых стен. В конце он решает учиться жить с ним рядом. Книга использует сюжет как образ цены бесконечного избегания. Это притча о внутреннем отношении, а не указание оставаться рядом с опасным человеком или отказаться от защиты в реальном мире.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "Fleeing the difficult son requires ever larger fortresses",
-          "body": "<p>In the parable, a king sends an unloved son farther away, but new dangers demand new walls. Eventually he decides to learn to live with him nearby. The book uses this as an image of endless avoidance’s cost. It is a parable about internal relationship, not advice to remain with a dangerous person or abandon real-world protection.</p>"
-        }
-      }
-    },
-    {
-      "id": "plant-releaser",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "epubLocator": "OEBPS/Text/gl9.xhtml",
-      "copy": {
-        "ru": {
-          "section": "Неделя 5 · Сложность",
-          "title": "Растение связывает внимание с уходом и временем",
-          "body": "<p>Приём пятой недели — посадить семена или ухаживать за растением. Он соединяет конкретные ощущения с действием, у которого есть продолжение: земля, полив, изменения со временем. В этом пересказе ценность упражнения остаётся наблюдательной. Книжные заявления о медицинских последствиях заботы о растениях не превращаются в обещание здоровья или дополнительной продолжительности жизни.</p>"
-        },
-        "en": {
-          "section": "Week 5 · Difficulty",
-          "title": "A plant links attention with care and time",
-          "body": "<p>The fifth week’s habit releaser plants seeds or cares for a plant. It connects concrete sensations with an action that continues over time: soil, watering, and gradual change. Here the exercise retains its observational value. The book’s claims about medical consequences of plant care are not converted into promises of health or additional years of life.</p>"
+          "title": "A story and its bodily response",
+          "body": "<p>The analytical mind may start arguing, assigning blame, or suppressing a thought again. The authors therefore approach the same experience through bodily sensation. Resistance becomes visible first, followed by the possibility of gentler exploration. When a sensation no longer demands attention, focus returns to breathing. This changes the relationship without deciding the disagreement itself.</p>"
         }
       }
     },
@@ -1909,104 +522,19 @@
       "sources": [
         1
       ],
+      "locator": "gl10.xhtml · Дружественная медитация",
       "copy": {
         "ru": {
           "section": "Неделя 6 · Дружественность",
-          "title": "Шестая неделя меняет тон отношения к себе",
-          "body": "<p>Можно научиться замечать мысль и всё равно продолжать обращаться с собой жестоко. Поэтому программа отдельно вводит дружественность: внимание должно сопровождаться добротой, а не только точностью наблюдения. Книга не требует немедленно полюбить каждую свою черту. Она исследует, можно ли признать трудность без добавочного наказания за её наличие.</p>"
+          "title": "У внимания меняется тон",
+          "body": "<p>Точное наблюдение ещё может оставаться жестоким к себе. Шестая неделя добавляет дружественность: пожелание благополучия сначала себе, затем близкому, нейтральному человеку и, по желанию, тому, с кем трудно. В конце круг расширяется на всех живых существ, включая самого практикующего. Доброе отношение не нужно заслуживать безупречностью.</p>"
         },
         "en": {
           "section": "Week 6 · Befriending",
-          "title": "Week six changes the tone of self-relationship",
-          "body": "<p>One can learn to notice thoughts while continuing to treat oneself harshly. The program therefore introduces befriending explicitly: attention needs kindness as well as observational precision. The book does not demand immediate love for every personal trait. It explores whether a difficulty can be acknowledged without adding punishment for having it.</p>"
+          "title": "Attention changes its tone",
+          "body": "<p>Accurate observation can still be harsh toward oneself. Week six adds befriending: wishing well first to oneself, then someone close, a neutral person, and optionally someone difficult. The circle finally includes all living beings, including the practitioner. Goodwill need not be earned through perfection.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "guilt-layer",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Самообвинение добавляет второй слой к трудности",
-          "body": "<p>В историях шестой недели страх, вина и обязанность постоянно стараться звучат громче более тихого доброжелательного отношения. Авторы показывают, как к усталости добавляется стыд за усталость, а к гневу — упрёк за гнев. Дружественность направлена на этот добавленный слой. Она не объявляет любые поступки правильными и не отменяет ответственности перед другими.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "Self-blame adds a second layer to difficulty",
-          "body": "<p>In the sixth week’s accounts, fear, guilt, and the duty to keep trying speak louder than a quieter friendly attitude. The authors show tiredness acquiring shame about tiredness, and anger acquiring condemnation for anger. Befriending addresses that added layer. It does not declare every action right or remove responsibility toward other people.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "general-memory",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        1,
-        11
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Обобщённая память может сделать историю неподвижной",
-          "body": "<p>Книга рассматривает переход от конкретного события к общей неподвижной истории. Квазиэкспериментальное исследование Heeren и коллег обнаружило после MBCT большую специфичность воспоминаний по сравнению с подобранной контрольной группой. Это узкая поддержка изменяемого стиля памяти, но не рандомизированное доказательство универсальной причинности. Трудность вспомнить один эпизод сама по себе не является диагнозом.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "General memories can make a story feel fixed",
-          "body": "<p>The book examines the shift from a particular event to a fixed general story. A quasi-experimental study by Heeren and colleagues found greater memory specificity after MBCT than in a matched control group. This narrowly supports a modifiable memory style, but it is not randomized evidence of universal causality. Difficulty recalling one episode is not by itself a diagnosis.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "ambiguous-scene",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Неотвеченное приветствие допускает несколько историй",
-          "body": "<p>В примере книги человек машет знакомым, но не получает ответа. На этой короткой сцене легко построить историю отвержения; возможны и другие объяснения. Пример показывает, сколько значения сознание добавляет к ограниченным данным. Он не требует всегда выбирать приятное объяснение. Открытым остаётся вопрос, что действительно известно, а что дорисовано текущим настроением.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "An unanswered greeting permits several stories",
-          "body": "<p>In the book’s example, someone waves to acquaintances and receives no response. A story of rejection can quickly grow from this brief scene, although other explanations remain possible. It reveals meaning added to limited evidence. The task is not always to select a pleasant explanation, but to distinguish what is known from what current mood supplies.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "befriending-purpose",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Дружественная практика расширяет круг пожелания добра",
-          "body": "<p>Книга начинает с отношения к себе, затем включает близкого, нейтрального человека и, если это посильно, более сложные отношения. Последовательность делает видимыми различия в отклике. Здесь важно назначение практики, а не воспроизведение её текста: исследуется возможность желать благополучия без требования сначала заслужить его идеальными качествами или безупречным поведением.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "Befriending gradually widens the circle of goodwill",
-          "body": "<p>The book begins with oneself, then includes someone close, a neutral person, and, if manageable, a more difficult relationship. The sequence makes differences in response visible. Its purpose matters here rather than reproducing its wording: it explores wishing well without first requiring perfect qualities or flawless behavior as the price of deserving it.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
+      }
     },
     {
       "id": "kindness-no-feeling",
@@ -2015,103 +543,19 @@
       "sources": [
         1
       ],
+      "locator": "gl10.xhtml · Дружественная медитация; Доброта на практике",
       "copy": {
         "ru": {
           "section": "Неделя 6 · Дружественность",
-          "title": "Доброта не обязана сразу ощущаться тепло",
-          "body": "<p>Авторы учитывают, что добрые пожелания к себе могут вызвать неловкость, грусть или сопротивление. Это отличается от картинки, где правильная практика немедленно наполняет человека любовью. Не требуется выдавливать ожидаемое чувство. Важно замечать реальный отклик и сохранять бережное отношение, не делая отсутствие тепла ещё одной причиной для самокритики.</p>"
+          "title": "Не выдавливать теплоту",
+          "body": "<p>Добрые пожелания могут вызвать неловкость или сопротивление. Авторы предлагают замечать реальный отклик, а не оценивать его. Если трудно начать с себя, можно вспомнить человека или животное, от которого исходила любовь. Дружественность продолжается и вне медитации — в небольших добрых поступках.</p>"
         },
         "en": {
           "section": "Week 6 · Befriending",
-          "title": "Kindness need not feel warm immediately",
-          "body": "<p>The authors acknowledge that friendly wishes toward oneself can evoke awkwardness, sadness, or resistance. This differs from the picture of correct practice immediately filling someone with love. An expected feeling need not be squeezed out. The relevant task is noticing the actual response with care rather than turning missing warmth into another reason for self-criticism.</p>"
+          "title": "Do not force warmth",
+          "body": "<p>Friendly wishes may bring awkwardness or resistance. The authors invite noticing the actual response rather than judging it. If beginning with oneself is difficult, recalling a person or animal whose love was felt can help. Befriending also continues outside meditation through small acts of kindness.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "difficult-person-limit",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Пожелание добра не отменяет дистанцию",
-          "body": "<p>Расширение дружественности легко неверно прочесть как обязанность примириться с любым человеком. Но внутреннее отношение и устройство отношений — разные решения. Можно желать прекращения страдания и одновременно ограничивать контакт, обращаться за защитой или сохранять границы. Этот вывод пересказа удерживает упражнение в его работе с реакцией, не превращая его в моральное требование возвращаться к опасным отношениям.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "Wishing well does not remove the need for distance",
-          "body": "<p>Widening goodwill can be misread as an obligation to reconcile with anyone. An internal attitude and the arrangement of a relationship are different decisions. Wishing suffering to end can coexist with limiting contact, seeking protection, or keeping boundaries. This digest inference keeps the exercise focused on responses without making it a moral demand to return to dangerous relationships.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "kindness-action",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Дружественность проверяется и поступком",
-          "body": "<p>Глава переносит доброту из отдельной медитации в обычные отношения и небольшие действия. Важен переход от красивого внутреннего настроя к тому, как человек обращается с собой и другими в конкретный день. Не нужно ждать сильного чувства, чтобы заметить возможность поддержать или поблагодарить. При этом доброта не становится новым счётом достижений.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "Befriending also appears in action",
-          "body": "<p>The chapter carries kindness from a dedicated meditation into ordinary relationships and small actions. The transition matters from an attractive internal attitude to how someone treats self and others on a particular day. A powerful feeling need not precede noticing an opportunity to support or appreciate someone. Kindness need not become another achievement score.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "thought-exit-options",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "С мыслью можно сделать больше, чем поверить или подавить",
-          "body": "<p>Книга перечисляет разные выходы: записать мысль, отметить её характер, наблюдать появление и исчезновение, проверить поспешность вывода. Этот набор разрушает ощущение единственного выбора между послушанием внутреннему голосу и борьбой с ним. В зависимости от задачи могут пригодиться разные ходы. Ни один из них не объявлен универсальным способом немедленно исправить настроение.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "Thoughts offer more options than belief or suppression",
-          "body": "<p>The book offers several responses: write a thought down, identify its character, observe its appearance and passing, or examine a hasty conclusion. This breaks the apparent choice between obeying an internal voice and fighting it. Different tasks may call for different moves. None is presented here as a universal method of fixing mood immediately.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
-    },
-    {
-      "id": "interdependence",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 6 · Дружественность",
-          "title": "Авторская история связи противостоит полной изоляции",
-          "body": "<p>В конце главы авторы расширяют тему доброты за пределы личного улучшения: человек связан с другими, а не существует как полностью отдельный проект. Мы сохраняем философский смысл этого хода без цитирования приписанного Эйнштейну текста. Это приглашение пересмотреть отношение к другим, а не нейробиологическое доказательство или установленный механизм лечения.</p>"
-        },
-        "en": {
-          "section": "Week 6 · Befriending",
-          "title": "The book’s account of connection counters total isolation",
-          "body": "<p>At the chapter’s end, the authors extend kindness beyond personal improvement: a person is connected with others rather than existing as an entirely separate project. We preserve the philosophical point without quoting the text attributed to Einstein. It invites reconsideration of relationships rather than supplying a neuroscientific proof or an established treatment mechanism.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl10.xhtml"
+      }
     },
     {
       "id": "week-seven-funnel",
@@ -2120,125 +564,40 @@
       "sources": [
         1
       ],
+      "locator": "gl11.xhtml · Воронка истощения",
       "copy": {
         "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Седьмая неделя возвращает ресурсы в повседневность",
-          "body": "<p>Воронка истощения Мари Осберг показывает авторскую логику сужения жизни: ради срочных дел исчезают занятия, которые поддерживали человека, и сил становится ещё меньше. Тогда приходится отказываться от следующего. Программа обращается к составу дня, чтобы осознанность приводила к выбору действий, а не только помогала дольше терпеть прежнюю перегрузку.</p>"
+          "section": "Неделя 7 · Повседневность",
+          "title": "Воронка истощения",
+          "body": "<p>Чтобы справиться с работой, человек отказывается от отдыха, общения и любимых занятий. Сил становится меньше; приходится отказаться ещё от чего-то. Мари Осберг изображает это воронкой. На седьмой неделе книга возвращается к устройству дня: осознанность должна помочь изменить действия, а не только внимательнее переносить бесконечную нагрузку.</p>"
         },
         "en": {
-          "section": "Week 7 · Action",
-          "title": "Week seven brings resources back into daily life",
-          "body": "<p>Marie Åsberg’s exhaustion funnel expresses the book’s logic of a narrowing life: activities that sustain a person disappear to make room for urgent tasks, leaving less energy. Another activity is then dropped. The program examines the day’s composition so that awareness leads to choices rather than merely helping someone endure the same overload longer.</p>"
+          "section": "Week 7 · Daily life",
+          "title": "The exhaustion funnel",
+          "body": "<p>To manage work, a person gives up rest, company, and favorite activities. Energy dwindles, prompting another sacrifice. Marie Åsberg pictures this as a funnel. Week seven returns to the shape of the day: awareness should support changed action, beyond attending more closely to an endless burden.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
+      }
     },
     {
-      "id": "marissa-case",
+      "id": "activity-map",
       "level": 2,
       "claimType": "book",
       "sources": [
         1
       ],
+      "locator": "gl11.xhtml · Всему своё время; Восстановление баланса",
       "copy": {
         "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "У Мариссы удобные устройства расширяли рабочий день",
-          "body": "<p>Марисса отказывается от книжного клуба и других занятий, а ноутбук и смартфон позволяют работать дома и даже в постели. Внешне это выглядит эффективным решением. В истории книги каждый такой шаг ещё сильнее сужает пространство восстановления. Кейс показывает, почему технология и доступность сами по себе не говорят, стало ли устройство дня лучше.</p>"
+          "section": "Неделя 7 · Повседневность",
+          "title": "Что даёт силы, что забирает",
+          "body": "<p>Авторы предлагают записать обычные дела и отметить, какие питают, а какие истощают; одно занятие может делать и то и другое. Затем ищут выполнимое изменение баланса. Если работу пока нельзя сменить, остаётся возвращать поддерживающие занятия и иначе относиться к неизбежным делам. Список нужен для решения, а не для нового самообвинения.</p>"
         },
         "en": {
-          "section": "Week 7 · Action",
-          "title": "For Marissa, convenient devices extended the workday",
-          "body": "<p>Marissa drops her book club and other activities while a laptop and smartphone allow work at home and even in bed. Externally, these look like efficient solutions. In the book’s account, each step narrows the space for recovery further. The case shows why technology and availability alone cannot establish that a day is better arranged.</p>"
+          "section": "Week 7 · Daily life",
+          "title": "What sustains, what drains",
+          "body": "<p>The authors list ordinary activities and mark which nourish and which drain; an activity can do both. They then seek a feasible change in the balance. If work cannot be changed, sustaining activities can be restored and unavoidable tasks approached differently. The list serves a decision rather than another accusation against oneself.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
-    },
-    {
-      "id": "activity-map",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Список дня делает баланс обсуждаемым",
-          "body": "<p>Книга предлагает записать обычные занятия и отметить, какие отнимают силы, а какие поддерживают. Одно дело может относиться к обеим категориям. Это не бухгалтерия правильной жизни: цель — увидеть повторяющуюся структуру, которая обычно остаётся фоном. Тогда появляется конкретный вопрос, что можно добавить, уменьшить, разделить с другим человеком или делать иначе.</p>"
-        },
-        "en": {
-          "section": "Week 7 · Action",
-          "title": "A day’s activity list makes balance discussable",
-          "body": "<p>The book lists ordinary activities and distinguishes those that drain energy from those that sustain it. One activity may belong to both categories. This is not an accounting system for a correct life. It makes a recurring background structure visible, allowing concrete questions about what can be added, reduced, shared, or approached differently.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
-    },
-    {
-      "id": "restore-balance",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Баланс требует действия, а не только понимания",
-          "body": "<p>После наблюдения авторы переходят к плану изменений. Поддерживающее занятие не обязано ждать полного исчезновения срочных обязанностей, иначе его место может никогда не освободиться. Но перемены должны учитывать фактические возможности. Книга связывает осознанность с конкретным возвращением части жизни, которая исчезала, пока человек пытался окончательно расчистить всё остальное.</p>"
-        },
-        "en": {
-          "section": "Week 7 · Action",
-          "title": "Balance requires action as well as insight",
-          "body": "<p>After observation, the authors move toward a plan. A sustaining activity need not wait until all urgent obligations disappear; otherwise its place may never open. Changes must still account for actual possibilities. The book connects awareness with concretely restoring part of life lost while someone tried to clear everything else first.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
-    },
-    {
-      "id": "structural-limits",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1,
-        4
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Не все источники истощения находятся под личным контролем",
-          "body": "<p>День организуют не только привычки: есть работа, уход за близкими, бедность и распределение власти. Внимание может помочь увидеть ограничения, но не обязано их устранять. Поэтому баланс нельзя превращать в обвинение перегруженного человека. Иногда следующий шаг касается переговоров, помощи и условий, а не качества медитации или более убедительного внутреннего настроя.</p>"
-        },
-        "en": {
-          "section": "Week 7 · Action",
-          "title": "Not every source of exhaustion is personally controllable",
-          "body": "<p>Habits are not the only organizers of a day: employment, caregiving, poverty, and power also matter. Attention may reveal constraints without removing them. Balance should therefore not become an accusation against an overloaded person. Sometimes the next step concerns negotiation, assistance, or conditions rather than meditation quality or a more persuasive internal attitude.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
-    },
-    {
-      "id": "action-before-motivation",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Небольшое действие иногда предшествует желанию",
-          "body": "<p>Книга не предлагает всегда ждать настроения, чтобы вернуться к поддерживающему делу. В седьмой неделе действие может быть первым небольшим шагом, за которым появится готовность продолжать. При этом авторы прямо не ждут чудес. Смысл — выбрать посильное конкретное дело, а не доказывать, будто любой тяжёлый спад можно победить одним усилием.</p>"
-        },
-        "en": {
-          "section": "Week 7 · Action",
-          "title": "A small action can precede the desire to act",
-          "body": "<p>The book does not always wait for the right mood before returning to a sustaining activity. In week seven, action can be a small first step followed by greater willingness to continue. The authors explicitly discourage expecting miracles. The point is a manageable concrete activity, not proof that every severe decline can be overcome by effort alone.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
+      }
     },
     {
       "id": "action-menu",
@@ -2247,81 +606,19 @@
       "sources": [
         1
       ],
+      "locator": "gl11.xhtml · Медитация-передышка и дальнейшие действия",
       "copy": {
         "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "После передышки есть несколько направлений действия",
-          "body": "<p>Авторы различают три направления после передышки. Выбор касается текущей потребности, а не обещанного чувства.</p><ol class=\"steps\"><li><span class=\"index\">01</span><div><strong>Приятное.</strong> Вернуть место тому, что может поддержать.</div></li><li><span class=\"index\">02</span><div><strong>Удовлетворение / контроль.</strong> Сделать небольшое посильное дело, которое возвращает ощущение влияния на ситуацию.</div></li><li><span class=\"index\">03</span><div><strong>Внимание.</strong> Продолжить прежнее действие, лучше замечая происходящее.</div></li></ol><p>Не каждое поддерживающее дело приятно сразу; иногда требуется помощь другого человека.</p>"
+          "section": "Неделя 7 · Повседневность",
+          "title": "Что после передышки?",
+          "body": "<p>После передышки книга предлагает три направления: сделать приятное, выполнить небольшое дело, возвращающее удовлетворение или ощущение влияния, либо продолжить действие осознанно. Желание не всегда приходит первым: иногда посильный шаг предшествует мотивации. Выбирается то, что нужно сейчас, а не обязательно то, что выглядит продуктивным.</p>"
         },
         "en": {
-          "section": "Week 7 · Action",
-          "title": "Several kinds of action can follow a breathing space",
-          "body": "<p>The authors distinguish three directions after a breathing space. Choice concerns the current need rather than a promised feeling.</p><ol class=\"steps\"><li><span class=\"index\">01</span><div><strong>Enjoyment.</strong> Restore space for something potentially sustaining.</div></li><li><span class=\"index\">02</span><div><strong>Mastery / control.</strong> Do a small feasible task that restores some sense of influence over the situation.</div></li><li><span class=\"index\">03</span><div><strong>Awareness.</strong> Continue the previous activity while noticing more of the experience.</div></li></ol><p>Not every sustaining action feels pleasant immediately; sometimes another person’s help is needed.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
-    },
-    {
-      "id": "mindfulness-bells",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Обычный сигнал может напомнить о выборе",
-          "body": "<p>Книга предлагает связывать напоминания об осознанности с повторяющимися событиями дня. Тогда практика меньше зависит от того, вспомнит ли человек о ней в разгар спешки. Это использование привычки в помощь вниманию, а не попытка жить без привычек. Сигнал становится приглашением заметить текущую реакцию и намерение, а не командой обязательно почувствовать спокойствие.</p>"
-        },
-        "en": {
-          "section": "Week 7 · Action",
-          "title": "An ordinary cue can remind someone to choose",
-          "body": "<p>The book connects reminders of awareness with recurring events in the day. Practice then depends less on remembering it during a rush. Habit is used to support attention rather than abolished. A cue becomes an invitation to notice the current response and intention, not an order to feel calm on demand.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
-    },
-    {
-      "id": "trial-harms",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        7
-      ],
-      "copy": {
-        "ru": {
-          "section": "Данные и границы",
-          "title": "Даже поддерживаемая программа не была без нежелательных эффектов",
-          "body": "<p>В испытании MBSR и эсциталопрама хотя бы один связанный с вмешательством нежелательный эффект зарегистрирован у 15,4% группы MBSR; усиление тревоги — у 11%. Серьёзных нежелательных событий не отмечено. Эти числа относятся к конкретному исследованию и его наблюдению, а не задают личный риск. Они опровергают абсолютную формулу, будто медитация принципиально не имеет побочных эффектов.</p>"
-        },
-        "en": {
-          "section": "Evidence and limits",
-          "title": "Even a supported program had adverse effects",
-          "body": "<p>In the MBSR–escitalopram trial, at least one study-related adverse event was recorded for 15.4% of the MBSR group; increased anxiety occurred in 11%. No serious adverse events occurred. These figures concern this trial and its monitoring rather than specifying personal risk. They contradict an absolute claim that meditation inherently has no adverse effects.</p>"
+          "section": "Week 7 · Daily life",
+          "title": "What follows the pause?",
+          "body": "<p>After a breathing space, the book offers three directions: do something enjoyable, complete a small task restoring satisfaction or mastery, or continue acting with awareness. Desire does not always come first; sometimes a manageable step precedes motivation. The choice concerns what is needed now, rather than what looks productive.</p>"
         }
       }
-    },
-    {
-      "id": "review-actual-day",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 7 · Действия",
-          "title": "Проверять стоит фактический день, а не красивый план",
-          "body": "<p>После составления списка легко считать работу законченной. Более полезный вопрос пересказа — что действительно изменилось за неделю: вернулось ли поддерживающее занятие, сохранилась ли нагрузка, нужна ли другая помощь? Такой обзор удерживает связь между моделью и жизнью. Неудачный план становится информацией для пересмотра, а не новым доказательством личной несостоятельности.</p>"
-        },
-        "en": {
-          "section": "Week 7 · Action",
-          "title": "Review the actual day rather than the attractive plan",
-          "body": "<p>After making a list, the work can feel complete. A more useful digest question is what actually changed during the week: whether a sustaining activity returned, the workload remained, or different help is needed. This keeps the model connected with life. An unsuccessful plan becomes information for revision rather than further evidence of personal inadequacy.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl11.xhtml"
     },
     {
       "id": "week-eight-completion",
@@ -2330,198 +627,63 @@
       "sources": [
         1
       ],
+      "locator": "gl12.xhtml · мотивация; Время выбора",
       "copy": {
         "ru": {
           "section": "Неделя 8 · Продолжение",
-          "title": "Восьмая неделя позволяет закончить задачу и продолжить жизнь",
-          "body": "<p>Авторы возвращают чувство завершённости, которое теряется при бесконечной смене дел. Программа закончилась, но жизнь не обязана ждать следующего проекта улучшения. Важно заметить окончание конкретного действия и не автоматически превращать его в недостаточную подготовку к будущему. Так завершение курса становится переходом к собственной практике, а не выпускным экзаменом на идеальное состояние.</p>"
+          "title": "Практика становится своей",
+          "body": "<p>Восьмая неделя предлагает выбрать выполнимое сочетание знакомых практик. Решение можно менять. Важнее понять, что дорого в жизни и как осознанность помогает этому: близким, терпению, способности присутствовать в обычном дне. Иначе медитация легко станет ещё одним обязательным пунктом в бесконечном списке.</p>"
         },
         "en": {
-          "section": "Week 8 · Continuation",
-          "title": "Week eight allows a task to end while life continues",
-          "body": "<p>The authors restore a sense of completion lost in endless task switching. The program has ended, but life need not wait for another improvement project. A particular action’s ending can be noticed rather than automatically treated as inadequate preparation for the future. Completing the course becomes a transition to personal practice, not a final examination in perfect mental states.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl12.xhtml"
-    },
-    {
-      "id": "choose-practice",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 8 · Продолжение",
-          "title": "Продолжение можно подстроить под жизнь",
-          "body": "<p>После восьми недель авторы предлагают выбирать реалистичное сочетание знакомых практик. Решение не высечено в камне: обстоятельства и исследуемые трудности меняются. Это не приглашение требовать от себя прежнего расписания любой ценой. Устойчивость связывается с осмысленным продолжением и возможностью пересмотреть форму, а не с пожизненной верностью одной схеме.</p>"
-        },
-        "en": {
-          "section": "Week 8 · Continuation",
-          "title": "Continued practice can be adapted to life",
-          "body": "<p>After eight weeks, the authors suggest a realistic combination of familiar practices. The choice is not permanent: circumstances and the difficulties being explored change. This does not demand maintaining the same schedule at any cost. Sustainability concerns meaningful continuation and the possibility of revising the form rather than lifelong loyalty to one arrangement.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl12.xhtml"
-    },
-    {
-      "id": "one-minute-return",
-      "level": 1,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 8 · Продолжение",
-          "title": "Малое возвращение противостоит правилу всё или ничего",
-          "body": "<p>В финале книга допускает совсем короткое возвращение, когда практика давно прервалась. Внутренний голос может объявить минуту бессмысленной, если нет времени на идеальный вариант. Авторы предлагают заметить и этот голос. Смысл маленького шага — восстановить отношение, а не установить одну минуту как доказанную лечебную дозу или полноценную замену программы.</p>"
-        },
-        "en": {
-          "section": "Week 8 · Continuation",
-          "title": "A small return challenges the all-or-nothing rule",
-          "body": "<p>At the end, the book allows a very brief return after practice has lapsed. An internal voice may declare a minute pointless when there is no time for the ideal version. The authors suggest noticing that voice too. The small step restores a relationship; it does not establish one minute as a proven treatment dose or a replacement for the program.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl12.xhtml"
-    },
-    {
-      "id": "why-continue",
-      "level": 2,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 8 · Продолжение",
-          "title": "Продолжение держится на собственном смысле",
-          "body": "<p>Книга предлагает серьёзно спросить, что важно в жизни и как практика с этим связана. Ответ может касаться близких, терпения или возможности присутствовать в обычном дне. Такой вопрос нужен, чтобы занятие не стало ещё одной отметкой в списке. Мотивация связывается с конкретной жизнью человека, а не с обязанностью соответствовать образу постоянно осознанного практикующего.</p>"
-        },
-        "en": {
-          "section": "Week 8 · Continuation",
-          "title": "Continuation depends on personally meaningful reasons",
-          "body": "<p>The book asks what matters in life and how practice relates to it. An answer may concern loved ones, patience, or being present in an ordinary day. The question prevents practice becoming another check mark. Motivation is connected to a person’s actual life rather than the duty to match an image of an unfailingly mindful practitioner.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl12.xhtml"
-    },
-    {
-      "id": "parachute-limit",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Неделя 8 · Продолжение",
-          "title": "Парашют — метафора подготовки, а не страховка результата",
-          "body": "<p>Авторы сравнивают регулярную практику с подготовкой парашюта до трудного момента. Образ подчёркивает, почему новое отношение изучается заранее, а не только в кризис. Но метафора не гарантирует, что трудность будет предотвращена или пережита без помощи. Нельзя выводить из неё, будто любой неблагоприятный исход означает, что человек недостаточно хорошо готовился.</p>"
-        },
-        "en": {
-          "section": "Week 8 · Continuation",
-          "title": "The parachute is a preparation metaphor, not an outcome guarantee",
-          "body": "<p>The authors compare regular practice with preparing a parachute before a difficult moment. The image explains learning a new relationship beforehand rather than only in crisis. Yet it guarantees neither prevention of difficulty nor coping without assistance. It cannot establish that an adverse outcome means the person failed to prepare well enough.</p>"
-        }
-      },
-      "epubLocator": "OEBPS/Text/gl12.xhtml"
-    },
-    {
-      "id": "reception-boundary",
-      "level": 3,
-      "claimType": "corroboration",
-      "sources": [
-        8
-      ],
-      "copy": {
-        "ru": {
-          "section": "Данные и границы",
-          "title": "Доступность книги подтверждает рецензия, а не клинический исход",
-          "body": "<p>Publishers Weekly в рецензии 2011 года выделяет светскую подачу, переход от анализа к присутствию и восьминедельную структуру с изменением привычек. Это независимая проверка того, как книга была прочитана и представлена. Благожелательная оценка помогает сопоставить наш разбор с рецепцией, но не измеряет пользу программы и не подтверждает медицинские обещания.</p>"
-        },
-        "en": {
-          "section": "Evidence and limits",
-          "title": "A review corroborates accessibility rather than clinical outcome",
-          "body": "<p>The 2011 Publishers Weekly review highlights secular presentation, the shift from analysis toward presence, and an eight-week structure with habit releasers. This independently checks how the book was read and presented. Favorable reception helps triangulate our account, but measures no program benefit and validates no medical promise.</p>"
+          "section": "Week 8 · Continuing",
+          "title": "Make practice your own",
+          "body": "<p>Week eight invites a feasible combination of familiar practices, open to revision. What matters is understanding what is precious in life and how awareness serves it: loved ones, patience, or presence in an ordinary day. Otherwise meditation can become one more compulsory item on an endless list.</p>"
         }
       }
     },
     {
-      "id": "portable-model",
-      "level": 1,
-      "claimType": "synthesis",
+      "id": "one-minute-return",
+      "level": 3,
+      "claimType": "book",
       "sources": [
         1
       ],
+      "locator": "gl12.xhtml · Время выбора; Всего на минуту",
       "copy": {
         "ru": {
           "section": "Неделя 8 · Продолжение",
-          "title": "Замечать, возвращаться, допускать, выбирать",
-          "body": "<p>Рабочая модель пересказа соединяет внимание, отношение и действие.</p><ol class=\"steps\"><li><strong>Замечать</strong> автоматический круг и захват внимания.</li><li><strong>Возвращаться</strong> к доступному сенсорному ориентиру.</li><li><strong>Допускать</strong> уже существующий опыт без немедленной войны с ним.</li><li><strong>Выбирать</strong> следующее действие с учётом ситуации и своих возможностей.</li></ol><p>Это формула памяти, а не клинический протокол и не обязательная последовательность каждого момента.</p>"
+          "title": "Начать хотя бы с минуты",
+          "body": "<p>Если практика давно прервалась, авторы предлагают вернуться хотя бы на минуту. Ум может сразу возразить, что столь мало бессмысленно. Это знакомый голос совершенства: либо правильно, либо никак. Его не требуется сначала заглушить — можно заметить его и всё же сделать небольшой шаг.</p>"
         },
         "en": {
-          "section": "Week 8 · Continuation",
-          "title": "Notice, return, allow, choose",
-          "body": "<p>The digest’s working model connects attention, relationship, and action.</p><ol class=\"steps\"><li><strong>Notice</strong> an automatic loop and captured attention.</li><li><strong>Return</strong> to an available sensory anchor.</li><li><strong>Allow</strong> existing experience without immediately fighting its presence.</li><li><strong>Choose</strong> the next action in light of the situation and available capacity.</li></ol><p>This is a memory aid, not a clinical protocol or a compulsory sequence for every moment.</p>"
+          "section": "Week 8 · Continuing",
+          "title": "Begin with even a minute",
+          "body": "<p>If practice has lapsed, the authors suggest returning for even a minute. The mind may immediately object that so little is pointless. This is perfection’s familiar voice: do it properly or not at all. It need not be silenced first; it can be noticed while a small step is still taken.</p>"
         }
-      },
-      "epubLocator": "OEBPS/Text/gl12.xhtml"
+      }
     },
     {
       "id": "final",
       "level": 1,
-      "claimType": "synthesis",
+      "claimType": "book",
       "sources": [
         1
       ],
+      "locator": "gl2–gl12.xhtml",
       "copy": {
         "ru": {
-          "section": "Неделя 8 · Продолжение",
-          "title": "Остаётся возможность отвечать, пока жизнь происходит",
-          "body": "<p>Главный переносимый сдвиг — не от трудной жизни к постоянному спокойствию, а от незаметной реакции к замеченному выбору. Задачи, чувства и обстоятельства продолжают меняться. У книги можно взять вопрос: что происходит сейчас и какой ответ уместен? Сохранить этот вопрос полезнее, чем превращать осознанность в ещё одно требование быть безупречным.</p>"
+          "section": "Жизнь, которая уже идёт",
+          "title": "Не откладывать присутствие",
+          "body": "<p>Книга начинает с человека, который пытается сначала расчистить жизнь, а потом зажить. Восемь недель постепенно меняют эту последовательность: чувствовать происходящее, замечать привычные реакции, относиться к себе добрее и действовать с большим выбором. Делам не нужно исчезнуть, чтобы сегодняшняя жизнь наконец стала заметной.</p>"
         },
         "en": {
-          "section": "Week 8 · Continuation",
-          "title": "The possibility of responding remains while life happens",
-          "body": "<p>The transferable shift is from unnoticed reaction toward recognized choice within a life that remains difficult at times. Tasks, feelings, and circumstances continue to change. The book leaves a question: what is happening now, and what response fits? Keeping that question is more useful than turning mindfulness into another demand for personal perfection.</p>"
+          "section": "The life already happening",
+          "title": "Do not postpone being here",
+          "body": "<p>The book begins with someone trying to clear life’s demands before living. Eight weeks gradually reverse that order: sense what is happening, recognize habitual reactions, meet oneself more kindly, and act with more choice. Tasks need not disappear before today’s life can become visible.</p>"
         }
       },
-      "epubLocator": "OEBPS/Text/gl12.xhtml",
       "final": true
     }
   ],
-  "modes": {
-    "essential": {
-      "label": {
-        "ru": "Главное",
-        "en": "Essential"
-      },
-      "minutes": {
-        "ru": "9 минут",
-        "en": "9 min"
-      }
-    },
-    "core": {
-      "label": {
-        "ru": "Суть книги",
-        "en": "Core"
-      },
-      "minutes": {
-        "ru": "22 минуты",
-        "en": "21 min"
-      }
-    },
-    "deep": {
-      "label": {
-        "ru": "Глубоко",
-        "en": "Deep"
-      },
-      "minutes": {
-        "ru": "34 минуты",
-        "en": "32 min"
-      }
-    }
-  }
+  "contentMode": "explanatory"
 }

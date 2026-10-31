@@ -1,0 +1,193 @@
+{
+  "slug": "mindfulness",
+  "verdict": "PASS",
+  "reviewRole": "independent-content-review",
+  "reviewedOn": "2026-10-31",
+  "reviewedArtifacts": {
+    "storyData": {
+      "path": "collector-output/mindfulness/story-data.json",
+      "sha256": "0942e4a88906fd32ac1bb96a340abc5077624b3d40c903f010ad2aeb16285400"
+    },
+    "collectorHtml": {
+      "path": "collector-output/mindfulness/mindfulness.html",
+      "sha256": "12114c735b743e8b2bb028b22e165a24a1d1a123d348397151a15305d70efb55"
+    }
+  },
+  "actualRuEnPairCount": 30,
+  "effectiveCollectorCorpusMatchesStoryData": true,
+  "routesRead": {
+    "essential": {
+      "pairCount": 14,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "reaction-loop",
+        "doing-mode",
+        "being-mode",
+        "eight-weeks",
+        "week-one-autopilot",
+        "week-two-body",
+        "week-three-movement",
+        "week-four-rumors",
+        "week-five-difficulty",
+        "week-six-kindness",
+        "week-seven-funnel",
+        "week-eight-completion",
+        "final"
+      ]
+    },
+    "core": {
+      "pairCount": 26,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "reaction-loop",
+        "lucy-case",
+        "doing-mode",
+        "being-mode",
+        "acceptance-choice",
+        "eight-weeks",
+        "book-versus-therapy",
+        "week-one-autopilot",
+        "raisin-purpose",
+        "breath-anchor",
+        "week-two-body",
+        "expectation-loop",
+        "week-three-movement",
+        "breathing-space",
+        "week-four-rumors",
+        "watch-thought",
+        "week-five-difficulty",
+        "body-route-difficulty",
+        "week-six-kindness",
+        "kindness-no-feeling",
+        "week-seven-funnel",
+        "activity-map",
+        "action-menu",
+        "week-eight-completion",
+        "final"
+      ]
+    },
+    "deep": {
+      "pairCount": 30,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "reaction-loop",
+        "lucy-case",
+        "doing-mode",
+        "being-mode",
+        "acceptance-choice",
+        "eight-weeks",
+        "clinical-origins",
+        "book-versus-therapy",
+        "week-one-autopilot",
+        "raisin-purpose",
+        "breath-anchor",
+        "change-seat",
+        "week-two-body",
+        "expectation-loop",
+        "week-three-movement",
+        "breathing-space",
+        "week-four-rumors",
+        "watch-thought",
+        "queue-case",
+        "week-five-difficulty",
+        "body-route-difficulty",
+        "week-six-kindness",
+        "kindness-no-feeling",
+        "week-seven-funnel",
+        "activity-map",
+        "action-menu",
+        "week-eight-completion",
+        "one-minute-return",
+        "final"
+      ]
+    }
+  },
+  "primaryEvidenceActuallyChecked": [
+    {
+      "primary": "Owned complete Williams/Penman RU MIF edition, ISBN 9785000572139",
+      "locator": "OEBPS/content.opf; Text/info.xhtml; spine Text/gl1.xhtml–Text/gl12.xhtml",
+      "actuallyChecked": "Title/author/publisher/identifier, full chapter spine and substantial chapter text; complete edition, not a third-party summary. Access read-only."
+    },
+    {
+      "locator": "Text/gl2.xhtml: Lucy opening and history; «Наше беспокойное сознание»; doing-mode conclusion; Text/gl3.xhtml: seven characteristics, especially sensory experience and acceptance/thoughts",
+      "screens": [
+        "reaction-loop",
+        "lucy-case",
+        "doing-mode",
+        "being-mode",
+        "acceptance-choice"
+      ],
+      "actuallyChecked": "Lucy’s study/work coping and family, reciprocal emotion/body/thought loop, useful planning versus rumination, acceptance without resignation. Targeted passages, not continuous reading of the entire edition."
+    },
+    {
+      "locator": "Text/gl4.xhtml: «Описание программы по неделям» and practice preparation; Text/gl5.xhtml: Alex opening, «Изюмная медитация», «Осознанность тела и дыхания», «Насиженное место»; Text/gl6.xhtml: body scan, expectations, sleepiness and walk",
+      "screens": [
+        "eight-weeks",
+        "week-one-autopilot",
+        "raisin-purpose",
+        "breath-anchor",
+        "change-seat",
+        "week-two-body",
+        "expectation-loop"
+      ],
+      "actuallyChecked": "Actual example, program progression, sensory purpose, natural breath and returning attention; body scan is exploration rather than a relaxation test."
+    },
+    {
+      "locator": "Text/gl7.xhtml: week-three schedule and hourglass breathing-space steps; Text/gl8.xhtml: rumors, thought/cinema image, evaluation as thought, slow-queue exercise; Text/gl9.xhtml: practice preparation and difficulty instructions, including manageable example and return to breath",
+      "screens": [
+        "week-three-movement",
+        "breathing-space",
+        "week-four-rumors",
+        "watch-thought",
+        "queue-case",
+        "week-five-difficulty",
+        "body-route-difficulty"
+      ],
+      "actuallyChecked": "Twice-daily introduction of breathing space, broad/narrow/broad sequence, actual cinema image, primary/secondary response in queue, manageable difficulty and bodily route. Did not recite every full meditation script."
+    },
+    {
+      "locator": "Text/gl10.xhtml: «Дружественная медитация» and difficult beginning; Text/gl11.xhtml: «Воронка истощения», activity balance, breathing-space/action section; Text/gl12.xhtml: «Время выбора», «Всего на минуту»",
+      "screens": [
+        "week-six-kindness",
+        "kindness-no-feeling",
+        "week-seven-funnel",
+        "activity-map",
+        "action-menu",
+        "week-eight-completion",
+        "one-minute-return",
+        "final"
+      ],
+      "actuallyChecked": "Self/close/neutral/optional difficult/all sequence, loved person or pet aid, Åsberg funnel, nourishing/draining balance, action before motivation, flexible continued practice and one-minute return."
+    },
+    {
+      "url": "https://franticworld.com/free-meditations-from-mindfulness/",
+      "actuallyChecked": "Official first-book practice descriptions; distinguished later Deeper Mindfulness promotion."
+    },
+    {
+      "url": "https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety",
+      "actuallyChecked": "Safety section supports possible anxiety/depression adverse effects and uncertain safety; this is explicitly a current external qualification in the account, not attributed to the book."
+    }
+  ],
+  "contentJudgment": "Faithful, readable concise explanation of the central argument and eight-week progression. Concrete author examples and procedures carry the explanation. No material reversal, invented case, substituted editorial framework or RU/EN meaning shift found. Essential is an overview, Core supplies practical mechanisms, Deep adds subordinate examples without changing the argument.",
+  "requiredFindings": [],
+  "optionalSuggestions": [],
+  "materialLimitations": [
+    "Targeted primary passage verification, not continuous cover-to-cover reading or verification of every empirical claim, poem, note and omitted example.",
+    "The owned primary edition is Russian; English was reviewed against this condensation and checked primary meaning, not collated with a complete published English edition.",
+    "This approves only the hashed revised collector package. The root HTML inspected for status still contains 112 old pairs and differs from this 30-pair revision; root integration and publication belong to the publisher.",
+    "No repeated browser/device matrix, clinical literature review, or full meditation-course usability certification was performed."
+  ],
+  "publicationDecisionOwner": "publisher"
+}

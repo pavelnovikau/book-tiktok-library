@@ -1,0 +1,94 @@
+{
+  "slug": "selfie",
+  "verdict": "PASS",
+  "reviewDate": "2026-10-31",
+  "reviewerRole": "Independent content reviewer; not the rewrite author or publisher",
+  "storyDataSha256": "4a1c0013c828cb2d7e5879b687910c89d66a003f07ece95247ebdcb42c9c5d8b",
+  "collectorHtmlSha256": "c3550c2db2db8bdda3ce516431544733d9358deb60b13347a244a9529c10bfa3",
+  "reviewedFiles": [
+    {
+      "path": "collector-output/selfie/story-data.json",
+      "sha256": "4a1c0013c828cb2d7e5879b687910c89d66a003f07ece95247ebdcb42c9c5d8b"
+    },
+    {
+      "path": "collector-output/selfie/selfie.html",
+      "sha256": "c3550c2db2db8bdda3ce516431544733d9358deb60b13347a244a9529c10bfa3"
+    }
+  ],
+  "actualRuEnPairCount": 62,
+  "cumulativeRoutesRead": {
+    "essential": 27,
+    "core": 39,
+    "deep": 62
+  },
+  "languagesRead": [
+    "ru",
+    "en"
+  ],
+  "effectiveCollectorCheck": {
+    "embeddedScreensEqualStoryData": true,
+    "materialCopyDivergence": false,
+    "difference": "HTML adds computed modes/reading-time metadata. The 62 bilingual screens and source/method copy match the JSON. No later corpus replacement found."
+  },
+  "contentJudgment": "The revised condensation preserves Storr’s linked investigation of the social self and the culture’s ideal, including the historical route and the final turn toward bounded personality and environment. It is coherent at each depth and retains actual people, experiments and reporting rather than replacing the book with reader exercises. Crucial qualifications survive: multiple suicide pathways, correlation versus causal intervention, self-worth versus narcissistic superiority, the disputed generation trend, economic benefits as well as costs, CJ as an extreme case, possible change without unlimited reinvention, and responsibility toward others. No required meaning correction found.",
+  "primaryEvidenceActuallyChecked": [
+    {
+      "edition": "Owned expanded RU EPUB, Will Storr, Селфи. Почему мы зациклены на себе и как это на нас влияет, Individuum, ISBN 9785604219614",
+      "check": "Read OPF title/author/publisher/ISBN and inspected the 26-item spine, the eight actual numbered books 0–7, methodology and endnotes. Approximately 97,266 extracted words including paratext identify the full edition, not a summary. This is not a claim of continuous full-book reading."
+    },
+    {
+      "locator": "OPS/ch1-3.xhtml, opening paragraphs 3–18; 25–35; 51; complete framing close 59–65",
+      "checked": "Debbie’s actual attempt/survival and expected-wife/mother ideal; Rory O’Connor’s real/perceived role expectations; whole-self verdict; the explicit many-pathways qualification; the two-investigation thesis. Paragraphs count nonempty h1–h4/p blocks in document order."
+    },
+    {
+      "locator": "OPS/ch1-4.xhtml, 59, 64–68 and 111–116; ch1-5.xhtml, 1–3 and 14–16",
+      "checked": "Gossip and group recognition, within-group morality, Pridmore’s Catholic interpretation distinguished from Storr’s interpretation, split-brain interpreter experiments, switched-face choice blindness, continuity of Pridmore’s temperament. These are selected passages, not the whole Pridmore narrative."
+    },
+    {
+      "locator": "OPS/ch1-6.xhtml, selected beauty/stomach/Nisbett passages including 3, 5, 24, 29–30; ch1-7.xhtml, 3, 18, 20 and 27 excerpts",
+      "checked": "Greek perfectible individual, ecology/economy/practices/mentality reconstruction, body shame and the Confucian contrast, including burdens rather than a claim that another culture abolishes perfectionism."
+    },
+    {
+      "locator": "OPS/ch1-8.xhtml, selected abbey/Martin passages including 5, 93 and 100; ch1-9.xhtml, 20–26; ch1-20.xhtml, 50",
+      "checked": "Actual Benedictine/Pluscarden setting and stable community; inward bad-self argument and Freud transition; Perls’s brief cold reception; later explicit return to Martin as someone helped by fitting his environment."
+    },
+    {
+      "locator": "OPS/ch1-10.xhtml, 26–28 and 34; ch1-11.xhtml, 19–20 and 113 excerpt; ch1-12.xhtml, 8–22",
+      "checked": "Rogers and unconditional positive regard, Esalen’s human-potential promise, group construction of self, harsh total-responsibility inference, Storr’s own participation, Maslow/Rogers doubts and transition to Vasconcellos. No invented dialogue is supplied by the condensation."
+    },
+    {
+      "locator": "OPS/ch1-13.xhtml, 6–8 and selected neoliberal argument passages; ch1-14.xhtml, 26, 45–46, 54–61 and 64–73",
+      "checked": "Rand/Branden route and actual campaign promise; research-versus-publicity divergence; archive recording, uneven correlations and unknown causal direction; the Smelser interview and political pressure. Checked the book’s reporting, not the original unpublished tapes independently."
+    },
+    {
+      "locator": "OPS/ch1-15.xhtml, 31–33, 40–48 and 53–58; ch1-16.xhtml, opening argument excerpt",
+      "checked": "Actual aggression experiment distinguishes self-esteem from narcissism; Twenge/Campbell versus Trzesniewski remains a dispute; Vasconcellos counterfactual is expressly uncertain; material inequality and genuine market benefits both appear in Storr’s account."
+    },
+    {
+      "locator": "OPS/ch1-17.xhtml, selected opening demonstration text, 6–8, 14–29; ch1-18.xhtml, 79–81 and 112–117; ch1-19.xhtml, 34–39; ch1-21.xhtml, 30–39",
+      "checked": "Engelbart/Brand/computing inheritance, networked self and scores, Rainbow Mansion, CJ’s self-presentation and expressly extreme status, healthier/inequality-aware young people with causal uncertainty, and the exact final launch scene. Phones, fog, roar, smiles and shaking ground are all in the source; the unseen rocket is not an invented ending."
+    },
+    {
+      "locator": "OPS/ch1-20.xhtml, 39–57 (42–50 read separately to complete context); ch1-21.xhtml, 18–39; ch1-23.xhtml, complete methodology note",
+      "checked": "Big Five dimensions, maturation/experience/therapy and constrained change, social selection/reinforcement, explicit authentic-self reversal at 57; calm understanding with mitigation/apologies; Little’s meaningful achievable projects; lizard on ice/desert; actual conclusion and the author’s methodological limits."
+    }
+  ],
+  "requiredFindings": [],
+  "optionalSuggestions": [
+    {
+      "screenId": "big-five-dimensions",
+      "category": "English clarity, nonblocking",
+      "ru": "В книге это ручки настройки, а не выключатели: качества выражены у каждого по-разному.",
+      "en": "The book treats them as adjustable levels rather than switches: everyone has a different combination.",
+      "suggestion": "“Levels on dials rather than on/off switches” would carry the metaphor without the slight suggestion of voluntary adjustability in “adjustable levels”. Adjacent screens already state personality stability and limits on change, so the present route is not materially misleading.",
+      "sourceLocator": "OPS/ch1-20.xhtml, paragraph 49: qualities are present to greater or lesser degrees; the surrounding argument concerns stable differences, not freely chosen settings."
+    }
+  ],
+  "materialLimitations": [
+    "Primary reading was targeted across all eight numbered books, with the actual closing argument/rocket scene and methodology read in the specified continuous passages. Longer narratives and much interior exposition were not read continuously. No full-book reading claim.",
+    "No full English edition consulted. EN was read as a translation of the condensation and checked against the supplied Russian primary meaning.",
+    "This verifies the condensation’s representation of Storr, not the entire historical causal chain, primary clinical records, all underlying social psychology or a comprehensive current science update.",
+    "The source note honestly frames the historical chain as Storr’s account and describes selective reading; these limits do not leave a particular essential passage unsupported.",
+    "Root/catalogue/publication, browser/device behavior and saved-progress integration are outside this content review."
+  ]
+}

@@ -65,6 +65,7 @@ for (const [index, collection] of (catalogue?.collections || []).entries()) {
     continue;
   }
   if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(collection.id || '')) fail(`${label}.id must be kebab-case`);
+  if (collection.id === 'unassigned') fail(`${label}.id "unassigned" is reserved for books outside collections`);
   if (collectionIds.has(collection.id)) fail(`duplicate collection id: ${collection.id}`);
   collectionIds.add(collection.id);
   checkLocalized(collection.label, `${label}.label`);
@@ -177,6 +178,8 @@ if (!fs.existsSync(indexPath)) {
   if (!indexHtml.includes("fetch('./books.json'")) fail('index.html must load books.json');
   if (!indexHtml.includes('id="sectionFilter"')) fail('index.html is missing the section filter');
   if (!indexHtml.includes('id="collectionFilter"')) fail('index.html is missing the collection filter');
+  if (!indexHtml.includes('id="collectionSummary"')) fail('index.html is missing the collection coverage summary');
+  if (!indexHtml.includes("id === 'unassigned'")) fail('index.html is missing the unassigned-books collection filter');
   if (!indexHtml.includes('id="searchInput"')) fail('index.html is missing catalogue search');
   if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"') || !indexHtml.includes('id="sectionStat"')) {
     fail('index.html is missing automatic counters');

@@ -1,0 +1,1658 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- book-library-pwa:start -->
+  <meta name="application-name" content="Book TikTok">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- book-library-pwa:end -->
+  <meta name="description" content="__DESCRIPTION_RU__">
+  <meta name="book-tiktok:schema" content="2">
+  <meta name="book-tiktok:screens" content="__SCREEN_COUNT__">
+  <meta name="book-tiktok:languages" content="ru,en">
+  <meta name="book-tiktok:modes" content="__MODE_COUNTS__">
+  <title>__TITLE_RU__</title>
+  <style>
+    @font-face {
+      font-family: "Geist";
+      src: url("data:font/woff2;base64,__GEIST_WOFF2__") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "Geist Mono";
+      src: url("data:font/woff2;base64,__GEIST_MONO_WOFF2__") format("woff2");
+      font-weight: 100 900;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      color-scheme: light;
+      --color-bg: #fffcf0;
+      --color-surface: #f2f0e5;
+      --color-surface-raised: #ffffff;
+      --color-fill: #e6e4d9;
+      --color-text: #100f0f;
+      --color-text-muted: #6f6e69;
+      --color-text-faint: #9f9d96;
+      --color-border: #dad8ce;
+      --color-border-strong: #b7b5ac;
+      --color-primary: #1c6c66;
+      --color-primary-hover: #164f4a;
+      --color-primary-active: #143f3c;
+      --color-on-primary: #fffcf0;
+      --color-focus-ring: rgba(36, 131, 123, 0.28);
+      --color-backdrop: rgba(16, 15, 15, 0.64);
+      --shadow-shell: 0 18px 54px rgba(16, 15, 15, 0.12);
+
+      --font-reading: "Geist", system-ui, sans-serif;
+      --font-mono: "Geist Mono", ui-monospace, monospace;
+      --text-2xs: 0.6875rem;
+      --text-xs: 0.75rem;
+      --text-sm: 0.875rem;
+      --text-base: 1rem;
+      --text-lg: 1.125rem;
+      --text-xl: 1.375rem;
+      --text-2xl: 1.75rem;
+      --text-3xl: 2.25rem;
+      --text-4xl: 3rem;
+      --text-6xl: 5.5rem;
+
+      --space-1: 0.25rem;
+      --space-2: 0.5rem;
+      --space-3: 0.75rem;
+      --space-4: 1rem;
+      --space-5: 1.25rem;
+      --space-6: 1.5rem;
+      --space-8: 2rem;
+      --space-10: 2.5rem;
+      --space-12: 3rem;
+      --space-16: 4rem;
+
+      --radius-sm: 0.5rem;
+      --radius-md: 0.75rem;
+      --radius-lg: 1rem;
+      --radius-full: 999px;
+      --control-height: 44px;
+      --header-height: 72px;
+      --footer-height: 72px;
+    }
+
+    [data-theme="dark"] {
+      color-scheme: dark;
+      --color-bg: #100f0f;
+      --color-surface: #1c1b1a;
+      --color-surface-raised: #242321;
+      --color-fill: #2d2c29;
+      --color-text: #cecdc3;
+      --color-text-muted: #9f9d96;
+      --color-text-faint: #6f6e69;
+      --color-border: #343331;
+      --color-border-strong: #575653;
+      --color-primary: #2f968d;
+      --color-primary-hover: #3aa99f;
+      --color-primary-active: #24837b;
+      --color-on-primary: #100f0f;
+      --color-focus-ring: rgba(58, 169, 159, 0.34);
+      --color-backdrop: rgba(0, 0, 0, 0.72);
+      --shadow-shell: 0 18px 54px rgba(0, 0, 0, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      min-width: 0;
+      min-height: 100%;
+      margin: 0;
+      overflow-x: hidden;
+      background: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-reading);
+      font-size: 16px;
+      line-height: 1.48;
+    }
+
+    body {
+      min-height: 100dvh;
+    }
+
+    button,
+    a {
+      font: inherit;
+    }
+
+    button {
+      color: inherit;
+    }
+
+    button:focus-visible,
+    a:focus-visible {
+      outline: none;
+      box-shadow: 0 0 0 3px var(--color-focus-ring);
+    }
+
+    button[disabled] {
+      opacity: 0.42;
+      pointer-events: none;
+    }
+
+    .app-stage {
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: var(--space-4);
+    }
+
+    .app-shell {
+      width: min(100%, 440px);
+      height: min(880px, calc(100dvh - 2rem));
+      min-height: 620px;
+      min-width: 0;
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      overflow: hidden;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      background: var(--color-bg);
+      box-shadow: var(--shadow-shell);
+    }
+
+    .app-header {
+      min-width: 0;
+      padding: max(var(--space-3), env(safe-area-inset-top)) var(--space-4) var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+      background: var(--color-bg);
+    }
+
+    .progress-track {
+      height: 3px;
+      display: flex;
+      gap: 2px;
+      margin-bottom: var(--space-3);
+      overflow: hidden;
+      border-radius: var(--radius-full);
+    }
+
+    .progress-segment {
+      min-width: 1px;
+      flex: 1 1 auto;
+      border-radius: var(--radius-full);
+      background: var(--color-fill);
+    }
+
+    .progress-segment.is-complete,
+    .progress-segment.is-current {
+      background: var(--color-text);
+    }
+
+    .progress-segment.is-current {
+      min-width: 5px;
+    }
+
+    .topbar {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-2);
+    }
+
+    .topbar-group {
+      min-width: 0;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: var(--space-1);
+    }
+
+    .topbar-group--start { justify-content: flex-start; }
+
+    .library-button {
+      width: 36px;
+      min-width: 36px;
+      padding-inline: 0;
+      border-color: var(--color-border);
+      background: var(--color-surface);
+      text-decoration: none;
+    }
+
+    .library-button svg {
+      width: 17px;
+      height: 17px;
+      fill: currentColor;
+    }
+
+    .button {
+      min-height: var(--control-height);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-2);
+      padding: var(--space-2) var(--space-4);
+      border: 1px solid var(--color-border-strong);
+      border-radius: var(--radius-sm);
+      background: var(--color-surface);
+      color: var(--color-text);
+      font-weight: 650;
+      cursor: pointer;
+    }
+
+    .button:hover {
+      background: var(--color-fill);
+    }
+
+    .button-primary {
+      border-color: var(--color-primary);
+      background: var(--color-primary);
+      color: var(--color-on-primary);
+    }
+
+    .button-primary:hover {
+      border-color: var(--color-primary-hover);
+      background: var(--color-primary-hover);
+    }
+
+    .button-primary:active {
+      border-color: var(--color-primary-active);
+      background: var(--color-primary-active);
+    }
+
+    .button-quiet {
+      min-height: 36px;
+      padding-inline: var(--space-2);
+      border-color: transparent;
+      background: transparent;
+      color: var(--color-text-muted);
+      font-size: var(--text-xs);
+      white-space: nowrap;
+    }
+
+    .button-quiet:hover {
+      border-color: transparent;
+      background: var(--color-fill);
+      color: var(--color-text);
+    }
+
+    .story {
+      min-width: 0;
+      min-height: 0;
+      position: relative;
+      overflow: hidden;
+      touch-action: pan-y;
+    }
+
+    .story-slide {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      animation: slide-in 180ms ease both;
+    }
+
+    .story-slide.is-reverse {
+      animation-name: slide-in-reverse;
+    }
+
+    .slide-scroll {
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      overscroll-behavior: contain;
+      scrollbar-width: thin;
+      scrollbar-color: var(--color-border-strong) transparent;
+      padding: var(--space-3) var(--space-6) var(--space-8);
+    }
+
+    .slide-scroll::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    .slide-scroll::-webkit-scrollbar-thumb {
+      border-radius: var(--radius-full);
+      background: var(--color-border-strong);
+    }
+
+    @keyframes slide-in {
+      from { opacity: 0; transform: translateX(18px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes slide-in-reverse {
+      from { opacity: 0; transform: translateX(-18px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+
+    h1,
+    h2,
+    p,
+    figure,
+    ul,
+    ol,
+    blockquote {
+      margin-top: 0;
+    }
+
+    h1 {
+      max-width: 24ch;
+      margin-bottom: var(--space-5);
+      font-size: clamp(var(--text-2xl), 8vw, var(--text-3xl));
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+    }
+
+    h2 {
+      margin-bottom: var(--space-2);
+      font-size: var(--text-lg);
+      line-height: 1.16;
+      letter-spacing: -0.02em;
+    }
+
+    p,
+    li {
+      font-size: var(--text-base);
+    }
+
+    .kicker,
+    .fact-label,
+    .contents-index,
+    .source-label,
+    .cover-eyebrow {
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .kicker {
+      margin-bottom: var(--space-3);
+      color: var(--color-text-muted);
+      font-weight: 650;
+    }
+
+    .lede {
+      font-size: var(--text-xl);
+      line-height: 1.28;
+      letter-spacing: -0.025em;
+    }
+
+    .muted {
+      color: var(--color-text-muted);
+    }
+
+    .hero-number {
+      margin-block: var(--space-6);
+      font-family: var(--font-mono);
+      font-size: clamp(var(--text-4xl), 22vw, var(--text-6xl));
+      font-weight: 700;
+      line-height: 0.92;
+      letter-spacing: -0.07em;
+    }
+
+    .fact,
+    .compare-item,
+    .metric-card,
+    blockquote {
+      margin-block: var(--space-4);
+      padding: var(--space-4);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      background: var(--color-surface);
+    }
+
+    .fact-label {
+      display: block;
+      margin-bottom: var(--space-2);
+      color: var(--color-text-muted);
+    }
+
+    .fact p,
+    .compare-item p,
+    .metric-card p,
+    blockquote p {
+      margin-bottom: 0;
+    }
+
+    .compare,
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-3);
+      margin-block: var(--space-4);
+    }
+
+    .metric-grid.three {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .compare-item,
+    .metric-card {
+      min-width: 0;
+      margin-block: 0;
+    }
+
+    .metric-card strong {
+      display: block;
+      margin-bottom: var(--space-2);
+      font-family: var(--font-mono);
+      font-size: var(--text-2xl);
+    }
+
+    .story-list,
+    .steps {
+      margin-block: var(--space-4);
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--color-border);
+    }
+
+    .story-list li,
+    .steps li {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(3.5rem, auto) minmax(0, 1fr);
+      gap: var(--space-3);
+      padding-block: var(--space-3);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .story-list .index,
+    .steps .index {
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      font-weight: 650;
+    }
+
+    .story-list strong,
+    .story-list span:not(.index),
+    .steps strong,
+    .steps span:not(.index) {
+      display: block;
+    }
+
+    .story-list span:not(.index),
+    .steps span:not(.index) {
+      margin-top: var(--space-1);
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+    }
+
+    .story-image {
+      margin-bottom: var(--space-5);
+    }
+
+    .story-image img {
+      width: 100%;
+      max-height: 44dvh;
+      display: block;
+      object-fit: cover;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      background: var(--color-surface);
+    }
+
+    .story-image figcaption {
+      margin-top: var(--space-2);
+      color: var(--color-text-muted);
+      font-size: var(--text-xs);
+    }
+
+    .source-label {
+      margin-top: var(--space-8);
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      letter-spacing: 0;
+      text-transform: none;
+    }
+
+    .source-label > span {
+      font-weight: 700;
+    }
+
+    .source-label button {
+      padding: 0;
+      border: 0;
+      background: transparent;
+      color: inherit;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    .cover-layout {
+      min-height: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-5);
+      justify-content: center;
+    }
+
+    .cover-visual {
+      min-height: 220px;
+      display: grid;
+      place-items: center;
+      padding: var(--space-5);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      background: var(--color-surface);
+    }
+
+    .cover-visual img {
+      width: 100%;
+      height: 100%;
+      max-height: 360px;
+      display: block;
+      object-fit: contain;
+    }
+
+    .cover-visual.has-image {
+      grid-template-rows: minmax(0, 1fr) auto;
+      align-items: stretch;
+    }
+
+    .cover-visual figcaption {
+      margin-top: var(--space-3);
+      color: var(--color-text-muted);
+      font-size: var(--text-xs);
+    }
+
+    .cover-mark {
+      width: 100%;
+      display: grid;
+      gap: var(--space-10);
+    }
+
+    .cover-line {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: var(--space-2);
+      align-items: center;
+    }
+
+    .cover-node {
+      aspect-ratio: 1;
+      display: grid;
+      place-items: center;
+      border: 1px solid var(--color-border-strong);
+      border-radius: var(--radius-full);
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+    }
+
+    .cover-node.is-focus {
+      border-color: var(--color-text);
+      background: var(--color-text);
+      color: var(--color-bg);
+    }
+
+    .cover-copy h1 {
+      margin-bottom: var(--space-3);
+    }
+
+    .cover-subtitle {
+      margin-bottom: var(--space-3);
+      color: var(--color-text-muted);
+    }
+
+    .mode-picker {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: var(--space-1);
+      margin-top: var(--space-5);
+      padding: var(--space-1);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      background: var(--color-surface);
+    }
+
+    .mode-button {
+      min-width: 0;
+      padding: var(--space-2);
+      border: 0;
+      border-radius: var(--radius-sm);
+      background: transparent;
+      color: var(--color-text-muted);
+      cursor: pointer;
+    }
+
+    .mode-button strong,
+    .mode-button span {
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .mode-button strong {
+      font-size: var(--text-xs);
+    }
+
+    .mode-button span {
+      margin-top: var(--space-1);
+      font-size: var(--text-2xs);
+    }
+
+    .mode-button.is-active {
+      background: var(--color-text);
+      color: var(--color-bg);
+    }
+
+    .cover-actions {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .app-nav {
+      min-width: 0;
+      min-height: var(--footer-height);
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+      align-items: center;
+      gap: var(--space-3);
+      padding: var(--space-3) var(--space-4) max(var(--space-3), env(safe-area-inset-bottom));
+      border-top: 1px solid var(--color-border);
+      background: var(--color-bg);
+    }
+
+    .app-nav.is-hidden {
+      display: none;
+    }
+
+    .app-nav .button:first-child {
+      justify-self: start;
+    }
+
+    .app-nav .button:last-child {
+      justify-self: end;
+    }
+
+    .counter {
+      min-width: 4.5rem;
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      text-align: center;
+    }
+
+    .desktop-rail {
+      display: none;
+    }
+
+    dialog {
+      width: min(calc(100% - 2rem), 680px);
+      max-height: min(84dvh, 760px);
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid var(--color-border-strong);
+      border-radius: var(--radius-lg);
+      background: var(--color-bg);
+      color: var(--color-text);
+      box-shadow: var(--shadow-shell);
+    }
+
+    dialog::backdrop {
+      background: var(--color-backdrop);
+    }
+
+    .dialog-shell {
+      max-height: min(84dvh, 760px);
+      display: grid;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+    }
+
+    .dialog-header,
+    .dialog-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-3);
+      padding: var(--space-4);
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .dialog-footer {
+      justify-content: flex-end;
+      border-top: 1px solid var(--color-border);
+      border-bottom: 0;
+    }
+
+    .dialog-header h2 {
+      margin: 0;
+    }
+
+    .dialog-body {
+      min-height: 0;
+      overflow-y: auto;
+      padding: var(--space-4);
+    }
+
+    .dialog-mode-picker {
+      margin-top: 0;
+      margin-bottom: var(--space-4);
+    }
+
+    .contents-list {
+      display: grid;
+      gap: var(--space-1);
+    }
+
+    .contents-item {
+      width: 100%;
+      min-width: 0;
+      display: grid;
+      grid-template-columns: 2.5rem minmax(0, 1fr);
+      gap: var(--space-3);
+      padding: var(--space-3);
+      border: 1px solid transparent;
+      border-radius: var(--radius-sm);
+      background: transparent;
+      color: var(--color-text);
+      text-align: left;
+      cursor: pointer;
+    }
+
+    .contents-item:hover,
+    .contents-item.is-active {
+      border-color: var(--color-border);
+      background: var(--color-surface);
+    }
+
+    .contents-index {
+      color: var(--color-text-muted);
+      letter-spacing: 0;
+    }
+
+    .contents-title {
+      min-width: 0;
+      font-size: var(--text-sm);
+      font-weight: 650;
+    }
+
+    .sources-list {
+      margin: 0;
+      padding-left: 1.5rem;
+    }
+
+    .sources-list li {
+      padding: var(--space-3) 0;
+      border-bottom: 1px solid var(--color-border);
+    }
+
+    .sources-list a {
+      color: var(--color-text);
+      font-weight: 700;
+    }
+
+    .source-role {
+      display: inline-block;
+      margin-left: var(--space-2);
+      color: var(--color-text-muted);
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+      text-transform: uppercase;
+    }
+
+    .sources-list p {
+      margin: var(--space-1) 0 0;
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+    }
+
+    .method-note {
+      margin-top: var(--space-6);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--color-border);
+      color: var(--color-text-muted);
+      font-size: var(--text-sm);
+    }
+
+    @media (max-width: 520px) {
+      .app-stage {
+        padding: 0;
+      }
+
+      .app-shell {
+        width: 100%;
+        height: 100dvh;
+        min-height: 0;
+        border: 0;
+        border-radius: 0;
+        box-shadow: none;
+      }
+    }
+
+    @media (max-width: 359px) {
+      :root {
+        --text-3xl: 2rem;
+      }
+
+      .app-header,
+      .app-nav {
+        padding-inline: var(--space-3);
+      }
+
+      .topbar {
+        gap: var(--space-1);
+      }
+
+      .topbar .button-quiet {
+        padding-inline: var(--space-1);
+        font-size: var(--text-2xs);
+      }
+
+      .slide-scroll {
+        padding-inline: var(--space-5);
+      }
+
+      .compare,
+      .metric-grid,
+      .metric-grid.three {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
+    @media (min-width: 900px) {
+      .app-stage {
+        padding: var(--space-6);
+      }
+
+      .app-shell {
+        width: min(1180px, calc(100vw - 3rem));
+        height: min(900px, calc(100dvh - 3rem));
+        min-height: 680px;
+        grid-template-columns: 270px minmax(0, 1fr);
+        grid-template-rows: auto minmax(0, 1fr) auto;
+      }
+
+      .app-header {
+        grid-column: 1 / -1;
+      }
+
+      .desktop-rail {
+        min-width: 0;
+        min-height: 0;
+        display: grid;
+        grid-column: 1;
+        grid-row: 2 / 4;
+        grid-template-rows: auto minmax(0, 1fr);
+        overflow: hidden;
+        border-right: 1px solid var(--color-border);
+        background: var(--color-surface);
+      }
+
+      .rail-heading {
+        padding: var(--space-5);
+        border-bottom: 1px solid var(--color-border);
+      }
+
+      .rail-heading strong,
+      .rail-heading span {
+        display: block;
+      }
+
+      .rail-heading span {
+        margin-top: var(--space-2);
+        color: var(--color-text-muted);
+        font-size: var(--text-xs);
+      }
+
+      .desktop-contents {
+        min-height: 0;
+        overflow-y: auto;
+        padding: var(--space-3);
+      }
+
+      .desktop-contents .contents-item {
+        grid-template-columns: 2.25rem minmax(0, 1fr);
+        padding: var(--space-2) var(--space-3);
+      }
+
+      .story {
+        grid-column: 2;
+        grid-row: 2;
+      }
+
+      .app-nav {
+        grid-column: 2;
+        grid-row: 3;
+      }
+
+      .slide-scroll {
+        padding: var(--space-8) max(var(--space-10), calc((100% - 760px) / 2)) var(--space-10);
+      }
+
+      .cover-layout {
+        max-width: 900px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: minmax(280px, 0.85fr) minmax(360px, 1.15fr);
+        grid-template-rows: minmax(0, 1fr) auto;
+        align-items: center;
+        column-gap: var(--space-10);
+      }
+
+      .cover-visual {
+        min-height: 440px;
+        grid-row: 1 / 3;
+      }
+
+      .cover-actions {
+        align-self: end;
+      }
+
+      h1 {
+        font-size: var(--text-3xl);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+      }
+    }
+    /* Focus mode: tap non-interactive reading text to hide the reader chrome. */
+    html[data-focus-mode="true"] body { overscroll-behavior-y: none; }
+    html[data-focus-mode="true"] .app-stage { padding: 0 !important; }
+    html[data-focus-mode="true"] .app-shell {
+      width: min(100%, 900px) !important;
+      height: 100dvh !important;
+      min-height: 0 !important;
+      grid-template-columns: minmax(0, 1fr) !important;
+      grid-template-rows: minmax(0, 1fr) auto !important;
+      border: 0 !important;
+      border-radius: 0 !important;
+      box-shadow: none !important;
+    }
+    html[data-focus-mode="true"] .app-header,
+    html[data-focus-mode="true"] .progress-track,
+    html[data-focus-mode="true"] .desktop-rail { display: none !important; }
+    html[data-focus-mode="true"] .story {
+      min-width: 0 !important;
+      min-height: 0 !important;
+      grid-column: 1 !important;
+      grid-row: 1 !important;
+    }
+    html[data-focus-mode="true"] .slide-scroll {
+      padding-top: max(var(--space-6), env(safe-area-inset-top, 0px)) !important;
+      padding-bottom: var(--space-8) !important;
+    }
+    html[data-focus-mode="true"] .app-nav {
+      min-height: calc(64px + env(safe-area-inset-bottom, 0px)) !important;
+      display: grid !important;
+      grid-column: 1 !important;
+      grid-row: 2 !important;
+      grid-template-columns: minmax(0, 1fr) !important;
+      justify-items: end !important;
+      padding: var(--space-2) max(var(--space-4), env(safe-area-inset-right, 0px)) max(var(--space-3), env(safe-area-inset-bottom, 0px)) max(var(--space-4), env(safe-area-inset-left, 0px)) !important;
+      border-top-color: transparent !important;
+      background: var(--color-bg) !important;
+    }
+    html[data-focus-mode="true"] .app-nav.is-hidden { display: none !important; }
+    html[data-focus-mode="true"] #previousButton,
+    html[data-focus-mode="true"] .nav-position { display: none !important; }
+    html[data-focus-mode="true"] #nextButton {
+      display: inline-flex !important;
+      min-width: min(13rem, 52vw) !important;
+      min-height: 48px !important;
+      justify-self: end !important;
+    }
+    @media (min-width: 900px) {
+      html[data-focus-mode="true"] .slide-scroll {
+        padding-right: max(var(--space-10), calc((100% - 720px) / 2)) !important;
+        padding-left: max(var(--space-10), calc((100% - 720px) / 2)) !important;
+      }
+    }
+    .book-library-install-trigger {
+      position: fixed;
+      z-index: 80;
+      top: max(0.75rem, env(safe-area-inset-top, 0px));
+      left: 50%;
+      display: inline-flex;
+      min-height: 44px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 1rem;
+      transform: translateX(-50%);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-full);
+      background: var(--color-surface-raised);
+      box-shadow: 0 0.5rem 2rem rgba(16, 15, 15, 0.2);
+      color: var(--color-text);
+      font: 650 var(--text-xs)/1 var(--font-mono);
+      letter-spacing: 0.02em;
+      cursor: pointer;
+    }
+    .book-library-install-trigger[hidden],
+    html[data-focus-mode="true"] .book-library-install-trigger { display: none !important; }
+    dialog.book-library-install-dialog {
+      width: min(calc(100% - 2rem), 30rem) !important;
+      max-width: 30rem !important;
+      max-height: min(82dvh, 38rem);
+      margin: auto;
+      padding: 0 !important;
+      overflow: auto;
+      border: 1px solid var(--color-border) !important;
+      border-radius: var(--radius-lg) !important;
+      background: var(--color-surface-raised) !important;
+      box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.42) !important;
+      color: var(--color-text) !important;
+    }
+    dialog.book-library-install-dialog::backdrop { background: var(--color-backdrop); }
+    .book-library-install-card { padding: var(--space-6); }
+    .book-library-install-kicker {
+      margin: 0 0 var(--space-3);
+      color: var(--color-text-faint);
+      font: 650 var(--text-2xs)/1.2 var(--font-mono);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+    .book-library-install-card h2 {
+      margin: 0 0 var(--space-3);
+      color: var(--color-text);
+      font: 650 var(--text-2xl)/1.08 var(--font-reading);
+      letter-spacing: -0.035em;
+    }
+    .book-library-install-card p {
+      margin: 0 0 var(--space-5);
+      color: var(--color-text-muted);
+      font: 400 var(--text-base)/1.5 var(--font-reading);
+    }
+    .book-library-install-card ol {
+      margin: 0 0 var(--space-6);
+      padding-left: 1.35rem;
+      color: var(--color-text);
+      font: 400 var(--text-base)/1.5 var(--font-reading);
+    }
+    .book-library-install-card li + li { margin-top: var(--space-3); }
+    .book-library-install-actions { display: flex; justify-content: flex-end; }
+    .book-library-install-close {
+      min-height: 48px;
+      padding: 0 var(--space-5);
+      border: 1px solid var(--color-primary);
+      border-radius: var(--radius-md);
+      background: var(--color-primary);
+      color: var(--color-on-primary);
+      font: 650 var(--text-base)/1 var(--font-reading);
+      cursor: pointer;
+    }
+    @media (display-mode: standalone) {
+      .book-library-install-trigger,
+      .book-library-install-dialog { display: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app-stage">
+    <section class="app-shell" id="appShell">
+      <header class="app-header">
+        <div class="progress-track" id="progressTrack"></div>
+        <div class="topbar">
+          <div class="topbar-group topbar-group--start">
+            <a class="button button-quiet library-button" id="libraryButton" href="./">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.75 10.5 12 3.75l8.25 6.75v9.75h-5.5V14h-5.5v6.25h-5.5z"></path></svg>
+            </a>
+            <button class="button button-quiet" id="contentsButton" type="button"></button>
+          </div>
+          <div class="topbar-group">
+            <button class="button button-quiet" id="languageButton" type="button"></button>
+            <button class="button button-quiet" id="sourcesButton" type="button"></button>
+            <button class="button button-quiet" id="themeButton" type="button"></button>
+          </div>
+        </div>
+      </header>
+
+      <aside class="desktop-rail" id="desktopRail">
+        <div class="rail-heading">
+          <strong id="railTitle"></strong>
+          <span id="railHint"></span>
+        </div>
+        <div class="desktop-contents" id="desktopContentsList"></div>
+      </aside>
+
+      <main class="story" id="story"></main>
+
+      <nav class="app-nav" id="appNav">
+        <button class="button" id="previousButton" type="button"></button>
+        <span class="counter" id="counter"></span>
+        <button class="button button-primary" id="nextButton" type="button"></button>
+      </nav>
+    </section>
+  </div>
+
+  <dialog id="contentsDialog">
+    <div class="dialog-shell">
+      <header class="dialog-header">
+        <h2 id="contentsTitle"></h2>
+        <button class="button button-quiet" type="button" data-close-dialog="contentsDialog"></button>
+      </header>
+      <div class="dialog-body">
+        <div class="mode-picker dialog-mode-picker" id="dialogModePicker"></div>
+        <div class="contents-list" id="contentsList"></div>
+      </div>
+      <footer class="dialog-footer">
+        <button class="button" type="button" data-close-dialog="contentsDialog"></button>
+      </footer>
+    </div>
+  </dialog>
+
+  <dialog id="sourcesDialog">
+    <div class="dialog-shell">
+      <header class="dialog-header">
+        <h2 id="sourcesTitle"></h2>
+        <button class="button button-quiet" type="button" data-close-dialog="sourcesDialog"></button>
+      </header>
+      <div class="dialog-body">
+        <ol class="sources-list" id="sourcesList"></ol>
+        <p class="method-note" id="methodNote"></p>
+      </div>
+      <footer class="dialog-footer">
+        <button class="button" type="button" data-close-dialog="sourcesDialog"></button>
+      </footer>
+    </div>
+  </dialog>
+
+  <script id="book-tiktok-data" type="application/json">__BOOK_TIKTOK_DATA__</script>
+  <script>
+    (() => {
+      'use strict';
+
+      const data = JSON.parse(document.getElementById('book-tiktok-data').textContent);
+      const levels = { essential: 1, core: 2, deep: 3 };
+      const modeOrder = ['essential', 'core', 'deep'];
+      const storagePrefix = `book-tiktok.${data.slug}.`;
+
+      const ui = {
+        ru: {
+          library: 'К библиотеке', chapters: 'Главы', sources: 'Источники', light: 'Светлая', dark: 'Тёмная',
+          previous: 'Назад', next: 'Дальше', restart: 'Сначала', close: 'Закрыть',
+          start: 'Начать просмотр', startOver: 'Начать сначала', continuePrefix: 'Продолжить: «', continueSuffix: '»',
+          contentsTitle: 'Оглавление', sourcesTitle: 'Источники и метод', progress: 'Экран', of: 'из',
+          depthLabel: 'Глубина чтения', coverTop: 'СИСТЕМА / ИДЕЯ / СЛЕДСТВИЕ', coverBottom: 'ОДНА МОДЕЛЬ, КОТОРУЮ СТОИТ УНЕСТИ',
+          railHint: 'Выберите экран или используйте стрелки', sourcePrefix: 'Источники',
+          claimTypes: { book: 'Аргумент книги', corroboration: 'Проверка', synthesis: 'Синтез' },
+          sourceRoles: { book: 'Книга', publisher: 'Издатель', author: 'Автор', primary: 'Первичный', review: 'Рецензия', reference: 'Справка' },
+          switchLanguage: 'Switch to English', switchTheme: 'Переключить тему',
+          method: 'Это аналитический конспект, а не копия книги. Фактические утверждения привязаны к источникам; синтез и современные аналогии обозначаются как интерпретация.'
+        },
+        en: {
+          library: 'Back to library', chapters: 'Chapters', sources: 'Sources', light: 'Light', dark: 'Dark',
+          previous: 'Back', next: 'Next', restart: 'Restart', close: 'Close',
+          start: 'Start reading', startOver: 'Start over', continuePrefix: 'Continue: “', continueSuffix: '”',
+          contentsTitle: 'Contents', sourcesTitle: 'Sources and method', progress: 'Screen', of: 'of',
+          depthLabel: 'Reading depth', coverTop: 'SYSTEM / IDEA / CONSEQUENCE', coverBottom: 'ONE MODEL TO CARRY FORWARD',
+          railHint: 'Choose a screen or use arrow keys', sourcePrefix: 'Sources',
+          claimTypes: { book: 'Book argument', corroboration: 'Corroboration', synthesis: 'Synthesis' },
+          sourceRoles: { book: 'Book', publisher: 'Publisher', author: 'Author', primary: 'Primary', review: 'Review', reference: 'Reference' },
+          switchLanguage: 'Переключить на русский', switchTheme: 'Switch theme',
+          method: 'This is an analytical digest, not copied book text. Factual claims are tied to sources; synthesis and present-day analogies are identified as interpretation.'
+        }
+      };
+
+      const els = {
+        appShell: document.getElementById('appShell'), story: document.getElementById('story'),
+        progressTrack: document.getElementById('progressTrack'), appNav: document.getElementById('appNav'),
+        previousButton: document.getElementById('previousButton'), nextButton: document.getElementById('nextButton'),
+        counter: document.getElementById('counter'), libraryButton: document.getElementById('libraryButton'), contentsButton: document.getElementById('contentsButton'),
+        languageButton: document.getElementById('languageButton'), sourcesButton: document.getElementById('sourcesButton'),
+        themeButton: document.getElementById('themeButton'), contentsDialog: document.getElementById('contentsDialog'),
+        sourcesDialog: document.getElementById('sourcesDialog'), contentsList: document.getElementById('contentsList'),
+        desktopContentsList: document.getElementById('desktopContentsList'), dialogModePicker: document.getElementById('dialogModePicker'),
+        contentsTitle: document.getElementById('contentsTitle'), sourcesTitle: document.getElementById('sourcesTitle'),
+        sourcesList: document.getElementById('sourcesList'), methodNote: document.getElementById('methodNote'),
+        railTitle: document.getElementById('railTitle'), railHint: document.getElementById('railHint')
+      };
+
+      function stored(key, fallback) {
+        try { return localStorage.getItem(storagePrefix + key) || fallback; } catch (_) { return fallback; }
+      }
+
+      function save(key, value) {
+        try { localStorage.setItem(storagePrefix + key, value); } catch (_) {}
+      }
+
+      function removeStored(key) {
+        try { localStorage.removeItem(storagePrefix + key); } catch (_) {}
+      }
+
+      const state = {
+        language: ['ru', 'en'].includes(stored('language', data.defaultLanguage || 'ru')) ? stored('language', data.defaultLanguage || 'ru') : 'ru',
+        theme: ['light', 'dark'].includes(stored('theme', data.defaultTheme || 'dark')) ? stored('theme', data.defaultTheme || 'dark') : 'dark',
+        mode: modeOrder.includes(stored('mode', data.defaultMode || 'deep')) ? stored('mode', data.defaultMode || 'deep') : 'deep',
+        position: 0,
+        direction: 'forward'
+      };
+
+      function text() { return ui[state.language]; }
+      function copyOf(screen) { return screen.copy[state.language]; }
+      function visibleScreens() { return data.screens.filter((screen) => screen.level <= levels[state.mode]); }
+      function currentScreen() { return visibleScreens()[state.position]; }
+      function escapeHtml(value) { return String(value).replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
+
+      function modeCounts() {
+        return {
+          essential: data.screens.filter((screen) => screen.level <= 1).length,
+          core: data.screens.filter((screen) => screen.level <= 2).length,
+          deep: data.screens.length
+        };
+      }
+
+      function modeLabel(mode) {
+        const configured = data.modes && data.modes[mode];
+        return configured && configured.label ? configured.label[state.language] : mode;
+      }
+
+      function modeMinutes(mode) {
+        const configured = data.modes && data.modes[mode];
+        const minutes = configured && configured.minutes ? configured.minutes[state.language] : null;
+        return minutes || `${modeCounts()[mode]}`;
+      }
+
+      function renderModeButton(mode) {
+        const active = state.mode === mode;
+        return `<button class="mode-button${active ? ' is-active' : ''}" type="button" data-mode="${mode}" aria-pressed="${active}"><strong>${escapeHtml(modeLabel(mode))}</strong><span>${escapeHtml(modeMinutes(mode))}</span></button>`;
+      }
+
+      function renderModePicker() {
+        return modeOrder.map(renderModeButton).join('');
+      }
+
+      function mediaFor(screen) {
+        if (!screen.media || !data.media || !data.media[screen.media]) return '';
+        const media = data.media[screen.media];
+        const alt = media.alt ? media.alt[state.language] : '';
+        const credit = media.credit ? media.credit[state.language] : '';
+        return `<figure class="story-image"><img src="${escapeHtml(media.dataUri)}" alt="${escapeHtml(alt || '')}" decoding="sync">${credit ? `<figcaption>${escapeHtml(credit)}</figcaption>` : ''}</figure>`;
+      }
+
+      function coverMediaFor(screen) {
+        if (!screen.media || !data.media || !data.media[screen.media]) return '';
+        const media = data.media[screen.media];
+        const alt = media.alt ? media.alt[state.language] : '';
+        const credit = media.credit ? media.credit[state.language] : '';
+        return `<figure class="cover-visual has-image"><img src="${escapeHtml(media.dataUri)}" alt="${escapeHtml(alt || '')}" decoding="sync">${credit ? `<figcaption>${escapeHtml(credit)}</figcaption>` : ''}</figure>`;
+      }
+
+      function sourceLabel(screen) {
+        const claimLabel = text().claimTypes[screen.claimType] || text().claimTypes.book;
+        const sourceButton = screen.sources && screen.sources.length
+          ? ` · <button type="button" data-open-sources>${escapeHtml(text().sourcePrefix)}: ${screen.sources.join(', ')}</button>`
+          : '';
+        return `<p class="source-label"><span>${escapeHtml(claimLabel)}</span>${sourceButton}</p>`;
+      }
+
+      function renderCover(screen) {
+        const copy = copyOf(screen);
+        const rememberedId = stored('lastScreen', '');
+        const remembered = rememberedId && rememberedId !== screen.id ? data.screens.find((item) => item.id === rememberedId) : null;
+        const primaryLabel = remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start;
+        const visual = coverMediaFor(screen) || `<div class="cover-visual" role="img" aria-label="${escapeHtml(copy.visualAlt || copy.title)}"><div class="cover-mark"><span class="cover-eyebrow">${escapeHtml(text().coverTop)}</span><div class="cover-line"><span class="cover-node">01</span><span class="cover-node">02</span><span class="cover-node">03</span><span class="cover-node is-focus">04</span><span class="cover-node">05</span><span class="cover-node">06</span><span class="cover-node">07</span></div><span class="cover-eyebrow">${escapeHtml(text().coverBottom)}</span></div></div>`;
+        return `<article class="story-slide${state.direction === 'back' ? ' is-reverse' : ''}"><div class="slide-scroll"><div class="cover-layout">${visual}<div class="cover-copy"><p class="kicker">${escapeHtml(copy.section)}</p><h1>${escapeHtml(copy.title)}</h1>${copy.subtitle ? `<p class="cover-subtitle">${escapeHtml(copy.subtitle)}</p>` : ''}${copy.body || ''}<div class="mode-picker" role="group" aria-label="${escapeHtml(text().depthLabel)}">${renderModePicker()}</div></div><div class="cover-actions"><button class="button button-primary" type="button" data-start="${remembered ? 'continue' : 'begin'}">${escapeHtml(primaryLabel)}</button>${remembered ? `<button class="button" type="button" data-start="begin">${escapeHtml(text().startOver)}</button>` : ''}</div></div></div></article>`;
+      }
+
+      function renderScreen(screen) {
+        if (screen.type === 'cover') return renderCover(screen);
+        const copy = copyOf(screen);
+        return `<article class="story-slide${state.direction === 'back' ? ' is-reverse' : ''}" aria-label="${escapeHtml(copy.title)}"><div class="slide-scroll"><p class="kicker">${escapeHtml(copy.section)}</p><h1>${escapeHtml(copy.title)}</h1>${mediaFor(screen)}${copy.body || ''}${sourceLabel(screen)}</div></article>`;
+      }
+
+      function renderProgress() {
+        const list = visibleScreens();
+        els.progressTrack.innerHTML = list.map((_, index) => `<span class="progress-segment${index < state.position ? ' is-complete' : index === state.position ? ' is-current' : ''}" aria-hidden="true"></span>`).join('');
+        els.progressTrack.setAttribute('aria-label', `${text().progress} ${state.position + 1} ${text().of} ${list.length}`);
+      }
+
+      function renderNavigation() {
+        const list = visibleScreens();
+        const screen = currentScreen();
+        const hidden = screen.type === 'cover';
+        els.appNav.classList.toggle('is-hidden', hidden);
+        els.previousButton.disabled = state.position === 0;
+        els.previousButton.textContent = text().previous;
+        els.nextButton.textContent = screen.final || state.position === list.length - 1 ? text().restart : text().next;
+        els.counter.textContent = `${state.position + 1} / ${list.length}`;
+      }
+
+      function contentsHtml() {
+        const list = visibleScreens();
+        const activeId = currentScreen().id;
+        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(copyOf(screen).title)}</span></button>`).join('');
+      }
+
+      function renderContents() {
+        const html = contentsHtml();
+        els.contentsList.innerHTML = html;
+        els.desktopContentsList.innerHTML = html;
+        els.dialogModePicker.innerHTML = renderModePicker();
+        requestAnimationFrame(() => {
+          const active = els.desktopContentsList.querySelector('.is-active');
+          if (active) active.scrollIntoView({ block: 'center' });
+        });
+      }
+
+      function renderSources() {
+        els.sourcesList.innerHTML = data.sources.map((source) => `<li><a href="${escapeHtml(source.url)}" target="_blank" rel="noreferrer">${escapeHtml(source.title)}</a><span class="source-role">${escapeHtml(text().sourceRoles[source.role] || source.role)}</span><p>${escapeHtml(source.note[state.language])}</p></li>`).join('');
+      }
+
+      function renderStaticText() {
+        const bookTitle = data.title[state.language];
+        document.documentElement.lang = state.language;
+        document.documentElement.dataset.theme = state.theme;
+        document.title = bookTitle;
+        document.querySelector('meta[name="description"]').setAttribute('content', data.description[state.language]);
+        els.appShell.setAttribute('aria-label', bookTitle);
+        els.libraryButton.setAttribute('aria-label', text().library);
+        els.libraryButton.setAttribute('title', text().library);
+        els.contentsButton.textContent = text().chapters;
+        els.sourcesButton.textContent = text().sources;
+        els.languageButton.textContent = state.language === 'ru' ? 'EN' : 'RU';
+        els.languageButton.setAttribute('aria-label', text().switchLanguage);
+        els.themeButton.textContent = state.theme === 'dark' ? text().light : text().dark;
+        els.themeButton.setAttribute('aria-label', text().switchTheme);
+        els.contentsTitle.textContent = text().contentsTitle;
+        els.sourcesTitle.textContent = text().sourcesTitle;
+        els.dialogModePicker.setAttribute('role', 'group');
+        els.dialogModePicker.setAttribute('aria-label', text().depthLabel);
+        els.methodNote.textContent = data.methodNote ? data.methodNote[state.language] : text().method;
+        els.railTitle.textContent = bookTitle;
+        els.railHint.textContent = text().railHint;
+        document.querySelectorAll('[data-close-dialog]').forEach((button) => { button.textContent = text().close; });
+      }
+
+      function bindRenderedControls() {
+        document.querySelectorAll('[data-mode]').forEach((button) => {
+          button.addEventListener('click', () => setMode(button.dataset.mode));
+        });
+        document.querySelectorAll('[data-go-to]').forEach((button) => {
+          button.addEventListener('click', () => {
+            goToId(button.dataset.goTo);
+            if (els.contentsDialog.open) els.contentsDialog.close();
+          });
+        });
+        document.querySelectorAll('[data-start]').forEach((button) => {
+          button.addEventListener('click', () => start(button.dataset.start === 'continue'));
+        });
+        document.querySelectorAll('[data-open-sources]').forEach((button) => {
+          button.addEventListener('click', () => els.sourcesDialog.showModal());
+        });
+      }
+
+      function render() {
+        const list = visibleScreens();
+        if (state.position >= list.length) state.position = Math.max(0, list.length - 1);
+        renderStaticText();
+        els.story.innerHTML = renderScreen(currentScreen());
+        renderProgress();
+        renderNavigation();
+        renderContents();
+        renderSources();
+        bindRenderedControls();
+        if (currentScreen().type !== 'cover') save('lastScreen', currentScreen().id);
+      }
+
+      function goToPosition(position, direction) {
+        const list = visibleScreens();
+        state.position = Math.max(0, Math.min(position, list.length - 1));
+        state.direction = direction || 'forward';
+        render();
+      }
+
+      function requiredMode(level) {
+        return level <= 1 ? 'essential' : level === 2 ? 'core' : 'deep';
+      }
+
+      function goToId(id) {
+        let list = visibleScreens();
+        let index = list.findIndex((screen) => screen.id === id);
+        if (index < 0) {
+          const hidden = data.screens.find((screen) => screen.id === id);
+          if (hidden) {
+            state.mode = requiredMode(hidden.level);
+            save('mode', state.mode);
+            list = visibleScreens();
+            index = list.findIndex((screen) => screen.id === id);
+          }
+        }
+        if (index >= 0) goToPosition(index, index < state.position ? 'back' : 'forward');
+      }
+
+      function setMode(mode) {
+        if (!modeOrder.includes(mode)) return;
+        const currentId = currentScreen().id;
+        state.mode = mode;
+        save('mode', mode);
+        const list = visibleScreens();
+        const nextIndex = list.findIndex((screen) => screen.id === currentId);
+        state.position = nextIndex >= 0 ? nextIndex : 0;
+        render();
+      }
+
+      function start(continueSaved) {
+        const rememberedId = continueSaved ? stored('lastScreen', '') : '';
+        if (rememberedId) goToId(rememberedId);
+        else goToPosition(Math.min(1, visibleScreens().length - 1), 'forward');
+      }
+
+      function next() {
+        const list = visibleScreens();
+        const screen = currentScreen();
+        if (screen.final || state.position === list.length - 1) {
+          removeStored('lastScreen');
+          goToPosition(0, 'forward');
+          return;
+        }
+        goToPosition(state.position + 1, 'forward');
+      }
+
+      function previous() {
+        if (state.position > 0) goToPosition(state.position - 1, 'back');
+      }
+
+      els.previousButton.addEventListener('click', previous);
+      els.nextButton.addEventListener('click', next);
+      els.contentsButton.addEventListener('click', () => els.contentsDialog.showModal());
+      els.sourcesButton.addEventListener('click', () => els.sourcesDialog.showModal());
+      els.languageButton.addEventListener('click', () => {
+        state.language = state.language === 'ru' ? 'en' : 'ru';
+        save('language', state.language);
+        render();
+      });
+      els.themeButton.addEventListener('click', () => {
+        state.theme = state.theme === 'dark' ? 'light' : 'dark';
+        save('theme', state.theme);
+        render();
+      });
+
+      document.querySelectorAll('[data-close-dialog]').forEach((button) => {
+        button.addEventListener('click', () => document.getElementById(button.dataset.closeDialog).close());
+      });
+
+      document.addEventListener('keydown', (event) => {
+        if (els.contentsDialog.open || els.sourcesDialog.open) return;
+        if (event.key === 'ArrowRight' || event.key === 'PageDown' || event.key === ' ') {
+          event.preventDefault();
+          next();
+        } else if (event.key === 'ArrowLeft' || event.key === 'PageUp') {
+          event.preventDefault();
+          previous();
+        }
+      });
+
+      let pointerStart = null;
+      els.story.addEventListener('pointerdown', (event) => {
+        pointerStart = { x: event.clientX, y: event.clientY, id: event.pointerId };
+      });
+      els.story.addEventListener('pointerup', (event) => {
+        if (!pointerStart || pointerStart.id !== event.pointerId) return;
+        const dx = event.clientX - pointerStart.x;
+        const dy = event.clientY - pointerStart.y;
+        pointerStart = null;
+        if (Math.abs(dx) < 48 || Math.abs(dx) <= Math.abs(dy) * 1.25) return;
+        dx < 0 ? next() : previous();
+      });
+      els.story.addEventListener('pointercancel', () => { pointerStart = null; });
+
+      const rememberedId = stored('lastScreen', '');
+      if (rememberedId) {
+        const index = visibleScreens().findIndex((screen) => screen.id === rememberedId);
+        if (index >= 0) state.position = 0;
+      }
+      render();
+    })();
+  </script>
+  <script>
+    (function () {
+      'use strict';
+      const root = document.documentElement;
+      const story = document.getElementById('story');
+      if (!story) return;
+      const key = `bookFocusMode:${location.pathname}`;
+      let tap = null;
+
+      function storedFocus() {
+        try { return sessionStorage.getItem(key) === 'true'; } catch (_) { return false; }
+      }
+
+      function setFocus(enabled) {
+        if (enabled) root.setAttribute('data-focus-mode', 'true');
+        else root.removeAttribute('data-focus-mode');
+        try { sessionStorage.setItem(key, enabled ? 'true' : 'false'); } catch (_) {}
+      }
+
+      function isInteractive(target) {
+        return Boolean(target && target.closest('a, button, input, textarea, select, summary, details, dialog, [role="button"], [contenteditable="true"]'));
+      }
+
+      function hasSelection() {
+        const selection = window.getSelection && window.getSelection();
+        return Boolean(selection && !selection.isCollapsed && String(selection).trim());
+      }
+
+      setFocus(storedFocus());
+      story.addEventListener('pointerdown', (event) => {
+        if (event.pointerType === 'mouse' && event.button !== 0) return;
+        if (isInteractive(event.target)) return;
+        tap = { id: event.pointerId, x: event.clientX, y: event.clientY, time: Date.now() };
+      }, true);
+      story.addEventListener('pointerup', (event) => {
+        if (!tap || tap.id !== event.pointerId) { tap = null; return; }
+        const dx = event.clientX - tap.x;
+        const dy = event.clientY - tap.y;
+        const elapsed = Date.now() - tap.time;
+        tap = null;
+        if (Math.hypot(dx, dy) > 12 || elapsed > 550 || hasSelection() || isInteractive(event.target)) return;
+        setFocus(root.getAttribute('data-focus-mode') !== 'true');
+      }, true);
+      story.addEventListener('pointercancel', () => { tap = null; }, true);
+      document.addEventListener('keydown', (event) => {
+        if (isInteractive(event.target) || document.querySelector('dialog[open]')) return;
+        if ((event.key === 'f' || event.key === 'F' || event.key === 'а' || event.key === 'А') && !event.metaKey && !event.ctrlKey && !event.altKey) {
+          event.preventDefault();
+          setFocus(root.getAttribute('data-focus-mode') !== 'true');
+        } else if (event.key === 'Escape' && root.getAttribute('data-focus-mode') === 'true') {
+          setFocus(false);
+        }
+      });
+    }());
+  </script>
+  <!-- book-library-install:start -->
+  <button class="book-library-install-trigger" id="bookLibraryInstallTrigger" type="button" hidden>На весь экран</button>
+  <dialog class="book-library-install-dialog" id="bookLibraryInstallDialog" aria-labelledby="bookLibraryInstallTitle">
+    <div class="book-library-install-card">
+      <p class="book-library-install-kicker" data-book-install-copy="kicker">IPHONE · ПОЛНЫЙ ЭКРАН</p>
+      <h2 id="bookLibraryInstallTitle" data-book-install-copy="title">Уберите строку Safari</h2>
+      <p data-book-install-copy="intro">Сайт не может скрыть панель браузера сам. Один раз добавьте библиотеку на экран «Домой» — после этого книги откроются как отдельное полноэкранное приложение.</p>
+      <ol>
+        <li data-book-install-copy="stepOne">Нажмите кнопку меню рядом с адресом и выберите «Поделиться».</li>
+        <li data-book-install-copy="stepTwo">Нажмите «На экран Домой».</li>
+        <li data-book-install-copy="stepThree">Запускайте «Книги за вечер» с новой иконки, а не из Telegram.</li>
+      </ol>
+      <div class="book-library-install-actions">
+        <button class="book-library-install-close" id="bookLibraryInstallClose" type="button" data-book-install-copy="close">Понятно</button>
+      </div>
+    </div>
+  </dialog>
+  <script id="book-library-install-script">
+    (function () {
+      'use strict';
+      const root = document.documentElement;
+      const trigger = document.getElementById('bookLibraryInstallTrigger');
+      const dialog = document.getElementById('bookLibraryInstallDialog');
+      const close = document.getElementById('bookLibraryInstallClose');
+      if (!trigger || !dialog || !close) return;
+
+      const copy = {
+        ru: {
+          trigger: 'На весь экран', kicker: 'IPHONE · ПОЛНЫЙ ЭКРАН', title: 'Уберите строку Safari',
+          intro: 'Сайт не может скрыть панель браузера сам. Один раз добавьте библиотеку на экран «Домой» — после этого книги откроются как отдельное полноэкранное приложение.',
+          stepOne: 'Нажмите кнопку меню рядом с адресом и выберите «Поделиться».',
+          stepTwo: 'Нажмите «На экран Домой».',
+          stepThree: 'Запускайте «Книги за вечер» с новой иконки, а не из Telegram.', close: 'Понятно'
+        },
+        en: {
+          trigger: 'Full screen', kicker: 'IPHONE · FULL SCREEN', title: 'Remove the Safari bar',
+          intro: 'A website cannot hide the browser bar by itself. Add the library to your Home Screen once and books will then open as a separate full-screen app.',
+          stepOne: 'Open the menu beside the address and choose Share.',
+          stepTwo: 'Tap Add to Home Screen.',
+          stepThree: 'Launch Books for one evening from its new icon, not from Telegram.', close: 'Got it'
+        }
+      };
+      const seenKey = 'bookLibrary.installGuide.seen.v2';
+
+      function isIos() {
+        return /iphone|ipad|ipod/i.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+      }
+      function isStandalone() {
+        return window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
+      }
+      function language() { return String(root.lang || 'ru').toLowerCase().startsWith('en') ? 'en' : 'ru'; }
+      function localize() {
+        const current = copy[language()];
+        trigger.textContent = current.trigger;
+        dialog.querySelectorAll('[data-book-install-copy]').forEach((node) => {
+          const key = node.getAttribute('data-book-install-copy');
+          if (current[key]) node.textContent = current[key];
+        });
+      }
+      function markSeen() {
+        try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
+      }
+      function show() {
+        localize();
+        if (!dialog.open) dialog.showModal();
+      }
+
+      if (!isIos() || isStandalone()) return;
+      root.setAttribute('data-book-installable', 'true');
+      trigger.hidden = false;
+      localize();
+      new MutationObserver(localize).observe(root, { attributes: true, attributeFilter: ['lang'] });
+      trigger.addEventListener('click', show);
+      close.addEventListener('click', () => { markSeen(); dialog.close(); });
+      dialog.addEventListener('click', (event) => {
+        if (event.target === dialog) { markSeen(); dialog.close(); }
+      });
+      dialog.addEventListener('cancel', markSeen);
+
+      let seen = false;
+      try { seen = localStorage.getItem(seenKey) === 'true'; } catch (_) {}
+      if (!seen) window.setTimeout(show, 450);
+    }());
+  </script>
+  <!-- book-library-install:end -->
+</body>
+</html>

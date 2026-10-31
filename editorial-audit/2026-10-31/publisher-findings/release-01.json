@@ -1,6 +1,6 @@
 {
   "date": "2026-10-31",
-  "state": "independently-approved-and-integrated; production not yet verified",
+  "state": "published-and-production-verified",
   "baselineRecords": 41,
   "catalogueBooks": 31,
   "catalogueScreens": 3504,
@@ -177,5 +177,51 @@
       "editorialStatus": "REBUILD/SOURCE-GAP; no literary rebuild"
     }
   ],
-  "pendingLostWorldFinding": "Correct editor request from next morning to that same evening against original I/II before accepting eventual READY; active collector not edited."
+  "pendingLostWorldFinding": "Correct editor request from next morning to that same evening against original I/II before accepting eventual READY; active collector not edited.",
+  "codePR": "https://github.com/pavelnovikau/book-tiktok-library/pull/25",
+  "codeHead": "738363c7666b7808aca08acb819108559f19536a",
+  "mergeCommit": "1e8f9d4d4699c832a4f43b8da35c2a1d21750e22",
+  "checks": "validate, Vercel, Vercel Preview Comments: all passed on the merged code head; no review findings",
+  "productionVerification": {
+    "at": "2026-10-31T19:12:09.062835+00:00",
+    "url": "https://book-tiktok-library.vercel.app/",
+    "httpFilesMatching": 35,
+    "allHashesMatch": true,
+    "excludedPaths": {
+      "collector-output/essentialism/story-data.json": 404,
+      "editorial-audit/2026-10-31/BRIEF.md": 404,
+      "skills/book-tiktok/SKILL.md": 404
+    },
+    "cleanUrlRedirects": {
+      "the-art-of-war.html": {
+        "status": 308,
+        "location": "/the-art-of-war"
+      },
+      "essentialism.html": {
+        "status": 308,
+        "location": "/essentialism"
+      },
+      "skin-in-the-game.html": {
+        "status": 308,
+        "location": "/skin-in-the-game"
+      }
+    },
+    "browser": {
+      "cards": 31,
+      "screenStat": "3504 экрана",
+      "readersChecked": [
+        "the-art-of-war",
+        "essentialism",
+        "skin-in-the-game",
+        "a-wizard-of-earthsea",
+        "the-hobbit"
+      ],
+      "tabs": "320/390 RU/EN equal widths; no clipping",
+      "header": "59px top safe-area override; single accessible icon row",
+      "runtimeErrors": 0,
+      "physicalIPhone": false
+    },
+    "fullHttpReceipt": "production-http.json"
+  },
+  "group2FantasyStatus": "All three fantasy books remain REBUILD/SOURCE-GAP; bounded Earthsea/Hobbit changes are not literary approval."
 }

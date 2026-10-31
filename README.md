@@ -54,11 +54,13 @@ The baseline has **41 records under audit**: 31 published works, nine structured
 
 This release independently reads and accepts exactly **three rewritten nonfiction readers, 125 RU/EN pairs**. No fiction story is editorially repaired by this release. The catalogue remains **31 books / 3,504 screens**; the other 28 published books retain unestablished editorial status. Earthsea receives only a saved-depth consent guard, and The Hobbit only RU `o-settlement` «Такой послевкусие» → «Такое послевкусие»; neither is a literary rebuild. The other 27 embedded corpora are unchanged. All 31 receive the shared header correction.
 
-| Rewritten and independently accepted | Essential / Core / Deep | RU minutes | Source boundary |
+| Rewritten, independently accepted and published | Essential / Core / Deep | RU minutes | Source boundary |
 | --- | ---: | ---: | --- |
 | The Art of War | 15 / 30 / 36 | 4 / 8 / 10 | Giles 1910 thirteen-chapter base text; no Chinese/manuscript certification |
 | Essentialism | 18 / 28 / 36 | 5 / 8 / 10 | Complete owned Russian edition, targeted argument/case reading; not every paragraph |
 | Skin in the Game | 19 / 37 / 53 | 5 / 10 / 14 | Complete owned Russian edition, targeted passages plus final chapter/epilogue; not whole-edition line-by-line verification |
+
+Published through [PR #25](https://github.com/pavelnovikau/book-tiktok-library/pull/25), code head `738363c7666b7808aca08acb819108559f19536a`, squash `1e8f9d4d4699c832a4f43b8da35c2a1d21750e22`. All three checks passed; no review findings. At 2026-10-31T19:12:09.062835+00:00, production HTTP matched all **35/35** intended files (homepage, catalogue, PWA files and all 31 readers). Collector, audit and skill paths returned 404. A separate production browser check confirmed 31 cards / 3,504 screens, equal 320/390 RU/EN tabs, five relevant reader routes, safe-area header placement and Sources for all three rewrites, with zero runtime errors. [The hash receipt](editorial-audit/2026-10-31/publisher-findings/production-http.json) is deployment proof, not whole-library editorial approval. Group 2’s three fantasy books remain REBUILD/SOURCE-GAP; the two bounded fixes do not change that status.
 
 Per-book publisher findings live in [publisher-findings](editorial-audit/2026-10-31/publisher-findings/); the release receipt distinguishes integration, merge and production verification. Public sources remain available in each reader. Private/full book text is excluded from the repository. Worker source blockers already reported for I, Robot, The Two Captains, Dune and A Fall of Moondust require lawful primary coverage; no replacement narrative is certified from their excerpts or reviews. Further worker results belong to a subsequent publishing batch.
 

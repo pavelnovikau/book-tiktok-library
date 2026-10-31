@@ -22,7 +22,7 @@ Exact supplied path: `/Users/pn/Library/Mobile Documents/iCloud~com~apple~iBooks
 
 The EPUB is an expanded directory. Read its OPF, NCX, paragraph-indexed analytical passages across all eight numbered books (zero through seven), methodological note and relevant endnotes. Long anecdotal stretches were sampled rather than read continuously end-to-end. No full-text reading claim is made. No source chapters are copied into this output. All screen bodies are original paraphrases; no direct quotations are used. The English is a translation of this digest, not a claim to quote an English edition.
 
-OPF: Will Storr; Russian title «Селфи. Почему мы зациклены на себе и как это на нас влияет»; translator Максим Андреевич Леонович; Individuum, 2019; ISBN 978-5-6042196-1-4. Original copyright 2017. OPF conversion date 2022-11-30 is not publication date. No stable printed pagination is available; file/chapter locators replace invented page references. The original cover is embedded solely from the private user-supplied EPUB, with its origin disclosed; no other book images are copied.
+OPF: Will Storr; Russian title «Селфи. Почему мы зациклены на себе и как это на нас влияет»; translator Максим Андреевич Леонович; Individuum, 2019; ISBN 978-5-6042196-1-4. Original copyright 2017. OPF conversion date 2022-11-30 is not publication date. No stable printed pagination is available; file/chapter locators replace invented page references. Publisher artwork from the supplied EPUB is deliberately excluded from the public artifact; the reader uses a typographic cover and copies no book images.
 
 Chapter map (OPS/):
 
@@ -69,7 +69,7 @@ The Bookseller's 7 April 2017 interview was found but gated beyond its introduct
 
 ## Planned reading contract
 
-Essential: complete arc from painful ideal to social mechanism, historical inheritance, false causal shortcut, digital intensification, limits and acceptance. Core inserts central actors, cases and counterarguments. Deep adds methodological boundaries, comparisons, minority objections and carefully labelled synthesis. No contemporary update is silently assigned to Storr. Every screen including cover and final has a provenance label; the stock cover's missing provenance display will be handled locally if needed, without editing the maintained shell.
+Essential: complete arc from painful ideal to social mechanism, historical inheritance, false causal shortcut, digital intensification, limits and acceptance. Core inserts central actors, cases and counterarguments. Deep adds methodological boundaries, comparisons, minority objections and carefully labelled synthesis. No contemporary update is silently assigned to Storr. Every screen including cover and final has a provenance label.
 
 
 ## Screen claim map and locators

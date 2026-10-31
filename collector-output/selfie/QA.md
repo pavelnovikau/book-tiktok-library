@@ -11,13 +11,13 @@ Date: 2026-10-31. Isolated checkout: `/Users/pn/.t3/worktrees/smartcat/t3-a55de8
 | Level 1 / 2 / 3 additions | 30 / 42 / 40 |
 | Cover and final | One each; both level 1; included in counts |
 | Nesting | Essential ⊂ Core ⊂ Deep, preserving order and IDs |
-| Languages | RU primary/default; complete EN copy for every screen, source note, method and media credit |
+| Languages | RU primary/default; complete EN copy for every screen, source note and method |
 | Defaults | Russian / dark / Deep |
 | Provenance | 101 book / 6 corroboration / 5 synthesis; includes explicit cover label |
 | Sources | **10**, including the supplied EPUB, publisher, substantive author interview, scientific sources and independent review |
-| Media | One cover, embedded from the supplied EPUB; no remote media |
-| Runtime dependencies | None; embedded CSS, JS, Geist, Geist Mono, cover and corpus |
-| Standalone HTML | `selfie.html`, 664,398 bytes |
+| Media | None; the public artifact uses a typographic cover and excludes publisher artwork |
+| Runtime dependencies | None; embedded CSS, JS, Geist, Geist Mono and corpus |
+| Standalone HTML | `selfie.html`, 404,053 bytes |
 
 Reading estimates use the maintained builder's 180 RU / 220 EN words per minute, rounded up. They are reading-time estimates, not measured user sessions.
 
@@ -47,7 +47,7 @@ Final audit output (file path shortened only here):
 {
   "file": "collector-output/selfie/selfie.html",
   "format": "v2",
-  "bytes": 664398,
+  "bytes": 404053,
   "screenCount": 112,
   "levels": { "1": 30, "2": 42, "3": 40 },
   "modes": { "essential": 30, "core": 72, "deep": 112 },
@@ -69,6 +69,8 @@ No maintained builder, template or audit source was edited.
 
 ## Real-browser QA
 
+The collector matrix below was completed before the parent integrator removed the supplied publisher cover for public reuse. Screen data and behavior are unchanged; the sanitized typographic-cover build was rebuilt and re-audited, and the parent library runs its own browser matrix before publication.
+
 Used Playwright with installed Google Chrome, loading the final HTML directly via `file://`; no server or collaborative preview. Each browser run used its own temporary profile and `timeout 30`; contexts closed and profiles removed in `finally`. No Chrome processes or profiles from this task remain.
 
 Every mode was traversed through rendered navigation controls in both languages and both themes at each viewport. Assertions checked expected localized title, exact position/count, uniqueness, provenance presence and absence of document/slide/title horizontal overflow.
@@ -83,7 +85,7 @@ Every mode was traversed through rendered navigation controls in both languages 
 
 Additional checks passed on all four sizes:
 
-- Initial language RU and theme dark; embedded cover decoded (natural width 1281 px); both embedded font faces loaded.
+- Initial language RU and theme dark; cover rendered correctly; both embedded font faces loaded.
 - Language switch preserved screen ID and depth; theme toggle worked.
 - Sources dialog opened/closed and contained exactly 10 entries; Chapters dialog opened/closed.
 - All top controls remained within viewport in RU and EN at 320 px.
@@ -111,7 +113,7 @@ Known limitations and boundaries:
 4. Later studies are clearly separated from the 2017 text. The 2022 review complicates simplistic anti-self-esteem conclusions; the perfectionism meta-analysis is bounded to its population. No claim is made about current 2026 platform effects or population prevalence.
 5. The maintained shell's chapter lists contain screens visible in the current depth. Hidden-screen automatic depth raising was verified through saved-position Continue; there is no direct hidden entry in that filtered chapter list.
 6. Pointer swipe was tested using dispatched browser PointerEvents, not a physical touchscreen. No screen-reader or human reading-comprehension study was performed.
-7. The private supplied cover is embedded and credited, with no claim of a transferable publication licence. No external deployment occurred. The digest uses original paraphrase, no copied chapters and no direct quotation passages.
+7. The private supplied cover was deliberately removed from the public artifact because no transferable publication licence was established. No external deployment occurred. The digest uses original paraphrase, no copied chapters and no direct quotation passages.
 
 ## Session record
 

@@ -55,6 +55,7 @@
     if (input.matches('input[type="radio"]')) settings.set(input.name === 'book-theme' ? 'theme' : 'readingFont', input.value);
   });
   dialog.addEventListener('keydown', function (event) {
+    event.stopPropagation();
     if (event.key !== 'Tab') return;
     var stops = Array.from(dialog.querySelectorAll('input:checked, button'));
     var first = stops[0], last = stops[stops.length - 1];

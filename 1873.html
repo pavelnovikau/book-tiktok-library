@@ -1501,6 +1501,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   var key = 'bookLibrary.preferences.v1';
   var preferences = null;
   var applyToPage = null;
+  var fontRevision = 0;
   function validTheme(value) { return value === 'light' || value === 'dark'; }
   function read(value) {
     try {
@@ -1512,10 +1513,33 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   function persist() {
     try { localStorage.setItem(key, JSON.stringify(preferences)); } catch (_) {}
   }
+  function applyReadingFont(value) {
+    var revision = ++fontRevision;
+    if (root.dataset.readingFont === value) return;
+    function commit() {
+      if (revision !== fontRevision) return;
+      var positions = Array.from(document.querySelectorAll('*')).filter(function (node) {
+        return node.scrollTop || node.scrollLeft;
+      }).map(function (node) { return { node: node, top: node.scrollTop, left: node.scrollLeft }; });
+      root.dataset.readingFont = value;
+      positions.forEach(function (position) {
+        if (!position.node.isConnected) return;
+        position.node.scrollTop = Math.min(position.top, Math.max(0, position.node.scrollHeight - position.node.clientHeight));
+        position.node.scrollLeft = position.left;
+      });
+    }
+    if (!document.fonts || !document.fonts.load) { commit(); return; }
+    var faces = value === 'serif' ? ['Geist Serif', 'Source Serif 4'] : ['Geist'];
+    // Decode inactive embedded faces before changing layout. A temporary system
+    // fallback can otherwise clamp a reader's scroll position while fonts load.
+    Promise.all(faces.map(function (family) {
+      return document.fonts.load('400 16px "' + family + '"', 'AaЁёЯя');
+    })).then(commit, commit);
+  }
   function apply() {
     if (!preferences) return;
     root.dataset.theme = preferences.theme;
-    root.dataset.readingFont = preferences.readingFont;
+    applyReadingFont(preferences.readingFont);
     if (applyToPage) applyToPage(preferences.theme);
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = preferences.theme === 'dark' ? '#100f0f' : '#fffcf0';
@@ -2849,6 +2873,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     if (input.matches('input[type="radio"]')) settings.set(input.name === 'book-theme' ? 'theme' : 'readingFont', input.value);
   });
   dialog.addEventListener('keydown', function (event) {
+    event.stopPropagation();
     if (event.key !== 'Tab') return;
     var stops = Array.from(dialog.querySelectorAll('input:checked, button'));
     var first = stops[0], last = stops[stops.length - 1];

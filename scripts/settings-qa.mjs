@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
-const phases = [...Array.from({ length: Math.ceil(catalogue.books.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(catalogue.books.length / 8) }, (_, n) => `offline-${n}`)];
+const phases = [...Array.from({ length: Math.ceil(catalogue.books.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'review-regressions', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(catalogue.books.length / 8) }, (_, n) => `offline-${n}`)];
 const phase = process.argv.find(a => a.startsWith('--phase='))?.slice(8);
 const output = process.env.BOOK_SETTINGS_QA_DIR || fs.mkdtempSync(path.join(os.tmpdir(), 'book-settings-qa-'));
 if (path.resolve(output).startsWith(root + path.sep)) throw Error('Keep QA artifacts outside the repository');
@@ -174,6 +174,51 @@ try {
 
       }
     }
+  }
+
+  if (phase === 'review-regressions') {
+    await navigate('essentialism.html');
+    const coldFaces = await evaluate("[...document.fonts].filter(f => /Serif/.test(f.family)).map(f => ({family:f.family,status:f.status}))");
+    assert(coldFaces.length === 2 && coldFaces.every(f => f.status === 'unloaded'), 'R2 requires unused, undecoded Serif faces');
+    await evaluate(start);
+    await evaluate("document.getElementById('contentsButton').click(); document.querySelector('#contentsList [data-go-to=\"three-part-cycle\"]').click()");
+    const before = await evaluate(`(() => {
+      const scroller = document.querySelector('.slide-scroll');
+      window.__reviewScroller = scroller; window.__reviewSlide = document.querySelector('.story-slide');
+      scroller.scrollTop = 40;
+      return {top:scroller.scrollTop,max:scroller.scrollHeight-scroller.clientHeight,paragraphTop:scroller.querySelector('p').getBoundingClientRect().top};
+    })()`);
+    assert(before.top === 40 && before.max >= 40, 'R2 requires a genuinely scrolled reading screen');
+    await evaluate("document.querySelector('#themeButton').click(); document.querySelector('input[name=book-font][value=serif]').click()");
+    await until(() => evaluate("document.documentElement.dataset.readingFont==='serif' && document.fonts.status==='loaded'"), 'cold Serif layout');
+    await evaluate('new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve(true))))');
+    const after = await evaluate(`(() => {
+      const scroller = document.querySelector('.slide-scroll');
+      return {top:scroller.scrollTop,max:scroller.scrollHeight-scroller.clientHeight,paragraphTop:scroller.querySelector('p').getBoundingClientRect().top,sameScroller:scroller===window.__reviewScroller,sameSlide:document.querySelector('.story-slide')===window.__reviewSlide};
+    })()`);
+    assert(after.sameScroller && after.sameSlide, 'R2 keeps the active slide and scroller');
+    assert(Math.abs(after.top - before.top) < 1, `R2 scroll moved ${before.top} -> ${after.top}`);
+    assert(Math.abs(after.paragraphTop - before.paragraphTop) < 1, 'R2 preserves the paragraph viewport position');
+    report.checks.push({case:'cold Serif with nonzero scroll',coldFaces,before,after});
+    await press('Escape', 'Escape', 27);
+
+    await navigate('hermes-nous.html');
+    await evaluate(start);
+    await press('ArrowRight', 'ArrowRight', 39);
+    for (const lang of ['ru', 'en']) {
+      if (await evaluate(`document.documentElement.lang !== '${lang}'`)) await evaluate(`${language}.click()`);
+      await evaluate("window.__reviewHermesSlide=document.getElementById('story').firstElementChild; window.__reviewHermesId=localStorage.getItem('bookHermesNous.lastSlide')");
+      await evaluate(`${theme}.click(); document.querySelector('input[name=book-theme][value=light]').click(); document.querySelector('input[name=book-theme][value=light]').focus()`);
+      await press('ArrowRight', 'ArrowRight', 39);
+      const result = await evaluate(`({dark:document.querySelector('input[name=book-theme][value=dark]').checked,theme:document.documentElement.dataset.theme,dialogOpen:document.getElementById('bookSettingsDialog').open,sameSlide:window.__reviewHermesSlide===document.getElementById('story').firstElementChild,sameSavedId:window.__reviewHermesId===localStorage.getItem('bookHermesNous.lastSlide')})`);
+      assert(result.dark && result.theme === 'dark' && result.dialogOpen && result.sameSlide && result.sameSavedId, `R1/${lang}: ${JSON.stringify(result)}`);
+      report.checks.push({case:'Hermes radio ArrowRight',lang,...result});
+      await press('Escape', 'Escape', 27);
+    }
+    await evaluate("BookSettings.set('readingFont','sans'); BookSettings.set('readingFont','serif'); BookSettings.set('readingFont','sans')");
+    await until(() => evaluate("document.documentElement.dataset.readingFont==='sans'"), 'latest rapid font choice');
+    assert(await evaluate("BookSettings.get().readingFont==='sans' && JSON.parse(localStorage.getItem('bookLibrary.preferences.v1')).readingFont==='sans'"), 'Latest rapid choice matches stored preference');
+    report.checks.push({case:'rapid font changes retain the last choice'});
   }
 
   if (phase === 'persistence') {

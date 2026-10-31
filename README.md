@@ -4,6 +4,10 @@ Public, contribution-friendly library of dense standalone book stories. Each boo
 
 Live site: https://book-tiktok-library.vercel.app
 
+Git hosting: https://github.com/pavelnovikau/book-tiktok-library
+
+Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` is the production release path; pull requests are the contribution path.
+
 ## How it works
 
 - `books.json` is the catalogue and the single place that lists books and genres.

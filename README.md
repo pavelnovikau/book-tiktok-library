@@ -48,6 +48,16 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 `npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
 
+## 2026-10-31 editorial repair — release 04
+
+Four new readers add 146 RU/EN pairs: *Hard to Be a God* 8/13/33, *Adventures of Huckleberry Finn* 24/36/54, *Nonviolent Communication* 16/26/30 and *The Fifth Discipline* 11/22/29. The catalogue contains **37 books / 2,499 screens**. All previous 33 reader files are byte-identical to release03.
+
+Huck and Senge match completed independent PASS reviews. HardGod's sole remaining HG-06 detail and NVC's two meaning/role findings are explicitly closed against the cited primary passages; their original REQUIRES-FIXES reviews remain unchanged. [The receipt](editorial-audit/2026-10-31/publisher-findings/release-04.json) binds accepted input/root hashes, actual source boundaries and publication state. These are concise supported accounts, without full-edition or published-translation certification. NVC retains the selected central-method scope; Senge distinguishes the official sample from his separately consulted article and beer-game evidence.
+
+The accepted collector runtime, source maps, Sources dialog and bespoke presentation remain intact. Huck keeps its custom consent dialog; HardGod gains document-local consent for Deep and saved endings. Every new reader preserves valid stable progress and discards unavailable IDs. Four distinct catalogue motifs and controlled genres/subjects describe the actual stories or methods. Long card titles wrap at phone width. Statistics, equal tabs and the compact safe-area icon row remain.
+
+Validation covers 4 × 69 structural checks, 4,832 rendering visits, RU/EN Sources/progress/restart, native/custom consent including Huck Escape/downgrade, focus/swipe, safe-area, and offline PWA/standalone reading. The public allowlist has 48 assets; collector/audit/private/full-text trees are excluded. Browser emulation is not a physical-iPhone/PWA test. Settings PR29 remains separate; Meditations arrived after this batch sealed and is not included. Actual production is claimed only when the receipt records its successful HTTP and interaction verification.
+
 ## 2026-10-31 editorial repair — release 03
 
 Eleven reader revisions are accepted: four match completed independent PASS hashes; seven close nine required local findings against the actual primary passages. The original REQUIRES-FIXES reviews remain unchanged, with explicit replacement-hash acceptance in the [release03 receipt](editorial-audit/2026-10-31/publisher-findings/release-03.json). These are condensed stories/arguments, with source scope and edition limits preserved. There are 457 revised RU/EN pairs: 274 narrative pairs and 183 explanatory pairs.

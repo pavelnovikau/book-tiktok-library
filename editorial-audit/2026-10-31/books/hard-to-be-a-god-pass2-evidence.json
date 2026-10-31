@@ -1,0 +1,420 @@
+{
+  "schemaVersion": 1,
+  "slug": "hard-to-be-a-god",
+  "pass": 2,
+  "recordedAtUtc": "2026-10-31T19:57:40.316636+00:00",
+  "status": "ready-for-independent-check",
+  "implementationVerdict": "EDIT",
+  "independentAcceptance": "pending; existing review unchanged and remains REQUIRES-FIXES on pre-repair hashes",
+  "allResultingPairsPersonallyRead": true,
+  "actualPairCount": 33,
+  "targetModes": {
+    "essential": 8,
+    "core": 13,
+    "deep": 33
+  },
+  "changedBodyPairCount": 6,
+  "changedScreenIds": [
+    "childhood-game",
+    "okana",
+    "clearance-ritual",
+    "lightning-demand",
+    "hope-burden",
+    "final"
+  ],
+  "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm",
+  "primaryHtmlBytes": 370398,
+  "primaryHtmlSha256": "02ef0f659c7e11b1fe60a85fce2be24b68fbac61e47a7a85add49df70cdf900d",
+  "primarySectionsActuallyReadThisPass": [
+    {
+      "chapter": "Prologue",
+      "paragraphs": "P127–P155",
+      "supports": "Tell game, rolled headband; no paper material stated."
+    },
+    {
+      "chapter": "Chapter 1",
+      "paragraphs": "P098–P174",
+      "supports": "Kabani/Midas, complete first Condor argument and Gug’s missing-Budakh report."
+    },
+    {
+      "chapter": "Chapter 2",
+      "paragraphs": "P023; P118–P148",
+      "supports": "Okana’s invitation and Vaga’s actual bargaining scene."
+    },
+    {
+      "chapter": "Chapter 4",
+      "paragraphs": "P022–P053; P180–P218",
+      "supports": "Failed Okana encounter, drinking with Pampa, frightening return and confession/brine resolution."
+    },
+    {
+      "chapter": "Chapter 8",
+      "paragraphs": "P059–P151; P177–P219",
+      "supports": "Continuous chancellery/prison/Budakh/Pampa release; poison account and complete Budakh dialogue."
+    },
+    {
+      "chapter": "Chapter 9",
+      "paragraphs": "P001–P053 (complete chapter)",
+      "supports": "Complete Arata visit, human targets, lesser spoken argument, internal historical objection, uneasy respect, hope and departure."
+    },
+    {
+      "chapter": "Chapter 10",
+      "paragraphs": "P001–P103 (complete chapter)",
+      "supports": "Condor reversal/Gug objection, hostage warning, imagined Earth journey, uncompleted Pampa shelter plan and fatal attack."
+    },
+    {
+      "chapter": "Epilogue",
+      "paragraphs": "P001–P037 (complete epilogue)",
+      "supports": "Indirect aftermath, uncertain road comparison and actual final image; establishes the chronology that final must not reopen."
+    }
+  ],
+  "paragraphNumbering": "Local generated ordinals within each chapter of the checked private HTML, not print pages. Prologue indices may differ from the independent reviewer parser.",
+  "findings": [
+    {
+      "id": "HG-01",
+      "severity": "high",
+      "screenIds": [
+        "lightning-demand",
+        "hope-burden"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "implementation": "Arata now names nobles, descendants, armies and supporters as targets and promises to return the weapons after liberation. Rumata labels his spoken mortality argument a lesser one; his private forecast follows land distribution to serfdom and new barons. His felt inferiority before Arata remains explicit. Both languages distinguish the character’s forecast from an author/narrator universal law.",
+      "primaryLocation": "Complete chapter 9, especially P039–P048.",
+      "status": "implemented-pending-independent-check",
+      "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm"
+    },
+    {
+      "id": "HG-02",
+      "severity": "medium",
+      "screenIds": [
+        "okana"
+      ],
+      "routes": [
+        "core",
+        "deep"
+      ],
+      "implementation": "EN unambiguously makes Okana’s attraction the means Rumata considers using to obtain information. Both languages show that he leaves without going through with the intimacy; later, drunk after carousing with Pampa, he frightens Kira, admits that her apparent dream was real, and receives the offer of brine. The particular lie no longer ends as unresolved estrangement.",
+      "primaryLocation": "Chapter 2 P023; chapter 4 P022–P053 and P180–P218.",
+      "status": "implemented-pending-independent-check",
+      "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm"
+    },
+    {
+      "id": "HG-03",
+      "severity": "medium",
+      "screenIds": [
+        "clearance-ritual"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "implementation": "Replaced an unsupported completed circuit of offices/permissions with the observable action: take and wear purification bracelets, carry the stamped paper straight to prison, display it, declare the bishop has given him Budakh, receive the prisoner and remove the noose. The paper is not represented as a genuine release order.",
+      "primaryLocation": "Chapter 8 P059–P124, within continuous P059–P151.",
+      "status": "implemented-pending-independent-check",
+      "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm"
+    },
+    {
+      "id": "HG-04",
+      "severity": "medium",
+      "screenIds": [
+        "final"
+      ],
+      "routes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "implementation": "The shared final explicitly begins at the story’s outset and ends by identifying the opening stakes. It functions as a retrospective after the epilogue without asserting that the completed search/protection tasks are still pending; Essential/Core keep their protected ending.",
+      "primaryLocation": "Opening circumstances as already retained; chapter 8 release, complete chapter 10 and complete epilogue establish the changed chronology.",
+      "status": "implemented-pending-independent-check",
+      "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm"
+    },
+    {
+      "id": "HG-05",
+      "severity": "low",
+      "screenIds": [
+        "childhood-game"
+      ],
+      "routes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "implementation": "Deleted only the unsupported material adjective: бумажным / paper. The existing cap/shot sequence remains.",
+      "primaryLocation": "Prologue Tell game P137–P152 in this pass’s private parser, inside the P127–P155 continuous reading.",
+      "status": "implemented-pending-independent-check",
+      "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm"
+    }
+  ],
+  "pairedChanges": [
+    {
+      "screenId": "childhood-game",
+      "before": {
+        "ru": {
+          "section": "Дорога в Арканар",
+          "title": "Стрела над головой",
+          "body": "<p>Антон, Пашка и Анка проводят день у озера. Приключенческая игра доходит до настоящего выстрела: Пашка стоит с бумажным колпаком на голове, Антон поднимает арбалет. Теперь тяжесть оружия пугает его. Он целится выше. Весёлая игра едва не превратилась в то, чего уже нельзя было бы исправить.</p>"
+        },
+        "en": {
+          "section": "The road to Arkanar",
+          "title": "The arrow overhead",
+          "body": "<p>Anton, Pashka and Anka spend a day by the lake. Their adventure game reaches a real shot: Pashka stands with a paper cap on his head while Anton raises the crossbow. The weapon’s weight now frightens him. He aims higher. A cheerful game has come close to something they could never undo.</p>"
+        }
+      },
+      "after": {
+        "ru": {
+          "section": "Дорога в Арканар",
+          "title": "Стрела над головой",
+          "body": "<p>Антон, Пашка и Анка проводят день у озера. Приключенческая игра доходит до настоящего выстрела: Пашка стоит с колпаком на голове, Антон поднимает арбалет. Теперь тяжесть оружия пугает его. Он целится выше. Весёлая игра едва не превратилась в то, чего уже нельзя было бы исправить.</p>"
+        },
+        "en": {
+          "section": "The road to Arkanar",
+          "title": "The arrow overhead",
+          "body": "<p>Anton, Pashka and Anka spend a day by the lake. Their adventure game reaches a real shot: Pashka stands with a cap on his head while Anton raises the crossbow. The weapon’s weight now frightens him. He aims higher. A cheerful game has come close to something they could never undo.</p>"
+        }
+      },
+      "oldEvidenceLocator": "Пролог, игра в Телля",
+      "newEvidenceLocator": "Пролог, игра в Телля"
+    },
+    {
+      "screenId": "okana",
+      "before": {
+        "ru": {
+          "section": "Поиски Будаха",
+          "title": "Цена нужных сведений",
+          "body": "<p>Дона Окана, приближённая Рэбы, зовёт Румату к себе. Ему неприятно пользоваться её желанием ради сведений, но не идти кажется глупым: она многое знает. После ночных похождений дома ждёт Кира. Румата пытается отделить одну жизнь от другой и чувствует, как между ними растёт ложь.</p>"
+        },
+        "en": {
+          "section": "The search for Budakh",
+          "title": "The cost of information",
+          "body": "<p>Dona Okana, close to Reba, invites Rumata to visit. Exploiting her desire for information repels him, but refusing seems foolish: she knows a great deal. After his night’s adventures, Kira waits at home. As he tries to separate one life from the other, he feels the lies growing between them.</p>"
+        }
+      },
+      "after": {
+        "ru": {
+          "section": "Поиски Будаха",
+          "title": "Цена нужных сведений",
+          "body": "<p>Дона Окана, приближённая Рэбы, зовёт Румату к себе. Ему противно использовать её влечение ради сведений, но отказаться от встречи кажется глупым: она многое знает. Он всё же не может пойти на близость и уходит. Позже, напившись с Пампой, он пугает Киру своим видом. Утром она рассказывает о страшном сне, а Румата мучается ложью. Наконец он признаётся, что это был не сон. Кира собирается принести ему рассол.</p>"
+        },
+        "en": {
+          "section": "The search for Budakh",
+          "title": "The cost of information",
+          "body": "<p>Dona Okana, close to Reba, invites Rumata to visit. Using her attraction to him to obtain information repels him, yet refusing the meeting seems foolish: she knows a great deal. He cannot go through with the intimacy and leaves. Later, drunk after carousing with Pampa, he frightens Kira with his appearance. In the morning she describes a terrible dream, while he struggles with the lie. When he finally admits it was no dream, Kira offers to bring him brine.</p>"
+        }
+      },
+      "oldEvidenceLocator": "Гл. 2–4, Окана",
+      "newEvidenceLocator": "Гл. 2, письмо Оканы; гл. 4, неудавшаяся встреча и утреннее признание Кире"
+    },
+    {
+      "screenId": "clearance-ritual",
+      "before": {
+        "ru": {
+          "section": "После предупреждения · Спойлеры",
+          "title": "Бумага на другую бумагу",
+          "body": "<p>В канцелярии новой власти Румата пробивается через списки, кабинеты и разрешения. Нужный лист оказывается не приказом освободить Будаха, а основанием получить следующий документ. За этими бумагами — человек, которого могут пытать. Наконец Румата добирается до настоящего врача и выводит его из заключения.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "A paper for another paper",
+          "body": "<p>At the new regime’s office, Rumata struggles through lists, rooms and permissions. The sheet he needs turns out to authorise another document rather than Budakh’s release. Behind the paperwork is a man who may be tortured. At last Rumata reaches the real physician and brings him out of confinement.</p>"
+        }
+      },
+      "after": {
+        "ru": {
+          "section": "После предупреждения · Спойлеры",
+          "title": "Бумага на другую бумагу",
+          "body": "<p>В канцелярии Румате дают не приказ освободить Будаха, а бумагу для получения новых разрешений. Он набирает из сундука браслеты очищения, надевает их и со скреплённым печатями листом идёт прямо в тюрьму. Там показывает бумагу и объявляет, что епископ подарил ему врача. Монахи приводят Будаха; Румата снимает петлю с его шеи и ведёт за собой.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "A paper for another paper",
+          "body": "<p>At the chancellery, Rumata receives a paper authorising further permissions rather than Budakh’s release. He takes purification bracelets from a chest, puts them on and carries the stamped sheet straight to prison. There he displays it and declares that the bishop has given him the physician. The monks bring Budakh; Rumata removes the noose from his neck and leads him away.</p>"
+        }
+      },
+      "oldEvidenceLocator": "Гл. 8, канцелярия",
+      "newEvidenceLocator": "Гл. 8, канцелярия, браслеты очищения и выдача Будаха в тюрьме"
+    },
+    {
+      "screenId": "lightning-demand",
+      "before": {
+        "ru": {
+          "section": "После предупреждения · Спойлеры",
+          "title": "Просьба Араты",
+          "body": "<p>В кабинете Румату ждёт Арата Горбатый, переодетый монахом. Он снова поднимает мятеж и просит не только золота: ему нужны небесные молнии, чтобы рушить крепости. После спасения на вертолёте он считает Румату богом. Объяснения о Земле не помогли. Если такая сила существует рядом, Арата хочет получить её для своей войны.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Arata’s request",
+          "body": "<p>Arata the Hunchback waits in Rumata’s study, disguised as a monk. Raising another rebellion, he wants more than gold: heavenly lightning to destroy fortresses. Since his rescue by helicopter, he has regarded Rumata as a god. Explanations about Earth have failed. If such power exists nearby, Arata wants it for his war.</p>"
+        }
+      },
+      "after": {
+        "ru": {
+          "section": "После предупреждения · Спойлеры",
+          "title": "Просьба Араты",
+          "body": "<p>В кабинете Румату ждёт Арата Горбатый, переодетый монахом. Он снова поднимает мятеж и требует небесных молний: разрушить крепости, сжечь дворян, их потомков, армии и всех, кто их поддержит. После спасения на вертолёте Арата считает Румату богом; объяснения о Земле не помогли. Он обещает вернуть оружие, когда останутся только освобождённые рабы и наступит мир.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Arata’s request",
+          "body": "<p>Arata the Hunchback waits in Rumata’s study, disguised as a monk. Raising another rebellion, he demands heavenly lightning: to destroy fortresses and burn the nobles, their descendants, their armies and everyone who supports them. Since his rescue by helicopter, Arata has regarded Rumata as a god; explanations about Earth have failed. He promises to return the weapons once only freed slaves remain and peace has come.</p>"
+        }
+      },
+      "oldEvidenceLocator": "Гл. 9, Арата",
+      "newEvidenceLocator": "Гл. 9, весь разговор с Аратой: просьба об оружии и его обещание"
+    },
+    {
+      "screenId": "hope-burden",
+      "before": {
+        "ru": {
+          "section": "После предупреждения · Спойлеры",
+          "title": "Надежда тоже меняет войну",
+          "body": "<p>Румата отказывает. Даже если доверить оружие Арате, тот смертен, и оно попадёт в другие руки. Арата отвечает, что землянину не следовало появляться: теперь он внушает беспочвенную надежду. Сам мятежник уже бережёт себя для будущего боя с небесной помощью. Они расстаются без согласия. Арата спрашивает, на прежнем ли месте золото, и уходит.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Hope changes the war too",
+          "body": "<p>Rumata refuses. Even if Arata could be trusted with the weapons, he is mortal; they would pass into other hands. Arata says the visitor should never have appeared to inspire groundless hope. He is already preserving himself for a future battle with heavenly help. They part without agreement. Arata asks whether the gold is in its usual place, then leaves.</p>"
+        }
+      },
+      "after": {
+        "ru": {
+          "section": "После предупреждения · Спойлеры",
+          "title": "Надежда тоже меняет войну",
+          "body": "<p>Румата отказывает. Вслух он приводит лишь один, не главный довод: Арата смертен, и оружие может попасть в другие руки. Арата просит землянина уйти: надежда на небесную помощь ослабила его волю, и теперь он бережёт себя для будущих боёв. Про себя Румата предвидит, что победивший Арата раздаст земли соратникам, тем понадобятся крепостные, а вчерашние бойцы станут новыми баронами. Считая себя правым, он всё же чувствует унижение перед Аратой. Тот спрашивает о золоте на прежнем месте и уходит.</p>"
+        },
+        "en": {
+          "section": "Beyond the warning · Spoilers",
+          "title": "Hope changes the war too",
+          "body": "<p>Rumata refuses. Aloud he offers just one, lesser argument: Arata is mortal, and the weapons could pass into other hands. Arata asks him to leave: hope of heavenly aid has weakened his will, and he now saves himself for future battles. Privately Rumata foresees a victorious Arata distributing land to his followers, who will need serfs; yesterday’s fighters will become new barons. Believing himself right, he nevertheless feels diminished beside Arata. Arata asks whether the gold is in its usual place, then leaves.</p>"
+        }
+      },
+      "oldEvidenceLocator": "Гл. 9, отказ и надежда",
+      "newEvidenceLocator": "Гл. 9, весь разговор с Аратой: довод вслух, надежда и внутренние мысли Руматы"
+    },
+    {
+      "screenId": "final",
+      "before": {
+        "ru": {
+          "section": "Дорога в Арканар",
+          "title": "За дверями Арканара",
+          "body": "<p>У Руматы есть золото, оружие, друзья на Земле и имя, перед которым расступаются на улице. Но Будаха ещё нужно найти, Киру — уберечь, а самому выдержать жизнь, где каждый день унижают и убивают. Поиски ведут всё ближе к Рэбе. Поздние события и развязка рассказаны только в Deep.</p>"
+        },
+        "en": {
+          "section": "The road to Arkanar",
+          "title": "Behind Arkanar’s doors",
+          "body": "<p>Rumata has gold, weapons, friends from Earth and a name that clears a path in the street. Yet Budakh must still be found, Kira kept safe, and Rumata must endure a world of daily humiliation and killing. The search draws him closer to Reba. Later events and the resolution appear only in Deep.</p>"
+        }
+      },
+      "after": {
+        "ru": {
+          "section": "Дорога в Арканар",
+          "title": "За дверями Арканара",
+          "body": "<p>В начале истории у Руматы есть золото, оружие, друзья с Земли и имя, перед которым расступаются на улице. Ему предстоит найти Будаха, уберечь Киру и выдержать жизнь, где каждый день унижают и убивают. Поиски ведут его всё ближе к Рэбе. Это исходная точка истории; поздние события и развязка рассказаны только в Deep.</p>"
+        },
+        "en": {
+          "section": "The road to Arkanar",
+          "title": "Behind Arkanar’s doors",
+          "body": "<p>At the story’s outset, Rumata has gold, weapons, friends from Earth and a name that clears a path in the street. His tasks are to find Budakh, keep Kira safe and endure a world of daily humiliation and killing. The search draws him closer to Reba. These are the opening stakes; later events and the resolution appear only in Deep.</p>"
+        }
+      },
+      "oldEvidenceLocator": "Спойлеробезопасное завершение",
+      "newEvidenceLocator": "Спойлеробезопасное возвращение к исходным обстоятельствам гл. 1–5"
+    }
+  ],
+  "resultingRoutes": {
+    "essential": [
+      "cover",
+      "childhood-game",
+      "god-not-literal",
+      "condor-not-caricature",
+      "budakh-search",
+      "kira-at-home",
+      "royal-court",
+      "final"
+    ],
+    "core": [
+      "cover",
+      "childhood-game",
+      "forgotten-road",
+      "god-not-literal",
+      "gold-not-safety",
+      "condor-not-caricature",
+      "budakh-search",
+      "criminal-network",
+      "kira-at-home",
+      "pampa-loyalty",
+      "okana",
+      "royal-court",
+      "final"
+    ],
+    "deep": [
+      "cover",
+      "childhood-game",
+      "forgotten-road",
+      "god-not-literal",
+      "gold-not-safety",
+      "condor-not-caricature",
+      "budakh-search",
+      "criminal-network",
+      "kira-at-home",
+      "pampa-loyalty",
+      "okana",
+      "royal-court",
+      "deep-spoiler-gate",
+      "palace-night",
+      "reba-uncertain",
+      "order-transition",
+      "clearance-ritual",
+      "pampa-escape",
+      "budakh-trap",
+      "budakh-pyramid",
+      "gifts-capture",
+      "care-dependency",
+      "remake-person",
+      "lightning-demand",
+      "hope-burden",
+      "earth-meeting",
+      "hostage-warning",
+      "delay-protection",
+      "death-uncertainty",
+      "earth-rescue",
+      "road-nonreturn",
+      "strawberry-image",
+      "final"
+    ]
+  },
+  "guards": {
+    "topLevelAuthoringMetadataUnchanged": true,
+    "idsLevelsOrderSourceMapsUnchanged": true,
+    "runtimeAndCustomHtmlOutsideEmbeddedDataByteIdentical": true,
+    "authoringEqualsEffectiveHtmlExceptGeneratedModes": true,
+    "independentReviewFilesHashUnchanged": true
+  },
+  "sourceLimits": [
+    "No every-word continuous whole-novella reading claim.",
+    "No print-variant collation.",
+    "No comparison to a published EN translation.",
+    "This pass personally rechecked the listed continuous primary passages; the existing independent evidence for unchanged chapter 3/5/6/7 scenes is retained, not relabelled as fresh reading."
+  ],
+  "qa": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "browserReport": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/hard-to-be-a-god-pass2-private/qa/browser.json",
+    "renderedInstances": 864,
+    "savedDeepReturnPaths": 80,
+    "noRemoteHttpRequests": true,
+    "noRuntimeExceptions": true,
+    "narrowScroll": {
+      "scrollTop": 94,
+      "scrollHeight": 522,
+      "clientHeight": 428,
+      "lastLetterVisible": true,
+      "noHorizontalOverflow": true
+    },
+    "physicalDeviceTested": false
+  },
+  "unresolvedEditorialFindings": [],
+  "independentCheckRequired": true
+}

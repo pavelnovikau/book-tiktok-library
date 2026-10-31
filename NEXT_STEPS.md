@@ -1,5 +1,14 @@
 # Next steps
 
+## 2026-10-31 — release 04 handoff
+
+- Four-book batch sealed: Hard to Be a God 8/13/33, Huck 24/36/54, NVC 16/26/30 and The Fifth Discipline 11/22/29. Catalogue 37 books / 2499 screens. Read [release04 receipt](editorial-audit/2026-10-31/publisher-findings/release-04.json) for exact PR/head/check/production state; local checks do not establish deployment.
+- Preserve exact independent PASS bindings for Huck/Senge and explicit new-hash publisher closures for HG-06/NVC-01/NVC-02. Original REQUIRES-FIXES reviews remain evidence. Reverting just the documented phrases reproduces the reviewed package hashes.
+- All 33 previous roots remain unchanged. Four new roots retain accepted collector runtime and source maps, valid-ID resumption and missing-ID fallback. Huck keeps custom consent; HardGod requires renewed document-local ending consent.
+- Meditations PASS arrived after sealing and belongs to a subsequent publisher batch. Other writer-ready source-rescue packages still require independent acceptance. Never sweep READY.
+- Root coordinates separate Settings PR29 after its independent UI review. Do not import or merge it here. If this book batch merges first, the UI integration must apply the accepted maintained shell to all four new readers while retaining their corpora, covers, source maps and consent guards.
+- Public build allows only 48 registered root/catalogue/PWA/font/icon assets. Preserve honest NVC/Senge selected-source scope. Physical iPhone/PWA and legacy auditor limitations remain separate.
+
 ## 2026-10-31 — release 03 handoff
 
 - Read [release03 receipt](editorial-audit/2026-10-31/publisher-findings/release-03.json) for exact PR/head/check/merge/production state. Intake is sealed: 11 readers / 457 accepted pairs, 33 books / 2353 screens; publish only after the recorded checks pass and verify actual served bytes after merge. A child returns immediately if remote checks are pending.

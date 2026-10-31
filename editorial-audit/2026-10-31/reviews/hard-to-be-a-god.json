@@ -1,0 +1,472 @@
+{
+  "schema_version": 1,
+  "slug": "hard-to-be-a-god",
+  "review_group": "hard-god",
+  "review_date": "2026-10-31",
+  "reviewed_at_utc": "2026-10-31T19:38:59Z",
+  "review_type": "new-independent-content-review",
+  "verdict": "REQUIRES-FIXES",
+  "actual_pair_count": 33,
+  "all_ru_en_pairs_read": true,
+  "counts": {
+    "essential": 8,
+    "core": 13,
+    "deep": 33
+  },
+  "reviewed_files": [
+    {
+      "role": "story-data",
+      "path": "collector-output/hard-to-be-a-god/story-data.json",
+      "sha256": "5c759919f72aa5901d3c0987ce69584455646513e8d071a2d52e2f01379e9ddd"
+    },
+    {
+      "role": "collector-html",
+      "path": "collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+      "sha256": "4057f8fbf78892f0f7f0046b63b8f172759aaebaf67eb44b7f22a2dc1210dfa6"
+    },
+    {
+      "role": "source-ledger",
+      "path": "collector-output/hard-to-be-a-god/sources.md",
+      "sha256": "186cae1aeaa29d8071a593e50aa0a00c8d22da7d36a1bdbb0a1a23638cfa68c9"
+    },
+    {
+      "role": "qa-record-read-not-relied-on-for-content-verdict",
+      "path": "collector-output/hard-to-be-a-god/QA.md",
+      "sha256": "da172799dfb4546b850e171117bab11c0f4068fc6892cc248c332e1f648f62be"
+    }
+  ],
+  "ready_manifest_matches_current_hashes": true,
+  "delivery_comparison": {
+    "collector_effective_embedded_pairs": 33,
+    "all_copy_matches_story_data": true,
+    "only_generated_top_level_addition": "modes",
+    "root_reader_present": false,
+    "root_catalogue_or_index_slug_present": false,
+    "meaningful_copy_divergence": false
+  },
+  "source_scope": {
+    "work": "Arkady and Boris Strugatsky, Hard to Be a God / Трудно быть богом",
+    "edition": "Complete Russian electronic witness on the official author site; particular print edition or textual variant not collated. English is the condensation's translation, not a published English edition.",
+    "primary_url": "https://www.rusf.ru/abs/books/tbb100.htm",
+    "primary_file_read_only": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/hard-to-be-a-god.html",
+    "primary_html_sha256": "02ef0f659c7e11b1fe60a85fce2be24b68fbac61e47a7a85add49df70cdf900d",
+    "live_author_site_fetch_matches_private_file": true,
+    "source_gap": false,
+    "source_ledger_read": true,
+    "paragraph_numbering": "Local P numbers are reviewer-generated paragraph indices within each chapter of the checked HTML; they are not print page references.",
+    "primary_passages_checked": [
+      {
+        "location": "Prologue, Tell game and highway: P127–P202",
+        "screen_ids": [
+          "childhood-game",
+          "forgotten-road"
+        ],
+        "scope": "Continuous selected passages; opening lake setting additionally checked."
+      },
+      {
+        "location": "Chapter 1, Kabani/Midas/Condor/Gug: P098–P174",
+        "screen_ids": [
+          "god-not-literal",
+          "gold-not-safety",
+          "condor-not-caricature",
+          "budakh-search"
+        ],
+        "scope": "Continuous selected sequence, including the full first Condor dispute."
+      },
+      {
+        "location": "Chapter 2, Okana's letter P023 and Vaga meeting P118–P148",
+        "screen_ids": [
+          "criminal-network",
+          "okana"
+        ],
+        "scope": "Actual letter and continuous Vaga passage."
+      },
+      {
+        "location": "Chapter 3, Kira at home, Earth stories and Pampa introduction: P055–P131",
+        "screen_ids": [
+          "kira-at-home",
+          "pampa-loyalty"
+        ],
+        "scope": "Continuous selected sequence."
+      },
+      {
+        "location": "Chapter 4, failed Okana encounter P022–P061 and drunken return/confession P180–P218",
+        "screen_ids": [
+          "okana",
+          "pampa-loyalty"
+        ],
+        "scope": "Both selected sequences read through their local resolution, including Kira's brine response."
+      },
+      {
+        "location": "Chapter 5, appeal to king P016–P034 and purported physician P120–P161",
+        "screen_ids": [
+          "royal-court",
+          "budakh-trap"
+        ],
+        "scope": "Continuous court passages including the medicine episode."
+      },
+      {
+        "location": "Chapter 6, complete: P001–P033",
+        "screen_ids": [
+          "palace-night",
+          "god-not-literal"
+        ],
+        "scope": "Complete chapter, including home precautions, armour, prince, attack, spear, net and coup recognition."
+      },
+      {
+        "location": "Chapter 7, interrogation and Order reveal P148–P224; Kira conversation P249–P280",
+        "screen_ids": [
+          "reba-uncertain",
+          "order-transition",
+          "budakh-trap",
+          "kira-at-home"
+        ],
+        "scope": "Continuous selected sequences; actual identity/gold/nonlethal-duel evidence and false physician checked."
+      },
+      {
+        "location": "Chapter 8, chancellery P059–P082 and prison/Pampa P103–P151",
+        "screen_ids": [
+          "clearance-ritual",
+          "pampa-escape"
+        ],
+        "scope": "Continuous selected passages; useless paper, bracelets, release, chains and beer checked directly."
+      },
+      {
+        "location": "Chapter 8, poison account and complete philosophical dialogue: P177–P219",
+        "screen_ids": [
+          "budakh-trap",
+          "budakh-pyramid",
+          "gifts-capture",
+          "care-dependency",
+          "remake-person"
+        ],
+        "scope": "Complete account and conversation, including all proposed interventions, objections and Kira's reaction."
+      },
+      {
+        "location": "Chapter 9, complete: P001–P053",
+        "screen_ids": [
+          "lightning-demand",
+          "hope-burden"
+        ],
+        "scope": "Complete Arata scene and Rumata's inner reflections; not just the weapon request."
+      },
+      {
+        "location": "Chapter 10, complete: P001–P103",
+        "screen_ids": [
+          "earth-meeting",
+          "hostage-warning",
+          "delay-protection",
+          "death-uncertainty"
+        ],
+        "scope": "Complete changed Condor debate, Gug objection, flight, family/love story, imagined Earth future, Pampa refuge and fatal attack."
+      },
+      {
+        "location": "Epilogue, complete: P001–P037",
+        "screen_ids": [
+          "earth-rescue",
+          "road-nonreturn",
+          "strawberry-image",
+          "final"
+        ],
+        "scope": "Complete indirect aftermath, uncertain road analogy and last image."
+      }
+    ],
+    "limits": [
+      "This is a new selected-passage review across prologue, all ten chapters and epilogue, with complete chapters 6, 9, 10 and epilogue and the complete Budakh dialogue; not a claim to continuous every-word reading of the whole work.",
+      "No print-edition/variant collation and no comparison with a published English translation.",
+      "The full witness's availability and matching bytes establish source access, not that every word was read.",
+      "No full text or private extract was copied into public Git.",
+      "No current browser/device/production test was run; spoiler filtering and the actual shared final copy were inspected in the current HTML code. Publisher owns integration, progress migration and runtime validation."
+    ],
+    "ledger_assessment": "The disclosed selected-reading boundary is not itself a rejection. The primary witness is complete and supports concrete repairs; source sufficiency is adequate. The required findings concern the delivered meaning, causality and English phrasing."
+  },
+  "route_review": {
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "essential": {
+      "screen_ids": [
+        "cover",
+        "childhood-game",
+        "god-not-literal",
+        "condor-not-caricature",
+        "budakh-search",
+        "kira-at-home",
+        "royal-court",
+        "final"
+      ],
+      "assessment": "Opening sequence is intelligible and outcome-safe; only the minor target-material cleanup is required here."
+    },
+    "core": {
+      "screen_ids": [
+        "cover",
+        "childhood-game",
+        "forgotten-road",
+        "god-not-literal",
+        "gold-not-safety",
+        "condor-not-caricature",
+        "budakh-search",
+        "criminal-network",
+        "kira-at-home",
+        "pampa-loyalty",
+        "okana",
+        "royal-court",
+        "final"
+      ],
+      "assessment": "Opening/side-plot sequence is intelligible; Okana/Kira's truncated local arc and ambiguous English need HG-02."
+    },
+    "deep": {
+      "screen_ids": [
+        "cover",
+        "childhood-game",
+        "forgotten-road",
+        "god-not-literal",
+        "gold-not-safety",
+        "condor-not-caricature",
+        "budakh-search",
+        "criminal-network",
+        "kira-at-home",
+        "pampa-loyalty",
+        "okana",
+        "royal-court",
+        "deep-spoiler-gate",
+        "palace-night",
+        "reba-uncertain",
+        "order-transition",
+        "clearance-ritual",
+        "pampa-escape",
+        "budakh-trap",
+        "budakh-pyramid",
+        "gifts-capture",
+        "care-dependency",
+        "remake-person",
+        "lightning-demand",
+        "hope-burden",
+        "earth-meeting",
+        "hostage-warning",
+        "delay-protection",
+        "death-uncertainty",
+        "earth-rescue",
+        "road-nonreturn",
+        "strawberry-image",
+        "final"
+      ],
+      "assessment": "The main arc reaches the real epilogue, but HG-01 through HG-04 prevent an independent PASS."
+    }
+  },
+  "spoiler_review": {
+    "outcome_placement": "Decisive outcomes and the actual final image occur only at level 3 after deep-spoiler-gate.",
+    "lower_contents": "Current visibleScreens()/contentsHtml() filters hide level-3 titles from Essential/Core.",
+    "resume": "Current full-plot-in-deep metadata and renderCover() use a generic warning for saved level-3 screens. This was inspected, not re-certified through an old browser report.",
+    "global_copy": "Title, description, cover, media text, methodNote and source notes do not name the decisive outcomes; the external source is marked as containing the full plot.",
+    "finding": "No ending leak found in the reviewed current text/filters; HG-04 is Deep coherence, not a reason to expose an ending at level 1."
+  },
+  "supported_strengths": [
+    "The delivery is a condensed narrative with actual characters and events, rather than a companion of invented reader lessons.",
+    "The Budakh debate remains attached to its meal, speakers and counterarguments; material provision, replacement rulers, dependency, gradualism and remaking humanity retain attribution.",
+    "Condor's changed position after the coup and Gug's objection are present and source-supported.",
+    "Kira's Earth journey remains imagined, Pampa's castle remains an uncompleted plan, and the attack is not assigned an invented definitive shooter.",
+    "The aftermath remains indirect; the condensation supplies no invented massacre choreography, casualty count, completed cure or definitive future for Arkanar.",
+    "Pashka's road association stays a character's uncertain association; the berry-juice ending is actually checked."
+  ],
+  "required_findings": [
+    {
+      "id": "HG-01",
+      "severity": "high",
+      "screen_ids": [
+        "lightning-demand",
+        "hope-burden"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "types": [
+        "meaningful-philosophical-omission",
+        "character-flattening"
+      ],
+      "problematic_wording": [
+        {
+          "screen_id": "lightning-demand",
+          "ru": "ему нужны небесные молнии, чтобы рушить крепости.",
+          "en": "he wants more than gold: heavenly lightning to destroy fortresses."
+        },
+        {
+          "screen_id": "hope-burden",
+          "ru": "Даже если доверить оружие Арате, тот смертен, и оно попадёт в другие руки.",
+          "en": "Even if Arata could be trusted with the weapons, he is mortal; they would pass into other hands."
+        }
+      ],
+      "finding": "The request is reduced to breaking fortifications and the refusal to future ownership of weapons. The actual exchange also includes Arata's promised destruction of nobles, their descendants and supporters. Rumata expressly presents mortality as only a lesser argument; his later inner reflection anticipates victorious rebels distributing land, needing serfs and generating new barons. Removing both sides turns an argument about liberation reproducing domination into a weapons-custody problem. These are the novel's own thoughts and actions, not an outside reviewer's lesson.",
+      "primary_support": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 9, the complete Arata visit; local parsed paragraphs P039–P048.",
+          "support": "Arata describes the people he intends to burn as well as the fortresses. Rumata limits his spoken objection, privately anticipates the return of serfdom, and still feels diminished beside Arata."
+        }
+      ],
+      "smallest_source_supported_correction": {
+        "instruction": "Keep the two existing screens. Add the actual human targets to Arata's request; qualify the spoken mortality argument as one argument and retain a short, explicitly attributed version of Rumata's internal historical objection. Preserve his uneasy respect rather than making his prediction the narrator's universal verdict.",
+        "ru": "Арата обещает сжечь не только крепости, но и дворян, их потомков и сторонников. Румата приводит вслух лишь один довод; про себя он боится, что победители, раздавая землю, снова потребуют крепостных и превратятся в новых баронов. И всё же рядом с Аратой он ощущает собственную слабость.",
+        "en": "Arata promises to burn not only the fortresses but the nobles, their descendants and supporters. Rumata offers one argument aloud; privately he fears victorious rebels distributing land, needing serfs and becoming new barons. Even so, he feels diminished beside Arata."
+      }
+    },
+    {
+      "id": "HG-02",
+      "severity": "medium",
+      "screen_ids": [
+        "okana"
+      ],
+      "routes": [
+        "core",
+        "deep"
+      ],
+      "types": [
+        "translation-ambiguity",
+        "broken-scene-arc",
+        "meaningful-character-omission"
+      ],
+      "problematic_wording": [
+        {
+          "screen_id": "okana",
+          "ru": "После ночных похождений дома ждёт Кира. Румата пытается отделить одну жизнь от другой и чувствует, как между ними растёт ложь.",
+          "en": "Exploiting her desire for information repels him, but refusing seems foolish: she knows a great deal. After his night’s adventures, Kira waits at home. As he tries to separate one life from the other, he feels the lies growing between them."
+        }
+      ],
+      "finding": "The English can make information the object of Okana's desire, whereas Rumata intends to exploit her sexual attraction to obtain information. More consequentially, the screen omits his refusal to go through with the encounter, the drunken return after carousing with Pampa, and the immediate resolution of the lie: he admits that Kira really saw him, and she offers to bring brine. Ending with a growing wall of lies removes her actual response and leaves this short relationship arc pointing toward an unresolved estrangement.",
+      "primary_support": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 2, Okana's letter, local P023; chapter 4, visit, P022–P053.",
+          "support": "She invites him for intimacy; he wants intelligence but cannot go through with the encounter and leaves."
+        },
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 4, drunken return and morning conversation, P181–P218, particularly P204–P218.",
+          "support": "He is ashamed of the drunken appearance that frightened Kira, stops pretending it was her dream, and receives her practical, affectionate response."
+        }
+      ],
+      "smallest_source_supported_correction": {
+        "instruction": "Clarify that he wants the information, and close the actual scene within this screen. Replace its vague last two sentences with the failed visit and the drunken-return/confession/brine sequence; no outcome from the novel's ending is needed.",
+        "ru": "В первой части прямо указать, что он хочет использовать её влечение ради сведений. Затем: «От близости с Оканой он отказывается и уходит. Позже, пьяный после гулянки с Пампой, пугает Киру своим видом. Утром он признаётся, что ей это не приснилось, и Кира собирается принести рассол».",
+        "en": "Use 'Using her attraction to him to obtain information repels him'. Then retain: he leaves Okana; drunk after carousing with Pampa, he frightens Kira; in the morning he admits that what she saw was no dream, and she offers to bring him brine."
+      }
+    },
+    {
+      "id": "HG-03",
+      "severity": "medium",
+      "screen_ids": [
+        "clearance-ritual"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "types": [
+        "missing-causal-action",
+        "unsupported-procedural-specificity"
+      ],
+      "problematic_wording": [
+        {
+          "screen_id": "clearance-ritual",
+          "ru": "В канцелярии новой власти Румата пробивается через списки, кабинеты и разрешения. Нужный лист оказывается не приказом освободить Будаха, а основанием получить следующий документ. За этими бумагами — человек, которого могут пытать. Наконец Румата добирается до настоящего врача и выводит его из заключения.",
+          "en": "At the new regime’s office, Rumata struggles through lists, rooms and permissions. The sheet he needs turns out to authorise another document rather than Budakh’s release. Behind the paperwork is a man who may be tortured. At last Rumata reaches the real physician and brings him out of confinement."
+        }
+      ],
+      "finding": "The screen moves from the deliberately useless document to a release without the action that makes it possible, and its opening suggests a completed circuit of offices/permissions. Rumata actually abandons that circuit, takes purification bracelets from the chest, goes directly to the prison with the stamped sheet, and asserts that the bishop has given him Budakh. The bluff and the guards' response are the scene's causal and comic payoff.",
+      "primary_support": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 8, chancellery P059–P082 and prison P103–P124.",
+          "support": "The paper refers him to further permissions. He instead takes the bracelets, wears them, displays the paper and demands the prisoner as his own; the guards hand Budakh over."
+        }
+      ],
+      "smallest_source_supported_correction": {
+        "instruction": "Replace the generalized office traversal with the actual bracelet/stamped-paper action. State how he obtains release rather than filling the missing interval with additional bureaucratic errands.",
+        "ru": "Лист отправляет его за новыми разрешениями. Румата набирает из сундука браслеты очищения и с бумагой, покрытой печатями, идёт прямо в тюрьму. Там он объявляет, что епископ подарил ему врача, и добивается выдачи Будаха.",
+        "en": "The sheet sends him after further permissions. Rumata takes purification bracelets and carries the stamped paper straight to prison. There he declares that the bishop has given him the physician and obtains Budakh's release."
+      }
+    },
+    {
+      "id": "HG-04",
+      "severity": "medium",
+      "screen_ids": [
+        "final"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "types": [
+        "route-incoherence"
+      ],
+      "problematic_wording": [
+        {
+          "screen_id": "final",
+          "ru": "Но Будаха ещё нужно найти, Киру — уберечь, а самому выдержать жизнь, где каждый день унижают и убивают. Поиски ведут всё ближе к Рэбе.",
+          "en": "Yet Budakh must still be found, Kira kept safe, and Rumata must endure a world of daily humiliation and killing. The search draws him closer to Reba."
+        }
+      ],
+      "finding": "This level-1 screen is also the literal final screen of Deep, after Budakh's rescue, Kira's death and the Earth epilogue. It reopens the starting tasks in the present without marking a flashback or recap. The HTML renders the same body in every mode; this is a current copy/route defect, not an assumption about an old reader.",
+      "primary_support": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 8, Budakh's release; complete chapter 10; complete epilogue.",
+          "support": "These events have already changed or closed the opening tasks before the final image."
+        }
+      ],
+      "smallest_source_supported_correction": {
+        "instruction": "Make the shared closing copy explicitly refer back to the opening situation, or use a neutral recap. Keep it spoiler-safe for Essential/Core; do not put the late outcomes into this level-1 screen. An explicit time anchor is sufficient without changing counts or the shared shell.",
+        "ru": "Начать: «В начале истории у Руматы есть…», а перечисление задач явно отнести к этой исходной точке.",
+        "en": "Begin 'At the story’s outset, Rumata has…' and explicitly frame the remaining search/protection clauses as those opening stakes."
+      }
+    },
+    {
+      "id": "HG-05",
+      "severity": "low",
+      "screen_ids": [
+        "childhood-game"
+      ],
+      "routes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "types": [
+        "unsupported-material-detail"
+      ],
+      "problematic_wording": [
+        {
+          "screen_id": "childhood-game",
+          "ru": "с бумажным колпаком на голове",
+          "en": "with a paper cap on his head"
+        }
+      ],
+      "finding": "The target is formed from Pashka's pirate headband, which he later unfolds and puts back on. The primary passage does not make it paper. This is a one-word factual cleanup, not the substantive reason for the verdict.",
+      "primary_support": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Prologue, Tell game, local P140–P155.",
+          "support": "Anka rolls the pirate headband into the target; Pashka subsequently unfolds it and ties it back on."
+        }
+      ],
+      "smallest_source_supported_correction": {
+        "instruction": "Delete only the unsupported material adjective in both languages, or name the rolled headband.",
+        "ru": "с колпаком на голове",
+        "en": "with a cap on his head"
+      }
+    }
+  ],
+  "optional_style_preferences": [],
+  "required_finding_count": 5,
+  "meaningful_required_finding_count": 4,
+  "correction_status": "not-applied-review-only",
+  "handoff": "Parent may make the localized corrections; publisher should directly compare corrected RU/EN and rebuilt collector HTML against these source locations, refresh ready hashes/counts as needed, and validate all routes. No new whole-book rewrite or SOURCE-GAP is requested.",
+  "authorization_respected": {
+    "collector_or_shared_mutations": false,
+    "git_or_pr_or_publish_actions": false,
+    "agents_spawned": false,
+    "external_messages_sent": false,
+    "other_workers_polled": false,
+    "only_assigned_review_files_written": true
+  }
+}
+

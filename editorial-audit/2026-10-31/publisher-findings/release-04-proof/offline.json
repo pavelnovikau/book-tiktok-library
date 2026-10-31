@@ -1,0 +1,53 @@
+{
+  "phase": "offline",
+  "origin": "owned-local-test-server",
+  "catalogue": 37,
+  "pwaOffline": [
+    "hard-to-be-a-god.html",
+    "adventures-of-huckleberry-finn.html",
+    "nonviolent-communication.html",
+    "the-fifth-discipline.html"
+  ],
+  "fileStandaloneOffline": [
+    "hard-to-be-a-god.html",
+    "adventures-of-huckleberry-finn.html",
+    "nonviolent-communication.html",
+    "the-fifth-discipline.html"
+  ],
+  "standaloneManifestDiagnostics": [
+    {
+      "text": "Access to manifest at 'file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-experimental-site-token-provider, chrome-extension, chrome-untrusted, data, http, https, isolated-app.",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/hard-to-be-a-god.html"
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest"
+    },
+    {
+      "text": "Access to manifest at 'file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-experimental-site-token-provider, chrome-extension, chrome-untrusted, data, http, https, isolated-app.",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/adventures-of-huckleberry-finn.html"
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest"
+    },
+    {
+      "text": "Access to manifest at 'file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-experimental-site-token-provider, chrome-extension, chrome-untrusted, data, http, https, isolated-app.",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/nonviolent-communication.html"
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest"
+    },
+    {
+      "text": "Access to manifest at 'file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest' from origin 'null' has been blocked by CORS policy: Cross origin requests are only supported for protocol schemes: chrome, chrome-experimental-site-token-provider, chrome-extension, chrome-untrusted, data, http, https, isolated-app.",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/the-fifth-discipline.html"
+    },
+    {
+      "text": "Failed to load resource: net::ERR_FAILED",
+      "url": "file:///Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031/manifest.webmanifest"
+    }
+  ],
+  "limitation": "Chrome blocks optional PWA manifest loading under file://; embedded reading remains usable. No physical iPhone/PWA claim.",
+  "runtimeErrors": 0
+}

@@ -361,7 +361,7 @@
     .cover--year strong { font-family: Georgia, "Times New Roman", serif; font-size: clamp(4.5rem, 8vw, 7.5rem); font-weight: 500; }
     .book__body { display: flex; flex-direction: column; min-height: 20rem; padding: var(--space-6); }
     .book__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-5); color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.04em; text-transform: uppercase; }
-    .book h3 { margin: 0 0 var(--space-3); font-size: var(--text-2xl); font-weight: 640; line-height: 1.05; letter-spacing: -0.035em; }
+    .book h3 { margin: 0 0 var(--space-3); font-size: var(--text-2xl); font-weight: 640; line-height: 1.05; letter-spacing: -0.035em; overflow-wrap: anywhere; }
     .book__author { margin: 0 0 var(--space-5); color: var(--color-text-muted); font-size: var(--text-sm); }
     .book__description { margin: 0 0 var(--space-6); color: var(--color-text-muted); text-wrap: pretty; }
     .tags { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0 0 var(--space-6); padding: 0; list-style: none; }
@@ -701,7 +701,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true, watchtower: true, 'river-raft': true, 'needs-bridge': true, 'five-disciplines': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -717,7 +717,28 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'enchanted-lab') {
+        if (motif === 'watchtower') {
+          // An observer above a closed city, with no promise of control over it.
+          content = '<path class="art-quiet" d="M126 143 H302 M185 143 V111 H212 V94 H239 V117 H266 V101 H292 V143 M220 94 V82 H232 V94"/>' +
+            '<path class="art-line" d="M136 143 V62 H173 V143 M130 62 L154 38 L179 62 M145 78 H164 V94 H145 Z M141 119 H167"/>' +
+            '<path class="art-bold" d="M173 88 L205 69 L297 69"/><path class="art-quiet" d="M205 69 V81 M244 69 V81 M284 69 V81"/>' +
+            '<rect class="art-fill" x="149" y="81" width="9" height="9"/>';
+        } else if (motif === 'river-raft') {
+          // A small raft follows a winding river past a branching route.
+          content = '<path class="art-quiet" d="M128 35 C175 48 141 73 175 87 S224 112 208 147 M176 33 C222 52 194 66 221 81 S280 115 254 147 M221 81 C251 65 264 43 295 35"/>' +
+            '<path class="art-bold" d="M143 35 C192 49 160 73 193 88 S245 119 227 147"/>' +
+            '<path class="art-line" d="M180 91 L210 80 L223 108 L193 119 Z M185 102 L214 91 M190 111 L219 100 M200 82 L211 112 M203 78 L217 62"/>';
+        } else if (motif === 'needs-bridge') {
+          // Two speakers meet through observation, feeling, need and request.
+          content = '<path class="art-quiet" d="M131 58 H164 V125 H131 Z M268 58 H301 V125 H268 Z M145 77 H154 M278 77 H289 M145 95 H154 M278 95 H289"/>' +
+            '<path class="art-bold" d="M164 90 C182 90 181 48 216 48 S250 90 268 90 M164 104 C182 104 181 145 216 145 S250 104 268 104"/>' +
+            '<path class="art-line" d="M183 86 H196 V99 H183 Z M201 86 H214 V99 H201 Z M219 86 H232 V99 H219 Z M237 86 H250 V99 H237 Z"/>';
+        } else if (motif === 'five-disciplines') {
+          // Four practices are held together by a fifth, returning feedback path.
+          content = '<path class="art-line" d="M143 50 H167 V75 H143 Z M259 50 H283 V75 H259 Z M143 112 H167 V137 H143 Z M259 112 H283 V137 H259 Z M167 62 L201 85 M259 62 L225 85 M167 124 L201 101 M259 124 L225 101"/>' +
+            '<path class="art-bold" d="M201 81 H225 V105 H201 Z M131 40 C105 100 142 153 216 153 C289 153 316 104 296 50 M287 53 L296 40 L308 50"/>' +
+            '<path class="art-quiet" d="M174 29 H253"/>';
+        } else if (motif === 'enchanted-lab') {
           // An ordinary workbench meets an impossible experiment: everyday institute magic.
           content = '<path class="art-quiet" d="M127 119 H297 M141 119 V148 M282 119 V148 M133 43 H181 V87 H133 Z M142 55 H172 M142 70 H164"/>' +
             '<path class="art-line" d="M210 43 V73 L190 105 Q188 112 199 112 H263 Q274 112 268 103 L247 73 V43 M204 43 H253 M201 91 H259"/>' +

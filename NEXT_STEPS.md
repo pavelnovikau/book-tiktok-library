@@ -1,5 +1,16 @@
 # Next steps
 
+## 2026-10-31 — release 03 handoff
+
+- Read [release03 receipt](editorial-audit/2026-10-31/publisher-findings/release-03.json) for exact PR/head/check/merge/production state. Intake is sealed: 11 readers / 457 accepted pairs, 33 books / 2353 screens; publish only after the recorded checks pass and verify actual served bytes after merge. A child returns immediately if remote checks are pending.
+- Keep the four exact PASS packages and seven explicit new-hash closures distinct. Original required findings remain historical evidence; prose changes require validation against their primary locations. Further candidates go into a later incremental batch.
+- Hard to Be a God stays excluded until its separate substantive repair passes independent review; source-blocked books and new collectors are unrelated work.
+- The settings/font-choice feature belongs to its separate UI PR. Integrate it from latest main after this book batch; do not overwrite accepted corpora, custom covers, book-local consent or valid-progress protection.
+- Preserve universal discovery/stats, offline Flexoki/Geist, single inset-safe icon row and focus contract. Public deployment uses registered roots/PWA/fonts/icons only. Physical iPhone/PWA verification and the known 1873/TOC/Hermes audit limitations remain separate.
+
+Release02 is merged and production-verified; its original observations and all proof are preserved. Earlier release/queue sections below are historical and do not approve current pending work.
+
+
 ## 2026-10-31 — release 02 handoff
 
 - Release 02 integrates Four Thousand Weeks 21/32/52, Mindfulness 14/26/30, A Guide to the Good Life 18/32/36, The Body Keeps the Score 21/33/41, Amphibian Man 12/19/35 and Selfie 27/39/62: 256 pairs, 32 catalogue books / 3,168 screens. Check `publisher-findings/release-02.json` for exact PR/head/check/production state before any further publication.

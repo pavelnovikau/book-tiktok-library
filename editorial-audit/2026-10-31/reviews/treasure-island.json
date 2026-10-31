@@ -1,0 +1,580 @@
+{
+  "slug": "treasure-island",
+  "verdict": "REQUIRES-FIXES",
+  "reviewStatus": "complete",
+  "date": "2026-10-31",
+  "reviewType": "new-independent-content-review",
+  "reviewedArtifacts": [
+    {
+      "path": "collector-output/treasure-island/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/treasure-island/story-data.json",
+      "sha256": "011120793b59e4475cd2d38292f9c3fd8d6f6586f950ec74267c6db964e256c1",
+      "bytes": 47604
+    },
+    {
+      "path": "collector-output/treasure-island/treasure-island.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/treasure-island/treasure-island.html",
+      "sha256": "8d15db5164f8d0e7822df9ccef92735ae9b05edee72ad3ba73a54ef451e96333",
+      "bytes": 296817
+    },
+    {
+      "path": "collector-output/treasure-island/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/treasure-island/sources.md",
+      "sha256": "335c0408fd32163ad59a2deabf83d26fe2f011f361aaaaf16c5ce0884091d892",
+      "bytes": 3176
+    },
+    {
+      "path": "collector-output/treasure-island/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/treasure-island/QA.md",
+      "sha256": "f7009000fb60a472122bb88b6896cefd23cff41a543f9a5d7bb798e65cb09b1d",
+      "bytes": 7613
+    }
+  ],
+  "storyDataPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/treasure-island/story-data.json",
+  "storyDataSha256": "011120793b59e4475cd2d38292f9c3fd8d6f6586f950ec74267c6db964e256c1",
+  "collectorHtmlPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/treasure-island/treasure-island.html",
+  "collectorHtmlSha256": "8d15db5164f8d0e7822df9ccef92735ae9b05edee72ad3ba73a54ef451e96333",
+  "readyManifest": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/treasure-island.json",
+    "sha256": "f064c5a4221c1235b8bb0d9494aabdd264e1234f8f1c8051abd8312dbe43c310",
+    "bytes": 5302,
+    "snapshot": {
+      "slug": "treasure-island",
+      "status": "ready-for-independent-check",
+      "date": "2026-10-31",
+      "verdict": "REBUILD",
+      "deliverables": [
+        {
+          "path": "collector-output/treasure-island/story-data.json",
+          "sha256": "011120793b59e4475cd2d38292f9c3fd8d6f6586f950ec74267c6db964e256c1",
+          "bytes": 47604
+        },
+        {
+          "path": "collector-output/treasure-island/treasure-island.html",
+          "sha256": "8d15db5164f8d0e7822df9ccef92735ae9b05edee72ad3ba73a54ef451e96333",
+          "bytes": 296817
+        },
+        {
+          "path": "collector-output/treasure-island/sources.md",
+          "sha256": "335c0408fd32163ad59a2deabf83d26fe2f011f361aaaaf16c5ce0884091d892",
+          "bytes": 3176
+        },
+        {
+          "path": "collector-output/treasure-island/QA.md",
+          "sha256": "f7009000fb60a472122bb88b6896cefd23cff41a543f9a5d7bb798e65cb09b1d",
+          "bytes": 7613
+        }
+      ],
+      "counts": {
+        "originalUniqueReviewedPairs": 96,
+        "publishedPairsCompared": 96,
+        "collectorHtmlPairsCompared": 96,
+        "rebuiltPairsRead": 34,
+        "before": {
+          "essential": 24,
+          "core": 60,
+          "deep": 96
+        },
+        "after": {
+          "essential": 12,
+          "core": 20,
+          "deep": 34
+        }
+      },
+      "reportPath": "editorial-audit/2026-10-31/books/treasure-island.md",
+      "reportSha256": "74b0afc68e5db5c1741254920da5041dfde57548d3cf63bf8a784aab075b253d",
+      "sourceScope": {
+        "workAndEdition": "Robert Louis Stevenson, Treasure Island (1883), English novel, Project Gutenberg #120, I–XXXIV.",
+        "actualReading": "Complete lawful source retrieved privately. Chronological reading across the whole plot with close checks of retained incidents, not a claim of continuous every-paragraph reading or whole-book fidelity.",
+        "primaryUrls": [
+          "https://www.gutenberg.org/files/120/120-h/120-h.htm"
+        ],
+        "retainedSceneMap": "collector-output/treasure-island/sources.md",
+        "wholeBookFidelityCertified": false,
+        "privateFullTextInPublicRepository": false,
+        "residualLimits": [
+          "No continuous word-for-word reading of the complete English source is claimed.",
+          "No particular Russian translation or uncertain future of Silver is certified."
+        ]
+      },
+      "exactChanges": [
+        "Removed reading lessons and analytical interludes. Rebuilt the inn, voyage, mutiny, stockade, coracle and treasure sequence as connected scenes; retained disclosure order for Ben’s work, the involuntary Hands shooting, the marooned men and Jim’s final nightmares. Did not invent Silver’s later fate.",
+        "Essential/Core stop after the stockade attack. Jim’s sea excursion, the treasure revelation, the mutiny outcome and homecoming remain in Deep.",
+        "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+        "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+      ],
+      "unresolvedIssues": [
+        "No continuous word-for-word reading of the complete English source is claimed.",
+        "No particular Russian translation or uncertain future of Silver is certified."
+      ],
+      "sourceAccessBlocks": [],
+      "validation": {
+        "structural": {
+          "passes": 69,
+          "warnings": 0,
+          "failures": 0
+        },
+        "browser": {
+          "viewports": [
+            [
+              320,
+              568
+            ],
+            [
+              1440,
+              900
+            ]
+          ],
+          "languages": [
+            "ru",
+            "en"
+          ],
+          "themes": [
+            "dark",
+            "light"
+          ],
+          "modes": [
+            "essential",
+            "core",
+            "deep"
+          ],
+          "visits": 528,
+          "runtimeExceptions": 0,
+          "externalRuntimeRequests": 0,
+          "horizontalOverflowPx": 0,
+          "profilesRemoved": true,
+          "testedHtmlSha256": "8d15db5164f8d0e7822df9ccef92735ae9b05edee72ad3ba73a54ef451e96333",
+          "physicalSafariTested": false
+        },
+        "embeddedDataMatchesAuthoring": true,
+        "substantiveSelfCheck": "Essential introduces Black Dog as Bones’s associate, Ben’s hidden boat and the failed negotiations before the attack. A new resume regression was caught before readiness: the maintained cover expected an explicit spoilerPolicy. Adding full-plot-in-deep masks saved Deep titles; reload/consent was then retested. The shared final title is now neutral.",
+        "independentReviewPerformed": false
+      },
+      "publisherAttention": [
+        "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+        "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+        "Preserve the book-local cover and collector/root Home target behavior.",
+        "Perform independent editorial check before integration/publication."
+      ],
+      "buildAssets": [
+        {
+          "path": "skills/book-tiktok/scripts/build_story.mjs",
+          "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+        },
+        {
+          "path": "skills/book-tiktok/assets/standalone-template.html",
+          "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+        },
+        {
+          "path": "skills/book-tiktok/assets/reader-header.html",
+          "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+        }
+      ],
+      "publicationPerformed": false
+    },
+    "declaredDeliverablesMatchCurrentHashes": true
+  },
+  "authorHandoff": {
+    "path": "editorial-audit/2026-10-31/group-1.json",
+    "sha256": "f79eaac08671356a2803f70926b2aa0f9a443f15aa3102238993e6c5b1176986"
+  },
+  "actualReading": {
+    "uniqueRuEnPairs": 34,
+    "uniqueLanguageScreens": 68,
+    "allCopyFieldsRead": true,
+    "screenIdsRead": [
+      "cover",
+      "door-to-adventure",
+      "black-dog-returns",
+      "first-black-spot",
+      "mothers-fair-share",
+      "escape-from-inn",
+      "map-promises-world",
+      "silver-first-meeting",
+      "smollett-unpopular",
+      "voyage-rhythm",
+      "apple-barrel",
+      "secret-council",
+      "shore-leave",
+      "tom-refuses",
+      "ben-gunn-appears",
+      "water-and-stockade",
+      "jim-rejoins",
+      "silvers-embassy",
+      "stockade-attack",
+      "spoiler-warning",
+      "coracle-plan",
+      "coracle-at-sea",
+      "hands-bargain",
+      "hands-confrontation",
+      "wrong-camp",
+      "silver-protects-jim",
+      "parole-and-promise",
+      "skeleton-pointer",
+      "empty-excavation",
+      "bens-hidden-work",
+      "coins-have-weight",
+      "silver-slips-away",
+      "jim-does-not-return",
+      "final"
+    ],
+    "routes": {
+      "essential": {
+        "pairCount": 12,
+        "screenIds": [
+          "cover",
+          "door-to-adventure",
+          "first-black-spot",
+          "mothers-fair-share",
+          "map-promises-world",
+          "silver-first-meeting",
+          "apple-barrel",
+          "shore-leave",
+          "ben-gunn-appears",
+          "jim-rejoins",
+          "stockade-attack",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "reading": "Complete cumulative sequence, including cover, warning where present, and final; read as connected narrative."
+      },
+      "core": {
+        "pairCount": 20,
+        "screenIds": [
+          "cover",
+          "door-to-adventure",
+          "black-dog-returns",
+          "first-black-spot",
+          "mothers-fair-share",
+          "escape-from-inn",
+          "map-promises-world",
+          "silver-first-meeting",
+          "smollett-unpopular",
+          "voyage-rhythm",
+          "apple-barrel",
+          "secret-council",
+          "shore-leave",
+          "tom-refuses",
+          "ben-gunn-appears",
+          "water-and-stockade",
+          "jim-rejoins",
+          "silvers-embassy",
+          "stockade-attack",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "reading": "Complete cumulative sequence, including cover, warning where present, and final; read as connected narrative."
+      },
+      "deep": {
+        "pairCount": 34,
+        "screenIds": [
+          "cover",
+          "door-to-adventure",
+          "black-dog-returns",
+          "first-black-spot",
+          "mothers-fair-share",
+          "escape-from-inn",
+          "map-promises-world",
+          "silver-first-meeting",
+          "smollett-unpopular",
+          "voyage-rhythm",
+          "apple-barrel",
+          "secret-council",
+          "shore-leave",
+          "tom-refuses",
+          "ben-gunn-appears",
+          "water-and-stockade",
+          "jim-rejoins",
+          "silvers-embassy",
+          "stockade-attack",
+          "spoiler-warning",
+          "coracle-plan",
+          "coracle-at-sea",
+          "hands-bargain",
+          "hands-confrontation",
+          "wrong-camp",
+          "silver-protects-jim",
+          "parole-and-promise",
+          "skeleton-pointer",
+          "empty-excavation",
+          "bens-hidden-work",
+          "coins-have-weight",
+          "silver-slips-away",
+          "jim-does-not-return",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "reading": "Complete cumulative sequence, including cover, warning where present, and final; read as connected narrative."
+      }
+    },
+    "routePairPositionsIncludingOverlap": 66,
+    "collectorEmbeddedScreensMatchAuthoring": true,
+    "collectorOnlyMetadataAddition": "modes (display labels and time estimates)",
+    "oldRoot": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/treasure-island.html",
+      "sha256": "bd55b3946bda815b2a24ea8959b2ae4041fa0fd5c2dd90754eba7bc2bda1190d",
+      "embeddedPairs": 96,
+      "matchesRevisedCorpus": false,
+      "reviewedForThisApproval": false
+    }
+  },
+  "sourceScope": {
+    "workAndEdition": "Robert Louis Stevenson, Treasure Island (1883), English Project Gutenberg #120, I–XXXIV. Local full witness updated 2026-09-04 and names illustrator Louis Rhead.",
+    "witnessPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/treasure-island/primary.txt",
+    "witnessSha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "completeWitnessAvailable": true,
+    "continuousFullBookReadingPerformed": false,
+    "actualMethod": "Independent close checks of retained incidents and surrounding chronological narrative runs across I–XXXIV, not continuous every-paragraph reading of all source chapters. The author ledger/report were read for edition/access boundaries but did not substitute for these primary checks.",
+    "russianText": "Original condensation, not a published Russian translation.",
+    "primaryScenesActuallyChecked": [
+      {
+        "chapters": "I–III",
+        "screenIds": [
+          "door-to-adventure",
+          "black-dog-returns",
+          "first-black-spot"
+        ],
+        "checked": "Bones’s scar, rum, enforced songs and watch for one leg; Jim’s nightmares; missing fingers, Black Dog fight and stroke; father’s death, Pew’s coercion, black spot and Bones’s collapse."
+      },
+      {
+        "chapters": "IV–V",
+        "screenIds": [
+          "mothers-fair-share",
+          "escape-from-inn"
+        ],
+        "checked": "Neighbours’ refusal; debt, mixed coins and interrupted count; oilskin packet, flight and fainting mother; ransacked chest, pirates’ money versus missing papers, horsemen, Pew’s accidental death and packet retained."
+      },
+      {
+        "chapters": "VI–VIII",
+        "screenIds": [
+          "map-promises-world",
+          "silver-first-meeting"
+        ],
+        "checked": "Three red crosses and bulk of treasure; expedition roles, Bristol preparations, Jim’s imagined island; friendly agile Silver, Black Dog’s flight, staged pursuit and Jim’s renewed trust."
+      },
+      {
+        "chapters": "IX–X",
+        "screenIds": [
+          "smollett-unpopular",
+          "voyage-rhythm"
+        ],
+        "checked": "Smollett’s objections, secret already known, move of arms and trusted men; Trelawney/Jim’s dislike; capable ship, Arrow’s drinking and disappearance, Silver’s galley, tales and parrot."
+      },
+      {
+        "chapters": "X–XII",
+        "screenIds": [
+          "apple-barrel",
+          "secret-council"
+        ],
+        "checked": "Near-empty apple barrel, Silver’s past and recruitment; impatience and delay until treasure/navigation safe; planned killing, rum and land cry; Jim’s report and seven reliable people against nineteen."
+      },
+      {
+        "chapters": "XIII–XIV",
+        "screenIds": [
+          "shore-leave",
+          "tom-refuses"
+        ],
+        "checked": "Gloomy woods and smell, collapsing discipline, permitted shore leave; Jim’s impulsive embarkation and flight; Silver presses Tom, Alan’s distant cry, refusal, thrown crutch, knife and Jim’s near-faint."
+      },
+      {
+        "chapters": "XV",
+        "screenIds": [
+          "ben-gunn-appears"
+        ],
+        "checked": "Wild figure, three years marooned, goats/berries/oysters, cheese; fear of Silver; reward/passage bargain, prior Flint service, handmade hidden boat and British flag."
+      },
+      {
+        "chapters": "XVI–XIX",
+        "screenIds": [
+          "water-and-stockade",
+          "jim-rejoins"
+        ],
+        "checked": "Livesey’s reconnaissance, spring/log house, supplies, Gray’s wounded defection; overloaded boat swamped during cannon attack; Redruth’s wound/death; flag, Jim’s return, cramped sandy house and Ben report."
+      },
+      {
+        "chapters": "XX–XXII",
+        "screenIds": [
+          "silvers-embassy",
+          "stockade-attack"
+        ],
+        "checked": "Truce, map demand, promised lives, Smollett’s surrender terms, Silver’s rage and failed fence climb; attack, smoke, melee, Joyce dead, Hunter gravely hurt and later dying, Smollett wounded."
+      },
+      {
+        "chapters": "XXII–XXIV",
+        "screenIds": [
+          "coracle-plan",
+          "coracle-at-sea"
+        ],
+        "checked": "Jim’s unauthorised exit, biscuit/pistols, skin boat; tension in cable, wind slackens it, drunken quarrel and cutting; drift to sea, sleep, erratic schooner, jump to rigging and destroyed coracle."
+      },
+      {
+        "chapters": "XXV–XXVII",
+        "screenIds": [
+          "hands-bargain",
+          "hands-confrontation"
+        ],
+        "checked": "O’Brien dead, Hands wounded, flag lowered, food/drink/wound care for navigation; hidden bloody dirk; shared interest in beaching; lunge, wet priming, grounded vessel and climb; reload, thrown knife, involuntary shots and Hands shot/drowned."
+      },
+      {
+        "chapters": "XXVII–XXIX",
+        "screenIds": [
+          "wrong-camp",
+          "silver-protects-jim"
+        ],
+        "checked": "Shoulder release, return, snores, parrot alarm and capture; confession of barrel/ship, threat, Silver blocks killing, reciprocal gallows bargain; black spot, map and restored command."
+      },
+      {
+        "chapters": "XXX",
+        "screenIds": [
+          "parole-and-promise"
+        ],
+        "checked": "Doctor treats pirates, Silver obtains parole, Jim’s tears, escape offer and refusal; ship location, doctor’s warning not to rush and instruction to keep Jim close; map mystery retained."
+      },
+      {
+        "chapters": "XXXI–XXXII",
+        "screenIds": [
+          "skeleton-pointer"
+        ],
+        "checked": "Jim tethered, skeleton compass pointer, Flint’s killings; voice, last words, fear, echo argument, recognition of Ben, Dick’s objection and the dead-or-alive joke."
+      },
+      {
+        "chapters": "XXXII–XXXIII",
+        "screenIds": [
+          "empty-excavation",
+          "bens-hidden-work"
+        ],
+        "checked": "Old excavation and broken pick/cases; Silver gives Jim pistol and changes position; hidden muskets, Silver finishes Merry, two dead/three flee; Ben’s earlier discovery/moving treasure, Livesey’s bargain and return to cave."
+      },
+      {
+        "chapters": "XXXIV",
+        "screenIds": [
+          "coins-have-weight",
+          "silver-slips-away",
+          "jim-does-not-return"
+        ],
+        "checked": "Coin sorting and sore fingers/back, transport; three marooned with supplies and farewell shot; short crew, Spanish American port, Ben’s fear and attributed explanation, Silver’s money-bag escape; home, shares, Smollett/Gray/Ben, unknown Silver future and surf/parrot nightmare."
+      }
+    ]
+  },
+  "requiredFindings": [
+    {
+      "id": "TI-REQ-01",
+      "screenId": "skeleton-pointer",
+      "category": [
+        "altered_causal_link",
+        "lost_distinctive_comedy"
+      ],
+      "severity": "medium",
+      "affectedRoutes": [
+        "deep"
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "problematicWording": {
+        "ru": "Люди цепенеют, пока Сильвер не убеждает их, что это живой Бен Ганн.",
+        "en": "The men freeze until Silver persuades them it is the living Ben Gunn."
+      },
+      "effectOnMeaning": "Replaces the source’s comic reason for recovering courage with a claim that Silver proves Ben alive. Silver first argues from an echo and then recognises Ben’s voice. Dick explicitly says Ben is no more alive/present in the body than Flint; the others are untroubled because nobody minds Ben, dead or alive. That contrast is the joke and the reason they continue, not settled belief that Ben is living.",
+      "primarySupport": {
+        "work": "Treasure Island",
+        "chapter": "XXXII",
+        "url": "https://www.gutenberg.org/files/120/120-h/120-h.htm",
+        "localPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/treasure-island/primary.txt",
+        "lineRanges": [
+          "6985–7018"
+        ],
+        "anchors": [
+          "There was an echo.",
+          "By the powers, Ben Gunn!",
+          "Ben Gunn’s not here in the body any more’n Flint.",
+          "dead or alive, nobody minds him."
+        ]
+      },
+      "smallestSourceSupportedCorrection": {
+        "ru": "Убрать «живой» и сохранить причину облегчения: Сильвер узнаёт голос Бена Ганна; Бена они не боятся ни живым, ни мёртвым, и идут дальше.",
+        "en": "Remove the assertion of living Ben and retain the comic cause: Silver recognises Ben Gunn’s voice; alive or dead, nobody fears Ben, so they continue."
+      },
+      "closureValidation": "Parent may correct this short bilingual ending of the screen without adding a scene/screen; publisher checks against XXXII and records replacement hashes."
+    },
+    {
+      "id": "TI-REQ-02",
+      "screenId": "silver-slips-away",
+      "category": [
+        "unsupported_motive_specificity"
+      ],
+      "severity": "low",
+      "affectedRoutes": [
+        "deep"
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "problematicWording": {
+        "ru": "при помощи Бена, который боялся его мести",
+        "en": "with a bag of coins and Ben’s help: Ben feared his revenge"
+      },
+      "effectOnMeaning": "Fear of Silver is explicit, but the retelling specifies revenge as an established motive. XXXIV calls Ben terribly afraid of his old quartermaster; after the escape Ben claims he assisted it to preserve the others’ lives if Silver stayed aboard. The story may condense that fear but should not add the particular revenge motive as narrator-established fact.",
+      "primarySupport": {
+        "work": "Treasure Island",
+        "chapter": "XXXIV",
+        "url": "https://www.gutenberg.org/files/120/120-h/120-h.htm",
+        "localPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/treasure-island/primary.txt",
+        "lineRanges": [
+          "7373–7382",
+          "7465–7473"
+        ],
+        "anchors": [
+          "Ben Gunn, who was still terribly afraid of his old quartermaster",
+          "he now assured us he had only done so to preserve our lives"
+        ]
+      },
+      "smallestSourceSupportedCorrection": {
+        "ru": "Самая маленькая правка: «при помощи Бена, который боялся Сильвера». Если сохранять объяснение самого Бена, атрибутировать его: Бен уверял, что так спасал их жизни.",
+        "en": "Smallest edit: “with Ben’s help; Ben was afraid of Silver.” Alternatively attribute Ben’s explanation: he claimed the escape would preserve their lives."
+      },
+      "closureValidation": "Remove only the unsupported revenge specificity, or use Ben’s attributed assurance; no new motive, speech or later fate. Publisher records new hashes."
+    }
+  ],
+  "optionalFindings": [],
+  "readerJudgment": {
+    "story": "The rebuilt narrative preserves Jim’s dread and excitement, Silver’s friendly façade, betrayal and self-preservation, Ben’s oddness, cramped stockade, sea danger, treasure disclosure and uneasy homecoming. No lesson/exercise block or invented dialogue found. Two short source corrections are needed; no wholesale rewrite is warranted.",
+    "routes": "Essential 12 and Core 20 coherently stop after the stockade attack. Deep 34 continues through ship recovery, captivity, treasure and home. The shorter routes deliberately retain the central secrets.",
+    "parity": "No material RU/EN reversal; both required source issues are shared.",
+    "uncertainty": "Silver’s future is not invented; Arrow’s disappearance is not turned into a witnessed murder. Hands’s shots remain involuntary; Ben’s treasure work is disclosed when the story explains it."
+  },
+  "handoffSafeguards": {
+    "contentMode": "narrative",
+    "spoilerPolicy": "full-plot-in-deep",
+    "bookLocalRuntimeInspectedStatically": true,
+    "preserve": [
+      "Session-only Deep consent; resetting consent on shallower-mode selection.",
+      "safeTitle masks for locked contents and safe saved-Deep resume labels.",
+      "goToPosition/goToId/setMode guards and explicit Deep warning.",
+      "Neutral cover/final/source notes, typographic cover and book-local progress storage."
+    ],
+    "browserOrDeviceRegressionPerformed": false,
+    "publisherOwns": "Post-fix source closure, integration, new hashes, saved-progress/consent regression and publication."
+  },
+  "materialLimitations": [
+    "No continuous reading of all 71,671 source-file words; targeted retained-scene/run review.",
+    "No certificate for every omitted peripheral scene or any published Russian translation.",
+    "No scientific or geographical validation of this fictional island/adventure.",
+    "No browser/device matrix or production check in this content pass.",
+    "The old 96-pair root corpus is outside this approval; changed candidates require fresh hashes and closure."
+  ],
+  "changesMade": [
+    "Only this review Markdown/JSON were written; no collector/root/shared edits, generation, Git, PR, deployment, external message or delegation."
+  ]
+}

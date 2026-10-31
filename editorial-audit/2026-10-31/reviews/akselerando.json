@@ -1,0 +1,92 @@
+{
+  "slug": "akselerando",
+  "verdict": "REQUIRES-FIXES",
+  "reviewDate": "2026-10-31",
+  "reviewType": "independent-content-review",
+  "reviewedFiles": {
+    "storyData": {
+      "path": "collector-output/akselerando/story-data.json",
+      "sha256": "17c49e9dae68071706134fa6db9868e5c2bbd87d61e71fc1ff429a39eedd5861"
+    },
+    "collectorHtml": {
+      "path": "collector-output/akselerando/akselerando.html",
+      "sha256": "eb68b8d34e28457cfbb5c40cfe78f6b15406536bca18229ef4f61d60c7d74a5b"
+    }
+  },
+  "actualRuEnPairCount": 52,
+  "routesRead": {
+    "essential": 14,
+    "core": 26,
+    "deep": 52
+  },
+  "effectiveHtmlCorpusParity": {
+    "screensEqual": true,
+    "metadataDifference": "HTML adds derived modes labels/minutes only."
+  },
+  "unchangedAtReviewWrite": true,
+  "primaryEvidenceActuallyChecked": [
+    {
+      "source": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+      "work": "Charles Stross, Accelerando",
+      "edition": "Author-hosted complete English Ace/Orbit 2005 HTML witness; copyright/publication information, nine original chapters and terminal novel paragraphs checked. Private extraction contains 2,889 blocks, about 146,269 whitespace-delimited words including front matter. Those counts establish file scope, not literary fidelity.",
+      "actuallyChecked": [
+        "Lobsters: arrival/gift economy; mistaken KGB call and lobster disclosure; Bob’s employment-versus-IP negotiation; Pamela’s actual coercive encounter.",
+        "Troubadour: software company shell, blastula screening dispute, metacortex dream deconditioning, model-aircraft/train reunion and selected Annette scenes, music-rights/lawsuit settlement and stated future defense purpose.",
+        "Tourist: mugging/amnesia and Jack’s adoption of the devices; Annette’s search; recovery with the Franklin collective, rights/identity discussion and the two signal contexts; slowing-down conversation and cat’s independent analysis.",
+        "Halo: secret daughter/father/Annette call, birthday corporate instrument and passport; teen work/wager; Sadeq’s petition, jurisdiction trap and queen’s audience/invitation.",
+        "Router: uploaded passengers and their subjective age, sail maintenance/legal visitor, alien threshold and sandbox, lobster-shell diplomacy/corrupted translation, complete direct-deal/violent encounter, copy-and-suspend proposal and Boris’s refusal.",
+        "Nightfall: ghost’s unreliable time account, Sadeq’s false paradise, Amber’s rescue and Aineko removing perceptual suppression; bazaar/currency explanation, Slug contract, synthetic Iranian decoy and Sadeq/Amber disagreement, bargain and departure.",
+        "Curator: Sirhan’s arrival expectations, distinct at-home mother/child/debt history, simulated childhoods, intrafamily tensions, bailiffs’ threat, and continuous Pamela capsule/death/family aftermath through the end of the chapter.",
+        "Elector: resimulant electorate and exit campaign; selected Rita/Sirhan and Annette confrontation scenes, lobster evacuation/payment proposal, conservative result, apology and three-way life choice.",
+        "Survivor: New Japan/wormhole polity and cat’s arrival, archived grandfather and Manni/adult-ghost distinction, merge/reincarnation passages, complete final destructive-test bargain, attributed manipulation claim, avatar killing and uncertain departure."
+      ],
+      "privateWitness": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-3-private/accelerando-blocks.json",
+      "readingScope": "Selected continuous scenes across all nine chapters and targeted follow-ups, including complete retained decisive confrontations. Not continuous full-novel reading, not a Russian-edition collation.",
+      "liveFetchLimitation": "This independent run’s web-tool requests to the author’s full-edition and intro URLs timed out. Review used the already privately retained author-hosted complete HTML/extraction supplied for this task; primary content was available and read, so this is not a source gap."
+    }
+  ],
+  "contentJudgment": "The revision is an engaging, materially supported condensation of a family’s changing forms and fortunes, rather than a prediction report or lesson plan. Manfred, Amber and Sirhan keep distinct arcs; the two shorter routes explicitly stop at first-contact threshold. Primary checks support Pamela’s coercion and last act, the decoy’s moral uncertainty, family-copy identities, Aineko’s attributed claims and the ending’s unresolved status. One local casualty substitution in Router requires repair. No source-gap or wholesale-rebuild finding is warranted.",
+  "requiredFindings": [
+    {
+      "id": "ACC-01",
+      "screenId": "fatal-negotiation",
+      "category": "unsupported-casualty-and-material-omission",
+      "severity": "required",
+      "routes": [
+        "deep"
+      ],
+      "wording": {
+        "ru": "«Пьер сражается с вторгшимися существами и теряет параллельные версии себя». При этом гибель Глашвича не сообщается.",
+        "en": "“Pierre fights the intruders and loses parallel instances of himself.” Glashwiecz’s death is omitted."
+      },
+      "finding": "The retained fight does not establish the loss of Pierre’s parallel selves. He fears that his current instance could die, then he and Boris fork to kill the intruders. The narrative later returns to one Pierre and a trauma filter suppressing memories of parallel mass killing. Regrouping after forking is not evidence of the death of his copies. The explicit personal casualty is Glashwiecz, whom the Wunch kills and consumes before the fight. The condensation substitutes an unsupported loss for that crucial consequence of his direct deal.",
+      "minimalCorrection": {
+        "ru": "Заменить фразу о потере копий короткой причинной цепочкой: «Вунч убивает Глашвича. Пьер и Борис создают параллельные версии себя и расправляются с нападавшими; затем фильтр памяти Пьера подавляет ужас пережитого насилия». Графические подробности не нужны; остальную сцену сохранить.",
+        "en": "Replace the loss-of-copies claim with the actual sequence: the Wunch kills Glashwiecz; Pierre and Boris fork themselves to fight the intruders; afterward Pierre’s trauma filter suppresses memories of the violence. No graphic detail or extra screen is required."
+      },
+      "sourceLocator": {
+        "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html#Router",
+        "location": "Router, Glashwiecz’s direct negotiation and the continuous garden fight, through the traumatized Pierre at Amber’s throne.",
+        "localExtractionBlocks1Based": [
+          "1436–1484"
+        ],
+        "specificBlocks1Based": {
+          "GlashwieczKilled": "1457–1462",
+          "PierreFearsPossibleDeathRatherThanReportsOne": "1463",
+          "PierreAndBorisFork": "1481",
+          "OnePierreAndFilteredMassKilling": "1482–1484"
+        },
+        "blockNumberNote": "Local private extraction indices, not printed pages or author numbering."
+      }
+    }
+  ],
+  "optionalObservations": [],
+  "materialLimitations": [
+    "All 52 revised RU/EN pairs and the actual 14/26/52 cumulative routes were read, including titles, cover, source/method/edition notes and effective collector HTML.",
+    "The old 104-screen root delivery was not approved or reread as this revised package; this review applies to the 52-screen collector deliverable only.",
+    "Having a complete primary file is not equivalent to reading every line. This is a selected-scene fidelity review; numerous interludes and subplots are deliberately absent from the condensation.",
+    "No published Russian translation or alternative print edition was collated.",
+    "No browser matrix, production, saved-progress runtime or physical iPhone/PWA certification is claimed.",
+    "Only review files were written; ACC-01 remains unmodified and requires new-hash review after repair."
+  ]
+}

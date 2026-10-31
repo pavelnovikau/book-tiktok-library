@@ -1,0 +1,146 @@
+{
+  "slug": "the-lost-world",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD",
+  "deliverables": [
+    {
+      "path": "collector-output/the-lost-world/story-data.json",
+      "sha256": "2be90b69ee130f59b408e4cfbe5ba030de2935ad78096376cafd42559bd5eb82",
+      "bytes": 49994
+    },
+    {
+      "path": "collector-output/the-lost-world/the-lost-world.html",
+      "sha256": "6d39af2a1d940bafa465d53d446fbcab09850b2b7a82fdf7a75961746a176366",
+      "bytes": 298941
+    },
+    {
+      "path": "collector-output/the-lost-world/sources.md",
+      "sha256": "a9d7bed6e717a9967b35aa0f91f8ba1f796ef509bb90055905e1b764d4a650e2",
+      "bytes": 3257
+    },
+    {
+      "path": "collector-output/the-lost-world/QA.md",
+      "sha256": "743337d7a233f3dc8bbc65df43ca9a8d74d88368ec21dcb8f30dae846ffafa30",
+      "bytes": 7427
+    }
+  ],
+  "counts": {
+    "originalUniqueReviewedPairs": 144,
+    "publishedPairsCompared": 144,
+    "collectorHtmlPairsCompared": 144,
+    "rebuiltPairsRead": 34,
+    "before": {
+      "essential": 36,
+      "core": 90,
+      "deep": 144
+    },
+    "after": {
+      "essential": 13,
+      "core": 23,
+      "deep": 34
+    }
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/the-lost-world.md",
+  "reportSha256": "24f19eb62f2ae6dc1121a78e13372fb61b11ad8d800d29addf2343fe46a9ee2a",
+  "sourceScope": {
+    "workAndEdition": "Arthur Conan Doyle, The Lost World (1912), English novel, Project Gutenberg #139, I–XVI.",
+    "actualReading": "Complete lawful source retrieved privately. Selected chronological narrative runs spanning the full plot and close checks of retained incidents; no claim of continuous every-paragraph reading or whole-book fidelity.",
+    "primaryUrls": [
+      "https://www.gutenberg.org/cache/epub/139/pg139-images.html"
+    ],
+    "retainedSceneMap": "collector-output/the-lost-world/sources.md",
+    "wholeBookFidelityCertified": false,
+    "privateFullTextInPublicRepository": false,
+    "residualLimits": [
+      "No continuous word-for-word reading of the complete English source is claimed.",
+      "No scientific/anthropological validation or published Russian-translation fidelity is claimed."
+    ]
+  },
+  "exactChanges": [
+    "Replaced lessons about heroism, evidence and competence with the Gladys–Challenger–plateau story. Restored peril, comedy, battle and enslavement without adopting racial rankings. Corrected the predator/balloon order; put all public, romantic and financial resolutions in Deep; kept the escaped animal’s final fate uncertain.",
+    "Essential/Core stop at the wrecked camp. The rescue, warfare, escape and homecoming continue only in Deep.",
+    "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+    "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+  ],
+  "unresolvedIssues": [
+    "No continuous word-for-word reading of the complete English source is claimed.",
+    "No scientific/anthropological validation or published Russian-translation fidelity is claimed."
+  ],
+  "sourceAccessBlocks": [],
+  "validation": {
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browser": {
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "visits": 560,
+      "runtimeExceptions": 0,
+      "externalRuntimeRequests": 0,
+      "horizontalOverflowPx": 0,
+      "profilesRemoved": true,
+      "testedHtmlSha256": "9d09d2c862b816fb08ee52f94744db9f22a8b98fd978c5349c84ff3611cf543b",
+      "physicalSafariTested": false
+    },
+    "embeddedDataMatchesAuthoring": true,
+    "substantiveSelfCheck": "The Essential route explicitly introduces Challenger’s participation and includes Malone’s lake/pit episode before he climbs out of the trap. Both full language sequences and each nested route were read for antecedents and causal links.",
+    "independentReviewPerformed": false
+  },
+  "publisherAttention": [
+    "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+    "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+    "Preserve the book-local cover and collector/root Home target behavior.",
+    "Perform independent editorial check before integration/publication."
+  ],
+  "buildAssets": [
+    {
+      "path": "skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+    },
+    {
+      "path": "skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+    },
+    {
+      "path": "skills/book-tiktok/assets/reader-header.html",
+      "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+    }
+  ],
+  "publicationPerformed": false,
+  "parentCorrections": {
+    "findings": [
+      "LW-REQ-01"
+    ],
+    "changedScreens": [
+      "empty-camp",
+      "borrowed-heroism",
+      "final"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/the-lost-world-meaning-fix-closure.json"
+  }
+}

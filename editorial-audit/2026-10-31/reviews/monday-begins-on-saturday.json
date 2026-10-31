@@ -1,0 +1,86 @@
+{
+  "slug": "monday-begins-on-saturday",
+  "verdict": "REQUIRES-FIXES",
+  "reviewDate": "2026-10-31",
+  "reviewType": "independent-content-review",
+  "reviewedFiles": {
+    "storyData": {
+      "path": "collector-output/monday-begins-on-saturday/story-data.json",
+      "sha256": "2c504f6f3720dc74a863a31b3fbc743fe511e37f427ef9f4c1ae24207e2431f8"
+    },
+    "collectorHtml": {
+      "path": "collector-output/monday-begins-on-saturday/monday-begins-on-saturday.html",
+      "sha256": "eb5f6abf881a91fcf36ecac350cf2378f6060156369707329bc5d9c868520c39"
+    }
+  },
+  "actualRuEnPairCount": 29,
+  "routesRead": {
+    "essential": 11,
+    "core": 17,
+    "deep": 29
+  },
+  "effectiveHtmlCorpusParity": {
+    "screensEqual": true,
+    "metadataDifference": "HTML adds derived modes labels/minutes only."
+  },
+  "unchangedAtReviewWrite": true,
+  "primaryEvidenceActuallyChecked": [
+    {
+      "source": "https://www.rusf.ru/abs/books/pnvs100.htm",
+      "contents": "https://www.rusf.ru/abs/books/pnvs00.htm",
+      "work": "Arkady and Boris Strugatsky, Понедельник начинается в субботу",
+      "edition": "Official author-site complete Russian electronic witness: six + five + five narrative chapters and commentary. Full-work identity/contents checked; not a summary and not a collated print edition.",
+      "actuallyChecked": [
+        "I.1–2: road recruitment, lodging/payment/floor-to-sofa, the cat’s faltering stories and changing book.",
+        "I.3–6: pike/well conversation, police confiscation/repayment, nocturnal Korneev dispute and morning return of sofa, recruitment ending.",
+        "II.1,3–5: key/duty instructions, Korneev and doubles including Privalov’s holiday replacement, hungry model explosion/cleanup, outdoor-test argument and Janus’s advance thanks, full catastrophe/genie/property recovery and explanation.",
+        "III.1–4: described-time machine and actual car-like controls, selected journey passages, dead parrot and feather conversation, Petri-dish return and the later lively parrot/Janus visit.",
+        "III.5: objections to continuous reversal, Privalov’s jumps and midnight insight, friends’ speculative biography distinguished from their reconstruction, final factory-call/work-trip prediction and plural-futures speech.",
+        "Opening of afterword/commentary, including Privalov’s critical relation to the authors; not the complete lexicon."
+      ],
+      "readingScope": "Selected continuous scenes with targeted follow-ups across all three stories; no claim of reading the whole work continuously or collating a published English translation.",
+      "privateWitnessDirectory": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/"
+    }
+  ],
+  "contentJudgment": "The revision tells a readable comic sequence and preserves the three-story structure. The forgetting cat, officially confiscated magic coin, chaotic experiment and parrot investigation provide the work’s own humour and curiosity. It avoids imposed managerial morals, exercises and fabricated dialogue. Decisive experimental and Janus outcomes remain behind Deep warning. One small incorrect scene detail needs correction; wholesale rewriting is not justified.",
+  "requiredFindings": [
+    {
+      "id": "MON-01",
+      "screenId": "wishes-have-a-language",
+      "category": "incorrect-scene-detail",
+      "severity": "minor-local-correction",
+      "routes": [
+        "core",
+        "deep"
+      ],
+      "wording": {
+        "ru": "«Щука в кадушке»; «…а в кадушке обнаруживается говорящая щука».",
+        "en": "“The pike in the tub”; “…a talking pike lives in a tub.”"
+      },
+      "finding": "The actual scene distinguishes the empty tub beneath the telephone from the well. Privalov goes to the well for water, hauls up the bucket and finds the talking pike in it. The condensation relocates the character and invents her residence in the tub. This is a small factual correction, not a request to rebuild a coherent retelling.",
+      "minimalCorrection": {
+        "ru": "Заменить название на «Щука из колодца», а фразу — на «Привалов идёт к колодцу за водой и поднимает в бадье говорящую щуку». Остальной экран можно сохранить.",
+        "en": "Use “The pike from the well” and say that, going to the well for water, Privalov hauls up a bucket containing a talking pike. Keep the rest of the screen."
+      },
+      "sourceLocator": {
+        "url": "https://www.rusf.ru/abs/books/pnvs100.htm",
+        "location": "Story I, chapter 3: empty tub beneath telephone → visit to the well → raised bucket and the pike’s conversation.",
+        "privateWitness": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/monday-begins-on-saturday-primary-part-3.txt",
+        "privateWitnessLines": "45–59"
+      }
+    }
+  ],
+  "optionalObservations": [
+    {
+      "screenId": "a-lift-becomes-an-invitation",
+      "observation": "Naming Oira-Oira/Pochkin in this L1 screen, and briefly locating the next L1 screen at the night lodging, would make Essential’s first transition smoother. The strangers are inferable from context; this is optional, not an acceptance blocker."
+    }
+  ],
+  "materialLimitations": [
+    "All 29 revised bilingual pairs and their actual 11/17/29 cumulative routes were read, including cover, titles, source/method notes and effective collector HTML.",
+    "The initial ready-manifest version observed at intake listed an older 18-screen Core, but the saved review snapshot and the final ready manifest agree at 17. Verdict applies only to the hashes below.",
+    "Primary evidence was selected continuous passages, not continuous every-word reading or print-variant/published-English collation.",
+    "No browser matrix, saved-progress runtime, production or physical iPhone/PWA certification is claimed.",
+    "No collector or shared file was edited; MON-01 remains for the author/publisher to repair."
+  ]
+}

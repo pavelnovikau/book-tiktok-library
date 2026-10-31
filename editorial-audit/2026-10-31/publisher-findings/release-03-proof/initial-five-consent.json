@@ -1,0 +1,302 @@
+{
+  "phase": "release-consent",
+  "origin": "owned-local-test-server",
+  "checks": [
+    {
+      "book": "zen-and-the-art-of-motorcycle-maintenance.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "zen-and-the-art-of-motorcycle-maintenance.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "monday-begins-on-saturday.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "monday-begins-on-saturday.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "akselerando.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "akselerando.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-lost-world.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-lost-world.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "treasure-island.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "treasure-island.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    }
+  ],
+  "nativeDialogs": [
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    }
+  ],
+  "customDialogs": [
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": false,
+      "title": "Открыть полный сюжет?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": true,
+      "title": "Открыть полный сюжет?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": false,
+      "title": "Открыть полный сюжет?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": true,
+      "title": "Открыть полный сюжет?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": false,
+      "title": "Reveal the full story?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": true,
+      "title": "Reveal the full story?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": false,
+      "title": "Reveal the full story?"
+    },
+    {
+      "id": "accelerandoSpoilerDialog",
+      "accepted": true,
+      "title": "Reveal the full story?"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Вся развязка / Full spoilers"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Вся развязка / Full spoilers"
+    }
+  ],
+  "physicalIPhone": false,
+  "runtimeErrors": 0
+}

@@ -1,0 +1,136 @@
+{
+  "slug": "white-fang",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD",
+  "deliverables": [
+    {
+      "path": "collector-output/white-fang/story-data.json",
+      "sha256": "01d35bb5df4fcc8f4136c56a0ba520d65a7fc272529b1d4ec003cff468d93251",
+      "bytes": 51397
+    },
+    {
+      "path": "collector-output/white-fang/white-fang.html",
+      "sha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+      "bytes": 299843
+    },
+    {
+      "path": "collector-output/white-fang/sources.md",
+      "sha256": "74ae2abd33527a4e298e64b2c9be25c760361c14c5c3dab47cbf6842c0d77324",
+      "bytes": 3303
+    },
+    {
+      "path": "collector-output/white-fang/QA.md",
+      "sha256": "c2b6b7aab2eb34b98d913b34671e114452a1980f93b7f542e10ddb6f75d18688",
+      "bytes": 7591
+    }
+  ],
+  "counts": {
+    "originalUniqueReviewedPairs": 96,
+    "publishedPairsCompared": 96,
+    "collectorHtmlPairsCompared": 96,
+    "rebuiltPairsRead": 36,
+    "before": {
+      "essential": 24,
+      "core": 60,
+      "deep": 96
+    },
+    "after": {
+      "essential": 14,
+      "core": 21,
+      "deep": 36
+    }
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/white-fang.md",
+  "reportSha256": "550bb7682323eab5f5e8efbc5946db2955e4d5a0c640e9cba0330b5a310f8510",
+  "sourceScope": {
+    "workAndEdition": "Jack London, White Fang (1906), English novel, Project Gutenberg #910, Parts I–V.",
+    "actualReading": "Complete lawful source retrieved privately. Chronological narrative runs spanning all five parts and close checks of retained incidents; no claim of continuous every-paragraph reading or whole-book fidelity.",
+    "primaryUrls": [
+      "https://www.gutenberg.org/cache/epub/910/pg910-images.html"
+    ],
+    "retainedSceneMap": "collector-output/white-fang/sources.md",
+    "wholeBookFidelityCertified": false,
+    "privateFullTextInPublicRepository": false,
+    "residualLimits": [
+      "No continuous word-for-word reading of the complete English source is claimed.",
+      "London’s attributed animal experience is literature, not validation of modern animal behaviour or handling.",
+      "No particular Russian translation is certified."
+    ]
+  },
+  "exactChanges": [
+    "Rebuilt the sled pursuit, den, camp, persecution, sale, cage, Scott relationship and southern ending as the animal’s life. Retained Bill’s offscreen death, the lynx fight, White Fang’s violence, Scott’s blows during chicken training, the judge’s ignorance of Hall’s wrongful last conviction and the puppy ending. No training advice, scientific claim or instant-gratitude rescue was added.",
+    "Essential/Core stop before the decisive bulldog fight. The intervention, developing attachment, southern home and Hall ending remain in Deep.",
+    "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+    "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+  ],
+  "unresolvedIssues": [
+    "No continuous word-for-word reading of the complete English source is claimed.",
+    "London’s attributed animal experience is literature, not validation of modern animal behaviour or handling.",
+    "No particular Russian translation is certified."
+  ],
+  "sourceAccessBlocks": [],
+  "validation": {
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browser": {
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "visits": 568,
+      "runtimeExceptions": 0,
+      "externalRuntimeRequests": 0,
+      "horizontalOverflowPx": 0,
+      "profilesRemoved": true,
+      "testedHtmlSha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+      "physicalSafariTested": false
+    },
+    "embeddedDataMatchesAuthoring": true,
+    "substantiveSelfCheck": "The shorter route explicitly reports Henry’s rescue when the longer fire scene is omitted. Primary IV.VI corrected a new unsupported throat-touch detail to the actual head-hiding gesture before readiness. The repeated gesture was condensed, and the shared final title made neutral.",
+    "independentReviewPerformed": false
+  },
+  "publisherAttention": [
+    "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+    "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+    "Preserve the book-local cover and collector/root Home target behavior.",
+    "Perform independent editorial check before integration/publication."
+  ],
+  "buildAssets": [
+    {
+      "path": "skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+    },
+    {
+      "path": "skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+    },
+    {
+      "path": "skills/book-tiktok/assets/reader-header.html",
+      "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+    }
+  ],
+  "publicationPerformed": false
+}

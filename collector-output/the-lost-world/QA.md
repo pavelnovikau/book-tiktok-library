@@ -1,102 +1,75 @@
-# The Lost World — QA
+# The Lost World — editorial repair QA, 2026-10-31
 
-Post-review integration note (2026-10-31): applied the bilingual factual, chronological, parity and differentiation corrections listed in the source ledger. The maintained library shell restores the bilingual iOS installation guide while retaining the existing spoiler gates and focus behaviour. Counts remain **36 / 90 / 144**; the current deterministic audit reports **7,049 RU / 7,879 EN words**.
+Status: **ready-for-independent-check**. This document replaces the earlier green collector/cold reviews. Those reviews established neither the requested reading experience nor whole-book fidelity. No root integration, publication or deployment is claimed.
 
-Date: 2026-10-31. Original collector result: **PASS**. The later cold-review corrections and maintained library shell were re-audited at integration: **68 passes, 0 warnings, 0 failures**; catalogue browser QA also passed. The detailed per-screen matrix below records the collector run and is not presented as a fresh 10,800-state traversal after the editorial corrections. Russian, dark theme, and Essential remain the fresh-reader defaults.
+## Content reviewed and rebuilt
 
-## Contract and density
+Read all **144 original RU/EN pairs**, including titles, body, cover and final. The original authoring JSON, collector HTML embedded corpus and published root HTML embedded corpus were compared; all screen content matched. Computed-mode-only metadata differences, where present, were not narrative divergence. This is 144 unique bilingual pairs, not a triple-count of identical copies.
 
-| Nested depth | Visible screens | RU words | RU reading estimate | EN words | EN reading estimate |
-|---|---:|---:|---:|---:|---:|
-| Essential / Главное | 36 | 1,773 | 10 min | 1,953 | 9 min |
-| Core / Сюжет | 90 | 4,386 | 25 min | 4,894 | 23 min |
-| Deep / Разбор | 144 | 7,036 | 40 min | 7,862 | 36 min |
+All ordinary story bodies and framing were rewritten as an original condensed narrative: **34 pairs**, replacing 144. `contentMode: narrative`; `spoilerPolicy: full-plot-in-deep`; fresh defaults RU/dark/Essential. The final counts follow the connected story, not a fixed quota.
 
-Counts include the single level-1 cover and final. Level distribution: **36 / 54 / 54**. Essential ⊂ Core ⊂ Deep is a stable-ID subsequence, not three separate stories. Each language has the same IDs, levels, sources, provenance, media, and chapter assignments.
+Replaced lessons about heroism, evidence and competence with the Gladys–Challenger–plateau story. Restored peril, comedy, battle and enslavement without adopting racial rankings. Corrected the predator/balloon order; put all public, romantic and financial resolutions in Deep; kept the escaped animal’s final fate uncertain.
 
-Word counts use the maintained builder's Unicode-word definition and include titles, the cover subtitle, and body copy, including the small authored navigation button. They exclude shell UI, chapter labels, source labels, and bibliography. Reading estimates use 180 RU / 220 EN words per minute, rounded upward; pauses, reflection, and source consultation add time. Deep mean body density: **42.7 RU / 47.1 EN words per screen**. English is about 11.7% longer overall. The deterministic audit omits the three-word cover subtitle, hence its deep totals of **7,033 RU / 7,859 EN**; this is an accounting difference, not missing translation.
+Essential/Core stop at the wrecked camp. The rescue, warfare, escape and homecoming continue only in Deep. Original geometric plateau image, with neutral descriptive alt text and a short Smartcat credit.
 
-Non-cover provenance: 50 `book`, 7 `corroboration`, 86 `synthesis`; the cover is separately typed. Seven numbered sources and one embedded original conceptual illustration. No inherited book corpus, copied translation, external cover, or runtime asset dependency.
+| Depth | Cumulative screens | RU / EN words | RU / EN estimated minutes |
+|---|---:|---:|---|
+| Essential | 13 | 595 / 711 | 4 минут / 4 min |
+| Core | 23 | 1057 / 1267 | 6 минут / 6 min |
+| Deep | 34 | 1547 / 1861 | 9 минут / 9 min |
 
-## Deterministic audit
+Words/minutes are the maintained builder's title/subtitle/body count and reading estimates, not tested completion times. Source maps remain in JSON and Sources; there is no academic provenance label after narrative screens.
 
-Built from clean schema-v2 JSON with the maintained `build_story.mjs`, then applied the book-local shell fixes documented below. Final HTML audit command, from this package directory, with `BOOK_TIKTOK_SKILL` pointing to the installed skill:
+## Evidence and substantive check
+
+Arthur Conan Doyle, The Lost World (1912), English novel, Project Gutenberg #139, I–XVI.
+
+Complete lawful source retrieved privately. Selected chronological narrative runs spanning the full plot and close checks of retained incidents; no claim of continuous every-paragraph reading or whole-book fidelity.
+
+The Essential route explicitly introduces Challenger’s participation and includes Malone’s lake/pit episode before he climbs out of the trap. Both full language sequences and each nested route were read for antecedents and causal links.
+
+The complete source files/extracts remain in private audit storage outside this repository. New prose contains no copied chapters, modern translation, invented direct speech, scene or page reference. The source ledger maps the actual retained incidents. A local structural pass is not a literary fidelity certificate; the publisher must read every rebuilt pair and check supporting passages. No source-access block prevents independent checking of the represented plot. Residual limits:
+
+- No continuous word-for-word reading of the complete English source is claimed.
+- No scientific/anthropological validation or published Russian-translation fidelity is claimed.
+
+## Local structural and browser checks
+
+Built with the maintained `build_story.mjs`, then preserved the book-local consent behavior described below. The current generic structural audit returned **69 passes / 0 warnings / 0 failures**. Exact embedded data match the authoring JSON; only the generated `modes` metadata is added. Unique IDs, nested counts, bilingual copy/source fields, offline assets and font invariants passed.
 
 ```sh
-node "$BOOK_TIKTOK_SKILL/scripts/audit_story_html.mjs" the-lost-world.html --min-screens 144 --require-bilingual
+node skills/book-tiktok/scripts/build_story.mjs collector-output/the-lost-world/story-data.json --out collector-output/the-lost-world/the-lost-world.html
+node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/the-lost-world/the-lost-world.html --require-bilingual
 ```
 
-Current integration audit: **68 passes, 0 warnings, 0 failures**. Verified exact targets, valid source/media references, bilingual fields, unique IDs, shell hooks, offline invariants, and Flexoki identity. Embedded screen corpus was compared against `story-data.json` and is identical. HTML size: **445,441 bytes**. Public deliverables contain no private source filesystem paths.
+**A plain rebuild needs the local consent restoration before delivery.** The private reproducibility script is `/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/build_group.py`; it builds only these four packages and applies their small local changes. It does not edit the shared template. Do not treat an unpatched builder output as this checked candidate.
 
-## Real-browser matrix
+Final real Chrome/CDP matrix, local `file://`, network offline: both languages × both themes × all three depths, at both viewports. **560 visits** checked expected stable ID, exact rendered paragraphs and title, counter, document/slide width, header row, narrative-label suppression and text-bottom reachability.
 
-Local headless Google Chrome, driven over CDP. Every session used a fresh `mktemp -d` profile, dedicated debugging port, a `timeout 30` limit, and process-group cleanup in `finally`/exit handlers. No development server was started. The shared preview could not open a local `file:` URL (`unsupported-protocol: file:`); local Chrome was used as required by the skill's QA protocol.
+| Viewport | Depth/language/theme combinations | Screen visits | Horizontal/document overflow | Max contained vertical scroll |
+|---|---:|---:|---:|---:|
+| 320 × 568 | 12 | 280 | 0 px | 442 px |
+| 1440 × 900 | 12 | 280 | 0 px | 0 px |
 
-Each row traversed all screens in both languages × both themes × all three depths. Every traversed screen was also measured with focus CSS enabled: **5,400 normal visits plus 5,400 focus-layout checks** overall. The focus state itself is additional to the three depth modes.
+The vertical scroll is intentional and contained inside the slide, especially on covers; this does not claim that every scene fits without scrolling. Desktop active rail entry stayed visible. The RU/dark mobile narrative and EN/light desktop narrative screenshots were visually inspected, along with a narrow bilingual consent dialog. Header controls are icons with localized accessible labels/tooltips; Home returns from collector preview to `../../index.html` and from root publication to `./`.
 
-| Viewport | Language/theme/depth combinations | Screen visits | Horizontal/clipping issues | Reader runtime errors | Result |
-|---|---:|---:|---:|---:|---|
-| 320x568 | 12 | 1,080 | 0 | 0 | Pass |
-| 390x844 | 12 | 1,080 | 0 | 0 | Pass |
-| 768x1024 | 12 | 1,080 | 0 | 0 | Pass |
-| 1024x768 | 12 | 1,080 | 0 | 0 | Pass |
-| 1440x900 | 12 | 1,080 | 0 | 0 | Pass |
+Additional interaction checks passed at both sizes: hidden Deep titles masked; hidden-Deep selection and Deep mode request consent; cancel retains position; keyboard cannot bypass a modal; lowering depth resets consent; saved Deep continuation reloads on a neutral cover, prompts again, then restores the exact ID; language/theme preserve position; start-over, arrows, Back and final Restart work; text tap enters focus with Next; swipe pages; vertical movement does not page/toggle; Escape restores chrome. Sources/Contents open and source counts fit. Offline fonts/images decoded, with zero runtime exceptions or external runtime requests.
 
-All visible titles were nonempty, unique within the mode, and equal to the selected translation. Progress matched the mode count at each step. Checks included document width, scroll-body width, descendant horizontal bounds, topbar bounds, theme-specific heading colour, and the royal-violet action token. Vertical reading scroll is intentional on short screens and long content; it is not treated as unwanted overflow.
+Chrome used `timeout 30`, a unique temporary profile and owned-process-group cleanup on every run; profiles were removed, including failed preliminary runs. No server or Vite/HMR process was started. These checks use Chrome, not physical iPhone/Safari or an installed PWA. Parent owns the shared iPhone/PWA shell issue.
 
-Visual inspection covered the cover illustration, dense night-journey prose, battle aftermath, four-question list, two-column provenance comparison, diamond valuation, and final screen. Samples included phone, portrait tablet, landscape tablet, and desktop, plus RU light and EN dark. At 320 px, long lists continue by vertical scrolling. At 1024/1440 px the desktop rail is visible, scrollable, and synchronized; the 1024 cover uses a single-column composition to avoid a cramped two-column layout.
+## Publisher integration requirements
 
-## Interaction and offline results
+- Keep `contentMode: narrative` and the maintained shell's corresponding label suppression.
+- Update only through publisher-owned integration: counts/reading estimates changed from 36 / 90 / 144 to 13 / 23 / 34.
+- Preserve the local `spoilerDialog`, session-only consent, masked contents, guards in `goToId`, `goToPosition` and `setMode`, and explicit spoiler policy used by neutral saved-position labels. Deep consent is reset on reload and on selecting a shorter mode. Hidden HTML JSON is not a secrecy/security boundary.
+- Preserve the collector/root Home target handling. The original embedded geometric cover remains.
+- Independent editorial review remains required. The ready manifest hashes all four canonical files and this detailed report; no catalogue, root reader, shared shell, git/PR/deploy or external messaging action was performed.
 
-Passed at each viewport:
+The authoritative delivery hashes are in `editorial-audit/2026-10-31/ready/the-lost-world.json`, avoiding a circular self-hash here.
 
-- language switching preserves current position, depth and theme; document language/title and UI labels update;
-- exact mode filtering and hidden-target navigation automatically raising Essential to Core through the explicit spoiler button;
-- Sources and Chapters dialogs open/close, with seven sources and localized method disclosure;
-- next/back, keyboard navigation, horizontal pointer swipe, and chapter selection;
-- tap focus, second-tap exit, F entry, Escape exit even after Next receives focus, and focus retained during paging;
-- header/progress/rail/back/counter hidden in focus; safe-area-aware Next remains inside viewport; cover focus also has Next and hides its mode/action chrome;
-- vertical movement is not treated as a tap; interactive elements, long presses, text selection, and open dialogs do not trigger unintended focus/navigation;
-- native Chrome mouse input enters focus and native Escape exits it, in addition to programmatic pointer/keyboard tests;
-- saved position, Continue, Start over, reload persistence, and final restart;
-- fresh RU/dark defaults; embedded Geist and Geist Mono both decode to loaded font faces; the SVG image decodes;
-- direct `file:` loading with browser networking disabled and cache disabled: **zero HTTP(S) runtime requests** and zero reader exceptions;
-- home icon resolves to the library `index.html` two levels above this collector folder; an actual home click was verified at 320 px. At the eventual flat hosted-library location the link uses `./`, and a flat local-file copy uses `./index.html`. The library must be present beside/above the reader; it is not bundled inside this single-book HTML. Optional source links intentionally need internet when followed.
 
-This is desktop Chrome with emulated viewport sizes, not a claim of physical-device Safari or Android testing.
+## Parent meaning corrections — 2026-10-31
 
-## Findings fixed locally
+Parent applied required independent meaning findings LW-REQ-01 in RU and EN. Changed pairs: empty-camp. Embedded data/derived reading estimates refreshed without replacing outer reader code or styles. This is a localized closure awaiting publisher validation, not a new independent PASS.
 
-1. Give `counter` the focus-mode hiding hook; make Escape safe after a navigation button gains focus.
-2. Avoid intercepting native keyboard activation on interactive elements, and tolerate non-element event targets.
-3. Make desktop cover columns shrinkable, with a stacked cover at 900–1100 px; allow long continuation labels and source titles to wrap.
-4. Resolve the collector-versus-flat-library home location without embedding a private path.
-5. Enforce royal violet (`#5B2FC2`) as the single action identity and warm Flexoki backgrounds. Apply explicit token colours to reading elements: rapid theme switching had exposed stale inherited text colours. The final traversal asserts the expected light/dark heading colour on every screen.
-6. Hide cover controls in focus while retaining Next. Remove unrelated install-guide markup from this standalone collector package.
-
-These are modifications to this HTML only. Shared templates and scripts were not edited. Rebuilding the HTML directly from the maintained builder requires reapplying these local hardening changes; keep the finalized HTML as the delivery artifact.
-
-## Narrative and evidence review
-
-Full source: lawful, unabridged Project Gutenberg #139, all sixteen chapters. Research method and per-chapter ledger are recorded in `sources.md`: full-book structural survey plus targeted close reading, not a claim of equal line-by-line scrutiny. Bibliography: Gutenberg catalogue and CiNii. Literary context: Portsmouth Conan Doyle Collection. Bounded scientific corrections: Natural History Museum, Smithsonian Human Origins, AABA.
-
-Essential is substantially spoiler-light: it does not reveal the bridge sabotage, escape mechanism, live London demonstration, Gladys's marriage, diamond reward, or final travel choice. Core gives the complete causal arc, including sabotage and the public demonstration; Deep supplies backstory, mechanisms, alternative readings and limits. All level-2/3 screens visibly say **Спойлеры / Spoilers**.
-
-The fictional expedition is never represented as corroborated history. Creature identifications remain qualified where the novel is uncertain; the London pterosaur's final fate is not asserted as known. The racial portrait of Zambo, ethnic explanation of Gomez, cranial hierarchy, conquest rhetoric, and ownership assumptions are examined rather than silently modernized. The killing of all male ape-men and enslavement of females and young remain explicit without graphic detail. Modern corrections are not attributed to Doyle; interpretations are not presented as proved authorial intent.
-
-## Delivery and cleanup
-
-Only these files belong to the package:
-
-- `the-lost-world.html` — self-contained reader;
-- `story-data.json` — clean authoring corpus;
-- `sources.md` — source ledger, claim map, rights and evidence boundary;
-- `QA.md` — this report.
-
-No publication, catalogue integration, commit, or push was performed. All Chrome processes/profile directories and temporary QA scripts, JSON reports and screenshots created by this task were removed after inspection. Other sessions' browser processes were not touched.
-
-Final artifact checksums (QA report excluded to avoid a self-referential hash):
-
-- `the-lost-world.html` — SHA-256 `27415172023476ddad856cd25164cca900fc18280e6bc3d073a0d9a5e6ac7906`
-- `story-data.json` — SHA-256 `0d84ba33ee688c255d681f9bde1dd26d2fd53e45408a3dc19cea1a44be107104`
-- `sources.md` — SHA-256 `fa66350f67e27d8610d6eb9852a06e52b52614ab7433454e956f7403ede122d3`
+Parent also applied the previously documented chapter-I timing correction (same evening, not next morning) and made the common final describe the empty camp consistently. Equal word counts leave reading estimates unchanged. No outer reader code changed.

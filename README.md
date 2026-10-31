@@ -48,6 +48,30 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 `npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
 
+## 2026-10-31 editorial repair — release 03
+
+Eleven reader revisions are accepted: four match completed independent PASS hashes; seven close nine required local findings against the actual primary passages. The original REQUIRES-FIXES reviews remain unchanged, with explicit replacement-hash acceptance in the [release03 receipt](editorial-audit/2026-10-31/publisher-findings/release-03.json). These are condensed stories/arguments, with source scope and edition limits preserved. There are 457 revised RU/EN pairs: 274 narrative pairs and 183 explanatory pairs.
+
+| Accepted reader | Essential / Core / Deep | RU minutes | EN minutes |
+| --- | ---: | ---: | ---: |
+| Awareness Through Movement | 19 / 35 / 42 | 6 / 10 / 12 | 5 / 10 / 11 |
+| Zen and the Art of Motorcycle Maintenance | 20 / 38 / 52 | 7 / 12 / 17 | 6 / 12 / 16 |
+| Letting Go: The Pathway of Surrender | 16 / 32 / 39 | 5 / 9 / 11 | 5 / 9 / 11 |
+| Make Time — Jake Knapp and John Zeratsky | 19 / 39 / 51 | 6 / 11 / 14 | 5 / 10 / 13 |
+| Monday Begins on Saturday | 11 / 17 / 29 | 3 / 5 / 8 | 3 / 5 / 8 |
+| Accelerando | 14 / 26 / 52 | 4 / 8 / 15 | 4 / 8 / 15 |
+| Why Zebras Don't Get Ulcers | 25 / 42 / 51 | 7 / 12 / 15 | 7 / 11 / 13 |
+| The Lost World | 13 / 23 / 34 | 4 / 6 / 9 | 4 / 6 / 9 |
+| Treasure Island · Robert Louis Stevenson | 12 / 20 / 34 | 4 / 6 / 9 | 4 / 6 / 9 |
+| White Fang — Jack London | 14 / 21 / 36 | 4 / 6 / 10 | 4 / 6 / 9 |
+| The Children of Captain Grant | 14 / 23 / 37 | 4 / 7 / 10 | 4 / 6 / 10 |
+
+The catalogue now contains **33 books / 2,353 screens**. Monday is newly registered under the existing fiction/fantasy/science-fiction vocabulary, with bilingual author, general audience, full-plot-in-deep policy and a distinct enchanted-lab cover. No age shelf or extra header row is added. Seven spoiler-bearing readers start a fresh document at Essential; explicit consent protects both Deep selection and saved ending resumption. Accelerando retains its custom cover and modal runtime. All eleven discard removed saved IDs and retain valid stable progress. The other 22 root readers are byte-identical to base main.
+
+Validation: library/portable-skill checks, 11 × 69 bilingual structural checks, 15,200 RU/EN/light/dark/depth/width rendering visits, Sources, progress, native/custom consent, phone safe-area/focus/swipe, standalone and cached offline reading. Browser emulation is not a physical iPhone/PWA test. The public allowlist contains 44 files; collector, audit, private, research and skill trees are excluded. Hard to Be a God remains excluded pending independent repair review. Settings and font selection are a separate UI feature, absent from this book release.
+
+Release02 has now been verified against actual production: all 43 assets match merge 87fc7638933a0187ab650d45fadfeacaeaf0242f, all six readers pass live source/progress/consent interaction checks, and the catalogue serves 32 books / 3,168 screens. Its [receipt](editorial-audit/2026-10-31/publisher-findings/release-02.json) retains the old pending observation and pre-release evidence. Release03 publication is established only by its own PR/check/merge and production evidence, not by this local acceptance.
+
 ## 2026-10-31 editorial repair — release 02
 
 This release accepts five nonfiction revisions from hash-matched independent PASS reviews (221 RU/EN pairs) and the first repaired fiction narrative, *Amphibian Man* (35 pairs). Its full 35-pair independent review required only two causal corrections; the reviewer has now rechecked both and issued a matching-hash PASS. Fresh publisher passage checks accept both: pain/suffocation causes the leap, and Guttiere remains unseen to avoid drawing Ichthyander back onto dangerous land. Reverting just those two screen objects reproduces the exact reviewed authoring hash; the other 33 pairs and metadata are unchanged.

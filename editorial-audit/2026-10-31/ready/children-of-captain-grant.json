@@ -1,0 +1,150 @@
+{
+  "slug": "children-of-captain-grant",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD, edition-scoped",
+  "deliverables": [
+    {
+      "path": "collector-output/children-of-captain-grant/story-data.json",
+      "sha256": "aaa48f035739849c1362ec57c56df1c17ced438c82eb0de8dd1829d9b2be1df2",
+      "bytes": 58698
+    },
+    {
+      "path": "collector-output/children-of-captain-grant/children-of-captain-grant.html",
+      "sha256": "b45d1f248dbed5ca1b139f54fb625310e4246913904d3a0d79493cf4833b172c",
+      "bytes": 306612
+    },
+    {
+      "path": "collector-output/children-of-captain-grant/sources.md",
+      "sha256": "98e13ab8fee9cf7a00ce7403c54fc77c0ad902cb0b98eb4fdbd846342f20970f",
+      "bytes": 4752
+    },
+    {
+      "path": "collector-output/children-of-captain-grant/QA.md",
+      "sha256": "79f07950ff0a213db825e3f58e2e3ec97d8c0365761ffd4b814e2484f8365aa0",
+      "bytes": 8065
+    }
+  ],
+  "counts": {
+    "originalUniqueReviewedPairs": 144,
+    "publishedPairsCompared": 144,
+    "collectorHtmlPairsCompared": 144,
+    "rebuiltPairsRead": 37,
+    "before": {
+      "essential": 36,
+      "core": 90,
+      "deep": 144
+    },
+    "after": {
+      "essential": 14,
+      "core": 23,
+      "deep": 37
+    }
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/children-of-captain-grant.md",
+  "reportSha256": "90efdd59eed658986d9dc40248ce1526e7303868f9fcbc945630a00e56caf3b2",
+  "sourceScope": {
+    "workAndEdition": "Jules Verne, In Search of the Castaways: Charles F. Horne-edited historical English version, Project Gutenberg #2083, 66 chapters (26 + 19 + 21). French Hetzel 1868 I.II, III.XVII, III.XXI and III.XXII additionally consulted through Wikisource.",
+    "actualReading": "The English source is a historical edited version, not the complete 70-chapter French original. Chronological narrative runs in all 66 English chapters plus retained-scene checks support this condensed plot. Four French chapters resolve the coordinate, mistaken order and ending checks. No full French comparative collation is claimed.",
+    "primaryUrls": [
+      "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_II",
+      "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XVII",
+      "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXI",
+      "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXII"
+    ],
+    "retainedSceneMap": "collector-output/children-of-captain-grant/sources.md",
+    "wholeBookFidelityCertified": false,
+    "privateFullTextInPublicRepository": false,
+    "residualLimits": [
+      "Full comparative collation against all 70 French chapters has not been performed.",
+      "The Horne English edition is not represented as the complete French original.",
+      "No continuous every-paragraph reading, scientific/geographical validation or Russian-translation-wide fidelity is claimed."
+    ]
+  },
+  "exactChanges": [
+    "Rebuilt the damaged message, children, Andes, Thalcave, flood, sea passage, Australia and late rescue as story. Confirmed 37°11′ means minutes. Explicitly restored Glenarvan killing Kara-Tete and the final Paganel comedy; kept Tabor/Maria Theresa within the novel’s geography. Omitted inconsistent wreck dates and adopted none of the narrator’s racial rankings.",
+    "Essential/Core stop at the Snowy camp before Ayrton’s exposure. Betrayal, New Zealand, the Duncan explanation, Grant’s reunion and closing fates remain in Deep.",
+    "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+    "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+  ],
+  "unresolvedIssues": [
+    "Full comparative collation against all 70 French chapters has not been performed.",
+    "The Horne English edition is not represented as the complete French original.",
+    "No continuous every-paragraph reading, scientific/geographical validation or Russian-translation-wide fidelity is claimed."
+  ],
+  "sourceAccessBlocks": [],
+  "validation": {
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browser": {
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "visits": 592,
+      "runtimeExceptions": 0,
+      "externalRuntimeRequests": 0,
+      "horizontalOverflowPx": 0,
+      "profilesRemoved": true,
+      "testedHtmlSha256": "a774ffcfeef3a2b15823ecec0be03e39f08c15f6713514f79979e82f6682f76f",
+      "physicalSafariTested": false
+    },
+    "embeddedDataMatchesAuthoring": true,
+    "substantiveSelfCheck": "The short route introduces Thaouka, the water-scouting party and the Australian arrival. Core includes the Snowy stop as well. The flood-to-farewell order and storm-to-farm transition were checked for unintended flashbacks and repetition. Every retained scene has primary chapter locators in sources.md.",
+    "independentReviewPerformed": false
+  },
+  "publisherAttention": [
+    "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+    "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+    "Preserve the book-local cover and collector/root Home target behavior.",
+    "Perform independent editorial check before integration/publication."
+  ],
+  "buildAssets": [
+    {
+      "path": "skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+    },
+    {
+      "path": "skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+    },
+    {
+      "path": "skills/book-tiktok/assets/reader-header.html",
+      "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+    }
+  ],
+  "publicationPerformed": false,
+  "parentCorrections": {
+    "findings": [
+      "GRANT-CONTENT-01"
+    ],
+    "changedScreens": [
+      "toline-geography"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/children-of-captain-grant-meaning-fix-closure.json"
+  }
+}

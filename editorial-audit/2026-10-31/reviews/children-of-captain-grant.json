@@ -1,0 +1,710 @@
+{
+  "slug": "children-of-captain-grant",
+  "date": "2026-10-31",
+  "reviewType": "independent content review of final author handoff",
+  "status": "completed",
+  "verdict": "REQUIRES-FIXES",
+  "requiredFindingCount": 1,
+  "reviewedArtifacts": {
+    "storyData": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/children-of-captain-grant/story-data.json",
+      "relativePath": "collector-output/children-of-captain-grant/story-data.json",
+      "sha256": "f5e1163a4c1f6d743693535810d141e8beaa7540541831b0cd8a06447c2ffdc3",
+      "bytes": 58698
+    },
+    "collectorHtml": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/children-of-captain-grant/children-of-captain-grant.html",
+      "relativePath": "collector-output/children-of-captain-grant/children-of-captain-grant.html",
+      "sha256": "a774ffcfeef3a2b15823ecec0be03e39f08c15f6713514f79979e82f6682f76f",
+      "bytes": 306612
+    },
+    "readyManifest": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/children-of-captain-grant.json",
+      "relativePath": "editorial-audit/2026-10-31/ready/children-of-captain-grant.json",
+      "sha256": "841d72882ca4d8e93ce3e5751b87f327910613928e286ef967c5293a575bf8d4",
+      "bytes": 6364
+    },
+    "sourceLedger": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/children-of-captain-grant/sources.md",
+      "relativePath": "collector-output/children-of-captain-grant/sources.md",
+      "sha256": "bbc840ecb1f1eb09b77385329a0c71172fc504d73253d6a04f20cfadfb75e9b6",
+      "bytes": 4752
+    },
+    "authorReport": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/children-of-captain-grant.md",
+      "relativePath": "editorial-audit/2026-10-31/books/children-of-captain-grant.md",
+      "sha256": "90efdd59eed658986d9dc40248ce1526e7303868f9fcbc945630a00e56caf3b2",
+      "bytes": 8901
+    }
+  },
+  "readyManifestHashesMatch": true,
+  "collectorEmbeddedScreensEqualAuthoring": true,
+  "collectorMetadataDifference": "Only generated modes added.",
+  "rootObservation": {
+    "artifact": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/children-of-captain-grant.html",
+      "relativePath": "children-of-captain-grant.html",
+      "sha256": "0adbab3c5853ef622bf8592255ab06828269dd8a159d185bcbc357ec9ab01280",
+      "bytes": 463625
+    },
+    "pairCount": 144,
+    "matchesReviewedCandidate": false,
+    "scope": "Root still holds the previous 144-pair version. It was inspected for effective embedded corpus identity; the old story was not independently reread in this pass and is not approved by this review."
+  },
+  "actualPairCountRead": 37,
+  "actualLanguageScreensRead": 74,
+  "routeReadCounts": {
+    "essential": 14,
+    "core": 23,
+    "deep": 37
+  },
+  "routesRead": [
+    {
+      "mode": "essential",
+      "screenCount": 14,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "bottle-in-shark",
+        "latitude-survives",
+        "children-not-tourists",
+        "wrong-ship",
+        "line-meets-mountains",
+        "quake-separates",
+        "condor-rescue",
+        "robert-becomes-helper",
+        "ombu-refuge",
+        "first-person-testimony",
+        "wagon-organisation",
+        "major-observes",
+        "final"
+      ],
+      "reading": "Read the complete filtered sequence as a cumulative route, including cover and final; Deep includes the explicit warning."
+    },
+    {
+      "mode": "core",
+      "screenCount": 23,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "bottle-in-shark",
+        "latitude-survives",
+        "children-not-tourists",
+        "apprenticeship-not-heroics",
+        "wrong-ship",
+        "line-meets-mountains",
+        "quake-separates",
+        "condor-rescue",
+        "wrong-language",
+        "party-divides",
+        "robert-becomes-helper",
+        "false-trail-person",
+        "ombu-refuge",
+        "refuge-can-change",
+        "farewell-not-payment",
+        "islands-check",
+        "storm-professional-work",
+        "first-person-testimony",
+        "wagon-organisation",
+        "toline-geography",
+        "major-observes",
+        "final"
+      ],
+      "reading": "Read the complete filtered sequence as a cumulative route, including cover and final; Deep includes the explicit warning."
+    },
+    {
+      "mode": "deep",
+      "screenCount": 37,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "bottle-in-shark",
+        "latitude-survives",
+        "children-not-tourists",
+        "apprenticeship-not-heroics",
+        "wrong-ship",
+        "line-meets-mountains",
+        "quake-separates",
+        "condor-rescue",
+        "wrong-language",
+        "party-divides",
+        "robert-becomes-helper",
+        "false-trail-person",
+        "ombu-refuge",
+        "refuge-can-change",
+        "farewell-not-payment",
+        "islands-check",
+        "storm-professional-work",
+        "first-person-testimony",
+        "wagon-organisation",
+        "toline-geography",
+        "major-observes",
+        "full-spoiler-warning",
+        "late-trust-breaks",
+        "late-unsafe-passage",
+        "late-wreck",
+        "late-captivity",
+        "late-young-rescuer",
+        "late-refuge-stratagem",
+        "late-duncan",
+        "late-letter",
+        "late-bargain",
+        "late-discovery",
+        "late-words",
+        "late-closure",
+        "paganel-secret",
+        "final"
+      ],
+      "reading": "Read the complete filtered sequence as a cumulative route, including cover and final; Deep includes the explicit warning."
+    }
+  ],
+  "narrativeAssessment": "The new candidate is a connected adventure rather than a management or moral companion. Children, Helena, Thalcave and Thaouka, Paganels fallible scholarship, betrayal, dangers and reunion carry it. Essential/Core coherently stop at Snowy camp with uncertainty. Deep carries the supported late arc and closing comedy. No broad rebuild is requested; the one source contradiction must be corrected.",
+  "parityAssessment": "Every title/subtitle/body pair read. RU/EN preserve actors, events, motives and outcomes; the required Toline error is shared, not a translation mismatch. Russian assessed as original condensation, not a published translation.",
+  "primaryScenesActuallyChecked": [
+    {
+      "screenIds": [
+        "bottle-in-shark"
+      ],
+      "primaryLocation": "Horne I.I",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Trial voyage, shark, papers sticking inside bottle, breaking bottle and laying papers out.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-I.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "latitude-survives"
+      ],
+      "primaryLocation": "Horne I.II; Hetzel 1868 I.II",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Three differently damaged copies, absent longitude, Patagonia conjecture and Admiralty request. French chapter checked directly for 37 degrees eleven minutes, not seconds.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-II.txt"
+      ],
+      "supplementaryPrimaryUrls": [
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_II"
+      ]
+    },
+    {
+      "screenIds": [
+        "children-not-tourists"
+      ],
+      "primaryLocation": "Horne I.III–IV",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Children answer advertisement, mother dead, Mary cares for Robert, refusal and Helena offers Duncan. Chapters read, with a short biographical stretch of I.IV not inspected continuously.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-III.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-IV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "apprenticeship-not-heroics"
+      ],
+      "primaryLocation": "Horne I.V–VI",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Robert insists on serving and is placed under Mangles for training; crew and family relationships.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-V.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-VI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "wrong-ship"
+      ],
+      "primaryLocation": "Horne I.VI–VIII",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Paganel believes vessel Scotia and destination India; sleeping passenger; invitations and final choice to remain.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-VI.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-VII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-VIII.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "line-meets-mountains",
+        "quake-separates"
+      ],
+      "primaryLocation": "Horne I.X, XII–XIII",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Parallel crossing/rendezvous plan, exhausted ascent, hut, earthquake and Major counts everyone except Robert.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-X.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XIII.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "condor-rescue"
+      ],
+      "primaryLocation": "Horne I.XIV–XV",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Condor carries Robert, Major prepares shot, valley shot comes first, bird descends on spread wings, Robert lives, Thalcave joins.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XIV.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "wrong-language"
+      ],
+      "primaryLocation": "Horne I.XV, especially lines 115–188 and 274–284 in private chapter",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Camões/Portuguese mistake and laughter, followed by learning Spanish from Thalcave.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "party-divides",
+        "robert-becomes-helper"
+      ],
+      "primaryLocation": "Horne I.XVI–XIX",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Thaouka, captive report, dry country, scouts chosen by condition of horses; wolves, sacrifice dispute, Robert rides through fire and reunion. Close reading of XIX lines 250–364 and 392–426.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XVI.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XVII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XVIII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XIX.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "false-trail-person"
+      ],
+      "primaryLocation": "Horne I.XX–XXI, especially XXI lines 150–242",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Fort Independence, older French/Italian captivity rather than Grant, despair and renewed examination of document.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XX.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XXI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "ombu-refuge",
+        "refuge-can-change",
+        "farewell-not-payment"
+      ],
+      "primaryLocation": "Horne I.XXII, XXIV–XXVI",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Flood and Thalcave follows Thaouka; Australia reading in tree; fire/waterspout/drift; roots reach ground; portrait, map and affectionate farewell.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XXII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XXIV.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XXV.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-1-XXVI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "islands-check",
+        "storm-professional-work"
+      ],
+      "primaryLocation": "Horne II.I–III, V",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Failed island search, Cape coal stop, Amsterdam; Mary decorates cabin and growing attachment; oil/breaker passage in storm.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-I.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-II.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-III.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-V.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "first-person-testimony",
+        "wagon-organisation"
+      ],
+      "primaryLocation": "Horne II.VI–VIII, X–XI",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "OMoore welcome, Ayrton testimony presented as claim, Robert recognises details, Austin repairs orders, wagon damage and horseshoe/blacksmith delay, train wreck.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-VI.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-VII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-VIII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-X.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "toline-geography"
+      ],
+      "primaryLocation": "Horne II.XII, especially lines 187–202, 224–360 and 362–389",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Prize Bible, biased answers, Paganel laughing; Glenarvan gives corrective Richardson geography and Toline leaves that gift in Paganels pocket. This directly contradicts candidate book identity.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XII.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "major-observes",
+        "late-trust-breaks"
+      ],
+      "primaryLocation": "Horne II.XVI–XVIII; XVII lines 76–146; XVIII lines 159–194, 292–323",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Snowy wagon/animals, Major follows and hears men, Ben Joyce identity, shooting, stolen order and wounded Mulrady crawls near camp before companions retrieve him. Candidate return wording is acceptable compression, not a new independent rescue.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XVI.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XVII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XVIII.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-unsafe-passage",
+        "late-wreck"
+      ],
+      "primaryLocation": "Horne II.XVIII–XIX; III.IV–V, VII–IX",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Party fears yacht captured; Halley/drunken crew, stranding and abandonment, raft plan, war context, Auckland route and capture near confluence. Targeted passages, not continuous reading of entire transition.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XVIII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XIX.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-IV.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-V.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-VII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-VIII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-IX.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-captivity",
+        "late-young-rescuer"
+      ],
+      "primaryLocation": "Horne III.X–XII",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Exchange for priest, Kara-Tete touches Helena and Glenarvan kills him; execution threat; digging, Mary recognises Robert, stolen knife and rope.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-X.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XI.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XII.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-refuge-stratagem"
+      ],
+      "primaryLocation": "Horne III.XIII–XIV",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Paganel at tabooed tomb; deliberate vent/stone scheme and escape under eruption. Treated as novel events.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XIII.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XIV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-duncan",
+        "late-letter"
+      ],
+      "primaryLocation": "Horne III.XV–XVI; Hetzel III.XVII",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Canoe escape, feared Duncan, Tom Austin alive; written New Zealand instead of Australia; Ayrtons attempted coercion/mutiny and arrest.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XV.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XVI.txt"
+      ],
+      "supplementaryPrimaryUrls": [
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XVII"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-bargain"
+      ],
+      "primaryLocation": "Horne III.XVIII, especially lines 28–99, 138–177, 195–214",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Island bargain, real quartermaster but put ashore before wreck, false Australian wreck story, yacht-seizure aim and ignorance of Grants location.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XVIII.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-discovery",
+        "late-words"
+      ],
+      "primaryLocation": "Horne III.XIX–XX; Hetzel III.XXI",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Maria Theresa chart, night voice and adults disbelief, reunion, destitution rather than captivity, Tabor/English double name.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XIX.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XX.txt"
+      ],
+      "supplementaryPrimaryUrls": [
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXI"
+      ]
+    },
+    {
+      "screenIds": [
+        "late-closure",
+        "paganel-secret"
+      ],
+      "primaryLocation": "Horne III.XX–XXI; Hetzel III.XXI–XXII",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+      "actuallyChecked": "Island supplies, return, Mary/Mangles, Roberts sailing and colony project; Arabella, tattooed feet to shoulders, secret spreading and fear of French ridicule.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XX.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-3-XXI.txt"
+      ],
+      "supplementaryPrimaryUrls": [
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXI",
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXII"
+      ]
+    }
+  ],
+  "sourceScope": {
+    "mainEdition": "Jules Verne, In Search of the Castaways, Charles F. Horne-edited historical English version, Project Gutenberg 2083; 66 chapters, not full French 70-chapter collation.",
+    "supplementaryFrenchChecks": [
+      "Hetzel 1868 I.II",
+      "Hetzel 1868 III.XVII",
+      "Hetzel 1868 III.XXI",
+      "Hetzel 1868 III.XXII"
+    ],
+    "privateCompleteEnglishWitness": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/primary.txt",
+      "sha256": "df5da6648b41f3e2498e6b048a8aa051932d73b70a9d76596177e5a9eec3e8c1"
+    },
+    "actualReading": "All revised bilingual copy and all three cumulative routes. Independent targeted primary passages and selected continuous chapter/scene runs in the locations listed, plus direct checks of the four French chapters for the relevant passages. Not continuous every-paragraph reading of either full novel.",
+    "sourceAccessGap": false
+  },
+  "requiredFindings": [
+    {
+      "id": "GRANT-CONTENT-01",
+      "screenId": "toline-geography",
+      "category": "source contradiction / reversal of comic gesture",
+      "severity": "required, local correction",
+      "affectedRoutes": [
+        "core",
+        "deep"
+      ],
+      "problematicWording": {
+        "ru": "Учёный хохочет над учебником. Утром Толин исчезает, оставив Элен ветку мимозы, а Паганелю — книгу, из которой выучил свои ответы.",
+        "en": "The scholar laughs at the textbook. By morning Toline is gone, leaving Helena a mimosa branch and Paganel the book from which he learned his answers."
+      },
+      "effectOnMeaning": "The candidate invents the identity of the abandoned book. Toline leaves the corrective Richardson geography Glenarvan has just given him, not his old teaching book. This changes the pointed final action from rejecting the adults corrective gift into leaving them the source of his erroneous lessons. Paganel laughs at the answers; the scene does not show him examining the boys original textbook.",
+      "primaryEvidence": {
+        "url": "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+        "edition": "Horne English version, Part II, Chapter XII (Toline of the Lachlan)",
+        "privatePath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/ch-2-XII.txt",
+        "lineRanges": [
+          "187–202",
+          "224–360",
+          "362–389"
+        ],
+        "support": "Glenarvan offers Richardsons Compendium to correct the wrong ideas; Toline receives it without conviction. Next morning Paganel finds Richardsons Geography in his vest pocket."
+      },
+      "smallestSourceSupportedCorrection": "Keep the scene and its position. In both languages make Paganel laugh at Tolines answers, and identify the left-behind book as the corrective geography Glenarvan gave the boy. Briefly establish the gift in the same paragraph so that abandoning it has its supported comic meaning. Preserve the mimosa and departure. No new scene, direct speech, lesson, screen, or count change is needed."
+    }
+  ],
+  "optionalTastes": [],
+  "spoilerAndProgressHandoff": {
+    "contentBoundary": "Short routes end before Ayrtons exposure. Major late titles, betrayal, New Zealand resolution, Grant reunion and tattoo ending stay behind Deep warning. Cover and global source notes do not disclose outcomes.",
+    "staticCollectorObservation": "Session-only spoilersAccepted, safeTitle masking, neutral saved-Deep label, modal keyboard guard and book-local navigation/mode consent code are present in checked HTML. No browser matrix was rerun.",
+    "publisherMustPreserve": [
+      "contentMode narrative and spoilerPolicy full-plot-in-deep",
+      "book-local spoilerDialog, consent guards in setMode/goToId/goToPosition and reset on reload/lowering depth",
+      "masked contents/rail labels and neutral saved-Deep continuation title",
+      "saved stable IDs, bilingual parity and collector/root Home handling"
+    ],
+    "closure": "Parent may make the one local bilingual source correction. Publisher must validate it against the finding and primary passage, record new story-data and HTML hashes, and preserve consent/progress behavior; this verdict is not a PASS for a new hash."
+  },
+  "materialLimitations": [
+    "Horne scope retained; no completeness or comparative fidelity certificate against all 70 French chapters.",
+    "No continuous full-book reading claim, no published Russian-translation certification.",
+    "Novel animals, geography and spectacular rescues assessed as fiction, not empirical science; no extra scientific lecture requested.",
+    "Root publication remains a different old corpus; this pass does not approve it.",
+    "Content review and static safeguards inspection only; no independent browser/mobile/offline integration certification."
+  ],
+  "ownership": {
+    "readerEdits": false,
+    "collectorEdits": false,
+    "rootOrSharedEdits": false,
+    "gitPrDeployActions": false,
+    "externalMessages": false,
+    "subagents": false
+  },
+  "readyManifestSnapshot": {
+    "slug": "children-of-captain-grant",
+    "status": "ready-for-independent-check",
+    "date": "2026-10-31",
+    "verdict": "REBUILD, edition-scoped",
+    "deliverables": [
+      {
+        "path": "collector-output/children-of-captain-grant/story-data.json",
+        "sha256": "f5e1163a4c1f6d743693535810d141e8beaa7540541831b0cd8a06447c2ffdc3",
+        "bytes": 58698
+      },
+      {
+        "path": "collector-output/children-of-captain-grant/children-of-captain-grant.html",
+        "sha256": "a774ffcfeef3a2b15823ecec0be03e39f08c15f6713514f79979e82f6682f76f",
+        "bytes": 306612
+      },
+      {
+        "path": "collector-output/children-of-captain-grant/sources.md",
+        "sha256": "bbc840ecb1f1eb09b77385329a0c71172fc504d73253d6a04f20cfadfb75e9b6",
+        "bytes": 4752
+      },
+      {
+        "path": "collector-output/children-of-captain-grant/QA.md",
+        "sha256": "6226126cfea1c2465e77edbf20c44edfe63717add821f8abe2de026034306a5f",
+        "bytes": 8065
+      }
+    ],
+    "counts": {
+      "originalUniqueReviewedPairs": 144,
+      "publishedPairsCompared": 144,
+      "collectorHtmlPairsCompared": 144,
+      "rebuiltPairsRead": 37,
+      "before": {
+        "essential": 36,
+        "core": 90,
+        "deep": 144
+      },
+      "after": {
+        "essential": 14,
+        "core": 23,
+        "deep": 37
+      }
+    },
+    "reportPath": "editorial-audit/2026-10-31/books/children-of-captain-grant.md",
+    "reportSha256": "90efdd59eed658986d9dc40248ce1526e7303868f9fcbc945630a00e56caf3b2",
+    "sourceScope": {
+      "workAndEdition": "Jules Verne, In Search of the Castaways: Charles F. Horne-edited historical English version, Project Gutenberg #2083, 66 chapters (26 + 19 + 21). French Hetzel 1868 I.II, III.XVII, III.XXI and III.XXII additionally consulted through Wikisource.",
+      "actualReading": "The English source is a historical edited version, not the complete 70-chapter French original. Chronological narrative runs in all 66 English chapters plus retained-scene checks support this condensed plot. Four French chapters resolve the coordinate, mistaken order and ending checks. No full French comparative collation is claimed.",
+      "primaryUrls": [
+        "https://www.gutenberg.org/cache/epub/2083/pg2083-images.html",
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_II",
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XVII",
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXI",
+        "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_3/Chapitre_XXII"
+      ],
+      "retainedSceneMap": "collector-output/children-of-captain-grant/sources.md",
+      "wholeBookFidelityCertified": false,
+      "privateFullTextInPublicRepository": false,
+      "residualLimits": [
+        "Full comparative collation against all 70 French chapters has not been performed.",
+        "The Horne English edition is not represented as the complete French original.",
+        "No continuous every-paragraph reading, scientific/geographical validation or Russian-translation-wide fidelity is claimed."
+      ]
+    },
+    "exactChanges": [
+      "Rebuilt the damaged message, children, Andes, Thalcave, flood, sea passage, Australia and late rescue as story. Confirmed 37°11′ means minutes. Explicitly restored Glenarvan killing Kara-Tete and the final Paganel comedy; kept Tabor/Maria Theresa within the novel’s geography. Omitted inconsistent wreck dates and adopted none of the narrator’s racial rankings.",
+      "Essential/Core stop at the Snowy camp before Ayrton’s exposure. Betrayal, New Zealand, the Duncan explanation, Grant’s reunion and closing fates remain in Deep.",
+      "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+      "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+    ],
+    "unresolvedIssues": [
+      "Full comparative collation against all 70 French chapters has not been performed.",
+      "The Horne English edition is not represented as the complete French original.",
+      "No continuous every-paragraph reading, scientific/geographical validation or Russian-translation-wide fidelity is claimed."
+    ],
+    "sourceAccessBlocks": [],
+    "validation": {
+      "structural": {
+        "passes": 69,
+        "warnings": 0,
+        "failures": 0
+      },
+      "browser": {
+        "viewports": [
+          [
+            320,
+            568
+          ],
+          [
+            1440,
+            900
+          ]
+        ],
+        "languages": [
+          "ru",
+          "en"
+        ],
+        "themes": [
+          "dark",
+          "light"
+        ],
+        "modes": [
+          "essential",
+          "core",
+          "deep"
+        ],
+        "visits": 592,
+        "runtimeExceptions": 0,
+        "externalRuntimeRequests": 0,
+        "horizontalOverflowPx": 0,
+        "profilesRemoved": true,
+        "testedHtmlSha256": "a774ffcfeef3a2b15823ecec0be03e39f08c15f6713514f79979e82f6682f76f",
+        "physicalSafariTested": false
+      },
+      "embeddedDataMatchesAuthoring": true,
+      "substantiveSelfCheck": "The short route introduces Thaouka, the water-scouting party and the Australian arrival. Core includes the Snowy stop as well. The flood-to-farewell order and storm-to-farm transition were checked for unintended flashbacks and repetition. Every retained scene has primary chapter locators in sources.md.",
+      "independentReviewPerformed": false
+    },
+    "publisherAttention": [
+      "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+      "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+      "Preserve the book-local cover and collector/root Home target behavior.",
+      "Perform independent editorial check before integration/publication."
+    ],
+    "buildAssets": [
+      {
+        "path": "skills/book-tiktok/scripts/build_story.mjs",
+        "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+      },
+      {
+        "path": "skills/book-tiktok/assets/standalone-template.html",
+        "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+      },
+      {
+        "path": "skills/book-tiktok/assets/reader-header.html",
+        "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+      }
+    ],
+    "publicationPerformed": false
+  },
+  "handoffHashCheck": {
+    "allReviewedVersionHashesStillMatch": true,
+    "artifacts": {
+      "storyData": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/children-of-captain-grant/story-data.json",
+        "reviewedSha256": "f5e1163a4c1f6d743693535810d141e8beaa7540541831b0cd8a06447c2ffdc3",
+        "handoffSha256": "f5e1163a4c1f6d743693535810d141e8beaa7540541831b0cd8a06447c2ffdc3",
+        "stillMatches": true
+      },
+      "collectorHtml": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/children-of-captain-grant/children-of-captain-grant.html",
+        "reviewedSha256": "a774ffcfeef3a2b15823ecec0be03e39f08c15f6713514f79979e82f6682f76f",
+        "handoffSha256": "a774ffcfeef3a2b15823ecec0be03e39f08c15f6713514f79979e82f6682f76f",
+        "stillMatches": true
+      },
+      "readyManifest": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/children-of-captain-grant.json",
+        "reviewedSha256": "841d72882ca4d8e93ce3e5751b87f327910613928e286ef967c5293a575bf8d4",
+        "handoffSha256": "841d72882ca4d8e93ce3e5751b87f327910613928e286ef967c5293a575bf8d4",
+        "stillMatches": true
+      }
+    }
+  }
+}

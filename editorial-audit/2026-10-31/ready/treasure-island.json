@@ -1,0 +1,146 @@
+{
+  "slug": "treasure-island",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD",
+  "deliverables": [
+    {
+      "path": "collector-output/treasure-island/story-data.json",
+      "sha256": "f79e4e9d54c7992fae36d5d65b9c4f207f8cadb406c61fa417ee35614c9c3d6d",
+      "bytes": 47604
+    },
+    {
+      "path": "collector-output/treasure-island/treasure-island.html",
+      "sha256": "2518effa4aeadb5b1a8cabb7feb424a3e52b6340ef8ecce015116665c2d9e4a7",
+      "bytes": 296817
+    },
+    {
+      "path": "collector-output/treasure-island/sources.md",
+      "sha256": "b58a905d7d43e720eebf70d00933232440e3825421b9fb04b6337e03724e8531",
+      "bytes": 3176
+    },
+    {
+      "path": "collector-output/treasure-island/QA.md",
+      "sha256": "8f052447def64c36f23ec4a91ea69093c273371a4c0bdcc177964afcac88d297",
+      "bytes": 7613
+    }
+  ],
+  "counts": {
+    "originalUniqueReviewedPairs": 96,
+    "publishedPairsCompared": 96,
+    "collectorHtmlPairsCompared": 96,
+    "rebuiltPairsRead": 34,
+    "before": {
+      "essential": 24,
+      "core": 60,
+      "deep": 96
+    },
+    "after": {
+      "essential": 12,
+      "core": 20,
+      "deep": 34
+    }
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/treasure-island.md",
+  "reportSha256": "74b0afc68e5db5c1741254920da5041dfde57548d3cf63bf8a784aab075b253d",
+  "sourceScope": {
+    "workAndEdition": "Robert Louis Stevenson, Treasure Island (1883), English novel, Project Gutenberg #120, I–XXXIV.",
+    "actualReading": "Complete lawful source retrieved privately. Chronological reading across the whole plot with close checks of retained incidents, not a claim of continuous every-paragraph reading or whole-book fidelity.",
+    "primaryUrls": [
+      "https://www.gutenberg.org/files/120/120-h/120-h.htm"
+    ],
+    "retainedSceneMap": "collector-output/treasure-island/sources.md",
+    "wholeBookFidelityCertified": false,
+    "privateFullTextInPublicRepository": false,
+    "residualLimits": [
+      "No continuous word-for-word reading of the complete English source is claimed.",
+      "No particular Russian translation or uncertain future of Silver is certified."
+    ]
+  },
+  "exactChanges": [
+    "Removed reading lessons and analytical interludes. Rebuilt the inn, voyage, mutiny, stockade, coracle and treasure sequence as connected scenes; retained disclosure order for Ben’s work, the involuntary Hands shooting, the marooned men and Jim’s final nightmares. Did not invent Silver’s later fate.",
+    "Essential/Core stop after the stockade attack. Jim’s sea excursion, the treasure revelation, the mutiny outcome and homecoming remain in Deep.",
+    "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+    "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+  ],
+  "unresolvedIssues": [
+    "No continuous word-for-word reading of the complete English source is claimed.",
+    "No particular Russian translation or uncertain future of Silver is certified."
+  ],
+  "sourceAccessBlocks": [],
+  "validation": {
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browser": {
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "visits": 528,
+      "runtimeExceptions": 0,
+      "externalRuntimeRequests": 0,
+      "horizontalOverflowPx": 0,
+      "profilesRemoved": true,
+      "testedHtmlSha256": "8d15db5164f8d0e7822df9ccef92735ae9b05edee72ad3ba73a54ef451e96333",
+      "physicalSafariTested": false
+    },
+    "embeddedDataMatchesAuthoring": true,
+    "substantiveSelfCheck": "Essential introduces Black Dog as Bones’s associate, Ben’s hidden boat and the failed negotiations before the attack. A new resume regression was caught before readiness: the maintained cover expected an explicit spoilerPolicy. Adding full-plot-in-deep masks saved Deep titles; reload/consent was then retested. The shared final title is now neutral.",
+    "independentReviewPerformed": false
+  },
+  "publisherAttention": [
+    "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+    "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+    "Preserve the book-local cover and collector/root Home target behavior.",
+    "Perform independent editorial check before integration/publication."
+  ],
+  "buildAssets": [
+    {
+      "path": "skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+    },
+    {
+      "path": "skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+    },
+    {
+      "path": "skills/book-tiktok/assets/reader-header.html",
+      "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+    }
+  ],
+  "publicationPerformed": false,
+  "parentCorrections": {
+    "findings": [
+      "TI-REQ-01",
+      "TI-REQ-02"
+    ],
+    "changedScreens": [
+      "skeleton-pointer",
+      "silver-slips-away"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/treasure-island-meaning-fix-closure.json"
+  }
+}

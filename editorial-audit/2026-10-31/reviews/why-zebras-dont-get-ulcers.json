@@ -1,0 +1,295 @@
+{
+  "slug": "why-zebras-dont-get-ulcers",
+  "verdict": "REQUIRES-FIXES",
+  "reviewRole": "independent-content-review",
+  "reviewedOn": "2026-10-31",
+  "reviewedArtifacts": {
+    "storyData": {
+      "path": "collector-output/why-zebras-dont-get-ulcers/story-data.json",
+      "sha256": "d45a8f3333609bb6dac1b36efc59f0c997ea5486bbd8477da574afecd6966e3d"
+    },
+    "collectorHtml": {
+      "path": "collector-output/why-zebras-dont-get-ulcers/why-zebras-dont-get-ulcers.html",
+      "sha256": "7aa665863723ae788f8762adad9b6282c168a73eaa55144ca51c9452545d86f8"
+    }
+  },
+  "actualRuEnPairCount": 51,
+  "effectiveCollectorCorpusMatchesStoryData": true,
+  "routesRead": {
+    "essential": {
+      "pairCount": 25,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "nighttime-worry",
+        "central-thesis",
+        "two-routes",
+        "cardio-mobilization",
+        "energy-bank",
+        "appetite-time",
+        "ulcer-context",
+        "growth-tradeoff",
+        "reproduction-investment",
+        "immune-regulation",
+        "positive-thinking-harm",
+        "pain-not-meter",
+        "memory-inverted-u",
+        "sleep-stress-loop",
+        "aging-variation",
+        "appraisal-builders",
+        "control-limits",
+        "depression-real",
+        "individual-filters",
+        "chosen-challenge",
+        "rank-context",
+        "structural-stress",
+        "flexible-coping",
+        "final"
+      ]
+    },
+    "core": {
+      "pairCount": 42,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "nighttime-worry",
+        "central-thesis",
+        "homeostasis",
+        "two-routes",
+        "hpa-sequence",
+        "cardio-mobilization",
+        "pressure-feedback",
+        "energy-bank",
+        "insulin-resistance",
+        "appetite-time",
+        "gut-motility",
+        "ulcer-context",
+        "growth-tradeoff",
+        "nurse-and-growth",
+        "reproduction-investment",
+        "infertility-no-blame",
+        "immune-regulation",
+        "infection-questions",
+        "positive-thinking-harm",
+        "pain-not-meter",
+        "chronic-pain-loop",
+        "memory-inverted-u",
+        "hippocampus-feedback",
+        "sleep-stress-loop",
+        "aging-variation",
+        "appraisal-builders",
+        "outlets",
+        "safety-signals",
+        "control-limits",
+        "depression-real",
+        "helplessness-learning",
+        "individual-filters",
+        "type-a-hostility",
+        "chosen-challenge",
+        "dopamine-anticipation",
+        "rank-context",
+        "ses-gradient",
+        "structural-stress",
+        "flexible-coping",
+        "exercise-and-support",
+        "final"
+      ]
+    },
+    "deep": {
+      "pairCount": 51,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "nighttime-worry",
+        "central-thesis",
+        "homeostasis",
+        "two-routes",
+        "hpa-sequence",
+        "timing-receptors",
+        "cardio-mobilization",
+        "pressure-feedback",
+        "cardio-individuals",
+        "energy-bank",
+        "insulin-resistance",
+        "appetite-time",
+        "gut-motility",
+        "ulcer-context",
+        "growth-tradeoff",
+        "nurse-and-growth",
+        "rat-care",
+        "reproduction-investment",
+        "infertility-no-blame",
+        "immune-regulation",
+        "infection-questions",
+        "positive-thinking-harm",
+        "pain-not-meter",
+        "chronic-pain-loop",
+        "memory-inverted-u",
+        "hippocampus-feedback",
+        "sleep-stress-loop",
+        "newborn-night",
+        "aging-variation",
+        "salmon-case",
+        "appraisal-builders",
+        "outlets",
+        "safety-signals",
+        "control-limits",
+        "depression-real",
+        "helplessness-learning",
+        "individual-filters",
+        "type-a-hostility",
+        "human-personality-limits",
+        "chosen-challenge",
+        "dopamine-anticipation",
+        "stress-relapse",
+        "rank-context",
+        "ses-gradient",
+        "structural-stress",
+        "inequality-pathways",
+        "flexible-coping",
+        "exercise-and-support",
+        "meditation-selection",
+        "final"
+      ]
+    }
+  },
+  "primaryEvidenceActuallyChecked": [
+    {
+      "primary": "Owned complete RU Piter EPUB, Почему у зебр не бывает инфаркта. Психология стресса, ISBN 978-5-4461-1081-0",
+      "locator": "OEBPS/content.opf; prefaces and all eighteen chapter files with notes",
+      "actuallyChecked": "Metadata/spine and full substantive chapter material distinguish it from a third-party summary. Read-only access; did not continuously read the entire work."
+    },
+    {
+      "locator": "OEBPS/Text/978544611081-2.xhtml ch1 opening and allostasis; -3.xhtml ch2 HPA/neural-endocrine passage; -4.xhtml ch3 vascular feedback; -5.xhtml ch4 energy-storage/bank argument; -6.xhtml ch5 appetite timing and ulcer discussion",
+      "screens": [
+        "nighttime-worry",
+        "central-thesis",
+        "homeostasis",
+        "two-routes",
+        "hpa-sequence",
+        "cardio-mobilization",
+        "pressure-feedback",
+        "energy-bank",
+        "appetite-time",
+        "ulcer-context"
+      ],
+      "actuallyChecked": "Original insomnia/anticipated-danger setup, adjustment rather than one fixed set point, endocrine chain, vascular loop, author’s own bank analogy, opposing appetite signals and interacting ulcer causes."
+    },
+    {
+      "locator": "-7.xhtml ch6 postnatal stress, growth/nurse table, active-contact experiment, concluding parental qualification and notes 138–139; -8.xhtml ch7 resilience passage",
+      "screens": [
+        "growth-tradeoff",
+        "nurse-and-growth",
+        "rat-care",
+        "reproduction-investment",
+        "infertility-no-blame"
+      ],
+      "actuallyChecked": "Nurse’s absence/return and measured changes, not a universal love-deficiency diagnosis. Relevant rat-care source sections checked continuously around the disputed argument. Reproductive resilience qualification retained. Required finding ZEBRA-REQ-01 identifies the unsupported causal bridge."
+    },
+    {
+      "locator": "-9.xhtml ch8 immune-course and cancer/positive-thinking criticism; -10.xhtml ch9 modulation/chronic pain; -11.xhtml ch10 memory systems and stress/recall; -12.xhtml ch11 newborn opening; -13.xhtml ch12 recovery/aging and salmon",
+      "screens": [
+        "immune-regulation",
+        "infection-questions",
+        "positive-thinking-harm",
+        "pain-not-meter",
+        "chronic-pain-loop",
+        "memory-inverted-u",
+        "sleep-stress-loop",
+        "newborn-night",
+        "aging-variation",
+        "salmon-case"
+      ],
+      "actuallyChecked": "Acute versus prolonged immune effects, criticism of blaming cancer patients, pain modulation, different memory functions, actual new-father story and species-specific salmon extreme. Targeted argument passages, not all experimental claims or notes."
+    },
+    {
+      "locator": "-14.xhtml ch13 outlet/predictability/control and executive-monkey discussion; -15.xhtml ch14 learned helplessness; -16.xhtml ch15 same-rank baboons and hostility; -17.xhtml ch16 chosen stress/reward anticipation; -18.xhtml ch17 hierarchy instability, Whitehall and work/toilet/medication; -19.xhtml ch18 handling/care, exercise, meditation-selection, cognitive flexibility",
+      "screens": [
+        "appraisal-builders",
+        "outlets",
+        "safety-signals",
+        "control-limits",
+        "helplessness-learning",
+        "individual-filters",
+        "type-a-hostility",
+        "chosen-challenge",
+        "dopamine-anticipation",
+        "rank-context",
+        "ses-gradient",
+        "structural-stress",
+        "flexible-coping",
+        "exercise-and-support",
+        "meditation-selection",
+        "final"
+      ],
+      "actuallyChecked": "Original changed experimental conditions, selection confound, learned nonattempting, contextual rank and resource constraints, before/after-exam strategy, genuine author methodological qualifications for meditation. Ch18 handling and note503 also checked specifically for the required finding."
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes",
+      "actuallyChecked": "Common-cause section supports H. pylori and NSAIDs."
+    },
+    {
+      "url": "https://www.cancer.gov/about-cancer/coping/feelings/stress-fact-sheet",
+      "actuallyChecked": "Laboratory mechanisms versus incidence/weak direct survival evidence; matches the explicitly current qualification."
+    },
+    {
+      "url": "https://www.nimh.nih.gov/health/publications/depression",
+      "actuallyChecked": "Multifactorial causes and individualized care sections; no individual treatment advice inferred."
+    }
+  ],
+  "contentJudgment": "The revised main argument is readable and largely faithful: anticipated danger, useful mobilization, cumulative costs, individual/social variation and context-sensitive coping. Essential and Core are coherent. Deep contains one unsupported specific causal explanation in rat-care that needs a local correction; no whole rewrite requested.",
+  "requiredFindings": [
+    {
+      "id": "ZEBRA-REQ-01",
+      "screenId": "rat-care",
+      "level": 3,
+      "type": "unsupported-causal-specificity/author-attribution",
+      "severity": "medium",
+      "wording": {
+        "ru": {
+          "title": "Короткая разлука меняет последующий уход",
+          "body": "«Опыты с крысятами усложняют идею полезного раннего стресса. После возвращения детёнышей матери могут иначе заботиться о них; именно этот уход помогает объяснить дальнейшие различия»."
+        },
+        "en": {
+          "title": "Brief separation changes later care",
+          "body": "“Rat-pup experiments complicate the idea of beneficial early stress. Mothers may care differently for pups after their return, and that care helps explain later differences.”"
+        }
+      },
+      "issue": "The screen supplies a separation → changed maternal care → later outcome mediation story as the book’s explanation. The cited growth chapter instead describes maternal deprivation/low care and an active-touch/growth-hormone experiment. Chapter 18 separately describes neonatal handling and more maternal care as producing similar beneficial outcomes; that passage does not establish changed maternal behavior after return as the mechanism of the handling effect. This is an unsupported causal bridge in this book account, not a claim that the mechanism is scientifically false.",
+      "readerEffect": "Readers receive a specific causal explanation of supposedly beneficial early stress that the represented source passages do not make. The current title repeats the added causal claim.",
+      "minimalCorrection": "Keep the screen and current human-transfer qualification. Retitle around active touch and replace the separation/reunion-mediated-care claim with the chapter-6 finding: separation lowers the pup’s growth-hormone measure; contact with a sedated mother does not restore it; simulated active maternal licking does. Alternatively describe chapter 18’s handling and maternal-care findings as separate observations without mediation, and update the source anchor to chapter 18. No extra screen or wholesale rewrite needed.",
+      "sourceLocator": [
+        {
+          "primaryFile": "OEBPS/Text/978544611081-7.xhtml",
+          "chapter": 6,
+          "section": "«Постнатальный стресс»; «Механизмы, лежащие в основе стрессогенной карликовости»",
+          "support": "The active-contact paragraph compares separation, a sedated mother, and imitation of maternal licking; notes 138–139 discuss deprivation/maternal care."
+        },
+        {
+          "primaryFile": "OEBPS/Text/978544611081-19.xhtml",
+          "chapter": 18,
+          "section": "«Благополучное старение», neonatal-handling passage followed by «Но обычных крыс…»; note 503",
+          "support": "Handling and greater natural maternal care have similar positive effects; the author does not there identify increased care after reunion as the handling mechanism. This paragraph was cross-checked directly in the supplied original EPUB as well as the private extraction."
+        }
+      ],
+      "acceptanceCheck": "RU and EN title/body state only the selected supported book finding; retain animal-to-human limit. If a handling account is used, its source locator must point to the actual chapter-18 passage."
+    }
+  ],
+  "optionalSuggestions": [],
+  "materialLimitations": [
+    "Targeted primary passages across represented arguments, not continuous full-book reading or all-notes/scientific-literature certification.",
+    "Complete English edition was not collated; EN was reviewed against the represented RU primary meaning and the new RU condensation.",
+    "The required finding concerns support and attribution in this book, not a claim that the wider maternal-care mechanism is false. A matching exact primary-book passage would resolve it; an external fact should not silently substitute for the book.",
+    "Verdict applies to the hashed revised collector package; root reader at inspection still held 144 old pairs. Publisher owns integration/publication and browser/device QA."
+  ],
+  "publicationDecisionOwner": "publisher"
+}

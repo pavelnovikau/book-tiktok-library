@@ -1,0 +1,117 @@
+{
+  "slug": "make-time",
+  "verdict": "REQUIRES-FIXES",
+  "reviewDate": "2026-10-31",
+  "reviewerRole": "Independent content reviewer; not the rewrite author or publisher",
+  "storyDataSha256": "d9ad07aac6153d66e18a489223811ce5b1aeee6ce2705f6b664ed8da33765862",
+  "collectorHtmlSha256": "da4bcfb20e775e362cb38afcd95200ccba27a46551bb22f5b09ed0c2c9031236",
+  "reviewedFiles": [
+    {
+      "path": "collector-output/make-time/story-data.json",
+      "sha256": "d9ad07aac6153d66e18a489223811ce5b1aeee6ce2705f6b664ed8da33765862"
+    },
+    {
+      "path": "collector-output/make-time/make-time.html",
+      "sha256": "da4bcfb20e775e362cb38afcd95200ccba27a46551bb22f5b09ed0c2c9031236"
+    }
+  ],
+  "actualRuEnPairCount": 51,
+  "cumulativeRoutesRead": {
+    "essential": 19,
+    "core": 39,
+    "deep": 51
+  },
+  "languagesRead": [
+    "ru",
+    "en"
+  ],
+  "effectiveCollectorCheck": {
+    "embeddedScreensEqualStoryData": true,
+    "materialCopyDivergence": false,
+    "difference": "Only computed modes/reading-time metadata is added to the embedded data. No later corpus replacement found."
+  },
+  "contentJudgment": "A coherent, readable condensation of the real four-step system. It retains the authors’ experiments, joy, imperfect use, real examples and flexible routines. Two small communication-procedure passages need source qualifications restored in both languages; no wholesale rewrite, count change or deletion of practical procedures is requested. Essential’s 19-screen argument is intact. The required corrections affect Core and Deep.",
+  "primaryEvidenceActuallyChecked": [
+    {
+      "edition": "Owned expanded RU EPUB, Jake Knapp and John Zeratsky, Найди время: Как фокусироваться на Главном, ISBN 9785961420517",
+      "check": "Read OPF identity and inspected 55 spine entries, actual numbered tactics through 87, Reflect, conclusion, quick-start and publication matter. Full edition rather than third-party summary; not continuously read cover to cover."
+    },
+    {
+      "locator": "OEBPS/Text/content06.html, paragraphs 8–16 and 36–45; content07.html, complete 33 nonempty h1–h4/p blocks",
+      "checked": "Busy Bandwagon, Infinity Pools, defaults, Jake’s phone/Gmail change, all four stages, recipe-menu approach, three initial tactics, author differences and no-perfection qualification."
+    },
+    {
+      "locator": "OEBPS/Text/content1.html, selected criteria paragraphs 33–39, 43–54 and 50–58; content1.2.html, 35–59 and 61–65; content1.4.html, selected tactics 8–16",
+      "checked": "Middle scale, urgency/satisfaction/joy, 60–90 minutes and no guarantee, actual blocked-water-pipe/headache/dinner episode; Might-Do/Burner lists and personal sprint; protected calendar windows, no whole-calendar blocking, boss/intern qualification, kind refusal, morning/evening differences and stopping before exhaustion."
+    },
+    {
+      "locator": "OEBPS/Text/content2.html, 45–53; content2.2.html, selected tactic 17 text, complete tactic 19 list and 22 closing examples; content2.4.html, 8–12 and 62–66; content2.6.html, 22–33",
+      "checked": "Restoring barriers, smartphone distinction, actual selective-notification procedure, distance, personal kryptonite, time-crater argument, explicit/implicit communication expectations and fast-response professions, send-only email."
+    },
+    {
+      "locator": "OEBPS/Text/content2.10.html, 16–19 and 42–49; content2.12.html, selected tactic 55–60 passages including 13–20; content2.8.html, opening television argument",
+      "checked": "Action verbs, Mori story, simple tools and paper, recorded urges/boredom/stuckness, rest versus wholehearted engagement; television as deliberate pleasure rather than a categorical ban."
+    },
+    {
+      "locator": "OEBPS/Text/content3.2.html, 4–12 and 16–28; content3.4.html, complete 36 nonempty h1–h4/p blocks; content3.6.html, 26–31",
+      "checked": "Nonheroic movement, actual basketball/stroller case, walking as transport/thinking, actual food defaults and distinct fasting/snacking positions, personal caffeine cutoff. The condensation does not repeat the source’s broad cancer/longevity claims as established science or prescribe fasting to every reader."
+    },
+    {
+      "locator": "OEBPS/Text/content3.8.html, 4–9 and selected closing headphone/break examples; content3.10.html, 1–5 and 10–14; content3.12.html, 2–7 and 27–33",
+      "checked": "Nature and father’s actual walks, selective quiet/breaks, social contact and screen-free meals, bedroom environment and caregiver/oxygen-mask boundary."
+    },
+    {
+      "locator": "OEBPS/Text/content4.html, 6–20; content4.2.html, 1–7 and 15–23; content08.html, complete quick start; content5.html, 3–18",
+      "checked": "Everyday experiment and limited notes, gratitude, exact 8/24/62 plus three-evening start, Jake’s writing and John/Michelle’s sailing, explicit permission to deepen an existing career and not copy their biographies."
+    }
+  ],
+  "requiredFindings": [
+    {
+      "findingId": "MT-01",
+      "screenId": "notifications",
+      "severity": "medium",
+      "category": "Removed qualification in an actual author procedure",
+      "affectedModes": [
+        "core",
+        "deep"
+      ],
+      "wording": {
+        "ru": "Тактика 19 отключает эти сигналы: теперь проверку начинает сам пользователь.",
+        "en": "Tactic 19 turns those signals off so that the user initiates checking."
+      },
+      "problem": "The paragraph presents turning off notifications without the author’s operational exception. Tactic 19 says almost all, explicitly keeps genuinely useful/important signals such as calendar reminders, and preserves a single urgent channel such as SMS. This is part of the actual procedure, not an outside safety disclaimer. As written, the summary changes selective control into undifferentiated silence.",
+      "minimalCorrection": {
+        "ru": "Заменить эту фразу на: «Тактика 19 предлагает отключить почти все уведомления, сохранив действительно полезные — например, календарные напоминания и один срочный канал вроде SMS. Остальные сервисы проверяет сам пользователь». Следующую фразу о выходе из аккаунта можно оставить.",
+        "en": "Replace the sentence with: “Tactic 19 turns off almost all notifications while retaining genuinely useful ones, such as calendar reminders and one urgent channel like SMS. The user chooses when to check the other services.” Keep the sign-out paragraph."
+      },
+      "sourceLocator": "Owned RU EPUB, OEBPS/Text/content2.2.html, tactic 19 «Отключите уведомления»: the list immediately after the paragraph beginning «Уведомления вам не друзья»; list items 2–3 preserve useful alerts and one urgent route."
+    },
+    {
+      "findingId": "MT-02",
+      "screenId": "reset-expectations",
+      "severity": "medium",
+      "category": "Qualification lost; optional announcement made categorical",
+      "affectedModes": [
+        "core",
+        "deep"
+      ],
+      "wording": {
+        "ru": "Границу связи нужно объяснить, иначе её будут угадывать / Тактика 39 прямо сообщает людям, когда ожидать ответа… Необъявленное замедление может выглядеть как игнорирование…",
+        "en": "Explain communication boundaries instead of making people guess / Tactic 39 tells people when to expect a reply… Unannounced delay may look like neglect…"
+      },
+      "problem": "The source presents explicit explanation as one option, then uses the authors’ own Google Ventures practice to say that sometimes no explicit announcement is necessary: colleagues inferred their slower email pattern. It also expressly exempts jobs such as sales/customer support that require rapid replies. The summary substitutes a categorical disclosure rule and omits the applicability boundary. Both matter in a practical condensation.",
+      "minimalCorrection": {
+        "ru": "Смягчить заголовок, например «Согласовать ожидания ответа». Сохранить предложение объяснить срок ответа и срочный канал; заменить заключительные обобщения двумя оговорками: «Иногда отдельного объявления не требуется: коллеги авторов сами привыкли к их режиму. Продажи и поддержка, однако, могут требовать быстрых ответов».",
+        "en": "Use a noncategorical title, for example “Adjust expectations about replies.” Retain explaining response times and an urgent channel as an option; replace the concluding generalizations with: “Sometimes no announcement is needed: the authors’ colleagues learned their pattern from experience. Sales and customer support, however, may require fast replies.”"
+      },
+      "sourceLocator": "Owned RU EPUB, OEBPS/Text/content2.6.html, tactic 39 «Измените характер коммуникативных ожиданий»: paragraphs beginning «Иногда вам даже не нужно давать такое объяснение в явном виде» and «Правда, некоторые профессии». In the reviewer’s nonempty h1–h4/p block count these are 25–26."
+    }
+  ],
+  "optionalSuggestions": [],
+  "materialLimitations": [
+    "Checked primary arguments and the selected procedures/cases at their actual source sections, not all 87 tactics and references continuously. Full-edition availability is not full-book reading.",
+    "No full English edition consulted; both delivered languages read, with EN checked against RU meaning and the supplied Russian primary edition.",
+    "No independent clinical/productivity efficacy validation; verdict is about fidelity, appropriate attribution and reading experience.",
+    "No root/publication or browser/device certification. Publisher must rebuild/recheck hashes after any corrections."
+  ]
+}

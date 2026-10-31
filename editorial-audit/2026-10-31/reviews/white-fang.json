@@ -1,0 +1,663 @@
+{
+  "slug": "white-fang",
+  "date": "2026-10-31",
+  "reviewType": "independent content review of final author handoff",
+  "status": "completed",
+  "verdict": "PASS",
+  "requiredFindingCount": 0,
+  "reviewedArtifacts": {
+    "storyData": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/white-fang/story-data.json",
+      "relativePath": "collector-output/white-fang/story-data.json",
+      "sha256": "01d35bb5df4fcc8f4136c56a0ba520d65a7fc272529b1d4ec003cff468d93251",
+      "bytes": 51397
+    },
+    "collectorHtml": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/white-fang/white-fang.html",
+      "relativePath": "collector-output/white-fang/white-fang.html",
+      "sha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+      "bytes": 299843
+    },
+    "readyManifest": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/white-fang.json",
+      "relativePath": "editorial-audit/2026-10-31/ready/white-fang.json",
+      "sha256": "02a482ab63225566b590ca878936c8aead934ab7554add80a8fdd3afca32608c",
+      "bytes": 5457
+    },
+    "sourceLedger": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/white-fang/sources.md",
+      "relativePath": "collector-output/white-fang/sources.md",
+      "sha256": "74ae2abd33527a4e298e64b2c9be25c760361c14c5c3dab47cbf6842c0d77324",
+      "bytes": 3303
+    },
+    "authorReport": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/white-fang.md",
+      "relativePath": "editorial-audit/2026-10-31/books/white-fang.md",
+      "sha256": "550bb7682323eab5f5e8efbc5946db2955e4d5a0c640e9cba0330b5a310f8510",
+      "bytes": 8568
+    }
+  },
+  "readyManifestSnapshot": {
+    "slug": "white-fang",
+    "status": "ready-for-independent-check",
+    "date": "2026-10-31",
+    "verdict": "REBUILD",
+    "deliverables": [
+      {
+        "path": "collector-output/white-fang/story-data.json",
+        "sha256": "01d35bb5df4fcc8f4136c56a0ba520d65a7fc272529b1d4ec003cff468d93251",
+        "bytes": 51397
+      },
+      {
+        "path": "collector-output/white-fang/white-fang.html",
+        "sha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+        "bytes": 299843
+      },
+      {
+        "path": "collector-output/white-fang/sources.md",
+        "sha256": "74ae2abd33527a4e298e64b2c9be25c760361c14c5c3dab47cbf6842c0d77324",
+        "bytes": 3303
+      },
+      {
+        "path": "collector-output/white-fang/QA.md",
+        "sha256": "c2b6b7aab2eb34b98d913b34671e114452a1980f93b7f542e10ddb6f75d18688",
+        "bytes": 7591
+      }
+    ],
+    "counts": {
+      "originalUniqueReviewedPairs": 96,
+      "publishedPairsCompared": 96,
+      "collectorHtmlPairsCompared": 96,
+      "rebuiltPairsRead": 36,
+      "before": {
+        "essential": 24,
+        "core": 60,
+        "deep": 96
+      },
+      "after": {
+        "essential": 14,
+        "core": 21,
+        "deep": 36
+      }
+    },
+    "reportPath": "editorial-audit/2026-10-31/books/white-fang.md",
+    "reportSha256": "550bb7682323eab5f5e8efbc5946db2955e4d5a0c640e9cba0330b5a310f8510",
+    "sourceScope": {
+      "workAndEdition": "Jack London, White Fang (1906), English novel, Project Gutenberg #910, Parts I–V.",
+      "actualReading": "Complete lawful source retrieved privately. Chronological narrative runs spanning all five parts and close checks of retained incidents; no claim of continuous every-paragraph reading or whole-book fidelity.",
+      "primaryUrls": [
+        "https://www.gutenberg.org/cache/epub/910/pg910-images.html"
+      ],
+      "retainedSceneMap": "collector-output/white-fang/sources.md",
+      "wholeBookFidelityCertified": false,
+      "privateFullTextInPublicRepository": false,
+      "residualLimits": [
+        "No continuous word-for-word reading of the complete English source is claimed.",
+        "London’s attributed animal experience is literature, not validation of modern animal behaviour or handling.",
+        "No particular Russian translation is certified."
+      ]
+    },
+    "exactChanges": [
+      "Rebuilt the sled pursuit, den, camp, persecution, sale, cage, Scott relationship and southern ending as the animal’s life. Retained Bill’s offscreen death, the lynx fight, White Fang’s violence, Scott’s blows during chicken training, the judge’s ignorance of Hall’s wrongful last conviction and the puppy ending. No training advice, scientific claim or instant-gratitude rescue was added.",
+      "Essential/Core stop before the decisive bulldog fight. The intervention, developing attachment, southern home and Hall ending remain in Deep.",
+      "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+      "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+    ],
+    "unresolvedIssues": [
+      "No continuous word-for-word reading of the complete English source is claimed.",
+      "London’s attributed animal experience is literature, not validation of modern animal behaviour or handling.",
+      "No particular Russian translation is certified."
+    ],
+    "sourceAccessBlocks": [],
+    "validation": {
+      "structural": {
+        "passes": 69,
+        "warnings": 0,
+        "failures": 0
+      },
+      "browser": {
+        "viewports": [
+          [
+            320,
+            568
+          ],
+          [
+            1440,
+            900
+          ]
+        ],
+        "languages": [
+          "ru",
+          "en"
+        ],
+        "themes": [
+          "dark",
+          "light"
+        ],
+        "modes": [
+          "essential",
+          "core",
+          "deep"
+        ],
+        "visits": 568,
+        "runtimeExceptions": 0,
+        "externalRuntimeRequests": 0,
+        "horizontalOverflowPx": 0,
+        "profilesRemoved": true,
+        "testedHtmlSha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+        "physicalSafariTested": false
+      },
+      "embeddedDataMatchesAuthoring": true,
+      "substantiveSelfCheck": "The shorter route explicitly reports Henry’s rescue when the longer fire scene is omitted. Primary IV.VI corrected a new unsupported throat-touch detail to the actual head-hiding gesture before readiness. The repeated gesture was condensed, and the shared final title made neutral.",
+      "independentReviewPerformed": false
+    },
+    "publisherAttention": [
+      "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+      "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+      "Preserve the book-local cover and collector/root Home target behavior.",
+      "Perform independent editorial check before integration/publication."
+    ],
+    "buildAssets": [
+      {
+        "path": "skills/book-tiktok/scripts/build_story.mjs",
+        "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+      },
+      {
+        "path": "skills/book-tiktok/assets/standalone-template.html",
+        "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+      },
+      {
+        "path": "skills/book-tiktok/assets/reader-header.html",
+        "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+      }
+    ],
+    "publicationPerformed": false
+  },
+  "readyManifestHashesMatch": true,
+  "collectorEmbeddedScreensEqualAuthoring": true,
+  "collectorMetadataDifference": "Only generated modes added.",
+  "rootObservation": {
+    "artifact": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/white-fang.html",
+      "relativePath": "white-fang.html",
+      "sha256": "fd3e7dc19a053f2dd92bda1b1b379cffac75a9d488c06f126266dae27a85c51c",
+      "bytes": 410591
+    },
+    "pairCount": 96,
+    "matchesReviewedCandidate": false,
+    "scope": "Root still holds the previous 96-pair version. Effective embedded corpus identity inspected; that old narrative was not independently reread or approved in this pass."
+  },
+  "actualPairCountRead": 36,
+  "actualLanguageScreensRead": 72,
+  "routeReadCounts": {
+    "essential": 14,
+    "core": 21,
+    "deep": 36
+  },
+  "routesRead": [
+    {
+      "mode": "essential",
+      "screenCount": 14,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "hunger-before-hero",
+        "unseen-cost",
+        "pack-is-not-everything",
+        "cub-before-label",
+        "wall-of-light",
+        "kiche-recognition",
+        "play-denied",
+        "mother-as-property",
+        "covenant-without-love",
+        "fort-yukon-market",
+        "sale-engineered",
+        "rage-as-product",
+        "final"
+      ],
+      "reading": "Read the complete filtered cumulative sequence, including cover/final; Deep includes the explicit warning."
+    },
+    {
+      "mode": "core",
+      "screenCount": 21,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "hunger-before-hero",
+        "extra-fish",
+        "unseen-cost",
+        "fire-and-exhaustion",
+        "pack-is-not-everything",
+        "cub-before-label",
+        "wall-of-light",
+        "predator-prey-reversal",
+        "maternal-cost",
+        "kiche-recognition",
+        "fire-and-laughter",
+        "play-denied",
+        "mother-as-property",
+        "freedom-has-conditions",
+        "covenant-without-love",
+        "famine-tests-covenant",
+        "fort-yukon-market",
+        "sale-engineered",
+        "rage-as-product",
+        "final"
+      ],
+      "reading": "Read the complete filtered cumulative sequence, including cover/final; Deep includes the explicit warning."
+    },
+    {
+      "mode": "deep",
+      "screenCount": 36,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "hunger-before-hero",
+        "extra-fish",
+        "unseen-cost",
+        "fire-and-exhaustion",
+        "pack-is-not-everything",
+        "cub-before-label",
+        "wall-of-light",
+        "predator-prey-reversal",
+        "maternal-cost",
+        "kiche-recognition",
+        "fire-and-laughter",
+        "play-denied",
+        "mother-as-property",
+        "freedom-has-conditions",
+        "covenant-without-love",
+        "famine-tests-covenant",
+        "fort-yukon-market",
+        "sale-engineered",
+        "rage-as-product",
+        "deep-spoiler-warning",
+        "different-fighting-system",
+        "interruption-from-outside",
+        "nothing-happens",
+        "love-beyond-comfort",
+        "old-owner-returns",
+        "departure-and-window",
+        "city-restarts-smallness",
+        "chicken-rule",
+        "play-becomes-possible",
+        "voice-for-help",
+        "limited-knowledge-of-judge",
+        "last-confrontation",
+        "care-as-material-work",
+        "quiet-last-image",
+        "final"
+      ],
+      "reading": "Read the complete filtered cumulative sequence, including cover/final; Deep includes the explicit warning."
+    }
+  ],
+  "narrativeAssessment": "Supported condensed story of an animals life: hunger and danger, mother/den, persecution and separation, work and violence, exploitation, rescue, slow attachment, departure, difficult southern adaptation, final peril and puppies. Scenes carry the transformation without digest-writers moral or management lessons. Essential/Core coherently stop at bulldog arrival, Deep completes the arc after warning. No material invented scene, direct speech, motive, reversed relationship or missing decisive outcome found.",
+  "parityAssessment": "All RU/EN title/subtitle/body pairs read. Meaningful parity in actors, causal links, emotional development, uncertainty, cruelty and outcomes. Russian is assessed as a new original condensation, not as a published translation. No required translation mismatch.",
+  "primaryScenesActuallyChecked": [
+    {
+      "screenIds": [
+        "hunger-before-hero",
+        "extra-fish"
+      ],
+      "primaryLocation": "I.I–II",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Coffin journey, extra fish for six dogs, later stolen fish, she-wolf decoy and dwindling team.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-1-I.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-1-II.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "unseen-cost",
+        "fire-and-exhaustion"
+      ],
+      "primaryLocation": "I.III, especially lines 48–99, 155–205, 276–364",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "One Ear escape, Bill follows with three rounds; Henry hears death without witnessing it; fire-circle exhaustion, body-as-meat and sled party rescue.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-1-III.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "pack-is-not-everything"
+      ],
+      "primaryLocation": "II.I–II",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Food permits pack breakup, rivals and One Eye, cave under clay bank, newborn family and One Eye hunting. Selected primary runs, not entire chapters continuously.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-2-I.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-2-II.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "cub-before-label"
+      ],
+      "primaryLocation": "II.III, especially lines 5–27, 132–175",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Grey coat, early warmth/play, siblings dying and she-wolf follows One Eyes trail to lynx battle remains.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-2-III.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "wall-of-light",
+        "predator-prey-reversal"
+      ],
+      "primaryLocation": "II.IV, especially lines 58–193, 236–279, 317–368",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Light as cave wall, fall, twig/nose mishaps, ptarmigan brood, hawk narrowly misses cub, apparent solid water, mother-weasel and she-wolf rescue.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-2-IV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "maternal-cost"
+      ],
+      "primaryLocation": "II.V, especially lines 75–132",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "She-wolf kills lynx litter, cub eats kitten, lynx follows, hind-leg grip, deep shoulder wound, lynx death and weakened survivors beside carcass.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-2-V.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "kiche-recognition",
+        "fire-and-laughter"
+      ],
+      "primaryLocation": "III.I, especially lines 43–152, 290–370",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "First man/bite/blow, Kiche recognition and mixed ancestry/name, fire from moss and sticks, burns nose/tongue, crowd laughter and shelter with Kiche.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-I.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "play-denied"
+      ],
+      "primaryLocation": "III.II–III",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Lip-lip and pack persecution, stolen meat, no equal play, sudden attacks and wheeling on leading pursuer.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-II.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-III.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "mother-as-property"
+      ],
+      "primaryLocation": "III.II, especially lines 171–239",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Kiche pays debt to Three Eagles, White Fang follows canoe, Grey Beaver catches/beats/kicks him and separation.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-II.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "freedom-has-conditions"
+      ],
+      "primaryLocation": "III.IV, especially lines 9–58, 107–170",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Deliberate hiding as camp moves, cold/loneliness, long pursuit, expected blow replaced by food and protection.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-IV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "covenant-without-love"
+      ],
+      "primaryLocation": "III.V; IV.I, especially III.V lines 153–175, 261–281 and IV.I 24–75",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Sled work, guarding and food/protection covenant without caresses; later leader placement makes hostile team chase him. The earlier Lip-lip lead in puppy harness is not confused with White Fangs later lead.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-V.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-I.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "famine-tests-covenant"
+      ],
+      "primaryLocation": "III.VI, especially lines 177–194, 236–294",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Famine, Kiche and new litter, Lip-lip killed, smell of fish and return to camp.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-3-VI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "fort-yukon-market"
+      ],
+      "primaryLocation": "IV.I–II, especially IV.I lines 162–230, 232–275 and IV.II 112–132",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Trading/gold seekers/steamers, White Fangs own lethal attacks and pack finishes dogs, Smith interest and initial refusal.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-I.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-II.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "sale-engineered",
+        "rage-as-product"
+      ],
+      "primaryLocation": "IV.II–III",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Alcohol/bottle purchase, repeated return to old master, severe beatings and chain; paid cage, dogs/wolves/lynx and spring bulldog arrival.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-II.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-III.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "different-fighting-system",
+        "interruption-from-outside"
+      ],
+      "primaryLocation": "IV.IV–V, especially IV.IV lines 222–339 and IV.V 88–225",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Bulldog shifts grip toward throat, Smith kicks, Scott punches him and Matt helps; revolver lever; killed Major, both men bitten and threat of shooting countered with another chance. Targeted fight/purchase/aftermath runs, not full continuous chapter reading.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-IV.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-V.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "nothing-happens"
+      ],
+      "primaryLocation": "IV.VI, lines 5–150",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Bandaged hand after prior bite, gentle speech, meat tossed then taken from hand, touch/terror/ambivalence without a blow or instant gratitude.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-VI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "love-beyond-comfort",
+        "old-owner-returns"
+      ],
+      "primaryLocation": "IV.VI, especially lines 268–338, 352–404, 426–487",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Waiting, sickness/refusal to eat during absence, recovery and head-hidden gesture, Smith with chain/club and Scotts calming response.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-4-VI.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "departure-and-window"
+      ],
+      "primaryLocation": "V.I, especially lines 29–49, 114–172, 189–214",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Decision to leave White Fang, locked doors, animal aboard ship, wounds/window inference, final whistle and Scott takes him.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-I.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "city-restarts-smallness"
+      ],
+      "primaryLocation": "V.II, lines 5–108 and following Collie encounter",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "City fear, railway trip, mother embraces Scott at country railway arrival before carriage ride, Collie hostility at house grounds. Candidate mildly relocates the greeting into country home; noted separately as nonblocking precision.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-II.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "chicken-rule",
+        "play-becomes-possible"
+      ],
+      "primaryLocation": "V.III–IV, especially V.III 59–98, 134–147, 190–276 and V.IV 11–92",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Fifty hens, Scotts cuffs and voice, judge doubt and unharmed chickens; domestic/wild distinction, gradually liking children, learning laughter and safe play with Scott while aloof with other dogs.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-III.txt",
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-IV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "voice-for-help"
+      ],
+      "primaryLocation": "V.IV, lines 104–200, 209–228",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Riding accident/broken leg, sending home, dress tugging, rare bark interpreted by Alice, Collies playful change/courtship.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-IV.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "limited-knowledge-of-judge",
+        "last-confrontation"
+      ],
+      "primaryLocation": "V.V, lines 5–162",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Hall brutality history, earlier convictions, wrongful last fifty-year sentence, judge ignorance versus Halls belief, Alice secretly lets wolf sleep inside, silent stair attack, Hall dead and White Fang gravely wounded.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-V.txt"
+      ]
+    },
+    {
+      "screenIds": [
+        "care-as-material-work",
+        "quiet-last-image"
+      ],
+      "primaryLocation": "V.V, lines 169–302",
+      "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+      "actuallyChecked": "Severe wounds, tiny recovery odds, judges insistence on care, family nurses, bad dreams, weakness on first walk, Collie/puppies and final patient sunlight image.",
+      "privatePrimaryFiles": [
+        "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-V.txt"
+      ]
+    }
+  ],
+  "sourceScope": {
+    "mainEdition": "Jack London, White Fang (1906), English novel, Project Gutenberg 910, Parts I–V.",
+    "primaryUrl": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+    "privateCompleteEnglishWitness": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/primary.txt",
+      "sha256": "3c7226d00fd9b169f0016635d0e461501620f343220ee18db7ca9f083f4ad3f4"
+    },
+    "actualReading": "All revised bilingual copy and all cumulative routes. Independent close checking of represented primary scenes and selected sustained chapter/scene runs across Parts I–V, including the late human/animal climax and ending. Not continuous every-paragraph reading of the complete novel.",
+    "sourceAccessGap": false
+  },
+  "requiredFindings": [],
+  "optionalTastes": [],
+  "optionalEditorialPrecision": [
+    {
+      "id": "FANG-PRECISION-01",
+      "screenId": "city-restarts-smallness",
+      "category": "nonblocking setting precision",
+      "required": false,
+      "problematicWording": {
+        "ru": "В загородном доме он едва не нападает на мать хозяина, которая обнимает сына.",
+        "en": "At the country home he nearly attacks Scott’s mother as she embraces her son."
+      },
+      "primaryEvidence": {
+        "url": "https://www.gutenberg.org/cache/epub/910/pg910-images.html",
+        "location": "V.II, The Southland",
+        "privatePath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/ch-5-II.txt",
+        "lineRanges": [
+          "47–98"
+        ]
+      },
+      "observation": "Mother greets Scott just after White Fang emerges from the railway baggage car, before the carriage ride to the house. The alarming embrace, Scotts intervention and relationship are accurately retained.",
+      "effectOnMeaning": "No material change to the scene conflict, motive, relationship, sequence of White Fangs adjustment or outcome. This does not block the condensed story.",
+      "smallestOptionalCorrection": "If touched, remove the country-home location from this sentence or place the greeting at the country railway arrival in both languages; retain Collies later greeting at the home. Do not add an extra scene or screen."
+    }
+  ],
+  "spoilerAndProgressHandoff": {
+    "contentBoundary": "Essential/Core stop before Cherokees fight result. Intervention, Scott attachment, move south, Hall and puppy ending remain behind Deep warning. Cover/source notes do not give outcomes.",
+    "staticCollectorObservation": "Embedded corpus equals reviewed authoring. Book-specific storage prefix, session-only spoilersAccepted, safeTitle masking, neutral saved-Deep label, consent guards in setMode/goToId/goToPosition and reload-to-cover code are present. No independent browser matrix rerun.",
+    "publisherMustPreserve": [
+      "contentMode narrative and spoilerPolicy full-plot-in-deep",
+      "book-local spoilerDialog and session-only consent; reset on reload/lowering depth",
+      "masked contents/rail labels and neutral saved-Deep continuation label",
+      "guards in setMode, goToId and goToPosition",
+      "book-specific saved stable IDs and collector/root Home handling"
+    ],
+    "approvalScope": "PASS applies only to the exact story-data and collector HTML hashes captured here, and is a content judgment. Publisher still validates integration and spoiler/progress behavior. A small optional precision edit can be directly checked against its cited primary passage and recorded with new hashes; arbitrary changed versions are not automatically approved."
+  },
+  "materialLimitations": [
+    "No continuous full-book reading or line-by-line completeness certification.",
+    "No published Russian translation audited; RU is original paraphrase.",
+    "Animal mental states are Londons literary narration, not verified animal science or handling advice.",
+    "Root remains a different old 96-pair story and is not approved here.",
+    "Static safeguards inspection only; independent browser/mobile/offline/root integration not performed."
+  ],
+  "ownership": {
+    "readerEdits": false,
+    "collectorEdits": false,
+    "rootOrSharedEdits": false,
+    "gitPrDeployActions": false,
+    "externalMessages": false,
+    "subagents": false
+  },
+  "handoffHashCheck": {
+    "allReviewedVersionHashesStillMatch": true,
+    "artifacts": {
+      "storyData": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/white-fang/story-data.json",
+        "reviewedSha256": "01d35bb5df4fcc8f4136c56a0ba520d65a7fc272529b1d4ec003cff468d93251",
+        "handoffSha256": "01d35bb5df4fcc8f4136c56a0ba520d65a7fc272529b1d4ec003cff468d93251",
+        "stillMatches": true
+      },
+      "collectorHtml": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/white-fang/white-fang.html",
+        "reviewedSha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+        "handoffSha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4",
+        "stillMatches": true
+      },
+      "readyManifest": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/white-fang.json",
+        "reviewedSha256": "02a482ab63225566b590ca878936c8aead934ab7554add80a8fdd3afca32608c",
+        "handoffSha256": "02a482ab63225566b590ca878936c8aead934ab7554add80a8fdd3afca32608c",
+        "stillMatches": true
+      }
+    }
+  }
+}

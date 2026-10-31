@@ -701,7 +701,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -717,7 +717,13 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'sea-air') {
+        if (motif === 'enchanted-lab') {
+          // An ordinary workbench meets an impossible experiment: everyday institute magic.
+          content = '<path class="art-quiet" d="M127 119 H297 M141 119 V148 M282 119 V148 M133 43 H181 V87 H133 Z M142 55 H172 M142 70 H164"/>' +
+            '<path class="art-line" d="M210 43 V73 L190 105 Q188 112 199 112 H263 Q274 112 268 103 L247 73 V43 M204 43 H253 M201 91 H259"/>' +
+            '<path class="art-bold" d="M226 91 C226 65 291 67 286 40 C282 22 249 28 260 47 L270 38 M260 47 L249 43"/>' +
+            '<circle class="art-fill" cx="224" cy="102" r="4"/><circle class="art-fill" cx="244" cy="99" r="3"/>';
+        } else if (motif === 'sea-air') {
           // A body crosses the shore: confined air above, open currents below.
           content = '<path class="art-quiet" d="M135 35 V72 M157 35 V72 M179 35 V72 M128 49 H187 M128 64 H187 M126 113 C168 99 210 127 252 113 S286 106 302 113 M126 139 C168 125 210 153 252 139 S286 132 302 139"/>' +
             '<path class="art-line" d="M121 87 C143 77 165 97 187 87 S231 77 253 87 S286 97 304 87"/>' +

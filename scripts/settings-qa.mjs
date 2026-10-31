@@ -201,6 +201,8 @@ try {
     assert(Math.abs(after.paragraphTop - before.paragraphTop) < 1, 'R2 preserves the paragraph viewport position');
     report.checks.push({case:'cold Serif with nonzero scroll',coldFaces,before,after});
     await press('Escape', 'Escape', 27);
+    assert(await evaluate("BookSettings.set('readingFont','sans'); document.documentElement.dataset.readingFont==='sans'"), 'Cached Sans applies synchronously');
+    assert(await evaluate("BookSettings.set('readingFont','serif'); document.documentElement.dataset.readingFont==='serif'"), 'Cached Serif applies synchronously');
 
     await navigate('hermes-nous.html');
     await evaluate(start);

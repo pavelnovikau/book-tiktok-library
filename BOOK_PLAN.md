@@ -32,12 +32,35 @@ The active expansion queue contains 25 books. All counts are cumulative `Essenti
 
 ## Execution status — 2026-10-31
 
-The catalogue currently registers **22 books / 2,553 screens**, including **18 of the 25 expansion titles** and four pre-existing readers. Registration is local until the associated PR is merged and its production deployment verified.
+The catalogue currently registers **24 books / 2,841 screens**, including **20 of the 25 expansion titles** and four pre-existing readers. The current production release is PR #19 (`2e8ccec`): verified 22 books / 2,553 screens. The 24-book catalogue includes the next reviewed pair and awaits its release.
 
-- Ready for release: *Mindfulness* and *Behave* after cold-review corrections and standalone matrices of 3,424 and 6,480 visits respectively.
-- In repair/review: *Antifragile*, *Determined*, *Zen and the Art of Motorcycle Maintenance*.
+- Published: *Mindfulness* and *Behave* after cold-review corrections and standalone matrices of 3,424 and 6,480 visits respectively.
+- Ready for the next release: *Determined* and *Zen and the Art of Motorcycle Maintenance*; all cold-review findings fixed, 4,320 standalone visits per book and whole-library QA passed.
+- In repair: *Antifragile*.
 - Collectors restarted under the approved analytical-digest source boundary: *The Wee Free Men*, *The Hitchhiker’s Guide to the Galaxy*, *Project Hail Mary*. Missing a full EPUB alone is not a blocker; each package still needs enough lawful, claim-level evidence for 24 / 60 / 96 distinct screens and a cold review before publication.
 - Source-blocked: *The Potent Self*. An active controlled loan or supplied purchased EPUB is still needed for the planned fidelity build.
+
+## Proposed next wave — selection pending
+
+Pavel requested three more books for his 14-year-old son plus classic science-fiction sets for son and adult. The two Strugatsky titles are explicitly requested; the rest are recommendations, not active collector assignments or approved count contracts. The active 25-book queue above is unchanged.
+
+| Group | Book | Reason to include |
+| --- | --- | --- |
+| Three additional adventures | Jules Verne — *In Search of the Castaways / The Children of Captain Grant* | Journey, persistence and reading incomplete clues; complete English text identified at Project Gutenberg 2083. |
+| Three additional adventures | Jack London — *White Fang* | Survival, cruelty, trust and changed behavior; complete English text identified at Project Gutenberg 910. |
+| Three additional adventures | Veniamin Kaverin — *The Two Captains* | Long pursuit, investigation and responsibility; publisher record at azbooka.ru/books/dva-kapitana. |
+| Son: classic science fiction | Isaac Asimov — *I, Robot* | Reasoning about rules, unexpected consequences and responsibility. |
+| Son: classic science fiction | Alexander Belyaev — *Amphibian Man* | Adventure, difference, exploitation and empathy. |
+| Son: classic science fiction | Arthur C. Clarke — *A Fall of Moondust* | Engineering problem-solving and rescue under constraints. |
+| Son: classic science fiction | Ray Bradbury — *The Martian Chronicles* | Short connected stories about contact, memory and colonization. |
+| Son: explicitly requested | Arkady & Boris Strugatsky — *Monday Begins on Saturday* | Wonder, scientific curiosity, meaningful work and institutional satire. |
+| Adult: explicitly requested | Arkady & Boris Strugatsky — *Hard to Be a God* | Power, violence, intervention and the limits of benevolent reform; later joint reading for the son is an option, not an age classification. |
+| Adult: classic science fiction | Stanisław Lem — *Solaris* | Limits of understanding an alien intelligence; memory and guilt. |
+| Adult: classic science fiction | Philip K. Dick — *Ubik* | Unstable reality and the reliability of experience. |
+| Adult: classic science fiction | Frank Herbert — *Dune*, first novel | Ecology, institutions, religion and charismatic power. |
+| Adult: classic science fiction | Ursula K. Le Guin — *The Left Hand of Darkness* | Trust, culture and assumptions about human differences. |
+
+Recommendation/age placement is editorial judgment. Publisher and author pages support book identity and subject; this preliminary screen does not claim that full sources for all thirteen digests are already secured. For the three previously stalled fiction titles, finish the current collectors before deciding on replacements. All future delegates: codex_codex_2 / gpt-6.1-sol / reasoningEffort max; existing Ultra runs keep their settings (Pavel, 2026-10-31).
 
 ## Source-access notes
 

@@ -1,0 +1,3004 @@
+{
+  "schemaVersion": 2,
+  "slug": "zen-and-the-art-of-motorcycle-maintenance",
+  "title": {
+    "ru": "Дзен и искусство ухода за мотоциклом",
+    "en": "Zen and the Art of Motorcycle Maintenance"
+  },
+  "description": {
+    "ru": "Роберт М. Пирсиг: дорога, Качество и пределы философского самообъяснения.",
+    "en": "Robert M. Pirsig: the road, Quality, and the limits of philosophical self-explanation."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 36,
+    "core": 90,
+    "deep": 144
+  },
+  "methodNote": {
+    "ru": "Самостоятельный аналитический пересказ, без цитат и книжных изображений. Основа — доступный целиком частный русский EPUB, перевод М. Немцова; печатное издание не установлено. Проверена структура всех 32 глав; чтение было выборочным, с полным чтением глав 27 и 32 и проверкой развязки главы 31. Это не заявление о построчном чтении всей книги. Главное сохраняет открытие развязки, Суть книги раскрывает концептуальную конструкцию, Глубоко содержит финал после предупреждения. Метки различают повествование/доводы книги, внешний контекст и наш синтез. Биография не равна повествователю; Качество не представлено научно доказанным фактом.",
+    "en": "An original analytical digest, without quotations or book artwork. Based on a complete private Russian EPUB credited to translator M. Nemtsov; print edition unidentified. Structure of all 32 chapters checked; selective reading, with chapters 27 and 32 read in full and chapter 31 resolution checked. This does not claim a line-by-line reading of the entire book. Essential preserves discovery of the resolution, Core reveals conceptual architecture, Deep contains the ending after a warning. Labels distinguish the book’s narrative/arguments, external context, and our synthesis. Biography is not identical to the narrator; Quality is not presented as scientifically proven."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robert M. Pirsig — Zen and the Art of Motorcycle Maintenance, local Russian EPUB",
+      "url": "https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/",
+      "role": "book",
+      "note": {
+        "ru": "Личная библиотека Apple Books/iCloud, чтение только. Русский текст, перевод М. Немцова, EPUB-конверсия FB2 версии 1, дата документа 2009-08-02; издательство, ISBN и год печатного издания не указаны. Все 32 главы доступны. Осмотрена структура всех глав, прочитаны выбранные фрагменты, главы 27 и 32 целиком и развязка главы 31. Ссылка ведёт к публичной ориентации, а не к частному EPUB.",
+        "en": "Read-only personal Apple Books/iCloud copy. Russian text, translation credited to M. Nemtsov, FB2 version 1 converted to EPUB, document date 2009-08-02; no publisher, ISBN or print-edition year is supplied. All 32 chapters are available. All chapters structurally inspected; selected passages consulted, chapters 27 and 32 read in full and chapter 31 resolution consulted. Link is public orientation, not the private EPUB."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Penguin Random House — Robert Pirsig",
+      "url": "https://www.penguinrandomhouse.com/authors/24047/robert-pirsig/",
+      "role": "publisher",
+      "note": {
+        "ru": "Официальная библиографическая ориентация: автор, роман и продолжение Lila; не источник русского издания.",
+        "en": "Official bibliographic orientation: author, novel and sequel Lila; not evidence for the Russian edition."
+      }
+    },
+    {
+      "id": 3,
+      "title": "NPR / Neda Ulaby — Robert Pirsig Dies at 88 (2017), with archival Pirsig audio",
+      "url": "https://www.nhpr.org/national/2017-04-25/robert-persig-dies-at-88-motorcycle-trip-inspired-popular-zen-book",
+      "role": "author",
+      "note": {
+        "ru": "Архивные высказывания автора о застревании и философской цели; отдельно — поздний биографический контекст.",
+        "en": "Archival author comments on stuckness and philosophical ambition; separately, later biographical context."
+      }
+    },
+    {
+      "id": 4,
+      "title": "National Museum of American History — Zen and the Open Road",
+      "url": "https://americanhistory.si.edu/explore/exhibitions/zen-and-open-road",
+      "role": "primary",
+      "note": {
+        "ru": "Материальные свидетельства: Honda Super Hawk 1966 года, инструменты, рукопись, первая публикация и поздняя Lila. Модель мотоцикла — внешний контекст, в романе она не названа.",
+        "en": "Material evidence: 1966 Honda Super Hawk, tools, manuscript, first publication and later Lila. Motorcycle model is external context; the novel does not name it."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Henri Poincaré — The Foundations of Science, Science and Method: Mathematical Creation",
+      "url": "https://www.gutenberg.org/cache/epub/39713/pg39713-images.html",
+      "role": "primary",
+      "note": {
+        "ru": "Первичный текст о выборе плодотворных сочетаний и математической красоте; локальная проверка хода главы 22, не доказательство всей метафизики Пирсига.",
+        "en": "Primary account of selecting fruitful combinations and mathematical beauty; a local check on chapter 22, not proof of Pirsig’s entire metaphysics."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Plato — Phaedrus, Benjamin Jowett translation, Internet Classics Archive",
+      "url": "https://classics.mit.edu/Plato/phaedrus.html",
+      "role": "primary",
+      "note": {
+        "ru": "Первичный противовес упрощённому образу Платона: диалог рассматривает речь, истину, душу и обучение.",
+        "en": "Primary counterweight to a simplified Plato: the dialogue examines speech, truth, soul and teaching."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Robert Pirsig Association — The Life & Work of Robert Pirsig: An Introduction",
+      "url": "https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/",
+      "role": "reference",
+      "note": {
+        "ru": "Ориентация в произведениях, автобиографической основе и различии ZMM / Lila. Страница сама названа незавершённой; это контекст, не независимая верификация философии.",
+        "en": "Orientation to the works, autobiographical basis and distinction between ZMM and Lila. Page calls itself work in progress; context, not independent philosophical validation."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Jay Caspian Kang — Returning, Again, to Robert M. Pirsig (The New Yorker, 2022)",
+      "url": "https://www.newyorker.com/news/our-columnists/returning-again-to-robert-m-pirsig",
+      "role": "review",
+      "note": {
+        "ru": "Современная рецепция: привлекательность ремесленного прочтения и опасность свести книгу к нему. Использован доступный текст статьи.",
+        "en": "Modern reception: appeal of a craft-centred reading and risk of reducing the book to it. Consulted the accessible article text."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Stanford Encyclopedia of Philosophy — Plato on Rhetoric and Poetry",
+      "url": "https://plato.stanford.edu/entries/plato-rhetoric/",
+      "role": "reference",
+      "note": {
+        "ru": "Философский контекст для ограничения греческой генеалогии Федра; не заменяет чтение Платона.",
+        "en": "Philosophical context limiting Phaedrus’s Greek genealogy; does not replace reading Plato."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Дзен и искусство ухода за мотоциклом",
+          "body": "<p>Роберт М. Пирсиг. Дорога на запад становится исследованием того, как мы различаем хорошее, обращаемся с техникой и слышим близкого человека. Философский роман о Качестве, а не инструкция к просветлению. 36 / 90 / 144 экрана: от маршрута без развязки до полного анализа финала.</p><p class=\"muted\">Аналитический синтез · без цитат</p><p class=\"muted\"><strong>Суть книги раскрывает личность Федра; Глубоко — развязку и поздний биографический контекст.</strong></p>",
+          "subtitle": "Роберт М. Пирсиг · Исследование ценностей"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Zen and the Art of Motorcycle Maintenance",
+          "body": "<p>Robert M. Pirsig. A ride west becomes an inquiry into how we recognize what is good, live with technology, and hear another person. A philosophical novel about Quality rather than a recipe for enlightenment. 36 / 90 / 144 screens: from a route preserving discovery to a complete analysis of the ending.</p><p class=\"muted\">Analytical synthesis · no quotations</p><p class=\"muted\"><strong>Core reveals who Phaedrus is; Deep reveals the ending and later biography.</strong></p>",
+          "subtitle": "Robert M. Pirsig · An Inquiry into Values"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "reading-contract",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "У книги есть три переплетённых маршрута",
+          "body": "<p>Первый маршрут проходит по дорогам Америки. Второй возвращается к мысли человека по имени Федр. Третий проходит между отцом и сыном, которым трудно разговаривать. Главное оставляет развязку открытой; Суть книги раскрывает устройство философского поиска и личность Федра; Глубоко предупреждает перед подробным финалом и поздней биографией. Ни один маршрут не объясняет остальные полностью.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "The book follows three intertwined routes",
+          "body": "<p>One route follows American roads. Another reconstructs the thought of a figure named Phaedrus. A third runs between a father and son who struggle to talk. Essential leaves the resolution undisclosed; Core reveals the inquiry’s conceptual structure and who Phaedrus is; Deep warns before discussing the full ending and later biography. No route completely explains the others.</p>"
+        }
+      }
+    },
+    {
+      "id": "genre-boundary",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Это роман, построенный на реальных событиях",
+          "body": "<p>Автор заранее предупреждает: события переработаны ради повествования. Поэтому слова рассказчика нельзя автоматически считать последним словом автора или буквальной стенограммой прошлого. В книге философия действует через голос, задержку информации, спор и отношения. Читать только тезисы — значит убрать именно ту форму, которая проверяет их человеческую цену.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "This is a novel shaped from real events",
+          "body": "<p>The author’s prefatory note acknowledges that events have been reshaped for rhetorical purposes. The narrator’s statements therefore cannot automatically become the author’s final position or a transcript of the past. Philosophy works through voice, withheld information, argument, and relationships. Extracting propositions alone removes the form that tests their human cost.</p>"
+        }
+      }
+    },
+    {
+      "id": "trip-context",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        4,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Материальная поездка предшествовала книге",
+          "body": "<p>Поездка 1968 года дала материал роману, опубликованному в 1974-м. Смитсоновский музей хранит мотоцикл, инструменты и рукопись; это независимый материальный контекст. Но существование машины не подтверждает точность каждого диалога. Исторический маршрут и литературная композиция связаны, однако требуют разных видов доверия и разных способов проверки.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "The physical journey preceded the book",
+          "body": "<p>The 1968 journey supplied material for the novel published in 1974. The Smithsonian holds the motorcycle, tools, and manuscript: independent material context. The machine’s existence does not establish the exactness of every conversation. Historical itinerary and literary composition are connected, but they require different kinds of trust and different forms of verification.</p>"
+        }
+      }
+    },
+    {
+      "id": "inside-landscape",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "На мотоцикле мир перестаёт быть картинкой",
+          "body": "<p>В автомобиле пейзаж можно воспринимать как вид за стеклом. На мотоцикле жара, запах болот и порывы ветра действуют прямо на тело. Начало книги вводит не красивую декорацию, а способ участия: понять мир означает находиться внутри его условий. Позже этот опыт станет противовесом отвлечённой позиции наблюдателя.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "On a motorcycle the landscape stops being a picture",
+          "body": "<p>A car can make the landscape seem like a view behind glass. On a motorcycle, heat, marsh smells, and gusts act directly on the body. The opening introduces a mode of participation rather than attractive scenery: understanding the world means being inside its conditions. This experience will later challenge the detached observer’s standpoint.</p>"
+        }
+      }
+    },
+    {
+      "id": "secondary-roads",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Малые дороги меняют саму задачу путешествия",
+          "body": "<p>Рассказчик предпочитает двухполосные дороги скоростным трассам. Они дают меньше эффективности прибытия, зато больше контакта с местностью и людьми. Выбор пути заранее меняет то, что можно заметить. Это первая конкретная версия будущей проблемы Качества: нельзя оценить маршрут, пока не спросишь, ради какого опыта по нему едешь.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Secondary roads change the purpose of travelling",
+          "body": "<p>The narrator prefers two-lane roads to fast highways. They offer less efficiency of arrival and more contact with places and people. Choosing a route already changes what becomes noticeable. This is an early concrete version of the Quality problem: a route cannot be judged until we ask what experience the journey is for.</p>"
+        }
+      }
+    },
+    {
+      "id": "weather-resistance",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Погода не подчиняется философскому настроению",
+          "body": "<p>Жара, дождь и усталость постоянно вмешиваются в размышление. Тело требует остановки, даже когда мысль стремится продолжаться. Дорожные условия удерживают книгу от превращения в чистый трактат: автору приходится показывать разум среди ограничений. Хорошее суждение зависит и от того, способен ли человек распознать собственное истощение до ошибки.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Weather does not obey a philosophical mood",
+          "body": "<p>Heat, rain, and fatigue repeatedly interrupt reflection. The body requires a stop even when thought wants to continue. Road conditions prevent the book from becoming a disembodied treatise: reason appears among constraints. Sound judgment also depends on recognizing one’s own exhaustion before it becomes a mistake, rather than treating endurance as unlimited.</p>"
+        }
+      }
+    },
+    {
+      "id": "chautauqua",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Шатокуа превращает движение в исследование",
+          "body": "<p>Рассказчик называет свои рассуждения Шатокуа — по образцу публичных просветительских бесед. Они разворачиваются по дороге, но адресованы прежде всего читателю. Путешествие поставляет предметы, а беседа меняет их значение. Мотоцикл постепенно становится способом обсуждать разум, ценности и разделение между человеком и тем, с чем он работает.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "The Chautauqua turns movement into inquiry",
+          "body": "<p>The narrator calls his reflections Chautauquas, after a tradition of public educational talks. They unfold on the road but address the reader more than his companions. The journey supplies objects; the discourse changes their meaning. The motorcycle gradually becomes a way to discuss reason, values, and the division between a person and their work.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-tempos",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Чередование рассказа и мысли создаёт напряжение",
+          "body": "<p>После абстрактного рассуждения книга возвращает нас к еде, погоде или молчанию Криса. Это не только передышка. Возвращение позволяет заметить, соответствует ли поведение говорящего его идеям. Двойной темп предлагает две проверки одновременно: убедителен ли довод и способен ли этот человек применить собственное понимание к живой ситуации.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Alternating narrative and thought creates tension",
+          "body": "<p>After abstract reflection, the book returns to food, weather, or Chris’s silence. This is more than a pause. The return lets us notice whether the speaker’s conduct matches his ideas. The double rhythm offers two simultaneous tests: is the argument persuasive, and can this person bring his understanding to bear on a living situation?</p>"
+        }
+      }
+    },
+    {
+      "id": "reader-position",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Читатель сначала знает меньше рассказчика",
+          "body": "<p>Некоторые имена и тревоги появляются раньше объяснений. Мы вынуждены отличать действительное воспоминание, предположение и защитную версию прошлого. Поэтому полезно удерживать вопрос: кто сейчас говорит и что ему трудно признать? Отсроченное знание — часть философского опыта романа, а не помеха, которую хороший пересказ обязан немедленно убрать.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "The reader initially knows less than the narrator",
+          "body": "<p>Certain names and anxieties appear before their explanations. We must distinguish recollection, inference, and a defensive account of the past. It helps to ask who is speaking now and what he finds difficult to acknowledge. Delayed knowledge forms part of the novel’s philosophical experience; a digest should not automatically erase it at the outset.</p>"
+        }
+      }
+    },
+    {
+      "id": "maintenance-disagreement",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Спор о ремонте скрывает спор о мире",
+          "body": "<p>Джон хочет доверить мотоцикл специалисту, рассказчик — понимать и обслуживать его сам. Само распределение работы ещё не было бы конфликтом. Раздражение возникает потому, что разговор о механике касается более глубокой границы: можно ли принять технический мир как часть собственной жизни или его следует держать на расстоянии.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "A dispute about maintenance conceals a worldview",
+          "body": "<p>John wants a specialist to maintain the motorcycle; the narrator wants to understand and service his own. Division of labour alone need not cause conflict. Irritation arises because mechanical talk touches a deeper boundary: can the technical world be accepted as part of one’s life, or should it be kept at a distance?</p>"
+        }
+      }
+    },
+    {
+      "id": "technology-hostility",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Ненависть к технике защищает уязвимое чувство жизни",
+          "body": "<p>Рассказчик не изображает Джона и Сильвию просто глупыми. За их неприязнью он видит страх перед обезличивающими системами, шумом и искусственной средой. Они пытаются сохранить человеческое. Его возражение тоньше защиты машин: бегство от понимания оставляет человека зависимым от того самого мира, над которым он не желает иметь власти.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Hostility to technology protects a vulnerable sense of life",
+          "body": "<p>The narrator does not portray John and Sylvia as merely foolish. Behind their aversion he sees fear of impersonal systems, noise, and an artificial environment. They are trying to preserve something human. His objection goes beyond defending machines: refusing understanding leaves a person dependent on the very world over which they want no involvement.</p>"
+        }
+      }
+    },
+    {
+      "id": "delegation-limit",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Передать работу можно, передать понимание труднее",
+          "body": "<p>Из спора не следует, что каждый обязан стать механиком. Полезнее различить разумную специализацию и невозможность даже обсуждать устройство вещи. Первая экономит силы; вторая закрывает путь к оценке чужой работы. Это наш вывод из сцены: участие требует достаточного понимания, а не обязательной самостоятельности во всём.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Work can be delegated more easily than understanding",
+          "body": "<p>The dispute does not imply that everyone must become a mechanic. A better distinction is between sensible specialization and being unable even to discuss how something works. The first saves effort; the second obstructs judgment of another person’s work. This is our inference from the scene: participation requires sufficient understanding, not universal self-sufficiency.</p>"
+        }
+      }
+    },
+    {
+      "id": "classical-romantic",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Классическое и романтическое замечают разное",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>Классическое</strong><p>Ищет устройство, зависимости и скрытую форму.</p></div><div class=\"compare-item\"><strong>Романтическое</strong><p>Воспринимает непосредственный облик и переживание.</p></div></div><p>Один взгляд видит систему двигателя, другой — красоту или безобразие машины. Пирсиг разделяет эти способы, чтобы показать цену разрыва. Его задача — найти основание, на котором они смогут снова встретиться.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Classical and romantic understanding notice different things",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>Classical</strong><p>Looks for organization, dependencies, and underlying form.</p></div><div class=\"compare-item\"><strong>Romantic</strong><p>Attends to immediate appearance and experience.</p></div></div><p>One perspective sees an engine’s system; the other, a machine’s beauty or ugliness. Pirsig separates these approaches to expose the cost of their divorce. His task is to find a ground on which they can meet again.</p>"
+        }
+      }
+    },
+    {
+      "id": "not-personality-test",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Два взгляда не образуют тест личности",
+          "body": "<p>Один человек способен пользоваться обоими способами понимания. Более того, сам рассказчик эмоционально переживает рациональную конструкцию. Поэтому схема не делит человечество на инженеров и художников раз и навсегда. Она помогает увидеть, какой слой опыта теряется, когда одна привычка восприятия объявляет другую бессодержательной или даже враждебной.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "The two perspectives are not a personality test",
+          "body": "<p>One person can use both ways of understanding. The narrator himself responds emotionally to rational structure. The distinction therefore does not permanently sort humanity into engineers and artists. It helps reveal which layer of experience disappears when one habitual perspective declares the other empty, irrelevant, or hostile rather than recognizing its different object of attention.</p>"
+        }
+      }
+    },
+    {
+      "id": "diagram-meaning",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Схема двигателя требует другого вида воображения",
+          "body": "<p>Классическому пониманию интересен не только металл перед глазами. Оно может мысленно разделить машину по функциям, увидеть последовательность работы и возможные причины поломки. Романтическому взгляду такая схема покажется беднее самой вещи. Но абстракция здесь не обязательно обеднение: она открывает связи, которых непосредственное созерцание не показывает.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "An engine diagram requires a different imagination",
+          "body": "<p>Classical understanding is interested in more than the visible metal. It can divide a machine by function, imagine a sequence of operations, and locate possible causes of failure. A romantic viewer may find the diagram poorer than the thing. Abstraction here need not be impoverishment: it reveals relations that immediate looking does not disclose.</p>"
+        }
+      }
+    },
+    {
+      "id": "beer-can-shim",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Прокладка из банки обнаруживает конфликт ценностей",
+          "body": "<p>Для мелкой регулировки рассказчик предлагает алюминий от пивной банки. По свойствам материал подходит, но Джону неприятно такое решение для дорогого мотоцикла. Практическая пригодность и символическое достоинство вещи расходятся. Важна не победа смекалки над снобизмом, а то, что одна и та же деталь существует в разных системах значимости.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "A shim cut from a can reveals conflicting values",
+          "body": "<p>For a small adjustment, the narrator proposes aluminium from a beer can. Its material properties suit the job, yet John dislikes the idea for an expensive motorcycle. Practical suitability and symbolic dignity diverge. The scene matters beyond ingenuity defeating snobbery: the same component belongs to different systems of significance, which a technical explanation alone cannot reconcile.</p>"
+        }
+      }
+    },
+    {
+      "id": "material-brand",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Правильный материал не отменяет смысла предмета",
+          "body": "<p>Прокладка работает как локальный довод: происхождение детали не определяет её механические свойства. Но из этого не следует, что человеческие ассоциации всегда ошибочны. Вещи могут нести память и идентичность. Сцена показывает трудность перевода между основаниями оценки; она не разрешает любой спор о ценности одним измерением технической пригодности.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Suitable material does not erase an object’s meaning",
+          "body": "<p>The shim offers a local argument: a part’s origin does not determine its mechanical properties. That does not make human associations universally mistaken. Objects can carry memory and identity. The scene exposes difficulty in translating between grounds of judgment; it does not settle every dispute about value through a single measure of technical fitness.</p>"
+        }
+      }
+    },
+    {
+      "id": "care-before-skill",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Навык без заботы способен испортить вещь",
+          "body": "<p>Плохой ремонт в книге связан не только с нехваткой знаний. Механик может работать торопливо, не слушать двигатель и не воспринимать задачу как значимую. Тогда даже правильные инструменты не спасают. Качество требует отношения к конкретной работе: замечать сопротивление материала, проверять результат и чувствовать ответственность за то, что останется после тебя.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Skill without care can damage the thing",
+          "body": "<p>Bad repair in the book involves more than missing knowledge. A mechanic may hurry, fail to listen to the engine, and treat the task as unimportant. Correct tools then provide no guarantee. Quality requires a relationship to this particular work: noticing material resistance, checking results, and feeling responsibility for what remains after one leaves.</p>"
+        }
+      }
+    },
+    {
+      "id": "careless-shop",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Рассказ о мастерской связывает внимание и ущерб",
+          "body": "<p>В воспоминании о неудачном ремонте рассказчика раздражает разрыв между работниками и машиной. Работа идёт как навязанная обязанность среди отвлечений. Речь не о романтизации домашнего ремонта: профессионал тоже может заботиться. Сцена нужна, чтобы показать, как состояние внимания становится материальным последствием, которое потом достаётся владельцу и пассажиру.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "The repair-shop episode connects attention with damage",
+          "body": "<p>In the recollection of a bad repair, the narrator is disturbed by the separation between workers and machine. The job proceeds as an imposed obligation amid distractions. This does not romanticize home repair: professionals can care as well. The episode shows attention becoming a material consequence subsequently borne by the owner and passenger.</p>"
+        }
+      }
+    },
+    {
+      "id": "anticipatory-care",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Уход начинается до явной поломки",
+          "body": "<p>Рассказчик замечает изменение звука, проверяет температуру и возвращается к недавним неисправностям. Такая работа часто невидима, потому что её результат — отсутствие события. Это другая временная структура заботы: не героическое спасение после аварии, а повторное внимание к слабому сигналу. При этом тревожность сама по себе ещё не равна точному наблюдению.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Maintenance begins before an obvious breakdown",
+          "body": "<p>The narrator notices changes in sound, checks temperature, and revisits recent faults. Such work is often invisible because its result is an event that does not happen. Care has a different temporal structure here: repeated attention to weak signals rather than heroic rescue after failure. Anxiety alone, however, is not the same as accurate observation.</p>"
+        }
+      }
+    },
+    {
+      "id": "machine-changing",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Понимание машины меняется вместе с работой",
+          "body": "<p>Инструкция описывает общий тип мотоцикла, но перед человеком всегда конкретная машина с историей износа. Разборка открывает то, чего раньше не было видно; наблюдение меняет следующую проверку. Поэтому ремонт не простое исполнение готовой мысли. Это взаимодействие, в котором материал уточняет замысел, а замысел направляет действие на материал.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Understanding a machine changes during the work",
+          "body": "<p>A manual describes a general motorcycle type; the worker faces a particular machine with a history of wear. Disassembly reveals what was previously hidden, and observations change the next test. Repair is therefore more than executing a finished thought. It is an interaction in which material refines intention while intention guides action upon material.</p>"
+        }
+      }
+    },
+    {
+      "id": "technology-participation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Выход из отчуждения проходит через участие",
+          "body": "<p>Рассказчик предлагает не уничтожить технику и не обожествить её. Он ищет способ снова участвовать в создании и поддержании мира. Работа становится чужой, когда человек видит перед собой только внешний объект и обязанность. Внимательное взаимодействие возвращает связь между тем, что человек делает, тем, что понимает, и тем, что считает хорошим.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "A route out of alienation runs through participation",
+          "body": "<p>The narrator proposes neither destroying technology nor worshipping it. He seeks a way to participate again in making and sustaining the world. Work becomes alien when a person sees only an external object and an obligation. Attentive engagement reconnects what one does, what one understands, and what one judges to be good.</p>"
+        }
+      }
+    },
+    {
+      "id": "scale-limit",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Дорога",
+          "title": "Ремонт одной машины не объясняет всю систему",
+          "body": "<p>Отношение мастера к двигателю даёт сильную модель личного участия. Но оно не отвечает само по себе на вопросы власти, собственности или вреда от больших технических систем. Хорошо обслуженная машина может участвовать в плохой организации. Это предел нашей аналогии: локальная забота важна, но не заменяет коллективного решения о целях технологии.</p>"
+        },
+        "en": {
+          "section": "I · The road",
+          "title": "Repairing one machine does not explain a whole system",
+          "body": "<p>The worker’s relation to an engine provides a powerful model of personal participation. It does not by itself answer questions of power, ownership, or harms produced by large technical systems. A well-maintained machine can serve a bad organization. This limits our analogy: local care matters, but cannot replace collective decisions about technology’s purposes.</p>"
+        }
+      }
+    },
+    {
+      "id": "ghost-enters",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Федр появляется как неразрешённое прошлое",
+          "body": "<p>В поездку входит фигура Федра — человека, чьи мысли рассказчик пытается восстановить и чьего присутствия опасается. Призрак здесь делает прошлое действующей силой настоящего. Пока важно не торопиться с разгадкой личности. Философский поиск имеет историю, а у этой истории есть последствия, от которых нельзя просто уехать по новой дороге.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Phaedrus appears as an unresolved past",
+          "body": "<p>Phaedrus enters the journey as a figure whose ideas the narrator tries to reconstruct and whose presence troubles him. The ghost makes the past an active force in the present. At this stage, the identity need not be solved. Philosophical inquiry has a history, and its consequences cannot simply be left behind on another road.</p>"
+        }
+      }
+    },
+    {
+      "id": "chris-present",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Крис проверяет мысль своим присутствием",
+          "body": "<p>Пока отец объясняет устройство мира, сын устаёт, скучает, задаёт вопросы и требует внимания. Эти потребности не иллюстрации к тезису. Они предъявляют самостоятельный нравственный вопрос: способен ли говорящий о заботе заметить человека рядом? Связь с машиной становится убедительной только до той границы, где живого собеседника нельзя обслужить как механизм.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Chris tests the discourse simply by being there",
+          "body": "<p>While his father explains the world, Chris becomes tired, bored, questioning, and needy. These needs are not merely illustrations of a thesis. They pose an independent ethical question: can someone who speaks about care notice the person beside him? Connection with a machine becomes insufficient where a living interlocutor cannot be maintained like a mechanism.</p>"
+        }
+      }
+    },
+    {
+      "id": "fatigue-judgment",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Усталость делает самоуверенность опасной",
+          "body": "<p>После тяжёлых перегонов участники обнаруживают, насколько хуже они соображали, чем думали. Ошибки маршрута и напряжение показывают зависимость рассуждения от отдыха. Так книга соединяет интеллектуальную дисциплину с простой телесной осторожностью. Человек, который считает себя внимательным, всё равно должен проверять условия собственной внимательности, включая сон, жару и накопленное раздражение.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Fatigue makes self-certainty dangerous",
+          "body": "<p>After hard riding, the travellers discover that they were thinking less clearly than they believed. Route errors and tension reveal judgment’s dependence on rest. The book connects intellectual discipline with basic bodily caution. Someone who considers himself attentive must still examine the conditions of that attention, including sleep, heat, and accumulated irritation.</p>"
+        }
+      }
+    },
+    {
+      "id": "conceptual-ghosts",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Закон природы и природа закона — разные вопросы",
+          "body": "<p>Разговор о призраках переходит к закону тяготения: рассказчик провоцирует собеседников вопросом о его существовании до Ньютона. Здесь полезно различить физическое происходящее и человеческую формулировку закономерности. Роман расшатывает ощущение, будто понятия просто лежат снаружи готовыми. Его провокация не должна превращаться в утверждение, что до появления теории предметы не падали.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "A law of nature and the nature of a law are different questions",
+          "body": "<p>A conversation about ghosts turns to gravitation: the narrator provokes his companions by asking whether its law existed before Newton. Distinguish physical events from a human formulation of their regularity. The novel unsettles the assumption that concepts simply lie outside us ready-made. Its provocation should not become a claim that objects did not fall before the theory appeared.</p>"
+        }
+      }
+    },
+    {
+      "id": "reason-inheritance",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Рациональность тоже имеет историю и допущения",
+          "body": "<p>Рассказчик не отвергает разум. Он спрашивает, почему одна исторически сложившаяся форма разумности объявляет себя единственно возможной. Научные описания чрезвычайно полезны, но их полезность ещё не объясняет, как выбираются важные вопросы. Исследовать границы метода означает сохранить его силу и одновременно перестать требовать от него ответов на всё.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Rationality also has a history and assumptions",
+          "body": "<p>The narrator does not reject reason. He asks why one historically formed style of rationality treats itself as the only possible one. Scientific descriptions are immensely useful, but their usefulness does not explain how important questions are chosen. Examining a method’s boundaries preserves its strength while ceasing to demand that it answer everything.</p>"
+        }
+      }
+    },
+    {
+      "id": "method-disciplines",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Научный метод защищает от преждевременного знания",
+          "body": "<p>При диагностике нужно отделять проблему, гипотезу, опыт, наблюдение и вывод. Эта осторожность кажется скучной, пока не понадобится отличить реальную причину от удобной догадки. Рассказчик уважает метод именно за сопротивление самоуверенности. Поломка не обязана подтверждать красивую историю, которую механик уже успел о ней рассказать себе.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Scientific method guards against premature certainty",
+          "body": "<p>Diagnosis requires separating the problem, hypothesis, experiment, observation, and conclusion. This caution may seem dull until a real cause must be distinguished from a convenient guess. The narrator respects method because it resists overconfidence. A failure has no obligation to confirm the elegant story the mechanic has already begun telling himself about it.</p>"
+        }
+      }
+    },
+    {
+      "id": "diagnostic-notebook",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Запись удерживает проверку от расползания",
+          "body": "<ol class=\"steps\"><li>Сформулировать вопрос и возможные причины.</li><li>Описать проверку и ожидаемый результат.</li><li>Отделить наблюдение от заключения.</li></ol><p>Запись нужна не для бюрократии, а для памяти и различений. Иначе после нескольких опытов легко забыть, что действительно проверялось. Хорошая тетрадь позволяет вернуться назад, не превратив предположение в факт из-за многократного повторения.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "A notebook keeps an investigation from drifting",
+          "body": "<ol class=\"steps\"><li>State the question and possible causes.</li><li>Describe the test and expected result.</li><li>Separate observation from conclusion.</li></ol><p>The purpose is memory and discrimination rather than bureaucracy. After several experiments it becomes easy to forget what was actually tested. A good notebook allows retracing the inquiry without turning a repeated assumption into a fact through repetition alone.</p>"
+        }
+      }
+    },
+    {
+      "id": "deduction-induction",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Ремонт движется от схемы к опыту и обратно",
+          "body": "<p>Из общей схемы двигателя можно вывести, что должно происходить при исправной системе. Из конкретного поведения машины можно предположить, где схема не реализуется. Дедукция и индукция выполняют разные работы. Их соединение не устраняет неопределённости, но позволяет задавать ей точные вопросы вместо того, чтобы разбирать всё подряд в надежде наткнуться на ответ.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Repair moves from structure to experience and back",
+          "body": "<p>An engine’s general structure suggests what should occur when a system works. The machine’s actual behaviour suggests where that structure is failing to operate. Deduction and induction do different jobs. Together they do not eliminate uncertainty, but let us question it precisely instead of dismantling everything in the hope of stumbling across an answer.</p>"
+        }
+      }
+    },
+    {
+      "id": "empty-tank",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Правдоподобная причина способна скрыть простую",
+          "body": "<p>Рассказчик вспоминает сорванную поездку: он связал остановку двигателя с дождём и позднее обнаружил проблему с подачей топлива, которую не проверил должным образом. Наличие правдоподобной причины остановило поиск. Пример важен тем, что ошибается сам рассказчик: знание об опасности допущений получено через собственную неловкость, а не превосходство над другими.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "A plausible cause can hide a simple one",
+          "body": "<p>The narrator recalls a ruined trip: he associated engine failure with rain and later discovered a fuel-supply problem he had not properly checked. A plausible explanation stopped inquiry. The example matters because the narrator is the mistaken party. His knowledge of dangerous assumptions comes through embarrassment and correction, rather than superiority over everyone else.</p>"
+        }
+      }
+    },
+    {
+      "id": "test-the-test",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Неудачный опыт может говорить об опыте",
+          "body": "<p>Отсутствие искры ещё не автоматически доказывает неисправность всей электросистемы: проверка могла быть устроена неверно. Опытный механик сначала убеждается, что контакт и заземление действительно работают. Так отрицательный результат получает две возможные причины. Проверять инструмент проверки — часть рациональности, а не отговорка, позволяющая бесконечно спасать любимую гипотезу.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "A failed experiment may indict the experiment",
+          "body": "<p>An absent spark does not automatically establish a faulty electrical system: the test itself may be badly arranged. An experienced mechanic first checks the contact and grounding. A negative result therefore has more than one possible explanation. Testing the test is part of rational inquiry, rather than a licence to rescue a favourite hypothesis indefinitely.</p>"
+        }
+      }
+    },
+    {
+      "id": "hypothesis-abundance",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Проверка не объясняет, какую гипотезу выбрать",
+          "body": "<p>Федр обнаруживает, что объяснений можно создавать быстрее, чем проверять. Научный метод умеет отбрасывать версии, но не даёт механической процедуры выбора самой плодотворной следующей версии. Здесь открывается проблема ценности внутри рациональности: что заслуживает внимания? Без этого отбора даже строгая проверка может бесконечно обслуживать бесплодные вопросы.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Testing does not explain which hypothesis to choose",
+          "body": "<p>Phaedrus finds that explanations can be generated faster than tested. Scientific method can reject hypotheses, yet offers no mechanical procedure for choosing the most fruitful next one. Value thus appears inside rationality: what deserves attention? Without such selection, even rigorous testing can spend indefinitely serving questions that lead nowhere useful.</p>"
+        }
+      }
+    },
+    {
+      "id": "relevance-question",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Логическая допустимость слабее плодотворности",
+          "body": "<p>Можно придумать множество объяснений, совместимых с пока известными фактами. Но совместимость не делает их одинаково перспективными. Пирсиг направляет внимание на этот разрыв: исследователь уже оценивает красоту, простоту и значимость до окончательного доказательства. Это не разрешение верить приятному, а вопрос об источнике того суждения, которое организует дальнейшую проверку.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Logical possibility is weaker than fruitfulness",
+          "body": "<p>Many explanations can fit the facts known so far, but compatibility does not make them equally promising. Pirsig focuses on this gap: investigators already judge beauty, simplicity, and significance before conclusive proof. This does not authorize believing whatever feels pleasant. It asks where the judgment that organizes subsequent testing comes from in the first place.</p>"
+        }
+      }
+    },
+    {
+      "id": "young-scientist",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Федр теряет доверие к замкнутой картине знания",
+          "body": "<p>Молодой Федр входит в науку с ожиданием устойчивой системы истины. Изобилие гипотез подрывает это ожидание. Его проблема не в одном опровергнутом результате, а в обнаружении открытого горизонта объяснений. Биографическая линия показывает цену вопроса: сомнение в основании знания способно разрушить привычную цель учёбы раньше, чем появится новая.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Phaedrus loses confidence in a closed picture of knowledge",
+          "body": "<p>Young Phaedrus enters science expecting a stable system of truth. The abundance of hypotheses unsettles that expectation. His difficulty concerns an open horizon of explanations, not one refuted result. The biographical strand exposes the question’s cost: doubt about the foundations of knowledge can destroy the purpose of studying before another purpose has emerged.</p>"
+        }
+      }
+    },
+    {
+      "id": "valued-observation",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Наблюдение уже содержит выбор значимого",
+          "body": "<p>Человек не фиксирует каждый возможный факт с равным вниманием. Он выделяет шум, деталь или изменение, которые могут что-то объяснить. В нашей реконструкции это мост от диагностики к Качеству: ценность участвует в познании раньше итогового вердикта. Однако наличие отбора ещё не доказывает, что ценность — первичная сущность всей реальности.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Observation already involves a choice of significance",
+          "body": "<p>A person does not register every possible fact with equal attention. A sound, detail, or change is singled out as potentially explanatory. In our reconstruction, this bridges diagnosis and Quality: value participates in knowing before a final verdict. The existence of selection, however, does not itself prove that value is the ultimate basis of all reality.</p>"
+        }
+      }
+    },
+    {
+      "id": "hume-kant",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Философия превращает научную тревогу в явный вопрос",
+          "body": "<p>В рассказе о философском образовании Федра Юм и Кант предлагают способы спросить, как опыт вообще становится знанием. Проблема причинности и структуры восприятия расширяет прежнюю научную тревогу. Это реконструкция пути героя, а не нейтральный учебник истории философии: каждый мыслитель появляется потому, что помогает ему приблизиться к собственной трудности.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Philosophy makes scientific unease into an explicit question",
+          "body": "<p>In the account of Phaedrus’s philosophical education, Hume and Kant offer ways to ask how experience becomes knowledge at all. Problems of causation and perceptual structure widen his earlier scientific unease. This reconstructs a character’s intellectual route rather than providing a neutral history of philosophy: thinkers appear because they help him approach his particular difficulty.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-priori",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Опыт не равен необработанному потоку ощущений",
+          "body": "<p>Кантовская линия помогает рассказчику объяснить, почему мотоцикл воспринимается как устойчивый объект, хотя его облик меняется с ракурсом и временем. Ум организует ощущения в узнаваемую вещь. В дальнейшем Федр спросит, достаточно ли такого объяснения: откуда появляется ощущение значимости, благодаря которому одни черты вообще выделяются для этой организации?</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Experience is more than an unprocessed stream of sensations",
+          "body": "<p>The Kantian strand helps the narrator explain why a motorcycle appears as a stable object although its appearance changes with angle and time. Mind organizes sensations into a recognizable thing. Phaedrus will later ask whether that account is sufficient: where does the sense of significance arise that makes some features stand out for organization at all?</p>"
+        }
+      }
+    },
+    {
+      "id": "einstein-motive",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Науку движет не одна формальная процедура",
+          "body": "<p>Рассказчик обращается к размышлениям Эйнштейна о мотивах научной работы. Их роль — показать, что живой интерес к порядку мира не сводится к проверке готовых высказываний. Но авторитет великого учёного не доказывает Качество. Это часть философской подготовки: объяснение практики науки должно включать то, что побуждает человека ею заниматься.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Science is moved by more than formal procedure",
+          "body": "<p>The narrator turns to Einstein’s reflections on scientific motives. Their role is to show that a living interest in the world’s order exceeds the testing of finished statements. A great scientist’s authority does not prove Quality. This prepares the philosophical question: an account of scientific practice must include what moves a person to pursue it.</p>"
+        }
+      }
+    },
+    {
+      "id": "india-disappointment",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Поездка на Восток не приносит готового ответа",
+          "body": "<p>В восстановленном прошлом Федр изучает философию в Индии, но не получает простого освобождения от западных вопросов. Его столкновение с чужой традицией сопровождается непониманием и раздражением. Книга не строит маршрут от ложного Запада к безошибочному Востоку. Поиск требует изменения самого способа спрашивать, а не только смены географического источника учения.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "Going East does not supply a ready-made answer",
+          "body": "<p>In the reconstructed past, Phaedrus studies philosophy in India without finding a simple release from Western questions. Encounter with another tradition includes incomprehension and irritation. The book does not chart a journey from a false West to an infallible East. Inquiry requires changing how one asks, rather than merely changing the geographical source of instruction.</p>"
+        }
+      }
+    },
+    {
+      "id": "zen-boundary",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Название не обещает учебник дзен",
+          "body": "<p>В авторском примечании прямо ограничена связь книги с ортодоксальным дзен-буддизмом. Духовные параллели здесь входят в самостоятельный философский и литературный поиск. Поэтому практические наблюдения о внимании нельзя выдавать за полное изложение традиции. Столь же ошибочно читать механические эпизоды как достаточное руководство по безопасному обслуживанию любой реальной машины.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "The title does not promise a Zen manual",
+          "body": "<p>The author’s note explicitly limits the book’s relationship to orthodox Zen Buddhism. Spiritual parallels form part of an independent philosophical and literary inquiry. Practical observations about attention should not be presented as a complete account of a tradition. Mechanical episodes likewise do not constitute a sufficient maintenance or safety manual for an actual machine.</p>"
+        }
+      }
+    },
+    {
+      "id": "mountain-setting",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Призрак и разум",
+          "title": "Горы обещают ясность и усиливают риск",
+          "body": "<p>Приближение к горам меняет настроение поездки: простор и прохлада дают облегчение после равнин. Но высота также становится образом интеллектуального отдаления. Там можно увидеть больше и потерять связь с обитаемым миром. Книга сохраняет оба значения: возвышение не обязательно ложное, однако сама его привлекательность ещё не делает его хорошим путём.</p>"
+        },
+        "en": {
+          "section": "II · Ghost and reason",
+          "title": "The mountains promise clarity and intensify risk",
+          "body": "<p>Approaching the mountains changes the journey’s mood: space and coolness bring relief after the plains. Height also becomes an image of intellectual distance. It can enlarge a view while weakening connection with the inhabited world. The book preserves both meanings: ascent need not be false, but its attraction alone does not make it a good route.</p>"
+        }
+      }
+    },
+    {
+      "id": "bozeman-return",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Возвращение в Бозмен делает идеи личными",
+          "body": "<p>Город и прежний колледж превращают реконструкцию Федра в встречу с местом. Рассказчик уже не может держать историю на безопасном расстоянии. Друзья, кабинеты и знакомые виды обладают собственной памятью. Философские вопросы оказываются не свободно парящими задачами, а частью жизни, в которой решения меняли отношения и оставляли следы.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Returning to Bozeman makes the ideas personal",
+          "body": "<p>The town and former college turn the reconstruction of Phaedrus into an encounter with place. The narrator can no longer keep the story safely distant. Friends, rooms, and familiar views hold their own memories. Philosophical questions cease to float freely: they belong to a life in which decisions altered relationships and left traces.</p>"
+        }
+      }
+    },
+    {
+      "id": "archaeology-memory",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Память восстанавливается как раскопка",
+          "body": "<p>Рассказчик сравнивает себя с археологом: у него есть фрагменты и рассказы других, но отсутствует непрерывное владение прошлым. Этот образ объясняет осторожность и тревогу. Найденное может изменить того, кто ищет. Нам предлагается следить не только за восстановленной системой мысли, но и за тем, как сама реконструкция перестраивает нынешнего рассказчика.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Memory is reconstructed like an excavation",
+          "body": "<p>The narrator likens himself to an archaeologist: fragments and other people’s accounts remain, but continuous possession of the past does not. The image explains both caution and fear. What is found may transform the finder. We should follow not only the reconstructed philosophy but also the way reconstruction changes the present narrator.</p>"
+        }
+      }
+    },
+    {
+      "id": "phaedrus-former-self",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Федр — способ говорить о прежнем себе",
+          "body": "<p>В концептуальной архитектуре книги Федр — прежняя личность рассказчика до психиатрического кризиса и лечения. Имя позволяет описывать собственное прошлое как чужую историю. Это объясняет одновременно близость и страх. Но раскрытие связи не завершает сюжет: между признанием биографической связи и способностью снова жить целостно остаётся человеческая дистанция.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Phaedrus is a way of speaking about a former self",
+          "body": "<p>Within the book’s conceptual architecture, Phaedrus is the narrator’s former self before psychiatric crisis and treatment. The name lets him narrate his own past as someone else’s story. This explains intimacy and fear together. Recognizing the connection does not finish the plot: biographical acknowledgment and the ability to live as a whole person remain different achievements.</p>"
+        }
+      }
+    },
+    {
+      "id": "reconstruction-limit",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Фрагментарная память ограничивает достоверность портрета",
+          "body": "<p>Мы узнаём Федра через человека, который одновременно продолжает и отталкивает его. Поэтому реконструкция окрашена защитой, восхищением и ужасом. Этот предел не обесценивает книгу; он делает важным устройство голоса. Нельзя без остатка превратить каждую сцену прошлого в беспристрастное свидетельство о преподавателях, семье или лечении: перед нами работа памяти внутри романа.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Fragmentary memory limits the portrait’s certainty",
+          "body": "<p>We encounter Phaedrus through someone who both continues and rejects him. Reconstruction is coloured by defence, admiration, and fear. That limit does not invalidate the book; it makes the voice’s construction important. Past scenes cannot be converted without remainder into impartial evidence about teachers, family, or treatment. This is memory at work inside a novel.</p>"
+        }
+      }
+    },
+    {
+      "id": "campus-recognition",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Знакомый кабинет делает прошлое настоящим",
+          "body": "<p>Посещение старого учебного корпуса вызывает узнавание, которое сильнее намерения просто осмотреть место. Предметы и планировка возвращают привычные движения. Рассказчик ощущает, что не столько изучает отсутствующего Федра, сколько вступает в его присутствие. Пространство здесь работает как носитель памяти, а не архивный документ, способный сам по себе подтвердить детали прошлого.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "A familiar classroom makes the past present",
+          "body": "<p>Visiting the old college building triggers recognition stronger than the intention merely to inspect it. Objects and layout revive habitual movements. The narrator feels less like studying an absent Phaedrus than entering his presence. Space functions as a carrier of memory rather than an archival document independently confirming the details of the past.</p>"
+        }
+      }
+    },
+    {
+      "id": "church-reason",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Университет определяется служением истине",
+          "body": "<p>Федр различает здания, администрацию и настоящий университет — продолжающееся сообщество разумного исследования. Его Церковь Разума должна сохранять верность истине, даже если это раздражает тех, кто её финансирует. Институция получает смысл из внутреннего обязательства. Когда оболочка остаётся, а обязательство исчезает, формальное существование ещё не означает сохранения университета.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "A university is defined by its commitment to truth",
+          "body": "<p>Phaedrus distinguishes buildings and administration from the real university: an enduring community of rational inquiry. His Church of Reason must remain faithful to truth even when funders object. An institution derives meaning from an internal commitment. If the shell remains while that commitment disappears, formal continuity does not establish that the university itself survives.</p>"
+        }
+      }
+    },
+    {
+      "id": "purpose-shell",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Оболочка институции не гарантирует её назначения",
+          "body": "<p>Один и тот же зал может служить разным практикам, не меняя стен. В университетском рассуждении это позволяет отделить материальные средства от причины, ради которой они существуют. Наш вывод: оценивать организацию только по ресурсам недостаточно. Но и возвышенная цель не освобождает её от проверки того, как она фактически обращается с людьми.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "An institution’s shell does not guarantee its purpose",
+          "body": "<p>The same room can serve different practices without changing its walls. In the university discussion, this separates material means from the reason they exist. Our inference is that resources alone cannot measure an organization. An elevated purpose, however, does not exempt it from examination of how it actually treats people within and around it.</p>"
+        }
+      }
+    },
+    {
+      "id": "accreditation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Аккредитация показывает нематериальную сторону университета",
+          "body": "<p>В рассуждении Федра потеря аккредитации не обязательно закрывает двери или прекращает занятия. Меняется признание того, чем считается учреждение. Этот мысленный ход помогает увидеть университет как отношение доверия и стандарта, а не недвижимость. Здесь пересказан аргумент героя; историческая точность каждого описанного конфликта отдельно не исследовалась по университетским архивам.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Accreditation reveals a university’s nonmaterial dimension",
+          "body": "<p>In Phaedrus’s argument, losing accreditation need not shut doors or stop classes. What changes is recognition of what the institution counts as. This thought experiment presents a university as a relation of trust and standards rather than real estate. We report the character’s reasoning; the historical details of each institutional conflict were not independently checked in archives.</p>"
+        }
+      }
+    },
+    {
+      "id": "funding-truth",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Финансирование не должно покупать результат исследования",
+          "body": "<p>Если попечители требуют определённых выводов, возникает конфликт между внешним контролем и назначением университета. Федр считает, что служение истине должно выдерживать подобное давление. Это ещё не ответ на все вопросы ответственности науки перед обществом. В романе принцип прежде всего защищает возможность думать там, где удобный ответ уже заказан заранее.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Funding should not purchase an inquiry’s conclusion",
+          "body": "<p>When trustees demand particular conclusions, external control conflicts with the university’s purpose. Phaedrus holds that commitment to truth must withstand such pressure. This does not answer every question about inquiry’s accountability to society. In the novel, the principle first protects the possibility of thinking when a convenient answer has already been commissioned in advance.</p>"
+        }
+      }
+    },
+    {
+      "id": "radical-teacher",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Защитник разума может стать неудобным для его храма",
+          "body": "<p>Федр оказывается радикалом не потому, что ему безразличны университетские ценности. Он принимает их настолько всерьёз, что спорит с привычным устройством учреждения. Это внутренний конфликт верности и неповиновения. Но само ощущение верности идеалу не делает каждый его поступок разумным: книга постепенно показывает, как принципиальность способна соединиться с изоляцией и фанатизмом.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "A defender of reason can trouble its own temple",
+          "body": "<p>Phaedrus becomes radical because university values matter intensely to him, not because he dismisses them. He takes them seriously enough to challenge institutional habits. Loyalty and disobedience conflict from within. Yet feeling faithful to an ideal does not make every action reasonable: the book gradually shows principle becoming entangled with isolation and fanaticism.</p>"
+        }
+      }
+    },
+    {
+      "id": "deweese-bridge",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "У ДеВизов искусство и техника встречаются за разговором",
+          "body": "<p>В доме художников ДеВизов философский спор получает другую среду: дружбу, огонь, гостеприимство и разговор о работе. Здесь связь искусства с техникой становится ощутимой через обычные вещи. Качество не обязательно находится вдали от повседневности. Важно, может ли человек узнавать его там, где уже живёт, собирает, чинит и разговаривает.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "At the DeWeeses’, art and technology meet in conversation",
+          "body": "<p>At the artists DeWeeses’ home, philosophical discussion enters another setting: friendship, fire, hospitality, and talk about work. Art’s relation to technology becomes tangible through ordinary things. Quality need not reside far from everyday life. The question is whether a person can recognize it where they already live, assemble, repair, and talk with others.</p>"
+        }
+      }
+    },
+    {
+      "id": "barbecue-instructions",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Инструкция молча предполагает отношение к работе",
+          "body": "<p>Разговор о сборке жаровни вскрывает предел пошагового руководства. Оно может перечислить детали и операции, но не обязано объяснять, как сохранять внимание, когда реальная вещь не совпадает с ожиданием. Рассказчик обращает внимание на ненаписанное условие хорошей работы: человек должен участвовать в задаче, а не только двигаться по строкам.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Instructions silently presuppose an attitude to the work",
+          "body": "<p>Discussion of assembling a barbecue exposes the boundary of step-by-step directions. They can list parts and operations without explaining how to remain attentive when the actual thing differs from expectation. The narrator emphasizes an unwritten condition of good work: the person must participate in the task rather than merely move through lines of text.</p>"
+        }
+      }
+    },
+    {
+      "id": "assembly-art",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Искусство возникает в ответе на материал",
+          "body": "<p>Хороший мастер не прикладывает внутренний план к совершенно пассивной материи. Он наблюдает, корректирует движение и меняет замысел по ходу. Поэтому сборка может обладать качеством искусства. Решающий признак — не престиж готового предмета, а согласованность мысли и действия, когда материал отвечает, а человек умеет услышать этот ответ.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Art emerges in responsiveness to material",
+          "body": "<p>A good worker does not impose an inner plan on wholly passive matter. He observes, adjusts movement, and changes intention along the way. Assembly can therefore have the quality of art. The decisive feature is not the finished object’s prestige but coordination of thought and action when material responds and the worker can hear that response.</p>"
+        }
+      }
+    },
+    {
+      "id": "peace-condition",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Спокойствие здесь означает способность замечать",
+          "body": "<p>Спокойствие не просто приятное дополнение к технической компетентности. Раздражённый человек пропускает сигналы и пытается заставить вещь соответствовать ожиданию силой. Рассказчик связывает внутреннее состояние с качеством внешней работы. Это наблюдение о внимании в конкретной практике, а не универсальное обещание, что любая душевная трудность исчезнет после правильного ремонта.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Peace of mind here means the ability to notice",
+          "body": "<p>Peace of mind is more than a pleasant addition to technical competence. An irritated worker misses signals and tries to force the thing to match expectations. The narrator connects inward condition with outward workmanship. This concerns attention in a particular practice; it does not promise that every psychological difficulty disappears once a repair is performed properly.</p>"
+        }
+      }
+    },
+    {
+      "id": "instructions-limit",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Возвращение",
+          "title": "Процедура сохраняет знание, но не заменяет суждение",
+          "body": "<p>Было бы ошибкой сделать из эпизода запрет на инструкции. Именно они передают опыт, который одному человеку пришлось бы добывать дорого. Их предел другой: процедура не определяет сама, когда ситуация вышла за её предпосылки. В нашем прочтении зрелая работа соединяет следование проверенному порядку с готовностью остановиться и заново увидеть задачу.</p>"
+        },
+        "en": {
+          "section": "III · Return",
+          "title": "Procedure preserves knowledge without replacing judgment",
+          "body": "<p>It would be mistaken to turn the episode into a ban on instructions. Procedures transmit experience that would otherwise be costly to rediscover. Their boundary is different: a procedure cannot itself determine every moment when a situation exceeds its assumptions. Our reading joins tested order with a willingness to stop and see the task afresh.</p>"
+        }
+      }
+    },
+    {
+      "id": "quality-question",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Узнавать хорошее легче, чем определить его",
+          "body": "<p>Вопрос о Качестве начинается с простой преподавательской трудности: как учить хорошему письму, если трудно объяснить, что делает его хорошим? Люди всё же различают более и менее удачные работы. Разрыв между узнаваемостью и определимостью запускает поиск Федра. Он спрашивает, не скрывается ли здесь основа, которую привычные категории исключают заранее.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Recognizing what is good is easier than defining it",
+          "body": "<p>The Quality question begins with a teaching difficulty: how can good writing be taught if its goodness resists definition? People nevertheless distinguish stronger work from weaker work. The gap between recognition and definition launches Phaedrus’s inquiry. He asks whether this gap points to a foundation that familiar categories have already excluded before inquiry can begin.</p>"
+        }
+      }
+    },
+    {
+      "id": "definition-trap",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Требование определения может заранее решить спор",
+          "body": "<p>Если существующим считается только то, что можно исчерпывающе определить, Качество проигрывает ещё до рассмотрения опыта. Федр отказывается принимать такое правило без проверки. Его отказ не равен доказательству существования особой сущности. Он меняет последовательность исследования: сначала разобраться, как действует оценивание, и лишь затем решать, какая формализация ему соответствует.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Demanding a definition can prejudge the dispute",
+          "body": "<p>If only what can be exhaustively defined counts as real, Quality loses before experience is considered. Phaedrus refuses to accept that rule without examination. His refusal does not prove the existence of a special entity. It changes the order of inquiry: first investigate how evaluation works, then decide what formal account can adequately describe it.</p>"
+        }
+      }
+    },
+    {
+      "id": "grading-problem",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Оценка требует критерия, который не сводится к правилу",
+          "body": "<p>Преподаватель может исправлять грамматику и всё же не объяснить, почему один текст живой, а другой мёртвый. Оценка постоянно предполагает различение целого. Федр видит здесь практическое знание, которое учебная схема не умеет назвать. Его трудность возникает внутри работы, где нужно судить ежедневно, а не из желания придумать отвлечённую загадку.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Grading needs a criterion that exceeds a rule",
+          "body": "<p>A teacher can correct grammar without explaining why one text feels alive and another inert. Grading continually presupposes judgment of the whole. Phaedrus finds practical knowledge that the teaching framework cannot name. His difficulty arises within work requiring daily judgment, rather than from a wish to invent an abstract puzzle remote from practice.</p>"
+        }
+      }
+    },
+    {
+      "id": "one-brick",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Сужение задачи возвращает собственное видение",
+          "body": "<p>Студентка не может начать сочинение на слишком широкую тему. Федр сужает предмет до отдельного здания, затем до кирпича. Малый объект разрушает привычку повторять общие мнения и заставляет смотреть. Гранулярность здесь не культ краткости: небольшой предмет открывает богатство наблюдения, если автор действительно отвечает за то, что сам увидел.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Narrowing a task restores firsthand seeing",
+          "body": "<p>A student cannot begin writing about an overly broad subject. Phaedrus narrows it to a building and then a brick. The small object disrupts borrowed generalities and requires looking. Smallness is not a cult of brevity here: a tiny subject can yield abundant observation when the writer takes responsibility for what they have actually seen.</p>"
+        }
+      }
+    },
+    {
+      "id": "coin-exercise",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Монета показывает, что материал для мысли уже рядом",
+          "body": "<p>Упражнение с монетой кажется слишком бедным для сочинения, пока студенты не начинают рассматривать её самостоятельно. Ограничение предмета не ограничивает число возможных замечаний. Педагогический ход меняет источник текста: вместо поиска достойных чужих фраз появляется собственный опыт. Важна не необыкновенность объекта, а переход от имитации знания к внимательному различению.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "A coin shows that material for thought is close at hand",
+          "body": "<p>A coin seems too meagre a subject until students begin examining it for themselves. Limiting the object does not limit possible observations. The teaching move changes the source of writing: firsthand experience replaces the search for impressive borrowed phrases. What matters is not an extraordinary object but movement from imitated knowledge toward attentive discrimination.</p>"
+        }
+      }
+    },
+    {
+      "id": "imitation",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Имитация маскируется под успешное обучение",
+          "body": "<p>Студент учится угадывать, какой ответ понравится преподавателю, и получает вознаграждение за сходство с образцом. Федр видит в этом препятствие самостоятельной мысли. Проблема не в том, что подражание никогда не полезно, а в его подмене цели: человек перестаёт искать хорошее в работе и начинает искать признаки ожидаемой оценки.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Imitation can masquerade as successful learning",
+          "body": "<p>A student learns to guess what will please the teacher and is rewarded for resembling a model. Phaedrus sees an obstacle to independent thought. The problem is not that imitation can never help, but that it can replace the aim: the learner searches for signs of an expected grade rather than what is good in the work.</p>"
+        }
+      }
+    },
+    {
+      "id": "withheld-grades",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Сокрытие оценок меняет мотивацию неодинаково",
+          "body": "<p>Федр экспериментирует с отказом сообщать текущие оценки. Для одних исчезает привычная опора, для других появляется возможность заняться самой работой. Книга не описывает мгновенное чудесное освобождение класса. Эксперимент показывает зависимость обучения от системы ожиданий: убрать сигнал награды недостаточно, если человек ещё не нашёл внутренней причины учиться.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Withholding grades changes motivation unevenly",
+          "body": "<p>Phaedrus experiments with withholding current grades. Some students lose a familiar support; others gain space to engage the work itself. The book does not describe a classroom instantly liberated by a miracle. The experiment reveals learning’s dependence on expectations: removing a reward signal is insufficient when the learner has not found an inward reason to study.</p>"
+        }
+      }
+    },
+    {
+      "id": "successful-student-dissent",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Успевающая студентка тоже отвергает систему наград",
+          "body": "<p>Способная студентка пишет работу против оценок и убеждённо защищает её перед враждебным классом. Федра поражает, что её собственные высокие результаты не заставляют поддерживать порядок, в котором она выигрывает. Этот эпизод отличается от эксперимента преподавателя: критика возникает внутри ученического опыта. Привилегированное положение в системе не обязательно исчерпывает то, что человек способен в ней увидеть.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "A successful student can also reject the reward system",
+          "body": "<p>An able student writes against grades and passionately defends her paper before a hostile class. Phaedrus is struck that her own strong results do not make her defend a system in which she succeeds. Unlike the teacher’s experiment, criticism emerges within a learner’s experience. An advantaged position need not exhaust what someone can perceive about the arrangement.</p>"
+        }
+      }
+    },
+    {
+      "id": "intrinsic-purpose",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Интересу нужна собственная задача",
+          "body": "<p>Федр воображает обучение, которое начинается с реального желания что-то понять или сделать. Тогда теория перестаёт быть препятствием между человеком и дипломом и становится необходимым инструментом. Но желание нельзя просто приказать иметь. Его педагогическая надежда состоит в перестройке отношения к знанию; сама административная отмена оценок не обеспечивает такого результата.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Interest needs a task of its own",
+          "body": "<p>Phaedrus imagines education beginning with a real desire to understand or accomplish something. Theory then stops being an obstacle between a person and a credential and becomes a needed instrument. Desire cannot simply be commanded. His educational hope concerns a transformed relationship to knowledge; abolishing grades administratively does not automatically produce that transformation.</p>"
+        }
+      }
+    },
+    {
+      "id": "working-student",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Возвращающийся ученик задаёт другие вопросы",
+          "body": "<p>В мысленном примере человек сначала уходит работать, сталкивается с ограничениями и возвращается учиться ради собственной цели. Физика и математика приобретают смысл через то, что он хочет сделать. Это аргумент о структуре мотивации, а не доказанный прогноз для каждого студента. Он показывает, как нужда в знании может предшествовать учебной программе.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "The returning learner asks different questions",
+          "body": "<p>In a thought experiment, a person leaves to work, encounters limitations, and returns to education for a purpose of his own. Physics and mathematics gain meaning through what he wants to do. This argues about the structure of motivation rather than predicting every student’s path. It shows how a need for knowledge can precede the curriculum.</p>"
+        }
+      }
+    },
+    {
+      "id": "shared-recognition",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Класс различает Качество до общего определения",
+          "body": "<p>Когда студенты сравнивают тексты, их суждения нередко сходятся без исчерпывающей формулы хорошего письма. Для Федра это решающий опыт: отсутствие определения не означает отсутствия распознавания. Он начинает преподавать через различение примеров. Переход идёт от готового правила к тренировке суждения, которое постепенно становится точнее в работе.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "The class recognizes Quality before defining it",
+          "body": "<p>When students compare writing, their judgments often converge without an exhaustive formula for good prose. For Phaedrus this is decisive: lacking a definition does not mean lacking recognition. He begins teaching through comparison of examples. The movement is from a finished rule toward the cultivation of judgment that becomes more discriminating through practice.</p>"
+        }
+      }
+    },
+    {
+      "id": "consensus-limit",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Согласие класса не доказывает устройство Вселенной",
+          "body": "<p>Совпадение оценок поддерживает умеренный вывод: люди способны разделять критерии, не формулируя их полностью. Более сильный вывод о первичности Качества требует дополнительных шагов. Общая подготовка и привычки тоже могут создавать согласие. Различая эти уровни, можно сохранить силу педагогического наблюдения и не превращать его в доказательство всего последующего мировоззрения.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Classroom agreement does not establish an ontology",
+          "body": "<p>Agreement supports a modest conclusion: people can share criteria without fully articulating them. The stronger claim that Quality is metaphysically primary requires further steps. Shared training and habits can also produce convergence. Keeping these levels apart preserves the classroom observation’s force without treating it as proof of the entire worldview that follows from it.</p>"
+        }
+      }
+    },
+    {
+      "id": "rhetoric-practice",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Учить Качеству",
+          "title": "Хорошее письмо учит различению раньше рецепта",
+          "body": "<p>Федр делает Качество центром курса, чтобы правила снова служили живому результату. Сравнение работ, самостоятельное наблюдение и переработка помогают студентам узнавать удачное. Грамматика не исчезает, но перестаёт выдавать себя за весь предмет. Риторика становится практикой формирования суждения о том, что стоит сказать и как это может действительно подействовать.</p>"
+        },
+        "en": {
+          "section": "IV · Teaching Quality",
+          "title": "Good writing trains discrimination before recipe",
+          "body": "<p>Phaedrus puts Quality at the centre of the course so that rules again serve a living result. Comparison, firsthand observation, and revision help students recognize successful work. Grammar remains but ceases to stand for the whole subject. Rhetoric becomes a practice of judging what deserves saying and how it can actually take effect.</p>"
+        }
+      }
+    },
+    {
+      "id": "quality-removal",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Мир без Качества теряет основания выбора",
+          "body": "<p>Федр мысленно убирает Качество из мира. Остаются вещи и процессы, но становится непонятно, почему предпочесть одну работу другой или вообще заниматься искусством. Этот опыт должен показать, насколько глубоко оценивание встроено в жизнь. Он защищает реальность значимости, хотя ещё не объясняет, каким именно образом значимость существует.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "A world without Quality loses grounds for choosing",
+          "body": "<p>Phaedrus imagines removing Quality from the world. Things and processes remain, but grounds for preferring one work over another, or pursuing art at all, become obscure. The exercise reveals how deeply evaluation enters ordinary life. It defends the reality of significance while leaving open the precise sense in which significance exists.</p>"
+        }
+      }
+    },
+    {
+      "id": "elimination-method",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Мысленное удаление обнаруживает зависимость практик",
+          "body": "<p>Если убрать различие между лучшим и худшим, исчезает направление улучшения, хотя физические предметы могут остаться. Такой ход выявляет функцию понятия, а не наблюдает мир, где оно действительно отсутствует. Его сила — в демонстрации зависимости. Его предел — возможность незаметно вложить желаемый результат в описание того, что именно было удалено.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Imagined removal reveals the dependence of practices",
+          "body": "<p>Remove the distinction between better and worse and improvement loses direction, even if physical objects remain. This exercise identifies a concept’s function rather than observing a world where it is actually absent. Its strength lies in revealing dependence. Its limit is the possibility of building the desired result into the description of what was removed.</p>"
+        }
+      }
+    },
+    {
+      "id": "utility-ground",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Польза тоже нуждается в ответе «для чего»",
+          "body": "<p>Предмет может быть эффективным средством, но это не выбирает цель. Оценка полезности переносит вопрос о хорошем на следующий уровень: ради чего нужна эта эффективность? В нашем прочтении роман не отменяет инструментальный разум. Он показывает, почему тот не может быть единственным языком ценности: средства становятся хорошими по отношению к чему-то ещё.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Usefulness also requires an answer to “for what?”",
+          "body": "<p>An object can be an effective means without selecting an end. Judging usefulness moves the question of goodness to another level: what is this efficiency for? In our reading, the novel does not abolish instrumental reason. It shows why that cannot be value’s only language: means become good in relation to something further.</p>"
+        }
+      }
+    },
+    {
+      "id": "beyond-aesthetics",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Качество шире красоты как отдельной области",
+          "body": "<p>Федра не удовлетворяет возможность отдать Качество эстетике и оставить остальное знание неизменным. Хорошая мысль, хороший ремонт и хорошее сочинение связаны для него более общим различением. Поэтому вопрос перерастает теорию искусства. Его ставка — понять основу оценивания, которая действует и там, где никто не рассматривает работу как художественное произведение.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Quality exceeds beauty as a separate domain",
+          "body": "<p>Phaedrus is dissatisfied with assigning Quality to aesthetics while leaving the rest of knowledge untouched. Good thinking, repair, and writing seem connected by a more general discrimination. The question therefore exceeds art theory. He wants to understand a basis of evaluation operating even where no one considers the task an artistic work at all.</p>"
+        }
+      }
+    },
+    {
+      "id": "subject-object-dilemma",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Качество не укладывается в готовые стороны разделения",
+          "body": "<p>Если Качество — свойство объекта, почему его нельзя измерить как длину? Если оно только в субъекте, почему люди способны узнавать хорошее совместно? Так Федр формулирует дилемму, не принимая её рамку окончательно. Возможно, трудность не в самом Качестве, а в требовании поместить его внутрь заранее разделённых субъекта и объекта.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Quality will not fit the ready-made sides of the divide",
+          "body": "<p>If Quality belongs to the object, why cannot it be measured like length? If it belongs only to the subject, why can people recognize it together? Phaedrus formulates this dilemma without finally accepting its frame. Perhaps the difficulty lies in requiring Quality to fit inside a subject and object that have already been separated.</p>"
+        }
+      }
+    },
+    {
+      "id": "qualities-ambiguity",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Свойства вещи и её достоинство — разные вопросы",
+          "body": "<p>В поиске ответа Федр замечает, что объект известен через качества: цвет, плотность и другие признаки. Но здесь возникает двусмысленность. Измеримые свойства не совпадают с Качеством как превосходством или ценностью. Переход между значениями одного слова не решает дилемму. Книга показывает ошибочный ход внутри поиска, а не только его удачные результаты.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "A thing’s properties and its excellence are different questions",
+          "body": "<p>Phaedrus notices that an object is known through qualities such as colour, density, and other attributes. An ambiguity emerges: measurable properties are not the same as Quality understood as excellence or value. Moving between meanings of a word does not resolve the dilemma. The book shows a failed move within the inquiry, not only its successes.</p>"
+        }
+      }
+    },
+    {
+      "id": "third-entity",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Третья сущность сначала выглядит выходом",
+          "body": "<p>Федр пробует мыслить Качество рядом с разумом и материей, как третий элемент. Это позволяет не отдавать его ни одной стороне. Но теперь нужно объяснить отношения всех трёх. Поэтому поиск не останавливается на расширении списка сущностей: он постепенно меняет сам порядок, в котором появляются различения между человеком и миром.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "A third entity initially looks like an escape",
+          "body": "<p>Phaedrus experiments with placing Quality alongside mind and matter as a third element. This avoids assigning it to either side, but now the relations among all three need explanation. The inquiry therefore does not stop at adding another item to the inventory. It changes the order in which distinctions between person and world arise.</p>"
+        }
+      }
+    },
+    {
+      "id": "quality-before-division",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Качество предшествует разделению на наблюдателя и вещь",
+          "body": "<p>Сильный тезис Федра: сначала происходит встреча с опытом, имеющая непосредственную значимость; затем разум различает субъекта и объект. Качество — имя этой доразделённой реальности, а не дополнительная характеристика готовой вещи. Так оно должно связать классическое и романтическое: структура и переживание оказываются позднейшими способами говорить об общем источнике.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Quality precedes the division into observer and thing",
+          "body": "<p>Phaedrus’s strong thesis is that an encounter with experience, immediately significant, precedes the mind’s distinction between subject and object. Quality names that undivided reality rather than an extra attribute of a finished thing. It is meant to connect classical and romantic understanding: structure and experience become subsequent ways of describing a shared source.</p>"
+        }
+      }
+    },
+    {
+      "id": "quality-event",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Качество мыслится как событие, а не ярлык",
+          "body": "<p>В такой картине не изолированный человек приклеивает оценку к изолированному объекту. Сначала возникает событие взаимодействия, из которого обе стороны получают определённость. Это объясняет, почему Качество трудно определить языком свойств. Но трудность определения остаётся частью философского предложения; она не освобождает его от вопроса, что именно этот язык помогает понять.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Quality is conceived as an event rather than a label",
+          "body": "<p>On this account, an isolated person does not attach an evaluation to an isolated object. An event of interaction comes first, from which both sides acquire definition. This explains why Quality resists the language of properties. Yet resistance to definition belongs to a philosophical proposal; it does not exempt the proposal from explaining what it illuminates.</p>"
+        }
+      }
+    },
+    {
+      "id": "present-past",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Описание опыта всегда приходит после встречи",
+          "body": "<p>Чтобы назвать и сравнить впечатление, нужно уже удерживать его в памяти. Федр использует этот зазор между непосредственностью и описанием, чтобы поставить Качество раньше понятий. Здесь важно различать порядок переживания и доказанный порядок существования. Роман предлагает связь между ними, но читатель вправе спросить, достаточен ли переход от одного к другому.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Description of experience arrives after the encounter",
+          "body": "<p>Naming and comparing an impression requires already retaining it in memory. Phaedrus uses this interval between immediacy and description to place Quality before concepts. The order of experience should be distinguished from a demonstrated order of being. The novel proposes a connection between them, but readers can question whether that transition has been adequately justified.</p>"
+        }
+      }
+    },
+    {
+      "id": "experience-analogy",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Прошлый опыт влияет на распознавание хорошего",
+          "body": "<p>Если Качество первично, почему оценки различаются? Федр связывает различие с накопленными аналогиями опыта. Люди встречают новое через разные истории и поэтому выделяют разные черты. Это не просто отказ от общности. Он пытается совместить общий источник оценивания с многообразием конкретных суждений, не делая каждое предпочтение последней мерой истины.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Past experience shapes the recognition of what is good",
+          "body": "<p>If Quality is primary, why do evaluations differ? Phaedrus connects disagreement with accumulated analogies of experience. People encounter novelty through different histories and therefore notice different features. This is not simply abandoning commonality. He attempts to combine a shared source of evaluation with diverse particular judgments, without treating every preference as the final measure of truth.</p>"
+        }
+      }
+    },
+    {
+      "id": "disagreement-test",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Сам рассказчик отмечает непроверяемость сильного допущения",
+          "body": "<p>Предположение о том, что люди с полностью одинаковым прошлым одинаково узнавали бы Качество, нельзя проверить: такого сравнения у нас нет. В книге это ограничение названо, а не спрятано. Оно важно для честного чтения. Объяснение расхождений может быть связным, но связность сама по себе ещё не делает его подтверждённым описанием мира.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "The narrator marks a strong assumption as untestable",
+          "body": "<p>The suggestion that people with identical past experience would recognize Quality identically cannot be tested: the needed comparison is unavailable. The book states this limitation rather than hiding it. That matters for a fair reading. An account of disagreement can be coherent without coherence alone making it a confirmed description of the world.</p>"
+        }
+      }
+    },
+    {
+      "id": "objectivity-concern",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "V · До разделения",
+          "title": "Общность опыта не равна автоматической непогрешимости",
+          "body": "<p>Общее суждение помогает людям работать вместе, но целая группа может не замечать исключённого опыта. Поэтому мост от разделяемого Качества к истине нуждается в возможности возражать. Это наш критический вывод, а не отдельная теория Пирсига: восприимчивость к материалу должна включать восприимчивость к человеку, чьё суждение не совпало с большинством.</p>"
+        },
+        "en": {
+          "section": "V · Before division",
+          "title": "Shared experience does not confer automatic infallibility",
+          "body": "<p>Shared judgment helps people work together, but a group can overlook excluded experience. The bridge from shared Quality to truth therefore needs room for dissent. This is our critical inference rather than another Pirsig theory: responsiveness to material should include responsiveness to a person whose judgment does not match that of the majority.</p>"
+        }
+      }
+    },
+    {
+      "id": "quality-tao",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Отождествление Качества с Дао резко повышает ставку",
+          "body": "<p>Федр обнаруживает сходство своей мысли с Дао и переживает его как огромную интеллектуальную развязку. Локальная трудность преподавания превращается в универсальное объяснение. Именно здесь важно видеть изменение масштаба: сходство языков становится притязанием на общий источник реальности. Повествование передаёт силу открытия, но не оставляет его без внутреннего возражения.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "Identifying Quality with Tao raises the stakes",
+          "body": "<p>Phaedrus discovers parallels with Tao and experiences them as a vast intellectual resolution. A local teaching problem expands into a universal account. The change of scale matters: resemblance between descriptions becomes a claim about reality’s common source. The narrative conveys the discovery’s force without leaving it free from an objection arising within the book itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "narrator-reservation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Рассказчик не принимает всякую высоту Федра",
+          "body": "<p>Рассказчик прямо признаёт: он не знает, истинно ли отождествление Качества и Дао и как его проверить. Сравнение двух плохо определённых сущностей может мало что объяснять. Эта оговорка принадлежит самой книге. Поэтому её нельзя честно пересказать как непрерывную проповедь уже найденной окончательной истины: поиск содержит собственное торможение и пересмотр.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "The narrator does not endorse every Phaedrean ascent",
+          "body": "<p>The narrator openly admits that he does not know whether Quality and Tao are identical or how to verify the claim. Comparing two elusive entities may explain little. This reservation belongs to the book itself. A faithful account therefore cannot turn it into an uninterrupted sermon of final truth: the inquiry contains its own braking and revision.</p>"
+        }
+      }
+    },
+    {
+      "id": "mountain-care",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Подъём проверяет философию нагрузкой и отношением",
+          "body": "<p>В походе отец и Крис идут по одному склону, но переживают его по-разному. Взрослый видит ритм и путь; ребёнок — усталость и далёкую цель. Рассказчик критикует погоню за вершиной, однако сам должен решить, как обращаться с сыном сейчас. Гора превращает отвлечённый вопрос о внимании в вопрос о совместном темпе.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "The climb tests philosophy through effort and relationship",
+          "body": "<p>On the hike, father and son walk the same slope but experience it differently. The adult sees rhythm and path; the child feels fatigue and a distant goal. The narrator criticizes fixation on the summit, yet must decide how to treat his son now. The mountain turns abstract attention into a question of shared pace.</p>"
+        }
+      }
+    },
+    {
+      "id": "unequal-load",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Перераспределение груза меняет отношения на тропе",
+          "body": "<p>Отец забирает тяжёлые вещи, оставляя Крису более лёгкую ношу. Это конкретное действие помогает там, где объяснение усталости могло бы только раздражать. Сцена показывает разницу между пониманием чужой проблемы и изменением условий, в которых человек её несёт. Забота получает вес в буквальном смысле и перестаёт быть только точным описанием.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "Redistributing the load changes the relationship on the trail",
+          "body": "<p>The father takes heavier items and leaves Chris a lighter load. Concrete action helps where an explanation of fatigue might only irritate. The scene distinguishes understanding another person’s difficulty from changing the conditions under which they bear it. Care acquires literal weight and becomes more than an accurate description of somebody else’s problem.</p>"
+        }
+      }
+    },
+    {
+      "id": "turning-back",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Отказ от вершины может быть разумным решением",
+          "body": "<p>Рассказчик решает не продолжать опасное восхождение. Крис воспринимает это иначе, через ожидание достижения и смелости. Ни физическая вершина, ни философская не является обязательной наградой за уже понесённые затраты. Однако правильность разворота не отменяет необходимости объяснить его спутнику: хорошее решение может оставаться плохо разделённым решением.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "Turning away from the summit can be a reasonable decision",
+          "body": "<p>The narrator decides against continuing a dangerous ascent. Chris sees the choice differently, through expectations of achievement and courage. Neither a physical nor philosophical summit becomes mandatory because effort has already been invested. Yet turning back wisely does not remove the need to explain it to a companion: a sound decision may still be poorly shared.</p>"
+        }
+      }
+    },
+    {
+      "id": "courage-forms",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Осторожность и отвага могут выглядеть противоположно",
+          "body": "<p>Для Криса смелость связана с продолжением подъёма. Для отца она может означать отказ идти дальше. Наша интерпретация сцены: один и тот же поступок оценивается через разные истории ожидания. Чтобы действовать вместе, недостаточно знать риск; нужно понять, почему другой человек переживает отказ как потерю смысла или достоинства.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "Caution and courage can look like opposites",
+          "body": "<p>For Chris, courage means continuing upward. For the father, it may mean declining to proceed. Our interpretation is that one act is evaluated through different histories of expectation. Acting together requires more than knowing the risk: it requires understanding why another person experiences a refusal as a loss of meaning, dignity, or promised achievement.</p>"
+        }
+      }
+    },
+    {
+      "id": "summit-metaphor",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VI · Высота и спуск",
+          "title": "Высота расширяет обзор и сокращает населённость",
+          "body": "<p>Образ философской вершины соблазняет обещанием увидеть всё сразу. Но на вершине мало людей и мало повседневной жизни. В нашем чтении спуск не равен поражению мысли. Он означает возвращение к проверке: что открытие меняет в работе, разговоре и ответственности? Модель, которая не переносит этого возвращения, остаётся опасно одинокой.</p>"
+        },
+        "en": {
+          "section": "VI · Ascent and descent",
+          "title": "Altitude widens the view and thins human company",
+          "body": "<p>The philosophical summit tempts with the promise of seeing everything at once. Yet summits contain little human company or everyday life. In our reading, descent need not mean thought’s defeat. It returns an insight to testing: what changes in work, conversation, and responsibility? A model unable to survive that return remains dangerously solitary.</p>"
+        }
+      }
+    },
+    {
+      "id": "poincare-selection",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Пуанкаре возвращает ценность внутрь открытия",
+          "body": "<p>Рассказчик обращается к Пуанкаре, чтобы показать: математическое открытие требует отбора среди огромного числа возможных сочетаний. Проверка правильности ещё не выбирает то, что достойно проверки. Чувство порядка и красоты помогает найти плодотворный путь. Так научная строгость и оценивание оказываются сотрудниками, а не противоположностями, хотя итог всё равно нуждается в проверке.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Poincaré brings value inside discovery",
+          "body": "<p>The narrator turns to Poincaré to show that mathematical discovery requires selection among vast possible combinations. Checking correctness does not choose what deserves checking. A sense of order and beauty helps identify a fruitful route. Scientific rigour and evaluation become collaborators rather than opposites, while the result must still undergo verification.</p>"
+        }
+      }
+    },
+    {
+      "id": "geometry-convention",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Выбор описания нельзя свести к голому факту",
+          "body": "<p>Через геометрии Пуанкаре рассказчик обсуждает отношение опыта и условностей описания. Разные системы могут быть логически допустимыми; вопрос их пригодности зависит от задачи и связи с опытом. Здесь не утверждается, что любая геометрия одинаково удобна всегда. Важен сам акт выбора рамки, который привычный рассказ о методе часто оставляет за кадром.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Choosing a description exceeds a bare fact",
+          "body": "<p>Through Poincaré’s geometries, the narrator examines experience and descriptive conventions. Different systems can be logically admissible; their suitability depends on the task and relation to experience. This does not make every geometry equally convenient everywhere. The important move is selecting a framework, something a familiar account of method often leaves outside the picture.</p>"
+        }
+      }
+    },
+    {
+      "id": "classical-beauty",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Красота структуры отличается от приятного впечатления",
+          "body": "<p>Красота, о которой здесь идёт речь, связана с отношениями частей, экономией и порядком мысли. Её не обязательно увидеть с первого взгляда на формулу. Рассказчик использует это, чтобы оспорить монополию романтического чувства на красоту. Рациональная работа сама может переживаться как открытие хорошего, не переставая быть требовательной к доказательству.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Structural beauty differs from a pleasing impression",
+          "body": "<p>The beauty at stake concerns relations among parts, economy, and order in thought. It may not be visible at a first glance at a formula. The narrator uses this to challenge romantic feeling’s exclusive claim to beauty. Rational work can itself be experienced as discovering something good without becoming less demanding about proof.</p>"
+        }
+      }
+    },
+    {
+      "id": "narrator-research",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Пуанкаре принадлежит подготовке рассказчика, не памяти Федра",
+          "body": "<p>Рассказчик уточняет, что Федр не знал рассматриваемых работ Пуанкаре, а он изучал их, готовя Шатокуа. Это маленькое различие удерживает два интеллектуальных времени. Мысль не просто извлекается из прошлого неповреждённой: нынешний рассказчик сопоставляет, дополняет и проверяет её. Поэтому не каждый довод беседы следует приписывать прежней личности в тот же момент.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Poincaré belongs to the narrator’s research, not Phaedrus’s memory",
+          "body": "<p>The narrator specifies that Phaedrus did not know the Poincaré works under discussion; he studied them while preparing the Chautauqua. This small distinction preserves two intellectual times. Thought is not merely retrieved intact from the past: the present narrator compares, supplements, and examines it. Not every argument in the discourse should be assigned to the earlier self.</p>"
+        }
+      }
+    },
+    {
+      "id": "poincare-primary-check",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Первичный Пуанкаре поддерживает узкий тезис",
+          "body": "<p>В «Математическом творчестве» Пуанкаре различает случайные сочетания и те, что оказываются полезными и красивыми для математика. Эстетическая чувствительность участвует в отборе, а сознательная работа проверяет результат. Это действительно поддерживает вопрос Пирсига о выборе гипотез. Но от роли оценки в открытии до первичности Качества как реальности остаётся самостоятельный философский переход.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Poincaré’s own account supports a narrower claim",
+          "body": "<p>In Mathematical Creation, Poincaré distinguishes arbitrary combinations from those that prove useful and beautiful to the mathematician. Aesthetic sensitivity participates in selection, while conscious work verifies results. This supports Pirsig’s question about choosing hypotheses. Moving from evaluation’s role in discovery to Quality’s priority as reality, however, remains a separate philosophical step requiring its own defence.</p>"
+        }
+      }
+    },
+    {
+      "id": "stripped-screw",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Сорванный шлиц ломает не только винт, но и план",
+          "body": "<p>Маленький повреждённый винт может остановить весь ремонт. Инструкция больше не помогает, а раздражение делает ситуацию хуже. Рассказчик использует застревание, чтобы показать предел готового знания: нужно не ещё сильнее исполнять прежний план, а увидеть новую задачу. В этот момент внимание к конкретной вещи важнее желания доказать собственную компетентность.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "A stripped screw defeats a plan as well as a tool",
+          "body": "<p>A tiny damaged screw can stop an entire repair. The manual no longer helps, and irritation makes matters worse. The narrator uses stuckness to expose the limit of prepared knowledge: the task is not to execute the old plan more forcefully but to perceive a new problem. Attention to the particular thing outranks proving one’s competence.</p>"
+        }
+      }
+    },
+    {
+      "id": "stuckness-opening",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Застревание может открыть то, что скрывал навык",
+          "body": "<p>Пока работа идёт привычно, человек видит в винте дешёвую второстепенную деталь. Когда ремонт остановился, прежняя оценка перестаёт работать. Рассказчик предлагает задержаться в этом изменении значимости, а не немедленно заглушить его злостью. Новая гипотеза появляется из готовности увидеть то, что до препятствия казалось слишком неважным для внимания.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Stuckness can reveal what routine concealed",
+          "body": "<p>While work proceeds routinely, the screw appears cheap and insignificant. Once it halts the repair, the old evaluation fails. The narrator proposes staying with that altered significance rather than immediately suppressing it with anger. A new hypothesis can emerge from willingness to see what seemed too unimportant to notice before the obstruction appeared.</p>"
+        }
+      }
+    },
+    {
+      "id": "screw-value",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Цена детали и её значение в ситуации расходятся",
+          "body": "<p>Рыночная цена винта почти ничего не говорит о его роли, когда без него невозможно продолжить работу. Наш вывод из примера: ценность связана с отношением и зависимостью, а не только с устойчивым ярлыком на предмете. Это полезное различие, но оно не означает, что любое сильное переживание автоматически делает оценку точной.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "A part’s price and situational importance can diverge",
+          "body": "<p>A screw’s market price says little about its role when work cannot proceed without it. Our inference is that value involves relationships and dependencies rather than only a stable label on an object. This distinction is useful, but it does not mean that the intensity of an experience automatically makes a judgment accurate or proportionate.</p>"
+        }
+      }
+    },
+    {
+      "id": "cultivated-feel",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Техническое чутьё можно развивать через контакт",
+          "body": "<p>Рассказчик не считает хорошее суждение лишь врождённым даром. Чутьё становится точнее, когда человек внимательно работает, ошибается и замечает последствия. Это не альтернатива знанию устройства, а способ оживить его в ситуации. Сухая схема без чуткости недостаточна; одна чуткость без изучения и проверки также не объясняет, как надёжно починить машину.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Technical feel can develop through engagement",
+          "body": "<p>The narrator does not treat sound judgment as merely an inborn gift. Feel becomes more discriminating through attentive work, mistakes, and awareness of consequences. It does not replace structural knowledge; it makes knowledge responsive to the situation. A dry diagram without sensitivity is insufficient, while sensitivity without study and verification does not reliably repair the machine either.</p>"
+        }
+      }
+    },
+    {
+      "id": "force-feedback",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Раздражение превращает препятствие в дополнительный ущерб",
+          "body": "<p>Повреждение винта создаёт техническую проблему; желание немедленно избавиться от унижения добавляет психологическую. Сила начинает заменять наблюдение, и ущерб растёт. В нашем чтении пауза полезна не потому, что бездействие волшебно, а потому, что она разрывает петлю. Человек получает шанс снова спросить, с чем именно имеет дело и какой следующий шаг обратим.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Irritation can turn an obstacle into additional damage",
+          "body": "<p>The damaged screw creates a technical problem; a wish to escape humiliation creates another. Force replaces observation and damage grows. In our reading, pausing helps not because inactivity is magical, but because it interrupts the loop. The worker can ask again what the actual problem is and which next move can be reversed if mistaken.</p>"
+        }
+      }
+    },
+    {
+      "id": "art-relationship",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Искусство определяется качеством отношения, а не украшением",
+          "body": "<p>Рассказчик ищет искусство в самом выполнении работы. Красивую оболочку можно добавить к плохо устроенной вещи, не устранив её отчуждённости. Поэтому соединение искусства и технологии требует изменения процесса, а не косметики. Важен момент, когда человек перестаёт навязывать материалу мёртвый план и начинает отвечать на то, что работа обнаруживает.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Art depends on the quality of engagement, not decoration",
+          "body": "<p>The narrator locates art within the doing of the work. An attractive shell can be added to a badly made thing without overcoming alienation. Joining art and technology therefore requires changing the process rather than applying cosmetics. What matters is the moment when a worker stops imposing a dead plan and responds to what the task reveals.</p>"
+        }
+      }
+    },
+    {
+      "id": "decoration-limit",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Украшение не лечит разрыв между человеком и вещью",
+          "body": "<p>Если технологию воспринимают как внутренне безобразную, к ней легко предложить художественную добавку: форму, рисунок, приятную поверхность. Рассказчик считает такой компромисс недостаточным. Дизайн должен входить в понимание и изготовление предмета. При этом речь не о запрете орнамента: поверхностная красота не может одна выполнять работу, которую должны делать структура и забота.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "Decoration does not heal the divide between person and thing",
+          "body": "<p>If technology is experienced as inherently ugly, an artistic addition seems tempting: shape, pattern, an agreeable surface. The narrator considers this compromise insufficient. Design must enter understanding and making. This does not ban ornament; it means surface beauty cannot alone perform the work that structure, responsiveness, and care should already be doing within the object’s creation.</p>"
+        }
+      }
+    },
+    {
+      "id": "inner-outer",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Внешнее совершенство связано с внутренней работой",
+          "body": "<p>Порядок в работе зависит от того, как человек замечает собственную спешку, страх и самолюбие. Поэтому уход за машиной оказывается также наблюдением за собой. Но это не призыв бесконечно анализировать чувства вместо действия. Напротив, конкретная задача даёт внешнюю проверку: видны последствия движения руки, решения и пропущенного сигнала.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "External workmanship is connected to inward work",
+          "body": "<p>Order in work depends on noticing one’s own haste, fear, and self-importance. Maintaining a machine therefore also involves observing oneself. This does not call for endless emotional analysis instead of action. The concrete task supplies an external check: consequences of a hand movement, decision, or missed signal become visible in the work itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "ritual-boundary",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VII · Открытие и работа",
+          "title": "Ритуал внимания полезен лишь пока остаётся отзывчивым",
+          "body": "<p>Можно превратить и внимательность в механическое правило: всегда замедляйся, всегда успокаивайся, всегда начинай заново. Но ситуация может требовать быстрого действия или помощи специалиста. Наше ограничение: принцип заботы нельзя заморозить в универсальный жест. Его смысл — лучше отвечать реальности, а не демонстрировать правильное состояние независимо от того, что происходит.</p>"
+        },
+        "en": {
+          "section": "VII · Discovery and work",
+          "title": "An attention ritual helps only while it remains responsive",
+          "body": "<p>Attention itself can become a mechanical rule: always slow down, always calm yourself, always start again. A situation may instead require prompt action or specialist help. Our qualification is that care cannot be frozen into a universal gesture. Its purpose is greater responsiveness to reality rather than displaying the correct inner state regardless of what is happening.</p>"
+        }
+      }
+    },
+    {
+      "id": "gumption-fuel",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Сметка — запас энергии для вовлечённой работы",
+          "body": "<p>Под сметкой рассказчик понимает не только ловкость, но и живую готовность разбираться, пробовать и продолжать. Он сравнивает её с топливом, необходимым инструментам. Если работа разрушает интерес, один технический план не восстановит движение. Поэтому важна диагностика не только машины, но и условий, которые истощают способность человека внимательно с ней работать.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Gumption is the energy of engaged work",
+          "body": "<p>By gumption the narrator means more than cleverness: a living readiness to investigate, try, and persist. He treats it as fuel that tools themselves require. If work destroys interest, a technical plan alone cannot restore movement. Diagnosis must therefore include not only the machine but the conditions draining a person’s capacity to engage attentively with it.</p>"
+        }
+      }
+    },
+    {
+      "id": "setbacks-hangups",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Внешняя задержка и внутренний блок требуют разных ответов",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>Внешняя задержка</strong><p>Нужной детали нет в руках.</p></div><div class=\"compare-item\"><strong>Внутренний блок</strong><p>Неприятный факт не допускается в мысль.</p></div></div><p>Рассказчик различает препятствия обстоятельств и отношения работника. Это не жёсткое разделение мира и психики: одно усиливает другое. Но новый инструмент не всегда устраняет блок, а самонаблюдение не заменяет недостающую запчасть. Причину задержки важно распознать, прежде чем выбирать ответ.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "External setbacks and internal hang-ups need different responses",
+          "body": "<div class=\"compare\"><div class=\"compare-item\"><strong>External setback</strong><p>The required part is unavailable.</p></div><div class=\"compare-item\"><strong>Internal hang-up</strong><p>An unwelcome fact cannot enter thought.</p></div></div><p>The narrator distinguishes circumstances from the worker’s attitude. This is not a rigid division between world and mind: each affects the other. Another tool does not always remove a hang-up, while introspection cannot replace a missing component. Identify the obstacle before choosing a response.</p>"
+        }
+      }
+    },
+    {
+      "id": "assembly-sequence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Ошибка сборки наказывает за потерю последовательности",
+          "body": "<p>Почти законченный ремонт может потребовать полной разборки из-за пропущенной детали. Такая задержка особенно разрушает энтузиазм: мысленно работа уже закончена. Рассказчик предлагает внешнюю память — порядок размещения деталей и записи. Здесь забота выглядит непримечательно. Не героическое вдохновение, а сохранённая последовательность предотвращает повторение усилий и ненужную потерю сметки.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "An assembly error exposes a lost sequence",
+          "body": "<p>An almost finished repair may need dismantling because a part was omitted. This setback is especially dispiriting because the work was mentally already complete. The narrator recommends external memory through ordered parts and notes. Care looks unglamorous here: preserving sequence, rather than heroic inspiration, prevents repeated labour and an avoidable drain of gumption.</p>"
+        }
+      }
+    },
+    {
+      "id": "intermittent-fault",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Исчезающая неисправность затрудняет обучение",
+          "body": "<p>Когда проблема появляется не всегда, удачная проверка не означает, что причина найдена. Человек может принять случайное исчезновение симптома за собственную победу. Рассказчик связывает такие неисправности с необходимостью терпеливого наблюдения и точных условий проверки. Препятствие здесь — слабая обратная связь: результат не сразу объясняет, было ли действие действительно полезным.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "An intermittent fault makes learning harder",
+          "body": "<p>When a fault is intermittent, a successful test does not mean its cause has been found. Someone may mistake the symptom’s accidental disappearance for a repair. The narrator connects such failures with patient observation and precise test conditions. Weak feedback is the obstacle: an immediate result does not reliably show whether the intervention actually helped.</p>"
+        }
+      }
+    },
+    {
+      "id": "parts-setback",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Поиск запчастей тоже входит в реальный ремонт",
+          "body": "<p>Замысел ремонта предполагает нужные материалы, но их наличие, совместимость и получение могут поглотить больше сил, чем сама операция. Рассказчик включает такие задержки в карту сметки. Это расширяет понятие работы: недостаточно знать, как должно быть устроено решение. Нужно учитывать путь, по которому необходимые средства реально оказываются у человека в руках.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Obtaining parts belongs to the real work of repair",
+          "body": "<p>A repair plan assumes needed materials, yet availability, compatibility, and obtaining them can consume more energy than the operation itself. The narrator includes these setbacks in his gumption map. Work becomes broader than knowing how a solution should function: it includes the route by which the necessary means actually reach the worker’s hands.</p>"
+        }
+      }
+    },
+    {
+      "id": "value-rigidity",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Жёсткая оценка способна сделать факт невидимым",
+          "body": "<p>Самая важная внутренняя ловушка — неспособность переоценить увиденное. Факт находится перед глазами, но кажется слишком незначительным или несовместимым с прежним объяснением. Поэтому проблема не всегда в недостатке информации. Иногда нужно изменить её вес. Качество в работе проявляется как готовность позволить новой детали перестроить саму постановку задачи.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "A rigid valuation can make a fact invisible",
+          "body": "<p>The crucial internal trap is inability to revalue what is seen. A fact sits in plain sight but appears too trivial or incompatible with the existing explanation. Missing information is not always the problem. Sometimes its weight must change. Quality in work includes allowing a newly significant detail to reorganize the very definition of the task.</p>"
+        }
+      }
+    },
+    {
+      "id": "monkey-trap",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Обезьяна удерживает ловушку вместе с добычей",
+          "body": "<p>Притча об обезьяне, не выпускающей рис из кулака, показывает цену неотпускаемой ценности. Чтобы освободиться, нужно отказаться от того, ради чего рука попала в ловушку. Это иллюстрация рассказчика, а не приведённое здесь зоологическое исследование. Она объясняет ситуацию, когда прежняя награда перестала помогать, но продолжает управлять каждым следующим движением.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "The monkey holds on to its trap along with the prize",
+          "body": "<p>The story of a monkey refusing to release rice from its fist illustrates the cost of clinging to a value. Escape requires surrendering what first drew the hand into the trap. This is the narrator’s illustration, not zoological evidence offered here. It explains how an old reward can stop helping while continuing to govern every subsequent move.</p>"
+        }
+      }
+    },
+    {
+      "id": "ego-trap",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Самолюбие выбирает удобные факты",
+          "body": "<p>Если ошибка угрожает представлению о себе, работник начинает защищать образ компетентности вместо машины. Приятная информация кажется достовернее неприятной. Рассказчик связывает это с ценностной ригидностью: факты оцениваются по тому, что делают с самолюбием. Практический поворот состоит в возвращении внимания к работе, где полезная поправка важнее сохранения безупречного портрета себя.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Ego selects the facts that flatter it",
+          "body": "<p>When an error threatens self-image, the worker defends the appearance of competence instead of attending to the machine. Flattering information seems more credible than unwelcome information. The narrator links this to value rigidity: facts are judged by what they do to ego. The practical turn restores attention to work, where a useful correction outweighs an immaculate self-portrait.</p>"
+        }
+      }
+    },
+    {
+      "id": "anxiety-trap",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Тревога может истощить работу ещё до начала",
+          "body": "<p>Рассказчик противопоставляет самоуверенности другую ловушку: человек заранее преувеличивает трудности и собственную неспособность. Он предлагает записывать опасения, читать и раскладывать действия по порядку. Здесь пересказана его ремонтная практика, а не лечение тревожного расстройства. Смысл приёма — превратить неопределённую угрозу в обозримые вопросы, на которые можно отвечать последовательно.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Anxiety can exhaust the work before it begins",
+          "body": "<p>The narrator sets another trap beside overconfidence: magnifying difficulties and personal incapacity before work begins. He suggests writing worries down, reading, and ordering the steps. This reports his repair practice rather than treatment for an anxiety disorder. The technique converts a diffuse threat into manageable questions that can be answered one at a time.</p>"
+        }
+      }
+    },
+    {
+      "id": "boredom-trap",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Скука опасна потерей свежего взгляда",
+          "body": "<p>Когда работа кажется полностью знакомой и бессмысленной, человек перестаёт различать конкретную ситуацию. В книге это сигнал истощения сметки, а не доказательство низкого достоинства задачи. Рассказчик предлагает остановиться или сменить занятие, прежде чем небрежность породит новую ошибку. Повторение не обязательно лишено Качества, но требует возвращения к тому, что действительно происходит сейчас.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Boredom is dangerous when fresh seeing disappears",
+          "body": "<p>When work feels wholly familiar and pointless, the worker stops seeing the particular situation. The book treats this as depleted gumption rather than proof that the task lacks worth. The narrator suggests stopping or changing activity before carelessness produces another error. Repetition need not lack Quality, but requires returning to what is actually happening now.</p>"
+        }
+      }
+    },
+    {
+      "id": "impatience-trap",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Нетерпение начинается с неверного обещания времени",
+          "body": "<p>Человек ждёт быстрого завершения и воспринимает задержку как нарушение должного порядка. Тогда раздражение подменяет оценку задачи. Рассказчик предлагает ослабить жёсткий срок там, где способ работы ещё неизвестен. Проблема не в самом планировании, а в отказе обновить план после новых фактов. Воображаемое расписание не должно становиться сильнее реальной вещи.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Impatience begins with a false promise about time",
+          "body": "<p>The worker expects quick completion and experiences delay as a violation of how things ought to be. Irritation replaces appraisal. The narrator suggests loosening rigid timing when the method is still unfamiliar. Planning itself is not the problem; refusing to revise it after new facts is. An imagined schedule should not overpower the actual thing being worked on.</p>"
+        }
+      }
+    },
+    {
+      "id": "mu-question",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Иногда неверен не ответ, а сам вопрос",
+          "body": "<p>Ловушка истины возникает, когда ситуация не помещается в навязанный выбор «да» или «нет». Рассказчик вводит му как отказ от ложной предпосылки такого вопроса. Это не уход от проверки, а возможность перестроить её. Если оба предложенных ответа искажают происходящее, полезнее спросить иначе, чем героически выбирать менее плохое искажение.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Sometimes the question is wrong before the answer is",
+          "body": "<p>A truth trap arises when a situation does not fit an imposed yes-or-no choice. The narrator introduces mu as rejection of the question’s false premise. This does not evade testing; it can reorganize the test. When both offered answers distort events, asking differently is more useful than heroically selecting the less bad distortion.</p>"
+        }
+      }
+    },
+    {
+      "id": "mu-diagnostic",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Отказ от двоичности должен улучшать диагностику",
+          "body": "<p>В нашем примере вопрос «исправна ли система?» может быть преждевременным, если неизвестно, получает ли она необходимые условия работы. Сначала нужно различить состояние системы и устройство проверки. Му полезно как разрешение сделать это различение. Но им нельзя объявлять неудобный отрицательный результат бессодержательным: новый вопрос должен вернуть проверяемость, а не растворить её.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Rejecting a binary should improve diagnosis",
+          "body": "<p>In our example, asking whether a system works may be premature when it is unknown whether its operating conditions are present. First distinguish system state from test arrangement. Mu permits that distinction. It cannot simply declare an inconvenient negative result meaningless: the revised question should restore testability rather than dissolve it in an endless refusal to answer.</p>"
+        }
+      }
+    },
+    {
+      "id": "muscle-traps",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Тело тоже может попадать в ловушки работы",
+          "body": "<p>Помимо оценивания и рассуждения рассказчик выделяет мышечные ловушки: неудачное положение, неверное усилие, неудобный доступ. Человек способен понимать задачу и всё равно выполнять движение плохо. Поэтому внимание должно доходить до руки и инструмента. Философское единство ума и материи проверяется не красивой формулировкой, а точностью взаимодействия в данном физическом месте.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "The body can fall into traps of workmanship too",
+          "body": "<p>Alongside valuation and reasoning, the narrator identifies muscular traps: poor position, inappropriate force, awkward access. Someone can understand a task yet execute the movement badly. Attention must therefore reach the hand and tool. The philosophical unity of mind and matter is tested through precise engagement in a physical situation rather than through an elegant formulation alone.</p>"
+        }
+      }
+    },
+    {
+      "id": "work-environment",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Хорошее отношение нуждается в подходящих условиях",
+          "body": "<p>Неподходящий инструмент, холод или неудобная поза могут разрушать внимание независимо от намерений. Наш вывод из мышечных ловушек: нельзя возлагать всё Качество на личную мораль работника. Изменение среды тоже является заботой. Призыв быть внимательнее мало помогает, если устройство работы постоянно делает внимательность дорогой, болезненной или практически невозможной.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "A good attitude needs workable conditions",
+          "body": "<p>An unsuitable tool, cold, or awkward posture can undermine attention despite good intentions. Our inference from muscular traps is that Quality should not be placed entirely on the worker’s personal morality. Changing the environment is also care. Demanding more attention achieves little when the work’s arrangement continually makes attention costly, painful, or practically impossible.</p>"
+        }
+      }
+    },
+    {
+      "id": "gumption-no-guarantee",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "VIII · Ловушки сметки",
+          "title": "Сметка поддерживает действие, но не гарантирует победу",
+          "body": "<p>Энергичный язык рассказчика иногда звучит так, будто правильное отношение способно преодолеть любую помеху. Полезно удерживать более ограниченный вывод: без вовлечённости знание плохо действует, однако вовлечённость не отменяет нехватки ресурсов, пределов навыка и чужой власти. Человеческое достоинство не следует измерять тем, удалось ли самостоятельно исправить всё, что сломалось.</p>"
+        },
+        "en": {
+          "section": "VIII · Gumption traps",
+          "title": "Gumption sustains action without guaranteeing success",
+          "body": "<p>The narrator’s energetic language can sound as though the right attitude overcomes every obstruction. A more bounded inference is useful: knowledge works poorly without engagement, but engagement does not abolish limited resources, limited skill, or other people’s power. Human worth should not be measured by whether someone independently manages to repair everything that has gone wrong.</p>"
+        }
+      }
+    },
+    {
+      "id": "chicago-conflict",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "В Чикаго спор о Качестве становится борьбой за рамку",
+          "body": "<p>Федр приходит в университетскую среду, где способы постановки вопроса уже распределены по дисциплинам и методам. Его интерес направлен как раз на основания этого распределения. Поэтому конфликт касается не только ответа. Кто имеет право определить, о чём идёт речь и какой довод допустим? Поиск истины превращается также в столкновение институциональных позиций.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "In Chicago the Quality dispute becomes a struggle over the frame",
+          "body": "<p>Phaedrus enters a university environment where disciplines and methods already allocate ways of asking questions. He wants to examine the foundations of that allocation. The conflict therefore concerns more than answers. Who may define the subject and determine which arguments count? A search for truth also becomes a confrontation among institutional positions and intellectual jurisdictions.</p>"
+        }
+      }
+    },
+    {
+      "id": "rhetoric-dialectic",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Подчинение риторики меняет статус хорошего",
+          "body": "<p>Федр читает отношения риторики и диалектики как историю утраты. Живое искусство убеждения и оценивания оказывается ниже метода, который должен устанавливать истину. В его версии это закрепляет разрыв между хорошим и истинным. Важно видеть полемическую направленность: он не просто пересказывает греков, а ищет историческую сцену собственной философской проблемы.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Subordinating rhetoric changes the standing of the good",
+          "body": "<p>Phaedrus reads the relation between rhetoric and dialectic as a history of loss. The living art of persuasion and evaluation becomes subordinate to a method meant to establish truth. In his account, this hardens the separation between good and true. This is polemical reconstruction: he seeks a historical stage for his own philosophical problem, rather than merely summarizing Greek thought.</p>"
+        }
+      }
+    },
+    {
+      "id": "seminar-power",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Семинар показывает, как авторитет управляет речью",
+          "body": "<p>В воспоминаниях о занятиях спор сопровождается унижением, страхом и борьбой за инициативу. Формальная тема — философия, но практическая среда определяет, кто решится говорить. Федр замечает эту власть и сам вступает в состязание. Сцена задаёт неудобный вопрос: можно ли победить подавляющий способ разговора, воспроизведя его в собственном ответном ударе?</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "The seminar shows authority governing speech",
+          "body": "<p>In recollections of seminars, argument is accompanied by humiliation, fear, and a struggle for initiative. Philosophy is the formal subject, but the practical setting determines who dares speak. Phaedrus recognizes this power and enters the contest himself. Can one defeat a suppressive style of conversation by reproducing it in a retaliatory victory? The scene leaves that question uncomfortable.</p>"
+        }
+      }
+    },
+    {
+      "id": "greek-genealogy",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Федр ищет момент, когда истина отдалилась от хорошего",
+          "body": "<p>Греческая линия связывает Качество с более ранним пониманием достоинства, затем рассказывает о возвышении диалектики и классификации. Для Федра это объяснение культурного раскола, с которого началась поездка. Но перед нами его направленная генеалогия. Она помогает понять роман, даже если не принимать её за окончательный приговор всей античной философии.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Phaedrus seeks the point where truth separated from goodness",
+          "body": "<p>The Greek strand connects Quality with an earlier understanding of excellence, then narrates the rise of dialectic and classification. For Phaedrus, this explains the cultural split with which the journey began. It remains his directed genealogy. It can illuminate the novel without being accepted as a final judgment on the whole of ancient philosophy.</p>"
+        }
+      }
+    },
+    {
+      "id": "arete",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Аретé даёт Федру язык цельного достоинства",
+          "body": "<p>В греческой аретé Федр ищет превосходство, ещё не разделённое на отдельные моральные, технические и эстетические категории. Сопоставление с Качеством и дхармой кажется ему восстановлением утраченной общности. Это философская интерпретация героя, а не установленная тождественность терминов разных традиций. Её работа в романе — показать возможность иной организации ценностей.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Aretē gives Phaedrus a language of undivided excellence",
+          "body": "<p>In Greek aretē, Phaedrus seeks excellence not yet divided into separate moral, technical, and aesthetic categories. Comparison with Quality and dharma appears to restore a lost commonality. This is the character’s philosophical interpretation rather than an established identity among terms from different traditions. Within the novel, it opens the possibility of organizing values differently.</p>"
+        }
+      }
+    },
+    {
+      "id": "plato-primary-check",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        6,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Платоновский «Федр» сложнее карикатуры на разум",
+          "body": "<p>Сам диалог Платона рассматривает любовь, душу, качество речи и заботу о том, кому она адресована. Диалектика здесь связана с попыткой сделать убеждение ответственным перед истиной. Поэтому исторический фон не сводится к убийству живой риторики сухой логикой. Это узкое уточнение ограничивает полемическую картину романа, не отменяя его вопроса о ценности.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Plato’s Phaedrus complicates a caricature of reason",
+          "body": "<p>Plato’s dialogue examines love, the soul, the quality of speech, and care for its audience. Dialectic is connected with making persuasion answerable to truth. The historical background therefore exceeds a story of dry logic killing living rhetoric. This narrow correction limits the novel’s polemical picture without dismissing its underlying question about value.</p>"
+        }
+      }
+    },
+    {
+      "id": "history-boundary",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "История философии не обязана иметь одного виновника",
+          "body": "<p>Роман драматизирует культурный разрыв через столкновение философских фигур. Такая композиция делает проблему зримой, но может чрезмерно выпрямлять историю. У Платона и Аристотеля разные проекты и внутренние напряжения. Полезно читать греческую часть одновременно как аргумент о ценностях и как автопортрет Федра, которому нужен противник, достаточно большой для его собственного вопроса.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Philosophy’s history need not have a single culprit",
+          "body": "<p>The novel dramatizes a cultural division through conflicting philosophical figures. This makes the problem visible but can straighten history too much. Plato and Aristotle have distinct projects and internal tensions. Read the Greek strand both as an argument about values and as a portrait of Phaedrus, who needs an opponent large enough to match his own question.</p>"
+        }
+      }
+    },
+    {
+      "id": "argument-cost",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Победа в споре может сопровождаться потерей связи",
+          "body": "<p>Чем важнее становится для Федра собственная правота, тем меньше остаётся общего языка с окружающими. Непонимание усиливает его резкость, а резкость усиливает непонимание. Книга не позволяет считать интеллектуальную победу достаточным успехом. Вопрос о Качестве возвращается к самому исследователю: что происходит с жизнью, которую должен был сделать целостнее найденный ответ?</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Winning an argument can accompany a loss of connection",
+          "body": "<p>As being right becomes more important to Phaedrus, shared language with others diminishes. Misunderstanding sharpens him, and his sharpness produces more misunderstanding. The book does not let intellectual victory count as sufficient success. The Quality question returns to the investigator: what happens to the life that the discovered answer was meant to make more whole?</p>"
+        }
+      }
+    },
+    {
+      "id": "mythos",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Разум действует внутри унаследованного мира значений",
+          "body": "<p>В рассуждении о мифосе Федр связывает логический порядок с более ранними культурными историями. Даже спорящий с традицией пользуется её языком и предпосылками. Это помогает объяснить силу конфликта: отвергается не отдельное утверждение, а целая карта понятного. Но распознавание культурной рамки само по себе ещё не даёт безопасного места вне всех рамок.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "Reason operates within an inherited world of meaning",
+          "body": "<p>In the mythos discussion, Phaedrus connects logical order with prior cultural narratives. Even someone disputing a tradition uses its language and assumptions. This helps explain the conflict’s force: an entire map of intelligibility is challenged, not just one proposition. Recognizing a cultural frame does not, however, supply a safe position outside every possible frame.</p>"
+        }
+      }
+    },
+    {
+      "id": "sanity-truth",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "IX · Цена правоты",
+          "title": "Истинность идеи и состояние человека нельзя свести друг к другу",
+          "body": "<p>Книга связывает философский поиск с тяжёлым личным кризисом. Но было бы ошибкой считать кризис доказательством ложности идеи или, наоборот, знаком гениальной истинности. Наше различие сохраняет обе проверки: довод нужно оценивать по его основаниям, а страдание человека — воспринимать серьёзно. Роман не становится клинической теорией и не доказывает универсального способа исцеления.</p>"
+        },
+        "en": {
+          "section": "IX · The cost of being right",
+          "title": "An idea’s truth and a person’s condition are different questions",
+          "body": "<p>The book connects philosophical inquiry with a severe personal crisis. The crisis neither disproves an idea nor certifies its truth as genius. Our distinction preserves two tasks: evaluate an argument through its grounds, and take the person’s suffering seriously. The novel does not thereby become a clinical theory or prove a universal method of recovery.</p>"
+        }
+      }
+    },
+    {
+      "id": "ending-warning",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Дальше раскрывается полный финал",
+          "body": "<p class=\"lede\"><strong>Спойлеры финала</strong></p><p>Спойлеры: следующие экраны прямо объясняют стеклянную дверь, возвращение Федра и развязку отношений отца с Крисом. Если важнее пережить открытие в самом романе, остановитесь здесь и вернитесь после чтения. Далее анализируется именно литературное завершение; отдельный экран затем отличит позднюю биографическую трагедию от событий поездки и авторской развязки.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "The full ending is disclosed from here",
+          "body": "<p class=\"lede\"><strong>Ending spoilers</strong></p><p>Spoilers: the following screens explicitly explain the glass door, Phaedrus’s return, and the resolution between father and Chris. If experiencing discovery in the novel matters more, stop here and return after reading. What follows examines the literary ending; a later screen separately distinguishes subsequent biographical tragedy from the journey and its authored resolution.</p>"
+        }
+      }
+    },
+    {
+      "id": "shadow-face",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Лицо стража оказывается лицом рассказчика",
+          "body": "<p>Во сне тёмная фигура мешает пройти к Крису через стеклянную дверь. Когда лицо становится видимым, рассказчик узнаёт себя: тот, кто преграждает путь, — его нынешняя защищённая личность. Сон меняет направление угрозы. Федр уже не просто чужой призрак снаружи; разделение проходит внутри того, кто рассказывает и пытается сохранить контроль.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "The guardian’s face proves to be the narrator’s",
+          "body": "<p>In the dream, a dark figure blocks passage through a glass door to Chris. When its face becomes visible, the narrator recognizes himself: his defended present identity bars the way. The threat changes direction. Phaedrus is no longer simply an alien ghost outside; the division runs within the person narrating and trying to remain in control.</p>"
+        }
+      }
+    },
+    {
+      "id": "chris-misses-father",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Крис скучает по отцу, которого рассказчик отвергает",
+          "body": "<p>Крис вспоминает прежние игры, истории и совместные занятия. Его жалоба разрушает предположение, что новая, более спокойная личность автоматически стала лучшим отцом. Рассказчик слышит, что сын тоскует по Федру. Отношения не укладываются в простую схему выздоровления: то, от чего взрослый защищается, ребёнок мог переживать как источник близости.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "Chris misses the father the narrator rejects",
+          "body": "<p>Chris remembers earlier games, stories, and activities together. His complaint disrupts the assumption that a calmer new identity automatically made a better father. The narrator hears that his son misses Phaedrus. Their relationship does not fit a simple recovery story: what the adult defends himself against may have been a source of closeness for the child.</p>"
+        }
+      }
+    },
+    {
+      "id": "planned-separation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Попытка отправить Криса домой обнажает общий страх",
+          "body": "<p>Опасаясь собственного состояния, рассказчик собирается прекратить совместную поездку. Он объясняет это ответственностью, но Крис воспринимает происходящее через страх быть оставленным. Сцена доводит разрыв до предела. Рассуждать о правильном решении больше недостаточно: нужно услышать, что именно сын понимает под уходом отца и какую историю он давно несёт с собой.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "The plan to send Chris home exposes a shared fear",
+          "body": "<p>Fearing his own condition, the narrator plans to end their journey together. He explains this as responsibility, while Chris receives it through fear of abandonment. The scene pushes separation to its limit. Reasoning about a correct decision is no longer enough: he must hear what departure means to his son and what history the boy has carried.</p>"
+        }
+      }
+    },
+    {
+      "id": "hospital-door",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Стеклянная дверь принадлежала их общей истории",
+          "body": "<p>Крис вспоминает больничную дверь, о которой рассказчик не рассказывал ему как о сне. Это раскрывает материальную основу повторяющегося образа. Мальчик думал, что отец не хочет к нему выйти; отец был подчинён больничному порядку. Один эпизод породил разные смыслы. Разговор впервые позволяет сопоставить их, вместо того чтобы каждому оставаться внутри собственной версии.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "The glass door belonged to their shared history",
+          "body": "<p>Chris remembers the hospital door without having been told about the narrator’s dream. This discloses the recurring image’s material basis. The boy thought his father would not come out to him; the father was constrained by hospital arrangements. One event produced different meanings. Conversation finally lets them compare those meanings rather than remain inside separate accounts.</p>"
+        }
+      }
+    },
+    {
+      "id": "identity-return",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Возвращение Федра становится признанием связи",
+          "body": "<p>Рассказчик перестаёт удерживать Федра исключительно как другого человека. Финальное движение направлено к признанию себя тем, от кого он защищался, и к возвращению сыну целого отца. Это литературная интеграция, не медицинская демонстрация. Её смысл в изменении отношения к прошлому и Крису: разделённая история становится основой возможного разговора.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "Phaedrus’s return becomes an acknowledgment of connection",
+          "body": "<p>The narrator stops maintaining Phaedrus exclusively as another person. The ending moves toward acknowledging the self he defended against and returning a whole father to his son. This is literary integration rather than a medical demonstration. Its meaning lies in a changed relation to the past and to Chris: shared history becomes a basis for possible conversation.</p>"
+        }
+      }
+    },
+    {
+      "id": "view-over-shoulder",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Крис впервые видит дорогу поверх плеч отца",
+          "body": "<p>В последней поездке Крис приподнимается и обнаруживает другой вид мира: раньше спина отца закрывала обзор. Буквальная перемена посадки завершает нравственную тему. Сыну нужен не только ведущий взрослый, но и собственная перспектива. Рассказчик замечает, чего прежде не замечал, а будущий разговор о мотоцикле звучит уже как обещание совместного обучения.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "Chris finally sees the road beyond his father’s shoulders",
+          "body": "<p>During the final ride, Chris rises and discovers another view: his father’s back had obstructed what lay ahead. A literal change of position completes an ethical theme. The son needs his own perspective as well as an adult guide. The narrator notices what he previously missed, and talk of motorcycles becomes a promise of learning together.</p>"
+        }
+      }
+    },
+    {
+      "id": "hope-not-proof",
+      "level": 3,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Финальная надежда не равна гарантии будущего",
+          "body": "<p>Роман завершается ощущением, что дальше станет лучше, при признании неизбежности трудностей. Это пережитая надежда после изменения отношений, а не доказанный прогноз. Даже свободная радость финальной езды содержит рискованные решения, которые не следует превращать в руководство. Наше прочтение оставляет надежде её силу, не подменяя ею сложность дальнейшей жизни.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "The ending’s hope is not a guarantee about the future",
+          "body": "<p>The novel closes with a feeling that things will improve while acknowledging continuing trouble. This is experienced hope after a relational change, not a demonstrated forecast. Even the final ride’s joyful freedom includes risky choices that should not become instructions. Our reading preserves hope’s force without letting it replace the complexity of whatever life follows.</p>"
+        }
+      }
+    },
+    {
+      "id": "later-biography",
+      "level": 3,
+      "claimType": "corroboration",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "X · Финал: спойлеры",
+          "title": "Поздняя смерть Криса не является финалом поездки",
+          "body": "<p>Биографический контекст после романа: Крис был убит в Сан-Франциско в 1979 году. NPR сообщает об этом отдельно от поездки и литературного успеха. Эта трагедия меняет позднее чтение надежды, но не делает финальную сцену тайно предсказательной. В использованном локальном EPUB позднее авторское послесловие не обнаружено; оно не заявлено прочитанным источником.</p>"
+        },
+        "en": {
+          "section": "X · Ending: spoilers",
+          "title": "Chris’s later death is not the journey’s ending",
+          "body": "<p>Later biographical context: Chris was killed in San Francisco in 1979. NPR reports this separately from the journey and the book’s success. The tragedy changes a later reader’s encounter with hope without making the final scene secretly prophetic. No later authorial afterword was identified in the local EPUB, and none is claimed as a consulted source.</p>"
+        }
+      }
+    },
+    {
+      "id": "lila-boundary",
+      "level": 2,
+      "claimType": "corroboration",
+      "sources": [
+        2,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Что остаётся",
+          "title": "Поздняя метафизика не должна незаметно подменять этот роман",
+          "body": "<p>В Lila, опубликованной в 1991 году, Пирсиг развивает метафизику Качества дальше, включая различение динамического и статических уровней. Это полезный контекст, но не содержание, которое следует автоматически вкладывать в каждый эпизод первой книги. Этот сборник удерживает ранний роман как самостоятельный путь: его нерешённость и напряжение не стираются более поздней системой.</p>"
+        },
+        "en": {
+          "section": "XI · What remains",
+          "title": "The later metaphysics should not silently replace this novel",
+          "body": "<p>In Lila, published in 1991, Pirsig develops the metaphysics of Quality further, including dynamic Quality and static levels. That is useful context, but should not automatically be inserted into every episode of the first book. This collector keeps the earlier novel as its own inquiry: its unresolved tensions are not erased by a later system.</p>"
+        }
+      }
+    },
+    {
+      "id": "beyond-craft-recipe",
+      "level": 2,
+      "claimType": "synthesis",
+      "sources": [
+        1,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Что остаётся",
+          "title": "Ремесленное прочтение полезно, пока не поглощает роман",
+          "body": "<p>Современное эссе Джея Каспиана Канга напоминает о притягательности Пирсига для читателя, ищущего достоинство в хорошо выполненной работе. Но наш итог шире ремесленного правила. Книга также спрашивает, что человек не замечает, пока убедительно рассуждает о внимании. Сохраняя дорогу, спор и отцовство вместе, легче сопротивляться превращению романа в удобную максиму.</p>"
+        },
+        "en": {
+          "section": "XI · What remains",
+          "title": "A craft reading helps until it swallows the novel",
+          "body": "<p>Jay Caspian Kang’s modern essay recalls Pirsig’s appeal to readers seeking dignity in work done well. Our conclusion goes beyond a craft maxim. The novel also asks what someone fails to see while speaking convincingly about attention. Keeping road, argument, and fatherhood together helps resist converting the book into a convenient rule that absorbs everything else.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "XI · Что остаётся",
+          "title": "Возвращайте мысль к работе и человеку рядом",
+          "body": "<p>Остаётся модель: встреча с миром делает что-то значимым; внимание выделяет различия; действие проверяет понимание; последствия требуют пересмотра. Качество связывает эти движения, но не избавляет от споров и ограничений. Читайте роман с двумя вопросами: что объясняет философия рассказчика и что его собственная жизнь ещё требует от него увидеть?</p>"
+        },
+        "en": {
+          "section": "XI · What remains",
+          "title": "Return thought to the work and the person beside you",
+          "body": "<p>A durable model remains: an encounter makes something matter; attention distinguishes; action tests understanding; consequences demand revision. Quality connects these movements without abolishing disagreement or limits. Read the novel with two questions together: what does the narrator’s philosophy explain, and what does his own life still require him to notice?</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Library expansion plan
 
-The active expansion queue contains 25 books. All counts are cumulative `Essential / Core / Deep`, include the cover and final screens, and use the approved **Maximum** density. Deeper screens must add a distinct mechanism, case, caveat, application or synthesis; counts are a fidelity contract, not permission to pad.
+The approved expansion queue contains **38 books**: the original 25 plus the 13-book classic-fiction wave approved on 2026-10-31. All counts are cumulative `Essential / Core / Deep`, include the cover and final screens, and use the approved **Maximum** density. Deeper screens must add a distinct mechanism, case, caveat, application or synthesis; counts are a fidelity contract, not permission to pad.
 
 | Section | Book | Counts | Collection | Source boundary |
 | --- | --- | ---: | --- | --- |
@@ -32,35 +32,39 @@ The active expansion queue contains 25 books. All counts are cumulative `Essenti
 
 ## Execution status — 2026-10-31
 
-The catalogue currently registers **24 books / 2,841 screens**, including **20 of the 25 expansion titles** and four pre-existing readers. The current production release is PR #19 (`2e8ccec`): verified 22 books / 2,553 screens. The 24-book catalogue includes the next reviewed pair and awaits its release.
+Candidate catalogue: **25 books / 2,985 screens**, including 21 of 38 expansion titles plus four pre-existing readers. Production last verified after PR #20 (`70937fb`): **24 books / 2,841 screens**. Antifragile is reviewed, repaired and validated for the next release.
 
-- Published: *Mindfulness* and *Behave* after cold-review corrections and standalone matrices of 3,424 and 6,480 visits respectively.
-- Ready for the next release: *Determined* and *Zen and the Art of Motorcycle Maintenance*; all cold-review findings fixed, 4,320 standalone visits per book and whole-library QA passed.
-- In repair: *Antifragile*.
-- Collectors restarted under the approved analytical-digest source boundary: *The Wee Free Men*, *The Hitchhiker’s Guide to the Galaxy*, *Project Hail Mary*. Missing a full EPUB alone is not a blocker; each package still needs enough lawful, claim-level evidence for 24 / 60 / 96 distinct screens and a cold review before publication.
-- Source-blocked: *The Potent Self*. An active controlled loan or supplied purchased EPUB is still needed for the planned fidelity build.
+- Published from the previously pending group: Mindfulness, Behave, Determined and Zen and the Art of Motorcycle Maintenance (PRs #19–20).
+- Ready for release: Antifragile; all evidence findings remediated, 68 audit checks, final 4,320-visit matrix and whole-library/icon-header QA passed.
+- Ready for cold editorial review: The Wee Free Men (13 sources) and The Hitchhiker’s Guide to the Galaxy (8 sources), each 24 / 60 / 96. These source-backed packages are not live and must not be silently counted as published.
+- Project Hail Mary remains unintegrated; the earlier source-blocked result must be resolved with adequate lawful evidence or a concrete replacement. No successful new collector delivery is claimed here.
+- The Potent Self remains source-gated; Pavel asked us to find sufficient lawful sources ourselves or propose a replacement. It is not a dependency of the rest of the queue.
 
-## Proposed next wave — selection pending
+## Approved classic-fiction wave — 2026-10-31
 
-Pavel requested three more books for his 14-year-old son plus classic science-fiction sets for son and adult. The two Strugatsky titles are explicitly requested; the rest are recommendations, not active collector assignments or approved count contracts. The active 25-book queue above is unchanged.
+Pavel approved all thirteen previously proposed titles and a maximum of **six concurrent agents**. All newly launched agents use `codex_codex_2 / gpt-6.1-sol / reasoningEffort max`. Counts retain the existing Maximum-density preference, are stated by the parent before each launch, and remain a no-padding contract. No additional permission step is needed to execute this approved wave.
 
-| Group | Book | Reason to include |
-| --- | --- | --- |
-| Three additional adventures | Jules Verne — *In Search of the Castaways / The Children of Captain Grant* | Journey, persistence and reading incomplete clues; complete English text identified at Project Gutenberg 2083. |
-| Three additional adventures | Jack London — *White Fang* | Survival, cruelty, trust and changed behavior; complete English text identified at Project Gutenberg 910. |
-| Three additional adventures | Veniamin Kaverin — *The Two Captains* | Long pursuit, investigation and responsibility; publisher record at azbooka.ru/books/dva-kapitana. |
-| Son: classic science fiction | Isaac Asimov — *I, Robot* | Reasoning about rules, unexpected consequences and responsibility. |
-| Son: classic science fiction | Alexander Belyaev — *Amphibian Man* | Adventure, difference, exploitation and empathy. |
-| Son: classic science fiction | Arthur C. Clarke — *A Fall of Moondust* | Engineering problem-solving and rescue under constraints. |
-| Son: classic science fiction | Ray Bradbury — *The Martian Chronicles* | Short connected stories about contact, memory and colonization. |
-| Son: explicitly requested | Arkady & Boris Strugatsky — *Monday Begins on Saturday* | Wonder, scientific curiosity, meaningful work and institutional satire. |
-| Adult: explicitly requested | Arkady & Boris Strugatsky — *Hard to Be a God* | Power, violence, intervention and the limits of benevolent reform; later joint reading for the son is an option, not an age classification. |
-| Adult: classic science fiction | Stanisław Lem — *Solaris* | Limits of understanding an alien intelligence; memory and guilt. |
-| Adult: classic science fiction | Philip K. Dick — *Ubik* | Unstable reality and the reliability of experience. |
-| Adult: classic science fiction | Frank Herbert — *Dune*, first novel | Ecology, institutions, religion and charismatic power. |
-| Adult: classic science fiction | Ursula K. Le Guin — *The Left Hand of Darkness* | Trust, culture and assumptions about human differences. |
+| Group | Slug / book | Counts | Work state |
+| --- | --- | ---: | --- |
+| Son: adventure | `children-of-captain-grant` — Jules Verne, The Children of Captain Grant | 36 / 90 / 144 | Collector launched |
+| Son: adventure | `white-fang` — Jack London, White Fang | 24 / 60 / 96 | Collector launched |
+| Son: adventure | `the-two-captains` — Veniamin Kaverin, The Two Captains | 36 / 90 / 144 | Collector launched |
+| Son: science fiction | `i-robot` — Isaac Asimov, I, Robot | 30 / 72 / 112 | Collector launched |
+| Son: science fiction | `amphibian-man` — Alexander Belyaev, Amphibian Man | 24 / 60 / 96 | Next available collector slot |
+| Son: science fiction | `a-fall-of-moondust` — Arthur C. Clarke, A Fall of Moondust | 24 / 60 / 96 | Next available collector slot |
+| Son: science fiction | `the-martian-chronicles` — Ray Bradbury, The Martian Chronicles | 30 / 72 / 112 | Queued |
+| Son: science fiction | `monday-begins-on-saturday` — Arkady & Boris Strugatsky, Monday Begins on Saturday | 30 / 72 / 112 | Collector launched |
+| Adult: science fiction | `hard-to-be-a-god` — Arkady & Boris Strugatsky, Hard to Be a God | 30 / 72 / 112 | Collector launched |
+| Adult: science fiction | `solaris` — Stanisław Lem, Solaris | 30 / 72 / 112 | Queued |
+| Adult: science fiction | `ubik` — Philip K. Dick, Ubik | 30 / 72 / 112 | Queued |
+| Adult: science fiction | `dune` — Frank Herbert, Dune (first novel) | 36 / 90 / 144 | Queued |
+| Adult: science fiction | `the-left-hand-of-darkness` — Ursula K. Le Guin, The Left Hand of Darkness | 36 / 90 / 144 | Queued |
 
-Recommendation/age placement is editorial judgment. Publisher and author pages support book identity and subject; this preliminary screen does not claim that full sources for all thirteen digests are already secured. For the three previously stalled fiction titles, finish the current collectors before deciding on replacements. All future delegates: codex_codex_2 / gpt-6.1-sol / reasoningEffort max; existing Ultra runs keep their settings (Pavel, 2026-10-31).
+Verne and London complete English texts were identified at Project Gutenberg 2083 and 910. Other titles use lawful local editions where actually found, official excerpts, author materials and substantial criticism with explicit access boundaries. Missing full EPUB alone does not block a sufficiently evidenced analytical digest; invented detail and quota padding remain unacceptable. Age placement is an editorial recommendation, not a content-rating certification. Essential/Core preserve the resolution; explicit ending analysis belongs only in Deep.
+
+## Reader UI decision — latest direct instruction
+
+Only a **single compact icon row** in the reader header. Home, chapters, language, sources, theme and the optional iOS instruction trigger share that row. Localized tooltips and accessibility labels stay available; no text labels, text-Home variant, additional install row or floating overlay may take reading space or intercept another control. This explicit instruction supersedes older no-glyph rules for this personal library's header. Focus continues to show only content and Next. Shared source: `skills/book-tiktok/assets/reader-header.html`.
 
 ## Source-access notes
 

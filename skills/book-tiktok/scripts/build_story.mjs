@@ -226,6 +226,7 @@ const replacements = {
   '__MODE_COUNTS__': `${counts.essential},${counts.core},${counts.deep}`,
   '__GEIST_WOFF2__': fs.readFileSync(geistPath).toString('base64'),
   '__GEIST_MONO_WOFF2__': fs.readFileSync(geistMonoPath).toString('base64'),
+  '__READER_HEADER__': fs.readFileSync(path.join(skillDir, 'assets', 'reader-header.html'), 'utf8'),
   '__BOOK_TIKTOK_DATA__': JSON.stringify(data).replace(/<\//g, '<\\/')
 };
 

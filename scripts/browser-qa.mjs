@@ -195,6 +195,8 @@ for (const book of books) {
     const controls = [...document.querySelectorAll('.app-header .topbar a, .app-header .topbar button, .topbar a, .topbar button')]
       .filter(node => getComputedStyle(node).display !== 'none');
     return {
+      iconsOnly: controls.every(node => node.textContent.trim() === '' && node.querySelector('svg[data-reader-icon]') && node.getAttribute('aria-label') && node.title),
+      language: document.documentElement.lang,
       coverInside: [...document.querySelectorAll('.cover-layout .cover-copy, .cover-layout .cover-visual')].every(node => {
         const pane = document.getElementById('story').getBoundingClientRect();
         const rect = node.getBoundingClientRect();
@@ -207,6 +209,7 @@ for (const book of books) {
       onPrimary: getComputedStyle(document.documentElement).getPropertyValue('--color-on-primary').trim()
     };
   })()`);
+  assert(compact.iconsOnly, `${book}: header controls must be accessible icons without text`);
   assert(compact.coverInside, `${book}: cover clipped inside the ${width}px reader pane`);
   assert(compact.inside, `${book}: topbar control escaped the ${width}px viewport`);
   assert(compact.overflow <= 1, `${book}: 320px overflow: ${compact.overflow}px`);
@@ -304,6 +307,29 @@ assert(iosInstall.title === 'Уберите строку Safari' && iosInstall.t
 assert(iosInstall.overflow <= 1, `iOS install guide overflow: ${iosInstall.overflow}px`);
 await evaluate(`bookLibraryInstallClose.click()`);
 assert(await evaluate(`!bookLibraryInstallDialog.open && localStorage.getItem('bookLibrary.installGuide.seen.v2') === 'true'`), 'iOS install guide did not close or remember dismissal');
+await command('Emulation.setDeviceMetricsOverride', { width: 320, height: 568, deviceScaleFactor: 2, mobile: true });
+const iosHeader = await evaluate(`(() => {
+  const controls = [...document.querySelectorAll('.topbar a, .topbar button')];
+  const language = document.getElementById('languageButton').getBoundingClientRect();
+  return {
+    oneRow: controls.every(node => Math.abs(node.getBoundingClientRect().top - language.top) <= 1),
+    reachable: controls.every(node => {
+      const rect = node.getBoundingClientRect();
+      const hit = document.elementFromPoint(rect.x + rect.width / 2, rect.y + rect.height / 2);
+      return rect.left >= -1 && rect.right <= innerWidth + 1 && hit && (hit === node || node.contains(hit));
+    }),
+    position: getComputedStyle(bookLibraryInstallTrigger).position,
+    language: { x: language.x + language.width / 2, y: language.y + language.height / 2 }
+  };
+})()`);
+assert(iosHeader.reachable && iosHeader.oneRow && iosHeader.position === 'static', 'iOS header must remain one reachable 320px icon row');
+const languageBeforeClick = await evaluate(`document.documentElement.lang`);
+for (let activation = 0; activation < 2; activation += 1) {
+  await command('Input.dispatchMouseEvent', { type: 'mousePressed', ...iosHeader.language, button: 'left', clickCount: 1 });
+  await command('Input.dispatchMouseEvent', { type: 'mouseReleased', ...iosHeader.language, button: 'left', clickCount: 1 });
+  assert(await evaluate(`document.documentElement.lang`) === (activation === 0 ? (languageBeforeClick === 'ru' ? 'en' : 'ru') : languageBeforeClick), 'iOS guide intercepted the Language click');
+}
+await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 3, mobile: true });
 await evaluate(`document.documentElement.lang = 'en'; bookLibraryInstallTrigger.click()`);
 assert(await evaluate(`bookLibraryInstallDialog.open && bookLibraryInstallTitle.textContent === 'Remove the Safari bar'`), 'iOS install guide did not localize to English');
 await evaluate(`bookLibraryInstallClose.click(); document.documentElement.setAttribute('data-focus-mode', 'true')`);

@@ -86,7 +86,7 @@ const bookFiles = new Set();
 const bookCoverMotifs = new Set();
 let totalScreens = 0;
 const allowedCoverTypes = new Set(['year', 'constraint', 'split', 'typographic']);
-const allowedCoverMotifs = new Set(['balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge']);
+const allowedCoverMotifs = new Set(['balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response']);
 const allowedCoverTones = new Set(['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'magenta']);
 const allowedAudiences = new Set(['general', 'teen-14-plus', 'adult']);
 const allowedSpoilerPolicies = new Set(['not-applicable', 'spoiler-free', 'full-plot-in-deep']);
@@ -231,6 +231,7 @@ const skillFiles = [
   'SKILL.md',
   'agents/openai.yaml',
   'assets/standalone-template.html',
+  'assets/reader-header.html',
   'assets/story-data.example.json',
   'assets/fonts/Geist-Variable.woff2',
   'assets/fonts/GeistMono-Variable.woff2',

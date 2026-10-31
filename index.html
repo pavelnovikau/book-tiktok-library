@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -668,7 +668,11 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'inherited-path') {
+        if (motif === 'convex-response') {
+          content = '<path class="art-quiet" d="M133 35 V147 H302 M143 139 L294 38 M219 88 V121"/>' +
+            '<path class="art-bold" d="M143 139 C199 139 249 102 294 38"/>' +
+            '<path class="art-line" d="M212 90 H226 M212 120 H226"/><rect class="art-fill" x="289" y="33" width="10" height="10" rx="2"/>';
+        } else if (motif === 'inherited-path') {
           content = '<path class="art-quiet" d="M121 39 C173 39 153 91 205 91 M121 143 C173 143 153 91 205 91 M121 65 H161 M121 117 H161"/>' +
             '<path class="art-bold" d="M121 91 H205 C230 91 230 49 255 49 C280 49 280 133 305 133"/>' +
             '<path class="art-line" d="M205 91 H305 M255 32 V151"/><rect class="art-fill" x="250" y="44" width="10" height="10" rx="2"/>';

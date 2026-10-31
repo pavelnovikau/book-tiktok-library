@@ -14,7 +14,7 @@ Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` 
 - `index.html` reads the catalogue and automatically builds section shelves, cards, search, filters and book/screen/section counters. Every card has its own thesis-driven inline SVG motif and Flexoki tone declared in `books.json`; the validator rejects repeated motifs.
 - Every book remains a standalone HTML file and can be opened without the library shell.
 - `manifest.webmanifest` and `sw.js` let the site run as an iOS/Android Home Screen app. The shell and catalogue are cached immediately; book HTML is cached after it is opened.
-- `scripts/apply-reader-shell.mjs` adds the shared focus mode and optional PWA metadata to registered books. Focus mode toggles by tapping non-interactive text; only the reading content and Next remain.
+- `scripts/apply-reader-shell.mjs` adds shared focus mode, optional PWA metadata and the maintained compact icon header to registered books. The header and optional iOS guide share one row; localized tooltips and accessibility labels explain the icons. Focus mode toggles by tapping non-interactive text; only reading content and Next remain.
 - A push to `main` deploys the production site through Vercel. Pull requests run validation and can receive Vercel previews.
 
 ## Add a book

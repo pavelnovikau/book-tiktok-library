@@ -1,0 +1,1546 @@
+{
+  "schemaVersion": 1,
+  "slug": "seeing-like-a-state",
+  "reviewDate": "2026-10-31",
+  "completedAtUTC": "2026-10-31T21:16:08.678020+00:00",
+  "role": "Fresh independent editorial review, replacing completed collector; work performed directly without subagents",
+  "status": "PASS",
+  "verdict": "PASS",
+  "scope": "Collector candidate plus READY, read-only; original bilingual concise central argument of Scott 1998",
+  "summary": "No required fidelity, bilingual or route-continuity fixes found. Substantial actual primary excerpts support the retained arc. Acceptance is bound to the exact unchanged authoring/HTML hashes, not the writer’s READY claim or technical checks alone.",
+  "book": {
+    "author": "James C. Scott",
+    "title": "Seeing Like a State: How Certain Schemes to Improve the Human Condition Have Failed",
+    "workYear": 1998,
+    "publisher": "Yale University Press",
+    "originalLanguage": "English",
+    "editionBoundary": "1998 work; selected institutional scans, reproduced author excerpts and explicitly indirect Introduction quotation. Linked Yale record is the 1999 paperback, not a substituted original date. No full-printing collation, 2020 reissue substitution or official Russian-translation certification."
+  },
+  "readCounts": {
+    "authoringRuEnPairs": 31,
+    "effectiveHtmlRuEnPairs": 31,
+    "uniqueLanguageTexts": 62,
+    "continuousRoutes": 6,
+    "routeScreenOccurrencesAcrossBothLanguages": 146,
+    "countsIncludingCoverAndFinal": {
+      "essential": 17,
+      "core": 25,
+      "deep": 31
+    }
+  },
+  "candidateAndReadyHashes": [
+    {
+      "path": "collector-output/seeing-like-a-state/story-data.json",
+      "beforeSha256": "e6f2ce4c9c2879dd069e4d5a1bab4f364f30ebdb03e46bdbaf8e1d898b90faa5",
+      "afterSha256": "e6f2ce4c9c2879dd069e4d5a1bab4f364f30ebdb03e46bdbaf8e1d898b90faa5",
+      "bytes": 57676,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/seeing-like-a-state.html",
+      "beforeSha256": "2eff6fe976a50985e288ca3cb91d6a28e52c713ac26bf56607fa800963882be8",
+      "afterSha256": "2eff6fe976a50985e288ca3cb91d6a28e52c713ac26bf56607fa800963882be8",
+      "bytes": 304284,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/sources.md",
+      "beforeSha256": "eac465c9d86fb8881a56dd99a0d9585a6157b0edbabff0e0bc7e569368ed1213",
+      "afterSha256": "eac465c9d86fb8881a56dd99a0d9585a6157b0edbabff0e0bc7e569368ed1213",
+      "bytes": 14831,
+      "unchanged": true
+    },
+    {
+      "path": "collector-output/seeing-like-a-state/QA.md",
+      "beforeSha256": "73e7c32aed1debdb94f1c82dd4f78e94545e2d13bd6d76fd82af0227a66b131b",
+      "afterSha256": "73e7c32aed1debdb94f1c82dd4f78e94545e2d13bd6d76fd82af0227a66b131b",
+      "bytes": 7634,
+      "unchanged": true
+    },
+    {
+      "path": "editorial-audit/2026-10-31/ready/seeing-like-a-state.json",
+      "beforeSha256": "d0e845f41a8d7441a58aa5820a49d86e1a43fac5e8893156e90e51ae26c1bcdc",
+      "afterSha256": "d0e845f41a8d7441a58aa5820a49d86e1a43fac5e8893156e90e51ae26c1bcdc",
+      "bytes": 20959,
+      "unchanged": true
+    }
+  ],
+  "fullScopeIntegrity": {
+    "filesHashedBeforeAndAfter": 39,
+    "allUnchanged": true,
+    "addedOrRemovedCandidateFiles": [],
+    "before": {
+      "collector-output/seeing-like-a-state/QA.md": {
+        "sha256": "73e7c32aed1debdb94f1c82dd4f78e94545e2d13bd6d76fd82af0227a66b131b",
+        "bytes": 7634
+      },
+      "collector-output/seeing-like-a-state/authoring.py": {
+        "sha256": "b1c7c90b845cdc5fcbbfa14d60a7b1650764408314527fcbcb291aba8373ba7c",
+        "bytes": 15112
+      },
+      "collector-output/seeing-like-a-state/browser-qa.mjs": {
+        "sha256": "92abb21be4e316715a5c8353449f28a0ec451d04484f28c4cb981a7d0b93ede1",
+        "bytes": 20284
+      },
+      "collector-output/seeing-like-a-state/build-local.mjs": {
+        "sha256": "0fc32c85e0b6bb7d218e3f87b7ba2811493eaa75e9dd1b1b33b3c1616ec6127e",
+        "bytes": 1800
+      },
+      "collector-output/seeing-like-a-state/check-corpus.mjs": {
+        "sha256": "fd66d8fba9d71b4342eb43f7316e0b9ae857f45db7ab04ce1d4c70aa9978f4d0",
+        "bytes": 2918
+      },
+      "collector-output/seeing-like-a-state/prose-en.md": {
+        "sha256": "e5fbffb1d1a1b1b3d98f0ac6214b66d9d30fa7984458898a815b49d62707525d",
+        "bytes": 12099
+      },
+      "collector-output/seeing-like-a-state/prose-ru.md": {
+        "sha256": "b2514f38bb7416ad4aa0159a71bfe2990a02e09eac6cd84bfa3a3b428d5a43ad",
+        "bytes": 22104
+      },
+      "collector-output/seeing-like-a-state/qa/build-evidence.json": {
+        "sha256": "b21ed170602a0eebb229e43e9e112122a5bc4901f174a750d7d63482e303ad85",
+        "bytes": 692
+      },
+      "collector-output/seeing-like-a-state/qa/corpus-check.json": {
+        "sha256": "91794ce9a3864834ae82bcc41465193ca18242059c644859cadbf160a563e673",
+        "bytes": 3379
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-1024.png": {
+        "sha256": "494ee5ce6d94fea87c501e3255f60d0640c428868dc70edfbf3c777187300176",
+        "bytes": 87953
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-1440.png": {
+        "sha256": "b9685db9d8f9fb37c75adf949d98547854829e9102724851165025302eeb6c4e",
+        "bytes": 102898
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-320.png": {
+        "sha256": "29089cc0e79163fd6320b51676130f8aa8894b5b6523e045fb07ba707507cc83",
+        "bytes": 36105
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-390.png": {
+        "sha256": "b7b958c2b99daefe43b40a0b1e94966d321ef99f1ae8c93d91ea4ebdcba36723",
+        "bytes": 37598
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1024.png": {
+        "sha256": "3b611ef0164b6e4eff1840b337f69962335f772108da69de7cd29fa05839104e",
+        "bytes": 82260
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1440.png": {
+        "sha256": "cf7a2ef046c21d6d5f2dc3dea68184b22306cbe6cebc886a58757dc9bf3231f4",
+        "bytes": 95912
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-320.png": {
+        "sha256": "b2b4a9d8f2292745a207cab8b0a7c2844429f58d66813f42ae24a507a7d44dab",
+        "bytes": 32192
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-390.png": {
+        "sha256": "0886561b7a8adafc6e45a9c49fce0780acc3c5834e26825a8039152aa13331d3",
+        "bytes": 35825
+      },
+      "collector-output/seeing-like-a-state/qa/interactions-1440.json": {
+        "sha256": "a4e583a46f08c3bf88892b16cb9d432a1d74923adef40a7a3dc13b9f5256f334",
+        "bytes": 2004
+      },
+      "collector-output/seeing-like-a-state/qa/interactions-390.json": {
+        "sha256": "190ae48d0112bdfe1a98de71d062982a41921aa4a551611eddede09650572566",
+        "bytes": 2003
+      },
+      "collector-output/seeing-like-a-state/qa/ios-320.json": {
+        "sha256": "5b4fde05eb70ba85fc6ee956a999b07f84d720aa308089622ca9c95c37451ee8",
+        "bytes": 3694
+      },
+      "collector-output/seeing-like-a-state/qa/ios-safe-area-320.png": {
+        "sha256": "82c580e21205b78bbcc89b8831b752a1def933399bd14cf3ffce4898c673a02a",
+        "bytes": 32280
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-1024.png": {
+        "sha256": "bf28958b063d872d6c8eebef27e59ba6fb9e7259935dccf20ea5fe34137faf01",
+        "bytes": 103125
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-1440.png": {
+        "sha256": "a7e153e72aeea1ab93ef233cfeb448bcd06a2c65a708a8d1c813d0c2cc55ba12",
+        "bytes": 117251
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-320.png": {
+        "sha256": "6fa1c62fe705050a7d2770eecd0597e1e7ff3b2c1bd2b3d7b1b7be9aaab7317f",
+        "bytes": 47995
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-390.png": {
+        "sha256": "7209efa28b3da7ed03d759d43d4a67c9982b25c68065b2c400fa6660254f0df7",
+        "bytes": 49437
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1024.png": {
+        "sha256": "1157b59980f9eb2552be3249760afbcb466723791d0297095cf6e3f9698a1d4c",
+        "bytes": 110031
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1440.png": {
+        "sha256": "7de735b7297a79795b94590d61cf045632aed7ebc2fd186b5e2f7778109acc8f",
+        "bytes": 123271
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-320.png": {
+        "sha256": "4091d8584c8cc33616f1f38e5ebee987c61a25d29f91bd266a35370c7e2a606a",
+        "bytes": 51657
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-390.png": {
+        "sha256": "1b91c0d07f16f4f93424a0cb395632322ab2cbbe2641ff86419be21a72946465",
+        "bytes": 57112
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-1024.json": {
+        "sha256": "ab9ce77b0142351d4734153fd8e9b819fcc4ee0f4f8bfd27e60c8adf4c4031e0",
+        "bytes": 4206
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-1440.json": {
+        "sha256": "09999b7df5bcde0b81624a233bbe913e71569bf1a6182decc0bfef054ddab8d3",
+        "bytes": 4211
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-320.json": {
+        "sha256": "93b577fd8f1c59d86c9047d1d0de8188fbf997683ed2965f3dcab3b30a7da06f",
+        "bytes": 4223
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-390.json": {
+        "sha256": "5d06cd546be13c6a97fc54686bd91ed6331a0e36d17693d717a11be5cf2f792d",
+        "bytes": 4205
+      },
+      "collector-output/seeing-like-a-state/qa/source-fetch-evidence.json": {
+        "sha256": "126321ff591c0ee27bc28a69b191e9bb2d44b845e835cfbea69ff6e89cc688f5",
+        "bytes": 1719
+      },
+      "collector-output/seeing-like-a-state/qa/structure.json": {
+        "sha256": "560e035bb764f730ef40b51b3f63ed03f227520d83437525d63bc68c982b3b76",
+        "bytes": 412
+      },
+      "collector-output/seeing-like-a-state/seeing-like-a-state.html": {
+        "sha256": "2eff6fe976a50985e288ca3cb91d6a28e52c713ac26bf56607fa800963882be8",
+        "bytes": 304284
+      },
+      "collector-output/seeing-like-a-state/sources.md": {
+        "sha256": "eac465c9d86fb8881a56dd99a0d9585a6157b0edbabff0e0bc7e569368ed1213",
+        "bytes": 14831
+      },
+      "collector-output/seeing-like-a-state/story-data.json": {
+        "sha256": "e6f2ce4c9c2879dd069e4d5a1bab4f364f30ebdb03e46bdbaf8e1d898b90faa5",
+        "bytes": 57676
+      },
+      "editorial-audit/2026-10-31/ready/seeing-like-a-state.json": {
+        "sha256": "d0e845f41a8d7441a58aa5820a49d86e1a43fac5e8893156e90e51ae26c1bcdc",
+        "bytes": 20959
+      }
+    },
+    "after": {
+      "collector-output/seeing-like-a-state/QA.md": {
+        "sha256": "73e7c32aed1debdb94f1c82dd4f78e94545e2d13bd6d76fd82af0227a66b131b",
+        "bytes": 7634
+      },
+      "collector-output/seeing-like-a-state/authoring.py": {
+        "sha256": "b1c7c90b845cdc5fcbbfa14d60a7b1650764408314527fcbcb291aba8373ba7c",
+        "bytes": 15112
+      },
+      "collector-output/seeing-like-a-state/browser-qa.mjs": {
+        "sha256": "92abb21be4e316715a5c8353449f28a0ec451d04484f28c4cb981a7d0b93ede1",
+        "bytes": 20284
+      },
+      "collector-output/seeing-like-a-state/build-local.mjs": {
+        "sha256": "0fc32c85e0b6bb7d218e3f87b7ba2811493eaa75e9dd1b1b33b3c1616ec6127e",
+        "bytes": 1800
+      },
+      "collector-output/seeing-like-a-state/check-corpus.mjs": {
+        "sha256": "fd66d8fba9d71b4342eb43f7316e0b9ae857f45db7ab04ce1d4c70aa9978f4d0",
+        "bytes": 2918
+      },
+      "collector-output/seeing-like-a-state/prose-en.md": {
+        "sha256": "e5fbffb1d1a1b1b3d98f0ac6214b66d9d30fa7984458898a815b49d62707525d",
+        "bytes": 12099
+      },
+      "collector-output/seeing-like-a-state/prose-ru.md": {
+        "sha256": "b2514f38bb7416ad4aa0159a71bfe2990a02e09eac6cd84bfa3a3b428d5a43ad",
+        "bytes": 22104
+      },
+      "collector-output/seeing-like-a-state/qa/build-evidence.json": {
+        "sha256": "b21ed170602a0eebb229e43e9e112122a5bc4901f174a750d7d63482e303ad85",
+        "bytes": 692
+      },
+      "collector-output/seeing-like-a-state/qa/corpus-check.json": {
+        "sha256": "91794ce9a3864834ae82bcc41465193ca18242059c644859cadbf160a563e673",
+        "bytes": 3379
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-1024.png": {
+        "sha256": "494ee5ce6d94fea87c501e3255f60d0640c428868dc70edfbf3c777187300176",
+        "bytes": 87953
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-1440.png": {
+        "sha256": "b9685db9d8f9fb37c75adf949d98547854829e9102724851165025302eeb6c4e",
+        "bytes": 102898
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-320.png": {
+        "sha256": "29089cc0e79163fd6320b51676130f8aa8894b5b6523e045fb07ba707507cc83",
+        "bytes": 36105
+      },
+      "collector-output/seeing-like-a-state/qa/cover-en-light-390.png": {
+        "sha256": "b7b958c2b99daefe43b40a0b1e94966d321ef99f1ae8c93d91ea4ebdcba36723",
+        "bytes": 37598
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1024.png": {
+        "sha256": "3b611ef0164b6e4eff1840b337f69962335f772108da69de7cd29fa05839104e",
+        "bytes": 82260
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-1440.png": {
+        "sha256": "cf7a2ef046c21d6d5f2dc3dea68184b22306cbe6cebc886a58757dc9bf3231f4",
+        "bytes": 95912
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-320.png": {
+        "sha256": "b2b4a9d8f2292745a207cab8b0a7c2844429f58d66813f42ae24a507a7d44dab",
+        "bytes": 32192
+      },
+      "collector-output/seeing-like-a-state/qa/default-cover-ru-dark-390.png": {
+        "sha256": "0886561b7a8adafc6e45a9c49fce0780acc3c5834e26825a8039152aa13331d3",
+        "bytes": 35825
+      },
+      "collector-output/seeing-like-a-state/qa/interactions-1440.json": {
+        "sha256": "a4e583a46f08c3bf88892b16cb9d432a1d74923adef40a7a3dc13b9f5256f334",
+        "bytes": 2004
+      },
+      "collector-output/seeing-like-a-state/qa/interactions-390.json": {
+        "sha256": "190ae48d0112bdfe1a98de71d062982a41921aa4a551611eddede09650572566",
+        "bytes": 2003
+      },
+      "collector-output/seeing-like-a-state/qa/ios-320.json": {
+        "sha256": "5b4fde05eb70ba85fc6ee956a999b07f84d720aa308089622ca9c95c37451ee8",
+        "bytes": 3694
+      },
+      "collector-output/seeing-like-a-state/qa/ios-safe-area-320.png": {
+        "sha256": "82c580e21205b78bbcc89b8831b752a1def933399bd14cf3ffce4898c673a02a",
+        "bytes": 32280
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-1024.png": {
+        "sha256": "bf28958b063d872d6c8eebef27e59ba6fb9e7259935dccf20ea5fe34137faf01",
+        "bytes": 103125
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-1440.png": {
+        "sha256": "a7e153e72aeea1ab93ef233cfeb448bcd06a2c65a708a8d1c813d0c2cc55ba12",
+        "bytes": 117251
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-320.png": {
+        "sha256": "6fa1c62fe705050a7d2770eecd0597e1e7ff3b2c1bd2b3d7b1b7be9aaab7317f",
+        "bytes": 47995
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-en-light-390.png": {
+        "sha256": "7209efa28b3da7ed03d759d43d4a67c9982b25c68065b2c400fa6660254f0df7",
+        "bytes": 49437
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1024.png": {
+        "sha256": "1157b59980f9eb2552be3249760afbcb466723791d0297095cf6e3f9698a1d4c",
+        "bytes": 110031
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-1440.png": {
+        "sha256": "7de735b7297a79795b94590d61cf045632aed7ebc2fd186b5e2f7778109acc8f",
+        "bytes": 123271
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-320.png": {
+        "sha256": "4091d8584c8cc33616f1f38e5ebee987c61a25d29f91bd266a35370c7e2a606a",
+        "bytes": 51657
+      },
+      "collector-output/seeing-like-a-state/qa/mat-isa-ru-dark-390.png": {
+        "sha256": "1b91c0d07f16f4f93424a0cb395632322ab2cbbe2641ff86419be21a72946465",
+        "bytes": 57112
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-1024.json": {
+        "sha256": "ab9ce77b0142351d4734153fd8e9b819fcc4ee0f4f8bfd27e60c8adf4c4031e0",
+        "bytes": 4206
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-1440.json": {
+        "sha256": "09999b7df5bcde0b81624a233bbe913e71569bf1a6182decc0bfef054ddab8d3",
+        "bytes": 4211
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-320.json": {
+        "sha256": "93b577fd8f1c59d86c9047d1d0de8188fbf997683ed2965f3dcab3b30a7da06f",
+        "bytes": 4223
+      },
+      "collector-output/seeing-like-a-state/qa/matrix-390.json": {
+        "sha256": "5d06cd546be13c6a97fc54686bd91ed6331a0e36d17693d717a11be5cf2f792d",
+        "bytes": 4205
+      },
+      "collector-output/seeing-like-a-state/qa/source-fetch-evidence.json": {
+        "sha256": "126321ff591c0ee27bc28a69b191e9bb2d44b845e835cfbea69ff6e89cc688f5",
+        "bytes": 1719
+      },
+      "collector-output/seeing-like-a-state/qa/structure.json": {
+        "sha256": "560e035bb764f730ef40b51b3f63ed03f227520d83437525d63bc68c982b3b76",
+        "bytes": 412
+      },
+      "collector-output/seeing-like-a-state/seeing-like-a-state.html": {
+        "sha256": "2eff6fe976a50985e288ca3cb91d6a28e52c713ac26bf56607fa800963882be8",
+        "bytes": 304284
+      },
+      "collector-output/seeing-like-a-state/sources.md": {
+        "sha256": "eac465c9d86fb8881a56dd99a0d9585a6157b0edbabff0e0bc7e569368ed1213",
+        "bytes": 14831
+      },
+      "collector-output/seeing-like-a-state/story-data.json": {
+        "sha256": "e6f2ce4c9c2879dd069e4d5a1bab4f364f30ebdb03e46bdbaf8e1d898b90faa5",
+        "bytes": 57676
+      },
+      "editorial-audit/2026-10-31/ready/seeing-like-a-state.json": {
+        "sha256": "d0e845f41a8d7441a58aa5820a49d86e1a43fac5e8893156e90e51ae26c1bcdc",
+        "bytes": 20959
+      }
+    }
+  },
+  "readyManifestTreatment": "Read as a writer handoff; not an approval. All four deliverable hashes and implementation report hash independently match. The independent PASS in this report is based on the reading and passage checks recorded here.",
+  "documentsRead": [
+    "editorial-audit/2026-10-31/BRIEF.md",
+    "CONTRIBUTING.md",
+    "skills/book-tiktok/SKILL.md",
+    "skills/book-tiktok/references/content-model.md",
+    "skills/book-tiktok/references/data-contract.md",
+    "skills/book-tiktok/references/html-spec.md",
+    "collector-output/seeing-like-a-state/story-data.json",
+    "collector-output/seeing-like-a-state/seeing-like-a-state.html",
+    "collector-output/seeing-like-a-state/sources.md",
+    "collector-output/seeing-like-a-state/QA.md",
+    "editorial-audit/2026-10-31/ready/seeing-like-a-state.json",
+    "editorial-audit/2026-10-31/books/seeing-like-a-state-sol-implementation.md",
+    "collector-output/seeing-like-a-state/qa/source-fetch-evidence.json",
+    "collector-output/seeing-like-a-state/build-local.mjs",
+    "collector-output/seeing-like-a-state/check-corpus.mjs"
+  ],
+  "actualSourcesRead": [
+    {
+      "sourceId": 1,
+      "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+      "access": "Read official publisher description; direct HTTP 200 and web text available",
+      "actuallyRead": "Title/subtitle, author, paperback ISBN 9780300078152 and 8 February 1999 listing, four conditions and description of the central argument. Not book text or evidence of a 1999 original work."
+    },
+    {
+      "sourceId": 2,
+      "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+      "access": "Direct PDF, temporary OCR",
+      "sha256": "011829fa98f365b5a42d05c65d9b31fd9d6d6151087b7df4850fb84e76acb85f",
+      "bytes": 7714506,
+      "pdfPages": 22,
+      "actuallyRead": "Printed pp. 11–15, 18–23, 34–37. OCR generated for the file; other pages were not read as evidence. Paired scans show the real jump from printed p. 15 to p. 18.",
+      "notRead": "Missing pp. 16–17; continuous complete chapter or whole book.",
+      "support": "Fiscal selection; excluded uses; remaking the forest; initial returns before later soil/ecological damage; restoration; cadastral property; observer-relative legibility and unequal custom."
+    },
+    {
+      "sourceId": 3,
+      "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+      "access": "Direct PDF, reoriented temporary OCR",
+      "sha256": "60b28a4f8dc7615c52553e1e42f9215b64de3a582d57817daa891b7ba829e1ca",
+      "bytes": 5014507,
+      "pdfPages": 24,
+      "actuallyRead": "Title page; printed pp. 102–103, 112–130, 132–139. Adjacent p. 131 was also encountered in its paired scan, without adding a Chandigarh claim. Page 102 is the end of chapter 3. Figure pages were inspected through available OCR captions, not independently analyzed as architectural drawings.",
+      "notRead": "Continuous full chapter, complete Chandigarh case, material after p. 139.",
+      "support": "Democratic constraints; Le Corbusier’s doctrines and humane ambitions; Costa/Niemeyer’s actual roles; Brasília’s planned and lived order; Jacobs and actual deli-key example."
+    },
+    {
+      "sourceId": 4,
+      "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+      "access": "Direct PDF, temporary OCR across all 17 course-PDF pages",
+      "sha256": "e8806a60e0fb19596de689394c64c67992d425ba59f471477f30234cd65787e9",
+      "bytes": 6856129,
+      "pdfPages": 17,
+      "actuallyRead": "Chapter text across printed pp. 309–341. Reoriented higher-resolution crop of p. 335 additionally confirms that pesticide use is hypothetical. OCR has scan/margin artifacts; no claim of a perfectly collated transcription.",
+      "notRead": "Complete chapters 6/7 or their notes. Chapter 9 p. 310 is the actual primary boundary for the retained Soviet/Tanzanian recap.",
+      "support": "Formal/informal dependence; work-to-rule and Caterpillar; métis versus codified techne; local piloting; adaptability; Mat Isa; social transmission; unequal access; contract poultry; Meiji collaboration; non-blanket science/state qualification."
+    },
+    {
+      "sourceId": 5,
+      "url": "https://centerforneweconomics.org/publications/excerpt-from-seeing-like-a-state/",
+      "access": "Web text and direct HTTP 200",
+      "actuallyRead": "Reproduced Scott paragraphs on high modernism, limits of critique and practical knowledge; editorial preface read separately. The bibliographic line identifies Yale 1998.",
+      "boundary": "Reject the preface’s erroneous Le Corbusier/Brasília attribution and its external Hayek framing. The apparent includes/excludes error is not used to establish the qualification; chapter 9 pp. 339–341 supplies direct context. This is not full chapter 3."
+    },
+    {
+      "sourceId": 6,
+      "url": "https://web.stanford.edu/~xgzhou/zhou_12_mc.pdf",
+      "access": "Direct institutional PDF; existing text layer",
+      "sha256": "380082b31819d7a7f91fa13ffc5518be999a1185f9b26055a9d15c110c2885bc",
+      "bytes": 451724,
+      "pdfPages": 38,
+      "actuallyRead": "Article printed p. 297 / PDF p. 28: the explicitly attributed Scott Introduction pp. 4–5 quotation, including the four-element conjunction and necessity qualification.",
+      "boundary": "Indirect primary access through Zhou’s quotation, not direct reading of Scott’s Introduction. Zhou’s own later Chinese cases are not imported."
+    },
+    {
+      "sourceId": 7,
+      "url": "https://www.si.edu/object/seeing-state-how-certain-schemes-improve-human-condition-have-failed-james-c-scott%3Asiris_sil_620494",
+      "access": "Could not independently access catalogue content: web tool 404, direct request 403",
+      "actuallyRead": "No catalogue content verified in this review.",
+      "boundary": "Nonblocking bibliographic access limit. Title/author are independently supported by the actual chapter-4 title page and publisher; 1998 target work is also identified in the reproduced Scott excerpt. No substantive case depends on source 7."
+    }
+  ],
+  "independentSourcePdfFetchEvidence": [
+    {
+      "id": "ch1",
+      "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+      "bytes": 7714506,
+      "sha256": "011829fa98f365b5a42d05c65d9b31fd9d6d6151087b7df4850fb84e76acb85f",
+      "pages": 22,
+      "access": "Direct institutional PDF retrieval succeeded after web-tool timeout",
+      "retainedInRepository": false
+    },
+    {
+      "id": "ch4",
+      "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+      "bytes": 5014507,
+      "sha256": "60b28a4f8dc7615c52553e1e42f9215b64de3a582d57817daa891b7ba829e1ca",
+      "pages": 24,
+      "access": "Direct institutional PDF retrieval succeeded after web-tool timeout",
+      "retainedInRepository": false
+    },
+    {
+      "id": "ch9",
+      "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+      "bytes": 6856129,
+      "sha256": "e8806a60e0fb19596de689394c64c67992d425ba59f471477f30234cd65787e9",
+      "pages": 17,
+      "access": "Direct institutional PDF retrieval succeeded after web-tool timeout",
+      "retainedInRepository": false
+    },
+    {
+      "id": "zhou",
+      "url": "https://web.stanford.edu/~xgzhou/zhou_12_mc.pdf",
+      "bytes": 451724,
+      "sha256": "380082b31819d7a7f91fa13ffc5518be999a1185f9b26055a9d15c110c2885bc",
+      "pages": 38,
+      "access": "Direct institutional PDF retrieval succeeded after web-tool timeout",
+      "retainedInRepository": false
+    }
+  ],
+  "retainedWebLinkAccess": [
+    {
+      "id": 1,
+      "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+      "httpStatus": 200,
+      "finalUrl": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+      "bytes": 218655,
+      "sha256": "c2e0fe7a0f9de649f0d834a42f97feb9fad309f6dbfc2d60614d0fb5a81bf8d6",
+      "titleTextPresent": true
+    },
+    {
+      "id": 5,
+      "url": "https://centerforneweconomics.org/publications/excerpt-from-seeing-like-a-state/",
+      "httpStatus": 200,
+      "finalUrl": "https://centerforneweconomics.org/publications/excerpt-from-seeing-like-a-state/",
+      "bytes": 93546,
+      "sha256": "83cb8b0ac076ae3c41987a229e5b105d1f9829e6116d44929ed676725121b396",
+      "titleTextPresent": true
+    },
+    {
+      "id": 7,
+      "url": "https://www.si.edu/object/seeing-state-how-certain-schemes-improve-human-condition-have-failed-james-c-scott%3Asiris_sil_620494",
+      "httpStatus": 403,
+      "finalUrl": "https://www.si.edu/object/seeing-state-how-certain-schemes-improve-human-condition-have-failed-james-c-scott%3Asiris_sil_620494",
+      "bytes": 46803,
+      "sha256": "620eafa6fa050496756b653cdaa7e486cab489ebfafea9971d4a0f0a0ae29860",
+      "titleTextPresent": false
+    }
+  ],
+  "sourceSufficiency": {
+    "verdict": "SUFFICIENT-FOR-RETAINED-ARC",
+    "essentialMissingLinks": [],
+    "reason": "The retained causal chain is supported by actual chapters 1/4/9 and the identified Scott Introduction quotation, rather than reconstructed from a blurb. Missing ch. 1 pp. 16–17 do not block claims already explicit on pp. 15/18. The farming passage is bounded to ch. 9 p. 310. No unsupported later-book, modern-analogy or full-chapter reconstruction is needed.",
+    "notWholeBookCertification": true
+  },
+  "screenChecks": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        1,
+        7
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "Title page",
+          "printedPages": "unnumbered"
+        },
+        {
+          "sourceId": 5,
+          "url": "https://centerforneweconomics.org/publications/excerpt-from-seeing-like-a-state/",
+          "chapter": "Bibliographic line",
+          "printedPages": "not paginated"
+        },
+        {
+          "sourceId": 1,
+          "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+          "chapter": "Publisher record",
+          "printedPages": "not paginated"
+        }
+      ],
+      "assessment": "Work and author match; 1998 original is distinguished from the linked 1999 paperback. Cover asks the central question without a new thesis."
+    },
+    {
+      "screenId": "forest-fiscal-view",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "11–15"
+        }
+      ],
+      "assessment": "Selective fiscal vision is presented as administrative power with excluded dimensions, rather than neutral total knowledge."
+    },
+    {
+      "screenId": "outside-the-ledger",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "12–14"
+        }
+      ],
+      "assessment": "Non-timber uses and the necessity of abstraction are both retained. This is not an objection to every simplification."
+    },
+    {
+      "screenId": "forest-as-plan",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "15, 18"
+        }
+      ],
+      "assessment": "Representation becomes an exercise of power over the actual forest; straight rows, reduced diversity and even ages are directly supported despite missing pp. 16–17."
+    },
+    {
+      "screenId": "first-rotation",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "18–20"
+        }
+      ],
+      "assessment": "Real initial timber and commercial gains precede delayed consequences; no invented yield or immediate-failure story."
+    },
+    {
+      "screenId": "second-rotation",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "20–22"
+        }
+      ],
+      "assessment": "Soil capital, litter/deadwood and vulnerabilities follow the actual delayed mechanism, expressly attributed to Scott."
+    },
+    {
+      "screenId": "virtual-ecology",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "20–22"
+        }
+      ],
+      "assessment": "Nesting boxes, ant colonies, spiders and mixed restoration results under continued monoculture are actual book examples."
+    },
+    {
+      "screenId": "parcel-and-owner",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "35–37"
+        }
+      ],
+      "assessment": "Parcel/owner/tax register is a useful administrative simplification that can change heterogeneous rights; a map is not treated as an innocent mirror."
+    },
+    {
+      "screenId": "simple-for-whom",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "34–36"
+        }
+      ],
+      "assessment": "Legibility remains relative to observer/training. Custom is explicitly unequal; local familiarity does not certify justice."
+    },
+    {
+      "screenId": "high-modernist-promise",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        5,
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 5,
+          "url": "https://centerforneweconomics.org/publications/excerpt-from-seeing-like-a-state/",
+          "chapter": "High-modernism excerpt",
+          "printedPages": "not paginated"
+        },
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "340–341"
+        }
+      ],
+      "assessment": "Ambition to redesign society is differentiated from using science. The high-modernist planner’s certainty is attributed, not prescribed."
+    },
+    {
+      "screenId": "four-elements",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        1,
+        6,
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 6,
+          "url": "https://web.stanford.edu/~xgzhou/zhou_12_mc.pdf",
+          "chapter": "Scott Introduction 4–5 quoted in Zhou",
+          "printedPages": "Zhou 297 / PDF 28"
+        },
+        {
+          "sourceId": 1,
+          "url": "https://yalebooks.yale.edu/book/9780300078152/seeing-like-a-state/",
+          "chapter": "Publisher description",
+          "printedPages": "not paginated"
+        },
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "340"
+        }
+      ],
+      "assessment": "All four are a conjunction: administrative ordering, high-modernist faith, coercive authoritarian power and incapacitated civil society. No individual element is made a sufficient or inevitable cause."
+    },
+    {
+      "screenId": "resistance-matters",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3,
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "3 ending; 4",
+          "printedPages": "102, 129–130"
+        },
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "340"
+        }
+      ],
+      "assessment": "Publicity, representation, political competition and informal resistance can modify implementation; no claim that every plan is total or identical."
+    },
+    {
+      "screenId": "city-of-fixed-needs",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "112–117, especially 115"
+        }
+      ],
+      "assessment": "Le Corbusier’s specified needs and exclusion of plural purposes coexist with real health/sanitation aims."
+    },
+    {
+      "screenId": "brasilia",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "118–121, 125, 130"
+        }
+      ],
+      "assessment": "Costa’s plan and Niemeyer’s buildings are distinguished from Le Corbusier’s doctrinal influence. Humane services and egalitarian aspirations are preserved without calling their achievement automatic."
+    },
+    {
+      "screenId": "without-street-corners",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "120–121, 125–127"
+        }
+      ],
+      "assessment": "Holston is attributed through Scott; functional segregation removes informal meeting opportunities. No resident dialogue or scene is invented."
+    },
+    {
+      "screenId": "unplanned-brasilias",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3,
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "129–130"
+        },
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "309, 340"
+        }
+      ],
+      "assessment": "Workers’ settlement/organization and rich enclaves defeat the classless plan; symbiotic margins remain necessary to the formal center. Poverty is not romanticized."
+    },
+    {
+      "screenId": "jacobs-street",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "133–137"
+        }
+      ],
+      "assessment": "Jacobs’s observed mixed use and nonspecialist street vigilance exemplify experienced functional order, not visual geometry."
+    },
+    {
+      "screenId": "keys-at-deli",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        3
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "135–136"
+        }
+      ],
+      "assessment": "The keys/visitor/deli exchange is Jacobs’s actual example in Scott, including sidewalk familiarity rather than intimate friendship."
+    },
+    {
+      "screenId": "fields-that-survived",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "310"
+        }
+      ],
+      "assessment": "Soviet private plots/informal resource use and Tanzanian resistance/return track Scott’s own recap. No imported chapter-6/7 chronology, scale, village or unsupported causal detail."
+    },
+    {
+      "screenId": "contract-chickens",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "338–339"
+        }
+      ],
+      "assessment": "Prescribed buildings, company birds/feed/operations and farmer capital risk are retained as a private-corporate control example in the 1998 text."
+    },
+    {
+      "screenId": "informal-order",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "309–311, 339–340"
+        }
+      ],
+      "assessment": "Formal instructions depend on unrecognized practices; suppressing them can remove the possibility of repair. No claim that all rules necessarily fail."
+    },
+    {
+      "screenId": "work-to-rule",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "310–311"
+        }
+      ],
+      "assessment": "Work-to-rule and the specifically less effective Caterpillar engineering procedures are real book examples, not advice to the reader."
+    },
+    {
+      "screenId": "metis",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "313–320"
+        }
+      ],
+      "assessment": "Acquired, adaptive, situated skill is differentiated from codified general rules. The word techne is not printed in the digest, but the substantive distinction is preserved; no requirement for extra Greek terminology."
+    },
+    {
+      "screenId": "pilot",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "316–318"
+        }
+      ],
+      "assessment": "Local harbor knowledge complements general navigation; no invented voyage, mishap or rejection of navigational science."
+    },
+    {
+      "screenId": "mat-isa",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "333–334"
+        }
+      ],
+      "assessment": "Actual Malaysian observation: red ants, dry curled nipah leaves as black-ant egg chambers, transfer and saved fruit. No new scene, name or dialogue."
+    },
+    {
+      "screenId": "knowledge-community",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "333–335"
+        }
+      ],
+      "assessment": "Older neighbors’ experience and social conditions of continued observation/transmission are retained, without claiming a homogeneous timeless culture."
+    },
+    {
+      "screenId": "metis-keeps-changing",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "331–335"
+        }
+      ],
+      "assessment": "Métis is dynamic. Pesticide use is explicitly Scott’s conditional supposition, not an event; welcome losses of drudgery skills are retained."
+    },
+    {
+      "screenId": "unequal-access",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "334–335"
+        }
+      ],
+      "assessment": "Monopolies by guild/class/gender/religious groups and wider access through standardized knowledge keep métis from becoming a romantic equality thesis."
+    },
+    {
+      "screenId": "collaboration",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "340"
+        }
+      ],
+      "assessment": "Meiji technical teams investigating farmers’ innovations and laboratory improvement are actual book material, not a modern management analogy."
+    },
+    {
+      "screenId": "public-goods",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        4,
+        5
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "339–341"
+        }
+      ],
+      "assessment": "Citizenship, public health, education and equality before law preserve the qualified defense of state/scientific knowledge; criticism targets universalist pretensions combined with coercive redesign. RU/EN differ naturally in phrasing, without a material causal mismatch."
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "PASS",
+      "candidateSourceIds": [
+        2,
+        3,
+        4
+      ],
+      "primarySupport": [
+        {
+          "sourceId": 2,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch1.pdf",
+          "chapter": "1",
+          "printedPages": "15, 20–22"
+        },
+        {
+          "sourceId": 3,
+          "url": "https://www.csun.edu/~rdavids/150sp09/150readings/Scott_The_High_Modernist_City.pdf",
+          "chapter": "4",
+          "printedPages": "129–137"
+        },
+        {
+          "sourceId": 4,
+          "url": "https://courses.washington.edu/pbaf531/Scott_SeeingState_Ch9.pdf",
+          "chapter": "9",
+          "printedPages": "310–311, 340–341"
+        }
+      ],
+      "assessment": "Closing condenses the retained argument and political/knowledge qualification. It adds no exercise, generic moral, management prescription or blanket anti-government conclusion."
+    }
+  ],
+  "routeReviews": [
+    {
+      "mode": "essential",
+      "language": "ru",
+      "screenCount": 17,
+      "screenIds": [
+        "cover",
+        "forest-fiscal-view",
+        "forest-as-plan",
+        "first-rotation",
+        "second-rotation",
+        "high-modernist-promise",
+        "four-elements",
+        "brasilia",
+        "without-street-corners",
+        "unplanned-brasilias",
+        "fields-that-survived",
+        "informal-order",
+        "metis",
+        "mat-isa",
+        "metis-keeps-changing",
+        "public-goods",
+        "final"
+      ],
+      "continuousReadingCompleted": true,
+      "result": "PASS",
+      "assessment": "Coherent forest selection → enforced reconstruction → first success/delayed damage → high modernism/four conditions → planned/lived Brasília → bounded farming recap → informal dependency → métis/complete Mat Isa case → adaptability/science-state qualification. Mat Isa is introduced before the conditional pesticide reference."
+    },
+    {
+      "mode": "essential",
+      "language": "en",
+      "screenCount": 17,
+      "screenIds": [
+        "cover",
+        "forest-fiscal-view",
+        "forest-as-plan",
+        "first-rotation",
+        "second-rotation",
+        "high-modernist-promise",
+        "four-elements",
+        "brasilia",
+        "without-street-corners",
+        "unplanned-brasilias",
+        "fields-that-survived",
+        "informal-order",
+        "metis",
+        "mat-isa",
+        "metis-keeps-changing",
+        "public-goods",
+        "final"
+      ],
+      "continuousReadingCompleted": true,
+      "result": "PASS",
+      "assessment": "Coherent forest selection → enforced reconstruction → first success/delayed damage → high modernism/four conditions → planned/lived Brasília → bounded farming recap → informal dependency → métis/complete Mat Isa case → adaptability/science-state qualification. Mat Isa is introduced before the conditional pesticide reference."
+    },
+    {
+      "mode": "core",
+      "language": "ru",
+      "screenCount": 25,
+      "screenIds": [
+        "cover",
+        "forest-fiscal-view",
+        "outside-the-ledger",
+        "forest-as-plan",
+        "first-rotation",
+        "second-rotation",
+        "parcel-and-owner",
+        "high-modernist-promise",
+        "four-elements",
+        "resistance-matters",
+        "city-of-fixed-needs",
+        "brasilia",
+        "without-street-corners",
+        "unplanned-brasilias",
+        "jacobs-street",
+        "fields-that-survived",
+        "informal-order",
+        "work-to-rule",
+        "metis",
+        "pilot",
+        "mat-isa",
+        "metis-keeps-changing",
+        "unequal-access",
+        "public-goods",
+        "final"
+      ],
+      "continuousReadingCompleted": true,
+      "result": "PASS",
+      "assessment": "Essential order is intact; excluded forest uses, property, representative constraints, Le Corbusier/Jacobs, work-to-rule, pilotage and unequal access add real reasoning and qualifications without requiring Deep to repair a gap."
+    },
+    {
+      "mode": "core",
+      "language": "en",
+      "screenCount": 25,
+      "screenIds": [
+        "cover",
+        "forest-fiscal-view",
+        "outside-the-ledger",
+        "forest-as-plan",
+        "first-rotation",
+        "second-rotation",
+        "parcel-and-owner",
+        "high-modernist-promise",
+        "four-elements",
+        "resistance-matters",
+        "city-of-fixed-needs",
+        "brasilia",
+        "without-street-corners",
+        "unplanned-brasilias",
+        "jacobs-street",
+        "fields-that-survived",
+        "informal-order",
+        "work-to-rule",
+        "metis",
+        "pilot",
+        "mat-isa",
+        "metis-keeps-changing",
+        "unequal-access",
+        "public-goods",
+        "final"
+      ],
+      "continuousReadingCompleted": true,
+      "result": "PASS",
+      "assessment": "Essential order is intact; excluded forest uses, property, representative constraints, Le Corbusier/Jacobs, work-to-rule, pilotage and unequal access add real reasoning and qualifications without requiring Deep to repair a gap."
+    },
+    {
+      "mode": "deep",
+      "language": "ru",
+      "screenCount": 31,
+      "screenIds": [
+        "cover",
+        "forest-fiscal-view",
+        "outside-the-ledger",
+        "forest-as-plan",
+        "first-rotation",
+        "second-rotation",
+        "virtual-ecology",
+        "parcel-and-owner",
+        "simple-for-whom",
+        "high-modernist-promise",
+        "four-elements",
+        "resistance-matters",
+        "city-of-fixed-needs",
+        "brasilia",
+        "without-street-corners",
+        "unplanned-brasilias",
+        "jacobs-street",
+        "keys-at-deli",
+        "fields-that-survived",
+        "contract-chickens",
+        "informal-order",
+        "work-to-rule",
+        "metis",
+        "pilot",
+        "mat-isa",
+        "knowledge-community",
+        "metis-keeps-changing",
+        "unequal-access",
+        "collaboration",
+        "public-goods",
+        "final"
+      ],
+      "continuousReadingCompleted": true,
+      "result": "PASS",
+      "assessment": "Core order is intact; restoration ecology, observer-relative legibility, deli keys, contract poultry, transmission and Meiji collaboration add supported cases/qualifications. The closing still belongs to Scott’s argument."
+    },
+    {
+      "mode": "deep",
+      "language": "en",
+      "screenCount": 31,
+      "screenIds": [
+        "cover",
+        "forest-fiscal-view",
+        "outside-the-ledger",
+        "forest-as-plan",
+        "first-rotation",
+        "second-rotation",
+        "virtual-ecology",
+        "parcel-and-owner",
+        "simple-for-whom",
+        "high-modernist-promise",
+        "four-elements",
+        "resistance-matters",
+        "city-of-fixed-needs",
+        "brasilia",
+        "without-street-corners",
+        "unplanned-brasilias",
+        "jacobs-street",
+        "keys-at-deli",
+        "fields-that-survived",
+        "contract-chickens",
+        "informal-order",
+        "work-to-rule",
+        "metis",
+        "pilot",
+        "mat-isa",
+        "knowledge-community",
+        "metis-keeps-changing",
+        "unequal-access",
+        "collaboration",
+        "public-goods",
+        "final"
+      ],
+      "continuousReadingCompleted": true,
+      "result": "PASS",
+      "assessment": "Core order is intact; restoration ecology, observer-relative legibility, deli keys, contract poultry, transmission and Meiji collaboration add supported cases/qualifications. The closing still belongs to Scott’s argument."
+    }
+  ],
+  "requiredFindings": [],
+  "requiredFindingCount": 0,
+  "findings": [],
+  "optionalPolish": [],
+  "nonBlockingAccessNotes": [
+    {
+      "sourceId": 7,
+      "screenId": "cover",
+      "location": "Sources dialog / source 7; cover bibliography",
+      "url": "https://www.si.edu/object/seeing-state-how-certain-schemes-improve-human-condition-have-failed-james-c-scott%3Asiris_sil_620494",
+      "result": "NONBLOCKING-ACCESS-LIMIT",
+      "detail": "The exact retained Smithsonian URL was inaccessible in this reviewer’s environment (web-tool 404; direct request 403). I cannot certify that catalogue record from its content. Actual book-title-page/publisher evidence identifies the work; the Scott excerpt also identifies Yale 1998. This is not an unsupported substantive claim or a reason to reject the retained argument.",
+      "optionalAction": "Publisher may check that record in its normal browser or replace it with an accessible bibliographic locator. No reader-prose correction is required."
+    }
+  ],
+  "structuralAudit": {
+    "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/seeing-like-a-state/seeing-like-a-state.html --min-screens 31 --require-bilingual",
+    "executedIndependently": true,
+    "format": "v2",
+    "passes": 69,
+    "failures": [],
+    "warnings": [],
+    "screenCount": 31,
+    "levelCounts": {
+      "1": 17,
+      "2": 8,
+      "3": 6
+    },
+    "modeCounts": {
+      "essential": 17,
+      "core": 25,
+      "deep": 31
+    },
+    "defaults": {
+      "language": "ru",
+      "theme": "dark",
+      "mode": "essential"
+    },
+    "contentMode": "explanatory",
+    "embeddedCorpusBlocks": 1,
+    "allAuthoringFieldsEqualToEffectiveHtml": true,
+    "computedExtraHtmlFields": [
+      "modes"
+    ],
+    "runtimeInspection": "Reader parses this single data block, selects by level and renders its localized body; no content-replacing script found. Book-local CSS hides per-screen source labels and generic cover visual, not the corpus or global Sources dialog.",
+    "sourceCount": 7,
+    "sourceMapsValidAndPreserved": true,
+    "bilingualSharedIdsLevelsAndMaps": true,
+    "readyDeliverableHashesMatch": true,
+    "readyImplementationReportHashMatches": true,
+    "browserRun": false
+  },
+  "actualReadingAndAccessLimits": [
+    "Independent editorial acceptance covers this original bilingual condensation of the central argument, not every chapter or the complete 1998 edition.",
+    "No owned EPUB was consulted and the implementer’s 216-OPF title/author search was not independently rerun. Its reported no-match result is not used as a blanket rejection.",
+    "No continuous whole-book reading, direct full Introduction reading, complete chapters 6/7 reading, complete chapter 4 reading or notes/apparatus collation is claimed.",
+    "Institutional excerpt OCR can contain orientation, margin and recognition artifacts. The p. 335 conditional was additionally checked through reoriented higher-resolution OCR. This is not a certified transcription.",
+    "Historical/ecological mechanisms are checked as Scott’s attributed reasoning, not contemporary independent scientific replication.",
+    "RU/EN semantic parity was reviewed; no published/official Russian translation was consulted or certified.",
+    "No new browser, physical iPhone/PWA, production or visual QA was run. Existing writer QA was read as a self-report. Independent structural audit and effective-corpus checks are reported separately.",
+    "The exact source-7 catalogue content was inaccessible; other retained sources provide the necessary identity and argument support."
+  ],
+  "ownership": {
+    "candidateAndReadyEdited": false,
+    "writerReportEdited": false,
+    "sharedFilesEdited": false,
+    "onlyNewRepositoryFiles": [
+      "editorial-audit/2026-10-31/reviews/seeing-like-a-state.json",
+      "editorial-audit/2026-10-31/reviews/seeing-like-a-state.md"
+    ],
+    "gitPrDeployOrExternalMessaging": false,
+    "subagentsSpawned": 0,
+    "browserOrServerStarted": false,
+    "temporaryPrimaryPdfsImagesAndOcrRemoved": true,
+    "rawPrimaryTextOrScansWrittenToRepository": false
+  },
+  "publisherBoundary": "No publication or integration action taken. Publisher retains latest-shell integration, saved-progress/production checks and release responsibility. This candidate requires no editorial repair under the stated brief."
+}

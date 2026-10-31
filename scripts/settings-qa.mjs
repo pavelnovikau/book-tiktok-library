@@ -8,7 +8,9 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
-const phases = [...Array.from({ length: Math.ceil(catalogue.books.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'review-regressions', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(catalogue.books.length / 8) }, (_, n) => `offline-${n}`)];
+const requestedBooks = process.argv.find(a=>a.startsWith('--books='))?.slice(8).split(',');
+const qaBooks = requestedBooks ? requestedBooks.map(file=>{const b=catalogue.books.find(b=>b.file===file);if(!b)throw Error('Unregistered QA reader '+file);return b;}) : catalogue.books;
+const phases = [...Array.from({ length: Math.ceil(qaBooks.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'review-regressions', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(qaBooks.length / 8) }, (_, n) => `offline-${n}`)];
 const phase = process.argv.find(a => a.startsWith('--phase='))?.slice(8);
 const requestedOrigin = process.argv.find(a => a.startsWith('--origin='))?.slice(9);
 const output = process.env.BOOK_SETTINGS_QA_DIR || fs.mkdtempSync(path.join(os.tmpdir(), 'book-settings-qa-'));
@@ -16,7 +18,7 @@ if (path.resolve(output).startsWith(root + path.sep)) throw Error('Keep QA artif
 fs.mkdirSync(output, { recursive: true });
 if (!phase) {
   for (const next of phases) {
-    const run = spawnSync(process.execPath, [fileURLToPath(import.meta.url), `--phase=${next}`, ...process.argv.filter(a => a.startsWith('--origin='))], { cwd: root, encoding: 'utf8', timeout: 40000, env: { ...process.env, BOOK_SETTINGS_QA_DIR: output } });
+    const run = spawnSync(process.execPath, [fileURLToPath(import.meta.url), `--phase=${next}`, ...process.argv.filter(a => a.startsWith('--origin=') || a.startsWith('--books='))], { cwd: root, encoding: 'utf8', timeout: 40000, env: { ...process.env, BOOK_SETTINGS_QA_DIR: output } });
     process.stdout.write(run.stdout || ''); process.stderr.write(run.stderr || '');
     if (run.status !== 0) process.exit(run.status || 1);
   }
@@ -132,7 +134,7 @@ try {
   await width(320);
 
   if (phase.startsWith('layout-')) {
-    const books = catalogue.books.slice(Number(phase.slice(7)) * 4, Number(phase.slice(7)) * 4 + 4);
+    const books = qaBooks.slice(Number(phase.slice(7)) * 4, Number(phase.slice(7)) * 4 + 4);
     for (const book of books) {
       await navigate(book.file);
       await evaluate(start);
@@ -209,28 +211,30 @@ try {
     assert(await evaluate("BookSettings.set('readingFont','sans'); document.documentElement.dataset.readingFont==='sans'"), 'Cached Sans applies synchronously');
     assert(await evaluate("BookSettings.set('readingFont','serif'); document.documentElement.dataset.readingFont==='serif'"), 'Cached Serif applies synchronously');
 
-    await navigate('hermes-nous.html');
-    await evaluate(start);
-    await press('ArrowRight', 'ArrowRight', 39);
-    for (const lang of ['ru', 'en']) {
-      if (await evaluate(`document.documentElement.lang !== '${lang}'`)) await evaluate(`${language}.click()`);
-      await evaluate("window.__reviewHermesSlide=document.getElementById('story').firstElementChild; window.__reviewHermesKey=document.getElementById('book-tiktok-data') ? 'book-tiktok.hermes-nous.lastScreen' : 'bookHermesNous.lastSlide'; window.__reviewHermesId=localStorage.getItem(window.__reviewHermesKey); if(!window.__reviewHermesId) throw Error('Hermes must have real saved progress')");
-      await evaluate(`${theme}.click(); document.querySelector('input[name=book-theme][value=light]').click(); document.querySelector('input[name=book-theme][value=light]').focus()`);
+    for (const reviewedBook of ['1873.html','theory-of-constraints.html','hermes-nous.html']) {
+      await navigate(reviewedBook);
+      await evaluate(start);
       await press('ArrowRight', 'ArrowRight', 39);
-      const result = await evaluate(`({dark:document.querySelector('input[name=book-theme][value=dark]').checked,theme:document.documentElement.dataset.theme,dialogOpen:document.getElementById('bookSettingsDialog').open,sameSlide:window.__reviewHermesSlide===document.getElementById('story').firstElementChild,sameSavedId:window.__reviewHermesId===localStorage.getItem(window.__reviewHermesKey)})`);
-      assert(result.dark && result.theme === 'dark' && result.dialogOpen && result.sameSlide && result.sameSavedId, `R1/${lang}: ${JSON.stringify(result)}`);
-      report.checks.push({case:'Hermes radio ArrowRight',lang,...result});
-      await evaluate("document.querySelector('input[name=book-theme][value=dark]').focus()");
-      await press('ArrowLeft', 'ArrowLeft', 37);
-      assert(await evaluate("document.querySelector('input[name=book-theme][value=light]').checked && document.documentElement.dataset.theme==='light'"), 'R1 native theme ArrowLeft wrap');
-      await evaluate("document.querySelector('input[name=book-font][value=sans]').click(); document.querySelector('input[name=book-font][value=sans]').focus()");
-      await press('ArrowLeft', 'ArrowLeft', 37);
-      await until(() => evaluate("document.documentElement.dataset.readingFont==='serif'"), 'R1 native font ArrowLeft wrap');
-      assert(await evaluate("document.querySelector('input[name=book-font][value=serif]').checked && window.__reviewHermesSlide===document.getElementById('story').firstElementChild && window.__reviewHermesId===localStorage.getItem(window.__reviewHermesKey)"), 'R1 font ArrowLeft changed reading state');
-      await press('ArrowRight', 'ArrowRight', 39);
-      assert(await evaluate("document.querySelector('input[name=book-font][value=sans]').checked && document.documentElement.dataset.readingFont==='sans' && window.__reviewHermesSlide===document.getElementById('story').firstElementChild && window.__reviewHermesId===localStorage.getItem(window.__reviewHermesKey)"), 'R1 font ArrowRight changed reading state');
-      report.checks.push({case:'Hermes both radio groups native Left/Right wrap',lang,sameSlide:true,sameSavedId:true});
-      await press('Escape', 'Escape', 27);
+      for (const lang of ['ru', 'en']) {
+        if (await evaluate(`document.documentElement.lang !== '${lang}'`)) await evaluate(`${language}.click()`);
+        await evaluate("window.__reviewReaderSlide=document.getElementById('story').firstElementChild; window.__reviewReaderKey=document.getElementById('book-tiktok-data') ? 'book-tiktok.'+JSON.parse(document.getElementById('book-tiktok-data').textContent).slug+'.lastScreen' : 'bookHermesNous.lastSlide'; window.__reviewReaderId=localStorage.getItem(window.__reviewReaderKey); if(!window.__reviewReaderId) throw Error('Reader must have real saved progress')");
+        await evaluate(`${theme}.click(); document.querySelector('input[name=book-theme][value=light]').click(); document.querySelector('input[name=book-theme][value=light]').focus()`);
+        await press('ArrowRight', 'ArrowRight', 39);
+        const result = await evaluate(`({dark:document.querySelector('input[name=book-theme][value=dark]').checked,theme:document.documentElement.dataset.theme,dialogOpen:document.getElementById('bookSettingsDialog').open,sameSlide:window.__reviewReaderSlide===document.getElementById('story').firstElementChild,sameSavedId:window.__reviewReaderId===localStorage.getItem(window.__reviewReaderKey)})`);
+        assert(result.dark && result.theme === 'dark' && result.dialogOpen && result.sameSlide && result.sameSavedId, `R1/${lang}: ${JSON.stringify(result)}`);
+        report.checks.push({case:'native radio ArrowRight',file:reviewedBook,lang,...result});
+        await evaluate("document.querySelector('input[name=book-theme][value=dark]').focus()");
+        await press('ArrowLeft', 'ArrowLeft', 37);
+        assert(await evaluate("document.querySelector('input[name=book-theme][value=light]').checked && document.documentElement.dataset.theme==='light'"), 'R1 native theme ArrowLeft wrap');
+        await evaluate("document.querySelector('input[name=book-font][value=sans]').click(); document.querySelector('input[name=book-font][value=sans]').focus()");
+        await press('ArrowLeft', 'ArrowLeft', 37);
+        await until(() => evaluate("document.documentElement.dataset.readingFont==='serif'"), 'R1 native font ArrowLeft wrap');
+        assert(await evaluate("document.querySelector('input[name=book-font][value=serif]').checked && window.__reviewReaderSlide===document.getElementById('story').firstElementChild && window.__reviewReaderId===localStorage.getItem(window.__reviewReaderKey)"), 'R1 font ArrowLeft changed reading state');
+        await press('ArrowRight', 'ArrowRight', 39);
+        assert(await evaluate("document.querySelector('input[name=book-font][value=sans]').checked && document.documentElement.dataset.readingFont==='sans' && window.__reviewReaderSlide===document.getElementById('story').firstElementChild && window.__reviewReaderId===localStorage.getItem(window.__reviewReaderKey)"), 'R1 font ArrowRight changed reading state');
+        report.checks.push({case:'both radio groups native Left/Right wrap',file:reviewedBook,lang,sameSlide:true,sameSavedId:true});
+        await press('Escape', 'Escape', 27);
+      }
     }
     await evaluate("BookSettings.set('readingFont','sans'); BookSettings.set('readingFont','serif'); BookSettings.set('readingFont','sans')");
     await until(() => evaluate("document.documentElement.dataset.readingFont==='sans'"), 'latest rapid font choice');
@@ -303,7 +307,9 @@ try {
 
   if (phase === 'migration') {
     await navigate();
-    for (const [file, key] of [['essentialism.html','book-tiktok.essentialism.theme'], ['1873.html','book1873.theme'], ['theory-of-constraints.html','tocbook.theme'], ['hermes-nous.html','bookHermesNous.theme']]) {
+    for (const file of ['essentialism.html','1873.html','theory-of-constraints.html','hermes-nous.html']) {
+      const modern = fs.readFileSync(path.join(root,file),'utf8').includes('id="book-tiktok-data"');
+      const key = modern ? 'book-tiktok.'+file.slice(0,-5)+'.theme' : ({'1873.html':'book1873.theme','theory-of-constraints.html':'tocbook.theme','hermes-nous.html':'bookHermesNous.theme'})[file];
       await evaluate(`localStorage.clear(); localStorage.setItem('${key}', 'light')`);
       await navigate(file);
       assert(await evaluate("BookSettings.get().theme === 'light' && BookSettings.get().readingFont === 'sans'"), `${file}: migrate local theme`);
@@ -392,7 +398,7 @@ try {
   if (phase.startsWith('offline-')) {
     const n = Number(phase.slice(8));
     await command('Network.emulateNetworkConditions', { offline: true, latency: 0, downloadThroughput: 0, uploadThroughput: 0 });
-    for (const book of catalogue.books.slice(n*8,n*8+8)) {
+    for (const book of qaBooks.slice(n*8,n*8+8)) {
       await navigate(book.file, true);
       await evaluate(start);
       for (const font of ['sans','serif']) {

@@ -1,0 +1,186 @@
+{
+  "phase": "release-consent",
+  "origin": "owned-local-CDP-fixtures",
+  "checks": [
+    {
+      "book": "project-hail-mary.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "project-hail-mary.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-giver.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-giver.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "a-wizard-of-earthsea.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "a-wizard-of-earthsea.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    }
+  ],
+  "nativeDialogs": [
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    }
+  ],
+  "customDialogs": [
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Продолжение и финал / The continuation and ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Дальше — спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Дальше — спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Дальше — спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Дальше — спойлеры"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Spoilers ahead"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Spoilers ahead"
+    }
+  ],
+  "physicalIPhone": false,
+  "runtimeErrors": 0
+}

@@ -1,0 +1,631 @@
+{
+  "schemaVersion": 2,
+  "slug": "thinking-fast-and-slow",
+  "title": {
+    "ru": "Думай медленно… Решай быстро",
+    "en": "Thinking, Fast and Slow"
+  },
+  "description": {
+    "ru": "Аргумент Даниэля Канемана о суждениях, неопределённости, выборе и двух способах оценивать прожитое.",
+    "en": "Daniel Kahneman’s argument about judgment, uncertainty, choice and two ways of evaluating experience."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 14,
+    "core": 24,
+    "deep": 29
+  },
+  "methodNote": {
+    "ru": "Сокращённое изложение своими словами по выбранным и проверенным фрагментам полного пользовательского EPUB: перевод Школы Баканова 2013, AST 2014; оригинал 2011. Проверены опорные места всех пяти частей и заключения; сплошное чтение всего тома и сверка перевода с оригиналом не заявляются. Дополнительно прочитано официальное английское введение. Это объяснение книги, не обзор нынешнего состояния психологии; спорные опыты о социальном прайминге и истощении самоконтроля здесь не пересказываются.",
+    "en": "An original-word condensation based on selected, checked passages of the user’s complete Russian EPUB: Bakanov translation school 2013, AST 2014; original 2011. Supporting passages across all five parts and the conclusion were consulted; continuous reading of the whole volume and full translation collation are not claimed. The official English introduction was also read. This explains the book rather than reviewing present-day psychology; the contested social-priming and ego-depletion experiments are not retold."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Daniel Kahneman — Thinking, Fast and Slow (2011); owned Russian edition, AST 2014",
+      "url": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "role": "book",
+      "note": {
+        "ru": "Основной источник — полный пользовательский EPUB, прочитанный выборочно по удержанным тезисам и опытам всех пяти частей. Ссылка ведёт на страницу оригинала, а не на частный файл. Два коротких местных пересказа исключены.",
+        "en": "Primary evidence is the user’s complete EPUB, consulted selectively for the retained claims and experiments across all five parts. The link identifies the original book, not the private file. Two short local condensations were excluded."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Macmillan — official English introduction",
+      "url": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитано введение: замысел книги, сотрудничество с Тверски, задача о профессии и ограничения интуитивной статистики. Не заменяет остальную книгу.",
+        "en": "The introduction was read for the book’s purpose, collaboration with Tversky, occupation problem and intuitive statistics. It does not stand in for the rest of the book."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман · 2011",
+          "title": "Думай медленно… Решай быстро",
+          "subtitle": "Как возникают суждения, выбор и уверенность",
+          "body": "<p>От биты и мяча до оценки риска и памяти о прожитом: связное сокращённое изложение аргумента книги.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman · 2011",
+          "title": "Thinking, Fast and Slow",
+          "subtitle": "How judgment, choice and confidence arise",
+          "body": "<p>From a bat and a ball to risk and remembered experience: a connected condensation of the book’s argument.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-question",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Почему ошибаются знающие люди",
+          "body": "<p>Канеман начинает с неловкого признания: преподавать статистику ещё не значит чувствовать, когда данным можно доверять. Обсуждая исследования с Амосом Тверски, он обнаруживает собственную готовность верить слишком маленьким выборкам. Проверка коллег показывает, что эта слабость есть и у специалистов.</p><p>Из этого вырастает вопрос книги: как вполне разумные люди приходят к предсказуемо ошибочным суждениям? Дело не сводится к сильным эмоциям или недостатку ума. Сам способ, которым мы быстро понимаем мир, иногда создаёт убедительный ответ раньше, чем появляется достаточное основание.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Why knowledgeable people go wrong",
+          "body": "<p>Kahneman begins with an awkward admission: teaching statistics does not give you an intuitive sense of when to trust data. Talking with Amos Tversky, he recognized his own willingness to believe results from samples that were too small. Testing their colleagues revealed the same weakness among experts.</p><p>This leads to the book’s question: how do otherwise reasonable people make predictably mistaken judgments? Strong emotions and low intelligence are not sufficient explanations. The very processes that let us understand the world quickly can produce a persuasive answer before the evidence warrants it.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-systems",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Два персонажа мышления",
+          "body": "<p>Раздражение в знакомом голосе замечается почти само. Умножение 17 на 24 требует другой работы: нужно удерживать промежуточные результаты и направлять внимание. Канеман называет автоматическую работу Системой 1, а требующую усилия — Системой 2.</p><p>Это удобные персонажи объяснения, а не два отдельных органа мозга. Быстрое мышление узнаёт, связывает и предлагает ответы; медленное может их проверять. Большую часть времени такое разделение прекрасно служит человеку. Ошибки возникают, когда подходящая для одних задач интуиция незаметно применяется к другим, а проверка не включается.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Two characters of thought",
+          "body": "<p>Irritation in a familiar voice registers almost by itself. Multiplying 17 by 24 requires a different kind of work: holding intermediate results and directing attention. Kahneman calls automatic operations System 1 and effortful operations System 2.</p><p>These are useful characters in an explanation, not two separate organs in the brain. Fast thinking recognizes patterns, makes associations and supplies answers; slower thinking can inspect them. This division usually serves us well. Trouble arises when an intuition suited to one task quietly answers another, and no check intervenes.</p>"
+        }
+      }
+    },
+    {
+      "id": "bat-and-ball",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Бита, мяч и непроверенные десять центов",
+          "body": "<p>Бита и мяч вместе стоят 1 доллар 10 центов. Бита дороже мяча на доллар. Первый ответ — мяч стоит 10 центов — возникает легко, но не выдерживает проверки: тогда бита стоила бы 1 доллар 10 центов, а вместе получилось бы 1 доллар 20 центов.</p><p>Правильная цена мяча — 5 центов. Для Канемана задача Шейна Фредерика интересна не сложной арифметикой: она позволяет увидеть, как правдоподобная подсказка принимается без доступной проверки. Медленное мышление способно исправить ответ, но само наличие этой способности ещё не означает, что человек ею воспользуется.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A bat, a ball and an unchecked ten cents",
+          "body": "<p>A bat and ball cost $1.10 together. The bat costs one dollar more than the ball. Ten cents comes readily to mind as the ball’s price. But then the bat would cost $1.10 and the pair $1.20.</p><p>The correct price is five cents. Kahneman uses Shane Frederick’s problem to examine something other than difficult arithmetic: an appealing suggestion can be accepted without a readily available check. Effortful thinking can correct the answer. Having that capacity, however, does not mean a person will use it.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-complete-looking-story",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "История кажется законченной",
+          "body": "<p>Уверенность зависит не только от количества свидетельств. Она может появиться потому, что немногочисленные сведения хорошо складываются в историю. Система 1 связывает то, что доступно, и почти не чувствует пустого места там, где информации нет.</p><p>Канеман обозначает эту асимметрию как WYSIATI: доступная картина принимается за всё существенное. При односторонних доказательствах история иногда получается даже стройнее, чем при знакомстве с обеими сторонами. Поэтому цельность объяснения и уверенность рассказчика ещё не говорят о полноте основания.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "The story feels complete",
+          "body": "<p>Confidence does not depend only on the amount of evidence. It can arise because a small amount fits into a coherent story. System 1 connects what is available, with little sense of the empty space where information is missing.</p><p>Kahneman calls this asymmetry WYSIATI: what is available comes to stand for everything that matters. One-sided evidence can even yield a tidier story than hearing both sides. A coherent explanation and a confident speaker therefore do not establish that the underlying evidence is complete.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-easier-question",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Ответ приходит на другой вопрос",
+          "body": "<p>Когда трудный вопрос не поддаётся сразу, на его место может прийти соседний, более лёгкий. Вместо оценки сложного риска человек отвечает на вопрос, насколько страшным выглядит событие. Получившееся чувство переживается уже как ответ на исходную задачу.</p><p>Канеман называет такую замену подстановкой. Это не обязательно сознательная уловка. Эвристика позволяет быстро ориентироваться, но ошибки становятся систематическими, если лёгкий вопрос учитывает лишь часть того, о чём на самом деле спрашивали.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "An answer to a different question",
+          "body": "<p>When a difficult question has no ready answer, a nearby easier question can take its place. A judgment about a complicated risk may become a judgment about how frightening an event feels. That feeling is then experienced as an answer to the original problem.</p><p>Kahneman calls this substitution. It need not involve deliberate evasion. A heuristic makes quick judgments possible, but it creates systematic errors when the easier question captures only part of what the original question asks.</p>"
+        }
+      }
+    },
+    {
+      "id": "small-samples",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Два края одной маленькой выборки",
+          "body": "<p>В книге округа с необычно низкой заболеваемостью раком почки оказываются малонаселёнными. Сразу хочется объяснить результат образом жизни. Но среди округов с необычно высокой заболеваемостью тоже много малонаселённых.</p><p>Маленькая выборка легче даёт крайний результат в любую сторону. Это статистическое объяснение не означает, что малое население вызывает болезнь или защищает от неё. Канеман показывает, как охотно мы ищем особую причину там, где сначала нужно разобраться с размером выборки и случайными колебаниями.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Both extremes of a small sample",
+          "body": "<p>The book describes counties with unusually low kidney-cancer rates: many have small populations. A lifestyle explanation comes easily. Yet counties with unusually high rates also tend to have small populations.</p><p>Small samples produce extreme results more readily in either direction. This statistical account does not mean that a small population causes cancer or protects against it. Kahneman shows how eagerly we seek a special cause before considering sample size and random variation.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-wheel",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Рулетка перед вопросом об ООН",
+          "body": "<p>Канеман и Тверски использовали рулетку, которая останавливалась на 10 или 65. Затем спрашивали студентов о доле африканских стран в ООН. Увидевшие 10 давали в среднем более низкие оценки, чем увидевшие 65, хотя колесо ничего не сообщало об ООН.</p><p>Так книга вводит привязку: рассмотренное число становится опорой последующей оценки. Канеман различает сознательную, часто недостаточную поправку от исходного числа и автоматическое влияние самого якоря. Просто понимать, что число случайно, недостаточно для гарантированной защиты.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A wheel before a question about the UN",
+          "body": "<p>Kahneman and Tversky used a wheel rigged to stop at 10 or 65, then asked students to estimate the proportion of African countries in the United Nations. Those who saw 10 gave lower estimates on average than those who saw 65, although the wheel provided no information about the UN.</p><p>This introduces anchoring: a number that has been considered becomes a reference for a later estimate. Kahneman distinguishes deliberate, often insufficient adjustment from an automatic influence of the anchor itself. Knowing that the number is arbitrary offers no guaranteed protection.</p>"
+        }
+      }
+    },
+    {
+      "id": "easy-to-recall",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Когда двенадцать примеров убеждают меньше шести",
+          "body": "<p>В опыте Норберта Шварца участники вспоминали шесть или двенадцать случаев собственной настойчивости. Двенадцать — больше доказательств, но последние примеры трудно извлечь. Эта трудность могла заставить человека считать себя менее настойчивым.</p><p>В суждение входит не только содержимое памяти, но и ощущение лёгкости поиска. Так доступность подменяет частоту: то, что ярко представляется или быстро вспоминается, может казаться более обычным. Канеман не сводит любой такой вывод к ошибке — он показывает, почему доступность требует отличать от реальной распространённости.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "When twelve examples persuade less than six",
+          "body": "<p>In Norbert Schwarz’s experiment, participants recalled six or twelve occasions on which they had behaved assertively. Twelve provides more examples, but the later ones are harder to retrieve. That difficulty could make people judge themselves less assertive.</p><p>Judgment draws on both the contents of memory and the felt ease of retrieval. Availability can therefore stand in for frequency: vivid or easily recalled events can seem more common. Kahneman does not treat every such judgment as wrong; he shows why ease of recall must be distinguished from actual prevalence.</p>"
+        }
+      }
+    },
+    {
+      "id": "base-rates",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Портрет человека вытесняет статистику",
+          "body": "<p>В одном из заданий тихий, аккуратный человек, любящий порядок и детали, кажется скорее библиотекарем, чем фермером. Но сходство с образом профессии не равно вероятности. Нужно знать ещё и то, сколько представителей каждой профессии вообще есть в исходной группе.</p><p>Канеман и Тверски показывают, как описание отдельного человека оттесняет эту базовую частоту. Смысл не в запрете пользоваться описанием: оно может нести информацию. Ошибка — позволить одному выразительному портрету стереть исходные шансы, с которыми новая информация должна сопоставляться.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A portrait pushes statistics aside",
+          "body": "<p>A quiet, tidy person who likes order and detail seems more like a librarian than a farmer in one of the book’s problems. But resemblance to an occupational stereotype is not the same as probability. The relative numbers of librarians and farmers in the population also matter.</p><p>Kahneman and Tversky show how a description of one individual can push this base rate aside. The point is not that descriptions contain no information. The error is allowing an evocative portrait to erase the prior odds against which new information should be assessed.</p>"
+        }
+      }
+    },
+    {
+      "id": "linda",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Линда: подробность делает историю лучше, но не вероятнее",
+          "body": "<p>Линда — вымышленная участница задачи, которую придумали сами исследователи. Её описание подчёркивает интерес к социальной справедливости. Поэтому вариант «банковская кассирша и активистка феминистского движения» кажется особенно подходящим.</p><p>Но он не может быть вероятнее простого «банковская кассирша»: все кассирши-феминистки уже входят в множество кассирш. Дополнительная деталь улучшает соответствие истории и одновременно сужает множество возможных случаев. Эта разница между похожестью и логической вероятностью — суть задачи; книга также обсуждает споры о её формулировках и интерпретации.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Linda: a better-fitting story is not more probable",
+          "body": "<p>Linda is a fictional person created by the researchers for a judgment task. Her description emphasizes an interest in social justice. This makes “bank teller and active in the feminist movement” seem particularly fitting.</p><p>Yet it cannot be more probable than “bank teller”: every feminist bank teller is already a bank teller. An added detail improves the fit of the story while narrowing the set of possible cases. The distinction between resemblance and logical probability is the point of the problem; the book also discusses disputes over its wording and interpretation.</p>"
+        }
+      }
+    },
+    {
+      "id": "flight-instructors",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Что увидел лётный инструктор",
+          "body": "<p>Инструктор израильских ВВС возражает Канеману: после похвалы курсант летает хуже, после выговора — лучше. Наблюдение может быть верным, а вывод о пользе выговора — нет.</p><p>Хвалили за необычно удачную попытку, ругали за необычно плохую. Если результат содержит случайную составляющую, следующая попытка в среднем будет ближе к обычному уровню и без вмешательства. Регрессия к среднему не отменяет обучения и не объясняет всё подряд; она показывает, почему последовательность «после этого» сама по себе не устанавливает эффект воздействия.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "What the flight instructor observed",
+          "body": "<p>An Israeli flight instructor objects to Kahneman: praise is followed by worse flying, while reprimands are followed by improvement. The observation can be correct without establishing that reprimands work better.</p><p>Praise follows an unusually good performance; criticism follows an unusually poor one. If results include random variation, the next attempt tends to be closer to the usual level even without intervention. Regression to the mean does not deny learning or explain every change. It shows why “after this” does not by itself establish an intervention’s effect.</p>"
+        }
+      }
+    },
+    {
+      "id": "after-the-result",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Исход переписывает прошлое",
+          "body": "<p>Когда исход уже известен, прошлое становится аккуратнее, чем было для его участников. Признаки будущего успеха вдруг выглядят очевидными, а неопределённость исчезает из рассказа. Канеман связывает это с ретроспективным искажением.</p><p>Из-за него решение легко судить по результату: удачное кажется разумным, неудачное — безрассудным. Но качество решения зависит от того, что можно было знать в момент выбора. Различить навык и удачу труднее, чем сочинить убедительную историю после события.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "The outcome rewrites the past",
+          "body": "<p>Once the outcome is known, the past becomes tidier than it was for the people living through it. Signs of eventual success seem obvious, and uncertainty vanishes from the story. Kahneman links this to hindsight bias.</p><p>The result also colors our judgment of a decision: success looks wise and failure reckless. But decision quality depends on what could have been known at the time. Distinguishing skill from luck is harder than producing a persuasive story after the event.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-record-of-skill",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "У навыка должен быть след в результатах",
+          "body": "<p>В главе о финансовых прогнозах Канеман спрашивает, сохраняются ли различия в результатах специалистов от года к году. Если успех отражает устойчивое умение, в нём должна обнаруживаться какая-то устойчивость. Яркое достижение за один период ещё не решает вопрос.</p><p>Книга описывает, как люди продолжают чувствовать профессиональную компетентность даже при слабом подтверждении предсказательной силы. Это довод Канемана о проверке навыка, а не утверждение, будто любой эксперт ошибается или любая деятельность сводится к удаче.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Skill should leave a trace in the record",
+          "body": "<p>In discussing financial forecasts, Kahneman asks whether differences between professionals persist from one year to another. If success reflects a stable skill, some stability should be detectable in the record. One outstanding period does not settle the question.</p><p>The book describes how a sense of professional competence can survive weak evidence of predictive ability. This is Kahneman’s argument for testing skill, not a claim that every expert is wrong or every activity is a game of chance.</p>"
+        }
+      }
+    },
+    {
+      "id": "when-intuition-learns",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Когда интуиция становится умением",
+          "body": "<p>Работая с Гэри Кляйном, Канеман приходит к важному ограничению собственной критики: экспертная интуиция бывает настоящей. Для неё нужны достаточно устойчивые закономерности среды и возможность научиться их распознавать.</p><p>Здесь решает качество практики и обратной связи. При вождении последствия движения педали видны быстро; в долгосрочном прогнозе связь между решением и результатом может быть слабой и запоздалой. Поэтому уверенность эксперта нельзя оценить отдельно от области, задачи и условий, в которых он учился.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "When intuition becomes skill",
+          "body": "<p>Working with Gary Klein, Kahneman reaches an important limit to his own skepticism: expert intuition can be genuine. It requires a sufficiently regular environment and an opportunity to learn its patterns.</p><p>The quality of practice and feedback matters. In driving, the consequences of moving a pedal appear quickly; in long-range forecasting, feedback can be weak and delayed. An expert’s confidence therefore cannot be assessed apart from the domain, the task and the conditions under which the skill developed.</p>"
+        }
+      }
+    },
+    {
+      "id": "interview-in-parts",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Сначала отдельные оценки, потом впечатление",
+          "body": "<p>Перестраивая армейское собеседование, молодой Канеман заменяет свободное общее впечатление отдельными оценками качеств. Данные собирают по каждой характеристике, прежде чем переходить к целостному суждению. Это уменьшает возможность одному впечатлению окрасить всё остальное.</p><p>В книге есть и неожиданная оговорка: интуитивная оценка после такого сбора данных тоже оказалась полезной. Позднее Канеман предлагает для найма заранее выбрать неперекрывающиеся качества, определить фактические вопросы и шкалы, оценить качества раздельно и сложить баллы. Процедура не обещает безошибочного выбора; она ограничивает свободу первого впечатления.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Separate ratings before the overall impression",
+          "body": "<p>Redesigning an army interview, the young Kahneman replaces a free-ranging overall impression with separate ratings of attributes. Information is gathered for each attribute before an overall judgment is formed. This gives one impression less opportunity to color everything else.</p><p>There is a revealing qualification: an intuitive assessment made after that structured collection also proved useful. For hiring, the book later proposes choosing distinct attributes beforehand, specifying factual questions and rating scales, assessing attributes separately and adding the scores. The procedure does not promise infallible selection; it constrains the first impression.</p>"
+        }
+      }
+    },
+    {
+      "id": "outside-view",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Срок учебника и взгляд извне",
+          "body": "<p>Команда Канемана, составлявшая учебный курс, оценивала срок завершения по собственной работе и планам. Вопрос о похожих проектах вызвал другую картину: многие вообще не завершались, а успешные занимали гораздо больше времени.</p><p>Так книга противопоставляет внутренний взгляд внешнему. Сначала находят подходящий класс сравнения и узнают его результаты, затем учитывают особенности текущего случая. Это не механическое перенесение любой средней величины. Без подходящего класса сравнения опора слаба, но подробный рассказ о собственных планах тоже не заменяет базовый прогноз.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "The curriculum and the outside view",
+          "body": "<p>Kahneman’s curriculum team estimated its completion time from its own progress and plans. Asking about comparable projects produced a different picture: many never finished, while successful ones took much longer.</p><p>The book contrasts the inside view with the outside view. Start with a suitable reference class and its outcomes, then consider the particular case. This is not the mechanical use of just any average. A poorly chosen reference class is a weak foundation, but a detailed story about one’s plans does not substitute for a baseline forecast either.</p>"
+        }
+      }
+    },
+    {
+      "id": "premortem",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Разрешение заранее назвать провал",
+          "body": "<p>Канеман описывает предложенный Кляйном premortem: перед окончательным обязательством участникам говорят, что план уже осуществлён и закончился катастрофой. Каждый в течение пяти–десяти минут записывает, как это могло произойти.</p><p>Задача процедуры — сделать возражения допустимыми, когда уверенность группы уже велика, и вызвать причины неудачи, которые иначе остались бы невысказанными. Канеман предлагает частичную защиту от чрезмерного оптимизма, а не способ предсказать все будущие неприятности.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Permission to describe failure in advance",
+          "body": "<p>Kahneman describes Klein’s premortem: before a final commitment, participants are told that the plan has been carried out and ended disastrously. Each spends five to ten minutes writing how it could have happened.</p><p>The procedure makes objections permissible when group confidence is already high, and brings possible causes of failure into discussion. Kahneman offers it as a partial defense against excessive optimism, not a way to foresee every future problem.</p>"
+        }
+      }
+    },
+    {
+      "id": "reference-point",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "От какой точки считается выигрыш",
+          "body": "<p>Два человека с одинаковым состоянием могут переживать его совершенно по-разному, если один недавно разбогател, а другой потерял деньги. Для объяснения выбора недостаточно знать конечную сумму: важна точка отсчёта.</p><p>В теории перспектив Канемана и Тверски исходы воспринимаются как выигрыши и потери относительно этой точки. Кроме того, чувствительность к изменению уменьшается по мере удаления от неё. Один и тот же денежный шаг не имеет одинакового психологического веса при любом исходном положении.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "The point from which a gain is measured",
+          "body": "<p>Two people with the same wealth can experience it very differently if one has recently gained money and the other has lost it. Explaining choice requires more than the final amount: the reference point matters.</p><p>In Kahneman and Tversky’s prospect theory, outcomes are experienced as gains and losses relative to that point. Sensitivity to change also diminishes farther away from it. An identical monetary increment does not carry identical psychological weight at every starting position.</p>"
+        }
+      }
+    },
+    {
+      "id": "losses-and-gains",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Потерять сто или выиграть сто пятьдесят",
+          "body": "<p>Книга предлагает смешанную игру: равные шансы потерять 100 долларов или выиграть 150. Положительного денежного ожидания многим недостаточно, чтобы согласиться. Возможная потеря весит в оценке больше сопоставимого выигрыша.</p><p>Это неприятие потерь, а не простое правило «люди всегда избегают риска». При некоторых перспективах потерь человек, наоборот, рискует, чтобы уйти от гарантированного ущерба. Канеман приводит типичные оценки силы неприятия потерь, но не делает из них постоянный коэффициент для любого человека и любой ситуации.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Lose a hundred or win a hundred and fifty",
+          "body": "<p>The book offers a mixed gamble: equal chances of losing $100 or winning $150. A positive monetary expectation is not enough to persuade many people to accept. The possible loss weighs more heavily than a comparable gain.</p><p>This is loss aversion, not the rule that people always avoid risk. Facing some prospects of loss, a person instead takes risks to escape a certain loss. Kahneman reports typical estimates of loss aversion without treating them as a fixed multiplier for every person and situation.</p>"
+        }
+      }
+    },
+    {
+      "id": "a-mug-of-ones-own",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Кружка, которая уже принадлежит тебе",
+          "body": "<p>В опытах с университетскими кружками случайно выбранные владельцы просили за продажу больше, чем другие участники готовы были заплатить за покупку. Для одного кружка уже была частью исходного положения, для другого — возможным приобретением.</p><p>Канеман связывает эффект владения с разницей между потерей и неполученной выгодой. При этом он отделяет вещи для использования от товаров, которыми торгуют: профессиональная торговая перспектива меняет отношение к обмену. Владение не превращается в универсальный запрет расставаться с вещами.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A mug that is already yours",
+          "body": "<p>In experiments with university mugs, randomly assigned owners asked more to sell than other participants would pay to buy. For one person the mug was already part of the reference situation; for another it was a possible acquisition.</p><p>Kahneman connects the endowment effect to the difference between losing something and forgoing a gain. He distinguishes goods intended for use from goods held for trade: a trader’s perspective changes the meaning of exchange. Ownership is not presented as a universal refusal to part with things.</p>"
+        }
+      }
+    },
+    {
+      "id": "probability-weights",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Шанс и его вес в решении",
+          "body": "<p>В теории перспектив важен не только размер результата. Вес, который решение придаёт шансу, не обязан совпадать с самой вероятностью. Очень маленький шанс может получить непропорционально большое внимание, а почти достоверный результат переживаться иначе, чем абсолютно достоверный.</p><p>Поэтому одна и та же теория объясняет и привлекательность лотереи, и желание купить защиту от редкой потери. Это описание предпочтений при определённых условиях. Канеман не предлагает принимать эмоциональный вес события за правильную оценку его частоты.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A chance and its decision weight",
+          "body": "<p>Prospect theory concerns more than the size of an outcome. The weight given to a chance in a decision need not equal its probability. A very small chance can receive disproportionate weight, and a nearly certain outcome can feel different from a certain one.</p><p>This helps the same account explain both the appeal of a lottery and the appeal of protection against a rare loss. It describes preferences under particular conditions. Kahneman is not recommending that emotional weight be treated as an accurate estimate of frequency.</p>"
+        }
+      }
+    },
+    {
+      "id": "limits-of-prospect-theory",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Что теория перспектив не объясняет",
+          "body": "<p>Канеман не оставляет собственную теорию без возражений. В её исходном виде нулевой выигрыш относительно точки отсчёта получает нулевую ценность. Но ничего не выиграть при почти обещанном большом призе — не то же переживание, что ничего не выиграть в маловероятной лотерее.</p><p>Разочарование зависит от ожидания, а сожаление — от сравнения с отвергнутым вариантом. Эти связи не получают достаточного объяснения в изложенной модели. Теория перспектив для автора — существенный шаг в описании выбора, но не исчерпывающая теория всех чувств и решений.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "What prospect theory does not explain",
+          "body": "<p>Kahneman does not exempt his own theory from criticism. In its original form, a zero gain at the reference point has zero value. Yet winning nothing when a large prize was almost assured does not feel like winning nothing in a remote lottery.</p><p>Disappointment depends on expectation, and regret on comparison with a rejected option. The model as presented does not adequately explain these relationships. For its author, prospect theory is a substantial advance in describing choice, not a complete theory of every feeling and decision.</p>"
+        }
+      }
+    },
+    {
+      "id": "risk-policy",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Политика рисков вместо каждой отдельной тревоги",
+          "body": "<p>Отдельная ставка заставляет сосредоточиться на возможной потере именно сейчас. Рассмотрение серии допустимых рисков может изменить решение: общая картина не совпадает с суммой эмоциональных реакций на каждую ставку по отдельности.</p><p>Канеман предлагает широкие рамки и заранее заданную политику рисков. Но он оговаривает условия: возможная потеря не должна угрожать общему благополучию; игры должны быть независимыми; правило не следует применять к лотереям с малыми шансами на выигрыш. Призыв видеть серию не превращает невыгодный или разорительный риск в разумный.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A risk policy rather than each separate alarm",
+          "body": "<p>An isolated gamble focuses attention on a possible loss right now. Looking at a series of acceptable risks can change the choice: the broader picture differs from a collection of emotional reactions to each separate bet.</p><p>Kahneman proposes broad framing and a risk policy chosen in advance. He also specifies conditions: a possible loss must not threaten overall well-being; the gambles must be independent; the rule should not be applied to long-shot gambles. Seeing a series does not make an unfavorable or ruinous risk sensible.</p>"
+        }
+      }
+    },
+    {
+      "id": "same-outcomes-new-frame",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Одни исходы, две формулировки",
+          "body": "<p>В задаче об эпидемии под угрозой находятся 600 жизней. В первой формулировке выбирают между гарантированным спасением 200 человек и шансом 1/3 спасти всех 600 при шансе 2/3 не спасти никого. Во второй — между гарантированной смертью 400 и шансом 1/3, что никто не умрёт, при шансе 2/3, что умрут все 600.</p><p>В описанном исследовании выбор большинства менялся вместе с формулировкой. Числа обозначают одинаковые исходы, но рамки спасения и потери направляют оценку по-разному. Канеман использует это расхождение, чтобы показать зависимость предпочтений от того, как поставлен вопрос.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "The same outcomes in two frames",
+          "body": "<p>In the epidemic problem, 600 lives are at stake. In the first frame, the choice is between certainly saving 200 and a one-third chance of saving all 600 with a two-thirds chance of saving no one. In the second, it is between 400 certain deaths and a one-third chance that no one dies with a two-thirds chance that all 600 die.</p><p>In the reported study, the majority preference changed with the wording. The numbers describe equivalent outcomes, but frames of saving and losing direct evaluation differently. Kahneman uses this divergence to show how the presentation of a question can shape preferences.</p>"
+        }
+      }
+    },
+    {
+      "id": "two-selves",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Кто прожил, а кто вспоминает",
+          "body": "<p>В последней части вопрос меняется: чьё благополучие мы оцениваем? Ощущающее «я» проживает последовательность моментов. Вспоминающее «я» хранит историю о них и участвует в следующем выборе. Эти оценки могут расходиться.</p><p>В исследованиях болезненных процедур, о которых рассказывает Канеман, воспоминание сильно зависело от наиболее тяжёлого момента и окончания; длительность учитывалась слабее. Это не означает, что лишняя боль неважна. Напротив, конфликт интересен именно потому, что сумма пережитого и итоговое воспоминание не одно и то же.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "Who experiences and who remembers",
+          "body": "<p>The last part changes the question: whose well-being is being assessed? The experiencing self lives through a sequence of moments. The remembering self keeps a story about them and participates in the next choice. Their evaluations can diverge.</p><p>In the studies of painful procedures Kahneman describes, memories depended strongly on the worst moment and the ending, while duration carried less weight. This does not mean additional pain is unimportant. The conflict matters precisely because the total experience and the eventual memory are different things.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-cold-hand",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Более долгая проба, менее тяжёлое воспоминание",
+          "body": "<p>Участники опыта опускали руку в болезненно холодную воду. Более длинная проба повторяла короткую и добавляла время, в течение которого вода становилась немного менее холодной. Страдания было больше по длительности, но окончание было мягче.</p><p>Многие предпочитали повторить именно длинную пробу. Канеман подчёркивает: они не стремились к дополнительной боли; они выбирали по менее неприятному воспоминанию. Опыт позволяет увидеть расхождение переживаемого и выбираемого, а не вывод, что неприятное событие следует специально продлевать.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "A longer trial, a less unpleasant memory",
+          "body": "<p>Participants put a hand into painfully cold water. A longer trial repeated the shorter one and added a period in which the water became slightly less cold. It contained more time in discomfort but had a milder ending.</p><p>Many preferred to repeat the longer trial. Kahneman emphasizes that they were not seeking additional pain; they chose the less unpleasant memory. The experiment exposes a divergence between experience and choice. It does not establish that unpleasant events should deliberately be prolonged.</p>"
+        }
+      }
+    },
+    {
+      "id": "focusing-illusion",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Калифорния и то, что попало в фокус",
+          "body": "<p>Обсуждая счастье в Калифорнии, Канеман и Дэвид Шкаде отделяют действительные оценки жизни от представлений о том, где живётся лучше. При сравнении мест климат выходит на первый план, хотя повседневная жизнь состоит не из одного климата.</p><p>Так возникает иллюзия фокусировки: фактор, на который направлен вопрос, занимает непропорциональное место в ответе. Она связывает последнюю часть книги с первой. То, что легко доступно вниманию сейчас, может определять суждение о целом, далеко превосходящем этот фрагмент.</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "California and what is in focus",
+          "body": "<p>Discussing happiness in California, Kahneman and David Schkade distinguish actual life evaluations from beliefs about where life is better. When places are compared, climate comes to the foreground, although daily life contains much more than climate.</p><p>This is the focusing illusion: the factor highlighted by a question takes a disproportionate place in the answer. It connects the book’s last part with its first. What is readily available to attention now can dominate a judgment about a much larger whole.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Даниэль Канеман",
+          "title": "Ответ уже кажется правильным",
+          "body": "<p>Канеман заканчивает без обещания выключить ошибки одной силой воли. Знание названий искажений не даёт постоянной защиты: в момент уверенности собственную ошибку особенно трудно заметить.</p><p>Его надежда скромнее и конкретнее — точнее обсуждать суждения, вовремя привлекать внешний взгляд и строить процедуры, которые проверяют решение до того, как результат сделает его очевидным. Книга проходит от возникающего за долю секунды впечатления до правил совместного решения и сохраняет один вопрос: достаточно ли оснований у ответа, который уже кажется правильным?</p>"
+        },
+        "en": {
+          "section": "Daniel Kahneman",
+          "title": "The answer already feels right",
+          "body": "<p>Kahneman ends without promising that willpower can switch errors off. Knowing the names of biases provides no permanent immunity: when confidence is high, one’s own mistake is particularly hard to detect.</p><p>His hope is more limited and concrete: discuss judgments more precisely, bring in an outside perspective and use procedures that inspect a decision before its outcome makes it seem obvious. From an impression formed in a fraction of a second to collective decision procedures, the question persists: does the answer that already feels right have adequate grounds?</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

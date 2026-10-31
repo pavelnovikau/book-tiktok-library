@@ -1,0 +1,142 @@
+{
+  "slug": "thinking-in-systems",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD",
+  "reportPath": "editorial-audit/2026-10-31/books/thinking-in-systems.sol-implementation.md",
+  "reportSha256": "917fc6644d0e9d79802e8fa534449162a112db5a72cebaf7a00fed688cc74278",
+  "reviewedPairs": {
+    "uniqueOldPairs": 0,
+    "authoring": 0,
+    "published": 0,
+    "new": 25
+  },
+  "counts": {
+    "essential": 13,
+    "core": 22,
+    "deep": 25
+  },
+  "contentMode": "explanatory",
+  "sourceScope": "Exact target: Donella H. Meadows, Thinking in Systems: A Primer, edited by Diana Wright, Chelsea Green 2008, ISBN 9781603580557. Relevant owned EPUB metadata were checked: the local books titled Системное мышление / Системное мышление 2019 / Практическое системное мышление — 2022 are Anatoly Levenchuk works, not Meadows, and were excluded. No owned Meadows or authorized RU edition was found/read. Read the official nine-page Bathtubs 101 draft excerpt (stocks/flows, equilibrium, Great Lakes, debt/deficit, inertia and decoupling); consulted the author's substantial Leverage Points essay across its mechanisms, examples, hierarchy and final qualifications; read the officially identified Dancing With Systems book excerpt, including limits to prediction/control and the fourteen practices. Viewed the lawful isee systems storefront preview as page images: cover/title, contents, author and editor prefatory material, not substantive main chapters or a complete edition. The preview's contents and editorial note connect the retained themes to the actual 2008 work, while the primary passages establish the retained mechanisms and examples. The draft PDF has a DRAFT header dated 3/28/13; that export label is not treated as an authorial revision after Meadows's death. The standalone Leverage Points essay and edited excerpt are not silently declared word-identical to the final volume. No unofficial full-book mirror was opened or downloaded. Parent correction additionally checked the earlier non-abbreviated official Dancing With Systems author archive at §§1/4; it is distinct from the edited book excerpt and not final-edition collation. Unrelated commercial material at §6 is excluded.",
+  "changes": [
+    "Created a source-grounded RU/EN condensation of Meadows's actual work and related primary passages",
+    "Excluded similarly titled Levenchuk books and unofficial full-book mirrors",
+    "Preserved stock/flow, feedback, leverage and learning qualifications with author cases",
+    "Derived nested counts 13/22/25; maintained offline build and dialog-only sources"
+  ],
+  "unresolvedIssues": [
+    "This is a source-supported condensed central arc, not a continuous reading or exhaustive verification of the 2008 volume. The complete Systems Zoo, all eight System Traps treatments, the hierarchy chapter treatment, full model equations and every book example were not checked/reproduced. No complete-book or authorized-translation fidelity certification is claimed.",
+    "Primary evidence spans a draft excerpt, an earlier standalone author essay and an official edited book excerpt. Exact final-edition wording, example order and all editorial changes were not collated. The reading dialog discloses this scope; retained causal links themselves have direct primary support in the evidence map.",
+    "Physical iPhone/PWA behavior, touch gestures and deployed/root-reader integration were not tested by this worker.",
+    "Independent review identified localized findings; parent corrections await publisher closure and integration"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/thinking-in-systems/story-data.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-in-systems/story-data.json",
+      "sha256": "e9de1d7485575ec0556b25186e12b278eb8aeda98d00f8b23e9288b0e62737a9"
+    },
+    {
+      "path": "collector-output/thinking-in-systems/thinking-in-systems.html",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-in-systems/thinking-in-systems.html",
+      "sha256": "221f404ec83bf0e58a9657176417120bad2c8871e47e2e7f8165c56884562c4b"
+    },
+    {
+      "path": "collector-output/thinking-in-systems/sources.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-in-systems/sources.md",
+      "sha256": "4055c8847494bee9c44341780b7ff3c238a0b50fa4ded22df672725c4b607ca0"
+    },
+    {
+      "path": "collector-output/thinking-in-systems/QA.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-in-systems/QA.md",
+      "sha256": "8f4ce54f3076a2854fb8d4815b43448de55aac700221244659e3a3442699a4cd"
+    }
+  ],
+  "evidenceMap": {
+    "path": "collector-output/thinking-in-systems/evidence-map.sol.json",
+    "sha256": "e0c7b004ea50f639511c9ee73cec92b84da4786c4662af41c17753c421e42dca"
+  },
+  "checks": {
+    "structural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-in-systems/thinking-in-systems.html",
+      "format": "v2",
+      "bytes": 303245,
+      "screenCount": 25,
+      "levels": {
+        "1": 13,
+        "2": 9,
+        "3": 3
+      },
+      "modes": {
+        "essential": 13,
+        "core": 22,
+        "deep": 25
+      },
+      "words": {
+        "ru": 1754,
+        "en": 2007
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "browserViewports": [
+      320,
+      390,
+      1024,
+      1440
+    ],
+    "offline": true,
+    "physicalIPhone": false,
+    "production": false,
+    "independent": false,
+    "bodyScrollReachable": true,
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 88,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-kahneman-meadows-fix-browser.json"
+    }
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "5 минут",
+        "en": "5 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "9 минут",
+        "en": "9 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "10 минут",
+        "en": "10 min"
+      }
+    }
+  },
+  "parentCorrections": {
+    "findings": [
+      "MEAD-01"
+    ],
+    "changedScreens": [
+      "history-before-intervention",
+      "models-in-the-open"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/thinking-in-systems-meaning-fix-closure.json"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "slug": "theory-of-constraints",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:13:25.253226+00:00",
+  "findings": [
+    "TOC-SR-01"
+  ],
+  "changedScreens": [
+    "return-and-replenish"
+  ],
+  "counts": {
+    "essential": 13,
+    "core": 22,
+    "deep": 26
+  },
+  "sourceCheck": "TOC-SR-01: parent directly checked the scoped owned Alpina2014 The Choice / Выбор: Правила Голдратта EPUB, chapter2, OEBPS/Text/Section0001.html, the paragraph beginning Я обратил внимание менеджеров followed by daily ordering and returns. The retained procedure now includes both rapid replenishment and a price based on total BigBrand sales in the store instead of each order’s size. This resolves the large-order price incentive described on the preceding screen. No private chapter/extraction is copied to the repository and no claim to the whole Goldratt corpus is added.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/theory-of-constraints-source-rescue.json",
+  "originalReviewSha256": "b426909e6384c14967c4975491e90a051ab0f58d976b8dbbf39cd8607d21669b",
+  "beforeHashes": {
+    "collector-output/theory-of-constraints/story-data.json": "ccae30959d9e5a681d2279cbca2e4422184bd9c74e6672ba573667bdacd9e4a0",
+    "collector-output/theory-of-constraints/theory-of-constraints.html": "c0629da8ea798e955a3986005067f34e3996eb29e790b33900da83f8c0d57830",
+    "collector-output/theory-of-constraints/sources.md": "b46918fb9b4781ee58397277b51a67c34e2c5a6f726da3294fc8904be7362e21",
+    "collector-output/theory-of-constraints/QA.md": "43859cc78b3a35d92c58009d8d9e3dc098d354a88a4b2f446c3f28f9e351cab0"
+  },
+  "afterHashes": {
+    "collector-output/theory-of-constraints/story-data.json": "8c3113870edc224958c97fa92672fb055b53c1c269cfc5328fb4b44ddbe4b35e",
+    "collector-output/theory-of-constraints/theory-of-constraints.html": "e428216494e9138e124ed9a9e3d5f94a66ac59b91c6295a826f0164bb98ee841",
+    "collector-output/theory-of-constraints/sources.md": "027656823c752fcb16257b726c6e90d0bc97b3420d37e54686d129ae50a08d06",
+    "collector-output/theory-of-constraints/QA.md": "01e9477049e6f219b59a9eedf71015bb9080a6334464a4806a9552f694995cfa"
+  },
+  "screensBefore": [
+    {
+      "id": "return-and-replenish",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Вернуть то, что не продаётся",
+          "body": "<p>Предложение принимать любой возврат сначала вызывает возмущение. Голдратт возвращается к нему после другой перемены: магазины могли бы часто заказывать проданное и держать меньше запаса, если BigBrand обеспечит быстрое пополнение.</p><p>Тогда возвраты будут меньше, а товар можно перераспределить туда, где он востребован. Меняются условия, делавшие исходное предложение неприемлемым.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Returning what does not sell",
+          "body": "<p>The proposal to accept any return initially provokes objections. Goldratt revisits it after another change: with rapid replenishment from BigBrand, stores could reorder what sold frequently and hold less stock.</p><p>Returns would then be smaller, and products could move to stores where they are wanted. The conditions that made the original offer unacceptable have changed.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "return-and-replenish",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "Теория ограничений · корпус Голдратта",
+          "title": "Вернуть то, что не продаётся",
+          "body": "<p>Предложение принимать любой возврат сначала вызывает возмущение. Голдратт возвращается к нему после двух перемен: быстрого пополнения и цены, зависящей от общего объёма продаж продукции BigBrand в магазине, а не от размера отдельного заказа. Тогда магазины могли бы ежедневно заказывать проданное и держать меньше запаса.</p><p>Тогда возвраты будут меньше, а товар можно перераспределить туда, где он востребован. Меняются условия, делавшие исходное предложение неприемлемым.</p>"
+        },
+        "en": {
+          "section": "Theory of Constraints · the Goldratt corpus",
+          "title": "Returning what does not sell",
+          "body": "<p>The proposal to accept any return initially provokes objections. Goldratt revisits it after two changes: rapid replenishment and pricing based on total BigBrand sales in a store rather than the size of each order. Stores could then reorder each day what they had sold and hold less stock.</p><p>Returns would then be smaller, and products could move to stores where they are wanted. The conditions that made the original offer unacceptable have changed.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Eliyahu M. Goldratt · My Saga to Improve Production (1996)",
+      "url": "https://www.toc-goldratt.com/content/My-Saga-to-Improve-Production",
+      "role": "author",
+      "note": {
+        "ru": "Прочитан содержательный авторский очерк: появление «Цели», трудности внедрения, формализация пяти шагов и переход к ограничениям в правилах. Автобиографический рассказ автора, не независимая оценка результатов.",
+        "en": "The substantive author essay was read: The Goal, implementation difficulties, the five steps and policy constraints. An author’s account, not an independent outcomes study."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 2,
+      "title": "Goldratt Research Labs · Introduction to TOC",
+      "url": "https://www.goldrattresearchlabs.com/introduction-to-toc",
+      "role": "publisher",
+      "note": {
+        "ru": "Полностью прочитано содержательное введение и пять шагов; современное изложение организации Голдратта и практиков.",
+        "en": "The substantive introduction and all five focusing steps were read; a current exposition by Goldratt’s and practitioners’ organization."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 3,
+      "title": "Eliyahu M. Goldratt · Critical Chain · chapter 11",
+      "url": "https://northriverpress.com/excerpt-from-critical-chain/",
+      "role": "author",
+      "note": {
+        "ru": "Полностью прочитан официальный фрагмент главы 11: выступление Джонни Фишера, два участника с мощностью 10 и 20 единиц, конфликт затрат и потока. Остальной роман не прочитан.",
+        "en": "The complete official chapter 11 excerpt was read: Johnny Fisher’s lecture, the 10/20-unit demonstration and the cost/throughput conflict. The rest of the novel was not read."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 4,
+      "title": "Gray, Felan, E. Umble & M. Umble · PMI Research Conference (2000)",
+      "url": "https://www.pmi.org/learning/library/drum-buffer-rope-critical-chain-buffering-8526",
+      "role": "primary",
+      "note": {
+        "ru": "Прочитаны разделы об определении критической цепи, ресурсных зависимостях, проектном и питающих буферах. Это профессиональное изложение четырёх названных авторов, не текст всего романа Голдратта.",
+        "en": "Read the sections on critical-chain identification, resource dependencies, project and feeding buffers. Professional exposition by these four authors, not the complete Goldratt novel."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 5,
+      "title": "Eliyahu M. Goldratt & Efrat Goldratt-Ashlag · The Choice / «Выбор: Правила Голдратта»",
+      "url": "https://www.toc-goldratt.com/en/product/the-choice",
+      "role": "author",
+      "note": {
+        "ru": "Собственное издание Альпина, 2014, ISBN 978-5-9614-3555-9, перевод Д. Баймухаметовой; оригинал North River Press, 2008. Проверены титул, metadata и 26 spine-документов: 18 глав, заметки Эфрат, приложение. Прочитаны пролог и полностью главы 2, 5, 6, 18. Это выборочные главы полного издания, не сплошное чтение книги. Служебное «Критическая цепь» в HTML head ошибочно: текст относится к «Выбору». Частный EPUB не включён в библиотеку.",
+        "en": "Owned Alpina 2014 edition, ISBN 978-5-9614-3555-9, translated by D. Baimukhametova; North River Press original, 2008. Title/metadata and 26 spine documents checked: 18 chapters, Efrat’s notes and appendix. Read the prologue and complete chapters 2, 5, 6 and 18. Selected chapters of a complete edition, not continuous reading of the book. Misleading HTML head titles say Critical Chain; the actual work is The Choice. Private EPUB text is not distributed."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 6,
+      "title": "Goldratt & Jeff Cox · The Goal · official synopsis",
+      "url": "https://www.toc-goldratt.com/en/product/the-goal-audiobook-30th-anniversary-edition",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитана официальная завязка: Алекс Рого, угроза закрытия через три месяца, наставник Джона. Не прослушана аудиокнига; сцены Херби, NCX-10 и семейная развязка здесь не пересказываются. Локальный EPUB «Цели» оказался Smart Reading, а не полным романом.",
+        "en": "Read the official premise: Alex Rogo, three months before closure and mentor Jonah. The audiobook was not heard; Herbie, NCX-10 and the family resolution are not reconstructed. The local Goal EPUB was a Smart Reading condensation, not the complete novel."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 7,
+      "title": "Goldratt Marketing · The Goal Movie & GSP on Operations",
+      "url": "https://www.toc-goldratt.com/en/product/the-goal-movie-gsp-on-operations",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитано опубликованное описание DBR: расписание ограничения, защита от неопределённости, управление запуском. Фильм и платная лекция не просмотрены; их сюжет не выдаётся за текст романа.",
+        "en": "Read the published DBR explanation: constraint schedule, uncertainty protection and controlled release. The film and paid lecture were not watched; their scenes are not treated as novel text."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 8,
+      "title": "Eliyahu M. Goldratt · It’s Not Luck · official work description",
+      "url": "https://www.toc-goldratt.com/en/product/its-not-luck",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитаны официальные описание, область применения и завязка. Оставлено место этой работы в корпусе — продажи, дистрибуция, конфликт и Thinking Processes. Сюжет компаний и развязка не восстановлены по аннотации.",
+        "en": "Read the official description, applications and premise. Retained its place in the corpus: sales, distribution, conflict and Thinking Processes. Company plots and outcomes are not reconstructed from the synopsis."
+      },
+      "accessDate": "2026-10-31"
+    },
+    {
+      "id": 9,
+      "title": "Theory of Constraints Handbook · contents / chapter authors",
+      "url": "https://www.scienceofbusiness.com/wp-content/uploads/2020/03/ToC_Handbook_Table_of_Contents.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Проверены оглавление и имена авторов: редакторы James F. Cox III и John G. Schleier Jr.; вводная глава Голдратта, проектные главы других авторов. Это оглавление 50 страниц, не тексты глав; рецепты S-DBR, MTA и динамических буферов отсюда не выводятся.",
+        "en": "Checked the contents and chapter authors: editors James F. Cox III and John G. Schleier Jr.; Goldratt’s introduction and project chapters by other authors. This is a 50-page contents file, not the chapters. S-DBR, MTA and dynamic-buffer recipes are not inferred from it."
+      },
+      "accessDate": "2026-10-31"
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Выборочное чтение корпуса, а не одного романа: «Цель» Голдратта и Джеффа Кокса, «Дело не в везении», «Критическая цепь», «Выбор» с Эфрат Голдратт-Ашлаг и многоавторский Handbook. Основа — авторский очерк 1996 года, полностью прочитанный официальный фрагмент главы 11 Critical Chain, собственное полное издание «Выбора» (прочитаны пролог и главы 2, 5, 6, 18), официальные пояснения пяти шагов/DBR и профессиональное изложение проектных буферов. Для «Цели» и «Дело не в везении» проверены завязка и место в корпусе, не полная история; у Handbook проверено оглавление и авторство, не главы. Нет заявления о полном чтении пяти работ или точности всех их переводов. Все оставленные аргументы и границы указаны по источникам; новых авторских сцен и расчётов нет.",
+    "en": "Selected reading of a corpus, not one novel: The Goal by Goldratt and Jeff Cox, It’s Not Luck, Critical Chain, The Choice with Efrat Goldratt-Ashlag, and the multi-author Handbook. Based on the 1996 author essay, the entire official Critical Chain chapter 11 excerpt, an owned complete Choice edition (prologue and chapters 2, 5, 6, 18 read), official five-step/DBR explanations and professional project-buffer exposition. For The Goal and It’s Not Luck, the premise and place in the corpus were checked, not the full story; for the Handbook, contents and authorship, not chapters. No claim to full reading of all five works or translation fidelity across them. Sources disclose each retained argument and boundary; no new author scenes or calculations are invented."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/theory-of-constraints/theory-of-constraints.html",
+    "format": "v2",
+    "bytes": 297864,
+    "screenCount": 26,
+    "levels": {
+      "1": 13,
+      "2": 9,
+      "3": 4
+    },
+    "modes": {
+      "essential": 13,
+      "core": 22,
+      "deep": 26
+    },
+    "words": {
+      "ru": 1263,
+      "en": 1401
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "pass",
+    "combinedAssertions": 128,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-ostrom-earthsea-toc-history-browser.json"
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

@@ -1,0 +1,251 @@
+{
+  "slug": "the-giver",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD / new approved-title build",
+  "work": {
+    "title": {
+      "ru": "Дающий",
+      "en": "The Giver"
+    },
+    "author": "Lois Lowry",
+    "originalYear": 1993,
+    "scope": "First novel only; excludes film, graphic novel and later novels",
+    "consultedPrimaryExcerptEditionISBN": "9780547995663",
+    "publisherListingFormat": "Listening Library audiobook, ISBN 9780553751376; not listened to"
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/the-giver-sol-implementation.md",
+  "reportSHA256": "7ed59c3e7aaa2a6827db75e97689a206f8b168401a413c62f36bfd82d782743c",
+  "reviewedPairs": {
+    "uniqueOldPairs": 0,
+    "oldCollectorRead": 0,
+    "oldPublishedRead": 0,
+    "newWritten": 27,
+    "newAuthoringRead": 27,
+    "newEffectiveHtmlRead": 27,
+    "uniqueNewPairs": 27,
+    "languageTexts": 54,
+    "modePairAppearancesRead": 55
+  },
+  "counts": {
+    "essential": 11,
+    "core": 17,
+    "deep": 27
+  },
+  "levelCounts": {
+    "1": 11,
+    "2": 6,
+    "3": 10
+  },
+  "contentMode": "narrative",
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "spoilerPolicy": "full-plot-in-deep",
+  "sourceCount": 5,
+  "sourceScope": "No exact owned title/author edition was found after checking 218 Apple Books metadata candidates, including expanded and ZIP EPUBs. No target spine/body could be classified, and no complete novel was read continuously. Retained actions are supported by the substantial official 2003 Scholastic BookFiles guide, selected permission-labelled primary novel passages in the Selman/Elizabeth 2014 guide (chapters 9, 13, 16, 20; hardcover ISBN 9780547995663), selected book-specific secondary notes, the current official PRH reading guide and author interview, and Lowry’s 1994 Newbery speech. The evidence map labels each kind separately. The final perceptions are guide-backed, with author commentary preserving ambiguity, not a complete primary chapter-23 reading. No film/sequel facts or unsupported missing scenes were added. This supports independent checking of the retained sequence, not whole-book fidelity certification.",
+  "sourceEvidenceMap": {
+    "path": "collector-output/the-giver/source-evidence-map.json",
+    "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/source-evidence-map.json",
+    "sha256": "5975d93cfe0000d2a9cc12f1f5cb78b829308cf273847a9b54456a108e44e0d1",
+    "screenPairsMapped": 27,
+    "fullEditionContinuouslyRead": false,
+    "essentialMissingLinksForRetainedSequence": [],
+    "primaryPassages": [
+      {
+        "chapter": 9,
+        "guidePage": 9,
+        "novelPages": "70–71"
+      },
+      {
+        "chapter": 13,
+        "guidePage": 13,
+        "novelPages": "122–123"
+      },
+      {
+        "chapter": 16,
+        "guidePage": 14,
+        "novelPages": "159–160"
+      },
+      {
+        "chapter": 20,
+        "guidePage": 19,
+        "novelPages": "195–196"
+      }
+    ]
+  },
+  "changes": [
+    "Built the user-approved The Giver as connected original RU/EN story; 25 narrative scenes plus cover and shared final, with no management/moral lessons or exercises.",
+    "Wrote 11 connected manuscript paragraphs per language before segmentation; derived exact 11/17/27 nested counts.",
+    "Moved the Christmas-family memory into Essential to establish the question-about-love antecedent; corrected unsupported apple/twin/sled details and a father-response interpretation.",
+    "Set contentMode:narrative, retained explicit source maps and spoiler-safe global Sources/method dialog.",
+    "Built through the maintained v2 builder plus bounded book-local consent/text-cover patch; did not copy separate unmerged Settings/Geist code.",
+    "Protected all Deep entry routes, masked pre-consent Deep titles, generic saved-Deep label, renewed consent after reload and downgrade.",
+    "Completed structural, canonical/effective-data, offline/mobile, language/theme, focus, navigation and emulated iOS checks; cleaned all owned Chrome profiles/processes."
+  ],
+  "unresolvedIssues": [
+    "Independent content acceptance is pending; this ready status is not a literary PASS or publication approval.",
+    "The full novel was not read continuously. Guide-supported actions are explicitly marked; no certification is made for every omitted chapter, relationship, wording or detail.",
+    "Publisher must apply accepted shared Settings/Geist UI and recheck the resulting integration; this worker made no shared settings/font changes.",
+    "Physical iPhone/PWA and final root/catalogue/progress/production integration are untested and remain with publisher."
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/the-giver/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/story-data.json",
+      "sha256": "6a7607fa7e558cf9c4588c544a9dd6f588c328167f020b43b9f54124a2b6553d"
+    },
+    {
+      "path": "collector-output/the-giver/the-giver.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/the-giver.html",
+      "sha256": "df3b56939d148878a85c9d27f3176371c17c0c9d34d9cadbfa19834d758c4236"
+    },
+    {
+      "path": "collector-output/the-giver/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/sources.md",
+      "sha256": "cd9fe40c4c79d24325bfcd70785a73ad6ad4424b0298678c5c8dd16d1e8857a7"
+    },
+    {
+      "path": "collector-output/the-giver/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/QA.md",
+      "sha256": "b2b06d855c1ad8c04a4d1bd58a517b818a0b10bdb28d7d0c4f149ce16d952970"
+    }
+  ],
+  "checks": {
+    "structural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/the-giver.html",
+      "format": "v2",
+      "bytes": 284015,
+      "screenCount": 27,
+      "levels": {
+        "1": 11,
+        "2": 6,
+        "3": 10
+      },
+      "modes": {
+        "essential": 11,
+        "core": 17,
+        "deep": 27
+      },
+      "words": {
+        "ru": 920,
+        "en": 1127
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "browser": {
+      "status": "local-checks-passed",
+      "htmlSHA256": "c657938fbcc70401a004b0e8a4cbec41ccecaed3a46297fe41f0641f7be760c5",
+      "storyDataSHA256": "ffdd3501f8424779cb7fda36c9bd7f99d27ffbc3f552cef4514eb0c2bec38e64",
+      "canonicalFieldsEqualEmbedded": true,
+      "screenPairs": 27,
+      "counts": {
+        "essential": 11,
+        "core": 17,
+        "deep": 27
+      },
+      "matrixCases": 48,
+      "matrixScreenRenders": 880,
+      "browserRuns": 7,
+      "checks": 154,
+      "profilesRemoved": true,
+      "ownedChromeProcessesRemaining": 0,
+      "serverStarted": false,
+      "offline": true,
+      "runtimeExceptions": 0,
+      "physicalIPhoneTest": false,
+      "independentContentAcceptance": "pending"
+    },
+    "proofPaths": [
+      {
+        "path": "collector-output/the-giver/qa/final-summary.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/qa/final-summary.json",
+        "sha256": "f4a2f890610915f061e52a1aac7b5cabd7785de427d4b55df5b8d6f5467b5665"
+      },
+      {
+        "path": "collector-output/the-giver/qa/consistency.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/qa/consistency.json",
+        "sha256": "bb24743c2fb593ecf6f50cda4708795cada82c9bd0cb09ce4f9c59de64940d6c"
+      },
+      {
+        "path": "collector-output/the-giver/qa/build.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/qa/build.json",
+        "sha256": "169c5784692a25895dee53ded49cba2a3e1c23818f6c73e438379db79032896c"
+      }
+    ],
+    "scope": "Local technical checks only; independent literary/content review pending",
+    "parentStructural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/the-giver.html",
+      "format": "v2",
+      "bytes": 283972,
+      "screenCount": 27,
+      "levels": {
+        "1": 11,
+        "2": 6,
+        "3": 10
+      },
+      "modes": {
+        "essential": 11,
+        "core": 17,
+        "deep": 27
+      },
+      "words": {
+        "ru": 916,
+        "en": 1124
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 160,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json"
+    }
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "3 минут",
+        "en": "3 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "4 минут",
+        "en": "4 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "6 минут",
+        "en": "6 min"
+      }
+    }
+  },
+  "ownership": "Only collector-output/the-giver/, the named implementation report and this manifest written; no Git/PR/deploy, external messaging, root reader/catalogue/index/shared shell/skill/log writes.",
+  "parentCorrections": {
+    "findings": [
+      "GIV-001"
+    ],
+    "changedScreens": [
+      "the-apple"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/the-giver-meaning-fix-closure.json"
+  }
+}

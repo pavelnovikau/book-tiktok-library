@@ -1,0 +1,69 @@
+{
+  "slug": "thinking-fast-and-slow",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:05:08.250385+00:00",
+  "findings": [
+    "KAH-01",
+    "KAH-02"
+  ],
+  "changedScreens": [
+    "risk-policy",
+    "same-outcomes-new-frame"
+  ],
+  "sourceCheck": "Parent directly checked the identified owned AST 2014 EPUB, content92.html (all four epidemic A/B and A-prime/B-prime outcomes) and content84.html (the three caveats following the coin-toss/Sam discussion). KAH-01 restores the one-third/two-thirds branches in both equivalent frames; KAH-02 restores the separate exclusion of long-shot gambles while retaining independence and protection of overall well-being. Only these two RU/EN pairs changed. This is targeted source checking, not continuous full-book reading or a financial recommendation. No private source text was copied into the repository.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.json",
+  "originalReviewSha256": "dddf712ca9b107fa75886987a4ae71837eff8b7ee4e6b10f835fcc0cae7c2d92",
+  "beforeHashes": {
+    "collector-output/thinking-fast-and-slow/story-data.json": "22835bb177a6cbd38f82cb0c1a9c5f37d19442f785b43328acd8730a21d3d926",
+    "collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html": "29b4959427656a8f6402b5e6b197bea422a3e1ce952ab5e66ecad71abb1d09da",
+    "collector-output/thinking-fast-and-slow/sources.md": "48c119934bf5d9cc9901d432012629e4f4a47d4fcd82162f8a5911c6f6dd30c6",
+    "collector-output/thinking-fast-and-slow/QA.md": "28f8ca0e1157f5fa3bea312bc5641bb3ac07418c2290e8497eca7d90bdea9014",
+    "collector-output/thinking-fast-and-slow/evidence-map.sol.json": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454"
+  },
+  "afterHashes": {
+    "collector-output/thinking-fast-and-slow/story-data.json": "59e4d85e11c71bfb2e8a8550862e6cd88b0889712e22ebc1bfb130f73fec5cc3",
+    "collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html": "f1037058daeb7860a8aec44466e998adddd255cf2c82266205c6685aba020fe4",
+    "collector-output/thinking-fast-and-slow/sources.md": "8901abb5e91268817c021f2c0c01ee4b9383e374792250132fac92832e58b952",
+    "collector-output/thinking-fast-and-slow/QA.md": "04ed268252cc1ce9d8a39d8e7e95884a6e9fffbb4a6dc53504e696c2b3c096e5",
+    "collector-output/thinking-fast-and-slow/evidence-map.sol.json": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454"
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "screenProseChanged": true,
+  "counts": {
+    "essential": 14,
+    "core": 24,
+    "deep": 29
+  },
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+    "format": "v2",
+    "bytes": 309581,
+    "screenCount": 29,
+    "levels": {
+      "1": 14,
+      "2": 10,
+      "3": 5
+    },
+    "modes": {
+      "essential": 14,
+      "core": 24,
+      "deep": 29
+    },
+    "words": {
+      "ru": 2185,
+      "en": 2551
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-kahneman-meadows-fix-browser.json",
+    "scope": "RU/EN, four representative viewports/themes, exact updated copy and tail reachability; not physical iPhone/PWA.",
+    "combinedAssertions": 88
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

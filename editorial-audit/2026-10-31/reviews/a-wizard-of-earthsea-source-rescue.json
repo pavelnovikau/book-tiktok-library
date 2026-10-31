@@ -1,0 +1,653 @@
+{
+  "schemaVersion": 1,
+  "slug": "a-wizard-of-earthsea",
+  "reviewDate": "2026-10-31",
+  "verdict": "REQUIRES-FIXES",
+  "requiredFixCount": 2,
+  "summary": "The rebuilt package is an event-led concise story, with adequate bounded evidence for the retained arc. Two local copy/continuity corrections are required; a new full-book acquisition or another wholesale rebuild is not required by this review.",
+  "work": {
+    "author": "Ursula K. Le Guin",
+    "title": {
+      "ru": "Волшебник Земноморья",
+      "en": "A Wizard of Earthsea"
+    },
+    "identity": "First Earthsea novel, originally Parnassus Press, 1968; identity verified on the official author page.",
+    "editionActuallyRead": "Selected authorised English excerpts and disclosed ASR of an author-read climax; no complete printing/ISBN or named Russian translation inspected.",
+    "excluded": [
+      "Film/TV and graphic adaptations",
+      "Sequel events",
+      "2012 afterword and later author interpretation treated as first-novel fact"
+    ]
+  },
+  "coverage": {
+    "uniquePairsRead": 28,
+    "localizedScreenCopiesRead": 56,
+    "allPairFieldsRead": true,
+    "canonicalAndEffectiveHTMLCompared": true,
+    "canonicalFieldsEqual": true,
+    "allCumulativeRoutesRead": {
+      "ru": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "en": [
+        "essential",
+        "core",
+        "deep"
+      ]
+    },
+    "routeCounts": {
+      "essential": 17,
+      "core": 24,
+      "deep": 28
+    },
+    "routeIds": {
+      "essential": [
+        "cover",
+        "gont-origin",
+        "mist",
+        "three-names",
+        "ogion",
+        "roke-choice",
+        "jasper-vetch",
+        "summoning",
+        "recovery",
+        "low-torning",
+        "dragon-attention",
+        "northward",
+        "serret",
+        "ogion-return",
+        "iffish",
+        "vetch-voyage",
+        "final"
+      ],
+      "core": [
+        "cover",
+        "gont-origin",
+        "mist",
+        "three-names",
+        "ogion",
+        "first-book",
+        "roke-choice",
+        "learning-names",
+        "jasper-vetch",
+        "summoning",
+        "nemmerle-cost",
+        "recovery",
+        "low-torning",
+        "child",
+        "dragon-attention",
+        "dragon-fight",
+        "dragon-offer",
+        "northward",
+        "serret",
+        "ogion-return",
+        "pursuit",
+        "iffish",
+        "vetch-voyage",
+        "final"
+      ],
+      "deep": [
+        "cover",
+        "gont-origin",
+        "mist",
+        "three-names",
+        "ogion",
+        "first-book",
+        "roke-choice",
+        "learning-names",
+        "jasper-vetch",
+        "summoning",
+        "nemmerle-cost",
+        "recovery",
+        "low-torning",
+        "child",
+        "dragon-attention",
+        "dragon-fight",
+        "dragon-offer",
+        "northward",
+        "serret",
+        "ogion-return",
+        "pursuit",
+        "iffish",
+        "vetch-voyage",
+        "open-sea",
+        "changing-faces",
+        "resolution-name",
+        "ending-return",
+        "final"
+      ]
+    },
+    "otherRecordsRead": [
+      "collector-output/a-wizard-of-earthsea/sources.md",
+      "collector-output/a-wizard-of-earthsea/QA.md",
+      "editorial-audit/2026-10-31/ready/a-wizard-of-earthsea.json",
+      "editorial-audit/2026-10-31/books/a-wizard-of-earthsea.md",
+      "editorial-audit/2026-10-31/source-rescue/a-wizard-of-earthsea.md"
+    ],
+    "instructionsRead": [
+      "editorial-audit/2026-10-31/BRIEF.md",
+      "CONTRIBUTING.md",
+      "skills/book-tiktok/SKILL.md",
+      "skills/book-tiktok/references/content-model.md",
+      "skills/book-tiktok/references/data-contract.md",
+      "skills/book-tiktok/references/html-spec.md"
+    ],
+    "rootReaderBoundary": "Compared embedded data/counts and fingerprint only. Root remains the different legacy 144-pair corpus (36/90/144), not the reviewed rebuilt candidate. Those 144 legacy pairs were not re-read or approved in this pass."
+  },
+  "narrativeAssessment": {
+    "form": "Event-led original-word retelling; no management exercise, imported lesson sequence or invented quoted dialogue found.",
+    "identityConflict": "The Deep encounter retains changing faces, shared name, union and Vetch’s mistaken perception/rescue; it does not replace them with a self-esteem lecture.",
+    "parity": "All 28 pairs compared; meaningful local drift is identified in ESR-02. Not certification of a published Russian translation.",
+    "essential": "Broad journey intelligible, but the Low Torning/Pendor departure loses its immediate cause (ESR-01).",
+    "core": "Connected after restored child and pursuit detail; explicitly signalled Pendor flashback is optional pacing feedback.",
+    "deep": "Climax follows the checked primary extract through rescue and release. Shared final remains spoiler-safe, though framed for shallower readers."
+  },
+  "sourceEvidence": [
+    {
+      "id": "S1",
+      "url": "https://www.arts.gov/stories/other/wizard-earthsea-audio-guide",
+      "identity": "NEA Big Read written Audio Guide, page dated 24 November 2013; Dana Gioia host, novel extracts read by KenYatta Rogers",
+      "role": "Marked fiction extracts are primary; presenters’ accounts and interpretations are intermediary.",
+      "actuallyRead": "Complete written transcript, including all marked extracts. No listening to the NEA audio.",
+      "mappedLocations": [
+        "Opening Gont paragraph and adjacent invasion/apprenticeship account",
+        "Summoning breach and recovery extracts",
+        "Low Torning account; Pendor fight and negotiation",
+        "Intermediate sea confrontation and closing naming passage"
+      ],
+      "editionBoundary": "No exact base printing identified by the transcript; not continuous novel reading."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.arts.gov/sites/default/files/Teachers-Guide-LeGuin.pdf",
+      "identity": "NEA Big Read Teacher’s Guide, 13-page current PDF, ten lessons and three handouts",
+      "role": "Educational guide with embedded primary quotations; questions and interpretive exercises are not plot answers.",
+      "actuallyRead": "Mapped passages in Lesson Five (PDF p5), Lesson Six (p6), Lesson Seven (p7), Handout One (p11) and Handout Three (p13), plus surrounding lessons; first-novel boundary in Handout Two examined. No claim that later-book handout prose verifies this novel.",
+      "mappedLocations": [
+        "Dragon-name passage, Lesson Five",
+        "Hunter reversal, Lesson Six homework",
+        "Osskil/Skiorh and Vetch reunion, Lesson Seven",
+        "Master Hand rule, Handout One (guide paraphrase)",
+        "River naming rite quotation, Handout Three"
+      ],
+      "sha256": "c2400c6f9b1649bb0e5cf30830aff8b95fbda371f9a16df1b506a862135e62b9",
+      "bytes": 223009,
+      "freshDownloadMatchesWorkerAsset": true
+    },
+    {
+      "id": "S3",
+      "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+      "assetUrl": "https://static1.squarespace.com/static/5cad42ef90f904e520359371/t/63c9efd46aa1c92a6d0df81a/1674178524065/Ursula_reads_A_Wizard_of_Earthsea-The_Open_Sea.mp3",
+      "identity": "Official author page → Ursula_reads_A_Wizard_of_Earthsea-The_Open_Sea.mp3; spoken introduction identifies Le Guin, 13 December 2007, climactic scene of last chapter",
+      "role": "Primary fiction extract. The spoken introduction is source identification, not later author interpretation used as book fact.",
+      "actuallyRead": "Entire existing local ASR transcript, beginning with the spoken introduction and ending with Ged weeping; segment timestamps inspected for the naming/joining and final release. Official audio freshly obtained and matched to its worker-side original. No new transcription and no human/auditory listening are claimed.",
+      "boundary": "About 11m20s (679.680363s): Ged drops magewind and rows → seeming sand → changing faces → name/joining → Vetch rescue → moon, laughter and tears. Not the complete chapter, novel, or a known complete printing.",
+      "sha256": "8204e43d96f6440c4e5062d843d484b4b5e9833b27172c2993bc9a4e33bb0f41",
+      "bytes": 5412576,
+      "freshDownloadMatchesWorkerAsset": true,
+      "asrPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/rescue-fiction-oct31/earthsea-author-ch10-asr.txt",
+      "asrSha256": "8c6a23a285c4b1d1110055a14ce501b2d17449971b88391658d03797962cf8e3",
+      "asrSegmentsSha256": "d35c01ecf45efd0c3967475ce62f1883c44576c5ef35b3d1a3dcd2a8b376c3e6",
+      "limit": "ASR spellings such as Gid are unreliable; character names and decisive identity/union were cross-checked textually. This independently reviews the transcript and mapping, not independently heard phonemes."
+    },
+    {
+      "id": "S4",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/wizard-earthsea-ursula-k-le-guin",
+      "identity": "Terry Heller, EBSCO Research Starter, displayed publication 2022",
+      "role": "Reference, not novel.",
+      "actuallyRead": "Full Form and Content event account and adjacent context. Later gender/Tehanu/essay interpretation segregated from first-novel events."
+    },
+    {
+      "id": "S5",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/earthsea-series-ursula-k-le-guin",
+      "identity": "Carol D. Stevens, EBSCO Research Starter, displayed publication 2022",
+      "role": "Reference, not novel.",
+      "actuallyRead": "Complete first-novel The Story account through the Lookfar ending; opening and next-novel boundary checked. Sequel events not used to verify this story."
+    },
+    {
+      "id": "S6",
+      "url": "https://www.ebsco.com/research-starters/literature-and-writing/wizard-earthsea-analysis-major-characters/",
+      "identity": "Gene Doty, EBSCO Major Characters, displayed publication 2021; additional acquisition-map reference",
+      "role": "Relationship cross-check only, not authority for simplified causal or psychological claims.",
+      "actuallyRead": "Character entries, especially Ogion, Vetch, Jasper, Nemmerle, Serret, Pechvarry and Yevaud. No import of its oversimplified school/Low Torning chronology."
+    }
+  ],
+  "retainedArcEvidenceMap": [
+    {
+      "screens": [
+        "gont-origin",
+        "mist",
+        "ogion",
+        "roke-choice"
+      ],
+      "evidence": [
+        "S1 opening and adjacent narration",
+        "S5 first-novel opening"
+      ],
+      "assessment": "Supported at retained granularity."
+    },
+    {
+      "screens": [
+        "three-names",
+        "learning-names"
+      ],
+      "evidence": [
+        "S1 naming account",
+        "S2 Handouts Three and One respectively"
+      ],
+      "assessment": "Specific naming rite/rule support; not a modern self-knowledge lesson."
+    },
+    {
+      "screens": [
+        "first-book"
+      ],
+      "evidence": [
+        "S4 Form and Content first temptation",
+        "S5 first-novel apprenticeship paragraph",
+        "S6 Ogion"
+      ],
+      "assessment": "Motivation and dispelling supported through substantial reference accounts."
+    },
+    {
+      "screens": [
+        "jasper-vetch",
+        "summoning",
+        "nemmerle-cost",
+        "recovery"
+      ],
+      "evidence": [
+        "S1 school account and marked breach/recovery extracts",
+        "S2 Lessons Four/Five",
+        "S5 school paragraph"
+      ],
+      "assessment": "Supported. Primary physical attack and recovery checked."
+    },
+    {
+      "screens": [
+        "low-torning",
+        "child",
+        "dragon-attention",
+        "dragon-fight",
+        "dragon-offer"
+      ],
+      "evidence": [
+        "S1 Low Torning account and marked Pendor extract/negotiation",
+        "S2 Lesson Five",
+        "S4/S5 child and Pendor account",
+        "S6 Pechvarry/Yevaud"
+      ],
+      "assessment": "Events supported; Essential loses a causal bridge (ESR-01)."
+    },
+    {
+      "screens": [
+        "northward",
+        "serret",
+        "ogion-return"
+      ],
+      "evidence": [
+        "S2 Lessons Six/Seven",
+        "S4 Form and Content",
+        "S5 first-novel journey",
+        "S6 Serret"
+      ],
+      "assessment": "Retained bridge supported through reference coverage; exact castle choreography not claimed."
+    },
+    {
+      "screens": [
+        "pursuit"
+      ],
+      "evidence": [
+        "S1 marked intermediate sea passage"
+      ],
+      "assessment": "Checked against actual primary passage; not mistaken for the final encounter."
+    },
+    {
+      "screens": [
+        "iffish",
+        "vetch-voyage"
+      ],
+      "evidence": [
+        "S2 Lesson Seven",
+        "S5 first-novel final paragraphs",
+        "S6 Vetch"
+      ],
+      "assessment": "Friendship/voyage supported; categorical name claims need ESR-02."
+    },
+    {
+      "screens": [
+        "open-sea",
+        "changing-faces",
+        "resolution-name",
+        "ending-return"
+      ],
+      "evidence": [
+        "S3 complete climax ASR with fresh official-asset identity check",
+        "S4/S5 ending cross-check"
+      ],
+      "assessment": "Specific climax support within disclosed ASR limits; no blanket missing-EPUB gate."
+    },
+    {
+      "screens": [
+        "cover",
+        "final"
+      ],
+      "evidence": [
+        "Candidate framing and route boundaries"
+      ],
+      "assessment": "Spoiler-safe framing; no factual authorial-intent claim."
+    }
+  ],
+  "sourceSufficiency": {
+    "retainedArc": "Adequate at concise retained granularity, with ASR limits; two local findings remain.",
+    "essentialMissingSourceLink": null,
+    "missingReaderFacingLink": "ESR-01: the available causal bridge is absent from Essential, not absent from sources.",
+    "fullPrimaryPreferredNotAutomaticGate": true
+  },
+  "findings": [
+    {
+      "id": "ESR-01",
+      "severity": "medium",
+      "blocking": true,
+      "type": "causal omission in the Essential route",
+      "screenIds": [
+        "low-torning",
+        "child",
+        "dragon-attention",
+        "northward"
+      ],
+      "primaryScreenId": "dragon-attention",
+      "field": "copy.{ru,en}.body, first sentence",
+      "affectedModes": [
+        "essential"
+      ],
+      "copy": {
+        "ru": "Гед решает устранить угрозу драконов, прежде чем покинуть островитян.",
+        "en": "Ged resolves to deal with the dragons before leaving the islanders."
+      },
+      "problem": "Essential skips child. It moves from accepting the Low Torning post directly to a decided departure, then says Ged keeps fleeing. The renewed pursuit and danger to the fishermen, which cause the departure and Pendor decision, survive only in Core. This is a specific missing causal bridge, not a demand to include every episode.",
+      "minimalCorrection": {
+        "action": "Replace the quoted opening of the common level-1 dragon-attention screen with these two sentences; keep the child episode as additional Core detail. Counts and consent need no change.",
+        "ru": "Из-за тени оставаться среди рыбаков опасно. Прежде чем уйти, Гед решает устранить угрозу драконов.",
+        "en": "The shadow makes it dangerous for Ged to stay among the fishermen. Before leaving, he resolves to deal with the dragons."
+      },
+      "evidence": [
+        {
+          "url": "https://www.arts.gov/stories/other/wizard-earthsea-audio-guide",
+          "location": "Low Torning narration immediately before the Pendor extract; Gioia, Card and Stine, rendered web lines 188–202",
+          "role": "Authorised educational account, not a primary quotation of this causal bridge",
+          "support": "His presence threatens the islanders; he must leave, first securing their protection."
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/earthsea-series-ursula-k-le-guin",
+          "location": "The Story, first-novel paragraphs beginning After a slow healing and Knowing that he must leave",
+          "role": "Substantial reference account",
+          "support": "Explicit child/border encounter → renewed shadow danger → departure/Pendor sequence."
+        }
+      ]
+    },
+    {
+      "id": "ESR-02",
+      "severity": "medium",
+      "blocking": true,
+      "type": "knowledge confused with fact; unsupported categorical claim; slight RU/EN drift",
+      "screenIds": [
+        "vetch-voyage"
+      ],
+      "primaryScreenId": "vetch-voyage",
+      "field": "copy.{ru,en}.body, final two sentences",
+      "affectedModes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "copy": {
+        "ru": "Тень ещё не получила имени. Последний ответ нельзя получить ни у школьного учителя, ни в обмен на чужую клятву.",
+        "en": "The shadow still has no name. The final answer cannot be obtained from a schoolmaster or exchanged for someone else’s oath."
+      },
+      "problem": "RU says the shadow has not yet been given a name; EN asserts it has none. The unknown name becomes an objective absence, and the narrator then pronounces how the answer cannot be found. The retained climax is recognition of the shared identity, not a new name-creation rite. The dragon offered knowledge which Ged refused; that is not proof that an answer is categorically unobtainable by those means. Keep uncertainty inside Ged’s actual situation.",
+      "minimalCorrection": {
+        "action": "Replace both quoted closing sentences with one spoiler-safe statement of what Ged does not yet know.",
+        "ru": "Гед всё ещё не знает имени тени.",
+        "en": "Ged still does not know the shadow’s name."
+      },
+      "evidence": [
+        {
+          "url": "https://www.ursulakleguin.com/a-wizard-of-earthsea",
+          "assetUrl": "https://static1.squarespace.com/static/5cad42ef90f904e520359371/t/63c9efd46aa1c92a6d0df81a/1674178524065/Ursula_reads_A_Wizard_of_Earthsea-The_Open_Sea.mp3",
+          "location": "Chapter-10 author climax recording, ASR segment times 07:39.56–08:06.80",
+          "role": "Primary fiction, consulted through the worker’s existing complete local ASR; freshly downloaded official audio matched byte-for-byte",
+          "support": "Simultaneous shared name and joining; no new name-bestowal rite."
+        },
+        {
+          "url": "https://www.arts.gov/stories/other/wizard-earthsea-audio-guide",
+          "location": "Dragon negotiation, Kelly Link / Michael Dirda, rendered web lines 213–220",
+          "role": "Authorised educational account",
+          "support": "The name is offered as knowledge; Ged chooses the islanders’ protection."
+        },
+        {
+          "url": "https://www.ebsco.com/research-starters/literature-and-writing/earthsea-series-ursula-k-le-guin",
+          "location": "The Story, final paragraph of the A Wizard of Earthsea account, before the next novel",
+          "role": "Substantial reference cross-check",
+          "support": "The ending identifies the name as Ged’s own, confirming the ASR’s central event."
+        }
+      ]
+    }
+  ],
+  "optionalTaste": [
+    {
+      "id": "ESR-T01",
+      "severity": "low",
+      "blocking": false,
+      "type": "optional pacing",
+      "screenIds": [
+        "dragon-attention",
+        "dragon-fight",
+        "dragon-offer"
+      ],
+      "copy": {
+        "ru": [
+          "добивается клятвы не нападать на острова людей.",
+          "Прежде чем старый дракон появляется, Гед сражается с его потомством."
+        ],
+        "en": [
+          "secures an oath not to attack the human islands.",
+          "Before the old dragon appears, Ged fights his offspring."
+        ]
+      },
+      "comment": "Core/Deep resolve the oath, flash back to the fight, then resolve the oath again. The explicit Before makes this intelligible, so this is not a chronology-error blocker. A later pacing pass could place dragon-fight before dragon-attention without changing levels or inventing content.",
+      "evidence": {
+        "url": "https://www.arts.gov/stories/other/wizard-earthsea-audio-guide",
+        "location": "Pendor prose extract followed by negotiation, rendered web lines 203–220"
+      },
+      "requiredForPass": false
+    }
+  ],
+  "checks": {
+    "structure": {
+      "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html --min-screens 28 --require-bilingual",
+      "passes": 69,
+      "warnings": [],
+      "failures": [],
+      "modes": {
+        "essential": 17,
+        "core": 24,
+        "deep": 28
+      }
+    },
+    "readyManifestAllFourDeliverablesMatch": true,
+    "readyReportAndAcquisitionMapHashesMatch": true,
+    "effectiveDataUsesAll28CanonicalScreens": true,
+    "extraEmbeddedFields": "Generated modes labels/reading-time estimates only.",
+    "browser": {
+      "status": "passed",
+      "method": "Native headless Chrome, file://, CDP, fresh mktemp profile, timeout 30 and owned process-group cleanup; no web server or preview tools.",
+      "scope": "Focused fresh route/consent check, not a repeated broad viewport/theme matrix.",
+      "renderedVisits": 138,
+      "viewports": [
+        {
+          "language": "ru",
+          "theme": "dark",
+          "width": 320,
+          "height": 568
+        },
+        {
+          "language": "en",
+          "theme": "light",
+          "width": 1440,
+          "height": 900
+        }
+      ],
+      "routes": [
+        {
+          "language": "ru",
+          "width": 320,
+          "height": 568,
+          "theme": "dark"
+        },
+        {
+          "language": "en",
+          "width": 1440,
+          "height": 900,
+          "theme": "light"
+        }
+      ],
+      "routeBodyTitleCountOverflowFailures": [],
+      "consent": {
+        "ruFreshConsent": {
+          "warned": true,
+          "cancelSafe": true,
+          "safeTitles": true
+        },
+        "ruSavedDeep": {
+          "genericResume": true,
+          "essential": true,
+          "noDeepTitle": true,
+          "gate": true,
+          "cancelKeepsCover": true,
+          "restored": true
+        },
+        "enFreshConsent": {
+          "warned": true,
+          "cancelSafe": true,
+          "safeTitles": true
+        },
+        "enSavedDeep": {
+          "genericResume": true,
+          "essential": true,
+          "noDeepTitle": true,
+          "gate": true,
+          "cancelKeepsCover": true,
+          "restored": true
+        }
+      },
+      "sourcesDialogOpensBothLanguages": true,
+      "freshDefault": {
+        "language": "ru",
+        "theme": "dark",
+        "counter": "1 / 17",
+        "title": "Волшебник Земноморья"
+      },
+      "httpRuntimeRequests": [],
+      "runtimeExceptions": [],
+      "profileRemoved": true,
+      "ownedChromeProcessesAfter": 0,
+      "limits": "No visual screenshot audit, physical Safari/iPhone/PWA test, or independent repetition of all implementation QA."
+    }
+  },
+  "fingerprints": {
+    "algorithm": "SHA-256",
+    "before": {
+      "capturedAt": "2026-10-31T20:47:59.658238+00:00",
+      "files": {
+        "collector-output/a-wizard-of-earthsea/story-data.json": {
+          "sha256": "6300f39db80db5d4c5d7ed781e69bf02585a0c678357bd30600f5c4c10674bfb",
+          "bytes": 48201
+        },
+        "collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html": {
+          "sha256": "51a323ffd67819b72c8b9072681890f5eb49cf3fd97e295b0576787f7ecd8a73",
+          "bytes": 304342
+        },
+        "collector-output/a-wizard-of-earthsea/sources.md": {
+          "sha256": "79c0a6c21bff79816c5982de45e7b8280e9060c4eca3f21dec4ad3d0fc35c77c",
+          "bytes": 3377
+        },
+        "collector-output/a-wizard-of-earthsea/QA.md": {
+          "sha256": "c804e699bb511396dab1de5500baed34459d77ee30eee80e3a5384db65098324",
+          "bytes": 2436
+        },
+        "editorial-audit/2026-10-31/ready/a-wizard-of-earthsea.json": {
+          "sha256": "31889fc8a21894213ea987bdb577dcc86b81c2b07bb5a99a78ba758d0d67d52f",
+          "bytes": 3516
+        },
+        "a-wizard-of-earthsea.html": {
+          "sha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
+          "bytes": 465819
+        },
+        "editorial-audit/2026-10-31/books/a-wizard-of-earthsea.md": {
+          "sha256": "6f64476842e609e192b39eee75f8f68d03069a195705189bfe83d043e32b109f",
+          "bytes": 26122
+        },
+        "editorial-audit/2026-10-31/source-rescue/a-wizard-of-earthsea.md": {
+          "sha256": "c6f07183c42db9b5f403bcea5b48f2eb5f9af9e85c235a11f6956fa27ebc81e2",
+          "bytes": 8376
+        }
+      }
+    },
+    "after": {
+      "capturedAt": "2026-10-31T20:57:13.530454+00:00",
+      "files": {
+        "collector-output/a-wizard-of-earthsea/story-data.json": {
+          "sha256": "6300f39db80db5d4c5d7ed781e69bf02585a0c678357bd30600f5c4c10674bfb",
+          "bytes": 48201
+        },
+        "collector-output/a-wizard-of-earthsea/a-wizard-of-earthsea.html": {
+          "sha256": "51a323ffd67819b72c8b9072681890f5eb49cf3fd97e295b0576787f7ecd8a73",
+          "bytes": 304342
+        },
+        "collector-output/a-wizard-of-earthsea/sources.md": {
+          "sha256": "79c0a6c21bff79816c5982de45e7b8280e9060c4eca3f21dec4ad3d0fc35c77c",
+          "bytes": 3377
+        },
+        "collector-output/a-wizard-of-earthsea/QA.md": {
+          "sha256": "c804e699bb511396dab1de5500baed34459d77ee30eee80e3a5384db65098324",
+          "bytes": 2436
+        },
+        "editorial-audit/2026-10-31/ready/a-wizard-of-earthsea.json": {
+          "sha256": "31889fc8a21894213ea987bdb577dcc86b81c2b07bb5a99a78ba758d0d67d52f",
+          "bytes": 3516
+        },
+        "a-wizard-of-earthsea.html": {
+          "sha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
+          "bytes": 465819
+        },
+        "editorial-audit/2026-10-31/books/a-wizard-of-earthsea.md": {
+          "sha256": "6f64476842e609e192b39eee75f8f68d03069a195705189bfe83d043e32b109f",
+          "bytes": 26122
+        },
+        "editorial-audit/2026-10-31/source-rescue/a-wizard-of-earthsea.md": {
+          "sha256": "c6f07183c42db9b5f403bcea5b48f2eb5f9af9e85c235a11f6956fa27ebc81e2",
+          "bytes": 8376
+        }
+      }
+    },
+    "allUnchanged": true
+  },
+  "ownership": {
+    "onlyRepositoryWrites": [
+      "editorial-audit/2026-10-31/reviews/a-wizard-of-earthsea-source-rescue.md",
+      "editorial-audit/2026-10-31/reviews/a-wizard-of-earthsea-source-rescue.json"
+    ],
+    "canonicalReadyRootHistoryUntouched": true,
+    "noGitPrDeployExternalMessagesOrSubagents": true,
+    "recommendationsApplied": false,
+    "publicationAuthorizedByThisReview": false
+  },
+  "limits": [
+    "No continuous whole-novel or complete-edition reading claimed.",
+    "No Russian translation collation.",
+    "Primary climax consultation is ASR-mediated and reuses the worker-generated transcript; no independent listening or transcription.",
+    "No claim to verify unretained castle/voyage detail, sequels, afterwords or adaptation fidelity."
+  ]
+}

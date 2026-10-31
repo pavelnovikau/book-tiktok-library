@@ -1,5 +1,13 @@
 # Work log
 
+## 2026-10-31 — release07: 12 readers, локальные meaning fixes и безопасная миграция
+
+Приняты 10 parent-localized исправлений по 14 findings и свежие exact-hash PASS Kuhn/Scott: 334 RU/EN pairs. Обратная замена только зафиксированных правок воспроизводит все 10 original reviewed SHA; исходные REQUIRES-FIXES reviews сохранены. Source limits и зависимость Behave от actual independent Mindscape reading после повторного timeout не скрыты.
+
+Интеграция в подготовленном release07 checkout:47 books/2076 screens, 7 new roots и 5 replacements; остальные 35 roots/entries byte-identical. Сохранены current Settings/Geist, custom covers, source maps и book-local consent. 1873/TOC получили one-time actual-key migration, removed-ID fallback и restart guard; PHM — document-local Deep consent. Исправлены exact category/title search collisions, сохранён старый RU title alias Determined. Public allowlist: 58 assets.
+
+Пройдены12×69 structural assertions, corpus/source/hash parity, shell idempotence, targeted no-server CDP Settings/fonts/native keys/cold scroll, migration/state, consent/cancel/reload, dense tails, safe-area/focus и discovery. Receipt/состояние PR и production: editorial-audit/2026-10-31/publisher-findings/release-07.json. Heinlein пришёл после seal и оставлен следующему publisher; остальные новые rescues не включались. Canonical tree получает только release07 receipts/proof/own closure.
+
 ## 2026-10-31 — release06 и независимое закрытие Settings PR29
 
 Приняты exact matching PASS packages: Atomic Habits13/20/24, Protocols10/16/22, Hermes12/17/22 —68 RU/EN pairs. Сохранены actual-excerpt/selected-reading/original-research границы; недоступные два внутренних источника Hermes не сертифицированы, A–D остаются гипотезами. Catalogue40 books/2,327 screens; новый habit-cycle motif и актуальные times/tags/descriptions. Остальные37 roots/entries неизменны относительно UI-main. Exact HTML интегрирован без plain rebuild, legacy Hermes progress мигрирует один раз, removed IDs безопасны, restart не восстанавливает старый saved ID.

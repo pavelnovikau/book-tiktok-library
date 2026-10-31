@@ -1,0 +1,709 @@
+{
+  "schemaVersion": 1,
+  "slug": "thinking-fast-and-slow",
+  "reviewType": "fresh independent author-meaning and bilingual/route review",
+  "reviewDate": "2026-10-31",
+  "status": "complete",
+  "verdict": "REQUIRES-FIXES",
+  "editorialDisposition": "EDIT",
+  "blockingFindings": [
+    {
+      "id": "KAH-01",
+      "severity": "medium",
+      "screenId": "same-outcomes-new-frame",
+      "kind": "omitted experimental condition / causal continuity",
+      "affectedRoutes": [
+        "essential-ru",
+        "essential-en",
+        "core-ru",
+        "core-en",
+        "deep-ru",
+        "deep-en"
+      ],
+      "exactDefectiveWording": {
+        "ru": "Одной группе предлагают гарантированно спасти 200 человек или рискнуть ради спасения всех. Другой те же последствия описывают через гарантированную смерть 400 человек и риск, при котором могут умереть все или никто.",
+        "en": "One group chooses between certainly saving 200 and a gamble that could save everyone. Another receives equivalent outcomes described as 400 certain deaths versus a gamble in which everyone or no one could die."
+      },
+      "reason": "The text declares the outcomes equivalent but omits both gamble probabilities and the zero-saved branch in the first frame. A gamble that could save everyone is not enough to establish equal distributions across frames. The experiment’s explanatory force depends on identical risks, not just 200 survivors equaling 400 deaths. This is a small retained-example gap, not a demand for more chapters.",
+      "smallestFaithfulCorrection": {
+        "ru": "В первой формулировке выбирают между гарантированным спасением 200 человек и шансом 1/3 спасти всех 600 при шансе 2/3 не спасти никого. Во второй — между гарантированной смертью 400 и шансом 1/3, что никто не умрёт, при шансе 2/3, что умрут все 600.",
+        "en": "In the first frame, the choice is between certainly saving 200 and a one-third chance of saving all 600 with a two-thirds chance of saving no one. In the second, it is between 400 certain deaths and a one-third chance that no one dies with a two-thirds chance that all 600 die."
+      },
+      "sourceUrl": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "urlRole": "Public work identification only; the supporting main-chapter passage is in the owned edition.",
+      "primaryLocator": "Verified owned RU EPUB, content92.html, epidemic problem: programs A/B and A′/B′ (the four adjacent outcome statements).",
+      "blocksAcceptance": true
+    },
+    {
+      "id": "KAH-02",
+      "severity": "medium",
+      "screenId": "risk-policy",
+      "kind": "omitted author qualification in a retained procedure",
+      "affectedRoutes": [
+        "deep-ru",
+        "deep-en"
+      ],
+      "exactDefectiveWording": {
+        "ru": "потенциальная потеря не должна угрожать благополучию, ставки не должны складываться в одну и ту же опасность, а риски должны быть достаточно независимыми",
+        "en": "a possible loss must not threaten overall well-being, the bets must not all expose the person to the same danger, and risks must be sufficiently independent"
+      },
+      "reason": "The latter two clauses restate the independence caveat, while the source’s third caveat—do not apply this to long-shot gambles—is lost. The ending excludes unfavorable/ruinous risks but does not replace this separate restriction. A positive-expectation long shot can satisfy independence and small stakes. Because a real risk procedure is retained, its explicit boundary should remain.",
+      "smallestFaithfulCorrection": {
+        "ru": "возможная потеря не должна угрожать общему благополучию; игры должны быть независимыми; правило не следует применять к лотереям с малыми шансами на выигрыш",
+        "en": "a possible loss must not threaten overall well-being; the gambles must be independent; the rule should not be applied to long-shot gambles"
+      },
+      "sourceUrl": "https://us.macmillan.com/books/9780374533557/thinkingfastandslow/",
+      "urlRole": "Public identification, not the full English source passage.",
+      "primaryLocator": "Verified owned RU EPUB, content84.html, advice to Sam following the series of coin-toss gambles: three caveats, especially the final bullet excluding low-chance lotteries.",
+      "blocksAcceptance": true
+    }
+  ],
+  "optionalPolish": [],
+  "sourceGap": false,
+  "sourceScope": {
+    "targetEdition": "Daniel Kahneman, Thinking, Fast and Slow (2011); owned RU translation, Bakanov school 2013, AST 2014",
+    "editionIdentityIndependentlyChecked": true,
+    "spineCount": 117,
+    "actualEvidence": "Selected retained passages across all five parts, introduction and conclusion; official Macmillan English introduction independently read.",
+    "completeOwnedEditionIdentified": true,
+    "continuousCompleteEditionRead": false,
+    "fullEnglishTranslationCollation": false,
+    "rejectedCondensationsUsed": false,
+    "modernScientificValidationClaimed": false,
+    "privateFullTextCopiedToRepository": false
+  },
+  "sourcePassagesRead": {
+    "the-question": "content0.html, Origins and small-sample/statistician survey; content26.html",
+    "two-systems": "content3–5.html, effort/automatic operations and Useful Fictions; content103.html",
+    "bat-and-ball": "content7.html, $1.10 task and Shane Frederick",
+    "a-complete-looking-story": "content20.html, missing information and one-sided evidence",
+    "the-easier-question": "content23.html, substitution; content24.html, affect heuristic",
+    "small-samples": "content25.html, kidney-cancer counties and noncausal sample-size explanation",
+    "the-wheel": "content28.html, 10/65 wheel and both UN questions; content29.html, two anchoring mechanisms",
+    "easy-to-recall": "content32.html, six/twelve assertiveness examples",
+    "base-rates": "content0.html, Steve librarian/farmer; content36–37.html, priors and useful representativeness",
+    "linda": "content38–39.html, fictional prompt, conjunction and debate",
+    "flight-instructors": "content42.html, Israeli Air Force instructor and regression",
+    "after-the-result": "content47.html, hindsight/outcome evaluation; source supports their connection",
+    "the-record-of-skill": "content50.html, eight-year adviser record and correlation; competence despite contrary evidence",
+    "when-intuition-learns": "content57.html, regularity and learning; content58.html, driving and feedback",
+    "interview-in-parts": "content54.html, army ratings and intuition after data collection; content55.html, hiring steps",
+    "outside-view": "content59–60.html, curriculum/reference class and limits of this one anecdote",
+    "premortem": "content65.html, 5–10-minute procedure and partial protection",
+    "reference-point": "content66–67.html, equal wealth/different histories; reference point and diminishing sensitivity",
+    "losses-and-gains": "content68.html, $100/$150 gamble and variable coefficient",
+    "a-mug-of-ones-own": "content71.html, randomized university mugs; content71–72.html, use versus exchange goods",
+    "probability-weights": "content77–78.html, descriptive theory and fourfold pattern/lottery/insurance; content80.html, probability versus weights",
+    "limits-of-prospect-theory": "content69.html, zero outcome, disappointment and regret",
+    "risk-policy": "content84.html, aggregation and three caveats",
+    "same-outcomes-new-frame": "content92.html, four epidemic-program distributions",
+    "two-selves": "content94.html, experienced total versus retrospective peak/end and duration neglect",
+    "the-cold-hand": "content95.html, 60s/90s cold-hand sessions, milder added period and memory-based choice",
+    "focusing-illusion": "content100.html, Schkade, student regions and climate/WYSIATI",
+    "final": "content103.html, weak self-correction, observation by others and organizational procedures"
+  },
+  "screenAudit": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "framing",
+      "primaryLocator": "Cover: scope/navigation",
+      "workerMapLocator": null,
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "the-question",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content0.html, Origins and small-sample/statistician survey; content26.html",
+      "workerMapLocator": "Introduction; content0; content26, Belief in the law of small numbers",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "two-systems",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content3–5.html, effort/automatic operations and Useful Fictions; content103.html",
+      "workerMapLocator": "content3–5; conclusion content103; Systems are useful fictions",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "bat-and-ball",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content7.html, $1.10 task and Shane Frederick",
+      "workerMapLocator": "content7, The lazy System 2",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "a-complete-looking-story",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content20.html, missing information and one-sided evidence",
+      "workerMapLocator": "content20, WYSIATI",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "the-easier-question",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content23.html, substitution; content24.html, affect heuristic",
+      "workerMapLocator": "content23–24, Substituting questions; affect heuristic",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "small-samples",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content25.html, kidney-cancer counties and noncausal sample-size explanation",
+      "workerMapLocator": "content25–27, opening of The law of small numbers; kidney-cancer counties",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "the-wheel",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content28.html, 10/65 wheel and both UN questions; content29.html, two anchoring mechanisms",
+      "workerMapLocator": "content28–30, Anchors; rigged wheel and two mechanisms",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "easy-to-recall",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content32.html, six/twelve assertiveness examples",
+      "workerMapLocator": "content32–33, Availability; Schwarz assertiveness task",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "base-rates",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content0.html, Steve librarian/farmer; content36–37.html, priors and useful representativeness",
+      "workerMapLocator": "Introduction content0, Steve; content36–38, Representativeness and base rates",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "linda",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content38–39.html, fictional prompt, conjunction and debate",
+      "workerMapLocator": "content38–40, Linda: less is more",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "flight-instructors",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content42.html, Israeli Air Force instructor and regression",
+      "workerMapLocator": "content42–43, Regression to the mean; Israeli Air Force instructor",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "after-the-result",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content47.html, hindsight/outcome evaluation; source supports their connection",
+      "workerMapLocator": "content47–49, Hindsight and outcome bias",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "the-record-of-skill",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content50.html, eight-year adviser record and correlation; competence despite contrary evidence",
+      "workerMapLocator": "content50–52, Illusion of stock-picking skill; stability of individual differences",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "when-intuition-learns",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content57.html, regularity and learning; content58.html, driving and feedback",
+      "workerMapLocator": "content56–58, Kahneman–Klein; regular environment, practice and feedback",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "interview-in-parts",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content54.html, army ratings and intuition after data collection; content55.html, hiring steps",
+      "workerMapLocator": "content54–55, Learning from Meehl; army interview and hiring procedure",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "outside-view",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content59–60.html, curriculum/reference class and limits of this one anecdote",
+      "workerMapLocator": "content59–62, The outside view; curriculum project and reference-class forecasting",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "premortem",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content65.html, 5–10-minute procedure and partial protection",
+      "workerMapLocator": "content65, Gary Klein’s premortem; 5–10-minute individual accounts",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "reference-point",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content66–67.html, equal wealth/different histories; reference point and diminishing sensitivity",
+      "workerMapLocator": "content66–68, Bernoulli’s errors; reference dependence and diminishing sensitivity",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "losses-and-gains",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content68.html, $100/$150 gamble and variable coefficient",
+      "workerMapLocator": "content68, Loss aversion; individual and contextual variation",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "a-mug-of-ones-own",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content71.html, randomized university mugs; content71–72.html, use versus exchange goods",
+      "workerMapLocator": "content71–72, Endowment effect; use goods versus trading goods",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "probability-weights",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content77–78.html, descriptive theory and fourfold pattern/lottery/insurance; content80.html, probability versus weights",
+      "workerMapLocator": "content77–83, Fourfold pattern; probability weighting and rare events",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "limits-of-prospect-theory",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content69.html, zero outcome, disappointment and regret",
+      "workerMapLocator": "content69, Blind spots of prospect theory; disappointment and regret",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "risk-policy",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "requires-small-fix",
+      "primaryLocator": "content84.html, aggregation and three caveats",
+      "workerMapLocator": "content84–85, Broad framing; risk-policy conditions",
+      "bilingualParity": "Both languages share the same omission"
+    },
+    {
+      "screenId": "same-outcomes-new-frame",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "requires-small-fix",
+      "primaryLocator": "content92.html, four epidemic-program distributions",
+      "workerMapLocator": "content92–93, Disease problem and framing",
+      "bilingualParity": "Both languages share the same omission"
+    },
+    {
+      "screenId": "two-selves",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content94.html, experienced total versus retrospective peak/end and duration neglect",
+      "workerMapLocator": "content94–96, Two selves; painful procedures, peak–end rule and duration neglect",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "the-cold-hand",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content95.html, 60s/90s cold-hand sessions, milder added period and memory-based choice",
+      "workerMapLocator": "content95, Cold-hand experiment; added milder interval",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "focusing-illusion",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content100.html, Schkade, student regions and climate/WYSIATI",
+      "workerMapLocator": "content100–101, Focusing illusion; California–Midwest comparison",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "primaryLocator": "content103.html, weak self-correction, observation by others and organizational procedures",
+      "workerMapLocator": "content103, Conclusion; diagnostic vocabulary and organizational procedures",
+      "bilingualParity": "Meaning, roles, numerical claims and qualifications preserved."
+    }
+  ],
+  "routeAssessment": {
+    "essential": "Connected five-part arc, with KAH-01 missing probabilities in the framing example.",
+    "core": "Genuine experiments and procedures deepen the same argument; KAH-01 persists.",
+    "deep": "Includes theoretical and selection qualifications, but KAH-02 loses one explicit risk-policy condition; KAH-01 persists.",
+    "bilingual": "All 29 pairs read; both required omissions occur in both languages, with otherwise meaningful parity."
+  },
+  "omissionAssessment": "Central-arc condensation is supported without demanding all chapters. The two retained-example/procedure omissions are specific and repairable; priming/ego-depletion remain omitted, not validated.",
+  "deterministicAudit": {
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "recheckRequirement": "Validate KAH-01 and KAH-02 against the named private primary passages, reread affected RU/EN routes, rebuild from canonical data and record new hashes before independent acceptance.",
+  "changesMade": [
+    "Only this independent review JSON and Markdown; package remains unchanged."
+  ],
+  "readingAndIntegrity": {
+    "scope": "NEW collector package; root delivery not present at intake and not reviewed/published here",
+    "pairsRead": 29,
+    "localizedScreensRead": 58,
+    "allPairIds": [
+      "cover",
+      "the-question",
+      "two-systems",
+      "bat-and-ball",
+      "a-complete-looking-story",
+      "the-easier-question",
+      "small-samples",
+      "the-wheel",
+      "easy-to-recall",
+      "base-rates",
+      "linda",
+      "flight-instructors",
+      "after-the-result",
+      "the-record-of-skill",
+      "when-intuition-learns",
+      "interview-in-parts",
+      "outside-view",
+      "premortem",
+      "reference-point",
+      "losses-and-gains",
+      "a-mug-of-ones-own",
+      "probability-weights",
+      "limits-of-prospect-theory",
+      "risk-policy",
+      "same-outcomes-new-frame",
+      "two-selves",
+      "the-cold-hand",
+      "focusing-illusion",
+      "final"
+    ],
+    "allTitlesSubtitlesBodiesAndMethodSourceNotesRead": true,
+    "routes": {
+      "essential": {
+        "count": 14,
+        "ids": [
+          "cover",
+          "the-question",
+          "two-systems",
+          "a-complete-looking-story",
+          "small-samples",
+          "base-rates",
+          "after-the-result",
+          "when-intuition-learns",
+          "outside-view",
+          "reference-point",
+          "losses-and-gains",
+          "same-outcomes-new-frame",
+          "two-selves",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      },
+      "core": {
+        "count": 24,
+        "ids": [
+          "cover",
+          "the-question",
+          "two-systems",
+          "bat-and-ball",
+          "a-complete-looking-story",
+          "the-easier-question",
+          "small-samples",
+          "the-wheel",
+          "easy-to-recall",
+          "base-rates",
+          "flight-instructors",
+          "after-the-result",
+          "the-record-of-skill",
+          "when-intuition-learns",
+          "outside-view",
+          "premortem",
+          "reference-point",
+          "losses-and-gains",
+          "a-mug-of-ones-own",
+          "probability-weights",
+          "same-outcomes-new-frame",
+          "two-selves",
+          "the-cold-hand",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      },
+      "deep": {
+        "count": 29,
+        "ids": [
+          "cover",
+          "the-question",
+          "two-systems",
+          "bat-and-ball",
+          "a-complete-looking-story",
+          "the-easier-question",
+          "small-samples",
+          "the-wheel",
+          "easy-to-recall",
+          "base-rates",
+          "linda",
+          "flight-instructors",
+          "after-the-result",
+          "the-record-of-skill",
+          "when-intuition-learns",
+          "interview-in-parts",
+          "outside-view",
+          "premortem",
+          "reference-point",
+          "losses-and-gains",
+          "a-mug-of-ones-own",
+          "probability-weights",
+          "limits-of-prospect-theory",
+          "risk-policy",
+          "same-outcomes-new-frame",
+          "two-selves",
+          "the-cold-hand",
+          "focusing-illusion",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      }
+    },
+    "hashes": {
+      "collector-output/thinking-fast-and-slow/story-data.json": {
+        "before": "22835bb177a6cbd38f82cb0c1a9c5f37d19442f785b43328acd8730a21d3d926",
+        "after": "22835bb177a6cbd38f82cb0c1a9c5f37d19442f785b43328acd8730a21d3d926",
+        "unchanged": true
+      },
+      "collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html": {
+        "before": "29b4959427656a8f6402b5e6b197bea422a3e1ce952ab5e66ecad71abb1d09da",
+        "after": "29b4959427656a8f6402b5e6b197bea422a3e1ce952ab5e66ecad71abb1d09da",
+        "unchanged": true
+      },
+      "collector-output/thinking-fast-and-slow/sources.md": {
+        "before": "48c119934bf5d9cc9901d432012629e4f4a47d4fcd82162f8a5911c6f6dd30c6",
+        "after": "48c119934bf5d9cc9901d432012629e4f4a47d4fcd82162f8a5911c6f6dd30c6",
+        "unchanged": true
+      },
+      "collector-output/thinking-fast-and-slow/QA.md": {
+        "before": "28f8ca0e1157f5fa3bea312bc5641bb3ac07418c2290e8497eca7d90bdea9014",
+        "after": "28f8ca0e1157f5fa3bea312bc5641bb3ac07418c2290e8497eca7d90bdea9014",
+        "unchanged": true
+      },
+      "collector-output/thinking-fast-and-slow/evidence-map.sol.json": {
+        "before": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454",
+        "after": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454",
+        "unchanged": true
+      },
+      "editorial-audit/2026-10-31/ready/thinking-fast-and-slow.json": {
+        "before": "1f2f6b3e1c0bb2e46a8054dc1d478ab16186093ba7e6115da7fea2612dcf7250",
+        "after": "1f2f6b3e1c0bb2e46a8054dc1d478ab16186093ba7e6115da7fea2612dcf7250",
+        "unchanged": true
+      },
+      "editorial-audit/2026-10-31/books/thinking-fast-and-slow.sol-implementation.md": {
+        "before": "2fd700884e990d37dee3ea9caca0553d76c007fd124f4d92b17070b5b212af60",
+        "after": "2fd700884e990d37dee3ea9caca0553d76c007fd124f4d92b17070b5b212af60",
+        "unchanged": true
+      }
+    },
+    "snapshotBeforeAt": "2026-10-31T20:24:01.442624+00:00",
+    "snapshotAfterAt": "2026-10-31T20:32:11.568710+00:00",
+    "packageImmutability": {
+      "filesHashedBefore": 24,
+      "changedPaths": [],
+      "allUnchanged": true
+    },
+    "readyManifestVerification": [
+      {
+        "path": "collector-output/thinking-fast-and-slow/story-data.json",
+        "expected": "22835bb177a6cbd38f82cb0c1a9c5f37d19442f785b43328acd8730a21d3d926",
+        "actual": "22835bb177a6cbd38f82cb0c1a9c5f37d19442f785b43328acd8730a21d3d926",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+        "expected": "29b4959427656a8f6402b5e6b197bea422a3e1ce952ab5e66ecad71abb1d09da",
+        "actual": "29b4959427656a8f6402b5e6b197bea422a3e1ce952ab5e66ecad71abb1d09da",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-fast-and-slow/sources.md",
+        "expected": "48c119934bf5d9cc9901d432012629e4f4a47d4fcd82162f8a5911c6f6dd30c6",
+        "actual": "48c119934bf5d9cc9901d432012629e4f4a47d4fcd82162f8a5911c6f6dd30c6",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-fast-and-slow/QA.md",
+        "expected": "28f8ca0e1157f5fa3bea312bc5641bb3ac07418c2290e8497eca7d90bdea9014",
+        "actual": "28f8ca0e1157f5fa3bea312bc5641bb3ac07418c2290e8497eca7d90bdea9014",
+        "matches": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/books/thinking-fast-and-slow.sol-implementation.md",
+        "expected": "2fd700884e990d37dee3ea9caca0553d76c007fd124f4d92b17070b5b212af60",
+        "actual": "2fd700884e990d37dee3ea9caca0553d76c007fd124f4d92b17070b5b212af60",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-fast-and-slow/evidence-map.sol.json",
+        "expected": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454",
+        "actual": "25fe8a0642a36e49f9f7c0ae91721b4fdd1e069bb8647f1b0604c4bb9c9d6454",
+        "matches": true
+      }
+    ],
+    "freshChecks": {
+      "canonicalScreensEqualEffectiveEmbeddedScreens": true,
+      "canonicalSourcesEqualEffectiveEmbeddedSources": true,
+      "canonicalMethodEqualEffectiveEmbeddedMethod": true,
+      "allCanonicalFieldsExceptGeneratedModesAndMediaEqual": true,
+      "singleEmbeddedDataBlock": true,
+      "noSubsequentCorpusAssignment": true,
+      "uniqueScreenIds": true,
+      "targetModesMatchComputedCounts": true,
+      "defaultLanguage": "ru",
+      "defaultTheme": "dark",
+      "defaultMode": "essential",
+      "contentMode": "explanatory",
+      "browserMatrixRepeated": false,
+      "chromeStarted": false
+    }
+  },
+  "reviewFiles": {
+    "json": "editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.json",
+    "markdown": "editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.md"
+  }
+}

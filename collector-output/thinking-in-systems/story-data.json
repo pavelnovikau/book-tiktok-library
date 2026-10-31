@@ -1,0 +1,596 @@
+{
+  "schemaVersion": 2,
+  "slug": "thinking-in-systems",
+  "title": {
+    "ru": "Азбука системного мышления",
+    "en": "Thinking in Systems"
+  },
+  "description": {
+    "ru": "Аргумент Донеллы Медоуз о поведении систем и возможностях изменения без обещания полного контроля.",
+    "en": "Donella Meadows’s argument about system behavior and change without a promise of complete control."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 13,
+    "core": 22,
+    "deep": 25
+  },
+  "methodNote": {
+    "ru": "Изложение своими словами центральной линии Thinking in Systems: A Primer (2008), редактор Diana Wright. Прочитаны открытые первичные материалы: девятистраничный черновой фрагмент о запасах и потоках, авторский Leverage Points и официальный фрагмент Dancing With Systems; просмотрены оглавление и вводные страницы легального превью. Полное издание 2008 года и официальный русский перевод не читались. Это сокращение проверенных тем, не поглавная замена: весь «зоопарк» моделей, все ловушки и уравнения не воспроизводятся. Различия черновика, самостоятельного эссе и окончательной книги сохранены в источниках. Для примеров о колебаниях осадков и небольших шагах дополнительно проверены §1 и §4 предшествующей полной архивной статьи Dancing With Systems.",
+    "en": "An original-word account of the central arc of Thinking in Systems: A Primer (2008), edited by Diana Wright. Consulted primary materials: a nine-page draft excerpt on stocks and flows, Meadows’s Leverage Points and the official Dancing With Systems excerpt; viewed the contents and prefatory pages of a lawful preview. The complete 2008 edition and authorized Russian translation were not read. This condenses checked themes rather than replacing every chapter: the full model zoo, every trap and model equations are not reproduced. The draft, standalone essay and final book are distinguished in Sources. The rainfall-variability and small-steps passages were additionally checked in §§1 and 4 of the earlier non-abbreviated Dancing With Systems author archive."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Chelsea Green — Thinking in Systems: A Primer",
+      "url": "https://www.chelseagreen.com/product/thinking-in-systems/",
+      "role": "publisher",
+      "note": {
+        "ru": "Издание 2008 года, редактор Diana Wright, ISBN 9781603580557. Страница подтверждает книгу, но не заменяет её текст.",
+        "en": "Identifies the 2008 book, editor Diana Wright and ISBN 9781603580557; not a substitute for reading evidence."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Donella Meadows — Bathtubs 101, official draft excerpt",
+      "url": "https://donellameadows.org/wp-content/userfiles/bathtubs101.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитан девятистраничный первичный фрагмент: запасы, потоки, равновесие, Великие озёра, долг/дефицит и инерция. Файл помечен DRAFT, а не полной версией 2008 года.",
+        "en": "Nine-page primary excerpt read: stocks, flows, equilibrium, Great Lakes, debt/deficit and inertia. Marked DRAFT, not the complete 2008 edition."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Donella Meadows — Leverage Points: Places to Intervene in a System",
+      "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+      "role": "author",
+      "note": {
+        "ru": "Проверены авторские объяснения обратных связей, буферов, задержек, информации, правил, целей и парадигм, с примерами и оговорками. Это самостоятельный предшествующий текст Медоуз.",
+        "en": "Checked the author’s explanations of feedback, buffers, delays, information, rules, goals and paradigms, including cases and qualifications. An earlier standalone Meadows text."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Donella Meadows Project — Dancing With Systems, book excerpt",
+      "url": "https://donellameadows.org/dancing-with-systems/",
+      "role": "book",
+      "note": {
+        "ru": "Официально обозначенный фрагмент книги: пределы контроля, наблюдение, модели, обучение, ответственность и благо целого. Прочитана открытая публикация, а не весь финальный раздел издания.",
+        "en": "Officially identified book excerpt: limits to control, observation, models, learning, responsibility and the whole. The public version, not the entire final section of the edition, was read."
+      }
+    },
+    {
+      "id": 5,
+      "title": "isee systems — publisher book preview",
+      "url": "https://www.iseesystems.com/store/books/thinking-in-systems/preview.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Просмотрены изображения страниц легального десятистраничного превью, в том числе оглавление и предисловия. Это вводные страницы, а не полная книга.",
+        "en": "Viewed the image pages of the lawful ten-page storefront preview, including contents and prefatory material. Front matter, not the complete book."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Donella Meadows — Dancing With Systems, non-abbreviated author archive",
+      "url": "https://donellameadows.org/archives/dancing-with-systems/",
+      "role": "author",
+      "note": {
+        "ru": "Проверены §1 о колебаниях осадков и §4 о небольших шагах, постоянном наблюдении и смене направления. Это предшествующий авторский текст, а не сверка окончательной редакции книги 2008 года. Посторонняя коммерческая вставка в §6 исключена; эпизод Dartmouth проверен по чистому сокращённому фрагменту, источнику 4.",
+        "en": "Checked §1 on rainfall variability and §4 on small steps, constant monitoring and changing course. This is an earlier author text, not a collation of the final 2008 book. An unrelated commercial intrusion in §6 is excluded; the Dartmouth case uses the clean edited excerpt, source 4."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз · 2008",
+          "title": "Азбука системного мышления",
+          "subtitle": "Запасы, обратные связи и возможность изменений",
+          "body": "<p>Сокращённая линия Thinking in Systems: от воды в ванне к информации, правилам и целям.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows · 2008",
+          "title": "Thinking in Systems",
+          "subtitle": "Stocks, feedback and the possibility of change",
+          "body": "<p>A condensed arc from water in a bath to information, rules and goals.</p>"
+        }
+      }
+    },
+    {
+      "id": "not-a-key-to-control",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Обещание контроля не сбывается",
+          "body": "<p>Медоуз признаётся, что в начале занятий системным анализом надеялась найти ключ к предсказанию и управлению сложным миром. Модели научили её другому: связи можно понимать лучше, но нельзя рассчитывать на будущее без неожиданностей.</p><p>Отсюда движение книги. Нужно увидеть, что создаёт поведение системы, прежде чем пытаться его исправлять. Вмешательство меняет условия, а система отвечает через собственные связи и задержки. Понимание этой динамики расширяет возможности действия, не превращая человека во всеведущего управляющего.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The promise of control fails",
+          "body": "<p>Meadows admits that when she began studying systems, she hoped to find a key to predicting and controlling a complex world. Models taught her something else: connections can be understood better, but a future without surprises cannot be guaranteed.</p><p>This sets the direction of the book. See what produces a system’s behavior before trying to fix it. An intervention changes conditions, and the system responds through its own connections and delays. Understanding these dynamics expands the possibilities for action without making anyone an all-knowing controller.</p>"
+        }
+      }
+    },
+    {
+      "id": "stock-and-flow",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Вода в ванне и вода из крана",
+          "body": "<p>Вода, уже находящаяся в ванне, — запас. Поступающая через кран и уходящая в слив вода — потоки. Запас хранит результат прошлых притоков и оттоков; поток изменяет его во времени.</p><p>Медоуз предлагает эту простую модель как вход в гораздо более сложные процессы. Население, древесина в лесу, вода водохранилища и деньги на счёте различаются по природе, но в каждом случае важно отделить накопленное количество от скорости его изменения. Иначе неверным окажется уже первый вопрос к системе.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Water in the bath and water from the tap",
+          "body": "<p>Water already in a bath is a stock. Water entering through the tap and leaving through the drain consists of flows. A stock preserves the result of past inflows and outflows; flows change it over time.</p><p>Meadows uses this simple model as an entry into more complex processes. Populations, wood in a forest, reservoir water and money in an account differ, but each requires distinguishing an accumulated quantity from its rate of change. Without that distinction, even the first question asked of a system can be misleading.</p>"
+        }
+      }
+    },
+    {
+      "id": "dynamic-equilibrium",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Уровень не меняется, хотя вода течёт",
+          "body": "<p>Если приток больше оттока, запас растёт. Если меньше — уменьшается. Когда скорости равны, уровень может оставаться постоянным, хотя вода продолжает проходить через ванну. Это динамическое равновесие.</p><p>Отсюда важное различие: неизменное состояние не означает отсутствия деятельности. И для изменения запаса не всегда нужно наращивать приток. Его можно увеличить, сократив отток. Медоуз связывает эту мысль с экономией ресурса: меньше расходовать — тоже способ дольше пользоваться накопленным.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The level stays still while water flows",
+          "body": "<p>If inflow exceeds outflow, the stock rises. If it is smaller, the stock falls. Equal rates can hold the level constant even while water keeps passing through the bath: dynamic equilibrium.</p><p>An unchanged state therefore does not imply inactivity. Nor must increasing a stock always mean increasing inflow. Reducing outflow can also increase it. Meadows connects this distinction to conserving resources: consuming less is another way to make an existing stock last.</p>"
+        }
+      }
+    },
+    {
+      "id": "great-lakes",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Огромный запас не равен огромному возобновлению",
+          "body": "<p>Разбирая предложение перебрасывать воду Великих озёр на засушливый юго-запад США, Медоуз отделяет внушительный объём озёр от гораздо меньшего потока, который их пополняет и покидает.</p><p>Большой запас позволяет долго не замечать истощение. Но изъятие сверх возобновляемого потока всё равно уменьшает уровень. В этом примере устойчивый ресурс нельзя оценить одним взглядом на размеры накопленного: нужно понять скорости поступления и расхода. Старые числовые оценки из текста не превращаются здесь в современный водохозяйственный прогноз.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A vast stock is not a vast replenishment",
+          "body": "<p>Discussing a proposal to divert Great Lakes water toward the dry southwestern United States, Meadows separates the lakes’ impressive volume from the much smaller flow passing through them.</p><p>A large stock can conceal depletion for a long time. Yet withdrawals exceeding replenishment still lower the level. In this example, a sustainable resource cannot be assessed simply by looking at the accumulated amount: rates of renewal and removal matter. Historical numerical estimates are not being presented here as a current water-management forecast.</p>"
+        }
+      }
+    },
+    {
+      "id": "debt-and-deficit",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Остановить рост долга — ещё не уменьшить долг",
+          "body": "<p>Другой пример Медоуз — государственный долг и ежегодный дефицит. Дефицит увеличивает накопленный долг. Если довести дефицит до нуля, дальнейшее накопление прекратится, но старый запас не исчезнет.</p><p>Текст использует исторические американские цифры, однако смысл примера — различение количества и скорости его изменения. Нельзя обещать уменьшение запаса, просто назвав уменьшение положительного притока. В этом состоит ошибка, которую легко заметить в ванне и гораздо труднее в политическом споре.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Stopping debt growth does not reduce the debt",
+          "body": "<p>Another example is public debt and the annual deficit. A deficit adds to accumulated debt. Bringing it to zero stops further accumulation; it does not erase the existing stock.</p><p>The source uses historical American figures, but its point is the distinction between a quantity and its rate of change. Reducing a positive inflow does not by itself make the stock fall. That error is easy to recognize in a bath and much harder to notice in a political argument.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-past-keeps-moving",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Прошлое продолжает действовать",
+          "body": "<p>Поток можно изменить быстро; накопленный запас обычно меняется медленнее. Лес не вырастает за ночь, а установленное оборудование не заменяется мгновенно после изменения цены топлива. В системе остаётся история прежних решений.</p><p>Поэтому задержка результата может быть свойством самой структуры, а не признаком того, что ничего не происходит. Такая инерция мешает быстро исправить направление, но одновременно даёт время приспособиться: запасы позволяют расходу и поступлению не совпадать каждую минуту.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The past keeps acting",
+          "body": "<p>A flow can change quickly; an accumulated stock often changes more slowly. A forest does not grow overnight, and installed equipment is not instantly replaced when fuel prices change. Earlier decisions remain present in the system.</p><p>A delayed result can therefore be a property of structure rather than evidence that nothing is happening. This inertia makes rapid correction difficult, but also creates time to adapt: stocks allow use and supply to differ from moment to moment.</p>"
+        }
+      }
+    },
+    {
+      "id": "balancing-feedback",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Термостат сравнивает с целью",
+          "body": "<p>Термостат не просто сообщает температуру. Он участвует в петле: сравнивает состояние с желаемым, включает или выключает обогрев, а изменившаяся температура снова влияет на действие.</p><p>Медоуз называет такую связь уравновешивающей: ответ противодействует отклонению. Для её работы нужны цель, измерение и достаточный способ корректировки. «Отрицательная» здесь означает направление обратного воздействия, а не плохое влияние. Если открыть окна настежь, исправная петля может не справиться с силой внешнего воздействия.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A thermostat compares against a goal",
+          "body": "<p>A thermostat does more than report temperature. It participates in a loop: compare the state with the desired level, turn heating on or off, then respond again to the changed temperature.</p><p>Meadows calls this balancing feedback: the response counteracts a deviation. It requires a goal, measurement and sufficient corrective capacity. “Negative” describes the direction of feedback, not something harmful. If the windows are wide open, a functioning loop may be unable to counter the disturbance.</p>"
+        }
+      }
+    },
+    {
+      "id": "reinforcing-feedback",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Усиление может вести и к росту, и к разрушению",
+          "body": "<p>В усиливающей петле изменение создаёт условия для дальнейшего изменения в том же направлении. Деньги приносят проценты, увеличившаяся сумма приносит ещё больше процентов. Но та же форма связи бывает разрушительной.</p><p>Медоуз описывает эрозию: чем меньше почвы, тем меньше растительности; чем меньше корней и листьев, тем слабее защита от воды и тем быстрее уходит почва. Поэтому «положительная» обратная связь не означает полезную. Важны направление процесса, его ограничения и то, какие другие петли способны изменить ход событий.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Reinforcement can grow or destroy",
+          "body": "<p>In a reinforcing loop, a change creates conditions for more change in the same direction. Money earns interest, and the larger balance earns more interest. But the same form of connection can be destructive.</p><p>Meadows describes erosion: less soil supports less vegetation; fewer roots and leaves provide less protection against runoff, causing more soil loss. “Positive” feedback therefore does not mean beneficial. What matters is the direction of change, its limits and the other loops that can alter its course.</p>"
+        }
+      }
+    },
+    {
+      "id": "shower-delay",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Душ в лондонской гостинице",
+          "body": "<p>Медоуз вспоминает гостиничный душ, в котором температура запаздывала после поворота крана. Не дождавшись ответа, легко повернуть снова; когда прежняя поправка наконец доходит, вода оказывается то слишком горячей, то слишком холодной.</p><p>Это маленький пример колебаний, возникающих из благого желания исправить отклонение. Важна задержка относительно скорости, с которой система меняется и человек в неё вмешивается. Быстрее реагировать — не всегда значит лучше управлять; иногда необходимо перестать добавлять поправки раньше, чем стало видно действие предыдущих.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A shower in a London hotel",
+          "body": "<p>Meadows recalls a hotel shower whose temperature responded slowly after a tap was turned. Without waiting, one turns it again; when the earlier adjustment finally arrives, the water swings between too hot and too cold.</p><p>A well-intended correction thus produces oscillation. The delay matters relative to the speed of change and intervention. Responding faster does not always mean governing better; sometimes further adjustments arrive before the effect of previous ones can be seen.</p>"
+        }
+      }
+    },
+    {
+      "id": "buffers",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Запас смягчает удар и замедляет поворот",
+          "body": "<p>Деньги на счёте позволяют не зарабатывать ровно в ту секунду, когда нужно платить. Товарный запас отделяет поступление от покупки. Медоуз показывает стабилизирующую роль буфера: он смягчает колебания потоков.</p><p>Но увеличение запаса не бесплатно и не всегда полезно. Слишком большой буфер обходится дорого и делает систему менее гибкой. Вопрос не в том, чтобы накопить как можно больше, а в соотношении запаса, потоков и диапазона изменений, который система должна выдерживать.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A buffer absorbs shocks and slows turns",
+          "body": "<p>Money in an account lets earning and spending occur at different moments. Inventory separates delivery from purchase. Meadows shows a buffer’s stabilizing role: it absorbs fluctuations in flows.</p><p>Increasing a stock is neither free nor always beneficial. An oversized buffer can be expensive and make a system less flexible. The issue is not accumulating as much as possible, but the relationship between stocks, flows and the range of changes the system needs to withstand.</p>"
+        }
+      }
+    },
+    {
+      "id": "unused-protections",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Редко срабатывающее может быть необходимым",
+          "body": "<p>Некоторые корректирующие связи почти незаметны, пока условия обычные. Медоуз приводит резервное охлаждение и способность организма потеть или дрожать: важность защиты не измеряется частотой её использования.</p><p>Если убрать кажущуюся избыточной способность отвечать на необычный удар, сразу может ничего не случиться. Однако диапазон условий, в которых система сохраняется, станет уже. Так устойчивость отличается от максимальной отдачи в одном заранее выбранном режиме.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "What is rarely used may still be necessary",
+          "body": "<p>Some corrective mechanisms remain almost invisible under ordinary conditions. Meadows cites emergency cooling and the body’s ability to sweat or shiver: a protection’s importance is not measured by how often it is used.</p><p>Removing an apparently redundant response may produce no immediate change. It can nevertheless narrow the range of conditions under which the system survives. Resilience is therefore different from maximum output under one selected set of conditions.</p>"
+        }
+      }
+    },
+    {
+      "id": "success-to-the-successful",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Успех снабжает следующий успех",
+          "body": "<p>Не всякое различие результатов объясняется только качествами участников. Медоуз рассматривает петли, в которых победитель получает ресурсы для следующей победы: капитал приносит доход, возможности образования и наследования усиливают исходное преимущество.</p><p>Если сама связь постоянно увеличивает разрыв, небольшая внешняя помощь может лишь слабо ему противостоять. Автор предлагает смотреть и на источник усиления, а не только на его последствия. Это структурное объяснение распределения возможностей, не утверждение об одинаковости всех людей.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Success supplies the next success",
+          "body": "<p>Differences in outcomes need not be explained only by differences between participants. Meadows examines loops in which a winner receives resources for the next win: capital earns income, while education and inheritance can amplify an initial advantage.</p><p>If the connection continually widens the gap, a small corrective intervention may oppose it only weakly. She proposes examining the source of reinforcement as well as its consequences. This is a structural account of opportunity, not a claim that all people are identical.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-fish-price",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Цена рыбы не сообщает всего о запасе",
+          "body": "<p>Высокая цена редкой рыбы может подталкивать к ещё большему промыслу. В обсуждении общих ресурсов Медоуз показывает, почему рыночный сигнал не обязательно сообщает рыболову то, что нужно для сохранения популяции.</p><p>Решение отдельного участника может быть понятным, а совместный результат — разрушительным. Для изменения процесса недостаточно пожелать каждому большей осторожности. Нужна связь между состоянием ресурса и решениями об изъятии, причём информация должна приходить туда, где на неё действительно могут ответить.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The fish price does not reveal the whole stock",
+          "body": "<p>A higher price for scarce fish can encourage more fishing. Discussing shared resources, Meadows shows why a market signal does not necessarily provide the feedback needed to preserve a population.</p><p>Each participant’s choice may be understandable while the combined result is destructive. Changing the process requires more than wishing everyone would be careful. The resource’s condition must be connected to decisions about extraction, with information reaching a place where it can prompt an effective response.</p>"
+        }
+      }
+    },
+    {
+      "id": "not-just-numbers",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Повернуть кран — не то же, что изменить устройство",
+          "body": "<p>Медоуз переходит от поведения системы к точкам вмешательства. Чаще всего обсуждают числа: ставки, нормы, размеры выплат. Они важны для людей и для отдельных исходов, но могут оставить прежний процесс почти нетронутым.</p><p>В её перечне рычагов дальше идут запасы и задержки, обратные связи, информация, правила, цели и исходные представления. Это не обещание найти единственную волшебную кнопку. Даже правильное место можно толкать не в ту сторону, а порядок силы рычагов допускает исключения.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Turning a tap is not redesigning the system",
+          "body": "<p>Meadows moves from system behavior to places for intervention. Debate most often concerns numbers: rates, standards or payment amounts. They matter to people and particular outcomes, but can leave the underlying process largely intact.</p><p>Her list also considers stocks and delays, feedback, information, rules, goals and underlying beliefs. It does not promise a single magical button. An intervention can push a powerful point in the wrong direction, and the ranking of leverage admits exceptions.</p>"
+        }
+      }
+    },
+    {
+      "id": "visible-meter",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Счётчик в прихожей",
+          "body": "<p>Медоуз пересказывает историю одинаковых домов, в части которых электросчётчик находился в подвале, а в части — на виду в прихожей. Видимое потребление меняло обратную связь: последствия использования электричества замечались сразу.</p><p>Для неё главное здесь — новая связь информации с решением, а не изменение тарифа. Рассказ остаётся именно приведённой автором иллюстрацией; книга не даёт основания обещать каждому дому тот же числовой эффект. Информация полезна, когда доступна нужному человеку в действенной форме.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A meter in the front hall",
+          "body": "<p>Meadows recounts a story of identical houses with electricity meters either in the basement or visible in the front hall. Visible consumption changed the feedback: residents could see the consequences of electricity use as it happened.</p><p>For her, the important change is a new information-to-decision connection rather than a new price. This remains an illustration recounted by the author; it does not establish a promised numerical effect for every household. Information matters when it reaches the relevant person in a usable form.</p>"
+        }
+      }
+    },
+    {
+      "id": "rules",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Кто может менять правила",
+          "body": "<p>Правила задают, что разрешено, поощряется и наказывается, кто принимает решения и какие действия вообще доступны. Изменение правил может направить поведение иначе даже без замены участников.</p><p>Медоуз предлагает вглядеться и в право устанавливать эти правила. Иначе вмешательство останется внутри рамки, которая постоянно воспроизводит проблему. Поэтому разговор о системе не заканчивается устройством труб и количеством ресурсов: он доходит до распределения возможностей менять само устройство.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Who can change the rules?",
+          "body": "<p>Rules determine what is permitted, rewarded and punished, who decides, and which actions are available at all. Changing them can redirect behavior without replacing the participants.</p><p>Meadows also asks who has the power to establish those rules. Otherwise, an intervention remains within a framework that continually reproduces the problem. An account of systems therefore goes beyond plumbing and resource quantities to the distribution of power to change the structure itself.</p>"
+        }
+      }
+    },
+    {
+      "id": "self-organization",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Система может менять собственное устройство",
+          "body": "<p>Живые и некоторые социальные системы способны не только сохранять состояние, но и создавать новые структуры, связи и правила. Медоуз называет это самоорганизацией. Здесь разнообразие — материал, из которого появляются новые ответы.</p><p>Стремление к полному контролю может уничтожить именно эту способность: убрать варианты, запретить эксперимент, оставить один допустимый способ. Для автора возможность учиться и изменяться сама является ценным свойством системы. Сохранить её — другая задача, чем заранее назначить все будущие действия.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A system can change its own structure",
+          "body": "<p>Living systems and some social systems can do more than maintain a state: they can create new structures, connections and rules. Meadows calls this self-organization. Diversity provides material from which new responses can emerge.</p><p>The pursuit of complete control can destroy that capacity by eliminating alternatives, prohibiting experiments and allowing only one approach. For Meadows, the ability to learn and change is itself valuable. Preserving it is a different task from specifying every future action in advance.</p>"
+        }
+      }
+    },
+    {
+      "id": "goals",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Цель направляет нижележащие связи",
+          "body": "<p>Термостату достаточно изменить заданную температуру, чтобы прежние механизмы начали поддерживать другое состояние. Медоуз переносит внимание и на более широкие цели: чему служит система в целом, а не одна из её частей?</p><p>При иной цели те же ресурсы, правила и потоки информации могут выстроиться иначе. Поэтому эффективное исполнение ещё не отвечает на вопрос, ради чего оно нужно. Автор ищет цель, проявляющуюся в действии всей структуры, а не удовлетворяется формальным названием отдельной задачи.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A goal directs the connections beneath it",
+          "body": "<p>Changing a thermostat’s setting makes the existing mechanisms maintain a different temperature. Meadows directs attention to larger goals too: what is the whole system serving, rather than one component?</p><p>With a different goal, the same resources, rules and information flows can be organized differently. Efficient performance does not by itself answer what the performance is for. She looks at the goal expressed through the structure’s operation rather than stopping at the formal name of an individual task.</p>"
+        }
+      }
+    },
+    {
+      "id": "paradigms",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Представление, из которого выросли правила",
+          "body": "<p>За целями и правилами находятся общие представления о мире: что считается ценным, нормальным и справедливым. Медоуз называет их парадигмами. Пока предпосылка кажется очевидной всем участникам, она почти не попадает в разговор.</p><p>Её изменение может открыть иной набор целей и решений. Но автор не предлагает заменить одну непогрешимость другой. Самый глубокий поворот в её перечне — понимать ограниченность любой модели, включая свою, и сохранять способность смотреть за пределы привычной системы объяснений.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The belief from which rules grew",
+          "body": "<p>Behind goals and rules lie shared beliefs about what is valuable, normal and fair. Meadows calls them paradigms. While an assumption seems obvious to participants, it may scarcely enter discussion.</p><p>Changing it can make different goals and choices possible. But she does not propose replacing one infallible worldview with another. The deepest shift on her list is recognizing the limits of every model, including one’s own, and retaining the ability to look beyond a familiar framework of explanation.</p>"
+        }
+      }
+    },
+    {
+      "id": "history-before-intervention",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Прежде чем менять — увидеть движение",
+          "body": "<p>После рычагов Медоуз возвращается к способу работы. Перед вмешательством нужно узнать историю системы и увидеть её поведение во времени. Воспоминание о том, что «всё ухудшается», не заменяет записи происходившего.</p><p>Она приводит простой обман впечатления: может казаться, что дождей становится меньше, хотя в действительности растут колебания — засухи глубже, наводнения сильнее. Начинать с поведения означает сначала выяснить, что именно нужно объяснить, и не определять проблему как отсутствие заранее любимого решения.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Observe the movement before changing it",
+          "body": "<p>After leverage, Meadows returns to how to work. Before intervening, learn the system’s history and observe behavior over time. A recollection that “things are getting worse” does not replace a record of what happened.</p><p>She gives a simple misleading impression: rainfall can seem to be decreasing when variability is actually increasing, with deeper droughts and larger floods. Starting from behavior means establishing what needs explanation before defining the problem as the absence of a favorite solution.</p>"
+        }
+      }
+    },
+    {
+      "id": "models-in-the-open",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4,
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Модель должна выдерживать возражения",
+          "body": "<p>Системное объяснение тоже остаётся моделью. Медоуз предлагает делать предположения видимыми, приглашать других оспаривать их и держать несколько возможных объяснений, пока свидетельства не помогут различить их.</p><p>При неопределённости ответ — не притворяться уверенным и не замирать, а учиться небольшими шагами, наблюдать результат и менять направление. Это продолжение исходной мысли книги: понимание структуры помогает действовать, но не освобождает от встречи с тем, чего модель ещё не учла.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "A model should face objections",
+          "body": "<p>A systems explanation remains a model. Meadows proposes making assumptions visible, inviting others to challenge them and retaining several possible explanations until evidence helps distinguish them.</p><p>Under uncertainty, the response is neither pretending certainty nor freezing. It is learning through small steps, observing outcomes and changing course. This extends the book’s opening position: understanding structure helps action, but does not remove the need to encounter what the model has not yet captured.</p>"
+        }
+      }
+    },
+    {
+      "id": "responsibility-at-dartmouth",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Термостатом управляют на другом конце кампуса",
+          "body": "<p>Медоуз рассказывает, как управление температурой в Дартмуте перенесли с отдельных помещений на центральную систему. Когда её кабинет перегревался, вместо собственного регулятора приходилось звонить в другое подразделение и ждать поправки, иногда чрезмерной.</p><p>Этот случай связывает ответственность с обратной связью. Человек, чувствующий последствия, и механизм, принимающий решение, оказались дальше друг от друга. Для Медоуз важен не поиск виновного после очередного перегрева, а устройство, которое возвращает последствия решений тем, кто способен на них влиять.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The thermostat is controlled across campus",
+          "body": "<p>Meadows describes Dartmouth moving temperature control from individual rooms to a central system. When her office overheated, she had to call another office and wait for a correction that sometimes went too far.</p><p>The case connects responsibility with feedback. The person experiencing the consequence had become more distant from the decision mechanism. Meadows is interested less in assigning blame after another overheated room than in arrangements that return consequences to those able to influence decisions.</p>"
+        }
+      }
+    },
+    {
+      "id": "the-good-of-the-whole",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Благо части зависит от целого",
+          "body": "<p>Лесопилка не может долго преуспевать без здорового леса. Этим примером Медоуз связывает пользу отдельной части с существованием целого. Локальная максимизация способна подорвать условия собственного продолжения.</p><p>Поэтому в её объяснении важны не только легко измеряемые показатели. Разнообразие, способность восстанавливаться и устойчивость нельзя отбросить лишь потому, что их сложнее посчитать. Более длинный временной горизонт помогает заметить последствия, которые короткий отчёт оставляет за пределами внимания.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "The part depends on the whole",
+          "body": "<p>A sawmill cannot prosper for long without a healthy forest. Meadows uses this connection to tie a component’s benefit to the continued existence of the whole. Local maximization can undermine the conditions for its own continuation.</p><p>Her account therefore includes more than easily measured indicators. Diversity, resilience and sustainability cannot be discarded merely because they are harder to count. A longer time horizon makes consequences visible that a short reporting period leaves outside attention.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3,
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "Донелла Медоуз",
+          "title": "Действовать, продолжая учиться",
+          "body": "<p>Ванна, душ, лес и счётчик ведут к одной связной картине: накопленное меняется через потоки, решения замыкаются в петли, а задержки и правила делают ответ системы непохожим на прямую команду.</p><p>Медоуз сохраняет возможность изменения, но отказывается обещать окончательное господство. Можно перестроить информацию, правила и цели, защитить способность системы учиться и внимательнее наблюдать последствия. Участие в сложном мире остаётся работой с обратной связью — вместе с готовностью пересмотреть собственное объяснение.</p>"
+        },
+        "en": {
+          "section": "Donella Meadows",
+          "title": "Act while continuing to learn",
+          "body": "<p>The bath, shower, forest and meter lead to a connected picture: accumulations change through flows, decisions close feedback loops, and delays and rules make a system’s response unlike obedience to a direct command.</p><p>Meadows preserves the possibility of change without promising final mastery. Information, rules and goals can be redesigned, the capacity to learn protected, and consequences observed more carefully. Participating in a complex world remains work with feedback—and a willingness to revise one’s own explanation.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

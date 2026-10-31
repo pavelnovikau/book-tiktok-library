@@ -9,7 +9,7 @@ The homepage and every released reader have one Settings gear in the existing co
 - `scripts/reader-settings.mjs`: font/license embedding and explicitly recognized runtime adapters.
 - `assets/reader-header.html`: one-row icon geometry, localized labels/tooltips, Settings gear and safe-area rules.
 - `scripts/build_story.mjs`: includes both Settings blocks for future v2 builds.
-- Repository `scripts/apply-reader-shell.mjs`: applies the same module to the homepage, v2 readers, legacy 1873/TOC and Hermes without rebuilding embedded books. Unknown theme runtimes fail explicitly.
+- Repository `scripts/apply-reader-shell.mjs`: applies the same module to the homepage and readers without rebuilding embedded books. 1873/TOC and Hermes now use schema v2 with one-time migration from their actual old storage keys; legacy runtime adapters remain supported. Unknown theme runtimes fail explicitly.
 
 Run `npm run sync:readers` after a new release. A root reader may contain bespoke consent, saved-ID invalidation or editorial guards that a clean build would erase: synchronize its shell instead. Rebase on current `origin/main`, preserve the released HTML/corpora and reapply maintained patches; never restore an older book to resolve a UI conflict. Do not update an installed skill until the PR is merged.
 

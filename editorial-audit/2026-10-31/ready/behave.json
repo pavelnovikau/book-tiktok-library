@@ -1,0 +1,75 @@
+{
+  "slug": "behave",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/behave/story-data.json",
+      "sha256": "3ea3bccc84d3d33721487b1b963fa40f0b03bfb8281a43727ea47fd7760083b9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/behave/behave.html",
+      "sha256": "6476785797895dadee915ede5712e6c527feeb7fa6c673238823bf39d989e5ab"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/behave/sources.md",
+      "sha256": "b164d7022cfd920f3210090aa8470dcc7a53c815961193e2fafbb7c3d4da2533"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/behave/QA.md",
+      "sha256": "3fd768a93dd1f38bb4e565f012c8ecc5bbaaea4c4f76af7eab94f328a32dcc9a"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/behave-sol-rescue.md",
+      "sha256": "8dcefd68983b82d8b2348da3dc54104d7bb26057f87a4941dada858e848d3b95"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/source-rescue/behave.md",
+      "sha256": "8ec4567b28102ab37069d48c02557294c52254d10ce4141ccdaec4abd10cba40"
+    }
+  ],
+  "counts": {
+    "essential": 11,
+    "core": 18,
+    "deep": 22
+  },
+  "contentMode": "explanatory",
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/behave-sol-rescue.md",
+  "sourceScope": "All official Chapter 1 and opening Chapter 2, visible introduction opening, complete official TED2017 transcript and two author interviews; remaining chapters and published RU translation not read.",
+  "exactChanges": [
+    "Rebuilt explanatory author argument using actual official chapter sample and full author-talk transcript",
+    "Removed invented scenarios, exercises and later-science substitution",
+    "Set exact targetModes 11/18/22 and RU/dark/Essential"
+  ],
+  "unresolvedIssues": [
+    "Independent content check pending",
+    "Not complete-chapter/book/translation coverage",
+    "Physical iPhone/PWA and root integration pending publisher"
+  ],
+  "verification": {
+    "structure": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/sol-evidence-rescue/behave-structure.txt",
+    "browser": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/sol-evidence-rescue/behave-browser.json",
+    "independentEditorialReview": "pending",
+    "publication": "not performed by worker"
+  },
+  "parentCorrections": {
+    "findings": [
+      "BEH-SR-01",
+      "BEH-SR-02"
+    ],
+    "changedScreens": [
+      "cultural-history",
+      "different-thems"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/behave-meaning-fix-closure.json",
+    "sourceScope": "Adds the reviewer-checked later Mindscape exchanges (parent repeat access failed) and directly parent-checked Nautilus authorized book-excerpt sections; not unseen book chapters or entire interviews."
+  },
+  "checks": {
+    "parentFocusedRegression": {
+      "status": "pass",
+      "combinedAssertions": 160,
+      "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json"
+    }
+  }
+}

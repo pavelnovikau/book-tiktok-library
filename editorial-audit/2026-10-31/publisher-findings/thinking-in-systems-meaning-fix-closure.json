@@ -1,0 +1,68 @@
+{
+  "slug": "thinking-in-systems",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:05:08.343703+00:00",
+  "findings": [
+    "MEAD-01"
+  ],
+  "changedScreens": [
+    "history-before-intervention",
+    "models-in-the-open"
+  ],
+  "sourceCheck": "MEAD-01: added distinct source 6, the official non-abbreviated author archive https://donellameadows.org/archives/dancing-with-systems/. Parent directly read §1 Get the beat (rainfall versus increasing variability) and §4 Stay humble. Stay a learner (small steps, constant monitoring and changing course). The earlier author article is not treated as a word-identical final 2008 edition. The unrelated commercial intrusion in §6 is excluded entirely; source 4 remains the clean support for the Dartmouth example. Screen prose is unchanged; only the two source maps, the source list and disclosure change.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/thinking-in-systems.json",
+  "originalReviewSha256": "593d50c4cafda5130f3fa9a56bb23d1395561d695ec628d3376a14c7c75a424a",
+  "beforeHashes": {
+    "collector-output/thinking-in-systems/story-data.json": "1a3598807143822b159283e3c9de289cf1a879a35f7448e9d88ca4e6b2440b69",
+    "collector-output/thinking-in-systems/thinking-in-systems.html": "720eb649dd17b9ffeead20be67ff3f83c05c6cd2218e5941c4cd803faa13adf9",
+    "collector-output/thinking-in-systems/sources.md": "5c562615148bd4a9e95eea9412f6c768cb0532ff1b0ec1ebc0030fc20b8e9ebd",
+    "collector-output/thinking-in-systems/QA.md": "208b279b39dfa3acc9c908a7b633ca20c28f7319dced5b90165b53da330ee93c",
+    "collector-output/thinking-in-systems/evidence-map.sol.json": "18a9ee2a249a740199bb10e02e2ae4104026747aa1b6824ffdc5db44773d0c83"
+  },
+  "afterHashes": {
+    "collector-output/thinking-in-systems/story-data.json": "e9de1d7485575ec0556b25186e12b278eb8aeda98d00f8b23e9288b0e62737a9",
+    "collector-output/thinking-in-systems/thinking-in-systems.html": "221f404ec83bf0e58a9657176417120bad2c8871e47e2e7f8165c56884562c4b",
+    "collector-output/thinking-in-systems/sources.md": "4055c8847494bee9c44341780b7ff3c238a0b50fa4ded22df672725c4b607ca0",
+    "collector-output/thinking-in-systems/QA.md": "8f4ce54f3076a2854fb8d4815b43448de55aac700221244659e3a3442699a4cd",
+    "collector-output/thinking-in-systems/evidence-map.sol.json": "e0c7b004ea50f639511c9ee73cec92b84da4786c4662af41c17753c421e42dca"
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "screenProseChanged": false,
+  "counts": {
+    "essential": 13,
+    "core": 22,
+    "deep": 25
+  },
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-in-systems/thinking-in-systems.html",
+    "format": "v2",
+    "bytes": 303245,
+    "screenCount": 25,
+    "levels": {
+      "1": 13,
+      "2": 9,
+      "3": 3
+    },
+    "modes": {
+      "essential": 13,
+      "core": 22,
+      "deep": 25
+    },
+    "words": {
+      "ru": 1754,
+      "en": 2007
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-kahneman-meadows-fix-browser.json",
+    "scope": "RU/EN, four representative viewports/themes, exact updated copy and tail reachability; not physical iPhone/PWA.",
+    "combinedAssertions": 88
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

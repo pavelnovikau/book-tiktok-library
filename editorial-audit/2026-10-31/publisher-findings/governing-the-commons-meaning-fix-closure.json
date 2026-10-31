@@ -1,0 +1,213 @@
+{
+  "slug": "governing-the-commons",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:13:25.065965+00:00",
+  "findings": [
+    "GTC-001"
+  ],
+  "changedScreens": [
+    "scope-of-the-book"
+  ],
+  "counts": {
+    "essential": 14,
+    "core": 24,
+    "deep": 33
+  },
+  "sourceCheck": "GTC-001: parent checked the publisher’s exposed/indexed opening of original 1990 chapter 6, printed p.182, DOI10.1017/CBO9780511807763.008: each individual system lies within a single country. The book’s sample is not confined to one country. Corrected only the RU scope sentence; EN and all other prose are unchanged. Direct non-abs page timed out; the Cambridge /abs publisher record exposed the actual paragraph through search. This is targeted primary-opening access, not the full chapter or book.",
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/governing-the-commons.json",
+  "originalReviewSha256": "3045f0a3672e4fda590204fde1849d9478b4db3eff76b9707f71f70a3aefa0db",
+  "beforeHashes": {
+    "collector-output/governing-the-commons/story-data.json": "c4cf3de3b5043093d1d0583d54464619e7b7cda36401ec582d97c21e2fd4fd1a",
+    "collector-output/governing-the-commons/governing-the-commons.html": "2e75b8a62cc3a736ff5121ed96c005ae2e4864f4a2e96450013c0bf295b24d71",
+    "collector-output/governing-the-commons/sources.md": "4cacf17156469e104c32335d7897cc066d9ac516dc5a6edde23aa30d196c9342",
+    "collector-output/governing-the-commons/QA.md": "6d1c1c8887198b4f3ba8cc0e420c0e9279de20aef05b54a6c5f5d393cc70e5f8"
+  },
+  "afterHashes": {
+    "collector-output/governing-the-commons/story-data.json": "d47ae9df9ddfd46112b872aad9881405809fe8da429873b6a139e2b330793aec",
+    "collector-output/governing-the-commons/governing-the-commons.html": "c7c9202389947d8f2a1d7f74c3a53c61af40c38625f4b7d48769989b4c138328",
+    "collector-output/governing-the-commons/sources.md": "470693eebd65c4bfaa089e6683df9fb75f779c94acd748834cc16044f9c92910",
+    "collector-output/governing-the-commons/QA.md": "6ecddfc0c3f0444b5c267fdb8f6c76d6445a441133291ddd3484135d5358f5b7"
+  },
+  "screensBefore": [
+    {
+      "id": "scope-of-the-book",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "У вывода есть границы",
+          "body": "<p>Границы вывода остаются существенными. Книга изучает сравнительно небольшие системы внутри одной страны, где пользователи сильно зависят от потока дефицитного ресурса.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "The conclusion has a scope",
+          "body": "<p>The scope of the conclusion matters. The book studies relatively small systems within single countries, where users depend heavily on scarce resource flows.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "scope-of-the-book",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "У вывода есть границы",
+          "body": "<p>Границы вывода остаются существенными. Книга изучает сравнительно небольшие системы, каждая из которых находится в пределах одной страны. Их пользователи сильно зависят от потока дефицитного ресурса.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "The conclusion has a scope",
+          "body": "<p>The scope of the conclusion matters. The book studies relatively small systems within single countries, where users depend heavily on scarce resource flows.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Governing the Commons — Cambridge, original 1990 edition",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+      "role": "publisher",
+      "note": {
+        "ru": "Идентификация книги 1990 года. Сверены также открытые оглавление и индекс переиздания Cambridge 2015: названия случаев, раздел о восьми принципах и их связь с книгой. Индекс не заменяет чтение самих страниц. Полная книга не прочитана.",
+        "en": "Identity and bibliographic record of the 1990 work. Also checked the public contents and index of the Cambridge 2015 reprint: named cases, the eight-principle section and their connection to the book. An index is not a reading of those pages. The complete book was not read."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Reflections on the commons — official Cambridge excerpt, pp. 1–10",
+      "url": "https://assets.cambridge.org/97811075/69782/excerpt/9781107569782_excerpt.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитаны страницы 1–10 официального отрывка переиздания Canto 2015: текст начала книги 1990 года, модели Хардина и Олсона, ограничения моделирования. Отрывок не является полной первой главой.",
+        "en": "Read pp. 1–10 of the official 2015 Canto reprint excerpt: the opening of the 1990 book, Hardin and Olson, and limits of models. This is not the whole first chapter."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Chapter 2 — An institutional approach: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/an-institutional-approach-to-the-study-of-selforganization-and-selfgovernance-in-cpr-situations/815061479E831FC11B3482789300BB65",
+      "role": "book",
+      "note": {
+        "ru": "Прочитано открытое начало главы 2, начинающейся на с. 29: создание институтов, обязательства и наблюдение. Вся глава 29–57 недоступна в прочитанном отрывке.",
+        "en": "Read the public opening extract of chapter 2, beginning on p. 29: institutional supply, commitments and monitoring. The full pp. 29–57 were not consulted."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Chapter 3 — Long-enduring CPRs: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-longenduring-selforganized-and-selfgoverned-cprs/93E337E42A79624A35EF138DC05A58B1",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 3, с. 58: швейцарские и японские общие угодья, испанское и филиппинское орошение; долговечность при изменении правил. Не вся глава 58–102.",
+        "en": "Public opening extract, p. 58: Swiss and Japanese commons, Spanish and Philippine irrigation; endurance with changing rules. Not the full chapter, pp. 58–102."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Chapter 4 — Institutional change: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-change/565FE632C80FA2CAC95BF734993E7CC2",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 4, с. 103: возможность не равна вероятности; происхождение древних институтов неизвестно; создание правил само является коллективной дилеммой.",
+        "en": "Public opening extract, p. 103: feasibility is not likelihood; origins of ancient systems are unknown; supplying institutions is itself a collective dilemma."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Chapter 5 — Failures and fragilities: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-failures-and-fragilities/EFD3C8A6E5C7CD262DF16BD2B623D041",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 5, с. 143: Аланья в сравнении с Бодрумом и Измиром; неудача регионального подхода в Сан-Бернардино; шри-ланкийская ротация и неограниченный вход. Остальная глава не прочитана.",
+        "en": "Public opening extract, p. 143: Alanya contrasted with Bodrum and Izmir; regional difficulties in San Bernardino; Sri Lankan rotation and uncontrolled entry. The remainder of the chapter was not read."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Chapter 6 — A framework for analysis: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/framework-for-analysis-of-selforganizing-and-selfgoverning-cprs/05666795A13EFC6882C18E4E05C40166",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 6, с. 182: масштаб до примерно 15 000 пользователей, отдельные страны, смешанные публичные и частные механизмы, обращающиеся права на поток без приватизации всей системы. Не вся глава 182–216.",
+        "en": "Public opening extract, p. 182: up to about 15,000 users, single countries, mixed public/private arrangements, tradable flow rights without privatizing the resource system. Not the full chapter, pp. 182–216."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Elinor Ostrom — Institutional Arrangements and the Commons Dilemma (1988)",
+      "url": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/ef134fc6-f484-4622-ac6f-feb40e4ce905/content",
+      "role": "author",
+      "note": {
+        "ru": "Отдельная более ранняя работа Остром, не издание целевой книги. Проверены с. 108–119: West Basin, условное соглашение с порогом 80%, Аланья, Тёрбель, японские деревни. Использована для проверки процедур случаев, связанных с книгой материалами Cambridge; дословное совпадение с 1990 годом не заявляется.",
+        "en": "Separate earlier work, not the target book edition. Consulted pp. 108–119: West Basin, the 80% contingent agreement, Alanya, Törbel and Japanese villages. Checks procedures for cases connected to the book by Cambridge material; word-for-word identity with 1990 is not claimed."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Elinor Ostrom — The Rudiments of a Theory… (1990 working paper)",
+      "url": "https://dlc.dlib.indiana.edu/dlc/items/1678a207-90d6-456d-afd8-dbbe97ddac38",
+      "role": "author",
+      "note": {
+        "ru": "Самостоятельная работа 1990 года из библиотеки Indiana University. Выборочно проверены определения на с. 4–8, возникновение и сохранение организации на с. 12–24, оговорки в заключении с. 29–31. Различены ресурс и права, открытый доступ и общая собственность, выживание и результативность.",
+        "en": "Separate 1990 paper in Indiana University’s library. Selected definitions, pp. 4–8; emergence and survival, pp. 12–24; concluding qualifications, pp. 29–31. Distinguishes resources from rights, open access from common property, and survival from performance."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Michael McGinnis & Elinor Ostrom — Design Principles for Local and Global Commons (1992)",
+      "url": "https://dlc.dlib.indiana.edu/dlc/items/80b557a3-e101-46ff-8bca-fe3fa75d59b4",
+      "role": "author",
+      "note": {
+        "ru": "Отдельная позднейшая совместная работа. Прочитаны вводные с. 1–9 и примечания 3–4 на с. 40; для пересказа используются только раздел о предшествующих исследованиях и восемь принципов, с. 7–9, прямо связанные с Ostrom 1990. Её последующие выводы о глобальном управлении сюда не перенесены.",
+        "en": "Separate later coauthored paper. Read introductory pp. 1–9 and notes 3–4 on p. 40; only the prior-research discussion and eight principles, pp. 7–9, explicitly linked to Ostrom 1990, inform this account. Its subsequent global-governance argument is not imported."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Выборочное краткое изложение аргумента Governing the Commons (Cambridge, 1990), в собственных словах. Прочитаны официальный отрывок Canto 2015 (с. 1–10 исходного текста) и открытые начала глав 2–6. Процедуры случаев проверены также по отдельной работе Остром 1988 года; определения — по её статье 1990 года; восемь принципов — по совместному изложению McGinnis и Ostrom 1992 года, прямо отсылающему к книге. Полная книга не прочитана последовательно; исчерпывающая сверка и сверка с опубликованным русским переводом не заявляются. Позднейшие глобальные и климатические аргументы сюда не перенесены.",
+    "en": "A selective original-word condensation of the argument in Governing the Commons (Cambridge, 1990). Read the official Canto 2015 excerpt (original text pp. 1–10) and public opening extracts of chapters 2–6. Case procedures were also checked in Ostrom’s separate 1988 work; definitions in her 1990 paper; eight principles in McGinnis and Ostrom’s 1992 restatement explicitly referring to the book. The complete book was not read continuously; no exhaustive edition comparison or verification against a published Russian translation is claimed. Later global and climate arguments are not imported."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/governing-the-commons/governing-the-commons.html",
+    "format": "v2",
+    "bytes": 301035,
+    "screenCount": 33,
+    "levels": {
+      "1": 14,
+      "2": 10,
+      "3": 9
+    },
+    "modes": {
+      "essential": 14,
+      "core": 24,
+      "deep": 33
+    },
+    "words": {
+      "ru": 1276,
+      "en": 1413
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "pass",
+    "combinedAssertions": 128,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-ostrom-earthsea-toc-history-browser.json"
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

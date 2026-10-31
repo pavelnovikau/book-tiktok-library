@@ -1,0 +1,61 @@
+{
+  "phase": "persistence",
+  "origin": "owned-local-CDP-fixtures",
+  "checks": [
+    {
+      "homeCheck": {
+        "stats": [],
+        "open": true,
+        "heading": "bookSettingsTitle",
+        "theme": "dark",
+        "note": "Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста."
+      },
+      "all": {
+        "stats": [
+          "47 книг",
+          "2076 экранов"
+        ],
+        "tabs": [
+          93.328125,
+          93.328125,
+          93.34375
+        ]
+      },
+      "saved": [
+        {
+          "file": "essentialism.html",
+          "title": "Выбор нельзя отдать по привычке"
+        },
+        {
+          "file": "1873.html",
+          "title": "Деньги тех, кто не строил дорог"
+        },
+        {
+          "file": "theory-of-constraints.html",
+          "title": "Двадцать деталей, из которых нужны десять"
+        },
+        {
+          "file": "hermes-nous.html",
+          "title": "В феврале появляется агент"
+        }
+      ]
+    }
+  ],
+  "fonts": [
+    {
+      "choice": "serif",
+      "settingsUI": true,
+      "fonts": [
+        {
+          "familyName": "Geist",
+          "postScriptName": "Geist-Regular",
+          "isCustomFont": true,
+          "glyphCount": 84
+        }
+      ]
+    }
+  ],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "pass"
+}

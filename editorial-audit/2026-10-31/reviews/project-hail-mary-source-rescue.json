@@ -1,0 +1,498 @@
+{
+  "schemaVersion": 1,
+  "slug": "project-hail-mary",
+  "reviewType": "independent-content-and-source-review",
+  "reviewDate": "2026-10-31",
+  "completedAt": "2026-10-31T20:39:11.641740+00:00",
+  "verdict": "REQUIRES-FIXES",
+  "blockingFindingsCount": 1,
+  "sourceGap": false,
+  "publicationRecommendation": "Hold this exact hash set pending PHM-SR-001. No publication or manifest status change performed.",
+  "sourceSufficiency": "No essential retained link requires a blanket full-EPUB gate. Official opening/material plus identified detailed chapter accounts support review of this retained arc. A localized source-backed fidelity correction is required; complete-edition and published-Russian-translation fidelity are not certified.",
+  "workIdentity": {
+    "title": "Project Hail Mary / Проект «Аве Мария»",
+    "author": "Andy Weir",
+    "originalNovelYear": 2021,
+    "fullEditionRead": false,
+    "publishedRussianTranslationReadOrCollated": false,
+    "filmEvidenceUsed": false
+  },
+  "readScope": {
+    "uniquePairsRead": 36,
+    "individualLanguageScreensRead": 72,
+    "embeddedHtmlRead": true,
+    "canonicalJsonRead": true,
+    "corporaExactlyEqual": true,
+    "continuousCumulativeRoutesRead": 6,
+    "routeScreenOccurrencesRead": 114,
+    "screenIds": [
+      "cover",
+      "the-computers-question",
+      "his-missing-name",
+      "the-other-beds",
+      "the-first-meal",
+      "the-laboratory",
+      "the-falling-tube",
+      "a-makeshift-pendulum",
+      "the-red-line",
+      "the-news-at-dinner",
+      "a-crew",
+      "a-classroom-memory",
+      "deep-spoiler-warning",
+      "deep-the-name",
+      "deep-the-organism",
+      "deep-the-plan",
+      "deep-another-object",
+      "deep-a-small-model",
+      "deep-the-divider",
+      "deep-learning-words",
+      "deep-sleep",
+      "deep-an-engineers-offer",
+      "deep-a-planet",
+      "deep-the-collection",
+      "deep-loss-of-control",
+      "deep-an-attempt-to-help",
+      "deep-the-predator",
+      "deep-the-last-memory",
+      "deep-a-new-obstacle",
+      "deep-departure",
+      "deep-a-leak",
+      "deep-a-turn",
+      "deep-knocking",
+      "deep-food",
+      "deep-news-from-far-away",
+      "final"
+    ],
+    "routes": {
+      "essential": [
+        "cover",
+        "the-computers-question",
+        "his-missing-name",
+        "the-other-beds",
+        "the-laboratory",
+        "the-falling-tube",
+        "a-crew",
+        "final"
+      ],
+      "core": [
+        "cover",
+        "the-computers-question",
+        "his-missing-name",
+        "the-other-beds",
+        "the-first-meal",
+        "the-laboratory",
+        "the-falling-tube",
+        "a-makeshift-pendulum",
+        "the-red-line",
+        "the-news-at-dinner",
+        "a-crew",
+        "a-classroom-memory",
+        "final"
+      ],
+      "deep": [
+        "cover",
+        "the-computers-question",
+        "his-missing-name",
+        "the-other-beds",
+        "the-first-meal",
+        "the-laboratory",
+        "the-falling-tube",
+        "a-makeshift-pendulum",
+        "the-red-line",
+        "the-news-at-dinner",
+        "a-crew",
+        "a-classroom-memory",
+        "deep-spoiler-warning",
+        "deep-the-name",
+        "deep-the-organism",
+        "deep-the-plan",
+        "deep-another-object",
+        "deep-a-small-model",
+        "deep-the-divider",
+        "deep-learning-words",
+        "deep-sleep",
+        "deep-an-engineers-offer",
+        "deep-a-planet",
+        "deep-the-collection",
+        "deep-loss-of-control",
+        "deep-an-attempt-to-help",
+        "deep-the-predator",
+        "deep-the-last-memory",
+        "deep-a-new-obstacle",
+        "deep-departure",
+        "deep-a-leak",
+        "deep-a-turn",
+        "deep-knocking",
+        "deep-food",
+        "deep-news-from-far-away",
+        "final"
+      ]
+    },
+    "routeReviews": {
+      "essential": {
+        "counts": 8,
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "verdict": "PASS",
+        "reason": "Coherent opening mystery: automated care, missing name, dead beds, preserved skills, anomalous fall and remembered crew. Stops before identity/mission reveal; shared final invites further reading."
+      },
+      "core": {
+        "counts": 13,
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "verdict": "PASS",
+        "reason": "Adds meal, pendulum, Petrova/dinner threat and classroom recruitment. A connected opening-only story with protected stopping point; no name/destination/companion/coercion/ending."
+      },
+      "deep": {
+        "counts": 36,
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "verdict": "REQUIRES-FIXES",
+        "reason": "Complete retained adventure is coherent and action-led, with no lesson/exercise substitution. PHM-SR-001 understates an actual harmful intervention. Remaining choices/outcomes are supported at this compressed granularity."
+      }
+    },
+    "recordsRead": [
+      "editorial-audit/2026-10-31/BRIEF.md",
+      "CONTRIBUTING.md",
+      "skills/book-tiktok/SKILL.md",
+      "skills/book-tiktok/references/content-model.md",
+      "skills/book-tiktok/references/data-contract.md",
+      "skills/book-tiktok/references/html-spec.md",
+      "collector-output/project-hail-mary/story-data.json",
+      "collector-output/project-hail-mary/project-hail-mary.html",
+      "collector-output/project-hail-mary/sources.md",
+      "collector-output/project-hail-mary/QA.md",
+      "editorial-audit/2026-10-31/ready/project-hail-mary.json",
+      "editorial-audit/2026-10-31/books/project-hail-mary.md",
+      "editorial-audit/2026-10-31/source-rescue/project-hail-mary.md"
+    ]
+  },
+  "findings": [
+    {
+      "id": "PHM-SR-001",
+      "severity": "P2",
+      "blocking": true,
+      "category": "narrative-fidelity / consequence understatement",
+      "screenId": "deep-an-attempt-to-help",
+      "screenOrdinal": 26,
+      "level": 3,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "exactWording": {
+        "ru": "Друг выжил, но помощь едва не помешала выздоровлению.",
+        "en": "The attempted treatment nearly obstructed recovery."
+      },
+      "finding": "The near-miss is attached to obstructing recovery, making the intervention sound almost harmless. The checked detailed account says Grace nearly killed Rocky by removing healing material. This weakens a concrete instance of Grace causing serious harm while trying to help.",
+      "smallestFaithfulCorrection": {
+        "ru": "Рокки выжил, но попытка лечения чуть не убила его.",
+        "en": "Rocky survived, but Grace’s attempted treatment had nearly killed him."
+      },
+      "sourceUrl": "https://www.supersummary.com/project-hail-mary/chapters-21-25/",
+      "sourceLocator": "Chapter 21 Summary, opening present-time paragraph; Chapter 20 Summary in source 8 supplies exhaustion/painkiller context.",
+      "sourceRole": "Identified professional secondary chapter account; not an answer inferred from a teacher question.",
+      "primaryLimit": "The later novel passage itself was not read. This finding relies on the action-specific detailed chapter evidence permitted by the brief.",
+      "implementationScope": "One sentence in both copies, then regenerate the descriptive HTML and refresh source/QA/ready records as appropriate. No count increase, shell change or new consent flow is needed. Reviewer made no package edits."
+    }
+  ],
+  "optionalPolish": [
+    {
+      "id": "PHM-SR-O01",
+      "severity": "P3",
+      "blocking": false,
+      "category": "suspense / uncertainty",
+      "screenId": "deep-a-turn",
+      "exactWording": {
+        "ru": "Земле всё ещё достанется найденное решение.",
+        "en": "Earth will still receive the solution."
+      },
+      "suggestion": {
+        "ru": "Путь решения к Земле больше не зависит от возвращения самого Грейса.",
+        "en": "The solution’s route to Earth no longer depends on Grace returning himself."
+      },
+      "reason": "The existing sentence previews a delivery as certain. Distinguishing launch from confirmed arrival would give the later observation more force. This is optional narrative calibration, not a false Earth-versus-Erid choice in the present package.",
+      "sourceUrl": "https://www.supersummary.com/project-hail-mary/chapters-26-30/",
+      "sourceLocator": "Chapter 29 Summary (probe launch); Chapter 30 Summary (later solar observation)."
+    },
+    {
+      "id": "PHM-SR-O02",
+      "severity": "P3",
+      "blocking": false,
+      "category": "character texture",
+      "screenId": "deep-the-last-memory",
+      "exactWording": {
+        "ru": "Грейс знал астрофаг и подходил по редкому признаку переносимости комы, но отказался лететь навстречу смерти.",
+        "en": "Grace knew Astrophage and had the rare coma-resistance marker, but refused a mission ending in death."
+      },
+      "suggestion": {
+        "ru": "Коротко добавить, что времени подготовить другого подходящего специалиста не оставалось; отказ и принуждение оставить без морального приговора.",
+        "en": "Briefly state the lack of time to prepare another suitable specialist; retain refusal and coercion without a moral verdict."
+      },
+      "reason": "The current causal chain is intelligible, but this would make Stratt’s constraint more concrete. No need to restore every Earth subplot or endorse her coercion.",
+      "sourceUrl": "https://www.supersummary.com/project-hail-mary/chapters-21-25/",
+      "sourceLocator": "Chapter 23 Summary, replacement discussion before the refusal."
+    }
+  ],
+  "sourceEvidenceRead": [
+    {
+      "sourceId": 1,
+      "url": "https://cdn.penguin.co.uk/dam-assets/books/9781529100617/9781529100617-sample.pdf",
+      "identity": "Andy Weir, Del Rey 2021 novel sample; ISBN 9781529100617 / 9781529100624",
+      "role": "primary novel excerpt",
+      "actualRead": "All available novel text continuously, printed pages 3–38: Chapters 1 and 2 and the available beginning of Chapter 3. Copyright/front matter checked. Chapter 3 cuts off during recruitment; not three complete chapters or a complete edition.",
+      "verification": "Publisher re-download HTTP 200; 9,656,382 bytes; SHA-256 12c290d685ad636aad6dad92c1c5ea2f78284c7f38df7c507ceb09f8a8ec1978. Matches existing private PDF/extraction.",
+      "supports": "All opening-only screens; remembered crew grief, dinner fear, classroom and researcher identity."
+    },
+    {
+      "sourceId": 2,
+      "url": "https://images.penguinrandomhouse.com/promo_image/9780593135204_8306.pdf",
+      "identity": "Amy Jurskis / PRH Secondary Education, eight-page Teacher’s Guide; Ballantine ISBN 9780593135204",
+      "role": "official teaching guide with some embedded primary passages",
+      "actualRead": "All eight pages, including About the Book, guided questions, extension activities, STEM questions, author/guide credits and notes page.",
+      "verification": "Official PDF opened independently; existing private PDF SHA-256 e0df2ebdd922d886f8230a1a422759efc9c29c82bbe5296cb89718a73ba49f8b.",
+      "supports": "Official synopsis supports one-way mission/alliance; extension 13 on PDF page 5 includes primary language about restored Sun and uncertainty about Earth.",
+      "limits": "Questions 13/14/18/21/23/24/25 and STEM 13/14/16 identify topics, not their detailed answers. Extension prompts are not scenes. STEM 3 says Microphage; do not turn that typo into another organism."
+    },
+    {
+      "sourceId": 3,
+      "url": "https://penguinrandomhousesecondaryeducation.com/wp-content/uploads/2021/09/PHMKit.pdf",
+      "identity": "PRH 2021 PHMKit, fifteen PDF pages including cover",
+      "role": "author interview / publisher mechanism and schematic",
+      "actualRead": "Two interview pages, Astrophage 101 on printed page 5 (PDF page 6), schematic text and actual rendered centrifuge graphic on printed page 4 (PDF page 5). Overlapping opening excerpt checked against sample.",
+      "verification": "Publisher re-download HTTP 200; 17,034,412 bytes; SHA-256 d232fd8f0629091c90e764ff66a497d25b345e5ac42894af8a615327ac14a809.",
+      "supports": "Fictional energy/propulsion premise, non-swashbuckling unwilling protagonist, gravity configuration.",
+      "limits": "Not primary late-story prose; the author’s realism rhetoric is not a science certificate. Artwork inspected, not reused."
+    },
+    {
+      "sourceId": 4,
+      "url": "https://www.penguinrandomhouse.com/articles/andy-weir-interview",
+      "identity": "Abbe Wright interviewing Andy Weir, PRH, May 23, 2021",
+      "role": "actual author interview",
+      "actualRead": "Premise, energy-storage genesis, distinction from The Martian, flawed/relatable protagonist and spoiler-marked mission/contact/chord-language/friendship answers.",
+      "supports": "Primary confirmation of central mission and relationship hinges.",
+      "limits": "Film-production discussion and current tie-in merchandising excluded as novel evidence; rhetorical equipment reliability does not negate the later accident."
+    },
+    {
+      "sourceId": 5,
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-5-8/",
+      "identity": "SuperSummary Project Hail Mary, Chapters 5–8",
+      "role": "professional secondary chapter account",
+      "actualRead": "All four chapter-summary bodies; relevant analysis distinguished from narrative.",
+      "supports": "Astrophage cycle, Tau Ceti exception, mission/probes/coma selection, engine signals, cylinder and model exchange."
+    },
+    {
+      "sourceId": 6,
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-9-12/",
+      "identity": "SuperSummary Project Hail Mary, Chapters 9–12",
+      "role": "professional secondary chapter account",
+      "actualRead": "All four chapter-summary bodies; selected analysis for attribution only.",
+      "supports": "Separated atmospheres, appearance, clock/numeral/object communication, sonar, reciprocal sleep-watching and sole-survivor disclosure."
+    },
+    {
+      "sourceId": 7,
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-13-16/",
+      "identity": "SuperSummary Project Hail Mary, Chapters 13–16",
+      "role": "professional secondary chapter account",
+      "actualRead": "All four chapter-summary bodies; selected analysis for attribution only.",
+      "supports": "Protected sleep, move aboard, xenonite passages, surplus fuel offer and Adrian naming.",
+      "limits": "Larger Earth climate/engineering subplots are compressed; no later primary text is claimed."
+    },
+    {
+      "sourceId": 8,
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-17-20/",
+      "identity": "SuperSummary Project Hail Mary, Chapters 17–20",
+      "role": "professional secondary chapter account",
+      "actualRead": "All four chapter-summary bodies; relevant analysis distinguished from events.",
+      "supports": "Biosphere/predator inference, insufficient upper sample, lower collection, heat/thrust accident, rescue and attempted treatment.",
+      "limits": "Its Chapter 20 atmospheric label is contextually inconsistent; package correctly uses Rocky’s own environment. Chapter 19 also records ignored heat warnings, omitted in condensation."
+    },
+    {
+      "sourceId": 9,
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-21-25/",
+      "identity": "SuperSummary Project Hail Mary, Chapters 21–25",
+      "role": "professional secondary chapter account",
+      "actualRead": "All five chapter-summary bodies; selected analysis not adopted as author intent.",
+      "supports": "Treatment harm, contamination/Beetle propulsion, replacement/coercion, nitrogen breeding and departure.",
+      "limits": "Supports PHM-SR-001. Teacher questions alone cannot supply this consequence. No automatic moral-redemption or cowardice judgment imported."
+    },
+    {
+      "sourceId": 10,
+      "url": "https://www.supersummary.com/project-hail-mary/chapters-26-30/",
+      "identity": "SuperSummary Project Hail Mary, Chapters 26–30",
+      "role": "professional secondary chapter account",
+      "actualRead": "All five chapter-summary bodies; selected analysis separated from story.",
+      "supports": "Leak explanation, metal containers, real nitrogen tolerance, probes, return/rescue, food bridge and coda.",
+      "limits": "No full-novel certificate; global outcome and a permanent refusal to return would overstate the retained ending."
+    },
+    {
+      "sourceId": 11,
+      "url": "https://www.reddit.com/r/IAmA/comments/nkva3o/i_am_andy_weir_author_of_the_martian_and_my_new/",
+      "identity": "2021 r/IAmA thread posted by sephalon, with Author attribution and dated proof",
+      "role": "verified author answers, not reader comments",
+      "actualRead": "Selected replies on Grace’s flaws, Adrian naming, pendulum/environment and chord-language design. Linked proof photograph downloaded publicly and inspected: sign dated 5/25/21.",
+      "verifiedAnswerUrls": [
+        "https://www.reddit.com/r/IAmA/comments/nkva3o/comment/gzf0y9d/",
+        "https://www.reddit.com/r/IAmA/comments/nkva3o/comment/gzf5t14/",
+        "https://www.reddit.com/r/IAmA/comments/nkva3o/comment/gzf286u/"
+      ],
+      "supports": "Author design and acknowledged error, not invented later dialogue.",
+      "limits": "Deleted/removed questions were not reconstructed. The acquisition report’s separate claim of an AMA neutrino-premise answer was not reverified in the rendered thread; the kit supplies that premise. No whole AMA reading or reader comments certified as author material. Outdated real-planet assertion not adopted."
+    },
+    {
+      "sourceId": 12,
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-17",
+      "identity": "LitCharts Project Hail Mary, Chapter 17",
+      "role": "additional secondary check",
+      "actualRead": "Entire accessible narrative portion; Latin placeholders, locked material and interpretation excluded.",
+      "supports": "Collection/biosphere discovery.",
+      "limits": "An additional commercial check, not novel prose or an answer key."
+    },
+    {
+      "sourceId": 13,
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-24",
+      "identity": "LitCharts Project Hail Mary, Chapter 24",
+      "role": "additional secondary check",
+      "actualRead": "Entire accessible narrative portion; Latin placeholders, locked material and interpretation excluded.",
+      "supports": "Coerced-memory aftermath and nitrogen selection.",
+      "limits": "An additional commercial check, not novel prose or an answer key."
+    },
+    {
+      "sourceId": 14,
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-29",
+      "identity": "LitCharts Project Hail Mary, Chapter 29",
+      "role": "additional secondary check",
+      "actualRead": "Entire accessible narrative portion; Latin placeholders, locked material and interpretation excluded.",
+      "supports": "Metal containment, missing engine, rescue and proposed food.",
+      "limits": "An additional commercial check, not novel prose or an answer key."
+    },
+    {
+      "sourceId": 15,
+      "url": "https://www.litcharts.com/lit/project-hail-mary/chapter-30",
+      "identity": "LitCharts Project Hail Mary, Chapter 30",
+      "role": "additional secondary check",
+      "actualRead": "Entire accessible narrative portion; Latin placeholders, locked material and interpretation excluded.",
+      "supports": "Nutritional difficulty, later accommodation, observation and return/teaching uncertainty.",
+      "limits": "An additional commercial check, not novel prose or an answer key."
+    }
+  ],
+  "checks": {
+    "deterministicAudit": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/project-hail-mary/project-hail-mary.html",
+      "format": "v2",
+      "bytes": 304138,
+      "screenCount": 36,
+      "levels": {
+        "1": 8,
+        "2": 5,
+        "3": 23
+      },
+      "modes": {
+        "essential": 8,
+        "core": 13,
+        "deep": 36
+      },
+      "words": {
+        "ru": 1573,
+        "en": 1740
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "focusedStaticAndParityChecks": {
+      "all_36_embedded_screens_exactly_equal_canonical": true,
+      "shared_metadata_and_sources_equal": true,
+      "media_ids_match": true,
+      "count_assertions_match": true,
+      "nested_routes_preserve_order": true,
+      "deep_warning_is_first_level3": true,
+      "no_level3_in_essential_or_core": true,
+      "contents_uses_filtered_visible_screens": true,
+      "deep_resume_label_is_generic": true,
+      "narrative_hides_per_screen_source_chrome": true,
+      "runtime_uses_embedded_sources_and_method": true,
+      "four_ready_deliverable_hashes_match": true,
+      "auxiliary_ready_hashes_match": true,
+      "five_input_hashes_still_match_before": true,
+      "inline_script_0_syntax": true,
+      "inline_script_1_syntax": true,
+      "inline_script_2_syntax": true,
+      "inline_script_3_syntax": true
+    },
+    "runtimeAssessment": "Read actual inline JS for mode filtering, warning placement, source disclosure, saved-Deep generic label and narrative chrome. This is code inspection, not a fresh browser execution.",
+    "browserMatrixRepeated": false,
+    "chromeLaunched": false,
+    "serverStarted": false,
+    "freshBrowserVisits": 0,
+    "inheritedBrowserClaim": "QA.md records worker’s 912 visits; not claimed as reviewer-run or as story-fidelity evidence."
+  },
+  "spoilerAssessment": {
+    "essentialAndCore": "PASS at declared strict opening-only promise",
+    "coverFinalDescriptionMethodGlobalSources": "PASS, source titles/notes read in both languages",
+    "warning": "First level-3 screen in linear route; later bodies follow it. Existing depth selection/warning model retained; not a new modal-consent certificate.",
+    "contentsAndResume": "Actual runtime filters contents by selected depth; generic saved-Deep resume label avoids revealing the remembered title. No shallow content leaks found.",
+    "technicalLimit": "Embedded corpus is inspectable; spoiler safety is a reader flow, not encryption."
+  },
+  "limits": [
+    "No complete novel or published RU translation read; sample ends during Chapter 3.",
+    "Later sequence checked using explicitly secondary public chapter accounts and primary author/publisher corroboration.",
+    "Question-based teaching prompts not treated as answers, analysis not treated as definitive author intention.",
+    "No fresh mobile/browser/Safari/touch/safe-area execution; no real-world scientific or safety validation of fictional mechanisms.",
+    "Ordinary public sources only; no purchase, loan, credentials, blocked content unlocking, unofficial full text or film evidence.",
+    "Review covers this book only, not all eight source-rescue records."
+  ],
+  "integrity": {
+    "beforeCapturedAt": "2026-10-31T20:29:15.894419+00:00",
+    "afterCapturedAt": "2026-10-31T20:39:11.641740+00:00",
+    "allFiveUnchanged": true,
+    "files": [
+      {
+        "path": "collector-output/project-hail-mary/story-data.json",
+        "beforeSha256": "eb2604cb164774b3898b1a0fd52e7621bea3e30e98f489ad5dc62fa3f5c7ec63",
+        "afterSha256": "eb2604cb164774b3898b1a0fd52e7621bea3e30e98f489ad5dc62fa3f5c7ec63",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/project-hail-mary/project-hail-mary.html",
+        "beforeSha256": "fa1a1b6d834dd2f8ad07f8c61965403acdbd1bcdc12c8d528324d5f0f87ace22",
+        "afterSha256": "fa1a1b6d834dd2f8ad07f8c61965403acdbd1bcdc12c8d528324d5f0f87ace22",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/project-hail-mary/sources.md",
+        "beforeSha256": "40979f5d827ff616d43331a061edd20e714b8e9772af9e5b7b9a37e5c485dfcc",
+        "afterSha256": "40979f5d827ff616d43331a061edd20e714b8e9772af9e5b7b9a37e5c485dfcc",
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/project-hail-mary/QA.md",
+        "beforeSha256": "e3818ed1e84b8923c73a2415b184d8e23b4e5c6fce1a4ea7c89c11401d70d254",
+        "afterSha256": "e3818ed1e84b8923c73a2415b184d8e23b4e5c6fce1a4ea7c89c11401d70d254",
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/ready/project-hail-mary.json",
+        "beforeSha256": "dfe90c136cc1f393092bb91e7e074a4f50959a0163ec7c48b537e6447e27d3e9",
+        "afterSha256": "dfe90c136cc1f393092bb91e7e074a4f50959a0163ec7c48b537e6447e27d3e9",
+        "unchanged": true
+      }
+    ],
+    "readyDeliverableHashesMatch": true,
+    "readyReportAndAcquisitionHashesMatch": true,
+    "packageEditsMade": false,
+    "historicalAuditsEdited": false,
+    "onlyRepositoryWrites": [
+      "editorial-audit/2026-10-31/reviews/project-hail-mary-source-rescue.md",
+      "editorial-audit/2026-10-31/reviews/project-hail-mary-source-rescue.json"
+    ],
+    "gitPrDeployExternalMessagingUsed": false,
+    "subagentsUsed": false
+  }
+}

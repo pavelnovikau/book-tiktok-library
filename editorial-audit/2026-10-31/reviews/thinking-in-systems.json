@@ -1,0 +1,923 @@
+{
+  "schemaVersion": 1,
+  "slug": "thinking-in-systems",
+  "reviewType": "fresh independent author-meaning and bilingual/route review",
+  "reviewDate": "2026-10-31",
+  "status": "complete",
+  "verdict": "REQUIRES-FIXES",
+  "editorialDisposition": "EDIT-SOURCE-MAP",
+  "blockingFindings": [
+    {
+      "id": "MEAD-01",
+      "severity": "medium",
+      "kind": "source-map boundary mismatch, not fabricated content",
+      "screenIds": [
+        "history-before-intervention",
+        "models-in-the-open"
+      ],
+      "affectedRoutes": [
+        "essential-ru (history-before-intervention)",
+        "essential-en (history-before-intervention)",
+        "core-ru",
+        "core-en",
+        "deep-ru",
+        "deep-en"
+      ],
+      "exactAffectedWording": {
+        "history-before-intervention": {
+          "ru": "может казаться, что дождей становится меньше, хотя в действительности растут колебания — засухи глубже, наводнения сильнее",
+          "en": "rainfall can seem to be decreasing when variability is actually increasing, with deeper droughts and larger floods"
+        },
+        "models-in-the-open": {
+          "ru": "учиться небольшими шагами, наблюдать результат и менять направление",
+          "en": "learning through small steps, observing outcomes and changing course"
+        }
+      },
+      "mappedSourceId": 4,
+      "mappedUrl": "https://donellameadows.org/dancing-with-systems/",
+      "reason": "The cited edited/abbreviated excerpt omits the rainfall/variability passage in §1 and the explicit small-steps/constant-monitoring sentence in §4. The evidence map and sources.md currently assign those particular passages to that URL. They are actually present in the separately linked non-abbreviated official author archive. The retained content is faithful and independently supported there; no new story, full-book hunt, deletion of genuine guidance or whole-volume source gap is needed. The implementation report acknowledges consulting the archive, but the exact supporting URL and distinct scope are missing from the canonical source records and per-screen map.",
+      "smallestFaithfulCorrection": {
+        "prose": "Keep both RU/EN passages.",
+        "sourceRecord": "Add a distinct author-source entry for the official non-abbreviated archive URL; note it is the earlier author text linked by the edited excerpt, not an exact collation of the 2008 edition.",
+        "sourceMap": "Attach the new source ID to history-before-intervention (§1 rainfall paragraph) and models-in-the-open (§4 small-steps paragraph); update sources.md/evidence-map and the implementation disclosure accordingly; rebuild the HTML and refresh ready hashes.",
+        "contaminationBoundary": "The archive contains an unrelated commercial intrusion in §6. It does not occur in the consulted §1/§4 support and must not be treated as author text. Keep the clean edited excerpt for the Dartmouth case."
+      },
+      "primaryUrl": "https://donellameadows.org/archives/dancing-with-systems/",
+      "primaryLocators": [
+        "§1 Get the beat: rainfall versus increasing variability, immediately after the records/history paragraph",
+        "§4 Stay humble. Stay a learner: small steps, constant monitoring and willingness to change course"
+      ],
+      "independentEvidenceResult": "Both retained claims supported in the actual author archive; direct map needs repair.",
+      "blocksAcceptance": true
+    }
+  ],
+  "optionalPolish": [
+    {
+      "id": "MEAD-P01",
+      "severity": "optional-low",
+      "screenId": "final",
+      "kind": "shallow-route callback precision",
+      "affectedRoutes": [
+        "essential-ru",
+        "essential-en"
+      ],
+      "exactWording": {
+        "ru": "Ванна, душ, лес и счётчик ведут к одной связной картине",
+        "en": "The bath, shower, forest and meter lead to a connected picture"
+      },
+      "reason": "Shower and meter are introduced only in Core, so Essential’s shared final refers back to cases not in that route. The following conceptual explanation is self-contained; this does not invalidate the central arc.",
+      "smallestFaithfulCorrection": {
+        "ru": "Запасы, потоки и обратные связи ведут к одной связной картине",
+        "en": "Stocks, flows and feedback lead to a connected picture"
+      },
+      "primaryLocators": [
+        "Bathtubs 101, stock/flow and closing feedback passages",
+        "Leverage Points §§9–6; shared final should not require omitted examples"
+      ],
+      "sourceUrls": [
+        "https://donellameadows.org/wp-content/userfiles/bathtubs101.pdf",
+        "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/"
+      ],
+      "blocksAcceptance": false
+    }
+  ],
+  "sourceGap": false,
+  "sourceScope": {
+    "targetEdition": "Donella H. Meadows, Thinking in Systems: A Primer, edited by Diana Wright, Chelsea Green 2008, ISBN 9781603580557",
+    "actualEvidence": "All nine draft excerpt pages, substantial author Leverage Points text with hierarchy/final caveats, edited Dancing excerpt including all fourteen practices, targeted non-abbreviated author archive passages, and all ten official preview page images.",
+    "completeEditionRead": false,
+    "authorizedRussianTranslationCollated": false,
+    "finalEditionWordingOrOrderCollated": false,
+    "previewMainChaptersRead": false,
+    "draftHeader": "3/28/13 DRAFT is not treated as a posthumous author revision",
+    "earlierEssayAndFinalBookEquated": false,
+    "excludedOtherAuthorWorksUsed": false,
+    "sufficientFor": "The disclosed concise retained central arc; exact source attachment needs MEAD-01 repair",
+    "notCertified": [
+      "complete Systems Zoo",
+      "all System Traps",
+      "full hierarchy chapter",
+      "model equations",
+      "all final-volume examples",
+      "whole-book or authorized translation fidelity"
+    ]
+  },
+  "sourcePassagesRead": [
+    {
+      "sourceId": 1,
+      "url": "https://www.chelseagreen.com/product/thinking-in-systems/",
+      "locator": "Book identification: publisher/title/editor/publication/ISBN; no main-chapter reading inferred"
+    },
+    {
+      "sourceId": 2,
+      "url": "https://donellameadows.org/wp-content/userfiles/bathtubs101.pdf",
+      "locator": "All nine pages: stocks/flows; dynamic equilibrium; Great Lakes/debt; changing outflow; inertia and flow decoupling; DRAFT export header"
+    },
+    {
+      "sourceId": 3,
+      "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+      "locator": "Opening/revised 12-point list; §§12–1 and Final Caution, with retained cases and exceptions"
+    },
+    {
+      "sourceId": 4,
+      "url": "https://donellameadows.org/dancing-with-systems/",
+      "locator": "Official edited book-excerpt wrapper, opening and all fourteen numbered practices; compared §§1/4 against the non-abbreviated author text"
+    },
+    {
+      "sourceId": 5,
+      "url": "https://www.iseesystems.com/store/books/thinking-in-systems/preview.pdf",
+      "locator": "All ten page images: cover/title/copyright/contents, author and editor front matter, final prefatory quotation; no substantive main chapters"
+    },
+    {
+      "sourceId": "independent-review-addition-not-in-package",
+      "url": "https://donellameadows.org/archives/dancing-with-systems/",
+      "locator": "Linked non-abbreviated version; §§1/4 actual retained passages; compared clean §6 to contaminated archive §6"
+    }
+  ],
+  "fourteenPracticesChecked": {
+    "practicesRead": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "scope": "All fourteen in the official edited excerpt; retained practices cross-checked, not a claim that the digest reproduces fourteen separate procedures.",
+    "selectedRetainedConnections": {
+      "history-before-intervention": [
+        1
+      ],
+      "models-in-the-open": [
+        3,
+        4
+      ],
+      "responsibility-at-dartmouth": [
+        6
+      ],
+      "the-good-of-the-whole": [
+        8,
+        9,
+        10
+      ]
+    }
+  },
+  "screenAudit": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "framing",
+      "mappedSourceIds": [],
+      "mappedPassage": null,
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "not-a-key-to-control",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        4
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          4
+        ],
+        "passage": "Dancing With Systems: opening account of MIT expectations, prediction and uncertainty"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "stock-and-flow",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2
+        ],
+        "passage": "Bathtubs 101, first two pages: stocks as accumulated history; examples; flows"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "dynamic-equilibrium",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2
+        ],
+        "passage": "Bathtubs 101: bathtub equilibrium and reducing outflow as an alternative to increasing inflow"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "great-lakes",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2
+        ],
+        "passage": "Bathtubs 101: The Great Mud Flats and the National Debt; Great Lakes stock versus flow"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "debt-and-deficit",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2
+        ],
+        "passage": "Bathtubs 101: debt is stock, deficit is inflow; zero deficit does not drain existing debt"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "the-past-keeps-moving",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2
+        ],
+        "passage": "Bathtubs 101: inertia, equipment turnover and stocks decoupling flows"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "balancing-feedback",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §8: thermostat components; response strength relative to disturbance"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "reinforcing-feedback",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §7: compound interest and soil/vegetation erosion loop"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "shower-delay",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §9: author’s London hotel shower and delayed response"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "buffers",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2,
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2,
+          3
+        ],
+        "passage": "Bathtubs 101: decoupled flows; Leverage Points §11: buffer size, expense and inflexibility"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "unused-protections",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §8: inactive emergency mechanisms and reduced survival range"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "success-to-the-successful",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §7: success-to-the-successful loops and weak opposing corrections"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "the-fish-price",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §6: fisheries, scarce-fish price and missing stock-to-investment feedback"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "not-just-numbers",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points: ranked list, §12 parameter caveats and Final Caution"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "visible-meter",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §6: explicitly introduced as a story; basement versus front-hall electricity meter"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "rules",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §5: rules define boundaries/degrees of freedom; authority over rules"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "self-organization",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §4: new structures/loops/rules; diversity, experiments and resilience"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "goals",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §3: thermostat goal versus whole-system goals and lower structures"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "paradigms",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        3
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          3
+        ],
+        "passage": "Leverage Points §§2–1: shared assumptions and ability to transcend paradigms"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "history-before-intervention",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "source-map-fix",
+      "mappedSourceIds": [
+        4
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          4
+        ],
+        "passage": "Dancing With Systems §1 Get the beat: history, records, rainfall variability and favorite solutions"
+      },
+      "actualEvidence": {
+        "url": "https://donellameadows.org/archives/dancing-with-systems/",
+        "locator": "§1 rainfall/variability paragraph"
+      },
+      "parity": "Retained meaning, examples, roles and qualifications preserved; source mismatch is shared in both languages."
+    },
+    {
+      "screenId": "models-in-the-open",
+      "level": 2,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "source-map-fix",
+      "mappedSourceIds": [
+        4
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          4
+        ],
+        "passage": "Dancing With Systems §§3–4: exposed models, multiple hypotheses, small steps and monitoring"
+      },
+      "actualEvidence": {
+        "url": "https://donellameadows.org/archives/dancing-with-systems/",
+        "locator": "§4 small steps/monitoring paragraph"
+      },
+      "parity": "Retained meaning, examples, roles and qualifications preserved; source mismatch is shared in both languages."
+    },
+    {
+      "screenId": "responsibility-at-dartmouth",
+      "level": 3,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        4
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          4
+        ],
+        "passage": "Dancing With Systems §6: Dartmouth central thermostats, calls and delayed/overcorrection; intrinsic responsibility"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "the-good-of-the-whole",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        4
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          4
+        ],
+        "passage": "Dancing With Systems §§8–10: important versus quantifiable; sawmills/forests; whole and long horizon"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "result": "supported",
+      "mappedSourceIds": [
+        2,
+        3,
+        4
+      ],
+      "mappedPassage": {
+        "sourceIds": [
+          2,
+          3,
+          4
+        ],
+        "passage": "Retained primary arc: stocks/flows; leverage qualifications; Dancing With Systems opening and learning practices"
+      },
+      "actualEvidence": null,
+      "parity": "Meaning, roles and qualifications preserved."
+    }
+  ],
+  "routeAssessment": {
+    "essential": "Conceptual stock/flow-feedback-leverage-learning arc works; optional final callback names two Core-only cases. MEAD-01 affects history evidence attachment.",
+    "core": "Added delay, buffer, information and model passages preserve causal sequence. MEAD-01 affects two source attachments.",
+    "deep": "Adds author cases and qualifications coherently; no invented control/ranking promise. MEAD-01 persists.",
+    "bilingual": "All 25 pairs read; meaning and qualifications aligned. Both languages share the evidence attachment issue."
+  },
+  "omissionAssessment": "Declared omissions assessed against a concise central arc, not every-chapter completeness. No requirement to reconstruct unconsulted traps/models.",
+  "deterministicAudit": {
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "recheckRequirement": "Confirm new archive source record and both screen/source-map links, maintain distinct evidence boundaries, rebuild and compare embedded source records, refresh hashes. No whole-volume acquisition required.",
+  "changesMade": [
+    "Only this independent review JSON and Markdown; all package/manifests remain unchanged."
+  ],
+  "readingAndIntegrity": {
+    "scope": "NEW collector package; root delivery not present at intake and not reviewed/published here",
+    "pairsRead": 25,
+    "localizedScreensRead": 50,
+    "allPairIds": [
+      "cover",
+      "not-a-key-to-control",
+      "stock-and-flow",
+      "dynamic-equilibrium",
+      "great-lakes",
+      "debt-and-deficit",
+      "the-past-keeps-moving",
+      "balancing-feedback",
+      "reinforcing-feedback",
+      "shower-delay",
+      "buffers",
+      "unused-protections",
+      "success-to-the-successful",
+      "the-fish-price",
+      "not-just-numbers",
+      "visible-meter",
+      "rules",
+      "self-organization",
+      "goals",
+      "paradigms",
+      "history-before-intervention",
+      "models-in-the-open",
+      "responsibility-at-dartmouth",
+      "the-good-of-the-whole",
+      "final"
+    ],
+    "allTitlesSubtitlesBodiesAndMethodSourceNotesRead": true,
+    "routes": {
+      "essential": {
+        "count": 13,
+        "ids": [
+          "cover",
+          "not-a-key-to-control",
+          "stock-and-flow",
+          "the-past-keeps-moving",
+          "balancing-feedback",
+          "reinforcing-feedback",
+          "the-fish-price",
+          "not-just-numbers",
+          "rules",
+          "goals",
+          "history-before-intervention",
+          "the-good-of-the-whole",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      },
+      "core": {
+        "count": 22,
+        "ids": [
+          "cover",
+          "not-a-key-to-control",
+          "stock-and-flow",
+          "dynamic-equilibrium",
+          "debt-and-deficit",
+          "the-past-keeps-moving",
+          "balancing-feedback",
+          "reinforcing-feedback",
+          "shower-delay",
+          "buffers",
+          "success-to-the-successful",
+          "the-fish-price",
+          "not-just-numbers",
+          "visible-meter",
+          "rules",
+          "self-organization",
+          "goals",
+          "paradigms",
+          "history-before-intervention",
+          "models-in-the-open",
+          "the-good-of-the-whole",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      },
+      "deep": {
+        "count": 25,
+        "ids": [
+          "cover",
+          "not-a-key-to-control",
+          "stock-and-flow",
+          "dynamic-equilibrium",
+          "great-lakes",
+          "debt-and-deficit",
+          "the-past-keeps-moving",
+          "balancing-feedback",
+          "reinforcing-feedback",
+          "shower-delay",
+          "buffers",
+          "unused-protections",
+          "success-to-the-successful",
+          "the-fish-price",
+          "not-just-numbers",
+          "visible-meter",
+          "rules",
+          "self-organization",
+          "goals",
+          "paradigms",
+          "history-before-intervention",
+          "models-in-the-open",
+          "responsibility-at-dartmouth",
+          "the-good-of-the-whole",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "readAsConnectedTexts": true
+      }
+    },
+    "hashes": {
+      "collector-output/thinking-in-systems/story-data.json": {
+        "before": "1a3598807143822b159283e3c9de289cf1a879a35f7448e9d88ca4e6b2440b69",
+        "after": "1a3598807143822b159283e3c9de289cf1a879a35f7448e9d88ca4e6b2440b69",
+        "unchanged": true
+      },
+      "collector-output/thinking-in-systems/thinking-in-systems.html": {
+        "before": "720eb649dd17b9ffeead20be67ff3f83c05c6cd2218e5941c4cd803faa13adf9",
+        "after": "720eb649dd17b9ffeead20be67ff3f83c05c6cd2218e5941c4cd803faa13adf9",
+        "unchanged": true
+      },
+      "collector-output/thinking-in-systems/sources.md": {
+        "before": "5c562615148bd4a9e95eea9412f6c768cb0532ff1b0ec1ebc0030fc20b8e9ebd",
+        "after": "5c562615148bd4a9e95eea9412f6c768cb0532ff1b0ec1ebc0030fc20b8e9ebd",
+        "unchanged": true
+      },
+      "collector-output/thinking-in-systems/QA.md": {
+        "before": "208b279b39dfa3acc9c908a7b633ca20c28f7319dced5b90165b53da330ee93c",
+        "after": "208b279b39dfa3acc9c908a7b633ca20c28f7319dced5b90165b53da330ee93c",
+        "unchanged": true
+      },
+      "collector-output/thinking-in-systems/evidence-map.sol.json": {
+        "before": "18a9ee2a249a740199bb10e02e2ae4104026747aa1b6824ffdc5db44773d0c83",
+        "after": "18a9ee2a249a740199bb10e02e2ae4104026747aa1b6824ffdc5db44773d0c83",
+        "unchanged": true
+      },
+      "editorial-audit/2026-10-31/ready/thinking-in-systems.json": {
+        "before": "2bf39c3d064eed7b0446e31a85fa6e10e48acda2d35c43b7cfe9285bf59c1f6d",
+        "after": "2bf39c3d064eed7b0446e31a85fa6e10e48acda2d35c43b7cfe9285bf59c1f6d",
+        "unchanged": true
+      },
+      "editorial-audit/2026-10-31/books/thinking-in-systems.sol-implementation.md": {
+        "before": "f9f9a7ec9b30ed6571b7d99e2e592bccf9bf538d1ab14fea1562c4edffdfed89",
+        "after": "f9f9a7ec9b30ed6571b7d99e2e592bccf9bf538d1ab14fea1562c4edffdfed89",
+        "unchanged": true
+      }
+    },
+    "snapshotBeforeAt": "2026-10-31T20:24:01.444387+00:00",
+    "snapshotAfterAt": "2026-10-31T20:36:57.969165+00:00",
+    "packageImmutability": {
+      "filesHashedBefore": 24,
+      "changedPaths": [],
+      "allUnchanged": true
+    },
+    "readyManifestVerification": [
+      {
+        "path": "collector-output/thinking-in-systems/story-data.json",
+        "expected": "1a3598807143822b159283e3c9de289cf1a879a35f7448e9d88ca4e6b2440b69",
+        "actual": "1a3598807143822b159283e3c9de289cf1a879a35f7448e9d88ca4e6b2440b69",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-in-systems/thinking-in-systems.html",
+        "expected": "720eb649dd17b9ffeead20be67ff3f83c05c6cd2218e5941c4cd803faa13adf9",
+        "actual": "720eb649dd17b9ffeead20be67ff3f83c05c6cd2218e5941c4cd803faa13adf9",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-in-systems/sources.md",
+        "expected": "5c562615148bd4a9e95eea9412f6c768cb0532ff1b0ec1ebc0030fc20b8e9ebd",
+        "actual": "5c562615148bd4a9e95eea9412f6c768cb0532ff1b0ec1ebc0030fc20b8e9ebd",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-in-systems/QA.md",
+        "expected": "208b279b39dfa3acc9c908a7b633ca20c28f7319dced5b90165b53da330ee93c",
+        "actual": "208b279b39dfa3acc9c908a7b633ca20c28f7319dced5b90165b53da330ee93c",
+        "matches": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/books/thinking-in-systems.sol-implementation.md",
+        "expected": "f9f9a7ec9b30ed6571b7d99e2e592bccf9bf538d1ab14fea1562c4edffdfed89",
+        "actual": "f9f9a7ec9b30ed6571b7d99e2e592bccf9bf538d1ab14fea1562c4edffdfed89",
+        "matches": true
+      },
+      {
+        "path": "collector-output/thinking-in-systems/evidence-map.sol.json",
+        "expected": "18a9ee2a249a740199bb10e02e2ae4104026747aa1b6824ffdc5db44773d0c83",
+        "actual": "18a9ee2a249a740199bb10e02e2ae4104026747aa1b6824ffdc5db44773d0c83",
+        "matches": true
+      }
+    ],
+    "freshChecks": {
+      "canonicalScreensEqualEffectiveEmbeddedScreens": true,
+      "canonicalSourcesEqualEffectiveEmbeddedSources": true,
+      "canonicalMethodEqualEffectiveEmbeddedMethod": true,
+      "allCanonicalFieldsExceptGeneratedModesAndMediaEqual": true,
+      "singleEmbeddedDataBlock": true,
+      "noSubsequentCorpusAssignment": true,
+      "uniqueScreenIds": true,
+      "targetModesMatchComputedCounts": true,
+      "defaultLanguage": "ru",
+      "defaultTheme": "dark",
+      "defaultMode": "essential",
+      "contentMode": "explanatory",
+      "browserMatrixRepeated": false,
+      "chromeStarted": false
+    }
+  },
+  "reviewFiles": {
+    "json": "editorial-audit/2026-10-31/reviews/thinking-in-systems.json",
+    "markdown": "editorial-audit/2026-10-31/reviews/thinking-in-systems.md"
+  }
+}

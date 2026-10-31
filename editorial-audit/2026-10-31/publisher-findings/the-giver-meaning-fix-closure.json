@@ -1,0 +1,168 @@
+{
+  "slug": "the-giver",
+  "status": "corrected-awaiting-publisher-validation",
+  "atUtc": "2026-10-31T21:08:51.810441+00:00",
+  "findings": [
+    "GIV-001"
+  ],
+  "changedScreens": [
+    "the-apple"
+  ],
+  "counts": {
+    "essential": 11,
+    "core": 17,
+    "deep": 27
+  },
+  "sourceCheck": [
+    "GIV-001: parent directly checked the Scholastic BookFiles official guide, printed pp. 24 and 42 (zero-based PDF 23 and 41), apple during catch and Jonas’s recollection. Removed only the unsupported in-hand placement in RU/EN; did not replace it with an in-air detail from memory. Chapter 3 of the primary novel was not read for this correction. The source-evidence-map limit now makes this exact boundary explicit."
+  ],
+  "originalReviewPath": "editorial-audit/2026-10-31/reviews/the-giver.json",
+  "originalReviewSha256": "9accc96c9a5367081956db2fd96cc76f1d216c7da307af832c7d77be342f9a36",
+  "beforeHashes": {
+    "collector-output/the-giver/story-data.json": "ffdd3501f8424779cb7fda36c9bd7f99d27ffbc3f552cef4514eb0c2bec38e64",
+    "collector-output/the-giver/the-giver.html": "c657938fbcc70401a004b0e8a4cbec41ccecaed3a46297fe41f0641f7be760c5",
+    "collector-output/the-giver/sources.md": "5b3c32931c67ca94ab86f5d7a03c39a36b65cd11c12aeb2305aba2c06dc07869",
+    "collector-output/the-giver/QA.md": "71567dfceeeec080aeccadcb81c489b6d068dd6e3b34ab4c5280e67b91f44941",
+    "collector-output/the-giver/source-evidence-map.json": "95dbb0a4c1e95bdcda71c0c2a470967bc0c7aebcc04aaff223de54c78b860b82"
+  },
+  "afterHashes": {
+    "collector-output/the-giver/story-data.json": "6a7607fa7e558cf9c4588c544a9dd6f588c328167f020b43b9f54124a2b6553d",
+    "collector-output/the-giver/the-giver.html": "df3b56939d148878a85c9d27f3176371c17c0c9d34d9cadbfa19834d758c4236",
+    "collector-output/the-giver/sources.md": "cd9fe40c4c79d24325bfcd70785a73ad6ad4424b0298678c5c8dd16d1e8857a7",
+    "collector-output/the-giver/QA.md": "b2b06d855c1ad8c04a4d1bd58a517b818a0b10bdb28d7d0c4f149ce16d952970",
+    "collector-output/the-giver/source-evidence-map.json": "5975d93cfe0000d2a9cc12f1f5cb78b829308cf273847a9b54456a108e44e0d1"
+  },
+  "screensBefore": [
+    {
+      "id": "the-apple",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "До церемонии",
+          "title": "Яблоко изменилось",
+          "body": "<p>А однажды во время игры с Эшером Джонасу кажется, что яблоко у него в руках изменилось. Всего на миг — затем снова стало обычным. Джонас не понимает, что именно увидел.</p>"
+        },
+        "en": {
+          "section": "Before the ceremony",
+          "title": "The apple changes",
+          "body": "<p>Then something happens during a game of catch with Asher. For a moment the apple in Jonas's hands seems to change. It becomes ordinary again. Jonas cannot explain what he has seen.</p>"
+        }
+      }
+    }
+  ],
+  "screensAfter": [
+    {
+      "id": "the-apple",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "До церемонии",
+          "title": "Яблоко изменилось",
+          "body": "<p>А однажды во время игры с Эшером Джонасу кажется, что яблоко изменилось. Всего на миг — затем снова стало обычным. Джонас не понимает, что именно увидел.</p>"
+        },
+        "en": {
+          "section": "Before the ceremony",
+          "title": "The apple changes",
+          "body": "<p>Then something happens during a game of catch with Asher. For a moment the apple seems to change. It becomes ordinary again. Jonas cannot explain what he has seen.</p>"
+        }
+      }
+    }
+  ],
+  "sourcesBefore": [
+    {
+      "id": 1,
+      "title": "Scholastic BookFiles: A Reading Guide to The Giver — Jeannette Sanderson (2003)",
+      "url": "https://www.scholastic.com/content/dam/teachers/activities/migrated-files-in-body/the-giver-bookfile.pdf",
+      "role": "publisher",
+      "note": {
+        "ru": "Подробный официальный путеводитель: вопросы к главам, сюжет и персонажи. Прочитаны соответствующие разделы. Это guide, а не полный текст романа.",
+        "en": "A substantial official guide: chapter questions, plot and characters. The relevant sections were read. This is a guide, not the complete novel."
+      }
+    },
+    {
+      "id": 2,
+      "title": "The Giver: Educator’s Resource Guide — Robert L. Selman & Tracy Elizabeth (2014)",
+      "url": "https://www.reellifewithjane.com/wp-content/uploads/2014/05/The-Giver-Educators-Resource-Guide.pdf",
+      "role": "primary",
+      "note": {
+        "ru": "Проверены отдельно помеченные, разрешённые Houghton Mifflin Harcourt фрагменты романа: главы 9, 13, 16, 20; также отдельные книжные пояснения. Сценарные сцены не использованы.",
+        "en": "Consulted clearly labelled novel passages, reproduced with Houghton Mifflin Harcourt permission: chapters 9, 13, 16, 20; also selected book-specific notes. Screenplay scenes were excluded."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lois Lowry — Newbery Acceptance Speech (June 1994)",
+      "url": "https://loislowry.com/wp-content/uploads/2019/11/the_giver.pdf",
+      "role": "author",
+      "note": {
+        "ru": "Прочитана авторская речь, включая обсуждение открытости последней сцены. Высказывания автора не подменяют события романа.",
+        "en": "The author’s speech was read, including its discussion of the open last scene. Author commentary does not replace events in the novel."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Penguin Random House — The Giver; A Conversation with Lois Lowry",
+      "url": "https://www.penguinrandomhouse.com/books/104094/the-giver-by-lois-lowry/",
+      "role": "publisher",
+      "note": {
+        "ru": "Карточка аудиоиздания и интервью с Лоури: проверены исходная ситуация и авторские пояснения. Аудиокнига не прослушана; это не прочитанное печатное издание.",
+        "en": "Audiobook listing and Lowry interview: checked the premise and the author’s explanations. The audiobook was not listened to; this is not a print edition read in full."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Penguin Random House — The Giver Reader’s Guide; Gary D. Schmidt",
+      "url": "https://www.penguinrandomhouse.com/books/104094/the-giver-by-lois-lowry/readers-guide/",
+      "role": "publisher",
+      "note": {
+        "ru": "Прочитаны вопросы 1–8: дополнительная проверка устройства общины и неоднозначности. Это обсуждение книги, а не её первичный текст. Ссылка содержит спойлеры.",
+        "en": "Questions 1–8 were read: an additional check on the community and the story’s ambiguity. This is discussion of the book, not its primary text. The link contains spoilers."
+      }
+    }
+  ],
+  "methodNoteBefore": {
+    "ru": "Новый краткий пересказ романа The Giver (1993), а не фильма или продолжений. Основа — подробные официальные guides, разрешённые фрагменты романа и материалы Лоури. Полное издание не прочитано непрерывно. RU/EN написаны своими словами; это не изданный перевод. Главные открытия и последняя сцена доступны только в Deep после согласия. Внешние источники могут содержать спойлеры.",
+    "en": "An original concise retelling of The Giver (1993), excluding the film and later novels. It draws on substantial official guides, authorised novel passages and Lowry’s own material. No complete edition was read continuously. RU/EN use original words, not a published translation. The central discoveries and last scene are reserved for Deep after consent. External sources may contain spoilers."
+  },
+  "outerReaderCodePreserved": true,
+  "allOtherScreenPairsUnchanged": true,
+  "structural": {
+    "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-giver/the-giver.html",
+    "format": "v2",
+    "bytes": 283972,
+    "screenCount": 27,
+    "levels": {
+      "1": 11,
+      "2": 6,
+      "3": 10
+    },
+    "modes": {
+      "essential": 11,
+      "core": 17,
+      "deep": 27
+    },
+    "words": {
+      "ru": 916,
+      "en": 1124
+    },
+    "passes": 69,
+    "warnings": [],
+    "failures": []
+  },
+  "browser": {
+    "status": "passed",
+    "combinedAssertions": 160,
+    "report": "editorial-audit/2026-10-31/publisher-findings/parent-four-small-fix-browser.json",
+    "limits": "Focused regression only; not independent meaning acceptance or physical Safari/PWA."
+  },
+  "independentPassClaimed": false,
+  "publicationClaimed": false
+}

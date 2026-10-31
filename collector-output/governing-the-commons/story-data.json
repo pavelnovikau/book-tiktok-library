@@ -1,0 +1,837 @@
+{
+  "schemaVersion": 2,
+  "slug": "governing-the-commons",
+  "title": {
+    "ru": "Управляя общим",
+    "en": "Governing the Commons"
+  },
+  "description": {
+    "ru": "Элинор Остром: общие ресурсы, реальные институты самоуправления, их устойчивость и неудачи.",
+    "en": "Elinor Ostrom on common-pool resources, actual self-governing institutions, endurance and failure."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "spoilerPolicy": "not-applicable",
+  "targetModes": {
+    "essential": 14,
+    "core": 24,
+    "deep": 33
+  },
+  "modes": {
+    "essential": {
+      "minutes": {
+        "ru": "4 минуты",
+        "en": "4 min"
+      }
+    }
+  },
+  "methodNote": {
+    "ru": "Выборочное краткое изложение аргумента Governing the Commons (Cambridge, 1990), в собственных словах. Прочитаны официальный отрывок Canto 2015 (с. 1–10 исходного текста) и открытые начала глав 2–6. Процедуры случаев проверены также по отдельной работе Остром 1988 года; определения — по её статье 1990 года; восемь принципов — по совместному изложению McGinnis и Ostrom 1992 года, прямо отсылающему к книге. Полная книга не прочитана последовательно; исчерпывающая сверка и сверка с опубликованным русским переводом не заявляются. Позднейшие глобальные и климатические аргументы сюда не перенесены.",
+    "en": "A selective original-word condensation of the argument in Governing the Commons (Cambridge, 1990). Read the official Canto 2015 excerpt (original text pp. 1–10) and public opening extracts of chapters 2–6. Case procedures were also checked in Ostrom’s separate 1988 work; definitions in her 1990 paper; eight principles in McGinnis and Ostrom’s 1992 restatement explicitly referring to the book. The complete book was not read continuously; no exhaustive edition comparison or verification against a published Russian translation is claimed. Later global and climate arguments are not imported."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Governing the Commons — Cambridge, original 1990 edition",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/7AB7AE11BADA84409C34815CC288CD79",
+      "role": "publisher",
+      "note": {
+        "ru": "Идентификация книги 1990 года. Сверены также открытые оглавление и индекс переиздания Cambridge 2015: названия случаев, раздел о восьми принципах и их связь с книгой. Индекс не заменяет чтение самих страниц. Полная книга не прочитана.",
+        "en": "Identity and bibliographic record of the 1990 work. Also checked the public contents and index of the Cambridge 2015 reprint: named cases, the eight-principle section and their connection to the book. An index is not a reading of those pages. The complete book was not read."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Reflections on the commons — official Cambridge excerpt, pp. 1–10",
+      "url": "https://assets.cambridge.org/97811075/69782/excerpt/9781107569782_excerpt.pdf",
+      "role": "book",
+      "note": {
+        "ru": "Прочитаны страницы 1–10 официального отрывка переиздания Canto 2015: текст начала книги 1990 года, модели Хардина и Олсона, ограничения моделирования. Отрывок не является полной первой главой.",
+        "en": "Read pp. 1–10 of the official 2015 Canto reprint excerpt: the opening of the 1990 book, Hardin and Olson, and limits of models. This is not the whole first chapter."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Chapter 2 — An institutional approach: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/an-institutional-approach-to-the-study-of-selforganization-and-selfgovernance-in-cpr-situations/815061479E831FC11B3482789300BB65",
+      "role": "book",
+      "note": {
+        "ru": "Прочитано открытое начало главы 2, начинающейся на с. 29: создание институтов, обязательства и наблюдение. Вся глава 29–57 недоступна в прочитанном отрывке.",
+        "en": "Read the public opening extract of chapter 2, beginning on p. 29: institutional supply, commitments and monitoring. The full pp. 29–57 were not consulted."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Chapter 3 — Long-enduring CPRs: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-longenduring-selforganized-and-selfgoverned-cprs/93E337E42A79624A35EF138DC05A58B1",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 3, с. 58: швейцарские и японские общие угодья, испанское и филиппинское орошение; долговечность при изменении правил. Не вся глава 58–102.",
+        "en": "Public opening extract, p. 58: Swiss and Japanese commons, Spanish and Philippine irrigation; endurance with changing rules. Not the full chapter, pp. 58–102."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Chapter 4 — Institutional change: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-change/565FE632C80FA2CAC95BF734993E7CC2",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 4, с. 103: возможность не равна вероятности; происхождение древних институтов неизвестно; создание правил само является коллективной дилеммой.",
+        "en": "Public opening extract, p. 103: feasibility is not likelihood; origins of ancient systems are unknown; supplying institutions is itself a collective dilemma."
+      }
+    },
+    {
+      "id": 6,
+      "title": "Chapter 5 — Failures and fragilities: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/analyzing-institutional-failures-and-fragilities/EFD3C8A6E5C7CD262DF16BD2B623D041",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 5, с. 143: Аланья в сравнении с Бодрумом и Измиром; неудача регионального подхода в Сан-Бернардино; шри-ланкийская ротация и неограниченный вход. Остальная глава не прочитана.",
+        "en": "Public opening extract, p. 143: Alanya contrasted with Bodrum and Izmir; regional difficulties in San Bernardino; Sri Lankan rotation and uncontrolled entry. The remainder of the chapter was not read."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Chapter 6 — A framework for analysis: public opening extract",
+      "url": "https://www.cambridge.org/core/books/governing-the-commons/framework-for-analysis-of-selforganizing-and-selfgoverning-cprs/05666795A13EFC6882C18E4E05C40166",
+      "role": "book",
+      "note": {
+        "ru": "Открытое начало главы 6, с. 182: масштаб до примерно 15 000 пользователей, отдельные страны, смешанные публичные и частные механизмы, обращающиеся права на поток без приватизации всей системы. Не вся глава 182–216.",
+        "en": "Public opening extract, p. 182: up to about 15,000 users, single countries, mixed public/private arrangements, tradable flow rights without privatizing the resource system. Not the full chapter, pp. 182–216."
+      }
+    },
+    {
+      "id": 8,
+      "title": "Elinor Ostrom — Institutional Arrangements and the Commons Dilemma (1988)",
+      "url": "https://dlc.dlib.indiana.edu/dlcrest/api/core/bitstreams/ef134fc6-f484-4622-ac6f-feb40e4ce905/content",
+      "role": "author",
+      "note": {
+        "ru": "Отдельная более ранняя работа Остром, не издание целевой книги. Проверены с. 108–119: West Basin, условное соглашение с порогом 80%, Аланья, Тёрбель, японские деревни. Использована для проверки процедур случаев, связанных с книгой материалами Cambridge; дословное совпадение с 1990 годом не заявляется.",
+        "en": "Separate earlier work, not the target book edition. Consulted pp. 108–119: West Basin, the 80% contingent agreement, Alanya, Törbel and Japanese villages. Checks procedures for cases connected to the book by Cambridge material; word-for-word identity with 1990 is not claimed."
+      }
+    },
+    {
+      "id": 9,
+      "title": "Elinor Ostrom — The Rudiments of a Theory… (1990 working paper)",
+      "url": "https://dlc.dlib.indiana.edu/dlc/items/1678a207-90d6-456d-afd8-dbbe97ddac38",
+      "role": "author",
+      "note": {
+        "ru": "Самостоятельная работа 1990 года из библиотеки Indiana University. Выборочно проверены определения на с. 4–8, возникновение и сохранение организации на с. 12–24, оговорки в заключении с. 29–31. Различены ресурс и права, открытый доступ и общая собственность, выживание и результативность.",
+        "en": "Separate 1990 paper in Indiana University’s library. Selected definitions, pp. 4–8; emergence and survival, pp. 12–24; concluding qualifications, pp. 29–31. Distinguishes resources from rights, open access from common property, and survival from performance."
+      }
+    },
+    {
+      "id": 10,
+      "title": "Michael McGinnis & Elinor Ostrom — Design Principles for Local and Global Commons (1992)",
+      "url": "https://dlc.dlib.indiana.edu/dlc/items/80b557a3-e101-46ff-8bca-fe3fa75d59b4",
+      "role": "author",
+      "note": {
+        "ru": "Отдельная позднейшая совместная работа. Прочитаны вводные с. 1–9 и примечания 3–4 на с. 40; для пересказа используются только раздел о предшествующих исследованиях и восемь принципов, с. 7–9, прямо связанные с Ostrom 1990. Её последующие выводы о глобальном управлении сюда не перенесены.",
+        "en": "Separate later coauthored paper. Read introductory pp. 1–9 and notes 3–4 on p. 40; only the prior-research discussion and eight principles, pp. 7–9, explicitly linked to Ostrom 1990, inform this account. Its subsequent global-governance argument is not imported."
+      }
+    }
+  ],
+  "media": {
+    "edition-year": {
+      "file": "./governing-the-commons-cover-sol.svg",
+      "alt": {
+        "ru": "1990 — год первого издания",
+        "en": "1990 — first publication year"
+      },
+      "credit": {
+        "ru": "Типографическая обложка этого краткого изложения",
+        "en": "Typographic cover for this condensation"
+      }
+    }
+  },
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [
+        1
+      ],
+      "media": "edition-year",
+      "copy": {
+        "ru": {
+          "section": "Элинор Остром · 1990",
+          "title": "Управляя общим",
+          "subtitle": "Эволюция институтов коллективного действия",
+          "body": "<p>Как люди сохраняют общий ресурс — и почему правила иногда не выдерживают.</p>",
+          "visualAlt": "Краткое изложение аргумента книги Элинор Остром"
+        },
+        "en": {
+          "section": "Elinor Ostrom · 1990",
+          "title": "Governing the Commons",
+          "subtitle": "The Evolution of Institutions for Collective Action",
+          "body": "<p>How people sustain a shared resource—and why rules sometimes fail.</p>",
+          "visualAlt": "A condensed account of Elinor Ostrom’s argument"
+        }
+      }
+    },
+    {
+      "id": "tomorrows-resource",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Ресурс должен остаться на завтра",
+          "body": "<p>Рыбакам нужен завтрашний улов, земледельцам — вода следующего сезона. Но сегодня каждому может быть выгодно взять больше, оставив другим последствия. В «Управляя общим» Элинор Остром исследует, как люди, зависящие от одного ресурса, иногда удерживают его от истощения — и почему иногда не могут этого сделать.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "The resource must last",
+          "body": "<p>Fishers need tomorrow&#x27;s catch; farmers need next season&#x27;s water. Yet taking more today may reward each user while leaving others to bear the damage. In Governing the Commons, Elinor Ostrom investigates how people dependent on one resource sometimes keep it productive—and why they sometimes fail.</p>"
+        }
+      }
+    },
+    {
+      "id": "common-pool-public-good",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Рыба — не прогноз погоды",
+          "body": "<p>Для начала нужно понять, что именно у них общее. Общий ресурс в смысле Остром трудно оградить от пользователей, а изъятое одним уже недоступно другому. Пойманная рыба не достанется второй лодке. Этим такой ресурс отличается от общественного блага: знакомясь с прогнозом погоды, человек не расходует прогноз для остальных.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "Fish are not a forecast",
+          "body": "<p>First, what exactly do they share? A common-pool resource is costly to exclude people from, and what one user takes is unavailable to another. A fish caught by one boat cannot be caught by the next. This distinguishes it from a public good: consulting a weather forecast does not use it up for everyone else.</p>"
+        }
+      }
+    },
+    {
+      "id": "system-and-yield",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Бассейн и извлечённая вода",
+          "body": "<p>И водоносный бассейн нельзя путать с извлечённой водой: общей остаётся система, отдельные пользователи забирают производимый ею поток. Поэтому приходится решать и сколько можно взять, и как сохранить сам источник.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "The basin and its yield",
+          "body": "<p>The groundwater basin must also be distinguished from the water withdrawn. Users share the system while taking individual units of its yield. They must address both withdrawals and the maintenance of the source.</p>"
+        }
+      }
+    },
+    {
+      "id": "property-is-not-open-access",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Общее — не значит ничьё",
+          "body": "<p>Общий ресурс — характеристика объекта, общая собственность — устройство прав. При открытом доступе нет действенного ограничения круга пользователей. В режиме общей собственности определённая группа может исключать посторонних и регулировать изъятие. Совместное пользование ещё не означает отсутствия правил; название собственника ещё не объясняет результат.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "Shared does not mean unowned",
+          "body": "<p>Common-pool resource describes the resource; common property describes rights. Under open access, no effective restriction defines the set of users. Under common property, a defined group may exclude outsiders and regulate withdrawals. Sharing need not mean having no rules, and naming the owner does not explain the outcome.</p>"
+        }
+      }
+    },
+    {
+      "id": "hardins-incentive",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Почему стадо растёт",
+          "body": "<p>В модели Гарретта Хардина пастбище открыто всем. Прибавка к стаду приносит выгоду хозяину, а ущерб от перевыпаса распределяется между пользователями. Каждый получает стимул наращивать стадо, хотя общий результат может стать разорительным. Остром не отрицает эту опасность. Она оспаривает перенос вывода модели на любое совместное пользование.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "Why the herd grows",
+          "body": "<p>In Garrett Hardin&#x27;s model, a pasture is open to everyone. An extra animal benefits its owner, while the damage from overgrazing is spread among users. Each has an incentive to expand the herd, although the collective result can be ruinous. Ostrom does not deny this danger. She disputes extending the model&#x27;s conclusion to every instance of shared use.</p>"
+        }
+      }
+    },
+    {
+      "id": "collective-action",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Общий интерес не организует сам себя",
+          "body": "<p>Рядом стоят дилемма заключённого и логика коллективного действия Мансура Олсона. Нельзя считать, что общий интерес сам организует людей: можно пользоваться результатом чужих усилий, не оплачивая свою долю.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "A shared interest does not organize itself",
+          "body": "<p>The prisoner&#x27;s dilemma and Mancur Olson&#x27;s logic of collective action expose related difficulties. A common interest cannot be expected to organize people by itself: someone may enjoy benefits without contributing to their provision.</p>"
+        }
+      }
+    },
+    {
+      "id": "olsons-qualification",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        2
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "В аргументе Олсона есть оговорка",
+          "body": "<p>При этом Остром отмечает, что сам Олсон оставляет больше возможностей для сотрудничества, чем часто признают его пересказчики: в группах промежуточного размера результат остаётся открытым, а значение имеет заметность индивидуальных действий.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "Olson leaves a question open",
+          "body": "<p>Ostrom also observes that Olson&#x27;s own account leaves more room for cooperation than many retellings acknowledge. For intermediate-sized groups the outcome remains open, and the visibility of individual actions matters.</p>"
+        }
+      }
+    },
+    {
+      "id": "change-the-rules",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        3
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Можно изменить сами правила",
+          "body": "<p>Решающее ограничение модели может оказаться изменяемым в жизни. Если люди способны обсуждать правила, заключать соглашения и проверять их исполнение, они не обязаны вечно выбирать из прежнего набора ходов. Вопрос Остром — при каких условиях пользователи действительно получают такую способность.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "The rules can change",
+          "body": "<p>A constraint fixed in a model may be changeable in practice. People who can discuss rules, make agreements and monitor compliance need not forever choose from the original moves. Ostrom asks under what conditions users actually develop that capacity.</p>"
+        }
+      }
+    },
+    {
+      "id": "supplying-institutions",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        3,
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "I · Ресурс и правила",
+          "title": "Договорённость тоже нужно создать",
+          "body": "<p>Но создание правил само требует совместного труда: кому-то нужно добыть сведения, договориться об обязательствах и наладить контроль. Польза будущего соглашения не объясняет, почему люди возьмут на себя эти издержки.</p>"
+        },
+        "en": {
+          "section": "I · Resources and rules",
+          "title": "Agreements must be produced",
+          "body": "<p>Creating rules, however, is itself collective work. Someone must obtain information, negotiate commitments and arrange monitoring. The benefits of a future agreement do not explain why people will bear those costs.</p>"
+        }
+      }
+    },
+    {
+      "id": "alanya-rotation",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        6,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Места лова переходят по очереди",
+          "body": "<p>В турецкой Аланье соперничество за лучшие места лова порождало конфликты и повышало затраты. Рыбаки выработали ротацию участков: первоначальное место распределялось жребием, затем участники последовательно переходили к следующим. Доступ к удачным местам переставал зависеть только от того, кто сумел их захватить.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "Taking turns at fishing sites",
+          "body": "<p>In Alanya, Turkey, competition for the best fishing spots generated conflict and higher costs. Fishers developed a rotation: a lottery assigned starting positions, after which participants moved through successive sites. Access to productive places no longer depended simply on capturing them first.</p>"
+        }
+      }
+    },
+    {
+      "id": "alanya-calendar",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Сначала на восток, затем на запад",
+          "body": "<p>В описанной процедуре участки разнесены так, чтобы соседние сети не перекрывали друг другу рыбу. С сентября до января рыбаки ежедневно смещаются на восток, затем меняют направление; так учитывается сезонный ход рыбы.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "East first, then west",
+          "body": "<p>Sites were spaced so that adjacent nets would not obstruct each other&#x27;s fish. From September to January fishers moved east each day, then reversed direction, matching the seasonal movement of fish.</p>"
+        }
+      }
+    },
+    {
+      "id": "alanya-membership",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Правила действуют за пределами кооператива",
+          "body": "<p>В список включены лицензированные местные рыбаки, а не только члены кооператива. Они сами поддерживают соглашение, с опорой на местные власти. Это организация пользования, а не отсутствие управления.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "Beyond cooperative membership",
+          "body": "<p>Licensed local fishers were included whether or not they belonged to the cooperative. The fishers sustained the agreement themselves, with backing from local authorities. This was organized use, rather than an absence of governance.</p>"
+        }
+      }
+    },
+    {
+      "id": "enduring-commons",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Общие угодья живут столетиями",
+          "body": "<p>Другие случаи показывают, что такие устройства могут сохраняться очень долго. Остром рассматривает горные пастбища и леса Швейцарии и Японии, оросительные сообщества Испании и Филиппин.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "Commons that endure",
+          "body": "<p>Other cases show such arrangements surviving for long periods. Ostrom examines mountain pastures and forests in Switzerland and Japan, and irrigation communities in Spain and the Philippines.</p>"
+        }
+      }
+    },
+    {
+      "id": "torbel-winter",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        4,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Летний выпас связан с зимним кормом",
+          "body": "<p>В Тёрбеле общее альпийское пастбище соседствует с частными участками. Число коров, допускаемых на летний выпас, ограничено тем, сколько хозяин способен прокормить зимой. Покупка земли посторонним сама по себе не даёт общинных прав: правило пользования связано с конкретным хозяйственным укладом.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "Summer grazing, winter fodder",
+          "body": "<p>In Törbel, shared alpine pasture coexists with private plots. Summer grazing is limited by the number of cows an owner can feed through winter. An outsider&#x27;s purchase of land does not automatically confer communal rights. The rule fits a particular pattern of farming and membership.</p>"
+        }
+      }
+    },
+    {
+      "id": "japanese-households",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        4,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Права и обязанности домохозяйств",
+          "body": "<p>В японских деревнях, описанных в использованных Остром исследованиях Маргарет Маккин, права на общие земли закреплены за домохозяйствами. Существуют ограничения заготовки и обязанности по совместным работам; участие учитывается, уклонение без уважительной причины наказывается. При этом круг домохозяйств с правами различается между деревнями. Успешные институты здесь не означают одинакового устройства общины или неизменно равного участия всех жителей.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "Household rights and duties",
+          "body": "<p>In the Japanese villages studied by Margaret McKean and drawn on by Ostrom, rights to common land belong to households. Harvest restrictions and obligations to perform collective work are specified; contributions are recorded and unjustified shirking is sanctioned. Which households hold rights differs across villages. Institutional success therefore does not mean an identical community structure or equal participation by every resident.</p>"
+        }
+      }
+    },
+    {
+      "id": "endurance-and-change",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        4
+      ],
+      "copy": {
+        "ru": {
+          "section": "II · Люди меняют порядок",
+          "title": "Долговечность допускает перемены",
+          "body": "<p>И долговечность не означает неподвижности: правила меняют по мере накопления опыта. Сохраняться может способность договариваться о переменах, а не каждое первоначальное ограничение.</p>"
+        },
+        "en": {
+          "section": "II · Changing the arrangements",
+          "title": "Endurance allows change",
+          "body": "<p>Nor does endurance mean immobility: rules change with experience. What survives can be the capacity to agree on changes, rather than every original restriction.</p>"
+        }
+      }
+    },
+    {
+      "id": "principles-are-conditional",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        4,
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Принципы устойчивости",
+          "title": "Восемь принципов — не гарантия",
+          "body": "<p>Что объединяет столь разные устройства? Остром выделяет восемь принципов, помогающих объяснить устойчивость исследованных институтов. Это обобщение наблюдаемых условий, а не доказательство, что любой коллектив добьётся успеха, отметив восемь пунктов. Среди общих черт — определённый круг пользователей, участие в изменении правил, подотчётный контроль и доступное разрешение споров.</p>"
+        },
+        "en": {
+          "section": "III · Principles of endurance",
+          "title": "Eight principles, no guarantee",
+          "body": "<p>What connects these different arrangements? Ostrom identifies eight design principles that help explain the endurance of the institutions examined. These summarize observed conditions; they do not demonstrate that any group will succeed by checking eight boxes. Shared features include a defined group of users, participation in changing rules, accountable monitoring and accessible ways to resolve disputes.</p>"
+        }
+      }
+    },
+    {
+      "id": "boundaries-and-congruence",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Принципы устойчивости",
+          "title": "Границы и местные условия",
+          "body": "<p>Границы ресурса и круг имеющих право пользоваться им должны быть понятны. Ограничения времени, места, техники и объёма изъятия соотносятся с местными условиями и обязанностями вкладывать труд, материалы или деньги.</p>"
+        },
+        "en": {
+          "section": "III · Principles of endurance",
+          "title": "Boundaries and local conditions",
+          "body": "<p>Resource boundaries and those entitled to use it are clearly defined. Restrictions on withdrawal times, places, techniques and quantities fit local conditions and obligations to contribute labor, materials or money.</p>"
+        }
+      }
+    },
+    {
+      "id": "choice-and-monitoring",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Принципы устойчивости",
+          "title": "Участие в правилах и контроль",
+          "body": "<p>Большинство затронутых рабочими правилами может участвовать в их изменении. Наблюдатели за ресурсом и поведением пользователей сами являются пользователями либо подотчётны им.</p>"
+        },
+        "en": {
+          "section": "III · Principles of endurance",
+          "title": "Participation and monitoring",
+          "body": "<p>Most people affected by operational rules can participate in modifying them. Those monitoring the resource and user behavior are users themselves or accountable to them.</p>"
+        }
+      }
+    },
+    {
+      "id": "sanctions-and-conflicts",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Принципы устойчивости",
+          "title": "Разные санкции, доступное разбирательство",
+          "body": "<p>За нарушения предусмотрены санкции разной строгости с учётом серьёзности и обстоятельств проступка. Для споров доступны быстрые и недорогие местные способы разбирательства, в том числе между участниками и должностными лицами.</p>"
+        },
+        "en": {
+          "section": "III · Principles of endurance",
+          "title": "Graduated sanctions, accessible forums",
+          "body": "<p>Rule violations attract sanctions of varying severity, taking account of the seriousness and circumstances of the offense. Rapid, inexpensive local forums are available for disputes, including those between participants and officials.</p>"
+        }
+      }
+    },
+    {
+      "id": "recognition-and-layers",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Принципы устойчивости",
+          "title": "Право организоваться и связанные уровни",
+          "body": "<p>Внешняя власть не оспаривает право пользователей создавать свои институты. Когда ресурс включён в более крупную систему, управление, обслуживание, контроль и разрешение споров распределены по связанным уровням. Самоуправление не требует, чтобы одна небольшая группа самостоятельно решала каждую задачу.</p>"
+        },
+        "en": {
+          "section": "III · Principles of endurance",
+          "title": "Recognition and linked levels",
+          "body": "<p>External authorities do not challenge users&#x27; rights to devise their institutions. For resources within larger systems, provision, appropriation, monitoring, enforcement and conflict resolution operate through linked organizational levels. Self-governance does not require one small group to undertake every task unaided.</p>"
+        }
+      }
+    },
+    {
+      "id": "no-single-rulebook",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        10
+      ],
+      "copy": {
+        "ru": {
+          "section": "III · Принципы устойчивости",
+          "title": "Сходные функции, разные правила",
+          "body": "<p>Из этих принципов не следует единственная правильная очередь полива или схема распределения пастбищ: сходные функции выполняются разными правилами.</p>"
+        },
+        "en": {
+          "section": "III · Principles of endurance",
+          "title": "Similar functions, different rules",
+          "body": "<p>These principles do not imply one correct irrigation schedule or grazing allocation: different rules can perform similar functions.</p>"
+        }
+      }
+    },
+    {
+      "id": "origins-are-not-survival",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        5
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Откуда взялись первые правила",
+          "body": "<p>Есть и другой вопрос: как такой порядок возникает? У древних систем начало часто скрыто историей. Мы видим, что они выдержали испытания, но не знаем, кто предложил первые правила, кто сопротивлялся и кто оплатил переговоры. Поэтому Остром отдельно исследует институциональные изменения.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Where did the first rules come from?",
+          "body": "<p>A further question concerns how such an order begins. The origins of ancient systems are often lost. We see institutions that endured, but do not know who first proposed their rules, who resisted or who paid for negotiations. Ostrom therefore examines institutional change separately.</p>"
+        }
+      }
+    },
+    {
+      "id": "west-basin-threat",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        7,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Вода уходит, море приближается",
+          "body": "<p>В калифорнийском West Basin избыточная откачка подземной воды создавала угрозу проникновения морской воды. Пользователи создали ассоциацию, собирали сведения о бассейне и использовали судебные процедуры для согласования ограничений. Правила не возникли из одного призыва беречь воду.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Pumping invites the sea",
+          "body": "<p>In California&#x27;s West Basin, excessive groundwater pumping threatened saltwater intrusion. Users formed an association, gathered information and used court procedures to negotiate limits. The rules did not spring from a single appeal to conserve water.</p>"
+        }
+      }
+    },
+    {
+      "id": "west-basin-conditional-contract",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Ограничение принимают при общем согласии",
+          "body": "<p>В описанном Остром соглашении производитель принимал ограничение при условии, что на него согласится и достаточное большинство других; порог составлял 80 процентов. Такая конструкция уменьшала риск ограничить себя, пока остальные продолжат прежнюю откачку.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Limits conditional on agreement",
+          "body": "<p>In the contingent agreement Ostrom describes, a producer accepted limits provided a sufficient majority of others also agreed; the threshold was 80 percent. This reduced the risk of limiting oneself while others continued pumping as before.</p>"
+        }
+      }
+    },
+    {
+      "id": "west-basin-mixture",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        7,
+        8
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Соглашения, суд и публичные полномочия",
+          "body": "<p>Закреплённые права на откачку могли обращаться отдельно от земли; исполнение контролировал назначенный распорядитель. Специальные местные округа помогали обеспечивать дополнительное водоснабжение и пополнение бассейна. В результате совместились договоры пользователей, суд, публичные полномочия и рынок прав. Сам бассейн при этом не превратился в набор частных участков. Этот случай не укладывается в простой выбор между рынком и государством.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Agreements, courts and public powers",
+          "body": "<p>Defined pumping rights could be traded separately from land, and an appointed watermaster monitored compliance. Special local districts helped provide supplemental water and replenish the basin. The outcome combined user agreements, courts, public powers and a market in rights. The basin itself was not divided into private parcels. The case resists a simple choice between market and state.</p>"
+        }
+      }
+    },
+    {
+      "id": "sri-lanka-entry",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Очередь есть, граница не удержана",
+          "body": "<p>Однако ротация сама по себе ещё не спасает промысел. В шри-ланкийском случае, рассматриваемом Остром, она продолжала распределять риск между рыбаками, но участники не смогли обеспечить ограничение входа новых пользователей. При растущем числе участников доходы сокращались. Правило может успешно решать одну задачу и оставлять другую нерешённой.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Rotation without an effective entry limit",
+          "body": "<p>Rotation alone, however, does not save a fishery. In the Sri Lankan case Ostrom examines, rotation continued to distribute risk among fishers, but participants could not enforce a limit on the entry of new users. Earnings declined as participation grew. A rule can solve one problem while leaving another unresolved.</p>"
+        }
+      }
+    },
+    {
+      "id": "turkish-failures",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Рядом с Аланьей — другие результаты",
+          "body": "<p>Остром не скрывает и других неудач. В Бодруме и заливе Измир не сложились действенные системы правил: перегруженный промысел поглощал возможные доходы.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Different outcomes near Alanya",
+          "body": "<p>Ostrom also examines other failures. In Bodrum and the Bay of Izmir, effective rule systems did not emerge: overcrowded fisheries dissipated potential returns.</p>"
+        }
+      }
+    },
+    {
+      "id": "san-bernardino-scale",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        6
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Регион — не отдельный бассейн",
+          "body": "<p>В округе Сан-Бернардино чрезмерная откачка продолжалась после начала судебного разбирательства и создания специального округа. Институциональные средства, помогавшие соседним бассейнам, оказались менее действенными на уровне региона. Сходные названия учреждений не обеспечивают сходного соответствия ресурсу.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "A region is not one basin",
+          "body": "<p>In San Bernardino County, groundwater overdraft persisted after litigation began and a special district was created. Institutional devices that helped neighboring basins worked less effectively at a regional scale. Similar organizational names do not ensure a similar fit to the resource.</p>"
+        }
+      }
+    },
+    {
+      "id": "scope-of-the-book",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "У вывода есть границы",
+          "body": "<p>Границы вывода остаются существенными. Книга изучает сравнительно небольшие системы, каждая из которых находится в пределах одной страны. Их пользователи сильно зависят от потока дефицитного ресурса.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "The conclusion has a scope",
+          "body": "<p>The scope of the conclusion matters. The book studies relatively small systems within single countries, where users depend heavily on scarce resource flows.</p>"
+        }
+      }
+    },
+    {
+      "id": "scale-and-performance",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        7,
+        9
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Сохраниться — ещё не всё",
+          "body": "<p>В крупнейшем из рассматриваемых случаев — около пятнадцати тысяч пользователей. Это не доказательство, что любой масштаб допускает те же решения. Вопросы возникновения организации, её сохранения и её результатов также нельзя сливать: длительное существование само по себе не доказывает эффективность или справедливость.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Survival is not enough",
+          "body": "<p>The largest case involves about fifteen thousand users. This does not establish that the same arrangements work at every scale. Institutional emergence, endurance and performance must also remain distinct: mere longevity does not demonstrate efficiency or equity.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        2,
+        5,
+        6,
+        7
+      ],
+      "copy": {
+        "ru": {
+          "section": "IV · Создание и пределы",
+          "title": "Самоуправление возможно",
+          "body": "<p>Из случаев книги следует возможность устойчивого самоуправления, но не его неизбежность. Люди иногда создают правила, меняющие разрушительные стимулы; иногда им не удаётся организоваться или удержать соглашение. Поэтому ответ нельзя получить, заранее выбрав единственную форму собственности или управления. Нужно объяснить, как реальные правила работают в конкретных условиях — и где их возможности заканчиваются.</p>"
+        },
+        "en": {
+          "section": "IV · Origins and limits",
+          "title": "Self-governance is possible",
+          "body": "<p>The book establishes the possibility of sustained self-governance, rather than its inevitability. People sometimes devise rules that alter destructive incentives; sometimes they cannot organize or sustain agreement. An answer therefore cannot be obtained by selecting one ownership or governance form in advance. It requires explaining how actual rules operate in particular conditions—and where their capacities end.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

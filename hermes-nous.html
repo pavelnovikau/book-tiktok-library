@@ -1,0 +1,885 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#100f0f">
+<meta name="description" content="Nous Research и Hermes Agent: модели, обучение через интернет, деньги, продукт, слабые места и что из этого следует для нас — в трёх глубинах чтения.">
+<title>Hermes &amp; Nous — ТикТокКнига</title>
+<style>
+/* TikTokBook engine — design system + components (§6–7). */
+:root {
+  color-scheme: light;
+  --color-bg: #fffcf0;
+  --color-surface: #f2f0e5;
+  --color-surface-2: #e6e4d9;
+  --color-border: #dad8ce;
+  --color-border-strong: #b7b5ac;
+  --color-text: #100f0f;
+  --color-text-muted: #6f6e69;
+  --color-text-faint: #878580;
+  --color-primary: #5b2fc2;
+  --color-primary-soft: rgba(91, 47, 194, 0.1);
+  --color-on-primary: #fffcf0;
+  --color-outer: #e6e4d9;
+  --color-backdrop: rgba(16, 15, 15, 0.45);
+
+  --font-sans: "Geist", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+
+  --text-2xs: 0.6875rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 0.9375rem;
+  --text-lg: 1.0625rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.75rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+
+  --weight-heading: 650;
+  --duration: 180ms;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-bg: #100f0f;
+  --color-surface: #1c1b1a;
+  --color-surface-2: #282726;
+  --color-border: #343331;
+  --color-border-strong: #575653;
+  --color-text: #e6e4d9;
+  --color-text-muted: #9f9d96;
+  --color-text-faint: #878580;
+  --color-primary: #8e6be8;
+  --color-primary-soft: rgba(142, 107, 232, 0.14);
+  --color-on-primary: #100f0f;
+  --color-outer: #1c1b1a;
+  --color-backdrop: rgba(0, 0, 0, 0.6);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--color-outer);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--color-primary); outline-offset: 2px; }
+
+/* Shell */
+.app-shell {
+  position: relative;
+  width: min(440px, 100%);
+  height: min(880px, calc(100dvh - 2 * var(--space-4)));
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+}
+@media (max-width: 520px) {
+  body { padding: 0; }
+  .app-shell { width: 100%; height: 100vh; height: 100dvh; border: 0; border-radius: 0; }
+}
+
+/* Progress */
+.progress {
+  display: flex;
+  gap: 3px;
+  padding: calc(var(--space-3) + env(safe-area-inset-top, 0px)) var(--space-5) 0;
+}
+.progress-seg { flex: 1 1 0; height: 3px; border-radius: 2px; background: var(--color-border); }
+.progress-seg.is-done { background: var(--color-text); }
+.progress-seg.is-current { background: var(--color-primary); }
+
+/* Top bar */
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-2) var(--space-4) 0;
+}
+.topbar-spacer { flex: 1 1 auto; }
+.chip {
+  min-height: 44px;
+  padding: 0 var(--space-3);
+  border: 0;
+  background: transparent;
+  border-radius: var(--radius-md);
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip:hover { color: var(--color-text); background: var(--color-surface); }
+.home-link {
+  width: 40px;
+  min-width: 40px;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  text-decoration: none;
+}
+.home-link:hover { border-color: var(--color-border-strong); background: var(--color-surface-2); }
+.home-link svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+@media (max-width: 520px) {
+  .topbar {
+    gap: var(--space-1);
+    padding-left: max(var(--space-2), env(safe-area-inset-left, 0px));
+    padding-right: max(var(--space-2), env(safe-area-inset-right, 0px));
+  }
+  .chip { padding-inline: var(--space-2); }
+  .home-link { padding: 0; }
+}
+
+/* Story region */
+.story {
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+  padding: var(--space-4) var(--space-6) var(--space-6);
+}
+.slide { min-height: 100%; display: flex; flex-direction: column; }
+.slide.enter-next { animation: enter-next var(--duration) ease-out both; }
+.slide.enter-prev { animation: enter-prev var(--duration) ease-out both; }
+@keyframes enter-next { from { opacity: 0; transform: translateX(28px); } to { opacity: 1; transform: none; } }
+@keyframes enter-prev { from { opacity: 0; transform: translateX(-28px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) {
+  .slide.enter-next, .slide.enter-prev { animation: none; }
+}
+
+.kicker {
+  margin: 0 0 var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.slide-title {
+  margin: 0 0 var(--space-5);
+  font-size: var(--text-3xl);
+  font-weight: var(--weight-heading);
+  line-height: 1.12;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+.slide-body > * { margin: 0; }
+.slide-body > * + * { margin-top: var(--space-4); }
+.slide-body p { font-size: var(--text-base); line-height: 1.55; }
+.slide-body strong { font-weight: 620; }
+.slide-body em { font-style: italic; }
+.source-link {
+  align-self: flex-start;
+  margin-top: auto;
+  padding: var(--space-6) 0 0;
+  min-height: 44px;
+  border: 0;
+  background: none;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.04em;
+  color: var(--color-text-faint);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+.source-link:hover { color: var(--color-text); }
+
+/* Components (§6) */
+.lede { font-size: var(--text-lg) !important; line-height: 1.45 !important; }
+.muted { color: var(--color-text-muted); }
+
+.fact {
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+.fact-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.fact p { margin: var(--space-2) 0 0; font-size: var(--text-sm) !important; line-height: 1.5 !important; }
+
+.story-list { list-style: none; padding: 0; }
+.story-list li {
+  display: grid;
+  grid-template-columns: 2.25rem 1fr;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-top: 1px solid var(--color-border);
+}
+.story-list li:last-child { border-bottom: 1px solid var(--color-border); }
+.story-list .index {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-primary);
+  padding-top: 0.15em;
+}
+.story-list strong { display: block; font-weight: 620; font-size: var(--text-base); line-height: 1.35; }
+.story-list li span:not(.index) { display: block; margin-top: 2px; font-size: var(--text-sm); line-height: 1.45; color: var(--color-text-muted); }
+
+.compare { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-3); }
+.compare-item {
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+.compare-item h2 { margin: 0 0 var(--space-2); font-size: var(--text-base); font-weight: var(--weight-heading); line-height: 1.25; }
+.compare-item p { margin: 0; font-size: var(--text-sm) !important; line-height: 1.45 !important; color: var(--color-text-muted); }
+
+.hero-number {
+  font-family: var(--font-mono);
+  font-size: var(--text-6xl);
+  font-weight: 560;
+  letter-spacing: -0.06em;
+  line-height: 1;
+  color: var(--color-primary);
+}
+.hero-number + p { margin-top: var(--space-2) !important; }
+
+.image-frame { margin: 0; }
+.image-frame img {
+  display: block;
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  filter: grayscale(1) sepia(0.14) contrast(0.95);
+}
+.image-frame.is-portrait img { height: 290px; }
+.image-frame figcaption { margin-top: var(--space-2); font-family: var(--font-mono); font-size: var(--text-2xs); color: var(--color-text-faint); }
+
+.price-bars { display: grid; gap: var(--space-3); }
+.bar-row {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr 3.75rem;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+.bar-track { height: 10px; border-radius: 5px; background: var(--color-surface-2); overflow: hidden; }
+.bar-fill { height: 100%; border-radius: 5px; background: var(--color-primary); }
+.bar-value { text-align: right; color: var(--color-text); }
+
+/* Cover (typographic) */
+.cover { justify-content: flex-start; }
+.cover-title {
+  margin: var(--space-6) 0 0;
+  font-size: var(--text-6xl);
+  font-weight: var(--weight-heading);
+  line-height: 0.98;
+  letter-spacing: -0.045em;
+}
+.cover-amp { color: var(--color-primary); font-weight: 400; }
+.cover-rule { width: 56px; height: 3px; margin: var(--space-6) 0 var(--space-5); border: 0; background: var(--color-primary); }
+.cover-subtitle { margin: 0; font-size: var(--text-xl); line-height: 1.3; font-weight: 520; letter-spacing: -0.01em; }
+.cover-author { margin: var(--space-3) 0 0; font-family: var(--font-mono); font-size: var(--text-xs); color: var(--color-text-muted); }
+.cover-desc { margin: var(--space-3) 0 0; font-size: var(--text-sm); }
+.cover-actions { margin-top: auto; padding-top: var(--space-6); display: grid; gap: var(--space-3); }
+.mode-picker { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-2); }
+.mode-btn {
+  min-height: 64px;
+  padding: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+  text-align: left;
+  cursor: pointer;
+}
+.mode-btn[aria-pressed="true"] { border-color: var(--color-primary); background: var(--color-primary-soft); }
+.mode-label { font-size: var(--text-sm); font-weight: 620; line-height: 1.2; }
+.mode-time { font-family: var(--font-mono); font-size: var(--text-2xs); color: var(--color-text-muted); }
+.btn-primary, .btn-secondary {
+  min-height: 48px;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  line-height: 1.25;
+  cursor: pointer;
+}
+.btn-primary { border: 0; background: var(--color-primary); color: var(--color-on-primary); }
+.btn-secondary { border: 1px solid var(--color-border-strong); background: transparent; color: var(--color-text); }
+
+/* Bottom nav */
+.nav {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-4) calc(var(--space-3) + env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--color-border);
+}
+.nav[hidden] { display: none; }
+.nav-btn {
+  min-height: 44px;
+  padding: 0 var(--space-4);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: transparent;
+  font-weight: 600;
+  font-size: var(--text-sm);
+  cursor: pointer;
+}
+.nav-btn.is-next { justify-self: end; border-color: var(--color-primary); background: var(--color-primary); color: var(--color-on-primary); }
+.nav-btn.is-back { justify-self: start; }
+.nav-btn:disabled { opacity: 0.4; cursor: default; }
+.counter { font-family: var(--font-mono); font-size: var(--text-xs); color: var(--color-text-muted); }
+
+/* Dialogs */
+.sheet {
+  width: min(400px, calc(100vw - 2 * var(--space-4)));
+  max-height: min(760px, calc(100dvh - 2 * var(--space-6)));
+  padding: 0;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+.sheet::backdrop { background: var(--color-backdrop); }
+.sheet-inner { display: flex; flex-direction: column; max-height: inherit; }
+.sheet-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-3) var(--space-3) var(--space-3) var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+}
+.sheet-head h2 { margin: 0; font-size: var(--text-lg); font-weight: var(--weight-heading); }
+.sheet-body { overflow-y: auto; padding: var(--space-4) var(--space-5) var(--space-6); }
+.sheet-body h3 { margin: var(--space-6) 0 var(--space-2); font-family: var(--font-mono); font-size: var(--text-2xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-primary); font-weight: 500; }
+.legal { margin: 0; padding: var(--space-3) var(--space-4); background: var(--color-surface); border-radius: var(--radius-md); font-size: var(--text-xs); line-height: 1.5; color: var(--color-text-muted); }
+.toc, .src-list { list-style: none; margin: 0; padding: 0; }
+.toc button {
+  width: 100%;
+  min-height: 44px;
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: var(--space-3);
+  align-items: baseline;
+  padding: var(--space-2) 0;
+  border: 0;
+  border-bottom: 1px solid var(--color-border);
+  background: none;
+  text-align: left;
+  font-size: var(--text-sm);
+  line-height: 1.35;
+  cursor: pointer;
+}
+.toc button[aria-current="true"] { color: var(--color-primary); font-weight: 600; }
+.toc-index { font-family: var(--font-mono); font-size: var(--text-2xs); color: var(--color-text-faint); }
+.toc-section { display: block; margin-top: var(--space-4); font-family: var(--font-mono); font-size: var(--text-2xs); letter-spacing: 0.08em; text-transform: uppercase; color: var(--color-primary); }
+.src-list li {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+  gap: var(--space-3);
+  padding: var(--space-3) 0;
+  border-bottom: 1px solid var(--color-border);
+  font-size: var(--text-sm);
+  line-height: 1.4;
+}
+.src-list li.is-cited .toc-index { color: var(--color-primary); font-weight: 600; }
+.src-list a { color: var(--color-text); font-weight: 600; text-decoration: underline; text-decoration-color: var(--color-border-strong); text-underline-offset: 3px; word-break: break-word; }
+.src-list a:hover { text-decoration-color: var(--color-primary); }
+.src-note { display: block; margin-top: 2px; font-size: var(--text-xs); color: var(--color-text-muted); }
+.credits { margin: 0; font-size: var(--text-xs); color: var(--color-text-muted); }
+
+/* Responsive tweaks */
+@media (max-width: 360px) {
+  .story { padding-left: var(--space-5); padding-right: var(--space-5); }
+  .slide-title { font-size: var(--text-2xl); }
+  .cover-title { font-size: var(--text-5xl); }
+  .hero-number { font-size: var(--text-5xl); }
+  .compare { grid-template-columns: 1fr; }
+  .chip { padding: 0 var(--space-2); }
+}
+@media (max-height: 700px) {
+  .slide-title { font-size: var(--text-2xl); margin-bottom: var(--space-4); }
+  .slide-body > * + * { margin-top: var(--space-3); }
+  .cover-title { font-size: var(--text-5xl); margin-top: var(--space-3); }
+  .cover-rule { margin: var(--space-4) 0 var(--space-3); }
+  .hero-number { font-size: var(--text-5xl); }
+  .image-frame img { height: 170px; }
+  .image-frame.is-portrait img { height: 220px; }
+}
+@media (max-height: 620px) {
+  .slide-title { font-size: var(--text-xl); }
+  .lede { font-size: var(--text-base) !important; }
+  .cover-title { font-size: var(--text-4xl); }
+  .hero-number { font-size: var(--text-4xl); }
+  .image-frame img { height: 130px; }
+  .image-frame.is-portrait img { height: 170px; }
+}
+</style>
+</head>
+<body>
+<main class="app-shell" id="shell" aria-label="Hermes &amp; Nous">
+  <div class="progress" id="progress" role="progressbar" aria-valuemin="1"></div>
+  <header class="topbar">
+    <a class="chip home-link" id="btn-library" href="./" aria-label="Вернуться в библиотеку" title="К библиотеке"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.75 10.5 12 3.75l8.25 6.75v9.75h-5.5V14h-5.5v6.25h-5.5z"></path></svg></a>
+    <button type="button" class="chip" id="btn-contents" data-action="contents"></button>
+    <button type="button" class="chip" id="btn-sources" data-action="sources"></button>
+    <span class="topbar-spacer"></span>
+    <button type="button" class="chip" id="btn-lang" data-action="language"></button>
+    <button type="button" class="chip" id="btn-theme" data-action="theme"></button>
+  </header>
+  <section class="story" id="story" aria-live="polite"></section>
+  <nav class="nav" id="nav">
+    <button type="button" class="nav-btn is-back" id="btn-back" data-action="back"></button>
+    <span class="counter" id="counter"></span>
+    <button type="button" class="nav-btn is-next" id="btn-next" data-action="next"></button>
+  </nav>
+</main>
+<dialog class="sheet" id="dlg-contents" aria-labelledby="dlg-contents-title">
+  <div class="sheet-inner">
+    <div class="sheet-head"><h2 id="dlg-contents-title"></h2><button type="button" class="chip" data-action="close"></button></div>
+    <div class="sheet-body"><ol class="toc" id="toc"></ol></div>
+  </div>
+</dialog>
+<dialog class="sheet" id="dlg-sources" aria-labelledby="dlg-sources-title">
+  <div class="sheet-inner">
+    <div class="sheet-head"><h2 id="dlg-sources-title"></h2><button type="button" class="chip" data-action="close"></button></div>
+    <div class="sheet-body" id="sources-body"></div>
+  </div>
+</dialog>
+<script type="application/json" id="book-data">{"slug":"hermes-nous","defaultLanguage":"ru","languages":["ru","en"],"defaultTheme":"dark","defaultMode":"deep","storageKey":"bookHermesNous","meta":{"ru":{"title":"Hermes & Nous","subtitle":"Как лаборатория из Discord раздаёт модели и агента бесплатно — и стоит $1,5 млрд","author":"Разбор Мефистофеля · Observatory · октябрь 2026","tagline":"ТикТокКнига","description":"Nous Research и Hermes Agent: модели, обучение через интернет, деньги, продукт, слабые места и что из этого следует для нас — в трёх глубинах чтения.","coverAlt":"Типографская обложка: Hermes & Nous"},"en":{"title":"Hermes & Nous","subtitle":"How a lab born on Discord gives away its models and agent for free — and is worth $1.5B","author":"Mefistofel’s brief · Observatory · October 2026","tagline":"TikTokBook","description":"Nous Research and Hermes Agent: models, training over the internet, money, product, weak spots and what it means for us — in three reading depths.","coverAlt":"Typographic cover: Hermes & Nous"}},"modes":{"short":{"ru":{"label":"Главное","time":"9 минут"},"en":{"label":"Essential","time":"9 min"}},"core":{"ru":{"label":"Основное","time":"18 минут"},"en":{"label":"Core","time":"18 min"}},"deep":{"ru":{"label":"Глубоко","time":"25 минут"},"en":{"label":"Deep read","time":"25 min"}}},"legal":{"ru":"Это самостоятельный аналитический разбор, а не перепечатка чужих материалов. Факты взяты из открытых источников — сайтов и документации Nous Research, GitHub, деловой прессы и баз данных о сделках — и пересказаны своими словами. Цифры компании (выручка, загрузки, оценка) приводятся со слов компании или прессы и независимо не проверены; суммы раундов в разных базах расходятся. Пометка «наша оценка» означает вывод автора разбора, а не факт. Nous Research, Hermes и другие названия — товарные знаки их владельцев; разбор не связан с Nous Research и не одобрен ею. Изображений нет: обложка типографская.","en":"This is an independent analytical brief, not a reproduction of anyone’s materials. Facts come from public sources — Nous Research websites and docs, GitHub, business press and deal databases — and are paraphrased. Company figures (revenue, downloads, valuation) are as reported by the company or the press and have not been independently verified; round sizes differ between databases. “Our estimate” marks the author’s conclusion, not a fact. Nous Research, Hermes and other names are trademarks of their owners; this brief is not affiliated with or endorsed by Nous Research. No images are used: the cover is typographic."},"sources":[{"title":"Nous Research — Releases","url":"https://nousresearch.com/releases","note":{"ru":"Официальная лента релизов: модели Hermes, DisTrO, Psyche, Atropos, Hermes Agent; 43 релиза с 2023 года.","en":"Official release feed: Hermes models, DisTrO, Psyche, Atropos, Hermes Agent; 43 releases since 2023."}},{"title":"Hermes Agent — сайт и документация","url":"https://hermes-agent.nousresearch.com/docs","note":{"ru":"Возможности агента: gateway, память, skills, cron, субагенты, Bot Mode, провайдеры моделей, безопасность.","en":"Agent features: gateway, memory, skills, cron, subagents, Bot Mode, model providers, security."}},{"title":"GitHub — NousResearch/hermes-agent","url":"https://github.com/NousResearch/hermes-agent","note":{"ru":"MIT-лицензия, звёзды, форки, открытые issue и PR, стек Python + TypeScript.","en":"MIT licence, stars, forks, open issues and PRs, Python + TypeScript stack."}},{"title":"Nous Portal","url":"https://portal.nousresearch.com","note":{"ru":"Тарифы Free / Plus / Super / Ultra, кредиты на модели, Hermes for Businesses.","en":"Free / Plus / Super / Ultra plans, model credits, Hermes for Businesses."}},{"title":"The Block — Paradigm leads $50M round in Nous Research (2025)","url":"https://www.theblock.co/amp/post/352000/paradigm-leads-50-million-usd-round-decentralized-ai-project-nous-research","note":{"ru":"Series A: $50M, лидер Paradigm, оценка около $1 млрд.","en":"Series A: $50M led by Paradigm, valuation around $1B."}},{"title":"Fortune — Paradigm and Nous Research (апрель 2025)","url":"https://www.fortune.com/crypto/2025/04/25/paradigm-nous-research-crypto-ai-venture-capital-deepseek-openai-blockchain","note":{"ru":"Контекст Series A: крипто-VC, ставка на децентрализованное обучение, оценка токена.","en":"Series A context: crypto VC, the bet on decentralised training, token valuation."}},{"title":"TechCrunch — Nous Research in talks at $1.5B valuation (13.07.2026)","url":"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/","note":{"ru":"Июльские переговоры о раунде на $75M при оценке $1,5 млрд.","en":"July talks about a $75M round at a $1.5B valuation."}},{"title":"CryptoRank (по данным WSJ) — Nous Research Series B","url":"https://cryptorank.io/insights/deals/nous-research-series-b-2026-10-07","note":{"ru":"Series B 07.10.2026, состав инвесторов; ARR ~$36M и ~22,7 млн загрузок — со слов компании в WSJ.","en":"Series B on 7 Oct 2026, investor list; ~$36M ARR and ~22.7M downloads as the company told the WSJ."}},{"title":"Dealroom — Nous Research raises $90M at $1.5B","url":"https://dealroom.co/news/160592-nous-research-raises-90m-at-1-5b-valuation-for-open-source-ai/","note":{"ru":"Сумма и оценка Series B, общий объём привлечённых денег (~$158M).","en":"Series B size and valuation, total raised (~$158M)."}},{"title":"Sidley — Nous Research US$90M Series B","url":"https://www.sidley.com/en/newslanding/newsannouncements/2026/10/sidley-represents-nous-research-in-us-90-million-series-b-financing","note":{"ru":"Юристы сделки подтверждают $90M при оценке $1,5 млрд и лидера Robot Ventures.","en":"Deal counsel confirms $90M at a $1.5B valuation, led by Robot Ventures."}},{"title":"CB Insights — Nous Research financials","url":"https://www.cbinsights.com/company/nous-research/financials","note":{"ru":"Альтернативная сумма Series A ($65M) — пример расхождения баз.","en":"An alternative Series A figure ($65M) — an example of databases disagreeing."}},{"title":"AI Wiki — Hermes 4","url":"https://aiwiki.ai/wiki/Hermes_4","note":{"ru":"Hermes 4 (08.2025): базы Llama 3.1 70B/405B и Qwen3-14B, гибридное рассуждение; Hermes 4.3.","en":"Hermes 4 (Aug 2025): Llama 3.1 70B/405B and Qwen3-14B bases, hybrid reasoning; Hermes 4.3."}},{"title":"heyuan110 — Hermes Agent Review 2026","url":"https://www.heyuan110.com/posts/ai/2026-04-14-hermes-agent-guide","note":{"ru":"Практический обзор: установка на дешёвом VPS, выбор моделей, «харнесс из коробки».","en":"Hands-on review: install on a cheap VPS, model choice, the “harness in the box”."}},{"title":"Rubinlake — Technology Radar: Hermes Agent","url":"https://rubinlake.com/es/technology-radar/ai-and-data-engineering/hermes-agent","note":{"ru":"Независимая оценка зрелости: рекомендуют пока только эксперименты.","en":"Independent maturity rating: recommends experiments only for now."}},{"title":"RuntimeWire — Hermes Agent in TIME Best Inventions 2026","url":"https://runtimewire.com/article/nous-research-hermes-agent-time-best-inventions-2026","note":{"ru":"Попадание Hermes Agent в список TIME Best Inventions 2026.","en":"Hermes Agent on the TIME Best Inventions 2026 list."}},{"title":"Мефистофель — внутренний разбор Hermes Agent и справка о Nous Research (Observatory, 31.10.2026)","url":"https://docs.google.com/document/d/1FrqXuWqLd0HgYsOxDdOvS7Kzaaswo3Jy0ZS7nQ42hUE","note":{"ru":"Внутренние документы (доступ только команде): сравнение с нашим стеком, варианты A–D, рекомендация, непроверенное.","en":"Internal docs (team access only): comparison with our stack, options A–D, recommendation, open questions."}}],"ui":{},"images":{},"slides":[{"id":"cover","level":1,"sources":[1,2,8,16],"cover":true},{"id":"thesis","level":1,"sources":[3,8,10],"ru":{"section":"Пролог","title":"Они раздают модели и агента бесплатно — и стоят $1,5 млрд","html":"<p class=\"lede\">Nous Research выкладывает модели Hermes и Hermes Agent в открытый доступ. Код агента — под лицензией MIT: бери, меняй, продавай.<\/p><div class=\"hero-number\">$1,5&nbsp;млрд<\/div><p class=\"muted\">Оценка в Series B на $90M (октябрь 2026) — по данным WSJ и юристов сделки из Sidley. Сама компания цифру публично не называла.<\/p>"},"en":{"section":"Prologue","title":"They give away their models and agent for free — and are worth $1.5B","html":"<p class=\"lede\">Nous Research publishes the Hermes models and Hermes Agent in the open. The agent’s code is MIT-licensed: take it, change it, sell it.<\/p><div class=\"hero-number\">$1.5B<\/div><p class=\"muted\">The valuation in a $90M Series B (October 2026), as reported by the WSJ and deal counsel Sidley. The company itself has not named the figure publicly.<\/p>"}},{"id":"paradox","level":1,"sources":[3,4,8],"ru":{"section":"Пролог","title":"Парадокс: продукт бесплатный, а выручка растёт","html":"<p class=\"lede\">Hermes Agent можно скачать и запустить на своём сервере, не заплатив Nous ни цента. И всё же, по данным WSJ, к сентябрю 2026 года у компании около $36M годовой выручки.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Бесплатно<\/h2><p>Код агента, веса моделей, навыки, сообщество.<\/p><\/div><div class=\"compare-item\"><h2>Платно<\/h2><p>Хостинг, кредиты на 200+ моделей в Nous Portal, тарифы для бизнеса.<\/p><\/div><\/div><p class=\"muted\">Наша оценка: бесплатное — это воронка. Платят за удобство, вычисления и управление.<\/p>"},"en":{"section":"Prologue","title":"The paradox: the product is free, yet revenue keeps growing","html":"<p class=\"lede\">You can download Hermes Agent and run it on your own server without paying Nous a cent. Still, according to the WSJ, the company was at roughly $36M in annual revenue by September 2026.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Free<\/h2><p>Agent code, model weights, skills, community.<\/p><\/div><div class=\"compare-item\"><h2>Paid<\/h2><p>Hosting, credits for 200+ models in Nous Portal, business plans.<\/p><\/div><\/div><p class=\"muted\">Our estimate: the free part is a funnel. People pay for convenience, compute and control.<\/p>"}},{"id":"method","level":2,"sources":[16,9,11],"ru":{"section":"Пролог","title":"Этот разбор отделяет факты от слов компании и от наших выводов","html":"<p class=\"lede\">ТикТокКнига собрана из двух внутренних документов Observatory и открытых источников, которые мы сверили между собой.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Факты<\/strong><span>Релизы, документация, GitHub, сделки в нескольких базах.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Слова компании<\/strong><span>Выручка, загрузки, оценка — с пометкой «по данным…».<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Расхождения<\/strong><span>Где базы спорят, показываем обе цифры.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Наша оценка<\/strong><span>Выводы и рекомендации — отдельно и с пометкой.<\/span><\/div><\/li><\/ul>"},"en":{"section":"Prologue","title":"This brief keeps facts, company claims and our conclusions apart","html":"<p class=\"lede\">This TikTokBook is built from two internal Observatory documents and public sources checked against each other.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Facts<\/strong><span>Releases, docs, GitHub, deals across several databases.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Company claims<\/strong><span>Revenue, downloads, valuation — marked “according to…”.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Discrepancies<\/strong><span>Where databases disagree, we show both figures.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Our estimate<\/strong><span>Conclusions and recommendations — separate and labelled.<\/span><\/div><\/li><\/ul>"}},{"id":"origin","level":1,"sources":[16,1,6],"ru":{"section":"I · Лаборатория из Discord","title":"Nous начиналась как кружок волонтёров в Discord и X","html":"<p class=\"lede\">В 2022–2023 годах исследователи, познакомившиеся онлайн, делали открытые дообучения чужих моделей — просто потому что было интересно.<\/p><p>Первой известной вещью стала серия Hermes — дообученные модели на базе Llama от Meta. Имя сделали не статьи, а веса, которые любой мог скачать и запустить.<\/p><div class=\"fact\"><span class=\"fact-label\">Ключ<\/span><p>Сообщество появилось раньше компании — и до сих пор остаётся её главным активом.<\/p><\/div>"},"en":{"section":"I · A lab born on Discord","title":"Nous started as a circle of volunteers on Discord and X","html":"<p class=\"lede\">In 2022–2023, researchers who had met online were publishing open fine-tunes of other people’s models — simply because it was fun.<\/p><p>The first thing they became known for was the Hermes series: fine-tuned models built on Meta’s Llama. Their name came not from papers but from weights anyone could download and run.<\/p><div class=\"fact\"><span class=\"fact-label\">Key<\/span><p>The community existed before the company — and is still its main asset.<\/p><\/div>"}},{"id":"founders","level":2,"sources":[16,5,6],"ru":{"section":"I · Лаборатория из Discord","title":"Компанию основали четыре человека, у каждого своя зона","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Jeffrey Quesnelle<\/strong><span>Сооснователь, CEO.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Karan Malhotra<\/strong><span>Сооснователь, head of behavior — как модель себя ведёт.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Teknium<\/strong><span>Сооснователь, head of post-training — то есть сами Hermes.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Shivani Mitra<\/strong><span>Сооснователь.<\/span><\/div><\/li><\/ul><p class=\"muted\">Состав — по открытым профилям и прессе; роли со временем могли меняться.<\/p>"},"en":{"section":"I · A lab born on Discord","title":"Four people founded the company, each with their own area","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Jeffrey Quesnelle<\/strong><span>Co-founder, CEO.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Karan Malhotra<\/strong><span>Co-founder, head of behavior — how the model acts.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Teknium<\/strong><span>Co-founder, head of post-training — the Hermes models themselves.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Shivani Mitra<\/strong><span>Co-founder.<\/span><\/div><\/li><\/ul><p class=\"muted\">Line-up from public profiles and press; roles may have changed over time.<\/p>"}},{"id":"pivot-2024","level":2,"sources":[16,6,5],"ru":{"section":"I · Лаборатория из Discord","title":"В 2024 году хобби превратилось в ставку на децентрализованный AI","html":"<p class=\"lede\">Пришли первые seed-раунды, и Nous выбрала курс: учить модели не в одном дата-центре, а на GPU, разбросанных по интернету.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>До 2024<\/h2><p>Волонтёры, дообучение чужих моделей, Discord.<\/p><\/div><div class=\"compare-item\"><h2>После<\/h2><p>Компания, свои исследования обучения, крипто-инвесторы.<\/p><\/div><\/div><p class=\"muted\">Точные суммы seed в базах расходятся, поэтому мы их не приводим.<\/p>"},"en":{"section":"I · A lab born on Discord","title":"In 2024 the hobby became a bet on decentralised AI","html":"<p class=\"lede\">The first seed rounds arrived, and Nous chose a direction: train models not in one data centre but on GPUs scattered across the internet.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Before 2024<\/h2><p>Volunteers, fine-tuning other people’s models, Discord.<\/p><\/div><div class=\"compare-item\"><h2>After<\/h2><p>A company, its own training research, crypto investors.<\/p><\/div><\/div><p class=\"muted\">Seed amounts differ between databases, so we don’t quote them.<\/p>"}},{"id":"releases-43","level":3,"sources":[1],"ru":{"section":"I · Лаборатория из Discord","title":"За три года — 43 релиза: модели, инструменты, инфраструктура","html":"<div class=\"hero-number\">43<\/div><p class=\"muted\">Столько релизов с 2023 года насчитывает официальная лента Nous Research.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Модели<\/strong><span>Hermes 2–4 до 405B, NousCoder, Nomos.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Обучение<\/strong><span>RL-фреймворк Atropos, DisTrO, Psyche.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Продукт<\/strong><span>Hermes Agent, 2026 год.<\/span><\/div><\/li><\/ul>"},"en":{"section":"I · A lab born on Discord","title":"Three years, 43 releases: models, tools, infrastructure","html":"<div class=\"hero-number\">43<\/div><p class=\"muted\">That is how many releases since 2023 the official Nous Research feed lists.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Models<\/strong><span>Hermes 2–4 up to 405B, NousCoder, Nomos.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Training<\/strong><span>The Atropos RL framework, DisTrO, Psyche.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Product<\/strong><span>Hermes Agent, 2026.<\/span><\/div><\/li><\/ul>"}},{"id":"hermes-line","level":1,"sources":[1,12],"ru":{"section":"II · Модели Hermes","title":"Hermes — это дообученные открытые базы, а не модели с нуля","html":"<p class=\"lede\">Почти вся линейка — post-training поверх открытых базовых моделей: Nous берёт веса Llama или Qwen и учит их слушаться, рассуждать и вызывать инструменты.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Hermes 2–3<\/strong><span>Дообучения Llama, сделавшие имя в open source.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Hermes 4 · 08.2025<\/strong><span>Базы Llama 3.1 70B и 405B и Qwen3-14B; отвечает сразу или рассуждает пошагово.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Hermes 4.3 · 12.2025<\/strong><span>Первая модель, целиком обученная в сети Psyche.<\/span><\/div><\/li><\/ul>"},"en":{"section":"II · The Hermes models","title":"Hermes models are fine-tuned open bases, not trained from scratch","html":"<p class=\"lede\">Nearly the whole line is post-training on top of open base models: Nous takes Llama or Qwen weights and teaches them to follow instructions, reason and call tools.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Hermes 2–3<\/strong><span>Llama fine-tunes that made the name in open source.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Hermes 4 · Aug 2025<\/strong><span>Llama 3.1 70B and 405B and Qwen3-14B bases; answers directly or reasons step by step.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Hermes 4.3 · Dec 2025<\/strong><span>The first model trained entirely on the Psyche network.<\/span><\/div><\/li><\/ul>"}},{"id":"hermes-43","level":2,"sources":[1,12],"ru":{"section":"II · Модели Hermes","title":"Hermes 4.3 — модель на 36B, которая, по словам Nous, держится на уровне 70B","html":"<p class=\"lede\">Декабрь 2025: модель на базе Seed-OSS-36B, впервые обученная целиком в сети Psyche, а не в арендованном кластере.<\/p><div class=\"hero-number\">36B≈70B<\/div><p class=\"muted\">Сравнение с 70B — заявление Nous по их собственным замерам. Важнее другое: распределённое обучение дало рабочую модель, а не только демо.<\/p>"},"en":{"section":"II · The Hermes models","title":"Hermes 4.3 is a 36B model that, Nous says, holds up against 70B","html":"<p class=\"lede\">December 2025: a model on the Seed-OSS-36B base, the first trained entirely on the Psyche network rather than a rented cluster.<\/p><div class=\"hero-number\">36B≈70B<\/div><p class=\"muted\">The 70B comparison is Nous’s claim, based on its own evaluations. The bigger point: distributed training produced a working model, not just a demo.<\/p>"}},{"id":"tools","level":3,"sources":[1],"ru":{"section":"II · Модели Hermes","title":"Вокруг моделей Nous строит инструменты, которыми модели делаются","html":"<p class=\"lede\">Кроме весов, лаборатория выпускает то, чем эти веса учат.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Atropos<\/strong><span>Фреймворк для обучения с подкреплением: среды, где модель учится на попытках.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>NousCoder и Nomos<\/strong><span>Специализированные модели под отдельные задачи.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>DisTrO и Psyche<\/strong><span>Обучение через интернет — об этом глава III.<\/span><\/div><\/li><\/ul><p class=\"muted\">Наша оценка: именно этот стек отличает Nous от «просто команды файнтюнеров».<\/p>"},"en":{"section":"II · The Hermes models","title":"Around the models, Nous builds the tools that make models","html":"<p class=\"lede\">Besides weights, the lab ships the things those weights are trained with.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Atropos<\/strong><span>A reinforcement-learning framework: environments where a model learns by trying.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>NousCoder and Nomos<\/strong><span>Specialised models for specific tasks.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>DisTrO and Psyche<\/strong><span>Training over the internet — see chapter III.<\/span><\/div><\/li><\/ul><p class=\"muted\">Our estimate: this stack is what separates Nous from “just a fine-tuning crew”.<\/p>"}},{"id":"models-brand","level":2,"sources":[1,3,16],"ru":{"section":"II · Модели Hermes","title":"Модели сделали Nous брендом — и агент въехал на этой репутации","html":"<p class=\"lede\">Hermes годами были «теми самыми открытыми моделями», которые охотно слушаются и редко отказывают, — вокруг них выросло сообщество.<\/p><p>Когда в 2026 году вышел Hermes Agent, у него с первого дня были аудитория, доверие и тысячи людей, готовых писать навыки и чинить баги.<\/p><p class=\"muted\">Наша оценка: бренд — главный ров Nous. Код под MIT можно скопировать, сообщество — нет.<\/p>"},"en":{"section":"II · The Hermes models","title":"The models turned Nous into a brand — and the agent rode that reputation","html":"<p class=\"lede\">For years Hermes were “those open models” that follow instructions and rarely refuse — and a community grew around them.<\/p><p>When Hermes Agent launched in 2026, it had an audience, trust and thousands of people ready to write skills and fix bugs from day one.<\/p><p class=\"muted\">Our estimate: the brand is Nous’s real moat. MIT code can be copied; a community cannot.<\/p>"}},{"id":"distro","level":1,"sources":[1],"ru":{"section":"III · Обучение через интернет","title":"DisTrO: обучать модель без собственного дата-центра","html":"<p class=\"lede\">Август 2024: Nous опубликовала отчёт о DisTrO — методе, при котором GPU в разных местах почти не обмениваются данными во время обучения.<\/p><div class=\"hero-number\">10&nbsp;000×<\/div><p class=\"muted\">Во столько раз, по заявлению Nous, снижается обмен между GPU. Именно это позволяет учить модели через обычный интернет, а не по сверхбыстрой сети внутри кластера.<\/p>"},"en":{"section":"III · Training over the internet","title":"DisTrO: training a model without a data centre of your own","html":"<p class=\"lede\">August 2024: Nous published a report on DisTrO, a method that lets GPUs in different places exchange almost no data during training.<\/p><div class=\"hero-number\">10,000×<\/div><p class=\"muted\">That is how much, Nous claims, inter-GPU traffic shrinks. It is what makes training over the ordinary internet possible, instead of an ultra-fast network inside a cluster.<\/p>"}},{"id":"pretrain-15b","level":3,"sources":[1],"ru":{"section":"III · Обучение через интернет","title":"В декабре 2024 года через интернет предобучили модель на 15B","html":"<p class=\"lede\">Не дообучение, а предобучение с нуля — самая дорогая часть работы — на машинах, разнесённых по сети.<\/p><p>Для открытой лаборатории это доказательство идеи: модели можно учить без собственного суперкомпьютера.<\/p><p class=\"muted\">15B — скромно по меркам frontier-моделей, но достаточно, чтобы показать, что метод работает не только на бумаге.<\/p>"},"en":{"section":"III · Training over the internet","title":"In December 2024 a 15B model was pre-trained over the internet","html":"<p class=\"lede\">Not fine-tuning but pre-training from scratch — the most expensive part of the job — on machines spread across the network.<\/p><p>For an open lab this was a proof of concept: models can be trained without owning a supercomputer.<\/p><p class=\"muted\">15B is modest by frontier standards, but enough to show the method works beyond the paper.<\/p>"}},{"id":"psyche","level":1,"sources":[1,6],"ru":{"section":"III · Обучение через интернет","title":"Psyche — сеть для обучения, которую координирует Solana","html":"<p class=\"lede\">Май 2025: Nous запустила Psyche — инфраструктуру, где чужие GPU обучают общую модель, а блокчейн Solana ведёт учёт, кто что сделал.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Участники<\/strong><span>Дают свои GPU в общую сеть.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>DisTrO<\/strong><span>Сжимает обмен между ними до минимума.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Solana<\/strong><span>Координирует работу и учитывает вклад.<\/span><\/div><\/li><\/ul><p class=\"muted\">Hermes 4.3 (декабрь 2025) — первая модель, целиком обученная в Psyche.<\/p>"},"en":{"section":"III · Training over the internet","title":"Psyche is a training network coordinated on Solana","html":"<p class=\"lede\">May 2025: Nous launched Psyche, infrastructure where other people’s GPUs train a shared model while the Solana blockchain records who did what.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Participants<\/strong><span>Contribute their GPUs to the network.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>DisTrO<\/strong><span>Keeps the traffic between them minimal.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Solana<\/strong><span>Coordinates the work and tracks contributions.<\/span><\/div><\/li><\/ul><p class=\"muted\">Hermes 4.3 (December 2025) is the first model trained entirely on Psyche.<\/p>"}},{"id":"why-crypto","level":2,"sources":[5,6,16],"ru":{"section":"III · Обучение через интернет","title":"Крипта здесь — способ платить незнакомцам за их GPU","html":"<p class=\"lede\">Распределённому обучению нужно доверие между людьми, которые друг друга не знают. Блокчейн даёт общий журнал и способ вознаграждать вклад.<\/p><p>Поэтому первыми крупными деньгами Nous стали крипто-фонды: сначала Paradigm, затем Robot Ventures.<\/p><p class=\"muted\">Наша оценка: Hermes Agent крипта не нужна вовсе — продукт и «крипто-ставка» живут параллельно.<\/p>"},"en":{"section":"III · Training over the internet","title":"Crypto here is a way to pay strangers for their GPUs","html":"<p class=\"lede\">Distributed training needs trust between people who don’t know each other. A blockchain provides a shared ledger and a way to reward contributions.<\/p><p>That is why Nous’s first big money came from crypto funds: Paradigm first, then Robot Ventures.<\/p><p class=\"muted\">Our estimate: Hermes Agent doesn’t need crypto at all — the product and the “crypto bet” run in parallel.<\/p>"}},{"id":"series-a","level":2,"sources":[5,6,11],"ru":{"section":"IV · Деньги","title":"Series A: $50M от Paradigm при оценке около $1 млрд","html":"<p class=\"lede\">Апрель 2025. Раунд возглавил крипто-фонд Paradigm, его сооснователь Matt Huang вошёл в совет директоров Nous.<\/p><div class=\"hero-number\">$50M<\/div><div class=\"fact\"><span class=\"fact-label\">Оговорка<\/span><p>Оценку около $1 млрд пресса связывала с ещё не запущенным токеном. CB Insights указывает сумму $65M вместо $50M.<\/p><\/div>"},"en":{"section":"IV · Money","title":"Series A: $50M from Paradigm at a valuation of about $1B","html":"<p class=\"lede\">April 2025. The round was led by crypto fund Paradigm; its co-founder Matt Huang joined the Nous board.<\/p><div class=\"hero-number\">$50M<\/div><div class=\"fact\"><span class=\"fact-label\">Caveat<\/span><p>The press tied the roughly $1B valuation to a token that had not launched yet. CB Insights lists $65M instead of $50M.<\/p><\/div>"}},{"id":"series-b","level":1,"sources":[8,9,10],"ru":{"section":"IV · Деньги","title":"Series B: $90M при оценке $1,5 млрд","html":"<p class=\"lede\">7 октября 2026 года. Лидер — Robot Ventures; участвовали NVIDIA, Microsoft (через M12), Samsung, USV, Y Combinator и Menlo Ventures.<\/p><div class=\"hero-number\">$90M<\/div><p class=\"muted\">Сумму и оценку подтверждает Sidley — юристы, сопровождавшие сделку. Сама Nous оценку публично не называла.<\/p>"},"en":{"section":"IV · Money","title":"Series B: $90M at a $1.5B valuation","html":"<p class=\"lede\">7 October 2026. Led by Robot Ventures, with NVIDIA, Microsoft (via M12), Samsung, USV, Y Combinator and Menlo Ventures participating.<\/p><div class=\"hero-number\">$90M<\/div><p class=\"muted\">The amount and valuation are confirmed by Sidley, the law firm on the deal. Nous itself has not stated the valuation publicly.<\/p>"}},{"id":"talks-75","level":3,"sources":[7,8,10],"ru":{"section":"IV · Деньги","title":"В июле говорили о $75M — к октябрю раунд вырос до $90M","html":"<p class=\"lede\">13 июля 2026 года TechCrunch писал о переговорах на $75M при той же оценке $1,5 млрд.<\/p><div class=\"price-bars\" aria-label=\"Сумма раунда: июль 75 млн долларов, октябрь 90 млн долларов\"><div class=\"bar-row\"><span>Июль<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:83%\"><\/div><\/div><span class=\"bar-value\">$75M<\/span><\/div><div class=\"bar-row\"><span>Октябрь<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">$90M<\/span><\/div><\/div><p class=\"muted\">Это один и тот же раунд, а не два. Наша оценка: сумма выросла при неизменной оценке — значит, желающих войти было больше, чем мест.<\/p>"},"en":{"section":"IV · Money","title":"In July the talk was of $75M — by October the round had grown to $90M","html":"<p class=\"lede\">On 13 July 2026 TechCrunch reported talks for $75M at the same $1.5B valuation.<\/p><div class=\"price-bars\" aria-label=\"Round size: July 75 million dollars, October 90 million dollars\"><div class=\"bar-row\"><span>July<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:83%\"><\/div><\/div><span class=\"bar-value\">$75M<\/span><\/div><div class=\"bar-row\"><span>October<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">$90M<\/span><\/div><\/div><p class=\"muted\">This is one round, not two. Our estimate: the amount grew while the valuation held — more investors wanted in than there was room for.<\/p>"}},{"id":"total-158","level":2,"sources":[9,5,10],"ru":{"section":"IV · Деньги","title":"Всего Nous привлекла около $158M — почти всё в двух раундах","html":"<div class=\"price-bars\" aria-label=\"Привлечённые деньги: Series B 90, Series A 50, seed и прочее около 18 млн долларов\"><div class=\"bar-row\"><span>Series B<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">$90M<\/span><\/div><div class=\"bar-row\"><span>Series A<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:56%\"><\/div><\/div><span class=\"bar-value\">$50M<\/span><\/div><div class=\"bar-row\"><span>Seed и др.<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:20%\"><\/div><\/div><span class=\"bar-value\">~$18M<\/span><\/div><\/div><div class=\"hero-number\">~$158M<\/div><p class=\"muted\">Итог — по отчётам (Dealroom). Строка «Seed и др.» — остаток до итога, наша оценка: суммы seed в базах расходятся.<\/p>"},"en":{"section":"IV · Money","title":"In total Nous has raised about $158M — almost all of it in two rounds","html":"<div class=\"price-bars\" aria-label=\"Money raised: Series B 90, Series A 50, seed and other about 18 million dollars\"><div class=\"bar-row\"><span>Series B<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">$90M<\/span><\/div><div class=\"bar-row\"><span>Series A<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:56%\"><\/div><\/div><span class=\"bar-value\">$50M<\/span><\/div><div class=\"bar-row\"><span>Seed etc.<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:20%\"><\/div><\/div><span class=\"bar-value\">~$18M<\/span><\/div><\/div><div class=\"hero-number\">~$158M<\/div><p class=\"muted\">The total is as reported (Dealroom). “Seed etc.” is the remainder, our estimate: seed amounts differ between databases.<\/p>"}},{"id":"arr-42x","level":1,"sources":[8,10,16],"ru":{"section":"IV · Деньги","title":"Компанию оценили примерно в 42 годовые выручки","html":"<p class=\"lede\">По данным WSJ, к середине сентября 2026 года у Nous около $36M ARR — годовой выручки в пересчёте с текущих месяцев.<\/p><div class=\"hero-number\">≈42×<\/div><p class=\"muted\">$1,5 млрд ÷ $36M — наша оценка. ARR — со слов компании, не проверен. Для AI-стартапа на взлёте мультипликатор высокий, но не исключительный.<\/p>"},"en":{"section":"IV · Money","title":"The company is valued at roughly 42 times annual revenue","html":"<p class=\"lede\">According to the WSJ, by mid-September 2026 Nous had about $36M in ARR — annual revenue extrapolated from current months.<\/p><div class=\"hero-number\">≈42×<\/div><p class=\"muted\">$1.5B ÷ $36M — our estimate. ARR is the company’s own figure, unverified. For a fast-growing AI start-up the multiple is high but not exceptional.<\/p>"}},{"id":"investors","level":2,"sources":[8,10,5],"ru":{"section":"IV · Деньги","title":"Деньги дали крипто-фонды, стратеги из железа и классический венчур","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Крипто-VC<\/strong><span>Paradigm (лид Series A), Robot Ventures (лид Series B).<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Стратеги<\/strong><span>NVIDIA, Microsoft через M12, Samsung.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Венчур<\/strong><span>USV, Y Combinator, Menlo Ventures, 1789 Capital.<\/span><\/div><\/li><\/ul><p class=\"muted\">Наша оценка: стратегам нужен сильный открытый агент как противовес закрытым платформам, крипто-фондам — децентрализованное обучение.<\/p>"},"en":{"section":"IV · Money","title":"The money came from crypto funds, hardware strategics and classic VC","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Crypto VC<\/strong><span>Paradigm (Series A lead), Robot Ventures (Series B lead).<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Strategics<\/strong><span>NVIDIA, Microsoft via M12, Samsung.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Venture<\/strong><span>USV, Y Combinator, Menlo Ventures, 1789 Capital.<\/span><\/div><\/li><\/ul><p class=\"muted\">Our estimate: strategics want a strong open agent as a counterweight to closed platforms; crypto funds want decentralised training.<\/p>"}},{"id":"agent-launch","level":1,"sources":[1,2,3,13],"ru":{"section":"V · Hermes Agent","title":"25 февраля 2026 года вышел Hermes Agent — первый агент Nous","html":"<p class=\"lede\">Обещание: автономный агент, который живёт на твоём сервере, помнит, чему научился, и становится сильнее, чем дольше работает.<\/p><div class=\"fact\"><span class=\"fact-label\">Лицензия и стек<\/span><p>MIT, Python + TypeScript. Запускается хоть на VPS за $5, хоть на GPU-кластере.<\/p><\/div><p class=\"muted\">С этого момента главный продукт Nous — не модель, а агент.<\/p>"},"en":{"section":"V · Hermes Agent","title":"On 25 February 2026 Nous shipped Hermes Agent, its first agent","html":"<p class=\"lede\">The promise: an autonomous agent that lives on your server, remembers what it has learned and grows stronger the longer it runs.<\/p><div class=\"fact\"><span class=\"fact-label\">Licence and stack<\/span><p>MIT, Python + TypeScript. Runs on a $5 VPS or a GPU cluster alike.<\/p><\/div><p class=\"muted\">From then on, Nous’s main product is not a model but an agent.<\/p>"}},{"id":"gateway","level":1,"sources":[2,3],"ru":{"section":"V · Hermes Agent","title":"Один процесс-шлюз подключает агента ко всем мессенджерам","html":"<p class=\"lede\">Gateway — единственный долгоживущий процесс: он принимает сообщения отовсюду и передаёт их одному и тому же агенту.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Мессенджеры<\/strong><span>Telegram, Discord, Slack, WhatsApp, Signal.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Остальное<\/strong><span>Email, CLI, Home Assistant.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Всего<\/strong><span>Заявлено 20+ платформ.<\/span><\/div><\/li><\/ul><p class=\"muted\">Один агент — одна память, из какого бы канала ему ни писали.<\/p>"},"en":{"section":"V · Hermes Agent","title":"A single gateway process connects the agent to every messenger","html":"<p class=\"lede\">The gateway is the one long-running process: it takes messages from everywhere and hands them to the same agent.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Messengers<\/strong><span>Telegram, Discord, Slack, WhatsApp, Signal.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Everything else<\/strong><span>Email, CLI, Home Assistant.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>In total<\/strong><span>20+ platforms claimed.<\/span><\/div><\/li><\/ul><p class=\"muted\">One agent, one memory — whichever channel you write from.<\/p>"}},{"id":"memory","level":2,"sources":[2],"ru":{"section":"V · Hermes Agent","title":"Память — это Markdown-файлы и поиск по прошлым сессиям","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>MEMORY.md<\/strong><span>Что агент узнал о задачах и мире.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>USER.md<\/strong><span>Кто пользователь и как с ним работать.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>FTS5<\/strong><span>Полнотекстовый поиск по всей истории сессий.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Honcho<\/strong><span>Моделирование пользователя: агент строит представление о человеке.<\/span><\/div><\/li><\/ul><p class=\"muted\">Просто и прозрачно: память можно открыть и поправить руками.<\/p>"},"en":{"section":"V · Hermes Agent","title":"Memory is Markdown files plus search across past sessions","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>MEMORY.md<\/strong><span>What the agent has learned about tasks and the world.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>USER.md<\/strong><span>Who the user is and how to work with them.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>FTS5<\/strong><span>Full-text search over the entire session history.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Honcho<\/strong><span>User modelling: the agent builds a picture of the person.<\/span><\/div><\/li><\/ul><p class=\"muted\">Simple and transparent: you can open the memory and edit it by hand.<\/p>"}},{"id":"skills","level":1,"sources":[2,3],"ru":{"section":"V · Hermes Agent","title":"После сложных задач агент сам пишет себе навыки","html":"<p class=\"lede\">Справившись с трудной задачей, Hermes оформляет решение в skill — инструкцию, которую в следующий раз применит сам.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Стандарт<\/h2><p>Формат agentskills.io: навыки переносимы между агентами.<\/p><\/div><div class=\"compare-item\"><h2>Skills Hub<\/h2><p>Каталог, где пользователи обмениваются навыками.<\/p><\/div><\/div><p class=\"muted\">Это и есть «становится сильнее, чем дольше работает».<\/p>"},"en":{"section":"V · Hermes Agent","title":"After hard tasks the agent writes skills for itself","html":"<p class=\"lede\">Once it has cracked a difficult task, Hermes packages the solution as a skill — instructions it will apply on its own next time.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Standard<\/h2><p>The agentskills.io format: skills are portable between agents.<\/p><\/div><div class=\"compare-item\"><h2>Skills Hub<\/h2><p>A catalogue where users share skills.<\/p><\/div><\/div><p class=\"muted\">This is what “grows stronger the longer it runs” means.<\/p>"}},{"id":"cron-subagents","level":3,"sources":[2],"ru":{"section":"V · Hermes Agent","title":"Расписания на обычном языке и субагенты в песочницах","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Cron<\/strong><span>«Каждый понедельник в девять пришли сводку» — с доставкой в любой мессенджер.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Субагенты<\/strong><span>Подзадачи уходят изолированным помощникам.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Песочницы<\/strong><span>Local, Docker, SSH, Singularity, Modal, Daytona.<\/span><\/div><\/li><\/ul><p class=\"muted\">Агент работает не только в ответ на сообщения, но и сам — по расписанию.<\/p>"},"en":{"section":"V · Hermes Agent","title":"Schedules in plain language and subagents in sandboxes","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Cron<\/strong><span>“Every Monday at nine, send me a summary” — delivered to any messenger.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Subagents<\/strong><span>Subtasks go to isolated helpers.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Sandboxes<\/strong><span>Local, Docker, SSH, Singularity, Modal, Daytona.<\/span><\/div><\/li><\/ul><p class=\"muted\">The agent works not only in reply to messages but on its own, on a schedule.<\/p>"}},{"id":"bot-mode","level":2,"sources":[2,16],"ru":{"section":"V · Hermes Agent","title":"Bot Mode — команда именованных ботов в одном чате","html":"<p class=\"lede\">Можно завести несколько ботов, и у каждого будут своя модель, память, навыки и рутины.<\/p><p>В групповом чате они работают как команда: нужного зовёшь через @упоминание.<\/p><p class=\"muted\">Наша оценка: это почти буквально наша схема — Матильда, Мефистофель, Атлас.<\/p>"},"en":{"section":"V · Hermes Agent","title":"Bot Mode is a team of named bots in one chat","html":"<p class=\"lede\">You can set up several bots, each with its own model, memory, skills and routines.<\/p><p>In a group chat they work as a team: you call the one you need with an @mention.<\/p><p class=\"muted\">Our estimate: this is almost literally our setup — Matilda, Mefistofel, Atlas.<\/p>"}},{"id":"model-agnostic","level":2,"sources":[2,16],"ru":{"section":"V · Hermes Agent","title":"Агент не привязан к моделям Nous","html":"<p class=\"lede\">Hermes Agent работает с любым провайдером, а не только с Hermes.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Облачные<\/h2><p>OpenRouter, OpenAI, Anthropic, Gemini.<\/p><\/div><div class=\"compare-item\"><h2>Локальные<\/h2><p>Ollama, vLLM, llama.cpp — на своём железе.<\/p><\/div><\/div><p class=\"muted\">Для пользователя — низкий риск vendor lock-in. Для Nous — ставка на то, что зарабатывать будут на хостинге и кредитах, а не на собственной модели.<\/p>"},"en":{"section":"V · Hermes Agent","title":"The agent is not tied to Nous’s models","html":"<p class=\"lede\">Hermes Agent works with any provider, not just Hermes.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Cloud<\/h2><p>OpenRouter, OpenAI, Anthropic, Gemini.<\/p><\/div><div class=\"compare-item\"><h2>Local<\/h2><p>Ollama, vLLM, llama.cpp — on your own hardware.<\/p><\/div><\/div><p class=\"muted\">For users: low vendor lock-in risk. For Nous: a bet that the money is in hosting and credits, not in its own model.<\/p>"}},{"id":"stars","level":1,"sources":[3],"ru":{"section":"V · Hermes Agent","title":"За полгода репозиторий агента набрал около 259 тысяч звёзд","html":"<p class=\"lede\">Звёзды репозитория hermes-agent на GitHub, 2026 год:<\/p><div class=\"price-bars\" aria-label=\"Звёзды на GitHub: апрель около 27 тысяч, май 152 тысячи, август 226 тысяч, октябрь около 259 тысяч\"><div class=\"bar-row\"><span>Апрель<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:10%\"><\/div><\/div><span class=\"bar-value\">~27k<\/span><\/div><div class=\"bar-row\"><span>Май<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:59%\"><\/div><\/div><span class=\"bar-value\">152k<\/span><\/div><div class=\"bar-row\"><span>Август<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:87%\"><\/div><\/div><span class=\"bar-value\">226k<\/span><\/div><div class=\"bar-row\"><span>Октябрь<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">~259k<\/span><\/div><\/div><p class=\"muted\">Плюс около 57 тысяч форков. Звёзды показывают интерес, а не число реальных пользователей.<\/p>"},"en":{"section":"V · Hermes Agent","title":"In half a year the agent’s repo gathered about 259,000 stars","html":"<p class=\"lede\">Stars on the hermes-agent GitHub repository, 2026:<\/p><div class=\"price-bars\" aria-label=\"GitHub stars: April about 27 thousand, May 152 thousand, August 226 thousand, October about 259 thousand\"><div class=\"bar-row\"><span>April<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:10%\"><\/div><\/div><span class=\"bar-value\">~27k<\/span><\/div><div class=\"bar-row\"><span>May<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:59%\"><\/div><\/div><span class=\"bar-value\">152k<\/span><\/div><div class=\"bar-row\"><span>August<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:87%\"><\/div><\/div><span class=\"bar-value\">226k<\/span><\/div><div class=\"bar-row\"><span>October<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">~259k<\/span><\/div><\/div><p class=\"muted\">Plus about 57,000 forks. Stars measure interest, not the number of real users.<\/p>"}},{"id":"time-award","level":3,"sources":[15,8],"ru":{"section":"V · Hermes Agent","title":"TIME включил Hermes Agent в лучшие изобретения 2026 года","html":"<p class=\"lede\">Hermes Agent попал в список TIME Best Inventions 2026 — об этом сообщают Nous и RuntimeWire.<\/p><div class=\"fact\"><span class=\"fact-label\">Загрузки<\/span><p>Около 22,7 млн загрузок агента — цифра компании в WSJ, независимо не проверена.<\/p><\/div><p class=\"muted\">Наша оценка: такое признание помогает в B2B — «агент из списка TIME» звучит для закупки безопаснее, чем «проект с GitHub».<\/p>"},"en":{"section":"V · Hermes Agent","title":"TIME put Hermes Agent among the best inventions of 2026","html":"<p class=\"lede\">Hermes Agent made the TIME Best Inventions 2026 list, as reported by Nous and RuntimeWire.<\/p><div class=\"fact\"><span class=\"fact-label\">Downloads<\/span><p>About 22.7M agent downloads — the company’s figure in the WSJ, not independently verified.<\/p><\/div><p class=\"muted\">Our estimate: this kind of recognition helps in B2B — “an agent from the TIME list” sounds safer to procurement than “a GitHub project”.<\/p>"}},{"id":"security","level":2,"sources":[2,3],"ru":{"section":"V · Hermes Agent","title":"Безопасность держится на подтверждениях, авторизации и контейнерах","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Подтверждение команд<\/strong><span>Опасные действия агент не выполняет без «да».<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Авторизация<\/strong><span>Кто может писать агенту в каждом канале.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Изоляция<\/strong><span>Команды можно запускать в контейнере, а не на хосте.<\/span><\/div><\/li><\/ul><p class=\"muted\">Базовый набор есть. Чего нет — общего журнала действий и аудита доступа к данным (глава VII).<\/p>"},"en":{"section":"V · Hermes Agent","title":"Security rests on confirmations, authorisation and containers","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Command confirmation<\/strong><span>The agent won’t run dangerous actions without a “yes”.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Authorisation<\/strong><span>Who may message the agent in each channel.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Isolation<\/strong><span>Commands can run in a container rather than on the host.<\/span><\/div><\/li><\/ul><p class=\"muted\">The basics are there. What’s missing is a shared action log and data-access audit (chapter VII).<\/p>"}},{"id":"portal-tiers","level":1,"sources":[4],"ru":{"section":"VI · Как зарабатывают","title":"Агент бесплатный — платят за кредиты и хостинг в Nous Portal","html":"<p class=\"lede\">Тарифы Nous Portal, в месяц:<\/p><div class=\"price-bars\" aria-label=\"Тарифы в месяц: Free 0, Plus 20, Super 100, Ultra 200 долларов\"><div class=\"bar-row\"><span>Free<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:0%\"><\/div><\/div><span class=\"bar-value\">$0<\/span><\/div><div class=\"bar-row\"><span>Plus<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:10%\"><\/div><\/div><span class=\"bar-value\">$20<\/span><\/div><div class=\"bar-row\"><span>Super<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:50%\"><\/div><\/div><span class=\"bar-value\">$100<\/span><\/div><div class=\"bar-row\"><span>Ultra<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">$200<\/span><\/div><\/div><p class=\"muted\">Кредиты начисляются с бонусом +10% и тратятся на 200+ моделей — не только на Hermes.<\/p>"},"en":{"section":"VI · How they make money","title":"The agent is free — people pay for credits and hosting in Nous Portal","html":"<p class=\"lede\">Nous Portal plans, per month:<\/p><div class=\"price-bars\" aria-label=\"Monthly plans: Free 0, Plus 20, Super 100, Ultra 200 dollars\"><div class=\"bar-row\"><span>Free<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:0%\"><\/div><\/div><span class=\"bar-value\">$0<\/span><\/div><div class=\"bar-row\"><span>Plus<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:10%\"><\/div><\/div><span class=\"bar-value\">$20<\/span><\/div><div class=\"bar-row\"><span>Super<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:50%\"><\/div><\/div><span class=\"bar-value\">$100<\/span><\/div><div class=\"bar-row\"><span>Ultra<\/span><div class=\"bar-track\"><div class=\"bar-fill\" style=\"width:100%\"><\/div><\/div><span class=\"bar-value\">$200<\/span><\/div><\/div><p class=\"muted\">Credits come with a +10% bonus and can be spent on 200+ models — not only Hermes.<\/p>"}},{"id":"business-enterprise","level":2,"sources":[4,16],"ru":{"section":"VI · Как зарабатывают","title":"Для компаний два тарифа, и цены у обоих не опубликованы","html":"<p class=\"lede\">Hermes for Businesses делится на самостоятельный и корпоративный вариант.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Business<\/h2><p>Хостинг у Nous, подключение самостоятельно (self-serve).<\/p><\/div><div class=\"compare-item\"><h2>Enterprise<\/h2><p>На инфраструктуре клиента, SSO, SLA, онбординг.<\/p><\/div><\/div><p class=\"muted\">Точных цен нет ни на сайте, ни в прессе — это в нашем списке непроверенного.<\/p>"},"en":{"section":"VI · How they make money","title":"There are two business plans, and neither has a published price","html":"<p class=\"lede\">Hermes for Businesses comes as a self-serve and a corporate option.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Business<\/h2><p>Hosted by Nous, self-serve sign-up.<\/p><\/div><div class=\"compare-item\"><h2>Enterprise<\/h2><p>On the customer’s infrastructure, SSO, SLA, onboarding.<\/p><\/div><\/div><p class=\"muted\">No exact prices on the site or in the press — it’s on our list of unverified items.<\/p>"}},{"id":"b2b-governance","level":1,"sources":[4,2],"ru":{"section":"VI · Как зарабатывают","title":"Бизнесу продают не агента, а управление агентами","html":"<p class=\"lede\">Hermes for Businesses — это контроль над тем, что сотрудники делают с агентами и сколько это стоит.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Агент на каждого<\/strong><span>Свой у каждого сотрудника.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Общий баланс<\/strong><span>С лимитами расходов на человека.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Общие skills<\/strong><span>Навыки на всю организацию.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Свои ключи<\/strong><span>Компания подключает собственных провайдеров моделей.<\/span><\/div><\/li><\/ul>"},"en":{"section":"VI · How they make money","title":"To businesses they sell not the agent but control over agents","html":"<p class=\"lede\">Hermes for Businesses is about controlling what employees do with agents and what it costs.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>An agent per person<\/strong><span>Every employee gets their own.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Shared balance<\/strong><span>With per-person spending limits.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Shared skills<\/strong><span>Skills for the whole organisation.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Own keys<\/strong><span>The company plugs in its own model providers.<\/span><\/div><\/li><\/ul>"}},{"id":"economics","level":3,"sources":[8,4,15,16],"ru":{"section":"VI · Как зарабатывают","title":"Экономика проста: бесплатный агент ведёт в платные вычисления","html":"<p class=\"lede\">Наша оценка модели: агент приводит пользователей, Portal продаёт им вычисления, бизнес-тарифы — управление.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Верх воронки<\/strong><span>MIT-код, GitHub, TIME, сообщество.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Деньги<\/strong><span>Подписки и кредиты на модели.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>B2B<\/strong><span>Места, лимиты, SSO, SLA.<\/span><\/div><\/li><\/ul><p class=\"muted\">ARR около $36M (WSJ) говорит, что воронка работает. Но маржа на перепродаже чужих моделей тонкая — наша оценка.<\/p>"},"en":{"section":"VI · How they make money","title":"The economics are simple: a free agent leads to paid compute","html":"<p class=\"lede\">Our reading of the model: the agent brings users, Portal sells them compute, business plans sell control.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Top of funnel<\/strong><span>MIT code, GitHub, TIME, community.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Revenue<\/strong><span>Subscriptions and model credits.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>B2B<\/strong><span>Seats, limits, SSO, SLA.<\/span><\/div><\/li><\/ul><p class=\"muted\">ARR of about $36M (WSJ) suggests the funnel works. But margins on reselling other people’s models are thin — our estimate.<\/p>"}},{"id":"observability","level":1,"sources":[2,3,16],"ru":{"section":"VII · Слабые места","title":"Главная дыра: не видно, что делает флот агентов","html":"<p class=\"lede\">Для одного агента есть hermes doctor, /usage и /insights. Для сотни агентов в компании — почти ничего.<\/p><div class=\"fact\"><span class=\"fact-label\">Нет из коробки<\/span><p>Веб-панели флота, журнала действий агентов, аудита доступа к данным, сводки стоимости по людям.<\/p><\/div><p class=\"muted\">По README и документации на октябрь 2026 года.<\/p>"},"en":{"section":"VII · Weak spots","title":"The big gap: you can’t see what a fleet of agents is doing","html":"<p class=\"lede\">For a single agent there are hermes doctor, /usage and /insights. For a hundred agents across a company — almost nothing.<\/p><div class=\"fact\"><span class=\"fact-label\">Not built in<\/span><p>A fleet web dashboard, an agent action log, data-access audit, per-person cost summaries.<\/p><\/div><p class=\"muted\">Per the README and docs as of October 2026.<\/p>"}},{"id":"issues-5000","level":2,"sources":[3],"ru":{"section":"VII · Слабые места","title":"Открытых issue и PR — больше пяти тысяч","html":"<div class=\"hero-number\">5000+<\/div><p class=\"muted\">Обратная сторона взрывного роста: мейнтейнеры не успевают за потоком.<\/p><p>Для компании это практический вопрос: кто и когда починит баг, который мешает именно ей.<\/p>"},"en":{"section":"VII · Weak spots","title":"There are more than five thousand open issues and PRs","html":"<div class=\"hero-number\">5000+<\/div><p class=\"muted\">The flip side of explosive growth: maintainers can’t keep up with the flow.<\/p><p>For a company this is a practical question: who will fix the bug that blocks it, and when.<\/p>"}},{"id":"no-team-cases","level":2,"sources":[14,13,16],"ru":{"section":"VII · Слабые места","title":"Независимых кейсов внедрения в командах пока нет","html":"<p class=\"lede\">Мы не нашли открытых историй, где Hermes Agent надёжно работает у команды или компании, а не у одного энтузиаста.<\/p><div class=\"fact\"><span class=\"fact-label\">Rubinlake<\/span><p>Независимый технологический радар советует Hermes Agent пока только для экспериментов.<\/p><\/div><p class=\"muted\">Обзоры энтузиастов (например, heyuan110) хвалят установку и «харнесс из коробки», но это личный опыт.<\/p>"},"en":{"section":"VII · Weak spots","title":"There are no independent case studies of team deployments yet","html":"<p class=\"lede\">We found no public stories of Hermes Agent running reliably for a team or a company rather than a single enthusiast.<\/p><div class=\"fact\"><span class=\"fact-label\">Rubinlake<\/span><p>An independent technology radar recommends Hermes Agent for experiments only, for now.<\/p><\/div><p class=\"muted\">Enthusiast reviews (heyuan110, for example) praise the install and the “harness in the box”, but that is personal experience.<\/p>"}},{"id":"numbers-caveats","level":3,"sources":[8,9,11,7],"ru":{"section":"VII · Слабые места","title":"К цифрам вокруг Nous нужно относиться с оговорками","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>ARR и загрузки<\/strong><span>$36M и 22,7 млн — со слов компании в WSJ.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Оценка $1,5 млрд<\/strong><span>Из прессы и Sidley; компания её не называла.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Series A<\/strong><span>$50M или $65M — в зависимости от базы.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>Звёзды GitHub<\/strong><span>Интерес, а не активные пользователи.<\/span><\/div><\/li><\/ul>"},"en":{"section":"VII · Weak spots","title":"The numbers around Nous come with caveats","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>ARR and downloads<\/strong><span>$36M and 22.7M — the company’s words in the WSJ.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>$1.5B valuation<\/strong><span>From the press and Sidley; the company didn’t name it.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Series A<\/strong><span>$50M or $65M, depending on the database.<\/span><\/div><\/li><li><span class=\"index\">04<\/span><div><strong>GitHub stars<\/strong><span>Interest, not active users.<\/span><\/div><\/li><\/ul>"}},{"id":"mirror","level":1,"sources":[16,2],"ru":{"section":"VIII · Что это значит для нас","title":"Hermes Agent — почти зеркало нашего стека","html":"<p class=\"lede\">Наша оценка: совпадение почти один в один.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Hermes Agent<\/h2><p>Свой сервер, мессенджер как интерфейс, память в Markdown, cron, Bot Mode, подтверждения.<\/p><\/div><div class=\"compare-item\"><h2>Мы<\/h2><p>Свой сервер, Telegram, память в Markdown, задачи и напоминания, Матильда · Мефистофель · Атлас, подтверждения.<\/p><\/div><\/div><p class=\"muted\">Мы пришли к той же архитектуре независимо. Значит, она верная — и значит, у нас богатый конкурент.<\/p>"},"en":{"section":"VIII · What it means for us","title":"Hermes Agent is almost a mirror of our stack","html":"<p class=\"lede\">Our estimate: the match is nearly one to one.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Hermes Agent<\/h2><p>Own server, messenger as the interface, Markdown memory, cron, Bot Mode, confirmations.<\/p><\/div><div class=\"compare-item\"><h2>Us<\/h2><p>Own server, Telegram, Markdown memory, tasks and reminders, Matilda · Mefistofel · Atlas, confirmations.<\/p><\/div><\/div><p class=\"muted\">We arrived at the same architecture independently. So it is right — and we have a rich competitor.<\/p>"}},{"id":"where-stronger","level":3,"sources":[16,2,3],"ru":{"section":"VIII · Что это значит для нас","title":"Где Nous сильнее нас — и где у неё дыра","html":"<div class=\"compare\"><div class=\"compare-item\"><h2>Сильнее<\/h2><p>20+ коннекторов, desktop-приложения, самообучающиеся skills, огромное сообщество, деньги и бренд.<\/p><\/div><div class=\"compare-item\"><h2>Дыра<\/h2><p>Управление флотом и прозрачность: панель, аудит доступа, журнал действий, стоимость.<\/p><\/div><\/div><p>Observatory — ровно про правую колонку: панель флота, журнал каждого чтения личных данных и дисков, подтверждения кнопкой администратора, пиры между серверами.<\/p><p class=\"muted\">Наша оценка.<\/p>"},"en":{"section":"VIII · What it means for us","title":"Where Nous is stronger than us — and where it has a gap","html":"<div class=\"compare\"><div class=\"compare-item\"><h2>Stronger<\/h2><p>20+ connectors, desktop apps, self-learning skills, a huge community, money and brand.<\/p><\/div><div class=\"compare-item\"><h2>Gap<\/h2><p>Fleet management and transparency: dashboard, access audit, action log, cost.<\/p><\/div><\/div><p>Observatory is exactly about the right column: a fleet dashboard, a log of every read of personal data and drives, admin button approvals, peers between servers.<\/p><p class=\"muted\">Our estimate.<\/p>"}},{"id":"dont-compete","level":1,"sources":[16,9,3],"ru":{"section":"VIII · Что это значит для нас","title":"Конкурировать как «ещё один агент» бессмысленно","html":"<p class=\"lede\">С одной стороны — $1,5 млрд, код под MIT и около 259 тысяч звёзд. С другой — мы.<\/p><p>Копировать концепт целиком значит строить бесплатный продукт против бесплатного продукта, у которого уже есть сообщество и бренд.<\/p><div class=\"fact\"><span class=\"fact-label\">Наша оценка<\/span><p>Выигрывать стоит там, где Nous слабее: управление, аудит и прозрачность для компаний.<\/p><\/div>"},"en":{"section":"VIII · What it means for us","title":"Competing as “yet another agent” makes no sense","html":"<p class=\"lede\">On one side: $1.5B, MIT code and about 259,000 stars. On the other: us.<\/p><p>Copying the whole concept means building a free product against a free product that already has a community and a brand.<\/p><div class=\"fact\"><span class=\"fact-label\">Our estimate<\/span><p>The place to win is where Nous is weaker: control, audit and transparency for companies.<\/p><\/div>"}},{"id":"options","level":1,"sources":[16],"ru":{"section":"VIII · Что это значит для нас","title":"У нас четыре варианта следующего шага","html":"<ul class=\"story-list\"><li><span class=\"index\">A<\/span><div><strong>Пульт для Hermes<\/strong><span>Observatory как панель, аудит, подтверждения и биллинг для флота агентов.<\/span><\/div><\/li><li><span class=\"index\">B<\/span><div><strong>Внедрение под ключ<\/strong><span>Cybergizer разворачивает Hermes у клиентов. Быстрые деньги, не продукт.<\/span><\/div><\/li><li><span class=\"index\">C<\/span><div><strong>Hermes как движок<\/strong><span>Наши боты на ядре Hermes, наше — сверху. Экономим на коннекторах.<\/span><\/div><\/li><li><span class=\"index\">D<\/span><div><strong>Свой аналог<\/strong><span>Ещё один агент. Не рекомендуем.<\/span><\/div><\/li><\/ul>"},"en":{"section":"VIII · What it means for us","title":"We have four options for the next step","html":"<ul class=\"story-list\"><li><span class=\"index\">A<\/span><div><strong>A console for Hermes<\/strong><span>Observatory as dashboard, audit, approvals and billing for an agent fleet.<\/span><\/div><\/li><li><span class=\"index\">B<\/span><div><strong>Turnkey deployment<\/strong><span>Cybergizer rolls out Hermes for clients. Quick money, not a product.<\/span><\/div><\/li><li><span class=\"index\">C<\/span><div><strong>Hermes as the engine<\/strong><span>Our bots on the Hermes core, our layer on top. Saves building connectors.<\/span><\/div><\/li><li><span class=\"index\">D<\/span><div><strong>Our own clone<\/strong><span>Yet another agent. Not recommended.<\/span><\/div><\/li><\/ul>"}},{"id":"recommend","level":1,"sources":[16],"ru":{"section":"VIII · Что это значит для нас","title":"Рекомендация: C как спайк и A как тест спроса","html":"<div class=\"compare\"><div class=\"compare-item\"><h2>C · 1–2 дня<\/h2><p>Поднять Hermes на тестовом сервере и сравнить с нашими ботами.<\/p><\/div><div class=\"compare-item\"><h2>A · параллельно<\/h2><p>Проверить, купят ли компании пульт для флота агентов.<\/p><\/div><\/div><p>B — если до конца года нужны деньги. D — нет.<\/p><p class=\"muted\">Наша оценка.<\/p>"},"en":{"section":"VIII · What it means for us","title":"Recommendation: C as a spike and A as a demand test","html":"<div class=\"compare\"><div class=\"compare-item\"><h2>C · 1–2 days<\/h2><p>Stand up Hermes on a test server and compare it with our bots.<\/p><\/div><div class=\"compare-item\"><h2>A · in parallel<\/h2><p>Check whether companies will buy a console for their agent fleet.<\/p><\/div><\/div><p>B — if we need money before year end. D — no.<\/p><p class=\"muted\">Our estimate.<\/p>"}},{"id":"test-a","level":2,"sources":[16],"ru":{"section":"VIII · Что это значит для нас","title":"Тест варианта A — одна интеграция, лендинг и 20 писем","html":"<p class=\"lede\">Покупатель — CTO или руководитель ops в компании на 20–200 человек, которая раздала агентов сотрудникам и не понимает, что они делают и сколько стоят.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Интеграция<\/strong><span>Читать логи и сессии Hermes.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Лендинг<\/strong><span>Обещание: видно каждое действие агента.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>20 писем<\/strong><span>Целевым CTO — считаем ответы.<\/span><\/div><\/li><\/ul>"},"en":{"section":"VIII · What it means for us","title":"Testing option A takes one integration, a landing page and 20 emails","html":"<p class=\"lede\">The buyer is a CTO or head of ops at a 20–200-person company that has handed agents to staff and can’t tell what they do or what they cost.<\/p><ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Integration<\/strong><span>Read Hermes logs and sessions.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Landing page<\/strong><span>The promise: every agent action is visible.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>20 emails<\/strong><span>To target CTOs — we count the replies.<\/span><\/div><\/li><\/ul>"}},{"id":"unknowns","level":3,"sources":[16,4,14],"ru":{"section":"VIII · Что это значит для нас","title":"Три вещи мы пока не знаем","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Цены Business и Enterprise<\/strong><span>Не опубликованы.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Логи и хранилище Hermes<\/strong><span>Можно ли читать их снаружи — от этого зависит вариант A.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Надёжность в командах<\/strong><span>Независимых кейсов нет.<\/span><\/div><\/li><\/ul><p class=\"muted\">Первый пункт закрывается письмом в Nous, второй — спайком C, третий — только временем.<\/p>"},"en":{"section":"VIII · What it means for us","title":"There are three things we don’t know yet","html":"<ul class=\"story-list\"><li><span class=\"index\">01<\/span><div><strong>Business and Enterprise prices<\/strong><span>Not published.<\/span><\/div><\/li><li><span class=\"index\">02<\/span><div><strong>Hermes logs and storage<\/strong><span>Whether they can be read from outside — option A depends on it.<\/span><\/div><\/li><li><span class=\"index\">03<\/span><div><strong>Reliability in teams<\/strong><span>No independent case studies.<\/span><\/div><\/li><\/ul><p class=\"muted\">The first is one email to Nous, the second is the C spike, the third only time will tell.<\/p>"}},{"id":"risk-c","level":3,"sources":[16,3],"ru":{"section":"VIII · Что это значит для нас","title":"Цена варианта C — зависимость от чужого ядра","html":"<p class=\"lede\">Переехав на Hermes, мы экономим на коннекторах Slack, WhatsApp и Discord — но наше ядро начинает меняться по чужому графику.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Выигрыш<\/h2><p>20+ каналов, skills, сообщество, бесплатные обновления.<\/p><\/div><div class=\"compare-item\"><h2>Риск<\/h2><p>Миграция, ломающие изменения, 5000+ issue в чужом трекере.<\/p><\/div><\/div><p class=\"muted\">Поэтому сначала однодневный спайк, а не переезд. Наша оценка.<\/p>"},"en":{"section":"VIII · What it means for us","title":"The price of option C is depending on someone else’s core","html":"<p class=\"lede\">Moving to Hermes saves us building Slack, WhatsApp and Discord connectors — but our core starts changing on someone else’s schedule.<\/p><div class=\"compare\"><div class=\"compare-item\"><h2>Gain<\/h2><p>20+ channels, skills, community, free updates.<\/p><\/div><div class=\"compare-item\"><h2>Risk<\/h2><p>Migration, breaking changes, 5000+ issues in someone else’s tracker.<\/p><\/div><\/div><p class=\"muted\">Hence a one-day spike first, not a move. Our estimate.<\/p>"}},{"id":"nous-panel","level":2,"sources":[4,16],"ru":{"section":"VIII · Что это значит для нас","title":"Главный риск варианта A — Nous сделает свою панель","html":"<p class=\"lede\">Управление уже продаётся в Hermes for Businesses: лимиты, общие skills, SSO. Следующий логичный шаг — дашборд флота.<\/p><div class=\"fact\"><span class=\"fact-label\">Как защищаться · наша оценка<\/span><p>Быть мульти-вендорным: Hermes и Claude-агенты в одной панели. Плюс то, что вендору делать невыгодно: независимый аудит каждого чтения личных данных, подтверждения кнопкой администратора, пиры между серверами.<\/p><\/div>"},"en":{"section":"VIII · What it means for us","title":"The main risk to option A is Nous building its own dashboard","html":"<p class=\"lede\">Control is already sold in Hermes for Businesses: limits, shared skills, SSO. The logical next step is a fleet dashboard.<\/p><div class=\"fact\"><span class=\"fact-label\">How to defend · our estimate<\/span><p>Be multi-vendor: Hermes and Claude agents in one console. Plus what a vendor has no reason to build: independent audit of every personal-data read, admin button approvals, peers between servers.<\/p><\/div>"}},{"id":"final","level":1,"sources":[16,9,3,2],"final":true,"ru":{"section":"Финал","title":"Три факта и один вывод, которые стоит унести с собой","html":"<div class=\"fact\"><span class=\"fact-label\">Nous<\/span><p>Открытая лаборатория из Discord: бесплатные модели и агент, около $158M привлечено, оценка $1,5 млрд — по данным прессы.<\/p><\/div><div class=\"fact\"><span class=\"fact-label\">Hermes Agent<\/span><p>Зеркало нашего стека с огромным сообществом — но без панели флота, аудита и журнала действий.<\/p><\/div><div class=\"fact\"><span class=\"fact-label\">Мы<\/span><p>Спайк C на 1–2 дня и тест спроса A: интеграция, лендинг, 20 писем.<\/p><\/div><p class=\"lede\"><strong>Не строить ещё одного агента — построить пульт для чужих.<\/strong><\/p>"},"en":{"section":"Finale","title":"Three facts and one conclusion worth taking with you","html":"<div class=\"fact\"><span class=\"fact-label\">Nous<\/span><p>An open lab born on Discord: free models and agent, about $158M raised, valued at $1.5B — per press reports.<\/p><\/div><div class=\"fact\"><span class=\"fact-label\">Hermes Agent<\/span><p>A mirror of our stack with a huge community — but no fleet dashboard, audit or action log.<\/p><\/div><div class=\"fact\"><span class=\"fact-label\">Us<\/span><p>A 1–2-day C spike and an A demand test: integration, landing page, 20 emails.<\/p><\/div><p class=\"lede\"><strong>Don’t build yet another agent — build the console for everyone else’s.<\/strong><\/p>"}}]}</script>
+<script>
+/* TikTokBook runtime — book-agnostic; all content comes from #book-data. */
+(function () {
+  'use strict';
+
+  var BOOK = JSON.parse(document.getElementById('book-data').textContent);
+  var SLIDES = BOOK.slides;
+  var MODES = ['short', 'core', 'deep'];
+  var LEVELS = { short: 1, core: 2, deep: 3 };
+  var KEY = BOOK.storageKey;
+
+  var UI = {
+    ru: {
+      shell: 'Книга-сторис', progress: 'Прогресс чтения', modeGroup: 'Глубина чтения',
+      library: 'К библиотеке', libraryLabel: 'Вернуться в библиотеку',
+      start: 'Начать', continueFrom: 'Продолжить с «{title}»', startOver: 'Начать заново',
+      next: 'Дальше', back: 'Назад', restart: 'Сначала', counter: '{n} / {total}',
+      screens: '{n} экранов', contents: 'Главы', sources: 'Источники', close: 'Закрыть',
+      sourcesLink: 'Источники: {list}', legalTitle: 'О методе', sourcesTitle: 'Источники',
+      creditsTitle: 'Изображения', noImages: 'Изображений нет: обложка типографская.',
+      langButton: 'EN', langLabel: 'Switch to English',
+      themeToLight: 'Светлая', themeToDark: 'Тёмная', themeLabel: 'Сменить тему',
+      screenOf: 'Экран {n} из {total}'
+    },
+    en: {
+      shell: 'Story book', progress: 'Reading progress', modeGroup: 'Reading depth',
+      library: 'Back to library', libraryLabel: 'Return to the library',
+      start: 'Start', continueFrom: 'Continue from “{title}”', startOver: 'Start over',
+      next: 'Next', back: 'Back', restart: 'Restart', counter: '{n} / {total}',
+      screens: '{n} screens', contents: 'Contents', sources: 'Sources', close: 'Close',
+      sourcesLink: 'Sources: {list}', legalTitle: 'About the method', sourcesTitle: 'Sources',
+      creditsTitle: 'Images', noImages: 'No images: the cover is typographic.',
+      langButton: 'RU', langLabel: 'Переключить на русский',
+      themeToLight: 'Light', themeToDark: 'Dark', themeLabel: 'Toggle theme',
+      screenOf: 'Screen {n} of {total}'
+    }
+  };
+
+  function load(name) {
+    try { return window.localStorage.getItem(KEY + '.' + name); } catch (e) { return null; }
+  }
+  function save(name, value) {
+    try {
+      if (value === null) window.localStorage.removeItem(KEY + '.' + name);
+      else window.localStorage.setItem(KEY + '.' + name, value);
+    } catch (e) { /* private mode / file:// */ }
+  }
+  function pick(value, allowed, fallback) {
+    return allowed.indexOf(value) >= 0 ? value : fallback;
+  }
+
+  var state = {
+    mode: pick(load('mode'), MODES, BOOK.defaultMode),
+    position: 0,
+    direction: 0,
+    theme: pick(load('theme'), ['dark', 'light'], BOOK.defaultTheme),
+    language: pick(load('language'), BOOK.languages, BOOK.defaultLanguage)
+  };
+
+  var el = {
+    root: document.documentElement,
+    progress: document.getElementById('progress'),
+    story: document.getElementById('story'),
+    nav: document.getElementById('nav'),
+    back: document.getElementById('btn-back'),
+    next: document.getElementById('btn-next'),
+    counter: document.getElementById('counter'),
+    library: document.getElementById('btn-library'),
+    contents: document.getElementById('btn-contents'),
+    sources: document.getElementById('btn-sources'),
+    lang: document.getElementById('btn-lang'),
+    theme: document.getElementById('btn-theme'),
+    shell: document.getElementById('shell'),
+    dlgContents: document.getElementById('dlg-contents'),
+    dlgSources: document.getElementById('dlg-sources'),
+    toc: document.getElementById('toc'),
+    sourcesBody: document.getElementById('sources-body'),
+    themeMeta: document.querySelector('meta[name="theme-color"]')
+  };
+
+  function t(key, vars) {
+    var over = BOOK.ui && BOOK.ui[state.language];
+    var s = (over && over[key]) || UI[state.language][key] || UI.en[key] || key;
+    if (vars) {
+      Object.keys(vars).forEach(function (k) { s = s.split('{' + k + '}').join(vars[k]); });
+    }
+    return s;
+  }
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+  function meta() { return BOOK.meta[state.language]; }
+  function copy(slide) { return slide[state.language] || slide[BOOK.defaultLanguage] || {}; }
+  function titleOf(slide) { return slide.cover ? meta().title : copy(slide).title; }
+  function visible() {
+    var limit = LEVELS[state.mode];
+    return SLIDES.filter(function (s) { return s.level <= limit; });
+  }
+  function current() { return visible()[state.position]; }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+  function findSlide(id) {
+    for (var i = 0; i < SLIDES.length; i++) if (SLIDES[i].id === id) return SLIDES[i];
+    return null;
+  }
+  function resumeSlide() {
+    var s = findSlide(load('lastSlide'));
+    return s && !s.cover ? s : null;
+  }
+  function dialogOpen() {
+    return el.dlgContents.hasAttribute('open') || el.dlgSources.hasAttribute('open');
+  }
+
+  /* Rendering */
+  function renderCover() {
+    var m = meta();
+    var resume = resumeSlide();
+    var title = esc(m.title).replace(/ &amp; /g, ' <span class="cover-amp">&amp;</span> ');
+    var modes = MODES.map(function (mode) {
+      var info = BOOK.modes[mode][state.language];
+      var count = SLIDES.filter(function (s) { return s.level <= LEVELS[mode]; }).length;
+      return '<button type="button" class="mode-btn" data-mode="' + mode + '" aria-pressed="' +
+        (mode === state.mode) + '" title="' + esc(t('screens', { n: count })) + '">' +
+        '<span class="mode-label">' + esc(info.label) + '</span>' +
+        '<span class="mode-time">' + esc(info.time) + '</span></button>';
+    }).join('');
+    var primary = resume
+      ? '<button type="button" class="btn-primary" data-action="resume">' + esc(t('continueFrom', { title: titleOf(resume) })) + '</button>' +
+        '<button type="button" class="btn-secondary" data-action="start">' + esc(t('startOver')) + '</button>'
+      : '<button type="button" class="btn-primary" data-action="start">' + esc(t('start')) + '</button>';
+    return '<article class="slide cover">' +
+      '<p class="kicker">' + esc(m.tagline) + '</p>' +
+      '<h1 class="cover-title">' + title + '</h1>' +
+      '<hr class="cover-rule">' +
+      '<p class="cover-subtitle">' + esc(m.subtitle) + '</p>' +
+      '<p class="cover-author">' + esc(m.author) + '</p>' +
+      '<p class="cover-desc muted">' + esc(m.description) + '</p>' +
+      '<div class="cover-actions">' +
+      '<div class="mode-picker" role="group" aria-label="' + esc(t('modeGroup')) + '">' + modes + '</div>' +
+      primary + '</div></article>';
+  }
+
+  function renderSlide(slide) {
+    var c = copy(slide);
+    return '<article class="slide' + (slide.final ? ' is-final' : '') + '">' +
+      '<p class="kicker">' + esc(c.section) + '</p>' +
+      '<h1 class="slide-title">' + esc(c.title) + '</h1>' +
+      '<div class="slide-body">' + c.html + '</div>' +
+      '<button type="button" class="source-link" data-action="sources" data-cite="' + slide.sources.join(',') + '">' +
+      esc(t('sourcesLink', { list: slide.sources.join(', ') })) + '</button>' +
+      '</article>';
+  }
+
+  function render() {
+    var list = visible();
+    if (state.position < 0) state.position = 0;
+    if (state.position > list.length - 1) state.position = list.length - 1;
+    var slide = list[state.position];
+    var m = meta();
+
+    el.root.lang = state.language;
+    document.title = m.title + ' — ' + m.tagline;
+    el.shell.setAttribute('aria-label', t('shell') + ': ' + m.title);
+
+    var segs = '';
+    for (var i = 0; i < list.length; i++) {
+      segs += '<span class="progress-seg' + (i < state.position ? ' is-done' : i === state.position ? ' is-current' : '') + '"></span>';
+    }
+    el.progress.innerHTML = segs;
+    el.progress.setAttribute('aria-label', t('progress'));
+    el.progress.setAttribute('aria-valuemax', String(list.length));
+    el.progress.setAttribute('aria-valuenow', String(state.position + 1));
+    el.progress.setAttribute('aria-valuetext', t('screenOf', { n: state.position + 1, total: list.length }));
+
+    el.story.innerHTML = slide.cover ? renderCover() : renderSlide(slide);
+    var art = el.story.firstChild;
+    if (state.direction) art.classList.add(state.direction > 0 ? 'enter-next' : 'enter-prev');
+    el.story.scrollTop = 0;
+
+    el.nav.hidden = !!slide.cover;
+    el.nav.setAttribute('aria-label', t('progress'));
+    el.library.setAttribute('aria-label', t('libraryLabel'));
+    el.library.setAttribute('title', t('library'));
+    el.back.textContent = t('back');
+    el.back.disabled = state.position === 0;
+    el.next.textContent = state.position === list.length - 1 ? t('restart') : t('next');
+    el.counter.textContent = t('counter', { n: state.position + 1, total: list.length });
+
+    el.contents.textContent = t('contents');
+    el.sources.textContent = t('sources');
+    el.lang.textContent = t('langButton');
+    el.lang.setAttribute('aria-label', t('langLabel'));
+    el.theme.textContent = state.theme === 'dark' ? t('themeToLight') : t('themeToDark');
+    el.theme.setAttribute('aria-label', t('themeLabel'));
+    document.querySelectorAll('[data-action="close"]').forEach(function (b) { b.textContent = t('close'); });
+    document.getElementById('dlg-contents-title').textContent = t('contents');
+    document.getElementById('dlg-sources-title').textContent = t('sourcesTitle');
+
+    if (!slide.cover) save('lastSlide', slide.id);
+    state.direction = 0;
+  }
+
+  function applyTheme() {
+    el.root.setAttribute('data-theme', state.theme);
+    if (el.themeMeta) {
+      var bg = window.getComputedStyle(el.root).getPropertyValue('--color-bg').trim();
+      if (bg) el.themeMeta.setAttribute('content', bg);
+    }
+  }
+
+  /* Navigation */
+  function go(delta) {
+    var list = visible();
+    if (delta > 0 && state.position >= list.length - 1) {
+      save('lastSlide', null);
+      state.position = 0;
+      state.direction = -1;
+    } else {
+      var p = Math.max(0, Math.min(list.length - 1, state.position + delta));
+      if (p === state.position) return;
+      state.direction = delta > 0 ? 1 : -1;
+      state.position = p;
+    }
+    render();
+    if (state.position === 0) focusStory();
+  }
+
+  function jumpTo(id) {
+    var slide = findSlide(id);
+    if (!slide) return;
+    if (slide.level > LEVELS[state.mode]) {
+      for (var i = 0; i < MODES.length; i++) {
+        if (LEVELS[MODES[i]] >= slide.level) { state.mode = MODES[i]; break; }
+      }
+      save('mode', state.mode);
+    }
+    var list = visible();
+    var target = list.indexOf(slide);
+    state.direction = target >= state.position ? 1 : -1;
+    state.position = target;
+    render();
+  }
+
+  function setMode(mode) {
+    state.mode = mode;
+    save('mode', mode);
+    state.position = 0;
+    state.direction = 0;
+    render();
+    var btn = el.story.querySelector('[data-mode="' + mode + '"]');
+    if (btn) btn.focus();
+  }
+
+  function focusStory() {
+    var b = el.story.querySelector('.btn-primary');
+    if (b) b.focus({ preventScroll: true });
+  }
+
+  /* Dialogs */
+  function openDialog(dlg) {
+    if (typeof dlg.showModal === 'function') dlg.showModal();
+    else dlg.setAttribute('open', '');
+  }
+  function closeDialog(dlg) {
+    if (typeof dlg.close === 'function') dlg.close();
+    else dlg.removeAttribute('open');
+  }
+
+  function openContents() {
+    var list = visible();
+    var cur = current();
+    var lastSection = null;
+    el.toc.innerHTML = list.map(function (s, i) {
+      var section = s.cover ? '' : copy(s).section.split(' · ')[0];
+      var head = '';
+      if (section && section !== lastSection) head = '<span class="toc-section">' + esc(section) + '</span>';
+      lastSection = section || lastSection;
+      return '<li>' + head + '<button type="button" data-jump="' + esc(s.id) + '"' +
+        (s === cur ? ' aria-current="true"' : '') + '><span class="toc-index">' + pad(i + 1) +
+        '</span><span>' + esc(titleOf(s)) + '</span></button></li>';
+    }).join('');
+    openDialog(el.dlgContents);
+    var active = el.toc.querySelector('[aria-current="true"]');
+    if (active && active.scrollIntoView) active.scrollIntoView({ block: 'center' });
+  }
+
+  function openSources(cite) {
+    var lang = state.language;
+    var cited = cite ? String(cite).split(',').map(Number) : [];
+    var items = BOOK.sources.map(function (src, i) {
+      var n = i + 1;
+      return '<li id="src-' + n + '"' + (cited.indexOf(n) >= 0 ? ' class="is-cited"' : '') + '>' +
+        '<span class="toc-index">' + pad(n) + '</span><span>' +
+        (src.url ? '<a href="' + esc(src.url) + '" target="_blank" rel="noreferrer">' + esc(src.title) + '</a>'
+                 : '<strong>' + esc(src.title) + '</strong>') +
+        '<span class="src-note">' + esc(src.note[lang]) + '</span></span></li>';
+    }).join('');
+    var imgs = BOOK.images || {};
+    var credits = Object.keys(imgs).map(function (k) {
+      var im = imgs[k];
+      return esc(im.credit[lang]) + (im.license ? ' — ' + esc(im.license) : '');
+    });
+    el.sourcesBody.innerHTML =
+      '<h3>' + esc(t('legalTitle')) + '</h3><p class="legal">' + esc(BOOK.legal[lang]) + '</p>' +
+      '<h3>' + esc(t('sourcesTitle')) + '</h3><ol class="src-list">' + items + '</ol>' +
+      '<h3>' + esc(t('creditsTitle')) + '</h3><p class="credits">' +
+      (credits.length ? credits.join('<br>') : esc(t('noImages'))) + '</p>';
+    openDialog(el.dlgSources);
+    el.sourcesBody.scrollTop = 0;
+    if (cited.length) {
+      var first = document.getElementById('src-' + cited[0]);
+      if (first && first.scrollIntoView) first.scrollIntoView({ block: 'nearest' });
+    }
+  }
+
+  /* Events */
+  document.addEventListener('click', function (e) {
+    var target = e.target;
+    if (target === el.dlgContents || target === el.dlgSources) { closeDialog(target); return; }
+    var mode = target.closest('[data-mode]');
+    if (mode) { setMode(mode.getAttribute('data-mode')); return; }
+    var jump = target.closest('[data-jump]');
+    if (jump) { closeDialog(el.dlgContents); jumpTo(jump.getAttribute('data-jump')); return; }
+    var btn = target.closest('[data-action]');
+    if (!btn) return;
+    switch (btn.getAttribute('data-action')) {
+      case 'next': go(1); break;
+      case 'back': go(-1); break;
+      case 'start':
+        save('lastSlide', null);
+        state.position = 0; go(1); break;
+      case 'resume': var r = resumeSlide(); if (r) jumpTo(r.id); else go(1); break;
+      case 'contents': openContents(); break;
+      case 'sources': openSources(btn.getAttribute('data-cite')); break;
+      case 'close': closeDialog(btn.closest('dialog')); break;
+      case 'language':
+        state.language = state.language === 'ru' ? 'en' : 'ru';
+        if (BOOK.languages.indexOf(state.language) < 0) state.language = BOOK.defaultLanguage;
+        save('language', state.language);
+        render(); break;
+      case 'theme':
+        state.theme = state.theme === 'dark' ? 'light' : 'dark';
+        save('theme', state.theme);
+        applyTheme(); render(); break;
+    }
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (dialogOpen() || e.altKey || e.ctrlKey || e.metaKey) return;
+    var tag = e.target && e.target.tagName;
+    var onControl = tag === 'BUTTON' || tag === 'A' || tag === 'INPUT';
+    var k = e.key;
+    if (k === 'ArrowRight' || k === 'PageDown' || (k === ' ' && !onControl)) {
+      e.preventDefault(); go(1);
+    } else if (k === 'ArrowLeft' || k === 'PageUp') {
+      e.preventDefault(); go(-1);
+    }
+  });
+
+  var touch = null;
+  el.story.addEventListener('pointerdown', function (e) {
+    if (e.pointerType === 'mouse' && e.button !== 0) return;
+    touch = { x: e.clientX, y: e.clientY, id: e.pointerId };
+  });
+  el.story.addEventListener('pointerup', function (e) {
+    if (!touch || touch.id !== e.pointerId || dialogOpen()) { touch = null; return; }
+    var dx = e.clientX - touch.x;
+    var dy = e.clientY - touch.y;
+    touch = null;
+    if (Math.abs(dx) >= 52 && Math.abs(dx) > 1.25 * Math.abs(dy)) go(dx < 0 ? 1 : -1);
+  });
+  el.story.addEventListener('pointercancel', function () { touch = null; });
+
+  applyTheme();
+  render();
+})();
+</script>
+</body>
+</html>

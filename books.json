@@ -1,0 +1,119 @@
+{
+  "schema": 1,
+  "genres": [
+    {
+      "id": "history",
+      "label": {
+        "ru": "История",
+        "en": "History"
+      }
+    },
+    {
+      "id": "management",
+      "label": {
+        "ru": "Управление",
+        "en": "Management"
+      }
+    },
+    {
+      "id": "ai-strategy",
+      "label": {
+        "ru": "AI и стратегия",
+        "en": "AI and strategy"
+      }
+    }
+  ],
+  "books": [
+    {
+      "slug": "1873",
+      "file": "1873.html",
+      "genre": "history",
+      "screenCount": 57,
+      "title": {
+        "ru": "1873",
+        "en": "1873"
+      },
+      "author": {
+        "ru": "Лиакват Ахамед",
+        "en": "Liaquat Ahamed"
+      },
+      "description": {
+        "ru": "Как железные дороги, дешёвый кредит, дефляция и крах в Вене запустили первый по-настоящему мировой экономический кризис — и собрали современный мир.",
+        "en": "How railways, cheap credit, deflation and the crash in Vienna triggered the first truly global economic crisis — and assembled the modern world."
+      },
+      "readingMinutes": {
+        "essential": 9,
+        "core": 20,
+        "deep": 30
+      },
+      "cover": {
+        "type": "year",
+        "mark": "1873",
+        "label": {
+          "ru": "Первая великая депрессия",
+          "en": "The first great depression"
+        }
+      }
+    },
+    {
+      "slug": "theory-of-constraints",
+      "file": "theory-of-constraints.html",
+      "genre": "management",
+      "screenCount": 96,
+      "title": {
+        "ru": "Теория ограничений",
+        "en": "Theory of Constraints"
+      },
+      "author": {
+        "ru": "Элияху Голдратт · корпус TOC",
+        "en": "Eliyahu Goldratt · the TOC corpus"
+      },
+      "description": {
+        "ru": "Как найти одно ограничение системы, подчинить ему поток, перестать оптимизировать локальные показатели и превратить улучшение в непрерывный процесс.",
+        "en": "How to find the system’s one constraint, subordinate the flow to it, stop optimising local metrics and turn improvement into a continuous process."
+      },
+      "readingMinutes": {
+        "essential": 12,
+        "core": 30,
+        "deep": 55
+      },
+      "cover": {
+        "type": "constraint",
+        "label": {
+          "ru": "Поток важнее занятости",
+          "en": "Flow beats busyness"
+        }
+      }
+    },
+    {
+      "slug": "hermes-nous",
+      "file": "hermes-nous.html",
+      "genre": "ai-strategy",
+      "screenCount": 50,
+      "title": {
+        "ru": "Hermes & Nous",
+        "en": "Hermes & Nous"
+      },
+      "author": {
+        "ru": "Разбор Мефистофеля · Observatory",
+        "en": "Mefistofel’s brief · Observatory"
+      },
+      "description": {
+        "ru": "Как лаборатория из Discord раздаёт модели и агента бесплатно, стоит $1,5 млрд — и почему вместо ещё одного агента полезнее строить пульт для чужих.",
+        "en": "How a lab born on Discord gives away its models and agent for free, is worth $1.5B — and why the useful move is a console for other people’s agents."
+      },
+      "readingMinutes": {
+        "essential": 9,
+        "core": 18,
+        "deep": 25
+      },
+      "cover": {
+        "type": "split",
+        "left": "Hermes",
+        "right": "Nous",
+        "leftLabel": "Agent",
+        "rightLabel": "Lab"
+      }
+    }
+  ]
+}

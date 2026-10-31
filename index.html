@@ -43,8 +43,8 @@
       --color-text: #100f0f;
       --color-text-muted: #6f6e69;
       --color-text-faint: #878580;
-      --color-primary: #5b2fc2;
-      --color-primary-soft: #e6def8;
+      --color-primary: #1c6c66;
+      --color-primary-soft: #ddf1e4;
       --color-on-primary: #fffcf0;
       --color-shadow: rgba(16, 15, 15, 0.12);
       --font-sans: "Geist", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -87,8 +87,8 @@
       --color-text: #e6e4d9;
       --color-text-muted: #9f9d96;
       --color-text-faint: #878580;
-      --color-primary: #8e6be8;
-      --color-primary-soft: #332651;
+      --color-primary: #2f968d;
+      --color-primary-soft: #122f2c;
       --color-on-primary: #100f0f;
       --color-shadow: rgba(0, 0, 0, 0.34);
     }
@@ -348,7 +348,7 @@
     .footer p { margin: 0; }
     .footer__links { display: flex; align-items: center; gap: var(--space-4); }
     .footer__format { font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.04em; text-transform: uppercase; white-space: nowrap; }
-    .contribute-link { padding-bottom: 2px; border-bottom: 1px solid currentColor; color: var(--color-text-muted); text-decoration: none; }
+    .contribute-link, .flexoki-credit { padding-bottom: 2px; border-bottom: 1px solid currentColor; color: var(--color-text-muted); text-decoration: none; }
 
     dialog {
       width: min(calc(100% - 2rem), 31rem);
@@ -458,7 +458,7 @@
       <p data-i18n="footer">Каждая книга хранит тему, язык и прогресс прямо в браузере.</p>
       <div class="footer__links">
         <a class="contribute-link" href="https://github.com/pavelnovikau/book-tiktok-library/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer" data-i18n="contribute">Добавить книгу</a>
-        <p class="footer__format">Standalone HTML · Flexoki</p>
+        <p class="footer__format"><span data-i18n="palette">Палитра</span>: <a class="flexoki-credit" href="https://stephango.com/flexoki" target="_blank" rel="noreferrer">Flexoki · Steph Ango</a></p>
       </div>
     </footer>
   </main>
@@ -492,7 +492,7 @@
           searchLabel: 'Поиск', searchPlaceholder: 'Название, автор или тема', sections: 'Разделы', collections: 'Подборки',
           allSections: 'Все', allCollections: 'Все подборки', open: 'Открыть книгу', minute: 'мин',
           loading: 'Загружаю каталог…', loadingShort: 'Загрузка', loadError: 'Каталог не загрузился. Обновите страницу.',
-          empty: 'По этим условиям книг пока нет.', contribute: 'Добавить книгу',
+          empty: 'По этим условиям книг пока нет.', contribute: 'Добавить книгу', palette: 'Палитра',
           footer: 'Каждая книга хранит тему, язык и прогресс прямо в браузере.',
           installTitle: 'Читать без строки Safari',
           installIntro: 'Обычная вкладка Safari не может скрыть адресную строку. Добавьте библиотеку на экран «Домой»: она откроется как отдельное полноэкранное приложение.',
@@ -506,7 +506,7 @@
           searchLabel: 'Search', searchPlaceholder: 'Title, author or topic', sections: 'Sections', collections: 'Collections',
           allSections: 'All', allCollections: 'All collections', open: 'Open book', minute: 'min',
           loading: 'Loading the catalogue…', loadingShort: 'Loading', loadError: 'The catalogue failed to load. Refresh the page.',
-          empty: 'No books match these filters yet.', contribute: 'Add a book',
+          empty: 'No books match these filters yet.', contribute: 'Add a book', palette: 'Palette',
           footer: 'Each book keeps its theme, language and progress in the browser.',
           installTitle: 'Read without the Safari bar',
           installIntro: 'A normal Safari tab cannot hide its address bar. Add the library to your Home Screen and it will open as a standalone full-screen app.',

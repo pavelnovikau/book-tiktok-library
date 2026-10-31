@@ -1,4 +1,4 @@
-const CACHE_NAME = 'book-tiktok-library-v2-20261031';
+const CACHE_NAME = 'book-tiktok-library-v2-20261031-cyan';
 const CORE = [
   './',
   './index.html',

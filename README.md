@@ -1,6 +1,6 @@
 # Book TikTok Library
 
-Public, contribution-friendly library of dense standalone book stories. Each book is a single bilingual HTML file with nested reading depths and Flexoki light/dark themes.
+Public, contribution-friendly library of dense standalone book stories. Each book is a single bilingual HTML file with nested reading depths and light/dark themes based on [Flexoki by Steph Ango](https://stephango.com/flexoki).
 
 Live site: https://book-tiktok-library.vercel.app
 

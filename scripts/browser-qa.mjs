@@ -134,15 +134,23 @@ const indexPhone = await evaluate(`(() => ({
   shelves: document.querySelectorAll('.shelf').length,
   stats: [bookStat.textContent, screenStat.textContent, sectionStat.textContent],
   overflow: document.documentElement.scrollWidth - innerWidth,
-  manifest: document.querySelector('link[rel="manifest"]')?.getAttribute('href')
+  manifest: document.querySelector('link[rel="manifest"]')?.getAttribute('href'),
+  primary: getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim(),
+  flexoki: document.querySelector('.flexoki-credit')?.href
 }))()`);
 assert(indexPhone.books === expectedBookCount, `phone index: expected ${expectedBookCount} books`);
 assert(indexPhone.shelves === expectedShelfCount, `phone index: expected ${expectedShelfCount} populated section shelves`);
 assert(indexPhone.overflow <= 1, `phone index overflow: ${indexPhone.overflow}px`);
 assert(indexPhone.manifest === './manifest.webmanifest', 'phone index: manifest link missing');
+assert(indexPhone.primary === '#2f968d', `phone index: unexpected dark action color ${indexPhone.primary}`);
+assert(indexPhone.flexoki === 'https://stephango.com/flexoki', 'phone index: official Flexoki credit missing');
 await evaluate(`languageButton.click(); themeButton.click();`);
-const toggled = await evaluate(`({ lang: document.documentElement.lang, theme: document.documentElement.dataset.theme })`);
-assert(toggled.lang === 'en' && toggled.theme === 'light', 'language/theme controls did not update state');
+const toggled = await evaluate(`({
+  lang: document.documentElement.lang,
+  theme: document.documentElement.dataset.theme,
+  primary: getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim()
+})`);
+assert(toggled.lang === 'en' && toggled.theme === 'light' && toggled.primary === '#1c6c66', 'language/theme controls or quiet action color did not update state');
 await evaluate(`searchInput.value = 'Theory'; searchInput.dispatchEvent(new Event('input', { bubbles: true }));`);
 await waitFor(async () => (await evaluate(`document.querySelectorAll('.book').length`)) === 1, 'catalogue search');
 await evaluate(`navigator.serviceWorker.ready.then(() => true)`);
@@ -156,11 +164,14 @@ for (const book of books) {
     return {
       controls: controls.length,
       inside: controls.every(node => { const rect = node.getBoundingClientRect(); return rect.left >= -1 && rect.right <= innerWidth + 1; }),
-      overflow: document.documentElement.scrollWidth - innerWidth
+      overflow: document.documentElement.scrollWidth - innerWidth,
+      primary: getComputedStyle(document.documentElement).getPropertyValue('--color-primary').trim(),
+      onPrimary: getComputedStyle(document.documentElement).getPropertyValue('--color-on-primary').trim()
     };
   })()`);
   assert(compact.inside, `${book}: topbar control escaped the 320px viewport`);
   assert(compact.overflow <= 1, `${book}: 320px overflow: ${compact.overflow}px`);
+  assert(compact.primary === '#2f968d' && compact.onPrimary === '#100f0f', `${book}: quiet dark action colors were not applied`);
 }
 
 await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });

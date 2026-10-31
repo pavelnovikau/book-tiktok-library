@@ -7,6 +7,10 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const chromeBinary = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
+const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
+const expectedBookCount = catalogue.books.length;
+const expectedShelfCount = new Set(catalogue.books.map(book => book.section)).size;
+const books = catalogue.books.map(book => book.file);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let server;
 let chrome;
@@ -123,7 +127,7 @@ await command('Runtime.enable');
 await command('Log.enable');
 await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
 
-await navigate('', "document.querySelectorAll('.book').length === 4");
+await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
 const indexPhone = await evaluate(`(() => ({
   books: document.querySelectorAll('.book').length,
   shelves: document.querySelectorAll('.shelf').length,
@@ -131,8 +135,8 @@ const indexPhone = await evaluate(`(() => ({
   overflow: document.documentElement.scrollWidth - innerWidth,
   manifest: document.querySelector('link[rel="manifest"]')?.getAttribute('href')
 }))()`);
-assert(indexPhone.books === 4, 'phone index: expected four books');
-assert(indexPhone.shelves === 4, 'phone index: expected four populated section shelves');
+assert(indexPhone.books === expectedBookCount, `phone index: expected ${expectedBookCount} books`);
+assert(indexPhone.shelves === expectedShelfCount, `phone index: expected ${expectedShelfCount} populated section shelves`);
 assert(indexPhone.overflow <= 1, `phone index overflow: ${indexPhone.overflow}px`);
 assert(indexPhone.manifest === './manifest.webmanifest', 'phone index: manifest link missing');
 await evaluate(`languageButton.click(); themeButton.click();`);
@@ -142,7 +146,23 @@ await evaluate(`searchInput.value = 'Theory'; searchInput.dispatchEvent(new Even
 await waitFor(async () => (await evaluate(`document.querySelectorAll('.book').length`)) === 1, 'catalogue search');
 await evaluate(`navigator.serviceWorker.ready.then(() => true)`);
 
-const books = ['1873.html', 'theory-of-constraints.html', 'hermes-nous.html', 'akselerando.html'];
+await command('Emulation.setDeviceMetricsOverride', { width: 320, height: 568, deviceScaleFactor: 2, mobile: true });
+for (const book of books) {
+  await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
+  const compact = await evaluate(`(() => {
+    const controls = [...document.querySelectorAll('.app-header .topbar a, .app-header .topbar button, .topbar a, .topbar button')]
+      .filter(node => getComputedStyle(node).display !== 'none');
+    return {
+      controls: controls.length,
+      inside: controls.every(node => { const rect = node.getBoundingClientRect(); return rect.left >= -1 && rect.right <= innerWidth + 1; }),
+      overflow: document.documentElement.scrollWidth - innerWidth
+    };
+  })()`);
+  assert(compact.inside, `${book}: topbar control escaped the 320px viewport`);
+  assert(compact.overflow <= 1, `${book}: 320px overflow: ${compact.overflow}px`);
+}
+
+await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
 for (const book of books) {
   await navigate(book, "document.getElementById('story') && document.getElementById('story').children.length > 0");
   await evaluate(`(() => {
@@ -201,7 +221,7 @@ assert(runtimeErrors.length === 0, `browser errors: ${runtimeErrors.join(' | ')}
 console.log(JSON.stringify({
   index: indexPhone,
   readers: books.length,
-  phone: '390x844',
+  phone: '320x568 and 390x844',
   desktop: '1440x900',
   focusMode: 'passed',
   runtimeErrors: runtimeErrors.length

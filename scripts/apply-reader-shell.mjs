@@ -147,6 +147,11 @@ function replaceBlock(html, start, end, block) {
   return pattern.test(html) ? html.replace(pattern, block.trimStart()) : null;
 }
 
+function withoutBlock(html, start, end) {
+  const pattern = new RegExp(`${start}[\\s\\S]*?${end}\\s*`, 'm');
+  return html.replace(pattern, '');
+}
+
 for (const filename of files) {
   const filePath = path.resolve(root, filename);
   if (!filePath.startsWith(`${root}${path.sep}`)) throw new Error(`Refusing path outside repository: ${filename}`);
@@ -157,10 +162,16 @@ for (const filename of files) {
   else if (html.includes('</head>')) html = html.replace('</head>', `${headBlock}</head>`);
   else throw new Error(`${filename}: missing </head>`);
 
-  const updatedBody = replaceBlock(html, '<!-- book-library-focus:start -->', '<!-- book-library-focus:end -->', bodyBlock);
-  if (updatedBody !== null) html = updatedBody;
-  else if (html.includes('</body>')) html = html.replace('</body>', `${bodyBlock}</body>`);
-  else throw new Error(`${filename}: missing </body>`);
+  const bodyWithoutInjectedFocus = withoutBlock(html, '<!-- book-library-focus:start -->', '<!-- book-library-focus:end -->');
+  const hasBuiltInFocus = bodyWithoutInjectedFocus.includes('bookFocusMode:');
+  if (hasBuiltInFocus) {
+    html = bodyWithoutInjectedFocus;
+  } else {
+    const updatedBody = replaceBlock(html, '<!-- book-library-focus:start -->', '<!-- book-library-focus:end -->', bodyBlock);
+    if (updatedBody !== null) html = updatedBody;
+    else if (html.includes('</body>')) html = html.replace('</body>', `${bodyBlock}</body>`);
+    else throw new Error(`${filename}: missing </body>`);
+  }
 
   fs.writeFileSync(filePath, html);
   console.log(`Updated ${filename}`);

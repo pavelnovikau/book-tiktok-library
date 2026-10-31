@@ -1,0 +1,90 @@
+{
+  "slug": "why-zebras-dont-get-ulcers",
+  "status": "ready-for-independent-check",
+  "contentMode": "explanatory",
+  "deliverables": [
+    {
+      "path": "collector-output/why-zebras-dont-get-ulcers/story-data.json",
+      "sha256": "91ae466b3da4d53ada52a195893a9367a5ab78f070c3ef36271d8e11e7c5d067"
+    },
+    {
+      "path": "collector-output/why-zebras-dont-get-ulcers/why-zebras-dont-get-ulcers.html",
+      "sha256": "f0768a2d8acbcde038ddb2aafaf774803dec4ec6bf818dab1e583e83d38fd901"
+    },
+    {
+      "path": "collector-output/why-zebras-dont-get-ulcers/sources.md",
+      "sha256": "423d3517d2fffd759f7a2dc7e28fae166ebcafa4bcbed79e1d6fc62d23435b01"
+    },
+    {
+      "path": "collector-output/why-zebras-dont-get-ulcers/QA.md",
+      "sha256": "46e2fac3e60c683ca95ecc7b27f709e391a731e3b0c5baba3a52321941eb57a4"
+    }
+  ],
+  "counts": {
+    "essential": 25,
+    "core": 42,
+    "deep": 51
+  },
+  "reviewedPairs": {
+    "oldDistinct": 144,
+    "oldRootEmbedded": 144,
+    "oldCollectorEmbedded": 144,
+    "oldMeaningfulDivergences": 0,
+    "replacementDistinct": 51
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/why-zebras-dont-get-ulcers.md",
+  "reportSha256": "cd55bdb8af73c9dda821f58d5599171bf10f3e77d26347b35b491208ac918504",
+  "sourceScope": "Owned complete RU EPUB available; key argument passages and selected supported examples across chapters 1–18 consulted. Not continuous full-edition reading, all-notes verification or English-edition collation. Three explicitly attributed current clinical sources.",
+  "changes": [
+    "Rebuilt all 51 pairs as connected explanatory prose",
+    "Reduced cumulative counts 36/90/144 to 25/42/51",
+    "Restored source-supported opening and concrete author examples",
+    "Removed editorial synthesis exercises, quota padding and most standalone methodological interruptions",
+    "Set default RU/dark/Essential and contentMode explanatory"
+  ],
+  "checks": {
+    "maintainedBuild": "pass",
+    "maintainedHtmlAudit": "69 passes, 0 warnings/failures",
+    "browser": "all 51 screens x 2 languages x 2 themes x 2 viewports; no overflow/runtime errors/remote requests; sources and mode endings pass",
+    "screenshotsInspected": true
+  },
+  "unresolvedIssues": [
+    "Independent editorial/source review and publisher integration required; no whole-book fidelity certificate",
+    "Root catalogue/reader unchanged; publisher must update counts/times/description and consider removed resume IDs",
+    "Real-device iPhone/PWA behavior not tested by this worker"
+  ],
+  "publisherMetadataProposal": {
+    "description": {
+      "ru": "Как короткая реакция спасения становится хронической нагрузкой: объяснения и примеры Роберта Сапольски.",
+      "en": "How a brief survival response becomes a chronic burden: Robert Sapolsky’s explanations and examples."
+    },
+    "screenCount": 51,
+    "readingMinutesByLanguage": {
+      "ru": {
+        "essential": 7,
+        "core": 12,
+        "deep": 15
+      },
+      "en": {
+        "essential": 7,
+        "core": 11,
+        "deep": 13
+      }
+    },
+    "defaultLanguage": "ru",
+    "defaultTheme": "dark",
+    "defaultMode": "essential",
+    "contentMode": "explanatory",
+    "spoilerPolicy": "not-applicable"
+  },
+  "parentCorrections": {
+    "findings": [
+      "ZEBRA-REQ-01"
+    ],
+    "changedScreens": [
+      "rat-care"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/why-zebras-dont-get-ulcers-meaning-fix-closure.json"
+  }
+}

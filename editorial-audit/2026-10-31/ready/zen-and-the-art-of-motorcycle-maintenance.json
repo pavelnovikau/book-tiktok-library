@@ -1,0 +1,157 @@
+{
+  "slug": "zen-and-the-art-of-motorcycle-maintenance",
+  "group": 6,
+  "date": "2026-10-31",
+  "status": "ready-for-independent-check",
+  "editorialVerdict": "REBUILD implemented; primary-supported selected condensation; independent editorial approval pending",
+  "deliverables": [
+    {
+      "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/story-data.json",
+      "sha256": "f24012b680bc7d4206c050829ca8e0c7d5be3f6acde193651f3fa3891b4c38fc",
+      "bytes": 87130
+    },
+    {
+      "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/zen-and-the-art-of-motorcycle-maintenance.html",
+      "sha256": "d30f0d41e0f1f7fd7c561088b9d7200ec5fa63864217c78fd947bc28160803d0",
+      "bytes": 330082
+    },
+    {
+      "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/sources.md",
+      "sha256": "09da5ecb27fc07377083f9c5efacde4d6328054eea73189d5d94954a0d2583e7",
+      "bytes": 7821
+    },
+    {
+      "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/QA.md",
+      "sha256": "954417de2fcc7f5c5e290b06458e27e8cd465afaba59687030716cdd0dbc3129",
+      "bytes": 6193
+    }
+  ],
+  "report": {
+    "path": "editorial-audit/2026-10-31/books/zen-and-the-art-of-motorcycle-maintenance.md",
+    "sha256": "5f20ae81264af0e33ec384e9da12fe5ee2269a9fceda13010fab05a3bd19a267",
+    "bytes": 15809
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/zen-and-the-art-of-motorcycle-maintenance.md",
+  "counts": {
+    "essential": 20,
+    "core": 38,
+    "deep": 52
+  },
+  "previousCounts": {
+    "essential": 36,
+    "core": 90,
+    "deep": 144
+  },
+  "reviewedPairs": {
+    "existingAuthoring": 144,
+    "existingCollectorEmbeddedCompared": 144,
+    "existingPublishedEmbeddedCompared": 144,
+    "uniqueExistingPairsRead": 144,
+    "rewrittenPairsRead": 52,
+    "finalCollectorEmbeddedCompared": 52
+  },
+  "contentMode": "narrative",
+  "contentRevision": "2026-10-31-editorial-rebuild",
+  "spoilerPolicy": "full-plot-in-deep",
+  "readingMinutes": {
+    "ru": {
+      "essential": 7,
+      "core": 12,
+      "deep": 17
+    },
+    "en": {
+      "essential": 6,
+      "core": 12,
+      "deep": 16
+    }
+  },
+  "sourceScope": {
+    "work": "Robert M. Pirsig, Zen and the Art of Motorcycle Maintenance: An Inquiry into Values (1974)",
+    "primary": "Existing personal Russian Apple Books EPUB, translator credited M. Nemtsov; read-only",
+    "conversionIdentity": {
+      "documentUUID": "25a2e2f2-4c07-41e2-8662-55c0b0139c04",
+      "version": 1,
+      "documentDate": "2009-08-02"
+    },
+    "completeEditionAvailable": true,
+    "completeContinuousBookRead": false,
+    "actualReading": "Substantial selected plot/argument passages across all 32 chapters; prefatory note and chapters 21, 23, 27, 31, 32 read in full",
+    "completeEnglishEditionCompared": false,
+    "publicOrientationURL": "https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/",
+    "privateTextInPublicRepository": false,
+    "wholeBookFidelityCertified": false
+  },
+  "exactChanges": [
+    "Replaced all 144 analytic-companion pairs with 52 original narrative/argument pairs; removed 92 repeated interpretive/method screens.",
+    "Restored concrete scenes and humour: empty fuel/reserve memory, beer-can disagreement, Chris folding the instructions, campus recognition, teaching experiments, hike/descent and father/son ending.",
+    "Kept the actual scientific-method/hypothesis/Quality/Tao/Poincare/gumption/Greek-rhetoric sequence and the narrator’s own reservations, with original example versus actual trip distinguished.",
+    "Removed digest-writer lessons, invented diagnostic example, external critical lectures, late biography and sequel doctrine from the reading route.",
+    "Set narrative content mode and explicit full-plot-in-deep policy; retained Core identity disclosure, warning before decisive ending and spoiler-safe global copy.",
+    "Replaced generic system/idea/consequence and take-away-model cover art with an original inline road/ridge SVG.",
+    "Rebuilt descriptive HTML with maintained builder; replaced obsolete sources and QA with exact access/edition limits and final checks."
+  ],
+  "checks": {
+    "substantiveSelfCheck": "All 52 changed RU/EN pairs and all three nested reading sequences checked",
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browser": {
+      "engine": "Owned headless Chrome via CDP, file://",
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "screenVisits": 1760,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "httpRequests": 0,
+      "runtimeErrors": 0,
+      "horizontalOverflow": false,
+      "narrativeBadgesSuppressed": true,
+      "sourcesAvailable": true,
+      "focusToggle": true,
+      "savedDeepReturnsToCoverWithGenericWarning": true,
+      "retiredBookmarkReturnsToCover": true,
+      "coverStartReachable": true,
+      "ownedChromeAndProfileLeftovers": 0
+    },
+    "physicalSafariPWATested": false,
+    "productionTested": false
+  },
+  "unresolvedIssues": [
+    "Exact print edition/ISBN and historical authorization of the old personal conversion are not established by its metadata.",
+    "EN translates the primary-grounded Russian account; no complete original-English edition comparison, and no continuous line-by-line whole-book reading is claimed.",
+    "Chapter 32 conversion gaps were not reconstructed; only intact closing passages are used. No later authorial afterword was available.",
+    "Independent publisher must read every revised pair and the resulting story/argument before integration. Global physical iPhone/PWA header investigation remains publisher-owned."
+  ],
+  "publisherAttention": [
+    "Root reader remains the old 144-pair delivery in this worker scope. Integrate only after independent editorial checking.",
+    "Catalogue screenCount 52, nested 20/38/52, RU minutes 7/12/17; EN 6/12/16. Preserve hybrid philosophical-novel discovery classification.",
+    "Carry narrative mode, explicit spoilerPolicy, contentRevision and supported local cover media into the root. Preserve maintained cover-first reload and generic Deep Continue.",
+    "Do not map deleted old screen IDs to arbitrary positions; missing bookmarks must fall back to the cover."
+  ],
+  "independentReviewComplete": false,
+  "publishedByWorker": false
+}

@@ -1,0 +1,531 @@
+{
+  "slug": "the-lost-world",
+  "verdict": "REQUIRES-FIXES",
+  "reviewStatus": "complete",
+  "date": "2026-10-31",
+  "reviewType": "new-independent-content-review",
+  "reviewedArtifacts": [
+    {
+      "path": "collector-output/the-lost-world/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/story-data.json",
+      "sha256": "55ecf9f7f94997a63b6caaa80c2b5300994fa63f1e6dcdd3ed7d1cb14f95a61f",
+      "bytes": 49994
+    },
+    {
+      "path": "collector-output/the-lost-world/the-lost-world.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/the-lost-world.html",
+      "sha256": "9d09d2c862b816fb08ee52f94744db9f22a8b98fd978c5349c84ff3611cf543b",
+      "bytes": 298941
+    },
+    {
+      "path": "collector-output/the-lost-world/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/sources.md",
+      "sha256": "acd711c7e1e1a5a63c7dd3d6047c43e4764337e6d086aa0e85e71d738a144b93",
+      "bytes": 3257
+    },
+    {
+      "path": "collector-output/the-lost-world/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/QA.md",
+      "sha256": "e7b82d69c02c612d480e43b0a8068174cf240a221e6f95c18980b10b4870def8",
+      "bytes": 7427
+    }
+  ],
+  "storyDataPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/story-data.json",
+  "storyDataSha256": "55ecf9f7f94997a63b6caaa80c2b5300994fa63f1e6dcdd3ed7d1cb14f95a61f",
+  "collectorHtmlPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/the-lost-world.html",
+  "collectorHtmlSha256": "9d09d2c862b816fb08ee52f94744db9f22a8b98fd978c5349c84ff3611cf543b",
+  "readyManifest": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/the-lost-world.json",
+    "sha256": "e43efbf2af603b542f610417b0327d4aba273781fc4b64563fc23936ea83a258",
+    "bytes": 5218,
+    "snapshot": {
+      "slug": "the-lost-world",
+      "status": "ready-for-independent-check",
+      "date": "2026-10-31",
+      "verdict": "REBUILD",
+      "deliverables": [
+        {
+          "path": "collector-output/the-lost-world/story-data.json",
+          "sha256": "55ecf9f7f94997a63b6caaa80c2b5300994fa63f1e6dcdd3ed7d1cb14f95a61f",
+          "bytes": 49994
+        },
+        {
+          "path": "collector-output/the-lost-world/the-lost-world.html",
+          "sha256": "9d09d2c862b816fb08ee52f94744db9f22a8b98fd978c5349c84ff3611cf543b",
+          "bytes": 298941
+        },
+        {
+          "path": "collector-output/the-lost-world/sources.md",
+          "sha256": "acd711c7e1e1a5a63c7dd3d6047c43e4764337e6d086aa0e85e71d738a144b93",
+          "bytes": 3257
+        },
+        {
+          "path": "collector-output/the-lost-world/QA.md",
+          "sha256": "e7b82d69c02c612d480e43b0a8068174cf240a221e6f95c18980b10b4870def8",
+          "bytes": 7427
+        }
+      ],
+      "counts": {
+        "originalUniqueReviewedPairs": 144,
+        "publishedPairsCompared": 144,
+        "collectorHtmlPairsCompared": 144,
+        "rebuiltPairsRead": 34,
+        "before": {
+          "essential": 36,
+          "core": 90,
+          "deep": 144
+        },
+        "after": {
+          "essential": 13,
+          "core": 23,
+          "deep": 34
+        }
+      },
+      "reportPath": "editorial-audit/2026-10-31/books/the-lost-world.md",
+      "reportSha256": "24f19eb62f2ae6dc1121a78e13372fb61b11ad8d800d29addf2343fe46a9ee2a",
+      "sourceScope": {
+        "workAndEdition": "Arthur Conan Doyle, The Lost World (1912), English novel, Project Gutenberg #139, I–XVI.",
+        "actualReading": "Complete lawful source retrieved privately. Selected chronological narrative runs spanning the full plot and close checks of retained incidents; no claim of continuous every-paragraph reading or whole-book fidelity.",
+        "primaryUrls": [
+          "https://www.gutenberg.org/cache/epub/139/pg139-images.html"
+        ],
+        "retainedSceneMap": "collector-output/the-lost-world/sources.md",
+        "wholeBookFidelityCertified": false,
+        "privateFullTextInPublicRepository": false,
+        "residualLimits": [
+          "No continuous word-for-word reading of the complete English source is claimed.",
+          "No scientific/anthropological validation or published Russian-translation fidelity is claimed."
+        ]
+      },
+      "exactChanges": [
+        "Replaced lessons about heroism, evidence and competence with the Gladys–Challenger–plateau story. Restored peril, comedy, battle and enslavement without adopting racial rankings. Corrected the predator/balloon order; put all public, romantic and financial resolutions in Deep; kept the escaped animal’s final fate uncertain.",
+        "Essential/Core stop at the wrecked camp. The rescue, warfare, escape and homecoming continue only in Deep.",
+        "Replaced story and source/method copy; set narrative mode and explicit full-plot-in-deep policy; derived new nested counts.",
+        "Preserved/restored book-local consent, safe contents and saved-progress guards; retained book-specific cover; neutralized irrelevant cover evidence captions."
+      ],
+      "unresolvedIssues": [
+        "No continuous word-for-word reading of the complete English source is claimed.",
+        "No scientific/anthropological validation or published Russian-translation fidelity is claimed."
+      ],
+      "sourceAccessBlocks": [],
+      "validation": {
+        "structural": {
+          "passes": 69,
+          "warnings": 0,
+          "failures": 0
+        },
+        "browser": {
+          "viewports": [
+            [
+              320,
+              568
+            ],
+            [
+              1440,
+              900
+            ]
+          ],
+          "languages": [
+            "ru",
+            "en"
+          ],
+          "themes": [
+            "dark",
+            "light"
+          ],
+          "modes": [
+            "essential",
+            "core",
+            "deep"
+          ],
+          "visits": 560,
+          "runtimeExceptions": 0,
+          "externalRuntimeRequests": 0,
+          "horizontalOverflowPx": 0,
+          "profilesRemoved": true,
+          "testedHtmlSha256": "9d09d2c862b816fb08ee52f94744db9f22a8b98fd978c5349c84ff3611cf543b",
+          "physicalSafariTested": false
+        },
+        "embeddedDataMatchesAuthoring": true,
+        "substantiveSelfCheck": "The Essential route explicitly introduces Challenger’s participation and includes Malone’s lake/pit episode before he climbs out of the trap. Both full language sequences and each nested route were read for antecedents and causal links.",
+        "independentReviewPerformed": false
+      },
+      "publisherAttention": [
+        "Preserve local consent/contents/navigation guards: the plain builder does not implement them.",
+        "Keep narrative mode; update publisher-owned catalogue counts and reading estimates.",
+        "Preserve the book-local cover and collector/root Home target behavior.",
+        "Perform independent editorial check before integration/publication."
+      ],
+      "buildAssets": [
+        {
+          "path": "skills/book-tiktok/scripts/build_story.mjs",
+          "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+        },
+        {
+          "path": "skills/book-tiktok/assets/standalone-template.html",
+          "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+        },
+        {
+          "path": "skills/book-tiktok/assets/reader-header.html",
+          "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+        }
+      ],
+      "publicationPerformed": false
+    },
+    "declaredDeliverablesMatchCurrentHashes": true
+  },
+  "authorHandoff": {
+    "path": "editorial-audit/2026-10-31/group-1.json",
+    "sha256": "f79eaac08671356a2803f70926b2aa0f9a443f15aa3102238993e6c5b1176986"
+  },
+  "actualReading": {
+    "uniqueRuEnPairs": 34,
+    "uniqueLanguageScreens": 68,
+    "allCopyFieldsRead": true,
+    "screenIdsRead": [
+      "cover",
+      "borrowed-heroism",
+      "deceptive-letter",
+      "exposed",
+      "maple-white",
+      "missing-specimen",
+      "committee",
+      "roxton-test",
+      "blank-envelope",
+      "hidden-waterway",
+      "stork-dispute",
+      "white-traces",
+      "summerlee-revises",
+      "tree-bridge",
+      "gomez-revenge",
+      "fort-challenger",
+      "rookery-error",
+      "predator-fire",
+      "tree-map",
+      "night-alone",
+      "lake-discoveries",
+      "empty-camp",
+      "full-spoiler-warning",
+      "roxton-returns",
+      "rescue",
+      "campaign",
+      "helpful-captivity",
+      "balloon",
+      "bark-map",
+      "descent",
+      "queens-hall",
+      "gladys-ending",
+      "diamonds-choice",
+      "final"
+    ],
+    "routes": {
+      "essential": {
+        "pairCount": 13,
+        "screenIds": [
+          "cover",
+          "borrowed-heroism",
+          "exposed",
+          "maple-white",
+          "committee",
+          "hidden-waterway",
+          "tree-bridge",
+          "fort-challenger",
+          "tree-map",
+          "night-alone",
+          "lake-discoveries",
+          "empty-camp",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "reading": "Complete cumulative sequence, including cover, warning where present, and final; read as connected narrative."
+      },
+      "core": {
+        "pairCount": 23,
+        "screenIds": [
+          "cover",
+          "borrowed-heroism",
+          "deceptive-letter",
+          "exposed",
+          "maple-white",
+          "missing-specimen",
+          "committee",
+          "roxton-test",
+          "blank-envelope",
+          "hidden-waterway",
+          "stork-dispute",
+          "white-traces",
+          "summerlee-revises",
+          "tree-bridge",
+          "gomez-revenge",
+          "fort-challenger",
+          "rookery-error",
+          "predator-fire",
+          "tree-map",
+          "night-alone",
+          "lake-discoveries",
+          "empty-camp",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "reading": "Complete cumulative sequence, including cover, warning where present, and final; read as connected narrative."
+      },
+      "deep": {
+        "pairCount": 34,
+        "screenIds": [
+          "cover",
+          "borrowed-heroism",
+          "deceptive-letter",
+          "exposed",
+          "maple-white",
+          "missing-specimen",
+          "committee",
+          "roxton-test",
+          "blank-envelope",
+          "hidden-waterway",
+          "stork-dispute",
+          "white-traces",
+          "summerlee-revises",
+          "tree-bridge",
+          "gomez-revenge",
+          "fort-challenger",
+          "rookery-error",
+          "predator-fire",
+          "tree-map",
+          "night-alone",
+          "lake-discoveries",
+          "empty-camp",
+          "full-spoiler-warning",
+          "roxton-returns",
+          "rescue",
+          "campaign",
+          "helpful-captivity",
+          "balloon",
+          "bark-map",
+          "descent",
+          "queens-hall",
+          "gladys-ending",
+          "diamonds-choice",
+          "final"
+        ],
+        "languagesRead": [
+          "ru",
+          "en"
+        ],
+        "reading": "Complete cumulative sequence, including cover, warning where present, and final; read as connected narrative."
+      }
+    },
+    "routePairPositionsIncludingOverlap": 70,
+    "collectorEmbeddedScreensMatchAuthoring": true,
+    "collectorOnlyMetadataAddition": "modes (display labels and time estimates)",
+    "oldRoot": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-lost-world.html",
+      "sha256": "d59981dd6230f09b57326dc898dee69de70806a1375fb0b5b52f1852ebe248a5",
+      "embeddedPairs": 144,
+      "matchesRevisedCorpus": false,
+      "reviewedForThisApproval": false
+    }
+  },
+  "sourceScope": {
+    "workAndEdition": "Arthur Conan Doyle, The Lost World (1912), English Project Gutenberg #139, chapters I–XVI. Local witness identifies Judith Boss; HTML Al Haines; update 2024-10-29.",
+    "witnessPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/the-lost-world/primary.txt",
+    "witnessSha256": "9fa6ee046745c09b5077f68c232f210ac672196d27e25b1aca13dbc643805c65",
+    "completeWitnessAvailable": true,
+    "continuousFullBookReadingPerformed": false,
+    "actualMethod": "Independent close reading of retained scenes in the primary source and surrounding narrative runs across I–XVI; not a continuous every-paragraph reading of the whole novel. Author report and ledger read as scope claims, not accepted as proof.",
+    "russianText": "Original condensation, not a published Russian translation.",
+    "primaryScenesActuallyChecked": [
+      {
+        "chapters": "I–III",
+        "screenIds": [
+          "borrowed-heroism",
+          "deceptive-letter",
+          "exposed"
+        ],
+        "checked": "Gladys’s ideal; McArdle’s assignment; borrowed scientific passage; rude appointment; exposure, fight, policeman and invitation back."
+      },
+      {
+        "chapters": "IV",
+        "screenIds": [
+          "maple-white",
+          "missing-specimen"
+        ],
+        "checked": "White’s body and sketchbook; dinosaur scale; ruined photographs; shot pterodactyl and surviving wing; Malone’s conviction."
+      },
+      {
+        "chapters": "V–VII",
+        "screenIds": [
+          "committee",
+          "roxton-test",
+          "blank-envelope"
+        ],
+        "checked": "Lecture uproar and three volunteers; resolved Ballinger emergency used as a test; equipment; Roxton’s anti-slavery action; personnel; blank envelope and Challenger’s arrival."
+      },
+      {
+        "chapters": "VIII",
+        "screenIds": [
+          "hidden-waterway",
+          "stork-dispute"
+        ],
+        "checked": "Reed-hidden passage, clear forest river, abandoned canoes, climbing vegetation, ambiguous flying creature and Roxton’s reservation."
+      },
+      {
+        "chapters": "IX",
+        "screenIds": [
+          "white-traces",
+          "summerlee-revises",
+          "tree-bridge",
+          "gomez-revenge"
+        ],
+        "checked": "Colver’s bones, arrows and blocked tunnel; falling stone; stolen supper and handshake; pinnacle tree, crossing, Gomez’s Lopez revenge, shooting and Manuel’s death; Zambo and supplies."
+      },
+      {
+        "chapters": "X",
+        "screenIds": [
+          "fort-challenger",
+          "rookery-error"
+        ],
+        "checked": "Thorn enclosure and water; iguanodon family; pterodactyl sentries, attack, rifle and flight into trees."
+      },
+      {
+        "chapters": "XI",
+        "screenIds": [
+          "predator-fire",
+          "tree-map"
+        ],
+        "checked": "Night cries; Roxton’s torch and uncertain classification; exit argument; tree ascent, face, panorama, chart and Lake Gladys."
+      },
+      {
+        "chapters": "XII",
+        "screenIds": [
+          "night-alone",
+          "lake-discoveries",
+          "empty-camp"
+        ],
+        "checked": "Malone’s pride, Gladys/newspaper motives, fear, shotgun; cave fires; stegosaurus; pursuit and staked pit; prior distant shot, open gate, scattered stores, blood, absent friends, intact rifles, Zambo and messenger."
+      },
+      {
+        "chapters": "XIII–XIV",
+        "screenIds": [
+          "roxton-returns",
+          "rescue"
+        ],
+        "checked": "Roxton’s physical state and capture account; Challenger/king likeness and partial favour; planned executions; gunfire rescue; surviving Accala; Maretas rejects paternal handling."
+      },
+      {
+        "chapters": "XIV",
+        "screenIds": [
+          "campaign"
+        ],
+        "checked": "Chief’s son, proposed campaign, Summerlee’s objections; combat and firearm intervention; Challenger’s conquest speech, Malone’s tragic-means qualification; extermination, town destruction and enslavement."
+      },
+      {
+        "chapters": "XV",
+        "screenIds": [
+          "helpful-captivity",
+          "balloon"
+        ],
+        "checked": "Independent camp near caves and reluctant hosts; two predators, ineffective rifles, narrow stairs and poison arrows; gas, reptile stomach, lift test, bodily chain and snapped rope."
+      },
+      {
+        "chapters": "XV",
+        "screenIds": [
+          "bark-map",
+          "descent"
+        ],
+        "checked": "Maretas’s secret bark chart; eighteen caves, false dead end, missed fork, moonlit opening; secret descent with Challenger’s baggage; relief fires and river party."
+      },
+      {
+        "chapters": "XVI",
+        "screenIds": [
+          "queens-hall",
+          "gladys-ending",
+          "diamonds-choice"
+        ],
+        "checked": "Demand for evidence, live specimen and window escape; public procession; explicitly uncertain later animal fate; Gladys Potts and solicitor’s clerk; blue-clay diamonds, valuation, equal shares, future plans and offered hand."
+      }
+    ]
+  },
+  "requiredFindings": [
+    {
+      "id": "LW-REQ-01",
+      "screenId": "empty-camp",
+      "category": [
+        "unsupported_action",
+        "altered_scene_evidence"
+      ],
+      "severity": "medium",
+      "affectedRoutes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "problematicWording": {
+        "ru": "Ограда развалена, вещи разбросаны, товарищи исчезли. Он зовёт их и стреляет, но ответа нет.",
+        "en": "The hedge is wrecked, belongings scattered, his companions gone. He calls and fires, but no answer comes."
+      },
+      "effectOnMeaning": "Changes the physical evidence of the disappearance and adds an unrecorded shot by Malone. In the primary scene the enclosure is as he left it, except that its gate is open. The lone shot occurred before his arrival; the empty cartridge belongs to Roxton, whose capture account explains it. This is a concrete alteration of the mystery scene, not a prose preference.",
+      "primarySupport": {
+        "work": "The Lost World",
+        "chapter": "XII; XIII",
+        "url": "https://www.gutenberg.org/cache/epub/139/pg139-images.html",
+        "localPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/the-lost-world/primary.txt",
+        "lineRanges": [
+          "5589–5645",
+          "5798–5810"
+        ],
+        "anchors": [
+          "And suddenly there came something to remind me of my absent companions.",
+          "The zareba rose before me, even as I had left it, but the gate was open.",
+          "one of them--Lord John's--had the empty cartridge in the breech.",
+          "I shot one of them through the belly"
+        ]
+      },
+      "smallestSourceSupportedCorrection": {
+        "ru": "Заменить разрушенную ограду на открытый вход: «Вход в ограду открыт, вещи разбросаны, товарищи исчезли». Удалить «и стреляет», оставив безответные крики.",
+        "en": "Change the wrecked hedge to an open gate: “The gate stands open, belongings are scattered, his companions are gone.” Remove “and fires”; retain his unanswered calls."
+      },
+      "closureValidation": "Parent may make this local bilingual correction; publisher must check the revised wording against XII and record new story-data/collector HTML hashes. Do not regenerate with a shell that loses book-local guards."
+    }
+  ],
+  "optionalFindings": [],
+  "readerJudgment": {
+    "story": "The repaired corpus is an engaging, recognisable adventure rather than a lesson series. Gladys’s ambition, Challenger’s swagger, Summerlee’s resistance, Roxton’s action, exploration, fear, violent alliance and comic/romantic/material endings survive.",
+    "routes": "Essential/Core coherently stop at the missing companions; they are declared shorter routes rather than failed full-book summaries. Deep carries rescue, war, escape and all London resolutions.",
+    "parity": "No material RU/EN reversal found; the required source error is shared by both languages.",
+    "authorReflections": "Malone’s unease over conquest is supported in XIV and is not rejected as editorial moralising. No exercise or management lesson found.",
+    "uncertainty": "Later pterodactyl fate remains uncertain. Fictional animals/geography are read as the novel’s world, not empirical assertions."
+  },
+  "handoffSafeguards": {
+    "contentMode": "narrative",
+    "spoilerPolicy": "full-plot-in-deep",
+    "bookLocalRuntimeInspectedStatically": true,
+    "preserve": [
+      "Session-only Deep consent and mode reset behaviour.",
+      "safeTitle masks for locked Deep contents; saved-Deep resume labels.",
+      "goToPosition/goToId/setMode guards, warning screen and neutral cover/final/source notes.",
+      "Book-local progress storage and cover/Home behaviour."
+    ],
+    "browserOrDeviceRegressionPerformed": false,
+    "publisherOwns": "Integration, post-fix closure, updated hashes, saved progress/consent regression, publication."
+  },
+  "materialLimitations": [
+    "No continuous reading of all 78,804 source-file words; selected scene/run review only.",
+    "No whole-book completeness or published Russian-translation fidelity certificate.",
+    "No external scientific, anthropological or geographical validation of fictional content.",
+    "No browser/device matrix or production test in this content pass.",
+    "Approval cannot transfer to the old root corpus or to changed candidate hashes."
+  ],
+  "changesMade": [
+    "Only this review Markdown and JSON were written. No reader/source/QA/root/shared edit, Git, PR, deploy, external message or delegation."
+  ]
+}

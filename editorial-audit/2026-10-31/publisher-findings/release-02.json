@@ -1,8 +1,8 @@
 {
   "release": "02",
   "date": "2026-10-31",
-  "updatedAt": "2026-10-31T19:41:20.833700+00:00",
-  "state": "accepted-local-checks-passed-awaiting-push",
+  "updatedAt": "2026-10-31T19:51:18.490584+00:00",
+  "state": "merged-production-verified-by-release03",
   "baseMain": "ae8fd406c5791b5cef3c8eee578e4cc697f3c9e3",
   "baseIncludes": [
     "PR25",
@@ -531,6 +531,22 @@
     {
       "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/selfie-rendering.json",
       "sha256": "6c4f9f37decf50871035499e4dc4ab88386124d6b6ea91303a839e644b3bd7cc"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/remote-pr27.json",
+      "sha256": "7e2188e950ed841229cd99ee9d0a7f64ee54998ec6d13a54fbf532dbcb76a5f8"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-production-verification.json",
+      "sha256": "4321b6fb24d97e5124d2f06770b2949f3068d3e6c1e6171b242baa1e102731a6"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-production-browser.json",
+      "sha256": "3b884c58ae458b98a4c89e883f42c8a0ba317d7a12264c4cb76c5b1f7f4acb4d"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-remote-pr27.json",
+      "sha256": "df96315e96488dbb6757532c6512713d6e316a1fc54f270b8c401cf5b0cea1f3"
     }
   ],
   "knownLegacyLimitations": [
@@ -541,16 +557,48 @@
     "No physical iPhone/PWA verification; content source scopes are targeted, not exhaustive full-edition certification"
   ],
   "publication": {
-    "pr": null,
-    "head": null,
-    "checks": "not-submitted",
-    "reviews": "Six independent content PASS, zero required findings",
-    "merged": false,
-    "productionVerified": false,
+    "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/27",
+    "head": "86d158efbd435e6830be3a327ec2b223ba4b8d93",
+    "checks": "3/3 SUCCESS at recorded release02 head",
+    "reviews": "Six independent content PASS; zero GitHub reviews and zero review threads",
+    "merged": true,
+    "productionVerified": true,
     "productionBefore": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/production-before.json",
     "observedProductionBooks": 31,
     "observedProductionScreens": 3504,
     "amphibianProductionBeforeStatus": 404,
-    "instruction": "If remote checks are pending, return exact PR/head/state immediately to parent; no polling or watch."
-  }
+    "instruction": "If remote checks are pending, return exact PR/head/state immediately to parent; no polling or watch.",
+    "remoteSnapshot": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/remote-pr27.json",
+    "parentNext": "Check validate completion, then authorized merge of exact head and verify actual production against public-allowlist.json. No child polling/watch.",
+    "mergeCommit": "87fc7638933a0187ab650d45fadfeacaeaf0242f",
+    "mergedAt": "2026-10-31T19:44:31Z",
+    "productionBooks": 32,
+    "productionScreens": 3168,
+    "productionAllowlistFiles": 43,
+    "productionProof": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-production-verification.json",
+    "productionBrowserProof": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-production-browser.json",
+    "verificationScope": "All 43 served public assets byte-identical to merged release; effective six revised corpora, six-reader Sources/progress/swipe/focus and bilingual native Deep/resume consent exercised on actual production. Private paths 404. No physical iPhone claim."
+  },
+  "publicationHistory": [
+    {
+      "preservedAt": "2026-10-31T19:51:18.490447+00:00",
+      "state": "pr-open-checks-pending-parent-handoff",
+      "updatedAt": "2026-10-31T19:43:07.039684+00:00",
+      "publication": {
+        "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/27",
+        "head": "86d158efbd435e6830be3a327ec2b223ba4b8d93",
+        "checks": "2 passed; validate IN_PROGRESS",
+        "reviews": "Six independent content PASS; zero GitHub reviews and zero review threads",
+        "merged": false,
+        "productionVerified": false,
+        "productionBefore": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/production-before.json",
+        "observedProductionBooks": 31,
+        "observedProductionScreens": 3504,
+        "amphibianProductionBeforeStatus": 404,
+        "instruction": "If remote checks are pending, return exact PR/head/state immediately to parent; no polling or watch.",
+        "remoteSnapshot": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/remote-pr27.json",
+        "parentNext": "Check validate completion, then authorized merge of exact head and verify actual production against public-allowlist.json. No child polling/watch."
+      }
+    }
+  ]
 }

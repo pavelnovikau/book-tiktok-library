@@ -1,0 +1,133 @@
+{
+  "slug": "akselerando",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD",
+  "date": "2026-10-31",
+  "contentMode": "narrative",
+  "deliverables": [
+    {
+      "path": "collector-output/akselerando/story-data.json",
+      "sha256": "4ada166c9e60ec55040db0fb0d2f1b55a823fa3055c6e95c290cbe643d54b6d8",
+      "bytes": 78947
+    },
+    {
+      "path": "collector-output/akselerando/akselerando.html",
+      "sha256": "76e8d4572712f43f1fccd7d59d3f64ac420219f3495268ec886a00beb7d12478",
+      "bytes": 324417
+    },
+    {
+      "path": "collector-output/akselerando/sources.md",
+      "sha256": "b2a002cddfc0fcd709bec9e334453e433ad362c39d7ddf2fa2086784105cc22a",
+      "bytes": 14099
+    },
+    {
+      "path": "collector-output/akselerando/QA.md",
+      "sha256": "ac2122070a1fec11c2bb881091a5a2292023d562efe87dc6e650dff937b2822c",
+      "bytes": 6185
+    }
+  ],
+  "reportPath": "editorial-audit/2026-10-31/books/akselerando.md",
+  "reportSha256": "6105213deec061083f3d5af2e865461c549e3ef7038935b7a9bfbe618ad1886c",
+  "counts": {
+    "baselineReviewedPairs": 104,
+    "replacementReviewedPairs": 52,
+    "essential": 14,
+    "core": 26,
+    "deep": 52,
+    "levels": {
+      "1": 14,
+      "2": 12,
+      "3": 26
+    }
+  },
+  "readingMinutes": {
+    "ru": {
+      "essential": 4,
+      "core": 8,
+      "deep": 15
+    },
+    "en": {
+      "essential": 4,
+      "core": 8,
+      "deep": 15
+    }
+  },
+  "sourceScope": {
+    "work": "Charles Stross, Accelerando (2005), author-hosted Ace/Orbit English edition",
+    "url": "https://www.antipope.org/charlie/blog-static/fiction/accelerando/accelerando.html",
+    "completePrimaryAccessible": true,
+    "continuousFullEditionRead": false,
+    "actualReading": "Selected continuous primary scenes spanning all nine chapter plot arcs, plus targeted sustained sequences for every retained event; no secondary synopsis supplied the narrative.",
+    "wholeBookFidelityCertified": false,
+    "russianPublishedTranslationRead": false
+  },
+  "changes": [
+    "Entire analytical corpus replaced with original scene-led RU/EN retelling, no lessons/review panels",
+    "Nested targets changed from 30/70/104 to 14/26/52",
+    "Late events and ending moved to Deep only",
+    "Restored omitted coercion, Wunch violence, Pamela capsule/death, family identities and decoy-world uncertainty",
+    "Aineko claims and final staging/test remain uncertain and attributed",
+    "Book-local Deep/saved-ID consent, fresh Essential and compact cover"
+  ],
+  "checks": {
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0
+    },
+    "browserFinalStates": 1472,
+    "viewports": [
+      "320x568",
+      "390x844",
+      "1024x768",
+      "1440x900"
+    ],
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "runtimeErrors": 0,
+    "externalRuntimeRequests": 0,
+    "horizontalOverflowCases": 0,
+    "jsonHtmlCorpusParity": true,
+    "ownedProcessesAndProfilesAfterCleanup": 0
+  },
+  "unresolvedIssues": [
+    "Independent editorial review still required; selected primary passages do not constitute continuous full-novel reading or whole-book fidelity certification.",
+    "Physical iPhone Safari and installed-PWA behavior were not tested.",
+    "Publisher must preserve or replace the book-local consent and compact-cover additions when rebuilding."
+  ],
+  "publisherAttention": [
+    "Replace root reader only after independent approval",
+    "Update catalogue to 52 screens, 4/8/15 minutes, revised story description",
+    "Preserve fresh Essential, Deep consent, hidden-ID restoration protections, generic resume labels and narrative mode"
+  ],
+  "constructionInputs": [
+    {
+      "path": "skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639"
+    },
+    {
+      "path": "skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b"
+    },
+    {
+      "path": "skills/book-tiktok/assets/reader-header.html",
+      "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801"
+    }
+  ],
+  "parentCorrections": {
+    "findings": [
+      "ACC-01"
+    ],
+    "changedScreens": [
+      "fatal-negotiation"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/akselerando-meaning-fix-closure.json"
+  }
+}

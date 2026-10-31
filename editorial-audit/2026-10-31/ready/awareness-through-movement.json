@@ -1,0 +1,80 @@
+{
+  "slug": "awareness-through-movement",
+  "status": "ready-for-independent-check",
+  "contentMode": "explanatory",
+  "deliverables": [
+    {
+      "path": "collector-output/awareness-through-movement/story-data.json",
+      "sha256": "c5ca3b6e3602976da35562f84ef9d91ecb1bcf7f316f8dc7a126cbcb613014fa"
+    },
+    {
+      "path": "collector-output/awareness-through-movement/awareness-through-movement.html",
+      "sha256": "fc0c2b525d7bc2b44d002bc3f72d0ce504bd68a7e2ae5bf76ea0d4a825d0b010"
+    },
+    {
+      "path": "collector-output/awareness-through-movement/sources.md",
+      "sha256": "3ac2cc2e13fd7774f39ceea74093d5b63f7eea3720d85bc9922eeabcbed32324"
+    },
+    {
+      "path": "collector-output/awareness-through-movement/QA.md",
+      "sha256": "eefdfc9ebd29a642a5695b87f89a6bd70aef823ba65645f32c955c310a8849ea"
+    }
+  ],
+  "counts": {
+    "essential": 19,
+    "core": 35,
+    "deep": 42
+  },
+  "reviewedPairs": {
+    "oldDistinct": 144,
+    "oldRootEmbedded": 144,
+    "oldCollectorEmbedded": 144,
+    "oldMeaningfulDivergences": 0,
+    "replacementDistinct": 42
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/awareness-through-movement.md",
+  "reportSha256": "70509e12aa8c6bf06cd29da9268449d453488426d5cadca1669d07e2928a4eea",
+  "sourceScope": "Owned complete M. Papush RU translation, ISBN 5-88230-060-6. Theory argument spine, directions, key procedures/comparisons in all 12 lessons and conclusion consulted; not continuous reading/certification of every instruction. Condensed lesson descriptions, not a complete runnable course. Current NHMRC and MedlinePlus qualifications explicit.",
+  "changes": [
+    "All 42 pairs rebuilt around actual theory and lesson design",
+    "Reduced cumulative counts 36/90/144 to 19/35/42",
+    "Removed invented wall/door drills, arbitrary rep/rest prescriptions and substituted mini-programmes",
+    "Restored knife/screw example, original actual/imagined relation and social conclusion",
+    "Changed cover/description to concise book reading instead of complete execution-guide promise",
+    "Set explanatory mode and RU/dark/Essential defaults"
+  ],
+  "checks": {
+    "maintainedBuild": "pass",
+    "maintainedHtmlAudit": "69 passes, 0 warnings/failures",
+    "browser": "all 42 pairs x 2 languages x 2 themes x 2 viewports pass; no runtime errors/remote requests; screenshots inspected"
+  },
+  "unresolvedIssues": [
+    "Independent source/editorial review and publisher integration required; no full procedural-course or whole-edition fidelity certification",
+    "Publisher must replace old catalogue complete-guide promise, counts/times and reader; consider changed resume IDs",
+    "Real-device iPhone/PWA not tested"
+  ],
+  "publisherMetadataProposal": {
+    "description": {
+      "ru": "Моше Фельденкрайз: образ себя, обучение через различение и устройство двенадцати практических уроков.",
+      "en": "Moshe Feldenkrais: self-image, learning through discrimination and the design of twelve practical lessons."
+    },
+    "screenCount": 42,
+    "readingMinutesByLanguage": {
+      "ru": {
+        "essential": 6,
+        "core": 10,
+        "deep": 12
+      },
+      "en": {
+        "essential": 5,
+        "core": 10,
+        "deep": 11
+      }
+    },
+    "defaultLanguage": "ru",
+    "defaultTheme": "dark",
+    "defaultMode": "essential",
+    "contentMode": "explanatory",
+    "spoilerPolicy": "not-applicable"
+  }
+}

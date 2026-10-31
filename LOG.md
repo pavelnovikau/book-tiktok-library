@@ -1,5 +1,14 @@
 # Work log
 
+## 2026-10-31 — Editorial release 03
+
+Приняты 11 readers / 457 RU/EN pairs: 4 matching-hash independent PASS и 7 targeted publisher closures по 9 required findings. Сохранены оригинальные REQUIRES-FIXES records, новые authoring/HTML hashes приняты явно. Первичные сцены проверены для Make Time, Monday, Accelerando, Zebras, Lost World, Treasure Island и Grant; White Fang принят по точному PASS. Корпуса не пересобирались из plain template: Accelerando сохраняет custom cover/dialog, fiction — narrative mode и Deep consent. Удалённые saved IDs сбрасываются безопасно.
+
+Catalogue: 33 books / 2353 screens; новый Monday с controlled discovery и enchanted-lab motif. Остальные 22 root readers побайтно прежние. Проверки: 11 × 69, 15200 rendered visits, Sources/progress/consent, safe-area/focus/swipe, offline; public allowlist — 44 files. Hard to Be a God исключён до independent recheck; settings/font UI остаётся отдельным feature. PR/production state и hashes — editorial-audit/2026-10-31/publisher-findings/release-03.json.
+
+Закрыта production verification release02: PR27 merge 87fc76389, 43/43 live asset hashes, 32 books / 3168 screens, 6 live reader interactions без runtime errors. Старый pending receipt и pre-release evidence сохранены, новые proof добавлены. Все изменения — в tool-provided worktree; в shared findings копируются только финальные receipts/proof.
+
+
 ## 2026-10-31 — Editorial release 02
 
 Приняты 5 hash-matched PASS nonfiction packages (221 RU/EN pairs, включая Selfie); первая narrative fiction — Amphibian Man (35 pairs). AMP-01/02 проверены по первичным сценам; восстановлены физическая причина прыжка и защитный мотив Гуттиэре. Другие 33 pairs не менялись: откат двух исправлений воспроизводит reviewed SHA-256.

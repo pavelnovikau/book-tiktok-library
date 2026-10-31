@@ -1,0 +1,104 @@
+{
+  "slug": "letting-go",
+  "status": "ready-for-independent-check",
+  "workerGroup": 10,
+  "verdict": "REBUILD",
+  "reportPath": "editorial-audit/2026-10-31/books/letting-go.md",
+  "reviewedPairs": {
+    "uniqueOldPairs": 144,
+    "authoring": 144,
+    "published": 144,
+    "new": 39
+  },
+  "counts": {
+    "essential": 16,
+    "core": 32,
+    "deep": 39
+  },
+  "contentMode": "explanatory",
+  "sourceScope": "Primary work: David R. Hawkins, *Letting Go: The Pathway of Surrender*, original copyright Veritas 2012. Actual primary reading used the complete owned expanded Russian EPUB, «Отпускание. Путь сдачи», translated by Олег Коротков and Ольга Кальмус, Ganga copyright 2018. This is the book, with 21 chapters, questions/answers, references and appendices, not a Smart Reading condensation. The OPF date 2012 is not the Russian translation date. Copyright/title matter was read directly; no unverified Russian ISBN is supplied. The current [Hay House record](https://shop.hayhouse.com/products/letting-go) identifies the English work and paperback 9781401945015; that webpage was not the full primary text or evidence of clinical efficacy.\n\nActual continuous full-part reading in this repair: EPUB `content2`, `content3`, `content5`, `content6`, `content7`, `content9`, `content14`, `content16`, `content21`, `content27`, `content30`, `content32`, `content33`, `content34`, `content37`, `content38`, `content39`, `content51`, `content57`, `content60`, `content64`, `content65`. These are **22 EPUB spine-part numbers, not 22 complete chapters**. They cover the introduction; the mechanism and its resistance; emotional anatomy/map and crisis; apathy opening; grief and attachment; fear opening; desire and apartment; pride; courage; acceptance; love and duck hunter; the full peace/ultimate-reality account; stress; inner freedom and the relationships opening; work/envy; self-healing principles; the method FAQ and ultimate-surrender ending. Reference-list entries after the last substantive section were inspected, not used as if the underlying works had been read.\n\nAdditional substantive contiguous passages: title/copyright and opening foreword (`content0`, first 2,400 characters); prologue (`content1`, first 4,300); “I cannot” versus “I will not,” including the complete public-speaking progression (`content10`, first 6,200); anger and positive use (`content24`, first 5,100); mind–body influence (`content43`, first 5,300); benefits/dancing (`content45`, first 4,300, not used as a retold case); transformation opening with the promotion case (`content48`, first 6,300); religious-goal FAQ (`content62`, from character 4,400 to end). Source windows overlap where needed; displayed truncated material is not counted as read. This constitutes reading the meaningful central emotional, practical and spiritual argument and selected applications, **not continuous cover-to-cover reading of all 70 spine parts, every case or the appendices**. The English reader is an original translation of this new condensed account; a complete English edition was not separately collated.\n\nCurrent [NIMH Depression](https://www.nimh.nih.gov/health/publications/depression) was checked for its multifactorial explanation and individual treatment selection. [NCCIH Meditation and Mindfulness](https://www.nccih.nih.gov/health/meditation-and-mindfulness-effectiveness-and-safety), “Tips To Consider,” was checked only for the conventional-care boundary. Neither is presented as a trial of Hawkins's method. Those checks support one clearly separate qualification rather than replacing his argument with an independent psychology course. Private full text, extraction and browser evidence remain outside this repository.",
+  "changes": [
+    "Rewrote all reading screens into connected concise prose",
+    "Removed compiler synthesis and unrelated research detours",
+    "Retained author-specific sequence/procedures",
+    "Updated nested counts and RU/dark/Essential defaults"
+  ],
+  "unresolvedIssues": [
+    "Ready scope: concise central argument with selected actual applications and cases. No full-page-by-page fidelity, English-translation collation, validation of the consciousness scale, medical efficacy finding, or exhaustive accounting of every FAQ/appendix is claimed. The full source is accessible privately; the residual limit is the stated reading/condensation scope, not a fabricated finished account from excerpts. The unretold medical anecdotes and detailed muscular-test procedures are outside this version. Clinical depression is not reduced to the author's “will not” framing. Publisher should independently assess the treatment of the spiritual goal and attributed strong causal claims, and approve the 39-screen scope explicitly as a condensed account.",
+    "Independent publisher check and root/catalogue/progress integration pending"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/letting-go/story-data.json",
+      "sha256": "2a8a01bd9489402dacd585418329cbb1ef420b5641de07d85e5b36f2f663d2f4"
+    },
+    {
+      "path": "collector-output/letting-go/letting-go.html",
+      "sha256": "302fc2fff67eecdd216f23f60c39a59313e754c00e61932eedff1f13dd9de110"
+    },
+    {
+      "path": "collector-output/letting-go/sources.md",
+      "sha256": "7962b528e9bf3ed609e82b124082093d8c5e44fa2ad25f2e555adcc5bd5b628c"
+    },
+    {
+      "path": "collector-output/letting-go/QA.md",
+      "sha256": "5efc66aad7a0b5e539493f36be8fc77011164b7ffbeb63a390d57ab3ef674a12"
+    }
+  ],
+  "checks": {
+    "structural": {
+      "passes": 69,
+      "failures": [],
+      "warnings": []
+    },
+    "browser": {
+      "screensCompared": 39,
+      "variants": 8,
+      "offline": true,
+      "runtimeErrors": [],
+      "focus": {
+        "tapEnter": true,
+        "headerHidden": true,
+        "textPreserved": true,
+        "nextVisible": true,
+        "tapRestore": true,
+        "verticalMotionExcluded": true,
+        "swipeExcluded": true
+      },
+      "realIPhonePwaTest": false
+    },
+    "scope": "Collector only; structural checks do not certify editorial fidelity or production behavior."
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "5 минут",
+        "en": "5 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "9 минут",
+        "en": "9 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "11 минут",
+        "en": "11 min"
+      }
+    }
+  }
+}

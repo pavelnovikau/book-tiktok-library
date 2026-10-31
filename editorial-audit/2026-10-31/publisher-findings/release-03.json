@@ -1,0 +1,901 @@
+{
+  "release": "03",
+  "date": "2026-10-31",
+  "state": "local-acceptance-passed-ready-to-open-pr",
+  "updatedAt": "2026-10-31T20:12:01.843009+00:00",
+  "checkout": "/Users/pn/.t3/worktrees/smartcat/t3-63de5254",
+  "baseMain": "87fc7638933a0187ab650d45fadfeacaeaf0242f",
+  "setup": "Existing tool-provided Smartcat worktree; fetched library main to isolated book-release/main and switched only this worktree to release03 branch; no shell clone/worktree and no canonical-source Git mutation.",
+  "acceptedCandidates": [
+    {
+      "slug": "awareness-through-movement",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/awareness-through-movement.json",
+      "reviewSha256": "8d042ed3303392a0ffe56ee719cb61f4eee710014ad17fc55fab5c9030e25b88",
+      "counts": {
+        "essential": 19,
+        "core": 35,
+        "deep": 42
+      },
+      "contentMode": "explanatory",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/awareness-through-movement/story-data.json",
+          "sha256": "c5ca3b6e3602976da35562f84ef9d91ecb1bcf7f316f8dc7a126cbcb613014fa"
+        },
+        {
+          "path": "collector-output/awareness-through-movement/awareness-through-movement.html",
+          "sha256": "fc0c2b525d7bc2b44d002bc3f72d0ce504bd68a7e2ae5bf76ea0d4a825d0b010"
+        },
+        {
+          "path": "collector-output/awareness-through-movement/sources.md",
+          "sha256": "3ac2cc2e13fd7774f39ceea74093d5b63f7eea3720d85bc9922eeabcbed32324"
+        },
+        {
+          "path": "collector-output/awareness-through-movement/QA.md",
+          "sha256": "eefdfc9ebd29a642a5695b87f89a6bd70aef823ba65645f32c955c310a8849ea"
+        }
+      ],
+      "sourceLimits": [],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 6,
+          "core": 10,
+          "deep": 12
+        },
+        "en": {
+          "essential": 5,
+          "core": 10,
+          "deep": 11
+        }
+      },
+      "sourceCount": 3,
+      "rootSha256": "128397431542c37124ed4f252f422050c7323d5702c3f092cb8b6b7791878f72",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Самостоятельное краткое изложение по пользовательскому полному RU EPUB: «Сознавание через движение», перевод М. Папуша, ISBN 5-88230-060-6; год файла не установлен. В этой редакции прочитана линия аргумента теоретических разделов и ключевые последовательности/сравнения всех 12 уроков, но полного непрерывного чтения каждой инструкции не заявляется. Сохранены реальные процедуры в кратком описании; это не полный курс выполнения. EN переводит изложение, не сверяется с полным английским изданием. Медицинские уточнения обозначены отдельно; не лечение.",
+        "en": "Original condensation based on the owned complete Russian EPUB, translated by M. Papush, ISBN 5-88230-060-6; file year unestablished. This repair read the theoretical argument spine and key sequences/comparisons in all twelve lessons, not every instruction continuously. Actual procedures are described in condensed form; this is not a complete execution course. English translates the condensation, not a full English-edition collation. Clinical qualifications are identified separately; not treatment."
+      }
+    },
+    {
+      "slug": "zen-and-the-art-of-motorcycle-maintenance",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/zen-and-the-art-of-motorcycle-maintenance.json",
+      "reviewSha256": "75a6a438ef64b9fceabd95e73e4ebc07209aa19a1b4da5de68813f0578fc8ae4",
+      "counts": {
+        "essential": 20,
+        "core": 38,
+        "deep": 52
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/story-data.json",
+          "sha256": "f24012b680bc7d4206c050829ca8e0c7d5be3f6acde193651f3fa3891b4c38fc"
+        },
+        {
+          "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/zen-and-the-art-of-motorcycle-maintenance.html",
+          "sha256": "d30f0d41e0f1f7fd7c561088b9d7200ec5fa63864217c78fd947bc28160803d0"
+        },
+        {
+          "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/sources.md",
+          "sha256": "09da5ecb27fc07377083f9c5efacde4d6328054eea73189d5d94954a0d2583e7"
+        },
+        {
+          "path": "collector-output/zen-and-the-art-of-motorcycle-maintenance/QA.md",
+          "sha256": "954417de2fcc7f5c5e290b06458e27e8cd465afaba59687030716cdd0dbc3129"
+        }
+      ],
+      "sourceLimits": [],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 7,
+          "core": 12,
+          "deep": 17
+        },
+        "en": {
+          "essential": 6,
+          "core": 12,
+          "deep": 16
+        }
+      },
+      "sourceCount": 2,
+      "rootSha256": "2b5cc25d997063c88c71b826a390a9137bc5b9748717e9fa6b42ffceb28ece31",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Оригинальное сокращённое изложение философского романа. Основа — личный полный русский EPUB, перевод М. Немцова, электронная конверсия 2009 года; печатное издание не установлено. Прочитаны содержательные сюжетные и философские фрагменты во всех 32 главах; главы 21, 23, 27, 31 и 32 прочитаны целиком. Это не полное последовательное чтение каждой строки. Есть повреждения конверсии в главе 32; повреждённые места не восстанавливались. Английский текст переведён с этого изложения, не сверен с полным английским изданием. Первое издание романа — 1974 год. Внешняя биография и продолжение не включены в сюжет.",
+        "en": "An original condensed account of the philosophical novel. Based on a complete personal Russian EPUB credited to M. Nemtsov, an electronic conversion dated 2009; print edition unidentified. Substantial narrative and philosophical passages were read across all 32 chapters; chapters 21, 23, 27, 31 and 32 were read in full. This is not continuous reading of every line. Conversion gaps in chapter 32 were not reconstructed. English translates this account and was not checked against a complete English edition. The novel first appeared in 1974. External biography and the sequel are not included in the plot."
+      }
+    },
+    {
+      "slug": "letting-go",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/letting-go.json",
+      "reviewSha256": "4a9020b0a7a9299b6bcf47513df77a2500122bcc338fb5e313592ffdacb387bd",
+      "counts": {
+        "essential": 16,
+        "core": 32,
+        "deep": 39
+      },
+      "contentMode": "explanatory",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/letting-go/story-data.json",
+          "sha256": "2a8a01bd9489402dacd585418329cbb1ef420b5641de07d85e5b36f2f663d2f4"
+        },
+        {
+          "path": "collector-output/letting-go/letting-go.html",
+          "sha256": "302fc2fff67eecdd216f23f60c39a59313e754c00e61932eedff1f13dd9de110"
+        },
+        {
+          "path": "collector-output/letting-go/sources.md",
+          "sha256": "7962b528e9bf3ed609e82b124082093d8c5e44fa2ad25f2e555adcc5bd5b628c"
+        },
+        {
+          "path": "collector-output/letting-go/QA.md",
+          "sha256": "5efc66aad7a0b5e539493f36be8fc77011164b7ffbeb63a390d57ab3ef674a12"
+        }
+      ],
+      "sourceLimits": [],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 9,
+          "deep": 11
+        },
+        "en": {
+          "essential": 5,
+          "core": 9,
+          "deep": 11
+        }
+      },
+      "sourceCount": 3,
+      "rootSha256": "5e9f076e39605df84806b0438ca644257d187e4fdb19183a939dace26c3fd1b4",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Самостоятельный краткий пересказ по личному полному русскому переводу «Ганги» (2018), с указанием реально прочитанных разделов в отчёте. Не полный текст и не удостоверение верности каждой страницы; английское издание отдельно не сверялось. Численная карта, духовные и лечебные обещания передают позицию Хокинса. Отдельное уточнение о медицинской помощи не подтверждает его систему.",
+        "en": "An original condensed account based on the complete owned Ganga Russian translation (2018), with actual passages read documented in the audit. Not the full text or a certificate of every page’s fidelity; no separate English-edition collation. The numerical map and spiritual/healing promises convey Hawkins’s position. The separate medical-care qualification does not validate his system."
+      }
+    },
+    {
+      "slug": "make-time",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/make-time.json",
+      "reviewSha256": "f3dbec157c7cd70e497d6465e8d0285cadcde60a24001ef8f9631d559e72bee0",
+      "counts": {
+        "essential": 19,
+        "core": 39,
+        "deep": 51
+      },
+      "contentMode": "explanatory",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/make-time/story-data.json",
+          "sha256": "279a00dbaf5ba1864f3a554f351bf6ea32fbb52ed307533a4d2448876141c211"
+        },
+        {
+          "path": "collector-output/make-time/make-time.html",
+          "sha256": "29bad3545578ca929fc1c094d230713799656794f419e5d8dce65f8fcd7aa15b"
+        },
+        {
+          "path": "collector-output/make-time/sources.md",
+          "sha256": "7bfac4a698ae8df3557c26b1004f3771f0b2961db57783ab4f2a084fcc379348"
+        },
+        {
+          "path": "collector-output/make-time/QA.md",
+          "sha256": "65f4641b4c82b22eb3aed2f57860f5dfe0b80884407c793a9823c8bde018d8da"
+        }
+      ],
+      "sourceLimits": [
+        "Checked primary arguments and the selected procedures/cases at their actual source sections, not all 87 tactics and references continuously. Full-edition availability is not full-book reading.",
+        "No full English edition consulted; both delivered languages read, with EN checked against RU meaning and the supplied Russian primary edition.",
+        "No independent clinical/productivity efficacy validation; verdict is about fidelity, appropriate attribution and reading experience.",
+        "No root/publication or browser/device certification. Publisher must rebuild/recheck hashes after any corrections."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/make-time-meaning-fix-closure.json",
+      "closureSha256": "44ac54034b0c72a7b319d72b888d6b8a6f78aa690224f2a52135454a1ce7da29",
+      "closedFindings": [
+        "MT-01",
+        "MT-02"
+      ],
+      "checkedScreens": [
+        "notifications",
+        "reset-expectations"
+      ],
+      "primaryChecked": "Owned full RU EPUB, OEBPS/Text/content2.2.html tactic19 (useful alerts and urgent SMS channel); content2.6.html tactic39 (implicit expectations and sales/support exception). Parent read the relevant continuous paragraphs and notification list.",
+      "publisherAssessment": [
+        "MT-01: tactic19 retains calendar reminders and one urgent SMS channel; other checks are user initiated. RU/EN now agree with the actual notification list.",
+        "MT-02: tactic39 permits an explicit explanation or implicit learning of slower replies and exempts rapid-response sales/support. RU/EN restore both qualifications."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 6,
+          "core": 11,
+          "deep": 14
+        },
+        "en": {
+          "essential": 5,
+          "core": 10,
+          "deep": 13
+        }
+      },
+      "sourceCount": 2,
+      "rootSha256": "f53e633232fefb0840cdf896bf7f34dec46203f95056de2f230e0811f82202b6",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Сокращённое изложение своими словами по пользовательскому русскому изданию. Английский текст переводит этот пересказ. Прочитаны авторское объяснение четырёх шагов и заключение, сверены использованные тактики. Это сокращённый выбор, не все 87 приёмов и не независимая проверка их эффективности.",
+        "en": "An original condensed account based on the user-owned Russian edition. English translates this account. The authors’ four-step explanation and conclusion were read, and the selected tactics checked. This is a condensed selection, not all 87 tactics or independent validation of their effectiveness."
+      }
+    },
+    {
+      "slug": "monday-begins-on-saturday",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/monday-begins-on-saturday.json",
+      "reviewSha256": "1a80cb64d890d3100b2ddd0ef8481a1dc8b268ced00cc8cfa73a27faca06c2e4",
+      "counts": {
+        "essential": 11,
+        "core": 17,
+        "deep": 29
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/monday-begins-on-saturday/story-data.json",
+          "sha256": "e57929ff6ca03ec9ee262bd789a9e25ba40ed4b13ca5d479bc00c2d417fe2d9a"
+        },
+        {
+          "path": "collector-output/monday-begins-on-saturday/monday-begins-on-saturday.html",
+          "sha256": "a485741284da7d4191890552dfbb2972b85cc48825a1191691115f1360b87c10"
+        },
+        {
+          "path": "collector-output/monday-begins-on-saturday/sources.md",
+          "sha256": "64a7b2fe3185844549b07e08e505889bb80e3de7772766dfa26b2a93710d6e88"
+        },
+        {
+          "path": "collector-output/monday-begins-on-saturday/QA.md",
+          "sha256": "474a8004f687a336557a7298d254e4120fc0b27baf41cd568dd2e4cd61eb2228"
+        }
+      ],
+      "sourceLimits": [
+        "All 29 revised bilingual pairs and their actual 11/17/29 cumulative routes were read, including cover, titles, source/method notes and effective collector HTML.",
+        "The initial ready-manifest version observed at intake listed an older 18-screen Core, but the saved review snapshot and the final ready manifest agree at 17. Verdict applies only to the hashes below.",
+        "Primary evidence was selected continuous passages, not continuous every-word reading or print-variant/published-English collation.",
+        "No browser matrix, saved-progress runtime, production or physical iPhone/PWA certification is claimed.",
+        "No collector or shared file was edited; MON-01 remains for the author/publisher to repair."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/monday-begins-on-saturday-meaning-fix-closure.json",
+      "closureSha256": "7d0701da405c9713ddb74f7f3339212cf3805e8d49fe19019ded04d2313430e0",
+      "closedFindings": [
+        "MON-01"
+      ],
+      "checkedScreens": [
+        "wishes-have-a-language"
+      ],
+      "primaryChecked": "Official author-site witness, Story I chapter3. Parent checked the empty tub, trip to the well, raised bucket, and pike mistaking Privalov for the old woman.",
+      "publisherAssessment": [
+        "MON-01: the tub is empty; Privalov goes to the well and raises a bucket containing the pike, who first mistakes him for the old woman. Both title and RU/EN scene now agree with I.3."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 5,
+          "deep": 8
+        },
+        "en": {
+          "essential": 3,
+          "core": 5,
+          "deep": 8
+        }
+      },
+      "sourceCount": 1,
+      "rootSha256": "1166d5d0dda434f40c3dae13ae5a27183cb3c219d26e4cda6a8678ae0d6a6464",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Сокращённая история своими словами по русскому тексту на официальном сайте авторов. Проверены сюжетные сцены всех трёх историй, финал и начало комментария; не заявляется чтение каждого слова или сверка печатных редакций. Английский текст переводит этот пересказ. Внешняя ссылка раскрывает весь сюжет.",
+        "en": "An original condensed telling based on the Russian text on the official author site. Plot passages across all three stories, the ending and the opening commentary were checked; this is not a claim to reading every word or collating print editions. English translates this retelling. The external link reveals the full plot."
+      }
+    },
+    {
+      "slug": "akselerando",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/akselerando.json",
+      "reviewSha256": "a2a913cb0013b0efb538b4e0dc8cdd915c8a525b8b9b4653c704ec63d6e9f699",
+      "counts": {
+        "essential": 14,
+        "core": 26,
+        "deep": 52
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/akselerando/story-data.json",
+          "sha256": "4ada166c9e60ec55040db0fb0d2f1b55a823fa3055c6e95c290cbe643d54b6d8"
+        },
+        {
+          "path": "collector-output/akselerando/akselerando.html",
+          "sha256": "76e8d4572712f43f1fccd7d59d3f64ac420219f3495268ec886a00beb7d12478"
+        },
+        {
+          "path": "collector-output/akselerando/sources.md",
+          "sha256": "b2a002cddfc0fcd709bec9e334453e433ad362c39d7ddf2fa2086784105cc22a"
+        },
+        {
+          "path": "collector-output/akselerando/QA.md",
+          "sha256": "ac2122070a1fec11c2bb881091a5a2292023d562efe87dc6e650dff937b2822c"
+        }
+      ],
+      "sourceLimits": [
+        "All 52 revised RU/EN pairs and the actual 14/26/52 cumulative routes were read, including titles, cover, source/method/edition notes and effective collector HTML.",
+        "The old 104-screen root delivery was not approved or reread as this revised package; this review applies to the 52-screen collector deliverable only.",
+        "Having a complete primary file is not equivalent to reading every line. This is a selected-scene fidelity review; numerous interludes and subplots are deliberately absent from the condensation.",
+        "No published Russian translation or alternative print edition was collated.",
+        "No browser matrix, production, saved-progress runtime or physical iPhone/PWA certification is claimed.",
+        "Only review files were written; ACC-01 remains unmodified and requires new-hash review after repair."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/akselerando-meaning-fix-closure.json",
+      "closureSha256": "b0828ea0694cb7b3e4374c0bc34a4bbc033fd42ed1d7acdce5518df486929b11",
+      "closedFindings": [
+        "ACC-01"
+      ],
+      "checkedScreens": [
+        "fatal-negotiation"
+      ],
+      "primaryChecked": "Author-authorized Creative Commons full text, Router: direct deal kills Glashwiecz; Pierre and Boris fork to fight; Pierre returns with a trauma filter. Parent read private author-site extraction blocks1457–1463 and1481–1484.",
+      "publisherAssessment": [
+        "ACC-01: direct negotiation kills Glashwiecz; Pierre and Boris fork to fight; the subsequent Pierre has a trauma filter. No claim remains that Pierre loses his parallel selves. RU/EN now follow Router blocks1457–1463 and1481–1484."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 8,
+          "deep": 15
+        },
+        "en": {
+          "essential": 4,
+          "core": 8,
+          "deep": 15
+        }
+      },
+      "sourceCount": 1,
+      "rootSha256": "1fe1be8a560f0939b7263d5f3136f2c82980bab0f543261cc9864d1709aa4135",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Краткий пересказ своими словами по английскому изданию на сайте автора. Проверены сюжетная цепочка всех девяти глав и опорные сцены; непрерывное чтение каждой строки полного романа не заявляется. Критические эссе и прогнозы не включены в историю. Поздние события и развязка доступны в Deep. Внешняя ссылка ведёт к полному роману и содержит спойлеры.",
+        "en": "An original concise retelling based on the author-hosted English edition. The plot chain across all nine chapters and supporting scenes was checked; continuous reading of every line of the complete novel is not claimed. Critical essays and forecasts are excluded from the story. Later events and the ending are in Deep. The external link opens the full novel and contains spoilers."
+      }
+    },
+    {
+      "slug": "why-zebras-dont-get-ulcers",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/why-zebras-dont-get-ulcers.json",
+      "reviewSha256": "1fa342fc05670807fddf06d2012e7d0ea823699100d38989fed7e2d6b6908d2e",
+      "counts": {
+        "essential": 25,
+        "core": 42,
+        "deep": 51
+      },
+      "contentMode": "explanatory",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/why-zebras-dont-get-ulcers/story-data.json",
+          "sha256": "91ae466b3da4d53ada52a195893a9367a5ab78f070c3ef36271d8e11e7c5d067"
+        },
+        {
+          "path": "collector-output/why-zebras-dont-get-ulcers/why-zebras-dont-get-ulcers.html",
+          "sha256": "f0768a2d8acbcde038ddb2aafaf774803dec4ec6bf818dab1e583e83d38fd901"
+        },
+        {
+          "path": "collector-output/why-zebras-dont-get-ulcers/sources.md",
+          "sha256": "423d3517d2fffd759f7a2dc7e28fae166ebcafa4bcbed79e1d6fc62d23435b01"
+        },
+        {
+          "path": "collector-output/why-zebras-dont-get-ulcers/QA.md",
+          "sha256": "46e2fac3e60c683ca95ecc7b27f709e391a731e3b0c5baba3a52321941eb57a4"
+        }
+      ],
+      "sourceLimits": [
+        "Targeted primary passages across represented arguments, not continuous full-book reading or all-notes/scientific-literature certification.",
+        "Complete English edition was not collated; EN was reviewed against the represented RU primary meaning and the new RU condensation.",
+        "The required finding concerns support and attribution in this book, not a claim that the wider maternal-care mechanism is false. A matching exact primary-book passage would resolve it; an external fact should not silently substitute for the book.",
+        "Verdict applies to the hashed revised collector package; root reader at inspection still held 144 old pairs. Publisher owns integration/publication and browser/device QA."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/why-zebras-dont-get-ulcers-meaning-fix-closure.json",
+      "closureSha256": "52976539bd5f9e639367463f1690e2d13e1d7a25d850125b17859fdd3c81c679",
+      "closedFindings": [
+        "ZEBRA-REQ-01"
+      ],
+      "checkedScreens": [
+        "rat-care"
+      ],
+      "primaryChecked": "Owned full RU EPUB, OEBPS/Text/978544611081-7.xhtml, chapter6, active tactile contact paragraph. Parent read separation, sedated-mother contact and simulated licking comparisons, retaining the existing animal-to-human limit.",
+      "publisherAssessment": [
+        "ZEBRA-REQ-01: the screen now compares separation, sedated-mother contact and simulated active licking against growth-hormone levels; the unsupported reunion-care mediation is removed. Chapter6 locator and the separate animal-to-human qualification are retained in RU/EN."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 7,
+          "core": 12,
+          "deep": 15
+        },
+        "en": {
+          "essential": 7,
+          "core": 11,
+          "deep": 13
+        }
+      },
+      "sourceCount": 4,
+      "rootSha256": "240483a376b3a2f3a97393c5dfe5e63e4ac028da4965167c2b0f1a6b60d55a19",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Краткое самостоятельное изложение по пользовательскому RU EPUB, Питер, ISBN 978-5-4461-1081-0. В этой редакции прочитаны ключевые аргументы и выбранные примеры глав 1–18; полного непрерывного чтения и проверки всех примечаний не заявляется. EN переводит изложение, а не цитирует английское издание. Современные клинические уточнения NIDDK, NCI и NIMH отделены в тексте и источниках. Не руководство по диагностике или лечению.",
+        "en": "Original condensed prose based on the owned Russian EPUB, Piter, ISBN 978-5-4461-1081-0. This repair read key arguments and selected examples across chapters 1–18; it does not claim continuous full reading or verification of all notes. English translates this condensation, not quotations from an English edition. Current NIDDK, NCI and NIMH qualifications are identified in the text and Sources. Not a diagnosis or treatment manual."
+      }
+    },
+    {
+      "slug": "the-lost-world",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/the-lost-world.json",
+      "reviewSha256": "7bf6f236d0f7a754a2974a03ccac41ee818126ff20225a370cbdb466fb4e1aec",
+      "counts": {
+        "essential": 13,
+        "core": 23,
+        "deep": 34
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/the-lost-world/story-data.json",
+          "sha256": "2be90b69ee130f59b408e4cfbe5ba030de2935ad78096376cafd42559bd5eb82"
+        },
+        {
+          "path": "collector-output/the-lost-world/the-lost-world.html",
+          "sha256": "6d39af2a1d940bafa465d53d446fbcab09850b2b7a82fdf7a75961746a176366"
+        },
+        {
+          "path": "collector-output/the-lost-world/sources.md",
+          "sha256": "a9d7bed6e717a9967b35aa0f91f8ba1f796ef509bb90055905e1b764d4a650e2"
+        },
+        {
+          "path": "collector-output/the-lost-world/QA.md",
+          "sha256": "743337d7a233f3dc8bbc65df43ca9a8d74d88368ec21dcb8f30dae846ffafa30"
+        }
+      ],
+      "sourceLimits": [
+        "No continuous reading of all 78,804 source-file words; selected scene/run review only.",
+        "No whole-book completeness or published Russian-translation fidelity certificate.",
+        "No external scientific, anthropological or geographical validation of fictional content.",
+        "No browser/device matrix or production test in this content pass.",
+        "Approval cannot transfer to the old root corpus or to changed candidate hashes."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/the-lost-world-meaning-fix-closure.json",
+      "closureSha256": "892b6a851c14cc4c40a4307c883a2c5ebf0f528e8d383041a00feacea4f431c2",
+      "closedFindings": [
+        "LW-REQ-01"
+      ],
+      "checkedScreens": [
+        "empty-camp",
+        "borrowed-heroism",
+        "final"
+      ],
+      "primaryChecked": "Project Gutenberg139, XII empty-camp discovery and XIII Roxton account. Parent read witness lines5589–5627: enclosure as left except open gate; prior shot and spent rifle cartridge are Roxton’s, not a shot by returning Malone.",
+      "publisherAssessment": [
+        "LW-REQ-01: XII leaves the enclosure intact with the gate open and scattered belongings; Malone calls but never fires. XIII attributes the earlier shot to Roxton. Both languages now preserve this evidence. I places editor request on same evening; common final now matches empty camp."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "integrationBrowserAcceptancePending": false,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 6,
+          "deep": 9
+        },
+        "en": {
+          "essential": 4,
+          "core": 6,
+          "deep": 9
+        }
+      },
+      "sourceCount": 1,
+      "rootSha256": "5e399a6134d792dafe2e097157b7e1fe86c1510905004647d86623aa4be79d5e",
+      "sourceScope": {
+        "ru": "Сокращённый рассказ своими словами по английскому роману Дойла, главы I–XVI. Русский текст — новый пересказ, не опубликованный перевод. Исторические расовые иерархии персонажей не принимаются за факты; исход войны не смягчён. Подробности проверки — в редакционном отчёте. Внешний полный текст раскрывает сюжет.",
+        "en": "An original condensed retelling of Doyle’s English novel, chapters I–XVI. The Russian text is a new paraphrase, not a published translation. The characters’ historical racial hierarchies are not treated as facts; the war’s outcome is retained. The editorial report records the verification scope. The external full text reveals the plot."
+      }
+    },
+    {
+      "slug": "treasure-island",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/treasure-island.json",
+      "reviewSha256": "ee072e6f46c8374298c18ad27402c48d03cb5818db7be727bda48e6cd2d936f4",
+      "counts": {
+        "essential": 12,
+        "core": 20,
+        "deep": 34
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/treasure-island/story-data.json",
+          "sha256": "f79e4e9d54c7992fae36d5d65b9c4f207f8cadb406c61fa417ee35614c9c3d6d"
+        },
+        {
+          "path": "collector-output/treasure-island/treasure-island.html",
+          "sha256": "2518effa4aeadb5b1a8cabb7feb424a3e52b6340ef8ecce015116665c2d9e4a7"
+        },
+        {
+          "path": "collector-output/treasure-island/sources.md",
+          "sha256": "b58a905d7d43e720eebf70d00933232440e3825421b9fb04b6337e03724e8531"
+        },
+        {
+          "path": "collector-output/treasure-island/QA.md",
+          "sha256": "8f052447def64c36f23ec4a91ea69093c273371a4c0bdcc177964afcac88d297"
+        }
+      ],
+      "sourceLimits": [
+        "No continuous reading of all 71,671 source-file words; targeted retained-scene/run review.",
+        "No certificate for every omitted peripheral scene or any published Russian translation.",
+        "No scientific or geographical validation of this fictional island/adventure.",
+        "No browser/device matrix or production check in this content pass.",
+        "The old 96-pair root corpus is outside this approval; changed candidates require fresh hashes and closure."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/treasure-island-meaning-fix-closure.json",
+      "closureSha256": "4fdd88037be35aafc36fb496322ed6e5bff9ce9f5c1073a8352ee1c4480db224",
+      "closedFindings": [
+        "TI-REQ-01",
+        "TI-REQ-02"
+      ],
+      "checkedScreens": [
+        "skeleton-pointer",
+        "silver-slips-away"
+      ],
+      "primaryChecked": "Project Gutenberg120, XXXII echo/recognised voice/dead-or-alive Ben joke; XXXIV Ben’s fear of Silver and attributed explanation after escape. Parent read actual primary witness passages, not inferred motives.",
+      "publisherAssessment": [
+        "TI-REQ-01: XXXII recovers courage because nobody minds Ben dead or alive; recognition of his voice does not prove him alive. Both languages retain that comic causal link.",
+        "TI-REQ-02: XXXIV establishes fear of Silver and an attributed explanation from Ben; both corrected languages remove invented revenge specificity."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "integrationBrowserAcceptancePending": false,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 6,
+          "deep": 9
+        },
+        "en": {
+          "essential": 4,
+          "core": 6,
+          "deep": 9
+        }
+      },
+      "sourceCount": 1,
+      "rootSha256": "eb5f451b62bab22db58282a62286ddd69c7bfe02a3ce3af6cbb13b7847fbd118",
+      "sourceScope": {
+        "ru": "Сокращённый рассказ своими словами по английскому роману Стивенсона, главы I–XXXIV. Русский текст — новый пересказ, не опубликованный перевод. Полный внешний текст по ссылке раскрывает сюжет.",
+        "en": "An original condensed retelling of Stevenson’s English novel, chapters I–XXXIV. The Russian text is a new paraphrase, not a published translation. The complete external text reveals the plot."
+      }
+    },
+    {
+      "slug": "white-fang",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/white-fang.json",
+      "reviewSha256": "b8343cf26d9dd28e37107d3acfba5728781729874b145a515ec4167588423b05",
+      "counts": {
+        "essential": 14,
+        "core": 21,
+        "deep": 36
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/white-fang/story-data.json",
+          "sha256": "01d35bb5df4fcc8f4136c56a0ba520d65a7fc272529b1d4ec003cff468d93251"
+        },
+        {
+          "path": "collector-output/white-fang/white-fang.html",
+          "sha256": "7fd187436370ae1799dcca2cea1a3ff2905ada5a7b4305f2c1b97d21865d84b4"
+        },
+        {
+          "path": "collector-output/white-fang/sources.md",
+          "sha256": "74ae2abd33527a4e298e64b2c9be25c760361c14c5c3dab47cbf6842c0d77324"
+        },
+        {
+          "path": "collector-output/white-fang/QA.md",
+          "sha256": "c2b6b7aab2eb34b98d913b34671e114452a1980f93b7f542e10ddb6f75d18688"
+        }
+      ],
+      "sourceLimits": [
+        "No continuous full-book reading or line-by-line completeness certification.",
+        "No published Russian translation audited; RU is original paraphrase.",
+        "Animal mental states are Londons literary narration, not verified animal science or handling advice.",
+        "Root remains a different old 96-pair story and is not approved here.",
+        "Static safeguards inspection only; independent browser/mobile/offline/root integration not performed."
+      ],
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 6,
+          "deep": 10
+        },
+        "en": {
+          "essential": 4,
+          "core": 6,
+          "deep": 9
+        }
+      },
+      "sourceCount": 1,
+      "rootSha256": "58ed647f87221c19c01551ba39302ae3cce11d2b27c6070c71144422bd543572",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Сокращённый рассказ своими словами по английскому роману Лондона, пять частей. Русский текст — новый пересказ, не опубликованный перевод. Животный опыт передан как художественное повествование; расовые иерархии не повторяются как факты. История сохраняет жестокость и применение силы у разных хозяев. Внешний полный текст раскрывает сюжет.",
+        "en": "An original condensed retelling of London’s English novel in five parts. The Russian text is a new paraphrase, not a published translation. Animal experience remains literary narration; racial hierarchies are not repeated as facts. The story retains cruelty and the use of force by different masters. The external full text reveals the plot."
+      }
+    },
+    {
+      "slug": "children-of-captain-grant",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/children-of-captain-grant.json",
+      "reviewSha256": "563116a620025760fedfebd10d1bc6e5d66a94065f9df56779b2b0fcebfa8bd9",
+      "counts": {
+        "essential": 14,
+        "core": 23,
+        "deep": 37
+      },
+      "contentMode": "narrative",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/children-of-captain-grant/story-data.json",
+          "sha256": "aaa48f035739849c1362ec57c56df1c17ced438c82eb0de8dd1829d9b2be1df2"
+        },
+        {
+          "path": "collector-output/children-of-captain-grant/children-of-captain-grant.html",
+          "sha256": "b45d1f248dbed5ca1b139f54fb625310e4246913904d3a0d79493cf4833b172c"
+        },
+        {
+          "path": "collector-output/children-of-captain-grant/sources.md",
+          "sha256": "98e13ab8fee9cf7a00ce7403c54fc77c0ad902cb0b98eb4fdbd846342f20970f"
+        },
+        {
+          "path": "collector-output/children-of-captain-grant/QA.md",
+          "sha256": "79f07950ff0a213db825e3f58e2e3ec97d8c0365761ffd4b814e2484f8365aa0"
+        }
+      ],
+      "sourceLimits": [
+        "Horne scope retained; no completeness or comparative fidelity certificate against all 70 French chapters.",
+        "No continuous full-book reading claim, no published Russian-translation certification.",
+        "Novel animals, geography and spectacular rescues assessed as fiction, not empirical science; no extra scientific lecture requested.",
+        "Root publication remains a different old corpus; this pass does not approve it.",
+        "Content review and static safeguards inspection only; no independent browser/mobile/offline integration certification."
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/children-of-captain-grant-meaning-fix-closure.json",
+      "closureSha256": "c4c7d1e48cbe36e929691bd4f320cbb80ff2569eb6c5d0ec2c0794034f4bc9e7",
+      "closedFindings": [
+        "GRANT-CONTENT-01"
+      ],
+      "checkedScreens": [
+        "toline-geography"
+      ],
+      "primaryChecked": "Project Gutenberg2083, Horne English version, PartII chapterXII. Parent read the gift and next-morning departure witness lines362–389: Glenarvan gives Richardsons Compendium to correct the boy’s ideas, and Paganel later finds that gift in his vest pocket.",
+      "publisherAssessment": [
+        "GRANT-CONTENT-01: II.XII explicitly distinguishes the school manual from Glenarvan’s corrective Richardson gift. Toline leaves that gift in Paganel’s pocket. Current RU/EN establish the gift, laughter at the answers, mimosa and departure without inventing the old textbook or the boy’s motive."
+      ],
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 7,
+          "deep": 10
+        },
+        "en": {
+          "essential": 4,
+          "core": 6,
+          "deep": 10
+        }
+      },
+      "sourceCount": 5,
+      "rootSha256": "0feb7664d175ee2757b2d253257bb05abcb7c4051e4d60ee9c7575eace69a87a",
+      "integrationBrowserAcceptancePending": false,
+      "sourceScope": {
+        "ru": "Сокращённый рассказ своими словами по исторической английской редакции Хорна; ключевые места письма и развязки сверены с французским текстом Hetzel 1868. Эти редакции различаются; подробности границ проверки — в sources.md и редакционном отчёте. Русский текст — новый пересказ. Реальные народы не описываются как расовые типы; события и невероятные спасения принадлежат миру романа. Полные внешние тексты раскрывают сюжет.",
+        "en": "An original condensed retelling based on the historical Horne-edited English version; key message and resolution passages checked against the French Hetzel 1868 text. The editions differ; sources.md and the editorial report delimit the checks. The Russian text is a new paraphrase. Real peoples are not described as racial types; the events and extravagant rescues belong to the novel. Complete external texts reveal the plot."
+      }
+    }
+  ],
+  "rejectedCandidates": [],
+  "deferredCandidates": [
+    {
+      "slug": "hard-to-be-a-god",
+      "reason": "Round2/HG06 closure handoff arrived after release03 content intake was sealed. Current corrected package not inspected or integrated; next publisher should validate the small deletion against pass2 and the closure evidence."
+    },
+    {
+      "slug": "nonviolent-communication",
+      "reason": "Ready-for-independent-check only at dispatch; no completed independent approval accepted by this release."
+    }
+  ],
+  "release02Verified": {
+    "production": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-production-verification.json",
+    "browser": "editorial-audit/2026-10-31/publisher-findings/release-02-proof/release03-production-browser.json",
+    "books": 32,
+    "screens": 3168,
+    "exactPublicAssets": 43
+  },
+  "publication": {
+    "merged": false,
+    "productionVerified": false
+  },
+  "limits": [
+    "Uses completed independent whole-corpus reviews plus direct primary-source checks of five corrected pairs; no repeat whole-book review or exhaustive full-edition certification.",
+    "No physical iPhone/PWA claim."
+  ],
+  "contentIntakeSealedAt": "2026-10-31T20:03:37.208955+00:00",
+  "catalogueBooks": 33,
+  "catalogueScreens": 2353,
+  "acceptedRuEnPairs": 457,
+  "acceptedNarrativePairs": 274,
+  "acceptedExplanatoryPairs": 183,
+  "catalogueSha256": "e022856e9ed61304048cf5b09af6518e5fc55019f416802f00eb0beb28d2ecb8",
+  "unmodifiedExistingReaders": 22,
+  "publicAllowlistFiles": 44,
+  "privateTreesDeployed": false,
+  "contentIntakeSealed": true,
+  "excludedChanges": [
+    "Hard to Be a God, pending independent recheck",
+    "Settings/font-selection UI feature, separate worktree/PR",
+    "Other source rescues, new collectors and late 1873/TOC metadata fixes"
+  ],
+  "checks": {
+    "libraryAndPortableSkill": "PASS",
+    "structural": "11 x 69 bilingual checks, no warnings/failures",
+    "renderingVisits": 15200,
+    "widths": [
+      320,
+      390,
+      1024,
+      1440
+    ],
+    "languages": [
+      "ru",
+      "en"
+    ],
+    "themes": [
+      "dark",
+      "light"
+    ],
+    "depths": [
+      "essential",
+      "core",
+      "deep"
+    ],
+    "reviewReadyCollectorRootParity": "PASS",
+    "discovery": "33 cards / 2353 screens; equal tabs, stats, bilingual searches, controlled facets, unique semantic cover motifs",
+    "sources": "All 11 global Sources dialogs/source maps preserved; narrative footers suppressed",
+    "progress": "All 11 removed IDs fall back safely, valid stable IDs resume",
+    "consent": "All 7 spoiler-bearing readers: RU/EN saved Deep cancel/accept, fresh Essential on reload, picker cancel/accept, restart clears progress; original custom dialog runtimes retained",
+    "focus": "11 tap focus + keyboard contents + retained Next + swipe + vertical movement exclusion",
+    "safeArea": "11 readers at 320/390; engine top59/bottom34, one inset-safe icon row, scroll/focus-exit stability",
+    "offline": "All 11 via service-worker cache navigation and file:// standalone; optional file-manifest CORS diagnostics separated",
+    "runtimeExceptions": 0,
+    "physicalIPhone": false,
+    "browserCleanup": "Fresh mkdtemp per phase, timeout30 Chrome, owned process-group/profile cleanup; no owned server/browser remaining",
+    "shellIdempotence": "PASS for all 11 accepted roots"
+  },
+  "proofFiles": [
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/adventure-rendering.json",
+      "sha256": "4d84ef303251689a0431c47e1321b7a3bc7f1cc9205ba0e2e746db4a042a1667"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/body-rendering.json",
+      "sha256": "a97ef06227ae656130d9ed2f4b979bcb396e94666fc1abde4f8f6ab2c7e08951"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/discovery.json",
+      "sha256": "499ba5128ac0329d36ff5ad12580775ac17c294fbac9cfec27baa473211c0e56"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/final-two-consent.json",
+      "sha256": "62df524fd582981c89ce18e9f373e91c24fe6466df1a20683cbc3544de91a872"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/final-two-focus.json",
+      "sha256": "87635613c1df418cb5578fb5071d9c4a2c72a89b55689c6d2a64a550ffe870cd"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/final-two-interactions.json",
+      "sha256": "92fefe090f954b03b6580c8ceda5ebf0f0264c48c99ba0aae1797bfce3843edd"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/final-two-rendering.json",
+      "sha256": "41eb6e7f0e4dc706146277310e8b65fcc1bddb4c1321bf6c142dbc2cdc1813b1"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/final-two-safe-area.json",
+      "sha256": "79642f9b9d7a0e949619ce2d77529c6aecc83b78720c3d0888c5b10a5041d45e"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/first-six-closures.json",
+      "sha256": "ada0161e02f8da33a2f5e67f19d9934de1ddaf75a1bbb0d865ab4fd99a56ea3d"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/four-corrections-rendering.json",
+      "sha256": "c6fb12560e552fbffdfae2e848d63907f3686d4aa2a2ed02200f7a2932187282"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/grant-closure.json",
+      "sha256": "2056f9156c67a5380099870e5f5dd74e7dad0e16fd08b40cab4efb86f9dc354d"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/hash-parity.json",
+      "sha256": "c36c1f5066b3eaacb8ab27deae47de4ddc3b6f07b1c69ed8d933eaa2a581800b"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/initial-five-consent.json",
+      "sha256": "cacaa21dfd3383f044fb0af4bfe845b86ed8e2cc59f30303f42878cfecc1e173"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/initial-nine-focus.json",
+      "sha256": "fa941a08c5ce935a9ce4c4a5e3e9554fa269e21dab3d1a9311ead1373004a26b"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/initial-nine-interactions.json",
+      "sha256": "f6046ff194a6bb05f171ce8cafd17bb65421e7858db0edfe4108ddfe05f0879a"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/initial-nine-safe-area.json",
+      "sha256": "766326ee97b178a6671d26190f2784b9bab1da9a58d248960c87511e93fc0a4f"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/integration-summary.json",
+      "sha256": "818a27fbd4e2a442741f92ebc9100d1fd4ca4394c0c4ef203289f39e60910856"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/monday-card-1440.png",
+      "sha256": "43aeb9c177640cbd225fa3698032e22fed7c1935dee3e2eb94727afe44b6808c"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/monday-card-390.png",
+      "sha256": "9f7a123d7ae43677db826868ea58de400089d1248a1701d55c45a0ee688a22c0"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/offline.json",
+      "sha256": "5c013a6cd4e530e89810943e2e38f51d031ed54218a3a06a1bf9979257ba895b"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/public-allowlist.json",
+      "sha256": "75060051167ea520c8f8841d3a7a946c1d3d4e24774456b4fbe4f48ab806241f"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/release-card.json",
+      "sha256": "f7bd92d3f0b064153f05bcaa291042a7d08e07db7d0154c49e885abb684bd9b7"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/shell-idempotence.json",
+      "sha256": "650901e498b9ff46c583d49f888599823ed93a736351d4d1d693faef0cfa9906"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/structural.json",
+      "sha256": "c7c29ea5946564c30126d9b12289770b1d56c22b06fc26871c82c914048402c6"
+    }
+  ]
+}

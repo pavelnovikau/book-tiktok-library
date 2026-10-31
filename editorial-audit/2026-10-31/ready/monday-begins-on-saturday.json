@@ -1,0 +1,88 @@
+{
+  "slug": "monday-begins-on-saturday",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD",
+  "deliverables": [
+    {
+      "path": "collector-output/monday-begins-on-saturday/story-data.json",
+      "sha256": "e57929ff6ca03ec9ee262bd789a9e25ba40ed4b13ca5d479bc00c2d417fe2d9a"
+    },
+    {
+      "path": "collector-output/monday-begins-on-saturday/monday-begins-on-saturday.html",
+      "sha256": "a485741284da7d4191890552dfbb2972b85cc48825a1191691115f1360b87c10"
+    },
+    {
+      "path": "collector-output/monday-begins-on-saturday/sources.md",
+      "sha256": "64a7b2fe3185844549b07e08e505889bb80e3de7772766dfa26b2a93710d6e88"
+    },
+    {
+      "path": "collector-output/monday-begins-on-saturday/QA.md",
+      "sha256": "474a8004f687a336557a7298d254e4120fc0b27baf41cd568dd2e4cd61eb2228"
+    }
+  ],
+  "counts": {
+    "essential": 11,
+    "core": 17,
+    "deep": 29
+  },
+  "oldReviewedPairs": 112,
+  "newReviewedPairs": 29,
+  "contentMode": "narrative",
+  "reportPath": "editorial-audit/2026-10-31/books/monday-begins-on-saturday.md",
+  "reportSha256": "107310075abbec5bb46fdec136dd86198ae8bae8526554210e5bd7d96149b612",
+  "sourceScope": {
+    "primaryUrl": "https://www.rusf.ru/abs/books/pnvs100.htm",
+    "meaningfulPlotThroughEndingRead": true,
+    "entireTextReadSequentially": false,
+    "printEditionCollated": false,
+    "wholeEditionFidelityCertified": false,
+    "detailsPath": "collector-output/monday-begins-on-saturday/sources.md",
+    "privateExtractionOutsidePublicRepo": true
+  },
+  "changes": [
+    "Rebuilt entire analytical companion as three connected comic stories",
+    "Removed modern analogies, methodological padding and reader exercises",
+    "Restored genie intervention, discrete midnight jumps and actual final trip prediction",
+    "Moved holiday-double answer and all decisive resolutions into warned Deep",
+    "Changed cover credit to original composition"
+  ],
+  "unresolvedIssues": [],
+  "reviewLimits": [
+    "Selected continuous primary plot passages across the whole story; not every word or variant certified",
+    "Independent editorial acceptance still required",
+    "No physical iPhone/PWA or production verification"
+  ],
+  "checks": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "authoringEqualsEffectiveHtml": true,
+    "browserReport": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/qa-monday-begins-on-saturday/browser.json",
+    "renderedInstances": 456,
+    "savedDeepReturnPaths": 48,
+    "finalRestartClearsProgress": true,
+    "sizes": [
+      "320x568",
+      "1440x900"
+    ],
+    "allModesLanguagesThemes": true,
+    "noRuntimeExceptionsOrRemoteRequests": true
+  },
+  "publisherAttention": [
+    "Integrate only after independent editorial text review",
+    "Update root metadata, counts, descriptions and reading times",
+    "Retain Sources, outcome-safe lower contents and generic saved-Deep warning",
+    "Invalidate or deliberately migrate prior circulated progress because IDs and meaning changed"
+  ],
+  "parentCorrections": {
+    "findings": [
+      "MON-01"
+    ],
+    "changedScreens": [
+      "wishes-have-a-language"
+    ],
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/monday-begins-on-saturday-meaning-fix-closure.json"
+  }
+}

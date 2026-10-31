@@ -1,0 +1,31 @@
+{
+  "phase": "release-closures",
+  "origin": "owned-local-test-server",
+  "checks": [
+    {
+      "book": "children-of-captain-grant.html",
+      "language": "ru",
+      "theme": "dark",
+      "width": 320,
+      "id": "toline-geography",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    },
+    {
+      "book": "children-of-captain-grant.html",
+      "language": "en",
+      "theme": "light",
+      "width": 1440,
+      "id": "toline-geography",
+      "title": true,
+      "body": true,
+      "overflow": false,
+      "sourceMap": true
+    }
+  ],
+  "changedCopyIntegration": "exact current title/body displayed",
+  "literaryScope": "Source closure is separately recorded; this phase tests rendered corrected copy.",
+  "runtimeErrors": 0
+}

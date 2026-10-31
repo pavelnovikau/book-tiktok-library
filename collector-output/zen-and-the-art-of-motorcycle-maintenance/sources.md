@@ -1,103 +1,89 @@
-# Zen and the Art of Motorcycle Maintenance — source ledger
+# Zen and the Art of Motorcycle Maintenance — repaired narrative sources
 
-Accessed 2026-10-31. Collector counts: Essential 36 / Core 90 / Deep 144, cumulative and inclusive of cover/final. RU is default.
+2026-10-31. The corrected editorial brief governs this package. This is a condensed philosophical novel: the road and father/son story carry Pirsig's actual inquiry, rather than supplying occasions for the digest writer's lessons. `contentMode: narrative`. Nested counts: **20 / 38 / 52**, including cover and shared final. The previous 36/90/144 and old green QA are superseded.
 
-## Edition and reading boundary
+## Exact work and accessed edition
 
-A complete, readable Russian EPUB was located in the maintainer’s existing Apple Books/iCloud personal library and consulted read-only. It was not downloaded from the web. Library filename: «Дзен и исскуство ухода за мотоциклом.epub» (the spelling is the package’s). OPF credits Robert M. Pirsig and translator М. Немцов. FB2 document UUID: 25a2e2f2-4c07-41e2-8662-55c0b0139c04, version 1, document creation 2009-08-02; FB2EPUB converter 1.0.28.0. These identify the electronic conversion, not the publication year or a verified print edition. Publisher, ISBN, print date and the authorized provenance of this old personal conversion are not established by its metadata. No DRM was bypassed.
+Robert M. Pirsig, *Zen and the Art of Motorcycle Maintenance: An Inquiry into Values*, first published in **1974**. The primary text consulted read-only is the maintainer's existing personal Apple Books Russian EPUB, credited to translator **М. Немцов / M. Nemtsov**. It was not downloaded from a public full-book site. Metadata identify an FB2 conversion: document UUID `25a2e2f2-4c07-41e2-8662-55c0b0139c04`, document version 1, document date **2009-08-02**. This is not a publication date. Publisher, ISBN and exact print edition are absent and remain unidentified; metadata alone do not establish the historical authorization of that conversion. The task explicitly permits consultation of the user's existing owned editions. No DRM was bypassed.
 
-The package contains four parts and all 32 numbered chapters, author’s prefatory note, translator M. Nemtsov’s essay «Краска, бумага, картон и клей» and translator’s notes. No later authorial afterword was identified. The ending remains present, although conversion damage is visible in a few sentences of chapter 32. The collector does not reproduce or repair the book text.
+The EPUB contains the author's prefatory note, four parts, **all 32 numbered chapters**, translator's essay and notes. It is not a digest or a summary: the spine, substantial prose chapters, philosophical sequences and ending are present. The translator essay and later works were not treated as the novel's narration. No later authorial afterword is identified in this copy.
 
-Actual consultation: metadata/spine/TOC and chapter boundaries inspected throughout; opening, middle and ending passages sampled in the narrative and philosophical chapters; targeted searches checked classical/romantic, scientific method, Quality, grades, Tao, Poincaré, stuckness, gumption traps, rhetoric and aretē; chapters 27 and 32 read in full and chapter 31’s resolution checked directly. This is selective close consultation of a complete local text, not a claim of complete line-by-line reading. No page numbers are invented. Chapter references are used because EPUB pagination is not stable. Later history is sourced independently and is explicitly separated from this edition. No absolute private workstation path, original text dump, publisher cover or EPUB artwork is included.
+There are damaged sentences in Chapter 32: the lean of the motorcycle runs into a disconnected image; a later dream-related sentence breaks off. These gaps were not restored from memory or imagined. The intact closing conversation and road sequence support the new ending. No publisher artwork, original book text or private extraction is distributed in this repository. The cover uses an original inline geometric SVG of a road and mountain ridge; it is not a map or a reconstruction of a particular scene. It replaces the template’s generic system/idea/consequence and take-away-model graphic, which misdescribed this narrative.
 
-## Claim map established before screens
+## Actual reading in this repair
 
-Question: can a person participate in technological life without feeling divided from it, from values, or from other people? Conventional error: treating technical reason and felt experience as hostile, self-sufficient domains, then asking neutral facts to supply their own importance. Mechanism: attention selects what matters; Quality names the pre-conceptual encounter that makes subject/object descriptions and better/worse judgment possible; care reconnects analysis with doing. Cases: John/Sylvia, beer-can shim, careless repair, scientific notebook, Bozeman/DeWeeses, writing classes and grades, mountain ascent, Poincaré, stripped screw and gumption traps, Chicago seminars, Chris and the glass door. Consequence: good work needs responsive judgment and concern, not a recipe alone. Qualification: recognition does not by itself prove metaphysical priority; the narrator challenges the identification of Quality and Tao; technical care does not guarantee human care, mental health or institutional justice. Durable model: encounter → value → discriminating attention → test/action → revision, always returning to the person affected.
+All 144 old RU/EN pairs were read and compared with both the collector and root HTML's effective embedded text. For primary consultation, substantial continuous passages were read across the entire 32-chapter plot/argument, including the road's opening, John/Sylvia, mechanical recollections, classical/romantic distinction, scientific-method and hypothesis argument, Hume/Kant and India discussions, college/institutional argument, DeWeese visit, campus return, teaching experiments, Quality's subject/object problem and reversal, Tao comparison, physical descent, Poincaré, stuck screw, art/technology, gumption, Greek rhetoric/aretē, psychiatric crisis and father/son resolution. This was **selected close reading across the book, not continuous reading of all 121,000-plus extracted Russian words**. Chapters **21, 23, 27, 31 and 32** were read in full; the prefatory note was read as well.
 
-Essential preserves the ending and the explicit Phaedrus/narrator resolution. It includes the philosophical problem, distinctive mechanisms and the unresolved relational test. Core inserts conceptual identity, pedagogy, scientific and institutional architecture. Deep adds finer mechanisms, historical objections and a clearly signalled full ending.
+The evidence supports this deliberately selected condensed route; it does not certify every line of the whole work or every historical/scientific claim made by its narrator. The original English novel was not available as a complete edition. EN is a translation of this new account grounded in the Russian primary reading, not a claim of verification against the complete English source. Chapter references replace unstable EPUB page numbers. No quotations, invented dialogue or page references have been authored.
 
-## Sources
+Private full-text/extraction and working selectors remain outside this repository. The dated per-book report records the repair and its remaining limits.
 
-### 1. Robert M. Pirsig — Zen and the Art of Motorcycle Maintenance, local Russian EPUB
+## Sources exposed in the reader
 
-- URL: https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/
-- Role: book.
-- Boundary / use: Read-only personal Apple Books/iCloud copy. Russian text, translation credited to M. Nemtsov, FB2 version 1 converted to EPUB, document date 2009-08-02; no publisher, ISBN or print-edition year is supplied. All 32 chapters are available. All chapters structurally inspected; selected passages consulted, chapters 27 and 32 read in full and chapter 31 resolution consulted. Link is public orientation, not the private EPUB.
-- Access: 2026-10-31.
+1. **Pirsig's personal Russian EPUB** — primary book source described above. The Sources dialog links to https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/ only as publicly reachable orientation; it is **not** a link to the private text or a claim that the association publishes that edition.
+2. **The Robert Pirsig Association, The Life & Work of Robert Pirsig — An Introduction** — https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/. Consulted 2026-10-31 for work identity, 1974 first publication and narrative form. The page labels itself work in progress. It does not substantiate particular scenes and is not an independent validation of the metaphysics. The two records share this public URL; they are not two independent public primary editions.
 
-### 2. Penguin Random House — Robert Pirsig
+Old external criticism, late biography, the separate Poincaré/Plato counter-readings and the sequel were removed from the reading route. Poincaré and Greek philosophy remain **as actually discussed by Pirsig's narrator/Phaedrus**. They are not silently replaced by the digest writer's preferred argument, nor presented as independently verified intellectual history. Narrator reservations about the Tao identity and the untestable identical-experience hypothesis remain.
 
-- URL: https://www.penguinrandomhouse.com/authors/24047/robert-pirsig/
-- Role: publisher.
-- Boundary / use: Official bibliographic orientation: author, novel and sequel Lila; not evidence for the Russian edition.
-- Access: 2026-10-31.
+## Spoiler policy
 
-### 3. NPR / Neda Ulaby — Robert Pirsig Dies at 88 (2017), with archival Pirsig audio
+Essential preserves Phaedrus's explicit identity and the decisive ending. Core identifies the former self and develops the philosophical inquiry, as the old cover already promised. Deep includes late Chicago details, the dream and father/son resolution **after `ending-warning`**. Cover, description, shared final and global Sources notes do not disclose those outcomes. The book now explicitly supplies `spoilerPolicy: full-plot-in-deep` so maintained saved-progress labels can protect the ending. Full context below contains spoilers.
 
-- URL: https://www.nhpr.org/national/2017-04-25/robert-persig-dies-at-88-motorcycle-trip-inspired-popular-zen-book
-- Role: author.
-- Boundary / use: Archival author comments on stuckness and philosophical ambition; separately, biographical context and Chris’s death after publication.
-- Access: 2026-10-31.
+## Primary location map — working material, spoilers below
 
-### 4. National Museum of American History — Zen and the Open Road
+The chapter map applies to both languages. All scene/argument screens use book source 1; cover/final/warning are editorial framing, not additional events or instructions from Pirsig. The rendered story suppresses academic claim labels through `contentMode: narrative`.
 
-- URL: https://americanhistory.si.edu/explore/exhibitions/zen-and-open-road
-- Role: primary.
-- Boundary / use: Material evidence: 1966 Honda Super Hawk, tools, manuscript, first publication and later Lila. Motorcycle model is external context; the novel does not name it.
-- Access: 2026-10-31.
-
-### 5. Henri Poincaré — The Foundations of Science, Science and Method: Mathematical Creation
-
-- URL: https://www.gutenberg.org/cache/epub/39713/pg39713-images.html
-- Role: primary.
-- Boundary / use: Primary account of selecting fruitful combinations and mathematical beauty; a local check on chapter 22, not proof of Pirsig’s entire metaphysics.
-- Access: 2026-10-31.
-
-### 6. Plato — Phaedrus, Benjamin Jowett translation, Internet Classics Archive
-
-- URL: https://classics.mit.edu/Plato/phaedrus.html
-- Role: primary.
-- Boundary / use: Primary counterweight to a simplified Plato: the dialogue examines speech, truth, soul and teaching.
-- Access: 2026-10-31.
-
-### 7. Robert Pirsig Association — The Life & Work of Robert Pirsig: An Introduction
-
-- URL: https://www.robertpirsig.org/the-life-work-of-robert-pirsig-an-introduction/
-- Role: reference.
-- Boundary / use: Orientation to the works, autobiographical basis and distinction between ZMM and Lila. Page calls itself work in progress; context, not independent philosophical validation.
-- Access: 2026-10-31.
-
-### 8. Jay Caspian Kang — Returning, Again, to Robert M. Pirsig (The New Yorker, 2022)
-
-- URL: https://www.newyorker.com/news/our-columnists/returning-again-to-robert-m-pirsig
-- Role: review.
-- Boundary / use: Modern reception: appeal of a craft-centred reading and risk of reducing the book to it. Consulted the accessible article text.
-- Access: 2026-10-31.
-
-### 9. Stanford Encyclopedia of Philosophy — Plato on Rhetoric and Poetry
-
-- URL: https://plato.stanford.edu/entries/plato-rhetoric/
-- Role: reference.
-- Boundary / use: Philosophical context limiting Phaedrus’s Greek genealogy; does not replace reading Plato.
-- Access: 2026-10-31.
-
-## Source-to-argument coverage
-
-- Screens 1–24: chapters 1–8; road, machine care, classical/romantic distinction.
-- Screens 25–44: chapters 2–3 and 7–12; ghosts, rationality, scientific method and philosophical drift.
-- Screens 45–59: chapters 13–15; Bozeman, university, DeWeeses and instructions.
-- Screens 60–85: chapters 15–20; writing, grading, recognition, subject/object dilemma and Quality.
-- Screens 86–92: chapters 20–21; Tao, narrator’s reservation and mountain descent.
-- Screens 93–106: chapters 22–25; Poincaré, stuckness, art and care.
-- Screens 107–122: chapter 26; gumption, external setbacks and internal traps.
-- Screens 123–132: chapters 28–30; Chicago, Greek genealogy and cost of argumentative victory.
-- Screens 133–140: chapters 23, 27, 30–32; explicit ending spoilers.
-- Screen 141: later biographical context, source 3; not an event in the novel’s trip or a later afterword read locally.
-- Screen 142: sequel boundary, sources 2/7.
-- Screens 143–144: collector synthesis grounded in the above.
-
-Primary checks are narrow: Poincaré supports selection in discovery, not Pirsig’s whole ontology; Plato complicates Phaedrus’s polemical genealogy, not a verdict on the novel. Smithsonian corroborates artifacts and trip context. The modern review supports reception only. No medical, psychological or historical claim is inferred from a fictional scene as if it were clinical or archival evidence.
-
-## Parent cold-review corrections — 2026-10-31
-
-Cold-review repair: source 3’s reader-facing note now says only later biographical context, preserving explicit biography in Deep; cover and reading-contract now clearly disclose that Core reveals Phaedrus’s identity. No change to 36/90/144 or the documented local-text access boundary.
+| Screen ID | Level | Primary chapter(s) |
+|---|---:|---|
+| `cover` | 1 | 1 |
+| `inside-landscape` | 1 | 1 |
+| `secondary-roads` | 2 | 1, 4 |
+| `maintenance-disagreement` | 1 | 1 |
+| `careless-shop` | 2 | 2 |
+| `empty-tank` | 3 | 2 |
+| `beer-can-shim` | 1 | 5 |
+| `classical-romantic` | 1 | 5, 6 |
+| `ghost-enters` | 1 | 3, 5, 6 |
+| `method-disciplines` | 2 | 8, 9 |
+| `hypothesis-abundance` | 1 | 10 |
+| `hume-kant` | 3 | 11, 12 |
+| `church-reason` | 2 | 13 |
+| `deweese-bridge` | 2 | 14 |
+| `folded-instructions` | 1 | 14 |
+| `bozeman-return` | 2 | 15 |
+| `phaedrus-former-self` | 2 | 15, 16, 31 |
+| `quality-question` | 1 | 15, 17 |
+| `mountain-care` | 1 | 16, 17, 18 |
+| `one-brick` | 1 | 16 |
+| `withheld-grades` | 2 | 16 |
+| `shared-recognition` | 2 | 17 |
+| `quality-removal` | 3 | 18 |
+| `subject-object-dilemma` | 1 | 19 |
+| `third-entity` | 2 | 19 |
+| `quality-before-division` | 1 | 19, 20 |
+| `experience-analogy` | 3 | 20 |
+| `quality-tao` | 2 | 20 |
+| `turning-back` | 1 | 18, 20, 21 |
+| `narrator-reservation` | 1 | 21 |
+| `poincare-selection` | 2 | 22 |
+| `stripped-screw` | 1 | 24 |
+| `art-relationship` | 2 | 25 |
+| `gumption-fuel` | 1 | 26 |
+| `setbacks-hangups` | 2 | 26 |
+| `value-rigidity` | 2 | 26 |
+| `ego-and-impatience` | 3 | 26 |
+| `mu-question` | 2 | 26 |
+| `work-by-hand` | 3 | 26 |
+| `chicago-conflict` | 1 | 28, 29 |
+| `greek-genealogy` | 2 | 29 |
+| `arete` | 2 | 29 |
+| `argument-cost` | 1 | 28, 29, 30 |
+| `ending-warning` | 3 | Reader framing |
+| `shadow-face` | 3 | 23, 27 |
+| `chicago-collapse` | 3 | 30 |
+| `chris-misses-father` | 3 | 28, 30 |
+| `planned-separation` | 3 | 31 |
+| `hospital-door` | 3 | 31 |
+| `identity-return` | 3 | 31, 32 |
+| `view-over-shoulder` | 3 | 32 |
+| `final` | 1 | Reader framing |

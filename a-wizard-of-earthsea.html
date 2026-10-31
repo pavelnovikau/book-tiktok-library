@@ -33,6 +33,11 @@
       --color-on-primary: #100f0f;
       --color-focus-ring: rgba(58, 169, 159, 0.34);
     }
+    @media (min-width: 900px) and (max-width: 1199px) {
+      html .cover-layout { display: flex; flex-direction: column; min-width: 0; max-width: 100%; }
+      html .cover-visual { min-height: 220px; grid-row: auto; }
+      html .cover-copy { min-width: 0; width: 100%; }
+    }
     html[data-focus-mode="true"] body { overscroll-behavior-y: none; }
     html[data-focus-mode="true"] .app-stage { padding: 0 !important; }
     html[data-focus-mode="true"] .app-shell {
@@ -49,7 +54,9 @@
     html[data-focus-mode="true"] .topbar,
     html[data-focus-mode="true"] .progress,
     html[data-focus-mode="true"] .progress-track,
-    html[data-focus-mode="true"] .desktop-rail { display: none !important; }
+    html[data-focus-mode="true"] .desktop-rail,
+    html[data-focus-mode="true"] .cover-actions,
+    html[data-focus-mode="true"] .cover-copy .mode-picker { display: none !important; }
     html[data-focus-mode="true"] .story {
       min-width: 0 !important;
       min-height: 0 !important;
@@ -1955,7 +1962,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         try { localStorage.setItem(seenKey, 'true'); } catch (_) {}
       }
       function show() {
-        if (focusActive()) return;
+        if (focusActive() || isStandalone()) return;
         localize();
         if (!dialog.open) dialog.showModal();
       }

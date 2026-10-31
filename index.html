@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -668,7 +668,15 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'balance') {
+        if (motif === 'causal-layers') {
+          content = '<path class="art-quiet" d="M285 35 H132 V145 H285 M265 53 H155 V127 H265 M245 71 H178 V109 H245"/>' +
+            '<path class="art-line" d="M132 91 H201 M155 53 L201 91 M178 109 L201 91 M285 35 L201 91"/>' +
+            '<path class="art-bold" d="M201 91 H293"/><rect class="art-fill" x="287" y="85" width="12" height="12" rx="2"/>';
+        } else if (motif === 'attention-return') {
+          content = '<path class="art-quiet" d="M132 49 C211 49 173 133 247 133 M132 91 C204 91 175 49 263 49 M132 133 C210 133 197 91 290 91"/>' +
+            '<path class="art-bold" d="M132 91 H204 C245 91 266 111 266 133 C266 157 211 157 211 133 V91"/>' +
+            '<path class="art-line" d="M204 80 L215 91 L204 102"/><rect class="art-fill" x="127" y="86" width="10" height="10" rx="2"/>';
+        } else if (motif === 'balance') {
           content = '<path class="art-fill-soft" d="M221 113 L202 164 L251 164 Z"/><path class="art-bold" d="M145 109 L287 79"/>' +
             '<circle class="art-fill" cx="160" cy="106" r="18"/><circle class="art-fill" cx="274" cy="82" r="7"/>' +
             '<path class="art-quiet" d="M202 164 H268 M221 113 V94"/>';

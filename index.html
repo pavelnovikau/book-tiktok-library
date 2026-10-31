@@ -313,11 +313,7 @@
       --cover-accent: #24837b;
       position: relative;
       isolation: isolate;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
       min-height: 14rem;
-      padding: var(--space-6);
       overflow: hidden;
       border-bottom: 1px solid var(--color-border);
       background: var(--cover-bg);
@@ -356,9 +352,6 @@
     :root[data-theme="dark"] .cover--tone-blue { --cover-bg: #101a24; --cover-accent: #4385be; }
     :root[data-theme="dark"] .cover--tone-magenta { --cover-bg: #24131d; --cover-accent: #ce5d97; }
 
-    .cover__meta { position: relative; z-index: 2; display: flex; justify-content: space-between; gap: var(--space-3); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.05em; text-transform: uppercase; opacity: 0.72; }
-    .cover strong { position: relative; z-index: 2; max-width: 12ch; font-size: clamp(2rem, 4vw, 4rem); font-weight: 640; line-height: 0.93; letter-spacing: -0.055em; overflow-wrap: anywhere; text-wrap: balance; }
-    .cover--year strong { font-family: Georgia, "Times New Roman", serif; font-size: clamp(4.5rem, 8vw, 7.5rem); font-weight: 500; }
     .book__body { display: flex; flex-direction: column; min-height: 20rem; padding: var(--space-6); }
     .book__meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); margin-bottom: var(--space-5); color: var(--color-text-faint); font-family: var(--font-mono); font-size: var(--text-xs); letter-spacing: 0.04em; text-transform: uppercase; }
     .book h3 { margin: 0 0 var(--space-3); font-size: var(--text-2xl); font-weight: 640; line-height: 1.05; letter-spacing: -0.035em; overflow-wrap: anywhere; }
@@ -1400,14 +1393,12 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +
             '<path class="art-line" d="M273 34 H297 M283 24 V48"/>';
         }
-        return '<div class="cover__art"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid slice" focusable="false">' + content + '</svg></div>';
+        return '<div class="cover__art"><svg viewBox="0 0 320 180" preserveAspectRatio="xMidYMid meet" focusable="false"><g transform="translate(-55 0)">' + content + '</g></svg></div>';
       }
 
       function bookMarkup(book) {
-        var category = facetById(book.genres[0] || book.subjects[0]);
         var typeLabel = book.workTypeLabel || discovery.types.find(function (item) { return item.id === book.workTypes[0]; }).label;
         var title = localized(book.title);
-        var mark = book.cover && (book.cover.mark || book.cover.left) ? (book.cover.mark || book.cover.left) : title;
         var modes = [book.readingMinutes.essential, book.readingMinutes.core, book.readingMinutes.deep]
           .map(function (value, index) { return '<span>' + value + (index === 2 ? ' ' + translations[state.language].minute : '') + '</span>'; }).join('');
         var tags = (book.tags || []).slice(0, 4).map(function (tag) {
@@ -1416,8 +1407,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }).join('');
         return '<a class="book" href="./' + escapeHTML(book.file) + '" data-book="' + escapeHTML(book.slug) + '" aria-label="' +
           escapeHTML(translations[state.language].open + ': ' + title) + '">' +
-          '<div class="cover ' + coverClass(book) + '" data-cover-motif="' + coverMotif(book) + '" aria-hidden="true">' + coverArtwork(book) + '<div class="cover__meta"><span>' +
-          escapeHTML(category ? localized(category.label) : localized(typeLabel)) + '</span><span>' + book.screenCount + '</span></div><strong>' + escapeHTML(mark) + '</strong></div>' +
+          '<div class="cover ' + coverClass(book) + '" data-cover-motif="' + coverMotif(book) + '" aria-hidden="true">' + coverArtwork(book) + '</div>' +
           '<div class="book__body"><div class="book__meta"><span>' + escapeHTML(localized(typeLabel)) +
           '</span><span>' + escapeHTML(book.spoilerPolicy === 'full-plot-in-deep' ? translations[state.language].spoilers : '') + '</span></div>' +
           '<h3>' + escapeHTML(title) + '</h3><p class="book__author">' + escapeHTML(localized(book.author)) + '</p>' +

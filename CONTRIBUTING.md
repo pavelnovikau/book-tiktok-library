@@ -44,7 +44,7 @@ Required fields:
   "author": { "ru": "...", "en": "..." },
   "description": { "ru": "...", "en": "..." },
   "readingMinutes": { "essential": 12, "core": 30, "deep": 55 },
-  "cover": { "type": "typographic", "mark": "SYSTEMS", "motif": "bottleneck", "tone": "cyan" }
+  "cover": { "type": "typographic", "motif": "bottleneck", "tone": "cyan" }
 }
 ```
 
@@ -55,6 +55,8 @@ Keep an existing `sections[]` ID and `collections[]` assignments for schema-2 co
 `audience` is internal context: `general`, `teen-14-plus` or `adult`; `spoilerPolicy` is `not-applicable`, `spoiler-free` or `full-plot-in-deep`. Keep spoiler notices accurate and do not turn audience into an age shelf or profile. Supported card-cover types are `typographic`, `year`, `constraint` and `split`; `typographic` is the safe default.
 
 Every catalogue cover also needs a semantic `motif` and a Flexoki `tone`. A motif is not decoration chosen at random: its geometry should encode the book’s central mechanism, such as a bottleneck for a constraints book, one surviving line for essentialism, a finite dot field for a book about limited time, a round door and returning road for a threshold story, a stepped protocol stack for a layered decision atlas, a routed map for a voyage, an isolated plateau for exploration, contour lines for strategic terrain, a remapped joint network for embodied learning, a route through an archipelago for a journey shaped by names and choices, nested fields for distinctions of control, a knot opening into a free line for release, layered somatic traces for remembered threat, a known latitude with several possible longitudes for a search constrained by partial evidence, or a body crossing a shore between confined air and open water. Newly registered motifs show an observer above a closed city, a raft following a branching river, two speakers linked through four communication components, four learning practices joined by a fifth feedback path, a common city linked by reason, and two tracks converging across broken ice. Existing motifs are `habit-cycle`, `balance`, `crash`, `bottleneck`, `relay`, `distill`, `clock`, `weeks`, `mirror`, `stress`, `acceleration`, `door`, `protocol-stack`, `treasure-map`, `plateau`, `terrain`, `body-map`, `archipelago`, `control-field`, `open-knot`, `somatic-trace`, `attention-return`, `causal-layers`, `inherited-path`, `quality-bridge`, `convex-response`, `latitude-search`, `conditioned-trust`, `rule-loop`, `testimony-compass`, `chalk-boundary`, `scale-question`, `sea-air`, `enchanted-lab`, `watchtower`, `river-raft`, `needs-bridge`, `five-disciplines`, `common-city`, `ice-crossing`, `dual-frame`, `stock-flow`, `two-orbits`, `memory-spectrum`, `commons-rules`, `paradigm-shift`, `legibility-grid`, `moving-hearth`, `north-needle`, `null-gravity`, `shutter-court`, `dry-lake`, `suit-radio`, `desert-cycle`, `unforced-motion`, `ocean-station`, `maze-trace` and `twin-serpents`; each is used by one book only. Existing tones are `red`, `orange`, `yellow`, `green`, `cyan`, `blue` and `magenta`. Add a new renderer and validator entry when a genuinely new book needs a new motif. Do not reuse a generic circle or copy another card’s geometry.
+
+Homepage thumbnails contain artwork only. Keep the title, author, genre/topic labels and reading times in the card body. Do not add decorative slogans or screen counters over the artwork. Legacy `cover.mark`, `cover.left` and `cover.right` values are ignored by the renderer.
 
 ## 3. Validate and preview
 

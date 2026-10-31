@@ -17,6 +17,26 @@ const headBlock = `
   <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
   <style id="book-library-focus-mode">
+    :root {
+      --color-primary: #1c6c66;
+      --color-primary-hover: #164f4a;
+      --color-primary-active: #143f3c;
+      --color-primary-soft: #ddf1e4;
+      --color-primary-tint: #ddf1e4;
+      --color-primary-text: #1c6c66;
+      --color-on-primary: #fffcf0;
+      --color-focus-ring: rgba(36, 131, 123, 0.28);
+    }
+    :root[data-theme="dark"] {
+      --color-primary: #2f968d;
+      --color-primary-hover: #3aa99f;
+      --color-primary-active: #24837b;
+      --color-primary-soft: #122f2c;
+      --color-primary-tint: #122f2c;
+      --color-primary-text: #5abdac;
+      --color-on-primary: #100f0f;
+      --color-focus-ring: rgba(58, 169, 159, 0.34);
+    }
     html[data-focus-mode="true"] body { overscroll-behavior-y: none; }
     html[data-focus-mode="true"] .app-stage { padding: 0 !important; }
     html[data-focus-mode="true"] .app-shell {
@@ -141,9 +161,9 @@ const headBlock = `
     .book-library-install-close {
       min-height: 48px;
       padding: 0 1.25rem;
-      border: 1px solid var(--color-primary, #5b2fc2);
+      border: 1px solid var(--color-primary, #1c6c66);
       border-radius: var(--radius-md, 0.75rem);
-      background: var(--color-primary, #5b2fc2);
+      background: var(--color-primary, #1c6c66);
       color: var(--color-on-primary, #fffcf0);
       font: 650 1rem/1 var(--font-reading, system-ui, sans-serif);
       cursor: pointer;

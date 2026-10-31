@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -751,6 +751,11 @@
             '<rect class="art-fill-soft" x="195" y="72" width="39" height="38" rx="6"/><path class="art-bold" d="M118 91 H147 M147 91 H186 M186 91 H215"/>' +
             '<path class="art-line" d="M138 82 L147 91 L138 100 M177 82 L186 91 L177 100"/>' +
             '<rect class="art-fill" x="208" y="84" width="14" height="14" rx="3"/><path class="art-quiet" d="M286 46 L297 35 M286 136 L297 147 M143 46 L132 35 M143 136 L132 147"/>';
+        } else if (motif === 'open-knot') {
+          content = '<path class="art-quiet" d="M123 118 C151 67 193 48 229 67 C259 83 265 114 247 132 M135 54 C166 78 190 111 221 120 C249 128 277 111 299 76"/>' +
+            '<path class="art-fill-soft" d="M149 70 C174 49 214 53 229 78 C245 104 222 132 193 125 C165 119 151 91 169 75 C184 62 204 68 210 84 C216 101 201 112 187 105 C176 99 176 87 184 82 C191 78 198 83 197 89 C196 94 192 96 188 94 C186 93 185 91 186 89"/>' +
+            '<path class="art-bold" d="M124 123 C147 79 174 58 202 62 C230 66 243 91 231 111 C218 132 188 132 173 112 C158 92 171 72 189 72 C207 72 217 89 210 102 C203 115 184 114 178 101"/>' +
+            '<path class="art-line" d="M231 111 C247 131 269 133 298 111 M286 104 L298 111 L287 119"/><rect class="art-fill" x="117" y="117" width="13" height="13" rx="3"/>';
         } else {
           content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +

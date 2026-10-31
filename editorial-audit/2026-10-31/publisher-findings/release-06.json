@@ -1,0 +1,454 @@
+{
+  "release": "06",
+  "state": "local-acceptance-passed-ready-to-open-pr",
+  "checkout": "/Users/pn/.t3/checkouts/book-tiktok-library-release06-20261031",
+  "initialMain": "d6851936658c80765dfdf36d3a74711072fb39c5",
+  "acceptedCandidates": [
+    {
+      "slug": "atomic-habits",
+      "decision": "accepted-matching-independent-PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/atomic-habits.json",
+      "reviewSha256": "ecb06cb4480274a38eea28317ea2075def974bf1bf5a37945997e7de1fe618cd",
+      "reviewMarkdownSha256": "a23ab64649043143fdd2ffecb9365efeda23de48c5a980f90eff208d875d4405",
+      "readyPath": "editorial-audit/2026-10-31/ready/atomic-habits.json",
+      "readySha256": "e6dae579dda1204ecb765250445dcde2212d9b6f8697a5d710851f0fe274f77d",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/atomic-habits/QA.md",
+          "sha256": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad"
+        },
+        {
+          "path": "collector-output/atomic-habits/atomic-habits.html",
+          "sha256": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0"
+        },
+        {
+          "path": "collector-output/atomic-habits/evidence-map.sol.json",
+          "sha256": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929"
+        },
+        {
+          "path": "collector-output/atomic-habits/sources.md",
+          "sha256": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e"
+        },
+        {
+          "path": "collector-output/atomic-habits/story-data.json",
+          "sha256": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/atomic-habits.sol-implementation.md",
+          "sha256": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493"
+        }
+      ],
+      "counts": {
+        "essential": 13,
+        "core": 20,
+        "deep": 24
+      },
+      "contentMode": "explanatory",
+      "sourceScope": "James Clear, Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones, Avery, 2018, ISBN 9780735211292. The title/creator fields of scoped local EPUB metadata were checked: no matching Clear/Atomic Habits edition was found; no unrelated library titles were used. No complete English volume or authorized RU translation was read. Evidence is the official author summary plus fifteen author pages carrying actual book-excerpt text, and two checked publisher excerpts (PRH Education on small changes; PRH on tracking/identity). Retained passages were read for systems, identity, the four-stage loop, all four laws and inversions, scorecard, specific time/place, habit stacking, visible environment, temptation bundling, action versus preparation, Two-Minute Rule, automation, tracking/recovery, manageable difficulty and boredom. Concrete retained cases are British cycling (as Clear’s attributed account), his wife’s classroom names, Thorndike’s cafeteria, Ronan Byrne’s bike/Netflix, Clear’s password restriction, a short-gym-visit reader and Steve Martin. The evidence map names the direct URL and passage for each retained link. This supports a concise central-method arc, not a full-edition or line-by-line translation certificate. No subscriber/customer-only resources were used; incomplete/unverified PDF search results were not relied upon.",
+      "reviewBindings": {
+        "collector-output/atomic-habits/story-data.json": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549",
+        "collector-output/atomic-habits/atomic-habits.html": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0",
+        "collector-output/atomic-habits/sources.md": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e",
+        "collector-output/atomic-habits/QA.md": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad",
+        "collector-output/atomic-habits/evidence-map.sol.json": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929",
+        "editorial-audit/2026-10-31/ready/atomic-habits.json": "e6dae579dda1204ecb765250445dcde2212d9b6f8697a5d710851f0fe274f77d",
+        "editorial-audit/2026-10-31/books/atomic-habits.sol-implementation.md": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493"
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 8,
+          "deep": 10
+        },
+        "en": {
+          "essential": 5,
+          "core": 8,
+          "deep": 9
+        }
+      },
+      "sourceCount": 18,
+      "publisherIntegration": [
+        "Exact accepted HTML copied; entire effective corpus, sources, modes, custom cover and scripts preserved",
+        "Valid stable saved IDs retained; removed/cover IDs return safely to the cover",
+        "Maintained main reader shell synchronized idempotently without rebuilding the corpus"
+      ],
+      "rootSha256": "4282f7bf801076fb9bbfde1be087524adbd0777577c753eb0bec214634c4d842"
+    },
+    {
+      "slug": "huberman-protocols",
+      "decision": "accepted-matching-independent-PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/huberman-protocols-source-rescue.json",
+      "reviewSha256": "ecf3e50ccaef1f8216e1cd2ca7700ae29771f1829558690604a24a64f45b9e46",
+      "reviewMarkdownSha256": "43361a9a0860f5ae51dcb705d22fa2cbbc03d509a670e7f7d87f6424c4a321cf",
+      "readyPath": "editorial-audit/2026-10-31/ready/huberman-protocols.json",
+      "readySha256": "cebbb6859d436b6ea47013f2e5438e2e5407766d959fc5b5084d4858975191dc",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/huberman-protocols/QA.md",
+          "sha256": "7966ee02da9c31669f6a064bd81c222fad214dca5ec65c0d88a00acafcabdb6b"
+        },
+        {
+          "path": "collector-output/huberman-protocols/huberman-protocols.html",
+          "sha256": "c6d804addb60e1213ef1088ca8be1ff5176cabd3bb1caba24d70160213e08bef"
+        },
+        {
+          "path": "collector-output/huberman-protocols/sources.md",
+          "sha256": "88c2a6ea3c47cbe707b314727dc55b3c2369e174ea4a3db299136ab75dba73c3"
+        },
+        {
+          "path": "collector-output/huberman-protocols/story-data.json",
+          "sha256": "eecc0c096e8e37efcf32ecf009d3558e764fe46c32340b705e3ffbd2358439c0"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/huberman-protocols-sol-rescue.md",
+          "sha256": "9ef4a06fc618fe85961e23d5d5dc251972842321f99435ff4e059e0370ac6b7b"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/huberman-protocols.md",
+          "sha256": "88c2a6ea3c47cbe707b314727dc55b3c2369e174ea4a3db299136ab75dba73c3"
+        }
+      ],
+      "counts": {
+        "essential": 10,
+        "core": 16,
+        "deep": 22
+      },
+      "contentMode": "explanatory",
+      "sourceScope": "Selected passages in official 69-page sample: introduction and Sleep Protocols 1–3, plus authorized Personal Growth Protocol 1. Other seven-part domains are not claimed; full edition not read.",
+      "reviewBindings": {
+        "collector-output/huberman-protocols/story-data.json": "eecc0c096e8e37efcf32ecf009d3558e764fe46c32340b705e3ffbd2358439c0",
+        "collector-output/huberman-protocols/huberman-protocols.html": "c6d804addb60e1213ef1088ca8be1ff5176cabd3bb1caba24d70160213e08bef",
+        "collector-output/huberman-protocols/sources.md": "88c2a6ea3c47cbe707b314727dc55b3c2369e174ea4a3db299136ab75dba73c3",
+        "collector-output/huberman-protocols/QA.md": "7966ee02da9c31669f6a064bd81c222fad214dca5ec65c0d88a00acafcabdb6b",
+        "editorial-audit/2026-10-31/books/huberman-protocols-sol-rescue.md": "9ef4a06fc618fe85961e23d5d5dc251972842321f99435ff4e059e0370ac6b7b",
+        "editorial-audit/2026-10-31/source-rescue/huberman-protocols.md": "88c2a6ea3c47cbe707b314727dc55b3c2369e174ea4a3db299136ab75dba73c3",
+        "editorial-audit/2026-10-31/ready/huberman-protocols.json": "cebbb6859d436b6ea47013f2e5438e2e5407766d959fc5b5084d4858975191dc",
+        "huberman-protocols.html": "26605bfd03d0c76e25ef7fe68d22663a3cc13ce713eb94328bdb819cfbd73aa9"
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 5,
+          "deep": 6
+        },
+        "en": {
+          "essential": 3,
+          "core": 4,
+          "deep": 6
+        }
+      },
+      "sourceCount": 4,
+      "publisherIntegration": [
+        "Exact accepted HTML copied; entire effective corpus, sources, modes, custom cover and scripts preserved",
+        "Valid stable saved IDs retained; removed/cover IDs return safely to the cover",
+        "Maintained main reader shell synchronized idempotently without rebuilding the corpus"
+      ],
+      "rootSha256": "cd824854e5cccb4cbdd1c1c4603cba5e8578768043d105d2055350c0afba705a"
+    },
+    {
+      "slug": "hermes-nous",
+      "decision": "accepted-matching-independent-PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/hermes-nous-source-rescue.json",
+      "reviewSha256": "58ed8a9fef4cd0d716b70dab480c29db6a98cdb539ac67699d19b89beae851b7",
+      "reviewMarkdownSha256": "809dc4dc5c92d6f5169e1d4709fc706329f75eaa601c8bb09ce5c4e8bab04dbf",
+      "readyPath": "editorial-audit/2026-10-31/ready/hermes-nous.json",
+      "readySha256": "8d1a9baab1dff23ba7b901fa08877958e07aa3f2e834c5713778e94a046795f2",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/hermes-nous/QA.md",
+          "sha256": "4ee60f65dbed0350eabc7ecb18fd69fb392224dab1e8b9a72cbd08533bf6c142"
+        },
+        {
+          "path": "collector-output/hermes-nous/hermes-nous.html",
+          "sha256": "b2a4c399209ce1ee629e20fbdbcf2c4c9fbc762b1ea998b021713eeee884fc9c"
+        },
+        {
+          "path": "collector-output/hermes-nous/sources.md",
+          "sha256": "f597056661fb84cdf2218756a5973ce2d378d37780bdf53270eb1ddf2e14dd0d"
+        },
+        {
+          "path": "collector-output/hermes-nous/story-data.json",
+          "sha256": "963f6b32c81d1027e482b06b2ea5c698e4d100795fb7e7c563c4c2f3a126b729"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/hermes-nous-sol-rescue.md",
+          "sha256": "533ecc3e268d322d6b24728664fa247fce3c42b541c051feaea76b038478974e"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/source-rescue/hermes-nous.md",
+          "sha256": "f597056661fb84cdf2218756a5973ce2d378d37780bdf53270eb1ddf2e14dd0d"
+        }
+      ],
+      "counts": {
+        "essential": 12,
+        "core": 17,
+        "deep": 22
+      },
+      "contentMode": "explanatory",
+      "sourceScope": "Original research brief: entire supplied 50-pair HTML read and compared with both original copies/root. Retained public core checked against primary sources; A–D retained only as author proposals visible in that supplied brief. Underlying two internal documents were not recovered/read; private Observatory facts, validated demand and engineering estimates are excluded.",
+      "reviewBindings": {
+        "collector-output/hermes-nous/story-data.json": "963f6b32c81d1027e482b06b2ea5c698e4d100795fb7e7c563c4c2f3a126b729",
+        "collector-output/hermes-nous/hermes-nous.html": "b2a4c399209ce1ee629e20fbdbcf2c4c9fbc762b1ea998b021713eeee884fc9c",
+        "collector-output/hermes-nous/sources.md": "f597056661fb84cdf2218756a5973ce2d378d37780bdf53270eb1ddf2e14dd0d",
+        "collector-output/hermes-nous/QA.md": "4ee60f65dbed0350eabc7ecb18fd69fb392224dab1e8b9a72cbd08533bf6c142",
+        "editorial-audit/2026-10-31/books/hermes-nous-sol-rescue.md": "533ecc3e268d322d6b24728664fa247fce3c42b541c051feaea76b038478974e",
+        "editorial-audit/2026-10-31/source-rescue/hermes-nous.md": "f597056661fb84cdf2218756a5973ce2d378d37780bdf53270eb1ddf2e14dd0d",
+        "editorial-audit/2026-10-31/ready/hermes-nous.json": "8d1a9baab1dff23ba7b901fa08877958e07aa3f2e834c5713778e94a046795f2",
+        "hermes-nous.html": "6546d557a1abe4a36168f3921424b5303d590d252a74a01fd5319fb3d191aa72"
+      },
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 5,
+          "deep": 7
+        },
+        "en": {
+          "essential": 4,
+          "core": 5,
+          "deep": 6
+        }
+      },
+      "sourceCount": 15,
+      "publisherIntegration": [
+        "Exact accepted HTML copied; entire effective corpus, sources, modes, custom cover and scripts preserved",
+        "Valid stable saved IDs retained; removed/cover IDs return safely to the cover",
+        "Maintained main reader shell synchronized idempotently without rebuilding the corpus",
+        "One-time bookHermesNous legacy language/theme and valid lastSlide migration; no resurrection after restart"
+      ],
+      "rootSha256": "99f70aba5735d3052e327f33334415d0885026a62960df62cc5fe01b06181a53"
+    }
+  ],
+  "acceptedPairs": 68,
+  "production": {
+    "state": "not-released"
+  },
+  "updatedAt": "2026-10-31T21:08:04.317168+00:00",
+  "catalogueBooks": 40,
+  "catalogueScreens": 2327,
+  "baseMain": "7e1f96f48baf144bd4624da606ef4863b2eb86ef",
+  "previousUnchangedReaders": 37,
+  "uiIntegration": {
+    "decision": "independently-closed-R1-R2-and-merged-exact-green-head-before-content",
+    "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/29",
+    "head": "a976d54758fe688ca3de08d00fd4020608c2c0ef",
+    "merge": "7e1f96f48baf144bd4624da606ef4863b2eb86ef",
+    "closurePath": "editorial-audit/2026-10-31/publisher-findings/release-06-ui29-closure.json",
+    "originalIndependentReviewUnchanged": true
+  },
+  "sealedAt": "2026-10-31T21:05:06.154342+00:00",
+  "sealedIntake": [
+    "atomic-habits",
+    "huberman-protocols",
+    "hermes-nous"
+  ],
+  "excluded": [
+    "thinking-fast-and-slow and thinking-in-systems: localized parent closures arrived after intake sealed; next publisher owns validation and release"
+  ],
+  "priorReleaseVerification": "editorial-audit/2026-10-31/publisher-findings/release-05-verification.json",
+  "proofDirectory": "editorial-audit/2026-10-31/publisher-findings/release-06-proof",
+  "publicBuildPolicy": "Only registered roots/catalogue/PWA/fonts/icons; collector/audit/skills/private/full-text trees excluded",
+  "evidenceLimits": [
+    "Atomic Habits: concise central-method account from lawful author/publisher actual excerpts, not continuous complete edition or authorized translation certification",
+    "Huberman: declared selected reading from introduction/Sleep1–3/PersonalGrowth1; retained actual medical qualifications; not all seven domains or a complete execution manual",
+    "Hermes: original research brief/public factual core and conditional A–D proposals; two inaccessible underlying internal documents remain uncertified; no settled console, demand or engineering estimate claimed",
+    "Chrome emulation only; no physical iPhone/Safari/PWA/BFCache certification"
+  ],
+  "checks": {
+    "hashAcceptance": "Three unchanged completed independent PASS bindings; canonical/collector/effective roots equal; no whole-book re-review claimed",
+    "structural": "3 x69, no warnings/failures",
+    "library": "40 books /2327 screens; portable skill/example build/audit and maintained Settings pass",
+    "previousRootsAndCatalogueEntriesUnchanged": 37,
+    "maintainedShell": "homepage +40 readers exact/idempotent, accepted merged UI everywhere",
+    "browser": {
+      "renderedPositions": 2496,
+      "viewports": [
+        320,
+        390,
+        1024,
+        1440
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "allReadingTailsReachable": true,
+      "phases": [
+        "repaired",
+        "release-state",
+        "release-migration",
+        "release-reader-interactions",
+        "focus",
+        "safe-area",
+        "offline",
+        "release-cards",
+        "discovery",
+        "ios"
+      ],
+      "runtimeErrors": 0,
+      "hermesLegacy": "valid gateway migration, removed console/cover fallback, modern preference/progress precedence and no restart resurrection",
+      "offline": "cached PWA and embedded file standalone; Sources and fonts passed"
+    },
+    "settings": "combined new Hermes actual modern saved ID and both native radio groups; cold Essentials40/paragraph coordinate; newest4 real reading-font records32; persistence/legacy readers pass",
+    "publicAllowlist": 51,
+    "testHarnessCorrections": [
+      "Settings font-presence assertion derives includeSans from the runtime instead of assuming Hermes is always legacy",
+      "UI browser regression tests assert a nonempty saved ID and adapt to modern/legacy Hermes; public --origin mode verifies actual network responses",
+      "Discovery expected localized Settings gear instead of removed theme-toggle label; new3 title searches added",
+      "Preserved one startup harness failure; Chrome DevTools port file is now required to contain a complete port before connection"
+    ],
+    "cleanup": "bounded timeout30 unique profiles, owned process-tree/server cleanup; no preview tools",
+    "preservedWhitespace": "Atomic Habits embedded full OFL license trailing space and two Hermes independent-review EOF blank lines retained byte-for-byte; all other staged whitespace checks pass."
+  },
+  "git": null,
+  "proofFiles": {
+    "ui29-layout-8": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-layout-8.json",
+      "sha256": "b62292c586ff394dd31d4158fad50d873bf94b1edb5b986bfdbbcd0e86889f35"
+    },
+    "ui29-parent-fixes": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-parent-fixes.json",
+      "sha256": "df0153ffa4b703454ff3dde48f4ffc06985f2e24e5c0f3eb7861b3a272bb0431"
+    },
+    "combined-settings-persistence-before-port-ready-check": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/combined-settings-persistence-before-port-ready-check.json",
+      "sha256": "4784a637fbdb736a84b388bdc048f94861068272336947cd1c5155c4a635ec94"
+    },
+    "release-cards": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/release-cards.json",
+      "sha256": "3395e42b371764ba9db3e62a8ffab2df57047baa331ddfb5588e60ec362de3f2"
+    },
+    "focus": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/focus.json",
+      "sha256": "264cc5615407c879f488f0d6c36d180fa8294ae42e5a57bd3bd1a624c8a196fd"
+    },
+    "ui29-persistence": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-persistence.json",
+      "sha256": "a3f367e3a75b4568b00d7927785d30a3e50debd2e3576abb72c14a0c299c5e62"
+    },
+    "release-reader-interactions": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/release-reader-interactions.json",
+      "sha256": "68c117f404f7c9b9af6c42216da2bdf4956ba6189cacfc09a6c30a60b981b3e2"
+    },
+    "safe-area": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/safe-area.json",
+      "sha256": "b90d4cefe451638be36b632eaafb9cfd4108c025d596c83f7eca415366547f82"
+    },
+    "combined-settings-persistence": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/combined-settings-persistence.json",
+      "sha256": "abd37747def4d5a7c36e6c65fd0de1d4892325984d2ef10c1cee1c06a2cdd652"
+    },
+    "structural": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/structural.json",
+      "sha256": "f635387bb1d5d79b74c14de1eb344cc8297cea580e80a25c37793731844ac676"
+    },
+    "ui29-pr29-readiness": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-pr29-readiness.json",
+      "sha256": "ec9f607a182c5fcf41765d3d700339817a48d1de7d126acd1dc505ca2cb68cef"
+    },
+    "ui29-layout-9": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-layout-9.json",
+      "sha256": "fff0a15b9059c5f440ec2b967835c9a176a4a793ffb6e805a3b5481b80704de0"
+    },
+    "ui29-production-http-first-observation": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-production-http-first-observation.json",
+      "sha256": "541d9399c9f074438c00437d5208070daab27ad6685db5372484cd3b59dc2f92"
+    },
+    "shell-idempotence": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/shell-idempotence.json",
+      "sha256": "b4620f5be1f39041f0a66acd5b595810a8b6a3b221ac0b4f2ce861787daba720"
+    },
+    "installed-skill-sync": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/installed-skill-sync.json",
+      "sha256": "4e99df8dc1f1ebecc67881ff0ff8f7b22eb5bc03d792a71db3aa9df0e8c3a961"
+    },
+    "ui29-offline-4": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-offline-4.json",
+      "sha256": "3ba8b28f8b12c371643954692b5c912fae66f0731826a92e6c8105c6a6e08b19"
+    },
+    "public-allowlist": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/public-allowlist.json",
+      "sha256": "7c243aaad14c6b3bc186303b63a3bc56b37381ce48aa1ded632754f560f37e40"
+    },
+    "release-state": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/release-state.json",
+      "sha256": "0cccc6349408096f83c76cc39fe2c1ea660c3671ce57c032418a330e37348e46"
+    },
+    "hash-parity": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/hash-parity.json",
+      "sha256": "c13db42d97b57a46fad19d7b548d11c272656995e831efbb0e528c2af91da06b"
+    },
+    "discovery": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/discovery.json",
+      "sha256": "b7bee57987ec1fc509335b8d115cb11eba3963b7d94a9574480d514680bae6f4"
+    },
+    "combined-settings-layout-9": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/combined-settings-layout-9.json",
+      "sha256": "f0a99e9d62449c5c43ea01ce8ae63e64e659ea8e6efc97c058d04a8ebed9f65f"
+    },
+    "ui29-live-review-regressions": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-live-review-regressions.json",
+      "sha256": "6425e83f685ffd4698b8fcc1ac88ab1c304422a09361b3e24e682c1bd7ddbec3"
+    },
+    "ui29-independent-closure": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-independent-closure.json",
+      "sha256": "f8814ae5fa5eff6228719392338f26ced43b705fd5eaab68665d17b273359fb8"
+    },
+    "ui29-review-regressions": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-review-regressions.json",
+      "sha256": "8e1410786508b3c16f62764607f5f070acfaca104dfa411453a45059a4087331"
+    },
+    "narrative": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/narrative.json",
+      "sha256": "7337849810eb1a954bc501115b76abad8a57fe86e06ee7e531f41e08bbebf3a1"
+    },
+    "ios": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ios.json",
+      "sha256": "1a8cb67cb1a758d9714283cdf046dd430ae210a9a0d5b56b7de5ddbe4ae459fe"
+    },
+    "intake": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/intake.json",
+      "sha256": "0d5228fd551a8f3db8c1aada14c0df52b30c36a53c7c1b65ea7354d1e0f4a57e"
+    },
+    "release-migration": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/release-migration.json",
+      "sha256": "79ab8bd209861477ab1acc92479aa8ff60f64f13611aa520c6bd4c57dfb84dfd"
+    },
+    "explanatory": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/explanatory.json",
+      "sha256": "f8b90a7812ec2b523847d3d138306e35012da9f5b29dae3c33788c3f73fba2b8"
+    },
+    "repaired": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/repaired.json",
+      "sha256": "9825a0f3d4b6a06a8f10fd6dd105cfdf377c00781eefc41b58a251ce24071492"
+    },
+    "combined-settings-review-regressions": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/combined-settings-review-regressions.json",
+      "sha256": "d0da25b29134d8ba5aa7dbd54b5f31e1605ad10169f2b4e47c1759312dd430a2"
+    },
+    "ui29-corpus-and-shell-parity": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-corpus-and-shell-parity.json",
+      "sha256": "7c652515e8541ea7f1b9d7383c71774338d52ef57e4358beaa75211c06a67f97"
+    },
+    "ui29-initial-independent-review": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-initial-independent-review.json",
+      "sha256": "1836e8901f5da945b92a1715c37ad38db64985b93ee904c19890fc53c4fa639f"
+    },
+    "offline": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/offline.json",
+      "sha256": "9e90b58ed638382f0061c543f503847d66cbd6aa905cb5d71a3f00189b803860"
+    },
+    "ui29-consent": {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-06-proof/ui29-consent.json",
+      "sha256": "3127d200a78ed3c63ea45309da6e0fdb0f35713ede87ac265d448231c25689d2"
+    }
+  }
+}

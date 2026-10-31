@@ -10,12 +10,13 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
 const phases = [...Array.from({ length: Math.ceil(catalogue.books.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'review-regressions', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(catalogue.books.length / 8) }, (_, n) => `offline-${n}`)];
 const phase = process.argv.find(a => a.startsWith('--phase='))?.slice(8);
+const requestedOrigin = process.argv.find(a => a.startsWith('--origin='))?.slice(9);
 const output = process.env.BOOK_SETTINGS_QA_DIR || fs.mkdtempSync(path.join(os.tmpdir(), 'book-settings-qa-'));
 if (path.resolve(output).startsWith(root + path.sep)) throw Error('Keep QA artifacts outside the repository');
 fs.mkdirSync(output, { recursive: true });
 if (!phase) {
   for (const next of phases) {
-    const run = spawnSync(process.execPath, [fileURLToPath(import.meta.url), `--phase=${next}`], { cwd: root, encoding: 'utf8', timeout: 40000, env: { ...process.env, BOOK_SETTINGS_QA_DIR: output } });
+    const run = spawnSync(process.execPath, [fileURLToPath(import.meta.url), `--phase=${next}`, ...process.argv.filter(a => a.startsWith('--origin='))], { cwd: root, encoding: 'utf8', timeout: 40000, env: { ...process.env, BOOK_SETTINGS_QA_DIR: output } });
     process.stdout.write(run.stdout || ''); process.stderr.write(run.stderr || '');
     if (run.status !== 0) process.exit(run.status || 1);
   }
@@ -23,12 +24,12 @@ if (!phase) {
   process.exit(0);
 }
 if (!phases.includes(phase)) throw Error(`Unknown phase ${phase}`);
-const origin = 'https://book-library.test';
+const origin = requestedOrigin || 'https://book-library.test';
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-settings-chrome-'));
 const binary = process.env.CHROME_BINARY || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 let chrome, socket, cleaned = false, id = 0, consentDecision = false;
 const pending = new Map(), errors = [], remoteRequests = [], nativeDialogs = [];
-const report = { phase, checks: [], fonts: [] };
+const report = { phase, origin: requestedOrigin || 'owned-local-CDP-fixtures', checks: [], fonts: [] };
 const assert = (condition, label) => { if (!condition) throw Error(label); };
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function until(fn, label) {
@@ -89,7 +90,7 @@ const theme = "document.querySelector('#themeButton, #btn-theme')";
 try {
   chrome = spawn('/usr/bin/timeout', ['--foreground', '30', binary, '--headless=new', '--disable-gpu', '--no-first-run', '--no-default-browser-check', `--user-data-dir=${profile}`, '--remote-debugging-port=0', 'about:blank'], { stdio: 'ignore', detached: true });
   const portFile = path.join(profile, 'DevToolsActivePort');
-  await until(() => fs.existsSync(portFile), 'Chrome startup');
+  await until(() => fs.existsSync(portFile) && /^[1-9]\d*\n/.test(fs.readFileSync(portFile, 'utf8')), 'Chrome startup');
   const port = fs.readFileSync(portFile, 'utf8').split('\n')[0];
   const targets = await (await fetch(`http://127.0.0.1:${port}/json/list`)).json();
   socket = new WebSocket(targets.find(t => t.type === 'page').webSocketDebuggerUrl);
@@ -105,6 +106,10 @@ try {
     if (m.method === 'Fetch.requestPaused') {
       const { requestId, request } = m.params;
       const url = new URL(request.url);
+      if (requestedOrigin && url.origin === origin) {
+        command('Fetch.continueRequest', { requestId }).catch(e => errors.push(e.message));
+        return;
+      }
       if (url.origin === origin && url.pathname !== '/sw.js') {
         const filename = decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname).slice(1);
         const file = path.resolve(root, filename);
@@ -209,12 +214,22 @@ try {
     await press('ArrowRight', 'ArrowRight', 39);
     for (const lang of ['ru', 'en']) {
       if (await evaluate(`document.documentElement.lang !== '${lang}'`)) await evaluate(`${language}.click()`);
-      await evaluate("window.__reviewHermesSlide=document.getElementById('story').firstElementChild; window.__reviewHermesId=localStorage.getItem('bookHermesNous.lastSlide')");
+      await evaluate("window.__reviewHermesSlide=document.getElementById('story').firstElementChild; window.__reviewHermesKey=document.getElementById('book-tiktok-data') ? 'book-tiktok.hermes-nous.lastScreen' : 'bookHermesNous.lastSlide'; window.__reviewHermesId=localStorage.getItem(window.__reviewHermesKey); if(!window.__reviewHermesId) throw Error('Hermes must have real saved progress')");
       await evaluate(`${theme}.click(); document.querySelector('input[name=book-theme][value=light]').click(); document.querySelector('input[name=book-theme][value=light]').focus()`);
       await press('ArrowRight', 'ArrowRight', 39);
-      const result = await evaluate(`({dark:document.querySelector('input[name=book-theme][value=dark]').checked,theme:document.documentElement.dataset.theme,dialogOpen:document.getElementById('bookSettingsDialog').open,sameSlide:window.__reviewHermesSlide===document.getElementById('story').firstElementChild,sameSavedId:window.__reviewHermesId===localStorage.getItem('bookHermesNous.lastSlide')})`);
+      const result = await evaluate(`({dark:document.querySelector('input[name=book-theme][value=dark]').checked,theme:document.documentElement.dataset.theme,dialogOpen:document.getElementById('bookSettingsDialog').open,sameSlide:window.__reviewHermesSlide===document.getElementById('story').firstElementChild,sameSavedId:window.__reviewHermesId===localStorage.getItem(window.__reviewHermesKey)})`);
       assert(result.dark && result.theme === 'dark' && result.dialogOpen && result.sameSlide && result.sameSavedId, `R1/${lang}: ${JSON.stringify(result)}`);
       report.checks.push({case:'Hermes radio ArrowRight',lang,...result});
+      await evaluate("document.querySelector('input[name=book-theme][value=dark]').focus()");
+      await press('ArrowLeft', 'ArrowLeft', 37);
+      assert(await evaluate("document.querySelector('input[name=book-theme][value=light]').checked && document.documentElement.dataset.theme==='light'"), 'R1 native theme ArrowLeft wrap');
+      await evaluate("document.querySelector('input[name=book-font][value=sans]').click(); document.querySelector('input[name=book-font][value=sans]').focus()");
+      await press('ArrowLeft', 'ArrowLeft', 37);
+      await until(() => evaluate("document.documentElement.dataset.readingFont==='serif'"), 'R1 native font ArrowLeft wrap');
+      assert(await evaluate("document.querySelector('input[name=book-font][value=serif]').checked && window.__reviewHermesSlide===document.getElementById('story').firstElementChild && window.__reviewHermesId===localStorage.getItem(window.__reviewHermesKey)"), 'R1 font ArrowLeft changed reading state');
+      await press('ArrowRight', 'ArrowRight', 39);
+      assert(await evaluate("document.querySelector('input[name=book-font][value=sans]').checked && document.documentElement.dataset.readingFont==='sans' && window.__reviewHermesSlide===document.getElementById('story').firstElementChild && window.__reviewHermesId===localStorage.getItem(window.__reviewHermesKey)"), 'R1 font ArrowRight changed reading state');
+      report.checks.push({case:'Hermes both radio groups native Left/Right wrap',lang,sameSlide:true,sameSavedId:true});
       await press('Escape', 'Escape', 27);
     }
     await evaluate("BookSettings.set('readingFont','sans'); BookSettings.set('readingFont','serif'); BookSettings.set('readingFont','sans')");

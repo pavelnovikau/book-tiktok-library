@@ -1,5 +1,15 @@
 # Next steps
 
+## 2026-10-31 — release06 handoff
+
+- Sealed at Atomic Habits13/20/24, Protocols10/16/22 and Hermes12/17/22:68 paired screens, intended40 books/2,327 screens. Read [release06 exact state](editorial-audit/2026-10-31/publisher-findings/release-06.json) before any publication. If its single readiness read is pending, root owns monitoring; child never polls/watches.
+- PR29 is merged at accepted a976d547 as7e1f96f, with fresh independent R1/R2 closure and actual50-asset/live-regression proof. Installed skill matches that merge; all40 readers retain maintained Settings/fonts. Initial a09d38dc review stays REQUIRES-FIXES. Preserve all corpora and legacy consent/progress guards.
+- Three unchanged independent PASS bindings establish the accepted content scope. Preserve Clear’s actual-excerpt boundary, Huberman’s selected-reading title/medical qualifications and Hermes’s original-research/conditional A–D/inaccessible-two-document disclosures. Never restore the old settled-console catalogue claim.
+- Kahneman KAH-01/02 and Meadows MEAD-01 closures arrived after sealing: next publisher checks exact READY/review/final hashes and localized source fixes, then integrates through current maintained UI. Do not sweep other READY packages or delay this release.
+- [Release05 final verification](editorial-audit/2026-10-31/publisher-findings/release-05-verification.json) is complete, with original tracked and parent receipts preserved. Public output allows51 registered assets only; all collector/audit/private/full-text trees stay excluded. Physical iPhone/Safari/PWA/BFCache remain unverified.
+
+Earlier handoffs below are historical snapshots; this section is current.
+
 ## 2026-10-31 — release05 handoff
 
 - Sealed batch: Meditations 18/30/39, Antifragile 11/17/24, Left Hand 11/15/35.98 accepted pairs; intended39 books/2,453 screens. Read [release05 receipt](editorial-audit/2026-10-31/publisher-findings/release-05.json) for exact PR/head/check/production state. A local pass does not establish deployment; if checks are pending, root receives the exact snapshot without child polling/watching.

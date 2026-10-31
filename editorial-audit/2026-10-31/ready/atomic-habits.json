@@ -1,0 +1,126 @@
+{
+  "slug": "atomic-habits",
+  "status": "ready-for-independent-check",
+  "verdict": "REBUILD",
+  "reportPath": "editorial-audit/2026-10-31/books/atomic-habits.sol-implementation.md",
+  "reportSha256": "9c1cf52cb6f063adcaa8838e2edb6cb2e26ad51a065f2dfbcc122da4d4aca493",
+  "reviewedPairs": {
+    "uniqueOldPairs": 0,
+    "authoring": 0,
+    "published": 0,
+    "new": 24
+  },
+  "counts": {
+    "essential": 13,
+    "core": 20,
+    "deep": 24
+  },
+  "contentMode": "explanatory",
+  "sourceScope": "James Clear, Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones, Avery, 2018, ISBN 9780735211292. The title/creator fields of scoped local EPUB metadata were checked: no matching Clear/Atomic Habits edition was found; no unrelated library titles were used. No complete English volume or authorized RU translation was read. Evidence is the official author summary plus fifteen author pages carrying actual book-excerpt text, and two checked publisher excerpts (PRH Education on small changes; PRH on tracking/identity). Retained passages were read for systems, identity, the four-stage loop, all four laws and inversions, scorecard, specific time/place, habit stacking, visible environment, temptation bundling, action versus preparation, Two-Minute Rule, automation, tracking/recovery, manageable difficulty and boredom. Concrete retained cases are British cycling (as Clear’s attributed account), his wife’s classroom names, Thorndike’s cafeteria, Ronan Byrne’s bike/Netflix, Clear’s password restriction, a short-gym-visit reader and Steve Martin. The evidence map names the direct URL and passage for each retained link. This supports a concise central-method arc, not a full-edition or line-by-line translation certificate. No subscriber/customer-only resources were used; incomplete/unverified PDF search results were not relied upon.",
+  "changes": [
+    "Created source-grounded RU/EN prose from official primary excerpts",
+    "Preserved author cases and actual procedures with limits",
+    "Derived nested counts 13/20/24 and RU/dark/Essential defaults",
+    "Built maintained standalone HTML and retained sources in the dialog"
+  ],
+  "unresolvedIssues": [
+    "This deliberately concise account omits secondary cases and topics not fully checked here, including the detailed habit contract, genetic differences, the full social-norms treatment and the complete reflection/review chapter. It does not claim to replace every chapter or certify complete-book/authorized-translation fidelity.",
+    "The public author pages are excerpts selected and sometimes adapted by Clear, not a complete 2018 edition. Modern scientific efficacy of every underlying study was not separately established; examples are attributed to Clear. No numerical guarantee or new health procedure is made.",
+    "Physical iPhone/PWA behavior, touch navigation and deployed integration remain untested by this worker.",
+    "Independent content review and publisher/root integration pending"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/atomic-habits/story-data.json",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/atomic-habits/story-data.json",
+      "sha256": "a815f3b56d99109e0eb8e2a28b209f1fc0bcdcafb14bd1c799aa5ba954dee549"
+    },
+    {
+      "path": "collector-output/atomic-habits/atomic-habits.html",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/atomic-habits/atomic-habits.html",
+      "sha256": "1760bd2fa2225eb541f1ad040b660e62c17d1f29adb9e02701fa72ab3f8369d0"
+    },
+    {
+      "path": "collector-output/atomic-habits/sources.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/atomic-habits/sources.md",
+      "sha256": "ad84999eb1937f81299c52ca78ea910fe3832b09bd84be5c76cd5d81ea40be5e"
+    },
+    {
+      "path": "collector-output/atomic-habits/QA.md",
+      "canonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/atomic-habits/QA.md",
+      "sha256": "7dba50fe7df97645ceb6b428b9c62feb996af572cf3af7fc143602836df704ad"
+    }
+  ],
+  "evidenceMap": {
+    "path": "collector-output/atomic-habits/evidence-map.sol.json",
+    "sha256": "c5788353c824d74950fa2b3fcd91e2459836cace603a53a178c688495bf72929"
+  },
+  "checks": {
+    "structural": {
+      "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/atomic-habits/atomic-habits.html",
+      "format": "v2",
+      "bytes": 303320,
+      "screenCount": 24,
+      "levels": {
+        "1": 13,
+        "2": 7,
+        "3": 4
+      },
+      "modes": {
+        "essential": 13,
+        "core": 20,
+        "deep": 24
+      },
+      "words": {
+        "ru": 1651,
+        "en": 1958
+      },
+      "passes": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "browserViewports": [
+      320,
+      390,
+      1024,
+      1440
+    ],
+    "offline": true,
+    "physicalIPhone": false,
+    "production": false,
+    "independent": false,
+    "bodyScrollReachable": true
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "5 минут",
+        "en": "5 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "8 минут",
+        "en": "8 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "10 минут",
+        "en": "9 min"
+      }
+    }
+  }
+}

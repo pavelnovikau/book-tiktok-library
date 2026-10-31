@@ -23,6 +23,8 @@
       {"id": "technology-future", "label": {"ru": "Технологии и будущее", "en": "Technology and future"}}
     ],
     "topics": [
+      {"id": "environment", "label": {"ru": "Среда", "en": "Environment"}},
+      {"id": "identity", "label": {"ru": "Идентичность", "en": "Identity"}},
       {"id": "acceptance", "label": {"ru": "Принятие", "en": "Acceptance"}},
       {"id": "adventure", "label": {"ru": "Приключения", "en": "Adventure"}},
       {"id": "agents", "label": {"ru": "Агенты", "en": "Agents"}},
@@ -231,23 +233,43 @@
     },
     {
       "slug": "hermes-nous",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["technology-future", "systems-society"],
+      "subjects": [
+        "technology-future",
+        "systems-society"
+      ],
       "file": "hermes-nous.html",
       "section": "technology-future",
-      "tags": ["ai", "agents", "strategy", "open-models"],
+      "tags": [
+        "ai",
+        "agents",
+        "strategy",
+        "open-models"
+      ],
       "collections": [],
       "audience": "general",
       "spoilerPolicy": "not-applicable",
-      "screenCount": 50,
-      "title": { "ru": "Hermes & Nous", "en": "Hermes & Nous" },
-      "author": { "ru": "Разбор Мефистофеля · Observatory", "en": "Mefistofel’s brief · Observatory" },
-      "description": {
-        "ru": "Как лаборатория из Discord раздаёт модели и агента бесплатно, стоит $1,5 млрд — и почему вместо ещё одного агента полезнее строить пульт для чужих.",
-        "en": "How a lab born on Discord gives away its models and agent for free, is worth $1.5B — and why the useful move is a console for other people’s agents."
+      "screenCount": 22,
+      "title": {
+        "ru": "Hermes & Nous · исследовательский brief",
+        "en": "Hermes & Nous · research brief"
       },
-      "readingMinutes": { "essential": 9, "core": 18, "deep": 25 },
+      "author": {
+        "ru": "Разбор Мефистофеля · Observatory",
+        "en": "Mefistofel’s brief · Observatory"
+      },
+      "description": {
+        "ru": "Исследовательский brief: открытый агент, платная инфраструктура и гипотезы Observatory.",
+        "en": "Research brief: an open agent, paid infrastructure and Observatory’s hypotheses."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 5,
+        "deep": 7
+      },
       "cover": {
         "type": "split",
         "motif": "relay",
@@ -416,24 +438,49 @@
     },
     {
       "slug": "huberman-protocols",
-      "workTypes": ["nonfiction"],
+      "workTypes": [
+        "nonfiction"
+      ],
       "genres": [],
-      "subjects": ["health-body", "time-habits"],
+      "subjects": [
+        "health-body",
+        "time-habits"
+      ],
       "file": "huberman-protocols.html",
       "section": "health-protocols",
-      "tags": ["sleep", "exercise", "nutrition", "evidence"],
-      "collections": ["practices"],
+      "tags": [
+        "sleep",
+        "attention",
+        "evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
       "audience": "adult",
       "spoilerPolicy": "not-applicable",
-      "screenCount": 144,
-      "title": { "ru": "Протоколы Хубермана", "en": "Protocols" },
-      "author": { "ru": "Эндрю Хуберман", "en": "Andrew Huberman" },
-      "description": {
-        "ru": "Атлас сна, света, движения, питания, стресса, температуры и добавок: что предлагает автор, что действительно проверено и где заканчивается уверенность.",
-        "en": "An atlas of sleep, light, movement, nutrition, stress, temperature and supplements: what the author proposes, what evidence supports and where confidence ends."
+      "screenCount": 22,
+      "title": {
+        "ru": "Protocols · сон, свет и внимание",
+        "en": "Protocols · sleep, light and attention"
       },
-      "readingMinutes": { "essential": 11, "core": 26, "deep": 42 },
-      "cover": { "type": "typographic", "motif": "protocol-stack", "tone": "cyan" }
+      "author": {
+        "ru": "Эндрю Хуберман с Джессикой Уопнер",
+        "en": "Andrew Huberman with Jessica Wapner"
+      },
+      "description": {
+        "ru": "Выборочное чтение проверенных страниц книги: замысел, сон, свет и внимание.",
+        "en": "Selected reading of verified book passages: premise, sleep, light and attention."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 6
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "protocol-stack",
+        "tone": "cyan"
+      }
     },
     {
       "slug": "awareness-through-movement",
@@ -1592,6 +1639,54 @@
         "essential": 3,
         "core": 4,
         "deep": 9
+      }
+    },
+    {
+      "slug": "atomic-habits",
+      "file": "atomic-habits.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "psychology-relationships"
+      ],
+      "section": "human-behavior",
+      "tags": [
+        "habits",
+        "identity",
+        "behavior",
+        "environment"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Джеймс Клир",
+        "en": "James Clear"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "SMALL CHANGES",
+        "motif": "habit-cycle",
+        "tone": "green"
+      },
+      "title": {
+        "ru": "Атомные привычки",
+        "en": "Atomic Habits"
+      },
+      "description": {
+        "ru": "Связное изложение метода Джеймса Клира: от систем и идентичности до четырёх законов и возвращения после пропуска.",
+        "en": "A connected account of James Clear’s method, from systems and identity to four laws and recovery after a miss."
+      },
+      "screenCount": 24,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 8,
+        "deep": 10
       }
     }
   ]

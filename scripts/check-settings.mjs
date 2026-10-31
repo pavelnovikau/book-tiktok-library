@@ -15,7 +15,9 @@ for (const file of ['index.html', ...catalogue.books.map(b=>b.file)]) {
   assert(html.includes('BookSettings.connect('), `${file}: missing page-state adapter`);
   assert(!html.includes("state.theme = state.theme === 'dark' ? 'light' : 'dark'"), `${file}: old direct toggle still attached`);
   assert(html.includes(settingsBody().trim()), `${file}: stale Settings modal`);
-  assert(html.includes(settingsHead({ includeSans: file === 'hermes-nous.html' }).trim()), `${file}: stale preferences/fonts`);
+  const withoutSettingsHead = html.replace(/<!-- book-reader-settings-head:start -->[\s\S]*?<!-- book-reader-settings-head:end -->/, '');
+  const hasStandaloneSans = /@font-face\s*\{\s*font-family:\s*["']Geist["']/.test(withoutSettingsHead);
+  assert(html.includes(settingsHead({ includeSans: !hasStandaloneSans }).trim()), `${file}: stale preferences/fonts`);
   assert.equal((html.match(/id="bookSettingsDialog"/g) || []).length, 1, `${file}: duplicate Settings`);
   for (const [family, filename] of [['Geist','Geist-Variable.woff2'], ['Geist Serif','GeistSerif-Regular.woff2'], ['Source Serif 4','SourceSerif4-Regular.woff2']]) {
     const face = [...html.matchAll(/@font-face\s*\{([^}]*)\}/g)].find(m=>m[1].includes(`font-family: "${family}"`))?.[1];

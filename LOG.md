@@ -1,5 +1,13 @@
 # Work log
 
+## 2026-10-31 — release06 и независимое закрытие Settings PR29
+
+Приняты exact matching PASS packages: Atomic Habits13/20/24, Protocols10/16/22, Hermes12/17/22 —68 RU/EN pairs. Сохранены actual-excerpt/selected-reading/original-research границы; недоступные два внутренних источника Hermes не сертифицированы, A–D остаются гипотезами. Catalogue40 books/2,327 screens; новый habit-cycle motif и актуальные times/tags/descriptions. Остальные37 roots/entries неизменны относительно UI-main. Exact HTML интегрирован без plain rebuild, legacy Hermes progress мигрирует один раз, removed IDs безопасны, restart не восстанавливает старый saved ID.
+
+Независимо закрыты R1/R2 на a976d547: cold Serif сохраняет scroll40/paragraph coordinate, native radio arrows в Hermes не меняют slide/saved ID. Первоначальный a09d38dc REQUIRES-FIXES сохранён. PR29 после3 green merged первым:7e1f96f. Catalogue39/2,453 и37 JSON corpora побайтно сохранены; virtual synchronization40 pages без mismatches. Production50/50 assets и live regression checks прошли; installed skill совпадает с accepted UI. Затем maintained shell применён ко всем40 readers, idempotence проверена.
+
+3×69 structural,2,496 render positions с доступными последними строками, source/state/legacy migration, Settings persistence/real fonts, discovery/stats/equal tabs, safe-area/focus и offline проходят. Public allowlist51 assets; corpus/collector/audit/private/fulltext исключены. Усилен DevTools port-ready harness и исправлена старая проверка theme-toggle label на Settings gear; исходный startup failure сохранён. Release05 отдельно production-verified:50 hashes,39/2,453, источники/progress/consent/56 quotations/private404; старые receipts сохранены. Release06 PR/head/production — в release-06.json. Intake sealed на трёх; Kahneman/Meadows для следующего publisher. Canonical copyback только own receipts/proof, чужие checkout/dirty Git не тронуты.
+
 ## 2026-10-31 — Editorial release05 and final release04 verification
 
 Accepted Meditations 18/30/39 and Antifragile 11/17/24 by exact independent PASS binding; Left Hand 11/15/35 by four targeted publisher closures with the original REQUIRES-FIXES verdict preserved. All 98 bilingual pairs, quotation objects, source maps and bespoke covers stay exact. Meditations retains 14 quotation pairs/translator locators, XII.36=Rogovin35 and its archival cover. Source limits distinguish author text, interview, draft, later clarification and professional guides.

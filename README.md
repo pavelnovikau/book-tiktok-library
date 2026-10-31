@@ -48,6 +48,16 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 `npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
 
+## 2026-10-31 editorial repair — release 06
+
+Accepted content: *Atomic Habits* 13/20/24, *Protocols · sleep, light and attention* 10/16/22 and *Hermes & Nous · research brief* 12/17/22 — 68 RU/EN pairs, intended **40 books / 2,327 screens**. Three completed independent PASS reviews bind the unchanged canonical packages. Clear is a concise central-method account from actual author/publisher excerpts; Huberman is selected reading of the introduction, Sleep1–3 and PersonalGrowth1 with medical qualifications; Hermes preserves its public core and conditional proposals, with two underlying internal documents still inaccessible. Neither complete-edition fidelity nor validated demand/implementation is claimed.
+
+Settings [PR29](https://github.com/pavelnovikau/book-tiktok-library/pull/29) merged first after fresh independent R1/R2 closure at `a976d547…`, all three checks green. All50 actual production hashes match UI merge `7e1f96f…`; cold font/scroll and native radio regressions also pass live. This content branch preserves that UI across all40 readers. Exact accepted HTML is synchronized without rebuilding its corpus; the other37 roots/entries are unchanged. Hermes legacy keys/removed IDs migrate safely and cannot resurrect after restart. Atomic Habits has a unique four-stage habit-cycle cover motif.
+
+The [release06 receipt](editorial-audit/2026-10-31/publisher-findings/release-06.json) binds inputs/roots and exact publication state. Local checks pass 3×69 structure,2,496 rendered positions with reachable tails, source/state/migration/consent preservation, portable/Settings/font persistence, discovery/stats/equal tabs, safe-area/focus and offline reading. The public build contains51 allowlisted assets only. Actual40-book deployment is claimed only after its own merge and production proof. Kahneman/Meadows arrived after sealing and remain for the next publisher.
+
+[Release05 final verification](editorial-audit/2026-10-31/publisher-findings/release-05-verification.json) preserves its original evidence and confirms all50 assets,39 books/2,453 screens, live Sources/progress/renewed ending consent, all56 quotation displays and six private404 responses. See [fresh UI closure](editorial-audit/2026-10-31/publisher-findings/release-06-ui29-closure.json) for the distinct a976d547 acceptance; the original a09d38dc REQUIRES-FIXES report is unchanged. No physical iPhone/Safari/PWA/BFCache certification.
+
 ## 2026-10-31 editorial repair — release 05
 
 Three accepted readers contain 98 RU/EN pairs: *Meditations* 18/30/39, *Antifragile* 11/17/24 and *The Left Hand of Darkness* 11/15/35. The intended catalogue is **39 books / 2,453 screens**. Antifragile replaces the old 144-screen analytical reader; the other two titles are newly registered. The remaining 36 readers and their catalogue entries are unchanged.

@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -746,6 +746,11 @@
             '<path class="art-bold" d="M154 136 C178 120 191 105 214 91 C237 77 257 61 282 45"/>' +
             '<circle class="art-fill" cx="154" cy="136" r="6"/><circle class="art-fill" cx="214" cy="91" r="6"/><circle class="art-fill" cx="282" cy="45" r="7"/>' +
             '<path class="art-line" d="M221 135 C233 120 249 115 267 122 C278 127 286 137 293 150"/>';
+        } else if (motif === 'control-field') {
+          content = '<rect class="art-quiet" x="126" y="32" width="176" height="118" rx="8"/><rect class="art-line" x="158" y="53" width="112" height="76" rx="7"/>' +
+            '<rect class="art-fill-soft" x="195" y="72" width="39" height="38" rx="6"/><path class="art-bold" d="M118 91 H147 M147 91 H186 M186 91 H215"/>' +
+            '<path class="art-line" d="M138 82 L147 91 L138 100 M177 82 L186 91 L177 100"/>' +
+            '<rect class="art-fill" x="208" y="84" width="14" height="14" rx="3"/><path class="art-quiet" d="M286 46 L297 35 M286 136 L297 147 M143 46 L132 35 M143 136 L132 147"/>';
         } else {
           content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +

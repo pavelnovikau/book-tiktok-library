@@ -1,0 +1,79 @@
+{
+  "slug": "the-body-keeps-the-score",
+  "status": "ready-for-independent-check",
+  "contentMode": "explanatory",
+  "deliverables": [
+    {
+      "path": "collector-output/the-body-keeps-the-score/story-data.json",
+      "sha256": "49487a95027bac3930ce7cfdbf8e2eafcfafd922fbb92a1a1b2c5ca97ad848b8"
+    },
+    {
+      "path": "collector-output/the-body-keeps-the-score/the-body-keeps-the-score.html",
+      "sha256": "8aa48a5e48ef35b7823f5cc745531d598a653a6defacc32bcab5d4d84bfe2ae5"
+    },
+    {
+      "path": "collector-output/the-body-keeps-the-score/sources.md",
+      "sha256": "3b045ddc198edb72eb63a9531c361a0703816aafb4537f67c6ff60e12c33cc8b"
+    },
+    {
+      "path": "collector-output/the-body-keeps-the-score/QA.md",
+      "sha256": "8a5bae0852ec008745dc8d6bf2091eedac860e71a5c2e06152bdfd8a5c831be2"
+    }
+  ],
+  "counts": {
+    "essential": 21,
+    "core": 33,
+    "deep": 41
+  },
+  "reviewedPairs": {
+    "oldDistinct": 144,
+    "oldRootEmbedded": 144,
+    "oldCollectorEmbedded": 144,
+    "oldMeaningfulDivergences": 0,
+    "replacementDistinct": 41
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/the-body-keeps-the-score.md",
+  "reportSha256": "5a144aa41aaee1d55a795f25ee595095ba688acc5db81f1f0ce83c3f377529e9",
+  "sourceScope": "Owned complete RU edition available; key five-part argument and selected cases across chapters 1–20 consulted, not continuous full-edition reading, every-note verification or English collation. Clinical stories attributed to author. Current VA/Grossman/Otgaar qualifications explicit.",
+  "changes": [
+    "All 41 pairs rebuilt with concrete source-supported clinical and institutional accounts",
+    "Reduced cumulative counts 36/90/144 to 21/33/41",
+    "Preserved author disagreement about memory, medication and therapy, with specific current qualifications",
+    "Corrected RU edition identification from actual front matter; checked Marilyn occupation before readiness",
+    "Preserved user cover and non-graphic/skip/stop promise; RU/dark/Essential; explanatory mode"
+  ],
+  "checks": {
+    "maintainedBuild": "pass",
+    "maintainedHtmlAudit": "69 passes, 0 warnings/failures",
+    "browser": "all 41 pairs x 2 languages x 2 themes x 2 viewports pass; no runtime errors/remote requests; screenshots inspected"
+  },
+  "unresolvedIssues": [
+    "Independent source/editorial review and publisher integration required; no whole-edition fidelity certification",
+    "Root catalogue/reader untouched; publisher must update counts/times/description and consider changed saved IDs",
+    "Real-device iPhone/PWA not tested"
+  ],
+  "publisherMetadataProposal": {
+    "description": {
+      "ru": "Почему пережитая угроза остаётся в настоящем: клинические истории и поиск восстановления у Бессела ван дер Колка.",
+      "en": "Why past threat remains present: Bessel van der Kolk’s clinical accounts and search for recovery."
+    },
+    "screenCount": 41,
+    "readingMinutesByLanguage": {
+      "ru": {
+        "essential": 7,
+        "core": 10,
+        "deep": 12
+      },
+      "en": {
+        "essential": 6,
+        "core": 9,
+        "deep": 11
+      }
+    },
+    "defaultLanguage": "ru",
+    "defaultTheme": "dark",
+    "defaultMode": "essential",
+    "contentMode": "explanatory",
+    "spoilerPolicy": "not-applicable"
+  }
+}

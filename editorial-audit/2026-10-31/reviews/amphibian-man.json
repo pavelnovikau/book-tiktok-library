@@ -1,0 +1,152 @@
+{
+  "slug": "amphibian-man",
+  "verdict": "PASS",
+  "reviewDate": "2026-10-31",
+  "reviewType": "independent-content-review",
+  "reviewedFiles": {
+    "storyData": {
+      "path": "collector-output/amphibian-man/story-data.json",
+      "sha256": "2ef05a99896f94dfc5d07eb9ab5876be23b44fe18028874cddf6e70c182d1d35"
+    },
+    "collectorHtml": {
+      "path": "collector-output/amphibian-man/amphibian-man.html",
+      "sha256": "73ab4b352421a864b683c8eca6916282844d564ec41060f35db4a419f689dc01"
+    }
+  },
+  "actualRuEnPairCount": 35,
+  "routesRead": {
+    "essential": 12,
+    "core": 19,
+    "deep": 35
+  },
+  "effectiveHtmlCorpusParity": {
+    "screensEqual": true,
+    "metadataDifference": "HTML adds derived modes labels/minutes; no story-text divergence."
+  },
+  "unchangedAtReviewWrite": true,
+  "primaryEvidenceActuallyChecked": [
+    {
+      "source": "https://ru.wikisource.org/wiki/Человек-амфибия_(Беляев)",
+      "work": "Alexander Belyaev, Человек-амфибия",
+      "edition": "Complete Russian transcription identifying volume 3 of the eight-volume collected works; chapter sequence and terminal source note inspected. Not a film or summary.",
+      "actuallyChecked": [
+        "Opening/night and wire-net capture; the brothers’ staged rescue and Ichthyander’s introduction behind the glass (I «Морской дьявол», «Третья стена»).",
+        "Sea routine/equipment and enforced land routine; complete girl-and-dark-complexioned-man rescue episode (I «Девушка и смуглый», «Слуга Ихтиандра»).",
+        "Pearl refusal and subsequent walks; road confrontation/leap; grotto and Olsen encounter/account, including her religious refusal of his offered escape (I «Маленькая месть», «Неприятная встреча», «Бой со спрутами», «Новый друг»).",
+        "River arrest/handcuffs, hacienda assault and pond reunion; chained-diving/gift refusal; mutiny/submarine and forged-letter/wreck/shore-warning sequences (II).",
+        "Birthmark/legal uncertainty, court/surgery/bodily decline, guardianship and warder’s killing disclosure; island plan; full escape/farewell and final paragraphs (III)."
+      ],
+      "readingScope": "Selected continuous primary scenes and targeted follow-ups across all three parts, using the privately retained complete witness and verifying the live Wikisource work/contents. Not continuous full-book reading, not variant/scan collation.",
+      "privateWitness": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/amphibian-primary.txt"
+    }
+  ],
+  "contentJudgment": "PASS for the current hashes. The connected sea/shore adventure retains concrete intrigue, romance, confinement and a sad open horizon. Both initial causal findings are now repaired: suffocation motivates the leap, and Olsen’s warning explains Guttiere’s unseen farewell. No substantive required content defect remains within the stated selected-primary-reading scope.",
+  "requiredFindings": [],
+  "optionalObservations": [
+    {
+      "screenId": "marriage-evidence",
+      "observation": "A brief mention of Guttiere’s belief that Ichthyander died and her religious scruple about leaving the marriage could add depth, but this review does not require a separate new screen or restore every omitted conversation."
+    }
+  ],
+  "materialLimitations": [
+    "All 35 revised bilingual pairs, titles, source/method framing and the actual 12/19/35 cumulative routes were read. The collector’s embedded corpus, rather than a different root reader, is the reviewed deliverable.",
+    "Primary reading was selective continuous scenes across the whole plot, not every word of the complete novel; no published English translation was used or collated.",
+    "No browser matrix, production acceptance, saved-progress runtime or physical iPhone/PWA test is claimed.",
+    "PASS applies only to the current two hashes. The initial two required findings are retained as resolved history. No collector edit or publication was performed by this reviewer."
+  ],
+  "reviewHistory": [
+    {
+      "verdict": "REQUIRES-FIXES",
+      "reviewedFiles": {
+        "storyData": {
+          "path": "collector-output/amphibian-man/story-data.json",
+          "sha256": "693da83b690d81093693aa72b26649026386376d7b2ee03b737ebf54429a6fc8"
+        },
+        "collectorHtml": {
+          "path": "collector-output/amphibian-man/amphibian-man.html",
+          "sha256": "402738b6b0e9f11ded1648e28325de08ff529f91ddd66e41cb33d0c27b24c543"
+        }
+      },
+      "requiredFindingIds": [
+        "AMP-01",
+        "AMP-02"
+      ],
+      "supersededBy": "Current PASS after both local repairs were read and verified."
+    }
+  ],
+  "resolvedFindings": [
+    {
+      "id": "AMP-01",
+      "screenId": "unpleasant-meeting",
+      "category": "broken-plot-causality",
+      "severity": "required",
+      "routes": [
+        "core",
+        "deep"
+      ],
+      "wording": {
+        "ru": "Она возмущена, Ихтиандр в отчаянии бросается с обрыва в воду. Девушка думает, что он погиб.",
+        "en": "She protests; in despair, Ichthyander leaps from the cliff into the water. She believes he has died."
+      },
+      "finding": "The retelling removes the immediate physical necessity of the leap. The source explicitly shows intolerable pain, stopped breathing and near loss of consciousness, and later has Ichthyander explain the leap to Guttiere as escape from suffocation. His hurt is real, but despair alone makes the narrator appear to confirm the suicidal act that Guttiere only mistakenly infers. This changes a pivotal misunderstanding and the sea/land bodily conflict.",
+      "minimalCorrection": {
+        "ru": "Сохранить обиду, но добавить непосредственную причину: «Ихтиандр потрясён, но боль в боках становится невыносимой, он задыхается и бросается со скалы в море. Гуттиэре думает, что он погиб».",
+        "en": "Keep his distress and add the immediate cause: “Shaken, Ichthyander can no longer bear the pain or breathe on land and leaps from the cliff into the sea. Guttiere believes he has died.”"
+      },
+      "sourceLocator": {
+        "url": "https://ru.wikisource.org/wiki/Человек-амфибия_(Беляев)",
+        "location": "I «Неприятная встреча», road encounter immediately before the leap; II «В пути», pond reunion, Ichthyander explains why he jumped.",
+        "privateWitnessLines": [
+          "1662–1678",
+          "2250–2262"
+        ]
+      },
+      "status": "resolved-in-reviewed-follow-up",
+      "replacementWording": {
+        "ru": "<p>Однажды навстречу им выезжает Зурита и называет Гуттиэре своей невестой. Она возмущена. Потрясённый Ихтиандр чувствует невыносимую боль в боках, задыхается и бросается с обрыва в море. Гуттиэре думает, что он погиб. Дома Бальтазар снова требует согласиться на брак: почти весь товар в его лавке принадлежит Зурите. Гуттиэре отвечает отказом.</p>",
+        "en": "<p>One day Zurita rides towards them and calls Guttiere his fiancée. She protests. Shaken and struggling to breathe through sharp pains in his sides, Ichthyander leaps from the cliff into the sea. Guttiere believes he has died. At home, Balthazar again presses her to marry: almost all the stock in his shop belongs to Zurita. Guttiere refuses.</p>"
+      },
+      "resolutionAssessment": "The new RU/EN wording restores the documented causal link without adding new incidents or dialogue. Read in the affected route context and checked against the same primary scene."
+    },
+    {
+      "id": "AMP-02",
+      "screenId": "farewell",
+      "category": "material-motive-omission",
+      "severity": "required",
+      "routes": [
+        "deep"
+      ],
+      "wording": {
+        "ru": "Теперь она стоит за камнями, пока он выпускает Ихтиандра из бочки. … Он не знает, что она рядом. Её тихого ответа он не слышит.",
+        "en": "Now she waits behind rocks while he releases Ichthyander from the barrel. … He does not know she is nearby. Her quiet answer goes unheard."
+      },
+      "finding": "The actions are accurate, but the ending drops the established reason for hiding. Olsen warns that seeing her would draw the ill Ichthyander back to meetings on land and endanger him; Guttiere considers this and agrees to remain unseen. Without that short causal link, a reader sees her refuse a reunion without knowing why, materially changing the emotional meaning of their separation.",
+      "minimalCorrection": {
+        "ru": "Перед укрытием за камнями добавить одну фразу: «Ольсен убеждает её не показываться: ради новых встреч Ихтиандр снова стал бы выходить на сушу, а это может его погубить. Она соглашается увидеть его только издали». Сохранить тихое неслышное прощание.",
+        "en": "Before she hides, add one sentence explaining that Olsen fears renewed meetings on land will endanger Ichthyander and that she agrees to watch without revealing herself. Keep the unheard farewell."
+      },
+      "sourceLocator": {
+        "url": "https://ru.wikisource.org/wiki/Человек-амфибия_(Беляев)",
+        "location": "III «Побег», Guttiere and Olsen’s conversation before the night water-cart escape, then the shore farewell.",
+        "privateWitnessLines": [
+          "3556–3596",
+          "3624–3652"
+        ]
+      },
+      "status": "resolved-in-reviewed-follow-up",
+      "replacementWording": {
+        "ru": "<p>Гуттиэре ушла от мужа и пришла за помощью к Ольсену. Он убеждает её не показываться: ради новых встреч Ихтиандр снова станет выходить на сушу, а это может его погубить. Она соглашается увидеть его только издали. Теперь она стоит за камнями, пока он выпускает Ихтиандра из бочки. Юноша благодарит друга и бежит к морю. На прощание просит передать Гуттиэре, что всегда будет помнить её. Он не знает, что она рядом. Её тихого ответа он не слышит.</p>",
+        "en": "<p>Guttiere has left her husband and sought Olsen’s help. He warns that seeing her would draw Ichthyander back to meetings on land and endanger his life. She agrees to watch without revealing herself. Now she waits behind rocks while he releases Ichthyander from the barrel. The young man thanks his friend and runs towards the sea. He asks Olsen to tell Guttiere that he will always remember her. He does not know she is nearby. Her quiet answer goes unheard.</p>"
+      },
+      "resolutionAssessment": "The new RU/EN wording restores the documented causal link without adding new incidents or dialogue. Read in the affected route context and checked against the same primary scene."
+    }
+  ],
+  "followUpReview": {
+    "changedRuEnPairsActuallyRead": 2,
+    "screenIds": [
+      "unpleasant-meeting",
+      "farewell"
+    ],
+    "scope": "Compared the full new corpus with the initial reviewed snapshot: only these two pairs and their locators changed. Read both new bilingual pairs, the affected Core sequence and late Deep continuation; Essential is unchanged. Effective HTML screens equal the new JSON; the ready manifest names the same new hashes. Primary support is I «Неприятная встреча», II «В пути», III «Побег», already read directly."
+  }
+}

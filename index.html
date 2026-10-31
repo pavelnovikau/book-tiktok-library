@@ -701,7 +701,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -717,7 +717,13 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'conditioned-trust') {
+        if (motif === 'sea-air') {
+          // A body crosses the shore: confined air above, open currents below.
+          content = '<path class="art-quiet" d="M135 35 V72 M157 35 V72 M179 35 V72 M128 49 H187 M128 64 H187 M126 113 C168 99 210 127 252 113 S286 106 302 113 M126 139 C168 125 210 153 252 139 S286 132 302 139"/>' +
+            '<path class="art-line" d="M121 87 C143 77 165 97 187 87 S231 77 253 87 S286 97 304 87"/>' +
+            '<path class="art-bold" d="M204 38 V65 C204 88 220 109 248 119 L281 112 M223 96 L246 91 M248 119 L269 137"/>' +
+            '<path class="art-fill" d="M204 27 L211 34 L204 41 L197 34 Z"/>';
+        } else if (motif === 'conditioned-trust') {
           // Repeated pressures bend a path; a different encounter leaves room to move.
           content = '<path class="art-quiet" d="M133 38 V142 M166 38 V142 M199 38 V142 M232 38 V70 M232 112 V142 M265 38 V70 M265 112 V142"/>' +
             '<path class="art-bold" d="M121 91 L145 111 L177 72 L209 91 H292"/>' +

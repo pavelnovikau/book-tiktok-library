@@ -1,0 +1,104 @@
+{
+  "slug": "mindfulness",
+  "status": "ready-for-independent-check",
+  "workerGroup": 10,
+  "verdict": "REBUILD",
+  "reportPath": "editorial-audit/2026-10-31/books/mindfulness.md",
+  "reviewedPairs": {
+    "uniqueOldPairs": 112,
+    "authoring": 112,
+    "published": 112,
+    "new": 30
+  },
+  "counts": {
+    "essential": 14,
+    "core": 26,
+    "deep": 30
+  },
+  "contentMode": "explanatory",
+  "sourceScope": "Primary edition: Williams/Penman, «Осознанность: как обрести гармонию в нашем безумном мире», MIF 2014, ISBN 9785000572139, translation Ю. Цыбышева, scientific editor Н. Никольская. The complete owned expanded EPUB was identified by metadata, 12 chapters and full spine; not a Smart Reading summary. Read-only access. This repair read the continuous central explanation in chapter 2 from «Наше беспокойное сознание» through the chapter end, the seven doing/being contrasts in chapter 3, the full weekly-progression section in chapter 4, principal complete instructions for body/breath (ch5), body scan (ch6), three-minute breathing space (ch7), sounds/thoughts (ch8), difficulty (ch9), befriending (ch10), day-activity balance and post-pause action (ch11), and continuation/motivation (ch12). Read additional whole passages for Alex, Lucy, raisin stages, habitual seat, expectations, movement limits and the cinema/whispering-commentary image. This gives the meaningful central argument and all eight program stages, not continuous cover-to-cover reading of every case, empirical claim, poem or note. EN is a new translation of this account, not collation with a complete EN edition.\n\nOfficial author recordings page was inspected as a cross-check of this first book's practices; the later *Deeper Mindfulness* material is excluded. Current NCCIH safety page was consulted only for the separately identified safety qualification, not as the book's argument. Publisher web copy was inspected for identification, not accepted as efficacy proof. The anomalous 2001 copyright field in the RU package is not used to redetermine the English work's date.",
+  "changes": [
+    "Rewrote all reading screens into connected concise prose",
+    "Removed compiler synthesis and unrelated research detours",
+    "Retained author-specific sequence/procedures",
+    "Updated nested counts and RU/dark/Essential defaults"
+  ],
+  "unresolvedIssues": [
+    "Scope is a condensed account of the central explanation and eight-week program, not verification of every book anecdote, biomedical promise or note. Broad brain, immune and longevity promises are neither silently proved nor replaced by a new science lecture: they are outside this shortened account. The absolute harmlessness claim is explicitly qualified by NCCIH once. Full scripts and exact daily schedules are not replaced by this short reader; the source dialog links official recordings. Publisher must assess whether this deliberately shorter 30-screen scope is appropriate; it must not label it an exhaustive full-book fidelity audit.",
+    "Independent publisher check and root/catalogue/progress integration pending"
+  ],
+  "deliverables": [
+    {
+      "path": "collector-output/mindfulness/story-data.json",
+      "sha256": "0942e4a88906fd32ac1bb96a340abc5077624b3d40c903f010ad2aeb16285400"
+    },
+    {
+      "path": "collector-output/mindfulness/mindfulness.html",
+      "sha256": "12114c735b743e8b2bb028b22e165a24a1d1a123d348397151a15305d70efb55"
+    },
+    {
+      "path": "collector-output/mindfulness/sources.md",
+      "sha256": "c9449789cde4e31c0c3a14f3b0afc8d63688cb60aa15d7c4a894e3a1f1d2d158"
+    },
+    {
+      "path": "collector-output/mindfulness/QA.md",
+      "sha256": "b5310ecd5f5932d9b699519e830f5fb5c3a4f4e08637384c51378527e6fe4b03"
+    }
+  ],
+  "checks": {
+    "structural": {
+      "passes": 69,
+      "failures": [],
+      "warnings": []
+    },
+    "browser": {
+      "screensCompared": 30,
+      "variants": 8,
+      "offline": true,
+      "runtimeErrors": [],
+      "focus": {
+        "tapEnter": true,
+        "headerHidden": true,
+        "textPreserved": true,
+        "nextVisible": true,
+        "tapRestore": true,
+        "verticalMotionExcluded": true,
+        "swipeExcluded": true
+      },
+      "realIPhonePwaTest": false
+    },
+    "scope": "Collector only; structural checks do not certify editorial fidelity or production behavior."
+  },
+  "computedReadingLabels": {
+    "essential": {
+      "label": {
+        "ru": "Главное",
+        "en": "Essential"
+      },
+      "minutes": {
+        "ru": "4 минут",
+        "en": "4 min"
+      }
+    },
+    "core": {
+      "label": {
+        "ru": "Суть книги",
+        "en": "Core"
+      },
+      "minutes": {
+        "ru": "8 минут",
+        "en": "7 min"
+      }
+    },
+    "deep": {
+      "label": {
+        "ru": "Глубоко",
+        "en": "Deep"
+      },
+      "minutes": {
+        "ru": "9 минут",
+        "en": "8 min"
+      }
+    }
+  }
+}

@@ -1,5 +1,9 @@
 # Library expansion plan
 
+## 2026-10-31 — release 02 current repair scope
+
+Accepted now: Four Thousand Weeks 21/32/52, Mindfulness 14/26/30, A Guide to the Good Life 18/32/36, The Body Keeps the Score 21/33/41, Amphibian Man 12/19/35 and Selfie 27/39/62. Six hash-matched PASS reviews plus fresh AMP-01/02 closure acceptance cover 256 bilingual pairs. Integrated catalogue: 32 books / 3,168 screens. Exact publication/production state: `editorial-audit/2026-10-31/publisher-findings/release-02.json`. Other 24 published books retain unestablished editorial status; expansion remains suspended. Earlier counts below are historical, not padding targets.
+
 ## 2026-10-31 — authorized editorial repair, release 01
 
 This supersedes the historical STOP/expansion/refill instructions below. Repair authorization is active; do not restart the old expansion queue or dispatch replacement collectors. One publisher owns root readers/catalogue/shared shell/Git/deploy; workers own only their assigned packages and reports.

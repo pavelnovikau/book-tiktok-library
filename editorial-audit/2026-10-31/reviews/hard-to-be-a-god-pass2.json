@@ -1,0 +1,539 @@
+{
+  "schemaVersion": 2,
+  "slug": "hard-to-be-a-god",
+  "reviewRound": 2,
+  "reviewRound2": true,
+  "reviewDate": "2026-10-31",
+  "reviewedAtUtc": "2026-10-31T20:09:22.632132Z",
+  "reviewType": "fresh-independent-content-recheck",
+  "verdict": "REQUIRES-FIXES",
+  "summary": "HG-01–HG-05 are all closed on the exact repaired hashes. All 33 RU/EN pairs and cumulative 8/13/33 routes were read. One low factual-specificity correction remains in the unchanged palace-night pair (HG-06); no substantive rewrite or source gap is required.",
+  "reviewedFiles": [
+    {
+      "role": "authoring",
+      "path": "collector-output/hard-to-be-a-god/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/story-data.json",
+      "sha256": "7f340b24f744699f71164d4a0d48e8cd10aab877c37f3ade5d8f60d91face2ac",
+      "bytes": 53411,
+      "matchesReadyManifest": true
+    },
+    {
+      "role": "collector-html",
+      "path": "collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+      "sha256": "53176ebbdc1806cf5513dccbdf4d85a21dd661057471a568759d486e30fb143c",
+      "bytes": 299590,
+      "matchesReadyManifest": true
+    },
+    {
+      "role": "source-ledger",
+      "path": "collector-output/hard-to-be-a-god/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/sources.md",
+      "sha256": "be60d15fd274369cf69b7046b66d78045897ac96bd7f4a46202b5489a9357545",
+      "bytes": 8307,
+      "matchesReadyManifest": true
+    },
+    {
+      "role": "qa-record-read-not-literary-evidence",
+      "path": "collector-output/hard-to-be-a-god/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/QA.md",
+      "sha256": "cfe107aa5cb975329fdcd29a2ac0d09008b198ec0bbc270c71008405627d61d8",
+      "bytes": 7326,
+      "matchesReadyManifest": true
+    }
+  ],
+  "readyManifest": {
+    "path": "editorial-audit/2026-10-31/ready/hard-to-be-a-god.json",
+    "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/hard-to-be-a-god.json",
+    "sha256": "494f5147e022db892269f7fbc4d82c80f0f0f051e88bbe23e22dfde2665d35b8",
+    "statusRead": "ready-for-independent-check",
+    "passRead": 2,
+    "allDeliverableHashesMatchAtReadAndReportWrite": true
+  },
+  "brief": {
+    "path": "editorial-audit/2026-10-31/BRIEF.md",
+    "sha256": "9791cdf7662d0eb6450486114ba275dbdd46516c71053d1e8b77c88610f5866a",
+    "read": true
+  },
+  "repairReport": {
+    "path": "editorial-audit/2026-10-31/repairs/hard-to-be-a-god-pass2.md",
+    "sha256": "1ae33496a67eb8d558f387afca61a2239f6a2d15c581dd6357db52d543eebd5e",
+    "readAsImplementationClaimNotAcceptance": true
+  },
+  "previousReview": {
+    "jsonPath": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god.json",
+    "jsonSha256": "b459ee984eec3b53ce3f2e357ef57317984de897352ec82ddc7ccf49a069d938",
+    "markdownPath": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god.md",
+    "markdownSha256": "2c4855c54a6a9b00c000b5dc852c51a958ddd0f2c5f278525eafa742e5facbc6",
+    "preservedUnchanged": true,
+    "previousVerdict": "REQUIRES-FIXES"
+  },
+  "actualPairCount": 33,
+  "allRuEnPairsRead": true,
+  "counts": {
+    "essential": 8,
+    "core": 13,
+    "deep": 33
+  },
+  "copyElementsRead": [
+    "Every RU/EN title, section, subtitle where present, and body",
+    "Cover and global descriptions",
+    "Method/source notes and cover media alt/credit"
+  ],
+  "manifestListedChangedPairCount": 6,
+  "manifestListedChangedScreenIds": [
+    "childhood-game",
+    "okana",
+    "clearance-ritual",
+    "lightning-demand",
+    "hope-burden",
+    "final"
+  ],
+  "allSixChangedPairsPersonallyRead": true,
+  "routesRead": {
+    "essential": {
+      "actualScreenCount": 8,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "childhood-game",
+        "god-not-literal",
+        "condor-not-caricature",
+        "budakh-search",
+        "kira-at-home",
+        "royal-court",
+        "final"
+      ],
+      "readAsConnectedSequence": true,
+      "assessment": "Coherent spoiler-safe opening: childhood shot, observer’s power/restraint, missing physician, Kira, court and explicit opening-stakes recap."
+    },
+    "core": {
+      "actualScreenCount": 13,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "childhood-game",
+        "forgotten-road",
+        "god-not-literal",
+        "gold-not-safety",
+        "condor-not-caricature",
+        "budakh-search",
+        "criminal-network",
+        "kira-at-home",
+        "pampa-loyalty",
+        "okana",
+        "royal-court",
+        "final"
+      ],
+      "readAsConnectedSequence": true,
+      "assessment": "Coherent expanded opening: road, Midas, Vaga and Pampa add context; Okana/Kira now has its actual local resolution. No decisive ending disclosed."
+    },
+    "deep": {
+      "actualScreenCount": 33,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "childhood-game",
+        "forgotten-road",
+        "god-not-literal",
+        "gold-not-safety",
+        "condor-not-caricature",
+        "budakh-search",
+        "criminal-network",
+        "kira-at-home",
+        "pampa-loyalty",
+        "okana",
+        "royal-court",
+        "deep-spoiler-gate",
+        "palace-night",
+        "reba-uncertain",
+        "order-transition",
+        "clearance-ritual",
+        "pampa-escape",
+        "budakh-trap",
+        "budakh-pyramid",
+        "gifts-capture",
+        "care-dependency",
+        "remake-person",
+        "lightning-demand",
+        "hope-burden",
+        "earth-meeting",
+        "hostage-warning",
+        "delay-protection",
+        "death-uncertainty",
+        "earth-rescue",
+        "road-nonreturn",
+        "strawberry-image",
+        "final"
+      ],
+      "readAsConnectedSequence": true,
+      "assessment": "Coherent full condensed arc and attributed philosophical disputes through the epilogue and explicit recap; one low unsupported combat detail remains (HG-06)."
+    }
+  },
+  "deliveryComparison": {
+    "effectiveEmbeddedPairs": 33,
+    "allAuthoringFieldsEqualEffectiveHtmlExceptGeneratedModes": true,
+    "onlyGeneratedTopLevelAddition": "modes",
+    "meaningfulCopyDivergence": false,
+    "rootReaderPresent": false,
+    "rootCatalogueOrIndexMentionsSlug": false,
+    "rootPublicationCertified": false
+  },
+  "sourceScope": {
+    "work": "Arkady and Boris Strugatsky, Трудно быть богом / Hard to Be a God",
+    "edition": "Complete Russian electronic witness on the official author site; specific print edition or textual variant not collated. EN translates this condensation, not a published English translation.",
+    "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm",
+    "privatePrimaryWitnessReadOnly": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/hard-to-be-a-god.html",
+    "primaryBytes": 370398,
+    "primarySha256": "02ef0f659c7e11b1fe60a85fce2be24b68fbac61e47a7a85add49df70cdf900d",
+    "freshLiveAuthorSiteFetchHttpStatus": 200,
+    "freshLiveFetchByteEqualPrivateWitness": true,
+    "sourceGap": false,
+    "sourceLedgerRead": true,
+    "paragraphNumbering": "Independently regenerated 1-based nonempty HTML <p> ordinals within each ПРОЛОГ / ГЛАВА N / ЭПИЛОГ heading; tags stripped and entities decoded. These are local witness locators, never printed page references. Prologue has 199 paragraphs and chapter 5 has 158 in this extraction; do not substitute different earlier parser ordinals.",
+    "primaryPassagesPersonallyReadThisRecheck": [
+      {
+        "chapter": "Prologue",
+        "paragraphs": [
+          "P001–P008",
+          "P127–P199"
+        ],
+        "screenIds": [
+          "childhood-game",
+          "forgotten-road"
+        ],
+        "scope": "Lake opening, continuous Tell sequence and continuous highway quarrel/return."
+      },
+      {
+        "chapter": "Chapter 1",
+        "paragraphs": [
+          "P098–P174"
+        ],
+        "screenIds": [
+          "god-not-literal",
+          "gold-not-safety",
+          "condor-not-caricature",
+          "budakh-search"
+        ],
+        "scope": "Kabani/Midas and full first Condor exchange through Gug’s report."
+      },
+      {
+        "chapter": "Chapter 2",
+        "paragraphs": [
+          "P023",
+          "P118–P148"
+        ],
+        "screenIds": [
+          "okana",
+          "criminal-network"
+        ],
+        "scope": "Actual invitation and continuous Vaga bargaining scene."
+      },
+      {
+        "chapter": "Chapter 3",
+        "paragraphs": [
+          "P055–P132"
+        ],
+        "screenIds": [
+          "kira-at-home",
+          "pampa-loyalty",
+          "okana"
+        ],
+        "scope": "Kira’s love/refuge conversation, Pampa discussion, move into Rumata’s house and preparation for Okana."
+      },
+      {
+        "chapter": "Chapter 4",
+        "paragraphs": [
+          "P022–P061",
+          "P180–P218"
+        ],
+        "screenIds": [
+          "okana",
+          "pampa-loyalty"
+        ],
+        "scope": "Failed encounter through departure and Pampa’s arrival; drinking recollection, return and complete confession/brine resolution."
+      },
+      {
+        "chapter": "Chapter 5",
+        "paragraphs": [
+          "P016–P034",
+          "P120–P158"
+        ],
+        "screenIds": [
+          "royal-court",
+          "budakh-trap"
+        ],
+        "scope": "Public appeal, Reba’s response and court physician/medicine sequence."
+      },
+      {
+        "chapter": "Chapter 6",
+        "paragraphs": [
+          "P001–P033"
+        ],
+        "screenIds": [
+          "god-not-literal",
+          "palace-night"
+        ],
+        "scope": "Complete chapter, including protection preparations, observations, fight, spear, crowd, net and coup recognition."
+      },
+      {
+        "chapter": "Chapter 7",
+        "paragraphs": [
+          "P148–P224",
+          "P249–P280"
+        ],
+        "screenIds": [
+          "reba-uncertain",
+          "order-transition",
+          "budakh-trap",
+          "kira-at-home"
+        ],
+        "scope": "Identity/gold/nonlethal-duel interrogation, false physician, threats and Order reveal; Kira’s care and promised explanation."
+      },
+      {
+        "chapter": "Chapter 8",
+        "paragraphs": [
+          "P059–P151",
+          "P177–P219"
+        ],
+        "screenIds": [
+          "clearance-ritual",
+          "pampa-escape",
+          "budakh-trap",
+          "budakh-pyramid",
+          "gifts-capture",
+          "care-dependency",
+          "remake-person"
+        ],
+        "scope": "Continuous chancellery/prison/Budakh/Pampa releases; poison account and complete meal/philosophical dialogue."
+      },
+      {
+        "chapter": "Chapter 9",
+        "paragraphs": [
+          "P001–P053"
+        ],
+        "screenIds": [
+          "lightning-demand",
+          "hope-burden"
+        ],
+        "scope": "Complete chapter, including Arata’s full visit, Rumata’s internal reflections and departure."
+      },
+      {
+        "chapter": "Chapter 10",
+        "paragraphs": [
+          "P001–P103"
+        ],
+        "screenIds": [
+          "earth-meeting",
+          "hostage-warning",
+          "delay-protection",
+          "death-uncertainty",
+          "final"
+        ],
+        "scope": "Complete chapter: sedation, changed Condor debate, Gug’s objection, helicopter warning, last Kira conversation, imagined Earth, castle proposal and attack."
+      },
+      {
+        "chapter": "Epilogue",
+        "paragraphs": [
+          "P001–P037"
+        ],
+        "screenIds": [
+          "earth-rescue",
+          "road-nonreturn",
+          "strawberry-image",
+          "final"
+        ],
+        "scope": "Complete epilogue, including indirect aftermath, Pashka’s uncertainty, road association and final image."
+      }
+    ],
+    "completePrimaryChaptersPersonallyRead": [
+      "Chapter 6",
+      "Chapter 9",
+      "Chapter 10",
+      "Epilogue"
+    ],
+    "entireNovelReadContinuously": false,
+    "printEditionOrVariantsCollated": false,
+    "publishedEnglishTranslationCollated": false,
+    "wholeEditionFidelityCertified": false,
+    "fullTextOrExtractionWrittenInRepository": false
+  },
+  "findingClosure": [
+    {
+      "id": "HG-01",
+      "decision": "CLOSED",
+      "screenIds": [
+        "lightning-demand",
+        "hope-burden"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "assessment": "Both languages restore Arata’s intended human targets, including descendants, armies and supporters, and his promise to return the weapons. Rumata explicitly offers a lesser argument aloud, then privately anticipates land grants, renewed serfdom and new barons. His feeling of inferiority beside Arata and Arata’s accusation about false hope remain. The forecast belongs to Rumata, not an omniscient editorial lesson.",
+      "primaryPassages": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 9, complete P001–P053; especially P023–P025 and P039–P052",
+          "checked_meaning": "Helicopter explanation, intended violence, spoken mortality objection, conflicted respect, weakened resolve, private historical forecast and departure/gold question all checked directly."
+        }
+      ]
+    },
+    {
+      "id": "HG-02",
+      "decision": "CLOSED",
+      "screenIds": [
+        "okana"
+      ],
+      "routes": [
+        "core",
+        "deep"
+      ],
+      "assessment": "EN now clearly makes Okana’s attraction the means by which Rumata considers obtaining information. RU/EN both show his inability to complete the encounter and his departure, followed later by drunken carousing with Pampa, Kira’s alarm, Rumata’s confession that her apparent dream was real, and her offer of brine. The particular lie no longer ends in invented continuing estrangement.",
+      "primaryPassages": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 2 P023; chapter 3 P132; chapter 4 P022–P061 and P180–P218",
+          "checked_meaning": "Invitation/motive, failed encounter and departure, drinking, frightening appearance and complete confession/brine resolution checked directly."
+        }
+      ]
+    },
+    {
+      "id": "HG-03",
+      "decision": "CLOSED",
+      "screenIds": [
+        "clearance-ritual"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "assessment": "The paper is correctly an authorization for further paperwork, not a release warrant. Rumata takes and wears purification bracelets, goes to the prison displaying the stamped sheet and declares Budakh a gift from the bishop. The monks deliver Budakh and Rumata removes the noose. The action that bypasses the trap is present in both languages.",
+      "primaryPassages": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 8 P059–P124, within personally read P059–P151",
+          "checked_meaning": "Chancellery paper P069; bracelets and direct prison approach P079–P082; paper/gift declaration P107–P116; delivery and noose removal P119–P124."
+        }
+      ]
+    },
+    {
+      "id": "HG-04",
+      "decision": "CLOSED",
+      "screenIds": [
+        "final"
+      ],
+      "routes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "assessment": "RU opens with an explicit story-outset anchor and closes by calling these the initial circumstances; EN does the same with outset/opening stakes. Thus the shared final is a retrospective after Deep’s epilogue, not a claim that Budakh remains missing or Kira still awaits rescue. Its lower-depth ending promise remains safe. The actual Deep tail proceeds from the Earth meeting and hostage warning to the uncompleted shelter plan, Kira’s death, indirect rescue report, uncertain road association and berry-juice image before this marked recap.",
+      "primaryPassages": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 8 release; complete chapter 10 P001–P103; complete epilogue P001–P037",
+          "checked_meaning": "The rescue is already accomplished, the imagined Earth journey and proposed castle refuge remain uncompleted, the fatal attack precedes the indirect Earth report, and the last image does not announce a cure or restored future."
+        }
+      ]
+    },
+    {
+      "id": "HG-05",
+      "decision": "CLOSED",
+      "screenIds": [
+        "childhood-game"
+      ],
+      "routes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "assessment": "The unsupported paper material has been removed in both languages. Calling the rolled headband a cap is supported by the scene’s own description. The aiming higher and real shot are also supported.",
+      "primaryPassages": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Prologue P127–P155; especially P137–P152",
+          "checked_meaning": "Anka rolls Pashka’s pirate headband into a target; it is worn like a cap and later unfolded. Anton raises the crossbow higher before firing."
+        }
+      ]
+    }
+  ],
+  "allPreviousFindingsClosed": true,
+  "requiredFindings": [
+    {
+      "id": "HG-06",
+      "severity": "low",
+      "screenIds": [
+        "palace-night"
+      ],
+      "routes": [
+        "deep"
+      ],
+      "type": "unsupported-action-specificity",
+      "required": true,
+      "problematicWording": {
+        "ru": "Румата отбивается, ломает оружие нападающих, но их слишком много.",
+        "en": "He fights back and breaks their weapons, but there are too many."
+      },
+      "finding": "The particular assertion that he breaks the attackers’ weapons is not established by the checked capture scene. Chapter 6 shows axes left on the floor and sprained arms after the first rush, then a spear knocking Rumata off the window ledge, a struggle against the crowd and capture in a net. Disarming/repelling the attack does not establish weapon breakage. This is a small factual-specificity correction, not a defect in the repaired philosophical or ending arcs.",
+      "primaryPassages": [
+        {
+          "url": "https://www.rusf.ru/abs/books/tbb100.htm",
+          "location": "Chapter 6 P029–P033, especially P029 and P032; first axe-bearing rush through net capture",
+          "checked_meaning": "The observable actions support fighting back and capture; no weapon-breaking action is stated in this scene. The complete chapter was personally read, then these paragraphs rechecked."
+        }
+      ],
+      "minimalCorrection": {
+        "instruction": "Delete only the weapon-breaking clause in both languages. Leave the remaining scene and route unchanged.",
+        "ru": "Румата отбивается, но их слишком много.",
+        "en": "He fights back, but there are too many."
+      },
+      "whyRequired": "The brief disallows adding concrete actions unsupported by the primary scene. No rewrite, extra lesson, new scene or chosen prose style is requested."
+    }
+  ],
+  "requiredFindingCount": 1,
+  "remainingSubstantiveRewriteCount": 0,
+  "optionalStylePreferences": [],
+  "literaryAssessment": "The delivery tells a concise story through characters, encounters, danger and relationships. Pampa’s beer and Kira’s brine retain local humour. Budakh’s proposals and Rumata’s objections remain a debate at a meal; the Arata exchange now preserves liberation’s violent promise, Rumata’s internal historical objection and his uneasy respect. There are no reader exercises, modern analogies or invented generic lessons replacing these arguments. EN carries the repaired causal and attribution distinctions. No particular prose style is imposed.",
+  "uncertaintyAndEndingAssessment": "The Earth journey is imagined and the castle a plan; neither is an accomplished escape. No definitive individual shooter, revenge choreography, victim total, cure or settled future for Arkanar is supplied. The epilogue remains Pashka’s incomplete account, his road association remains uncertain and the final narrative image is the author-supported berry juice.",
+  "spoilerAssessment": {
+    "decisiveOutcomesOnlyInDeepAfterWarning": true,
+    "coverDescriptionMethodMediaOutcomeSafe": true,
+    "lowerContentsLevelFilteringInspectedInCurrentHtml": true,
+    "savedDeepGenericCoverLabelInspectedInCurrentHtml": true,
+    "sharedFinalNowExplicitlyRecapsOpening": true,
+    "basis": "Current text and visibleScreens/contentsHtml/renderCover/renderScreen code inspection; no browser or device matrix run."
+  },
+  "publicationAcceptance": {
+    "currentHashesAccepted": false,
+    "futureChangedHashesAccepted": false,
+    "reason": "One low required correction remains: HG-06. HG-01–HG-05 do not need reopening.",
+    "publisherNextStep": "Apply the exact two-language deletion at palace-night, rebuild with maintained tooling, directly compare the corrected authoring/effective HTML with HG-06 and the cited primary capture scene, and refresh hashes plus the bounded correction validation record under BRIEF.md. Do not label these changed hashes as this recheck’s PASS. No whole-book rewrite is requested."
+  },
+  "reviewLimits": [
+    "Selected continuous primary reading across the work, with complete chapters 6/9/10 and epilogue; no every-word whole-novel or variant certification.",
+    "Matching source bytes establish access, not reading of every word. The reading ranges above describe this reviewer’s own reading.",
+    "No new browser, physical iPhone, installed PWA, progress migration, offline runtime or production certification. Earlier QA counters are not evidence for this literary verdict.",
+    "No Git diff against the old authoring snapshot was performed; six changed pairs is the manifest/user change set, and every current pair was read regardless."
+  ],
+  "writtenPaths": [
+    "editorial-audit/2026-10-31/reviews/hard-to-be-a-god-pass2.md",
+    "editorial-audit/2026-10-31/reviews/hard-to-be-a-god-pass2.json"
+  ],
+  "authorizationRespected": {
+    "onlyAssignedReviewFilesWritten": true,
+    "firstReviewAndCanonicalFilesUnchanged": true,
+    "collectorRootOrSharedEdits": false,
+    "gitPrPublishWatchActions": false,
+    "agentsStarted": false,
+    "externalMessagesSent": false,
+    "workersPolledOrWaitedOn": false
+  }
+}

@@ -1,0 +1,1672 @@
+{
+  "schemaVersion": 1,
+  "slug": "nonviolent-communication",
+  "reviewDate": "2026-10-31",
+  "reviewType": "independent-editorial-and-primary-source-review",
+  "status": "completed",
+  "verdict": "REQUIRES-FIXES",
+  "independentPass": false,
+  "readyForPublication": false,
+  "findingCounts": {
+    "blocking": 1,
+    "nonblockingFactualCorrection": 1,
+    "sourceGapsInPromisedScope": 0,
+    "optionalPolish": 0
+  },
+  "reportPath": "editorial-audit/2026-10-31/reviews/nonviolent-communication.md",
+  "reportCanonicalPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/nonviolent-communication.md",
+  "reportSha256": "495ac687de1ef456cf1ec56dfa6bedfd73b597d7a83adeb390a3cc97ecc82e14",
+  "packageRoot": "/Users/pn/smartcat/_artifacts/book-tiktok-library",
+  "deliveryPath": "collector-output/nonviolent-communication/nonviolent-communication.html",
+  "reviewedVersionOnly": true,
+  "conditionalPassForFutureVersions": false,
+  "work": {
+    "author": "Marshall B. Rosenberg",
+    "title": "Nonviolent Communication: A Language of Life",
+    "publisher": "PuddleDancer Press",
+    "scope": "SELECTED CENTRAL METHOD",
+    "editionBoundary": "Actual official mixed-edition excerpts. Chapter 1 explicitly second edition; chapter-2 sample explicitly third edition, ©2019; chapter 14 official NVC3 file. No unified printing collated.",
+    "officialRussianTranslationClaim": false
+  },
+  "instructionsRead": [
+    "editorial-audit/2026-10-31/BRIEF.md (including source-sufficiency clarification)",
+    "CONTRIBUTING.md",
+    "skills/book-tiktok/SKILL.md",
+    "skills/book-tiktok/references/content-model.md",
+    "skills/book-tiktok/references/data-contract.md",
+    "skills/book-tiktok/references/html-spec.md"
+  ],
+  "packageRecordsRead": [
+    "collector-output/nonviolent-communication/sources.md",
+    "collector-output/nonviolent-communication/QA.md",
+    "editorial-audit/2026-10-31/ready/nonviolent-communication.json",
+    "editorial-audit/2026-10-31/books/nonviolent-communication-implementation.md",
+    "collector-output/nonviolent-communication/qa/corpus-check.json",
+    "collector-output/nonviolent-communication/qa/matrix-320.json",
+    "collector-output/nonviolent-communication/qa/matrix-390.json",
+    "collector-output/nonviolent-communication/qa/matrix-1024.json",
+    "collector-output/nonviolent-communication/qa/matrix-1440.json",
+    "collector-output/nonviolent-communication/qa/interactions-390.json",
+    "collector-output/nonviolent-communication/qa/interactions-1440.json",
+    "collector-output/nonviolent-communication/qa/ios-320.json"
+  ],
+  "reading": {
+    "uniqueNewPairsRead": 30,
+    "uniqueLocalizedScreensRead": 60,
+    "uniqueOldPairsRead": 0,
+    "effectiveEmbeddedPairsRead": 30,
+    "canonicalPairsExactlyCompared": 30,
+    "authoringEmbeddedDivergence": [],
+    "pairPlacementsAcrossModesRead": 72,
+    "localizedPlacementsAcrossModesRead": 144,
+    "countMethod": "Manual semantic reading of all effective embedded pairs and all six ordered RU/EN routes; extraction and exact comparison used to bind canonical JSON to that same text.",
+    "browserVisitsByReviewer": 0,
+    "rootReaderPresentAtStart": false,
+    "rootReaderPresentAtEnd": false,
+    "fullBookReadContinuously": false,
+    "privateEditionSearchRepeatedByReviewer": false,
+    "scopeCaution": "Reading extracted effective corpus and inspecting renderer does not independently reproduce visual/runtime behavior."
+  },
+  "modesRead": [
+    {
+      "mode": "essential",
+      "count": 16,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "connection-before-compliance",
+        "felix-socks",
+        "observation-and-evaluation",
+        "feelings-not-interpretations",
+        "needs-under-feelings",
+        "concrete-request",
+        "request-or-demand",
+        "understanding-is-not-compliance",
+        "empathic-guessing",
+        "mourning-and-self-forgiveness",
+        "anger-and-unmet-needs",
+        "four-anger-steps",
+        "protecting-without-punishing",
+        "appreciation-without-rating",
+        "final"
+      ],
+      "continuity": "coherent",
+      "semanticAssessment": "Coherent selected-method arc; no dependency on deeper-only cases. No material RU/EN mismatch found in these 16 pairs.",
+      "openFindings": []
+    },
+    {
+      "mode": "core",
+      "count": 26,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "connection-before-compliance",
+        "labels-hide-needs",
+        "felix-socks",
+        "observation-and-evaluation",
+        "principal-meeting",
+        "feelings-not-interpretations",
+        "needs-under-feelings",
+        "needs-and-strategies",
+        "concrete-request",
+        "reflection-request",
+        "request-or-demand",
+        "understanding-is-not-compliance",
+        "empathic-guessing",
+        "phil-wants-honesty",
+        "when-listening-is-unavailable",
+        "mourning-and-self-forgiveness",
+        "ink-on-the-new-suit",
+        "anger-and-unmet-needs",
+        "john-training-request",
+        "four-anger-steps",
+        "protecting-without-punishing",
+        "two-punishment-questions",
+        "appreciation-without-rating",
+        "appreciation-for-a-direction",
+        "final"
+      ],
+      "continuity": "coherent",
+      "semanticAssessment": "Ten additions provide cases and distinctions without a continuity break. NVC-01 changes RU meaning; NVC-02 misidentifies the taxi interlocutor.",
+      "openFindings": [
+        "NVC-01",
+        "NVC-02"
+      ]
+    },
+    {
+      "mode": "deep",
+      "count": 30,
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "screenIds": [
+        "cover",
+        "connection-before-compliance",
+        "labels-hide-needs",
+        "felix-socks",
+        "observation-and-evaluation",
+        "principal-meeting",
+        "feelings-not-interpretations",
+        "needs-under-feelings",
+        "one-delay-different-feelings",
+        "needs-and-strategies",
+        "concrete-request",
+        "reflection-request",
+        "request-or-demand",
+        "understanding-is-not-compliance",
+        "empathic-guessing",
+        "phil-wants-honesty",
+        "presence-before-advice",
+        "when-listening-is-unavailable",
+        "mourning-and-self-forgiveness",
+        "ink-on-the-new-suit",
+        "have-to-choose-to",
+        "anger-and-unmet-needs",
+        "john-training-request",
+        "four-anger-steps",
+        "the-reminder-card",
+        "protecting-without-punishing",
+        "two-punishment-questions",
+        "appreciation-without-rating",
+        "appreciation-for-a-direction",
+        "final"
+      ],
+      "continuity": "coherent",
+      "semanticAssessment": "Four further screens add substantive detail and the author's practice examples. Both findings persist; no additional defect or misleading essential omission found.",
+      "openFindings": [
+        "NVC-01",
+        "NVC-02"
+      ]
+    }
+  ],
+  "screenAssessments": [
+    {
+      "screenId": "cover",
+      "status": "supported",
+      "assessment": "Central-method framing; no efficacy claim.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1,
+        4
+      ],
+      "sourceMapLocation": "Chapter 1: A Way to Focus Attention; The NVC Process",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "connection-before-compliance",
+      "status": "supported",
+      "assessment": "Giving intention and two directions preserved.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1
+      ],
+      "sourceMapLocation": "Chapter 1: giving from the heart; two parts of NVC",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "labels-hide-needs",
+      "status": "supported",
+      "assessment": "Author's affection illustration; no new event.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        2
+      ],
+      "sourceMapLocation": "Chapter 2, printed p. 16: affection/dependency example",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "felix-socks",
+      "status": "supported",
+      "assessment": "Hypothetical example; two/three balls, not pairs.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1,
+        4
+      ],
+      "sourceMapLocation": "Chapter 1: The NVC Process, mother/Felix illustrative example",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "observation-and-evaluation",
+      "status": "supported",
+      "assessment": "Evaluation distinguished, not universally prohibited.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        3
+      ],
+      "sourceMapLocation": "Chapter 3, printed p. 26; observation/evaluation distinction",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "principal-meeting",
+      "status": "supported",
+      "assessment": "Overrun, relapse and eventual clarification verified.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        3
+      ],
+      "sourceMapLocation": "Chapter 3, printed pp. 28–29: elementary-school staff/principal case",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "feelings-not-interpretations",
+      "status": "supported",
+      "assessment": "Emotion versus interpretation distinction preserved.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        4,
+        5
+      ],
+      "sourceMapLocation": "Author handout: FEELINGS; supplementary Speak Peace ch. 2, printed p. 34",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "needs-under-feelings",
+      "status": "supported",
+      "assessment": "Stimulus/need distinction attributed to author's model.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1,
+        4,
+        5
+      ],
+      "sourceMapLocation": "Chapter 1: Felix; author handout: NEEDS; Speak Peace ch. 2, printed pp. 35–38",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "one-delay-different-feelings",
+      "status": "supported",
+      "assessment": "Lateness illustration, including thirty-minute solitude.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 3,
+      "sourceIds": [
+        8
+      ],
+      "sourceMapLocation": "Chapter 10, printed p. 143: lateness illustration",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "needs-and-strategies",
+      "status": "supported",
+      "assessment": "Need/strategy distinction retained.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        4,
+        5,
+        10
+      ],
+      "sourceMapLocation": "Author handout: need/value versus preference or specific action; Speak Peace pp. 37–39; official author quotes on needs/strategies",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "concrete-request",
+      "status": "supported",
+      "assessment": "Concrete voluntary action, not generic change.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1,
+        4
+      ],
+      "sourceMapLocation": "Chapter 1: Felix request; author handout: REQUESTS",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "reflection-request",
+      "status": "correction-needed",
+      "assessment": "NVC-02: wrong participant role.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        8
+      ],
+      "sourceMapLocation": "Chapter 10, printed pp. 151–152: taxi exchange, requests for reflection; no final outcome claimed",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": [
+        "NVC-02"
+      ]
+    },
+    {
+      "screenId": "request-or-demand",
+      "status": "supported",
+      "assessment": "Refusal boundary supported.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        2,
+        6,
+        11
+      ],
+      "sourceMapLocation": "Chapter 2, printed p. 22; Being Me, Loving You pp. 13–15; CNVC Purpose: Use of power",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "understanding-is-not-compliance",
+      "status": "supported",
+      "assessment": "Understanding preserves own needs.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        6,
+        10,
+        11
+      ],
+      "sourceMapLocation": "Being Me, Loving You printed p. 15: receiving empathically does not mean complying; official author quotes on hearing no/retaining own needs",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "empathic-guessing",
+      "status": "supported",
+      "assessment": "Correctable reception, not mind-reading.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1,
+        3,
+        4
+      ],
+      "sourceMapLocation": "Chapter 1: two parts; chapter 3, printed pp. 32–33: Phil exchange",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "phil-wants-honesty",
+      "status": "supported",
+      "assessment": "Corrected guesses lead to acknowledged personal struggle.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        3
+      ],
+      "sourceMapLocation": "Chapter 3, printed pp. 32–33: complete NVC in Action exchange with Phil",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "presence-before-advice",
+      "status": "supported",
+      "assessment": "Presence distinguished from directing.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 3,
+      "sourceIds": [
+        10
+      ],
+      "sourceMapLocation": "Official author quotes: empathy as presence, following rather than directing; urge to advise or reassure",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "when-listening-is-unavailable",
+      "status": "supported",
+      "assessment": "Author's three alternatives preserved.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        10,
+        11
+      ],
+      "sourceMapLocation": "Official author quote beginning When we sense ourselves being defensive; CNVC Purpose: Self-Empathy",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "mourning-and-self-forgiveness",
+      "status": "supported",
+      "assessment": "Unmet need, then original intended need.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        7
+      ],
+      "sourceMapLocation": "Chapter 9, printed pp. 132–134: NVC Mourning; Self-Forgiveness",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "ink-on-the-new-suit",
+      "status": "supported",
+      "assessment": "Pen, suit, reproach and both needs verified.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        7
+      ],
+      "sourceMapLocation": "Chapter 9, printed pp. 134–135: The Lesson of the Polka-Dotted Suit",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "have-to-choose-to",
+      "status": "supported",
+      "assessment": "Three stages and both choices; no invented income.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 3,
+      "sourceIds": [
+        7
+      ],
+      "sourceMapLocation": "Chapter 9, printed pp. 136–138: three steps; clinical reports; children’s school car pool",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "anger-and-unmet-needs",
+      "status": "supported",
+      "assessment": "Author's model; not anger suppression.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        8
+      ],
+      "sourceMapLocation": "Chapter 10, printed pp. 141–144: opening qualification; stimulus/cause; All Anger Has a Life-Serving Core",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "john-training-request",
+      "status": "supported",
+      "assessment": "Training/fear link; no granted-training outcome.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        8
+      ],
+      "sourceMapLocation": "Chapter 10, printed pp. 142, 145–146: John; no claim officials grant training or recidivism outcome",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "four-anger-steps",
+      "status": "supported",
+      "assessment": "Four steps and optional intermediate empathy.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        8
+      ],
+      "sourceMapLocation": "Chapter 10, printed pp. 148–149 and summary p. 154: exact four steps and optional empathy between steps 3/4",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "the-reminder-card",
+      "status": "supported",
+      "assessment": "Scottie, four, after about one month.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 3,
+      "sourceIds": [
+        8
+      ],
+      "sourceMapLocation": "Chapter 10, printed pp. 152–153: Taking Our Time; four-year-old Scottie",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "protecting-without-punishing",
+      "status": "supported-with-disclosed-boundary",
+      "assessment": "Author-attributed distinction; main chapter unverified.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        10,
+        11
+      ],
+      "sourceMapLocation": "Official author quote on intention of protective force; CNVC Purpose: The Protective Use of Force. Main-book protective-force chapter not directly read.",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "two-punishment-questions",
+      "status": "requires-fixes",
+      "assessment": "NVC-01: RU changes second question.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        10
+      ],
+      "sourceMapLocation": "Official author quote: two questions revealing limitations of punishment; punitive-force/resistance distinction",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": [
+        "NVC-01"
+      ]
+    },
+    {
+      "screenId": "appreciation-without-rating",
+      "status": "supported",
+      "assessment": "Intention and all three components retained.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        9
+      ],
+      "sourceMapLocation": "Chapter 14, printed pp. 209–210: intention and three components of appreciation",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "appreciation-for-a-direction",
+      "status": "supported",
+      "assessment": "Two notes, hope/relief; no relationship outcome.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 2,
+      "sourceIds": [
+        9
+      ],
+      "sourceMapLocation": "Chapter 14, printed pp. 211–212: participant’s appreciation; no invented outcome",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    },
+    {
+      "screenId": "final",
+      "status": "supported",
+      "assessment": "Flexible, bilateral consciousness; no compulsory script.",
+      "languagesRead": [
+        "ru",
+        "en"
+      ],
+      "level": 1,
+      "sourceIds": [
+        1,
+        4,
+        6
+      ],
+      "sourceMapLocation": "Chapter 1: flexible process and consciousness, not formula; author handout; supplementary mutual needs distinction",
+      "exactAuthoringEmbeddedCopyParity": true,
+      "findings": []
+    }
+  ],
+  "findings": [
+    {
+      "id": "NVC-01",
+      "screenId": "two-punishment-questions",
+      "severity": "medium",
+      "priority": "P2",
+      "blocksPass": true,
+      "category": "translation-mismatch; changed author procedure",
+      "affectedLanguages": [
+        "ru"
+      ],
+      "modes": [
+        "core",
+        "deep"
+      ],
+      "exactCopy": {
+        "ru": "Разбирая наказание, Розенберг предлагает два вопроса: что мы хотим, чтобы человек сделал, и почему хотим, чтобы он это сделал?",
+        "en": "Rosenberg asks two questions about punishment: what do we want the person to do, and what do we want their reason for doing it to be?"
+      },
+      "defect": "RU asks why the speaker wants the act, losing the actor's motive. EN correctly preserves it.",
+      "smallestCorrection": {
+        "ru": {
+          "old": "и почему хотим, чтобы он это сделал?",
+          "new": "и чем мы хотим, чтобы он при этом руководствовался?"
+        },
+        "en": null
+      },
+      "evidence": [
+        {
+          "sourceId": 10,
+          "url": "https://nonviolentcommunication.com/resources/mbr-quotes/",
+          "location": "Entry beginning If we ask two questions; web text line 158. The number 194 is character count, not a page."
+        }
+      ],
+      "status": "open"
+    },
+    {
+      "id": "NVC-02",
+      "screenId": "reflection-request",
+      "severity": "low",
+      "priority": "P3",
+      "blocksPass": false,
+      "category": "factual case-role error",
+      "affectedLanguages": [
+        "ru",
+        "en"
+      ],
+      "modes": [
+        "core",
+        "deep"
+      ],
+      "exactCopy": {
+        "ru": "В разговоре с таксистом ему приходится повторять это несколько раз.",
+        "en": "In his exchange with a taxi driver, he asks several times."
+      },
+      "defect": "The interlocutor is a fellow passenger, not the driver. The reflection mechanism remains supported.",
+      "smallestCorrection": {
+        "ru": {
+          "old": "В разговоре с таксистом ему приходится повторять это несколько раз.",
+          "new": "В разговоре с попутчиком в такси ему приходится повторять это несколько раз."
+        },
+        "en": {
+          "old": "In his exchange with a taxi driver, he asks several times.",
+          "new": "In his exchange with a fellow passenger in a taxi, he asks several times."
+        }
+      },
+      "evidence": [
+        {
+          "sourceId": 8,
+          "url": "https://www.nonviolentcommunication.com/email/20210501/Ch10.pdf",
+          "location": "Printed p. 150, PDF index 9, contextual identification; pp. 151–152, PDF indices 10–11, reflection exchange."
+        }
+      ],
+      "status": "open",
+      "calibration": "Small factual correction, not the sole reason for withholding PASS; correct alongside NVC-01."
+    }
+  ],
+  "optionalPolish": [],
+  "sourceEvidence": [
+    {
+      "sourceId": 1,
+      "url": "https://www.nonviolentcommunication.com/pdf_files/nvc2-chapter-one.html",
+      "kind": "official primary book excerpt",
+      "edition": "Explicit second edition",
+      "read": "A Way to Focus Attention; giving from the heart; The NVC Process, Felix and both directions; nonformula qualification.",
+      "method": "normal web text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 2,
+      "url": "https://nonviolentcommunication.com/wp-content/uploads/2019/06/NVC-3e10p-web-sample-060619.pdf",
+      "kind": "official primary book excerpt",
+      "edition": "Title leaf: 3rd Edition; ©2019",
+      "read": "Printed pp. 15–17, especially affection/labels p. 16; demand definition p. 22 and context p. 23. Other returned passages inspected, not a full-chapter certificate.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 3,
+      "url": "https://nonviolentcommunication.com/wp-content/uploads/2024/12/nvc3-chapter3.pdf",
+      "kind": "official primary book excerpt",
+      "edition": "NVC3 filename; no title leaf establishing a unified printing",
+      "read": "Printed p. 26; principal pp. 28–30 including ending; observations/summary pp. 30–32; complete Phil exchange pp. 32–33. Exercise pages not needed for retained claims.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 4,
+      "url": "https://www.nonviolentcommunication.com/pdf_files/4part_nvc_process.pdf",
+      "kind": "official author handout",
+      "edition": "Copyright attribution to Marshall B. Rosenberg on the page",
+      "read": "Complete one-page two-column handout.",
+      "method": "Web parser returned zero readable lines and screenshot calls exposed no image in this harness; read primary URL's full one-page transcription through Exa. No screenshot relied upon.",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 5,
+      "url": "https://www.nonviolentcommunication.com/wp-content/uploads/2024/05/SPCh2.pdf",
+      "kind": "official supplementary author excerpt, Speak Peace",
+      "edition": "Different author work, not a main-book chapter",
+      "read": "Feelings and needs, printed pp. 32–39; observation context also inspected.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 6,
+      "url": "https://www.nonviolentcommunication.com/wp-content/uploads/2024/06/BML-Being-Me-Loving-You-Part-2.pdf",
+      "kind": "official supplementary author excerpt, Being Me, Loving You",
+      "edition": "Different author work, not a main-book chapter",
+      "read": "Listening/responding and Hearing a Demand, printed pp. 11–15.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 7,
+      "url": "https://www.nonviolentcommunication.com/email/20201201/Chapter9.pdf",
+      "kind": "official primary book excerpt",
+      "edition": "No printing title/copyright leaf in excerpt",
+      "read": "Printed pp. 132–138: mourning, self-forgiveness, suit and choice exercise. Opening and later motivation passages inspected incidentally.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 8,
+      "url": "https://www.nonviolentcommunication.com/email/20210501/Ch10.pdf",
+      "kind": "official primary book excerpt",
+      "edition": "No printing title/copyright leaf in excerpt",
+      "read": "Printed pp. 141–154 through summary: anger, lateness, John, steps, taxi context and reflection, reminder card. Later Bill dialogue not continuously read or certified.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 9,
+      "url": "https://www.nonviolentcommunication.com/email/20201126/Chapter14NVC3.pdf",
+      "kind": "official primary book excerpt",
+      "edition": "Official NVC3 chapter-14 file",
+      "read": "Printed pp. 209–213: intention, components, participant/son exchange and receiving-appreciation context. Additional returned pp. 214–215 inspected, not all later examples certified.",
+      "method": "normal web PDF text",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 10,
+      "url": "https://nonviolentcommunication.com/resources/mbr-quotes/",
+      "kind": "official publisher collection attributed to Rosenberg",
+      "edition": "Mixed-material quote compilation; Count column is not pagination",
+      "read": "Relevant entries on strategies, presence, advice, refusal, defensive options, protection and punishment questions.",
+      "method": "normal web text; targeted finds",
+      "continuousFullBook": false
+    },
+    {
+      "sourceId": 11,
+      "url": "https://www.cnvc.org/about/purpose-of-nvc",
+      "kind": "official-center reference by Myra Walden",
+      "edition": "Later explanation; not Rosenberg's main-book prose",
+      "read": "Honest Expression, Empathic Presence, Self-Empathy, Means of Influence, Use of power, Universal Human Needs, Protective Use of Force; authorship line.",
+      "method": "normal web text",
+      "continuousFullBook": false
+    }
+  ],
+  "sourceScopeAssessment": {
+    "status": "sufficient-for-selected-central-method-subject-to-copy-correction",
+    "sourceGap": false,
+    "wholeEditionFidelityCertified": false,
+    "completeEditionRequiredAsBlanketGate": false,
+    "therapeuticEfficacyCertified": false,
+    "guaranteedResolutionClaimFound": false,
+    "unsupportedOutcomeInRetainedCasesFound": false,
+    "missingEssentialCausalLinkInPromisedScopeFound": false,
+    "protection": "Author-attributed publisher passage supports the retained intention-level distinction. CNVC is correctly credited to Myra Walden; the main protective-force chapter and a force protocol are not certified.",
+    "disclosures": "Sources dialog honestly identifies mixed editions, supplementary works, nonofficial RU/EN paraphrases and reading limits. Ordinary screens remain explanatory prose.",
+    "unverifiedOmittedMaterial": [
+      "Complete main-book chapters 4–8 as continuous chapters",
+      "Complete third-edition mediation and counseling chains",
+      "Main protective-force chapter, school case and detailed procedures"
+    ],
+    "omissionJudgment": "These omissions do not defeat the disclosed selected-method promise; no chapter-completeness requirement was imposed.",
+    "sourceRetrieval": "Only lawful official publisher/author/Center URLs. Normal web retrieval; Exa transcription for the one-page handout. No unofficial full-book hunting, credentials, purchase, loan or bypass. No full copyrighted text persisted."
+  },
+  "freshChecks": {
+    "maintainedAudit": {
+      "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/nonviolent-communication/nonviolent-communication.html --min-screens 30 --require-bilingual",
+      "result": {
+        "file": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/nonviolent-communication/nonviolent-communication.html",
+        "format": "v2",
+        "bytes": 303843,
+        "screenCount": 30,
+        "levels": {
+          "1": 16,
+          "2": 10,
+          "3": 4
+        },
+        "modes": {
+          "essential": 16,
+          "core": 26,
+          "deep": 30
+        },
+        "words": {
+          "ru": 1489,
+          "en": 1704
+        },
+        "passes": 69,
+        "warnings": [],
+        "failures": []
+      }
+    },
+    "independentParity": {
+      "checkedAt": "2026-10-31T20:12:55.722917+00:00",
+      "checks": {
+        "one_effective_corpus": true,
+        "authoring_embedded_screens": true,
+        "authoring_embedded_sources": true,
+        "authoring_embedded_methodNote": true,
+        "authoring_embedded_targetModes": true,
+        "authoring_embedded_title": true,
+        "authoring_embedded_description": true,
+        "authoring_embedded_defaultLanguage": true,
+        "authoring_embedded_defaultTheme": true,
+        "authoring_embedded_defaultMode": true,
+        "authoring_embedded_contentMode": true,
+        "unique_screen_ids": true,
+        "both_languages_all_copy": true,
+        "all_source_refs_resolve": true,
+        "all_30_ids_in_source_map": true,
+        "one_cover_one_final": true,
+        "exact_nested_counts": true,
+        "nested_order": true,
+        "book_default_contract": true,
+        "sources_dialog_keeps_method": true,
+        "manifest_all_deliverable_support_hashes": true,
+        "manifest_report_hash": true,
+        "all_noncover_claim_types_book": true
+      },
+      "allPassed": true,
+      "routes": {
+        "essential": [
+          "cover",
+          "connection-before-compliance",
+          "felix-socks",
+          "observation-and-evaluation",
+          "feelings-not-interpretations",
+          "needs-under-feelings",
+          "concrete-request",
+          "request-or-demand",
+          "understanding-is-not-compliance",
+          "empathic-guessing",
+          "mourning-and-self-forgiveness",
+          "anger-and-unmet-needs",
+          "four-anger-steps",
+          "protecting-without-punishing",
+          "appreciation-without-rating",
+          "final"
+        ],
+        "core": [
+          "cover",
+          "connection-before-compliance",
+          "labels-hide-needs",
+          "felix-socks",
+          "observation-and-evaluation",
+          "principal-meeting",
+          "feelings-not-interpretations",
+          "needs-under-feelings",
+          "needs-and-strategies",
+          "concrete-request",
+          "reflection-request",
+          "request-or-demand",
+          "understanding-is-not-compliance",
+          "empathic-guessing",
+          "phil-wants-honesty",
+          "when-listening-is-unavailable",
+          "mourning-and-self-forgiveness",
+          "ink-on-the-new-suit",
+          "anger-and-unmet-needs",
+          "john-training-request",
+          "four-anger-steps",
+          "protecting-without-punishing",
+          "two-punishment-questions",
+          "appreciation-without-rating",
+          "appreciation-for-a-direction",
+          "final"
+        ],
+        "deep": [
+          "cover",
+          "connection-before-compliance",
+          "labels-hide-needs",
+          "felix-socks",
+          "observation-and-evaluation",
+          "principal-meeting",
+          "feelings-not-interpretations",
+          "needs-under-feelings",
+          "one-delay-different-feelings",
+          "needs-and-strategies",
+          "concrete-request",
+          "reflection-request",
+          "request-or-demand",
+          "understanding-is-not-compliance",
+          "empathic-guessing",
+          "phil-wants-honesty",
+          "presence-before-advice",
+          "when-listening-is-unavailable",
+          "mourning-and-self-forgiveness",
+          "ink-on-the-new-suit",
+          "have-to-choose-to",
+          "anger-and-unmet-needs",
+          "john-training-request",
+          "four-anger-steps",
+          "the-reminder-card",
+          "protecting-without-punishing",
+          "two-punishment-questions",
+          "appreciation-without-rating",
+          "appreciation-for-a-direction",
+          "final"
+        ]
+      },
+      "manifestFiles": [
+        {
+          "path": "collector-output/nonviolent-communication/story-data.json",
+          "sha256": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/nonviolent-communication.html",
+          "sha256": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/sources.md",
+          "sha256": "e0639ac07d702a67575b5119ef7e1ea034936bd71cc7bf5474744f088e4d0ea2",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/QA.md",
+          "sha256": "b32e5ed0349c9ec8f5ce9087de5dd1680d489f31dedf8bbb0ec80bfc651d3ef5",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/build-local.mjs",
+          "sha256": "66cd06a2448bbe5377b088302568176d083f050d606e24797ff1c3559ecffedc",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/browser-qa.mjs",
+          "sha256": "93df2db0968f85df9a55f9fcf9c7161318966bb28a82e7255648b3fdd8cc4629",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/corpus-check.json",
+          "sha256": "717d3933e19bd0e27011e8e3fb77bbdcb8bbf0dc387d97ef5be8589af34c8e0f",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/interactions-1440.json",
+          "sha256": "73e98fa77d43acb2af5d52b80feff871159af530f49e9fbaab90e4684705de80",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/interactions-390.json",
+          "sha256": "ed6fac86bad6df6e975dbc97e8fc659dbaaa5492dd228166f85735bf1917f04f",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/ios-320.json",
+          "sha256": "e2d9b40a932f0cf91c76391a399acad1e7788d676bea0798b024ef779939d649",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/matrix-1024.json",
+          "sha256": "ac4b52d0d6564f75630ea0ca67928f7fe381dee00976c9df4d24d552a42d9a0f",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/matrix-1440.json",
+          "sha256": "c8d83040aa2867ea9960e34b7c49e259f8fb8d9b925d8083aa5d00b341735414",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/matrix-320.json",
+          "sha256": "758859c773a99836fc6cb050a07d74134893b0b8e8953e5bc4f5ce372a52c456",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/matrix-390.json",
+          "sha256": "155327a7b239872d75eb8292b9deed8b6f55939b23bd6b0e5d90a202654ca88e",
+          "matches": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/qa/structure.json",
+          "sha256": "a39f8268f9eec5ab7b03bda566243ee7e03ee81d4a38065a677e260b7563e4c1",
+          "matches": true
+        }
+      ],
+      "notes": [
+        "Automated exact-copy parity does not certify translation meaning; independent reading found NVC-01.",
+        "Collector delivery inspected; no published root reader exists for this new slug.",
+        "No browser matrix, server, Chrome or preview tool was run for this review.",
+        "Initial inline checker incorrectly assumed a cover claimType; corrected to the documented non-cover contract and reran."
+      ]
+    },
+    "rendererInspected": "One embedded JSON corpus; direct screen.copy[state.language] rendering; filtering by screen.level; Sources and method note from same data. Local CSS hides source chrome, not evidence.",
+    "meaningCaution": "23 independent assertions and the 69-check maintained audit verify structure/version parity, not author fidelity. NVC-01 survived those checks."
+  },
+  "implementationEvidence": {
+    "savedBrowserReportsRead": [
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-320.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "matrix",
+        "screenVisits": 288,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 0,
+        "reviewerReran": false
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-390.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "matrix",
+        "screenVisits": 288,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 0,
+        "reviewerReran": false
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-1024.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "matrix",
+        "screenVisits": 288,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 0,
+        "reviewerReran": false
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-1440.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "matrix",
+        "screenVisits": 288,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 0,
+        "reviewerReran": false
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/interactions-390.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "interactions",
+        "screenVisits": 0,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 22,
+        "reviewerReran": false
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/interactions-1440.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "interactions",
+        "screenVisits": 0,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 22,
+        "reviewerReran": false
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/ios-320.json",
+        "testedHashes": {
+          "authoring": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "html": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c"
+        },
+        "kind": "ios",
+        "screenVisits": 0,
+        "runtimeErrors": [],
+        "httpRequests": [],
+        "failures": [],
+        "interactionChecks": 0,
+        "reviewerReran": false
+      }
+    ],
+    "reportedScreenVisits": 1152,
+    "reviewerRepeatedMatrix": false,
+    "physicalIPhoneSafariPwaCertified": false,
+    "reportedChecksDoNotEstablishMeaning": true
+  },
+  "versionBinding": {
+    "hashAlgorithm": "SHA-256, raw file bytes",
+    "capturedBeforeAt": "2026-10-31T20:08:39.815388+00:00",
+    "capturedAfterAt": "2026-10-31T20:14:01.532148+00:00",
+    "fileCount": 59,
+    "allUnchanged": true,
+    "files": [
+      {
+        "path": "collector-output/nonviolent-communication/QA.md",
+        "beforeSha256": "b32e5ed0349c9ec8f5ce9087de5dd1680d489f31dedf8bbb0ec80bfc651d3ef5",
+        "afterSha256": "b32e5ed0349c9ec8f5ce9087de5dd1680d489f31dedf8bbb0ec80bfc651d3ef5",
+        "bytes": 5826,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/browser-qa.mjs",
+        "beforeSha256": "93df2db0968f85df9a55f9fcf9c7161318966bb28a82e7255648b3fdd8cc4629",
+        "afterSha256": "93df2db0968f85df9a55f9fcf9c7161318966bb28a82e7255648b3fdd8cc4629",
+        "bytes": 17106,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/build-local.mjs",
+        "beforeSha256": "66cd06a2448bbe5377b088302568176d083f050d606e24797ff1c3559ecffedc",
+        "afterSha256": "66cd06a2448bbe5377b088302568176d083f050d606e24797ff1c3559ecffedc",
+        "bytes": 1261,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/nonviolent-communication.html",
+        "beforeSha256": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c",
+        "afterSha256": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c",
+        "bytes": 303843,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-en-dark-cover.png",
+        "beforeSha256": "951cb1d91f889439263c9a7a3de9a700fa6b03116d8423a5cb76005294753ed4",
+        "afterSha256": "951cb1d91f889439263c9a7a3de9a700fa6b03116d8423a5cb76005294753ed4",
+        "bytes": 105491,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-en-dark-principal.png",
+        "beforeSha256": "997e42ea15228785a7d40022e00874b98e728b2b6ff8c43613809fbc83325d99",
+        "afterSha256": "997e42ea15228785a7d40022e00874b98e728b2b6ff8c43613809fbc83325d99",
+        "bytes": 111340,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-en-light-cover.png",
+        "beforeSha256": "fe1eb5b224d5add7e1522278276c22ea887a7c89692cd907adfb47d2e76b1175",
+        "afterSha256": "fe1eb5b224d5add7e1522278276c22ea887a7c89692cd907adfb47d2e76b1175",
+        "bytes": 108722,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-en-light-principal.png",
+        "beforeSha256": "cce81b24413003e3616c3e05f5cdf92592b7398ff43681a09c3f2670a46588db",
+        "afterSha256": "cce81b24413003e3616c3e05f5cdf92592b7398ff43681a09c3f2670a46588db",
+        "bytes": 113432,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-ru-dark-cover.png",
+        "beforeSha256": "b2defe3a4ede4ac8ac0fb105242236dd7c09316d44ce791d7961a2d4167296d7",
+        "afterSha256": "b2defe3a4ede4ac8ac0fb105242236dd7c09316d44ce791d7961a2d4167296d7",
+        "bytes": 97755,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-ru-dark-principal.png",
+        "beforeSha256": "ba28e995310d9ffa3b8cf4b5deeffa45f79f738166c5a7988a45a6343a4b90ab",
+        "afterSha256": "ba28e995310d9ffa3b8cf4b5deeffa45f79f738166c5a7988a45a6343a4b90ab",
+        "bytes": 119130,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-ru-light-cover.png",
+        "beforeSha256": "fec6f14a8ef5519622ec5fb264d34a4c276ec70477b1ae3f622fa2b344997f7a",
+        "afterSha256": "fec6f14a8ef5519622ec5fb264d34a4c276ec70477b1ae3f622fa2b344997f7a",
+        "bytes": 108398,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1024-ru-light-principal.png",
+        "beforeSha256": "36e0a9052ef942ca0c8481e504144cbcdb2ec4559bfe3cf316f8fcda84c36e35",
+        "afterSha256": "36e0a9052ef942ca0c8481e504144cbcdb2ec4559bfe3cf316f8fcda84c36e35",
+        "bytes": 122267,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-en-dark-cover.png",
+        "beforeSha256": "cfd39dbcbe0823e4ef1aa140e331f1412452231bd9f63914ac2baa49c6467725",
+        "afterSha256": "cfd39dbcbe0823e4ef1aa140e331f1412452231bd9f63914ac2baa49c6467725",
+        "bytes": 117053,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-en-dark-principal.png",
+        "beforeSha256": "a0d46f62298169521e40463cd97341481992b69177313ff39d93983b5993aae6",
+        "afterSha256": "a0d46f62298169521e40463cd97341481992b69177313ff39d93983b5993aae6",
+        "bytes": 120721,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-en-light-cover.png",
+        "beforeSha256": "f2ac11069dbeb766d283d164a6e72b2f4b4b6d5a32d0daca0cd99975d59c2f2d",
+        "afterSha256": "f2ac11069dbeb766d283d164a6e72b2f4b4b6d5a32d0daca0cd99975d59c2f2d",
+        "bytes": 121621,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-en-light-principal.png",
+        "beforeSha256": "1dbf3345fde25e89cc39fcd65801da2e0b571b94d73074c6ed405e0ad12089ac",
+        "afterSha256": "1dbf3345fde25e89cc39fcd65801da2e0b571b94d73074c6ed405e0ad12089ac",
+        "bytes": 124001,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-final.png",
+        "beforeSha256": "14d66ab93fb6f7542f6c17550112117441fdfb09fabbeef5f3194129fd438d80",
+        "afterSha256": "14d66ab93fb6f7542f6c17550112117441fdfb09fabbeef5f3194129fd438d80",
+        "bytes": 117318,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-ru-dark-cover.png",
+        "beforeSha256": "e97424cc748617edc79a958fcb4d16874d267968695909db8ddcaa06ef8b9a70",
+        "afterSha256": "e97424cc748617edc79a958fcb4d16874d267968695909db8ddcaa06ef8b9a70",
+        "bytes": 110190,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-ru-dark-principal.png",
+        "beforeSha256": "db7bceb7d8f2652b7fe56b8db5b10413d072dbb181842cb830d0714c2323a700",
+        "afterSha256": "db7bceb7d8f2652b7fe56b8db5b10413d072dbb181842cb830d0714c2323a700",
+        "bytes": 131536,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-ru-light-cover.png",
+        "beforeSha256": "9af5a34740925d83a23ef34c4f0b7552ee70d3cedd35c34112792aff70615b71",
+        "afterSha256": "9af5a34740925d83a23ef34c4f0b7552ee70d3cedd35c34112792aff70615b71",
+        "bytes": 125114,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/1440-ru-light-principal.png",
+        "beforeSha256": "7020a97bb59429bbf8fd2fe9388531b734ac06445763a631bdf0191e42aeddb4",
+        "afterSha256": "7020a97bb59429bbf8fd2fe9388531b734ac06445763a631bdf0191e42aeddb4",
+        "bytes": 136395,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-en-dark-cover.png",
+        "beforeSha256": "8bd70141174bf44ded6d60f0f2bb1631c9b013068475837a7a8c5a707060b3cb",
+        "afterSha256": "8bd70141174bf44ded6d60f0f2bb1631c9b013068475837a7a8c5a707060b3cb",
+        "bytes": 47173,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-en-dark-principal.png",
+        "beforeSha256": "238209af2fbf299b3e8d32e2616e8229ff6f3694f869650c8d6d47f5cced0c86",
+        "afterSha256": "238209af2fbf299b3e8d32e2616e8229ff6f3694f869650c8d6d47f5cced0c86",
+        "bytes": 53679,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-en-light-cover.png",
+        "beforeSha256": "b4eaffae84f0e28c0e7ee354147d7fb60642e0c835cdfc3486f64e261174094b",
+        "afterSha256": "b4eaffae84f0e28c0e7ee354147d7fb60642e0c835cdfc3486f64e261174094b",
+        "bytes": 47240,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-en-light-principal.png",
+        "beforeSha256": "42a9b79a03cc52322cb904021048f61ca5842a6ef358440c3004a9ea2455570a",
+        "afterSha256": "42a9b79a03cc52322cb904021048f61ca5842a6ef358440c3004a9ea2455570a",
+        "bytes": 52527,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-ios-en-guide.png",
+        "beforeSha256": "8ee8ed91922020559cb5854cb551f9792af684a79f956e19f9e49ef93750e4d7",
+        "afterSha256": "8ee8ed91922020559cb5854cb551f9792af684a79f956e19f9e49ef93750e4d7",
+        "bytes": 41313,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-ios-safe-area.png",
+        "beforeSha256": "332eba21571ccb0e4c01da87069a5eaf7d8e1bf2da72f4a4234c42cffd13a7f2",
+        "afterSha256": "332eba21571ccb0e4c01da87069a5eaf7d8e1bf2da72f4a4234c42cffd13a7f2",
+        "bytes": 43254,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-ru-dark-cover.png",
+        "beforeSha256": "bbd974402d50e48e37a2e7c1ac2e6cc77e28f64326ef14a202c2bbea97f0a154",
+        "afterSha256": "bbd974402d50e48e37a2e7c1ac2e6cc77e28f64326ef14a202c2bbea97f0a154",
+        "bytes": 45635,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-ru-dark-principal.png",
+        "beforeSha256": "423e88e4ecb4f1376ea0e52c4feb27b35258be9602b7192ec7b94966ed0f2075",
+        "afterSha256": "423e88e4ecb4f1376ea0e52c4feb27b35258be9602b7192ec7b94966ed0f2075",
+        "bytes": 51034,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-ru-light-cover.png",
+        "beforeSha256": "a96507b9149e3e37324f52cdbf3128f4d3f459c64d51820dfdbdbeb5d60941e6",
+        "afterSha256": "a96507b9149e3e37324f52cdbf3128f4d3f459c64d51820dfdbdbeb5d60941e6",
+        "bytes": 47240,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/320-ru-light-principal.png",
+        "beforeSha256": "cdae3c8e7095b033eecc96fea25ecbd1bf6d8b3a1e06484f8b36c13960fd74c2",
+        "afterSha256": "cdae3c8e7095b033eecc96fea25ecbd1bf6d8b3a1e06484f8b36c13960fd74c2",
+        "bytes": 50108,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-en-dark-cover.png",
+        "beforeSha256": "0cb75ec8d1a075e42a2cef96ebfc119ffc086eb948a99454df910c10c54d29cb",
+        "afterSha256": "0cb75ec8d1a075e42a2cef96ebfc119ffc086eb948a99454df910c10c54d29cb",
+        "bytes": 49867,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-en-dark-principal.png",
+        "beforeSha256": "4eee5e66b32e451b4324bcd5bf6fd9a0e8d5ed61340234bc7dc5ccb03a82f952",
+        "afterSha256": "4eee5e66b32e451b4324bcd5bf6fd9a0e8d5ed61340234bc7dc5ccb03a82f952",
+        "bytes": 54152,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-en-light-cover.png",
+        "beforeSha256": "1922d239d18c6cea68f5ded87db689310cf2ced764c36366bdec42997a462b1d",
+        "afterSha256": "1922d239d18c6cea68f5ded87db689310cf2ced764c36366bdec42997a462b1d",
+        "bytes": 49309,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-en-light-principal.png",
+        "beforeSha256": "3d1ae31a5b44d22b6902f4ce389a04bcbbb54ba2e217beaaf2adf9f87971193f",
+        "afterSha256": "3d1ae31a5b44d22b6902f4ce389a04bcbbb54ba2e217beaaf2adf9f87971193f",
+        "bytes": 52729,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-final.png",
+        "beforeSha256": "0797b57353123a88b183fe7e02d2de8f41654cd9be4697e38940fb8f53eeeff1",
+        "afterSha256": "0797b57353123a88b183fe7e02d2de8f41654cd9be4697e38940fb8f53eeeff1",
+        "bytes": 46747,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-ru-dark-cover.png",
+        "beforeSha256": "f682f72bce170d9254dbdd6b34d8dd1384f66bc181a42aa6e29d856fb187e5e3",
+        "afterSha256": "f682f72bce170d9254dbdd6b34d8dd1384f66bc181a42aa6e29d856fb187e5e3",
+        "bytes": 47492,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-ru-dark-principal.png",
+        "beforeSha256": "eaf58eea3252ea4eca817582eeda7e2a72f4ca122c3d99b3536c3d3e8b414949",
+        "afterSha256": "eaf58eea3252ea4eca817582eeda7e2a72f4ca122c3d99b3536c3d3e8b414949",
+        "bytes": 62771,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-ru-light-cover.png",
+        "beforeSha256": "6a10d990b2b2e7e13f851834065b31bfc58a89e105a9f549f24d80d39b85e93a",
+        "afterSha256": "6a10d990b2b2e7e13f851834065b31bfc58a89e105a9f549f24d80d39b85e93a",
+        "bytes": 52871,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/390-ru-light-principal.png",
+        "beforeSha256": "b96520094644b310d9ede8057a954789faf9028176a9b8374ec0c17441ecfa6f",
+        "afterSha256": "b96520094644b310d9ede8057a954789faf9028176a9b8374ec0c17441ecfa6f",
+        "bytes": 63169,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/corpus-check.json",
+        "beforeSha256": "717d3933e19bd0e27011e8e3fb77bbdcb8bbf0dc387d97ef5be8589af34c8e0f",
+        "afterSha256": "717d3933e19bd0e27011e8e3fb77bbdcb8bbf0dc387d97ef5be8589af34c8e0f",
+        "bytes": 3700,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/interactions-1440.json",
+        "beforeSha256": "73e98fa77d43acb2af5d52b80feff871159af530f49e9fbaab90e4684705de80",
+        "afterSha256": "73e98fa77d43acb2af5d52b80feff871159af530f49e9fbaab90e4684705de80",
+        "bytes": 1398,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/interactions-390.json",
+        "beforeSha256": "ed6fac86bad6df6e975dbc97e8fc659dbaaa5492dd228166f85735bf1917f04f",
+        "afterSha256": "ed6fac86bad6df6e975dbc97e8fc659dbaaa5492dd228166f85735bf1917f04f",
+        "bytes": 1397,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/ios-320.json",
+        "beforeSha256": "e2d9b40a932f0cf91c76391a399acad1e7788d676bea0798b024ef779939d649",
+        "afterSha256": "e2d9b40a932f0cf91c76391a399acad1e7788d676bea0798b024ef779939d649",
+        "bytes": 980,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-1024.json",
+        "beforeSha256": "ac4b52d0d6564f75630ea0ca67928f7fe381dee00976c9df4d24d552a42d9a0f",
+        "afterSha256": "ac4b52d0d6564f75630ea0ca67928f7fe381dee00976c9df4d24d552a42d9a0f",
+        "bytes": 2518,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-1440.json",
+        "beforeSha256": "c8d83040aa2867ea9960e34b7c49e259f8fb8d9b925d8083aa5d00b341735414",
+        "afterSha256": "c8d83040aa2867ea9960e34b7c49e259f8fb8d9b925d8083aa5d00b341735414",
+        "bytes": 2518,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-320.json",
+        "beforeSha256": "758859c773a99836fc6cb050a07d74134893b0b8e8953e5bc4f5ce372a52c456",
+        "afterSha256": "758859c773a99836fc6cb050a07d74134893b0b8e8953e5bc4f5ce372a52c456",
+        "bytes": 5961,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/matrix-390.json",
+        "beforeSha256": "155327a7b239872d75eb8292b9deed8b6f55939b23bd6b0e5d90a202654ca88e",
+        "afterSha256": "155327a7b239872d75eb8292b9deed8b6f55939b23bd6b0e5d90a202654ca88e",
+        "bytes": 2517,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/qa/structure.json",
+        "beforeSha256": "a39f8268f9eec5ab7b03bda566243ee7e03ee81d4a38065a677e260b7563e4c1",
+        "afterSha256": "a39f8268f9eec5ab7b03bda566243ee7e03ee81d4a38065a677e260b7563e4c1",
+        "bytes": 423,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/sources.md",
+        "beforeSha256": "e0639ac07d702a67575b5119ef7e1ea034936bd71cc7bf5474744f088e4d0ea2",
+        "afterSha256": "e0639ac07d702a67575b5119ef7e1ea034936bd71cc7bf5474744f088e4d0ea2",
+        "bytes": 15095,
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/nonviolent-communication/story-data.json",
+        "beforeSha256": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+        "afterSha256": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+        "bytes": 57456,
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/ready/nonviolent-communication.json",
+        "beforeSha256": "58f8b365936b8177f47a3e6aea6a4afb8316db2cd680e10ab331a73f44bae388",
+        "afterSha256": "58f8b365936b8177f47a3e6aea6a4afb8316db2cd680e10ab331a73f44bae388",
+        "bytes": 11536,
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/books/nonviolent-communication-implementation.md",
+        "beforeSha256": "8a05f86bf7f1da2c2d3729920c4040cfdaa3286547d464417f0c6f101798b375",
+        "afterSha256": "8a05f86bf7f1da2c2d3729920c4040cfdaa3286547d464417f0c6f101798b375",
+        "bytes": 12147,
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/BRIEF.md",
+        "beforeSha256": "9791cdf7662d0eb6450486114ba275dbdd46516c71053d1e8b77c88610f5866a",
+        "afterSha256": "9791cdf7662d0eb6450486114ba275dbdd46516c71053d1e8b77c88610f5866a",
+        "bytes": 8192,
+        "unchanged": true
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "beforeSha256": "ec8251659ef5b67cd3178418a8c9d214f5a4328f448cfe094a9280743f5cdc6e",
+        "afterSha256": "ec8251659ef5b67cd3178418a8c9d214f5a4328f448cfe094a9280743f5cdc6e",
+        "bytes": 7431,
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/SKILL.md",
+        "beforeSha256": "f9c42d8820265763b4f26db18bacfbf852f935446fd5e8443d0c37190fa11650",
+        "afterSha256": "f9c42d8820265763b4f26db18bacfbf852f935446fd5e8443d0c37190fa11650",
+        "bytes": 7024,
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/references/content-model.md",
+        "beforeSha256": "efaa8c4f2ef1a1544feb6af88ed95137e6e3899f4f618efd19adeaf526cf51e6",
+        "afterSha256": "efaa8c4f2ef1a1544feb6af88ed95137e6e3899f4f618efd19adeaf526cf51e6",
+        "bytes": 6229,
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/references/data-contract.md",
+        "beforeSha256": "a4c281ac96f96487beebb41b36ed8f50730391d285cbbdbe3cf5ab15c5ff3927",
+        "afterSha256": "a4c281ac96f96487beebb41b36ed8f50730391d285cbbdbe3cf5ab15c5ff3927",
+        "bytes": 7840,
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/scripts/audit_story_html.mjs",
+        "beforeSha256": "36d2dc8ebf8fe55ac37a6fa17362d4c9a99584c9be7f28517e50804c999a0d86",
+        "afterSha256": "36d2dc8ebf8fe55ac37a6fa17362d4c9a99584c9be7f28517e50804c999a0d86",
+        "bytes": 14575,
+        "unchanged": true
+      }
+    ],
+    "manifestAllDeliverablesAndSupportingFilesMatch": true,
+    "implementationReportHashMatches": true,
+    "scope": "59 package/evidence/instruction files captured. Screenshot hashes are an integrity record, not a claim of independent visual review.",
+    "finalPreHandoffCheck": {
+      "verifiedAt": "2026-10-31T20:18:05.437365+00:00",
+      "all59FileHashesStillMatch": true,
+      "collectorFileSetStillMatches": true,
+      "rootReaderStillAbsent": true,
+      "reportHashMatches": true,
+      "findingFragmentsMatchReviewedCopy": true,
+      "reportSchemaAndReadCoverageChecked": true
+    }
+  },
+  "ownership": {
+    "writtenPaths": [
+      "editorial-audit/2026-10-31/reviews/nonviolent-communication.md",
+      "editorial-audit/2026-10-31/reviews/nonviolent-communication.json"
+    ],
+    "canonicalPackageEdited": false,
+    "readyManifestEdited": false,
+    "rootOrSharedFilesEdited": false,
+    "gitPrDeployActions": false,
+    "subagents": false,
+    "threadSend": false,
+    "otherWorkerWaitOrPoll": false,
+    "externalPeopleMessaged": false,
+    "chromeLaunched": false,
+    "serverStarted": false,
+    "previewToolsUsed": false
+  },
+  "publisherHandoff": "Correct NVC-01 and the small NVC-02 factual error; rebuild and validate the changed copy against the cited primary locations. Record new hashes and acceptance under BRIEF.md. This exact-version review does not automatically PASS any changed package or certify production integration.",
+  "integrityNote": "This JSON contains the Markdown report's whole-file SHA256. The JSON's own whole-file SHA256 is supplied in the final handoff, avoiding circular self-hashes."
+}

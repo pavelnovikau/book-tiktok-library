@@ -1,0 +1,307 @@
+{
+  "slug": "adventures-of-huckleberry-finn",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "verdict": "REBUILD",
+  "packageKind": "new-approved-title",
+  "repositoryRoot": "/Users/pn/smartcat/_artifacts/book-tiktok-library",
+  "deliverables": [
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/story-data.json",
+      "sha256": "7780e6976b7384ff360d1e2f2b4f7a27393e35487dd8de6381002b450ac96397",
+      "bytes": 107552
+    },
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/adventures-of-huckleberry-finn.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/adventures-of-huckleberry-finn.html",
+      "sha256": "390900dd0380d7d36181dbe1e1684305f898094195d070526b26796649e833c1",
+      "bytes": 352530
+    },
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/sources.md",
+      "sha256": "445ba9ab367a916ea3c316ea18ff5064ae4330108bed0451c42de343989e1403",
+      "bytes": 15896
+    },
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/QA.md",
+      "sha256": "87b6c0f7dffddf32fc4d175d1962322250ada47a44981b41f06fcadfdb7ec14e",
+      "bytes": 6890
+    }
+  ],
+  "counts": {
+    "originalUniqueReviewedPairs": 0,
+    "publishedPairsCompared": 0,
+    "priorCollectorPairsCompared": 0,
+    "newPairsRead": 54,
+    "localizedScreensRead": 108,
+    "before": null,
+    "after": {
+      "essential": 24,
+      "core": 36,
+      "deep": 54
+    },
+    "levelAdditions": {
+      "1": 24,
+      "2": 12,
+      "3": 18
+    },
+    "words": {
+      "essential": {
+        "ru": 1917,
+        "en": 2334
+      },
+      "core": {
+        "ru": 2839,
+        "en": 3455
+      },
+      "deep": {
+        "ru": 4227,
+        "en": 5124
+      }
+    }
+  },
+  "readingMinutes": {
+    "ru": {
+      "essential": 11,
+      "core": 16,
+      "deep": 24
+    },
+    "en": {
+      "essential": 11,
+      "core": 16,
+      "deep": 24
+    }
+  },
+  "bodyDensity": {
+    "ru": {
+      "minimum": 62,
+      "median": 76.5,
+      "maximum": 88,
+      "average": 75.9
+    },
+    "en": {
+      "minimum": 74,
+      "median": 92.5,
+      "maximum": 107,
+      "average": 91.9
+    }
+  },
+  "reportPath": "editorial-audit/2026-10-31/books/adventures-of-huckleberry-finn-sol-implementation.md",
+  "reportAbsolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/books/adventures-of-huckleberry-finn-sol-implementation.md",
+  "reportSha256": "5cf2988f9bdf31a88453f860f77da0a2a8d5a2ad5e374b72c03d139e603f21d7",
+  "sourceScope": {
+    "workAndEdition": "Mark Twain, Adventures of Huckleberry Finn (Tom Sawyer’s Comrade), English illustrated electronic witness Project Gutenberg #76; chapters I–XLII and The Last (43 narrative chapters).",
+    "primaryUrls": [
+      "https://www.gutenberg.org/files/76/76-h/76-h.htm"
+    ],
+    "identityUrl": "https://www.gutenberg.org/ebooks/76",
+    "completeWitnessFetched": true,
+    "witnessBytes": 653544,
+    "witnessSha256": "62e7dca69517602ac2cffa39fbaeb1b309016d79a85d993d301114ebe857bf8a",
+    "actualReading": "Opening and selected substantive primary scenes across all 43 chapters; repeated checks of retained action, motives, causal links and disclosure sequence. XLII and The Last read through. Not a claim of continuous every-paragraph reading of the whole novel.",
+    "retainedSceneMap": "collector-output/adventures-of-huckleberry-finn/sources.md",
+    "completeWitnessOutsideRepository": "/tmp/huck-primary-20261031-sol-worker/pg76.html",
+    "wholeBookFidelityCertified": false,
+    "translationFidelityCertified": false,
+    "continuousFullTextReadingClaimed": false,
+    "privateFullTextInPublicRepository": false,
+    "ruScope": "Original paraphrase from the English witness; not a published Russian translation.",
+    "residualLimits": [
+      "No manuscript or first-printing collation.",
+      "Dialect and full literary texture are not reproduced.",
+      "No later reunion of Jim’s family, Pap’s killer or completed western journey is invented."
+    ]
+  },
+  "exactChanges": [
+    "Created a new 54-pair original narrative package, rather than lessons or an analytical companion: Pap, island, river, Cairo, feud, impostors, theatre, Wilks, sale, conscience, Phelps and the actual ending.",
+    "Derived exact targetModes 24/36/54 from connected prose. Essential/Core end with the torn letter and departure for Phelps; all subsequent outcomes remain Deep-only.",
+    "Preserved Jim’s family motives, practical and moral agency, Huck’s continuing inconsistency, real humour, slavery and material violence; invented no dialogue, scenes, motives, quotations or pages.",
+    "Added book-local bilingual spoiler consent, masked Deep contents, generic saved-Deep labels, reload consent, stable-screen navigation and local/root Home-link handling.",
+    "Used the maintained builder/header; removed irrelevant analytical cover graphic locally; included Flexoki/RU-dark-Essential defaults, embedded fonts and correct 24 минуты duration.",
+    "Saved a chapter-linked evidence map for every stable ID, honest reading scope, QA receipts and this readiness record."
+  ],
+  "unresolvedIssues": [
+    "Independent editorial content review is pending; no independent PASS is claimed.",
+    "Physical Safari/iPhone behaviour was not tested; Chrome emulation passed."
+  ],
+  "sourceAccessBlocks": [],
+  "validation": {
+    "structural": {
+      "passes": 69,
+      "warnings": 0,
+      "failures": 0,
+      "receipt": "collector-output/adventures-of-huckleberry-finn/qa/huck-structure.json"
+    },
+    "browser": {
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          390,
+          844
+        ],
+        [
+          1024,
+          768
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "modes": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "runs": 8,
+      "matrixCombinations": 48,
+      "visits": 1824,
+      "runtimeExceptions": 0,
+      "externalRuntimeRequests": 0,
+      "horizontalOverflowPx": 0,
+      "offlineLocalFile": true,
+      "profilesRemoved": true,
+      "testedHtmlSha256": "390900dd0380d7d36181dbe1e1684305f898094195d070526b26796649e833c1",
+      "physicalSafariTested": false,
+      "engineSafeAreaOverride": {
+        "top": 47,
+        "bottom": 34
+      }
+    },
+    "embeddedDataMatchesAuthoring": true,
+    "stableLocalRebuild": true,
+    "evidenceMapIds": 54,
+    "independentReviewPerformed": false,
+    "receipts": [
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-1024-matrix.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-1024-matrix.json",
+        "sha256": "ee0844ebcc8298b875686fe3891c202dbdbd75d0b3b5253c133f89a3d39802f8",
+        "bytes": 4913
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-1440-behaviour.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-1440-behaviour.json",
+        "sha256": "6693b338c91f9f4175aeff43785147441c771597a00c2320436d5164f32bdaa7",
+        "bytes": 2013
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-1440-matrix.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-1440-matrix.json",
+        "sha256": "89ee8fb298500331a09026f87a96af9de74c1314b3bd4b6e4f7d3f89e3fef724",
+        "bytes": 4913
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-320-behaviour.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-320-behaviour.json",
+        "sha256": "9a3f38fae35bda74ca31826276e793ade7ca0f25d2170aa91bf3b51e82925548",
+        "bytes": 2012
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-320-matrix.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-320-matrix.json",
+        "sha256": "91f1fb87c0a078363d2a3cb4b3d9a469f950f3869e2062f1b578bc6874aea777",
+        "bytes": 4840
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-390-behaviour.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-390-behaviour.json",
+        "sha256": "4c4a006d65bdc75bd69c4eaa74e947857cc8fb10bf7a24e5b87f07804fc466ba",
+        "bytes": 2012
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-390-ios.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-390-ios.json",
+        "sha256": "c40cd10b3638fda7e555704d86e2e1488601c67e403cd6bc6269b8d9147734bd",
+        "bytes": 1326
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-390-matrix.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-390-matrix.json",
+        "sha256": "458051d176d7ddf029e1da807ee2dd964692cd9c245353fe08fe2d580eaad9c3",
+        "bytes": 4840
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-consistency.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-consistency.json",
+        "sha256": "08d5bbea17904f0e57a8aa505359115c2f0082ee268d118a46c9e9cae5f03be7",
+        "bytes": 1570
+      },
+      {
+        "path": "collector-output/adventures-of-huckleberry-finn/qa/huck-structure.json",
+        "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa/huck-structure.json",
+        "sha256": "e51d722300312782de276ea54ceda51141feac0df65de4aed13add7444e6001e",
+        "bytes": 436
+      }
+    ]
+  },
+  "publisherAttention": [
+    "Use this collector HTML after independent review; do not overwrite it with unpatched plain builder output. Rebuild via build-local.mjs.",
+    "Keep narrative presentation and Sources-only reading disclosure. Preserve local spoiler modal, masking, generic saved Deep title and fresh consent after reload.",
+    "Integrate root reader/catalogue/index and release log separately; none was modified here.",
+    "Younger-reader metadata stays internal. No public children’s-book shelf. Preserve the cover’s slavery/violence warning."
+  ],
+  "buildAssets": [
+    {
+      "path": "skills/book-tiktok/scripts/build_story.mjs",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/skills/book-tiktok/scripts/build_story.mjs",
+      "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639",
+      "bytes": 11671
+    },
+    {
+      "path": "skills/book-tiktok/assets/standalone-template.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/skills/book-tiktok/assets/standalone-template.html",
+      "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b",
+      "bytes": 59233
+    },
+    {
+      "path": "skills/book-tiktok/assets/reader-header.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/skills/book-tiktok/assets/reader-header.html",
+      "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801",
+      "bytes": 5085
+    }
+  ],
+  "bookLocalBuildFiles": [
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/author-story.py",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/author-story.py",
+      "sha256": "92529bafdb0a40539d4f5b28e9c6b955370a6323fa042bbdac3f06cab5c33bf7",
+      "bytes": 87236
+    },
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/build-local.mjs",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/build-local.mjs",
+      "sha256": "718bdfca4dd4999a7219bf686b604d5424c27db1da897c8eb23715317e6df6d3",
+      "bytes": 6447
+    },
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/qa-huck.mjs",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/qa-huck.mjs",
+      "sha256": "3544ae957f1b66470c984b355c8127d4ae2f5b6014b5fa35617f8adec323f25c",
+      "bytes": 18649
+    },
+    {
+      "path": "collector-output/adventures-of-huckleberry-finn/verify-huck.mjs",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/adventures-of-huckleberry-finn/verify-huck.mjs",
+      "sha256": "3f6a2f1fd31fc590a5a54b6fb90cee39e05e0280476a22d990cbb6b765cc3351",
+      "bytes": 4251
+    }
+  ],
+  "independentReviewPerformed": false,
+  "publicationPerformed": false,
+  "rootCatalogueEdited": false
+}

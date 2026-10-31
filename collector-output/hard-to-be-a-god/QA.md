@@ -1,0 +1,39 @@
+# Hard to Be a God — narrative repair QA, 2026-10-31
+
+Status: ready for independent check, **not editorial publication certification**. Read all **112 original RU/EN pairs** and their identical effective collector HTML corpus. No root reader/catalogue entry exists. Rewrote/reviewed **33 final pairs**, as paired copy and nested sequences, to **8 Essential / 13 Core / 33 Deep** (was 30/72/112). Default RU/dark/Essential. One primary source, one retained original cover with corrected credit; `contentMode: narrative` hides academic source labels.
+
+Primary evidence: actual plot passages across prologue, ten chapters and full epilogue; complete Budakh dialogue and final chapter read. Not every word of all chapter middles, no print-edition/variant collation, no whole-edition fidelity claim. See sources.md. No copied English translation, invented speech/motive/casualty total, assumed shooter or invented recovery. The central debate remains a dispute between speakers in the story.
+
+Substantive self-check restored the search/capture/false-Budakh/rescue chain, the paired Arata/Rumata arguments, Condor's changed position after the coup, Kira's unfulfilled shelter plan and the indirect epilogue. Removed an overly revealing safe-final reference to the return to friends before final build. Kept royal poisoning and all late outcomes Deep-only. No new consent behavior replaces existing behavior.
+
+**Actual browser finding and fix:** old story-data lacked `spoilerPolicy`, so the maintained shell showed a saved Deep title literally (“Continue: Red on his fingers”) instead of the spoiler warning. Added the book-local policy, adult audience and author metadata. Fresh browser run now gives “Continue Deep — ending spoilers”; the Deep ID is absent from Essential contents. The first failed test was a real metadata bug, not an acceptance pass.
+
+Maintained build: **297,903 bytes**, total title/subtitle/body words RU **1,596**, EN **1,871**. Reading estimates RU/EN **3/4/9 minutes**. Maintained deterministic audit `--min-screens 3 --require-bilingual`: **69 passes, 0 warnings, 0 failures**. Audit excludes 4 RU / 5 EN subtitle words. Structure checks alone do not establish fidelity.
+
+Chrome CDP, direct offline file://, no server: **432 screen render instances** across every depth × RU/EN × dark/light at **320×568 and 1440×900**. Expected contents, titles and bodies, no document/text horizontal overflow, no per-screen academic labels, Sources dialog and defaults passed. No runtime exceptions or remote HTTP requests. Actual narrow screenshot inspected. All 20 Deep IDs passed **80 saved-return paths** (RU/EN × Essential/Core): generic warning, no hidden title in lower contents, correct raised depth and destination body, and final Restart clearing saved progress. Physical iPhone/PWA is not verified.
+
+Every invocation ran under `/usr/bin/timeout 30`, with a unique mkdtemp profile and an owned detached process group killed in finally; profile deleted. No other session process was touched and no server was started. Private harness/results/screenshots: `/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-4-private/qa-hard-to-be-a-god/`. Final four-file hashes belong to the ready manifest; publisher owns independent text review and root integration.
+
+Last substantive source follow-up read the Pampa release directly; its screen now shows the chains, beer and cleared corridor. Arata’s departure retains his actual question about the gold rather than asserting an unseen collection.
+
+
+---
+
+## Pass 2 — current repaired package, 2026-10-31
+
+The record above describes the earlier rewrite. The independent review subsequently returned **REQUIRES-FIXES**; its five findings are now implemented in **six RU/EN body pairs** (`childhood-game`, `okana`, `clearance-ritual`, `lightning-demand`, `hope-burden`, `final`). The independent review files are unchanged. This is implementation QA, **not an independent PASS or publication certification**.
+
+Read every resulting **33 RU/EN pair**, including titles/sections/bodies and all three nested routes. Essential’s eight and Core’s thirteen screens remain outcome-safe; Core now completes the Okana/Kira episode. Deep’s 33-screen sequence retains both philosophical conversations and reaches the epilogue before an explicitly anchored opening-stakes recap. Counts, stable screen IDs, levels, source/provenance maps, cover/media, book-local spoiler metadata, storage namespace and all runtime/custom reader code are preserved. The maintained builder with unchanged source data reproduced the original HTML byte-for-byte before repair; after repair the shell is still byte-identical outside the embedded data block.
+
+Maintained build: **299,590 bytes**, cumulative title/subtitle/body words Essential **392 RU / 457 EN**, Core **651 / 758**, Deep **1,666 / 1,955**. Approximate generated reading times: RU **3/4/10 minutes**, EN **3/4/9 minutes**. Average Deep words per pair: **50.5 RU / 59.2 EN**, including titles/subtitles, descriptive only. The maintained auditor, run with `--min-screens 33 --require-bilingual`, reports **69 passes / 0 warnings / 0 failures**; its body/title count excludes 4 RU / 5 EN subtitle words. Authoring JSON and effective embedded corpus are exactly equal apart from generated `modes` timing/labels.
+
+Fresh direct `file://` Chrome checks with the page forced offline: **864 render instances**, every mode × RU/EN × dark/light × **320×568, 390×844, 1024×768, 1440×900**. Exact route counts and actual titles/bodies, zero document/text horizontal overflow, no per-screen academic labels, localized Sources dialog, defaults RU/dark/Essential, embedded Geist/Geist Mono loaded, one compact five-icon header, and mobile/desktop rail breakpoints checked. Screenshots of the dense EN Arata screen at 320, the RU Okana screen at 390 and the EN final at 1440 were inspected. The long 320 screen also scrolls to its final line: scrollTop **94**, scrollHeight **522**, clientHeight **428**, last letter visible. The first added scroll probe ran before Chrome had applied a viewport resize; the harness now waits for layout. Its corrected run passes without a reader-code change. The rail probe also uses the actual `desktopRail` ID rather than an absent class.
+
+All **80 saved-Deep return paths** (20 level-3 IDs × RU/EN × Essential/Core) retain the generic spoiler warning, hide deep titles from lower contents, raise to Deep and reach the correct screen. Final Restart clears saved progress. Language/theme preserve the stable ID; focus on, paging in focus, Escape, keyboard back and Start over pass. **Zero runtime exceptions and zero remote HTTP requests.** No physical iPhone, installed PWA, browser swipe gesture or production certification is claimed.
+
+Private harness, detailed results and screenshots: `/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/hard-to-be-a-god-pass2-private/browser-pass2.mjs` and `qa/browser.json`. Every Chrome invocation used `/usr/bin/timeout 30`, a unique owned mkdtemp profile and a detached process group, killed and removed in `finally`; no HTTP server was started. The ready manifest hashes the four current canonical files and implementation reports. Publisher/independent checker still owns acceptance and root integration.
+
+
+## Parent HG-06 localized correction — 2026-10-31
+
+Only palace-night RU/EN bodies changed; 8/13/33, all IDs/levels/source maps and outer reader runtime are unchanged. Embedded data and derived reading labels refreshed. The round-2 independent review closes HG-01–HG-05 on its recorded base hashes; HG-06 is a parent correction pending publisher validation. Fresh structural and focused rendered-copy proof are recorded in publisher-findings/hard-to-be-a-god-meaning-fix-closure.json and parent-hard-god-fix-browser.json. Prior broad browser results apply to their recorded pre-HG-06 files.

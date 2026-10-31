@@ -1,0 +1,381 @@
+{
+  "release": "04",
+  "date": "2026-10-31",
+  "state": "local-acceptance-passed-ready-to-open-pr",
+  "updatedAt": "2026-10-31T20:30:24.845895+00:00",
+  "checkout": "/Users/pn/.t3/checkouts/book-tiktok-library-release04-20261031",
+  "baseMain": "bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c",
+  "setup": "Existing T3-prepared BOOK checkout. No Smartcat Git actions, shell checkout/clone/worktree, canonical root mutation or second publisher.",
+  "acceptedCandidates": [
+    {
+      "slug": "hard-to-be-a-god",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god-pass2.json",
+      "reviewSha256": "4dc52e2ee1a94392cde16902d7a16f95e9875c1d1d39575969b7fa6608437d10",
+      "reviewMarkdownSha256": "9556464e3c505ae3ae2f2a6b5ab0bdf971fee8a42f688e7d497b2a913c49d812",
+      "readyPath": "editorial-audit/2026-10-31/ready/hard-to-be-a-god.json",
+      "readySha256": "8950a76f9675e1a0db87b6ce91f7ba2cc704f243c44982509376bf21cb31a1be",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/hard-to-be-a-god/story-data.json",
+          "sha256": "1c061f32637acd4dcf891306d45c9743c01fb9ca860c981bef6e42e00b81bc47"
+        },
+        {
+          "path": "collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+          "sha256": "8e8669af5f78b36fb3567b29a54c02fa5396db924fe57a55c343aec07e05031b"
+        },
+        {
+          "path": "collector-output/hard-to-be-a-god/sources.md",
+          "sha256": "b4e6fb1845e25b0133fdfdb4f083c850841ecf58f45e3d3f119cf049d8abe49c"
+        },
+        {
+          "path": "collector-output/hard-to-be-a-god/QA.md",
+          "sha256": "a3e37f125b2d4ceb13be9e78673ef312f24cec509e6db2915e99f113edeb67bf"
+        }
+      ],
+      "counts": {
+        "essential": 8,
+        "core": 13,
+        "deep": 33
+      },
+      "contentMode": "narrative",
+      "sourceCount": 1,
+      "sourceScope": {
+        "ru": "Сокращённая история своими словами по русскому электронному тексту на официальном сайте авторов. Проверены сюжетные сцены от пролога до эпилога, ключевые разговоры прочитаны целиком; не заявляется чтение каждого слова или сверка печатных редакций. Английский текст переводит этот пересказ. Внешний источник раскрывает весь сюжет.",
+        "en": "An original condensed telling based on the Russian electronic text on the official author site. Plot passages from prologue to epilogue were checked and key conversations read in full; this is not a claim to reading every word or collating print editions. English translates this retelling. The external source discloses the full plot."
+      },
+      "rootSha256": "f7fdccdad690de5ac16741bf8a88daae8ea0895f1970b6fa01ab6124365c4489",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 3,
+          "core": 4,
+          "deep": 10
+        },
+        "en": {
+          "essential": 3,
+          "core": 4,
+          "deep": 9
+        }
+      },
+      "publisherIntegration": [
+        "Accepted collector HTML copied; no plain rebuild; source/evidence maps and custom cover preserved",
+        "Missing/cover saved IDs discarded, valid stable IDs retained",
+        "Maintained header/PWA/focus synchronized idempotently; effective embedded corpus unchanged",
+        "Native consent guards Deep picker and saved ending; resets on reload and downgrade"
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/hard-to-be-a-god-meaning-fix-closure.json",
+      "closureSha256": "bf8571366d67b07bdccf9375d0128f9f9d1f877a4298dbeb2c51c6659b43f71d",
+      "closedFindings": [
+        "HG-06"
+      ],
+      "checkedScreens": [
+        "palace-night"
+      ],
+      "primaryChecked": "Official Russian electronic text https://www.rusf.ru/abs/books/tbb100.htm, chapter 6, fight/capture passage (fresh web witness lines 497–503; independent P029–P033). Parent read the first axe-bearing rush, dislocated arms/dropped axes, spear blow, crowd and net. These support fighting back/capture, not broken weapons.",
+      "publisherAssessment": "HG-06 CLOSED: only unsupported weapon breakage deleted in RU/EN. Publisher personally read official chapter6 capture, web witness497–503: dropped axes, injured arms, spear/crowd/net, no stated weapon breakage. Unchanged independent round2 review closes HG-01–05.",
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "onlyRequiredPhrasesChangedProof": [
+        {
+          "path": "collector-output/hard-to-be-a-god/story-data.json",
+          "reconstructedReviewedSha256": "7f340b24f744699f71164d4a0d48e8cd10aab877c37f3ade5d8f60d91face2ac",
+          "matchesOriginalIndependentReview": true
+        },
+        {
+          "path": "collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+          "reconstructedReviewedSha256": "53176ebbdc1806cf5513dccbdf4d85a21dd661057471a568759d486e30fb143c",
+          "matchesOriginalIndependentReview": true
+        }
+      ]
+    },
+    {
+      "slug": "adventures-of-huckleberry-finn",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/adventures-of-huckleberry-finn.json",
+      "reviewSha256": "8a80d35d191f6a543ec173a206fdee6f59b9692b6553f63d2fb90b469678723c",
+      "reviewMarkdownSha256": "2e8bc77235b536b1ab16b868aa8e4a0e566e609c1077ebc90bdcd687e2a7a043",
+      "readyPath": "editorial-audit/2026-10-31/ready/adventures-of-huckleberry-finn.json",
+      "readySha256": "77658d6f7847105113ae7aac2fa3a6d34af10fede4e783030c344278727e57ea",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/adventures-of-huckleberry-finn/story-data.json",
+          "sha256": "7780e6976b7384ff360d1e2f2b4f7a27393e35487dd8de6381002b450ac96397"
+        },
+        {
+          "path": "collector-output/adventures-of-huckleberry-finn/adventures-of-huckleberry-finn.html",
+          "sha256": "390900dd0380d7d36181dbe1e1684305f898094195d070526b26796649e833c1"
+        },
+        {
+          "path": "collector-output/adventures-of-huckleberry-finn/sources.md",
+          "sha256": "445ba9ab367a916ea3c316ea18ff5064ae4330108bed0451c42de343989e1403"
+        },
+        {
+          "path": "collector-output/adventures-of-huckleberry-finn/QA.md",
+          "sha256": "87b6c0f7dffddf32fc4d175d1962322250ada47a44981b41f06fcadfdb7ec14e"
+        }
+      ],
+      "counts": {
+        "essential": 24,
+        "core": 36,
+        "deep": 54
+      },
+      "contentMode": "narrative",
+      "sourceCount": 2,
+      "sourceScope": {
+        "ru": "Связный сокращённый пересказ своими словами по полному английскому тексту Project Gutenberg №76. Проверены выбранные сцены по всем 43 главам, включая последнюю; это не сплошное построчное чтение. Русская версия — новый пересказ, не текст опубликованного перевода. Диалекты и расовые ругательства не воспроизводятся; рабство и насилие сохранены в событиях. Внешний полный текст раскрывает сюжет.",
+        "en": "An original condensed narrative based on the complete English text of Project Gutenberg #76. Selected scenes across all 43 chapters, including the last, were checked; this was not a continuous line-by-line reading. The Russian version is a new retelling, not a published translation. Dialects and racial slurs are not reproduced; slavery and violence remain in the events. The complete external text reveals the plot."
+      },
+      "rootSha256": "9f9e18f4f3fdea2e41b599cc03b48795995c39b826943242f6e8668cec87f7c2",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 11,
+          "core": 16,
+          "deep": 24
+        },
+        "en": {
+          "essential": 11,
+          "core": 16,
+          "deep": 24
+        }
+      },
+      "publisherIntegration": [
+        "Accepted collector HTML copied; no plain rebuild; source/evidence maps and custom cover preserved",
+        "Missing/cover saved IDs discarded, valid stable IDs retained",
+        "Maintained header/PWA/focus synchronized idempotently; effective embedded corpus unchanged",
+        "Huck custom spoiler dialog preserved; new document requires consent again"
+      ],
+      "independentPassHashBinding": true
+    },
+    {
+      "slug": "nonviolent-communication",
+      "decision": "accepted-after-targeted-publisher-closure",
+      "independentVerdictPreserved": "REQUIRES-FIXES",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/nonviolent-communication.json",
+      "reviewSha256": "9a8528ae5931905813859ae5bcbf00a9a6b2dad3edbebbde72a9b7474f5b8cc0",
+      "reviewMarkdownSha256": "495ac687de1ef456cf1ec56dfa6bedfd73b597d7a83adeb390a3cc97ecc82e14",
+      "readyPath": "editorial-audit/2026-10-31/ready/nonviolent-communication.json",
+      "readySha256": "8d19533a1505d169f0148d0a362ccfebe088f8204e91d0bc589cdc0d51a142bf",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/nonviolent-communication/story-data.json",
+          "sha256": "64dda69d761fe12a23572b922a2cdbdd6b2b42154044de1c777c396b9cfb8b81"
+        },
+        {
+          "path": "collector-output/nonviolent-communication/nonviolent-communication.html",
+          "sha256": "cb297d19b69002462555ca1ce470f48525db5c02379e23a8f8725144c6d42bd5"
+        },
+        {
+          "path": "collector-output/nonviolent-communication/sources.md",
+          "sha256": "fb9a5c836cb9cf838f04e317b9df32dba425cd8fc8081ec65f849fa6c9a8dd62"
+        },
+        {
+          "path": "collector-output/nonviolent-communication/QA.md",
+          "sha256": "50de9fa6a4532e4e3b0eead9437629ddc63230477b1013ca2c197dcd1740be96"
+        }
+      ],
+      "counts": {
+        "essential": 16,
+        "core": 26,
+        "deep": 30
+      },
+      "contentMode": "explanatory",
+      "sourceCount": 11,
+      "sourceScope": {
+        "ru": "Сжатое изложение центрального метода своими словами по официальным авторским фрагментам, а не по полному EPUB. Прочитаны выбранные объяснения и случаи из глав 1 (второе издание), 2–3, 9–10 и 14, а также дополнительные объяснения самого Розенберга и проверка CNVC. Образец главы 2 прямо обозначен как третье издание, ©2019; глава 14 — фрагмент NVC3. Это не полный конспект всех глав и не сверка одной печатной редакции. Границы чтения указаны у источников. RU и EN — новые пересказы, не официальный перевод. Авторская модель не выдаётся за доказательство лечебного эффекта.",
+        "en": "An original concise account of the central method from official author excerpts, not a complete EPUB. Selected explanations and cases were read in chapters 1 (second edition), 2–3, 9–10 and 14, supplemented by Rosenberg’s own explanations and a CNVC cross-check. The chapter-2 sample explicitly identifies the third edition, ©2019; chapter 14 is an NVC3 excerpt. This is not a summary of every chapter or a collation of one printing. Source notes identify the reading boundaries. RU and EN are new accounts, not an official translation. The author’s model is not presented as proof of therapeutic efficacy."
+      },
+      "rootSha256": "2747a12bb5a4303bceeb61c98422e38c58bc96c42345b2c7b8e9c5ee2563be07",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 5,
+          "core": 8,
+          "deep": 9
+        },
+        "en": {
+          "essential": 4,
+          "core": 7,
+          "deep": 8
+        }
+      },
+      "publisherIntegration": [
+        "Accepted collector HTML copied; no plain rebuild; source/evidence maps and custom cover preserved",
+        "Missing/cover saved IDs discarded, valid stable IDs retained",
+        "Maintained header/PWA/focus synchronized idempotently; effective embedded corpus unchanged"
+      ],
+      "closurePath": "editorial-audit/2026-10-31/publisher-findings/nonviolent-communication-meaning-fix-closure.json",
+      "closureSha256": "2210bed68aff4f3f31cc45f639264acfee299dd06951e6c3f34724d8faa8a8f4",
+      "closedFindings": [
+        "NVC-01",
+        "NVC-02"
+      ],
+      "checkedScreens": [
+        "two-punishment-questions",
+        "reflection-request"
+      ],
+      "primaryChecked": "Parent checked actual official author quote https://nonviolentcommunication.com/resources/mbr-quotes/ (entry beginning If we ask two questions, web line158;194 is character count, not page): second question concerns the other person's reasons, not the speaker's reason for wanting action. Also read official chapter10 https://www.nonviolentcommunication.com/email/20210501/Ch10.pdf, printed p150 / PDF index9 (fellow passenger identification) and the reflection exchange at151–152. The interlocutor is a fellow passenger in a taxi, not its driver.",
+      "publisherAssessment": "NVC-01/NVC-02 CLOSED: RU asks what should motivate the actor; EN motive unchanged. Interlocutor is a fellow passenger in RU/EN. Publisher personally checked author quote entry If we ask two questions (194 is character count), and chapter10 printed150–152/PDF9–11. No added resolution or therapeutic claim.",
+      "newHashesAcceptedExplicitly": true,
+      "originalReviewNotRelabeledAsPASS": true,
+      "onlyRequiredPhrasesChangedProof": [
+        {
+          "path": "collector-output/nonviolent-communication/story-data.json",
+          "reconstructedReviewedSha256": "391d32f0a3b4804be6c69e6cb9c8f16638dc1f8157918e142ba2db647a6bebae",
+          "matchesOriginalIndependentReview": true
+        },
+        {
+          "path": "collector-output/nonviolent-communication/nonviolent-communication.html",
+          "reconstructedReviewedSha256": "694dc8f57580990fa0f63e988b4cf3ce75d2fea9e8460808ae290f1afc59035c",
+          "matchesOriginalIndependentReview": true
+        }
+      ]
+    },
+    {
+      "slug": "the-fifth-discipline",
+      "decision": "accepted-matching-independent-PASS",
+      "independentVerdictPreserved": "PASS",
+      "reviewPath": "editorial-audit/2026-10-31/reviews/the-fifth-discipline.json",
+      "reviewSha256": "525bce351769793cea532dd265bfac583940db664b9a140cb50f4d7beead508e",
+      "reviewMarkdownSha256": "fde28f8a8470010423fae5a9253c80204cc63852c76b9d570c1578cdc2ad7517",
+      "readyPath": "editorial-audit/2026-10-31/ready/the-fifth-discipline.json",
+      "readySha256": "43e95b9c98a1e7b02fbdeedb529bedab190f902916062efc05c2247edc143e1a",
+      "acceptedDeliverables": [
+        {
+          "path": "collector-output/the-fifth-discipline/story-data.json",
+          "sha256": "323caf56fe33a27d4dc78f102e0e6f6dd56ff03002659b0bb93c00bfc1f7946d"
+        },
+        {
+          "path": "collector-output/the-fifth-discipline/the-fifth-discipline.html",
+          "sha256": "d086f39b8d69e7422ddfb998e2a27ba1c0e35e4c2420ba1ce53922583742eb28"
+        },
+        {
+          "path": "collector-output/the-fifth-discipline/sources.md",
+          "sha256": "2b1d5edfbe9a51813b338ff4a2305a2dbd6511b0db57c7b9146d86d4e6361383"
+        },
+        {
+          "path": "collector-output/the-fifth-discipline/QA.md",
+          "sha256": "f4c404b6226283e56eb9eeace638049ad89415b70d4152c582233385ca93b464"
+        },
+        {
+          "path": "editorial-audit/2026-10-31/books/the-fifth-discipline.md",
+          "sha256": "284cfa1cd49f8f4eb0e73087cfc60b0ed6e20a511858efba7f8471a4abf2c081"
+        }
+      ],
+      "counts": {
+        "essential": 11,
+        "core": 22,
+        "deep": 29
+      },
+      "contentMode": "explanatory",
+      "sourceCount": 5,
+      "sourceScope": {
+        "ru": "Сокращённое изложение своими словами. Основа — вторая редакция 2006 года в официальном фрагменте переиздания 2025: введение Сенге, главы 1–2 и начало главы 3. Механизмы дополнительно проверены по его полной статье 1990 года, основанной на книге; пивная игра — по материалу MIT и исследованию истории её версий. Полная книга непрерывно не прочитана; поздние главы и все случаи не пересказаны. Русский и английский тексты — два языка этого изложения, не цитаты и не издательский перевод.",
+        "en": "An original condensed account. Its basis is the 2006 second edition in the official sample of the 2025 reissue: Senge’s introduction, chapters 1–2 and the opening of chapter 3. Mechanisms were additionally checked against his complete 1990 article based on the book; the beer game against MIT material and research on its versions. The full book was not read continuously; later chapters and all cases are not recounted. Russian and English are two languages of this account, not quotations or a published translation."
+      },
+      "rootSha256": "c3d23c28dbb24456e135c5b4e6c91350ab494e110bf687b891ad6643721d318f",
+      "readingMinutesByLanguage": {
+        "ru": {
+          "essential": 4,
+          "core": 7,
+          "deep": 9
+        },
+        "en": {
+          "essential": 4,
+          "core": 7,
+          "deep": 9
+        }
+      },
+      "publisherIntegration": [
+        "Accepted collector HTML copied; no plain rebuild; source/evidence maps and custom cover preserved",
+        "Missing/cover saved IDs discarded, valid stable IDs retained",
+        "Maintained header/PWA/focus synchronized idempotently; effective embedded corpus unchanged"
+      ],
+      "independentPassHashBinding": true
+    }
+  ],
+  "candidateCount": 4,
+  "acceptedPairs": 146,
+  "catalogueBooks": 37,
+  "catalogueScreens": 2499,
+  "previous33ReaderFilesUnchanged": true,
+  "sealedIntake": [
+    "hard-to-be-a-god",
+    "adventures-of-huckleberry-finn",
+    "nonviolent-communication",
+    "the-fifth-discipline"
+  ],
+  "excluded": "Other READY packages and separate Settings/Geist UI changes are excluded. No automatic READY sweep.",
+  "evidenceLimits": [
+    "Two exact independent PASS bindings; targeted publisher closure of HG-06/NVC-01/NVC-02. Original REQUIRES-FIXES verdicts retained, no new independent PASS invented.",
+    "Fiction is original prose supported by selected primary passages, without every-paragraph/print-variant/published-translation certification.",
+    "NVC: bounded actual central-method digest from official excerpts and author material; mixed-edition boundary preserved. No exhaustive full-edition fidelity or therapeutic-efficacy certificate.",
+    "Fifth Discipline: retained central argument from official sample, separately identified author article and checked beer-game evidence. No full-book reading/later-chapter completeness certificate.",
+    "Browser emulation only; no physical iPhone/Safari/PWA claim."
+  ],
+  "sourceEvidencePolicy": "Original source maps and Sources dialog retained. No full primary text committed/deployed. Public build only registered root readers/catalogue/PWA/fonts/icons.",
+  "previousReleaseEvidenceReconciled": "Final release03 receipt, merge/live HTTP/interactions/consent and parent eleven-root proof copied explicitly. Parent publication-state/library-status snapshots and canonical root files not copied.",
+  "checks": {
+    "library": "37books/2499screens; portable skill/example build/audit passed",
+    "rootStructural": {
+      "readers": 4,
+      "passesEach": 69,
+      "warnings": [],
+      "failures": []
+    },
+    "hashAcceptance": "17 READY files verified, two exact independent PASS bindings; minimal phrase reversals reproduce HG/NVC original review hashes",
+    "previousRoots": 33,
+    "idempotentShell": true,
+    "browser": {
+      "phases": [
+        "repaired",
+        "release-consent",
+        "release-state",
+        "focus",
+        "safe-area",
+        "offline",
+        "discovery",
+        "release-reader-interactions",
+        "release-cards",
+        "release-closures",
+        "ios"
+      ],
+      "renderingVisits": 4832,
+      "viewports": [
+        320,
+        390,
+        1024,
+        1440
+      ],
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "nativeAndCustomConsent": "saved Deep, cancel/accept, fresh Essential on reload, picker, restart; Huck Escape/downgrade also passed",
+      "stableSavedCoreIds": "all4 inRU/EN",
+      "removedIds": "all4",
+      "sourceScopes": "exact source/method inRU/EN",
+      "safeArea": "all4; engine top59/bottom34 at320and390; compact icon-only header; normal/scroll/focus/standalone",
+      "iosInstall": "HardGod browser+iOSstandaloneemulation, optional same-rowguide andlanguage hit targets",
+      "offline": "four PWA-cached readers and embedded file:// reading; optional local manifest diagnostics preserved",
+      "runtimeErrors": 0,
+      "physicalIPhone": false
+    },
+    "publicAllowlist": 48,
+    "deployment": "registered roots/catalogue/PWA/fonts/icons only",
+    "harnessCorrection": "Custom Huck may list non-spoiler Core titles at Essential; assertion narrowed to actual level3 ending disclosure. No reader changed for this test.",
+    "integrationFix": "NVC Russian long card title overflow at320 fixed with wrapping; card/language/mobile/desktop checks passed",
+    "cleanup": "Every phase owns unique mktemp profile and timeout30 Chrome processgroup; cleanup kills ownedgroup, closes server and removesprofile. No shared user browser touched.",
+    "preservedEvidenceWhitespace": "Original hash-bound independent reports include five inherited blank-at-EOF warnings. They are preserved byte-for-byte; other diff whitespace checks pass."
+  },
+  "git": null,
+  "production": {
+    "state": "not-yet-released"
+  },
+  "deferredAcceptedHandoff": "Meditations PASS arrived after four-book batch sealed; not imported. Ready/source-rescue packages not independently accepted remain out. PR29 Settings remains root-coordinated and unimported.",
+  "proofDirectory": "editorial-audit/2026-10-31/publisher-findings/release-04-proof"
+}

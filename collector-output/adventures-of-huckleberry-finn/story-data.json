@@ -1,0 +1,1231 @@
+{
+  "schemaVersion": 2,
+  "slug": "adventures-of-huckleberry-finn",
+  "title": {
+    "ru": "Приключения Гекльберри Финна · Марк Твен",
+    "en": "Adventures of Huckleberry Finn · Mark Twain"
+  },
+  "description": {
+    "ru": "Хак бежит от отца, Джим — от продажи. Их плот уносит по Миссисипи к опасным встречам и трудному выбору.",
+    "en": "Huck escapes his father; Jim escapes a threatened sale. Their raft takes them down the Mississippi towards dangerous encounters and a difficult choice."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "narrative",
+  "modes": {
+    "deep": {
+      "minutes": {
+        "ru": "24 минуты",
+        "en": "24 min"
+      }
+    }
+  },
+  "spoilerPolicy": "full-plot-in-deep",
+  "targetModes": {
+    "essential": 24,
+    "core": 36,
+    "deep": 54
+  },
+  "methodNote": {
+    "ru": "Связный сокращённый пересказ своими словами по полному английскому тексту Project Gutenberg №76. Проверены выбранные сцены по всем 43 главам, включая последнюю; это не сплошное построчное чтение. Русская версия — новый пересказ, не текст опубликованного перевода. Диалекты и расовые ругательства не воспроизводятся; рабство и насилие сохранены в событиях. Внешний полный текст раскрывает сюжет.",
+    "en": "An original condensed narrative based on the complete English text of Project Gutenberg #76. Selected scenes across all 43 chapters, including the last, were checked; this was not a continuous line-by-line reading. The Russian version is a new retelling, not a published translation. Dialects and racial slurs are not reproduced; slavery and violence remain in the events. The complete external text reveals the plot."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Mark Twain — Adventures of Huckleberry Finn, Project Gutenberg #76",
+      "url": "https://www.gutenberg.org/files/76/76-h/76-h.htm",
+      "role": "book",
+      "note": {
+        "ru": "Полный английский текст, главы I–XLII и The Last; первичный источник сохранённых событий, размышлений Хака и речей персонажей. Прочитаны и сверены выбранные сцены по всему роману. По ссылке есть спойлеры.",
+        "en": "Complete English text, chapters I–XLII and The Last; primary witness for the retained events, Huck’s reflections, and characters’ speeches. Selected scenes throughout the novel were read and checked. The linked text contains spoilers."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Project Gutenberg — catalogue record #76",
+      "url": "https://www.gutenberg.org/ebooks/76",
+      "role": "reference",
+      "note": {
+        "ru": "Проверка названия, автора, языка и номера электронной книги. Это запись о том же тексте, а не второй независимый источник сюжета.",
+        "en": "Checks title, author, language, and ebook number. This describes the same witness; it is not a second independent plot source."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Приключения Гекльберри Финна",
+          "body": "<p>Один мальчик хочет исчезнуть из собственной жизни. Один взрослый бежит, чтобы его не продали. Миссисипи сводит Хака и Джима на плоту, а за каждым поворотом ждут люди с чужими именами, добрыми манерами и заряженными ружьями.</p><p>Essential и Core останавливаются перед последней попыткой освобождения. Deep раскрывает продолжение и развязку после предупреждения. В истории есть рабство, жестокость и гибель людей.</p>",
+          "subtitle": "Марк Твен · Роман о путешествии по Миссисипи"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Adventures of Huckleberry Finn",
+          "body": "<p>A boy wants to disappear from his own life. A man is escaping before he can be sold. The Mississippi brings Huck and Jim together on a raft, while beyond each bend wait people with borrowed names, good manners, and loaded guns.</p><p>Essential and Core stop before the final attempt at liberation. Deep reveals the continuation and ending after a warning. The story includes slavery, cruelty, and violent deaths.</p>",
+          "subtitle": "Mark Twain · A journey down the Mississippi"
+        }
+      },
+      "type": "cover"
+    },
+    {
+      "id": "widows-house",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Богатство без свободы",
+          "body": "<p>После приключений с Томом Сойером Хаку досталось шесть тысяч долларов. Судья Тэтчер хранит деньги, вдова Дуглас берётся воспитать мальчика. Новая одежда жмёт, к ужину зовут по звонку, всё вокруг должно лежать и происходить как положено. Хаку милее старые лохмотья и ночёвка на воле.</p><p>Сестра вдовы, мисс Уотсон, обещает праведникам рай. Хак выясняет, что Тома туда, скорее всего, не пустят, и решает: тогда лучше оставаться вместе с Томом. О своих выводах взрослым он благоразумно не сообщает.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Rich, but hemmed in",
+          "body": "<p>After his adventures with Tom Sawyer, Huck has six thousand dollars. Judge Thatcher looks after the money; the Widow Douglas undertakes to bring up the boy. New clothes pinch, a bell summons him to supper, and everything has to happen in its proper way. Huck prefers old rags and sleeping outdoors.</p><p>The widow’s sister, Miss Watson, promises heaven to the righteous. Huck discovers that Tom probably will not be admitted and decides he would rather stay with Tom. He prudently keeps this conclusion from the adults.</p>"
+        }
+      }
+    },
+    {
+      "id": "toms-gang",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "II–III",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Разбойники по воскресеньям",
+          "body": "<p>Том собирает шайку. Клятва, взятая из книг, требует крови, убийств и ужасной мести предателям. Участники обсуждают всё с удовольствием, пока не выясняется, что удобнее всего разбойничать по воскресеньям. Это уже грех: придётся выбрать другой день.</p><p>Страшные набеги оказываются играми. Вместо богатого каравана с верблюдами мальчики разгоняют пикник воскресной школы. Том объясняет подмену волшебством. Хак пробует потереть старую лампу, но ни дворца, ни джинна не получает. От шайки он в конце концов отказывается.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Sunday robbers",
+          "body": "<p>Tom forms a gang. Its book-borrowed oath demands blood, murder, and terrible revenge on traitors. The boys discuss it happily until someone suggests meeting on Sundays, the most convenient day. That would be wicked. They must choose another.</p><p>The dreadful raids turn out to be make-believe. Instead of a rich caravan with camels, they scatter a Sunday-school picnic. Tom explains the substitution as enchantment. Huck rubs an old lamp himself but gets neither a palace nor a genie. Eventually he resigns from the gang.</p>"
+        }
+      }
+    },
+    {
+      "id": "bootprint",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IV–V",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Крест на каблуке",
+          "body": "<p>Зимой Хак замечает в снегу знакомый след: крест из гвоздей на левом каблуке. Вернулся отец. Хак мчится к Тэтчеру и продаёт ему своё состояние за доллар, лишь бы деньги перестали быть его собственностью.</p><p>Отец уже сидит в комнате мальчика. Он требует денег и запрещает учиться: сын не должен ставить себя выше неграмотного отца. Вдова и Тэтчер пытаются через суд отнять у него Хака. Новый судья отказывается разлучать семью. От побоев мальчика это решение не защищает.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A cross in the heel",
+          "body": "<p>In winter Huck recognises a footprint in the snow: a cross of nails in the left heel. His father is back. Huck rushes to Thatcher and sells him his fortune for a dollar, desperate to stop owning the money himself.</p><p>Pap is already sitting in the boy’s room. He demands money and forbids schooling: a son must not put himself above his illiterate father. The widow and Thatcher try to have Huck removed from his custody. A new judge refuses to separate a family. That decision gives the boy no protection from beatings.</p>"
+        }
+      }
+    },
+    {
+      "id": "reformed-pap",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "V",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Новая жизнь до первой ночи",
+          "body": "<p>Судья решает перевоспитать отца Хака добротой: приглашает домой, одевает, кормит, беседует о трезвости. Отец плачет, хозяева плачут, все пожимают ему руку как человеку, начавшему новую жизнь.</p><p>Ночью он выбирается из окна, меняет новый сюртук на виски и возвращается выпивать в гостевой комнате. Потом снова лезет наружу, падает с крыльца и ломает руку. Судья уже не так уверен в силе собственных бесед. Хак остаётся с тем же отцом.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Reformed until nightfall",
+          "body": "<p>The judge decides kindness will reform Pap. He invites him home, clothes and feeds him, and talks about temperance. Pap cries, the family cries, and everyone shakes his hand as a man beginning a new life.</p><p>That night he climbs out, trades his new coat for whisky, and returns to drink in the guest room. Climbing out again, he falls from the porch and breaks his arm. The judge loses confidence in his improving conversations. Huck is left with the same father.</p>"
+        }
+      }
+    },
+    {
+      "id": "locked-cabin",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Дом, из которого не выпускают",
+          "body": "<p>Весной отец увозит Хака в лесную хижину на другом берегу. Днём они ловят рыбу, и поначалу жизнь без уроков даже нравится мальчику. Но отец всё чаще бьёт его и уходит, запирая дверь. Однажды не возвращается три дня. Выйти через узкие окна нельзя.</p><p>Хак находит старую пилу и тайком выпиливает отверстие в нижнем бревне. Ночью отец в пьяном бреду гоняется за ним с ножом. Когда тот наконец засыпает, мальчик сидит напротив с заряженным ружьём и ждёт утра.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A house with no way out",
+          "body": "<p>In spring Pap takes Huck to a woodland cabin across the river. They fish by day, and at first the boy even likes living without lessons. But Pap beats him more often and goes away, locking the door. Once he stays away for three days. The windows are too small to escape through.</p><p>Huck finds an old saw and secretly cuts an opening in a bottom log. One night his delirious father chases him with a knife. When Pap finally sleeps, the boy sits opposite him with a loaded gun, waiting for morning.</p>"
+        }
+      }
+    },
+    {
+      "id": "own-murder",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Собственное убийство",
+          "body": "<p>Половодье приносит пустую лодку. Хак прячет её и придумывает, как исчезнуть так, чтобы его не искали живым. Пока отец в городе, он вылезает через выпиленный лаз, переносит припасы в лодку и готовит следы нападения.</p><p>Кровь убитой дикой свиньи, взломанная дверь, мешок с камнями, протащенный к реке, — всё должно убедить людей, что Хака убили и утопили. Дорожка из кукурузной муки уведёт поиски грабителей к озеру. Ночью мальчик ускользает на Джексонов остров. По воде далеко разносятся голоса с переправы; сам он лежит на дне лодки и смотрит в небо.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "His own murder",
+          "body": "<p>The rising river brings an empty canoe. Huck hides it and works out how to disappear without being hunted alive. While Pap is in town, he climbs through his sawn opening, carries supplies to the canoe, and prepares the signs of an attack.</p><p>A wild pig’s blood, a smashed door, and a sack of rocks dragged to the river should convince people he was murdered and drowned. A trail of cornmeal will send the hunt for the robbers towards a lake. At night he slips away to Jackson’s Island. Voices carry far across the water from the ferry; he lies in the canoe looking into the sky.</p>"
+        }
+      }
+    },
+    {
+      "id": "cannon-and-bread",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Завтрак для покойника",
+          "body": "<p>Утром по реке плывёт паром с горожанами. Пушка гремит над водой: так надеются поднять тело Хака. Мальчик смотрит из укрытия, пока люди ищут его останки почти перед самым его носом.</p><p>В воду пускают хлеб с ртутью: считается, что он найдёт утопленника. Одну буханку Хак вылавливает, вытряхивает ртуть и завтракает. Он допускает, что за него помолились и хлеб действительно его нашёл. Несколько дней остров принадлежит ему одному. Потом он натыкается на ещё тёплое кострище.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Breakfast for a corpse",
+          "body": "<p>In the morning a ferry full of townspeople drifts downriver. A cannon booms over the water: they hope to raise Huck’s body. He watches from hiding as they search for his remains almost under his nose.</p><p>They float bread containing quicksilver, supposed to find a drowned person. Huck catches a loaf, shakes out the mercury, and eats breakfast. Perhaps someone prayed for him and the bread really did find him. For a few days he has the island to himself. Then he discovers another campfire, its ashes still warm.</p>"
+        }
+      }
+    },
+    {
+      "id": "jim-on-island",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Человек у костра",
+          "body": "<p>У костра спит Джим, порабощённый мисс Уотсон. Увидев Хака, он сначала принимает его за призрак. Когда страх проходит, мальчик радуется: теперь он не один. Они готовят завтрак, и Джим наконец наедается после нескольких дней на ягодах.</p><p>Джим признаётся, что сбежал. Он подслушал, как мисс Уотсон собиралась продать его в Новый Орлеан за восемьсот долларов, хотя прежде обещала этого не делать. Хак поражён, но уже обещал молчать. Он сдержит слово, даже если дома за это станут его презирать.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The man by the fire",
+          "body": "<p>The sleeper by the fire is Jim, the man enslaved by Miss Watson. Seeing Huck, he first takes him for a ghost. Once the fright is over, the boy is delighted: he is no longer alone. They cook breakfast, and Jim finally eats his fill after days of berries.</p><p>Jim admits he has run away. He overheard Miss Watson planning to sell him to New Orleans for eight hundred dollars, despite her earlier promise not to. Huck is shocked, but he has already promised silence. He will keep his word even if people at home despise him for it.</p>"
+        }
+      }
+    },
+    {
+      "id": "cave-and-house",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX–X",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Крыша над половодьем",
+          "body": "<p>Джим советует перенести вещи в высокую пещеру: птицы предвещают дождь. Скоро снаружи грохочет гроза, а у них сухо, есть горячая рыба и кукурузный хлеб. Половодье заливает низины; между деревьями теперь можно плавать.</p><p>Они вылавливают часть деревянного плота, а потом забираются в плывущий дом. Там лежит застреленный мужчина. Джим закрывает тело тряпьём и не даёт Хаку рассмотреть лицо. В доме находятся одежда, инструменты, свечи — вещи, которые ещё пригодятся беглецам. О мёртвом Джим говорить не хочет.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Shelter above the flood",
+          "body": "<p>Jim advises moving their belongings into a high cave: the birds foretell rain. Soon a storm crashes outside while they stay dry with hot fish and cornbread. Floodwater covers the low ground; they can paddle between the trees.</p><p>They catch a section of timber raft and later climb into a drifting house. A man lies inside, shot dead. Jim covers the body with rags and keeps Huck from looking at the face. The house yields clothes, tools, and candles, useful things for the fugitives. Jim does not want to discuss the dead man.</p>"
+        }
+      }
+    },
+    {
+      "id": "snake-on-blanket",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "X",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Шутка на одеяле",
+          "body": "<p>Джим считает прикосновение к змеиной коже дурной приметой. Хак смеётся над страхами, а потом убивает гремучую змею и сворачивает её на одеяле Джима: хочет посмотреть, как тот испугается.</p><p>К вечеру шутка забыта. На одеяле оказывается и другая змея; она кусает Джима в пятку. Он несколько дней лежит с распухшей ногой. Хак понимает, что беду устроил сам, но убирает змей тайком: признаваться в собственной затее ему не хочется.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A joke on the blanket",
+          "body": "<p>Jim believes touching a snakeskin brings bad luck. Huck laughs at such fears, then kills a rattlesnake and coils it on Jim’s blanket, hoping to enjoy his fright.</p><p>By evening Huck has forgotten the joke. Another snake has come to the blanket and bites Jim’s heel. He spends days laid up with a swollen leg. Huck knows he caused the trouble, but disposes of the snakes secretly: he does not want to confess his prank.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "judith-loftus",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Сара, Мэри, Джордж",
+          "body": "<p>Чтобы узнать новости, Хак надевает женское платье и приходит к незнакомой женщине, Джудит Лофтес. Его рассказ путается: имя Сара превращается в Мэри. Женщина замечает и то, как он вдевает нитку, бросает груз в крысу, ловит его коленями. Она понимает, что перед ней мальчик, но позволяет ему уйти.</p><p>Главное Хак уже услышал. За Джима назначена награда; на острове видели дым. Муж Джудит отправится туда после полуночи. Хак мчится назад, будит Джима. Они грузят вещи на плот и бесшумно уходят вниз по реке.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Sarah, Mary, George",
+          "body": "<p>To learn the news, Huck puts on a dress and visits a stranger, Judith Loftus. His story tangles: Sarah becomes Mary. She also notices how he threads a needle, throws a weight at a rat, and catches it between his knees. She recognises a boy but lets him leave.</p><p>Huck has heard what matters. There is a reward for Jim; someone has seen smoke on the island. Judith’s husband will search it after midnight. Huck races back and wakes Jim. They load their belongings onto the raft and slip silently downriver.</p>"
+        }
+      }
+    },
+    {
+      "id": "night-raft",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX; XII; XV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Города проплывают ночью",
+          "body": "<p>Плот они выловили ещё у острова. Теперь прячутся днём и плывут ночью. Джим строит укрытие с приподнятым полом, чтобы волны не мочили вещи; внутри можно даже развести небольшой огонь. Над чёрной водой проплывают огни городков. Сент-Луис кажется Хаку целым освещённым миром.</p><p>Они ловят рыбу, покупают еду, иногда утаскивают что-нибудь с берега. Впереди — Каир, где Огайо впадает в Миссисипи. Там они рассчитывают продать плот и подняться на пароходе по Огайо к свободным штатам. Для Джима это путь из рабства.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Towns passing in the night",
+          "body": "<p>They caught the raft back at the island. Now they hide by day and travel by night. Jim builds a shelter with a raised floor to keep their things above the waves; they can even make a small fire inside. Town lights pass above the black water. St Louis looks to Huck like a whole illuminated world.</p><p>They fish, buy food, and sometimes steal supplies ashore. Ahead is Cairo, where the Ohio joins the Mississippi. There they plan to sell the raft and take a steamboat up the Ohio towards the free states. For Jim, it is a route out of slavery.</p>"
+        }
+      }
+    },
+    {
+      "id": "walter-scott",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XII–XIV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "На борту «Вальтера Скотта»",
+          "body": "<p>В грозу Хак замечает разбитый пароход и уговаривает Джима обследовать его. Внутри двое преступников решают судьбу связанного товарища: оставить его тонуть вместе с судном. Хаку уже не до приключений, а их плот тем временем унесло.</p><p>Беглецы забирают лодку преступников, находят свой плот и спасаются. Но Хаку не даёт покоя мысль о людях на обломках. Он выдумывает историю о терпящей бедствие семье и посылает паром на помощь. Поздно: мимо уже несёт почти затонувший пароход, и на оклики никто не отвечает. Джим больше не хочет таких приключений.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Aboard the Walter Scott",
+          "body": "<p>During a storm Huck spots a wrecked steamboat and persuades Jim to explore it. Inside, two criminals are deciding the fate of a bound accomplice: leave him to drown with the vessel. Adventure has lost its appeal, and meanwhile their raft has drifted away.</p><p>The fugitives take the criminals’ boat, find their raft, and escape. But Huck cannot stop thinking about the men on the wreck. He invents a story about a stranded family and sends a ferry to help. Too late: the nearly submerged steamboat is already drifting past, and no one answers his calls. Jim wants no more adventures like that.</p>"
+        }
+      }
+    },
+    {
+      "id": "solomon",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Джим спорит с Соломоном",
+          "body": "<p>Среди добычи с парохода есть книги. Хак читает и рассказывает о королях, их богатстве и гаремах. Джим сомневается, что мудрый человек захотел бы жить среди такого шума.</p><p>Особенно его возмущает Соломон, предложивший рассечь ребёнка. Хак твердит, что Джим не понял смысла истории. Джим не уступает: спорили о целом ребёнке, половина никому не нужна. Человек с одним-двумя детьми, по его мнению, знал бы им цену. Хак оставляет спор и переходит к французским королям.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Jim disputes Solomon",
+          "body": "<p>The steamboat’s plunder includes books. Huck reads and tells Jim about kings, their wealth, and their harems. Jim doubts a wise man would choose to live with that much noise.</p><p>Solomon especially offends him for proposing to cut a child in half. Huck insists Jim has missed the story’s point. Jim refuses to yield: the dispute was about a whole child; half is no use to anyone. In his view, a man with only one or two children would know their value. Huck abandons the argument and moves on to French kings.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "fog",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Туман и разбитое весло",
+          "body": "<p>В тумане лодку Хака отрывает от плота. Голоса теряются между островами, течение кружит мальчика в белой пустоте. Найдя наконец спящего Джима, Хак решает пошутить: уверяет его, что никакой разлуки не было, всё ему приснилось.</p><p>Обломки и мусор на плоту выдают обман. Джим рассказывает, как горевал, считая Хака погибшим, и как обрадовался его возвращению. А Хак думал только о том, чтобы выставить друга дураком. Джим уходит в укрытие. Хаку трудно переступить через выученное презрение к чёрному человеку, но он идёт просить прощения — и потом об этом не жалеет.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Fog and a broken oar",
+          "body": "<p>In the fog Huck’s canoe is separated from the raft. Voices are lost among islands; the current swings the boy through white emptiness. Finally finding Jim asleep, Huck plays a trick: he insists there was no separation and Jim dreamed it all.</p><p>Debris and a broken oar betray the lie. Jim describes his grief when he thought Huck dead and his joy at having him back. Huck thought only of making his friend look foolish. Jim withdraws into the shelter. Huck struggles against the contempt he has learned for a Black man, but goes to apologise, and never regrets doing so.</p>"
+        }
+      }
+    },
+    {
+      "id": "cairo-conscience",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Свобода всё ближе",
+          "body": "<p>Джим высматривает Каир с лихорадочной радостью. В свободном штате он станет копить, чтобы выкупить жену, затем детей. Если хозяин детей откажется их продавать, придётся искать помощь, чтобы их увести.</p><p>Хак слушает с ужасом. В его голове дети всё ещё принадлежат хозяину, а помощь Джиму — обида мисс Уотсон. Он решает сойти на берег и выдать беглеца. Джим готовит ему лодку и благодарит как лучшего друга. Когда Хак отплывает, эти слова уже не дают ему покоя.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Freedom drawing near",
+          "body": "<p>Jim watches for Cairo with feverish joy. In a free state he will save to buy his wife’s freedom, then his children’s. If their owner refuses to sell them, he will seek help to take them away.</p><p>Huck listens in horror. In his mind the children still belong to their owner, and helping Jim is an injury to Miss Watson. He decides to go ashore and report the fugitive. Jim gets the canoe ready and thanks Huck as his best friend. As the boy paddles off, those words will not leave him alone.</p>"
+        }
+      }
+    },
+    {
+      "id": "hunters",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Двое с ружьями",
+          "body": "<p>Навстречу плывут люди, ищущие беглых рабов. Они спрашивают, кто на плоту. Хак пытается собраться с духом для доноса, но отвечает, что там белый человек, его больной отец. Мужчины готовы проверить.</p><p>Хак просит помочь и мнётся так, что они сами заключают: на плоту оспа. Проверка немедленно отменяется. Издали они оставляют мальчику деньги и советуют плыть подальше. Джим пережидает опасность в воде за кормой.</p><p>Хак спас его и снова считает себя дурным. Но, представив, что всё-таки выдал бы Джима, понимает: легче ему не стало бы.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Two men with guns",
+          "body": "<p>Men hunting escaped slaves row towards him. They ask who is on the raft. Huck tries to summon the nerve to betray Jim, but says it is a white man, his sick father. The men intend to check.</p><p>Huck begs for help and hesitates until they reach their own conclusion: smallpox aboard. The inspection is immediately abandoned. From a distance they leave him money and advise him to drift well away. Jim waits out the danger in the water behind the stern.</p><p>Huck has saved him and again thinks himself wicked. Yet imagining that he had surrendered Jim, he realises he would feel no better.</p>"
+        }
+      }
+    },
+    {
+      "id": "missed-cairo",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVI–XVII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Ниже нужного поворота",
+          "body": "<p>Огни на берегу раз за разом оказываются не Каиром. Потом цвет воды подтверждает страшную догадку: устье Огайо осталось позади, вероятно, ещё в тумане. Плот нельзя поднять против течения. Они собираются вернуться на лодке — но лодка исчезла.</p><p>Остаётся плыть дальше, пока не удастся купить другую. Ночью из темноты вырастает огромный пароход и врезается в плот. Хак и Джим прыгают в разные стороны. Вынырнув, Хак зовёт друга, но ответа нет. Он добирается до берега, где на него с лаем бросаются собаки.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Past the turning they needed",
+          "body": "<p>Each set of lights ashore turns out not to be Cairo. Then the colour of the water confirms their fear: the Ohio’s mouth is behind them, probably passed in the fog. They cannot push the raft upstream. They plan to return in the canoe, but the canoe has vanished.</p><p>They must drift on until they can buy another. At night a huge steamboat looms out of the dark and crashes through the raft. Huck and Jim jump in opposite directions. Surfacing, Huck calls for his friend but hears no answer. He reaches a bank where barking dogs rush at him.</p>"
+        }
+      }
+    },
+    {
+      "id": "grangerfords",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVII–XVIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Гостеприимный дом с ружьями",
+          "body": "<p>За собаками оказывается дом Грэнджерфордов. Хака сначала держат под прицелом: не из Шепердсонов ли он? Узнав, что нет, принимают гостем. Под новым именем Джордж он получает одежду, еду и приятеля — Бака, мальчика примерно его возраста.</p><p>Семья богата и обходительна. Но Бак стреляет в молодого Шепердсона, хотя тот лично ничего ему не сделал. Идёт давняя кровная вражда. Началась она с тяжбы и убийства; из-за чего была тяжба, Бак не знает. Зато знает, кого теперь следует убивать.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A welcoming house with guns",
+          "body": "<p>Beyond the dogs stands the Grangerfords’ house. They first hold Huck at gunpoint: is he a Shepherdson? Once satisfied he is not, they welcome him. Under the name George he receives clothes, food, and a companion, Buck, a boy about his own age.</p><p>The family is wealthy and gracious. Yet Buck shoots at a young Shepherdson who has done him no personal harm. An old blood feud is under way. It began with a lawsuit and a killing; Buck does not know what the lawsuit concerned. He does know whom he is supposed to kill now.</p>"
+        }
+      }
+    },
+    {
+      "id": "guns-in-church",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Записка в Евангелии",
+          "body": "<p>В воскресенье обе семьи приходят в церковь с ружьями. Проповедь о братской любви всем очень нравится. После службы София Грэнджерфорд просит Хака тайком принести забытый Новый Завет. Внутри он находит записку с указанием времени, но возвращает её на место.</p><p>Позже порабощённый слуга Джек обещает показать Хаку змей и ведёт его в болото. Вместо змей там Джим. Другие порабощённые люди укрывают его и кормят. Они нашли повреждённый плот; Джим уже чинит его по ночам и готовит всё для отъезда.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A note in the Testament",
+          "body": "<p>On Sunday both families attend church with guns. Everyone admires the sermon on brotherly love. Afterwards Sophia Grangerford secretly asks Huck to fetch her forgotten Testament. Inside he finds a note naming a time, but puts it back.</p><p>Later Jack, an enslaved servant, promises to show Huck some snakes and leads him into the swamp. Instead there is Jim. Other enslaved people have hidden and fed him. They found the damaged raft; Jim has been repairing it at night and getting ready to leave.</p>"
+        }
+      }
+    },
+    {
+      "id": "buck-on-bank",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Лица у самой воды",
+          "body": "<p>София Грэнджерфорд бежит с Харни Шепердсоном, и семьи хватаются за оружие. Хак прячется на дереве и видит, как раненые Бак и его двоюродный брат бросаются в реку. С берега по ним продолжают стрелять. Позже Хак вытаскивает тела на сушу и закрывает лица. Над лицом Бака он плачет.</p><p>К дому он больше не возвращается. В болоте его ждёт живой Джим; тот с помощью людей с плантации восстановил плот. Они отчаливают. Только вдали от берега Хак снова может поесть, поговорить и почувствовать себя дома.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Faces at the water’s edge",
+          "body": "<p>Sophia Grangerford runs away with Harney Shepherdson, and the families take up arms. From a tree Huck sees the wounded Buck and his cousin plunge into the river. Men on the bank keep shooting at them. Later Huck pulls their bodies ashore and covers their faces. He cries over Buck’s.</p><p>He never returns to the house. Jim is waiting alive in the swamp; with help from people on the plantation he has restored the raft. They push off. Only well away from shore can Huck eat again, talk, and feel at home.</p>"
+        }
+      }
+    },
+    {
+      "id": "stars-over-raft",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIX",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Кто сделал звёзды",
+          "body": "<p>Несколько дней скользят тихо. Перед рассветом они сидят на мелководье и смотрят, как дальний берег проступает из темноты. Потом готовят рыбу, прячут плот ветками и спят. Через широкую реку звук удара топора доносится позже самого движения.</p><p>По ночам они лежат под звёздами и спорят, сделаны ли те кем-то или возникли сами. Джим предполагает, что их могла отложить луна. Хак видел, сколько икры откладывает лягушка, и не считает это невозможным. Пароход проходит, его огни исчезают; волны доходят до плота гораздо позже.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Who made the stars",
+          "body": "<p>A few days slide by quietly. Before dawn they sit in the shallows and watch the far bank emerge from darkness. Then they cook fish, conceal the raft with branches, and sleep. Across the broad river an axe’s sound arrives after the visible stroke.</p><p>At night they lie beneath the stars, debating whether someone made them or they just happened. Jim suggests the moon might have laid them. Huck has seen how many eggs a frog lays and does not dismiss the possibility. A steamboat passes and its lights vanish; its waves reach the raft much later.</p>"
+        }
+      }
+    },
+    {
+      "id": "royal-passengers",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIX",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Два высокородных пассажира",
+          "body": "<p>Однажды утром Хак спасает двух оборванцев, за которыми гонятся с собаками. На плоту выясняется, что один продавал сомнительное средство для зубов, другой проповедовал трезвость, тайком выпивая. Они быстро решают работать вместе.</p><p>Молодой объявляет себя лишённым наследства герцогом. Старший не остаётся в долгу: он пропавший французский дофин, законный король. Теперь им положены поклоны, лучшие места и обслуживание за столом. Хак скоро понимает, кто перед ним. Спорить он не хочет: с людьми вроде отца безопаснее соглашаться. Мирный плот достаётся двум мошенникам.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Two noble passengers",
+          "body": "<p>One morning Huck rescues two ragged men pursued by dogs. On the raft one admits selling a dubious tooth remedy, the other preaching temperance while secretly drinking. They quickly agree to work together.</p><p>The younger declares himself a dispossessed duke. The elder goes further: he is the lost French dauphin, the rightful king. They now expect bows, the best places, and service at meals. Huck soon understands what they are. He does not want a quarrel: with men like Pap, agreement is safer. The peaceful raft has acquired two swindlers.</p>"
+        }
+      }
+    },
+    {
+      "id": "pirates-mission",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XX",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Деньги на спасение пиратов",
+          "body": "<p>На религиозном собрании король выдаёт себя за раскаявшегося пирата. Он отправится в Индийский океан обращать бывших товарищей — даже если придётся добираться без гроша. Собрание плачет и собирает ему деньги.</p><p>На плот он приносит восемьдесят семь долларов семьдесят пять центов и кувшин виски, прихваченный из-под чужой повозки. Герцог тем временем зарабатывает в оставленной без присмотра типографии. Но важнее денег оказывается ещё один отпечатанный им лист.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Money to save the pirates",
+          "body": "<p>At a religious gathering the king presents himself as a repentant pirate. He will return to the Indian Ocean to convert his former companions, even if he must travel penniless. The gathering weeps and takes up a collection.</p><p>He brings eighty-seven dollars and seventy-five cents back to the raft, along with a jug of whisky taken from beneath someone’s wagon. Meanwhile the duke makes money in an unattended printing office. More consequential than his earnings is another sheet he has printed.</p>"
+        }
+      }
+    },
+    {
+      "id": "jim-on-paper",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XX",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Джим на бумаге",
+          "body": "<p>Герцог напечатал объявление о беглом рабе с приметами Джима и вымышленной историей его побега. Теперь можно плыть и днём: при встрече с посторонними они свяжут Джима и покажут лист, будто везут пойманного человека за наградой.</p><p>Подделка позволяет меньше скрываться, но самому Джиму приходится изображать пленника. На одном плоту теперь плывут его надежда на свободу и убедительное для чужих глаз объявление, по которому его можно выдать за чужую собственность.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Jim on paper",
+          "body": "<p>The duke has printed a reward notice describing Jim, with an invented account of his escape. Now they can travel by day: whenever strangers approach, they will bind Jim and show the sheet, pretending to be taking a captured fugitive back for the reward.</p><p>The forgery lets them hide less, but Jim must play a captive. The same raft now carries his hope of freedom and a convincing-looking notice that presents him to strangers as someone else’s property.</p>"
+        }
+      }
+    },
+    {
+      "id": "boggs-and-sherburn",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXI–XXII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Толпа под крыльцом",
+          "body": "<p>В одном городке пьяный Боггс бранит полковника Шерберна. Сначала над ним смеются; затем Шерберн объявляет срок, после которого терпеть не станет. Дочь Боггса спешит к отцу, но успевает увидеть выстрелы и бросается на его тело.</p><p>Толпа идёт линчевать убийцу. Шерберн выходит на крышу крыльца с ружьём и спокойно называет собравшихся трусами: по его словам, они умеют расправляться только толпой и в темноте. Люди разбегаются. Хак видит и убийство, и отступление тех, кто только что кричал о расправе.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The crowd below the porch",
+          "body": "<p>In one town drunken Boggs abuses Colonel Sherburn. At first people laugh; then Sherburn sets a deadline beyond which he will not endure it. Boggs’s daughter hurries to her father but arrives in time to witness the shots and throw herself over his body.</p><p>A crowd goes to lynch the killer. Sherburn steps onto his porch roof with a gun and calmly calls them cowards: in his account, they can attack only in a mob and in darkness. They scatter. Huck witnesses both the killing and the retreat of those who were shouting for vengeance.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "royal-nonesuch",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXII–XXIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Королевское представление",
+          "body": "<p>Шекспир не приносит мошенникам успеха. Тогда они объявляют особенное представление, куда не допускают женщин и детей. Мужчины набивают зал. Король появляется голым, раскрашенным, скачет по сцене — и на этом великая трагедия заканчивается.</p><p>Зрители взбешены, но решают расхвалить спектакль: пусть остальные тоже окажутся в дураках. Второй вечер приносит новую полную кассу. На третий приходят прежние зрители с тухлыми яйцами и гнильём. Герцог собирает плату и удирает с Хаком. Король уже ждёт на плоту. Оставшейся публике мстить некому.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The royal performance",
+          "body": "<p>Shakespeare brings the swindlers little success. They advertise a special performance excluding women and children. Men pack the hall. The king appears naked and painted, capers across the stage, and the great tragedy is over.</p><p>The audience is furious but decides to praise the show: let everyone else be fooled too. A second full house follows. On the third night the earlier spectators return with rotten eggs and other filth. The duke collects admission and flees with Huck. The king is already waiting on the raft. The remaining audience has no one to punish.</p>"
+        }
+      }
+    },
+    {
+      "id": "lizbeth",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Джим вспоминает дочь",
+          "body": "<p>Джим нередко берёт и Хакову вахту, позволяя мальчику спать. Однажды под утро Хак слышит, как он горюет по семье. Джим рассказывает о маленькой Элизабет. После скарлатины она не послушалась его приказа закрыть дверь. Он ударил её.</p><p>Потом дверь захлопнул ветер, а девочка даже не вздрогнула. Только тогда Джим понял, что после болезни она потеряла слух. Он обнял дочь и заплакал; этого удара он себе не простит. Хак слушает и начинает допускать то, что прежде казалось ему странным: Джим любит своих так же, как белые любят близких.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Jim remembers his daughter",
+          "body": "<p>Jim often takes Huck’s watch as well as his own so the boy can sleep. One dawn Huck hears him mourning his family. Jim tells him about little Elizabeth. After scarlet fever she failed to obey his order to shut a door. He struck her.</p><p>Then the wind slammed the door and the child did not even start. Only then did Jim understand that the illness had taken her hearing. He embraced her and cried; he cannot forgive himself for the blow. Listening, Huck begins to allow what once seemed strange to him: Jim loves his family as white people love theirs.</p>"
+        }
+      }
+    },
+    {
+      "id": "wilks-brothers",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIV–XXV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Братья покойного",
+          "body": "<p>Король выспрашивает у случайного попутчика всё о недавно умершем Питере Уилксе: родственниках, друзьях, деньгах и ожидаемых братьях из Англии. Вскоре он сам прибывает в город как Харви Уилкс, а герцог изображает второго брата, Уильяма, который не слышит и не говорит.</p><p>Племянницы Мэри Джейн, Сьюзен и Джоанна встречают их с доверием. Мошенники рыдают над гробом, обнимают девушек и без запинки называют знакомые имена. Хак смотрит на это представление и испытывает отвращение. Здесь у них хотят отнять уже целое наследство.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The dead man’s brothers",
+          "body": "<p>From a chance acquaintance the king extracts everything about the recently deceased Peter Wilks: relatives, friends, money, and the brothers expected from England. Soon he arrives in town as Harvey Wilks; the duke plays the other brother, William, who cannot hear or speak.</p><p>Their nieces Mary Jane, Susan, and Joanna welcome them trustingly. The frauds sob over the coffin, embrace the girls, and smoothly name familiar people. Huck watches the performance in disgust. This time they intend to take an entire inheritance.</p>"
+        }
+      }
+    },
+    {
+      "id": "six-thousand",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Щедрость за чужой счёт",
+          "body": "<p>В погребе находят золото, указанное покойным: часть предназначена девушкам, часть братьям. Сумма меньше обещанной, и мошенники добавляют собственные деньги, чтобы не возбуждать подозрений. Затем торжественно отдают все шесть тысяч племянницам.</p><p>Доктор Робинсон прямо называет короля самозванцем: его английский говор никуда не годится. Мэри Джейн отвечает, вручая мешок королю обратно. Она просит вложить деньги для неё и сестёр, даже не требуя расписки. Показная щедрость вернула мошенникам всё золото и укрепила доверие дома.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Generosity with stolen money",
+          "body": "<p>In the cellar they find the gold Peter described, part for the girls and part for his brothers. The sum is short, so the frauds add their own money to avoid suspicion. They then solemnly give all six thousand dollars to the nieces.</p><p>Dr Robinson openly calls the king an impostor: his English accent is hopeless. Mary Jane answers by handing the bag back to the king. She asks him to invest the money for her and her sisters, requiring no receipt. Their display of generosity has returned all the gold to the frauds and secured the household’s trust.</p>"
+        }
+      }
+    },
+    {
+      "id": "money-in-coffin",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVI–XXVII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Мешок в гробу",
+          "body": "<p>Девушки принимают и Хака как своего. Их доброта становится невыносимой: он помогает людям, которые их грабят. Решив вернуть деньги, Хак подслушивает, где мошенники прячут золото, и вытаскивает мешок из соломенного тюфяка.</p><p>Ночью он спускается вниз. Приближающиеся шаги заставляют сунуть мешок в первое укрытие — гроб Питера. Входит Мэри Джейн и становится перед покойным на колени. Хак прячется за дверью. На похоронах крышку привинчивают, и золото уходит под землю. Он даже не уверен, что никто не успел его забрать.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The bag in the coffin",
+          "body": "<p>The girls welcome Huck as one of their own. Their kindness becomes unbearable: he is helping the men who are robbing them. Determined to return the money, he overhears where the frauds hide it and pulls the bag from a straw mattress.</p><p>He creeps downstairs at night. Approaching footsteps make him thrust the bag into the first hiding place available: Peter’s coffin. Mary Jane enters and kneels before the dead man. Huck hides behind the door. At the funeral the lid is screwed down and the gold goes underground. He is not even sure someone has not already taken it.</p>"
+        }
+      }
+    },
+    {
+      "id": "family-sold-apart",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Мать — вниз, сыновья — вверх",
+          "body": "<p>Король торопится распродать имущество. Порабощённую мать отправляют в Новый Орлеан, двух её сыновей — в Мемфис. Люди плачут, обнявшись; девушки в ужасе: они не предполагали, что семью разлучат.</p><p>Хак держится за мысль, что мошенническую продажу отменят, когда откроется обман. Самозванцы тем временем обнаруживают пропажу денег. Хак направляет их подозрения на уже проданных слуг. Отсутствующие не могут возразить, а мошенникам остаётся только проглотить потерю.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Mother south, sons north",
+          "body": "<p>The king hurries to sell the property. An enslaved mother is sent to New Orleans, her two sons to Memphis. People cling to each other crying; the girls are horrified, never having expected the family to be separated.</p><p>Huck clings to the belief that the fraudulent sale will be undone when the deception comes out. Meanwhile the impostors discover the money missing. Huck steers their suspicions towards the servants already sold away. The absent cannot answer, and the frauds must swallow the loss.</p>"
+        }
+      }
+    },
+    {
+      "id": "truth-for-mary-jane",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "На этот раз — правда",
+          "body": "<p>Мэри Джейн плачет о семье, которую король продал по частям. Хак невольно обещает, что они снова встретятся, и уже не может отступить: рассказывает ей о самозванцах. Он впервые обнаруживает, что в трудном положении правда может оказаться лучше лжи.</p><p>Но немедленная расправа поставит под угрозу Джима, оставшегося на плоту. Хак просит девушку ненадолго уехать и дождаться условленного срока. Она соглашается. О золоте он оставляет записку: мешок спрятан в гробу. Теперь у него есть человек, который знает правду и может за него вступиться.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The truth this time",
+          "body": "<p>Mary Jane is crying over the family the king has sold apart. Huck impulsively promises they will meet again, then has to explain: her uncles are impostors. For once, he discovers that truth may serve better than a lie in a tight place.</p><p>But immediate action would endanger Jim, still on the raft. Huck asks her to leave town briefly and wait until an agreed time. She consents. About the gold he leaves a note: the bag is hidden in the coffin. Now someone knows the truth and can speak for him.</p>"
+        }
+      }
+    },
+    {
+      "id": "grave-in-storm",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVIII–XXIX",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Молния над могилой",
+          "body": "<p>Приезжают настоящие братья Уилксы. Город уже не знает, кому верить. Проверки почерка и расспросы не разрешают спора; наконец решают вскрыть могилу и проверить отметины на груди покойного. Хака тоже ведут на кладбище, крепко держа за запястье.</p><p>Ночью, при молниях и дожде, открывают гроб. Кто-то замечает мешок золота. Все бросаются смотреть, хватка разжимается, и Хак бежит. Пролетая мимо дома, он видит свет в окне Мэри Джейн. Потом находит лодку и добирается до Джима. Они отталкивают плот: наконец вдвоём.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Lightning over the grave",
+          "body": "<p>The real Wilks brothers arrive. The town no longer knows whom to believe. Handwriting tests and questioning fail to settle matters; at last they decide to open the grave and examine marks on the dead man’s chest. Huck is marched to the cemetery too, firmly held by the wrist.</p><p>At night, amid lightning and rain, the coffin is opened. Someone spots the bag of gold. Everyone surges to look, the grip loosens, and Huck runs. Passing the house, he sees a light in Mary Jane’s window. Then he finds a canoe and reaches Jim. They push the raft off: alone at last.</p>"
+        }
+      }
+    },
+    {
+      "id": "crooks-return",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIX–XXXI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Знакомые вёсла в темноте",
+          "body": "<p>Радость длится считаные мгновения. При вспышке молнии Хак видит лодку: герцог и король догоняют их. На плоту король хватается за ворот мальчика; Хак выкручивается, герцог вмешивается. Спор о пропавшем золоте мошенники переносят друг на друга.</p><p>Путешествие продолжается. Дальше к югу их новые затеи одна за другой проваливаются. Денег почти нет, они шепчутся в укрытии, становятся мрачными и опасными. Хак и Джим решают бежать при первой возможности. Когда она наконец появляется, Хак возвращается на плот — а Джима там уже нет.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Familiar oars in the dark",
+          "body": "<p>Their joy lasts moments. In a lightning flash Huck sees a boat: the duke and king are catching up. Aboard, the king grabs his collar; Huck invents an excuse and the duke intervenes. The frauds turn their quarrel over the missing gold against each other.</p><p>The journey continues. Further south their new schemes fail one after another. Almost penniless, they whisper in the shelter and grow sullen and dangerous. Huck and Jim resolve to escape at the first chance. When it finally comes, Huck returns to the raft, but Jim is gone.</p>"
+        }
+      }
+    },
+    {
+      "id": "forty-dirty-dollars",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Сорок долларов за Джима",
+          "body": "<p>Хак кричит, бегает по лесу, зовёт друга. Прохожий мальчик сообщает, что Джим у Сайласа Фелпса. Король воспользовался поддельным объявлением о розыске, выдал Джима за описанного в нём беглеца и уступил право на награду за сорок долларов.</p><p>После всего пути, после всей помощи этим людям — снова плен. Хак садится думать. Может быть, написать домой и вернуть Джима мисс Уотсон? Но та может продать его ещё раз. Даже без продажи его ждут унижение и наказание за побег. А самого Хака дома будут презирать за помощь беглому.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Forty dollars for Jim",
+          "body": "<p>Huck shouts, runs through the woods, and calls for his friend. A passing boy tells him Jim is at Silas Phelps’s. The king used a forged reward notice to pass Jim off as the fugitive it described and sold his claim to the reward for forty dollars.</p><p>After the whole journey, after all their help to these men, captivity again. Huck sits down to think. Perhaps he should write home and return Jim to Miss Watson? But she might sell him once more. Even without a sale, humiliation and punishment await him. Huck himself would be despised at home for helping a fugitive.</p>"
+        }
+      }
+    },
+    {
+      "id": "torn-letter",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Письмо, которое не уйдёт",
+          "body": "<p>Хак пишет мисс Уотсон, где найти Джима. Сразу становится легче: ему кажется, он наконец очистился от греха. Но, прежде чем отправить письмо, он вспоминает ночи на плоту. Джим давал ему спать вместо вахты, радовался возвращению из тумана, заботился о нём и называл другом.</p><p>Хак смотрит на бумагу и выбирает то, что сам всё ещё считает вечной погибелью. Он рвёт письмо. Значит, будет дурным мальчиком до конца — и первым делом попробует вытащить Джима из рабства. Он прячет плот и отправляется к Фелпсам.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The letter he will not send",
+          "body": "<p>Huck writes to Miss Watson explaining where to find Jim. He immediately feels lighter, as though cleansed of sin. But before sending the letter he remembers their nights on the raft. Jim let him sleep through his watch, rejoiced when he returned from the fog, cared for him, and called him a friend.</p><p>Huck looks at the paper and chooses what he still believes will mean eternal damnation. He tears the letter up. Then he will be a wicked boy all the way, beginning by trying to steal Jim out of slavery. He hides the raft and sets off for the Phelpses’.</p>"
+        }
+      }
+    },
+    {
+      "id": "phelps-name",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Хак узнаёт своё новое имя",
+          "body": "<p>На плантации женщина бросается обнимать Хака как давно ожидаемого родственника. Он подыгрывает, мучительно не зная, кто же он теперь. Потом выясняется: здесь ждут Тома Сойера, а хозяйка — его тётя Салли. Более удобное чужое имя трудно придумать.</p><p>Остаётся перехватить настоящего Тома до его приезда. Хак выезжает ему навстречу. На дороге Том сначала принимает живого приятеля за привидение. Хак объясняет и собственную мнимую смерть, и то, что Джим заперт неподалёку.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Huck learns his new name",
+          "body": "<p>At the plantation a woman embraces Huck as a long-awaited relative. He plays along, desperately wondering who he is supposed to be. At last he learns: they are expecting Tom Sawyer, and the woman is Tom’s Aunt Sally. He could hardly have borrowed a more convenient name.</p><p>He must intercept the real Tom before he arrives. Huck drives out to meet him. On the road Tom first takes his living friend for a ghost. Huck explains his supposed murder and the fact that Jim is locked up nearby.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "tom-agrees",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Том тоже согласен",
+          "body": "<p>Хак предупреждает: он собирается освободить Джима, что бы Том об этом ни думал. Том неожиданно предлагает помочь. Хак изумлён: воспитанный мальчик, из приличной семьи — и готов на такое! Объяснения он пока не получает.</p><p>В дом Том приезжает под именем собственного брата Сида. Тётю Салли он сначала выводит из себя дерзким поцелуем, потом объявляется племянником и получает объятия. Пока взрослые радуются гостям, двое мальчиков ищут способ добраться до пленника.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Tom agrees to help",
+          "body": "<p>Huck warns Tom that he intends to free Jim, whatever Tom thinks. Unexpectedly Tom offers to help. Huck is astonished: a well-brought-up boy from a respectable family, willing to do such a thing. He gets no explanation yet.</p><p>Tom reaches the house pretending to be his own brother Sid. He first enrages Aunt Sally with an impudent kiss, then reveals himself as a nephew and is embraced. While the adults celebrate their visitors, the boys look for a way to reach the captive.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "tar-and-feathers",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Поздно предупреждать",
+          "body": "<p>От Сайласа мальчики узнают: Джим рассказал о мошенническом представлении, и горожане уже предупреждены. Хак всё-таки бежит в город, чтобы спасти герцога и короля от расправы.</p><p>Поздно. Их несут верхом на жерди, обмазанных дёгтем и обсыпанных перьями. В этих страшных фигурах почти не узнать людей. Хаку становится дурно, и прежняя злость исчезает. Он жалеет даже тех, кто только что продал Джима. Возвращается подавленным и почему-то снова чувствует себя виноватым.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Too late to warn them",
+          "body": "<p>Silas tells the boys that Jim has exposed the fraudulent show and the townspeople have been warned. Huck nevertheless hurries to town to save the duke and king from punishment.</p><p>He is too late. They are being carried astride a rail, tarred and feathered, scarcely recognisable as human figures. Huck feels sick, and his anger falls away. He pities even the men who have just sold Jim. He returns subdued, somehow feeling guilty again.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "too-simple",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV–XXXV",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Побег слишком прост",
+          "body": "<p>Джим заперт в отдельной хижине. Хак предлагает взять ключ, снять цепь и уйти на плоту. Том признаёт, что план сработает, но именно это ему не нравится: слишком мало трудностей и славы.</p><p>Джиму предстоит побег по всем правилам приключенческих книг. Хотя цепь можно снять с ножки кровати, Том требует перепилить ножку. В хижину надо прорыть подкоп столовыми ножами. Хак спорит о ненужных хлопотах, но уступает авторитету Тома. Джиму обещают свободу и велят ждать.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The escape is too simple",
+          "body": "<p>Jim is locked in a separate hut. Huck proposes taking the key, removing the chain, and leaving on the raft. Tom admits it would work, which is precisely his objection: too little difficulty or glory.</p><p>Jim must escape according to the adventure books. Although the chain can be slipped off the bedpost, Tom demands that the post be sawn through. They must tunnel into the hut with table knives. Huck objects to the needless trouble but yields to Tom’s authority. Jim is promised freedom and told to wait.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "knives-and-spoons",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXVI–XXXVII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Кирка называется ножом",
+          "body": "<p>Ножами копать почти невозможно; руки покрываются волдырями. Том разрешает взять кирки, если они будут называть их ножами. Правила спасены, работа наконец движется.</p><p>Мальчики таскают простыни, свечи и ложки. Чтобы тётя Салли перестала замечать пропажи, они то прячут ложку во время счёта, то возвращают: девять превращается в десять и обратно. Для Джима пекут пирог с верёвочной лестницей, сделанной из простыни. Лестница ему не нужна, но для правильного книжного побега нужна обязательно.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Calling a pick a knife",
+          "body": "<p>Digging with knives is almost impossible; their hands blister. Tom permits picks as long as they call them knives. The rules are preserved, and work finally advances.</p><p>The boys steal sheets, candles, and spoons. To confuse Aunt Sally about the missing objects, they hide a spoon while she counts, then replace it: nine becomes ten and back again. They bake Jim a pie containing a rope ladder made from a sheet. He has no use for the ladder, but a proper bookish escape requires one.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "grindstone",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXVIII–XXXIX",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Пленник помогает себя освобождать",
+          "body": "<p>Том требует надписей и герба на камне. Мальчики не могут докатить тяжёлый точильный камень до хижины. Приходится звать Джима. Он снимает цепь, выходит через подкоп, помогает принести камень — и возвращается, чтобы его снова приковали.</p><p>В хижину поселяют крыс, змей и пауков: знаменитым узникам полагается такое общество. Джим жалуется, что в постели ему почти не осталось места и спать невозможно. Приготовления тянутся три недели. Сайлас, не дождавшись ответа с вымышленной плантации из объявления, собирается поместить новые объявления в газетах.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The prisoner helps with his escape",
+          "body": "<p>Tom requires inscriptions and a coat of arms on stone. The boys cannot roll a heavy grindstone all the way to the hut. They have to fetch Jim. He slips off his chain, crawls through the tunnel, helps bring the stone, and returns to be chained again.</p><p>Rats, snakes, and spiders are installed: famous prisoners are supposed to have such companions. Jim complains there is scarcely room for him in bed and no chance of sleep. Preparations last three weeks. Silas, getting no reply from the imaginary plantation named on the handbill, plans new newspaper advertisements.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "anonymous-warnings",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIX–XL",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Предупредить тех, от кого бежишь",
+          "body": "<p>Теперь нельзя медлить. Но Тому нужна ещё и погоня: иначе побег выйдет пресным. Он сочиняет анонимные письма, предупреждающие семью о разбойниках, которые ночью придут за Джимом. Взрослые пугаются всерьёз.</p><p>В назначенную ночь Хак попадает в комнату, где сидят пятнадцать вооружённых фермеров. Тётя Салли задерживает его расспросами; под шляпой тает утащенное масло. Увидев потёки, она сначала принимает их за признак страшной болезни, затем обнаруживает еду и отпускает мальчика. Хак несётся к хижине: всё зашло слишком далеко.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Warning the people you escape from",
+          "body": "<p>They can delay no longer. But Tom also needs a pursuit or the escape will be dull. He writes anonymous letters warning the family that robbers will come for Jim at night. The adults are genuinely frightened.</p><p>On the appointed night Huck finds himself in a room with fifteen armed farmers. Aunt Sally detains him with questions; stolen butter melts beneath his hat. Seeing the trickle, she first takes it for a terrible illness, then discovers the food and releases him. Huck races to the hut: they have taken things much too far.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "escape-and-bullet",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XL",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Выстрелы за спиной",
+          "body": "<p>Вооружённые люди уже подходят. Беглецы успевают забраться под кровать и выскользнуть через подкоп. У ограды Том цепляется штанами за щепку. Треск выдаёт их, и начинается стрельба.</p><p>Они петляют в темноте, пропускают погоню вперёд и добираются до лодки. Собаки узнают знакомых и бегут дальше, на шум. Наконец все трое на плоту. Том счастлив: настоящий побег, настоящая погоня, даже пуля в ноге. Хак и Джим, увидев кровь, радоваться перестают.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Shots behind them",
+          "body": "<p>Armed men are already approaching. The fugitives squeeze under the bed and slip out through the tunnel. At the fence Tom’s trousers catch on a splinter. Its crack betrays them, and shots follow.</p><p>They weave through darkness, let the pursuers run ahead, and reach the canoe. The dogs recognise familiar people and race on towards the noise. At last all three are on the raft. Tom is delighted: a real escape, a real pursuit, even a bullet in his leg. Seeing the blood, Huck and Jim stop celebrating.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "jim-will-not-leave",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XL–XLI",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Джим остаётся",
+          "body": "<p>Том требует отчаливать, но Джим отказывается. Если бы освобождали Тома, а ранили другого, разве Том бросил бы его без врача? Значит, и Джим не уйдёт. Он настаивает на помощи, хотя каждый лишний час опасен для его свободы.</p><p>Хак отправляется за доктором и рассказывает, будто брат случайно выстрелил во сне. Доктор не решается плыть вдвоём в маленькой лодке и уезжает один. Джиму велено скрываться в лесу, пока он лечит Тома. Хак остаётся на берегу ждать.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Jim stays",
+          "body": "<p>Tom demands that they push off, but Jim refuses. If Tom were being freed and someone else were wounded, would Tom abandon him without a doctor? Then neither will Jim. He insists on help although every extra hour threatens his freedom.</p><p>Huck goes for a doctor, claiming his brother accidentally fired a gun in his sleep. The doctor will not risk two people in the small canoe and sets off alone. Jim is to hide in the woods while he treats Tom. Huck remains ashore to wait.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "sallys-candle",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XLI; XXXII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Свеча в окне",
+          "body": "<p>Хак засыпает, потом сталкивается с Сайласом и снова оказывается в доме. Тётя Салли ждёт пропавшего «Сида», не подозревая, что это раненый Том. Она укладывает Хака, заботится о нём и просит больше никуда не уходить ради неё. Он не может отказать и видит, как она до рассвета сидит у окна со свечой.</p><p>Это та самая женщина, которая при его приезде выслушала выдумку о взрыве на пароходе. Узнав, что погиб чёрный человек, она решила, что, значит, людям повезло. Хак получает её нежность; Джим всё ещё рискует снова оказаться в цепях.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A candle at the window",
+          "body": "<p>Huck falls asleep, then encounters Silas and is brought back to the house. Aunt Sally waits for the missing “Sid”, unaware he is the wounded Tom. She tucks Huck in, cares for him, and asks him not to leave again for her sake. He cannot refuse. Until dawn he sees her sitting by a candle at the window.</p><p>This is the woman who heard his invented steamboat-explosion story when he arrived. Told that a Black man had died, she treated it as a lucky escape for people. Huck receives her tenderness; Jim still risks being chained again.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "chained-again",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XLII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Благодарность и новые цепи",
+          "body": "<p>Тома приносят домой, Джима приводят связанным. Когда доктору понадобилась помощь, Джим вышел из укрытия и ухаживал за больным. Доктор не дал ему уйти; прибывшие люди схватили его спящим.</p><p>Некоторые хотят повесить беглеца, но другие напоминают, что придётся возмещать его стоимость хозяину. Джима снова запирают, с ещё более тяжёлыми цепями. Доктор хвалит его верность и просит не обращаться с ним жестоко. Люди обещают больше не бранить его. Снять цепи или улучшить еду им в голову не приходит. Хак надеялся хотя бы на это.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Thanks, and heavier chains",
+          "body": "<p>Tom is carried home; Jim is brought back bound. When the doctor needed help, Jim left hiding and nursed the patient. The doctor would not let him get away; arriving men seized him while he slept.</p><p>Some want to hang the fugitive, but others point out that they would have to repay his owner. Jim is locked up under heavier chains. The doctor praises his faithfulness and asks for kinder treatment. The men promise not to curse him any more. Removing chains or improving his food does not occur to them. Huck had hoped for at least that.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "toms-secret",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XLII",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "То, что Том знал с самого начала",
+          "body": "<p>Очнувшись, Том начинает хвастаться всем побегом перед тётей Салли. Когда узнаёт, что Джим снова в плену, немедленно требует отпустить его. Мисс Уотсон умерла два месяца назад и освободила Джима в завещании. Том знал об этом ещё до начала своей затеи.</p><p>На вопрос, зачем же он всё устроил, Том отвечает: ради приключения. Появившаяся тётя Полли подтверждает завещание и разоблачает подмену имён. Хак снова Хак, Том снова Том. Скрытые Томом письма объясняют, почему взрослые так долго не могли разобраться.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "What Tom knew all along",
+          "body": "<p>Waking, Tom begins boasting to Aunt Sally about the whole escape. When he learns that Jim is captive again, he demands his release. Miss Watson died two months earlier and freed Jim in her will. Tom knew this before his scheme began.</p><p>Asked why he arranged it all, Tom explains that he wanted the adventure. Aunt Polly arrives, confirms the will, and exposes the borrowed names. Huck is Huck again; Tom is Tom. Letters Tom concealed explain why the adults remained confused so long.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "freedom-and-forty",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "The Last",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Свободный человек",
+          "body": "<p>Цепи снимают. Фелпсы, узнав, как Джим помогал доктору, теперь кормят его и окружают вниманием. Том даёт ему сорок долларов за терпение во время затеи. Джим радуется: ещё на острове он предсказывал, что снова разбогатеет.</p><p>Том рассказывает несостоявшийся план: плыть дальше с приключениями, потом сообщить Джиму о свободе и вернуть домой с музыкой и факелами. Но Джим уже был свободен по завещанию; недели настоящего плена и опасности ему устроили ради спектакля. О том, встретится ли он с женой и детьми, роман дальше не рассказывает.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "A free man",
+          "body": "<p>The chains come off. Hearing how Jim helped the doctor, the Phelpses now feed and fuss over him. Tom gives him forty dollars for his patience during the scheme. Jim is delighted: on the island he predicted he would become rich again.</p><p>Tom describes his abandoned plan: more adventures downstream, then tell Jim he is free and bring him home with music and torches. But the will had already freed Jim; the weeks of real captivity and danger were arranged for an adventure. The novel does not go on to show whether he is reunited with his wife and children.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "pap-in-house",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX; The Last",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Лицо, которое Джим закрыл",
+          "body": "<p>Том уже предлагает новые приключения. Хак считает, что денег у него больше нет: наверняка отец успел забрать их у судьи и пропить. Том уверяет, что состояние цело, а отец не возвращался.</p><p>Джим знает больше. Помнит ли Хак плавучий дом и мертвеца, чьё лицо он не дал увидеть? Это был его отец. Теперь тот уже не придёт за ним. Случившееся на острове, о чём Джим отказывался говорить, догоняет Хака только в конце путешествия.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "The face Jim covered",
+          "body": "<p>Tom is already proposing new adventures. Huck thinks he has no money left: surely Pap has taken it from the judge and drunk it away. Tom assures him the fortune is intact and Pap never returned.</p><p>Jim knows more. Does Huck remember the floating house and the dead man whose face Jim kept him from seeing? That was his father. He will not come for Huck again. What happened on the island, which Jim refused to discuss, reaches Huck only at the journey’s end.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "light-out",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "The Last",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "Раньше остальных",
+          "body": "<p>Том поправляется и носит вынутую пулю на шнурке, словно часы. Хак завершает свой рассказ, измученный самой работой над книгой: знай он заранее, сколько с ней хлопот, не взялся бы.</p><p>Тётя Салли собирается усыновить его и воспитать как следует. Поэтому Хак решает уйти на запад, в Территорию, раньше остальных. Дом с заботой и правилами он уже пробовал. Последнее его движение — опять прочь от тех, кто намерен сделать его цивилизованным.</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Ahead of the others",
+          "body": "<p>Tom recovers and wears the extracted bullet on a guard, consulting it like a watch. Huck finishes his account, worn out by writing a book: had he known how much trouble it was, he would never have begun.</p><p>Aunt Sally intends to adopt and civilise him. So he decides to head west for the Territory ahead of the others. He has already tried a household of care and rules. His final movement is away again from the people determined to make him civilised.</p>"
+        }
+      },
+      "spoilerTier": "full",
+      "spoiler": "full"
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "sources": [],
+      "sourceLocator": "",
+      "copy": {
+        "ru": {
+          "section": "Гекльберри Финн",
+          "title": "За следующим поворотом",
+          "body": "<p>Здесь заканчивается выбранная глубина. Essential и Core оставляют Хака на пути к освобождению друга, сохраняя исход в тайне. В Deep есть продолжение и развязка — после отдельного предупреждения.</p><p>Полный английский роман доступен через «Источники».</p>"
+        },
+        "en": {
+          "section": "Huckleberry Finn",
+          "title": "Beyond the next bend",
+          "body": "<p>This reading depth ends here. Essential and Core leave Huck on his way to free his friend, keeping the outcome unrevealed. Deep contains the continuation and ending after a separate warning.</p><p>The complete English novel is available through Sources.</p>"
+        }
+      },
+      "final": true
+    }
+  ]
+}

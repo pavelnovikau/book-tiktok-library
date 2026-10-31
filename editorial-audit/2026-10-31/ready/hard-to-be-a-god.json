@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 2,
+  "slug": "hard-to-be-a-god",
+  "status": "ready-for-independent-check",
+  "date": "2026-10-31",
+  "updatedAtUtc": "2026-10-31T19:57:40.316636+00:00",
+  "pass": 2,
+  "verdict": "EDIT",
+  "deliverables": [
+    {
+      "path": "collector-output/hard-to-be-a-god/story-data.json",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/story-data.json",
+      "sha256": "1c061f32637acd4dcf891306d45c9743c01fb9ca860c981bef6e42e00b81bc47"
+    },
+    {
+      "path": "collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/hard-to-be-a-god.html",
+      "sha256": "8e8669af5f78b36fb3567b29a54c02fa5396db924fe57a55c343aec07e05031b"
+    },
+    {
+      "path": "collector-output/hard-to-be-a-god/sources.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/sources.md",
+      "sha256": "b4e6fb1845e25b0133fdfdb4f083c850841ecf58f45e3d3f119cf049d8abe49c"
+    },
+    {
+      "path": "collector-output/hard-to-be-a-god/QA.md",
+      "absolutePath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/hard-to-be-a-god/QA.md",
+      "sha256": "a3e37f125b2d4ceb13be9e78673ef312f24cec509e6db2915e99f113edeb67bf"
+    }
+  ],
+  "counts": {
+    "essential": 8,
+    "core": 13,
+    "deep": 33
+  },
+  "targetModesChanged": false,
+  "actualReviewedPairsThisPass": 33,
+  "allResultingPairsRead": true,
+  "changedPairCount": 6,
+  "changedScreenIds": [
+    "childhood-game",
+    "okana",
+    "clearance-ritual",
+    "lightning-demand",
+    "hope-burden",
+    "final"
+  ],
+  "contentMode": "narrative",
+  "reportPath": "editorial-audit/2026-10-31/books/hard-to-be-a-god.md",
+  "reportSha256": "65e3ba209bdcdcbb8ec2fa6c9bea1643cb3f150f6629c7676364a4b6bdb33eb4",
+  "repairReportPath": "editorial-audit/2026-10-31/repairs/hard-to-be-a-god-pass2.md",
+  "repairReportSha256": "1ae33496a67eb8d558f387afca61a2239f6a2d15c581dd6357db52d543eebd5e",
+  "evidencePath": "editorial-audit/2026-10-31/books/hard-to-be-a-god-pass2-evidence.json",
+  "evidenceSha256": "97747ab92542bd087ed0545d7afffa1cafc06738bbbb3375ded0f7321b301c47",
+  "previousReview": {
+    "jsonPath": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god.json",
+    "jsonSha256": "b459ee984eec3b53ce3f2e357ef57317984de897352ec82ddc7ccf49a069d938",
+    "markdownPath": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god.md",
+    "markdownSha256": "2c4855c54a6a9b00c000b5dc852c51a958ddd0f2c5f278525eafa742e5facbc6",
+    "verdictOnPreRepairHashes": "REQUIRES-FIXES",
+    "filesUnchanged": true,
+    "newIndependentAcceptance": "pending"
+  },
+  "sourceScope": {
+    "primaryUrl": "https://www.rusf.ru/abs/books/tbb100.htm",
+    "primaryWitness": "Complete Russian electronic text on the official author site; specific print edition/variant not collated. EN translates this condensation.",
+    "primaryHtmlBytes": 370398,
+    "primaryHtmlSha256": "02ef0f659c7e11b1fe60a85fce2be24b68fbac61e47a7a85add49df70cdf900d",
+    "freshLiveFetchMatchesReadOnlyPrivateWitness": true,
+    "primarySectionsActuallyReadThisPass": [
+      {
+        "chapter": "Prologue",
+        "paragraphs": "P127–P155",
+        "supports": "Tell game, rolled headband; no paper material stated."
+      },
+      {
+        "chapter": "Chapter 1",
+        "paragraphs": "P098–P174",
+        "supports": "Kabani/Midas, complete first Condor argument and Gug’s missing-Budakh report."
+      },
+      {
+        "chapter": "Chapter 2",
+        "paragraphs": "P023; P118–P148",
+        "supports": "Okana’s invitation and Vaga’s actual bargaining scene."
+      },
+      {
+        "chapter": "Chapter 4",
+        "paragraphs": "P022–P053; P180–P218",
+        "supports": "Failed Okana encounter, drinking with Pampa, frightening return and confession/brine resolution."
+      },
+      {
+        "chapter": "Chapter 8",
+        "paragraphs": "P059–P151; P177–P219",
+        "supports": "Continuous chancellery/prison/Budakh/Pampa release; poison account and complete Budakh dialogue."
+      },
+      {
+        "chapter": "Chapter 9",
+        "paragraphs": "P001–P053 (complete chapter)",
+        "supports": "Complete Arata visit, human targets, lesser spoken argument, internal historical objection, uneasy respect, hope and departure."
+      },
+      {
+        "chapter": "Chapter 10",
+        "paragraphs": "P001–P103 (complete chapter)",
+        "supports": "Condor reversal/Gug objection, hostage warning, imagined Earth journey, uncompleted Pampa shelter plan and fatal attack."
+      },
+      {
+        "chapter": "Epilogue",
+        "paragraphs": "P001–P037 (complete epilogue)",
+        "supports": "Indirect aftermath, uncertain road comparison and actual final image; establishes the chronology that final must not reopen."
+      }
+    ],
+    "entireTextReadSequentially": false,
+    "printEditionCollated": false,
+    "publishedEnglishTranslationCollated": false,
+    "wholeEditionFidelityCertified": false,
+    "sourceGap": false,
+    "privateExtractionOutsidePublicRepo": true,
+    "detailsPath": "collector-output/hard-to-be-a-god/sources.md"
+  },
+  "changes": [
+    "HG-01: Arata now names nobles, descendants, armies and supporters as targets and promises to return the weapons after liberation. Rumata labels his spoken mortality argument a lesser one; his private forecast follows land distribution to serfdom and new barons. His felt inferiority before Arata remains explicit. Both languages distinguish the character’s forecast from an author/narrator universal law.",
+    "HG-02: EN unambiguously makes Okana’s attraction the means Rumata considers using to obtain information. Both languages show that he leaves without going through with the intimacy; later, drunk after carousing with Pampa, he frightens Kira, admits that her apparent dream was real, and receives the offer of brine. The particular lie no longer ends as unresolved estrangement.",
+    "HG-03: Replaced an unsupported completed circuit of offices/permissions with the observable action: take and wear purification bracelets, carry the stamped paper straight to prison, display it, declare the bishop has given him Budakh, receive the prisoner and remove the noose. The paper is not represented as a genuine release order.",
+    "HG-04: The shared final explicitly begins at the story’s outset and ends by identifying the opening stakes. It functions as a retrospective after the epilogue without asserting that the completed search/protection tasks are still pending; Essential/Core keep their protected ending.",
+    "HG-05: Deleted only the unsupported material adjective: бумажным / paper. The existing cap/shot sequence remains."
+  ],
+  "findingClosure": [
+    {
+      "id": "HG-01",
+      "status": "implemented-pending-independent-check",
+      "screenIds": [
+        "lightning-demand",
+        "hope-burden"
+      ]
+    },
+    {
+      "id": "HG-02",
+      "status": "implemented-pending-independent-check",
+      "screenIds": [
+        "okana"
+      ]
+    },
+    {
+      "id": "HG-03",
+      "status": "implemented-pending-independent-check",
+      "screenIds": [
+        "clearance-ritual"
+      ]
+    },
+    {
+      "id": "HG-04",
+      "status": "implemented-pending-independent-check",
+      "screenIds": [
+        "final"
+      ]
+    },
+    {
+      "id": "HG-05",
+      "status": "implemented-pending-independent-check",
+      "screenIds": [
+        "childhood-game"
+      ]
+    }
+  ],
+  "unresolvedIssues": [],
+  "reviewLimits": [
+    "Independent check/acceptance of these new hashes remains required.",
+    "Selected continuous primary passages; no every-word or variant certification.",
+    "Physical iPhone, installed PWA, swipe gesture and production testing not performed."
+  ],
+  "checks": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "authoringEqualsEffectiveHtml": true,
+    "htmlOnlyGeneratedAddition": "modes",
+    "runtimeAndCustomShellByteIdenticalOutsideData": true,
+    "idsLevelsOrderSourceMapsUnchanged": true,
+    "topLevelAuthoringMetadataUnchanged": true,
+    "browserReport": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/hard-to-be-a-god-pass2-private/qa/browser.json",
+    "renderedInstances": 864,
+    "savedDeepReturnPaths": 80,
+    "finalRestartClearsProgress": true,
+    "sizes": [
+      "320x568",
+      "390x844",
+      "1024x768",
+      "1440x900"
+    ],
+    "allModesLanguagesThemes": true,
+    "offlineEmulated": true,
+    "noRuntimeExceptionsOrRemoteRequests": true,
+    "oneCompactIconHeader": true,
+    "embeddedFontsLoaded": true,
+    "narrowDenseScreenScrollsToLastLine": true,
+    "temporaryProfileAndOwnedProcessGroupCleaned": true
+  },
+  "readingMetrics": {
+    "bytes": 299590,
+    "cumulativeWords": {
+      "essential": {
+        "ru": 392,
+        "en": 457
+      },
+      "core": {
+        "ru": 651,
+        "en": 758
+      },
+      "deep": {
+        "ru": 1666,
+        "en": 1955
+      }
+    },
+    "approximateMinutes": {
+      "ru": [
+        3,
+        4,
+        10
+      ],
+      "en": [
+        3,
+        4,
+        9
+      ]
+    }
+  },
+  "publisherAttention": [
+    "Round-2 independent review closes HG-01–HG-05 on the base hashes. Validate the sole post-review HG-06 deletion against the primary capture scene and closure diff, then accept/integrate these new deliverable hashes. Original review files remain unchanged; no third independent whole-book review is claimed.",
+    "Recheck HG-01 through HG-05 against the unchanged independent review and actual primary passages, then record independent acceptance on the new hashes.",
+    "Root integration/publication is not performed by this implementation worker.",
+    "Keep current Sources, narrative presentation, generic saved-Deep labels and book-local spoiler metadata.",
+    "This pass preserves all current 33 IDs/levels/storage code; earlier 112-to-33 migration remains the historical publisher integration concern, not a new migration in this pass."
+  ],
+  "parentCorrections": {
+    "findings": [
+      "HG-06"
+    ],
+    "changedScreens": [
+      "palace-night"
+    ],
+    "baseIndependentReview": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god-pass2.json",
+    "HG01to05": "closed-by-independent-round2",
+    "newIndependentAcceptance": false,
+    "closure": "editorial-audit/2026-10-31/publisher-findings/hard-to-be-a-god-meaning-fix-closure.json"
+  },
+  "checksParentLocalizedFix": {
+    "passes": 69,
+    "failures": [],
+    "warnings": []
+  }
+}

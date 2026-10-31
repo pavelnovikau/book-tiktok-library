@@ -1,8 +1,8 @@
 {
   "release": "03",
   "date": "2026-10-31",
-  "state": "local-acceptance-passed-ready-to-open-pr",
-  "updatedAt": "2026-10-31T20:12:01.843009+00:00",
+  "state": "merged-production-verified",
+  "updatedAt": "2026-10-31T20:14:44.991300+00:00",
   "checkout": "/Users/pn/.t3/worktrees/smartcat/t3-63de5254",
   "baseMain": "87fc7638933a0187ab650d45fadfeacaeaf0242f",
   "setup": "Existing tool-provided Smartcat worktree; fetched library main to isolated book-release/main and switched only this worktree to release03 branch; no shell clone/worktree and no canonical-source Git mutation.",
@@ -741,8 +741,26 @@
     "exactPublicAssets": 43
   },
   "publication": {
-    "merged": false,
-    "productionVerified": false
+    "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/28",
+    "head": "9408d040abad02dfeb240b08c3f829c43d1f97cd",
+    "mergeCommit": "bc9377a21c41bb2df6e8a3ef4a9c131e7e34204c",
+    "mergedAt": "2026-10-31T20:13:28Z",
+    "checks": "3/3 SUCCESS at the exact accepted head",
+    "reviews": "Four independent matching-hash PASS; seven explicit primary-source publisher closures; zero GitHub reviews, no required approval decision.",
+    "merged": true,
+    "productionVerified": true,
+    "mergeSnapshot": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/merged-pr28.json",
+    "productionInstruction": "Verify all served public hashes against the merge commit; no live claim from merge alone.",
+    "productionVerifiedAt": "2026-10-31T20:14:03.821Z",
+    "productionProof": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/production-http.json",
+    "productionInteractions": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/production-interactions.json",
+    "productionConsent": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/production-consent.json",
+    "productionBooks": 33,
+    "productionScreens": 2353,
+    "productionAllowlistFiles": 44,
+    "productionRuntimeExceptions": 0,
+    "productionPrivatePaths": "All six excluded-path probes returned 404",
+    "productionScope": "44/44 byte-identical public assets at actual production origin; all 11 accepted reader Sources/progress/swipe, all seven bilingual native/custom Deep/resume/reload/restart guards exercised; no physical iPhone claim."
   },
   "limits": [
     "Uses completed independent whole-corpus reviews plus direct primary-source checks of five corrected pairs; no repeat whole-book review or exhaustive full-edition certification.",
@@ -870,6 +888,10 @@
       "sha256": "818a27fbd4e2a442741f92ebc9100d1fd4ca4394c0c4ef203289f39e60910856"
     },
     {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/merged-pr28.json",
+      "sha256": "3def05c1bc911d5195be703741609aab84b328ac5bf85f0ed35ef6c561b0525c"
+    },
+    {
       "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/monday-card-1440.png",
       "sha256": "43aeb9c177640cbd225fa3698032e22fed7c1935dee3e2eb94727afe44b6808c"
     },
@@ -882,12 +904,28 @@
       "sha256": "5c013a6cd4e530e89810943e2e38f51d031ed54218a3a06a1bf9979257ba895b"
     },
     {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/production-consent.json",
+      "sha256": "13f00a6ae525bc55aec47a01a0da2ea3e8bfbc540157f41e5cd14ce493092751"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/production-http.json",
+      "sha256": "d21c27661b5ecbc8456b3cb983d56980c31e536bcf3d163388be74e31bc39834"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/production-interactions.json",
+      "sha256": "e37282ceb39670eb6dab8ca195df00bb910da370f6e9398c4c040911c04e7e2b"
+    },
+    {
       "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/public-allowlist.json",
       "sha256": "75060051167ea520c8f8841d3a7a946c1d3d4e24774456b4fbe4f48ab806241f"
     },
     {
       "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/release-card.json",
       "sha256": "f7bd92d3f0b064153f05bcaa291042a7d08e07db7d0154c49e885abb684bd9b7"
+    },
+    {
+      "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/remote-pr28.json",
+      "sha256": "1cfd5611af6ff982e5b4b6c8d7520664aa5c371c3a4cfbf9afc043d80e8cc76a"
     },
     {
       "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/shell-idempotence.json",
@@ -897,5 +935,16 @@
       "path": "editorial-audit/2026-10-31/publisher-findings/release-03-proof/structural.json",
       "sha256": "c7c29ea5946564c30126d9b12289770b1d56c22b06fc26871c82c914048402c6"
     }
-  ]
+  ],
+  "reconciliation": {
+    "sharedDestination": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings",
+    "copiedOnly": [
+      "release-03.json",
+      "release-03.md",
+      "release-03-proof/"
+    ],
+    "rootFilesCopiedToShared": false,
+    "publicationEvidenceGitState": "Post-merge receipt updates and final remote/production proof remain in publisher worktree/shared findings for parent reconciliation; accepted content and local proof are in merged PR28.",
+    "nextPublisher": "Hard to Be a God pass2 + final HG06 deletion closure arrived after sealing; validate that local closure for the next incremental release. Settings/font UI must integrate from latest main without replacing accepted corpora. NVC still needs independent approval."
+  }
 }

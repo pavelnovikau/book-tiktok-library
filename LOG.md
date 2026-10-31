@@ -1,5 +1,13 @@
 # Work log
 
+## 2026-10-31 — Editorial release 04
+
+Accepted four new readers / 146 RU/EN pairs: HardGod 8/13/33, Huck 24/36/54, NVC 16/26/30, Fifth Discipline 11/22/29. Huck/Senge match completed independent PASS hashes. HG-06 and NVC-01/02 are directly closed against actual primary passages; reversing only those phrases reproduces the original reviewed JSON/HTML hashes. Original REQUIRES-FIXES reviews and source boundaries stay intact. No full-book or translation-fidelity certificate is invented.
+
+Catalogue: 37 books / 2499 screens; four distinct cover motifs and controlled discovery. Previous 33 root files and metadata remain unchanged. Collector HTML was integrated without plain rebuilding: Huck custom consent preserved; HardGod gains document-local native consent; valid IDs retained, unavailable IDs discarded. NVC's long RU card title now wraps at320. Shared header/PWA synchronization is idempotent.
+
+4 × 69 structural checks, 4832 browser rendering visits, Sources/progress/restart, native/custom consent/Escape/downgrade, focus/swipe, safe-area and offline checks pass. Public allowlist:48 assets. Release03 final evidence reconciled explicitly; parent snapshots/dirty canonical root files untouched. Release04 PR/head/production state: editorial-audit/2026-10-31/publisher-findings/release-04.json. Meditations arrived after sealing; Settings PR29 remains separate and root-coordinated. All work used the existing T3-prepared BOOK checkout; canonical copyback is release04 receipts/proof only.
+
 ## 2026-10-31 — Editorial release 03
 
 Приняты 11 readers / 457 RU/EN pairs: 4 matching-hash independent PASS и 7 targeted publisher closures по 9 required findings. Сохранены оригинальные REQUIRES-FIXES records, новые authoring/HTML hashes приняты явно. Первичные сцены проверены для Make Time, Monday, Accelerando, Zebras, Lost World, Treasure Island и Grant; White Fang принят по точному PASS. Корпуса не пересобирались из plain template: Accelerando сохраняет custom cover/dialog, fiction — narrative mode и Deep consent. Удалённые saved IDs сбрасываются безопасно.

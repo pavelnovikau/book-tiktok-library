@@ -35,7 +35,7 @@ if (!phase) {
   console.log(`Browser QA passed. Reports and screenshots: ${outputDir}`);
   process.exit(0);
 }
-if (!phases.includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
+if (![...phases, 'release-state', 'release-cards'].includes(phase)) throw new Error(`Unknown QA phase: ${phase}`);
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-chrome-'));
 let summary = {};
 let server;
@@ -510,8 +510,10 @@ if (phase === 'focus') {
 
 
 if (phase === 'ios') {
+  const desktopBook = requestedBooks.length ? books[0] : 'theory-of-constraints.html';
+  const installBook = requestedBooks.length ? books[0] : 'essentialism.html';
   await command('Emulation.setDeviceMetricsOverride', { width: 1440, height: 900, deviceScaleFactor: 1, mobile: false });
-  await navigate('theory-of-constraints.html', "document.getElementById('story') && document.getElementById('story').children.length > 0");
+  await navigate(desktopBook, "document.getElementById('story') && document.getElementById('story').children.length > 0");
   const desktopRail = await evaluate(`getComputedStyle(document.getElementById('desktopRail')).display`);
   assert(desktopRail !== 'none', 'desktop reader rail is not visible');
   await evaluate(`document.documentElement.setAttribute('data-focus-mode', 'true')`);
@@ -529,7 +531,7 @@ if (phase === 'ios') {
     userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1'
   });
   await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 3, mobile: true });
-  await navigate('essentialism.html?ios-install-qa=1', "document.getElementById('story') && document.getElementById('story').children.length > 0");
+  await navigate(installBook + '?ios-install-qa=1', "document.getElementById('story') && document.getElementById('story').children.length > 0");
   await waitFor(async () => evaluate(`document.getElementById('bookLibraryInstallDialog')?.open === true`), 'iOS install guide');
   const iosInstall = await evaluate(`(() => {
     const trigger = document.getElementById('bookLibraryInstallTrigger');
@@ -581,7 +583,7 @@ if (phase === 'ios') {
   await command('Page.addScriptToEvaluateOnNewDocument', {
     source: "Object.defineProperty(navigator, 'standalone', { configurable: true, get: function () { return true; } });"
   });
-  await navigate('essentialism.html?standalone-qa=1', "document.getElementById('story') && document.getElementById('story').children.length > 0");
+  await navigate(installBook + '?standalone-qa=1', "document.getElementById('story') && document.getElementById('story').children.length > 0");
   await delay(550);
   const standaloneInstall = await evaluate(`(() => ({
     installable: document.documentElement.dataset.bookInstallable === 'true',
@@ -592,7 +594,7 @@ if (phase === 'ios') {
   assert(standaloneInstall.trigger === 'none', 'install trigger remained visible in standalone mode');
   assert(!standaloneInstall.dialog, 'install guide opened in standalone mode');
 
-  summary = { desktopFocusAndRail: 'passed', iosInstallGuide: 'browser and standalone modes passed', physicalIPhone: false };
+  summary = { desktopBook, installBook, desktopFocusAndRail: 'passed', iosInstallGuide: 'browser and standalone modes passed', physicalIPhone: false };
 }
 
 if (phase === 'repaired') {
@@ -629,7 +631,9 @@ if (phase === 'repaired') {
               // Some book-local runtimes list locked placeholders for deeper screens.
               for (const button of contents) {
                 const target = data.screens.find(s => s.id === button.dataset.goTo);
-                if (target.level > level && button.textContent.includes(target.copy[language].title)) failures.push(target.id + ' hidden title');
+                // Custom readers may name non-spoiler Core chapters at Essential.
+                // Ending titles must remain masked until the Deep route opens.
+                if (target.level === 3 && level < 3 && button.textContent.includes(target.copy[language].title)) failures.push(target.id + ' hidden ending title');
               }
               for (const screen of visible) {
                 document.querySelector('#contentsList [data-go-to="' + screen.id + '"]').click();
@@ -829,7 +833,9 @@ if (phase === 'release-consent') {
 }
 
 if (phase === 'release-closures') {
-  const receipt = JSON.parse(fs.readFileSync(path.join(root, 'editorial-audit/2026-10-31/publisher-findings/release-03.json'), 'utf8'));
+  const release = process.argv.find(arg => arg.startsWith('--release='))?.slice(10) || '03';
+  if (!/^\d{2}$/.test(release)) throw new Error('Expected a two-digit editorial release');
+  const receipt = JSON.parse(fs.readFileSync(path.join(root, `editorial-audit/2026-10-31/publisher-findings/release-${release}.json`), 'utf8'));
   const checks = [];
   consentDecision = true;
   for (const candidate of receipt.acceptedCandidates.filter(candidate => candidate.checkedScreens && releaseBooks.includes(candidate.slug + '.html'))) {
@@ -855,6 +861,60 @@ if (phase === 'release-closures') {
     }
   }
   summary = { checks, changedCopyIntegration: 'exact current title/body displayed', literaryScope: 'Source closure is separately recorded; this phase tests rendered corrected copy.' };
+}
+
+if (phase === 'release-state') {
+  const checks = [];
+  for (const book of releaseBooks) {
+    const slug = book.slice(0, -5);
+    for (const language of ['ru', 'en']) {
+      await navigate(book, "document.querySelector('[data-start]')");
+      await evaluate(`Object.keys(localStorage).filter(key => key.startsWith('book-tiktok.${slug}.')).forEach(key => localStorage.removeItem(key)); localStorage.setItem('book-tiktok.${slug}.language', '${language}')`);
+      await navigate(book, "document.querySelector('[data-start]')");
+      assert(await evaluate("Boolean(document.querySelector('[data-mode=essential][aria-pressed=true]')) && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: fresh reader is not Essential/cover`);
+      const stable = await evaluate(`(() => { const data = JSON.parse(document.getElementById('book-tiktok-data').textContent); const screen = data.screens.find(s => s.level === 2); localStorage.setItem('book-tiktok.${slug}.lastScreen', screen.id); return { id: screen.id, title: screen.copy['${language}'].title }; })()`);
+      await navigate(book, "document.querySelector('[data-start=continue]')");
+      await evaluate("document.querySelector('[data-start=continue]').click()");
+      assert(await evaluate(`document.querySelector('#story h1').textContent === ${JSON.stringify(stable.title)}`), `${book}/${language}: Core stable saved ID was not restored`);
+      await evaluate("sourcesButton.click()");
+      assert(await evaluate(`sourcesDialog.open && methodNote.textContent === JSON.parse(document.getElementById('book-tiktok-data').textContent).methodNote['${language}']`), `${book}/${language}: source scope changed`);
+      await evaluate("sourcesDialog.close(); document.querySelector('#contentsList [data-go-to=final]').click(); nextButton.click()");
+      assert(await evaluate(`!localStorage.getItem('book-tiktok.${slug}.lastScreen') && Boolean(document.querySelector('[data-start=begin]'))`), `${book}/${language}: final restart retained saved progress`);
+      const custom = await evaluate("Boolean(document.getElementById('spoilerDialog'))");
+      if (custom) {
+        await evaluate("document.querySelector('[data-mode=deep]').click()");
+        assert(await evaluate('spoilerDialog.open'), `${book}/${language}: custom consent missing`);
+        await command('Input.dispatchKeyEvent', { type: 'keyDown', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
+        await command('Input.dispatchKeyEvent', { type: 'keyUp', key: 'Escape', code: 'Escape', windowsVirtualKeyCode: 27 });
+        assert(await evaluate("!spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]') && Boolean(document.querySelector('.cover-layout'))"), `${book}/${language}: Escape opened an ending`);
+        await evaluate("document.querySelector('[data-mode=deep]').click(); spoilerAccept.click(); document.querySelector('[data-mode=core]').click(); document.querySelector('[data-mode=deep]').click()");
+        assert(await evaluate("spoilerDialog.open && !document.querySelector('[data-mode=deep][aria-pressed=true]')"), `${book}/${language}: lowering depth retained consent`);
+        await evaluate('spoilerCancel.click()');
+      }
+      checks.push({ book, language, freshEssential: true, savedCoreId: stable.id, finalRestart: true, sourceScope: true, customEscapeAndDowngrade: custom ? 'passed' : 'not applicable' });
+    }
+  }
+  summary = { checks, physicalIPhone: false };
+}
+
+if (phase === 'release-cards') {
+  const checks = [];
+  for (const width of [320, 1440]) {
+    await command('Emulation.setDeviceMetricsOverride', { width, height: width === 320 ? 568 : 900, deviceScaleFactor: 1, mobile: width < 900 });
+    await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
+    for (const language of ['ru', 'en']) {
+      await evaluate(`if (document.documentElement.lang !== '${language}') languageButton.click()`);
+      for (const book of releaseBooks) {
+        const expected = catalogue.books.find(item => item.file === book);
+        const result = await evaluate(`(() => { const card = document.querySelector('[data-book="${expected.slug}"]'); return { title: card.textContent.includes(${JSON.stringify(expected.title[language])}), author: card.textContent.includes(${JSON.stringify(expected.author[language])}), description: card.textContent.includes(${JSON.stringify(expected.description[language])}), motif: card.querySelector('[data-cover-motif]').dataset.coverMotif, artwork: card.querySelectorAll('.cover__art svg path').length, href: card.getAttribute('href') || card.querySelector('a')?.getAttribute('href'), overflow: card.scrollWidth > card.clientWidth + 1 }; })()`);
+        assert(result.title && result.author && result.description && result.motif === expected.cover.motif && result.artwork > 0 && !result.overflow && result.href === './' + book, `${book}/${language}/${width}: card integration failed: ${JSON.stringify(result)}`);
+        checks.push({ book, language, width, ...result });
+      }
+    }
+    const capture = await command('Page.captureScreenshot', { format: 'png', captureBeyondViewport: true });
+    fs.writeFileSync(path.join(outputDir, `release-cards-${width}.png`), Buffer.from(capture.data, 'base64'));
+  }
+  summary = { checks, catalogueBooks: expectedBookCount, catalogueScreens: catalogue.books.reduce((n, book) => n + book.screenCount, 0) };
 }
 
 if (phase === 'offline') {

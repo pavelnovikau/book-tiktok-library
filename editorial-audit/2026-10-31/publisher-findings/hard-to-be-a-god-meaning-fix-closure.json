@@ -1,0 +1,61 @@
+{
+  "slug": "hard-to-be-a-god",
+  "status": "corrected-awaiting-publisher-validation",
+  "findings": [
+    "HG-06"
+  ],
+  "changedScreens": [
+    "palace-night"
+  ],
+  "changes": {
+    "ru": {
+      "old": "Румата отбивается, ломает оружие нападающих, но их слишком много.",
+      "new": "Румата отбивается, но их слишком много."
+    },
+    "en": {
+      "old": "He fights back and breaks their weapons, but there are too many.",
+      "new": "He fights back, but there are too many."
+    }
+  },
+  "baseIndependentReview": {
+    "path": "editorial-audit/2026-10-31/reviews/hard-to-be-a-god-pass2.json",
+    "sha256": "4dc52e2ee1a94392cde16902d7a16f95e9875c1d1d39575969b7fa6608437d10",
+    "verdict": "REQUIRES-FIXES",
+    "HG01to05": "CLOSED",
+    "remainingFinding": "HG-06"
+  },
+  "primaryChecked": "Official Russian electronic text https://www.rusf.ru/abs/books/tbb100.htm, chapter 6, fight/capture passage (fresh web witness lines 497–503; independent P029–P033). Parent read the first axe-bearing rush, dislocated arms/dropped axes, spear blow, crowd and net. These support fighting back/capture, not broken weapons.",
+  "counts": {
+    "essential": 8,
+    "core": 13,
+    "deep": 33
+  },
+  "unrelatedNarrativePairsUnchanged": true,
+  "outerReaderCodePreserved": true,
+  "authoringEqualsEmbedded": true,
+  "structural": {
+    "passes": 69,
+    "failures": [],
+    "warnings": []
+  },
+  "baseHashes": {
+    "collector-output/hard-to-be-a-god/story-data.json": "7f340b24f744699f71164d4a0d48e8cd10aab877c37f3ade5d8f60d91face2ac",
+    "collector-output/hard-to-be-a-god/hard-to-be-a-god.html": "53176ebbdc1806cf5513dccbdf4d85a21dd661057471a568759d486e30fb143c",
+    "collector-output/hard-to-be-a-god/sources.md": "be60d15fd274369cf69b7046b66d78045897ac96bd7f4a46202b5489a9357545",
+    "collector-output/hard-to-be-a-god/QA.md": "cfe107aa5cb975329fdcd29a2ac0d09008b198ec0bbc270c71008405627d61d8"
+  },
+  "hashes": {
+    "collector-output/hard-to-be-a-god/story-data.json": "1c061f32637acd4dcf891306d45c9743c01fb9ca860c981bef6e42e00b81bc47",
+    "collector-output/hard-to-be-a-god/hard-to-be-a-god.html": "8e8669af5f78b36fb3567b29a54c02fa5396db924fe57a55c343aec07e05031b",
+    "collector-output/hard-to-be-a-god/sources.md": "b4e6fb1845e25b0133fdfdb4f083c850841ecf58f45e3d3f119cf049d8abe49c",
+    "collector-output/hard-to-be-a-god/QA.md": "a3e37f125b2d4ceb13be9e78673ef312f24cec509e6db2915e99f113edeb67bf"
+  },
+  "newIndependentAcceptance": false,
+  "browserProof": "editorial-audit/2026-10-31/publisher-findings/parent-hard-god-fix-browser.json",
+  "focusedBrowser": {
+    "status": "passed",
+    "assertions": 10,
+    "cleanedProfile": true,
+    "scope": "RU 320px dark and EN 1440px light, exact updated palace-night body/title, no horizontal overflow/runtime errors/remote requests"
+  }
+}

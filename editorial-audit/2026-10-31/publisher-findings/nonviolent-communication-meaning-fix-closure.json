@@ -1,0 +1,37 @@
+{
+  "slug": "nonviolent-communication",
+  "status": "corrected-awaiting-publisher-validation",
+  "findings": [
+    "NVC-01",
+    "NVC-02"
+  ],
+  "changedScreens": [
+    "two-punishment-questions",
+    "reflection-request"
+  ],
+  "primaryChecked": "Parent checked actual official author quote https://nonviolentcommunication.com/resources/mbr-quotes/ (entry beginning If we ask two questions, web line158;194 is character count, not page): second question concerns the other person's reasons, not the speaker's reason for wanting action. Also read official chapter10 https://www.nonviolentcommunication.com/email/20210501/Ch10.pdf, printed p150 / PDF index9 (fellow passenger identification) and the reflection exchange at151–152. The interlocutor is a fellow passenger in a taxi, not its driver.",
+  "unrelatedNarrativePairsUnchanged": true,
+  "outerReaderCodePreserved": true,
+  "hashes": {
+    "collector-output/nonviolent-communication/story-data.json": "64dda69d761fe12a23572b922a2cdbdd6b2b42154044de1c777c396b9cfb8b81",
+    "collector-output/nonviolent-communication/nonviolent-communication.html": "cb297d19b69002462555ca1ce470f48525db5c02379e23a8f8725144c6d42bd5",
+    "collector-output/nonviolent-communication/sources.md": "fb9a5c836cb9cf838f04e317b9df32dba425cd8fc8081ec65f849fa6c9a8dd62",
+    "collector-output/nonviolent-communication/QA.md": "50de9fa6a4532e4e3b0eead9437629ddc63230477b1013ca2c197dcd1740be96"
+  },
+  "baseIndependentReview": {
+    "path": "editorial-audit/2026-10-31/reviews/nonviolent-communication.json",
+    "sha256": "9a8528ae5931905813859ae5bcbf00a9a6b2dad3edbebbde72a9b7474f5b8cc0",
+    "verdict": "REQUIRES-FIXES",
+    "all30PairsAndRoutesRead": true,
+    "findings": [
+      "NVC-01",
+      "NVC-02"
+    ]
+  },
+  "focusedBrowser": {
+    "status": "passed",
+    "assertions": 16,
+    "cleanedProfile": true,
+    "proof": "publisher-findings/parent-nvc-fix-browser.json"
+  }
+}

@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -718,6 +718,22 @@
           content = '<path class="art-quiet" d="M118 153 C155 139 177 129 198 114 C217 100 224 88 233 72 M176 153 C194 137 211 128 236 119"/>' +
             '<circle class="art-fill-soft" cx="252" cy="80" r="63"/><circle class="art-line" cx="252" cy="80" r="47"/>' +
             '<path class="art-bold" d="M205 80 A47 47 0 0 1 299 80 V127 H205 Z"/><circle class="art-fill" cx="279" cy="82" r="5"/>';
+        } else if (motif === 'treasure-map') {
+          content = '<path class="art-quiet" d="M132 44 C158 55 176 43 197 57 C219 72 240 54 286 62 L277 142 C244 132 225 148 199 133 C177 120 154 139 126 126 Z"/>' +
+            '<path class="art-bold" d="M148 117 C165 96 185 111 199 88 C212 67 232 82 252 67"/>' +
+            '<path class="art-line" d="M248 58 L266 76 M266 58 L248 76 M153 57 L161 73 L177 81 L161 89 L153 105 L145 89 L129 81 L145 73 Z"/>' +
+            '<path class="art-fill-soft" d="M146 74 L153 57 L160 74 L153 81 Z"/><circle class="art-fill" cx="148" cy="117" r="6"/>';
+        } else if (motif === 'plateau') {
+          content = '<path class="art-fill-soft" d="M122 148 L145 66 L203 48 L230 74 L251 54 L302 66 L304 148 Z"/>' +
+            '<path class="art-bold" d="M122 148 L145 66 L203 48 M230 74 L251 54 L302 66 L304 148"/>' +
+            '<path class="art-line" d="M203 48 L230 74 M195 58 L238 84"/>' +
+            '<path class="art-quiet" d="M151 112 C173 99 185 104 203 117 C218 128 238 127 260 111 M166 137 C187 122 213 124 235 138"/>' +
+            '<path class="art-fill" d="M271 76 L290 84 L271 92 L278 84 Z"/>';
+        } else if (motif === 'terrain') {
+          content = '<path class="art-quiet" d="M124 47 C154 27 190 34 207 55 C225 78 257 73 298 48 M124 76 C154 56 181 62 198 81 C218 103 251 101 298 78 M124 108 C156 89 181 96 199 114 C219 134 255 132 298 110 M124 139 C156 123 184 126 205 143"/>' +
+            '<path class="art-bold" d="M145 122 L180 94 L220 103 L262 69"/>' +
+            '<rect class="art-fill" x="139" y="116" width="12" height="12" rx="2"/><rect class="art-fill" x="174" y="88" width="12" height="12" rx="2"/><rect class="art-fill" x="214" y="97" width="12" height="12" rx="2"/>' +
+            '<path class="art-line" d="M252 65 L270 65 L264 82"/>';
         } else {
           content = '<path class="art-quiet" d="M139 145 H299 M139 145 V39"/><path class="art-bold" d="M146 139 C180 136 202 125 221 105 C241 84 251 53 282 35"/>' +
             '<circle class="art-fill-soft" cx="221" cy="105" r="22"/><circle class="art-fill" cx="282" cy="35" r="8"/>' +

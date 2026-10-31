@@ -1,0 +1,2311 @@
+{
+  "schemaVersion": 2,
+  "slug": "treasure-island",
+  "title": {
+    "ru": "Остров сокровищ · Роберт Льюис Стивенсон",
+    "en": "Treasure Island · Robert Louis Stevenson"
+  },
+  "description": {
+    "ru": "Приключение Джима Хокинса: 24/60/96 экранов, RU/EN, развязка за предупреждением.",
+    "en": "Jim Hawkins’s adventure: 24/60/96 screens, RU/EN, with the resolution behind a warning."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "targetModes": {
+    "essential": 24,
+    "core": 60,
+    "deep": 96
+  },
+  "methodNote": {
+    "ru": "Оригинальный пересказ и разбор для 14+, не текст романа и не перевод какого-либо издания. Сюжет сверяется с общедоступным текстом Project Gutenberg; история создания — с эссе автора и библиографией. Сюжет, интерпретация, контекст и наш синтез подписаны отдельно. Главы указаны вместо зависящих от издания страниц. Психологические выводы не являются диагнозами; догадки рассказчика не выдаются за факты. Полная развязка только в «Глубоко» после предупреждения. Внешние источники сами могут содержать спойлеры.",
+    "en": "An original digest and discussion for readers aged 14+, not the novel’s text or a translation of any edition. Plot is checked against the public-domain Project Gutenberg text; composition against the author’s essays and bibliography. Plot, interpretation, context and our synthesis are separately labelled. Chapter references replace edition-dependent pages. Psychological readings are not diagnoses; the narrator’s guesses are not facts. The full resolution appears only in Deep after a warning. External sources may themselves contain spoilers."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robert Louis Stevenson — Treasure Island (Project Gutenberg #120)",
+      "url": "https://www.gutenberg.org/files/120/120-h/120-h.htm",
+      "role": "book",
+      "note": {
+        "ru": "Первичный текст; главы I–XXXIV. Источник событий, голосов и деталей; изображения издания не используются.",
+        "en": "Primary text, chapters I–XXXIV. Plot, voices and details; edition illustrations are not used."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Robert Louis Stevenson — My First Book: Treasure Island",
+      "url": "https://www.gutenberg.org/files/492/492-h/492-h.htm#page111",
+      "role": "author",
+      "note": {
+        "ru": "Поздний рассказ автора о карте, семейном чтении, литературных долгах и работе над романом.",
+        "en": "The author’s retrospective account of the map, family readings, literary debts and composition."
+      }
+    },
+    {
+      "id": 3,
+      "title": "Robert Louis Stevenson — A Gossip on Romance",
+      "url": "https://www.gutenberg.org/cache/epub/10761/pg10761-images.html",
+      "role": "author",
+      "note": {
+        "ru": "Эссе о чтении, месте и приключенческом событии; используем эссе Стивенсона, отдельно от редакторских примечаний.",
+        "en": "Essay on reading, place and incident; Stevenson’s essay is distinguished from editorial notes."
+      }
+    },
+    {
+      "id": 4,
+      "title": "Royal Museums Greenwich — History of pirates: the Golden Age of Piracy",
+      "url": "https://www.rmg.co.uk/stories/maritime-history/pirates-history-golden-age-piracy",
+      "role": "reference",
+      "note": {
+        "ru": "Историческая рамка: период, торговля, колонии и рабство. Не документ о вымышленных людях Флинта.",
+        "en": "Historical frame: period, trade, colonies and slavery. Not a record of Flint’s fictional crew."
+      }
+    },
+    {
+      "id": 5,
+      "title": "Royal Museums Greenwich — Pirate myths debunked",
+      "url": "https://www.rmg.co.uk/stories/maritime-history/pirates-fact-or-fiction",
+      "role": "reference",
+      "note": {
+        "ru": "Высадка на остров и различие между реальным пиратством и мифом о картах кладов.",
+        "en": "Marooning and the boundary between historical piracy and treasure-map mythology."
+      }
+    },
+    {
+      "id": 6,
+      "title": "University of Glasgow Library — Maps: 19th Century, Treasure Island entry",
+      "url": "https://www.gla.ac.uk/myglasgow/library/files/special/exhibns/maps/maps_19th_century.html",
+      "role": "reference",
+      "note": {
+        "ru": "Библиотечное описание происхождения карты и начала романа в Бремаре. Только текстовый контекст; карта не воспроизводится.",
+        "en": "Library account of the map’s origin and the Braemar beginning. Textual context only; no map image reproduced."
+      }
+    },
+    {
+      "id": 7,
+      "title": "Robert Louis Stevenson Website — Works Chronology",
+      "url": "https://robert-louis-stevenson.org/works-chronology/",
+      "role": "reference",
+      "note": {
+        "ru": "Библиографическая проверка публикации в Young Folks, псевдонима и книжного издания.",
+        "en": "Bibliographic check of the Young Folks serial, pseudonym and book publication."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [],
+      "sourceLocator": "",
+      "copy": {
+        "ru": {
+          "section": "Приглашение",
+          "title": "Остров сокровищ",
+          "body": "<p>Роберт Льюис Стивенсон. Карта обещает золото; море обещаний не даёт. История Джима Хокинса — о путешествии, которое очень хочется начать, и людях, которых трудно разгадать.</p><p>14+ · Главное: без развязки. Суть: до середины истории. Глубоко: полный сюжет за предупреждением.</p>",
+          "subtitle": "Приключение, которое не помещается в сундук"
+        },
+        "en": {
+          "section": "Invitation",
+          "title": "Treasure Island",
+          "body": "<p>Robert Louis Stevenson. The map promises gold; the sea makes no promises. Jim Hawkins enters a voyage you want to begin, among people you cannot easily read.</p><p>14+ · Essential: no ending. Core: through the middle. Deep: the full story behind a spoiler warning.</p>",
+          "subtitle": "An adventure bigger than a treasure chest"
+        }
+      },
+      "type": "cover",
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "reading-pact",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [],
+      "sourceLocator": "",
+      "copy": {
+        "ru": {
+          "section": "Приглашение",
+          "title": "Выбери, сколько тайны оставить",
+          "body": "<p>Здесь три вложенных маршрута: 24, 60 и 96 экранов, включая обложку и финал. «Главное» раскрывает ранние события, героев и напряжение, но не концовку. «Суть» раскрывает мятеж и борьбу за укрепление, но оставляет развязку закрытой.</p><p>«Глубоко» продолжает сюжет до конца. Это пересказ и разбор, а не текст романа. Подписи различают сюжет, интерпретацию, исторический контекст и наш синтез.</p>"
+        },
+        "en": {
+          "section": "Invitation",
+          "title": "Choose how much mystery to keep",
+          "body": "<p>There are three nested routes: 24, 60 and 96 screens, including the cover and final screen. Essential introduces the early plot revelations, characters and tensions without the ending. Core reveals the mutiny and struggle for the stockade, while keeping the resolution closed.</p><p>Deep continues to the ending. This is a digest and discussion, not the novel itself. Labels distinguish plot, interpretation, historical context and our synthesis.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "door-to-adventure",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Море сначала приходит в трактир",
+          "body": "<p>Джим Хокинс живёт с родителями в прибрежном трактире «Адмирал Бенбоу». Однажды там появляется старый моряк с сундуком и шрамом. Он выбирает тихое место, следит за дорогой и кораблями, пьёт ром и требует повиновения.</p><p>Приключение начинается не с отплытия, а с чужой тайны под собственной крышей. Дом ещё знакомый, но безопасным уже не кажется.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "The sea arrives at the inn first",
+          "body": "<p>Jim Hawkins lives with his parents at the coastal Admiral Benbow inn. An old sailor arrives with a chest and a scar. He chooses a quiet place, watches the road and passing ships, drinks rum and expects obedience.</p><p>The adventure begins before any sailing: someone else’s secret has moved under Jim’s roof. Home still looks familiar, but it no longer feels safe.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "billy-bones",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I–III",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Билли Бонс страшен — и сам боится",
+          "body": "<p>Постоялец называет себя капитаном; позже выясняется его имя — Билли Бонс. Грубостью и песнями он подчиняет себе вечерний трактир. Но появление другого моряка заставляет его прятаться и тревожиться.</p><p>Этот разрыв важен для загадки: человек, которого боятся все вокруг, ждёт кого-то ещё страшнее. Его сундук выглядит обычной вещью, пока не начинаешь замечать, как он его охраняет.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Billy Bones frightens people—and is afraid",
+          "body": "<p>The guest calls himself captain; his name later emerges as Billy Bones. His bullying and songs dominate evenings at the inn. Yet the arrival of another seaman can make him hide and panic.</p><p>That contrast drives the mystery: the man everyone nearby fears is waiting for someone worse. His chest seems an ordinary possession until you notice how anxiously he guards it.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "jim-before-hero",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I–IV",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "До подвига у Джима есть работа",
+          "body": "<p>Джим подаёт еду, слушает гостей, помогает родителям и наблюдает. Он не принц и не профессиональный искатель приключений. Поэтому поручения и мелкие услуги естественно ставят его рядом с опасными разговорами.</p><p>Такая позиция делает его хорошим рассказчиком: взрослые не всегда считают мальчика важным свидетелем. Но внимательность не даёт ему ни полной информации, ни защиты. Слушать — ещё не значит понимать.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Jim has a job before he has a quest",
+          "body": "<p>Jim serves food, listens to guests, helps his parents and watches. He is neither a prince nor a professional adventurer. Errands and small services naturally place him beside dangerous conversations.</p><p>That position makes him an effective narrator: adults do not always treat a boy as an important witness. His attentiveness gives him neither complete information nor protection, however. Hearing something is not yet the same as understanding it.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "one-legged-nightmare",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Страх получает силуэт раньше лица",
+          "body": "<p>Бонс платит Джиму за наблюдение: нужно предупредить его, если появится одноногий моряк. Мальчик ещё никого такого не видел, но уже представляет пугающие фигуры в ночных кошмарах.</p><p>Стивенсон сначала создаёт ожидание, а знакомство откладывает. Читатель вместе с Джимом получает примету, которая кажется достаточной для узнавания опасности. Позже именно уверенность в простых приметах придётся проверить.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Fear has a silhouette before a face",
+          "body": "<p>Bones pays Jim to keep watch: he must warn him if a one-legged seaman appears. Jim has seen no such person, yet terrifying versions already visit his dreams.</p><p>Stevenson creates expectation before arranging a meeting. Like Jim, the reader receives a visible clue that seems sufficient to identify danger. The confidence we place in simple identifying signs will itself need testing.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "black-dog-returns",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "II",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Чёрный Пёс приносит прошлое",
+          "body": "<p>Другой моряк разыскивает Бонса и называет его Биллом. Их встреча быстро превращается в ссору и драку; посетитель, известный как Чёрный Пёс, убегает. Бонс переживает тяжёлый приступ.</p><p>Джим видит последствия старой связи, не зная её условий. Стивенсон не останавливает действие ради полной биографии пирата: сначала к нам приходит опасность, затем объяснение, почему она вообще здесь появилась.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Black Dog brings the past back",
+          "body": "<p>Another seaman tracks Bones down and calls him Bill. Their meeting turns into an argument and a fight; the visitor, known as Black Dog, escapes. Bones suffers a serious seizure.</p><p>Jim witnesses the consequences of an old connection without knowing its terms. Stevenson does not stop the action for a complete pirate biography: danger arrives first, followed by an explanation of what brought it here.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "livesey-refuses",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I–II",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Ливси не принимает правила Бонса",
+          "body": "<p>Доктор Ливси спокойно противостоит угрозам постояльца. Он не только врач, но и мировой судья: за пределами трактирной комнаты существует закон, которого Бонс не может просто перекричать.</p><p>При этом доктор лечит его после приступа и предупреждает об опасности рома. Для Джима появляется другой вид взрослой силы — выдержка и профессиональное знание. Вежливость здесь вполне совместима с твёрдым отказом подчиниться.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Livesey refuses Bones’s rules",
+          "body": "<p>Dr Livesey calmly resists the lodger’s threats. He is a magistrate as well as a doctor: beyond the inn’s room there is a law Bones cannot simply shout down.</p><p>Yet Livesey also treats him after his seizure and warns him against rum. Jim encounters another form of adult strength: composure and professional knowledge. Courtesy here is entirely compatible with a firm refusal to obey.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "first-black-spot",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "III",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Чёрная метка делает угрозу срочной",
+          "body": "<p>Слепой Пью заставляет Джима подвести его к Бонсу и передаёт тому чёрную метку. Это не колдовство, а знак решения его прежних товарищей и требования, которое нельзя долго игнорировать.</p><p>Бонс пытается действовать, но падает замертво. В романе его смерть связана с новым приступом, а не с физической силой бумажки. Угроза страшна потому, что за знаком стоят люди.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "The black spot puts danger on a clock",
+          "body": "<p>Blind Pew forces Jim to lead him to Bones and delivers the black spot. It is not magic: it signals a decision by Bones’s former companions and a demand that cannot be ignored for long.</p><p>Bones tries to act but collapses and dies. The novel connects his death to another seizure, not to a scrap of paper’s physical power. People behind the sign make it frightening.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "two-deaths",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "II–III",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Джим теряет опору ещё до отплытия",
+          "body": "<p>Отец Джима болеет и умирает; вскоре умирает Бонс. Мальчик плачет даже по человеку, которого не любил: новая смерть касается ещё свежего горя.</p><p>Поэтому начало романа — не беззаботное ожидание каникул. Дом уже изменился, семье нужно справляться с долгами и опасными гостями. Дальняя дорога манит Джима на фоне настоящей потери, хотя рассказ не превращается в подробную историю траура.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Jim loses security before setting sail",
+          "body": "<p>Jim’s father falls ill and dies; Bones dies soon afterwards. Jim cries even for a man he did not like: the new death touches grief that is still fresh.</p><p>The opening is therefore more than carefree anticipation of a holiday. Home has changed, and the family faces debts and dangerous visitors. The distant voyage attracts Jim against a background of real loss, though the novel does not become an extended account of mourning.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "mothers-fair-share",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IV",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Мать требует своё, а не всё",
+          "body": "<p>После смерти постояльца мать Джима хочет взять из сундука ровно столько, сколько ей должны за проживание. Иностранные монеты мешают быстро отсчитать сумму; снаружи нарастает опасность.</p><p>Здесь деньги впервые становятся вопросом границы: получить причитающееся или схватить всё доступное? Её упрямство одновременно достойно уважения и рискованно. Роман позволяет увидеть оба свойства одного поступка, не отменяя ни одного.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "Jim’s mother wants what is owed",
+          "body": "<p>After the guest dies, Jim’s mother wants exactly the unpaid lodging money from his chest. Unfamiliar foreign coins make the calculation slow while danger gathers outside.</p><p>Money first becomes a question of limits: take what is owed or seize everything available? Her stubbornness is both admirable and risky. The scene allows us to see both qualities in the same action without cancelling either of them.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "chest-has-records",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IV, VI",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Сундук хранит не только монеты",
+          "body": "<p>Среди вещей Бонса Джим забирает завёрнутые бумаги. Позже взрослые разбирают записи о деньгах и карту. Важнейшая добыча оказывается не самой богатой на вид.</p><p>Сундук связывает маленькую хозяйственную проблему семьи с гораздо большим преступным прошлым. Для беглецов бумаги — предмет погони; для Джима — загадка. Он берёт их, ещё не понимая, какую экспедицию они способны вызвать к жизни.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "The chest holds more than coins",
+          "body": "<p>Among Bones’s belongings, Jim takes a wrapped packet. Later the adults examine accounts of money and a map. The most important find is not the object that looks richest.</p><p>The chest connects the family’s small unpaid bill to a much larger criminal past. To the pursuers the papers are a target; to Jim they remain a puzzle. He takes them without yet understanding the expedition they can bring into being.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "escape-from-inn",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IV–V",
+      "copy": {
+        "ru": {
+          "section": "Трактир",
+          "title": "Спасение приходит не от карты",
+          "body": "<p>Джим помогает матери выбраться из трактира. Налётчики обыскивают дом, но не находят нужных бумаг. Когда появляются люди таможенного надзора, банда разбегается; Пью погибает под копытами.</p><p>Раннее спасение зависит от времени, чужой помощи и укрытия, а не от тайного преимущества героя. После этой ночи Джим передаёт бумаги людям, которым доверяет. Так бегство превращается в начало поисков.</p>"
+        },
+        "en": {
+          "section": "The inn",
+          "title": "The map does not rescue them",
+          "body": "<p>Jim helps his mother escape the inn. The raiders search the house without finding the papers they need. When revenue officers arrive, the gang scatters; Pew is trampled by horses.</p><p>This early rescue depends on timing, outside help and shelter rather than a hero’s secret advantage. After that night Jim brings the papers to adults he trusts. Escape becomes the beginning of a search.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "map-promises-world",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VI",
+      "copy": {
+        "ru": {
+          "section": "Карта",
+          "title": "Карта превращает слух в маршрут",
+          "body": "<p>Ливси и сквайр Трелони находят среди бумаг карту острова с отметками и указаниями. Рассказ о сокровищах капитана Флинта теперь выглядит как задача, для которой можно нанять корабль.</p><p>Джим воображает берега, леса и будущие приключения. Карта даёт желанию форму: туда можно попасть. Но линии на бумаге ничего не говорят о том, кому доверять на пути и что встретит искателей на берегу.</p>"
+        },
+        "en": {
+          "section": "The map",
+          "title": "The map turns a rumour into a route",
+          "body": "<p>Livesey and Squire Trelawney find a map with marks and directions among the papers. Captain Flint’s treasure now seems a problem for which one can hire a ship.</p><p>Jim imagines shores, woods and adventures. The map gives desire a shape: there is somewhere to go. But lines on paper cannot tell the travellers whom to trust along the way or what will meet them ashore.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "flint-without-presence",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "III, VI, XI",
+      "copy": {
+        "ru": {
+          "section": "Карта",
+          "title": "Флинт управляет историей из прошлого",
+          "body": "<p>Капитан Флинт уже мёртв, но его имя вызывает страх, его команда узнаёт друг друга, а его добыча определяет будущую дорогу. Для участия в приключении ему не требуется выходить на сцену живым.</p><p>Стивенсон собирает образ через рассказы заинтересованных людей. Их слова дают Флинту масштаб, но не становятся независимой биографией. Следи, кто рассказывает о нём и чего хочет добиться этим рассказом.</p>"
+        },
+        "en": {
+          "section": "The map",
+          "title": "Flint shapes events from the past",
+          "body": "<p>Captain Flint is already dead, but his name inspires fear, his old crew recognise one another, and his plunder determines the coming journey. He need not appear alive to participate in the adventure.</p><p>Stevenson builds his presence through stories told by interested people. Their accounts give Flint stature without becoming an independent biography. Notice who speaks about him and what that speaker hopes to achieve.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "desire-is-contagious",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VI–VII",
+      "copy": {
+        "ru": {
+          "section": "Карта",
+          "title": "Сокровище заражает воображение",
+          "body": "<p>Джима увлекает неизвестный остров. Трелони увлечён богатством и большим предприятием. Ливси осторожнее, но тоже участвует в поисках. Один предмет связывает людей с разными мотивами.</p><p>Это не история, где хорошим людям совершенно не нужны деньги, а плохим нужны только деньги. Начальная общая мечта важна: именно поэтому позже так трудно сразу понять, где заканчивается союз и начинается использование другого человека.</p>"
+        },
+        "en": {
+          "section": "The map",
+          "title": "Treasure catches the imagination",
+          "body": "<p>Jim longs for the unknown island. Trelawney is excited by wealth and a grand undertaking. Livesey is more cautious, but he too joins the search. One object connects people with different motives.</p><p>This is not a story in which good people have no interest in money while bad people care for nothing else. Their shared initial dream matters: it makes the boundary between cooperation and exploitation difficult to recognise.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "trelawney-tells",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VI–VII, IX",
+      "copy": {
+        "ru": {
+          "section": "Карта",
+          "title": "Трелони умеет нанять судно, но не молчать",
+          "body": "<p>Сквайр берёт на себя снаряжение экспедиции в Бристоле. Он обещает хранить тайну, однако известие о поиске сокровищ распространяется. Капитан позже обнаруживает, что команда знает больше, чем следовало.</p><p>Щедрость и уверенность Трелони помогают путешествию состояться, но не делают его хорошим судьёй людей. Угроза растёт прямо внутри успешной подготовки: набранная команда выглядит решением одной задачи и может оказаться другой задачей.</p>"
+        },
+        "en": {
+          "section": "The map",
+          "title": "Trelawney can hire a ship, but cannot keep quiet",
+          "body": "<p>The squire equips the expedition in Bristol. He promises secrecy, yet news of the treasure search spreads. The captain later discovers that the crew know more than they should.</p><p>Trelawney’s generosity and confidence help make the voyage possible, without making him a reliable judge of people. Danger grows inside apparently successful preparation: the recruited crew solves one problem while potentially creating another.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "bristol-opens",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VII–VIII",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Бристоль делает мечту осязаемой",
+          "body": "<p>В порту Джим разглядывает корабли, моряков, снасти и незнакомую городскую жизнь. Для человека из тихого трактира это уже приключение. Готова «Испаньола», а привычный мир постепенно остаётся позади.</p><p>Не спеши перескочить к острову: радость отъезда нужна роману так же, как последующая тревога. Стивенсон даёт почувствовать, почему Джим хочет в путь, прежде чем потребует всерьёз бояться за него.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Bristol makes the dream tangible",
+          "body": "<p>At the port Jim gazes at ships, sailors, rigging and unfamiliar city life. For someone from a quiet inn, this is already an adventure. The Hispaniola is ready, and the familiar world is slipping behind him.</p><p>Do not hurry past departure to the island: the novel needs this delight as much as its later anxiety. Stevenson lets us feel why Jim wants to travel before asking us to fear seriously for him.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "silver-first-meeting",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VIII",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Сильвер нравится прежде, чем становится понятен",
+          "body": "<p>В Бристоле Джим знакомится с одноногим трактирщиком Джоном Сильвером, будущим корабельным поваром. Тот подвижен, приветлив и умеет говорить с мальчиком. Он совсем не похож на чудовище из прежних страхов.</p><p>Когда в трактире мелькает Чёрный Пёс, Сильвер убедительно изображает возмущение. Джим готов ему верить. Самое интересное знакомство в книге начинается с расхождения между приметой опасности и приятным впечатлением.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Silver is likeable before he is understood",
+          "body": "<p>In Bristol Jim meets the one-legged innkeeper John Silver, soon to be the ship’s cook. He is agile, friendly and good at talking to a boy. He scarcely resembles the monster of Jim’s earlier fears.</p><p>When Black Dog appears at the tavern, Silver convincingly performs outrage. Jim is ready to believe him. The book’s most fascinating acquaintance begins with a gap between a warning sign and a pleasant impression.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "crutch-is-not-character",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I, VIII, X",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Костыль не объясняет характер",
+          "body": "<p>Бонс научил Джима бояться человека по одной примете. Но Сильвер ловко движется на костыле и работает на корабле; физическое ограничение не лишает его ни мастерства, ни власти.</p><p>Читать его характер по телу было бы ошибкой. Для оценки нужны поступки, отношения и слова в разных обстоятельствах. Роман использует узнаваемый силуэт, но интерес Сильвера значительно шире этого силуэта: он умеет менять чужое мнение о себе.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "A crutch does not explain a character",
+          "body": "<p>Bones has taught Jim to fear someone through a single identifying feature. Yet Silver moves skilfully with his crutch and works aboard ship; physical impairment deprives him of neither ability nor authority.</p><p>Reading his character from his body would be a mistake. Judgement requires actions, relationships and words in different situations. The novel uses a recognisable silhouette, but Silver’s interest extends far beyond it: he knows how to change other people’s impressions.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "parrot-and-money",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "X",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Попугай смешит словами о деньгах",
+          "body": "<p>Попугай Сильвера носит имя капитана Флинта и выкрикивает название испанских монет — пиастры, или pieces of eight. В английском это название денег, а не восемь потерянных частей карты.</p><p>Для Джима птица — забавная часть корабельной жизни; для читателя она связывает домашнего любимца с пиратским прошлым и богатством. Стивенсон умеет сделать один звук одновременно смешным, запоминающимся и немного тревожным.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "The parrot makes money sound funny",
+          "body": "<p>Silver’s parrot is named Captain Flint and cries out a name for Spanish coins: pieces of eight. These are money, not eight missing pieces of a treasure map.</p><p>For Jim the bird is an amusing part of shipboard life; for the reader it connects a pet with the pirate past and wealth. Stevenson can make one sound funny, memorable and slightly unsettling at the same time.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "smollett-unpopular",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Неприятный капитан задаёт нужные вопросы",
+          "body": "<p>Капитан Смоллетт недоволен секретностью экспедиции, командой и размещением оружия. Он требует исправлений до отплытия. Трелони раздражён, Джиму строгий капитан тоже не нравится.</p><p>Смоллетт не продаёт им красивое путешествие: он собирается вести судно. Возникает полезная для интриги разница между человеком, рядом с которым приятно, и человеком, чьи неприятные вопросы стоит услышать. Пока читатель ещё может сомневаться вместе с Джимом.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "The difficult captain asks necessary questions",
+          "body": "<p>Captain Smollett objects to the expedition’s secrecy, the crew and the storage of weapons. He demands changes before sailing. Trelawney is irritated, and Jim dislikes the strict captain too.</p><p>Smollett is not selling them a beautiful voyage: he intends to command a ship. The intrigue gains a distinction between pleasant company and someone whose awkward questions deserve attention. At this point readers may still share Jim’s doubts.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "ship-small-world",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX–XII",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Корабль — тесный мир без выхода",
+          "body": "<p>Каюта, палуба, камбуз и места хранения оружия имеют значение: люди встречаются, слышат друг друга и получают разный доступ к запасам. Камбуз — место работы повара; шхуна — тип парусного судна, а не название профессии.</p><p>В море нельзя просто уйти домой от неприятного соседа. Поэтому обычное расположение вещей становится частью интриги. Стивенсон делает тесноту корабля источником общения и одновременно возможной ловушкой.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "The ship is a small world with no easy exit",
+          "body": "<p>Cabin, deck, galley and weapon stores matter: people meet, overhear each other and have different access to supplies. A galley is the cook’s workplace; a schooner is a type of sailing vessel.</p><p>At sea one cannot simply walk home from an unpleasant neighbour. The arrangement of ordinary objects becomes part of the intrigue. Stevenson makes the ship’s closeness a source of companionship and a possible trap.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "voyage-rhythm",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "X",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Плавание даёт время привыкнуть к опасности",
+          "body": "<p>«Испаньола» отправляется в путь. Джим работает юнгой, наблюдает море и постепенно осваивается среди взрослых. Сильвер охотно разговаривает с ним и объясняет корабельную жизнь.</p><p>Привычка делает обстановку дружелюбнее, но не обязательно безопаснее. Морские дни нужны истории не как пустое расстояние между двумя берегами: за это время у Джима появляются симпатии, доверие и ощущение своего места на борту. Всё это влияет на то, что он заметит дальше.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "The voyage gives danger time to feel familiar",
+          "body": "<p>The Hispaniola sets sail. Jim works as cabin boy, watches the sea and gradually finds his way among the adults. Silver readily talks with him and explains shipboard life.</p><p>Familiarity makes the setting friendlier, but not necessarily safer. Days at sea are more than empty distance between shores: they give Jim attachments, trust and a sense of belonging aboard. All of these influence what he notices next.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "routine-has-cracks",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "X",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "В корабельном порядке появляются трещины",
+          "body": "<p>Помощник капитана мистер Эрроу оказывается ненадёжным: он пьёт, теряет авторитет, а затем исчезает за бортом. Его пропажу считают следствием пьянства; не нужно превращать предположение в показанное убийство.</p><p>При этом корабль продолжает идти. Отсутствие немедленной катастрофы легко принять за благополучие. Стивенсон показывает, как тревожные признаки растворяются в работе и привычках команды, пока Джим ещё наслаждается путешествием.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Cracks appear in shipboard order",
+          "body": "<p>The mate, Mr Arrow, proves unreliable: he drinks, loses authority and eventually disappears overboard. His disappearance is attributed to drunkenness; we should not turn that supposition into a witnessed murder.</p><p>The ship nevertheless keeps sailing. The absence of immediate catastrophe can look like reassurance. Stevenson shows warning signs being absorbed into the crew’s work and routines while Jim still enjoys the voyage.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "apple-barrel",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "X–XI",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Бочка с яблоками меняет весь корабль",
+          "body": "<p>Джим залезает в почти пустую бочку за яблоком и случайно слышит разговор Сильвера. Повар связан с людьми Флинта; среди моряков готовится мятеж. Дружелюбие, которое успокаивало Джима, теперь звучит иначе.</p><p>Мальчик боится выдать своё присутствие. Здесь важна не драка, а неподвижность: ему нужно дослушать то, от чего хочется немедленно бежать. Знакомый корабль становится другим, хотя вокруг ничего не переставили.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "An apple barrel changes the whole ship",
+          "body": "<p>Jim climbs into a nearly empty barrel for an apple and accidentally overhears Silver. The cook is connected with Flint’s men; sailors are planning mutiny. The friendliness that reassured Jim now sounds different.</p><p>The boy fears revealing his presence. The crucial action is stillness rather than fighting: he must keep listening when he wants to flee. A familiar ship becomes a different place without anything aboard being moved.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "silvers-long-game",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XI",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Сильвер хочет дождаться удобного момента",
+          "body": "<p>В подслушанном разговоре Сильвер удерживает сообщников от поспешного бунта. Для плавания, поиска и возвращения пока нужны умения законного капитана и других участников экспедиции. Он думает дальше немедленной добычи.</p><p>От этого он опаснее вспыльчивого разбойника. Терпение и расчёт у него не равны доброте. План позволяет увидеть, как один и тот же человек может ценить чужое мастерство и одновременно готовиться распорядиться чужой жизнью.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Silver wants to wait for his moment",
+          "body": "<p>In the overheard conversation Silver restrains his companions from rebelling too soon. The legitimate captain and other expedition members still possess skills needed for sailing, searching and returning. Silver thinks beyond immediate plunder.</p><p>This makes him more dangerous than an impulsive robber. Patience and calculation are not the same as kindness. His plan reveals how someone can value another person’s expertise while preparing to dispose of that person’s life.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "mutiny-means-control",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XI–XII",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Мятеж — это борьба за управление",
+          "body": "<p>Мятеж здесь означает попытку команды отнять власть у капитана, а не просто спорить с приказом. Сокровища — цель; корабль, оружие, запасы и навигационные умения — средства, без которых цель бесполезна.</p><p>Поэтому будущая борьба касается не только карты. Кто сумеет повести судно? У кого порох? Кому подчинятся остальные? Эти вопросы объясняют осторожность обеих сторон лучше, чем представление о пиратах, которые только бросаются в атаку.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Mutiny is a struggle for control",
+          "body": "<p>Here mutiny means an attempt by crew members to seize the captain’s authority, rather than merely disagree with an order. Treasure is the goal; ship, weapons, supplies and navigation skills are the means that make the goal usable.</p><p>The coming struggle therefore involves more than the map. Who can sail the vessel? Who holds the powder? Whom will others obey? Such questions explain both sides’ caution better than imagining pirates who only charge into battle.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "secret-council",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XII",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Теперь Джиму должны поверить взрослые",
+          "body": "<p>Выбравшись из бочки, Джим сообщает услышанное Ливси, Трелони и Смоллетту. Они обсуждают положение тайно и решают пока не раскрывать, что знают о заговоре. Надёжных людей намного меньше, чем подозреваемых.</p><p>Взрослые зависят от наблюдения мальчика, но это не делает его всезнающим начальником. Впереди ещё нужно различить верных и неверных. Знать о мятеже раньше его начала — преимущество, которое очень легко потерять.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Now the adults must believe Jim",
+          "body": "<p>After escaping the barrel, Jim tells Livesey, Trelawney and Smollett what he heard. They secretly discuss their position and decide not to reveal their knowledge yet. Trusted people are heavily outnumbered by suspected conspirators.</p><p>The adults depend on a boy’s observation, without turning him into an all-knowing commander. They must still distinguish the loyal from the disloyal. Knowing about the mutiny before it begins is an advantage they can easily lose.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "unequal-knowledge",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XI–XIII",
+      "copy": {
+        "ru": {
+          "section": "Плавание",
+          "title": "Напряжение растёт из неравного знания",
+          "body": "<p>После бочки Джим и читатель знают то, что часть персонажей скрывает. Приходится заново слушать обычные реплики и замечать, кто притворяется. Улыбка становится вопросом, а не ответом.</p><p>Но знание неполное: неясно, кого удастся убедить, когда сорвётся терпение и какой будет следующая случайность. Так Стивенсон держит интерес без непрерывных сражений. Иногда спокойная палуба тревожнее открытой угрозы, потому что на ней приходится играть спокойствие.</p>"
+        },
+        "en": {
+          "section": "The voyage",
+          "title": "Suspense grows from unequal knowledge",
+          "body": "<p>After the barrel, Jim and the reader know what some characters are hiding. Ordinary remarks must be heard again; we watch for pretence. A smile becomes a question rather than an answer.</p><p>Knowledge remains incomplete: who might be persuaded, when patience will break and what accident will happen next are uncertain. Stevenson sustains interest without constant battles. A quiet deck can be more disturbing than an open threat because everyone must perform calmness.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "island-not-postcard",
+      "level": 1,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIII",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Остров не похож на обещание отдыха",
+          "body": "<p>Приближаясь к берегу, Джим видит сероватые леса, холмы, топкие места и слышит прибой. Знакомое по карте место вблизи производит мрачное впечатление. Дорога к богатству имеет запах, жару и неудобный рельеф.</p><p>Это всё ещё желанный неизвестный мир, но его нельзя свернуть и убрать, как бумагу. Пейзаж становится участником приключения: он скрывает людей, мешает движению и ограничивает то, что можно заметить вовремя.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "The island is no holiday postcard",
+          "body": "<p>Approaching land, Jim sees greyish woods, hills and marshy ground, and hears the surf. A place familiar from the map looks gloomy close up. The road to riches has smells, heat and awkward terrain.</p><p>It is still the unknown world he desired, but it cannot be folded away like paper. Landscape joins the adventure: it conceals people, obstructs movement and limits what can be noticed in time.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "shore-leave",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIII",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Разрешение сойти на берег размыкает ловушку",
+          "body": "<p>Команда становится беспокойной. Смоллетт разрешает части моряков отправиться на берег, временно разделяя возможных мятежников. Джим неожиданно садится в одну из лодок и, добравшись до острова, убегает от Сильвера в заросли.</p><p>Это не согласованный разведывательный приказ. Мальчик действует по собственному порыву, вырываясь из тесноты корабля. Вместо свободы от взрослых он получает одиночество там, где взрослые уже готовы убивать.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "Shore leave opens the trap",
+          "body": "<p>The crew grow restless. Smollett lets some sailors go ashore, temporarily separating potential mutineers. Jim unexpectedly boards one of the boats and, on reaching the island, runs away from Silver into the undergrowth.</p><p>This is not an agreed reconnaissance mission. He acts on impulse, escaping the ship’s confinement. Instead of freedom from adults, he finds himself alone where adults are already prepared to kill.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "tom-refuses",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIV",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Том отказывается идти за Сильвером",
+          "body": "<p>Из укрытия Джим слышит, как Сильвер уговаривает честного моряка Тома присоединиться. Вдали раздаётся крик: по словам Сильвера, убили Алана. Том не соглашается. Сильвер нападает и убивает его.</p><p>Джим видит то, чего прежняя приветливость повара не позволяла вообразить. Это не эффектная дуэль равных противников. Сцена делает убийственное насилие заговорщиков явным и объясняет, почему мальчик так страшится оказаться замеченным.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "Tom refuses to follow Silver",
+          "body": "<p>From hiding, Jim hears Silver urging the honest sailor Tom to join him. A cry sounds in the distance: according to Silver, Alan has been killed. Tom refuses. Silver attacks and kills him.</p><p>Jim witnesses what the cook’s earlier friendliness made difficult to imagine. This is no glamorous duel between equal opponents. The scene exposes the conspirators’ murderous violence and explains the boy’s terror of being discovered.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "danger-has-weight",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIV",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Опасность здесь действительно ранит",
+          "body": "<p>Роман увлекает тайнами, морем и находками, но не предлагает считать угрозы понарошку. Джим сталкивается с насилием, от которого ему физически плохо. Расстояние между интересным рассказом о пиратах и встречей с ними становится огромным.</p><p>Это не отменяет удовольствия от приключения. Оно делает удовольствие напряжённым: мы хотим увидеть следующий берег и одновременно понимаем, почему герой мечтает о безопасности. Любопытство и страх могут существовать в одной минуте.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "Danger here can really hurt",
+          "body": "<p>The novel delights in mysteries, sea voyages and discoveries, but does not make its threats harmless. Jim encounters violence that makes him physically ill. The distance between an exciting pirate story and actually meeting pirates becomes enormous.</p><p>That does not cancel the pleasure of adventure. It gives the pleasure tension: we want to see the next shore while understanding the hero’s longing for safety. Curiosity and fear can occupy the very same moment.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "ben-gunn-appears",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XV",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Человек в лесу оказывается Беном Ганном",
+          "body": "<p>Испугавшая Джима фигура — человек, долго живущий на острове. Бен Ганн рассказывает, что его высадили здесь товарищи после неудачных поисков сокровищ. Он узнаёт имена людей Флинта и особенно боится Сильвера.</p><p>Ганн предлагает помощь и надеется на возвращение к людям. Пока неясно, чему именно он может помочь и насколько можно доверять его сбивчивой речи. Встреча добавляет в борьбу участника, которого не было в корабельных расчётах.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "The figure in the woods is Ben Gunn",
+          "body": "<p>The figure that frightens Jim is a man who has lived on the island for a long time. Ben Gunn says his companions marooned him after an unsuccessful treasure search. He recognises names from Flint’s crew and particularly fears Silver.</p><p>Gunn offers help and hopes to return to human company. His usefulness and the reliability of his rambling speech remain uncertain. Someone absent from all the shipboard calculations has entered the struggle.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "cheese-and-company",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XV",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Сыр делает Бена человеком, а не загадкой",
+          "body": "<p>Среди рассказов о пиратах Бен Ганн неожиданно мечтает о сыре. Он может добывать пищу на острове, но скучает по привычному вкусу и человеческому обществу. Джим встречает не только возможный источник сведений.</p><p>Комическая подробность снимает часть первоначального ужаса и показывает цену одиночества. Бен то пугает, то смешит, то вызывает жалость. Стивенсону не требуется останавливать погоню ради длинного объяснения: один бытовой голод говорит очень много.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "Cheese makes Ben a person, not just a mystery",
+          "body": "<p>Amid his pirate stories Ben Gunn unexpectedly longs for cheese. He can find food on the island, but misses a familiar taste and human company. Jim has met more than a possible source of information.</p><p>The comic detail softens the initial terror and reveals a cost of isolation. Ben frightens, amuses and invites sympathy by turns. Stevenson does not need a long pause in the pursuit: one ordinary craving says a great deal.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "marooning-defined",
+      "level": 2,
+      "claimType": "corroboration",
+      "evidenceKind": "context",
+      "sources": [
+        1,
+        5
+      ],
+      "sourceLocator": "XV; RMG, marooning section",
+      "copy": {
+        "ru": {
+          "section": "На острове",
+          "title": "Высадка на остров — наказание, не отпуск",
+          "body": "<p>Бен — maroon: человек, которого оставили на необитаемом острове. Музей морской истории в Гринвиче описывает такую высадку как одно из наказаний у пиратов. Само по себе выживание не означает свободы.</p><p>Это помогает понять его просьбы: ему нужны не только вещи, но и возможность уехать. Историческая практика объясняет угрозу, однако не превращает вымышленную биографию Ганна в запись о реальном человеке.</p>"
+        },
+        "en": {
+          "section": "On the island",
+          "title": "Marooning is punishment, not a holiday",
+          "body": "<p>Ben is a maroon: someone left on an uninhabited island. Royal Museums Greenwich describes marooning as a punishment used by pirates. Simply surviving does not make a person free.</p><p>That helps explain his requests: he needs not just objects but a way to leave. Historical practice clarifies the threat without turning Gunn’s fictional biography into a record of an actual individual.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "doctor-takes-pen",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVI–XVIII",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Когда Джим исчезает, рассказ меняет голос",
+          "body": "<p>На несколько глав повествование передаётся доктору Ливси. Он объясняет, что происходит с остальными, пока Джим действует отдельно. Читателю не приходится притворяться, будто мальчик видел всё одновременно.</p><p>Смена голоса расширяет поле действия и подчёркивает ограниченность каждого свидетеля. У доктора другой ритм внимания: положение людей, раненые, припасы. Одно приключение временно становится двумя маршрутами, которые нужно снова соединить. Их несовпадение и создаёт ожидание встречи.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "When Jim disappears, the story changes voice",
+          "body": "<p>For several chapters Dr Livesey takes over the narration. He explains what happens to the others while Jim acts separately. Readers need not pretend that the boy witnessed everything at once.</p><p>The change widens the action while emphasising each witness’s limits. The doctor attends differently: positions, casualties and supplies. One adventure briefly becomes two routes that must reconnect. Their separation creates anticipation of the meeting.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "water-and-stockade",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVI",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Укрепление ценно прежде всего водой",
+          "body": "<p>Ливси находит сруб внутри частокола, где есть источник воды. Людям, покидающим корабль, нужны укрытие, обороняемое место и запасы. Красота острова не отвечает ни на один из этих вопросов.</p><p>Частокол — ограда из вбитых брёвен, а не целый каменный замок. Переселение туда меняет условия борьбы: теперь важны расстояние до леса, обзор, входы и возможность удержаться без свободного доступа к судну.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "The stockade matters first for its water",
+          "body": "<p>Livesey finds a log house within a stockade, supplied by a spring. Those leaving the ship need shelter, a defensible position and stores. The island’s beauty answers none of these practical questions.</p><p>A stockade is a barrier of upright timber, not an entire stone castle. Moving there changes the struggle: distance from the woods, visibility, entrances and survival without free access to the ship now matter.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "overloaded-jolly-boat",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVII",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Перегруженная лодка делает запасы уязвимыми",
+          "body": "<p>Последний переход от корабля к берегу опасен: в лодке слишком много людей и груза, течение мешает, а мятежники могут стрелять с «Испаньолы». Часть припасов и пороха теряется вместе с затопленной лодкой.</p><p>Это приключенческая сцена, где опасность определяется весом, водой и расстоянием. Смелость не отменяет вместимость лодки. Утрата обычных вещей меняет возможности дальнейшей обороны сильнее, чем эффектная речь о решимости.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "An overloaded boat puts supplies at risk",
+          "body": "<p>The final trip from ship to shore is dangerous: the boat carries too many people and stores, the current interferes, and mutineers can fire from the Hispaniola. Powder and provisions are partly lost when the boat is swamped.</p><p>Weight, water and distance shape this adventure scene. Courage cannot increase a boat’s capacity. Losing ordinary objects changes the coming defence more than a stirring speech about determination could.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "flag-has-two-effects",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVIII–XIX",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Флаг собирает своих и выдаёт позицию",
+          "body": "<p>Смоллетт поднимает британский флаг над укреплением. Для своих это знак законного командования и место, где можно найти союзников. Для противника — заметная точка, по которой можно наводить пушку.</p><p>Предмет не обязан быть только полезным или только опасным. Даже разумное решение может иметь цену. Флаг показывает, как морское понятие службы сохраняется на суше, когда привычный корабельный порядок уже разрушен.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "The flag gathers allies and reveals a target",
+          "body": "<p>Smollett raises the British flag over the position. For his side it marks legitimate command and a place to find allies. For the enemy it provides a visible point for aiming the cannon.</p><p>An object need not be either useful or dangerous exclusively. Even a reasonable decision can carry a cost. The flag shows naval ideas of service continuing ashore after ordinary shipboard order has broken down.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "gray-chooses",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVI, XXI",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Абрахам Грей не остаётся в первой группе",
+          "body": "<p>Когда капитан зовёт его уйти с корабля, Абрахам Грей пробивается к верным людям, получив ранение. Позже он помогает оборонять укрепление. Его участие меняет силу маленькой группы.</p><p>Первое распределение команды по подозрительным и надёжным не оказывается вечным списком. У человека есть возможность выбрать сторону поступком. Это особенно заметно рядом с разговорами о власти: приказ капитана ещё должен стать решением конкретного моряка.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "Abraham Gray does not stay in his first group",
+          "body": "<p>When the captain calls him to leave the ship, Abraham Gray fights his way to the loyal party and is wounded. Later he helps defend the stockade. His participation strengthens a small group.</p><p>The first division between suspicious and reliable crew members is not an eternal list. A person can choose a side through action. Beside debates about command, the point becomes concrete: the captain’s order must still become an individual sailor’s decision.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "jim-rejoins",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XVIII–XIX",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Возвращение Джима соединяет две истории",
+          "body": "<p>Джим добирается до укрепления и рассказывает о Бене Ганне. Встреча приносит облегчение: люди на берегу не знали, что с ним случилось. Теперь его отдельный путь снова входит в общий план.</p><p>Он приносит сведения, но и подтверждает, что самовольное исчезновение заставляет других действовать в неведении. Стивенсон сохраняет обе стороны героя: без любопытства Джим не нашёл бы нового человека; без осторожности он мог не вернуться.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "Jim’s return joins the two stories",
+          "body": "<p>Jim reaches the stockade and reports his meeting with Ben Gunn. His arrival brings relief: the people ashore did not know what had happened to him. His separate route now rejoins the shared plan.</p><p>He brings information while also showing how an unauthorised disappearance leaves others in the dark. Stevenson preserves both sides of his hero: without curiosity Jim would not have met the stranger; without caution he might not have returned.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "silvers-embassy",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XX",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Сильвер предлагает сделку вместо штурма",
+          "body": "<p>Под белым флагом Сильвер приходит к укреплению и требует карту. Он предлагает условия, которые должны убедить защитников уступить. Смоллетт отказывается и предъявляет собственные требования.</p><p>Переговоры показывают, что карта ещё нужна мятежникам, а превосходство в числе не решает всего. Сильвер старается говорить как признанный капитан. Слова здесь — часть боя: они проверяют уверенность противника и возможность получить желаемое без немедленных потерь.</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "Silver tries a bargain before an assault",
+          "body": "<p>Under a white flag Silver comes to the stockade demanding the map. He offers terms meant to persuade the defenders to yield. Smollett refuses and sets out demands of his own.</p><p>The exchange shows that the mutineers still need the map and that superior numbers do not settle everything. Silver tries to speak as an acknowledged captain. Words are part of the fighting: they test confidence and the possibility of gaining what is wanted without immediate losses.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "stockade-attack",
+      "level": 2,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXI",
+      "copy": {
+        "ru": {
+          "section": "Частокол",
+          "title": "Штурм не превращается в лёгкую победу",
+          "body": "<p>Мятежники атакуют частокол и сруб. Защитники удерживают позицию, но несут тяжёлые потери; Смоллетт ранен. Джим не наблюдает с безопасной зрительской площадки: он внутри суматохи, дыма и угроз.</p><p>На этом подробный сюжет режима «Суть» останавливается. Укрепление ещё удерживается, но судьба экспедиции, корабля и сокровищ не решена. Дальнейшие действия Джима и исход поисков остаются в закрытом слое «Глубоко».</p>"
+        },
+        "en": {
+          "section": "The stockade",
+          "title": "The assault brings no easy victory",
+          "body": "<p>The mutineers attack the stockade and log house. The defenders hold the position but suffer serious losses; Smollett is wounded. Jim is not watching from a safe spectators’ platform: he is inside the confusion, smoke and danger.</p><p>Core’s detailed plot stops here. The position still holds, but the expedition, ship and treasure remain unresolved. Jim’s further actions and the outcome of the search belong to the closed Deep layer.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "courage-feels-afraid",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I–XIV",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Храбрость Джима не выключает страх",
+          "body": "<p>Джим дрожит, ошибается, прячется и хочет спастись. Его смелость интересна именно потому, что он замечает опасность, а не потому, что ничего не чувствует. Иногда нужно двигаться; иногда безопаснее не выдать себя.</p><p>Не стоит сводить это к совету всегда преодолевать страх. В приключении неверно выбранный риск может погубить. Стивенсон заставляет нас смотреть на обстоятельства каждого решения, а не присуждать герою медаль за любое безрассудство.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Jim’s courage does not switch fear off",
+          "body": "<p>Jim trembles, makes mistakes, hides and wants to survive. His bravery is compelling because he notices danger, not because he feels nothing. Sometimes he must move; sometimes safety requires remaining undiscovered.</p><p>This is not a rule that fear must always be overcome. A badly chosen risk can be fatal within an adventure. Stevenson makes us attend to the circumstances of each decision rather than award a medal for every reckless act.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "loyalty-and-obedience",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX–XIV",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Верность сложнее послушания",
+          "body": "<p>Служить общему делу, слушаться старших и спасать себя — не всегда одно и то же. Джим способен заметить то, чего не заметили взрослые, но собственный порыв не гарантирует ему правоты.</p><p>Поэтому роман интереснее набора правил о хорошем поведении. Здесь можно ценить инициативу и тревожиться о её последствиях одновременно. Вопрос не только в том, нарушен ли приказ, но и в том, кто теперь несёт риск этого нарушения.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Loyalty is more complicated than obedience",
+          "body": "<p>Serving a shared cause, obeying adults and saving oneself are not always the same thing. Jim can notice what the adults have missed, but his own impulse does not guarantee that he is right.</p><p>The novel is consequently more interesting than a set of conduct rules. We can value initiative while worrying about its consequences. The question is not only whether an order was broken, but who must now bear the risk.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "greed-not-one-uniform",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IV, VI, XI",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Жадность не носит одну форму",
+          "body": "<p>Мать Джима отсчитывает долг, Трелони воображает богатство, Сильвер рассчитывает будущую добычу. Деньги важны всем по-разному. Различия обнаруживаются не в самом желании получить золото, а в границах дозволенного.</p><p>Кому человек готов причинить вред? С кем согласен делиться? Считает ли союзника расходным материалом? Эти вопросы помогают читать характеры, но не заменяют сюжет: ответы появляются в поступках под давлением, а не в готовых нравоучениях.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Greed does not wear one uniform",
+          "body": "<p>Jim’s mother counts a debt, Trelawney imagines riches, and Silver calculates future plunder. Money matters differently to each. The crucial differences lie less in wanting gold than in the limits people accept.</p><p>Whom are they willing to hurt? With whom will they share? Do they treat an ally as disposable? These questions help us read characters without replacing the plot: answers emerge through actions under pressure, not through prefabricated moral lessons.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "silver-double-vision",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VIII, XI",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Сильвера можно понимать и всё же опасаться",
+          "body": "<p>У Сильвера есть обаяние, наблюдательность, терпение и практический ум. Эти качества помогают ему нравиться Джиму и влиять на взрослых. Но привлекательность человека сама по себе не отвечает на вопрос о его намерениях.</p><p>Удержи две мысли сразу: интересный персонаж не обязан быть надёжным союзником; опасный персонаж не обязан быть скучным. Дальнейшая история проверит границы этих впечатлений. Здесь его судьба и последние решения остаются нераскрытыми.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "You can understand Silver and still fear him",
+          "body": "<p>Silver possesses charm, attentiveness, patience and practical intelligence. These qualities help him win Jim’s affection and influence adults. Being attractive company does not by itself answer the question of his intentions.</p><p>Hold two thoughts together: an interesting character need not be a reliable ally, and a dangerous character need not be dull. The continuing story will test those impressions. His fate and final decisions remain unrevealed here.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "geography-makes-action",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1,
+        3
+      ],
+      "sourceLocator": "I, X–XI, XIII–XXI; A Gossip on Romance",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Пейзаж предлагает действие, а не фон",
+          "body": "<p>Трактир нужен для появления незнакомца, бочка — для подслушивания, лес — для укрытия, частокол — для осады. Место определяет, какое событие кажется возможным и какое движение опасным.</p><p>В эссе о романтическом повествовании Стивенсон пишет о притяжении подходящего события к подходящему месту. Наше чтение романа опирается на эту мысль, но не превращает её в секретную формулу автора. Приключение живёт конкретными расстояниями, предметами и препятствиями.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Landscape offers action, not just background",
+          "body": "<p>The inn makes room for a stranger, the barrel for overhearing, the woods for concealment, and the stockade for a siege. Place determines which events seem possible and which movements become dangerous.</p><p>In his essay on romance, Stevenson discusses the attraction between a place and a fitting incident. Our reading draws on that idea without claiming a secret authorial formula. The adventure lives through specific distances, objects and obstacles.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "sound-before-sight",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I, III, X–XV",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Сначала слышишь, потом видишь",
+          "body": "<p>Шум прибоя, песня моряка, стук палки Пью, голоса рядом с бочкой, крик в лесу — звук часто приносит опасность раньше ясного изображения. Джим должен решить, что он услышал и можно ли двигаться.</p><p>Попробуй читать такие места медленнее. Стивенсон не просто украшает тишину: он ограничивает доступ героя к происходящему. Читателю приходится достраивать невидимое вместе с ним. Именно поэтому обычный шорох способен задержать дыхание сильнее описания оружия.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "You hear it before you see it",
+          "body": "<p>Surf, a sailor’s song, Pew’s tapping stick, voices beside the barrel and a cry in the woods often deliver danger before a clear image. Jim must decide what he has heard and whether he can move.</p><p>Try reading such passages more slowly. Stevenson is not merely decorating silence: he limits the hero’s access to events. Readers reconstruct the unseen alongside him. An ordinary rustle can therefore catch the breath more effectively than a description of weapons.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "older-jim-telling",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I, III, XII",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Рассказывающий Джим знает больше переживающего",
+          "body": "<p>С первых строк Джим записывает прошлые события по просьбе взрослых. В сценах он ещё не понимает людей, чьи поступки рассказчик уже может осмыслять. Это две позиции одного голоса.</p><p>Рамка воспоминания даёт нам знать, что Джим способен рассказать историю, но не выдаёт судьбу остальных или исход поисков. Важна не только загадка выживания: хочется понять, как менялись его впечатления и сколько ошибочных догадок помещалось между ними.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "The telling Jim knows more than the experiencing Jim",
+          "body": "<p>From the opening Jim writes past events at the adults’ request. Within scenes he does not yet understand people whose actions the narrator can already reflect upon. These are two positions within one voice.</p><p>The retrospective frame tells us Jim can tell the story, without disclosing everyone else’s fate or the search’s outcome. Survival is not the only mystery: we want to understand his changing impressions and the mistaken guesses between them.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "women-at-edge",
+      "level": 2,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1,
+        2
+      ],
+      "sourceLocator": "IV, VII; My First Book",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Не весь мир попадает на корабль",
+          "body": "<p>Мать Джима важна в начале; о жене Сильвера мы узнаём немного, хотя именно она управляет их трактиром. Роман называет её в расистских выражениях своей эпохи — это предубеждение текста, а не нейтральный факт. Основная экспедиция и борьба представлены почти полностью мужским кругом; в позднем эссе Стивенсон описывал замысел как историю для мальчиков с исключением женщин.</p><p>Это граница выбранного приключения, а не доказательство, что смелость принадлежит одному полу. Можно увлечься маршрутом Джима и одновременно заметить, чьи возможности и голоса автор оставил за краем карты.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Not the whole world boards the ship",
+          "body": "<p>Jim’s mother matters at the beginning; we learn little about Silver’s wife, though she runs their inn. The novel describes her through the racial prejudice of its period; that prejudice is a feature of the text, not a neutral fact. The main expedition and struggle form an almost entirely male circle, and Stevenson later described conceiving a boys’ story with women excluded.</p><p>That is a boundary of this chosen adventure, not evidence that courage belongs to one gender. We can enjoy Jim’s journey while noticing whose opportunities and voices the author leaves outside the map.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "two-historical-clocks",
+      "level": 1,
+      "claimType": "corroboration",
+      "evidenceKind": "context",
+      "sources": [
+        1,
+        4,
+        7
+      ],
+      "sourceLocator": "I; RMG Golden Age; chronology 1882–83",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "В романе работают два исторических времени",
+          "body": "<p>Джим начинает запись неопределённым годом XVIII века — 17—. Книга написана в XIX веке и вышла отдельным изданием в 1883 году. Не следует путать время действия со временем создания.</p><p>Музей Гринвича относит западный «золотой век пиратства» примерно к 1680–1720-м. Это фон для сопоставления, а не точная дата плавания «Испаньолы». Стивенсон создаёт приключение о прошлом, а не публикует найденный судовой журнал.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "The novel has two historical clocks",
+          "body": "<p>Jim dates his account to an unspecified eighteenth-century year: 17—. The book was written in the nineteenth century and published as a volume in 1883. Story time and writing time should not be confused.</p><p>Royal Museums Greenwich places the Western golden age of piracy roughly in the 1680s–1720s. That is comparative background, not an exact date for the Hispaniola’s voyage. Stevenson creates a past adventure, not an authenticated ship’s log.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "pirate-myth-boundary",
+      "level": 2,
+      "claimType": "corroboration",
+      "evidenceKind": "context",
+      "sources": [
+        5
+      ],
+      "sourceLocator": "RMG, buried treasure section",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Карта сокровищ — сильный вымысел, слабый справочник",
+          "body": "<p>По объяснению морского музея, реальные пираты почти никогда не закапывали добычу; историю с кладом капитана Кидда нельзя превращать в общую привычку. Карты тайников принадлежат прежде всего нашему пиратскому воображению.</p><p>Это не ошибка, которая ломает роман. Вымышленная карта создаёт прекрасную причину отправиться в путь. Просто не стоит использовать приключение как инструкцию о том, чем каждый день занимались настоящие морские разбойники.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "A treasure map is powerful fiction, limited history",
+          "body": "<p>The maritime museum explains that real pirates almost never buried their plunder; Captain Kidd’s cache should not become a universal pirate habit. Secret treasure maps belong chiefly to our pirate imagination.</p><p>This does not break the novel. Its fictional map creates an excellent reason to set sail. We simply should not use an adventure as a guide to the everyday activities of actual sea robbers.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "story-begins-as-map",
+      "level": 1,
+      "claimType": "corroboration",
+      "evidenceKind": "context",
+      "sources": [
+        2,
+        6
+      ],
+      "sourceLocator": "My First Book; Glasgow, Treasure Island entry",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Стивенсон сначала увидел остров на бумаге",
+          "body": "<p>В своём позднем рассказе о создании книги Стивенсон вспоминает рисование карты во время семейного пребывания в Бремаре. Библиотека Университета Глазго также связывает начало романа с этой картой и интересом его пасынка Ллойда Осборна.</p><p>Это объясняет особую плотность пространства в истории: берега и гавани подсказывают события. Но воспоминание писателя — свидетельство о творчестве, а не пошаговая стенограмма единственного момента вдохновения.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Stevenson saw an island on paper first",
+          "body": "<p>In his later account of composing the book, Stevenson recalls drawing a map during a family stay at Braemar. Glasgow University Library likewise connects the novel’s beginning with that map and his stepson Lloyd Osbourne’s interest.</p><p>This helps explain the story’s spatial density: shores and harbours suggest events. A writer’s retrospective account is evidence about composition, however, not a minute-by-minute transcript of a single moment of inspiration.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "serial-and-cliff-edge",
+      "level": 2,
+      "claimType": "corroboration",
+      "evidenceKind": "context",
+      "sources": [
+        2,
+        7
+      ],
+      "sourceLocator": "My First Book; chronology, 1882",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Читатели сначала ждали продолжения",
+          "body": "<p>История печаталась в Young Folks в 1881–1882 годах под именем Captain George North, затем была переработана для книжного издания 1883 года. Сегодня можно сразу перевернуть страницу; первые читатели ждали следующую часть.</p><p>Это полезный контекст для концовок глав, но не доказательство, что каждый поворот придуман только ради продажи номера. Стивенсон вспоминал и остановку работы, и возвращение к ней: приключение писалось не одним непрерывным порывом.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Readers originally waited for the next instalment",
+          "body": "<p>The story appeared in Young Folks in 1881–1882 under the name Captain George North, then was revised for the 1883 book. We can turn the page immediately; its earliest readers had to wait.</p><p>This helps us think about chapter endings without proving that every turn existed merely to sell another issue. Stevenson also recalled stalled work and renewed progress: the adventure was not written in one unbroken burst.</p>"
+        }
+      },
+      "spoilerTier": "midstory"
+    },
+    {
+      "id": "read-with-three-questions",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I–XIV; reader synthesis",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Три вопроса удерживают приключение живым",
+          "body": "<p>Пока читаешь, спрашивай: чего сейчас хочет Джим; чего он ещё не знает; что физически мешает ему действовать? Ответы меняются от комнаты трактира до палубы и леса.</p><p>Отдельно замечай, как ты сам меняешь мнение о человеке после новой сцены. Это наш способ читать роман, не готовая мораль Стивенсона. Он помогает остаться рядом с движением, страхом и открытием, вместо того чтобы заранее разложить всех по ярлыкам.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "Three questions keep the adventure alive",
+          "body": "<p>As you read, ask: what does Jim want now, what does he not yet know, and what physically obstructs him? The answers change between the inn room, the deck and the woods.</p><p>Separately notice how a new scene changes your own opinion of someone. This is our reading approach, not a prescribed Stevenson moral. It keeps us beside movement, fear and discovery rather than sorting everyone into labels in advance.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "safe-place-to-stop",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [],
+      "sourceLocator": "",
+      "copy": {
+        "ru": {
+          "section": "Как это написано",
+          "title": "Тайну можно оставить закрытой",
+          "body": "<p>Если хочется впервые пройти путь вместе с Джимом, здесь достаточно остановиться. «Главное» раскрывает ранние события и темы, но не концовку; «Суть» добавляет события до борьбы за частокол. Ни один из этих маршрутов не объясняет исход поисков или судьбы героев в конце.</p><p>Следующий дополнительный слой раскрывает всё. Продолжение не является экзаменом на внимательность: можно вернуться к роману, а разбор развязки открыть после чтения. Обложка и финальный экран доступны в каждом маршруте.</p>"
+        },
+        "en": {
+          "section": "How it works",
+          "title": "You can leave the mystery closed",
+          "body": "<p>If you want to make the journey with Jim for the first time, this is a good stopping place. Essential gives early plot revelations and themes without the ending; Core adds events through the struggle for the stockade. Neither explains the search’s outcome or the characters’ final fates.</p><p>The next added layer reveals everything. Continuing is no test of commitment: return to the novel and open the resolution discussion afterwards. Every route includes the cover and final screen.</p>"
+        }
+      },
+      "spoilerTier": "premise"
+    },
+    {
+      "id": "spoiler-warning",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [],
+      "sourceLocator": "",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Стоп: дальше вся развязка / Full spoilers ahead",
+          "body": "<p>Этот слой раскрывает дальнейший путь Джима, местонахождение сокровищ, исход мятежа и судьбы персонажей. Если ты ещё читаешь роман, вернись к режиму «Главное» или «Суть». Следующий экран уже содержит новые события.</p><p>This layer reveals Jim’s later journey, the treasure’s whereabouts, the mutiny’s outcome and the characters’ fates. Return to Essential or Core if you want to keep those discoveries. The next screen begins the full continuation.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Stop: full spoilers ahead / Дальше вся развязка",
+          "body": "<p>This layer reveals Jim’s later journey, the treasure’s whereabouts, the mutiny’s outcome and the characters’ fates. Return to Essential or Core if you want to keep those discoveries. The next screen begins the full continuation.</p><p>Этот слой раскрывает дальнейший путь Джима, местонахождение сокровищ, исход мятежа и судьбы персонажей. Если ты ещё читаешь роман, вернись к режиму «Главное» или «Суть». Следующий экран уже содержит новые события.</p>"
+        }
+      },
+      "spoilerBoundary": true,
+      "spoilerTier": "warning"
+    },
+    {
+      "id": "coracle-plan",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Джим уходит за лодкой Бена",
+          "body": "<p>После штурма Джим снова тайно покидает своих. Он берёт еду и пистолеты и разыскивает спрятанную лодку Бена Ганна — лёгкую, обтянутую кожей корзинообразную кораклу. Возникает план добраться до «Испаньолы» и лишить мятежников корабля.</p><p>В этом есть смелость и серьёзная самонадеянность. Джим не может заранее знать, как управится с лодкой или вернётся. Его поступок оставляет раненых товарищей без объяснения, куда исчез ещё один защитник.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Jim goes after Ben’s boat",
+          "body": "<p>After the assault Jim secretly leaves his companions again. Taking food and pistols, he searches for Ben Gunn’s hidden boat: a light, skin-covered, basketlike coracle. He develops a plan to reach the Hispaniola and deprive the mutineers of their ship.</p><p>The idea combines courage with considerable overconfidence. Jim cannot know how he will handle the boat or return. His wounded companions receive no explanation for another defender’s disappearance.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "cutting-hawser",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Канат можно перерезать, течение — нет",
+          "body": "<p>Джим подбирается к кораблю в темноте. На борту слышна пьяная ссора. Он осторожно перерезает якорный канат, пользуясь моментом, когда натяжение ослабевает. Но освободившаяся «Испаньола» и его лодка оказываются во власти отлива.</p><p>Успех одной операции немедленно создаёт следующую опасность. Джим изменил положение корабля, но не получил полного контроля над ним. Вода не обязана выполнять человеческий замысел только потому, что герой решился на отчаянный шаг.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "He can cut a rope, but not command the tide",
+          "body": "<p>Jim approaches the ship in darkness. A drunken quarrel is audible aboard. He carefully cuts the anchor cable when its strain briefly slackens. The freed Hispaniola and his little boat then come under the ebb tide’s power.</p><p>Success in one operation immediately creates another danger. Jim has changed the ship’s position without gaining full control of it. Water does not have to obey a human plan just because the hero has dared something desperate.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "coracle-at-sea",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIII–XXIV",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Маленькая лодка заставляет учиться телом",
+          "body": "<p>Коракла плохо слушается неопытного гребца. Джиму приходится наблюдать волны, пробовать движения и искать возможность не разбиться у берега. Он засыпает от усталости, а утром видит новую обстановку.</p><p>Это не пауза между подвигами. Море становится главным противником, которому безразлично, кто честный, а кто пират. Маленькая лодка возвращает масштаб: мальчик может изменить ход истории, оставаясь очень слабым перед водой, голодом и изнеможением.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "The little boat makes Jim learn with his body",
+          "body": "<p>The coracle responds poorly to its inexperienced paddler. Jim must watch waves, experiment with movements and find a way to avoid being smashed against the shore. Exhaustion sends him to sleep; morning brings a changed situation.</p><p>This is no pause between exploits. The sea becomes the principal opponent, indifferent to honesty or piracy. The tiny boat restores scale: a boy may alter events while remaining vulnerable to water, hunger and exhaustion.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "aboard-hispaniola",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIV–XXV",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "На судне Джим находит последствия ссоры",
+          "body": "<p>Джим замечает дрейфующую «Испаньолу» и добирается до неё. На палубе один пират мёртв, Израэль Хендс ранен. Лодка Джима оказывается раздавлена, и простого пути назад больше нет.</p><p>Мальчик снимает пиратский флаг и объявляет себя новым хозяином положения. Но корабль нужно ещё привести в безопасное место. Заявление о власти не заменяет навыка: человек, которого Джим должен опасаться, одновременно знает то, чего он сам не умеет.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Aboard the ship, Jim finds the quarrel’s aftermath",
+          "body": "<p>Jim spots the drifting Hispaniola and reaches her. One pirate lies dead on deck; Israel Hands is wounded. Jim’s coracle is crushed, removing the easy way back.</p><p>The boy takes down the pirate flag and announces his control. Yet the ship must still be brought somewhere safe. Declaring authority cannot replace skill: the man Jim needs to fear also knows something he cannot do himself.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "hands-bargain",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXV–XXVI",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Хендс нужен Джиму — и готовит нападение",
+          "body": "<p>Раненый Хендс соглашается помогать вести шхуну в Северную бухту. Джим приносит ему питьё и еду, но замечает, как тот прячет нож. Их временное сотрудничество держится на необходимости, а не доверии.</p><p>Стивенсон даёт читателю видеть угрозу раньше её исполнения. Возникает напряжённая двойная работа: управлять судном и следить за человеком рядом. Опасность не исчезает оттого, что противник говорит полезные вещи и действительно помогает с парусами.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Jim needs Hands, who prepares an attack",
+          "body": "<p>The wounded Hands agrees to help sail the schooner into North Inlet. Jim brings him drink and food, but notices him hiding a knife. Their temporary cooperation rests on necessity, not trust.</p><p>Stevenson lets the reader see the threat before it is carried out. Jim must perform two demanding tasks: handle the vessel and watch the man beside him. Danger does not vanish because an opponent gives useful advice and genuinely helps with the sails.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "hands-confrontation",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVI–XXVII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Победа над Хендсом не выглядит игрой",
+          "body": "<p>Хендс нападает. Пистолет Джима сначала не стреляет из-за промокшей затравки; мальчик спасается на снастях и готовит оружие заново. Хендс бросает нож, ранит его в плечо; в боли и испуге Джим разряжает оба пистолета. Хендс падает в воду.</p><p>Рассказчик подчёркивает, что не целился сознательно в этот момент. Это смертельная схватка, а не безупречный спортивный выстрел. После неё Джиму ещё нужно освободиться и добраться до берега.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Defeating Hands is no game",
+          "body": "<p>Hands attacks. Jim’s pistol initially fails because its priming is wet; he escapes into the rigging and readies his weapons again. Hands throws his knife and wounds Jim’s shoulder. In pain and shock Jim fires both pistols. Hands falls into the water.</p><p>The narrator stresses that he did not consciously aim at that moment. This is a fatal struggle, not a flawless sporting shot. Afterwards Jim still has to free himself and reach shore.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "wrong-camp",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Вернуться в знакомое место — не значит к своим",
+          "body": "<p>Спрятав корабль, Джим идёт к частоколу. Он воображает возвращение к друзьям, но в темноте слышит голос попугая и понимает ошибку слишком поздно: укрепление теперь занято Сильвером и его людьми.</p><p>Пока Джим действовал один, другие тоже меняли планы. Его подвиг не остановил общий ход событий. Сцена превращает успех в плен без долгого перехода: мальчик знает о спасённом корабле больше врагов, но не знает, где оказались союзники.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "A familiar place no longer means friends",
+          "body": "<p>After securing the ship, Jim heads for the stockade, imagining a return to his companions. In the darkness he hears the parrot and understands too late: Silver and his men now occupy the position.</p><p>While Jim acted alone, everyone else was changing plans too. His exploit did not freeze the rest of the story. Success becomes captivity: he knows more than his enemies about the recovered ship, but does not know where his allies have gone.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "silver-protects-jim",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVIII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Сильвер защищает пленника от своих",
+          "body": "<p>Джим оказывается среди оставшихся мятежников. Сильвер удерживает их от расправы и разговаривает с мальчиком. Он уже понимает, что его положение непрочно, и хочет иметь возможность договориться с законной стороной.</p><p>Здесь начинается союз без чистого доверия: Джим нужен Сильверу как шанс на спасение, Сильвер нужен Джиму как защита от остальных. Реальная помощь существует, но корыстный расчёт тоже. Не требуется выбрать только одно объяснение.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Silver protects the captive from his own men",
+          "body": "<p>Jim finds himself among the remaining mutineers. Silver restrains them from killing him and talks to the boy. He knows his own position is unstable and wants a way to bargain with the legitimate party.</p><p>An alliance without clean trust begins: Jim offers Silver a chance of survival, while Silver protects Jim from the others. Real help and self-interested calculation coexist. We need not choose only one explanation for the same action.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "jim-tells-truth",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVIII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Джим признаётся, что разрушил их планы",
+          "body": "<p>Перед мятежниками Джим рассказывает о подслушанном заговоре и своих действиях с кораблём. Он предлагает свидетельствовать в пользу Сильвера, если тот сохранит ему жизнь. Признание делает мальчика заметнее и опаснее для врагов.</p><p>Это не хитрость, которая мгновенно обезвреживает всех. Он фактически сообщает, сколько бед им принёс. Слова нужны ему как последняя возможность действовать в плену, где ни бежать, ни распоряжаться оружием свободно он не может.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Jim admits that he wrecked their plans",
+          "body": "<p>Before the mutineers Jim describes overhearing their conspiracy and interfering with the ship. He offers to speak in Silver’s favour if Silver saves his life. His admission makes the boy more conspicuous and more threatening to his enemies.</p><p>It is no trick that instantly neutralises everyone. He effectively tells them how much damage he has caused. Speech becomes his remaining means of action in captivity, where neither escape nor free use of weapons is available.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "second-black-spot",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXIX",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Вторая чёрная метка испытывает власть Сильвера",
+          "body": "<p>Недовольные пираты пытаются сместить Сильвера. Они вручают чёрную метку на вырезанном листе Библии; он обращает их суеверный страх против них и отвечает на обвинения. Главным доводом становится полученная от доктора карта.</p><p>Сильвер удерживает капитанство речью, правилами и обещанием добычи. Раньше метка напугала Бонса почти без объяснений; теперь виден механизм: знак действует, пока люди признают решение стоящей за ним группы.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "The second black spot tests Silver’s authority",
+          "body": "<p>Discontented pirates try to depose Silver. They deliver a black spot cut from a Bible; he turns their superstitious anxiety against them and answers their charges. His strongest argument is the map he has obtained from the doctor.</p><p>Silver retains command through speech, rules and promised treasure. Earlier the spot terrified Bones with little explanation; now its mechanism becomes visible: the sign works while people recognise the group’s decision behind it.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "parole-and-promise",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXX",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Слово удерживает Джима у врага",
+          "body": "<p>Ливси приходит лечить больных пиратов и получает возможность поговорить с Джимом. Доктор предлагает бежать. Джим отказывается: он дал Сильверу слово не убегать во время разговора и помнит, что тот спас его от расправы.</p><p>Это неудобная верность человеку, который сам ненадёжен. Роман не делает выбор безболезненным: Джим хочет к своим и не уверен в будущем. Он сохраняет обещание именно там, где нарушить его кажется самым выгодным.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "A promise keeps Jim beside an enemy",
+          "body": "<p>Livesey comes to treat the sick pirates and gains a chance to speak with Jim. The doctor proposes escape. Jim refuses: he has given Silver his word not to run during the interview, and remembers being saved from the other pirates.</p><p>It is an uncomfortable loyalty to someone unreliable. The novel does not make the choice painless: Jim wants his friends and fears what comes next. He keeps a promise precisely when breaking it seems most advantageous.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "doctor-map-bargain",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVIII–XXX",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Карта у Сильвера задаёт новую загадку",
+          "body": "<p>Почему Ливси отдал врагу карту и укрепление? Для Джима это почти невероятно. Доктор также предупреждает Сильвера не спешить к сокровищам, но не объясняет мальчику весь расчёт.</p><p>Прежний важнейший предмет ещё выглядит решающим, хотя читатель начинает подозревать, что его ценность изменилась. Стивенсон временно скрывает действия союзников, а не только планы пиратов. Мы знаем меньше врача и идём к тайнику вместе с людьми, которые уверены в карте.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "The map in Silver’s hands creates another mystery",
+          "body": "<p>Why has Livesey given the enemy both map and stockade? Jim finds it almost unbelievable. The doctor also warns Silver not to hurry after the treasure without explaining his entire calculation to the boy.</p><p>The once-vital object still looks decisive, though readers may suspect its value has changed. Stevenson temporarily conceals allies’ actions as well as pirate plans. We know less than the doctor and approach the cache with people who still trust the map.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "skeleton-pointer",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXI",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Указатель Флинта сделан из человека",
+          "body": "<p>Пираты ведут связанного Джима к сокровищам и обнаруживают скелет. Его положение служит указанием направления; Сильвер связывает находку с одним из людей, которых Флинт убил, пряча добычу.</p><p>Маршрут оказывается отмечен не только крестиками на бумаге, но и насилием. Это одновременно жуткая находка и деталь навигационной задачи. Жажда золота толкает искателей дальше, хотя след преступления перед ними совсем не похож на счастливое обещание карты.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "Flint’s pointer is made from a person",
+          "body": "<p>The pirates lead Jim, tethered by a rope, towards the treasure and discover a skeleton. Its position indicates a direction; Silver associates it with one of the men Flint killed while hiding his plunder.</p><p>The route is marked not just by crosses on paper but by violence. The find is both horrifying and part of a navigational puzzle. Hunger for gold pushes the searchers onward, despite the crime lying directly before them.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "voice-among-trees",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXII–XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Глубоко · спойлеры",
+          "title": "Мёртвый Флинт словно подаёт голос",
+          "body": "<p>Из леса звучат песня и слова, напоминающие пиратам умершего Флинта. Они пугаются призрака. Сильвер рассуждает об эхе и узнаёт голос Бена Ганна; страх ослабевает, и поиск продолжается.</p><p>Позже выясняется: Бен действительно подражал голосу, чтобы задержать группу и дать Ливси с Греем время устроить засаду. Сверхъестественное объяснение уступает человеческому действию. Но пережитый страх от этого не был для пиратов менее настоящим.</p>"
+        },
+        "en": {
+          "section": "Deep · spoilers",
+          "title": "The dead Flint seems to speak",
+          "body": "<p>A song and words recalling the dead Flint sound from the woods. The pirates fear a ghost. Silver reasons about the echo and recognises Ben Gunn’s voice; their fear subsides and the search continues.</p><p>We later learn that Ben was indeed imitating the voice to delay the group while Livesey and Gray prepared an ambush. A supernatural explanation gives way to human action. The fear the pirates experienced was nevertheless entirely real to them.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "empty-excavation",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXII",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "На месте сокровищ — старая яма",
+          "body": "<p>Искатели достигают отмеченного места. Перед ними разрытая земля, сломанная кирка и обломки ящиков. Находка уже состоялась до их прихода: ожидаемых денег здесь нет.</p><p>Карта не обязательно лгала — она описывала прежнее положение вещей. Огромная уверенность группы рушится за секунды. Для Джима это не просто разочарование в богатстве: люди, державшиеся вместе ради добычи, теперь могут немедленно обратить ярость на Сильвера и своего пленника.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "An old pit occupies the treasure’s place",
+          "body": "<p>The searchers reach the marked spot. They find disturbed earth, a broken pick and fragments of packing cases. Someone has already made the discovery: the expected money is not here.</p><p>The map need not have lied; it described an earlier state of affairs. The group’s immense confidence collapses in seconds. For Jim this is more than financial disappointment: men united by promised plunder may now turn their anger on Silver and their captive.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "ambush-at-pit",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "Засада спасает Джима и Сильвера",
+          "body": "<p>У пустого тайника оставшиеся пираты готовы выступить против Сильвера. Из укрытия стреляют Ливси, Грей и Бен Ганн. Двое противников погибают; трое бегут. Сильвер тоже стреляет в Джорджа Мерри.</p><p>Спасение приходит не из-за внезапного исправления всей команды. За ним стоит действие людей, которых Джим не видел. Сильвер мгновенно приспосабливается к новой расстановке сил, сохраняя и жизнь мальчика, и шанс на собственное спасение.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "The ambush saves Jim and Silver",
+          "body": "<p>At the empty cache the remaining pirates are ready to turn on Silver. Livesey, Gray and Ben Gunn fire from concealment. Two opponents die; three flee. Silver also shoots George Merry.</p><p>Rescue comes through unseen allies’ actions, not a sudden reform of the entire crew. Silver immediately adapts to the changed balance, preserving both the boy’s life and his own chance of survival.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "bens-hidden-work",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "Бен перенёс сокровища раньше всех",
+          "body": "<p>Ливси объясняет: Бен давно нашёл клад, выкопал его и многими тяжёлыми переходами перенёс в пещеру. Он закончил это за два месяца до появления «Испаньолы». Доктор узнал тайну после штурма укрепления.</p><p>Поэтому карту можно было отдать Сильверу: она больше не вела к деньгам. Человек, которого другие недооценивали, успел изменить задачу до начала экспедиции Джима. Решающее преимущество оказалось не новым оружием, а неизвестной остальным работой.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "Ben moved the treasure before anyone arrived",
+          "body": "<p>Livesey explains that Ben had found the treasure, dug it up and carried it to his cave in many exhausting journeys. He finished two months before the Hispaniola arrived. The doctor learned the secret after the stockade assault.</p><p>That made it possible to give Silver the map: it no longer led to the money. An underestimated man had changed the problem before Jim’s expedition began. The decisive advantage was previously unknown work, not a new weapon.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "chronology-versus-discovery",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXVII–XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "Порядок открытия не равен порядку событий",
+          "body": "<p>Сначала Бен переносит клад. Потом прибывает экспедиция; позже доктор узнаёт тайну и меняет лагерь. Джим узнаёт об этом последним — после корабля, плена и пустой ямы. Такова хронология, которую мы можем собрать задним числом.</p><p>Стивенсон рассказывает иначе, сохраняя Джимово незнание. Это не повтор той же загадки: различие объясняет, почему разумные действия Ливси сперва кажутся предательством здравого смысла. Не всё неожиданное для героя произошло только что.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "Discovery order is not event order",
+          "body": "<p>First Ben moves the treasure. Then the expedition arrives; later the doctor learns the secret and changes camps. Jim learns last, after the ship, captivity and empty pit. That is the chronology we can reconstruct afterwards.</p><p>Stevenson narrates differently, preserving Jim’s ignorance. The distinction explains why Livesey’s sensible actions initially look absurd. Not everything surprising to the hero has just happened: some discoveries expose a past already shaping his present.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "cave-is-not-pit",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIII",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "В пещере богатство встречается с усталостью",
+          "body": "<p>Герои добираются до Беновой пещеры, где находятся сокровища и раненый капитан. Трелони осуждает Сильвера, хотя договорённости не позволяют просто расправиться с ним. За общей трапезой тот снова становится услужливым моряком.</p><p>Найденные деньги не стирают предыдущих смертей. Джим задумывается и о том, какой кровью клад был собран до их путешествия. Пещера даёт отдых и радость спасения, но не превращает прошлое золота в чистое.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "In the cave, wealth meets exhaustion",
+          "body": "<p>The survivors reach Ben’s cave, containing the treasure and wounded captain. Trelawney condemns Silver, although their arrangements prevent simply treating him as a captured enemy without obligations. At supper Silver becomes the helpful sailor again.</p><p>Recovered money does not erase the deaths. Jim also imagines the bloodshed through which the hoard was originally accumulated. The cave offers rest and relief, without making the gold’s past innocent.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "leaving-three-behind",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "Отплытие оставляет троих на берегу",
+          "body": "<p>Сокровища переносят на корабль. Трёх уцелевших мятежников решают оставить на острове, снабдив пищей, инструментами, порохом и другими необходимыми вещами. Когда судно уходит, они умоляют забрать их.</p><p>Для своих это защита от нового бунта; для оставленных — страшное будущее. Роман позволяет почувствовать обе стороны, не предлагая лёгкого оправдания. Остров, который манил всех богатством, становится местом, откуда одним удаётся уйти, а другим — нет.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "Departure leaves three men ashore",
+          "body": "<p>The treasure is loaded aboard. The three surviving mutineers are left on the island with food, tools, powder and other necessities. As the vessel departs, they beg to be taken along.</p><p>For the departing party this prevents another mutiny; for those abandoned it means a frightening future. The novel lets us feel both sides without an easy justification. The island that attracted everyone with riches becomes a place some can leave and others cannot.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "silver-slips-away",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "Сильвер ускользает с частью денег",
+          "body": "<p>Людей не хватает для безопасного пути домой, поэтому «Испаньола» заходит в порт Испанской Америки за новой командой. Там Сильвер исчезает в лодке при содействии Бена, прихватив мешок монет.</p><p>Это не официальное прощение и не показанная казнь. Джим больше о нём не слышит. Его догадка о дальнейшей спокойной жизни с женой и попугаем остаётся догадкой. Финал намеренно не выдаёт документально точной участи самому неуловимому человеку истории.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "Silver slips away with some money",
+          "body": "<p>Too few people remain for a safe voyage home, so the Hispaniola calls at a port in Spanish America to recruit more hands. There Silver escapes in a boat with Ben’s help, taking a sack of coins.</p><p>This is neither an official pardon nor an execution. Jim hears no more of him. His speculation about a comfortable future with wife and parrot remains speculation. The ending withholds a documented fate for the story’s most elusive figure.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "jim-does-not-return",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV",
+      "copy": {
+        "ru": {
+          "section": "Развязка · спойлеры",
+          "title": "Домой возвращаются деньги — и кошмары",
+          "body": "<p>«Испаньола» приходит в Бристоль; выжившие получают доли сокровищ. Но Джим не собирается возвращаться за оставшимися на острове серебром и оружием. В дурных снах он слышит прибой и крик попугая.</p><p>Поиск дал богатство, но не сделал каждое воспоминание счастливым. Последняя нота романа принадлежит не подсчёту монет, а звуку, который снова будит рассказчика. Приключение завершилось на карте, однако его воздействие на Джима не закончилось вместе с плаванием.</p>"
+        },
+        "en": {
+          "section": "Resolution · spoilers",
+          "title": "Money comes home, and nightmares do too",
+          "body": "<p>The Hispaniola reaches Bristol; the survivors receive shares of the treasure. Jim nevertheless refuses any return for the silver and weapons still on the island. In bad dreams he hears the surf and the parrot’s cry.</p><p>The search has brought wealth without making every memory happy. The novel’s final note belongs to a sound that wakes its narrator, not to counted coins. The mapped adventure is over, but its effect on Jim has not ended with the voyage.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "ending-has-two-truths",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIII–XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Радость спасения не отменяет пережитого",
+          "body": "<p>Можно одновременно радоваться возвращению Джима и слышать тревогу последних строк. Не нужно объявлять всё плавание бессмысленным, чтобы заметить его цену. Не нужно также считать богатство лекарством от любой памяти.</p><p>Назвать это следом травмирующего опыта — наша интерпретация, а не поставленный герою медицинский диагноз. В тексте есть конкретная опора: отказ возвращаться и дурные сны. На этих наблюдениях разбор должен остановиться, не выдумывая дальнейшую жизнь Джима.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Relief does not erase experience",
+          "body": "<p>We can celebrate Jim’s return while hearing the final lines’ unease. The voyage need not be meaningless for its cost to matter. Wealth need not cure every memory either.</p><p>Reading the ending as an after-effect of traumatic experience is our interpretation, not a medical diagnosis of Jim. The text supplies specific evidence: his refusal to return and his nightmares. Discussion should rest on those details without inventing his later life.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "silver-without-acquittal",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XIV, XXVIII–XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Благодарность Сильверу не равна оправданию",
+          "body": "<p>Джим обязан Сильверу защитой в плену, но видел, как он убил Тома, и замечал новые расчёты у тайника. Добрый поступок не стирает убийство; убийство не делает спасение мальчика несуществовавшим.</p><p>Именно поэтому персонаж остаётся неудобным. Роман позволяет признать конкретный долг, не объявляя Сильвера тайно хорошим человеком. Его обаяние, жестокость и способность помогать не складываются в аккуратную табличку. Читателю приходится удерживать факты вместе, а не выбирать удобную половину.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Gratitude to Silver is not an acquittal",
+          "body": "<p>Jim owes Silver protection in captivity, but saw him kill Tom and noticed fresh calculations near the cache. One helpful act does not erase murder; murder does not make the boy’s rescue unreal.</p><p>This is why the character remains uncomfortable. The novel allows a particular debt without declaring Silver secretly good. Charm, cruelty and helpfulness do not form a neat scorecard. Readers must hold the facts together rather than choose the convenient half.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "smollett-final-judgement",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "IX, XXI, XXXIII–XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Смоллетт ценит Джима, но не его метод",
+          "body": "<p>Капитан признаёт пользу мальчика, однако не хочет снова идти с ним в море. Джим слишком часто оказывается любимцем удачи: его успешные самовольные поступки нельзя превратить в безопасный порядок для команды.</p><p>Это не отмена геройства. Рассказ допускает разные масштабы оценки: читатель восхищается удачным побегом, командир думает о предсказуемости действий всех. Дисциплина кажется скучной до тех пор, пока от отсутствующего человека не начинают зависеть чужие жизни.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Smollett values Jim, but not his method",
+          "body": "<p>The captain acknowledges the boy’s usefulness but does not want to sail with him again. Jim has been too much fortune’s favourite: successful unauthorised acts cannot become a safe operating pattern for a crew.</p><p>This does not cancel his heroism. The story allows different scales of judgement: readers admire a successful escape, while a commander needs everyone’s actions to be dependable. Discipline seems dull until someone else’s life depends on the missing person.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "different-futures",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "plot",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Одинаковый клад не создаёт одинаковой жизни",
+          "body": "<p>Грей учится морскому делу, сберегает деньги и становится помощником капитана и совладельцем корабля. Смоллетт уходит со службы. Бен получает тысячу фунтов, быстро тратит или теряет их и затем получает место привратника.</p><p>Это разные судьбы, а не доказанный закон о том, кому положено богатство. Рассказ относится к Бену насмешливо; его прежняя изоляция тоже остаётся частью истории. Деньги заканчивают поиск, но не выравнивают привычки, возможности и отношение окружающих.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "The same hoard does not make the same future",
+          "body": "<p>Gray studies seamanship, saves his money and becomes a mate and part-owner of a ship. Smollett retires. Ben receives a thousand pounds, quickly spends or loses it, and is subsequently given a lodge to keep.</p><p>These are different futures, not a proven law about who deserves wealth. The narrative treats Ben humorously; his earlier isolation also remains part of his story. Money ends the search without equalising habits, opportunities or others’ treatment.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "coins-have-weight",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Сокровище приходится таскать и сортировать",
+          "body": "<p>В финале золото перестаёт быть только сияющей целью. Слитки тяжелы; монеты разных стран нужно разложить по мешкам. У Джима болят спина и пальцы, хотя разнообразие монет ему нравится.</p><p>Эта прозаическая работа важна для ритма: после погони и выстрелов приходит повторяющееся усилие. Богатство становится материальным предметом, а не волшебным исполнением желания. Стивенсон даёт золоту одновременно притягательность, вес и утомительную необходимость доставить его домой.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Treasure has to be carried and sorted",
+          "body": "<p>At the end gold becomes more than a glittering goal. Bars are heavy; coins from different countries need packing into bags. Jim’s back and fingers ache, though he enjoys the coins’ variety.</p><p>The ordinary labour changes the rhythm: repeated effort follows pursuit and gunfire. Wealth becomes material rather than a magical fulfilment of desire. Stevenson gives gold attraction, weight and the tiring requirement of getting it home.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "who-paid-for-gold",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1,
+        4
+      ],
+      "sourceLocator": "XXXIII–XXXIV; RMG, trade and slavery",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Чьё золото получают победители?",
+          "body": "<p>В пещере Джим сам думает о прежних жертвах Флинта. Успех законной стороны не возвращает клад всем, у кого его отняли. На этом основан вопрос о цене добычи; полную историю её владельцев роман не сообщает.</p><p>Исторический фон тоже шире пиратской вольницы: музей Гринвича связывает морской разбой с торговлей, колониями и рабством. Эти сведения не доказывают происхождение каждой вымышленной монеты. Они лишь не дают спутать романтический образ с безобидной реальностью.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Who paid for the winners’ gold?",
+          "body": "<p>In the cave Jim himself thinks about Flint’s earlier victims. The legitimate party’s success does not restore the hoard to everyone robbed. That supports a question about the cost of plunder; the novel supplies no complete ownership history.</p><p>The historical background is broader than pirate freedom: Royal Museums Greenwich connects piracy with trade, colonies and slavery. This does not establish the origin of each fictional coin. It keeps a romantic image from becoming an innocent historical reality.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "borrowed-adventure-materials",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "author",
+      "sources": [
+        2
+      ],
+      "sourceLocator": "My First Book",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Стивенсон признавал литературные долги",
+          "body": "<p>В эссе о создании книги автор перечисляет следы Дефо, По и Вашингтона Ирвинга. Особенно заметным ему казалось сходство первых глав с историями Ирвинга. Роман возникает внутри уже существующей традиции морских и разбойничьих приключений.</p><p>Это свидетельство автора о памяти и работе воображения, а не повод считать все сцены копиями. Новое здесь — сочетание материалов, голос Джима, последовательность открытий и Сильвер. Оригинальность может заключаться в устройстве целого, а не в первом изобретении каждого предмета.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Stevenson acknowledged literary debts",
+          "body": "<p>In his account of composition the author names traces of Defoe, Poe and Washington Irving. He found the opening chapters’ resemblance to Irving particularly striking. The novel works within an existing tradition of sea stories and adventures with robbers.</p><p>This is authorial testimony about memory and imagination, not evidence that every scene is a copy. The new creation includes Jim’s voice, the arrangement of discoveries and Silver. Originality may lie in the whole design rather than inventing every object first.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "lost-map-rebuilt",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "author",
+      "sources": [
+        2
+      ],
+      "sourceLocator": "My First Book",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Исчезнувшую карту пришлось подогнать к книге",
+          "body": "<p>По воспоминаниям Стивенсона, первая карта потерялась при отправке издателю. Пришлось извлекать из готового текста расстояния, направления и расположение мест и рисовать заново. В оформлении участвовал его отец.</p><p>До этого события рождались из карты; теперь карта должна была соответствовать событиям. Этот перевёртыш объясняет требовательность автора к географии вымысла. Мы пересказываем его позднее свидетельство, а не заявляем, будто сохранилась первая карта и можно сравнить каждую её линию.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "The lost map had to be rebuilt from the book",
+          "body": "<p>Stevenson recalled the first map being lost on its way to the publisher. He had to extract distances, directions and locations from the completed text and draw it again. His father helped with its presentation.</p><p>Previously events had grown from the map; now the map had to fit events. That reversal explains the writer’s demanding approach to fictional geography. We report his later account, not a comparison with an allegedly surviving original drawing.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "silver-model-not-identity",
+      "level": 3,
+      "claimType": "book",
+      "evidenceKind": "author",
+      "sources": [
+        2
+      ],
+      "sourceLocator": "My First Book",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Образ Сильвера — превращение, а не портрет друга",
+          "body": "<p>Стивенсон описывал, как для Сильвера взял силу, смелость, живость и общительность знакомого человека, мысленно убрав лучшие нравственные качества. В самом этом эссе он не называет друга по имени.</p><p>Поэтому здесь важен метод, а не попытка приписать реальному знакомому преступления персонажа. Автор преобразует узнаваемую энергию в другое сочетание свойств. Привлекательность Сильвера не случайная помеха злодейству: она входит в конструкцию человека, способного и нравиться, и внушать страх.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Silver’s model is a transformation, not a portrait",
+          "body": "<p>Stevenson described taking an acquaintance’s strength, courage, quickness and geniality for Silver while imaginatively removing his finer moral qualities. In this essay he does not name the friend.</p><p>The important point here is the method, not an attempt to attribute the character’s crimes to a real acquaintance. The writer transforms recognisable energy into a different combination of traits. Silver’s appeal is not an accidental obstacle to his villainy: it belongs to a design that can attract and frighten.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "no-curse-required",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "interpretation",
+      "sources": [
+        1,
+        3
+      ],
+      "sourceLocator": "III, XXIX, XXXII–XXXIII; A Gossip on Romance",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Приключению не нужно настоящее проклятие",
+          "body": "<p>Чёрные метки действуют через людей и признанные ими правила. Голос мёртвого пирата принадлежит живому человеку. Страх перед прошлым реален, хотя чудесное объяснение не подтверждается.</p><p>Так роман сохраняет почти сказочную силу карты, острова и клада, оставаясь историей человеческих действий и физических препятствий. Это наше наблюдение о его устройстве. Важнее не разоблачить каждую страшную сцену, а заметить, как она сначала переживается и только потом получает объяснение.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "The adventure needs no actual curse",
+          "body": "<p>Black spots work through people and rules they recognise. A dead pirate’s voice belongs to a living man. Fear of the past is real even when a supernatural explanation is not confirmed.</p><p>The novel thus retains the almost fairy-tale power of map, island and hoard while relying on human actions and physical obstacles. This is our observation about its construction. Rather than debunking every frightening scene, notice how it is first experienced and only later explained.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "opening-ending-mirror",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "I, VI, X, XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Начало и конец слышатся по-разному",
+          "body": "<p>В начале чужая песня приносит морской мир в дом Джима. В конце знакомый голос попугая приходит в его сны. Сначала карта обещает желанное место; потом знание места становится причиной не возвращаться.</p><p>Это наш способ сопоставить рамку романа, а не скрытое авторское объяснение. Путешествие меняет значение уже знакомых вещей. Чтобы почувствовать перемену, не обязательно добавлять новый символ: достаточно вспомнить, как раньше звучал тот же голос.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "The opening and ending sound different",
+          "body": "<p>At the beginning a stranger’s song brings the sea into Jim’s home. At the end the familiar parrot’s voice enters his dreams. First the map promises a desired place; later knowing that place gives him reason never to return.</p><p>This is our comparison of the novel’s frame, not a concealed authorial explanation. The journey changes familiar things’ meanings. No new symbol is required: remember how the same voice sounded before.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "what-remains-unknown",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Развязка оставляет честные пробелы",
+          "body": "<p>Мы знаем о возвращении корабля, долях сокровищ и бегстве Сильвера. Но не знаем подтверждённой дальнейшей судьбы Сильвера и троих оставленных пиратов. Не получаем и полной будущей биографии Джима.</p><p>Не заполняй эти места событиями из экранизации или собственной уверенностью. Можно строить догадки, если назвать их догадками. Конец завершает конкретное путешествие, а не выдаёт досье на каждого участника. Отчасти поэтому море кажется существующим и за последней страницей.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "The resolution leaves honest gaps",
+          "body": "<p>We know the ship returns, the treasure is divided and Silver escapes. We do not know Silver’s confirmed later fate or that of the three abandoned pirates. Nor do we receive Jim’s complete future biography.</p><p>Do not fill these spaces with events from an adaptation or with unsupported certainty. Speculation is possible when named as speculation. The ending completes a voyage rather than a dossier on everyone aboard. That helps the sea seem to continue beyond the last page.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "reread-one-scene",
+      "level": 3,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [
+        1
+      ],
+      "sourceLocator": "VIII, XI, XXVIII, XXXIV",
+      "copy": {
+        "ru": {
+          "section": "После развязки",
+          "title": "Перечитай встречу с Сильвером, зная конец",
+          "body": "<p>Вернись к бристольскому знакомству и отдели то, что Сильвер делает, от того, что Джим о нём заключает. Потом сравни его речь у бочки и в лагере мятежников. Где сохраняется манера, а где меняется цель?</p><p>Это упражнение не требует объявить первую симпатию глупостью. Хорошо написанное обаяние должно работать и на читателя. Перечитывание добавляет второе приключение: теперь ты исследуешь не остров, а собственное первое впечатление.</p>"
+        },
+        "en": {
+          "section": "After the ending",
+          "title": "Read the first meeting knowing the ending",
+          "body": "<p>Return to Bristol and separate what Silver does from what Jim concludes about him. Then compare his speech beside the barrel and in the mutineers’ camp. Where does the manner remain constant, and where does the aim change?</p><p>This does not require calling the first attraction foolish. Well-written charm should work on the reader too. Rereading offers a second adventure: you explore your own first impression rather than the island.</p>"
+        }
+      },
+      "spoilerTier": "full"
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "synthesis",
+      "evidenceKind": "synthesis",
+      "sources": [],
+      "sourceLocator": "",
+      "copy": {
+        "ru": {
+          "section": "Снова к книге",
+          "title": "Карта зовёт. Людей придётся понять самому",
+          "body": "<p>Главная сила «Острова сокровищ» — желание узнать, что за следующим берегом, рядом со страхом ошибиться в человеке. Джим наблюдает, рискует и меняет мнение; мы проходим эту неопределённость вместе с ним.</p><p>Этот конспект может показать входы в роман, но не заменить ветер, паузы и ожидание между сценами. Если ты сохранил развязку закрытой — тем лучше для первого плавания. Если уже открыл её — обрати внимание, как Стивенсон ведёт туда с самого начала.</p>"
+        },
+        "en": {
+          "section": "Back to the novel",
+          "title": "The map calls. People must be understood",
+          "body": "<p>Treasure Island draws its force from wanting to know what lies beyond the next shore while fearing a mistaken judgement of someone beside you. Jim observes, risks and revises his impressions; we travel that uncertainty with him.</p><p>This digest offers entrances to the novel, without replacing its wind, pauses and anticipation between scenes. If you kept the ending closed, enjoy the first voyage. If you opened it, watch how Stevenson has steered towards it from the beginning.</p>"
+        }
+      },
+      "final": true,
+      "spoilerTier": "premise"
+    }
+  ]
+}

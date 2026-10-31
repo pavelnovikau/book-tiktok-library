@@ -125,6 +125,7 @@ function assert(value, message) {
 await command('Page.enable');
 await command('Runtime.enable');
 await command('Log.enable');
+await command('Network.enable');
 await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 2, mobile: true });
 
 await navigate('', `document.querySelectorAll('.book').length === ${expectedBookCount}`);
@@ -217,6 +218,51 @@ assert(desktopFocus.rail === 'none', 'desktop rail remained visible in focus mod
 assert(desktopFocus.shellWidth <= 901, `desktop focus measure is too wide: ${desktopFocus.shellWidth}px`);
 assert(desktopFocus.overflow <= 1, `desktop focus overflow: ${desktopFocus.overflow}px`);
 
+await evaluate(`localStorage.removeItem('bookLibrary.installGuide.seen.v2')`);
+await command('Network.setUserAgentOverride', {
+  userAgent: 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.6 Mobile/15E148 Safari/604.1'
+});
+await command('Emulation.setDeviceMetricsOverride', { width: 390, height: 844, deviceScaleFactor: 3, mobile: true });
+await navigate('essentialism.html?ios-install-qa=1', "document.getElementById('story') && document.getElementById('story').children.length > 0");
+await waitFor(async () => evaluate(`document.getElementById('bookLibraryInstallDialog')?.open === true`), 'iOS install guide');
+const iosInstall = await evaluate(`(() => {
+  const trigger = document.getElementById('bookLibraryInstallTrigger');
+  const dialog = document.getElementById('bookLibraryInstallDialog');
+  return {
+    installable: document.documentElement.dataset.bookInstallable === 'true',
+    trigger: getComputedStyle(trigger).display,
+    dialog: dialog.open,
+    title: document.getElementById('bookLibraryInstallTitle').textContent,
+    telegram: dialog.textContent.includes('Telegram'),
+    overflow: document.documentElement.scrollWidth - innerWidth
+  };
+})()`);
+assert(iosInstall.installable, 'iOS browser mode was not detected');
+assert(iosInstall.trigger !== 'none', 'iOS install trigger is hidden in browser mode');
+assert(iosInstall.dialog, 'iOS install guide did not auto-open');
+assert(iosInstall.title === 'Уберите строку Safari' && iosInstall.telegram, 'iOS install guide copy is incomplete');
+assert(iosInstall.overflow <= 1, `iOS install guide overflow: ${iosInstall.overflow}px`);
+await evaluate(`bookLibraryInstallClose.click()`);
+assert(await evaluate(`!bookLibraryInstallDialog.open && localStorage.getItem('bookLibrary.installGuide.seen.v2') === 'true'`), 'iOS install guide did not close or remember dismissal');
+await evaluate(`document.documentElement.lang = 'en'; bookLibraryInstallTrigger.click()`);
+assert(await evaluate(`bookLibraryInstallDialog.open && bookLibraryInstallTitle.textContent === 'Remove the Safari bar'`), 'iOS install guide did not localize to English');
+await evaluate(`bookLibraryInstallClose.click(); document.documentElement.setAttribute('data-focus-mode', 'true')`);
+assert(await evaluate(`getComputedStyle(bookLibraryInstallTrigger).display === 'none'`), 'install trigger remained visible in focus mode');
+
+await command('Page.addScriptToEvaluateOnNewDocument', {
+  source: "Object.defineProperty(navigator, 'standalone', { configurable: true, get: function () { return true; } });"
+});
+await navigate('essentialism.html?standalone-qa=1', "document.getElementById('story') && document.getElementById('story').children.length > 0");
+await delay(550);
+const standaloneInstall = await evaluate(`(() => ({
+  installable: document.documentElement.dataset.bookInstallable === 'true',
+  trigger: getComputedStyle(document.getElementById('bookLibraryInstallTrigger')).display,
+  dialog: document.getElementById('bookLibraryInstallDialog').open
+}))()`);
+assert(!standaloneInstall.installable, 'standalone reader was marked installable');
+assert(standaloneInstall.trigger === 'none', 'install trigger remained visible in standalone mode');
+assert(!standaloneInstall.dialog, 'install guide opened in standalone mode');
+
 assert(runtimeErrors.length === 0, `browser errors: ${runtimeErrors.join(' | ')}`);
 console.log(JSON.stringify({
   index: indexPhone,
@@ -224,6 +270,7 @@ console.log(JSON.stringify({
   phone: '320x568 and 390x844',
   desktop: '1440x900',
   focusMode: 'passed',
+  iosInstallGuide: 'browser and standalone modes passed',
   runtimeErrors: runtimeErrors.length
 }, null, 2));
 

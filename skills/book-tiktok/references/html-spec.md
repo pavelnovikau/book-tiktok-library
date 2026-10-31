@@ -51,7 +51,7 @@ Palette source and rationale: [Flexoki by Steph Ango](https://stephango.com/flex
 ### Phone, 320–440 CSS px
 
 - Use `100dvh`, safe-area insets, a fixed shell header/footer, and a vertically scrollable slide body.
-- Keep Chapters, language, Sources, and theme visible at 320 px. Tighten gaps and labels rather than hiding transparency controls.
+- Keep home, Chapters, language, Sources and theme in one compact row of icon buttons at 320 px. Every button needs a localized accessible label and tooltip. The optional iOS install-guide icon belongs in that same row; never add a second header row that reduces reading space. This is Pavel's explicit reader requirement and supersedes older text-only/no-glyph rules for these controls.
 - Keep a compact home icon in the existing top bar with `href="./"`; localize its accessible label as `К библиотеке` / `Back to library`. Do not add a separate navigation row for it.
 - Include the iOS standalone metadata and the maintained in-reader install guide. In iPhone/iPad browser mode, explain that a page cannot programmatically remove Safari chrome, show the exact `Share → Add to Home Screen` route, and tell the reader to relaunch from the Home Screen rather than Telegram. Offer the guide automatically once and keep a manual trigger outside focus mode. Hide both in `display-mode: standalone` / `navigator.standalone` and in focus mode so an installed reader still shows only the text and Next.
 - Ensure horizontal overflow is impossible while long lists and evidence screens remain vertically scrollable.

@@ -218,9 +218,9 @@
     .topbar-group--start { justify-content: flex-start; }
 
     .library-button {
-      width: 36px;
+      width: auto;
       min-width: 36px;
-      padding-inline: 0;
+      padding-inline: var(--space-2);
       border-color: var(--color-border);
       background: var(--color-surface);
       text-decoration: none;
@@ -1032,27 +1032,25 @@
       }
     }
     .book-library-install-trigger {
-      position: fixed;
-      z-index: 80;
-      top: max(0.75rem, env(safe-area-inset-top, 0px));
-      left: 50%;
+      position: static;
+      width: 100%;
+      margin-top: var(--space-2);
       display: inline-flex;
       min-height: 44px;
       align-items: center;
       justify-content: center;
       padding: 0 1rem;
-      transform: translateX(-50%);
       border: 1px solid var(--color-border);
       border-radius: var(--radius-full);
       background: var(--color-surface-raised);
-      box-shadow: 0 0.5rem 2rem rgba(16, 15, 15, 0.2);
       color: var(--color-text);
       font: 650 var(--text-xs)/1 var(--font-mono);
       letter-spacing: 0.02em;
       cursor: pointer;
     }
     .book-library-install-trigger[hidden],
-    html[data-focus-mode="true"] .book-library-install-trigger { display: none !important; }
+    html[data-focus-mode="true"] .book-library-install-trigger,
+    html[data-focus-mode="true"] .book-library-install-dialog { display: none !important; }
     dialog.book-library-install-dialog {
       width: min(calc(100% - 2rem), 30rem) !important;
       max-width: 30rem !important;
@@ -1118,7 +1116,7 @@
         <div class="topbar">
           <div class="topbar-group topbar-group--start">
             <a class="button button-quiet library-button" id="libraryButton" href="./">
-              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3.75 10.5 12 3.75l8.25 6.75v9.75h-5.5V14h-5.5v6.25h-5.5z"></path></svg>
+              Книги
             </a>
             <button class="button button-quiet" id="contentsButton" type="button"></button>
           </div>
@@ -1371,6 +1369,7 @@
         els.appShell.setAttribute('aria-label', bookTitle);
         els.libraryButton.setAttribute('aria-label', text().library);
         els.libraryButton.setAttribute('title', text().library);
+        els.libraryButton.textContent = state.language === 'ru' ? 'Книги' : 'Books';
         els.contentsButton.textContent = text().chapters;
         els.sourcesButton.textContent = text().sources;
         els.languageButton.textContent = state.language === 'ru' ? 'EN' : 'RU';
@@ -1654,6 +1653,7 @@
       }
 
       if (!isIos() || isStandalone()) return;
+      (document.querySelector('.topbar-group:last-child') || document.querySelector('.topbar')).append(trigger);
       root.setAttribute('data-book-installable', 'true');
       trigger.hidden = false;
       localize();
@@ -1674,5 +1674,6 @@
     }());
   </script>
   <!-- book-library-install:end -->
+__READER_HEADER__
 </body>
 </html>

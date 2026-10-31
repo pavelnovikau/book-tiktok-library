@@ -6,6 +6,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
 const requested = process.argv.slice(2);
 const files = requested.length ? requested : manifest.books.map(book => book.file);
+const headerBlock = fs.readFileSync(path.join(root, 'skills/book-tiktok/assets/reader-header.html'), 'utf8');
 
 const headBlock = `
   <!-- book-library-pwa:start -->
@@ -103,28 +104,34 @@ const headBlock = `
         padding-left: max(var(--space-10, 2.5rem), calc((100% - 720px) / 2)) !important;
       }
     }
-    .book-library-install-trigger {
-      position: fixed;
-      z-index: 80;
-      top: max(0.75rem, env(safe-area-inset-top, 0px));
-      left: 50%;
+    html .book-library-install-trigger {
+      position: static;
+      top: auto;
+      left: auto;
+      transform: none;
+      box-shadow: none;
+      width: 100%;
+      flex: 0 0 100%;
+      margin-top: var(--space-2, 0.5rem);
       display: inline-flex;
       min-height: 44px;
       align-items: center;
       justify-content: center;
       padding: 0 1rem;
-      transform: translateX(-50%);
       border: 1px solid var(--color-border, #343331);
       border-radius: 999px;
       background: var(--color-surface-raised, #242321);
-      box-shadow: 0 0.5rem 2rem rgba(16, 15, 15, 0.2);
       color: var(--color-text, #cecdc3);
       font: 650 0.75rem/1 var(--font-mono, ui-monospace, monospace);
       letter-spacing: 0.02em;
       cursor: pointer;
     }
     .book-library-install-trigger[hidden],
-    html[data-focus-mode="true"] .book-library-install-trigger { display: none !important; }
+    html[data-focus-mode="true"] .book-library-install-trigger,
+    html[data-focus-mode="true"] .book-library-install-dialog { display: none !important; }
+    html .topbar[data-book-install-header] { flex-wrap: wrap; }
+    html #libraryButton,
+    html #btn-library { width: auto; min-width: 36px; padding-inline: var(--space-2, 0.5rem); }
     dialog.book-library-install-dialog {
       width: min(calc(100% - 2rem), 30rem) !important;
       max-width: 30rem !important;
@@ -318,6 +325,8 @@ const installBlock = `
       }
 
       if (!isIos() || isStandalone()) return;
+      var header = document.querySelector('.topbar-group:last-child, header.topbar');
+      if (header) header.append(trigger);
       root.setAttribute('data-book-installable', 'true');
       trigger.hidden = false;
       localize();
@@ -388,6 +397,10 @@ for (const filename of files) {
   if (updatedInstall !== null) html = updatedInstall;
   else if (html.includes('</body>')) html = html.replace('</body>', `${installBlock}</body>`);
   else throw new Error(`${filename}: missing </body>`);
+
+  const updatedHeader = replaceBlock(html, '<!-- book-reader-header:start -->', '<!-- book-reader-header:end -->', headerBlock);
+  if (updatedHeader !== null) html = updatedHeader;
+  else html = html.replace('</body>', `${headerBlock}</body>`);
 
   fs.writeFileSync(filePath, html);
   console.log(`Updated ${filename}`);

@@ -52,7 +52,7 @@ Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit default
 
 The baseline has **41 records under audit**: 31 published works, nine structured unpublished packages and source-only Project Hail Mary. Earlier technical/cold-review approvals followed an analytical-companion brief and do not establish the requested fidelity. The expansion/refill queue remains suspended. [The current brief](editorial-audit/2026-10-31/BRIEF.md) authorizes ten repair workers and one publisher, with immediate publication only after independent checks.
 
-This release independently reads and accepts exactly **three rewritten nonfiction readers, 125 RU/EN pairs**. No fiction story is editorially repaired by this release. The catalogue remains **31 books / 3,504 screens**; the other 28 published corpora are unchanged and retain unestablished editorial status. All 31 receive the shared header correction.
+This release independently reads and accepts exactly **three rewritten nonfiction readers, 125 RU/EN pairs**. No fiction story is editorially repaired by this release. The catalogue remains **31 books / 3,504 screens**; the other 28 published books retain unestablished editorial status. Earthsea receives only a saved-depth consent guard, and The Hobbit only RU `o-settlement` «Такой послевкусие» → «Такое послевкусие»; neither is a literary rebuild. The other 27 embedded corpora are unchanged. All 31 receive the shared header correction.
 
 | Rewritten and independently accepted | Essential / Core / Deep | RU minutes | Source boundary |
 | --- | ---: | ---: | --- |

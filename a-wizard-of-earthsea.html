@@ -1551,6 +1551,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       };
 
       let spoilerConsent = 1;
+      // A remembered depth does not authorize spoilers in a new reading session.
+      if (levels[state.mode] > spoilerConsent) state.mode = 'essential';
       let pendingSpoiler = null;
       const spoilerDialog = document.createElement('dialog');
       spoilerDialog.id = 'spoilerDialog';

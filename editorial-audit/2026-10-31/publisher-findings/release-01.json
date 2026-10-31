@@ -113,7 +113,7 @@
   ],
   "rejectedReadyPackages": [],
   "batchCutoff": "Three READY manifests available when shared-shell browser QA completed; later arrivals are for the next publisher batch.",
-  "unchangedPublishedCorpora": 28,
+  "unchangedPublishedCorpora": 27,
   "uiScope": "All 31 headers; equal homepage tabs; existing stats strip retained",
   "sourceBlockersReported": [
     "i-robot",
@@ -147,8 +147,8 @@
     "a-guide-to-the-good-life.html": "800ef8caca05755ddb34be96e722d2f6c2f6992501592aa12083979cf875e35b",
     "letting-go.html": "8a90e779a307021fd973df44e26b4e0d39b4081d4871c9853f7600bd4a3edad3",
     "the-art-of-war.html": "97f2cefd69856a0dab2cf87405391049a576cfb8ef8bfcf5c0812fb8053d69b9",
-    "the-hobbit.html": "cb33ea1dda4a5b8caadb7373c3b2051fbda1ae0ee88e01ae8fae12851857fb9e",
-    "a-wizard-of-earthsea.html": "02f9f277180b5f332e7f583ac70e8fa8a229e7cd287b657791c4f04b745b6a81",
+    "the-hobbit.html": "ee748e237eab43ac1cb8a06362bb5fc7d21ce9c47c2acb6ba7c3b9d0d7dfe17a",
+    "a-wizard-of-earthsea.html": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
     "treasure-island.html": "bd55b3946bda815b2a24ea8959b2ae4041fa0fd5c2dd90754eba7bc2bda1190d",
     "the-lost-world.html": "d59981dd6230f09b57326dc898dee69de70806a1375fb0b5b52f1852ebe248a5",
     "akselerando.html": "42bb9cecf2cda48c614b7dc48667bd53a1c2a72b4680ede04f16f8d76414ce36",
@@ -163,5 +163,19 @@
     "the-two-captains.html": "0d323774f2ea423516337f39a87ea04e50fb0cb9edf01c96d62b1f70d9fb11f7",
     "the-wee-free-men.html": "8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3",
     "the-hitchhikers-guide-to-the-galaxy.html": "06341887063738f626f4d1a1c622fd6562ff31d7cf84ac51135907e391cccc03"
-  }
+  },
+  "boundedFictionFixes": [
+    {
+      "slug": "a-wizard-of-earthsea",
+      "change": "Clamp remembered depth to Essential before fresh-session spoiler consent",
+      "editorialStatus": "REBUILD/SOURCE-GAP; no literary rebuild"
+    },
+    {
+      "slug": "the-hobbit",
+      "screen": "o-settlement",
+      "change": "RU Такое послевкусие grammar correction only",
+      "editorialStatus": "REBUILD/SOURCE-GAP; no literary rebuild"
+    }
+  ],
+  "pendingLostWorldFinding": "Correct editor request from next morning to that same evening against original I/II before accepting eventual READY; active collector not edited."
 }

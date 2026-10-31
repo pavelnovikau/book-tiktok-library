@@ -652,7 +652,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -668,7 +668,15 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'causal-layers') {
+        if (motif === 'inherited-path') {
+          content = '<path class="art-quiet" d="M121 39 C173 39 153 91 205 91 M121 143 C173 143 153 91 205 91 M121 65 H161 M121 117 H161"/>' +
+            '<path class="art-bold" d="M121 91 H205 C230 91 230 49 255 49 C280 49 280 133 305 133"/>' +
+            '<path class="art-line" d="M205 91 H305 M255 32 V151"/><rect class="art-fill" x="250" y="44" width="10" height="10" rx="2"/>';
+        } else if (motif === 'quality-bridge') {
+          content = '<path class="art-quiet" d="M132 47 H206 V135 H132 M151 47 V135 M170 47 V135 M189 47 V135 M132 69 H206 M132 91 H206 M132 113 H206"/>' +
+            '<path class="art-line" d="M299 43 C239 43 299 91 246 91 C207 91 266 139 299 139"/>' +
+            '<path class="art-bold" d="M189 91 H246"/><rect class="art-fill" x="201" y="84" width="14" height="14" rx="2"/>';
+        } else if (motif === 'causal-layers') {
           content = '<path class="art-quiet" d="M285 35 H132 V145 H285 M265 53 H155 V127 H265 M245 71 H178 V109 H245"/>' +
             '<path class="art-line" d="M132 91 H201 M155 53 L201 91 M178 109 L201 91 M285 35 L201 91"/>' +
             '<path class="art-bold" d="M201 91 H293"/><rect class="art-fill" x="287" y="85" width="12" height="12" rx="2"/>';

@@ -701,7 +701,7 @@
 
       var coverTypes = { year: 'cover--year', constraint: 'cover--constraint', split: 'cover--split', typographic: 'cover--typographic' };
       var coverTones = { red: true, orange: true, yellow: true, green: true, cyan: true, blue: true, magenta: true };
-      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true, watchtower: true, 'river-raft': true, 'needs-bridge': true, 'five-disciplines': true };
+      var coverMotifs = { balance: true, crash: true, bottleneck: true, relay: true, distill: true, clock: true, weeks: true, mirror: true, stress: true, acceleration: true, door: true, 'protocol-stack': true, 'treasure-map': true, plateau: true, terrain: true, 'body-map': true, archipelago: true, 'control-field': true, 'open-knot': true, 'somatic-trace': true, 'attention-return': true, 'causal-layers': true, 'inherited-path': true, 'quality-bridge': true, 'convex-response': true, 'latitude-search': true, 'conditioned-trust': true, 'rule-loop': true, 'testimony-compass': true, 'chalk-boundary': true, 'scale-question': true, 'sea-air': true, 'enchanted-lab': true, watchtower: true, 'river-raft': true, 'needs-bridge': true, 'five-disciplines': true, 'common-city': true, 'ice-crossing': true };
 
       function coverMotif(book) {
         var motif = book.cover && book.cover.motif;
@@ -717,7 +717,18 @@
       function coverArtwork(book) {
         var motif = coverMotif(book);
         var content = '';
-        if (motif === 'watchtower') {
+        if (motif === 'common-city') {
+          // A common city links distinct lives through shared reason and just action.
+          content = '<path class="art-quiet" d="M130 145 H302 M145 145 V104 H174 V145 M198 145 V90 H229 V145 M256 145 V104 H285 V145 M137 104 L159 85 L181 104 M190 90 L214 70 L237 90 M248 104 L270 85 L293 104"/>' +
+            '<path class="art-bold" d="M159 75 C159 37 270 37 270 75 M214 70 V39 M159 122 H270"/>' +
+            '<path class="art-line" d="M151 116 H167 M206 102 H222 M262 116 H278 M208 132 H220 V145 H208 Z"/>';
+        } else if (motif === 'ice-crossing') {
+          // Two tracks converge across broken ice, then continue beside each other.
+          content = '<path class="art-quiet" d="M126 59 L168 42 L199 58 L240 35 L301 53 M126 99 L158 86 L188 103 L225 83 L263 97 L303 77 M127 139 L167 124 L206 145 L247 120 L301 135"/>' +
+            '<path class="art-line" d="M146 145 C167 122 157 104 185 91 S218 63 226 34"/>' +
+            '<path class="art-bold" d="M284 145 C258 121 228 118 216 97 S229 63 237 35"/>' +
+            '<path class="art-line" d="M214 83 L225 85 M215 91 L226 93 M215 99 L226 101"/>';
+        } else if (motif === 'watchtower') {
           // An observer above a closed city, with no promise of control over it.
           content = '<path class="art-quiet" d="M126 143 H302 M185 143 V111 H212 V94 H239 V117 H266 V101 H292 V143 M220 94 V82 H232 V94"/>' +
             '<path class="art-line" d="M136 143 V62 H173 V143 M130 62 L154 38 L179 62 M145 78 H164 V94 H145 Z M141 119 H167"/>' +

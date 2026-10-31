@@ -1,0 +1,2110 @@
+{
+  "schemaVersion": 1,
+  "slug": "meditations",
+  "reviewDate": "2026-10-31",
+  "reviewType": "independent editorial review of new approved collector package",
+  "verdict": "PASS",
+  "requiredFixes": [],
+  "sourceGap": null,
+  "optionalPolish": [
+    {
+      "id": "MED-O01",
+      "blocking": false,
+      "kind": "optional-location-precision",
+      "screenIds": [
+        "debts"
+      ],
+      "exactWording": {
+        "ru": "В конце благодарностей он признает:",
+        "en": "He ends his thanks by admitting"
+      },
+      "observation": "The admission is inside I.17, the last numbered section of the gratitude book, but more thanks follow it. English suggests the literal ending more strongly than Russian. The admission itself and its meaning are correct.",
+      "smallestFaithfulCorrection": {
+        "ru": "В благодарности богам он признает:",
+        "en": "In his thanks to the gods, he admits"
+      },
+      "primary": {
+        "locator": "I.17",
+        "ruPdfPagesOneBased": [
+          81,
+          82
+        ],
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=81",
+        "enUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#i._17"
+      },
+      "disposition": "Optional; not a material defect or publication blocker."
+    },
+    {
+      "id": "MED-O02",
+      "blocking": false,
+      "kind": "optional-source-link-navigation",
+      "screenIds": [
+        "truth"
+      ],
+      "file": "collector-output/meditations/sources.md",
+      "exactWording": {
+        "sharedUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vi._21",
+        "linkLabel": "same passage VI.21"
+      },
+      "observation": "The Gutenberg witness contains the genuine numbered paragraph 21, but has no id=vi._21. The link opens the right document without locating the paragraph. Neither language's quotation nor attribution is wrong.",
+      "smallestFaithfulCorrection": {
+        "sourceLink": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vi._20",
+        "sourceLabel": "VI.21, immediately after VI.20 (Gutenberg supplies no VI.21 anchor)",
+        "ru": "No reading-copy correction needed.",
+        "en": "No reading-copy correction needed."
+      },
+      "primary": {
+        "locator": "VI.21",
+        "ruPdfPageOneBased": 153,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=153",
+        "enUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vi._20"
+      },
+      "disposition": "Optional documentation polish; not a quotation or fidelity failure."
+    }
+  ],
+  "reviewedPairs": {
+    "authoring": 39,
+    "effectiveEmbeddedHtml": 39,
+    "languageScreens": 78,
+    "preexistingPublished": 0
+  },
+  "counts": {
+    "essential": 18,
+    "core": 30,
+    "deep": 39
+  },
+  "routesReviewed": {
+    "essential": {
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "count": 18,
+      "readForContinuity": true,
+      "screenIds": [
+        "cover",
+        "debts",
+        "waking",
+        "neighbours",
+        "present",
+        "refuge",
+        "world-city",
+        "judgment",
+        "hindrance",
+        "caesar",
+        "hive",
+        "kinship",
+        "justice-truth",
+        "fame",
+        "return-after-failure",
+        "be-good",
+        "death",
+        "final"
+      ]
+    },
+    "core": {
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "count": 30,
+      "readForContinuity": true,
+      "screenIds": [
+        "cover",
+        "debts",
+        "rusticus",
+        "waking",
+        "neighbours",
+        "ruling-faculty",
+        "present",
+        "refuge",
+        "world-city",
+        "living-whole",
+        "providence-atoms",
+        "bread",
+        "judgment",
+        "rock",
+        "hindrance",
+        "caesar",
+        "truth",
+        "hive",
+        "kinship",
+        "gymnasium",
+        "teach-or-bear",
+        "justice-truth",
+        "what-is-needed",
+        "fame",
+        "view-above",
+        "return-after-failure",
+        "enough-for-now",
+        "be-good",
+        "death",
+        "final"
+      ]
+    },
+    "deep": {
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "count": 39,
+      "readForContinuity": true,
+      "screenIds": [
+        "cover",
+        "debts",
+        "rusticus",
+        "antoninus",
+        "waking",
+        "neighbours",
+        "ruling-faculty",
+        "present",
+        "books",
+        "refuge",
+        "world-city",
+        "living-whole",
+        "providence-atoms",
+        "bread",
+        "judgment",
+        "robe",
+        "rock",
+        "hindrance",
+        "reservation",
+        "caesar",
+        "truth",
+        "hive",
+        "kinship",
+        "gymnasium",
+        "teach-or-bear",
+        "anger-nine",
+        "anger-tenth",
+        "justice-truth",
+        "what-is-needed",
+        "no-republic",
+        "fame",
+        "view-above",
+        "grief-prayer",
+        "return-after-failure",
+        "enough-for-now",
+        "be-good",
+        "death",
+        "three-acts",
+        "final"
+      ]
+    }
+  },
+  "readingMethod": "Read all 39 RU/EN pairs in original story order, inspected the actual HTML's sole effective JSON corpus and renderer, and verified complete screen/source/method parity. Read Essential/Core from actual embedded prose, then all nine Deep insertions in their full 39-screen sequence and neighboring transitions. All three cumulative routes were reviewed in both languages.",
+  "conclusion": "A faithful selective thematic condensation of Marcus's self-addressed reflections, arguments and concrete examples. Retained moral reasoning and the religious/cosmological frame survive. No material invented scene/motive, modern exercise/control programme, false quotation, wrong translator, consequential bilingual mismatch, or distorting omission identified. Important retained passages remain in actual translator wording rather than generic advice.",
+  "quotationReview": {
+    "ruOriginalPageImagesActuallyInspected": 14,
+    "enNumberedLongExcerptsActuallyReadAndChecked": 14,
+    "pairedPrimaryLocationsVerified": 14,
+    "allPassed": true,
+    "orthographyDisclosureAdequate": true,
+    "unmarkedInternalSplicesFound": 0,
+    "quotes": [
+      {
+        "screenId": "waking",
+        "commonLocator": "V.1",
+        "ruPrintedSection": "V.1",
+        "ruPdfPageOneBased": 132,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=132",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Я встаю, чтобы приняться за дело человеческое.",
+        "enExactDisplayedExcerpt": "I am rising to the work of a human being.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#v._1",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "waking",
+          "locator": "V.1",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "neighbours",
+        "commonLocator": "II.1",
+        "ruPrintedSection": "II.1",
+        "ruPdfPageOneBased": 88,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=88",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Ибо мы созданы для совместной деятельности, как и ноги, руки, веки, верхняя и нижняя челюсти.",
+        "enExactDisplayedExcerpt": "For we are made for co-operation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#ii._1",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "neighbours",
+          "locator": "II.1",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "present",
+        "commonLocator": "IV.17",
+        "ruPrintedSection": "IV.17",
+        "ruPdfPageOneBased": 116,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=116",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Не живи так, точно тебе предстоит еще десять тысяч лет жизни. Уж близок час. Пока живешь, пока есть возможность, старайся стать хорошим.",
+        "enExactDisplayedExcerpt": "Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#iv._17",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Original PDF 116, printed p.43, reads Не живи так… Уж близок час…; modernized spelling only. Not replaced by online paraphrases.",
+        "mit": {
+          "id": "present",
+          "locator": "IV.17",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "refuge",
+        "commonLocator": "IV.3",
+        "ruPrintedSection": "IV.3",
+        "ruPdfPageOneBased": 112,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=112",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Ведь самое тихое и безмятежное место, куда человек может удалиться,—это его душа.",
+        "enExactDisplayedExcerpt": "For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#iv._3",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous excerpt; EN ends before the qualifying continuation, which the surrounding prose supplies as ordering principles. Boundary punctuation disclosed.",
+        "mit": {
+          "id": "refuge",
+          "locator": "IV.3",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "judgment",
+        "commonLocator": "VIII.47",
+        "ruPrintedSection": "VIII.47",
+        "ruPdfPageOneBased": 196,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=196",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Если ты огорчаешься по поводу чего-либо внешнего, то угнетает тебя не сама эта вещь, а твое суждение о ней. Но устранить последнее—в твоей власти.",
+        "enExactDisplayedExcerpt": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it. And it is in thy power to wipe out this judgment now.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#viii._47",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "judgment",
+          "locator": "VIII.47",
+          "mitExact": false,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "rock",
+        "commonLocator": "IV.49",
+        "ruPrintedSection": "IV.49",
+        "ruPdfPageOneBased": 125,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=125",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Будь подобен скале: волны беспрестанно разбиваются о нее, она же стоит недвижимо, и вокруг нее стихают взволнованные воды.",
+        "enExactDisplayedExcerpt": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#iv._49",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "rock",
+          "locator": "IV.49",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "hindrance",
+        "commonLocator": "V.20",
+        "ruPrintedSection": "V.20",
+        "ruPdfPageOneBased": 140,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=140",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "то, что было препоной для данного действия, становится средством для другого действия, а то, что стояло на пути, само указует путь",
+        "enExactDisplayedExcerpt": "and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#v._20",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Both excerpts begin inside the section. Lowercase RU то and EN and so preserve their source starts; no internal splice.",
+        "mit": {
+          "id": "hindrance",
+          "locator": "V.20",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "caesar",
+        "commonLocator": "VI.30",
+        "ruPrintedSection": "VI.30",
+        "ruPdfPageOneBased": 155,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=155",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Не иди по стопам Цезарей и не позволяй себя увлечь: ведь это бывает.",
+        "enExactDisplayedExcerpt": "Take care that thou art not made into a Caesar, that thou art not dyed with this dye; for such things happen.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vi._30",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "caesar",
+          "locator": "VI.30",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "truth",
+        "commonLocator": "VI.21",
+        "ruPrintedSection": "VI.21",
+        "ruPdfPageOneBased": 153,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=153",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Если кто-нибудь может с очевидностью доказать мне, что я неправильно сужу или действую, то я с радостью изменюсь.",
+        "enExactDisplayedExcerpt": "If any man is able to convince me and show me that I do not think or act right, I will gladly change; for I seek the truth, by which no man was ever injured.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vi._20",
+        "enLocatorNote": "Numbered VI.21 follows anchored VI.20; #vi._21 does not exist in this Gutenberg HTML.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "truth",
+          "locator": "VI.21",
+          "mitExact": false,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "hive",
+        "commonLocator": "VI.54",
+        "ruPrintedSection": "VI.54",
+        "ruPdfPageOneBased": 161,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=161",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Не приносящее пользы улью не принесет ее и пчеле",
+        "enExactDisplayedExcerpt": "That which is not good for the swarm, neither is it good for the bee.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vi._54",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Historical ея modernized to ее, the same pronoun; terminal section punctuation excluded at the excerpt boundary.",
+        "mit": {
+          "id": "hive",
+          "locator": "VI.54",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "kinship",
+        "commonLocator": "VII.22",
+        "ruPrintedSection": "VII.22",
+        "ruPdfPageOneBased": 172,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=172",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Человеку свойственно любить и заблуждающихся.",
+        "enExactDisplayedExcerpt": "It is peculiar to man to love even those who do wrong.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#vii._22",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Contiguous genuine excerpt; no unmarked internal omission or paraphrase substituted for quotation.",
+        "mit": {
+          "id": "kinship",
+          "locator": "VII.22",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "teach-or-bear",
+        "commonLocator": "VIII.59",
+        "ruPrintedSection": "VIII.59",
+        "ruPdfPageOneBased": 200,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=200",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Люди рождены друг для друга. Поэтому или вразумляй, или же терпи",
+        "enExactDisplayedExcerpt": "Men exist for the sake of one another. Teach them then, or bear with them.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#viii._59",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Terminal section punctuation omitted at the disclosed boundary; words and internal punctuation retained.",
+        "mit": {
+          "id": "teach-or-bear",
+          "locator": "VIII.59",
+          "mitExact": false,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "be-good",
+        "commonLocator": "X.16",
+        "ruPrintedSection": "X.16",
+        "ruPdfPageOneBased": 228,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=228",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Не все же разглагольствовать о том, каким должен быть хороший человек, пора и стать им",
+        "enExactDisplayedExcerpt": "No longer talk at all about the kind of man that a good man ought to be, but be such.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#x._16",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Terminal section punctuation omitted at the disclosed boundary; exact wording retained.",
+        "mit": {
+          "id": "be-good",
+          "locator": "X.16",
+          "mitExact": true,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": true,
+          "scope": "additional comparison only"
+        }
+      },
+      {
+        "screenId": "final",
+        "commonLocator": "XII.36",
+        "ruPrintedSection": "XII.35",
+        "ruPdfPageOneBased": 261,
+        "ruPageImageUrl": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf#page=261",
+        "ruTranslator": "С. М. Роговин",
+        "enTranslator": "George Long",
+        "ruExactDisplayedExcerpt": "Уйди же из жизни, сохраняя благожелательность, как благожелателен и тот, кто отпускает тебя",
+        "enExactDisplayedExcerpt": "Depart then satisfied, for he also who releases thee is satisfied.",
+        "ruReview": "PASS: independently visually read original PDF page image; matches after disclosed historical spelling modernization, dehyphenation and boundary treatment.",
+        "enReview": "PASS: independently read numbered Long section; displayed excerpt matches exactly after whitespace normalization.",
+        "samePrimaryPassage": true,
+        "displayMatchesQuotationObjectBothLanguages": true,
+        "translatorsAndLocatorsVisibleBothLanguages": true,
+        "enPrimaryUrl": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html#xii._36",
+        "enLocatorNote": "Numbered book/section verified.",
+        "note": "Visual PDF 261, printed p.182, ends Rogovin XII.35 with благожелательность. Long XII.36 ends satisfied. Both actual translations preserved; MIT provides no final check.",
+        "mit": {
+          "id": "final",
+          "locator": "XII.36",
+          "mitExact": false,
+          "mitLexicalAfterRecordedSpellingAndCommaNormalization": false,
+          "scope": "not final verification: truncated XII"
+        }
+      }
+    ],
+    "numberingCheck": {
+      "common": "XII.36",
+      "rogovin1914": "XII.35",
+      "ruImagePage": 261,
+      "printedPage": 182,
+      "shiftEstablishedAtRuImagePage": 256,
+      "explanation": "Rogovin XII.17 combines the material Long numbers XII.17 and XII.18; subsequent sections shift by one. The public method note and both final attributions disclose the concordance."
+    }
+  },
+  "screenReviews": [
+    {
+      "screenId": "cover",
+      "level": 1,
+      "primaryLocations": "I–XII",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "Accurate framing of recurring self-address; no dated-diary or reconstructed life scene."
+    },
+    {
+      "screenId": "debts",
+      "level": 1,
+      "primaryLocations": "I.1–3,7,16–17",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "Family/teacher debts and admitted failure follow I.1–3,7,17. Admission belongs within I.17, not its final words; optional precision only."
+    },
+    {
+      "screenId": "rusticus",
+      "level": 2,
+      "primaryLocations": "I.7,9",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "Non-performance, simple letters, attentive reading and Epictetus in I.7; calm with affection and care for friends in I.9."
+    },
+    {
+      "screenId": "antoninus",
+      "level": 3,
+      "primaryLocations": "I.16",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "I.16 supplies deliberation, voluntary friendship, public spending, bodily care and comfort without dependence."
+    },
+    {
+      "screenId": "waking",
+      "level": 1,
+      "primaryLocations": "V.1",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "V.1 contains reluctance, bedclothes, working creatures, measured rest and social work compared with craft devotion."
+    },
+    {
+      "screenId": "neighbours",
+      "level": 1,
+      "primaryLocations": "II.1",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "II.1 connects difficult people to ignorance, shared reason/divinity and co-operation; moral non-corruption is not physical immunity."
+    },
+    {
+      "screenId": "ruling-faculty",
+      "level": 2,
+      "primaryLocations": "II.2,8",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "II.2,8 support body/breath/ruling part, resistance to unsocial impulses and attention to one's own mind."
+    },
+    {
+      "screenId": "present",
+      "level": 1,
+      "primaryLocations": "II.14; IV.17",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "II.14 supplies the present-possession argument; actual IV.17 scan wording is retained, not a popular paraphrase."
+    },
+    {
+      "screenId": "books",
+      "level": 3,
+      "primaryLocations": "II.2–3",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "II.2–3 directly support setting books aside, age, nature, accepted principles and gratitude to gods."
+    },
+    {
+      "screenId": "refuge",
+      "level": 1,
+      "primaryLocations": "IV.3",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IV.3 links inward retreat to ordered principles and a return without discontent; no withdrawal from social duty."
+    },
+    {
+      "screenId": "world-city",
+      "level": 1,
+      "primaryLocations": "IV.4",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IV.4's chain from common intelligence/reason to law, fellow citizenship and world-state is retained."
+    },
+    {
+      "screenId": "living-whole",
+      "level": 2,
+      "primaryLocations": "IV.40; VII.9",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IV.40 and VII.9 support the living universe, one soul/substance, god/law/reason; attributed cosmology."
+    },
+    {
+      "screenId": "providence-atoms",
+      "level": 2,
+      "primaryLocations": "VI.10; XII.14",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.10 and XII.14 retain alternatives rather than identifying providence, necessity and chaos or claiming scientific proof."
+    },
+    {
+      "screenId": "bread",
+      "level": 2,
+      "primaryLocations": "III.2",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "III.2 supplies cracked bread, split figs, near-rotten olives, grain, lion's brow and aged beauty in context."
+    },
+    {
+      "screenId": "judgment",
+      "level": 1,
+      "primaryLocations": "VIII.47",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VIII.47 is an actual Marcus claim followed by disposition, action and stronger obstruction; no added recovery guarantee."
+    },
+    {
+      "screenId": "robe",
+      "level": 3,
+      "primaryLocations": "VI.13",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.13 supplies food bodies, grape juice, purple wool/shellfish dye and deceptive prestige."
+    },
+    {
+      "screenId": "rock",
+      "level": 2,
+      "primaryLocations": "IV.49",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IV.49 follows the promontory image with tests of justice, prudence, truth and noble endurance; no magical protection."
+    },
+    {
+      "screenId": "hindrance",
+      "level": 1,
+      "primaryLocations": "V.20",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "V.20 distinguishes obstructed activity from conditional and adaptable disposition while retaining duties to people."
+    },
+    {
+      "screenId": "reservation",
+      "level": 3,
+      "primaryLocations": "VI.50",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.50 contains persuasion, action required by justice, opposing force, another virtue and conditional effort."
+    },
+    {
+      "screenId": "caesar",
+      "level": 1,
+      "primaryLocations": "VI.30; I.16",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.30/I.16 support the imperial self-warning and Antoninus's concrete example; no ruler worship."
+    },
+    {
+      "screenId": "truth",
+      "level": 2,
+      "primaryLocations": "VI.21",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.21 explicitly welcomes correction and opposes persistent error; wording and section correct despite missing Gutenberg HTML anchor."
+    },
+    {
+      "screenId": "hive",
+      "level": 1,
+      "primaryLocations": "VI.54; VI.44",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.54's bee/swarm and VI.44's Rome/world citizenship support social good rather than private success."
+    },
+    {
+      "screenId": "kinship",
+      "level": 1,
+      "primaryLocations": "VII.22",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VII.22's kinship, ignorance, mortality and unchanged ruling faculty retain Marcus's moral reasoning."
+    },
+    {
+      "screenId": "gymnasium",
+      "level": 2,
+      "primaryLocations": "VI.20",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VI.20 is an exercise illustration, not an asserted personal accident; caution remains without hatred."
+    },
+    {
+      "screenId": "teach-or-bear",
+      "level": 2,
+      "primaryLocations": "VIII.59; IX.11",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VIII.59 and IX.11 retain teaching/indulgence and gods' gifts of health, wealth and reputation, without a protection promise."
+    },
+    {
+      "screenId": "anger-nine",
+      "level": 3,
+      "primaryLocations": "XI.18, reminders 1–5",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "XI.18 reminders 1–5 retained in order: relation/governance, opinions, involuntary error, own faults, uncertain judgment."
+    },
+    {
+      "screenId": "anger-tenth",
+      "level": 3,
+      "primaryLocations": "XI.18, reminders 6–10",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "XI.18 reminders 6–10 retained in order: brevity, judgment, anger's added harm, sincere kindness, no personal exemption."
+    },
+    {
+      "screenId": "justice-truth",
+      "level": 1,
+      "primaryLocations": "IX.1",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IX.1 links social nature to impiety of injustice/lying and pleasure/pain; religious as well as ethical frame survives."
+    },
+    {
+      "screenId": "what-is-needed",
+      "level": 2,
+      "primaryLocations": "IV.24",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IV.24 revises few tasks to necessary social action and removes unnecessary thoughts; no modern productivity system."
+    },
+    {
+      "screenId": "no-republic",
+      "level": 3,
+      "primaryLocations": "IX.29",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IX.29 retains Plato's Republic, small improvement, unchanged opinions and coerced/pretended obedience."
+    },
+    {
+      "screenId": "fame",
+      "level": 1,
+      "primaryLocations": "IV.20,33",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IV.20,33 support intrinsic worth/emerald and forgotten names; their argument is attributed rather than certified as literal universal oblivion."
+    },
+    {
+      "screenId": "view-above",
+      "level": 2,
+      "primaryLocations": "VII.48",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VII.48's borrowed elevated view and catalogue of contraries support the prose; Rogovin explicitly has funerals."
+    },
+    {
+      "screenId": "grief-prayer",
+      "level": 3,
+      "primaryLocations": "IX.40",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "IX.40 retains the severe child/loss prayer and divine help even in human power; no guaranteed preservation of loved ones."
+    },
+    {
+      "screenId": "return-after-failure",
+      "level": 1,
+      "primaryLocations": "V.9",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "V.9 retains failure, returning, most conduct consistent with nature, love of the return and medicinal comparison."
+    },
+    {
+      "screenId": "enough-for-now",
+      "level": 2,
+      "primaryLocations": "VII.54; VIII.36; IX.6",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "VII.54, VIII.36 and IX.6 support present judgment, social conduct, acceptance and limiting the burden to now."
+    },
+    {
+      "screenId": "be-good",
+      "level": 1,
+      "primaryLocations": "X.16; I.7; VI.30",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "X.16's exact self-admonition is connected fairly to I.7 and VI.30 rather than turned into an editor's motivational exercise."
+    },
+    {
+      "screenId": "death",
+      "level": 1,
+      "primaryLocations": "III.3; IV.5",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "III.3 and IV.5 support mortal physicians/commanders/philosophers, voyage, gods/no sensation alternatives and elemental dissolution."
+    },
+    {
+      "screenId": "three-acts",
+      "level": 3,
+      "primaryLocations": "XII.36 (Rogovin 1914 XII.35)",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "Common XII.36/Rogovin XII.35 supplies actor, three/five acts and nature's limit; no invented final living scene."
+    },
+    {
+      "screenId": "final",
+      "level": 1,
+      "primaryLocations": "XII.36 (Rogovin 1914 XII.35)",
+      "ruRead": true,
+      "enRead": true,
+      "effectiveHtmlRead": true,
+      "verdict": "PASS",
+      "assessment": "Actual closing wording retained separately for both translators, with public XII.36/XII.35 concordance; textual ending, not claimed deathbed statement."
+    }
+  ],
+  "xi18Reminders": [
+    {
+      "n": 1,
+      "screenId": "anger-nine",
+      "retained": "People exist for one another; his governing role."
+    },
+    {
+      "n": 2,
+      "screenId": "anger-nine",
+      "retained": "Their daily life and the power of their opinions."
+    },
+    {
+      "n": 3,
+      "screenId": "anger-nine",
+      "retained": "Right conduct does not warrant anger; wrong conduct stems from ignorance."
+    },
+    {
+      "n": 4,
+      "screenId": "anger-nine",
+      "retained": "His own errors and unworthy motives that may have restrained other faults."
+    },
+    {
+      "n": 5,
+      "screenId": "anger-nine",
+      "retained": "Insufficient knowledge to judge another's action confidently."
+    },
+    {
+      "n": 6,
+      "screenId": "anger-tenth",
+      "retained": "Life's brevity and mortality."
+    },
+    {
+      "n": 7,
+      "screenId": "anger-tenth",
+      "retained": "Another's deed differs from his judgment of it."
+    },
+    {
+      "n": 8,
+      "screenId": "anger-tenth",
+      "retained": "Anger's additional harmful consequences."
+    },
+    {
+      "n": 9,
+      "screenId": "anger-tenth",
+      "retained": "Sincere kindness and correction without mockery, rancor or spectators' approval."
+    },
+    {
+      "n": 10,
+      "screenId": "anger-tenth",
+      "retained": "It is impossible to abolish others' wrongdoing; exemption for oneself is tyrannical."
+    }
+  ],
+  "evidence": {
+    "instructionsRead": [
+      "editorial-audit/2026-10-31/BRIEF.md (including source-sufficiency clarification)",
+      "CONTRIBUTING.md",
+      "skills/book-tiktok/SKILL.md",
+      "skills/book-tiktok/references/content-model.md",
+      "skills/book-tiktok/references/data-contract.md",
+      "skills/book-tiktok/references/html-spec.md"
+    ],
+    "packageReportsRead": [
+      "collector-output/meditations/sources.md (all 14 quotation entries and 39-row map)",
+      "collector-output/meditations/QA.md",
+      "editorial-audit/2026-10-31/books/meditations-implementation.md",
+      "editorial-audit/2026-10-31/ready/meditations.json",
+      "collector-output/meditations/qa/quotation-check.json",
+      "collector-output/meditations/qa/content-scope.json",
+      "collector-output/meditations/qa/build-inputs.json",
+      "collector-output/meditations/qa/browser-interactions.json",
+      "collector-output/meditations/qa/browser-traverse.json"
+    ],
+    "privateDirectory": "/Users/pn/smartcat/_private/book-tiktok-evidence/meditations-20261031/",
+    "primaryPassagesActuallyRead": [
+      "I.1",
+      "I.2",
+      "I.3",
+      "I.7",
+      "I.9",
+      "I.16",
+      "I.17",
+      "II.1",
+      "II.2",
+      "II.3",
+      "II.8",
+      "II.14",
+      "III.2",
+      "III.3",
+      "IV.3",
+      "IV.4",
+      "IV.5",
+      "IV.17",
+      "IV.20",
+      "IV.24",
+      "IV.33",
+      "IV.40",
+      "IV.49",
+      "V.1",
+      "V.9",
+      "V.20",
+      "VI.10",
+      "VI.13",
+      "VI.20",
+      "VI.21",
+      "VI.30",
+      "VI.44",
+      "VI.50",
+      "VI.54",
+      "VII.9",
+      "VII.22",
+      "VII.48",
+      "VII.54",
+      "VIII.36",
+      "VIII.47",
+      "VIII.48",
+      "VIII.59",
+      "IX.1",
+      "IX.6",
+      "IX.11",
+      "IX.29",
+      "IX.40",
+      "X.16",
+      "XI.18",
+      "XII.14",
+      "XII.17",
+      "XII.18",
+      "XII.19",
+      "XII.36"
+    ],
+    "primaryPassageCount": 54,
+    "booksCovered": 12,
+    "ruPdfPagesVisuallyRead": [
+      12,
+      81,
+      82,
+      88,
+      112,
+      116,
+      125,
+      132,
+      140,
+      153,
+      155,
+      161,
+      172,
+      176,
+      177,
+      196,
+      200,
+      216,
+      217,
+      228,
+      244,
+      245,
+      246,
+      256,
+      261
+    ],
+    "ruPrimaryFile": {
+      "path": "Naedine_s_soboi.pdf",
+      "sha256": "78e8cedabd43b04751848bee897fe61a97aee53d9846c39e10f5899aaaea6cf2",
+      "bytes": 7158751,
+      "metadataPages": 285,
+      "titleLeafVisuallyRead": true,
+      "publicCatalogue": "https://archive.org/details/naedine-s-soboi",
+      "publicPdf": "https://archive.org/download/naedine-s-soboi/Naedine_s_soboi.pdf",
+      "publicMetadataFreshlyFetched": true,
+      "publicMetadataMd5": "e0bbfce94cc4b832b865dd715ecf2910",
+      "localMd5MatchesPublicMetadata": true
+    },
+    "enPrimaryFile": {
+      "path": "long-pg15877.html",
+      "sha256": "dbb32af652dff6a300e047126ddff9e7b0c23b8e66bf862ec8b715d8541012fa",
+      "bytes": 555877,
+      "freshPublicDownloadExactlyMatchesLocal": true,
+      "url": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html",
+      "catalogue": "https://www.gutenberg.org/ebooks/15877",
+      "catalogueTranslatorAttributionChecked": true
+    },
+    "mit": {
+      "role": "Additional Long comparison only",
+      "quotationsLexicallyCompared": 13,
+      "strictVerbatimMatches": 10,
+      "recordedDifferences": [
+        "judgment/judgement in judgment",
+        "comma after truth in truth",
+        "comma after then in teach-or-bear"
+      ],
+      "finalVerifiedByMit": false,
+      "reason": "Book XII ends inside common XII.26; original Rogovin image and complete numbered Gutenberg verify the closing passage."
+    },
+    "sourceReadBoundary": "Complete witnesses are available, but this review read targeted supporting passages and selected page images, not every paragraph continuously in two editions. OCR/maps/ledger were discovery aids, not substitutes for the 14 original quotation images."
+  },
+  "technical": {
+    "freshMaintainedStructureAudit": {
+      "passes": 69,
+      "warnings": [],
+      "failures": [],
+      "command": "node skills/book-tiktok/scripts/audit_story_html.mjs collector-output/meditations/meditations.html --min-screens 39 --require-bilingual"
+    },
+    "singleEffectiveEmbeddedCorpus": true,
+    "all39EmbeddedScreensEqualCanonical": true,
+    "sourceAndMethodCopyEqualCanonical": true,
+    "all28DisplayedQuotationsEqualObjects": true,
+    "readyManifestAll13PackageFilesAndImplementationReportMatch": true,
+    "priorBrowserEvidence": {
+      "positions": 1392,
+      "interactionChecks": 27,
+      "scope": "Implementation worker's hash-bound technical evidence reviewed; not a fresh independent browser matrix or evidence of author meaning."
+    },
+    "freshBrowserRun": false,
+    "chromeLaunched": false,
+    "serverStarted": false,
+    "physicalIPhonePwaTest": false,
+    "publishedRootReaderPresentBefore": false,
+    "publishedRootReaderPresentAfter": false
+  },
+  "hashIntegrity": {
+    "algorithm": "SHA-256",
+    "protectedFileCount": 74,
+    "scope": "Every file in collector-output/meditations, original implementation report and ready manifest, BRIEF, every book-tiktok skill file, and all preexisting root-level library files.",
+    "allUnchanged": true,
+    "files": [
+      {
+        "path": ".env.local",
+        "before": {
+          "sha256": "9773ac0e1029ea92bf910b5375a19667cd06b79e0443d6aeccee6e9e3f25fd8b",
+          "bytes": 1379
+        },
+        "after": {
+          "sha256": "9773ac0e1029ea92bf910b5375a19667cd06b79e0443d6aeccee6e9e3f25fd8b",
+          "bytes": 1379
+        },
+        "unchanged": true
+      },
+      {
+        "path": ".gitignore",
+        "before": {
+          "sha256": "d205b475e29315fd44777b620db588873f25084ef59f674e63b01b4b25c2223d",
+          "bytes": 48
+        },
+        "after": {
+          "sha256": "d205b475e29315fd44777b620db588873f25084ef59f674e63b01b4b25c2223d",
+          "bytes": 48
+        },
+        "unchanged": true
+      },
+      {
+        "path": ".vercelignore",
+        "before": {
+          "sha256": "bc8fd7d89e4e06186bccef9819ca7e441e811ad0f37ad819fd9c1685a8f41351",
+          "bytes": 63
+        },
+        "after": {
+          "sha256": "bc8fd7d89e4e06186bccef9819ca7e441e811ad0f37ad819fd9c1685a8f41351",
+          "bytes": 63
+        },
+        "unchanged": true
+      },
+      {
+        "path": "1873.html",
+        "before": {
+          "sha256": "cf71809a1476ed2fc7d41704da5ef4b7005aaa98b76ccdc5183fe7b15ae4d92c",
+          "bytes": 1330035
+        },
+        "after": {
+          "sha256": "cf71809a1476ed2fc7d41704da5ef4b7005aaa98b76ccdc5183fe7b15ae4d92c",
+          "bytes": 1330035
+        },
+        "unchanged": true
+      },
+      {
+        "path": "BOOK_PLAN.md",
+        "before": {
+          "sha256": "34476010ee796d8e2be0025a8ed5d158998f432274c2f47c088cbbc55ca2941c",
+          "bytes": 28877
+        },
+        "after": {
+          "sha256": "34476010ee796d8e2be0025a8ed5d158998f432274c2f47c088cbbc55ca2941c",
+          "bytes": 28877
+        },
+        "unchanged": true
+      },
+      {
+        "path": "CONTRIBUTING.md",
+        "before": {
+          "sha256": "ec8251659ef5b67cd3178418a8c9d214f5a4328f448cfe094a9280743f5cdc6e",
+          "bytes": 7431
+        },
+        "after": {
+          "sha256": "ec8251659ef5b67cd3178418a8c9d214f5a4328f448cfe094a9280743f5cdc6e",
+          "bytes": 7431
+        },
+        "unchanged": true
+      },
+      {
+        "path": "LOG.md",
+        "before": {
+          "sha256": "6bb8f4541b285e2b34cddf8490dd575381fbbcc2be3d5111d957762d2a30aca0",
+          "bytes": 2189
+        },
+        "after": {
+          "sha256": "6bb8f4541b285e2b34cddf8490dd575381fbbcc2be3d5111d957762d2a30aca0",
+          "bytes": 2189
+        },
+        "unchanged": true
+      },
+      {
+        "path": "NEXT_STEPS.md",
+        "before": {
+          "sha256": "f65967c06ad98bed597885ed30a4cb4dd9f687a325f0e24f165490950fea939b",
+          "bytes": 7865
+        },
+        "after": {
+          "sha256": "f65967c06ad98bed597885ed30a4cb4dd9f687a325f0e24f165490950fea939b",
+          "bytes": 7865
+        },
+        "unchanged": true
+      },
+      {
+        "path": "README.md",
+        "before": {
+          "sha256": "4bb02b0257493952da6689275fddb87d1a9c18d5a76f570c3facd1f1a8cc5224",
+          "bytes": 10546
+        },
+        "after": {
+          "sha256": "4bb02b0257493952da6689275fddb87d1a9c18d5a76f570c3facd1f1a8cc5224",
+          "bytes": 10546
+        },
+        "unchanged": true
+      },
+      {
+        "path": "a-guide-to-the-good-life.html",
+        "before": {
+          "sha256": "800ef8caca05755ddb34be96e722d2f6c2f6992501592aa12083979cf875e35b",
+          "bytes": 424794
+        },
+        "after": {
+          "sha256": "800ef8caca05755ddb34be96e722d2f6c2f6992501592aa12083979cf875e35b",
+          "bytes": 424794
+        },
+        "unchanged": true
+      },
+      {
+        "path": "a-wizard-of-earthsea.html",
+        "before": {
+          "sha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
+          "bytes": 465819
+        },
+        "after": {
+          "sha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7",
+          "bytes": 465819
+        },
+        "unchanged": true
+      },
+      {
+        "path": "akselerando.html",
+        "before": {
+          "sha256": "42bb9cecf2cda48c614b7dc48667bd53a1c2a72b4680ede04f16f8d76414ce36",
+          "bytes": 947520
+        },
+        "after": {
+          "sha256": "42bb9cecf2cda48c614b7dc48667bd53a1c2a72b4680ede04f16f8d76414ce36",
+          "bytes": 947520
+        },
+        "unchanged": true
+      },
+      {
+        "path": "antifragile.html",
+        "before": {
+          "sha256": "0a87dadfd9df97085e5ef9b5d5746974e006ed4648f6ba45b25b671743a6a817",
+          "bytes": 485711
+        },
+        "after": {
+          "sha256": "0a87dadfd9df97085e5ef9b5d5746974e006ed4648f6ba45b25b671743a6a817",
+          "bytes": 485711
+        },
+        "unchanged": true
+      },
+      {
+        "path": "awareness-through-movement.html",
+        "before": {
+          "sha256": "5837e5063368f88133914d2567ca4157b8371dbb92187c013f4ddc3e20847f14",
+          "bytes": 472180
+        },
+        "after": {
+          "sha256": "5837e5063368f88133914d2567ca4157b8371dbb92187c013f4ddc3e20847f14",
+          "bytes": 472180
+        },
+        "unchanged": true
+      },
+      {
+        "path": "behave.html",
+        "before": {
+          "sha256": "6e0fd9405a903776b58d74f091e4120afa0ad2f727154a9428394b61dbdd73ec",
+          "bytes": 495638
+        },
+        "after": {
+          "sha256": "6e0fd9405a903776b58d74f091e4120afa0ad2f727154a9428394b61dbdd73ec",
+          "bytes": 495638
+        },
+        "unchanged": true
+      },
+      {
+        "path": "books.json",
+        "before": {
+          "sha256": "c7994ace3157e9c9d3dcea0f720084a6cc5f3529f0d6fb692e8e8500f3f2623c",
+          "bytes": 53929
+        },
+        "after": {
+          "sha256": "c7994ace3157e9c9d3dcea0f720084a6cc5f3529f0d6fb692e8e8500f3f2623c",
+          "bytes": 53929
+        },
+        "unchanged": true
+      },
+      {
+        "path": "children-of-captain-grant.html",
+        "before": {
+          "sha256": "0adbab3c5853ef622bf8592255ab06828269dd8a159d185bcbc357ec9ab01280",
+          "bytes": 463625
+        },
+        "after": {
+          "sha256": "0adbab3c5853ef622bf8592255ab06828269dd8a159d185bcbc357ec9ab01280",
+          "bytes": 463625
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/QA.md",
+        "before": {
+          "sha256": "a07e6fc8fa7745193dce6aa101929d0d3abdeeff5dfae6d1f359e220b7081195",
+          "bytes": 6778
+        },
+        "after": {
+          "sha256": "a07e6fc8fa7745193dce6aa101929d0d3abdeeff5dfae6d1f359e220b7081195",
+          "bytes": 6778
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/assets/rogovin-1914-title-leaf.png",
+        "before": {
+          "sha256": "ba5c1f8fb45c5a8c3202ca5b4a0346e85877180509b54fe0c5d084f8c2eea236",
+          "bytes": 57740
+        },
+        "after": {
+          "sha256": "ba5c1f8fb45c5a8c3202ca5b4a0346e85877180509b54fe0c5d084f8c2eea236",
+          "bytes": 57740
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/build-meditations.mjs",
+        "before": {
+          "sha256": "a30c134ddb8297a5203fb6f9cf9d8d92d482d42258293666c6ff604a870fa858",
+          "bytes": 1271
+        },
+        "after": {
+          "sha256": "a30c134ddb8297a5203fb6f9cf9d8d92d482d42258293666c6ff604a870fa858",
+          "bytes": 1271
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/meditations.html",
+        "before": {
+          "sha256": "993ee78a71b253a6eb49f33de9a3cacec099c5ed2973b740f4ae7ef14b70dcd0",
+          "bytes": 406731
+        },
+        "after": {
+          "sha256": "993ee78a71b253a6eb49f33de9a3cacec099c5ed2973b740f4ae7ef14b70dcd0",
+          "bytes": 406731
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/browser-interactions.json",
+        "before": {
+          "sha256": "7d179aef809798ce7b41bcbd2d78b28029a37d4bed4a47d266c16632a0058338",
+          "bytes": 1921
+        },
+        "after": {
+          "sha256": "7d179aef809798ce7b41bcbd2d78b28029a37d4bed4a47d266c16632a0058338",
+          "bytes": 1921
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/browser-meditations.mjs",
+        "before": {
+          "sha256": "9954e5faf0ded410dceccaa164cd07f9dd644892af08b3149fa5449715f7d3c2",
+          "bytes": 19551
+        },
+        "after": {
+          "sha256": "9954e5faf0ded410dceccaa164cd07f9dd644892af08b3149fa5449715f7d3c2",
+          "bytes": 19551
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/browser-traverse.json",
+        "before": {
+          "sha256": "1f38a73be1c11ad222616e0a7c9c6af9700eda2f632776aedd8d6f7655a2270b",
+          "bytes": 9496
+        },
+        "after": {
+          "sha256": "1f38a73be1c11ad222616e0a7c9c6af9700eda2f632776aedd8d6f7655a2270b",
+          "bytes": 9496
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/build-inputs.json",
+        "before": {
+          "sha256": "c209f3aad83d7dbc81d64472d01c500662bda362b5d0df15d467291008725f38",
+          "bytes": 810
+        },
+        "after": {
+          "sha256": "c209f3aad83d7dbc81d64472d01c500662bda362b5d0df15d467291008725f38",
+          "bytes": 810
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/content-scope.json",
+        "before": {
+          "sha256": "029017af6aedb4ca15cef773bc3b0db3b71921c2ece9c29ed3174ce9076701ce",
+          "bytes": 1250
+        },
+        "after": {
+          "sha256": "029017af6aedb4ca15cef773bc3b0db3b71921c2ece9c29ed3174ce9076701ce",
+          "bytes": 1250
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/quotation-check.json",
+        "before": {
+          "sha256": "8c8c57407d8903b5251705c18e15cb06e7fdaaac52a41173f62e7cd87c175ef0",
+          "bytes": 4307
+        },
+        "after": {
+          "sha256": "8c8c57407d8903b5251705c18e15cb06e7fdaaac52a41173f62e7cd87c175ef0",
+          "bytes": 4307
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/qa/structure-audit.json",
+        "before": {
+          "sha256": "f3fdb6fb37f8b20c0d70fe58afb86ce4de2cae9c355a930bcf18f1c8275f7fb0",
+          "bytes": 397
+        },
+        "after": {
+          "sha256": "f3fdb6fb37f8b20c0d70fe58afb86ce4de2cae9c355a930bcf18f1c8275f7fb0",
+          "bytes": 397
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/sources.md",
+        "before": {
+          "sha256": "cda0a93887935cdab7209fe7999310fd1cd2d69aed8c49c4cad139fa3d22a4ee",
+          "bytes": 24225
+        },
+        "after": {
+          "sha256": "cda0a93887935cdab7209fe7999310fd1cd2d69aed8c49c4cad139fa3d22a4ee",
+          "bytes": 24225
+        },
+        "unchanged": true
+      },
+      {
+        "path": "collector-output/meditations/story-data.json",
+        "before": {
+          "sha256": "128d88333d3f1ae59efaa02b9c60c487c681a475b5efbf6dd9b086fad5e31a81",
+          "bytes": 86877
+        },
+        "after": {
+          "sha256": "128d88333d3f1ae59efaa02b9c60c487c681a475b5efbf6dd9b086fad5e31a81",
+          "bytes": 86877
+        },
+        "unchanged": true
+      },
+      {
+        "path": "determined.html",
+        "before": {
+          "sha256": "3fd612cd5f57527ccc2587930f2528a56feefddcdb71ec9d5147b36e4a246d11",
+          "bytes": 489729
+        },
+        "after": {
+          "sha256": "3fd612cd5f57527ccc2587930f2528a56feefddcdb71ec9d5147b36e4a246d11",
+          "bytes": 489729
+        },
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/BRIEF.md",
+        "before": {
+          "sha256": "9791cdf7662d0eb6450486114ba275dbdd46516c71053d1e8b77c88610f5866a",
+          "bytes": 8192
+        },
+        "after": {
+          "sha256": "9791cdf7662d0eb6450486114ba275dbdd46516c71053d1e8b77c88610f5866a",
+          "bytes": 8192
+        },
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/books/meditations-implementation.md",
+        "before": {
+          "sha256": "e7cb0d95065006a7ae1b644696934aab0c2984219cbf8726b3acc597cd9797b0",
+          "bytes": 11058
+        },
+        "after": {
+          "sha256": "e7cb0d95065006a7ae1b644696934aab0c2984219cbf8726b3acc597cd9797b0",
+          "bytes": 11058
+        },
+        "unchanged": true
+      },
+      {
+        "path": "editorial-audit/2026-10-31/ready/meditations.json",
+        "before": {
+          "sha256": "c8d15e419da57095a8d63a38e50bd431bc86a11578383d1ce0875647fcd73346",
+          "bytes": 9631
+        },
+        "after": {
+          "sha256": "c8d15e419da57095a8d63a38e50bd431bc86a11578383d1ce0875647fcd73346",
+          "bytes": 9631
+        },
+        "unchanged": true
+      },
+      {
+        "path": "essentialism.html",
+        "before": {
+          "sha256": "a6cd3fcfb794841637f1a7ee361a32d03354cd0f84fbac404041cc2d77bb56dc",
+          "bytes": 307512
+        },
+        "after": {
+          "sha256": "a6cd3fcfb794841637f1a7ee361a32d03354cd0f84fbac404041cc2d77bb56dc",
+          "bytes": 307512
+        },
+        "unchanged": true
+      },
+      {
+        "path": "four-thousand-weeks.html",
+        "before": {
+          "sha256": "fe39faf15c4e455e5155bedd005cf76b7ba8a80e6c44f3d0b3d58e7ea00cba9b",
+          "bytes": 429105
+        },
+        "after": {
+          "sha256": "fe39faf15c4e455e5155bedd005cf76b7ba8a80e6c44f3d0b3d58e7ea00cba9b",
+          "bytes": 429105
+        },
+        "unchanged": true
+      },
+      {
+        "path": "hermes-nous.html",
+        "before": {
+          "sha256": "6546d557a1abe4a36168f3921424b5303d590d252a74a01fd5319fb3d191aa72",
+          "bytes": 143312
+        },
+        "after": {
+          "sha256": "6546d557a1abe4a36168f3921424b5303d590d252a74a01fd5319fb3d191aa72",
+          "bytes": 143312
+        },
+        "unchanged": true
+      },
+      {
+        "path": "huberman-protocols.html",
+        "before": {
+          "sha256": "26605bfd03d0c76e25ef7fe68d22663a3cc13ce713eb94328bdb819cfbd73aa9",
+          "bytes": 490480
+        },
+        "after": {
+          "sha256": "26605bfd03d0c76e25ef7fe68d22663a3cc13ce713eb94328bdb819cfbd73aa9",
+          "bytes": 490480
+        },
+        "unchanged": true
+      },
+      {
+        "path": "i-robot.html",
+        "before": {
+          "sha256": "766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6",
+          "bytes": 432273
+        },
+        "after": {
+          "sha256": "766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6",
+          "bytes": 432273
+        },
+        "unchanged": true
+      },
+      {
+        "path": "index.html",
+        "before": {
+          "sha256": "5c2a4478827f27ddb0225f626fd7be3112e240830ba1f5194bcc5f91944c0f46",
+          "bytes": 67878
+        },
+        "after": {
+          "sha256": "5c2a4478827f27ddb0225f626fd7be3112e240830ba1f5194bcc5f91944c0f46",
+          "bytes": 67878
+        },
+        "unchanged": true
+      },
+      {
+        "path": "letting-go.html",
+        "before": {
+          "sha256": "8a90e779a307021fd973df44e26b4e0d39b4081d4871c9853f7600bd4a3edad3",
+          "bytes": 891343
+        },
+        "after": {
+          "sha256": "8a90e779a307021fd973df44e26b4e0d39b4081d4871c9853f7600bd4a3edad3",
+          "bytes": 891343
+        },
+        "unchanged": true
+      },
+      {
+        "path": "make-time.html",
+        "before": {
+          "sha256": "59c4a31064ad8daee8e7e644db7996ea4671c3e55b7f50634d9591d5b7e219a6",
+          "bytes": 415972
+        },
+        "after": {
+          "sha256": "59c4a31064ad8daee8e7e644db7996ea4671c3e55b7f50634d9591d5b7e219a6",
+          "bytes": 415972
+        },
+        "unchanged": true
+      },
+      {
+        "path": "manifest.webmanifest",
+        "before": {
+          "sha256": "d78462ce7f004e62062c583d63c5e5ef7d97b33f776325275c5f9d49a0ffcc19",
+          "bytes": 907
+        },
+        "after": {
+          "sha256": "d78462ce7f004e62062c583d63c5e5ef7d97b33f776325275c5f9d49a0ffcc19",
+          "bytes": 907
+        },
+        "unchanged": true
+      },
+      {
+        "path": "mindfulness.html",
+        "before": {
+          "sha256": "2171ad6cd1c77de2157dc3534b7cf64e3f0eaee0739a153a4ae8b079ab94a974",
+          "bytes": 429288
+        },
+        "after": {
+          "sha256": "2171ad6cd1c77de2157dc3534b7cf64e3f0eaee0739a153a4ae8b079ab94a974",
+          "bytes": 429288
+        },
+        "unchanged": true
+      },
+      {
+        "path": "package.json",
+        "before": {
+          "sha256": "38bf8a0f0d9fbcab8b9ca2b02bc61dd71b305089f0f3e7522780dfa05295350f",
+          "bytes": 422
+        },
+        "after": {
+          "sha256": "38bf8a0f0d9fbcab8b9ca2b02bc61dd71b305089f0f3e7522780dfa05295350f",
+          "bytes": 422
+        },
+        "unchanged": true
+      },
+      {
+        "path": "selfie.html",
+        "before": {
+          "sha256": "b3232f6fb5b23af379d5c0f6e2ae078168be7b1dbc318879ea0617d5cfd5be56",
+          "bytes": 422763
+        },
+        "after": {
+          "sha256": "b3232f6fb5b23af379d5c0f6e2ae078168be7b1dbc318879ea0617d5cfd5be56",
+          "bytes": 422763
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/SKILL.md",
+        "before": {
+          "sha256": "f9c42d8820265763b4f26db18bacfbf852f935446fd5e8443d0c37190fa11650",
+          "bytes": 7024
+        },
+        "after": {
+          "sha256": "f9c42d8820265763b4f26db18bacfbf852f935446fd5e8443d0c37190fa11650",
+          "bytes": 7024
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/agents/openai.yaml",
+        "before": {
+          "sha256": "8f3ec73ce95439db8851c001852a31daa6727e9e6adc198321a2a17b47266b9b",
+          "bytes": 272
+        },
+        "after": {
+          "sha256": "8f3ec73ce95439db8851c001852a31daa6727e9e6adc198321a2a17b47266b9b",
+          "bytes": 272
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/assets/fonts/Geist-Variable.woff2",
+        "before": {
+          "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+          "bytes": 69652
+        },
+        "after": {
+          "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8",
+          "bytes": 69652
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/assets/fonts/GeistMono-Variable.woff2",
+        "before": {
+          "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+          "bytes": 71368
+        },
+        "after": {
+          "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab",
+          "bytes": 71368
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/assets/fonts/LICENSE.txt",
+        "before": {
+          "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+          "bytes": 4368
+        },
+        "after": {
+          "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+          "bytes": 4368
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/assets/reader-header.html",
+        "before": {
+          "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801",
+          "bytes": 5085
+        },
+        "after": {
+          "sha256": "0e4a13a63aa6091a0b9c541347406c7624402229eb26a1aa4503ca3834e5b801",
+          "bytes": 5085
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/assets/standalone-template.html",
+        "before": {
+          "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b",
+          "bytes": 59233
+        },
+        "after": {
+          "sha256": "2024c323007601a842d0aece92f916a2832b1eb65f9e61c057c960d3932db83b",
+          "bytes": 59233
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/assets/story-data.example.json",
+        "before": {
+          "sha256": "271663622ac0fa9154aade4f5f38be016090b504b70d9922f96f4ddd3a0c54c4",
+          "bytes": 7072
+        },
+        "after": {
+          "sha256": "271663622ac0fa9154aade4f5f38be016090b504b70d9922f96f4ddd3a0c54c4",
+          "bytes": 7072
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/references/content-model.md",
+        "before": {
+          "sha256": "efaa8c4f2ef1a1544feb6af88ed95137e6e3899f4f618efd19adeaf526cf51e6",
+          "bytes": 6229
+        },
+        "after": {
+          "sha256": "efaa8c4f2ef1a1544feb6af88ed95137e6e3899f4f618efd19adeaf526cf51e6",
+          "bytes": 6229
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/references/data-contract.md",
+        "before": {
+          "sha256": "a4c281ac96f96487beebb41b36ed8f50730391d285cbbdbe3cf5ab15c5ff3927",
+          "bytes": 7840
+        },
+        "after": {
+          "sha256": "a4c281ac96f96487beebb41b36ed8f50730391d285cbbdbe3cf5ab15c5ff3927",
+          "bytes": 7840
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/references/html-spec.md",
+        "before": {
+          "sha256": "56df58556ad6cb8e362dcf9b80ce640f339a0dce736d72a7f34194559d542225",
+          "bytes": 9381
+        },
+        "after": {
+          "sha256": "56df58556ad6cb8e362dcf9b80ce640f339a0dce736d72a7f34194559d542225",
+          "bytes": 9381
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/scripts/audit_story_html.mjs",
+        "before": {
+          "sha256": "36d2dc8ebf8fe55ac37a6fa17362d4c9a99584c9be7f28517e50804c999a0d86",
+          "bytes": 14575
+        },
+        "after": {
+          "sha256": "36d2dc8ebf8fe55ac37a6fa17362d4c9a99584c9be7f28517e50804c999a0d86",
+          "bytes": 14575
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skills/book-tiktok/scripts/build_story.mjs",
+        "before": {
+          "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639",
+          "bytes": 11671
+        },
+        "after": {
+          "sha256": "ef38b2a383527cf34cb70d8e5db69e215db810cec6f28edc0f2925f7d5120639",
+          "bytes": 11671
+        },
+        "unchanged": true
+      },
+      {
+        "path": "skin-in-the-game.html",
+        "before": {
+          "sha256": "ddd78a2dbe74a2132f331430b0f6cc74ca121a7d388a5427de159f0f403a2cdf",
+          "bytes": 330306
+        },
+        "after": {
+          "sha256": "ddd78a2dbe74a2132f331430b0f6cc74ca121a7d388a5427de159f0f403a2cdf",
+          "bytes": 330306
+        },
+        "unchanged": true
+      },
+      {
+        "path": "sw.js",
+        "before": {
+          "sha256": "4f561340d2cf416052092eb3803c6d6b3dd5356c6e67ab66606c0f7d4b1ffddf",
+          "bytes": 1908
+        },
+        "after": {
+          "sha256": "4f561340d2cf416052092eb3803c6d6b3dd5356c6e67ab66606c0f7d4b1ffddf",
+          "bytes": 1908
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-art-of-war.html",
+        "before": {
+          "sha256": "97f2cefd69856a0dab2cf87405391049a576cfb8ef8bfcf5c0812fb8053d69b9",
+          "bytes": 305844
+        },
+        "after": {
+          "sha256": "97f2cefd69856a0dab2cf87405391049a576cfb8ef8bfcf5c0812fb8053d69b9",
+          "bytes": 305844
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-body-keeps-the-score.html",
+        "before": {
+          "sha256": "f0f9493b053e1e0d231d4a06ee71e44e9cd1b1f876345e6ee6d7e0e60a29aa2e",
+          "bytes": 922111
+        },
+        "after": {
+          "sha256": "f0f9493b053e1e0d231d4a06ee71e44e9cd1b1f876345e6ee6d7e0e60a29aa2e",
+          "bytes": 922111
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-hitchhikers-guide-to-the-galaxy.html",
+        "before": {
+          "sha256": "06341887063738f626f4d1a1c622fd6562ff31d7cf84ac51135907e391cccc03",
+          "bytes": 406024
+        },
+        "after": {
+          "sha256": "06341887063738f626f4d1a1c622fd6562ff31d7cf84ac51135907e391cccc03",
+          "bytes": 406024
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-hobbit.html",
+        "before": {
+          "sha256": "ee748e237eab43ac1cb8a06362bb5fc7d21ce9c47c2acb6ba7c3b9d0d7dfe17a",
+          "bytes": 462847
+        },
+        "after": {
+          "sha256": "ee748e237eab43ac1cb8a06362bb5fc7d21ce9c47c2acb6ba7c3b9d0d7dfe17a",
+          "bytes": 462847
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-lost-world.html",
+        "before": {
+          "sha256": "d59981dd6230f09b57326dc898dee69de70806a1375fb0b5b52f1852ebe248a5",
+          "bytes": 451867
+        },
+        "after": {
+          "sha256": "d59981dd6230f09b57326dc898dee69de70806a1375fb0b5b52f1852ebe248a5",
+          "bytes": 451867
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-two-captains.html",
+        "before": {
+          "sha256": "0d323774f2ea423516337f39a87ea04e50fb0cb9edf01c96d62b1f70d9fb11f7",
+          "bytes": 470818
+        },
+        "after": {
+          "sha256": "0d323774f2ea423516337f39a87ea04e50fb0cb9edf01c96d62b1f70d9fb11f7",
+          "bytes": 470818
+        },
+        "unchanged": true
+      },
+      {
+        "path": "the-wee-free-men.html",
+        "before": {
+          "sha256": "8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3",
+          "bytes": 399047
+        },
+        "after": {
+          "sha256": "8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3",
+          "bytes": 399047
+        },
+        "unchanged": true
+      },
+      {
+        "path": "theory-of-constraints.html",
+        "before": {
+          "sha256": "0610708b14c54856449e84b30e64f1c85bf3400b9973490a3ea26cc46e496428",
+          "bytes": 1498554
+        },
+        "after": {
+          "sha256": "0610708b14c54856449e84b30e64f1c85bf3400b9973490a3ea26cc46e496428",
+          "bytes": 1498554
+        },
+        "unchanged": true
+      },
+      {
+        "path": "treasure-island.html",
+        "before": {
+          "sha256": "bd55b3946bda815b2a24ea8959b2ae4041fa0fd5c2dd90754eba7bc2bda1190d",
+          "bytes": 426931
+        },
+        "after": {
+          "sha256": "bd55b3946bda815b2a24ea8959b2ae4041fa0fd5c2dd90754eba7bc2bda1190d",
+          "bytes": 426931
+        },
+        "unchanged": true
+      },
+      {
+        "path": "vercel.json",
+        "before": {
+          "sha256": "e74c6ff9a4fcbd85d0b2aa9b77a00156872da11ec964bb4ee1d6738cbf1fbff6",
+          "bytes": 1320
+        },
+        "after": {
+          "sha256": "e74c6ff9a4fcbd85d0b2aa9b77a00156872da11ec964bb4ee1d6738cbf1fbff6",
+          "bytes": 1320
+        },
+        "unchanged": true
+      },
+      {
+        "path": "white-fang.html",
+        "before": {
+          "sha256": "fd3e7dc19a053f2dd92bda1b1b379cffac75a9d488c06f126266dae27a85c51c",
+          "bytes": 410591
+        },
+        "after": {
+          "sha256": "fd3e7dc19a053f2dd92bda1b1b379cffac75a9d488c06f126266dae27a85c51c",
+          "bytes": 410591
+        },
+        "unchanged": true
+      },
+      {
+        "path": "why-zebras-dont-get-ulcers.html",
+        "before": {
+          "sha256": "f156369dce1d7d43492fad088b58cf5bb5673e36e0f4cf36a00ae3d47b5297f3",
+          "bytes": 473045
+        },
+        "after": {
+          "sha256": "f156369dce1d7d43492fad088b58cf5bb5673e36e0f4cf36a00ae3d47b5297f3",
+          "bytes": 473045
+        },
+        "unchanged": true
+      },
+      {
+        "path": "zen-and-the-art-of-motorcycle-maintenance.html",
+        "before": {
+          "sha256": "a101366711f0fee92cbd8b7d3b15a43fd34e07c6755dfb710d5a2703f3f5fd9a",
+          "bytes": 470286
+        },
+        "after": {
+          "sha256": "a101366711f0fee92cbd8b7d3b15a43fd34e07c6755dfb710d5a2703f3f5fd9a",
+          "bytes": 470286
+        },
+        "unchanged": true
+      }
+    ]
+  },
+  "limits": [
+    "Selective primary passage review, not continuous full-book reading in either edition.",
+    "No Greek collation, manuscript/first-printing comparison, or blanket full translation-fidelity certification.",
+    "Quotation selection is representative, not an exhaustive inventory of all important passages. No particular omission was found that falsifies the promised thematic argument.",
+    "No modern translation copied; no full source texts or new scans placed in the public package or review reports.",
+    "No production, physical-device or independent browser-interaction certification; publisher integration remains separate."
+  ],
+  "ownership": {
+    "onlyFreshReportsWritten": [
+      "editorial-audit/2026-10-31/reviews/meditations.md",
+      "editorial-audit/2026-10-31/reviews/meditations.json"
+    ],
+    "packageChanged": false,
+    "readyChanged": false,
+    "originalReportChanged": false,
+    "rootChanged": false,
+    "git": false,
+    "pr": false,
+    "deploy": false,
+    "externalMessaging": false,
+    "subagents": false,
+    "temporaryImageRendersOutsideRepository": true,
+    "temporaryImageRendersRemoved": true
+  },
+  "publisherHandoff": "PASS applies to the exact before/after package hashes in this report. No required editorial fix. Optional items are non-blocking. Publisher owns root integration and any publication."
+}
+

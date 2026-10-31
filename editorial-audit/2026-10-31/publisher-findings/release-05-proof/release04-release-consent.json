@@ -1,0 +1,128 @@
+{
+  "phase": "release-consent",
+  "origin": "https://book-tiktok-library.vercel.app",
+  "checks": [
+    {
+      "book": "hard-to-be-a-god.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "hard-to-be-a-god.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "adventures-of-huckleberry-finn.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "adventures-of-huckleberry-finn.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    }
+  ],
+  "nativeDialogs": [
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    }
+  ],
+  "customDialogs": [
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": false,
+      "title": "Развязка романа / The novel’s ending"
+    },
+    {
+      "id": "spoilerDialog",
+      "accepted": true,
+      "title": "Развязка романа / The novel’s ending"
+    }
+  ],
+  "physicalIPhone": false,
+  "runtimeErrors": 0
+}

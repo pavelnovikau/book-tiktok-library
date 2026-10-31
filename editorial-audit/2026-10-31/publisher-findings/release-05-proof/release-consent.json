@@ -1,0 +1,69 @@
+{
+  "phase": "release-consent",
+  "origin": "owned-local-test-server",
+  "checks": [
+    {
+      "book": "the-left-hand-of-darkness.html",
+      "language": "ru",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    },
+    {
+      "book": "the-left-hand-of-darkness.html",
+      "language": "en",
+      "savedDeepHidden": true,
+      "cancelledAndAcceptedResume": true,
+      "reloadRequiresConsent": true,
+      "cancelledAndAcceptedDeepPicker": true,
+      "restartClearsProgress": true
+    }
+  ],
+  "nativeDialogs": [
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep раскрывает поздние события и развязку книги. Продолжить со спойлерами финала?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": false
+    },
+    {
+      "type": "confirm",
+      "message": "Deep reveals later events and the ending. Continue with ending spoilers?",
+      "accepted": true
+    }
+  ],
+  "customDialogs": [],
+  "physicalIPhone": false,
+  "runtimeErrors": 0
+}

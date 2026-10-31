@@ -1,0 +1,1171 @@
+{
+  "schemaVersion": 2,
+  "slug": "meditations",
+  "title": {
+    "ru": "Марк Аврелий · Наедине с собой",
+    "en": "Marcus Aurelius · Meditations"
+  },
+  "description": {
+    "ru": "Личные записи Марка Аврелия: благодарность, суждение, справедливость, общая природа и смерть. Связное тематическое сокращение с проверенными цитатами Роговина и Лонга.",
+    "en": "Marcus Aurelius’s personal notes on gratitude, judgment, justice, universal nature, and death. A connected thematic condensation with checked quotations from Rogovin and Long."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "explanatory",
+  "targetModes": {
+    "essential": 18,
+    "core": 30,
+    "deep": 39
+  },
+  "methodNote": {
+    "ru": "Тематическое сокращение личных записей, а не новый перевод или программа самопомощи. Выборочно прочитаны и сопоставлены первичные места из всех двенадцати книг; сплошное чтение двух изданий не заявляется. Русские цитаты сверены с изображениями издания С. М. Роговина (Москва, Сабашниковы, 1914): орфография приведена к современной без замены слов, переносы сняты. Английские цитаты — опубликованный перевод George Long, проверенный по нумерованному тексту Project Gutenberg №15877; 13 из 14 цитат дополнительно сопоставлены с текстом MIT; окружающий пересказ написан отдельно. Все 14 пар относятся к одним и тем же местам. Для финала XII.36 у Лонга соответствует XII.35 у Роговина. Порядок тем составлен для этого сокращения; это не последовательность оригинальных записей. Полнота перевода с греческого и соответствие каждой строки двух изданий не удостоверяются.",
+    "en": "A thematic condensation of personal notes, not a new translation or a self-help programme. Selected primary passages across all twelve books were read and compared; continuous reading of both editions is not claimed. Russian quotations were checked visually against S. M. Rogovin’s original Moscow, Sabashnikov, 1914 edition; historical spelling is modernized without replacing words, and line-break hyphenation removed. English quotations use George Long’s published translation, checked in numbered Project Gutenberg #15877; 13 of 14 were also compared with MIT’s parallel witness; the surrounding paraphrase is original. All 14 pairs refer to the same passages. Long’s closing XII.36 corresponds to Rogovin’s XII.35. The thematic sequence is editorial, not the original order of the notes. Neither complete translation fidelity to Greek nor line-by-line equivalence of the two editions is certified."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Марк Аврелий. Наедине с собой. Пер. С. М. Роговина. Москва, М. и С. Сабашниковы, 1914 — скан",
+      "url": "https://archive.org/details/naedine-s-soboi",
+      "role": "book",
+      "note": {
+        "ru": "Полный скан издания 1914 года, экземпляр University of Wisconsin, оцифровка Google Books. Выборочное чтение опорных мест и визуальная сверка всех 14 русских цитат; источник цитат — страницы скана, не его ошибочный OCR. Дореформенная орфография осовременена. Нумерация конца XII книги отличается от Лонга.",
+        "en": "Complete scan of the 1914 Rogovin edition, University of Wisconsin copy digitized by Google Books. Targeted primary reading; all 14 Russian quotation excerpts checked against page images, not the faulty OCR. Historical spelling modernized. Closing Book XII numbering differs from Long."
+      }
+    },
+    {
+      "id": 2,
+      "title": "Marcus Aurelius — Thoughts of Marcus Aurelius Antoninus, translated by George Long — Project Gutenberg #15877",
+      "url": "https://www.gutenberg.org/cache/epub/15877/pg15877-images.html",
+      "role": "book",
+      "note": {
+        "ru": "Полный английский текст с нумерацией книг и разделов. Перевод George Long впервые опубликован в 1862; Gutenberg не дает оснований называть свою расшифровку точным набором первого издания. Прочитаны опорные разделы, проверены все английские цитаты и соответствия русским местам.",
+        "en": "Complete numbered English text. George Long’s translation first appeared in 1862; this transcription is not certified here as the exact setting of that first printing. Supporting sections read, every English quotation checked, and passages aligned with the Russian witness."
+      }
+    },
+    {
+      "id": 3,
+      "title": "MIT Internet Classics Archive — The Meditations, translated by George Long",
+      "url": "https://classics.mit.edu/Antoninus/meditations.html",
+      "role": "primary",
+      "note": {
+        "ru": "Дополнительный институциональный свидетель перевода Лонга. Сопоставлены 13 отрывков в книгах II, IV, V, VI, VII, VIII и X. Judgment в Gutenberg соответствует judgement в MIT; есть различия запятых. Книга XII в доступном тексте MIT обрывается внутри §26, поэтому финальную цитату по MIT не проверяли. В цитатах сохранен выбранный текст Gutenberg.",
+        "en": "Additional institutional witness to Long. Thirteen excerpts compared in Books II, IV, V, VI, VII, VIII, and X. Gutenberg’s judgment is MIT’s judgement, and some commas differ. The accessible MIT Book XII breaks off within §26, so it did not verify the final quotation. Quotations retain the selected Gutenberg text."
+      }
+    }
+  ],
+  "media": {
+    "title-leaf": {
+      "file": "./assets/rogovin-1914-title-leaf.png",
+      "alt": {
+        "ru": "Титульный лист издания «Наедине с собой», перевод С. Роговина, Москва, 1914.",
+        "en": "Title leaf of the Moscow 1914 edition of Meditations, translated by S. Rogovin."
+      },
+      "credit": {
+        "ru": "Титульный лист, 1914. University of Wisconsin · Google Books / Internet Archive. Общественное достояние.",
+        "en": "Title leaf, 1914. University of Wisconsin · Google Books / Internet Archive. Public domain."
+      }
+    }
+  },
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [
+        1,
+        2
+      ],
+      "media": "title-leaf",
+      "locator": "I–XII",
+      "copy": {
+        "ru": {
+          "section": "Марк Аврелий · Размышления",
+          "title": "Наедине с собой",
+          "subtitle": "Человек, который снова напоминает себе",
+          "body": "<p>Он благодарит учителей, спорит с нежеланием вставать, убеждает себя не гневаться и думает о смерти. Среди этих возвращений к одному и тому же слышен личный голос: как жить разумно и справедливо, пока еще есть время.</p>"
+        },
+        "en": {
+          "section": "Marcus Aurelius · Meditations",
+          "title": "Meditations",
+          "subtitle": "A man reminding himself again",
+          "body": "<p>He thanks his teachers, argues with his reluctance to get up, argues against his own anger, and thinks about death. Through these repeated returns, a personal voice emerges: how to live reasonably and justly while there is still time.</p>"
+        }
+      }
+    },
+    {
+      "id": "debts",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "I.1–3,7,16–17",
+      "copy": {
+        "ru": {
+          "section": "Благодарность",
+          "title": "Сначала — кому он обязан",
+          "body": "<p>Книга начинается с людей. Дед, отец, мать, воспитатели, друзья: Марк называет, чему обязан каждому. Матери — щедростью и простотой жизни, Рустику — требованием исправлять характер. Даже свое стремление к философии он не объявляет собственным изобретением.</p><p>В конце благодарностей он признает: боги дали ему все нужное для жизни согласно природе, но сам он не всегда следовал их указаниям. Записывает это человек, которому еще приходится себя поправлять.</p>"
+        },
+        "en": {
+          "section": "Gratitude",
+          "title": "First, what he owes",
+          "body": "<p>The book begins with people: grandfather, father, mother, teachers, friends. Marcus names what each gave him. From his mother, generosity and simplicity; from Rusticus, the demand to improve his character. Even his turn toward philosophy is something he owes to others.</p><p>He ends his thanks by admitting that the gods supplied what living according to nature required, yet he failed to follow their guidance. The writer still needs correction.</p>"
+        }
+      }
+    },
+    {
+      "id": "rusticus",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "I.7,9",
+      "copy": {
+        "ru": {
+          "section": "Благодарность",
+          "title": "Не разыгрывать философа",
+          "body": "<p>Рустик научил его не выставлять напоказ ни суровую выдержку, ни благодеяния, писать без затей и читать внимательно, не довольствуясь поверхностным обзором. Он же дал ему записи Эпиктета.</p><p>В Сексте Марк ценит соединение спокойствия и любви к людям. Сдержанность здесь соседствует с заботой о друзьях и терпением к тем, кто судит опрометчиво.</p>"
+        },
+        "en": {
+          "section": "Gratitude",
+          "title": "Without playing the philosopher",
+          "body": "<p>Rusticus taught him to avoid displaying his endurance or his good deeds, to write simply, and to read carefully instead of settling for a superficial understanding. He also lent Marcus the discourses of Epictetus.</p><p>In Sextus, Marcus admires calm joined to affection: concern for friends, patience with ignorance, and the ability to get along with people who judge hastily.</p>"
+        }
+      }
+    },
+    {
+      "id": "antoninus",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "I.16",
+      "copy": {
+        "ru": {
+          "section": "Благодарность",
+          "title": "Время выслушать другого",
+          "body": "<p>Длиннее всего Марк задерживается на приемном отце, Антонине. Тот не обрывал обсуждение, ухватившись за первое решение; терпеливо разбирал обстоятельства и признавал чужое превосходство в отдельных знаниях. Друзей он не принуждал являться к обеду или сопровождать его в поездках.</p><p>В этом портрете есть и государственные расходы, и одежда, и забота о теле. Марк запоминает человека, способного пользоваться удобствами без зависимости от них.</p>"
+        },
+        "en": {
+          "section": "Gratitude",
+          "title": "Time to hear another person",
+          "body": "<p>Marcus lingers over his adoptive father, Antoninus. He did not cut discussions short at the first plausible answer: he examined the circumstances and acknowledged other people’s expertise. Friends were not obliged to dine with him or accompany his journeys.</p><p>The portrait includes public spending, clothes, and care of the body. Marcus remembers someone who could enjoy comforts without becoming dependent on them.</p>"
+        }
+      }
+    },
+    {
+      "id": "waking",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "V.1",
+      "copy": {
+        "ru": {
+          "section": "Утро",
+          "title": "Подняться с постели",
+          "body": "<p>В другой записи все начинается с нежелания вставать. Под одеялом приятнее; Марк отвечает себе:</p><p data-quote-id=\"waking\">«Я встаю, чтобы приняться за дело человеческое.»</p><p class=\"muted\">V.1 · С. М. Роговин</p><p>Он вспоминает птиц, муравьев, пауков и пчел, занятых своим делом в общем мире. Отдых нужен, признает он, но и у отдыха есть мера. Вопрос, который он задает себе, — почему общеполезная деятельность кажется ему менее достойной усилий, чем чужое любимое ремесло.</p>"
+        },
+        "en": {
+          "section": "Morning",
+          "title": "Getting out of bed",
+          "body": "<p>Elsewhere the starting point is reluctance to get up. The bedclothes are pleasant; Marcus answers himself:</p><p data-quote-id=\"waking\">“I am rising to the work of a human being.”</p><p class=\"muted\">V.1 · George Long</p><p>He thinks of birds, ants, spiders, and bees doing their work within the world. Rest is necessary, he concedes, but has its measure. Why should useful activity for others seem less worthy of effort than someone else’s beloved craft?</p>"
+        }
+      },
+      "quotation": {
+        "id": "waking",
+        "locator": "V.1",
+        "ruPdfPage": 132,
+        "ruPrintedSection": "V.1",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Я встаю, чтобы приняться за дело человеческое.",
+          "en": "I am rising to the work of a human being."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "neighbours",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "II.1",
+      "copy": {
+        "ru": {
+          "section": "Утро",
+          "title": "И те, кто будет раздражать",
+          "body": "<p>Утро принесет и навязчивых, неблагодарных, завистливых людей. Марк перечисляет их заранее, затем напоминает себе: они заблуждаются о добре и зле и все же родственны ему общим разумом.</p><p data-quote-id=\"neighbours\">«Ибо мы созданы для совместной деятельности, как и ноги, руки, веки, верхняя и нижняя челюсти.»</p><p class=\"muted\">II.1 · С. М. Роговин</p><p>Поэтому и ненависть, и желание отвернуться требуют проверки. Чужой поступок не может сам по себе заставить его совершить постыдное.</p>"
+        },
+        "en": {
+          "section": "Morning",
+          "title": "Including the difficult people",
+          "body": "<p>Morning will also bring meddling, ungrateful, envious people. Marcus names them in advance, then reminds himself that they misunderstand good and evil and remain his kin through their share in reason.</p><p data-quote-id=\"neighbours\">“For we are made for co-operation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth.”</p><p class=\"muted\">II.1 · George Long</p><p>Hatred and withdrawal therefore need examining too. Another person’s act cannot, by itself, make him do something shameful.</p>"
+        }
+      },
+      "quotation": {
+        "id": "neighbours",
+        "locator": "II.1",
+        "ruPdfPage": 88,
+        "ruPrintedSection": "II.1",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Ибо мы созданы для совместной деятельности, как и ноги, руки, веки, верхняя и нижняя челюсти.",
+          "en": "For we are made for co-operation, like feet, like hands, like eyelids, like the rows of the upper and lower teeth."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "ruling-faculty",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "II.2,8",
+      "copy": {
+        "ru": {
+          "section": "Суждение",
+          "title": "Что в нем должно руководить",
+          "body": "<p>Марк различает тело, дыхание жизни и руководящее начало — ту способность, которой он судит и направляет поступки. Тело меняется, дыхание приходит и уходит. Разуму он запрещает становиться рабом противообщественных влечений, ропота на настоящее и страха перед будущим.</p><p>Разбирать собственные движения души для него важнее, чем угадывать, что происходит в чужой. Без этого внимания он сам оказывается во власти того, что должен был рассмотреть.</p>"
+        },
+        "en": {
+          "section": "Judgment",
+          "title": "What is to govern him",
+          "body": "<p>Marcus distinguishes body, the breath of life, and the ruling faculty: the capacity that judges and directs conduct. The body changes; breath comes and goes. He tells reason not to become a slave to unsocial impulses, resentment of the present, or fear of the future.</p><p>Watching the movements of his own mind matters more than guessing what is happening in someone else’s. Without that attention, he is governed by what he should examine.</p>"
+        }
+      }
+    },
+    {
+      "id": "present",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "II.14; IV.17",
+      "copy": {
+        "ru": {
+          "section": "Время",
+          "title": "Не десять тысяч лет",
+          "body": "<p data-quote-id=\"present\">«Не живи так, точно тебе предстоит еще десять тысяч лет жизни. Уж близок час. Пока живешь, пока есть возможность, старайся стать хорошим.»</p><p class=\"muted\">IV.17 · С. М. Роговин</p><p>В другом месте Марк рассуждает, что ни прошлым, ни будущим человек сейчас не владеет. Потерять он может только проживаемое настоящее. Так мысль о смерти сужает его заботу до того времени, в котором еще возможен поступок. Хорошим нужно стать в этой жизни, а не в воображаемом бесконечном продолжении.</p>"
+        },
+        "en": {
+          "section": "Time",
+          "title": "Not ten thousand years",
+          "body": "<p data-quote-id=\"present\">“Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good.”</p><p class=\"muted\">IV.17 · George Long</p><p>Elsewhere Marcus reasons that neither the past nor the future is now in anyone’s possession. Only the present life can be lost. Death thus brings his attention to the time in which action remains possible. Being good belongs to this life, rather than an imagined endless extension of it.</p>"
+        }
+      },
+      "quotation": {
+        "id": "present",
+        "locator": "IV.17",
+        "ruPdfPage": 116,
+        "ruPrintedSection": "IV.17",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Не живи так, точно тебе предстоит еще десять тысяч лет жизни. Уж близок час. Пока живешь, пока есть возможность, старайся стать хорошим.",
+          "en": "Do not act as if thou wert going to live ten thousand years. Death hangs over thee. While thou livest, while it is in thy power, be good."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "books",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "II.2–3",
+      "copy": {
+        "ru": {
+          "section": "Время",
+          "title": "Отложить книги",
+          "body": "<p>Тот же человек, который благодарит учителя за внимательное чтение, приказывает себе оставить книги и умерить жажду книжного знания. Во второй книге этот приказ стоит рядом с напоминанием о старости, настоящем и неизбежных изменениях мира.</p><p>Он требует от себя уже опереться на принятые основоположения: встретить смерть без ропота, сохранив благодарность богам. Новое чтение не должно бесконечно отодвигать эту работу.</p>"
+        },
+        "en": {
+          "section": "Time",
+          "title": "Putting books aside",
+          "body": "<p>The man who thanks a teacher for careful reading also tells himself to put books aside and abandon his thirst for book learning. In Book II the command accompanies reminders of age, the present, and the world’s inevitable changes.</p><p>He wants to live by the principles he has accepted: to meet death without complaint, grateful to the gods. Further reading must not indefinitely defer that work.</p>"
+        }
+      }
+    },
+    {
+      "id": "refuge",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "IV.3",
+      "copy": {
+        "ru": {
+          "section": "Возвращение к себе",
+          "title": "Уединение, из которого возвращаются",
+          "body": "<p>Марк замечает свое желание укрыться за городом, у моря, в горах. Но доступно ему и другое место:</p><p data-quote-id=\"refuge\">«Ведь самое тихое и безмятежное место, куда человек может удалиться,—это его душа.»</p><p class=\"muted\">IV.3 · С. М. Роговин</p><p>Туда он уносит короткие основоположения, способные восстановить порядок в мыслях. Затем должен вернуться к прежним делам без досады: вспомнить родство с людьми, переменчивость вещей и ничтожность славы. Это уединение завершается возвращением.</p>"
+        },
+        "en": {
+          "section": "Returning inward",
+          "title": "A retreat with a return",
+          "body": "<p>Marcus notices his wish for a retreat in the country, beside the sea, or in the mountains. Another retreat is available:</p><p data-quote-id=\"refuge\">“For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul”</p><p class=\"muted\">IV.3 · George Long</p><p>There he recalls brief principles that can restore order to thought. Then he is to return to his affairs without resentment, remembering human kinship, changing things, and the emptiness of fame. The inward withdrawal leads back into life.</p>"
+        }
+      },
+      "quotation": {
+        "id": "refuge",
+        "locator": "IV.3",
+        "ruPdfPage": 112,
+        "ruPrintedSection": "IV.3",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Ведь самое тихое и безмятежное место, куда человек может удалиться,—это его душа.",
+          "en": "For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul"
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "world-city",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IV.4",
+      "copy": {
+        "ru": {
+          "section": "Общий мир",
+          "title": "От общего разума к общему Граду",
+          "body": "<p>Почему забота о других обязательна? Марк выстраивает цепь: если разум у людей общий, то общ и разум, указывающий, что делать. Значит, есть общий закон; значит, люди — сограждане, а мир подобен Граду.</p><p>Эта мысль связывает внутреннюю работу с отношениями между людьми. Справедливость требует от Марка помнить, что он принадлежит целому, с которым делит свою разумную природу.</p>"
+        },
+        "en": {
+          "section": "A common world",
+          "title": "From shared reason to a common city",
+          "body": "<p>Why does concern for others bind him? Marcus follows a chain: if reason is shared, so is the reason that directs action. There is therefore a common law; people are fellow citizens, and the world resembles a city.</p><p>This connects inward discipline with relations between people. Justice requires Marcus to remember that he belongs to a whole with which he shares his rational nature.</p>"
+        }
+      }
+    },
+    {
+      "id": "living-whole",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IV.40; VII.9",
+      "copy": {
+        "ru": {
+          "section": "Общий мир",
+          "title": "Мир как живое существо",
+          "body": "<p>За этим Градом стоит представление о космосе. Марк предлагает мыслить мир единым живым существом: одна сущность, одна душа, взаимная связь всего возникающего. В другом месте он говорит об одном боге, одном законе и общем разуме.</p><p>Поэтому согласие с природой для него включает отношение к целому миру. Собственные превращения и утраты он пытается понять внутри этого порядка.</p>"
+        },
+        "en": {
+          "section": "A common world",
+          "title": "The world as a living being",
+          "body": "<p>Behind the city stands a conception of the cosmos. Marcus asks himself to regard the universe as one living being, with one substance and soul, its events bound together. Elsewhere he speaks of one god, one law, and shared reason.</p><p>Living according to nature therefore concerns his relation to the whole world. He tries to understand his own changes and losses within that order.</p>"
+        }
+      }
+    },
+    {
+      "id": "providence-atoms",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "VI.10; XII.14",
+      "copy": {
+        "ru": {
+          "section": "Общий мир",
+          "title": "А если все-таки атомы?",
+          "body": "<p>Марк снова рассматривает развилку: либо единство, порядок и промысел, либо смешение и рассеяние. В последней книге он различает необходимость, благой промысел и никем не управляемую сумятицу.</p><p>Промыслу он доверяет; перед необходимостью сопротивление тщетно. Но даже в сумятице у него остается руководящий разум. Так он ищет основание для стойкости при разных предположениях об устройстве мира, не объявляя эти предположения одинаковыми.</p>"
+        },
+        "en": {
+          "section": "A common world",
+          "title": "And if there are only atoms?",
+          "body": "<p>Marcus repeatedly considers alternatives: unity, order, and providence, or confusion and dispersion. In the last book he distinguishes necessity, benevolent providence, and disorder without a governor.</p><p>He trusts providence; resisting necessity is futile. Yet even amid disorder he retains a ruling intelligence. He seeks grounds for steadiness under different accounts of the universe without treating those accounts as identical.</p>"
+        }
+      }
+    },
+    {
+      "id": "bread",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "III.2",
+      "copy": {
+        "ru": {
+          "section": "Вещи",
+          "title": "Трещинки на хлебе",
+          "body": "<p>Принадлежность природе он видит и в малом. Трещины на печеном хлебе не были целью пекаря, но делают хлеб привлекательным. Спелые смоквы лопаются; переспелость придает маслинам особую прелесть.</p><p>Дальше взгляд переходит к склоненным колосьям, львиному лбу, старому лицу. То, что кажется некрасивым само по себе, становится уместным внутри живого целого. В этой записи Марк внимательно смотрит на тот мир, о переменчивости которого постоянно себе напоминает.</p>"
+        },
+        "en": {
+          "section": "Things",
+          "title": "Cracks in bread",
+          "body": "<p>Belonging to nature appears in small things too. A baker did not aim at the cracks in a loaf, yet they make it inviting. Ripe figs split open; olives gain a peculiar beauty near over-ripeness.</p><p>His gaze moves to bent grain, a lion’s brow, and an aged face. Something unattractive in isolation can become fitting within a living whole. Here Marcus looks closely at the world whose transience he keeps recalling.</p>"
+        }
+      }
+    },
+    {
+      "id": "judgment",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "VIII.47",
+      "copy": {
+        "ru": {
+          "section": "Суждение",
+          "title": "Вещь и суждение о ней",
+          "body": "<p data-quote-id=\"judgment\">«Если ты огорчаешься по поводу чего-либо внешнего, то угнетает тебя не сама эта вещь, а твое суждение о ней. Но устранить последнее—в твоей власти.»</p><p class=\"muted\">VIII.47 · С. М. Роговин</p><p>Он продолжает: если огорчает собственное настроение, можно исправить образ мыслей; если дело, которого не делаешь, — попробовать действовать. И только затем он разбирает препятствие, которое сильнее его. Марк ищет, где именно находится причина его состояния и что в происходящем зависит от него.</p>"
+        },
+        "en": {
+          "section": "Judgment",
+          "title": "The thing and the judgment",
+          "body": "<p data-quote-id=\"judgment\">“If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it. And it is in thy power to wipe out this judgment now.”</p><p class=\"muted\">VIII.47 · George Long</p><p>He continues: if the trouble is in his own disposition, he can correct his thinking; if it is an action left undone, he can try to act. Only then does he consider an obstacle stronger than himself. Marcus asks where the distress comes from and what in the situation depends on him.</p>"
+        }
+      },
+      "quotation": {
+        "id": "judgment",
+        "locator": "VIII.47",
+        "ruPdfPage": 196,
+        "ruPrintedSection": "VIII.47",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Если ты огорчаешься по поводу чего-либо внешнего, то угнетает тебя не сама эта вещь, а твое суждение о ней. Но устранить последнее—в твоей власти.",
+          "en": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it. And it is in thy power to wipe out this judgment now."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "robe",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "VI.13",
+      "copy": {
+        "ru": {
+          "section": "Суждение",
+          "title": "Пурпур — крашеная шерсть",
+          "body": "<p>Один из его приемов — снять с вещи престижные названия. Фалернское вино становится соком винограда, пурпурная одежда — шерстью овцы, окрашенной кровью улитки. Роскошная еда оказывается телом рыбы, птицы, поросенка.</p><p>Марк хочет увидеть состав предмета, прежде чем восхищаться им. Особую опасность он видит в тщеславии: оно способно обмануть человека именно тогда, когда тот уверен, что занят чем-то серьезным.</p>"
+        },
+        "en": {
+          "section": "Judgment",
+          "title": "Purple is dyed wool",
+          "body": "<p>One of his methods removes the prestigious names from things. Falernian wine becomes grape juice, a purple robe sheep’s wool dyed with shellfish blood. Luxurious food is the body of a fish, bird, or pig.</p><p>Marcus wants to see what a thing consists of before admiring it. Vanity is especially deceptive: it can mislead someone at precisely the moment he feels sure he is doing important work.</p>"
+        }
+      }
+    },
+    {
+      "id": "rock",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "IV.49",
+      "copy": {
+        "ru": {
+          "section": "Стойкость",
+          "title": "Скала и волны",
+          "body": "<p data-quote-id=\"rock\">«Будь подобен скале: волны беспрестанно разбиваются о нее, она же стоит недвижимо, и вокруг нее стихают взволнованные воды.»</p><p class=\"muted\">IV.49 · С. М. Роговин</p><p>За образом следует вопрос: почему случившееся непременно считать несчастьем? Помешало ли оно быть справедливым, рассудительным, правдивым? Марк переносит внимание с самого удара на способность достойно его встретить. Несломленность он проверяет качеством своих поступков.</p>"
+        },
+        "en": {
+          "section": "Steadiness",
+          "title": "The promontory and the waves",
+          "body": "<p data-quote-id=\"rock\">“Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it.”</p><p class=\"muted\">IV.49 · George Long</p><p>The image is followed by a question: why must the event be called a misfortune? Has it prevented justice, prudence, or truthfulness? Marcus turns from the blow itself to the capacity to bear it nobly. He tests his firmness by the quality of his conduct.</p>"
+        }
+      },
+      "quotation": {
+        "id": "rock",
+        "locator": "IV.49",
+        "ruPdfPage": 125,
+        "ruPrintedSection": "IV.49",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Будь подобен скале: волны беспрестанно разбиваются о нее, она же стоит недвижимо, и вокруг нее стихают взволнованные воды.",
+          "en": "Be like the promontory against which the waves continually break, but it stands firm and tames the fury of the water around it."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "hindrance",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "V.20",
+      "copy": {
+        "ru": {
+          "section": "Действие",
+          "title": "То, что встало на пути",
+          "body": "<p>Другой человек может помешать делу. Марк признает это, но различает сорванное действие и намерение, способное найти себе другое применение:</p><p data-quote-id=\"hindrance\">«то, что было препоной для данного действия, становится средством для другого действия, а то, что стояло на пути, само указует путь»</p><p class=\"muted\">V.20 · С. М. Роговин</p><p>Обязанность делать людям добро остается. Меняется доступное действие: помеха становится материалом для разумного ответа. В этом рассуждении нет обещания получить прежний результат любой ценой.</p>"
+        },
+        "en": {
+          "section": "Action",
+          "title": "What stands in the way",
+          "body": "<p>Another person may obstruct the work. Marcus acknowledges this, but distinguishes a frustrated action from an intention able to find another use:</p><p data-quote-id=\"hindrance\">“and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road.”</p><p class=\"muted\">V.20 · George Long</p><p>The obligation to do good to people remains. The available action changes: obstruction becomes material for a reasonable response. His argument does not promise the original result at any cost.</p>"
+        }
+      },
+      "quotation": {
+        "id": "hindrance",
+        "locator": "V.20",
+        "ruPdfPage": 140,
+        "ruPrintedSection": "V.20",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "то, что было препоной для данного действия, становится средством для другого действия, а то, что стояло на пути, само указует путь",
+          "en": "and so that which is a hindrance is made a furtherance to an act; and that which is an obstacle on the road helps us on this road."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "reservation",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "VI.50",
+      "copy": {
+        "ru": {
+          "section": "Действие",
+          "title": "Намерение с оговоркой",
+          "body": "<p>В шестой книге оговорка раскрыта точнее. Сначала следует убеждать людей; если справедливость требует, действовать и вопреки их желанию. Но насилие может сделать задуманное невозможным. Тогда помеху можно употребить для проявления другой добродетели.</p><p>Марк напоминает себе: стремление с самого начала было условным. Он намеревался приложить надлежащее усилие в данных обстоятельствах. Требовать невозможного означало бы забыть эту оговорку.</p>"
+        },
+        "en": {
+          "section": "Action",
+          "title": "An intention with a reservation",
+          "body": "<p>Book VI states the reservation more explicitly. First try persuasion; act against others’ wishes if justice requires it. But force may make the intended action impossible. The hindrance can then become an occasion for another virtue.</p><p>Marcus reminds himself that his attempt was conditional from the beginning. He intended an appropriate effort within the circumstances. Demanding the impossible would forget that reservation.</p>"
+        }
+      }
+    },
+    {
+      "id": "caesar",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "VI.30; I.16",
+      "copy": {
+        "ru": {
+          "section": "Власть",
+          "title": "Предостережение императору",
+          "body": "<p data-quote-id=\"caesar\">«Не иди по стопам Цезарей и не позволяй себя увлечь: ведь это бывает.»</p><p class=\"muted\">VI.30 · С. М. Роговин</p><p>Императору приходится напоминать себе о простоте, справедливости, доброжелательности и верности делу. Он обращается к примеру своего приемного отца Антонина: терпеливо выслушивать возражения, не верить клевете, радоваться лучшему предложению. Положение правителя не отменяет того человека, каким его хотела сделать философия.</p>"
+        },
+        "en": {
+          "section": "Power",
+          "title": "A warning to an emperor",
+          "body": "<p data-quote-id=\"caesar\">“Take care that thou art not made into a Caesar, that thou art not dyed with this dye; for such things happen.”</p><p class=\"muted\">VI.30 · George Long</p><p>The emperor must remind himself of simplicity, justice, goodwill, and firmness in proper action. Here he turns to his adoptive father, Antoninus: hearing disagreement patiently, resisting slander, welcoming a better proposal. Being a ruler does not cancel the person philosophy wanted him to become.</p>"
+        }
+      },
+      "quotation": {
+        "id": "caesar",
+        "locator": "VI.30",
+        "ruPdfPage": 155,
+        "ruPrintedSection": "VI.30",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Не иди по стопам Цезарей и не позволяй себя увлечь: ведь это бывает.",
+          "en": "Take care that thou art not made into a Caesar, that thou art not dyed with this dye; for such things happen."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "truth",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "VI.21",
+      "copy": {
+        "ru": {
+          "section": "Суждение",
+          "title": "С радостью изменить мнение",
+          "body": "<p data-quote-id=\"truth\">«Если кто-нибудь может с очевидностью доказать мне, что я неправильно сужу или действую, то я с радостью изменюсь.»</p><p class=\"muted\">VI.21 · С. М. Роговин</p><p>Дальше он объясняет, почему: истина никому не повредила; вредит упорство в заблуждении. Твердость, которой он от себя требует, допускает пересмотр суждения при убедительном доказательстве. Предмет заботы — правильный поступок, а не непогрешимость прежнего решения.</p>"
+        },
+        "en": {
+          "section": "Judgment",
+          "title": "Gladly changing his mind",
+          "body": "<p data-quote-id=\"truth\">“If any man is able to convince me and show me that I do not think or act right, I will gladly change; for I seek the truth, by which no man was ever injured.”</p><p class=\"muted\">VI.21 · George Long</p><p>He goes on to say that remaining in error does harm. The firmness he demands of himself allows a judgment to change when shown to be wrong. What matters is right conduct, rather than protecting the supposed infallibility of an earlier decision.</p>"
+        }
+      },
+      "quotation": {
+        "id": "truth",
+        "locator": "VI.21",
+        "ruPdfPage": 153,
+        "ruPrintedSection": "VI.21",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Если кто-нибудь может с очевидностью доказать мне, что я неправильно сужу или действую, то я с радостью изменюсь.",
+          "en": "If any man is able to convince me and show me that I do not think or act right, I will gladly change; for I seek the truth, by which no man was ever injured."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "hive",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "VI.54; VI.44",
+      "copy": {
+        "ru": {
+          "section": "Люди",
+          "title": "Пчела и улей",
+          "body": "<p data-quote-id=\"hive\">«Не приносящее пользы улью не принесет ее и пчеле»</p><p class=\"muted\">VI.54 · С. М. Роговин</p><p>В другой записи он называет свое отечество дважды: для Антонина это Рим, для человека — мир. Полезным себе он считает лишь полезное этим двум Градам. Так общий разум становится требованием к собственным решениям: личное благо нельзя отделить от сообщества, которому он принадлежит.</p>"
+        },
+        "en": {
+          "section": "People",
+          "title": "The bee and the swarm",
+          "body": "<p data-quote-id=\"hive\">“That which is not good for the swarm, neither is it good for the bee.”</p><p class=\"muted\">VI.54 · George Long</p><p>Elsewhere he names his country twice: for Antoninus it is Rome; for a human being, the world. He counts as useful to himself what benefits those two cities. Shared reason thus makes a demand on his decisions: his good belongs with the community of which he is a member.</p>"
+        }
+      },
+      "quotation": {
+        "id": "hive",
+        "locator": "VI.54",
+        "ruPdfPage": 161,
+        "ruPrintedSection": "VI.54",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Не приносящее пользы улью не принесет ее и пчеле",
+          "en": "That which is not good for the swarm, neither is it good for the bee."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "kinship",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "VII.22",
+      "copy": {
+        "ru": {
+          "section": "Люди",
+          "title": "Любить и заблуждающихся",
+          "body": "<p data-quote-id=\"kinship\">«Человеку свойственно любить и заблуждающихся.»</p><p class=\"muted\">VII.22 · С. М. Роговин</p><p>Он снова подкрепляет это требование доводами. Другой сродни ему; заблуждается по неведению; обоих скоро настигнет смерть. Главное же — чужой проступок не сделал его собственное руководящее начало хуже. Так Марк пытается удержать родство именно в тот момент, когда хочется его разорвать.</p>"
+        },
+        "en": {
+          "section": "People",
+          "title": "Even those who do wrong",
+          "body": "<p data-quote-id=\"kinship\">“It is peculiar to man to love even those who do wrong.”</p><p class=\"muted\">VII.22 · George Long</p><p>Again Marcus supplies reasons for the demand. The other person is his kin, errs through ignorance, and will soon die, as Marcus will. Above all, the wrongdoing has not made Marcus’s own ruling faculty worse. He tries to preserve kinship at the very moment he wants to break it.</p>"
+        }
+      },
+      "quotation": {
+        "id": "kinship",
+        "locator": "VII.22",
+        "ruPdfPage": 172,
+        "ruPrintedSection": "VII.22",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Человеку свойственно любить и заблуждающихся.",
+          "en": "It is peculiar to man to love even those who do wrong."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "gymnasium",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "VI.20",
+      "copy": {
+        "ru": {
+          "section": "Люди",
+          "title": "Случай на упражнении",
+          "body": "<p>Марк берет пример из гимнастических упражнений. Кто-то оцарапал тебя ногтем или ударил головой. Ты остерегаешься его, но не обязан считать его злоумышленником и врагом.</p><p>То же различение он переносит на остальную жизнь. Можно отойти, уберечь себя от новой встречи и при этом не поддерживать подозрение и ненависть. Внимание к опасности остается; вражду он предлагает не прибавлять.</p>"
+        },
+        "en": {
+          "section": "People",
+          "title": "An injury in the gymnasium",
+          "body": "<p>Marcus takes an example from gymnastic exercise. Someone scratches you or strikes you with his head. You guard against him, but need not treat him as treacherous or as an enemy.</p><p>He carries the distinction into the rest of life. It is possible to step aside and avoid another encounter without sustaining suspicion and hatred. Attention to danger remains; he asks himself not to add enmity.</p>"
+        }
+      }
+    },
+    {
+      "id": "teach-or-bear",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "VIII.59; IX.11",
+      "copy": {
+        "ru": {
+          "section": "Люди",
+          "title": "Вразумить или перенести",
+          "body": "<p data-quote-id=\"teach-or-bear\">«Люди рождены друг для друга. Поэтому или вразумляй, или же терпи»</p><p class=\"muted\">VIII.59 · С. М. Роговин</p><p>В другом месте выбор получает пояснение: если можешь, исправь человека наставлением; если не можешь, остается снисхождение. Марк вспоминает, что и боги терпят таких людей и даже помогают им здоровьем, достатком, добрым именем. Чужая ошибка не освобождает его от обязанности выбирать собственное отношение.</p>"
+        },
+        "en": {
+          "section": "People",
+          "title": "Teach or bear with them",
+          "body": "<p data-quote-id=\"teach-or-bear\">“Men exist for the sake of one another. Teach them then, or bear with them.”</p><p class=\"muted\">VIII.59 · George Long</p><p>Elsewhere the choice is explained: correct someone by teaching if possible; otherwise there is indulgence. Marcus recalls that even the gods tolerate such people and grant them health, wealth, and reputation. Another’s error does not release him from choosing his own response.</p>"
+        }
+      },
+      "quotation": {
+        "id": "teach-or-bear",
+        "locator": "VIII.59",
+        "ruPdfPage": 200,
+        "ruPrintedSection": "VIII.59",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Люди рождены друг для друга. Поэтому или вразумляй, или же терпи",
+          "en": "Men exist for the sake of one another. Teach them then, or bear with them."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "anger-nine",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "XI.18, reminders 1–5",
+      "copy": {
+        "ru": {
+          "section": "Гнев",
+          "title": "Прежде чем осудить",
+          "body": "<p>В длинной записи о гневе Марк собирает напоминания. Первое — люди созданы друг для друга, а ему самому поручено ими руководить. Второе — увидеть, как они живут и насколько зависят от своих убеждений. Третье — ошибка происходит по неведению, а справедливое действие вовсе не заслуживает гнева.</p><p>Четвертое обращено к нему: он и сам ошибается, а от некоторых проступков его, возможно, удержали трусость или честолюбие. Пятое еще строже: прежде чем судить другого, нужно многое узнать; он даже не всегда знает, была ли ошибка.</p>"
+        },
+        "en": {
+          "section": "Anger",
+          "title": "Before passing judgment",
+          "body": "<p>In a long entry on anger, Marcus gathers reminders. First, people are made for one another, and he has also been appointed to govern them. Second, consider their daily lives and how strongly their opinions govern them. Third, error comes through ignorance; right action deserves no anger at all.</p><p>The fourth turns back on himself: he too makes mistakes, and cowardice or ambition may have kept him from some faults. The fifth is stricter still: judging another takes knowledge. He may not even know whether an action was wrong.</p>"
+        }
+      }
+    },
+    {
+      "id": "anger-tenth",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "XI.18, reminders 6–10",
+      "copy": {
+        "ru": {
+          "section": "Гнев",
+          "title": "Последствия гнева",
+          "body": "<p>Шестое напоминание — краткость жизни. Седьмое — различие между чужим поступком и своим суждением о нем. Восьмое — последствия гнева часто тяжелее того, что его вызвало. Девятое — сила искренней благожелательности: вразумлять без насмешки, скрытой обиды и желания поразить зрителей.</p><p>К девяти дарам муз Марк прибавляет десятый: ждать, что дурные люди перестанут ошибаться, безумно. А соглашаться, чтобы они вредили другим, и требовать исключения для себя — притязание тирана. Он не оставляет себе такой привилегии.</p>"
+        },
+        "en": {
+          "section": "Anger",
+          "title": "What anger brings",
+          "body": "<p>The sixth reminder is life’s brevity. The seventh distinguishes another’s deed from his own judgment of it. The eighth notes that anger’s consequences can hurt more than the provoking event. The ninth concerns genuine goodwill: correcting someone without mockery, concealed resentment, or a performance for onlookers.</p><p>To nine gifts of the Muses he adds a tenth. Expecting bad people never to err is madness. Accepting their harm to others while demanding an exemption for himself is tyrannical. Marcus allows himself no such privilege.</p>"
+        }
+      }
+    },
+    {
+      "id": "justice-truth",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IX.1",
+      "copy": {
+        "ru": {
+          "section": "Справедливость",
+          "title": "Почему ложь противна природе",
+          "body": "<p>Терпение к людям связано у Марка со строгим требованием к себе. Общая природа создала разумных существ для взаимной помощи; несправедливый поступок идет против ее устройства. Так же и ложь: сознательный обман несправедлив, а невольная ложь обнаруживает небрежение способностью различать истинное и ложное.</p><p>Погоня за удовольствием и бегство от боли тоже опасны: ради них человек может совершить несправедливость. Для Марка это одновременно нравственный и религиозный вопрос — отношение к общей природе.</p>"
+        },
+        "en": {
+          "section": "Justice",
+          "title": "Why lying opposes nature",
+          "body": "<p>Patience toward people accompanies a strict demand on himself. Universal nature made rational beings to help one another; injustice opposes that order. So does lying: deliberate deception is unjust, while an unintended falsehood reveals neglected powers for distinguishing truth from error.</p><p>Pursuing pleasure and fleeing pain are dangerous too: either can lead someone into injustice. For Marcus this is both an ethical and a religious concern, a question of one’s relation to universal nature.</p>"
+        }
+      }
+    },
+    {
+      "id": "what-is-needed",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IV.24",
+      "copy": {
+        "ru": {
+          "section": "Действие",
+          "title": "Немногое — или необходимое?",
+          "body": "<p>Марк приводит совет заниматься немногим ради спокойствия — и поправляет его. Лучше заниматься необходимым: тем, чего требует разум общественного существа, и так, как он требует.</p><p>Лишние речи, поступки и представления отнимают досуг и множат тревогу. Удалять их стоит ради возможности делать должное. Мера деятельности определяется разумом и общей пользой; сама по себе малочисленность дел еще ничего не решает.</p>"
+        },
+        "en": {
+          "section": "Action",
+          "title": "Few things, or necessary things?",
+          "body": "<p>Marcus cites advice to occupy oneself with few things for tranquillity, then revises it. Better to do what is necessary: what the reason of a social being requires, in the way it requires.</p><p>Superfluous speech, actions, and thoughts consume leisure and multiply disturbance. Removing them makes room for what should be done. Reason and social purpose determine the measure of activity; merely having fewer tasks does not settle the question.</p>"
+        }
+      }
+    },
+    {
+      "id": "no-republic",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IX.29",
+      "copy": {
+        "ru": {
+          "section": "Действие",
+          "title": "Не ждать Платонова государства",
+          "body": "<p>Он насмехается над политиками, воображающими себя философами, и приказывает себе делать доступное сейчас. Не следует ждать осуществления Платонова государства; продвижение хотя бы на один шаг тоже имеет значение.</p><p>Но он спрашивает и о цене внешнего успеха: если образ мыслей людей не изменился, что получится, кроме рабства, стонов и притворного повиновения? Даже в государственном деле Марк возвращается к простой и скромной работе философии.</p>"
+        },
+        "en": {
+          "section": "Action",
+          "title": "Without waiting for Plato’s Republic",
+          "body": "<p>He mocks politicians who imagine themselves philosophers and tells himself to do what is possible now. He must not wait for Plato’s Republic; even a small advance matters.</p><p>He also asks what apparent success achieves if people’s opinions remain unchanged. What follows except slavery, groaning, and pretended obedience? Even in public affairs Marcus returns to philosophy’s simple, modest work.</p>"
+        }
+      }
+    },
+    {
+      "id": "fame",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IV.20,33",
+      "copy": {
+        "ru": {
+          "section": "Слава",
+          "title": "Кто будет помнить помнящих?",
+          "body": "<p>Посмертная слава обещает продолжение там, где человека уже нет. Марк перечисляет имена, некогда знаменитые, а теперь нуждающиеся в пояснении. За теми, кто помнит, тоже придет забвение.</p><p>Ценность он переносит на то, что не нуждается в похвале. Изумруд не становится хуже, когда им не восхищаются; справедливость и истина тоже не получают своего достоинства от одобрения. После исчезновения славы остаются основания для правдивой речи и общеполезного дела.</p>"
+        },
+        "en": {
+          "section": "Fame",
+          "title": "Who will remember those who remember?",
+          "body": "<p>Posthumous fame promises continuance where the person is no longer present. Marcus lists names once famous and now needing explanation. Those who remember will also be forgotten.</p><p>He turns toward what needs no praise. An emerald is not worse when nobody admires it; justice and truth do not receive their worth from applause. With fame removed, truthful speech and action for others still have their grounds.</p>"
+        }
+      }
+    },
+    {
+      "id": "view-above",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "VII.48",
+      "copy": {
+        "ru": {
+          "section": "Масштаб",
+          "title": "Сверху — и свадьбы, и похороны",
+          "body": "<p>Марк предлагает взглянуть на земные дела с высоты. Внизу одновременно идут походы и полевые работы, происходят рождения и смерти, шумят суды и рынки, справляются празднества и похороны.</p><p>Множество противоположных занятий образует один мир. Собственная тревога оказывается внутри этой пестроты. Так Марк меняет масштаб взгляда на дела людей, к которым сам принадлежит.</p>"
+        },
+        "en": {
+          "section": "Scale",
+          "title": "Marriages and funerals from above",
+          "body": "<p>Marcus asks himself to look down on earthly affairs from a height. Armies march and fields are worked; people are born and die; courts and markets are noisy; celebrations and funerals take place.</p><p>These contrary activities belong to one world. His own concerns stand within that mixture. Marcus changes the scale from which he sees human affairs, in which he himself participates.</p>"
+        }
+      }
+    },
+    {
+      "id": "grief-prayer",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "IX.40",
+      "copy": {
+        "ru": {
+          "section": "Желание",
+          "title": "О чем он предлагает молиться",
+          "body": "<p>В записи о молитве Марк меняет сам предмет просьбы. Вместо избавления от человека — не нуждаться в избавлении. Вместо обладания желанным — свобода от этого желания. Самый тяжелый пример касается ребенка: вместо просьбы не потерять его он предлагает просить не бояться потери.</p><p>Здесь видно, сколь многого требует его философия. Он не дает гарантии сохранности любимого; ищет свободу от страха и допускает, что боги могут помогать даже в том, что находится в человеческой власти.</p>"
+        },
+        "en": {
+          "section": "Desire",
+          "title": "What he asks prayer to seek",
+          "body": "<p>In an entry on prayer, Marcus changes the object of the request. Instead of release from someone, freedom from needing that release. Instead of possessing what is desired, freedom from the desire. The hardest example concerns a child: instead of asking not to lose him, he asks not to fear the loss.</p><p>The severity of his philosophy is visible here. He gives no guarantee that loved ones will be preserved. He seeks freedom from fear and allows that the gods may help even in what lies within human power.</p>"
+        }
+      }
+    },
+    {
+      "id": "return-after-failure",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "V.9",
+      "copy": {
+        "ru": {
+          "section": "Возвращение",
+          "title": "После неудачи",
+          "body": "<p>Марк допускает, что поступать по верным основоположениям удается не всегда. Он велит себе не падать духом: вернуться и любить то, к чему возвращаешься. Достаточно, чтобы большая часть поступков была достойна человека.</p><p>Возвращение к философии он сравнивает с обращением больного к лекарству. В ней он ищет успокоение и согласие с собственной природой. Требование исправиться сохраняется вместе с признанием неудачи.</p>"
+        },
+        "en": {
+          "section": "Returning",
+          "title": "After falling short",
+          "body": "<p>Marcus allows that acting on right principles does not always succeed. He tells himself not to be discouraged: return, and love what he returns to. He can be content if most of his conduct is worthy of a human being.</p><p>He compares this return to a sick person seeking a remedy. In philosophy he looks for repose and agreement with his own nature. The demand for correction remains alongside the admission of failure.</p>"
+        }
+      }
+    },
+    {
+      "id": "enough-for-now",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "VII.54; VIII.36; IX.6",
+      "copy": {
+        "ru": {
+          "section": "Настоящее",
+          "title": "Что достаточно сейчас",
+          "body": "<p>В нескольких записях он сводит дело к настоящему: проверить суждение, поступить справедливо с теми, кто рядом, принять наличный удел. Восьмая книга добавляет предостережение — не нагружать себя сразу всеми страданиями, которые может принести целая жизнь.</p><p>Нужно рассмотреть именно это, сегодняшнее бремя. Марк снова собирает рассеянное внимание вокруг того, что происходит сейчас и на что он еще может ответить.</p>"
+        },
+        "en": {
+          "section": "The present",
+          "title": "What is enough now",
+          "body": "<p>Several entries bring the work into the present: examine the judgment, act justly toward those nearby, accept the allotted circumstances. Book VIII adds a warning against burdening himself at once with all the troubles a whole lifetime might contain.</p><p>The burden to examine is this present one. Again Marcus gathers his scattered attention around what is happening now and what he can still answer with an action.</p>"
+        }
+      }
+    },
+    {
+      "id": "be-good",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2,
+        3
+      ],
+      "locator": "X.16; I.7; VI.30",
+      "copy": {
+        "ru": {
+          "section": "Поступок",
+          "title": "Пора стать им",
+          "body": "<p data-quote-id=\"be-good\">«Не все же разглагольствовать о том, каким должен быть хороший человек, пора и стать им»</p><p class=\"muted\">X.16 · С. М. Роговин</p><p>Эта резкая строка обращена в ту же сторону, что благодарность Рустику и предостережение против императорского тщеславия. Рассуждение должно дойти до характера и поступка. Марк снова останавливает собственные речи там, где они рискуют стать заменой тому, о чем говорят.</p>"
+        },
+        "en": {
+          "section": "Conduct",
+          "title": "Time to be such",
+          "body": "<p data-quote-id=\"be-good\">“No longer talk at all about the kind of man that a good man ought to be, but be such.”</p><p class=\"muted\">X.16 · George Long</p><p>The abrupt line faces the same way as his thanks to Rusticus and his warning against imperial vanity. Reasoning must reach character and conduct. Once again Marcus interrupts his own talk where it risks substituting for the thing it describes.</p>"
+        }
+      },
+      "quotation": {
+        "id": "be-good",
+        "locator": "X.16",
+        "ruPdfPage": 228,
+        "ruPrintedSection": "X.16",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Не все же разглагольствовать о том, каким должен быть хороший человек, пора и стать им",
+          "en": "No longer talk at all about the kind of man that a good man ought to be, but be such."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      }
+    },
+    {
+      "id": "death",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "III.3; IV.5",
+      "copy": {
+        "ru": {
+          "section": "Смерть",
+          "title": "Плавание окончено",
+          "body": "<p>Думая о смерти, Марк вспоминает врачей, полководцев, философов: знание и власть не сделали их бессмертными. Он сравнивает жизнь с плаванием: корабль достиг гавани, пора сойти.</p><p>Если впереди иная жизнь, боги будут и там. Если бесчувствие — исчезнут страдания и служение телу. В другом месте смерть предстает разложением тех же элементов, которые соединились при рождении. Он перебирает эти основания, чтобы перестать бояться естественного конца.</p>"
+        },
+        "en": {
+          "section": "Death",
+          "title": "The voyage is over",
+          "body": "<p>Thinking of death, Marcus recalls physicians, commanders, and philosophers: knowledge and power did not make them immortal. He compares life to a voyage. The ship has reached harbour; it is time to disembark.</p><p>If another life follows, the gods will be there too. If there is no sensation, suffering and service to the body end. Elsewhere death is the dissolution of elements joined at birth. He considers these grounds for ceasing to fear a natural end.</p>"
+        }
+      }
+    },
+    {
+      "id": "three-acts",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "XII.36 (Rogovin 1914 XII.35)",
+      "copy": {
+        "ru": {
+          "section": "Последняя запись",
+          "title": "Три действия вместо пяти",
+          "body": "<p>Последняя запись строится как спор с уходом. Человек жил в великом Граде; теперь природа, поселившая его там, отпускает его — как распорядитель представления отпускает актера. Но тот возражает: сыграны только три действия, а не пять.</p><p>Ответ: для жизни эти три действия и были целой пьесой. Ее полноту определяет то же начало, которое дало жизнь и теперь прекращает ее. Марк пробует отказаться от требования самому назначать длительность целого.</p>"
+        },
+        "en": {
+          "section": "The final entry",
+          "title": "Three acts instead of five",
+          "body": "<p>The final entry argues with departure. A person has lived in the great city; nature, which admitted him, now releases him, as the official responsible for a performance dismisses an actor. The objection is that only three acts have been played, rather than five.</p><p>The answer is that in life those three acts are the entire drama. Its completeness is determined by the same cause that brought life into being and now ends it. Marcus tries to relinquish the demand to set its whole duration himself.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1,
+        2
+      ],
+      "locator": "XII.36 (Rogovin 1914 XII.35)",
+      "copy": {
+        "ru": {
+          "section": "Наедине с собой",
+          "title": "Уход без вражды",
+          "body": "<p>Последняя запись обращена к уходу из жизни. Природа, поселившая человека в общем Граде, теперь отпускает его. Марк заканчивает напоминанием о том, с каким расположением самому принять этот уход.</p><p data-quote-id=\"final\">«Уйди же из жизни, сохраняя благожелательность, как благожелателен и тот, кто отпускает тебя»</p><p class=\"muted\">XII.36 · С. М. Роговин; в издании 1914: XII.35</p>"
+        },
+        "en": {
+          "section": "To himself",
+          "title": "The closing departure",
+          "body": "<p>The final entry concerns departure from life. Nature, which admitted a person to the common city, now releases him. Marcus closes by reminding himself of the disposition in which to accept that departure.</p><p data-quote-id=\"final\">“Depart then satisfied, for he also who releases thee is satisfied.”</p><p class=\"muted\">XII.36 · George Long; Rogovin 1914: XII.35</p>"
+        }
+      },
+      "quotation": {
+        "id": "final",
+        "locator": "XII.36",
+        "ruPdfPage": 261,
+        "ruPrintedSection": "XII.35",
+        "translators": {
+          "ru": "С. М. Роговин",
+          "en": "George Long"
+        },
+        "text": {
+          "ru": "Уйди же из жизни, сохраняя благожелательность, как благожелателен и тот, кто отпускает тебя",
+          "en": "Depart then satisfied, for he also who releases thee is satisfied."
+        },
+        "scope": "excerpt",
+        "verification": "RU: original 1914 scan visually checked; EN: exact excerpt of numbered Project Gutenberg text; MIT comparison except final (MIT XII truncated); whitespace normalized; RU historical spelling modernized without lexical substitution"
+      },
+      "final": true
+    }
+  ]
+}

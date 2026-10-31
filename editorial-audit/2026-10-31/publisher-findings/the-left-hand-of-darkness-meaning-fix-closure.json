@@ -1,0 +1,45 @@
+{
+  "slug": "the-left-hand-of-darkness",
+  "status": "corrected-awaiting-publisher-validation",
+  "findings": [
+    "LHD-SR-001",
+    "LHD-SR-002",
+    "LHD-SR-003",
+    "LHD-SR-004"
+  ],
+  "changedScreens": [
+    "arrest",
+    "the-prison-truck",
+    "pulefen",
+    "waking-in-the-tent"
+  ],
+  "unrelatedNarrativePairsUnchanged": true,
+  "outerReaderCodePreserved": true,
+  "hashes": {
+    "collector-output/the-left-hand-of-darkness/story-data.json": "414248eaec347483c78255ad2d36d1e3511f600afd574ea7e373866426baf7d0",
+    "collector-output/the-left-hand-of-darkness/the-left-hand-of-darkness.html": "208312983d2af072daf094ab6a2d018813d55fdeabcfbd3b987ea0234c1ed9a4",
+    "collector-output/the-left-hand-of-darkness/sources.md": "050d0f69deb6cbe267b14a7f506fe6cc3beebda7cc24a958a7a53b6ff5f56fea",
+    "collector-output/the-left-hand-of-darkness/QA.md": "a796d7c14cb9a8c47730cb23e048a7b2007056457bf899c7518fad9e24859ceb"
+  },
+  "professionalSourcesChecked": "Targeted professional chapter-guide/reference checks, not fresh primary-novel reading: LitCharts chapter13 (https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-13), summary paragraphs at206,211,232–242; chapter14 (https://www.litcharts.com/lit/the-left-hand-of-darkness/chapter-14), reported conversation255–271; EBSCO TheStory paragraphs on withdrawal, interrogation and rescue. These sources remain identified as guides/references. Parent removes unsupported demand/garment detail, separates interrogation treatment, and restores Estraven's stated political purpose. Nonessential unverified northward transport wording also removed in the alreadychanged arrest pair.",
+  "sourceReadingBoundary": "Targeted professional guides/references, no fresh primary-novel or continuous complete-book claim.",
+  "baseIndependentReview": {
+    "path": "editorial-audit/2026-10-31/reviews/the-left-hand-of-darkness-source-rescue.json",
+    "sha256": "3ca403f73a6a20c955c53266e27b9dbb86869e0460233cf404f95858e24ea75a",
+    "verdict": "REQUIRES-FIXES",
+    "all35PairsAndRoutesRead": true
+  },
+  "sourceMappingChange": {
+    "screen": "waking-in-the-tent",
+    "addedSource": 24,
+    "role": "professional chapter14guide, reported explanation"
+  },
+  "additionalBoundedCorrection": "Removed nonessential unverified northward heading from arrest; retained transport without inventing a replacement direction.",
+  "focusedBrowser": {
+    "status": "passed",
+    "assertions": 36,
+    "cleanedProfile": true,
+    "proof": "publisher-findings/parent-left-hand-fix-browser.json",
+    "scope": "RU320dark/EN1440light, exact4changed title/body, horizontal fit and reachable lastline, no runtime/remote errors"
+  }
+}

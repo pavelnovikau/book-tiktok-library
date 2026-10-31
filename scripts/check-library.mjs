@@ -1,5 +1,7 @@
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -32,6 +34,14 @@ function readJson(filename) {
     fail(`${filename}: ${error.message}`);
     return null;
   }
+}
+
+function walkFiles(directory) {
+  if (!fs.existsSync(directory)) return [];
+  return fs.readdirSync(directory, { withFileTypes: true }).flatMap(entry => {
+    const filename = path.join(directory, entry.name);
+    return entry.isDirectory() ? walkFiles(filename) : [filename];
+  });
 }
 
 const catalogue = readJson('books.json');
@@ -192,6 +202,74 @@ for (const filename of ['manifest.webmanifest', 'sw.js', 'icons/icon-192.png', '
   if (!fs.existsSync(path.join(root, filename))) fail(`${filename} is missing`);
 }
 
+const skillRoot = path.join(root, 'skills', 'book-tiktok');
+const skillFiles = [
+  'SKILL.md',
+  'agents/openai.yaml',
+  'assets/standalone-template.html',
+  'assets/story-data.example.json',
+  'assets/fonts/Geist-Variable.woff2',
+  'assets/fonts/GeistMono-Variable.woff2',
+  'assets/fonts/LICENSE.txt',
+  'references/content-model.md',
+  'references/data-contract.md',
+  'references/html-spec.md',
+  'scripts/build_story.mjs',
+  'scripts/audit_story_html.mjs'
+];
+
+for (const filename of skillFiles) {
+  if (!fs.existsSync(path.join(skillRoot, filename))) fail(`book-tiktok skill is missing ${filename}`);
+}
+
+const skillEntrypoint = path.join(skillRoot, 'SKILL.md');
+if (fs.existsSync(skillEntrypoint)) {
+  const skillText = fs.readFileSync(skillEntrypoint, 'utf8');
+  if (!/^---\s*\nname:\s*book-tiktok\s*\ndescription:/m.test(skillText)) fail('book-tiktok SKILL.md has invalid frontmatter');
+  if (/\/Users\/|\.codex\/skills\/book-tiktok/.test(skillText)) fail('book-tiktok SKILL.md contains a machine-specific path');
+  if (!skillText.includes('<skill-dir>/scripts/build_story.mjs')) fail('book-tiktok SKILL.md is missing its portable builder command');
+}
+
+const skillTreeFiles = walkFiles(skillRoot);
+for (const filename of skillTreeFiles) {
+  const extension = path.extname(filename).toLowerCase();
+  if (!['.md', '.mjs', '.json', '.yaml', '.yml', '.html', '.txt'].includes(extension)) continue;
+  const text = fs.readFileSync(filename, 'utf8');
+  if (/\/Users\/|[A-Za-z]:\\Users\\/.test(text)) fail(`book-tiktok skill contains a machine-specific path: ${path.relative(skillRoot, filename)}`);
+}
+
+if (skillFiles.every(filename => fs.existsSync(path.join(skillRoot, filename)))) {
+  const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), 'book-tiktok-skill-check-'));
+  const output = path.join(tempDir, 'skill-example.html');
+  try {
+    const build = spawnSync(process.execPath, [
+      path.join(skillRoot, 'scripts', 'build_story.mjs'),
+      path.join(skillRoot, 'assets', 'story-data.example.json'),
+      '--out', output
+    ], { cwd: root, encoding: 'utf8' });
+    if (build.status !== 0) {
+      fail(`book-tiktok example build failed: ${(build.stderr || build.stdout || '').trim()}`);
+    } else {
+      const audit = spawnSync(process.execPath, [
+        path.join(skillRoot, 'scripts', 'audit_story_html.mjs'), output,
+        '--min-screens', '1', '--require-bilingual'
+      ], { cwd: root, encoding: 'utf8' });
+      if (audit.status !== 0) {
+        fail(`book-tiktok example audit failed: ${(audit.stderr || audit.stdout || '').trim()}`);
+      } else {
+        try {
+          const report = JSON.parse(audit.stdout);
+          if (report.failures?.length || report.warnings?.length) fail('book-tiktok example audit returned warnings or failures');
+        } catch (error) {
+          fail(`book-tiktok example audit returned invalid JSON: ${error.message}`);
+        }
+      }
+    }
+  } finally {
+    fs.rmSync(tempDir, { recursive: true, force: true });
+  }
+}
+
 if (failures.length) {
   console.error(`Library validation failed (${failures.length}):`);
   for (const failure of failures) console.error(`- ${failure}`);
@@ -199,3 +277,4 @@ if (failures.length) {
 }
 
 console.log(`Library validation passed: ${bookSlugs.size} books, ${sectionIds.size} sections, ${collectionIds.size} collections, ${totalScreens} screens.`);
+console.log('Book TikTok skill validation passed: portable package, example build and audit.');

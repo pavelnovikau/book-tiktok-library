@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "slug": "children-of-captain-grant",
+  "atUtc": "2026-11-01T02:25:34.378469+00:00",
+  "verdict": "PASS-after-root-repair",
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "publicationScope": "Only this exact candidate; no acceptance of other books.",
+  "contentMode": "narrative",
+  "counts": {
+    "essential": 26,
+    "core": 69,
+    "deep": 116
+  },
+  "metrics": {
+    "essential": {
+      "screens": 26,
+      "narrativeScreens": 24,
+      "narrativeWords": {
+        "ru": 2648,
+        "en": 3242
+      },
+      "framingBodyWords": {
+        "ru": 55,
+        "en": 66
+      },
+      "titlesAndSubtitlesWords": {
+        "ru": 76,
+        "en": 103
+      },
+      "titleSubtitleBodyWords": {
+        "ru": 2779,
+        "en": 3411
+      },
+      "narrativeMinutes": {
+        "ru": 14.7111,
+        "en": 14.7364
+      },
+      "builderCeilingMinutes": {
+        "ru": 16,
+        "en": 16
+      }
+    },
+    "core": {
+      "screens": 69,
+      "narrativeScreens": 67,
+      "narrativeWords": {
+        "ru": 7369,
+        "en": 8888
+      },
+      "framingBodyWords": {
+        "ru": 55,
+        "en": 66
+      },
+      "titlesAndSubtitlesWords": {
+        "ru": 195,
+        "en": 262
+      },
+      "titleSubtitleBodyWords": {
+        "ru": 7619,
+        "en": 9216
+      },
+      "narrativeMinutes": {
+        "ru": 40.9389,
+        "en": 40.4
+      },
+      "builderCeilingMinutes": {
+        "ru": 43,
+        "en": 42
+      }
+    },
+    "deep": {
+      "screens": 116,
+      "narrativeScreens": 113,
+      "narrativeWords": {
+        "ru": 12410,
+        "en": 14921
+      },
+      "framingBodyWords": {
+        "ru": 72,
+        "en": 87
+      },
+      "titlesAndSubtitlesWords": {
+        "ru": 326,
+        "en": 441
+      },
+      "titleSubtitleBodyWords": {
+        "ru": 12808,
+        "en": 15449
+      },
+      "narrativeMinutes": {
+        "ru": 68.9444,
+        "en": 67.8227
+      },
+      "builderCeilingMinutes": {
+        "ru": 72,
+        "en": 71
+      }
+    }
+  },
+  "exactContentHashes": {
+    "children-of-captain-grant.html": "9bfa24349d76a981914ecc72c1936ceaa04e0506ce0bef59e6beaba1f4f7614d",
+    "story-data.json": "4d92f8a7728db29382a9d9654024c4f516e9b92ef302912b95916cd4514c1812",
+    "draft-ru.md": "86235a1bc451ac8efe147975a5d7f2526281471b1236f2744b37a0753c835002",
+    "draft-en.md": "f4d17cca08e6ced08c0637415fe4f6b9af386f13b134cec7c769d2604e474818"
+  },
+  "readingLedgerSha256": "cc47c55bd86de14fc9f575777a73db97ef57039e8455d5cd4abcaab0b36c9644",
+  "inputReadySha256": "832739e85e9654297a2fcdb29701546f6f4f7f1e0b706c241d60163de5562b8f",
+  "personalReading": {
+    "originalPairs": 116,
+    "currentPairs": 116,
+    "originalCompleteRuEnRead": true,
+    "allFinalChangedPairsReread": true,
+    "allCoverWarningFinalCopyRead": true,
+    "shorterRouteReadingMethod": "All included prose already read sequentially in Deep; exact continuous 24/67-paragraph prefixes checked mechanically, shared cover/final and each cut boundary read again. No separate second complete rereading of the identical Core prose is claimed.",
+    "essentialContinuousPrefixParagraphs": 24,
+    "coreContinuousPrefixParagraphs": 67,
+    "exactShorterPrefixesVerified": true,
+    "sourcesAndWholeChapterMapRead": true,
+    "complete66ChapterEditionOmissionMapRead": true,
+    "wholePrimaryContinuouslyReadByRoot": false,
+    "selectedPrimaryLineRanges": [
+      [
+        345,
+        685
+      ],
+      [
+        3362,
+        3865
+      ],
+      [
+        4858,
+        5296
+      ],
+      [
+        10663,
+        11055
+      ],
+      [
+        12065,
+        12109
+      ],
+      [
+        12514,
+        12897
+      ],
+      [
+        13480,
+        13552
+      ],
+      [
+        17700,
+        19645
+      ],
+      [
+        15765,
+        15928
+      ],
+      [
+        15960,
+        16239
+      ],
+      [
+        16240,
+        16603
+      ],
+      [
+        17060,
+        17365
+      ],
+      [
+        9370,
+        9564
+      ]
+    ],
+    "selectedFrenchPrimaryRead": [
+      {
+        "url": "https://fr.wikisource.org/wiki/Les_Enfants_du_capitaine_Grant/Partie_1/Chapitre_II",
+        "displayedAndReadLines": [
+          123,
+          242
+        ],
+        "scope": "Selected direct French check: distinct copies, longitude missing, 37degrees11minutes explicitly. No complete French collation."
+      }
+    ]
+  },
+  "primaryWitness": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/primary.txt",
+    "sha256": "df5da6648b41f3e2498e6b048a8aa051932d73b70a9d76596177e5a9eec3e8c1",
+    "edition": "Historical Horne-edited English Gutenberg2083, 66 chapters (26/19/21), not the 70-chapter French original.",
+    "implementationFullReading": "Implementation ledger records all34 bounded chunks of this witness. This remains a writer reading claim, separately hashed; root directly checked selected English passages, including all six final chapters, and one selected French chapter."
+  },
+  "findingsClosed": [
+    {
+      "id": "GR-R01",
+      "screen": "wolves",
+      "issue": "The phrase red wolves of the novel interrupted action with an editorial aside.",
+      "resolution": "Kept aguara/red-wolf wording as narrative description; removed only the metanarrative qualifier in RU/EN. Primary I.XIX checked."
+    },
+    {
+      "id": "GR-R02",
+      "screen": "telegram",
+      "issue": "A second metanarrative aside about nardoo and a redundant evidence reminder interrupted the exhausted journey.",
+      "resolution": "Confirmed actual preparation in II.XIX, then narrated the coarse flour and bread without a recipe. Glenarvan explicitly believes the yacht captured; removed the additional analytical reminder. Final paired paragraph reread."
+    },
+    {
+      "id": "GR-R03",
+      "screen": "father",
+      "issue": "Solitude was substituted for reflection in the hope attributed to Grant.",
+      "resolution": "Restored reflection and repentance from III.XX L19146–19152; removed the redundant future-verification aside. The hope remains the captain’s own."
+    },
+    {
+      "id": "GR-R04",
+      "screen": "arabella",
+      "issue": "The person speaking privately with Arabella before the wedding was left unclear.",
+      "resolution": "Named the major as the speaker, matching III.XXI. Both final language paragraphs reread."
+    }
+  ],
+  "requiredOpenFindings": [],
+  "meaningAssessment": "The search develops through the three damaged messages, the missing longitude, successive interpretations and three distinct journeys. The Andes, Robert’s disappearance and rescue, Thalcave and the wolves, the flood and ombu, the storm and Duncan’s bar passage, the farm/Ayrton trust, Australian warning clues and failed overland journey, the New Zealand shipwreck/captivity/taboo escape, the actual written order and Ayrton’s bargain, the children’s night recognition and the island reunion remain causal action. Mary/John and Helena/Glenarvan relationships, Paganel’s comic errors, Robert’s agency and the major’s suspicion are carried by scenes. No invented modern management lesson is appended. Grant’s colonial ambition and the author’s historical narrative frame are not silently replaced by a modern moral.",
+  "omissions": "The complete66-chapter retention/omission map is retained. Numerous geographical, botanical, zoological, historical and ethnographic digressions, repeated travel description and incidental dialogue are condensed. Every mapped chapter contributing to this chosen English witness is represented, but this is an original condensation, not an unabridged text or a full French collation. Essential/Core are deliberately unfinished continuous openings, explicitly labelled on cover/final; only Deep includes the resolution and coda.",
+  "qa": {
+    "structuralChecks": 69,
+    "exactDraftDataEmbeddedParity": true,
+    "allDefaultFontThemeRoutePositionsAt320And1440": 844,
+    "representativeLanguageThemeFontLayouts": 80,
+    "coldFirstSerifNonzeroScrollPreserved": true,
+    "serifActuallyUnloadedBeforeFirstSelection": true,
+    "realDowngradePaths": 4,
+    "reloadPaths": 3,
+    "simulatedBfcacheAndFinalEntry": true,
+    "actualLegacyId": "paganel-secret",
+    "noRuntimeErrorsOrExternalRequests": true,
+    "ownedChromeCleanup": true,
+    "hardwareSafariPwaTested": false,
+    "freshQaViewports": [
+      [
+        320,
+        568
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "visualInspection": "Root inspected the actual320px English dark Sans action screen and Russian light Serif late action screen. Screens were intentionally captured at the bottom to check the last lines and Next controls."
+  },
+  "limitations": [
+    "Original condensation of the named Horne-edited66-chapter English witness, not an unabridged edition or a published Russian translation.",
+    "Root primary checking was selective. One French chapter was checked directly; no full French70-chapter or modern Russian translation collation.",
+    "Historical and fictional flora, fauna and cultural descriptions are not certified as modern scientific or historical claims.",
+    "Chrome file/offline and viewport emulation, not physical Safari/PWA or native-touch certification."
+  ]
+}

@@ -50,6 +50,7 @@ stages={x['slug']:x['status'] for x in plan['books']}
 for row in status['books']:
     stage=stages[row['slug']]
     if stage=='needs-root-depth-and-source-assessment':stage='awaiting-expanded-work'
+    if stage=='expanded-source-map-incomplete':stage='source-map-incomplete'
     row['maximumDepthStage']=stage;row['rootExpandedTextAccepted']=bool(next(x for x in plan['books'] if x['slug']==row['slug'])['rootAcceptance'])
 status['maximumDepthStages']=dict(collections.Counter(x['maximumDepthStage'] for x in status['books']))
 assert sum(status['maximumDepthStages'].values())==62

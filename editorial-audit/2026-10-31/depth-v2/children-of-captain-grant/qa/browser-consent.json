@@ -1,0 +1,140 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "children-of-captain-grant.html": "75a2e251f1b56d991001e84290db90094b03a40aed5149808a22d7bbdb50f3ed",
+    "story-data.json": "ef6bdad5589dde41b967af271a8630dd3b1b6cb8c5c0b2de1d9a86d3ac610b78"
+  },
+  "lastEvaluate": "Object.keys(localStorage).filter(k=>/consent/i.test(k))",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "pickerCancel": {
+    "open": true,
+    "mode": "essential",
+    "cancelFocused": true
+  },
+  "savedDeep": {
+    "paths": 188,
+    "bad": [],
+    "scope": "BFCache pageshow emulation for every level-3 ID, both languages and lower modes"
+  },
+  "actualDowngrade": [
+    {
+      "lang": "ru",
+      "lower": "essential",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "ru",
+      "lower": "core",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "en",
+      "lower": "essential",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "en",
+      "lower": "core",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    }
+  ],
+  "realReloads": [
+    {
+      "lang": "ru",
+      "mode": "essential",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "ru",
+      "mode": "core",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "en",
+      "mode": "essential",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "en",
+      "mode": "core",
+      "generic": true,
+      "safe": true,
+      "open": true
+    }
+  ],
+  "savedModeReset": {
+    "mode": "essential",
+    "noTitle": true
+  },
+  "explicitEntry": true,
+  "consentEscapeClosed": true,
+  "interactions": {
+    "languageKeepsId": true,
+    "settingsKeepId": true,
+    "settingsKeepScroll": true,
+    "focusOn": true,
+    "focusPaging": true,
+    "focusOff": true,
+    "keyboardBack": true,
+    "syntheticSwipe": true,
+    "restartClears": true
+  },
+  "invalidIdStarts": true,
+  "actualTapFocus": true,
+  "focusChrome": {
+    "header": true,
+    "rail": true,
+    "previous": true,
+    "next": true
+  },
+  "actualPointerSwipe": true,
+  "actualVerticalKeepsScreen": true,
+  "legacyIsolation": {
+    "mode": "essential",
+    "cover": true,
+    "noContinue": true,
+    "theme": "light",
+    "font": "serif"
+  },
+  "deniedStorage": {
+    "asks": true,
+    "deep": true,
+    "theme": true,
+    "font": true
+  },
+  "persistedConsentKeys": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "ownedProcessGroup": 47566,
+  "ownedProfile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/grant-depth-v2-ZckJuf",
+  "profileRemoved": true,
+  "processGroupTerminated": true
+}

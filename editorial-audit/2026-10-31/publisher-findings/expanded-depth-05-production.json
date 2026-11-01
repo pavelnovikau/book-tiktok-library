@@ -1,0 +1,101 @@
+{
+  "atUtc": "2026-11-01T02:00:09.038815+00:00",
+  "merge": "43cb318c047c7a020ac7013143d1a55506f4d933",
+  "head": "8b81bae563a586042592bca0acbc7c24b53c29ef",
+  "singlePostMergeObservation": true,
+  "all69AssetsFreshlyFetched": false,
+  "checks": [
+    {
+      "asset": "white-fang.html",
+      "url": "https://book-tiktok-library.vercel.app/white-fang?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 653194,
+      "sha256": "a44f51b4aab33ca91316f9c7f9af5c4887f27761c29a9721d3441e43bb110c75",
+      "vercelCache": "MISS",
+      "expectedSha256": "a44f51b4aab33ca91316f9c7f9af5c4887f27761c29a9721d3441e43bb110c75",
+      "matches": true
+    },
+    {
+      "asset": "books.json",
+      "url": "https://book-tiktok-library.vercel.app/books.json?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 98793,
+      "sha256": "09f3bd717b74da2845740b35b4f0163e6dd74eabdcb2da513beb123b2834003b",
+      "vercelCache": "MISS",
+      "expectedSha256": "09f3bd717b74da2845740b35b4f0163e6dd74eabdcb2da513beb123b2834003b",
+      "matches": true
+    },
+    {
+      "asset": "index.html",
+      "url": "https://book-tiktok-library.vercel.app/?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 456380,
+      "sha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "vercelCache": "MISS",
+      "expectedSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "matches": true
+    },
+    {
+      "asset": "hard-to-be-a-god.html",
+      "url": "https://book-tiktok-library.vercel.app/hard-to-be-a-god?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 646716,
+      "sha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "vercelCache": "MISS",
+      "expectedSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "matches": true
+    },
+    {
+      "asset": "thinking-fast-and-slow.html",
+      "url": "https://book-tiktok-library.vercel.app/thinking-fast-and-slow?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 716153,
+      "sha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "vercelCache": "MISS",
+      "expectedSha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "matches": true
+    },
+    {
+      "asset": "treasure-island.html",
+      "url": "https://book-tiktok-library.vercel.app/treasure-island?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 664594,
+      "sha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "vercelCache": "MISS",
+      "expectedSha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "matches": true
+    },
+    {
+      "asset": "the-lost-world.html",
+      "url": "https://book-tiktok-library.vercel.app/the-lost-world?verification=white-depth-41-8b81bae",
+      "httpStatus": 200,
+      "bytes": 687072,
+      "sha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "vercelCache": "MISS",
+      "expectedSha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "matches": true
+    },
+    {
+      "asset": "editorial-audit/2026-10-31/depth-v2/white-fang/story-data.json",
+      "url": "https://book-tiktok-library.vercel.app/editorial-audit/2026-10-31/depth-v2/white-fang/story-data.json?verification=white-depth-41-8b81bae",
+      "httpStatus": 404,
+      "bytes": 79,
+      "sha256": "cf37920f7ea5ad3c4e16e070623952213f98cf1a42a4797d2e785af389f66931",
+      "vercelCache": null,
+      "private404": true
+    },
+    {
+      "asset": "collector-output/white-fang/story-data.json",
+      "url": "https://book-tiktok-library.vercel.app/collector-output/white-fang/story-data.json?verification=white-depth-41-8b81bae",
+      "httpStatus": 404,
+      "bytes": 79,
+      "sha256": "2bd57759baedccfe63adc409b3cd9003f49774f6e4302c141b87d2f199649dfd",
+      "vercelCache": null,
+      "private404": true
+    }
+  ],
+  "changedAssetsAndCanariesMatch": true,
+  "catalogueBooksIntended": 58,
+  "catalogueScreensIntended": 2536,
+  "scope": "Fresh exact HTTP hashes for the changed reader/catalogue, unchanged homepage and four previous expanded readers, plus two private404s. Other runtime behavior uses accepted exact-hash local QA; no fresh production browser or physical Safari claim."
+}

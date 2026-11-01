@@ -85,3 +85,15 @@ Dispatch 2026-11-01T05:30:18.944Z: Ten of62 approved expanded versions are perso
 
 
 Current 2026-11-01T06:44:24.004962+00:00: Four Thousand Weeks personally accepted:25/65/87screens;8006RU/9092EN noncover body words; UI Deep47/44minutes. All87RU/EN pairs read, final25Essential and40Core additions with both edges reread, all21revised final pairs read.28actual primary intervals/201paragraphs/24437displayed words; root primary checking selective. Publication pending;10expanded books live. 6 candidates await personal root reading: selfie, mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, akselerando. Behave source gaps remain; all62positions retain individual acceptance.
+
+
+Production 2026-11-01T06:50:38.770143+00:00: Four Thousand Weeks PR47 personally accepted, merged and production-verified: 25 / 65 / 87 screens; 8,006 RU / 9,092 EN body words; Deep UI 47 / 44 minutes. Eleven expanded versions are personally accepted and live; production has 58 books / 2,861 screens. 6 completed candidates await personal reading: selfie, mindfulness, monday-begins-on-saturday, the-body-keeps-the-score, amphibian-man, akselerando. 0 recorded writer assignments; runtime not polled. Behave source gaps remain. All 62 positions retain individual root acceptance.
+
+
+Dispatch 2026-11-01T06:52:23.630766+00:00: Eleven expanded books personally accepted and live. Six completed candidates await personal reading; root has read the first 20 of 128 Selfie RU/EN pairs. One recorded Sol max writer assignment: Huckleberry Finn, after complete-source preflight. Forty-three further positions await expanded work; Behave remains source-incomplete. All 62 positions require individual root acceptance.
+
+
+Completion 2026-11-01T07:41:17.300620+00:00: Eleven expanded books personally accepted and live; seven expanded candidates await root personal reading. Selfie: first20of128RU/EN pairs read. Huckleberry Finn: callback and exact files verified, prose not accepted. Forty-three positions await expanded work; Behave remains source-incomplete. No recorded active writer assignment; runtime not polled.
+
+
+Current 2026-11-01T08:00:54.142273+00:00: Selfie personally accepted, publication pending:49/93/129screens;10644RU/11929EN body words; Deep UI63/58minutes. Root covered all129final bilingual pairs, including30changed/new pairs and all shorter-route transitions, the complete coverage/omission map and65actual primary intervals/452unique paragraphs. Primary root checks remain selective. Eleven expanded versions remain live; production58books/2861screens. 6 candidates await root reading: mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, adventures-of-huckleberry-finn, akselerando. All62positions retain individual root acceptance. Behave source gaps remain; no recorded writer assignment, runtime not polled.

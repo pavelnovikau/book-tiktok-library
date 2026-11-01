@@ -1,7 +1,7 @@
 {
-  "verifiedAtUtc": "2026-11-01T05:27:36.093264+00:00",
+  "verifiedAtUtc": "2026-11-01T06:50:38.770143+00:00",
   "catalogueBooks": 58,
-  "catalogueScreens": 2826,
+  "catalogueScreens": 2861,
   "liveSlugs": [
     "skin-in-the-game",
     "1873",
@@ -187,10 +187,16 @@
     "publisher-findings/expanded-depth-10-merge.json",
     "publisher-findings/expanded-depth-10-production.json",
     "publisher-findings/expanded-depth-10-production-assessment.json",
-    "publisher-findings/expanded-depth-10-receipt.json"
+    "publisher-findings/expanded-depth-10-receipt.json",
+    "publisher-findings/expanded-depth-11-local.json",
+    "publisher-findings/expanded-depth-11-readiness.json",
+    "publisher-findings/expanded-depth-11-review-threads.json",
+    "publisher-findings/expanded-depth-11-merge.json",
+    "publisher-findings/expanded-depth-11-production.json",
+    "publisher-findings/expanded-depth-11-receipt.json"
   ],
-  "scope": "Expanded Essentialism personally accepted and live. Fresh exact HTTP hashes for changed reader/catalogue, homepage and eight earlier accepted expanded books; two private404s. Captain Grant could not be freshly observed due to a TLS handshake timeout; its unchanged local hash matches the prior verified release. Other replacements require individual root reading.",
-  "productionMerge": "34cff4a06af2d6a4cb102b45169a073f9250e396",
+  "scope": "Changed Four Thousand Weeks reader, catalogue and homepage verified by exact HTTP hashes; 13 of 13 attempted public assets match, plus two private404s. Other public content is unchanged locally. Any transport-only unobserved canary remains documented without retry. This is not a fresh observation of all 69 public assets. Other replacements require individual root reading.",
+  "productionMerge": "5070d51ea0d93db5896fdd7bfe112aa1debffac5",
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
   "priorCriterionAcceptedPublished": 57,
@@ -206,10 +212,11 @@
     "why-zebras-dont-get-ulcers",
     "a-guide-to-the-good-life",
     "make-time",
-    "essentialism"
+    "essentialism",
+    "four-thousand-weeks"
   ],
   "rootAcceptedNotYetPublished": [
-    "four-thousand-weeks"
+    "selfie"
   ],
   "changedProductionAssetsVerified": true,
   "unchangedAssetsVerifiedAtPreviousRelease": true

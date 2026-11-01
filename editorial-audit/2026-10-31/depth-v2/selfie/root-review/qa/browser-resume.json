@@ -1,0 +1,74 @@
+{
+  "phase": "resume",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "244d57e58327a7f1e4f4be76e9b44163f44df9acff9d642bcf575c23dfed6414",
+    "selfie.html": "e71a1db37f8af8a2933716c8bad03ac54eb46ecbc46f068228e4e9090a79a349",
+    "root-review/runtime-check.mjs": "f2ae650b41905375ecf47f716e316a2c044ca71029e2be1bd776b2d5df882760"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "legacy": {
+    "language": "en",
+    "mode": "deep",
+    "id": "whose-ideal",
+    "currentLast": null
+  },
+  "deeperResume": [
+    {
+      "l": "ru",
+      "lower": "essential",
+      "explicit": true,
+      "lowerRetained": true,
+      "target": true,
+      "deep": true
+    },
+    {
+      "l": "ru",
+      "lower": "core",
+      "explicit": true,
+      "lowerRetained": true,
+      "target": true,
+      "deep": true
+    },
+    {
+      "l": "en",
+      "lower": "essential",
+      "explicit": true,
+      "lowerRetained": true,
+      "target": true,
+      "deep": true
+    },
+    {
+      "l": "en",
+      "lower": "core",
+      "explicit": true,
+      "lowerRetained": true,
+      "target": true,
+      "deep": true
+    }
+  ],
+  "reload": {
+    "language": true,
+    "depth": true,
+    "cover": true,
+    "theme": true,
+    "font": true,
+    "globalPreferences": true,
+    "target": true
+  },
+  "invalidCurrentId": true,
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

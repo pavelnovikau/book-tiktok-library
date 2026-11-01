@@ -1,3 +1,25 @@
+# Current personal reading queue —2026-11-01
+
+Selfie personally accepted, publication pending:49/93/129screens;10644RU/11929EN body words; Deep UI63/58minutes. Root covered all129final bilingual pairs, including30changed/new pairs and all shorter-route transitions, the complete coverage/omission map and65actual primary intervals/452unique paragraphs. Primary root checks remain selective. Eleven expanded versions remain live; production58books/2861screens. 6 candidates await root reading: mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, adventures-of-huckleberry-finn, akselerando. All62positions retain individual root acceptance. Behave source gaps remain; no recorded writer assignment, runtime not polled.
+
+This block supersedes historical states below.
+
+---
+
+# Current work — 2026-11-01
+
+Eleven expanded books personally accepted and live. Six completed candidates await personal reading; root has read the first 20 of 128 Selfie RU/EN pairs. One recorded Sol max writer assignment: Huckleberry Finn, after complete-source preflight. Forty-three further positions await expanded work; Behave remains source-incomplete. All 62 positions require individual root acceptance.
+
+---
+
+# Current personal reading queue — 2026-11-01
+
+Four Thousand Weeks PR47 personally accepted, merged and production-verified: 25 / 65 / 87 screens; 8,006 RU / 9,092 EN body words; Deep UI 47 / 44 minutes. Eleven expanded versions are personally accepted and live; production has 58 books / 2,861 screens. 6 completed candidates await personal reading: selfie, mindfulness, monday-begins-on-saturday, the-body-keeps-the-score, amphibian-man, akselerando. 0 recorded writer assignments; runtime not polled. Behave source gaps remain. All 62 positions retain individual root acceptance.
+
+This block supersedes historical states below.
+
+---
+
 # Current personal review queue —2026-11-01
 
 Four Thousand Weeks personally accepted:25/65/87screens;8006RU/9092EN noncover body words; UI Deep47/44minutes. All87RU/EN pairs read, final25Essential and40Core additions with both edges reread, all21revised final pairs read.28actual primary intervals/201paragraphs/24437displayed words; root primary checking selective. Publication pending;10expanded books live. 6 candidates await personal root reading: selfie, mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, akselerando. Behave source gaps remain; all62positions retain individual acceptance.

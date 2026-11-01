@@ -1,0 +1,37 @@
+# Editorial implementation record
+
+Verdict: **REBUILD candidate; ready only for root's personal check after the local QA in `QA.md`.** This report grants no publication approval.
+
+The work is confined to this new book directory. No legacy collector, previous ready/review package, root reader, catalogue, shared skill, Git state or public deployment was changed.
+
+## What was compared
+
+All **144 effective root RU/EN screen pairs** and all **51 collector RU/EN screen pairs** were read in bounded displayed chunks. `prior-comparison.json` binds their hashes and reading ranges. The root's cumulative counts are **36/90/144**, with **6,252 RU Deep body words**; the collector's are **25/42/51**, with **2,247 RU Deep body words**. They are different corpora. The brief's old 51-screen reference accurately describes the collector, not the current embedded root. Neither was overwritten.
+
+Both accepted depth pilots were used as implementation/acceptance references. Their length does not accept this book. The complete private 18-chapter main text and both prefaces, rather than the old collector's outline, determined the new argument and omissions.
+
+## Concrete changes
+
+| Previous location | Finding and wording/function | New treatment | Primary location |
+|---|---|---|---|
+| Root `handling-paradox`, `rat-care`; collector `rat-care` | The root's “Книга показывает более сложное объяснение: после возвращения детёныша меняется поведение матери” assigns a specific mediation to the book. The corrected collector already preserves the active-touch comparison. These should not be conflated. | `unit-028` gives separation, sedated-mother contact and simulated licking with the GH result. `unit-096` separately gives early handling/natural-care later-life findings. The extra reunion-care mediation is not invented. | Ch. 6 `011-978544611081-7.txt`; ch. 18 `023-978544611081-19.txt`. The issue is book attribution, not a declaration that a broader scientific mechanism is impossible. |
+| Root `cold-challenge`; collector `infection-questions` | The root uses an explicitly dated 2012 study; that is not labeled a false study here. The short collector largely describes the evidence ladder without the author's full viral-challenge setup. | `unit-040` restores comparable rhinovirus exposure, prior stress assessment, clinical cold, and the nonrandom human-stress boundary. `unit-037`/`unit-039` restore the direction of conditioned suppression and the autoimmune risk with an inadequate brake. | Ch. 8 `013-978544611081-9.txt`; source entry locations in the case map. |
+| Root `memory-inverted-u`, `synaptic-plasticity`, `human-mri`; collector `memory-inverted-u`, `hippocampus-feedback` | Supported conclusions survive, but named cases and their working comparisons are heavily compressed. | `unit-051`–`unit-055` develop H.M., the two hospital stories and blockade, receptor/context effects, distinct plasticity endpoints and human-imaging alternatives. No unlocated twin-study design is attributed to this RU main text. | Ch. 10 `015-978544611081-11.txt`; note 280 consulted separately. |
+| Root `cancer-study-design`, `positive-thinking-harm`; collector `positive-thinking-harm` | The critique of blaming patients is authorial and worth preserving. By itself it does not convey the surrounding experimental and clinical disagreement. | `unit-042`–`unit-044` separate implanted-tumor progression, spontaneous onset, support-group trials, survival replication and plausible competing routes, before the author's critique of attitude cures. | Ch. 8 `013-978544611081-9.txt`. |
+| Root `monoamine-delay`; collector `depression-real` | A quick-versus-delayed drug effect is named without enough detail on the opposed adaptation explanations. | `unit-071` explains receiving-receptor adaptation versus sending-neuron autoreceptor feedback and why similar initial action could support opposite historical models. | Ch. 14 `019-978544611081-15.txt`, main-text receptor/autoreceptor discussion. These are attributed book-era hypotheses. |
+| Root `dopamine-anticipation`, `reward-uncertainty`, `addiction-wanting`; collector `dopamine-anticipation` | The main distinctions are present, but much of the concrete physiological bridge and experimental work is compressed. | `unit-081`–`unit-085` connect brief/moderate versus prolonged glucocorticoids, self-administration, tickling, cue/effort/reward, withdrawal distress and reinstatement. | Ch. 16 `021-978544611081-17.txt`. |
+| Root `inequality-pathways`; collector `inequality-pathways` | Competing social explanations are mostly named; the nonlinear-averaging objection and different material/cohesion routes are not sustained. | `unit-092`–`unit-095` explain equal means/different distribution, the curved income–health objection, social capital and unequal investment in common services. `unit-089` keeps the actual toilet-break constraint on medication adherence. | Ch. 17 `022-978544611081-18.txt`. |
+| Root `successful-aging`, `flexible-coping`; collector `aging-variation`, `flexible-coping` | Variation and flexibility are stated, with limited room for the contrasting animal/human evidence and intervention endings. | `unit-096`–`unit-106` retain preserved-function rats, the selected Harvard cohort, usable decisions/visits, loss of support, voluntary action, relationship quality, John Henryism and changing controllability. | Ch. 18 `023-978544611081-19.txt`. |
+| Root `final` | “Спрашивайте…” supplies a reader-facing mental-model prompt. The collector's final is already more author-centered but remains brief. | The shared final returns to the book's physiological/social argument and limited hope without adding a coaching exercise or compulsory life lesson. | Ch. 18 conclusion, connected back to ch. 1. |
+
+## Candidate scope
+
+The completed original RU prose comes first; EN corresponds paragraph by paragraph. Segmentation yields **106 reading fragments plus the cover**, not a 144-screen quota. The chapter/argument/case map covers all 18 chapters and **68 grouped case/experiment/illustration records**. These records are not 68 independent replications: their types and evidence limits are explicit.
+
+Essential follows anticipation, communication, organ costs, development, immunity, pain/memory/sleep/aging, experimental appraisal, depression, reward, hierarchy, material constraints and flexible coping. Core adds intermediates and cases. Deep adds the fullest retained experimental detail, objections and qualifications. The map lists every chapter's actual IDs in each route; review exports contain the exact text without UI.
+
+The main text includes five explicitly separate contemporary qualifications. Current clinical information does not replace the author's edition-era argument. Most notes and most cited papers remain unread; the published English wording was not collated. Deliberate omissions and those limits are recorded in `sources.md` and the map.
+
+## Required next acceptance
+
+Root must personally read the complete resulting RU and EN, each cumulative route, compare the full chapter map and omissions with the retained experience, directly check the critical source passages, and record acceptance against the exact candidate hashes. A delegated report, 69 structural passes, browser traversal, a word count or the accepted pilots cannot do that. `ready.json` therefore retains `rootPersonalAcceptance=false` and `publicationAllowed=false`.

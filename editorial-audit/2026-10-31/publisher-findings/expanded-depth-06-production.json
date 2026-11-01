@@ -1,0 +1,95 @@
+{
+  "atUtc": "2026-11-01T02:31:27.564470+00:00",
+  "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/42",
+  "head": "f45afafa787ca2ba6aa9b477c1e4f73ad8bf79c3",
+  "merge": "31de7b228e630e1e34e5787ea5d178f2796db821",
+  "singlePostMergeObservation": true,
+  "publicAssets": [
+    {
+      "name": "children-of-captain-grant.html",
+      "url": "https://book-tiktok-library.vercel.app/children-of-captain-grant?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "9bfa24349d76a981914ecc72c1936ceaa04e0506ce0bef59e6beaba1f4f7614d",
+      "actualSha256": "9bfa24349d76a981914ecc72c1936ceaa04e0506ce0bef59e6beaba1f4f7614d",
+      "matches": true
+    },
+    {
+      "name": "books.json",
+      "url": "https://book-tiktok-library.vercel.app/books.json?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "dc1d7ec051ff25a4cd3448955aa441029dc26d52c6a8ed49734c64dbd1208348",
+      "actualSha256": "dc1d7ec051ff25a4cd3448955aa441029dc26d52c6a8ed49734c64dbd1208348",
+      "matches": true,
+      "catalogueBooks": 58,
+      "catalogueScreens": 2615
+    },
+    {
+      "name": "index.html",
+      "url": "https://book-tiktok-library.vercel.app/?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "actualSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "matches": true
+    },
+    {
+      "name": "hard-to-be-a-god.html",
+      "url": "https://book-tiktok-library.vercel.app/hard-to-be-a-god?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "actualSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "matches": true
+    },
+    {
+      "name": "thinking-fast-and-slow.html",
+      "url": "https://book-tiktok-library.vercel.app/thinking-fast-and-slow?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "actualSha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "matches": true
+    },
+    {
+      "name": "treasure-island.html",
+      "url": "https://book-tiktok-library.vercel.app/treasure-island?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "actualSha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "matches": true
+    },
+    {
+      "name": "the-lost-world.html",
+      "url": "https://book-tiktok-library.vercel.app/the-lost-world?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "actualSha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "matches": true
+    },
+    {
+      "name": "white-fang.html",
+      "url": "https://book-tiktok-library.vercel.app/white-fang?release=f45afafa",
+      "status": 200,
+      "expectedSha256": "a44f51b4aab33ca91316f9c7f9af5c4887f27761c29a9721d3441e43bb110c75",
+      "actualSha256": "a44f51b4aab33ca91316f9c7f9af5c4887f27761c29a9721d3441e43bb110c75",
+      "matches": true
+    }
+  ],
+  "privatePaths": [
+    {
+      "name": "/collector-output/children-of-captain-grant/story-data.json",
+      "url": "https://book-tiktok-library.vercel.app/collector-output/children-of-captain-grant/story-data.json?release=f45afafa",
+      "status": 404,
+      "expectedSha256": null,
+      "matches": true
+    },
+    {
+      "name": "/editorial-audit/2026-10-31/depth-v2/children-of-captain-grant/draft-ru.md",
+      "url": "https://book-tiktok-library.vercel.app/editorial-audit/2026-10-31/depth-v2/children-of-captain-grant/draft-ru.md?release=f45afafa",
+      "status": 404,
+      "expectedSha256": null,
+      "matches": true
+    }
+  ],
+  "changedAssetsAndCanariesMatch": true,
+  "private404sMatch": true,
+  "allCurrentProductionAssetsVerified": false,
+  "scope": "Fresh exact hashes for changed reader/catalogue, unchanged homepage and five earlier root-accepted expanded readers. Other public assets were proved unchanged locally; not freshly fetched in this observation."
+}

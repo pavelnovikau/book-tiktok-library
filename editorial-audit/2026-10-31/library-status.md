@@ -1,14 +1,15 @@
 # Library depth status
 
-Updated 2026-11-01T02:27:19.193535+00:00. Live58books/2536screens;62 approved positions. Grant is personally accepted; publication pending. Zebra, Irvine, Make Time and Essentialism await personal reading. No runtime polling.
+Updated 2026-11-01T03:36:39.291928+00:00.62 approved positions. Six personally accepted expanded books live; Zebra accepted, publication pending. Irvine, Make Time, Essentialism, Four Thousand Weeks await reading. Selfie assigned; no runtime polling.
 
 | Current depth stage | Count |
 |---|---:|
-| Awaits expanded work | 51 |
+| Awaits expanded work | 49 |
 | Primary-source coverage incomplete | 1 |
-| Candidate awaits personal root reading | 4 |
-| Personally accepted and live | 5 |
 | Personally accepted; release pending | 1 |
+| Expanded version assigned | 1 |
+| Candidate awaits personal root reading | 4 |
+| Personally accepted and live | 6 |
 
 | Book | Author | Current depth stage |
 |---|---|---|
@@ -16,12 +17,12 @@ Updated 2026-11-01T02:27:19.193535+00:00. Live58books/2536screens;62 approved po
 | Рискуя собственной шкурой | Нассим Николас Талеб | Awaits expanded work |
 | Биология добра и зла | Роберт Сапольски | Primary-source coverage incomplete |
 | Всё решено | Роберт Сапольски | Awaits expanded work |
-| Почему у зебр не бывает инфаркта | Роберт Сапольски | Candidate awaits personal root reading |
-| Селфи | Уилл Сторр | Awaits expanded work |
+| Почему у зебр не бывает инфаркта | Роберт Сапольски | Personally accepted; release pending |
+| Селфи | Уилл Сторр | Expanded version assigned |
 | Эссенциализм | Грег МакКеон | Candidate awaits personal root reading |
 | Искусство войны | Сунь-цзы | Awaits expanded work |
 | Протоколы Хубермана | Эндрю Хуберман | Awaits expanded work |
-| Четыре тысячи недель | Оливер Беркман | Awaits expanded work |
+| Четыре тысячи недель | Оливер Беркман | Candidate awaits personal root reading |
 | Осознанность | Марк Уильямс и Денни Пенман | Awaits expanded work |
 | Радость жизни | Уильям Ирвин | Candidate awaits personal root reading |
 | Дзен и искусство ухода за мотоциклом | Роберт Пирсиг | Awaits expanded work |
@@ -37,7 +38,7 @@ Updated 2026-11-01T02:27:19.193535+00:00. Live58books/2536screens;62 approved po
 | Маленький свободный народец | Терри Пратчетт | Awaits expanded work |
 | Автостопом по галактике | Дуглас Адамс | Awaits expanded work |
 | Проект «Аве Мария» | Энди Вейер | Awaits expanded work |
-| Дети капитана Гранта | Жюль Верн | Personally accepted; release pending |
+| Дети капитана Гранта | Жюль Верн | Personally accepted and live |
 | Белый Клык | Джек Лондон | Personally accepted and live |
 | Два капитана | Вениамин Каверин | Awaits expanded work |
 | Я, робот | Айзек Азимов | Awaits expanded work |

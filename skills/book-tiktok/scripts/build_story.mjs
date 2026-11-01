@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import fs from 'node:fs';
+import {repairReader} from './reader-usability.mjs';
 import { settingsHead, settingsBody, connectSettingsRuntime } from './reader-settings.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -87,7 +88,7 @@ requireLocalized(data.description, 'description');
 
 data.defaultLanguage ||= 'ru';
 data.defaultTheme ||= 'dark';
-data.defaultMode ||= 'essential';
+data.defaultMode = 'deep';
 if (data.contentMode !== undefined && !['narrative', 'explanatory'].includes(data.contentMode)) fail('contentMode must be narrative or explanatory when supplied');
 if (!['ru', 'en'].includes(data.defaultLanguage)) fail('defaultLanguage must be ru or en');
 if (!['light', 'dark'].includes(data.defaultTheme)) fail('defaultTheme must be light or dark');
@@ -246,6 +247,7 @@ const unresolved = template.match(/__[A-Z0-9_]+__/g);
 if (unresolved) fail(`Unresolved template placeholders: ${[...new Set(unresolved)].join(', ')}`);
 
 template = connectSettingsRuntime(template, outputPath);
+template = repairReader(template);
 fs.writeFileSync(outputPath, template);
 
 console.log(JSON.stringify({

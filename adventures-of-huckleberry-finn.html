@@ -185,9 +185,9 @@
   <!-- book-library-pwa:end -->
 <meta name="description" content="Гек, Джим и путь по Миссисипи. Расширенный сокращённый рассказ по роману Марка Твена.">
   <meta name="book-tiktok:schema" content="2">
-  <meta name="book-tiktok:screens" content="159">
+  <meta name="book-tiktok:screens" content="158">
   <meta name="book-tiktok:languages" content="ru,en">
-  <meta name="book-tiktok:modes" content="33,84,159">
+  <meta name="book-tiktok:modes" content="33,84,158">
   <title>Приключения Гекльберри Финна</title>
   <style>
     @font-face {
@@ -1778,13 +1778,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   </dialog>
 
   <!-- candidate-local-deep-guard:v1 -->
-  <dialog id="deepConsentDialog" aria-labelledby="deepConsentTitle" aria-describedby="deepConsentText">
-    <div class="dialog-shell">
-      <header class="dialog-header"><h2 id="deepConsentTitle"></h2></header>
-      <div class="dialog-body"><p id="deepConsentText"></p></div>
-      <footer class="dialog-footer"><button class="button" id="cancelDeep" type="button"></button><button class="button button-primary" id="confirmDeep" type="button"></button></footer>
-    </div>
-  </dialog>
+  <dialog id="readerConsent" aria-labelledby="readerConsentTitle" aria-describedby="readerConsentText"><div class="dialog-card"><header class="dialog-header"><h2 id="readerConsentTitle"></h2></header><div class="dialog-body"><p id="readerConsentText"></p></div><div class="dialog-actions"><button class="button" type="button" id="readerConsentCancel"></button><button class="button button-primary" type="button" id="readerConsentAccept"></button></div></div></dialog>
   <script id="book-tiktok-data" type="application/json">{
   "schemaVersion": 2,
   "slug": "adventures-of-huckleberry-finn",
@@ -1802,7 +1796,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   },
   "defaultLanguage": "ru",
   "defaultTheme": "dark",
-  "defaultMode": "essential",
+  "defaultMode": "deep",
   "contentMode": "narrative",
   "spoilerPolicy": "full-plot-in-deep",
   "targetModes": {
@@ -1859,8 +1853,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     }
   ],
   "media": {},
-  "screens": [
-    {
+  "screens": [{
       "id": "cover",
       "level": 1,
       "type": "cover",
@@ -1879,8 +1872,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "subtitle": "Mark Twain · A condensed retelling"
         }
       }
-    },
-    {
+    },{
       "id": "widow",
       "level": 1,
       "claimType": "book",
@@ -1900,8 +1892,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>There had already been a book about me, the one about Tom Sawyer, and Mr Mark Twain had told the truth in it mostly. Tom and I found the money the robbers had hidden and got six thousand dollars in gold apiece. Judge Thatcher put it out at interest, which gave each of us a dollar a day. The Widow Douglas took me in and set about bringing me up properly. She meant well, but everything happened by a bell: clean clothes, a respectable supper, a bed, lessons. I escaped into my old rags and an empty sugar barrel, until Tom promised I could join his robber gang if I went back and became respectable. For that, I returned.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "heaven",
       "level": 1,
       "claimType": "book",
@@ -1921,8 +1912,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The widow told me about Moses. I was interested until I discovered he had been dead a long time. She would not let me smoke, although she took snuff herself. Her sister, Miss Watson, made me sit straight, taught me letters, and explained where bad people went. I wanted a change of any sort and accidentally said I would like to go there. In the good place, according to her, you spent eternity singing with a harp. I only asked whether Tom would be there. Apparently his chances were poor. That was a comfort: I wanted to stay with him.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "window-night",
       "level": 2,
       "claimType": "book",
@@ -1942,8 +1932,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After the household prayers everyone went away, and I sat by my window with a candle end. An owl called in the woods, the wind seemed to be trying to say something, and I felt too lonely to think of anything cheerful. I brushed a spider off my shoulder into the flame and was frightened by the omen. I turned around, crossed myself, and tied a lock of hair with thread, without knowing whether that helped with this particular misfortune. The house went quiet, and I smoked. At last a twig snapped below and I heard the agreed mewing. I answered, put out the light, and climbed over the shed to Tom.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "hat",
       "level": 2,
       "claimType": "book",
@@ -1963,8 +1952,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We were creeping past the kitchen when I stumbled over a root. Jim, whom Miss Watson held in slavery, was sitting in the doorway. He came to listen and settled against a tree so close that I almost touched his leg. I began itching everywhere, even inside my nose, and could not move. Eventually he snored. Tom wanted a joke: first he suggested tying him up, then settled for hanging his hat on a branch. He left five cents for three candles we took. Afterwards Jim said witches had ridden him around the world, and the coin became a precious charm. His story grew with every telling; people came a long way to hear it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "oath",
       "level": 2,
       "claimType": "book",
@@ -1984,8 +1972,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The other boys assembled in a cave. Tom had made a dreadful oath out of robber books: kill traitors, kill their families too, and keep the secret until death. They nearly excluded me because I had no suitable family for them to murder; my father had been missing for a long time. I almost cried, then offered Miss Watson, and everybody agreed she would do. We pricked our fingers and signed in blood. We would stop carriages, take watches and money, and keep some prisoners for ransom. Nobody quite knew what ransom was, including Tom, but the books required it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ransom",
       "level": 2,
       "claimType": "book",
@@ -2005,8 +1992,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>That produced a long argument about how long to keep prisoners, who would guard them at night, and whether a club might finish the business immediately. Tom insisted on the proper procedure even when nobody understood it. Women must be treated so politely that they fell in love and refused to leave. Ben Rogers feared the cave would fill with captives until there was no room for robbers. Little Tommy fell asleep; when he woke, he wanted his mother, and had to be bribed not to betray us. Sunday was rejected as a sinful day for an attack. I reached home before daylight, covered in grease and clay.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "prayer-hooks",
       "level": 2,
       "claimType": "book",
@@ -2026,8 +2012,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Miss Watson scolded about my clothes. The widow only cleaned them and looked so sad that I wanted to behave better. Prayer did not work properly: I got a fishing line but no hooks, however often I asked. The widow explained spiritual gifts: help others and forget yourself. The advantage for other people was plain enough; mine was harder to see. The sisters seemed to have two different Providences, and I preferred the widow's. About then people said my father had been found drowned. But the body floated on its back, and I was certain drowned men floated differently. By my reasoning it had to be a woman in men's clothes, so I must still expect him back.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "picnic",
       "level": 2,
       "claimType": "book",
@@ -2047,8 +2032,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The gang lasted about a month. We never actually robbed anyone: pigs counted as gold, garden produce as jewels. Once Tom summoned us to attack rich merchants with camels and elephants. We found a Sunday-school picnic instead. We scattered the children but had to abandon our spoils when the teacher intervened. Tom explained the transformation by hostile magicians and referred me to Don Quixote. I suggested getting genies of our own, then found a tin lamp and a ring and rubbed them in the woods until I sweated. The palace I intended to sell never appeared. I continued to believe we had seen an ordinary picnic, and resigned from the gang.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "bootprint",
       "level": 1,
       "claimType": "book",
@@ -2068,8 +2052,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>By winter I could read and write a little and was getting used to school and even the widow's house, though I sometimes slept in the woods for a rest. One morning I spilled salt. Miss Watson stopped me throwing some over my shoulder, and I waited for trouble all through breakfast. In the fresh snow outside the garden fence I found footprints. A cross of big nails marked the left heel, the way my father kept off the devil. I stopped thinking about omens and ran to Judge Thatcher. I asked him to take my money and interest, only please ask no questions: then I would not have to lie.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "hairball",
       "level": 1,
       "claimType": "book",
@@ -2089,8 +2072,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The judge made it a sale of all my property and paid me a dollar. That evening I went for a prediction to Jim, whom Miss Watson held in slavery. He had a hairball from an ox's stomach which he said contained a spirit; without payment it would not speak. I offered a worthless coin and kept my real dollar quiet. Jim said he could improve the coin with a potato, then passed on the answer. My father had not decided whether to stay or leave; I would have troubles and joys. The prediction was long but did not make much clearer. When I went upstairs with my candle, Pap was already sitting in my room.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pap-room",
       "level": 1,
       "claimType": "book",
@@ -2110,8 +2092,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>He watched me through tangled hair: ragged boots with toes sticking out, a face so white it made me sick. Clean clothes infuriated him. He reckoned I had put on airs, learned to read, and now thought myself better than a father who could not. He ordered me to read aloud, knocked the book away, tore up my school reward, and promised a whipping instead. He had never asked the widow to educate me. But money was his main business. News of my fortune had reached him downriver and brought him back. He took my dollar at once, tested it with his teeth, and went for whisky, returning to the window to forbid school again.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "custody",
       "level": 1,
       "claimType": "book",
@@ -2131,8 +2112,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Judge Thatcher would not hand over the money. Pap demanded a lawsuit. The widow and Thatcher tried instead to remove me from his authority, but the new judge did not know him and believed families should remain together. Pap kept his control and threatened to beat me unless I brought more money. I borrowed three dollars. He drank it, paraded through town making a racket with a tin pan, went to jail, and emerged perfectly satisfied: his son still belonged under his orders. Now I attended school partly to spite him, though I had never liked it much before.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "reform",
       "level": 2,
       "claimType": "book",
@@ -2152,8 +2132,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The new judge undertook to reform him. He brought Pap home, fed him, gave him good clothes, and spoke about temperance until everybody cried. Pap complained of being misunderstood, promised a new life, and offered a hand people could now shake without shame. The judge's wife even kissed it. In the night he climbed down from the roof, exchanged his new coat for a jug of ferocious whisky, and returned to the guest bedroom. Towards morning he climbed out again, fell, broke his arm in two places, and nearly froze. After examining the room, the judge admitted he could think of no means of reform short of a shotgun.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cabin",
       "level": 1,
       "claimType": "book",
@@ -2173,8 +2152,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In spring Pap caught me and rowed about three miles upstream to a cabin in the woods on the Illinois shore. He locked the door, kept the key under his head at night, and went off by day to trade fish and game for drink. He drove away the widow's messenger with a gun. I had escaped school, plates, combing, and continual instructions. I could smoke, fish, loaf, and swear. After a couple of months the widow's clean life seemed almost ridiculous. I even liked it here, except that Pap used his stick more and more freely and would not let me out.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "saw",
       "level": 1,
       "claimType": "book",
@@ -2194,8 +2172,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Once he disappeared for three days. Locked inside, I feared he had drowned and nobody would ever open the door. The window was too small, the chimney too narrow, and he left no knives. I searched everywhere and finally found a rusty saw without a handle under the roof. Behind an old blanket nailed to the wall against draughts, I could secretly cut through a bottom log. I worked beneath the table, cleared the sawdust, and listened. His gun in the woods made me hide the tool and put the blanket back quickly. The opening was not finished.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pap-rant",
       "level": 2,
       "claimType": "book",
@@ -2215,8 +2192,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>He brought news of the lawsuit: Thatcher was delaying matters, and the widow might still gain custody. I did not want that respectable life again either. Pap threatened to hide me farther away where nobody could find me. Then he raged against a government that supposedly took his property, his son and money. A free Black professor from Ohio particularly enraged him: educated, well dressed, and allowed to vote at home. Pap demanded that the man be sold and swore never to vote again. During this speech he tripped over a tub, then kicked it so foolishly with his broken boot that he rolled in pain.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "knife",
       "level": 1,
       "claimType": "book",
@@ -2236,8 +2212,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After supper I meant to leave when he got drunk. But he never settled into a proper sleep. A scream woke me to find him fighting invisible snakes and dead people. Then he mistook me for the Angel of Death and chased me with a knife, promising to kill me so I could not come for him again. I slipped out of the jacket he caught and kept dodging until he was exhausted. He lay down by the door with the knife underneath him, intending to rest before killing me. I took down the gun, checked the load, and sat behind a barrel with the muzzle towards him. Time hardly moved until morning.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "canoe",
       "level": 1,
       "claimType": "book",
@@ -2257,8 +2232,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the morning Pap remembered nothing. I explained the gun by a stranger in the night and went to check the fishing lines. The river was rising, carrying bark, branches, and logs, and amongst them came a splendid empty canoe. I swam out and first thought how pleased Pap would be with something worth ten dollars. Then I hid it in an overgrown gully. Now I could escape by water instead of wandering on foot. He never noticed it. When we caught nine logs fastened together, he immediately towed them off to sell, locking me inside. Before his raft had crossed the river, I finished the cut and crawled out.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pig-blood",
       "level": 1,
       "claimType": "book",
@@ -2278,8 +2252,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I carried meal, bacon, coffee, sugar, utensils, blankets, tackle, ammunition, the saw, and the gun to the canoe. I replaced the log and covered the marks and sawdust. But simply disappearing was not enough: Pap and the widow would look for me. His own talk about the night intruder suggested another story. I shot a wild pig, hacked the door with the axe, and let blood run over the earth floor. I dragged a sack of stones from the table to the water and sank it as though it were a body. I stuck my hair to the bloody axe, carried the pig away against my jacket to prevent extra drops, and threw it into the river farther down.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "meal-trail",
       "level": 1,
       "claimType": "book",
@@ -2299,8 +2272,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The robbers needed a separate trail. I cut a hole in the meal sack, carried it towards a reedy lake whose outlet led away from the river, and dropped a whetstone there. Then I tied the hole shut and returned the meal to the canoe. One trail would send them searching the river for my corpse; the other would lead them after murderers by the lake. Nobody need look for me alive. I wished Tom were there to add fancy touches. By dark everything was ready. Under overhanging willows I waited for the moon and dozed, then woke to a steady creak of oars. Pap was rowing soberly upstream along the bank, close enough to touch with the gun.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "island-landing",
       "level": 1,
       "claimType": "book",
@@ -2320,8 +2292,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I pushed off before he saw me and slipped away in the shore's shadow. Near the ferry landing I lay in the bottom amongst drifting logs. Across the water came every word from people I could scarcely distinguish. They joked about the long night, woke a companion, and repeated a successful remark. The sky overhead seemed deeper than ever. Farther down, the dark woods of Jackson's Island rose before me. I passed its head, hid the canoe behind familiar willows, and looked at the town lights three miles away. In the morning I would no longer be there, or that was what they would think. I lay down in the woods to finish sleeping.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cannon",
       "level": 1,
       "claimType": "book",
@@ -2341,8 +2312,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A cannon woke me. A ferry full of people was coming downriver, firing over the water to raise my body. I could not light a cooking fire, and I was hungry. Remembering the loaves with quicksilver used to find drowned people, I caught one, shook out the quicksilver, and ate the white baker's bread. Perhaps the widow or a preacher had prayed it would find me. It had, though not as they expected. The ferry came almost against my log. Pap, Thatcher, Tom, his family, and other familiar people were aboard. Another blast deafened me and covered me with smoke, but they did not see me.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ashes",
       "level": 2,
       "claimType": "book",
@@ -2362,8 +2332,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>When the search went back, I made a camp, caught fish, and lived three days as owner of the island. There was plenty to do in daylight, but evenings were lonely. On the fourth day I found still-warm ashes in the woods. Every stump suddenly looked like a man. I put my things in the canoe, disguised the fire, and spent two hours up a tree. On the other shore I heard horses and voices too and had to return. Sleep would not come peacefully. At last I decided to find whoever was hiding here: better see him myself than wait continually for somebody to seize my neck.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "jim-breakfast",
       "level": 1,
       "claimType": "book",
@@ -2383,8 +2352,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Before daylight I found a fire and a man under a blanket. He stretched and showed his face: Jim. I was so glad I sprang from the bushes. He fell on his knees and begged a ghost to leave him alone. I had to prove I was alive. He had only berries, a pipe, and matches and had scarcely eaten for days. I led him to my supplies and caught a catfish while he cooked breakfast. We ate on the grass, and for the first time I was not lonely. I described the cabin and pig. Jim thought even Tom could hardly have made a better plan. Only after I promised secrecy would he explain his own arrival.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "jim-flight",
       "level": 1,
       "claimType": "book",
@@ -2404,8 +2372,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>He had run away. Miss Watson had promised not to sell him to New Orleans, but he overheard her through a door: a trader offered eight hundred dollars, too much to resist. The widow objected, but he did not wait for the rest. He hid by day in shavings beside the river, heard of my death, and at night swam behind a log towards a big raft. Dogs would follow a trail on land; a stolen boat would show his crossing place. A man with a lantern frightened him off the raft, and he had to swim to the island. The confession shocked me, but I kept my promise. People might despise me as an abolitionist for staying quiet; I was not going back anyway.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "jim-rich",
       "level": 2,
       "claimType": "book",
@@ -2425,8 +2392,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After breakfast we discussed signs and how Jim had already been rich. He had lost money on a cow, somebody else's bank, and promised profits that never arrived. Last time he had ten cents left and could not even recover those. A hairy breast, however, foretold fresh riches. And really, he explained, he was rich already: he owned himself and was worth eight hundred dollars. If only he had the money. I listened amongst our supplies and trees. We could not take a conversation like that back into town.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cave-storm",
       "level": 1,
       "claimType": "book",
@@ -2446,8 +2412,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I had found a high ridge on the island and a large cave. I disliked climbing up and down with everything, but Jim insisted: we could hide from people and keep out the rain. We carried up the supplies, hid the canoe, and cooked at the entrance. Soon the woods turned almost blue with darkness. Wind showed the pale undersides of leaves, lightning opened distant trees for an instant, and thunder rolled like empty barrels down endless stairs. Inside it was dry. I asked for more fish and hot corn bread and said I wanted nowhere else. Jim reminded me whose idea it had been.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pine-raft",
       "level": 1,
       "claimType": "book",
@@ -2467,8 +2432,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>For ten or twelve days the water rose. We paddled between trunks in the drowned woods. Hungry little animals crowded fallen trees, and our ridge filled with creatures. At night we gathered what the river brought. Once we caught a section of good pine boards about twelve feet wide, a flat platform standing a little above the water. We hid the raft by the island. It was roomier than the canoe and could carry everything. We did not go after logs in daylight, when people might see us. The river supplied us only in darkness.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "floating-house",
       "level": 2,
       "claimType": "book",
@@ -2488,8 +2452,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Before another dawn a leaning two-storey house floated past. We climbed through an upper window and waited for light. Cards, bottles, masks, and clothes lay inside, with a man in the corner. Jim went first and said he was dead, shot in the back. He told me not to look at the face and covered the body with rags. We collected knives, candles, sewing things, a quilt, women's dresses, and other useful odds and ends. By departure it was broad daylight. Jim had to lie down under the quilt: from a distance people would see his skin and ask questions. I brought the canoe home along the quiet shore.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "snake",
       "level": 2,
       "claimType": "book",
@@ -2509,8 +2472,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I wanted to discuss who had killed the man, but Jim refused: an unburied body could bring trouble. We found eight dollars in an old coat's lining, and I teased him about signs. A few days later I put a dead rattlesnake on his blanket for a joke. By evening I had forgotten. Another snake had curled there and bit his heel. His leg swelled; he drank Pap's whisky and could not walk for four days. I secretly threw the snakes away so he would not discover my part. We blamed an old snakeskin I had touched earlier. I never told him what I had done.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "bonnet",
       "level": 1,
       "claimType": "book",
@@ -2530,8 +2492,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>When the water fell and life grew dull again, I wanted news from town. Jim suggested dressing as a girl: we had a dress salvaged from a floating house. We shortened it, fastened it behind, and added a bonnet. I spent the day practising walking and remembering not to lift the skirt for my trouser pocket. In darkness I crossed towards town. A candle burned in a previously empty cabin, where an unfamiliar woman sat knitting. That suited me: people I knew might recognise my voice, while a newcomer would already have heard everything. I knocked, trying to remember who I was today.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "loftus-news",
       "level": 1,
       "claimType": "book",
@@ -2551,8 +2512,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I called myself Sarah Williams, come from Hookerville to an uncle because my mother was ill. The woman talked about herself, then about my murder. First they suspected Pap, then Jim, who had disappeared that night. They offered two hundred dollars for Pap and three hundred for Jim. Pap had obtained money supposedly to search, drunk with two strangers, and vanished again. The woman thought the runaway might be on Jackson's Island: nobody lived there, and she had seen smoke. Her husband and another man were preparing a boat and gun to search after midnight. I took a needle to occupy my shaking hands but could not thread it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "loftus-tests",
       "level": 2,
       "claimType": "book",
@@ -2572,8 +2532,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>She watched more closely. I forgot my name and became Mary instead of Sarah, then tried joining them. She asked me to throw a lump of lead at a rat, hold yarn, and catch the weight she dropped into my lap. I closed my knees on it. Then she calmly asked what the boy was really called. I invented a new story about a cruel farmer and a runaway apprentice. She promised secrecy, gave me food, and explained the needle, throwing, and skirt-catching tests. Her name was Judith Loftus. She sympathised with me and offered help, while planning the hunt for Jim as a useful family undertaking.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "island-flight",
       "level": 1,
       "claimType": "book",
@@ -2593,8 +2552,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After leaving I doubled back to my canoe and paddled for the island. In midriver I heard eleven strokes from the clock. At the head of the island I built a large diversionary fire, then hurried to the cave. Jim was asleep. I woke him and ordered him to pack: they were after us. He asked no questions. In half an hour everything we owned was on the hidden raft. We put out the cave fire and showed no candle outside again. I examined the water as far as stars and shadows allowed. Then we slipped silently out of the willow cove, passed the island's foot, and gave ourselves to the current.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "raft-home",
       "level": 1,
       "claimType": "book",
@@ -2614,8 +2572,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The raft moved slowly. We meant to escape in the canoe if danger came, but in our hurry had left the gun, food, and fishing tackle on the raft. We thought of that afterwards. At dawn we tied up by a sandy island of young cottonwoods and hid ourselves with branches. Now we travelled at night and hid by day. Jim built a shelter, raised its floor above steamboat waves, and laid earth inside for a fire. We made a spare steering oar and a pole for the lantern. Downstream boats needed a light to keep them from crushing us. The fifth night revealed St Louis: I had never believed one town could hold so many people.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "food",
       "level": 2,
       "claimType": "book",
@@ -2635,8 +2592,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In villages I bought a little meal and bacon and sometimes took a chicken. Pap called that a good deed and advised taking one whenever possible; I could not remember him ever failing to need the chicken himself. In the mornings I also borrowed produce from gardens. The widow called borrowing a soft word for theft. Jim and I spent a long time deciding who was right and agreed to drop a few foods so we could take the rest with clear consciences. We excluded crabapples, which tasted bad, and persimmons, which would not ripen for months. After that agreement both of us felt easier.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wreck",
       "level": 2,
       "claimType": "book",
@@ -2656,8 +2612,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Below St Louis a night storm broke. A flash showed a steamboat driven onto a rock, with deck, pilothouse, and upper cabins above water. I desperately wanted to look. Jim suggested leaving our good life alone; he feared a watchman and the wreck itself. I argued there was nothing to watch and the captain's room would surely contain expensive cigars. Tom would never miss such an adventure. We tied alongside and crawled over the sloping deck, feeling for the wire stays. A light burned inside, and people were talking. Jim wanted to leave immediately, but I heard somebody beg not to be killed and stayed.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "turner",
       "level": 2,
       "claimType": "book",
@@ -2677,8 +2632,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim Turner lay tied in a cabin while two accomplices argued over him, one with a pistol and the other a lantern. Turner had threatened to inform and demanded more than his share; now their patience was finished. I hid in an upper berth close beside the speakers. Bill wanted to shoot. Jake Packard preferred taking the remaining loot and leaving Turner on the disintegrating boat. He would drown apparently by himself, leaving no murder on their consciences. I crawled back to the bow and suggested Jim set their boat adrift so the sheriff could take them all. But our own raft was gone, broken loose and floated away. We too were stranded on the doomed vessel.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "stolen-boat",
       "level": 2,
       "claimType": "book",
@@ -2698,8 +2652,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Now we needed their boat for ourselves. We felt along the flooded edge, clinging to shutters, until we found it outside the cabins. I was about to jump when Packard came out, followed by Bill. They sat down to leave, then remembered they had not searched their bound companion: he still had money. As soon as both went back, I cut the rope. Jim tumbled after me, and the current carried us past wheel and stern. We did not row and scarcely breathed. Behind us a spark appeared briefly: the robbers had discovered the missing boat and were in the situation they had prepared for Turner.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ferry-help",
       "level": 2,
       "claimType": "book",
@@ -2719,8 +2672,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Once away, I began to pity even them. Who knew whether I might become a murderer myself and want help? I decided to send rescue; they could hang later when their time came. Lightning showed our raft. We transferred the stolen goods, and Jim drifted on, promising a light. I reached a ferry. I told the watchman my family and a certain Miss Hooker were dying on the wreck. He sympathised but immediately asked who would pay. I made her the niece of wealthy Jim Hornback, whom he had already mentioned. Then help became possible at once.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wreck-silence",
       "level": 2,
       "claimType": "book",
@@ -2740,8 +2692,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I waited while the ferry was prepared and felt rather virtuous: the widow would like my trouble for scoundrels. But the broken Walter Scott itself came drifting past, sunk deep. I rowed round it and called softly; nobody answered. The ferry also searched and turned back without the imaginary Miss Hooker. I pulled towards Jim's light and reached him towards dawn. We hid by an island, sank the extra boat, and slept.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "solomon",
       "level": 2,
       "claimType": "book",
@@ -2761,8 +2712,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The goods included clothes, blankets, books, a spyglass, and excellent cigars. I thought we had enjoyed a splendid adventure. Jim wanted no more. Left aboard, he would drown; rescued, he would be returned for a reward to Miss Watson and almost certainly sold South. While we rested I read and described kings, dukes, and their rich lives. Solomon did not impress him. With all those wives, he thought, the house must be so noisy that a boiler factory would be a wiser choice: at least you could shut the factory down.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "half-child",
       "level": 2,
       "claimType": "book",
@@ -2782,8 +2732,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim particularly objected to cutting the disputed baby. He compared it to tearing a dollar: neither half was any use, and the dispute concerned the whole. I explained that he had missed the point. He insisted the point lay deeper: a man with innumerable children would not value one. We moved to other kings, then French. I defended different languages by comparing cows and cats. Jim agreed animals should speak differently, but a Frenchman was a man. I could not answer in a way that made him admit I was right. I decided there was no teaching him to argue and stopped.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cairo-plan",
       "level": 1,
       "claimType": "book",
@@ -2803,8 +2752,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We expected another three nights to bring us to Cairo, at the bottom of Illinois where the Ohio entered the Mississippi. We intended to sell the raft there and take a steamboat up the Ohio to the free states. One night fog approached. I carried the rope ahead in the canoe and fastened it around a young tree on a little island. The raft pulled so hard it uprooted the tree. While I untied my own canoe with shaking hands, Jim vanished into white. I hurried after him and, beyond the island's end, lost all notion of my direction.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "fog",
       "level": 1,
       "claimType": "book",
@@ -2824,8 +2772,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We called, but the sound came from ahead, behind, right, and left. I stopped rowing, seized the paddle again, and swept through currents beside ghostly trees and snags. A large island divided us into different channels. I seemed motionless while banks rushed at me. Our calls disappeared amongst little islands. I thought Jim might have struck a snag and drowned, and lay exhausted in the canoe. When I woke, the fog was gone. I chased dark specks: one was only joined logs; another was at last our raft. It carried rubbish, branches, earth, and a broken oar. Jim slept with his head on his knees.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "dream-prank",
       "level": 1,
       "claimType": "book",
@@ -2845,8 +2792,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>He was as glad to see me as if I had returned from death. I lay under his nose, stretched, and pretended I had never left. What fog? What islands? We had been together all along. At first Jim refused to believe it, then doubted his own memory and decided it had been a remarkably tiring dream. At my request he described it and interpreted the signs. The current meant people, the islands trouble, and the clear broad river ahead the free states. Then it brightened, and I pointed to the branches and broken oar. I wanted to hear what he would say now.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "apology",
       "level": 1,
       "claimType": "book",
@@ -2866,8 +2812,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim looked at the rubbish and then at me. He explained that he had worn himself out calling, thought me dead, and been ready to give thanks endlessly simply to find me alive. I had thought only of making him a fool. The rubbish reminded him of people who humiliated their own friends. He went into the shelter without adding more. I felt so ashamed I could have kissed his feet myself. Still, it took about fifteen minutes to bring myself to apologise to someone I had been taught to consider beneath me. I did apologise and never regretted it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "family-purpose",
       "level": 1,
       "claimType": "book",
@@ -2887,8 +2832,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Every light now looked like Cairo to Jim. He trembled at approaching freedom; I trembled at helping take Miss Watson's property. She had taught me and tried to improve me. I could have reported the runaway and had not. The happier Jim sounded, the hotter my conscience grew. He intended to work, save every cent, buy his wife from a nearby farm, then work with her to buy the children. If their owner refused to sell, they would find someone to help take them away. That horrified me. He meant to steal children from an owner who had never personally harmed me. That was how I reasoned then.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "betrayal",
       "level": 1,
       "claimType": "book",
@@ -2908,8 +2852,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I decided to betray Jim at the first shore light and immediately felt relieved. He helped me into the canoe, put his coat under me, and said his freedom would be my doing. I was his best and now his only friend. Those words weakened my resolve, but I still forced myself to paddle. A boat approached with two armed men. They were looking for five escaped slaves and asked whether the man on our raft was white or Black. I tried to speak the truth I had prepared and could not. I said white and asked them to help my sick father reach land.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "smallpox",
       "level": 1,
       "claimType": "book",
@@ -2929,8 +2872,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They started towards the raft. I thanked them, complained that everyone deserted us, and hesitated when they asked what illness he had. They themselves guessed smallpox and hurried backwards. They advised me to call it fever in the next town so somebody would help, and each floated a twenty-dollar coin on a board. They also reminded me to make money catching runaways. I returned with the gold and a bad conscience again. Giving Jim up would feel bad too: why take trouble to do right when the result was the same? I decided to do whichever was handiest next time. That was my whole explanation of my conduct.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ohio-water",
       "level": 1,
       "claimType": "book",
@@ -2950,8 +2892,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim was not in the shelter. He hid in the water beneath the stern oar with only his nose showing, ready to swim away if they boarded. He had heard everything and praised my trick. With forty dollars we could buy passage to the free states. He spent the day making bundles, preparing to abandon the raft. But the next town's lights were not Cairo. Then we saw high ground, which should not be there. We began to fear we had passed the place in the fog. By daylight we could distinguish clear Ohio water inshore and muddy Mississippi farther out: the joining of the rivers was behind us.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "lost-canoe",
       "level": 1,
       "claimType": "book",
@@ -2971,8 +2912,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The raft could not go upstream. We meant to return by canoe at night, but by evening the canoe had disappeared. We had to continue downriver, hoping to buy another from a raft tied ashore. We would not secretly take somebody else's and invite pursuit. Jim blamed the unlucky snakeskin I had touched back on the island and comforted me that I could not have known its consequences. I wished I had never touched it. Instead of a steamboat up the Ohio we remained on the Mississippi, moving farther south. No suitable little boat appeared. Every hour of current carried us away from the turn for which we had travelled.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "collision",
       "level": 2,
       "claimType": "book",
@@ -2992,8 +2932,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Through a thick night a large steamer came upstream. We lit the lantern and thought she was only frightening us, meaning to shave us as some boats liked doing. But her bow never turned. Furnaces and enormous sides rose above us, bells rang, and somebody yelled. We jumped over opposite sides as she drove through the raft. I dived deep beneath the wheel, surfaced without Jim, and called unanswered. Pushing a board, I swam to the left bank. After walking a little through the dark I came upon a large log house. Dogs surrounded me, howling so loudly that I could only stand still.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "guns-door",
       "level": 2,
       "claimType": "book",
@@ -3013,8 +2952,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A voice from a window asked who I was. I called myself George Jackson, a lone boy fallen off a steamboat. People rose, fetched guns, moved the light away from the windows, and ordered me to approach slowly. Did I know the Shepherdsons? I had never heard of them. The door opened just far enough for my head. Three armed men, an older woman, and two girls waited inside. They inspected me, decided I did not look like a Shepherdson, and checked for weapons. Then everything changed: the lady noticed I was wet and hungry and ordered food. Their son Buck brought his clothes, dragging a gun too.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "buck-name",
       "level": 2,
       "claimType": "book",
@@ -3034,8 +2972,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Buck was about my age and immediately became a friend. He told me of a jay and rabbit, offered a riddle about Moses in darkness, and wanted me to stay forever. At table I invented a sad history of dead and missing relations. The Grangerfords said I could live there as long as I pleased. In the morning I discovered with horror that I had forgotten my name. I bet Buck he could not spell it. He spelled George Jackson; I pretended to be impressed and wrote it down privately. After woods and river, here were a dry bed, good food, and a companion who did not much like dressing up on Sundays either.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "emmeline",
       "level": 2,
       "claimType": "book",
@@ -3055,8 +2992,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The house seemed magnificent: brass by the fireplace, a clock, painted crockery, books, and sound carpets. Their dead daughter Emmeline's drawings hung on the walls, full of sad girls, graves, and letters. Her last girl had six arms: she meant to choose the best position and erase the others but died before deciding. She wrote poetry for almost every death, and the family preserved her room. Sometimes the pictures frightened me, but I liked all the Grangerfords, dead ones too, and tried to read her scrapbook without irritation. It seemed unfair that she had mourned so many and nobody had written about her. I tried making verses myself and could not.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "harney",
       "level": 2,
       "claimType": "book",
@@ -3076,8 +3012,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Colonel Grangerford had a manner that made everyone rise when he appeared. White clothes, a quiet voice, courtesy; when angry he needed only a look. He owned much land and many enslaved people. Every family member had a personal servant, and Jack was assigned to me. The Shepherdsons were equally grand neighbours. Hunting one day, Buck heard a horse, hid, and fired at young Harney Shepherdson. He knocked off the hat, then fled with me through the woods. At home his father objected only to shooting from bushes: he ought to have stepped into the road. Buck's sister Sophia went pale and recovered when she heard Harney was unhurt.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "feud",
       "level": 2,
       "claimType": "book",
@@ -3097,8 +3032,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I asked Buck what Harney had done to him. Nothing: it was the feud. One man killed another, relations killed relations in revenge, until everyone was finished; only it took a while. This had begun perhaps thirty years earlier with a lawsuit, but Buck no longer knew what the suit concerned or who fired first. His own fourteen-year-old cousin had been shot while riding unarmed; the killer was killed soon afterwards. Buck would not let me call their enemies cowards. Shepherdsons were brave, just as Grangerfords were. On Sunday both families sat in church with guns by their knees and afterwards greatly praised the sermon about brotherly love.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "testament",
       "level": 2,
       "claimType": "book",
@@ -3118,8 +3052,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After church Sophia quietly asked me to fetch the Testament she had left behind. A note fell out saying half past two. I put it back. Sophia was so pleased with the book she hugged me and called the paper a bookmark. Later Jack led me into the swamp supposedly to see water moccasins. Jim was asleep in the hiding place. He had swum behind me after the collision but dared not answer for fear strangers would capture him. Enslaved people going to the fields had hidden him where water would defeat the dogs and brought food. Jack had already tried bringing me without naming his purpose: if anything happened, he had never seen us together.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "raft-repair",
       "level": 2,
       "claimType": "book",
@@ -3139,8 +3072,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Our raft survived. One end was damaged and the supplies gone, but local people found it on a snag and hid it in a creek. Jim heard, explained that it was ours, and reminded them that taking a young white gentleman's property could earn a whipping. Then he paid the finders ten cents each and began repairs, buying utensils and provisions. He had not disturbed me until he had something to offer. While I slept in a clean bed and ate at the colonel's, he worked at night and depended on people secretly helping him. Now the raft was almost as good as before. We could leave when it was time. I went back to the house knowing where to reach Jim.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "elopement",
       "level": 2,
       "claimType": "book",
@@ -3160,8 +3092,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At dawn the house was unusually quiet. Buck was gone. Jack told me Sophia had run away with Harney in the night to marry him. The men grabbed weapons; the women rode out to summon relations. I hurried to the landing and climbed a tree. Two young men behind a woodpile were holding off horsemen. I recognised Buck and his cousin Joe. Buck said his father and two brothers had been killed in an ambush. Harney and Sophia had crossed safely, but Buck cried with rage and wished he had shot Harney in the woods. I sat above them and was to warn when the enemies reappeared.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "buck-river",
       "level": 2,
       "claimType": "book",
@@ -3181,8 +3112,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They returned on foot from behind. Both boys, already hurt, jumped into the river while men ran along the bank firing. I felt sick. I did not even want to tell all I saw, because it came back in dreams. I stayed up the tree until dark. I felt responsible: I should have shown the note to the colonel, who could have locked Sophia up. When I descended I found the bodies by the water, dragged them ashore, and covered their faces. At Buck's face I paused and cried. He had been good to me. I never went back to the house but hurried through the woods towards the swamp and raft.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "raft-reunion",
       "level": 2,
       "claimType": "book",
@@ -3202,8 +3132,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At the creek the raft was gone, and I cried out in fear. Jim answered close by. He had only just moved it towards the mouth, waiting for Jack. The latest report said I had been killed. Jim wanted certainty before leaving. Now he hugged me, glad I had returned alive again. I begged him to push off immediately. Only two miles down, in mid-Mississippi, did I feel easier. He produced corn cakes, buttermilk, meat and cabbage; I had eaten nothing since the previous day. Feud and swamp remained ashore, while the raft felt spacious again. We agreed there was no other home like it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "river-dawn",
       "level": 2,
       "claimType": "book",
@@ -3223,8 +3152,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Several days seemed to float by themselves. Before dawn we hid the raft behind young growth, set lines, swam, and sat knee-deep watching the opposite bank brighten. Out of grey emerged woods, rafts, a woodyard cabin. The breeze brought flowers and sometimes dead fish. Far away a man lifted an axe, dropped it, lifted again; only then did the first blow reach us. At night we lay under the stars and debated whether they were made or happened. Jim thought the moon might have laid them as a frog laid eggs. A steamer vanished round a bend, but its waves kept coming long afterwards. The first cabin lights meant it was time to hide.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "two-strangers",
       "level": 2,
       "claimType": "book",
@@ -3244,8 +3172,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>One morning I took a canoe I had found into a cypress creek for berries. Two ragged men burst onto the path and begged escape from pursuers with dogs. I told them to wade first to break the trail, then took them aboard and brought them to the raft. At breakfast we learned they had not known each other before. The younger sold a tartar remover that removed tooth enamel too. The older ran paid temperance meetings until his secret drinking was discovered. Both could perform, doctor, tell fortunes, and undertake anything that did not much resemble work. They decided to combine their trades.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "duke",
       "level": 2,
       "claimType": "book",
@@ -3265,8 +3192,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Soon the younger sighed over his downfall and announced that by birth he was the Duke of Bridgewater, deprived of his inheritance. Respect would comfort him: bows, titles, and service at dinner. We agreed, and Jim waited on him. The older grew gloomy, then disclosed his own secret. He was the lost French heir, son of Louis XVI, his age explained by suffering. Now we must use Majesty, stand until permitted to sit, and serve him first. The duke sulked, but the king persuaded him that sharing a raft made friendship profitable. Jim and I were glad of their reconciliation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "appeasement",
       "level": 2,
       "claimType": "book",
@@ -3286,8 +3212,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I soon understood that they were no king or duke but ordinary frauds. I dared not say so aloud and did not tell Jim either. Pap had taught me that people of this kind were less dangerous when allowed their way without quarrels. For the moment the titles seemed to cost nothing. But we already had masters who must be served first and whose moods required attention. Peace on the raft now depended on both being satisfied. After the quiet nights together it was a different sort of company, and we could not get rid of it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "beds",
       "level": 2,
       "claimType": "book",
@@ -3307,8 +3232,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Our new passengers first wanted to know why we hid by day. I objected: would an escaped slave travel south? I described a poor father, little brother, and move to relatives below New Orleans. Father and brother had supposedly drowned in the collision; Jim was all my property. The duke promised to arrange daylight travel. They took both our beds, the better one going to the king. During a storm they ordered us both on watch. Jim later let me sleep instead of taking my turn. Strange legs filled the shelter, so I lay in the rain. A wave washed me overboard, finally giving Jim a thorough laugh.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pirate",
       "level": 2,
       "claimType": "book",
@@ -3328,8 +3252,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At the next village almost everybody had gone to a large religious gathering in the woods. The duke found an empty printing office; the king and I went to hear preaching. People sang, wept, and crowded the mourners' benches. The king sprang beside the preacher and announced himself as an Indian Ocean pirate wonderfully reformed here. He wanted to return and convert his old companions, though he lacked a cent for the journey. They collected money. Girls asked for a remembrance kiss; householders invited him to stay. He was in a hurry to save pirates. He brought back eighty-seven dollars and seventy-five cents and a jug of whisky stolen from beneath a wagon.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "handbill",
       "level": 2,
       "claimType": "book",
@@ -3349,8 +3272,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The duke earned much less from other people's printing jobs and subscriptions but prepared a special paper for us. It described Jim exactly and offered two hundred dollars: he had supposedly escaped from a plantation below New Orleans. Now we could travel by daylight. With strangers near, we must tie Jim and present him as a captured runaway being taken back for the reward. Chains would look more impressive but conflict with our poverty; rope was right. We praised the invention. The actual danger of capture would be concealed by pretending capture had already happened, and Jim would do the lying bound.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "royal-french",
       "level": 2,
       "claimType": "book",
@@ -3370,8 +3292,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The duke also planned Shakespeare: a fight from Richard III and the balcony scene. He would play Romeo. The king would be Juliet in nightshirt and cap, which should conceal age and beard. There was plenty for royalty to do in our company. Jim tried to hear some French, but Majesty said long American troubles had made him forget his language. Towards morning Jim asked whether we would meet any more kings. These two were plenty, particularly when both got drunk. I did not expect additions either.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "rehearsals",
       "level": 2,
       "claimType": "book",
@@ -3391,8 +3312,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The raft became a stage. The duke demonstrated sighs and calling Romeo without bellowing like a bull. They fenced with wooden swords until the king fell overboard. For an encore they prepared Hamlet. The duke recalled the speech in fragments, pacing and clutching his forehead. Then he let loose so magnificently that I had never seen acting like it. While he taught the king, I learned the speech too. Farther down Arkansas we found a town expecting a circus and country visitors. We hired the courthouse, posted bills with famous actors' names, and wandered the streets while Jim stayed on the raft.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mud-town",
       "level": 2,
       "claimType": "book",
@@ -3412,8 +3332,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The town stood in black mud. Sagging houses rose on stilts; men beneath awnings chewed tobacco and whittled boxes. Sows with piglets lay in the roadway. Dogfights or opportunities to torment animals woke the inhabitants. The river undermined the outer houses. Some were empty, others still occupied with a corner hanging above the water. The town had to retreat inland. Before noon old Boggs arrived on his usual drinking visit. He shouted that he had come to kill Colonel Sherburn. Somebody told me he was the kindest harmless old fool and had threatened people that way for years.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "boggs",
       "level": 2,
       "claimType": "book",
@@ -3433,8 +3352,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Sherburn emerged from his shop, well dressed and entirely calm. Boggs could curse until one, he said, and not a minute later. People tried to coax the drunk away and sent for his daughter. Two friends were already leading him across the street when the colonel called. I saw the raised pistol, the running girl, Boggs lifting his hands to defend himself. Two shots sounded. He fell and his daughter rushed to him. In the drugstore he drew a few more breaths and died. People crowded the window, demanding turns to look. Afterwards one man reenacted the shooting in its exact positions with a cane for a weapon. They treated him for his accuracy. Soon everyone wanted Sherburn hanged.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "sherburn",
       "level": 2,
       "claimType": "book",
@@ -3454,8 +3372,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The mob took clotheslines for ropes and tore down the colonel's fence. Sherburn appeared on his porch roof with a double-barrelled gun and silently looked over them. The noise stopped. Then he spoke contemptuously. They were brave only against the defenceless, at night and behind somebody else. By daylight they would not dare hang an armed man. He called their leader half a man and ordered them away. His words and gun drove the crowd backwards, then scattered it through the streets. I went too; I did not want to stay. No trial of the killer happened before my eyes. I saw people assembled for an execution run from a porch.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "circus",
       "level": 2,
       "claimType": "book",
@@ -3475,8 +3392,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I slipped under the circus canvas to save money. Inside were wonderful riders, brilliant costumes, and the clown's quick replies. A drunk demanding to ride particularly frightened me. At first they refused him; the audience grew angry, and then he was allowed. The horse bolted, he clung to its neck, people howled with laughter, and I shook for his life. Suddenly he rose, stood upright, and began throwing off one suit after another. He was an excellent rider from the company. I thought he had fooled even the ringmaster. Being taken in embarrassed me too, but I still loved watching.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "new-poster",
       "level": 2,
       "claimType": "book",
@@ -3496,8 +3412,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Our evening Shakespeare drew only about twelve people. They laughed in the wrong places, and nearly everyone left before the end; a sleeping boy remained. The duke concluded that lower comedy was required and made new large bills. An unprecedented royal tragedy was promised for three nights, admission now fifty cents. The largest line excluded ladies and children. Now, he thought, the local audience would be interested. The king needed a completely different entrance; the great tragic parts could wait.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "nonesuch",
       "level": 2,
       "claimType": "book",
@@ -3517,8 +3432,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>There was no room left at the first performance. The duke praised the coming tragedy at length and raised the curtain. The king appeared naked on all fours, painted in coloured stripes, and capered about. The audience laughed helplessly and made him repeat it twice. Then the duke announced the end. People jumped up, realising they had been swindled. But one man proposed avoiding disgrace before the rest of town: praise the performance and bring in another audience. Everybody agreed. Next night the hall filled again and the trick was repeated. The receipts became a shared secret amongst people ashamed to explain what they had paid for.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "third-night",
       "level": 2,
       "claimType": "book",
@@ -3538,8 +3452,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Before the third night we hid the raft below town. At the door I recognised returning customers with swollen pockets and bundles. There was a smell of rotten eggs, cabbage, and other things not ordinarily taken to a theatre. The duke paid somebody to watch the entrance briefly, turned a corner, and ordered me to run for the raft. I thought the king would take the punishment alone, but he had long been home under the shelter. We left the audience its provisions and one another. The three nights produced four hundred and sixty-five dollars. Both frauds laughed over their accurate calculation of other people's shame and revenge.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "royal-history",
       "level": 2,
       "claimType": "book",
@@ -3559,8 +3472,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim wondered why kings were such scoundrels. I told him real kings were worse. Henry the Eighth, for instance, threw all the tea in Boston Harbor overboard and wrote a declaration of independence. I had read about kings; ours was almost a saint beside him. Calling our royalty false seemed useless: their conduct was hard to distinguish from what I had read of the real sort. It did not make Jim happier. He would prefer a country without kings altogether. So would I, but these people were travelling with us now and required allowances.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "lizbeth",
       "level": 2,
       "claimType": "book",
@@ -3580,8 +3492,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Towards dawn I woke before Jim called me. He had stood my watch again and now sat with his head down, grieving for his wife and children, little Lizbeth and Johnny. I had noticed him doing that at night when he thought I slept. To my surprise I was beginning to think he missed his people as much as white people did. This time a bang ashore recalled an old incident. Four-year-old Lizbeth had been very ill with scarlet fever. After she recovered he ordered her to close the door. She stood smiling. He repeated it louder, grew angry, decided she was disobedient, and hit her so hard she fell.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "lizbeth-door",
       "level": 2,
       "claimType": "book",
@@ -3601,28 +3512,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A few minutes later he returned to find her in the same place, crying beside the open door. He was ready to be angry again when the wind slammed it behind her. Lizbeth did not flinch. Jim crept up and shouted; she never turned. Then he understood that after the illness his daughter could neither hear nor speak. He caught her in his arms and cried. He asked God's forgiveness but could not forgive himself. I listened on the raft, far from that door and both children. The river kept carrying us south, and telling the story brought back none of the people he missed.\u003c/p>"
         }
       }
-    },
-    {
-      "id": "deep-warning",
-      "level": 3,
-      "claimType": "book",
-      "sources": [
-        1
-      ],
-      "copy": {
-        "ru": {
-          "section": "Продолжение",
-          "title": "Дальше — полная история",
-          "body": "\u003cp>Дальнейший маршрут раскрывает поздние обманы, решения, судьбы героев и последнюю сцену. «Коротко» и «Подробно» заканчиваются раньше. Здесь продолжается вся сохранённая история.\u003c/p>"
-        },
-        "en": {
-          "section": "Continuation",
-          "title": "Ahead: the complete story",
-          "body": "\u003cp>The continuation reveals later deceptions, decisions, the characters’ outcomes and the final scene. Essential and Core stop earlier. The full retained story continues here.\u003c/p>"
-        }
-      }
-    },
-    {
+    },{
       "id": "blue-jim",
       "level": 3,
       "claimType": "book",
@@ -3642,8 +3532,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>When our gentlemen went ashore, Jim stayed tied. If somebody found him alone, the ropes must support the handbill. He complained that lying that way all day was painful and frightening. The duke supplied a replacement: King Lear's costume, a white wig and beard, and dull blue paint over his face and hands. On a board he wrote that this was a sick Arab, harmless unless out of his mind. Jim should leap out and howl at visitors. Jim agreed: it was still better than ropes. We went on, while he waited in the costume, playing a frightening creature from whom strangers would run.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wilks-news",
       "level": 3,
       "claimType": "book",
@@ -3663,8 +3552,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At another town the king put on his new black suit and decided to arrive by steamboat like a proper gentleman. On the way we picked up a young man with carpetbags. He mistook the king for an expected relation of the dead Peter Wilks and volunteered everything. Peter had died yesterday. His brothers Harvey, an English preacher, and William, who could neither hear nor speak, had not arrived. Three daughters of another brother, George, lived here: Mary Jane, Susan, and Joanna. They were orphans supported by Peter. He had left a letter about money in the cellar and division of his property. Pretending to be an unrelated minister, the king asked about relations, business, and family friends down to the smallest detail.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wilks-arrival",
       "level": 3,
       "claimType": "book",
@@ -3684,8 +3572,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We put the young man aboard a large steamer, but my promised ride was cancelled. The king ordered me to fetch the duke and new bags. On an empty shore he repeated the entire story and practised his English accent. The duke would be William. Then we really did board a different steamer and paid heavily to travel a few miles and be put ashore at town. As soon as the king asked about Peter, people knew who had supposedly arrived. He wept on a stranger's shoulder and conveyed the news to the duke with his hands. The duke dropped a bag. Kind people supported them and carried their luggage to the house, comforting brothers who had just invented the relationship.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wilks-grief",
       "level": 3,
       "claimType": "book",
@@ -3705,8 +3592,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The girls waited at the door. Nineteen-year-old Mary Jane embraced the king; the younger ones embraced the duke. They approached the coffin, wept on each other's shoulders, and knelt; the room answered in tears. Watching disgusted me. The king thanked everyone and named close friends to join us at supper as though he knew them from his brother's letters. Every fact, down to familiar dogs' names, had just come from the young man in the canoe. When people sang after his speeches I even felt relieved: the singing at least sounded honest. I served these two and saw how conveniently other people's real grief fitted their false grief.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "gold",
       "level": 3,
       "claimType": "book",
@@ -3726,8 +3612,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The letter gave the girls the house and three thousand dollars in gold, and the brothers another three thousand, the tannery, and other property. The three of us went to the cellar and found the bag. It was four hundred and fifteen dollars short. The king worried less about the loss than the public count: promise six thousand and produce less, and suspicion would follow. The duke proposed supplying the difference from their own takings, then giving everything to the girls. They almost emptied their pockets but could display exactly twenty stacks of three hundred upstairs. Another speech followed: the brothers surrendered their share to the orphans. Everyone wept, thanked and embraced the benefactors, and the gold went back into its bag.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "robinson",
       "level": 3,
       "claimType": "book",
@@ -3747,8 +3632,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Dr Robinson, the dead man's friend, arrived later and bluntly called the king a fraud. Englishmen did not speak like that; names picked up somewhere proved nothing. Guests rushed to protect the sensitive relation. The doctor begged Mary Jane to resist, but she lifted the bag and handed the king all six thousand to invest without a receipt. That was her answer to suspicion. People applauded. The doctor left warning that the memory of this day would make them sick. I watched the money just given away return of its own accord to the hands that had given it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "joanna",
       "level": 3,
       "claimType": "book",
@@ -3768,8 +3652,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>That evening I ate leftovers in the kitchen with Joanna. She asked about England and immediately noticed inconsistencies. I put the king in church at Sheffield, then explained sea bathing in an inland town by seawater brought in barrels. Forgetting Harvey was a preacher, I seated him in a family pew and had to invent seventeen clergymen serving royalty. My position as a servant forbidden holidays but required at church did not fit either. I pretended to choke on chicken bones to gain thinking time. At last I swore on a book, having noticed it was only a dictionary. Joanna agreed to believe some of it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "kindness",
       "level": 3,
       "claimType": "book",
@@ -3789,8 +3672,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Mary Jane and Susan came in and reproached her: she must not shame a guest far from home. Joanna apologised so beautifully I wanted to hear it again, although I was the one in the wrong. All three tried to show me I was amongst friends. That settled my decision to recover their gold. Telling the doctor was dangerous; he might name me. Telling Mary Jane would show in her face, and the frauds would carry the money away immediately. I meant to steal it, hide it, and write later with its location. Tonight was best, before the doctor frightened them into leaving without the remaining property.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "gowns",
       "level": 3,
       "claimType": "book",
@@ -3810,8 +3692,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Upstairs I heard footsteps and hid behind the curtain amongst Mary Jane's dresses. The duke first looked under the bed; I was glad I had not reached it. He proposed leaving before morning with what they had. The king wanted to sell thousands more in property. The duke objected to stripping orphans of everything. The king explained that the buyers would suffer: once the fraud was known, the girls would recover the property. Young people could earn their living. They agreed to sell. I listened from the dresses, knowing that if they found me an ordinary story might not be enough.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mattress",
       "level": 3,
       "claimType": "book",
@@ -3831,8 +3712,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Then the duke worried about the money's hiding place. The dresses would be put away for mourning, and servants might find the bag. The king reached close beside me and took the gold from behind the curtain. They pushed it through a rip in the straw mattress beneath the feather bed, a place seldom examined. They went downstairs to resume mourning. I pulled out the bag before they reached the bottom, carried it to my garret, and waited for the house to sleep. Outside would be safer: if they discovered the loss, they would search everywhere indoors. I lay dressed, unable to sleep, listening to the stairs.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "coffin-bag",
       "level": 3,
       "claimType": "book",
@@ -3852,8 +3732,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The men watching the body slept in chairs. I came down with the bag, but the front door was locked and the key missing. Footsteps sounded behind me. The coffin was the only hiding place in the parlour. I pushed the money beneath its partly closed lid below the folded hands and hid behind the door. Mary Jane entered, quietly knelt, and cried. I slipped upstairs. Anything might happen now. They could find the gold when closing the coffin and restore it to the king. Or it would remain inside, and the girl must dig up the grave. I no longer knew how to repair my own attempt to help.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "funeral",
       "level": 3,
       "claimType": "book",
@@ -3873,8 +3752,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At the funeral the undertaker placed people silently, seeming to glide along the walls. A tremendous barking in the cellar interrupted the service. He descended; there was a blow, a howl, and silence. Returning, he whispered to the preacher that the dog had caught a rat. People were pleased with the explanation. I watched the screwdriver and lid. The undertaker simply slid it into place and screwed it down without inspecting anything. Peter was buried, and I could only wonder whether the gold was there. Writing to make Mary Jane open an empty coffin frightened me. I studied faces, but they disclosed nothing.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "sold-family",
       "level": 3,
       "claimType": "book",
@@ -3894,8 +3772,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The king announced that his English congregation awaited him. Everything must be sold quickly, and the girls taken home to their relations. England delighted them so much they forgot their grief. But the first transaction sold an enslaved family: two sons went upstream to Memphis, their mother down to New Orleans. Girls and sold people embraced and wept. I felt sick. Only my belief that the sale was invalid and everyone would soon return kept me from exposing the fraud. Townspeople also condemned the separation; the duke was nervous, but the king continued. I had seen no return journey for these people, only comforted myself with a future correction.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "blame",
       "level": 3,
       "claimType": "book",
@@ -3915,8 +3792,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the morning the frauds came to question me. The gold was missing. I denied entering the room, then supplied a useful suggestion: I had seen servants leaving it on the funeral morning. They concluded the sold people had robbed them and wonderfully acted their farewell sorrow. The king blamed my silence; the duke mocked the rapid sale without profit. I was glad to shift suspicion to people already gone, calculating that they could not be reached and would not be hurt. It saved me from interrogation and saved the frauds from thinking of a nearer thief.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mary-truth",
       "level": 3,
       "claimType": "book",
@@ -3936,8 +3812,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Mary Jane packed her trunk and cried over the mother and sons. How could she enjoy England knowing they would never meet again? I could not bear it and blurted that they would, within two weeks. I had to explain how I knew. For once the truth seemed safer than a lie, although saying it still felt like sitting on a powder keg. I locked the door and told her about the false uncles, the young passenger with bags, and everything they had extracted from him. She leapt up demanding their immediate punishment. Then she remembered her promise to follow my request, sat down, and listened.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mary-plan",
       "level": 3,
       "claimType": "book",
@@ -3957,8 +3832,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I explained that the town could help me but exposure now would endanger another person. I did not name Jim. We needed darkness to take the raft away; with only me to answer questions, daylight travel was unsafe. Mary Jane must go to the Lothrops before breakfast because her face would reveal everything. She should return that evening, put a candle in the window, and wait until eleven. If I did not appear, I had escaped and she could summon help. If arrested with the frauds, I needed her protection. For witnesses she should send to Bricksville and name the Royal Nonesuch: an entire town would want to identify the actors.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mary-note",
       "level": 3,
       "claimType": "book",
@@ -3978,8 +3852,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>About the money I admitted stealing it for her but did not know whether it remained where I hid it. I could not say coffin aloud and make her picture the body again, so wrote a note for her journey. She pressed my hand and promised to remember me and pray. I thought that if she knew everything about me she would choose an easier job. I never saw her afterwards but often remembered that promise and her courage. I still expected to reach the candle if I needed protection. For now she had left, and the house remained under the king and duke.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mumps",
       "level": 3,
       "claimType": "book",
@@ -3999,8 +3872,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I explained her absence to her sisters by a visit to sick friends. I invented such contagious complications of mumps that I then had to persuade them into silence or their preacher uncle would delay England for months. I passed on her love too, although Mary Jane had specifically forbidden it. Things seemed settled. The sisters wanted no delay, and the frauds could believe her helping the sale. Towards evening in the square almost everything was sold, even down to a patch of graveyard land. A steamer arrived, and two more men came from the landing. The crowd roared: there were two sets of heirs now, take your choice.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "real-wilks",
       "level": 3,
       "claimType": "book",
@@ -4020,8 +3892,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The real Harvey Wilks explained that his brother had broken an arm and their baggage had mistakenly been put ashore upriver. Proof would arrive later. With extraordinary impudence the king lamented encountering frauds and mocked the convenience of a broken arm for someone required to make signs. Most familiar people still favoured him. But a man called Hines remembered seeing the king in a canoe that morning with young Tim Collins and a boy. He identified me. The doctor proposed taking everyone to the hotel. He held my hand kindly enough but would not let go.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "handwriting",
       "level": 3,
       "claimType": "book",
@@ -4041,8 +3912,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At the hotel they demanded the gold. The king blamed the sold servants, and I supported him. Nobody much believed my England. Lawyer Levi Bell asked both pairs to write and produced old letters. Neither the king's nor the duke's writing matched. But the real Harvey's differed too: William normally copied for him and now could not use his right hand. That did not save the impostors, but it did not settle the dispute. The king called the duke's writing a joke and continued talking. Suppertime had long passed, candles burned, and there was no end to the investigation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "tattoo",
       "level": 3,
       "claimType": "book",
@@ -4062,8 +3932,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Harvey then asked what was tattooed on the dead man's breast. The king briefly paled and invented a small blue arrow. The real brother named the initials P—B—W. Those who had prepared the body remembered neither. People decided everyone was a fraud and proposed drowning or hanging the lot. The lawyer supplied a test: open the grave. They took all four men and me. Hines gripped my wrist. I regretted sending Mary Jane away. Only she could now testify that I had confessed. Our carefully timed delay collapsed, and the darkness ahead grew frightening.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "grave",
       "level": 3,
       "claimType": "book",
@@ -4083,8 +3952,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They brought plenty of shovels to the graveyard and forgot a lantern. Digging continued by lightning through rain and wind. When the lid was unscrewed, a flash exposed the bag of gold. Somebody shouted; Hines surged forward and released my hand. I ran alone along the road and through the storm-empty town. Mary Jane's window was dark at first, then a candle appeared. I felt as though my heart would burst, but I was already passing and could not go back. Nobody needed to hunt blindly for the money now.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pursuit",
       "level": 3,
       "claimType": "book",
@@ -4104,8 +3972,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I found an unchained canoe, paddled to the raft, and called Jim to cast off: we were rid of them. He rushed to embrace me. In the lightning I forgot the blue paint and Lear, frightened myself, and fell into the river. Jim pulled me out, and I postponed embraces until breakfast. We pushed away, alone on the big river again. I even jumped for joy. Then a familiar sound stopped me. Another flash revealed a boat pursuing us, with the king and duke pulling furiously. I sank onto the boards and almost cried. The grave had released more than me.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "collar",
       "level": 3,
       "claimType": "book",
@@ -4125,8 +3992,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The king seized my collar, shook me, and threatened to drown me for running away. I invented a compassionate guard who had released me. I had raced to the raft believing both men already dead. Jim confirmed how pleased we were at their return. The king did not believe us, but the duke intervened. They had not searched for the boy either; why should he search for them? He also explained that the invented arrow had taken everybody to the graveyard and the gold had made the crowd forget its prisoners. Otherwise both would have been jailed until the luggage arrived and exposed them. Their own greed deserved the blame.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "false-confession",
       "level": 3,
       "claimType": "book",
@@ -4146,8 +4012,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Then they remembered the bag and suspected one another. Each admitted planning to take it secretly but denied succeeding. The duke seized the king's throat and forced a confession to something he had never done: hiding the money in the coffin to return alone. I listened with immense relief. The duke also blamed him for allowing innocent servants to be accused, though he had believed that readily himself. At last both drank, reconciled, and slept in each other's arms. Even drunk, the king dared not withdraw his confession. Jim and I could finally talk, and I told him everything. Once again, though, we had failed to lose our passengers.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "failed-trades",
       "level": 3,
       "claimType": "book",
@@ -4167,8 +4032,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>For several days we did not stop. Then the frauds decided danger was behind them. Grey Spanish moss hung along the banks now; home was far away. New trades failed. Temperance, dancing, elocution, and fortune-telling scarcely fed them. They grew gloomy and whispered in the shelter for hours. Jim and I feared something worse and agreed to leave at our first chance. Near Pikesville the king went to investigate the audience and did not return by noon. The duke and I found him drunk in a tavern's back room. They argued, and I raced to the raft, delighted we could now leave forever.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "jim-sold",
       "level": 3,
       "claimType": "book",
@@ -4188,8 +4052,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim did not answer. I searched the woods, shouted, then sat down and cried. A passing boy said the captured runaway was at Silas Phelps's, two miles below. An old stranger had sold his claim to the reward for forty dollars because he supposedly had to hurry upriver. The boy had seen the poster: everything matched, even the plantation below New Orleans. The duke's paper had become real. I imagined Jim spending life enslaved amongst strangers after our whole journey because the king wanted forty dirty dollars. Seeking a way to escape the frauds had ended with me alone.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "letter",
       "level": 3,
       "claimType": "book",
@@ -4209,8 +4072,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I considered writing Tom so Miss Watson could at least bring Jim home. But she might sell him again. At home people would shame him, and despise me for helping a runaway. My conscience pressed harder. I thought God had finally punished my theft of another person's human property and eternal fire lay ahead. I knelt, but no prayer came. My mouth meant to promise reform, while inside I still refused to betray Jim. I decided to write first. I briefly told Miss Watson who held him and how to claim him for the reward, signing my name. Immediately I felt light, as though every sin had washed away.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "torn-letter",
       "level": 3,
       "claimType": "book",
@@ -4230,8 +4092,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Still I postponed praying and remembered the river. Jim at night and in storms, our talk, the extra watches he took so I could sleep; his joy after the fog and in the swamp. I found nothing to harden me against him. Last came his calling me his only friend after the smallpox trick. The paper lay beside me. I took it with a trembling hand, understanding in my own fashion that I must choose forever between saving my soul and this person. I accepted hell and tore up the letter. I would give up reform. First I would steal Jim out of slavery again, and if I found anything worse I would do that too.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "duke-detour",
       "level": 3,
       "claimType": "book",
@@ -4251,8 +4112,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At night I hid the raft by a wooded island. In the morning I left in my store clothes, sank the canoe with stones where I could recover it, and hid my bundle in the woods. I passed Phelps's mill, examined the farm, and went towards town, intending to arrive at the house from the road. There was the duke with a fresh bill. I acted a robbed boy who had spent hours chasing a sheep and returned to lose his only property, Jim. The duke admitted the king's sale, demanded silence, and threatened violence. He nearly named Phelps, then sent me forty miles towards an invented owner to keep me out of sight for three days.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "phelps-road",
       "level": 3,
       "claimType": "book",
@@ -4272,8 +4132,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I pretended to believe him and started in that direction. That was what I needed: permission to leave while he believed me occupied by a distant journey. After a mile I turned through the woods towards Phelps's. The duke feared exposure. I wanted no more dealings with him and hoped to warn Jim to stay quiet until the frauds were gone. The letter no longer existed. The raft waited at the island, the canoe underwater. Now I must find how to reach the man I had come for.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "phelps-yard",
       "level": 3,
       "claimType": "book",
@@ -4293,8 +4152,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Phelps's was hot and empty, with insects droning and somewhere the lonely sound of a spinning wheel. Beyond the fence stood the main house, kitchen, smokehouse, separate cabins, and outbuildings, then cotton fields. The workers had gone. Dogs surrounded me until a woman ran from the kitchen and drove them away with a rolling pin; her children peeped out behind her. The white mistress came running from the house with her own children and embraced me like family. I had not settled who to be, and she already welcomed a long-awaited nephew. I answered yes too quickly and found myself inside somebody else's expectation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "sally",
       "level": 3,
       "claimType": "book",
@@ -4314,8 +4172,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>She told me to call her Aunt Sally and asked what delayed the steamboat. I blamed a broken cylinder-head. Asked whether anyone was hurt, I said nobody, only a Black man killed. For her that meant matters had ended fortunately. She recalled another accident in which somebody really was injured. The conversation continued as if my answer had contained no death. Meanwhile I dreaded questions about my mother and family: I still did not know whom I represented. I was ready to risk the truth when Sally hid me behind the bed to play a joke on her returning husband.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "borrowed-name",
       "level": 3,
       "claimType": "book",
@@ -4335,8 +4192,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Silas arrived worried: again he had not found the nephew at the landing. Sally frightened him further, then pulled me out and called me Tom Sawyer. I nearly fell through the floor with relief. I knew enough about that family and told more in two hours than could have happened to several Sawyer households. But a steamer sounded on the river, bringing a new danger: the real Tom might enter and name me. I offered to fetch my baggage, persuaded Silas not to trouble himself, and drove out. I had to intercept the very person whose name had just saved me.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "tom-agrees",
       "level": 3,
       "claimType": "book",
@@ -4356,8 +4212,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom was in a wagon. At sight of me his mouth opened, and he thought a ghost had come after him. I had to prove once more that nobody had murdered me. He was delighted by the truth and thought the puzzle at his aunt's magnificent. I should take his trunk and return slowly; he would arrive a little later as a stranger. I warned him of something else. Jim was here, and I meant to steal him out of slavery. Tom began to speak, stopped, considered, and agreed to help. I could not believe it. A well-raised, respectable boy with family and reputation would join work I considered shameful. He even fell in my estimation, though I did not reject his help.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "sid",
       "level": 3,
       "claimType": "book",
@@ -4377,8 +4232,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Returning too quickly with the trunk only raised the old mare's value: Silas marvelled at her speed. Tom then appeared as a stranger, adopted another name, allowed himself to be invited to dinner, and performed a whole scene around kissing an indignant Sally. At the right moment he addressed me as Tom and revealed himself as Sid Sawyer, the unexpectedly visiting brother. Joy replaced anger. The arrangement was simple: I remained Tom and he Sid; the real Aunt Polly had supposedly permitted another traveller at the last minute. The more audience he had, the more confidently he acted.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "show-warning",
       "level": 3,
       "claimType": "book",
@@ -4398,8 +4252,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Jim was mentioned only at supper. The children wanted the show in town, but Silas said there probably would be none: the captured runaway had described the fraudulent play to him and an acquaintance who warned the town. After supper Tom and I climbed down the lightning rod and hurried to warn the king and duke. I did not expect the audience merely to decline tickets. On the way I described our passengers, and heard how people at home had discussed my murder and Pap's disappearance. But we did not reach the actors in time.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "tar",
       "level": 3,
       "claimType": "book",
@@ -4419,8 +4272,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A mob approached with torches, noise, and shouting. On a rail they carried two figures coated in tar and feathers. I recognised the king and duke, although they scarcely looked human. The spectators had waited until the middle of the performance and attacked at a signal. I felt sick and so sorry for the miserable frauds that I could no longer be angry. We could not undo it. Guilt still found me though I had taken no hand in their capture. We returned quietly. I had seen no glorious settlement of accounts, only what people could do to one another.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "simple-plan",
       "level": 3,
       "claimType": "book",
@@ -4440,8 +4292,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom deduced Jim's location from food and a lock. Someone carried meat, bread, and watermelon into the separate hut. A dog would not eat watermelon, and an ordinary resident needed no padlock. I admired his detective work. My plan came quickly: check, recover the canoe, bring the raft, steal the key at night, release Jim, and travel hidden as before. Tom admitted it would work. But it was too simple, with nothing to talk about afterwards. His own design promised freedom just as well, much more trouble and danger, and possibly our deaths. That was the style mine lacked, and I yielded.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "lean-to",
       "level": 3,
       "claimType": "book",
@@ -4461,8 +4312,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Outside we found a high window with a single stout board across it. I suggested removing it, then recalled sawing out of Pap's cabin. Tom wanted something longer and more complicated. A narrow lean-to with no floor adjoined the wall. We prised a staple loose, looked inside, and found rusty picks and shovels. There was no passage into the cabin, but we could dig. That would take about a week, and Tom was pleased. I returned through the door; he preferred the lightning rod. He fell several times and nearly broke himself, but after resting finally climbed it. Stairs were unsuitable for the style.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "nat",
       "level": 3,
       "claimType": "book",
@@ -4482,8 +4332,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the morning we befriended Nat, who brought the prisoner food. He complained of witches and tied his hair in bunches for protection. Tom suggested seeing the curious dog, and we entered with him. Jim instantly greeted both of us by our real names. I froze. Tom began asking who had heard anybody say anything. I denied it; Jim understood and denied it too. Nat eventually concluded the witches had tricked him again. Tom gave him ten cents for protective thread and promised not to tell his master, who disbelieved witches. We even pretended never to have seen the prisoner before.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "promise",
       "level": 3,
       "claimType": "book",
@@ -4503,8 +4352,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>When Nat turned away, Tom whispered that Jim must not recognise us aloud: the digging at night would be ours. Jim managed to squeeze our hands. He awaited a way out, while we had selected a tunnel despite seeing the door and window. I still wondered why Tom agreed. I even tried offering him a chance to withdraw for his family and good name. He stopped me. He knew his business and would help because he had promised. I could only trust him. He did not explain why this adventure seemed permissible to him.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "chain",
       "level": 3,
       "claimType": "book",
@@ -4524,8 +4372,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>For secret light Tom decided to gather glowing rotten wood. Then he listed the defects in the imprisonment: no watchman to drug, no real fortress. Jim was chained by one leg to his bedpost. Lift the bed and the chain would slip off. But we must saw the post, hide the marks, and do it as books prescribed. A rope ladder was required, although our escape led underneath and there was scarcely a height. I asked why. It belonged hidden in the bed as a clue after escape. We must smuggle something in solely to leave it behind.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "journal",
       "level": 3,
       "claimType": "book",
@@ -4545,8 +4392,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A sheet would become the ladder; a stolen shirt the prison journal. Jim could not write but could make marks. A pen must be laboriously filed from iron or brass despite the geese outside; ink must be his blood. Plates were needed for mysterious messages too. I observed that somebody owned those plates. Tom explained a prisoner's right to take necessities for escape. Later, when I ate somebody's watermelon, he made me pay: the fruit served my stomach, not deliverance from a dungeon. The distinction seemed too fine, but I took shirt and sheet.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "knives",
       "level": 3,
       "claimType": "book",
@@ -4566,8 +4412,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tools caused the hardest disagreement. I mentioned the picks in the shed; Tom demanded table knives. His book heroes dug through rock with knives for decades. We had ordinary earth and should at least respect procedure. I feared Jim would not survive that long. Tom agreed to hurry: Silas was writing the plantation named on the handbill and would discover the fraud. We could not spend real years but must imagine thirty-seven after finishing. I did not mind pretending. He still rejected a ready saw blade. I must steal three knives and turn one into a saw.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "picks",
       "level": 3,
       "claimType": "book",
@@ -4587,8 +4432,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We dug beneath the bottom log until midnight and made almost nothing but blisters. Tom sighed and allowed a pick and shovel provided we called them knives. I first handed him a real knife. He repeated the demand, and I had to understand he meant the pick. Work improved after that. When his sore hands could not climb the lightning rod I proposed the stairs, imagining the rod. He agreed. Next night the tunnel was finished. We came from under the bed, found our tossed candle, and gently woke Jim. He was delighted and wanted a chisel immediately to remove the chain and leave.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "hole-ready",
       "level": 3,
       "claimType": "book",
@@ -4608,8 +4452,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom sat him down to hear the whole design. We would alter everything at the first alarm, he promised, but meanwhile there must be a ladder pie, journal, and other preparations. Jim saw little sense in most of it but trusted white people to know better. Silas came to pray, he said; Sally checked food and comfort. Both were kind to him. Tom decided to send small things in their pockets. We talked of old times, smoked, and went out through the completed hole, leaving Jim chained. Tom called it his life's finest amusement and wished we could keep it going all our lives and leave our children to get Jim out.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "witch-pie",
       "level": 3,
       "claimType": "book",
@@ -4629,8 +4472,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We pushed a piece of candlestick into his bread for a future pen. Jim nearly broke his teeth but gave nothing away; afterwards he tested everything with a fork. Then dogs appeared beneath the bed: we had left the shed open. Nat saw the pack and collapsed shouting about witches. Tom lured the dogs out with meat, secured the passage, and comforted him. Witches came at breakfast because they were hungry; a special pie was needed. Nat did not know how to bake it, so Tom generously volunteered. Nat must merely turn away when we put it in the pan, avoid watching Jim open it, and touch nothing. He eagerly agreed.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "missing",
       "level": 3,
       "claimType": "book",
@@ -4650,8 +4492,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At home a shirt, sheet, candles, spoon, and candlestick began disappearing. Sally raged, blaming a calf, rats, and Silas's absent-mindedness. He promised to stop rat holes. Before breakfast we stuffed a spoon and nail on him for delivery, but the spoon emerged at the table. He thought he had taken it instead of his Testament while considering a sermon. The nail fell from his hat and was put aside. He was an unsuitable messenger. Still, for helping unintentionally with the spoon, we did a kindness and plugged the rat holes. He followed with materials, inspected the completed work, and could not remember doing it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "spoons",
       "level": 3,
       "claimType": "book",
@@ -4671,8 +4512,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Then we confused Sally herself. Tom counted spoons while I slipped one into my sleeve and returned it. She found nine, then ten, grew angry, counted again, and finally flung the basket and forbade reminders. We had the extra spoon and sent it through her pocket to Jim. For days we returned the sheet and stole it again until she no longer knew how many she owned. The disappearances became uncountable. We were very satisfied, although our liberation caused more noise and anxiety on the farm while Jim went nowhere.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "rope-pie",
       "level": 3,
       "claimType": "book",
@@ -4692,8 +4532,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The pie took several days too, three pans of flour, smoke, and burns. First we tried an empty crust for the ladder and it collapsed. At night we tore the sheet with Jim, twisted a rope, and agreed to imagine nine months' labour. It was too large, so we threw most away. At last we baked the rest inside dough in an old long-handled warming pan surrounded by coals. Nat looked away. Jim received the pie and plates beneath his food. Alone, he broke the crust, hid the ladder in his mattress, scratched marks, and threw a plate through the window. The tunnel had existed all that time.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "arms",
       "level": 3,
       "claimType": "book",
@@ -4713,8 +4552,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Now the prisoner lacked a coat of arms and inscriptions about suffering. Jim said he had only his old shirt, already assigned to the journal. A coat of arms proved to be something else. Tom assembled one from book terms he could not properly explain and invented several mournful epitaphs. Unable to select the best, he required all of them. Logs were improper; there must be stone, which we must bring. A grindstone at the mill would do for inscriptions and sharpening tools. While Jim and I filed metal, Tom considered how to make the imprisonment worthy of record.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "grindstone",
       "level": 3,
       "claimType": "book",
@@ -4734,8 +4572,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The stone was too heavy. We rolled it only halfway and nearly went under it. We needed Jim. He lifted the bed, slipped off the chain, wound it around his neck, and came out with us. The two of us easily rolled the stone while Tom supervised. Jim enlarged the opening with a pick to admit it. Tom scratched the designs and ordered him to chisel with a nail until the candle ended, then hide the stone under his mattress and sleep on it. We helped replace his chain around the bedpost. Jim had gone outside himself to build a more proper prison, then stayed in it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "animals",
       "level": 3,
       "claimType": "book",
@@ -4755,8 +4592,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom asked about spiders and declared that a prisoner needed pets. Jim, wanting no spiders, compared them to rattlesnakes and thereby supplied the next idea. Here he resisted. He would accept no real rattlesnake, would break through the wall to leave, and would have little use for glory after a bitten-off chin. Tom conceded ordinary snakes with buttons tied to their tails for rattles. But rats were required too. They must be tamed with music. Jim should sit playing until snakes, spiders, and rats assembled round him. He asked what kind of time Jim himself would have. Tom kept referring to proper prisoners.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "tears",
       "level": 3,
       "claimType": "book",
@@ -4776,8 +4612,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>For completeness there must be a flower watered with tears. Spring water would not do, and Jim confessed he hardly cried. They settled on bringing an onion. He already had pens, saws, arms, inscriptions, a journal, and future care of animals and a plant. He grumbled that he had never undertaken anything so responsible as being a prisoner. Tom almost took offence: so many chances of fame and no gratitude. Jim apologised and promised no more objections. We went to bed. Another book requirement had brought him no nearer freedom or his real home.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "creatures",
       "level": 3,
       "claimType": "book",
@@ -4797,8 +4632,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We caught the best rats first, then a child opened their cage beneath Sally's bed and we needed another catch. Snakes escaped an improperly tied bag, dropped from rafters, appeared in beds, and frightened the mistress, earning us beatings. We collected another supply for the cabin, with spiders, bugs, and other creatures. Jim complained that when rats slept snakes stayed awake, and when snakes rested rats took duty. If he got up, spiders had their chance. With animals and stone he scarcely had room in bed, or any sleep. He swore never to be a prisoner again, even for wages.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "three-weeks",
       "level": 3,
       "claimType": "book",
@@ -4818,8 +4652,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>By the end of three weeks everything was ready. The shirt bore marks, fresh bites supplied blood for writing, and the bedpost was sawn. We swallowed sawdust and got stomach pains. Jim was most exhausted. Meanwhile Silas had received no reply from the imaginary plantation and intended advertisements in St Louis and New Orleans. Now I was seriously afraid: there was no time to lose. Tom announced the next stage, anonymous warnings. An escape without interference would fall flat. Since the owners could not organise sufficient danger themselves, we must instruct them. I preferred leaving quietly but accepted his procedure.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "anonymous",
       "level": 3,
       "claimType": "book",
@@ -4839,8 +4672,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>First I wore somebody else's dress to deliver a warning; then drawings of a skull and coffin appeared. The family stopped sleeping peacefully. Tom regarded their terror as proof of success. His last letter described a gang coming that night to steal Jim. An imaginary informer supplied time, direction, key, and sheep signal and advised locking the arrivals inside to dispose of them. We had assigned people a place and hour to wait. The dress served Tom's rules rather than witnesses, since none were near. We meant to leave together; a straw figure representing the prisoner's disguised mother would remain on the bed.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "butter",
       "level": 3,
       "claimType": "book",
@@ -4860,8 +4692,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>On escape day we fished, checked the hidden raft, returned to anxious hosts, and were ordered early to bed. About half past eleven we rose. Tom put on Sally's dress, took the provisions, and noticed I had forgotten butter. I thought we could do without, but he sent me back. I fetched it on corn bread from the cellar, met Sally upstairs, and stuffed everything under my hat. I answered badly. She ordered me to wait in the sitting room, where fifteen farmers already sat, each armed. Our letters had assembled a real ambush, and I could not get to Jim.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "gunmen",
       "level": 3,
       "claimType": "book",
@@ -4881,8 +4712,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The room grew hot. Butter melted behind my ears and down my neck. Men proposed going immediately rather than waiting for the signal; I trembled at the thought of them in the hut. Sally saw a streak on my forehead and thought fever was making my brains ooze out. She snatched off the hat, found the bread, embraced me with relief, and sent me to bed. I climbed down outside and ran to the shed. Tom delighted in the guns: he could have brought two hundred men by repeating the preparations. I hurried him. Jim stood dressed beside us. Steps came to the door; men worked at the padlock. There was no time for a fine signal.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "escape",
       "level": 3,
       "claimType": "book",
@@ -4902,8 +4732,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We hid under the bed and crawled through, Jim first, me next, Tom last. From the shed we slipped towards the fence. Jim and I crossed; Tom caught his trousers on a splinter. He pulled, the wood snapped, somebody challenged us, then fired. We ran towards the mill, ducked into bushes, let the pursuit pass, and followed behind it. The released dogs caught up, recognised familiar people, greeted us, and rushed towards the shouting ahead. Near the mill we turned to the canoe, rowed into midstream, and reached the island raft. I congratulated Jim on freedom, and he praised the wonderfully tangled plan. Tom was happiest of all: a bullet had lodged in his calf.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wound",
       "level": 3,
       "claimType": "book",
@@ -4923,8 +4752,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We bound his leg with strips of the duke's shirt while he demanded departure. Such a fine escape must not stop. Jim and I thought and disagreed. Jim reasoned that Tom would not abandon a wounded companion for his own release, so neither would he move without a doctor, even for forty years. I approved, still explaining his goodness as being white inside. Tom raged and tried to launch the raft himself, but we stopped him. I must fetch a doctor while Jim hid at his approach. Even now Tom explained blindfolding the doctor and removing his chalk so he could not mark the raft. I did not carry all that out.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "doctor-canoe",
       "level": 3,
       "claimType": "book",
@@ -4944,8 +4772,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I told the doctor my brother and I had hunted on the island, slept on a found raft, and in a dream my brother had kicked his gun and shot his leg. Our people were the Phelpses; we meant to surprise them by coming home. The doctor packed his bag but distrusted the canoe for two. Other boats were chained. He went alone after receiving directions. I waited and fell asleep in a lumber pile. When I woke the sun was high and the doctor still absent. Frightened for Tom, I meant to go to the island immediately but ran into Silas round a corner.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "neighbours",
       "level": 3,
       "claimType": "book",
@@ -4965,8 +4792,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I had to say Sid and I had chased the runaway all night and slept in a boat; now my brother was supposedly at the post office. Silas took me there, collected a letter, failed to find Sid, and brought me home. Neighbours dined at the Phelpses', discussing the hut. Arms, stone, ladder, and bloody marks proved either Jim's madness or a whole gang of helpers. They proposed whipping every enslaved person on the farm. Sally listed the thefts and marvelled at the fugitives' ingenuity until remembering she had locked Sid and me in overnight. I left promptly to prepare my window-and-lightning-rod explanation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "sally-candle",
       "level": 3,
       "claimType": "book",
@@ -4986,8 +4812,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>By evening I wanted to leave for Tom again, but Sally refused: one missing boy was enough. Silas returned without news. She took me upstairs, tucked me in, spoke about Sid, and silently cried at imagining him wounded or drowned. I promised he would return. Before leaving she said she would not lock the door but asked me to stay for her sake. After that I could not leave. During the night I did climb down several times to look: Sally sat with her candle watching the road. At dawn I found her there asleep beside an almost spent light. I still knew nothing of Tom's actual condition.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "return",
       "level": 3,
       "claimType": "book",
@@ -5007,8 +4832,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the morning Silas remembered yesterday's letter. It was from Aunt Polly. Before Sally opened it, a procession appeared. Tom lay on a mattress beside the doctor, and Jim wore the dress with hands bound behind him. I hid the letter and ran outside. Sally thought the boy dead, heard him mutter, and rushed to make his bed. Meanwhile men proposed hanging Jim as an example. His right to live did not stop them: an owner might appear and demand payment for lost property. That argument worked. They struck and cursed Jim, and he gave no sign of knowing me.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "heavy-chains",
       "level": 3,
       "claimType": "book",
@@ -5028,8 +4852,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They returned him to the same hut, dressed him in his clothes, and chained hands and both legs. Now a staple in the bottom log secured him; the tunnel was filled. Armed night guards, a dog by day, and bread and water were ordered until the owner came. If he failed to come in time, Jim would be auctioned. Our easily slipped chain had become one no bed could lift away. I stood near while they arranged it. The doctor tended Tom indoors, then came to request no more harshness towards Jim than necessary. He described the island after I left.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "doctor-account",
       "level": 3,
       "claimType": "book",
@@ -5049,8 +4872,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom had worsened, raved, and resisted the bullet's removal. The doctor needed help but could not leave him. Then Jim came from hiding and volunteered. He nursed splendidly, though exhausted himself and risking freedom. The doctor recognised a runaway and stayed to watch: he would be blamed if Jim escaped. Only towards dawn could he hail a passing boat, with Jim asleep beside the patient. They caught and bound him before he woke, then quietly towed the raft. Praising the nurse, the doctor valued such a man at a thousand dollars and kind treatment. Nursing help and help with capture belonged to the same account.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "reward",
       "level": 3,
       "claimType": "book",
@@ -5070,8 +4892,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The men softened and solemnly promised not to curse Jim again. I hoped they might remove some heavy chains or give him proper food, but nobody thought of that. They locked the door. I still had to explain why I had failed to mention Sid's wound. I dodged Silas and waited to arrange a story with Tom. Next morning Tom looked better. I sat by his bed; Sally joined me, and he woke clear-headed with her present. He immediately asked about raft and Jim. I said things were all right without much conviction.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "tom-secret",
       "level": 3,
       "claimType": "book",
@@ -5091,8 +4912,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>He began boasting of our entire liberation: weeks of work, thefts, stone, creatures, letters, gunfire. Sally gradually understood who had terrified the family. When she threatened to keep him from the runaway, Tom at last learned of the recapture. He sat up demanding immediate release. Jim was no slave. Miss Watson had died two months earlier, regretting her intended sale, and freed him in her will. Tom knew. Asked why he wanted to free someone already free, he answered that he wanted the adventure. At that moment Aunt Polly appeared in the doorway.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "polly",
       "level": 3,
       "claimType": "book",
@@ -5112,8 +4932,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Polly recognised her own Tom immediately, and me beneath the bed. Sally had to unravel the names: her Tom was Huck, her Sid was Tom. Polly confirmed the will too. I finally understood why Tom could agree to something his upbringing had made seem impossible to me. He had also intercepted two letters from Polly asking about Sid and hidden them in his trunk to protect the game. I had just put away the last, announcing her arrival. All the explanations bewildered Silas. Jim had been free before the wound and nursing. Tom had known the will all along; Jim and I had not.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "forty",
       "level": 3,
       "claimType": "book",
@@ -5133,8 +4952,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Later I asked what end Tom had planned. From the start he meant to take Jim farther down to the river's mouth, enjoy adventures, then announce his freedom, bring him home by steamboat, pay for lost time, and arrange a procession with music. Everyone would be a hero. That design remained a design. Now Jim was quickly unchained, praised for helping the doctor, fed well, and allowed to rest. Tom paid forty dollars for patiently playing a prisoner. Jim rejoiced in the money and recalled his island prediction: riches had come to the hairy breast after all.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pap-answer",
       "level": 3,
       "claimType": "book",
@@ -5154,8 +4972,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom proposed fresh excursions for all three of us in the Territory. I thought I could not pay for equipment. Pap had surely taken my money from Thatcher and drunk it. Tom said it was safe and Pap had not returned. Jim said he never would. I questioned him until he recalled the floating house and the face covered with rags. The man had been my father. Jim recognised him then and kept me from looking. He did not say who shot him or why; the murder never became an explained story. But I could get my money whenever I needed it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "territory",
       "level": 3,
       "claimType": "book",
@@ -5175,8 +4992,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Tom was nearly well, wearing his bullet on a watch chain and enjoying checking the time by it. I wanted to finish the book. Had I known the trouble of writing, I would never have started. Sally meant to adopt and civilise me again. I had already been through that at the widow's and reckoned I must leave for the Territory ahead of the others. Before they set to work on me again, I had better slip away. That was where I stopped.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "final",
       "level": 1,
       "final": true,
@@ -5196,8 +5012,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>This reading depth has ended. The shorter routes leave the story open. Deep follows the full retained arc through the final scene.\u003c/p>\u003cp>The source and a map of this depth are available in Sources.\u003c/p>"
         }
       }
-    }
-  ]
+    }]
 }</script>
   <script>
     (() => {
@@ -5264,70 +5079,104 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       const state = {
         language: ['ru', 'en'].includes(stored('language', data.defaultLanguage || 'ru')) ? stored('language', data.defaultLanguage || 'ru') : 'ru',
         theme: ['light', 'dark'].includes(stored('theme', data.defaultTheme || 'dark')) ? stored('theme', data.defaultTheme || 'dark') : 'dark',
-        mode: modeOrder.includes(stored('mode', data.defaultMode || 'deep')) ? stored('mode', data.defaultMode || 'deep') : 'deep',
+        mode: modeOrder.includes(stored('mode', 'deep')) ? stored('mode', 'deep') : 'deep',
         position: 0,
         direction: 'forward'
       };
 
-      // Candidate-local ending protection. Never persists consent.
-      let deepConsent = false;
-      let pendingDeep = null;
-      let consentFocus = null;
-      if (state.mode === 'deep') state.mode = 'essential';
-      const consent = document.getElementById('deepConsentDialog');
-      const confirmDeep = document.getElementById('confirmDeep');
-      const cancelDeep = document.getElementById('cancelDeep');
-      function requestDeep(action) {
-        if (deepConsent) { action(); return; }
-        pendingDeep = action;
-        consentFocus = document.activeElement;
-        if (els.contentsDialog.open) els.contentsDialog.close();
-        if (els.sourcesDialog.open) els.sourcesDialog.close();
-        const ru = state.language === 'ru';
-        document.getElementById('deepConsentTitle').textContent = ru ? 'Открыть полную историю?' : 'Open the complete story?';
-        document.getElementById('deepConsentText').textContent = ru
-          ? 'Режим «Глубоко» раскрывает поздние события, судьбы героев и последнюю сцену. Режимы «Коротко» и «Подробно» не раскрывают финал. После перехода в короткий режим или ухода со страницы потребуется новое согласие.'
-          : 'Deep reveals later events, the characters’ outcomes and the last scene. Essential and Core leave the ending unrevealed. Switching to a shorter mode or leaving this page requires fresh consent.';
-        confirmDeep.textContent = ru ? 'Читать «Глубоко» со спойлерами' : 'Read Deep with spoilers';
-        cancelDeep.textContent = ru ? 'Сохранить развязку' : 'Preserve the ending';
-        if (!consent.open) consent.showModal();
-        cancelDeep.focus({preventScroll:true});
+      // reader-usability-v1: selected depth and spoiler permission are separate.
+      const initialHash = location.hash;
+      const serviceRedirects = {"deep-warning":"deep"};
+      const needsConsent = true;
+      const groupedTitles = {};
+      let uxConsent = false;
+      let pendingEntry = null;
+      const consentDialog = document.getElementById('readerConsent');
+      function rawRouteScreens(mode) {
+        if (Array.isArray(data.routes?.[mode])) return data.routes[mode].map(id => data.screens.find(s => s.id === id));
+        if (data.screens.some(s => s.routeMode)) return data.screens.filter(s => !s.routeMode || s.routeMode === mode);
+        return data.screens.filter(s => s.level <= levels[mode]);
       }
-      confirmDeep.addEventListener('click', () => {
-        const action = pendingDeep;
-        pendingDeep = null;
-        deepConsent = true;
-        consent.close();
-        if (action) action();
-      });
-      cancelDeep.addEventListener('click', () => consent.close());
-      consent.addEventListener('close', () => {
-        pendingDeep = null;
-        if (consentFocus?.isConnected) consentFocus.focus({preventScroll:true});
-      });
-      // A restored page must ask again; no consent is read from any storage.
-      addEventListener('pagehide', () => { deepConsent = false; });
-      addEventListener('pageshow', event => {
-        if (event.persisted) {
-          deepConsent = false;
-          state.mode = state.mode === 'deep' ? 'essential' : state.mode;
-          state.position = 0;
-          render();
-        }
-      });
+      function routeScreens(mode) { return rawRouteScreens(mode).filter(s => !groupedTitles[s.id]); }
+      function prefixHeading(screen) {
+        return Object.entries(groupedTitles).filter(([, target]) => target === screen.id).map(([id]) => '<h1 data-heading>' + escapeHtml(copyOf(data.screens.find(s => s.id === id)).title) + '</h1>').join('');
+      }
+      function firstProse(mode) { return routeScreens(mode).find(s => s.type !== 'cover'); }
+      function resolveScreen(id, mode = state.mode) {
+        if (Object.hasOwn(groupedTitles, id)) id = groupedTitles[id];
+        if (Object.hasOwn(serviceRedirects, id)) return firstProse(serviceRedirects[id]);
+        return data.screens.find(s => s.id === id) || firstProse(mode);
+      }
+      function rememberedScreen() {
+        const id = stored('lastScreen', '');
+        return id ? resolveScreen(id) : null;
+      }
+      function rememberedMode(screen) {
+        const oldId = stored('lastScreen', '');
+        if (Object.hasOwn(serviceRedirects, oldId)) return serviceRedirects[oldId];
+        const candidate = stored('lastMode', state.mode);
+        const saved = modeOrder.includes(candidate) ? candidate : state.mode;
+        return screen.routeMode || (routeScreens(saved).includes(screen) ? saved : requiredMode(screen.level));
+      }
+      function safeTitle(screen) {
+        return needsConsent && state.mode === 'deep' && !uxConsent && screen.type !== 'cover'
+          ? (state.language === 'ru' ? 'Полная версия' : 'Full version') : (copyOf(screen).title || copyOf(screen).tocTitle || '');
+      }
+      function syncHash() {
+        try { history.replaceState(null, '', '#' + state.mode + '/' + currentScreen().id); } catch (_) {}
+      }
+      function changeMode(mode) {
+        if (mode !== 'deep') uxConsent = false;
+        state.mode = mode; state.position = 0; save('mode', mode);
+      }
+      function requestEntry(mode, id, direction = 'forward') {
+        const target = routeScreens(mode).find(s => s.id === id) || firstProse(mode);
+        const enter = () => {
+          if (mode !== state.mode) changeMode(mode);
+          state.position = routeScreens(mode).indexOf(target);
+          state.direction = direction; render();
+        };
+        if (needsConsent && mode === 'deep' && target.type !== 'cover' && !uxConsent) {
+          pendingEntry = enter;
+          if (els.contentsDialog.open) els.contentsDialog.close();
+          if (els.sourcesDialog.open) els.sourcesDialog.close();
+          const ru = state.language === 'ru';
+          document.getElementById('readerConsentTitle').textContent = ru ? 'Полная версия' : 'Full version';
+          document.getElementById('readerConsentText').textContent = ru ? 'Полная версия раскрывает развязку. Читать?' : 'The full version reveals the ending. Read on?';
+          document.getElementById('readerConsentCancel').textContent = ru ? 'Отмена' : 'Cancel';
+          document.getElementById('readerConsentAccept').textContent = ru ? 'Читать' : 'Read';
+          if (!consentDialog.open) consentDialog.showModal();
+          document.getElementById('readerConsentCancel').focus({preventScroll:true});
+        } else enter();
+      }
+      if (consentDialog) {
+        document.getElementById('readerConsentAccept').addEventListener('click', () => {
+          const action = pendingEntry; pendingEntry = null; uxConsent = true;
+          consentDialog.close(); if (action) action();
+        });
+        const cancel = () => { pendingEntry = null; consentDialog.close(); syncHash(); };
+        document.getElementById('readerConsentCancel').addEventListener('click', cancel);
+        consentDialog.addEventListener('cancel', () => { pendingEntry = null; syncHash(); });
+      }
+      function followEntry(hash, useQuery = false) {
+        const parts = String(hash).replace(/^#/, '').split('/');
+        const params = new URLSearchParams(useQuery ? location.search : '');
+        const mode = modeOrder.includes(parts[0]) ? parts[0] : (params.get('mode') || state.mode);
+        if (!modeOrder.includes(mode)) return;
+        const requested = parts[1] || params.get('screen') || (parts[0] && !modeOrder.includes(parts[0]) ? parts[0] : firstProse(mode).id);
+        const screen = resolveScreen(requested, mode);
+        const targetMode = Object.hasOwn(serviceRedirects, requested) ? serviceRedirects[requested] : (screen.routeMode || mode);
+        requestEntry(targetMode, screen.id);
+      }
+
       function text() { return ui[state.language]; }
       function copyOf(screen) { return screen.copy[state.language]; }
-      function visibleScreens() { return data.screens.filter((screen) => screen.level <= levels[state.mode]); }
+      function visibleScreens() { return routeScreens(state.mode); }
       function currentScreen() { return visibleScreens()[state.position]; }
       function escapeHtml(value) { return String(value).replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
 
-      function modeCounts() {
-        return {
-          essential: data.screens.filter((screen) => screen.level <= 1).length,
-          core: data.screens.filter((screen) => screen.level <= 2).length,
-          deep: data.screens.length
-        };
-      }
+      function modeCounts() { return Object.fromEntries(modeOrder.map(mode => [mode, routeScreens(mode).length])); }
+
 
       function modeLabel(mode) {
         const configured = data.modes && data.modes[mode];
@@ -5377,9 +5226,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       function renderCover(screen) {
         const copy = copyOf(screen);
         const rememberedId = stored('lastScreen', '');
-        const remembered = rememberedId && rememberedId !== screen.id ? data.screens.find((item) => item.id === rememberedId) : null;
+        const remembered = rememberedScreen();
         const resumeHasEnding = remembered && (remembered.level >= 3 || stored('mode', '') === 'deep');
-        const primaryLabel = resumeHasEnding ? (state.language === 'ru' ? 'Продолжить «Глубоко» — спойлеры' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start;
+        const primaryLabel = needsConsent && !uxConsent && remembered && rememberedMode(remembered) === 'deep' ? (state.language === 'ru' ? 'Продолжить полную версию' : 'Continue full version') : (resumeHasEnding ? (state.language === 'ru' ? 'Продолжить «Глубоко» — спойлеры' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start);
         const visual = coverMediaFor(screen) || '<div class="cover-visual"><div class="cover-mark"><span class="cover-eyebrow">' + escapeHtml(data.author[state.language]) + '</span><p class="lede">' + escapeHtml(copy.title) + '</p><span class="cover-eyebrow">' + (state.language === 'ru' ? 'Роман · Миссисипи' : 'A novel · Mississippi') + '</span></div></div>';
         return `<article class="story-slide${state.direction === 'back' ? ' is-reverse' : ''}"><div class="slide-scroll"><div class="cover-layout">${visual}<div class="cover-copy"><p class="kicker">${escapeHtml(copy.section)}</p><h1>${escapeHtml(copy.title)}</h1>${copy.subtitle ? `<p class="cover-subtitle">${escapeHtml(copy.subtitle)}</p>` : ''}${copy.body || ''}<div class="mode-picker" role="group" aria-label="${escapeHtml(text().depthLabel)}">${renderModePicker()}</div></div><div class="cover-actions"><button class="button button-primary" type="button" data-start="${remembered ? 'continue' : 'begin'}">${escapeHtml(primaryLabel)}</button>${remembered ? `<button class="button" type="button" data-start="begin">${escapeHtml(text().startOver)}</button>` : ''}</div></div></div></article>`;
       }
@@ -5410,7 +5259,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       function contentsHtml() {
         const list = visibleScreens();
         const activeId = currentScreen().id;
-        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(copyOf(screen).title)}</span></button>`).join('');
+        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(safeTitle(screen))}</span></button>`).join('');
       }
 
       function renderContents() {
@@ -5461,34 +5310,23 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       }
 
       function bindRenderedControls() {
-        document.querySelectorAll('[data-mode]').forEach((button) => {
-          button.addEventListener('click', () => setMode(button.dataset.mode));
-        });
-        document.querySelectorAll('[data-go-to]').forEach((button) => {
-          button.addEventListener('click', () => {
-            goToId(button.dataset.goTo);
-            if (els.contentsDialog.open) els.contentsDialog.close();
-          });
-        });
-        document.querySelectorAll('[data-start]').forEach((button) => {
-          button.addEventListener('click', () => start(button.dataset.start === 'continue'));
-        });
-        document.querySelectorAll('[data-open-deep]').forEach((button) => {
-          button.addEventListener('click', () => requestDeep(() => {
-            setMode('deep');
-            goToId('deep-warning');
-          }));
-        });
-        document.querySelectorAll('[data-open-sources]').forEach((button) => {
-          button.addEventListener('click', () => els.sourcesDialog.showModal());
-        });
+        document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => setMode(button.dataset.mode)));
+        document.querySelectorAll('[data-go-to]').forEach(button => button.addEventListener('click', () => {
+          goToId(button.dataset.goTo); if (els.contentsDialog.open) els.contentsDialog.close();
+        }));
+        document.querySelectorAll('[data-start]').forEach(button => button.addEventListener('click', () => start(button.dataset.start === 'continue')));
+        document.querySelectorAll('[data-open-sources]').forEach(button => button.addEventListener('click', () => els.sourcesDialog.showModal()));
       }
+
 
       function render() {
         const list = visibleScreens();
         if (state.position >= list.length) state.position = Math.max(0, list.length - 1);
         renderStaticText();
         els.story.innerHTML = renderScreen(currentScreen());
+        els.story.dataset.mode = state.mode;
+        els.story.dataset.screenId = currentScreen().id;
+        syncHash();
         renderProgress();
         renderNavigation();
         renderContents();
@@ -5499,69 +5337,43 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
       function goToPosition(position, direction) {
         const list = visibleScreens();
-        state.position = Math.max(0, Math.min(position, list.length - 1));
-        state.direction = direction || 'forward';
-        render();
+        const target = list[Math.max(0, Math.min(position, list.length - 1))];
+        requestEntry(state.mode, target.id, direction);
       }
+
 
       function requiredMode(level) {
         return level <= 1 ? 'essential' : level === 2 ? 'core' : 'deep';
       }
 
       function goToId(id) {
-        const target = data.screens.find(screen => screen.id === id);
-        if (target?.level === 3 && !deepConsent) {
-          requestDeep(() => goToId(id));
-          return;
-        }
-        let list = visibleScreens();
-        let index = list.findIndex((screen) => screen.id === id);
-        if (index < 0) {
-          const hidden = data.screens.find((screen) => screen.id === id);
-          if (hidden) {
-            state.mode = requiredMode(hidden.level);
-            save('mode', state.mode);
-            list = visibleScreens();
-            index = list.findIndex((screen) => screen.id === id);
-          }
-        }
-        if (index >= 0) goToPosition(index, index < state.position ? 'back' : 'forward');
+        const screen = resolveScreen(id);
+        const mode = screen.routeMode || (visibleScreens().includes(screen) ? state.mode : requiredMode(screen.level));
+        requestEntry(mode, screen.id);
       }
 
+
       function setMode(mode) {
-        if (!modeOrder.includes(mode)) return;
-        if (mode === 'deep' && !deepConsent) {
-          requestDeep(() => setMode(mode));
-          return;
+        if (!modeOrder.includes(mode) || mode === state.mode) return;
+        removeStored('lastScreen');
+        const id = currentScreen().id;
+        changeMode(mode);
+        // Independent versions always begin at their cover. Cumulative readers
+        // retain a shared page only when it does not bypass renewed consent.
+        if (!data.routes && !data.screens.some(s => s.routeMode) && !(needsConsent && mode === 'deep')) {
+          const index = visibleScreens().findIndex(s => s.id === id);
+          if (index >= 0) state.position = index;
         }
-        if (mode !== 'deep') deepConsent = false;
-        const currentId = currentScreen().id;
-        state.mode = mode;
-        save('mode', mode);
-        const list = visibleScreens();
-        const nextIndex = list.findIndex((screen) => screen.id === currentId);
-        state.position = nextIndex >= 0 ? nextIndex : 0;
         render();
       }
 
+
       function start(continueSaved) {
-        if (!continueSaved) save('mode', state.mode);
-        const savedId = continueSaved ? stored('lastScreen', '') : '';
-        if (continueSaved && stored('mode', '') === 'deep' && !deepConsent) {
-          requestDeep(() => {
-            setMode('deep');
-            if (savedId && data.screens.some(screen => screen.id === savedId)) goToId(savedId);
-            else { removeStored('lastScreen'); goToPosition(1, 'forward'); }
-          });
-          return;
-        }
-        const rememberedId = continueSaved ? stored('lastScreen', '') : '';
-        if (rememberedId && data.screens.some(screen => screen.id === rememberedId)) goToId(rememberedId);
-        else {
-          if (rememberedId) removeStored('lastScreen');
-          goToPosition(Math.min(1, visibleScreens().length - 1), 'forward');
-        }
+        const remembered = continueSaved ? rememberedScreen() : null;
+        if (remembered) requestEntry(rememberedMode(remembered), remembered.id);
+        else requestEntry(state.mode, firstProse(state.mode).id);
       }
+
 
       function next() {
         const list = visibleScreens();
@@ -5619,12 +5431,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       });
       els.story.addEventListener('pointercancel', () => { pointerStart = null; });
 
-      const rememberedId = stored('lastScreen', '');
-      if (rememberedId) {
-        const index = visibleScreens().findIndex((screen) => screen.id === rememberedId);
-        if (index >= 0) state.position = 0;
-      }
       render();
+      if (initialHash || new URLSearchParams(location.search).has('mode') || new URLSearchParams(location.search).has('screen')) followEntry(initialHash, true);
+      window.addEventListener('hashchange', () => followEntry(location.hash));
+      window.addEventListener('pagehide', () => { uxConsent = false; });
+      window.addEventListener('pageshow', event => {
+        if (!event.persisted) return;
+        uxConsent = false; pendingEntry = null;
+        if (consentDialog?.open) consentDialog.close();
+        state.position = 0; render();
+      });
+
     })();
   </script>
   <script>

@@ -1,4 +1,6 @@
 import fs from 'node:fs';
+import './check-reader-navigation.mjs';
+import {assertReaderUsability} from '../skills/book-tiktok/scripts/reader-usability.mjs';
 import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
@@ -45,6 +47,13 @@ function walkFiles(directory) {
 }
 
 const catalogue = readJson('books.json');
+
+// Validate every released runtime, including independent route readers.
+for (const book of catalogue?.books || []) {
+  try { assertReaderUsability(fs.readFileSync(path.join(root, book.file), 'utf8')); }
+  catch (error) { fail(`${book.file}: reader usability: ${error.message}`); }
+}
+
 
 if (catalogue) {
   if (catalogue.schema !== 2) fail('books.json.schema must be 2');

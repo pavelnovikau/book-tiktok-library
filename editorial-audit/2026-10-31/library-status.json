@@ -1,5 +1,5 @@
 {
-  "asOfUtc": "2026-11-01T01:36:29.404748+00:00",
+  "asOfUtc": "2026-11-01T01:56:57.714447+00:00",
   "plannedAdditions": 58,
   "preexisting": 4,
   "totalPlanned": 62,
@@ -89,7 +89,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "source-map-incomplete",
+      "maximumDepthStage": "expanded-source-map-incomplete",
       "rootExpandedTextAccepted": false
     },
     {
@@ -117,7 +117,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-writing-assigned",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -215,7 +215,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-writing-assigned",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -299,7 +299,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-writing-assigned",
       "rootExpandedTextAccepted": false
     },
     {
@@ -325,9 +325,9 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": null,
-      "depthReviewStatus": "root-personally-accepted-awaiting-publication",
-      "notes": "",
-      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "depthReviewStatus": "root-accepted-and-live",
+      "notes": "Expanded33/68/125, root personally read all RU/EN text/routes; PR40 production verified.",
+      "maximumDepthStage": "root-accepted-and-live",
       "rootExpandedTextAccepted": true
     },
     {
@@ -425,8 +425,8 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
-      "rootExpandedTextAccepted": false
+      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "rootExpandedTextAccepted": true
     },
     {
       "slug": "the-two-captains",
@@ -921,15 +921,15 @@
   ],
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
-  "basis": "62 approved positions; exact changed PR39 production assets verified at58books/2392screens. Historical retained-text/factual stages are preserved. Current expanded-depth acceptance is tracked separately and requires root reading.",
+  "basis": "62 approved positions. Exact changed PR40 production assets verified at58books/2483screens. Historical factual stages preserved; new maximum-depth acceptance separately requires personal root reading.",
   "maximumDepthStages": {
-    "awaiting-expanded-work": 53,
-    "source-map-incomplete": 1,
-    "expanded-writing-assigned": 2,
-    "root-accepted-and-live": 3,
-    "root-personally-accepted-awaiting-publication": 1,
-    "expanded-awaiting-root-personal-reading": 2
+    "awaiting-expanded-work": 52,
+    "expanded-source-map-incomplete": 1,
+    "expanded-awaiting-root-personal-reading": 3,
+    "expanded-writing-assigned": 1,
+    "root-accepted-and-live": 4,
+    "root-personally-accepted-awaiting-publication": 1
   },
   "maximumDepthStageBasis": "Current root criterion, callbacks and exact production proof. Runtime worker status has not been polled.",
-  "rootExpandedAcceptedPublished": 3
+  "rootExpandedAcceptedPublished": 4
 }

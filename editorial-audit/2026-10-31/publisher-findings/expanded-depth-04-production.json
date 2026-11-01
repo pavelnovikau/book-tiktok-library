@@ -1,0 +1,82 @@
+{
+  "atUtc": "2026-11-01T01:39:48.563388+00:00",
+  "merge": "1ac0b366f86fc24404a779e8e0f4a3362b90aaa3",
+  "head": "10da762415111fe894d02295a0818c89eeb082bd",
+  "singlePostMergeObservation": true,
+  "all69AssetsFreshlyFetched": false,
+  "checks": [
+    {
+      "asset": "the-lost-world.html",
+      "url": "https://book-tiktok-library.vercel.app/the-lost-world",
+      "expectedSha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "httpStatus": 200,
+      "sha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "bytes": 687072,
+      "vercelCache": "MISS",
+      "matches": true
+    },
+    {
+      "asset": "books.json",
+      "url": "https://book-tiktok-library.vercel.app/books.json",
+      "expectedSha256": "c3afb01d15385d4f5ed5e2c8082f63b9bcc792e814a3a7fc0a64b837dfbf11df",
+      "httpStatus": 200,
+      "sha256": "c3afb01d15385d4f5ed5e2c8082f63b9bcc792e814a3a7fc0a64b837dfbf11df",
+      "bytes": 98791,
+      "vercelCache": "MISS",
+      "matches": true
+    },
+    {
+      "asset": "index.html",
+      "url": "https://book-tiktok-library.vercel.app/",
+      "expectedSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "httpStatus": 200,
+      "sha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "bytes": 456380,
+      "vercelCache": "MISS",
+      "matches": true
+    },
+    {
+      "asset": "hard-to-be-a-god.html",
+      "url": "https://book-tiktok-library.vercel.app/hard-to-be-a-god",
+      "expectedSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "httpStatus": 200,
+      "sha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "bytes": 646716,
+      "vercelCache": "MISS",
+      "matches": true
+    },
+    {
+      "asset": "thinking-fast-and-slow.html",
+      "url": "https://book-tiktok-library.vercel.app/thinking-fast-and-slow",
+      "expectedSha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "httpStatus": 200,
+      "sha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "bytes": 716153,
+      "vercelCache": "MISS",
+      "matches": true
+    },
+    {
+      "asset": "treasure-island.html",
+      "url": "https://book-tiktok-library.vercel.app/treasure-island",
+      "expectedSha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "httpStatus": 200,
+      "sha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "bytes": 664594,
+      "vercelCache": "MISS",
+      "matches": true
+    }
+  ],
+  "private404s": [
+    {
+      "url": "https://book-tiktok-library.vercel.app/editorial-audit/2026-10-31/depth-v2/the-lost-world/draft-ru.md",
+      "httpStatus": 404,
+      "expected404": true
+    },
+    {
+      "url": "https://book-tiktok-library.vercel.app/collector-output/the-lost-world/story-data.json",
+      "httpStatus": 404,
+      "expected404": true
+    }
+  ],
+  "status": "PASS"
+}

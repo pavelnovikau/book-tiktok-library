@@ -1,3 +1,29 @@
+# Active personal reading and release queue - 2026-11-01
+
+White Fang is personally accepted at36/51/89 after root reading and chronology/actor/route repairs; publication is being prepared. Four earlier expanded works are live. Next personal reading: Children of Captain Grant, then Zebra, then Irvine. Zebra and Irvine callbacks are hash-ingested only; Make Time remains assigned. Behave source coverage remains incomplete. All62 positions retain individual root reading and acceptance.
+
+This current block supersedes historical states below.
+
+---
+
+# Active queue - 2026-11-01
+
+Four expanded books are personally accepted and live, latest Lost World PR40. Next personal root reading: White Fang, then Children of Captain Grant. Three bounded Sol max assignments prepare Zebra, Irvine and Make Time. Make Time uses the complete owned48593-word RU source, actual four-stage system and tactic narratives. Behave primary coverage remains incomplete. Continue all62 positions under personal root acceptance.
+
+This current block supersedes historical assignments below.
+
+---
+
+# Current personal reading queue - 2026-11-01
+
+Lost World PR40 is personally accepted, merged and production-verified at33/68/125,8562 RU narrative words. Four expanded works are accepted/live; production58books/2483screens.
+
+Next: personally read all White Fang RU/EN pairs and routes, full map and key primary passages, then Children of Captain Grant. Both are hash-ingested and unaccepted. Existing bounded Sol max assignments prepare Zebra and Irvine; Behave primary coverage is incomplete. Continue all62 positions under the same personal-reading gate. Publication checkout remains the existing prepared directory; use a fresh branch from origin/main for each accepted release.
+
+This current block supersedes historical assignments below.
+
+---
+
 # Current personal reading and release queue - 2026-11-01
 
 Lost World is personally accepted at33/68/125; the exact version is now being released. Current production remains the three earlier expanded books at58books/2392screens until new production hashes verify. Next root reading: White Fang, then Children of Captain Grant. Both are hash-ingested but unaccepted. Zebra and Irvine remain assigned; Behave primary coverage is incomplete. All62 positions retain the personal-reading gate.

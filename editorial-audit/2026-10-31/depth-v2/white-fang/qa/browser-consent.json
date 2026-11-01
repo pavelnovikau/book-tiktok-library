@@ -1,0 +1,116 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "white-fang.html": "73d1f24b7163102a43ad2dfab2d44008bef6ace2165fd23e674f6b1f0e95c4af",
+    "story-data.json": "c6d5398beb610b4bc7e773832174595b3378c67ed4f8b8254bc1696f53cf8ec6"
+  },
+  "lastEvaluate": "[...Array(localStorage.length)].map((_,i)=>localStorage.key(i)).filter(k=>/consent/i.test(k))",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "pickerCancel": {
+    "open": true,
+    "mode": "essential",
+    "cancelFocused": true
+  },
+  "savedDeep": {
+    "paths": 152,
+    "bad": [],
+    "scope": "BFCache pageshow emulation for every level-3 ID, both languages and lower modes"
+  },
+  "actualDowngrade": [
+    {
+      "lang": "ru",
+      "lower": "essential",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "ru",
+      "lower": "core",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "en",
+      "lower": "essential",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    },
+    {
+      "lang": "en",
+      "lower": "core",
+      "resumeOpen": true,
+      "modeUnchanged": true,
+      "storyUnchanged": true,
+      "pickerOpen": true
+    }
+  ],
+  "realReloads": [
+    {
+      "lang": "ru",
+      "mode": "essential",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "ru",
+      "mode": "core",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "en",
+      "mode": "essential",
+      "generic": true,
+      "safe": true,
+      "open": true
+    },
+    {
+      "lang": "en",
+      "mode": "core",
+      "generic": true,
+      "safe": true,
+      "open": true
+    }
+  ],
+  "savedModeReset": {
+    "mode": "essential",
+    "noTitle": true
+  },
+  "explicitEntry": true,
+  "consentEscapeClosed": true,
+  "interactions": {
+    "languageKeepsId": true,
+    "settingsKeepId": true,
+    "settingsKeepScroll": true,
+    "focusOn": true,
+    "focusPaging": true,
+    "focusOff": true,
+    "keyboardBack": true,
+    "syntheticSwipe": true,
+    "restartClears": true
+  },
+  "invalidIdStarts": true,
+  "persistedConsentKeys": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "processGroupTerminated": true
+}

@@ -1,0 +1,120 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "681cd012a82096c69f045dfcf7dd5a994eb3291071d9b995a228521a5ef6cc80",
+    "white-fang.html": "a44f51b4aab33ca91316f9c7f9af5c4887f27761c29a9721d3441e43bb110c75",
+    "root-review/cold-settings.mjs": "00266029852876d2149c188c7722f116a48a73428088036ffe5b2cac907b34e3"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "legacy": {
+    "language": "en",
+    "mode": "deep",
+    "id": "quiet-last-image",
+    "currentLast": null
+  },
+  "cancel": {
+    "open": true,
+    "focus": true,
+    "mode": true
+  },
+  "downgrades": [
+    {
+      "l": "ru",
+      "lower": "essential",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "ru",
+      "lower": "core",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "en",
+      "lower": "essential",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "en",
+      "lower": "core",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    }
+  ],
+  "reloads": [
+    {
+      "savedMode": "essential",
+      "safe": true,
+      "mode": "essential",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    },
+    {
+      "savedMode": "core",
+      "safe": true,
+      "mode": "core",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    },
+    {
+      "savedMode": "deep",
+      "safe": true,
+      "mode": "essential",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    }
+  ],
+  "lifecycle": {
+    "downgraded": true,
+    "fresh": true,
+    "finalPrompt": true
+  },
+  "storage": {
+    "consentKeys": [],
+    "oldProgressKeys": [
+      "book-tiktok.white-fang.lastScreen",
+      "book-tiktok.white-fang.language",
+      "book-tiktok.white-fang.mode"
+    ]
+  },
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

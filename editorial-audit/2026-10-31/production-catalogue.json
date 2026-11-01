@@ -1,0 +1,3612 @@
+{
+  "schema": 2,
+  "discovery": {
+    "version": 1,
+    "types": [
+      {
+        "id": "fiction",
+        "label": {
+          "ru": "Художественное",
+          "en": "Fiction"
+        }
+      },
+      {
+        "id": "nonfiction",
+        "label": {
+          "ru": "Нон-фикшн",
+          "en": "Nonfiction"
+        },
+        "aliases": [
+          "non-fiction",
+          "non fiction",
+          "нонфикшн",
+          "документальная проза"
+        ]
+      }
+    ],
+    "genres": [
+      {
+        "id": "science-fiction",
+        "label": {
+          "ru": "Фантастика",
+          "en": "Science fiction"
+        },
+        "aliases": [
+          "sci-fi",
+          "scifi",
+          "научная фантастика"
+        ]
+      },
+      {
+        "id": "fantasy",
+        "label": {
+          "ru": "Фэнтези",
+          "en": "Fantasy"
+        },
+        "aliases": [
+          "фентези"
+        ]
+      },
+      {
+        "id": "adventure",
+        "label": {
+          "ru": "Приключения",
+          "en": "Adventure"
+        }
+      },
+      {
+        "id": "life-people",
+        "label": {
+          "ru": "О жизни и людях",
+          "en": "Life and people"
+        },
+        "aliases": [
+          "литературная проза",
+          "literary fiction"
+        ]
+      }
+    ],
+    "subjects": [
+      {
+        "id": "thinking-decisions",
+        "label": {
+          "ru": "Мышление и решения",
+          "en": "Thinking and decisions"
+        }
+      },
+      {
+        "id": "psychology-relationships",
+        "label": {
+          "ru": "Психология и отношения",
+          "en": "Psychology and relationships"
+        }
+      },
+      {
+        "id": "philosophy-meaning",
+        "label": {
+          "ru": "Философия и смысл",
+          "en": "Philosophy and meaning"
+        }
+      },
+      {
+        "id": "time-habits",
+        "label": {
+          "ru": "Время и привычки",
+          "en": "Time and habits"
+        }
+      },
+      {
+        "id": "health-body",
+        "label": {
+          "ru": "Здоровье и тело",
+          "en": "Health and body"
+        }
+      },
+      {
+        "id": "systems-society",
+        "label": {
+          "ru": "Системы и общество",
+          "en": "Systems and society"
+        }
+      },
+      {
+        "id": "history-power",
+        "label": {
+          "ru": "История и власть",
+          "en": "History and power"
+        }
+      },
+      {
+        "id": "technology-future",
+        "label": {
+          "ru": "Технологии и будущее",
+          "en": "Technology and future"
+        }
+      }
+    ],
+    "topics": [
+      {
+        "id": "environment",
+        "label": {
+          "ru": "Среда",
+          "en": "Environment"
+        }
+      },
+      {
+        "id": "identity",
+        "label": {
+          "ru": "Идентичность",
+          "en": "Identity"
+        }
+      },
+      {
+        "id": "acceptance",
+        "label": {
+          "ru": "Принятие",
+          "en": "Acceptance"
+        }
+      },
+      {
+        "id": "adventure",
+        "label": {
+          "ru": "Приключения",
+          "en": "Adventure"
+        }
+      },
+      {
+        "id": "agents",
+        "label": {
+          "ru": "Агенты",
+          "en": "Agents"
+        }
+      },
+      {
+        "id": "ai",
+        "label": {
+          "ru": "Искусственный интеллект",
+          "en": "Artificial intelligence"
+        },
+        "aliases": [
+          "ИИ"
+        ]
+      },
+      {
+        "id": "asymmetry",
+        "label": {
+          "ru": "Асимметрия",
+          "en": "Asymmetry"
+        }
+      },
+      {
+        "id": "attention",
+        "label": {
+          "ru": "Внимание",
+          "en": "Attention"
+        }
+      },
+      {
+        "id": "behavior",
+        "label": {
+          "ru": "Поведение",
+          "en": "Behavior"
+        },
+        "aliases": [
+          "behaviour"
+        ]
+      },
+      {
+        "id": "biology",
+        "label": {
+          "ru": "Биология",
+          "en": "Biology"
+        }
+      },
+      {
+        "id": "body-awareness",
+        "label": {
+          "ru": "Чувство тела",
+          "en": "Body awareness"
+        }
+      },
+      {
+        "id": "care",
+        "label": {
+          "ru": "Забота",
+          "en": "Care"
+        }
+      },
+      {
+        "id": "causality",
+        "label": {
+          "ru": "Причинность",
+          "en": "Causality"
+        }
+      },
+      {
+        "id": "coming-of-age",
+        "label": {
+          "ru": "Взросление",
+          "en": "Coming of age"
+        }
+      },
+      {
+        "id": "conflict",
+        "label": {
+          "ru": "Конфликт",
+          "en": "Conflict"
+        }
+      },
+      {
+        "id": "control",
+        "label": {
+          "ru": "Контроль",
+          "en": "Control"
+        }
+      },
+      {
+        "id": "coping",
+        "label": {
+          "ru": "Преодоление стресса",
+          "en": "Coping"
+        }
+      },
+      {
+        "id": "courage",
+        "label": {
+          "ru": "Смелость",
+          "en": "Courage"
+        }
+      },
+      {
+        "id": "crisis",
+        "label": {
+          "ru": "Кризис",
+          "en": "Crisis"
+        }
+      },
+      {
+        "id": "decision-making",
+        "label": {
+          "ru": "Принятие решений",
+          "en": "Decision making"
+        }
+      },
+      {
+        "id": "economics",
+        "label": {
+          "ru": "Экономика",
+          "en": "Economics"
+        }
+      },
+      {
+        "id": "ego",
+        "label": {
+          "ru": "Эго",
+          "en": "Ego"
+        }
+      },
+      {
+        "id": "emotions",
+        "label": {
+          "ru": "Эмоции",
+          "en": "Emotions"
+        }
+      },
+      {
+        "id": "essentialism",
+        "label": {
+          "ru": "Эссенциализм",
+          "en": "Essentialism"
+        }
+      },
+      {
+        "id": "ethics",
+        "label": {
+          "ru": "Этика",
+          "en": "Ethics"
+        }
+      },
+      {
+        "id": "evidence",
+        "label": {
+          "ru": "Доказательства",
+          "en": "Evidence"
+        }
+      },
+      {
+        "id": "exercise",
+        "label": {
+          "ru": "Физическая активность",
+          "en": "Exercise"
+        },
+        "aliases": [
+          "тренировки"
+        ]
+      },
+      {
+        "id": "exploration",
+        "label": {
+          "ru": "Исследования и открытия",
+          "en": "Exploration"
+        }
+      },
+      {
+        "id": "fantasy",
+        "label": {
+          "ru": "Фэнтези",
+          "en": "Fantasy"
+        },
+        "aliases": [
+          "фентези"
+        ]
+      },
+      {
+        "id": "finance",
+        "label": {
+          "ru": "Финансы",
+          "en": "Finance"
+        }
+      },
+      {
+        "id": "finitude",
+        "label": {
+          "ru": "Конечность жизни",
+          "en": "Finitude"
+        }
+      },
+      {
+        "id": "flow",
+        "label": {
+          "ru": "Поток",
+          "en": "Flow"
+        }
+      },
+      {
+        "id": "focus",
+        "label": {
+          "ru": "Сосредоточенность",
+          "en": "Focus"
+        }
+      },
+      {
+        "id": "free-will",
+        "label": {
+          "ru": "Свобода воли",
+          "en": "Free will"
+        }
+      },
+      {
+        "id": "future",
+        "label": {
+          "ru": "Будущее",
+          "en": "Future"
+        }
+      },
+      {
+        "id": "habits",
+        "label": {
+          "ru": "Привычки",
+          "en": "Habits"
+        }
+      },
+      {
+        "id": "health",
+        "label": {
+          "ru": "Здоровье",
+          "en": "Health"
+        }
+      },
+      {
+        "id": "history",
+        "label": {
+          "ru": "История",
+          "en": "History"
+        }
+      },
+      {
+        "id": "home",
+        "label": {
+          "ru": "Дом",
+          "en": "Home"
+        }
+      },
+      {
+        "id": "leadership",
+        "label": {
+          "ru": "Лидерство",
+          "en": "Leadership"
+        }
+      },
+      {
+        "id": "learning",
+        "label": {
+          "ru": "Обучение",
+          "en": "Learning"
+        }
+      },
+      {
+        "id": "management",
+        "label": {
+          "ru": "Управление",
+          "en": "Management"
+        },
+        "aliases": [
+          "менеджмент"
+        ]
+      },
+      {
+        "id": "meaning",
+        "label": {
+          "ru": "Смысл",
+          "en": "Meaning"
+        }
+      },
+      {
+        "id": "meditation",
+        "label": {
+          "ru": "Медитация",
+          "en": "Meditation"
+        }
+      },
+      {
+        "id": "memory",
+        "label": {
+          "ru": "Память",
+          "en": "Memory"
+        }
+      },
+      {
+        "id": "mindfulness",
+        "label": {
+          "ru": "Осознанность",
+          "en": "Mindfulness"
+        }
+      },
+      {
+        "id": "movement",
+        "label": {
+          "ru": "Движение",
+          "en": "Movement"
+        }
+      },
+      {
+        "id": "neuroscience",
+        "label": {
+          "ru": "Нейронаука",
+          "en": "Neuroscience"
+        },
+        "aliases": [
+          "нейробиология"
+        ]
+      },
+      {
+        "id": "nutrition",
+        "label": {
+          "ru": "Питание",
+          "en": "Nutrition"
+        }
+      },
+      {
+        "id": "open-models",
+        "label": {
+          "ru": "Открытые модели",
+          "en": "Open models"
+        }
+      },
+      {
+        "id": "operations",
+        "label": {
+          "ru": "Организация работы",
+          "en": "Operations"
+        }
+      },
+      {
+        "id": "optionality",
+        "label": {
+          "ru": "Возможность выбора",
+          "en": "Optionality"
+        }
+      },
+      {
+        "id": "perfectionism",
+        "label": {
+          "ru": "Перфекционизм",
+          "en": "Perfectionism"
+        }
+      },
+      {
+        "id": "philosophy",
+        "label": {
+          "ru": "Философия",
+          "en": "Philosophy"
+        }
+      },
+      {
+        "id": "physiology",
+        "label": {
+          "ru": "Физиология",
+          "en": "Physiology"
+        }
+      },
+      {
+        "id": "pirates",
+        "label": {
+          "ru": "Пираты",
+          "en": "Pirates"
+        }
+      },
+      {
+        "id": "power",
+        "label": {
+          "ru": "Власть",
+          "en": "Power"
+        }
+      },
+      {
+        "id": "practice",
+        "label": {
+          "ru": "Практика",
+          "en": "Practice"
+        }
+      },
+      {
+        "id": "priorities",
+        "label": {
+          "ru": "Приоритеты",
+          "en": "Priorities"
+        }
+      },
+      {
+        "id": "psychology",
+        "label": {
+          "ru": "Психология",
+          "en": "Psychology"
+        }
+      },
+      {
+        "id": "ptsd",
+        "label": {
+          "ru": "Посттравматическое расстройство",
+          "en": "Post-traumatic stress disorder"
+        },
+        "aliases": [
+          "ПТСР"
+        ]
+      },
+      {
+        "id": "quality",
+        "label": {
+          "ru": "Качество",
+          "en": "Quality"
+        }
+      },
+      {
+        "id": "responsibility",
+        "label": {
+          "ru": "Ответственность",
+          "en": "Responsibility"
+        }
+      },
+      {
+        "id": "risk",
+        "label": {
+          "ru": "Риск",
+          "en": "Risk"
+        }
+      },
+      {
+        "id": "road-journey",
+        "label": {
+          "ru": "Путешествие",
+          "en": "Road journey"
+        }
+      },
+      {
+        "id": "science-fiction",
+        "label": {
+          "ru": "Фантастика",
+          "en": "Science fiction"
+        },
+        "aliases": [
+          "sci-fi",
+          "научная фантастика"
+        ]
+      },
+      {
+        "id": "selfhood",
+        "label": {
+          "ru": "Личность",
+          "en": "Selfhood"
+        }
+      },
+      {
+        "id": "singularity",
+        "label": {
+          "ru": "Сингулярность",
+          "en": "Singularity"
+        }
+      },
+      {
+        "id": "sleep",
+        "label": {
+          "ru": "Сон",
+          "en": "Sleep"
+        }
+      },
+      {
+        "id": "social-media",
+        "label": {
+          "ru": "Социальные сети",
+          "en": "Social media"
+        },
+        "aliases": [
+          "соцсети"
+        ]
+      },
+      {
+        "id": "somatics",
+        "label": {
+          "ru": "Соматика",
+          "en": "Somatics"
+        }
+      },
+      {
+        "id": "stoicism",
+        "label": {
+          "ru": "Стоицизм",
+          "en": "Stoicism"
+        },
+        "aliases": [
+          "стоики",
+          "stoic"
+        ]
+      },
+      {
+        "id": "strategy",
+        "label": {
+          "ru": "Стратегия",
+          "en": "Strategy"
+        }
+      },
+      {
+        "id": "stress",
+        "label": {
+          "ru": "Стресс",
+          "en": "Stress"
+        }
+      },
+      {
+        "id": "systems",
+        "label": {
+          "ru": "Системы",
+          "en": "Systems"
+        }
+      },
+      {
+        "id": "time-management",
+        "label": {
+          "ru": "Управление временем",
+          "en": "Time management"
+        },
+        "aliases": [
+          "тайм-менеджмент"
+        ]
+      },
+      {
+        "id": "tranquility",
+        "label": {
+          "ru": "Спокойствие",
+          "en": "Tranquility"
+        }
+      },
+      {
+        "id": "trauma",
+        "label": {
+          "ru": "Психологическая травма",
+          "en": "Trauma"
+        }
+      },
+      {
+        "id": "treatment-evidence",
+        "label": {
+          "ru": "Доказательность лечения",
+          "en": "Treatment evidence"
+        }
+      },
+      {
+        "id": "trust",
+        "label": {
+          "ru": "Доверие",
+          "en": "Trust"
+        }
+      },
+      {
+        "id": "uncertainty",
+        "label": {
+          "ru": "Неопределённость",
+          "en": "Uncertainty"
+        }
+      }
+    ],
+    "legacySections": {
+      "risk-decisions": {
+        "type": "nonfiction",
+        "topic": "thinking-decisions"
+      },
+      "systems-work": {
+        "type": "nonfiction",
+        "topic": "systems-society"
+      },
+      "human-behavior": {
+        "type": "nonfiction",
+        "topic": "psychology-relationships"
+      },
+      "consciousness-calm": {
+        "type": "nonfiction",
+        "topic": "philosophy-meaning"
+      },
+      "health-protocols": {
+        "type": "nonfiction",
+        "topic": "health-body"
+      },
+      "history-power-strategy": {
+        "type": "nonfiction",
+        "topic": "history-power"
+      },
+      "technology-future": {
+        "type": "nonfiction",
+        "topic": "technology-future"
+      },
+      "fiction-adventure": {
+        "type": "fiction"
+      }
+    },
+    "legacyCollections": {
+      "for-son": {
+        "type": "fiction"
+      },
+      "taleb": {
+        "query": "Taleb"
+      },
+      "sapolsky": {
+        "query": "Sapolsky"
+      },
+      "practices": {
+        "type": "nonfiction"
+      },
+      "unassigned": {}
+    }
+  },
+  "sections": [
+    {
+      "id": "risk-decisions",
+      "label": {
+        "ru": "Риск и решения",
+        "en": "Risk and decisions"
+      },
+      "description": {
+        "ru": "Неопределённость, асимметрия и цена выбора.",
+        "en": "Uncertainty, asymmetry and the price of choice."
+      }
+    },
+    {
+      "id": "systems-work",
+      "label": {
+        "ru": "Системы и работа",
+        "en": "Systems and work"
+      },
+      "description": {
+        "ru": "Поток, ограничения, внимание и способы работать лучше.",
+        "en": "Flow, constraints, attention and better ways to work."
+      }
+    },
+    {
+      "id": "human-behavior",
+      "label": {
+        "ru": "Человек и поведение",
+        "en": "Human and behavior"
+      },
+      "description": {
+        "ru": "Биология, культура и механизмы наших поступков.",
+        "en": "Biology, culture and the mechanisms behind our actions."
+      }
+    },
+    {
+      "id": "consciousness-calm",
+      "label": {
+        "ru": "Сознание и спокойствие",
+        "en": "Consciousness and calm"
+      },
+      "description": {
+        "ru": "Внимание, эго, медитация и внутренняя устойчивость.",
+        "en": "Attention, ego, meditation and inner steadiness."
+      }
+    },
+    {
+      "id": "health-protocols",
+      "label": {
+        "ru": "Здоровье и протоколы",
+        "en": "Health and protocols"
+      },
+      "description": {
+        "ru": "Физиология, стресс и практики с границами доказательности.",
+        "en": "Physiology, stress and practices with explicit evidence limits."
+      }
+    },
+    {
+      "id": "history-power-strategy",
+      "label": {
+        "ru": "История, власть и стратегия",
+        "en": "History, power and strategy"
+      },
+      "description": {
+        "ru": "Как кризисы, институты и стратегия меняют мир.",
+        "en": "How crises, institutions and strategy change the world."
+      }
+    },
+    {
+      "id": "technology-future",
+      "label": {
+        "ru": "Технологии и будущее",
+        "en": "Technology and future"
+      },
+      "description": {
+        "ru": "AI, агенты и новые экономические системы.",
+        "en": "AI, agents and emerging economic systems."
+      }
+    },
+    {
+      "id": "fiction-adventure",
+      "label": {
+        "ru": "Фантастика и приключения",
+        "en": "Fiction and adventure"
+      },
+      "description": {
+        "ru": "Миры, путешествия и идеи, которые лучше прожить как историю.",
+        "en": "Worlds, journeys and ideas best experienced as stories."
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "for-son",
+      "label": {
+        "ru": "Сыну · 14+",
+        "en": "For my son · 14+"
+      }
+    },
+    {
+      "id": "taleb",
+      "label": {
+        "ru": "Талеб",
+        "en": "Taleb"
+      }
+    },
+    {
+      "id": "sapolsky",
+      "label": {
+        "ru": "Сапольски",
+        "en": "Sapolsky"
+      }
+    },
+    {
+      "id": "practices",
+      "label": {
+        "ru": "Практики",
+        "en": "Practices"
+      }
+    }
+  ],
+  "books": [
+    {
+      "slug": "skin-in-the-game",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "systems-society",
+        "philosophy-meaning"
+      ],
+      "file": "skin-in-the-game.html",
+      "section": "risk-decisions",
+      "tags": [
+        "risk",
+        "asymmetry",
+        "ethics",
+        "decision-making"
+      ],
+      "collections": [
+        "taleb"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 53,
+      "title": {
+        "ru": "Рискуя собственной шкурой",
+        "en": "Skin in the Game"
+      },
+      "author": {
+        "ru": "Нассим Николас Талеб",
+        "en": "Nassim Nicholas Taleb"
+      },
+      "description": {
+        "ru": "Нассим Николас Талеб: почему последствия нельзя отделить от решений — от банковских премий и кошерного лимонада до свободы, веры и выживания.",
+        "en": "Nassim Nicholas Taleb on keeping consequences tied to decisions—from banking bonuses and kosher lemonade to freedom, belief and survival."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 10,
+        "deep": 14
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "balance",
+        "tone": "red"
+      }
+    },
+    {
+      "slug": "1873",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "history-power",
+        "systems-society"
+      ],
+      "file": "1873.html",
+      "section": "history-power-strategy",
+      "tags": [
+        "history",
+        "economics",
+        "finance",
+        "crisis"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 21,
+      "title": {
+        "ru": "1873 · Лиакват Ахамед",
+        "en": "1873 · Liaquat Ahamed"
+      },
+      "author": {
+        "ru": "Лиакват Ахамед",
+        "en": "Liaquat Ahamed"
+      },
+      "description": {
+        "ru": "Связанный мир, долговой подъём и долгая политическая тень кризиса.",
+        "en": "A connected world, a debt boom and the crisis’s long political shadow."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 6
+      },
+      "cover": {
+        "type": "year",
+        "motif": "crash",
+        "tone": "yellow",
+        "mark": "1873",
+        "label": {
+          "ru": "Первая великая депрессия",
+          "en": "The first great depression"
+        }
+      }
+    },
+    {
+      "slug": "theory-of-constraints",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "thinking-decisions"
+      ],
+      "file": "theory-of-constraints.html",
+      "section": "systems-work",
+      "tags": [
+        "management",
+        "operations",
+        "systems",
+        "flow"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 26,
+      "title": {
+        "ru": "Теория ограничений · корпус Голдратта",
+        "en": "Theory of Constraints · the Goldratt corpus"
+      },
+      "author": {
+        "ru": "Элияху Голдратт · корпус TOC",
+        "en": "Eliyahu Goldratt · the TOC corpus"
+      },
+      "description": {
+        "ru": "Проверенные аргументы и примеры из корпуса: ограничения, поток, BigBrand и «Выбор».",
+        "en": "Verified arguments and examples from the corpus: constraints, flow, BigBrand and The Choice."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 8
+      },
+      "cover": {
+        "type": "constraint",
+        "motif": "bottleneck",
+        "tone": "cyan",
+        "label": {
+          "ru": "Ограничения, поток и «Выбор»",
+          "en": "Constraints, flow and The Choice"
+        }
+      }
+    },
+    {
+      "slug": "hermes-nous",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "technology-future",
+        "systems-society"
+      ],
+      "file": "hermes-nous.html",
+      "section": "technology-future",
+      "tags": [
+        "ai",
+        "agents",
+        "strategy",
+        "open-models"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 22,
+      "title": {
+        "ru": "Hermes & Nous · исследовательский brief",
+        "en": "Hermes & Nous · research brief"
+      },
+      "author": {
+        "ru": "Разбор Мефистофеля · Observatory",
+        "en": "Mefistofel’s brief · Observatory"
+      },
+      "description": {
+        "ru": "Исследовательский brief: открытый агент, платная инфраструктура и гипотезы Observatory.",
+        "en": "Research brief: an open agent, paid infrastructure and Observatory’s hypotheses."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 5,
+        "deep": 7
+      },
+      "cover": {
+        "type": "split",
+        "motif": "relay",
+        "tone": "blue",
+        "left": "Hermes",
+        "right": "Nous",
+        "leftLabel": "Agent",
+        "rightLabel": "Lab"
+      }
+    },
+    {
+      "slug": "essentialism",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "thinking-decisions"
+      ],
+      "file": "essentialism.html",
+      "section": "systems-work",
+      "tags": [
+        "essentialism",
+        "priorities",
+        "attention",
+        "management"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 36,
+      "title": {
+        "ru": "Эссенциализм",
+        "en": "Essentialism"
+      },
+      "author": {
+        "ru": "Грег МакКеон",
+        "en": "Greg McKeown"
+      },
+      "description": {
+        "ru": "Выбрать существенное, отказаться от конкурирующих дел и облегчить выполнение.",
+        "en": "Choose what matters, remove competing commitments, and make execution easier."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 8,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "distill",
+        "tone": "green"
+      }
+    },
+    {
+      "slug": "make-time",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "time-habits"
+      ],
+      "file": "make-time.html",
+      "section": "systems-work",
+      "tags": [
+        "time-management",
+        "attention",
+        "focus",
+        "habits"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 51,
+      "title": {
+        "ru": "Найди время",
+        "en": "Make Time"
+      },
+      "author": {
+        "ru": "Джейк Кнапп и Джон Зерацки",
+        "en": "Jake Knapp & John Zeratsky"
+      },
+      "description": {
+        "ru": "Главное на день, внимание для него, энергия и короткое осмысление результата.",
+        "en": "A daily Highlight, attention for it, energy, and a brief review of the result."
+      },
+      "readingMinutes": {
+        "essential": 6,
+        "core": 11,
+        "deep": 14
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "clock",
+        "tone": "orange"
+      }
+    },
+    {
+      "slug": "four-thousand-weeks",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "philosophy-meaning"
+      ],
+      "file": "four-thousand-weeks.html",
+      "section": "systems-work",
+      "tags": [
+        "finitude",
+        "time-management",
+        "attention",
+        "meaning"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 52,
+      "title": {
+        "ru": "Четыре тысячи недель",
+        "en": "Four Thousand Weeks"
+      },
+      "author": {
+        "ru": "Оливер Беркман",
+        "en": "Oliver Burkeman"
+      },
+      "description": {
+        "ru": "Конечность, выбор, внимание, отдых и время с другими — без обещания успеть всё.",
+        "en": "Finitude, choice, attention, leisure and time with others—without a promise to do everything."
+      },
+      "readingMinutes": {
+        "essential": 6,
+        "core": 10,
+        "deep": 15
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "weeks",
+        "tone": "blue"
+      }
+    },
+    {
+      "slug": "selfie",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "systems-society"
+      ],
+      "file": "selfie.html",
+      "section": "human-behavior",
+      "tags": [
+        "selfhood",
+        "perfectionism",
+        "psychology",
+        "social-media"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 62,
+      "title": {
+        "ru": "Селфи",
+        "en": "Selfie"
+      },
+      "author": {
+        "ru": "Уилл Сторр",
+        "en": "Will Storr"
+      },
+      "description": {
+        "ru": "Как культурная история стала требованием к собственному «я».",
+        "en": "How cultural history became a demand made on the self."
+      },
+      "readingMinutes": {
+        "essential": 8,
+        "core": 11,
+        "deep": 16
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "mirror",
+        "tone": "magenta"
+      }
+    },
+    {
+      "slug": "why-zebras-dont-get-ulcers",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "psychology-relationships"
+      ],
+      "file": "why-zebras-dont-get-ulcers.html",
+      "section": "health-protocols",
+      "tags": [
+        "stress",
+        "physiology",
+        "health",
+        "coping"
+      ],
+      "collections": [
+        "sapolsky"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 51,
+      "title": {
+        "ru": "Почему у зебр не бывает инфаркта",
+        "en": "Why Zebras Don't Get Ulcers"
+      },
+      "author": {
+        "ru": "Роберт Сапольски",
+        "en": "Robert M. Sapolsky"
+      },
+      "description": {
+        "ru": "Как короткая реакция спасения становится хронической нагрузкой: объяснения и примеры Роберта Сапольски.",
+        "en": "How a brief survival response becomes a chronic burden: Robert Sapolsky’s explanations and examples."
+      },
+      "readingMinutes": {
+        "essential": 7,
+        "core": 12,
+        "deep": 15
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "stress",
+        "tone": "green"
+      }
+    },
+    {
+      "slug": "huberman-protocols",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "time-habits"
+      ],
+      "file": "huberman-protocols.html",
+      "section": "health-protocols",
+      "tags": [
+        "sleep",
+        "attention",
+        "evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 22,
+      "title": {
+        "ru": "Protocols · сон, свет и внимание",
+        "en": "Protocols · sleep, light and attention"
+      },
+      "author": {
+        "ru": "Эндрю Хуберман с Джессикой Уопнер",
+        "en": "Andrew Huberman with Jessica Wapner"
+      },
+      "description": {
+        "ru": "Выборочное чтение проверенных страниц книги: замысел, сон, свет и внимание.",
+        "en": "Selected reading of verified book passages: premise, sleep, light and attention."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 6
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "protocol-stack",
+        "tone": "cyan"
+      }
+    },
+    {
+      "slug": "awareness-through-movement",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "health-body"
+      ],
+      "file": "awareness-through-movement.html",
+      "section": "health-protocols",
+      "tags": [
+        "movement",
+        "body-awareness",
+        "learning",
+        "somatics"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 42,
+      "title": {
+        "ru": "Осознавание через движение",
+        "en": "Awareness Through Movement"
+      },
+      "author": {
+        "ru": "Моше Фельденкрайз",
+        "en": "Moshe Feldenkrais"
+      },
+      "description": {
+        "ru": "Моше Фельденкрайз: образ себя, обучение через различение и устройство двенадцати практических уроков.",
+        "en": "Moshe Feldenkrais: self-image, learning through discrimination and the design of twelve practical lessons."
+      },
+      "readingMinutes": {
+        "essential": 6,
+        "core": 10,
+        "deep": 12
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "body-map",
+        "tone": "cyan"
+      },
+      "searchAliases": [
+        "Сознавание через движение"
+      ]
+    },
+    {
+      "slug": "the-body-keeps-the-score",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "psychology-relationships"
+      ],
+      "file": "the-body-keeps-the-score.html",
+      "section": "health-protocols",
+      "tags": [
+        "trauma",
+        "ptsd",
+        "memory",
+        "treatment-evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 41,
+      "title": {
+        "ru": "Тело помнит всё",
+        "en": "The Body Keeps the Score"
+      },
+      "author": {
+        "ru": "Бессел ван дер Колк",
+        "en": "Bessel van der Kolk"
+      },
+      "description": {
+        "ru": "Почему пережитая угроза остаётся в настоящем: клинические истории и поиск восстановления у Бессела ван дер Колка.",
+        "en": "Why past threat remains present: Bessel van der Kolk’s clinical accounts and search for recovery."
+      },
+      "readingMinutes": {
+        "essential": 7,
+        "core": 10,
+        "deep": 12
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "somatic-trace",
+        "tone": "magenta"
+      }
+    },
+    {
+      "slug": "a-guide-to-the-good-life",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "philosophy-meaning",
+        "psychology-relationships"
+      ],
+      "file": "a-guide-to-the-good-life.html",
+      "section": "consciousness-calm",
+      "tags": [
+        "stoicism",
+        "tranquility",
+        "control",
+        "practice"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 36,
+      "title": {
+        "ru": "Радость жизни",
+        "en": "A Guide to the Good Life"
+      },
+      "author": {
+        "ru": "Уильям Б. Ирвин",
+        "en": "William B. Irvine"
+      },
+      "description": {
+        "ru": "Практическое прочтение стоиков Уильямом Ирвином: желания, контроль, обязанности и радость, с его собственными доработками и сомнениями.",
+        "en": "William Irvine’s practical reading of the Stoics: desire, control, duty, and joy, including his own adaptations and doubts."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 9,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "control-field",
+        "tone": "yellow"
+      }
+    },
+    {
+      "slug": "letting-go",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "philosophy-meaning"
+      ],
+      "file": "letting-go.html",
+      "section": "consciousness-calm",
+      "tags": [
+        "emotions",
+        "acceptance",
+        "ego",
+        "evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "adult",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 39,
+      "title": {
+        "ru": "Отпускание",
+        "en": "Letting Go"
+      },
+      "author": {
+        "ru": "Дэвид Р. Хокинс",
+        "en": "David R. Hawkins"
+      },
+      "description": {
+        "ru": "Хокинс о чувствах, привязанности и пути от внутреннего давления к любви, покою и истинному Я.",
+        "en": "Hawkins on feelings, attachment, and the path from inner pressure to love, peace, and the true Self."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 9,
+        "deep": 11
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "open-knot",
+        "tone": "blue"
+      }
+    },
+    {
+      "slug": "the-art-of-war",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "history-power",
+        "thinking-decisions"
+      ],
+      "file": "the-art-of-war.html",
+      "section": "history-power-strategy",
+      "tags": [
+        "strategy",
+        "conflict",
+        "leadership",
+        "evidence"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 36,
+      "title": {
+        "ru": "Искусство войны",
+        "en": "The Art of War"
+      },
+      "author": {
+        "ru": "Сунь-цзы",
+        "en": "Sunzi"
+      },
+      "description": {
+        "ru": "Тринадцать глав о расчёте, цене войны, положении войск и знании противника. Краткий последовательный пересказ трактата.",
+        "en": "Thirteen chapters on assessment, war’s cost, military position, and knowledge of the enemy. A concise connected account of the treatise."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 8,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "terrain",
+        "tone": "red"
+      }
+    },
+    {
+      "slug": "the-hobbit",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "the-hobbit.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "adventure",
+        "courage",
+        "home"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 35,
+      "title": {
+        "ru": "Хоббит — Дж. Р. Р. Толкин",
+        "en": "The Hobbit — J. R. R. Tolkien"
+      },
+      "author": {
+        "ru": "Дж. Р. Р. Толкин",
+        "en": "J. R. R. Tolkien"
+      },
+      "description": {
+        "ru": "Бильбо, тринадцать гномов и дорога к Смаугу. Короткий связный пересказ; вся развязка в Deep.",
+        "en": "Bilbo, thirteen dwarves and the road to Smaug. A concise connected retelling; the resolution stays in Deep."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 7,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "door",
+        "tone": "green"
+      }
+    },
+    {
+      "slug": "a-wizard-of-earthsea",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "a-wizard-of-earthsea.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "coming-of-age",
+        "adventure",
+        "identity"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 28,
+      "title": {
+        "ru": "Волшебник Земноморья",
+        "en": "A Wizard of Earthsea"
+      },
+      "author": {
+        "ru": "Урсула К. Ле Гуин",
+        "en": "Ursula K. Le Guin"
+      },
+      "description": {
+        "ru": "Гед и тень: связный короткий пересказ первого романа. Разгадка только в Deep.",
+        "en": "Ged and the shadow: a concise connected retelling of the first novel. The answer is reserved for Deep."
+      },
+      "readingMinutes": {
+        "essential": 5,
+        "core": 7,
+        "deep": 8
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "archipelago",
+        "tone": "blue"
+      }
+    },
+    {
+      "slug": "treasure-island",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "treasure-island.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "adventure",
+        "pirates",
+        "trust",
+        "coming-of-age"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 96,
+      "title": {
+        "ru": "Остров сокровищ",
+        "en": "Treasure Island"
+      },
+      "author": {
+        "ru": "Роберт Льюис Стивенсон",
+        "en": "Robert Louis Stevenson"
+      },
+      "description": {
+        "ru": "Сундук старого моряка, карта Флинта и плавание, в котором Джиму Хокинсу придётся узнать, кому доверять. Рассказ от лица Джима; полная развязка — в «Глубоко».",
+        "en": "An old sailor’s chest, Flint’s map, and a voyage that forces Jim Hawkins to discover whom he can trust. Told by Jim; the complete ending is in Deep."
+      },
+      "readingMinutes": {
+        "essential": 16,
+        "core": 27,
+        "deep": 53
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "treasure-map",
+        "tone": "yellow"
+      }
+    },
+    {
+      "slug": "the-lost-world",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "the-lost-world.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "evidence",
+        "exploration"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 125,
+      "title": {
+        "ru": "Затерянный мир",
+        "en": "The Lost World"
+      },
+      "author": {
+        "ru": "Артур Конан Дойл",
+        "en": "Arthur Conan Doyle"
+      },
+      "description": {
+        "ru": "Репортёр, два спорящих профессора и путешественник идут к плато, где древние чудовища ещё живы.",
+        "en": "A reporter, two quarrelling professors, and a traveller approach a plateau where prehistoric monsters still live."
+      },
+      "readingMinutes": {
+        "essential": 14,
+        "core": 28,
+        "deep": 50
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "plateau",
+        "tone": "green"
+      }
+    },
+    {
+      "slug": "akselerando",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "file": "akselerando.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "singularity",
+        "ai",
+        "future"
+      ],
+      "collections": [],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 52,
+      "title": {
+        "ru": "Акселерандо",
+        "en": "Accelerando"
+      },
+      "author": {
+        "ru": "Чарльз Стросс",
+        "en": "Charles Stross"
+      },
+      "description": {
+        "ru": "Три поколения Максов пытаются жить в будущем, которое сами помогли запустить. Краткий пересказ романа; поздние события и развязка только в Deep.",
+        "en": "Three generations of the Macx family try to live in the future they helped set in motion. A concise retelling; later events and the ending are in Deep."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 8,
+        "deep": 15
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "acceleration",
+        "tone": "orange"
+      }
+    },
+    {
+      "slug": "mindfulness",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "time-habits",
+        "philosophy-meaning"
+      ],
+      "file": "mindfulness.html",
+      "section": "consciousness-calm",
+      "tags": [
+        "mindfulness",
+        "attention",
+        "meditation",
+        "practice"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 30,
+      "title": {
+        "ru": "Осознанность",
+        "en": "Mindfulness"
+      },
+      "author": {
+        "ru": "Марк Уильямс и Денни Пенман",
+        "en": "Mark Williams & Danny Penman"
+      },
+      "description": {
+        "ru": "Как выйти из круга автоматических реакций: объяснение Уильямса и Пенмана и последовательность восьми недель.",
+        "en": "Williams and Penman’s account of automatic reactions and the sequence of eight weeks."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 8,
+        "deep": 9
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "NOTICE / RETURN",
+        "motif": "attention-return",
+        "tone": "cyan"
+      }
+    },
+    {
+      "slug": "behave",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "psychology-relationships",
+        "health-body",
+        "systems-society"
+      ],
+      "file": "behave.html",
+      "section": "human-behavior",
+      "tags": [
+        "biology",
+        "behavior",
+        "neuroscience",
+        "causality"
+      ],
+      "collections": [
+        "sapolsky"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 22,
+      "title": {
+        "ru": "Биология добра и зла",
+        "en": "Behave"
+      },
+      "author": {
+        "ru": "Роберт Сапольски",
+        "en": "Robert Sapolsky"
+      },
+      "description": {
+        "ru": "Сапольски: от одного поступка к истории его причин.",
+        "en": "Sapolsky: from one act to the history of its causes."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 7
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "CAUSES / CONTEXT",
+        "motif": "causal-layers",
+        "tone": "orange"
+      }
+    },
+    {
+      "slug": "determined",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "philosophy-meaning",
+        "psychology-relationships"
+      ],
+      "section": "human-behavior",
+      "tags": [
+        "free-will",
+        "causality",
+        "ethics",
+        "neuroscience"
+      ],
+      "collections": [
+        "sapolsky"
+      ],
+      "title": {
+        "ru": "Determined · Роберт Сапольски",
+        "en": "Determined · Robert Sapolsky"
+      },
+      "author": {
+        "ru": "Роберт Сапольски",
+        "en": "Robert Sapolsky"
+      },
+      "description": {
+        "ru": "Намерение, усилие, наказание и заслуга в доводе Сапольски.",
+        "en": "Intention, effort, punishment and desert in Sapolsky’s argument."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 6
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "BEFORE / CHOICE",
+        "motif": "inherited-path",
+        "tone": "blue"
+      },
+      "file": "determined.html",
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 21,
+      "searchAliases": [
+        "Всё решено"
+      ]
+    },
+    {
+      "slug": "zen-and-the-art-of-motorcycle-maintenance",
+      "workTypes": [
+        "fiction",
+        "nonfiction"
+      ],
+      "genres": [
+        "life-people"
+      ],
+      "subjects": [
+        "philosophy-meaning",
+        "thinking-decisions"
+      ],
+      "workTypeLabel": {
+        "ru": "Философский роман",
+        "en": "Philosophical novel"
+      },
+      "section": "consciousness-calm",
+      "tags": [
+        "philosophy",
+        "quality",
+        "care",
+        "road-journey"
+      ],
+      "collections": [],
+      "title": {
+        "ru": "Дзен и искусство ухода за мотоциклом",
+        "en": "Zen and the Art of Motorcycle Maintenance"
+      },
+      "author": {
+        "ru": "Роберт М. Пирсиг",
+        "en": "Robert M. Pirsig"
+      },
+      "description": {
+        "ru": "Отец и Крис едут на запад; за разговором о мотоцикле возвращается история Федра и начинается поиск Качества.",
+        "en": "A father and Chris ride west; talk about the motorcycle brings back Phaedrus’s history and opens an inquiry into Quality."
+      },
+      "readingMinutes": {
+        "essential": 7,
+        "core": 12,
+        "deep": 17
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "CARE / QUALITY",
+        "motif": "quality-bridge",
+        "tone": "green"
+      },
+      "file": "zen-and-the-art-of-motorcycle-maintenance.html",
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 52
+    },
+    {
+      "slug": "antifragile",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "systems-society"
+      ],
+      "file": "antifragile.html",
+      "section": "risk-decisions",
+      "tags": [
+        "risk",
+        "uncertainty",
+        "optionality",
+        "systems"
+      ],
+      "collections": [
+        "taleb"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "screenCount": 24,
+      "title": {
+        "ru": "Антихрупкость",
+        "en": "Antifragile"
+      },
+      "author": {
+        "ru": "Нассим Николас Талеб",
+        "en": "Nassim Nicholas Taleb"
+      },
+      "description": {
+        "ru": "Как Талеб связывает встряску, опциональность, открытие и ответственность.",
+        "en": "How Taleb connects disturbance, optionality, discovery and responsibility."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 7
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "GAIN / DISORDER",
+        "motif": "convex-response",
+        "tone": "orange"
+      }
+    },
+    {
+      "slug": "children-of-captain-grant",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "children-of-captain-grant.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "adventure",
+        "exploration",
+        "evidence",
+        "trust"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 37,
+      "title": {
+        "ru": "Дети капитана Гранта",
+        "en": "The Children of Captain Grant"
+      },
+      "author": {
+        "ru": "Жюль Верн",
+        "en": "Jules Verne"
+      },
+      "description": {
+        "ru": "Бутылка, обрывки письма и двое детей, которые ещё надеются найти отца.",
+        "en": "A bottle, a damaged message, and two children who still hope to find their father."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 7,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "37°11′ S",
+        "motif": "latitude-search",
+        "tone": "blue"
+      }
+    },
+    {
+      "slug": "white-fang",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "file": "white-fang.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "adventure",
+        "learning",
+        "trust",
+        "power"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 36,
+      "title": {
+        "ru": "Белый Клык",
+        "en": "White Fang"
+      },
+      "author": {
+        "ru": "Джек Лондон",
+        "en": "Jack London"
+      },
+      "description": {
+        "ru": "Серый волчонок выходит из пещеры в мир голода, людей и чужой воли.",
+        "en": "A grey cub leaves his cave for a world of hunger, people, and other creatures’ power."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "TRUST / PRESSURE",
+        "motif": "conditioned-trust",
+        "tone": "green"
+      }
+    },
+    {
+      "slug": "i-robot",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "file": "i-robot.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "uncertainty",
+        "trust",
+        "care"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 53,
+      "title": {
+        "ru": "Я, робот · Айзек Азимов",
+        "en": "I, Robot · Isaac Asimov"
+      },
+      "author": {
+        "ru": "Айзек Азимов",
+        "en": "Isaac Asimov"
+      },
+      "description": {
+        "ru": "Девять рассказов Азимова в кратком сюжетном пересказе: Робби, Пауэлл, Донован и воспоминания Сьюзен Кэлвин. Развязки только в Deep.",
+        "en": "A concise narrative retelling of Asimov’s nine stories: Robbie, Powell, Donovan and Susan Calvin’s recollections. Resolutions only in Deep."
+      },
+      "readingMinutes": {
+        "essential": 7,
+        "core": 9,
+        "deep": 16
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "THREE / LAWS",
+        "motif": "rule-loop",
+        "tone": "cyan"
+      }
+    },
+    {
+      "slug": "the-two-captains",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "file": "the-two-captains.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "exploration",
+        "evidence",
+        "courage",
+        "responsibility"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 144,
+      "title": {
+        "ru": "Два капитана",
+        "en": "The Two Captains"
+      },
+      "author": {
+        "ru": "Вениамин Каверин",
+        "en": "Veniamin Kaverin"
+      },
+      "description": {
+        "ru": "Взросление и поиск на Севере: как услышанный рассказ становится вопросом к доказательствам и собственной ответственности. Развязка — только в Deep.",
+        "en": "Growing up and searching in the North: how a story becomes a question of evidence and personal responsibility. The resolution stays in Deep."
+      },
+      "readingMinutes": {
+        "essential": 11,
+        "core": 27,
+        "deep": 42
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "VOICE / BEARING",
+        "motif": "testimony-compass",
+        "tone": "blue"
+      }
+    },
+    {
+      "slug": "the-wee-free-men",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "the-wee-free-men.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "adventure",
+        "coming-of-age",
+        "care"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 37,
+      "title": {
+        "ru": "Терри Пратчетт — Маленький свободный народец",
+        "en": "Terry Pratchett — The Wee Free Men"
+      },
+      "author": {
+        "ru": "Терри Пратчетт",
+        "en": "Terry Pratchett"
+      },
+      "description": {
+        "ru": "Краткий приключенческий пересказ первого романа о Тиффани. RU/EN; развязка только в Deep после предупреждения.",
+        "en": "A concise adventure retelling of the first Tiffany novel. RU/EN; ending only in Deep after a warning."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 7,
+        "deep": 11
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "CHALK",
+        "motif": "chalk-boundary",
+        "tone": "yellow"
+      }
+    },
+    {
+      "slug": "the-hitchhikers-guide-to-the-galaxy",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "the-hitchhikers-guide-to-the-galaxy.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "uncertainty"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 36,
+      "title": {
+        "ru": "Автостопом по галактике",
+        "en": "The Hitchhiker’s Guide to the Galaxy"
+      },
+      "author": {
+        "ru": "Дуглас Адамс",
+        "en": "Douglas Adams"
+      },
+      "description": {
+        "ru": "Дуглас Адамс: дом Артура сносят, Земля следующая, а спасение только начинает неприятности. Краткая история первого романа на RU/EN; поздние тайны и финал только в Deep.",
+        "en": "Douglas Adams: Arthur’s house is being demolished, Earth is next, and rescue only begins the trouble. A concise RU/EN story of the first novel; late revelations and the ending only in Deep."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 9
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "GUIDE / QUESTION",
+        "motif": "scale-question",
+        "tone": "magenta"
+      }
+    },
+    {
+      "slug": "amphibian-man",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "file": "amphibian-man.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "home",
+        "trust"
+      ],
+      "collections": [
+        "for-son"
+      ],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "screenCount": 35,
+      "title": {
+        "ru": "Человек-амфибия",
+        "en": "Amphibian Man"
+      },
+      "author": {
+        "ru": "Александр Беляев",
+        "en": "Alexander Belyaev"
+      },
+      "description": {
+        "ru": "Тайный сад, подводный дом и первая любовь Ихтиандра. Сокращённая история; развязка только в Deep.",
+        "en": "A secret garden, an underwater home and Ichthyander’s first love. A condensed story; resolution only in Deep."
+      },
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 10
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "sea-air",
+        "tone": "cyan"
+      }
+    },
+    {
+      "slug": "monday-begins-on-saturday",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "science-fiction"
+      ],
+      "subjects": [],
+      "file": "monday-begins-on-saturday.html",
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "science-fiction",
+        "learning"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "title": {
+        "ru": "Понедельник начинается в субботу",
+        "en": "Monday Begins on Saturday"
+      },
+      "author": {
+        "ru": "Аркадий и Борис Стругацкие",
+        "en": "Arkady and Boris Strugatsky"
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "enchanted-lab",
+        "tone": "magenta"
+      },
+      "screenCount": 29,
+      "description": {
+        "ru": "Программист, говорящий кот и институт волшебников. Сокращённая история; исходы опытов и поздняя загадка — в Deep.",
+        "en": "A programmer, a talking cat and an institute of wizards. A condensed story; experimental outcomes and the late mystery are in Deep."
+      },
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 8
+      }
+    },
+    {
+      "slug": "hard-to-be-a-god",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "power",
+        "conflict"
+      ],
+      "collections": [],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Аркадий и Борис Стругацкие",
+        "en": "Arkady and Boris Strugatsky"
+      },
+      "title": {
+        "ru": "Трудно быть богом",
+        "en": "Hard to Be a God"
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "watchtower",
+        "tone": "red"
+      },
+      "file": "hard-to-be-a-god.html",
+      "description": {
+        "ru": "Под именем дона Руматы землянин Антон ищет пропавшего врача в Арканаре, где арестовывают учёных и поэтов. Он пытается спасти друзей, не снимая дворянской маски.",
+        "en": "Under the name Don Rumata, Anton from Earth searches for a missing physician in Arkanar, where scholars and poets are being arrested. He tries to save his friends while maintaining his disguise as a nobleman."
+      },
+      "screenCount": 94,
+      "readingMinutes": {
+        "essential": 9,
+        "core": 23,
+        "deep": 46
+      }
+    },
+    {
+      "slug": "adventures-of-huckleberry-finn",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "adventure",
+        "road-journey",
+        "trust",
+        "coming-of-age"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Марк Твен",
+        "en": "Mark Twain"
+      },
+      "title": {
+        "ru": "Приключения Гекльберри Финна",
+        "en": "Adventures of Huckleberry Finn"
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "river-raft",
+        "tone": "blue"
+      },
+      "file": "adventures-of-huckleberry-finn.html",
+      "description": {
+        "ru": "Хак бежит от отца, Джим — от продажи. Их плот уносит по Миссисипи к опасным встречам и трудному выбору.",
+        "en": "Huck escapes his father; Jim escapes a threatened sale. Their raft takes them down the Mississippi towards dangerous encounters and a difficult choice."
+      },
+      "screenCount": 54,
+      "readingMinutes": {
+        "essential": 11,
+        "core": 16,
+        "deep": 24
+      }
+    },
+    {
+      "slug": "nonviolent-communication",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "psychology-relationships"
+      ],
+      "section": "human-behavior",
+      "tags": [
+        "conflict",
+        "emotions",
+        "care",
+        "practice"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Маршалл Розенберг",
+        "en": "Marshall B. Rosenberg"
+      },
+      "title": {
+        "ru": "Ненасильственное общение",
+        "en": "Nonviolent Communication"
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "needs-bridge",
+        "tone": "green"
+      },
+      "file": "nonviolent-communication.html",
+      "description": {
+        "ru": "Наблюдения, чувства, потребности и просьбы: центральный метод Розенберга, его случаи, добровольность и границы.",
+        "en": "Observations, feelings, needs and requests: Rosenberg’s central method, his cases, willingness and boundaries."
+      },
+      "screenCount": 30,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 8,
+        "deep": 9
+      }
+    },
+    {
+      "slug": "the-fifth-discipline",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society"
+      ],
+      "section": "systems-work",
+      "tags": [
+        "systems",
+        "learning",
+        "management"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Питер Сенге",
+        "en": "Peter M. Senge"
+      },
+      "title": {
+        "ru": "Пятая дисциплина",
+        "en": "The Fifth Discipline"
+      },
+      "cover": {
+        "type": "typographic",
+        "motif": "five-disciplines",
+        "tone": "cyan"
+      },
+      "file": "the-fifth-discipline.html",
+      "description": {
+        "ru": "Пять дисциплин совместного обучения: как наши решения создают общую реальность и как учиться менять её.",
+        "en": "Five disciplines of collective learning: how our decisions create a shared reality and how we can learn to change it."
+      },
+      "screenCount": 29,
+      "readingMinutes": {
+        "essential": 4,
+        "core": 7,
+        "deep": 9
+      }
+    },
+    {
+      "slug": "meditations",
+      "file": "meditations.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "philosophy-meaning"
+      ],
+      "section": "consciousness-calm",
+      "tags": [
+        "stoicism",
+        "philosophy",
+        "ethics",
+        "finitude"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "title": {
+        "ru": "Наедине с собой",
+        "en": "Meditations"
+      },
+      "author": {
+        "ru": "Марк Аврелий",
+        "en": "Marcus Aurelius"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "COMMON REASON",
+        "motif": "common-city",
+        "tone": "green"
+      },
+      "description": {
+        "ru": "Личные записи Марка Аврелия: благодарность, суждение, справедливость, общая природа и смерть. Связное тематическое сокращение с проверенными цитатами Роговина и Лонга.",
+        "en": "Marcus Aurelius’s personal notes on gratitude, judgment, justice, universal nature, and death. A connected thematic condensation with checked quotations from Rogovin and Long."
+      },
+      "screenCount": 39,
+      "readingMinutes": {
+        "essential": 7,
+        "core": 11,
+        "deep": 14
+      }
+    },
+    {
+      "slug": "the-left-hand-of-darkness",
+      "file": "the-left-hand-of-darkness.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "trust",
+        "exploration",
+        "power"
+      ],
+      "collections": [],
+      "audience": "adult",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Урсула К. Ле Гуин",
+        "en": "Ursula K. Le Guin"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "WINTER / GETHEN",
+        "motif": "ice-crossing",
+        "tone": "blue"
+      },
+      "title": {
+        "ru": "Левая рука Тьмы",
+        "en": "The Left Hand of Darkness"
+      },
+      "description": {
+        "ru": "Генли Ай пытается связать Гетен с другими мирами и понять человека, которому не доверяет. Самостоятельный роман; развязка в Deep.",
+        "en": "Genly Ai tries to connect Gethen with other worlds and understand the person he distrusts. The standalone novel; ending in Deep."
+      },
+      "screenCount": 35,
+      "readingMinutes": {
+        "essential": 3,
+        "core": 4,
+        "deep": 9
+      }
+    },
+    {
+      "slug": "atomic-habits",
+      "file": "atomic-habits.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "time-habits",
+        "psychology-relationships"
+      ],
+      "section": "human-behavior",
+      "tags": [
+        "habits",
+        "identity",
+        "behavior",
+        "environment"
+      ],
+      "collections": [
+        "practices"
+      ],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Джеймс Клир",
+        "en": "James Clear"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "SMALL CHANGES",
+        "motif": "habit-cycle",
+        "tone": "green"
+      },
+      "title": {
+        "ru": "Атомные привычки",
+        "en": "Atomic Habits"
+      },
+      "description": {
+        "ru": "Связное изложение метода Джеймса Клира: от систем и идентичности до четырёх законов и возвращения после пропуска.",
+        "en": "A connected account of James Clear’s method, from systems and identity to four laws and recovery after a miss."
+      },
+      "screenCount": 24,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 8,
+        "deep": 10
+      }
+    },
+    {
+      "slug": "thinking-fast-and-slow",
+      "file": "thinking-fast-and-slow.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "psychology-relationships"
+      ],
+      "section": "risk-decisions",
+      "tags": [
+        "decision-making",
+        "uncertainty",
+        "risk",
+        "psychology"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Даниэль Канеман",
+        "en": "Daniel Kahneman"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "TWO FRAMES",
+        "motif": "dual-frame",
+        "tone": "yellow"
+      },
+      "title": {
+        "ru": "Думай медленно… Решай быстро",
+        "en": "Thinking, Fast and Slow"
+      },
+      "description": {
+        "ru": "Как рождается уверенный ответ: эксперименты Канемана и Тверски, проверка экспертной интуиции, выбор под риском и различие между прожитой жизнью и памятью о ней.",
+        "en": "How a confident answer arises: Kahneman and Tversky’s experiments, tests of expert intuition, choices under risk, and the difference between lived experience and memory."
+      },
+      "screenCount": 110,
+      "readingMinutes": {
+        "essential": 15,
+        "core": 39,
+        "deep": 57
+      }
+    },
+    {
+      "slug": "thinking-in-systems",
+      "file": "thinking-in-systems.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society"
+      ],
+      "section": "systems-work",
+      "tags": [
+        "systems",
+        "control",
+        "environment",
+        "learning"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Донелла Медоуз",
+        "en": "Donella Meadows"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "STOCK / FLOW",
+        "motif": "stock-flow",
+        "tone": "cyan"
+      },
+      "title": {
+        "ru": "Азбука системного мышления",
+        "en": "Thinking in Systems"
+      },
+      "description": {
+        "ru": "Аргумент Донеллы Медоуз о поведении систем и возможностях изменения без обещания полного контроля.",
+        "en": "Donella Meadows’s argument about system behavior and change without a promise of complete control."
+      },
+      "screenCount": 25,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 9,
+        "deep": 10
+      }
+    },
+    {
+      "slug": "project-hail-mary",
+      "file": "project-hail-mary.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "exploration",
+        "uncertainty"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Энди Вейр",
+        "en": "Andy Weir"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "UNKNOWN",
+        "motif": "two-orbits",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Проект «Аве Мария»",
+        "en": "Project Hail Mary"
+      },
+      "description": {
+        "ru": "Человек без памяти пытается понять, кто он и почему проснулся здесь. Начало без дальнейших открытий; полный сюжет только в Deep.",
+        "en": "A man without memory tries to discover who he is and why he woke here. Later discoveries and the complete plot are reserved for Deep."
+      },
+      "screenCount": 36,
+      "readingMinutes": {
+        "essential": 2,
+        "core": 4,
+        "deep": 9
+      }
+    },
+    {
+      "slug": "the-giver",
+      "file": "the-giver.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "life-people"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "memory",
+        "coming-of-age",
+        "control",
+        "care"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "spoilerPolicy": "full-plot-in-deep",
+      "author": {
+        "ru": "Лоис Лоури",
+        "en": "Lois Lowry"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "MEMORY",
+        "motif": "memory-spectrum",
+        "tone": "magenta"
+      },
+      "title": {
+        "ru": "Дающий",
+        "en": "The Giver"
+      },
+      "description": {
+        "ru": "Джонас получает необычное назначение и начинает узнавать мир, которого его община не помнит. Краткий рассказ по первому роману цикла Лоис Лоури.",
+        "en": "An unusual Assignment leads Jonas into a world his community no longer remembers. A concise retelling of the first novel in Lois Lowry’s Giver Quartet."
+      },
+      "screenCount": 27,
+      "readingMinutes": {
+        "essential": 3,
+        "core": 4,
+        "deep": 6
+      }
+    },
+    {
+      "slug": "governing-the-commons",
+      "file": "governing-the-commons.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "history-power"
+      ],
+      "section": "systems-work",
+      "tags": [
+        "systems",
+        "economics",
+        "environment",
+        "power"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Элинор Остром",
+        "en": "Elinor Ostrom"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "COMMONS",
+        "motif": "commons-rules",
+        "tone": "green"
+      },
+      "title": {
+        "ru": "Управляя общим",
+        "en": "Governing the Commons"
+      },
+      "description": {
+        "ru": "Элинор Остром: общие ресурсы, реальные институты самоуправления, их устойчивость и неудачи.",
+        "en": "Elinor Ostrom on common-pool resources, actual self-governing institutions, endurance and failure."
+      },
+      "screenCount": 33,
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 8
+      }
+    },
+    {
+      "slug": "the-structure-of-scientific-revolutions",
+      "file": "the-structure-of-scientific-revolutions.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "thinking-decisions",
+        "philosophy-meaning"
+      ],
+      "section": "risk-decisions",
+      "tags": [
+        "evidence",
+        "history",
+        "learning",
+        "uncertainty"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Томас С. Кун",
+        "en": "Thomas S. Kuhn"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "PARADIGM",
+        "motif": "paradigm-shift",
+        "tone": "blue"
+      },
+      "title": {
+        "ru": "Структура научных революций",
+        "en": "The Structure of Scientific Revolutions"
+      },
+      "description": {
+        "ru": "Аргумент Куна о нормальной науке, аномалиях, кризисе, несоизмеримости и прогрессе — с его историческими примерами и уточнениями послесловия 1969 года.",
+        "en": "Kuhn’s argument about normal science, anomaly, crisis, incommensurability and progress, with his historical cases and the qualifications of the 1969 postscript."
+      },
+      "screenCount": 35,
+      "readingMinutes": {
+        "essential": 6,
+        "core": 10,
+        "deep": 13
+      }
+    },
+    {
+      "slug": "seeing-like-a-state",
+      "file": "seeing-like-a-state.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "systems-society",
+        "history-power"
+      ],
+      "section": "history-power-strategy",
+      "tags": [
+        "systems",
+        "power",
+        "control",
+        "history"
+      ],
+      "collections": [],
+      "audience": "general",
+      "spoilerPolicy": "not-applicable",
+      "author": {
+        "ru": "Джеймс К. Скотт",
+        "en": "James C. Scott"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "MAP / GROUND",
+        "motif": "legibility-grid",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Благими намерениями государства",
+        "en": "Seeing Like a State"
+      },
+      "description": {
+        "ru": "Лес, город и хозяйство в аргументе Скотта о читаемости, высоком модернизме и практическом знании.",
+        "en": "Forests, cities and farming in Scott’s argument about legibility, high modernism and practical knowledge."
+      },
+      "screenCount": 31,
+      "readingMinutes": {
+        "essential": 6,
+        "core": 8,
+        "deep": 10
+      }
+    },
+    {
+      "slug": "howls-moving-castle",
+      "file": "howls-moving-castle.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "adventure",
+        "home",
+        "identity"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "author": {
+        "ru": "Диана Уинн Джонс",
+        "en": "Diana Wynne Jones"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "HOWL",
+        "motif": "moving-hearth",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Ходячий замок",
+        "en": "Howl’s Moving Castle"
+      },
+      "description": {
+        "ru": "Заколдованная Софи поселяется в замке Хаула и договаривается с огненным демоном. Краткая история по роману 1986 года.",
+        "en": "Cursed Sophie moves into Howl’s castle and bargains with a fire demon. A concise story drawn from the 1986 novel."
+      },
+      "screenCount": 39,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 8,
+        "deep": 13
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "northern-lights",
+      "file": "northern-lights.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "adventure",
+        "exploration",
+        "trust"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "author": {
+        "ru": "Филип Пулман",
+        "en": "Philip Pullman"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "NORTH",
+        "motif": "north-needle",
+        "tone": "cyan"
+      },
+      "title": {
+        "ru": "Северное сияние",
+        "en": "Northern Lights"
+      },
+      "description": {
+        "ru": "Лира и её деймон идут за похищенными детьми на Север. Первый роман «Тёмных начал»; вся развязка только в Deep.",
+        "en": "Lyra and her dæmon follow the kidnapped children north. The first His Dark Materials novel; full outcomes only in Deep."
+      },
+      "screenCount": 43,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 6,
+        "deep": 11
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "enders-game",
+      "file": "enders-game.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "conflict",
+        "learning",
+        "identity"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "author": {
+        "ru": "Орсон Скотт Кард",
+        "en": "Orson Scott Card"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "ENDER",
+        "motif": "null-gravity",
+        "tone": "blue"
+      },
+      "title": {
+        "ru": "Игра Эндера",
+        "en": "Ender’s Game"
+      },
+      "description": {
+        "ru": "Орсон Скотт Кард. Роман 1985 года: маленький Эндер Виггин, его брат и сестра и школа, из которой трудно выйти прежним. Развязка только в Deep.",
+        "en": "Orson Scott Card’s 1985 novel: young Ender Wiggin, his brother and sister, and a school that changes its pupils. The ending is reserved for Deep."
+      },
+      "screenCount": 39,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 7,
+        "deep": 10
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "to-kill-a-mockingbird",
+      "file": "to-kill-a-mockingbird.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "life-people"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "coming-of-age",
+        "care",
+        "courage",
+        "power"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "author": {
+        "ru": "Харпер Ли",
+        "en": "Harper Lee"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "MAYCOMB",
+        "motif": "shutter-court",
+        "tone": "yellow"
+      },
+      "title": {
+        "ru": "Убить пересмешника",
+        "en": "To Kill a Mockingbird"
+      },
+      "description": {
+        "ru": "Скаут и Джем пытаются увидеть загадочного соседа, пока их отец защищает Тома Робинсона. Связный сокращённый пересказ романа Харпер Ли 1960 года. Приговор и последние сцены — только в Deep.",
+        "en": "Scout and Jem try to see their mysterious neighbour while their father defends Tom Robinson. An original condensed retelling of Harper Lee’s 1960 novel. The verdict and final scenes appear only in Deep."
+      },
+      "screenCount": 41,
+      "readingMinutes": {
+        "essential": 4,
+        "core": 7,
+        "deep": 9
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "holes",
+      "file": "holes.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "adventure",
+        "life-people"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "adventure",
+        "coming-of-age",
+        "trust",
+        "history"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "author": {
+        "ru": "Луис Сэкер",
+        "en": "Louis Sachar"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "HOLES",
+        "motif": "dry-lake",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Ямы",
+        "en": "Holes"
+      },
+      "description": {
+        "ru": "Стэнли Елнатс в лагере без озера: ямы, тайная находка и дружба с молчаливым Зеро. Роман Луиса Сэкера в кратком повествовании.",
+        "en": "Stanley Yelnats at a camp without a lake: holes, a mysterious find and a friendship with quiet Zero. A concise narrative of Louis Sachar’s novel."
+      },
+      "screenCount": 39,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 7,
+        "deep": 11
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "have-space-suit-will-travel",
+      "file": "have-space-suit-will-travel.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "adventure",
+        "exploration",
+        "learning"
+      ],
+      "collections": [],
+      "audience": "teen-14-plus",
+      "author": {
+        "ru": "Роберт Хайнлайн",
+        "en": "Robert A. Heinlein"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "OSCAR",
+        "motif": "suit-radio",
+        "tone": "magenta"
+      },
+      "title": {
+        "ru": "Имею скафандр — готов путешествовать · Роберт Хайнлайн",
+        "en": "Have Space Suit—Will Travel · Robert A. Heinlein"
+      },
+      "description": {
+        "ru": "Кип чинит выигранный скафандр, отвечает на чужой радиовызов и попадает в приключение с Пьюи и Матерью.",
+        "en": "Kip restores a prize spacesuit, answers a stranger’s radio call, and is drawn into an adventure with Peewee and the Mother Thing."
+      },
+      "screenCount": 38,
+      "readingMinutes": {
+        "essential": 6,
+        "core": 8,
+        "deep": 12
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "dune",
+      "file": "dune.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "environment",
+        "power",
+        "adventure"
+      ],
+      "collections": [],
+      "audience": "adult",
+      "author": {
+        "ru": "Фрэнк Герберт",
+        "en": "Frank Herbert"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "ARRAKIS",
+        "motif": "desert-cycle",
+        "tone": "orange"
+      },
+      "title": {
+        "ru": "Дюна — Фрэнк Герберт",
+        "en": "Dune — Frank Herbert"
+      },
+      "description": {
+        "ru": "Сын герцога прибывает на Арракис, где пряность, вода и чужие замыслы определяют каждый шаг. Первый роман; развязка только в Deep.",
+        "en": "A duke’s son reaches Arrakis, where spice, water and other people’s designs shape every move. The first novel; ending only in Deep."
+      },
+      "screenCount": 38,
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 11
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "the-potent-self",
+      "file": "the-potent-self.html",
+      "workTypes": [
+        "nonfiction"
+      ],
+      "genres": [],
+      "subjects": [
+        "health-body",
+        "psychology-relationships"
+      ],
+      "section": "health-protocols",
+      "tags": [
+        "somatics",
+        "movement",
+        "learning",
+        "body-awareness"
+      ],
+      "collections": [],
+      "audience": "general",
+      "author": {
+        "ru": "Моше Фельденкрайз",
+        "en": "Moshe Feldenkrais"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "ACTION",
+        "motif": "unforced-motion",
+        "tone": "cyan"
+      },
+      "title": {
+        "ru": "The Potent Self",
+        "en": "The Potent Self"
+      },
+      "description": {
+        "ru": "Моше Фельденкрайз: от конкурирующих мотивов к переобучению действию. Краткое изложение по выбранным авторским фрагментам и подробному разбору Марка Риза.",
+        "en": "Moshe Feldenkrais: from competing motivations to relearning action. A concise account based on selected author passages and Mark Reese's detailed discussion."
+      },
+      "screenCount": 21,
+      "readingMinutes": {
+        "essential": 4,
+        "core": 6,
+        "deep": 7
+      },
+      "spoilerPolicy": "not-applicable"
+    },
+    {
+      "slug": "solaris",
+      "file": "solaris.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "memory",
+        "uncertainty",
+        "identity"
+      ],
+      "collections": [],
+      "audience": "adult",
+      "author": {
+        "ru": "Станислав Лем",
+        "en": "Stanisław Lem"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "OCEAN",
+        "motif": "ocean-station",
+        "tone": "blue"
+      },
+      "title": {
+        "ru": "Солярис",
+        "en": "Solaris"
+      },
+      "description": {
+        "ru": "Пустая станция над чужим океаном. Крис Кельвин встречает женщину, которую потерял десять лет назад. Краткое изложение романа Станислава Лема своими словами.",
+        "en": "An empty station above an alien ocean. Kris Kelvin meets the woman he lost ten years ago. A concise original-word retelling of Stanisław Lem’s novel."
+      },
+      "screenCount": 32,
+      "readingMinutes": {
+        "essential": 3,
+        "core": 5,
+        "deep": 9
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "flowers-for-algernon",
+      "file": "flowers-for-algernon.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "science-fiction",
+        "life-people"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "science-fiction",
+        "memory",
+        "identity",
+        "care"
+      ],
+      "collections": [],
+      "audience": "general",
+      "author": {
+        "ru": "Дэниел Киз",
+        "en": "Daniel Keyes"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "CHARLIE",
+        "motif": "maze-trace",
+        "tone": "green"
+      },
+      "title": {
+        "ru": "Цветы для Элджернона",
+        "en": "Flowers for Algernon"
+      },
+      "description": {
+        "ru": "Чарли, Элджернон и опыт, который меняет их жизнь. Роман 1966 года в кратком пересказе. Развязка — только в Deep.",
+        "en": "Charlie, Algernon and the experiment that changes their lives. A brief retelling of the 1966 novel. The resolution is reserved for Deep."
+      },
+      "screenCount": 34,
+      "readingMinutes": {
+        "essential": 4,
+        "core": 7,
+        "deep": 10
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    },
+    {
+      "slug": "the-neverending-story",
+      "file": "the-neverending-story.html",
+      "workTypes": [
+        "fiction"
+      ],
+      "genres": [
+        "fantasy",
+        "adventure"
+      ],
+      "subjects": [],
+      "section": "fiction-adventure",
+      "tags": [
+        "fantasy",
+        "adventure",
+        "identity",
+        "home"
+      ],
+      "collections": [],
+      "audience": "general",
+      "author": {
+        "ru": "Михаэль Энде",
+        "en": "Michael Ende"
+      },
+      "cover": {
+        "type": "typographic",
+        "mark": "FANTASTICA",
+        "motif": "twin-serpents",
+        "tone": "magenta"
+      },
+      "title": {
+        "ru": "Бесконечная история",
+        "en": "The Neverending Story"
+      },
+      "description": {
+        "ru": "Мальчик открывает книгу, в которой от человеческого ребёнка зависит судьба Фантазии.",
+        "en": "A boy opens a book in which Fantastica’s fate depends on a human child."
+      },
+      "screenCount": 35,
+      "readingMinutes": {
+        "essential": 5,
+        "core": 6,
+        "deep": 9
+      },
+      "spoilerPolicy": "full-plot-in-deep"
+    }
+  ]
+}

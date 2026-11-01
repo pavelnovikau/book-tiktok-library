@@ -1,0 +1,47 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "681cd012a82096c69f045dfcf7dd5a994eb3291071d9b995a228521a5ef6cc80",
+    "white-fang.html": "77514166936d64c2b559b1cc54dfa711380b527256b2d7da5209f87f705368c2",
+    "root-review/cold-settings.mjs": "00266029852876d2149c188c7722f116a48a73428088036ffe5b2cac907b34e3"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "legacy": {
+    "language": "en",
+    "mode": "deep",
+    "id": "quiet-last-image",
+    "currentLast": null
+  },
+  "cancel": {
+    "open": true,
+    "focus": true,
+    "mode": true
+  },
+  "downgrades": [
+    {
+      "l": "ru",
+      "lower": "essential",
+      "generic": true,
+      "localized": false,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    }
+  ],
+  "status": "failed",
+  "error": "Error: real downgrade {\"generic\":true,\"localized\":false,\"fresh\":true,\"unchanged\":true,\"cancelUnchanged\":true,\"destination\":true,\"pickerFresh\":true}\n    at ok (file:///Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/white-fang/root-review/cold-settings.mjs:26:31)\n    at file:///Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/white-fang/root-review/cold-settings.mjs:54:1019",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

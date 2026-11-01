@@ -1,5 +1,11 @@
 # Book TikTok Library
 
+Current expanded-depth repair,2026-11-01: Lost World personally accepted at33/68/125 (8562 RU narrative words); release being prepared. Three expanded books are already live. White Fang and Children of Captain Grant await personal root reading. See NEXT_STEPS.md.
+
+Current expanded-depth repair, 2026-11-01: Treasure Island PR39 is personally accepted and live (28/48/96; 9,121 RU narrative words). Three expanded works are accepted/live; other positions need separate root reading. Production: 58 books / 2,392 screens. See editorial-audit/2026-10-31/publisher-findings/expanded-depth-03-receipt.json and NEXT_STEPS.md.
+
+Current depth repair,2026-11-01: expanded Kahneman is personally accepted and live throughPR38 (27/74/110;9694RU body words). Together with Hard to Be a God, two expanded works are accepted; other positions require separate personal review. Production58books/2330screens. See editorial-audit/2026-10-31/publisher-findings/expanded-depth-02-receipt.json and NEXT_STEPS.md.
+
 Public, contribution-friendly library of dense standalone book stories. Each book is a single bilingual HTML file with nested reading depths and light/dark themes based on [Flexoki by Steph Ango](https://stephango.com/flexoki).
 
 Live site: https://book-tiktok-library.vercel.app
@@ -8,21 +14,7 @@ Git hosting: https://github.com/pavelnovikau/book-tiktok-library
 
 Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` is the production release path; pull requests are the contribution path.
 
-## Expanded Treasure Island — 2026-11-01
-
-The personally accepted replacement is a connected first-person story at **28/48/96 screens**, with 9,121 RU / 11,231 EN narrative words. UI estimates are 16/27/53 minutes in both languages. Essential/Core stop after the stockade battle; Deep continues through the actual ending with renewed session consent. The resulting catalogue has 58 books / 2,392 screens.
-
-Root read every paired screen, Essential, Core’s already-read exact opening/boundary, the complete chapter map and selected primary passages. [Personal acceptance](editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/personal-review.json) records the precise reading scope, source checks, three local improvements and exact hashes. [Local release proof](editorial-audit/2026-10-31/publisher-findings/expanded-depth-03-local.json) confirms the compiled reader and unchanged other entries/readers/homepage. Full primary reading is the writer’s scope; root does not claim complete continuous novel or print/translation collation.
-
-All other unaccepted expanded replacements still need root’s personal review. The prior receipts below concern their own versions and dates.
-
-## Expanded-depth repair — 2026-11-01
-
-Kahneman is now personally accepted for replacement at **27/74/110 screens**. Root read every RU/EN pair, reread the cumulative shorter routes, compared chapter coverage/omissions and checked selected primary passages. Six missing mechanisms and their real examples were restored; the clinical discussion retains the author's unresolved trade-off. Deep contains 9,694 RU / 10,896 EN body words; UI estimates RU 15/39/57 and EN 14/36/53 minutes. The resulting catalogue is 58 books / 2,330 screens. These measured totals are not universal depth quotas.
-
-[Personal acceptance](editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.json) binds the only approved replacement hashes. [Coverage and omissions](editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/sources.md) distinguish selected primary reading from complete-edition verification. [Local release proof](editorial-audit/2026-10-31/publisher-findings/expanded-depth-02-local.json) confirms the exact compiled reader, unchanged other 57 catalogue entries, existing homepage/readers and the public allowlist. Final root QA: 69 structural checks, 3,376 offline rendered visits and 56 interaction checks. Physical Safari was not tested.
-
-Expanded Hard to Be a God was separately accepted and published through PR37. All other expanded replacements still require root's complete personal text/route/coverage review. The older release notes below record factual and technical acceptance under the prior compressed-depth criterion; they do not certify the newly requested depth.
+Current repair authority: [the personal depth-review plan](editorial-audit/2026-10-31/depth-v2/PLAN.md) and [NEXT_STEPS.md](NEXT_STEPS.md). A historical factual PASS does not establish sufficient maximum reading depth. The first personally accepted expanded story is [Hard to Be a God](editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/personal-review.md), published through PR37.
 
 ## How it works
 
@@ -63,117 +55,6 @@ Type, genre/subject and query compose with AND. Type counts respect the current 
 Share current filters with `?type=fiction&topic=adventure&q=Verne` (omit defaults). Existing `section` links map to their corresponding new subject, and `section=fiction-adventure` opens Fiction. Former collections map to visible controls: `for-son` → Fiction, `taleb` / `sapolsky` → author search, `practices` → Nonfiction, `unassigned` → All. A notice explains that the link has been updated; these are new discovery views, not hidden historical subsets. The mappings live in `books.json` and old parameters are replaced by the canonical visible filters. Unknown filters are cleared with a notice. Language/theme preferences retain their existing storage key; standalone reader progress and URLs are unchanged.
 
 `npm run qa:browser` runs real Chrome in separate short phases for discovery, reader layouts, focus/keyboard, iOS-install/safe-area emulation and revised-reader traversal. Each phase owns a temporary profile and a Chrome process group limited to 30 seconds. Reports and screenshots are saved outside the repository; set `BOOK_LIBRARY_QA_DIR` to choose that directory. This is browser emulation, not a physical iPhone test.
-
-## 2026-10-31 editorial repair — release 09
-
-The sealed nine-candidate intake accepts eight readers / **286 RU/EN pairs** and a metadata-only correction to The Giver's unchanged 27 pairs. Dune is 10/17/38, I, Robot 22/32/53, Hitchhiker 11/18/36, The Potent Self 10/17/21, Solaris 10/16/32, Flowers for Algernon 14/22/34, The Neverending Story 20/22/35 and The Wee Free Men 13/23/37. Five additions and three replacements yield **58 books / 2,188 screens**. The other 47 root readers and 48 catalogue entries remain exact; two nonfiction roots receive only explicit destination-depth Resume labels, and Awareness Through Movement gains its existing source-title search alias.
-
-Five matching independent PASS packages remain unchanged. [Fresh bounded acceptance](editorial-audit/2026-10-31/publisher-findings/release-09-localized-acceptance.json) separately closes the Flowers attribution/consent findings, Neverending Story's adjacent Deep ordering, Wee Free Men's reflexive joke, and Giver's bibliographic description. Reversing the recorded story changes reconstructs all three original authoring and HTML hashes. Original EDIT/REQUIRES-FIXES verdicts and historical catalogue/proof snapshots stay immutable. Source scope is the retained original-word account supported by identified primary excerpts and substantial named guides; no whole-edition, published-translation or clinical-validation certificate is claimed. The Potent Self describes selected procedures rather than supplying a full runnable lesson course.
-
-Reviewed HTML is synchronized with the maintained Settings/Geist shell without rebuilding its custom guards. I, Robot retains explicit acknowledgment, solution boundaries and old analytical-ID invalidation; Hitchhiker retains its session/default/neutral-resume contract; all seven narrative readers renew consent after reload and lower depth. [The prepared small fixes](editorial-audit/2026-10-31/publisher-findings/release-09-proof/ui-metadata-acceptance.json) preserve valid-target Resume while naming deeper nonfiction destinations before the click, keep Start over at Essential, synchronize the Giver Quartet metadata and add the source-title alias. Only Potent's generated RU Essential label changes to “4 минуты”; its reviewed body and sources remain exact. Future numeric duration labels now use Russian plural rules.
-
-[The receipt](editorial-audit/2026-10-31/publisher-findings/release-09.json) binds exact inputs/roots, counts, times and release state. [Focused proof](editorial-audit/2026-10-31/publisher-findings/release-09-proof/) covers 612 structural assertions, nine browser phases, eleven Settings phases, 97 rendered-font records, native radio/cold-font regressions, saved progress, all consent/cancellation routes, dense 320/390/desktop tails, discovery, safe areas and twelve offline readers. The 69-asset public allowlist excludes collector/source/audit/private material. Man's Search for Meaning, Ubik and the partial first-six Martian Chronicles selection remain outside this release. Physical iPhone/Safari/PWA certification is not claimed.
-
-Release08 is now separately [production verified](editorial-audit/2026-10-31/publisher-findings/release-08-production-verification.json): all 64 actual HTTP200 assets match accepted head `d22dedf6…` and identical merge `e0746dbc…`; 53 books / 2,206 screens, all seven live reader interactions, native Ender/custom consent, preferences/progress and six private404 probes pass. Release07's completed proof and release08's original pending handoff remain preserved. Release09 deployment is established only by its own exact-head merge and observed production bytes.
-
-## 2026-10-31 editorial repair — release 08
-
-Seven sealed narrative readers contain **274 RU/EN pairs**: Howl’s Moving Castle 15/25/39, Northern Lights 17/22/43, Ender’s Game 16/25/39, To Kill a Mockingbird 14/28/41, The Hobbit 15/23/35, Holes 14/23/39 and Have Space Suit—Will Travel 17/25/38. Six additions and one replacement yield **53 books / 2,206 screens**; the other 46 readers and catalogue entries remain byte-identical. Flowers and Dune are excluded from this release.
-
-[Localized publisher acceptance](editorial-audit/2026-10-31/publisher-findings/release-08-localized-acceptance.json) closes five required findings across four books. Reversing only the recorded edits reproduces all four originally reviewed authoring **and HTML** hashes; the original REQUIRES-FIXES reviews remain unchanged. Hobbit, Holes and Heinlein carry fresh matching independent PASS. Source boundaries remain selective: publisher samples, identified substantial guides and selected author passages. Hobbit’s specific Oxford-supported causal link remains explicitly credited to the independent reviewer. The publisher separately accessed the DBE passages for the narrowed Mockingbird cover; the parent’s earlier timeout remains recorded. No continuous complete-edition or published-translation certificate is claimed.
-
-Reviewed custom HTML is ported without rebuilding its corpus, then synchronized with the maintained Settings/header/offline-font shell. All seven preserve actual source maps and a global Sources dialog while narrative screens hide provenance chrome. Removed/cover saved IDs fall back to Essential; retained Hobbit IDs resume through current consent, and old session approval cannot reopen Deep. Howl’s root now also revokes ending consent when depth is lowered. Six distinct semantic cover motifs and bilingual story descriptions integrate the additions with existing discovery and the unchanged statistics strip/equal tabs.
-
-The [release08 receipt](editorial-audit/2026-10-31/publisher-findings/release-08.json) binds exact inputs/roots, reading times and release state. Focused verification covers 7×69 structural assertions, Settings/platform fonts/native radio isolation including Hermes, actual corrected copy, Sources/progress/swipe, focus, consent cancel/accept/reload/downgrade, old/current Hobbit IDs, dense 320/390/desktop tails, safe-area emulation, discovery and offline standalone use. [Proof](editorial-audit/2026-10-31/publisher-findings/release-08-proof/) includes harness diagnostics separately from product changes. The public allowlist contains 64 assets; collector/audit/private/source trees are excluded. Physical iPhone/Safari/PWA testing is not claimed.
-
-Release07 is now separately [production verified](editorial-audit/2026-10-31/publisher-findings/release-07-production-verification.json): 58 actual HTTP200 hashes match accepted head `2fbd3f5…`, twelve revised live readers work in RU/EN at320, native PHM consent/resume/reload/downgrade and Giver/Earthsea custom consent pass, private/source probes return404. Its original pending receipts remain preserved. Release08 is live only when its own exact-head merge and production verification are recorded.
-
-## 2026-10-31 editorial repair — release 07
-
-The sealed release accepts **12 readers / 334 RU/EN pairs**: Kahneman, Meadows, Behave, Determined, Project Hail Mary, The Giver, Ostrom, Earthsea, the Goldratt corpus, 1873, Kuhn and Scott. Seven additions and five replacements yield **47 books / 2,076 screens**. The other 35 roots and catalogue entries remain byte-identical. Heinlein arrived after seal and is queued for the next publisher.
-
-[Fresh localized acceptance](editorial-audit/2026-10-31/publisher-findings/release-07-localized-acceptance.json) closes 14 findings against current hashes; reversing only the recorded changes reproduces all 10 originally reviewed authoring hashes. Those original REQUIRES-FIXES reviews remain unchanged. Kuhn/Scott retain matching-hash independent PASS. Source limits remain explicit: selective/excerpt-supported scope, identified secondary PHM later-action evidence, original reviewer’s actual Mindscape reading after publisher repeat timeout, separate Kuhn editions/printings, and Scott’s inaccessible nonessential bibliography record.
-
-The [release07 receipt](editorial-audit/2026-10-31/publisher-findings/release-07.json) binds inputs, roots, counts, reading times and publication state. Exact corpora, source maps, custom narrative covers/consent and the accepted Settings/offline Geist module are retained. 1873/TOC migrate actual old storage safely; removed IDs return to Essential cover and restart cannot resurrect old progress. PHM gains renewed document-local Deep consent. Exact title/category queries avoid new token collisions; the prior Russian Determined title remains searchable. The public build allows 58 assets only.
-
-Validation: 12×69 structural assertions, unchanged reviewed-content reconstruction, full effective-corpus/source parity, idempotent shell, targeted Settings/platform-font/state/native-key/cold-font checks, offline reading, RU/EN fiction consent/cancel/reload, dense mobile tails, focus/safe-area and discovery/new-title searches. [Focused proof](editorial-audit/2026-10-31/publisher-findings/release-07-proof/) does not certify physical iPhone/Safari/PWA or complete editions. This receipt’s merge/production evidence determines deployment; no live claim follows from local tests.
-
-## 2026-10-31 editorial repair — release 06
-
-Accepted content: *Atomic Habits* 13/20/24, *Protocols · sleep, light and attention* 10/16/22 and *Hermes & Nous · research brief* 12/17/22 — 68 RU/EN pairs, intended **40 books / 2,327 screens**. Three completed independent PASS reviews bind the unchanged canonical packages. Clear is a concise central-method account from actual author/publisher excerpts; Huberman is selected reading of the introduction, Sleep1–3 and PersonalGrowth1 with medical qualifications; Hermes preserves its public core and conditional proposals, with two underlying internal documents still inaccessible. Neither complete-edition fidelity nor validated demand/implementation is claimed.
-
-Settings [PR29](https://github.com/pavelnovikau/book-tiktok-library/pull/29) merged first after fresh independent R1/R2 closure at `a976d547…`, all three checks green. All50 actual production hashes match UI merge `7e1f96f…`; cold font/scroll and native radio regressions also pass live. This content branch preserves that UI across all40 readers. Exact accepted HTML is synchronized without rebuilding its corpus; the other37 roots/entries are unchanged. Hermes legacy keys/removed IDs migrate safely and cannot resurrect after restart. Atomic Habits has a unique four-stage habit-cycle cover motif.
-
-The [release06 receipt](editorial-audit/2026-10-31/publisher-findings/release-06.json) binds inputs/roots and exact publication state. Local checks pass 3×69 structure,2,496 rendered positions with reachable tails, source/state/migration/consent preservation, portable/Settings/font persistence, discovery/stats/equal tabs, safe-area/focus and offline reading. The public build contains51 allowlisted assets only. Actual40-book deployment is claimed only after its own merge and production proof. Kahneman/Meadows arrived after sealing and remain for the next publisher.
-
-[Release05 final verification](editorial-audit/2026-10-31/publisher-findings/release-05-verification.json) preserves its original evidence and confirms all50 assets,39 books/2,453 screens, live Sources/progress/renewed ending consent, all56 quotation displays and six private404 responses. See [fresh UI closure](editorial-audit/2026-10-31/publisher-findings/release-06-ui29-closure.json) for the distinct a976d547 acceptance; the original a09d38dc REQUIRES-FIXES report is unchanged. No physical iPhone/Safari/PWA/BFCache certification.
-
-## 2026-10-31 editorial repair — release 05
-
-Three accepted readers contain 98 RU/EN pairs: *Meditations* 18/30/39, *Antifragile* 11/17/24 and *The Left Hand of Darkness* 11/15/35. The intended catalogue is **39 books / 2,453 screens**. Antifragile replaces the old 144-screen analytical reader; the other two titles are newly registered. The remaining 36 readers and their catalogue entries are unchanged.
-
-Meditations and Antifragile match completed independent PASS hashes. Meditations preserves all fourteen paired quotations, translators and book/section attributions, the XII.36 = Rogovin XII.35 concordance, and its embedded 1914 archival title leaf. Antifragile retains a selected central argument supported by author Chapter 1, interview, essay, draft and explicitly later explanations; it does not claim every chapter or offer medical or investment prescriptions. Left Hand’s original REQUIRES-FIXES review remains intact: four bounded publisher closures remove unsupported details, distinguish interrogation drugs, and restore Estraven’s stated political explanation. Guides and references remain labelled as such; no new primary-novel or full-edition reading is claimed.
-
-Accepted collector HTML is integrated without plain rebuilding. Bespoke covers, quotation objects, content modes and source maps remain exact. Valid saved IDs survive; unavailable IDs return to the cover safely. Left Hand renews Deep consent on reload and hides saved ending titles. Catalogue motifs show a common city and two tracks across ice; Antifragile keeps its unique convex-response motif. Statistics, equal tabs, inset-safe icons and offline reading remain.
-
-The [release05 receipt](editorial-audit/2026-10-31/publisher-findings/release-05.json) binds exact inputs and roots. Focused checks cover 3×69 structural assertions, 3,200 rendering visits, 56 quotation displays with attribution and reachable final lines, corrected-copy reachability, source scope/progress/restart/consent, focus, discovery, safe-area and offline reading. Public output contains 50 allowlisted assets only. Browser emulation is not a physical-iPhone/Safari/PWA test. Publication is established only by an exact-head merge and actual production verification; this integration does not claim 39 live.
-
-Release04 is now [production-verified](editorial-audit/2026-10-31/publisher-findings/release-04-verification.json): all 48 served asset hashes match merge `be5b08c`, 37 books/2,499 screens, all four relevant readers pass live source/state/consent/corrected-copy checks, and private paths return 404. Its previous pending handoff is preserved separately. Root retains coordination of Settings PR29; its unmerged UI and installed skills are outside this release.
-
-## 2026-10-31 editorial repair — release 04
-
-Four new readers add 146 RU/EN pairs: *Hard to Be a God* 8/13/33, *Adventures of Huckleberry Finn* 24/36/54, *Nonviolent Communication* 16/26/30 and *The Fifth Discipline* 11/22/29. The catalogue contains **37 books / 2,499 screens**. All previous 33 reader files are byte-identical to release03.
-
-Huck and Senge match completed independent PASS reviews. HardGod's sole remaining HG-06 detail and NVC's two meaning/role findings are explicitly closed against the cited primary passages; their original REQUIRES-FIXES reviews remain unchanged. [The receipt](editorial-audit/2026-10-31/publisher-findings/release-04.json) binds accepted input/root hashes, actual source boundaries and publication state. These are concise supported accounts, without full-edition or published-translation certification. NVC retains the selected central-method scope; Senge distinguishes the official sample from his separately consulted article and beer-game evidence.
-
-The accepted collector runtime, source maps, Sources dialog and bespoke presentation remain intact. Huck keeps its custom consent dialog; HardGod gains document-local consent for Deep and saved endings. Every new reader preserves valid stable progress and discards unavailable IDs. Four distinct catalogue motifs and controlled genres/subjects describe the actual stories or methods. Long card titles wrap at phone width. Statistics, equal tabs and the compact safe-area icon row remain.
-
-Validation covers 4 × 69 structural checks, 4,832 rendering visits, RU/EN Sources/progress/restart, native/custom consent including Huck Escape/downgrade, focus/swipe, safe-area, and offline PWA/standalone reading. The public allowlist has 48 assets; collector/audit/private/full-text trees are excluded. Browser emulation is not a physical-iPhone/PWA test. Settings PR29 remains separate; Meditations arrived after this batch sealed and is not included. Actual production is claimed only when the receipt records its successful HTTP and interaction verification.
-
-## 2026-10-31 editorial repair — release 03
-
-Eleven reader revisions are accepted: four match completed independent PASS hashes; seven close nine required local findings against the actual primary passages. The original REQUIRES-FIXES reviews remain unchanged, with explicit replacement-hash acceptance in the [release03 receipt](editorial-audit/2026-10-31/publisher-findings/release-03.json). These are condensed stories/arguments, with source scope and edition limits preserved. There are 457 revised RU/EN pairs: 274 narrative pairs and 183 explanatory pairs.
-
-| Accepted reader | Essential / Core / Deep | RU minutes | EN minutes |
-| --- | ---: | ---: | ---: |
-| Awareness Through Movement | 19 / 35 / 42 | 6 / 10 / 12 | 5 / 10 / 11 |
-| Zen and the Art of Motorcycle Maintenance | 20 / 38 / 52 | 7 / 12 / 17 | 6 / 12 / 16 |
-| Letting Go: The Pathway of Surrender | 16 / 32 / 39 | 5 / 9 / 11 | 5 / 9 / 11 |
-| Make Time — Jake Knapp and John Zeratsky | 19 / 39 / 51 | 6 / 11 / 14 | 5 / 10 / 13 |
-| Monday Begins on Saturday | 11 / 17 / 29 | 3 / 5 / 8 | 3 / 5 / 8 |
-| Accelerando | 14 / 26 / 52 | 4 / 8 / 15 | 4 / 8 / 15 |
-| Why Zebras Don't Get Ulcers | 25 / 42 / 51 | 7 / 12 / 15 | 7 / 11 / 13 |
-| The Lost World | 13 / 23 / 34 | 4 / 6 / 9 | 4 / 6 / 9 |
-| Treasure Island · Robert Louis Stevenson | 12 / 20 / 34 | 4 / 6 / 9 | 4 / 6 / 9 |
-| White Fang — Jack London | 14 / 21 / 36 | 4 / 6 / 10 | 4 / 6 / 9 |
-| The Children of Captain Grant | 14 / 23 / 37 | 4 / 7 / 10 | 4 / 6 / 10 |
-
-The catalogue now contains **33 books / 2,353 screens**. Monday is newly registered under the existing fiction/fantasy/science-fiction vocabulary, with bilingual author, general audience, full-plot-in-deep policy and a distinct enchanted-lab cover. No age shelf or extra header row is added. Seven spoiler-bearing readers start a fresh document at Essential; explicit consent protects both Deep selection and saved ending resumption. Accelerando retains its custom cover and modal runtime. All eleven discard removed saved IDs and retain valid stable progress. The other 22 root readers are byte-identical to base main.
-
-Validation: library/portable-skill checks, 11 × 69 bilingual structural checks, 15,200 RU/EN/light/dark/depth/width rendering visits, Sources, progress, native/custom consent, phone safe-area/focus/swipe, standalone and cached offline reading. Browser emulation is not a physical iPhone/PWA test. The public allowlist contains 44 files; collector, audit, private, research and skill trees are excluded. Hard to Be a God remains excluded pending independent repair review. Settings and font selection are a separate UI feature, absent from this book release.
-
-Release02 has now been verified against actual production: all 43 assets match merge 87fc7638933a0187ab650d45fadfeacaeaf0242f, all six readers pass live source/progress/consent interaction checks, and the catalogue serves 32 books / 3,168 screens. Its [receipt](editorial-audit/2026-10-31/publisher-findings/release-02.json) retains the old pending observation and pre-release evidence. Release03 publication is established only by its own PR/check/merge and production evidence, not by this local acceptance.
-
-## 2026-10-31 editorial repair — release 02
-
-This release accepts five nonfiction revisions from hash-matched independent PASS reviews (221 RU/EN pairs) and the first repaired fiction narrative, *Amphibian Man* (35 pairs). Its full 35-pair independent review required only two causal corrections; the reviewer has now rechecked both and issued a matching-hash PASS. Fresh publisher passage checks accept both: pain/suffocation causes the leap, and Guttiere remains unseen to avoid drawing Ichthyander back onto dangerous land. Reverting just those two screen objects reproduces the exact reviewed authoring hash; the other 33 pairs and metadata are unchanged.
-
-| Accepted reader | Essential / Core / Deep | RU minutes | EN minutes |
-| --- | ---: | ---: | ---: |
-| Four Thousand Weeks | 21 / 32 / 52 | 6 / 10 / 15 | 6 / 9 / 14 |
-| Mindfulness | 14 / 26 / 30 | 4 / 8 / 9 | 4 / 7 / 8 |
-| A Guide to the Good Life | 18 / 32 / 36 | 5 / 9 / 10 | 5 / 8 / 9 |
-| The Body Keeps the Score | 21 / 33 / 41 | 7 / 10 / 12 | 6 / 9 / 11 |
-| Amphibian Man | 12 / 19 / 35 | 4 / 6 / 10 | 4 / 5 / 10 |
-| Selfie | 27 / 39 / 62 | 8 / 11 / 16 | 7 / 10 / 16 |
-
-The integrated catalogue has **32 books / 3,168 screens**. Together with release 01, nine books have accepted repairs; the other 23 published books retain unestablished editorial status. No other pending candidate or late 1873/TOC repair is included. Primary reading boundaries, source links, author attribution and `contentMode` remain exact. Nonfiction source checks do not certify every underlying clinical claim or whole-edition fidelity.
-
-Amphibian Man has a distinct sea/air cover, existing controlled science-fiction/adventure discovery, internal `teen-14-plus` audience and `full-plot-in-deep` policy. No age shelf or extra header row is introduced. Narrative screens hide per-screen source footers, while the global Sources dialog and embedded mappings remain. A document-local ending-consent guard covers both the depth picker and saved Deep continuation, resets on reload, and keeps ending titles out of lower-depth contents and resume labels. Removed saved IDs are discarded; valid stable IDs remain resumable. The compact icon row, safe-area protection, equal homepage tabs and statistics strip are preserved.
-
-[Release 02 receipt and source acceptance](editorial-audit/2026-10-31/publisher-findings/release-02.json) records exact input/root hashes, local checks and the actual merge/production state. Publication is established only by that receipt's production evidence. The public build allowlist remains unchanged in scope: registered readers, catalogue/PWA shell, fonts and icons only. No private primary text, collector package, audit or research folder is deployed.
-
-The 41-record baseline and previous release evidence below remain historical. Legacy standalone-auditor limitations for 1873, Theory of Constraints and Hermes/Nous are unchanged. Browser emulation is not a physical iPhone/PWA test.
 
 ## 2026-10-31 editorial repair — release 01
 

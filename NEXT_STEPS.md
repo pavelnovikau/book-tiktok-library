@@ -1,91 +1,48 @@
-# Current expanded story release — 2026-11-01
+# Current personal reading and release queue - 2026-11-01
 
-Release only the hash-bound personally accepted Treasure Island 28/48/96 candidate, then verify the canonical clean production URL. Hard to Be a God PR37 and Kahneman PR38 are already live at their accepted hashes. Next root readings are Lost World and White Fang; their completed worker packages are not publication approvals.
+Lost World is personally accepted at33/68/125; the exact version is now being released. Current production remains the three earlier expanded books at58books/2392screens until new production hashes verify. Next root reading: White Fang, then Children of Captain Grant. Both are hash-ingested but unaccepted. Zebra and Irvine remain assigned; Behave primary coverage is incomplete. All62 positions retain the personal-reading gate.
 
-Why Zebras Don’t Get Ulcers and Children of Captain Grant continue as separate bounded Sol max writing tasks. Behave still lacks adequate primary coverage. Continue the 62-position plan with the author’s actual scenes/argument, real examples, book-specific coverage, connected drafts and personal root acceptance.
-
-The following blocks preserve earlier handoffs; this block supersedes their pending/completed states.
+This current block supersedes historical assignments below.
 
 ---
 
-# Current expanded-depth work — 2026-11-01
+# Current root reading queue — 2026-11-01
 
-1. Release only the hash-bound personally accepted Kahneman27/74/110 candidate; check remote readiness once, then merge and verify the canonical clean production URL. PR37's expanded Hard to Be a God is already live.
-2. Personally read and check the completed expanded Treasure Island candidate. The separate Lost World writer continues. Neither is accepted from a worker's completion or QA alone.
-3. Continue the62-position depth plan in bounded groups. Preserve the author's actual scenes or argument, real cases, qualifications and procedures. Write connected prose before segmentation; no universal screen/word quota.
-4. Sapolsky Behave sources remain partial; retain the acquired chapter/excerpt maps and do not manufacture missing book arguments from talks. Its old short reader is not depth-approved.
-5. Keep the existing artwork-only homepage, statistics strip, equal tabs, compact header and Settings/offline fonts. New book content needs a separate root acceptance report before release.
+Treasure Island PR39 is personally accepted and production-verified at 28/48/96, alongside Hard to Be a God PR37 and Kahneman PR38. Current site: 58 books / 2,392 screens. Evidence: editorial-audit/2026-10-31/publisher-findings/expanded-depth-03-receipt.json.
 
-The notes below are preserved historical handoffs and must be read in light of the current depth repair above.
+Next root task: personally read the complete Lost World RU/EN text and routes, scene map and selected primary passages, then White Fang. Both are hash-ingested and unaccepted. Do not publish from worker completion or mechanical QA.
+
+Three bounded Sol max writers prepare Why Zebras Don’t Get Ulcers, Children of Captain Grant and A Guide to the Good Life. They use available complete primary witnesses and own only their new artifact directories. Behave still has incomplete primary coverage. Continue all 62 positions with book-specific coverage, actual author scenes/argument, meaningful omissions and personal root acceptance.
+
+This block supersedes historical pending/completed states below.
+
+---
+
+# Current personal depth review — 2026-11-01
+
+Kahneman PR38 is merged and production-verified at27/74/110; Hard to Be a God PR37 is also personally accepted/live. Next root task: read every RU/EN pair and nested route of expanded Treasure Island, then Lost World; inspect their scene maps and key actual primary passages before any acceptance. Intake hashes already match.
+
+Three new bounded Sol max workers prepare Why Zebras Don’t Get Ulcers, White Fang and Children of Captain Grant from available complete primary witnesses. Worker completion does not authorize publication. Behave remains incomplete in primary-source coverage; no replacement is accepted. Continue the62-position plan, preserve the author’s scenes or argument, and use book-specific coverage rather than length quotas.
+
+Production catalogue:58books/2330screens. Evidence: editorial-audit/2026-10-31/publisher-findings/expanded-depth-02-receipt.json. This current block supersedes earlier pending/completed counts below; historical notes are preserved.
 
 ---
 
 # Next steps
 
-## Release08 handoff — 2026-10-31
+## 2026-11-01 — personal depth review, current authority
 
-1. Read `editorial-audit/2026-10-31/publisher-findings/release-08-verification.json` for the exact PR/head/check state. One readiness check only; root owns pending CI/reviews, with no child polling or auto-merge.
-2. If pending, merge only the exact accepted head after required checks are green and required review findings are absent. Then verify all64 production asset hashes, effective corpora, live53-book catalogue/reader interactions and private404. Local checks alone do not establish publication.
-3. Keep the sealed seven-reader scope. Flowers and Dune remain excluded; future candidates need a separate intake.
-4. Preserve original REQUIRES-FIXES reviews, exact current collector packages and source boundaries. Do not rebuild roots from the plain template: Hobbit’s volatile consent and Howl’s root downgrade reset must survive.
-5. Release07’s58 assets and live interactions are now verified in `release-07-production-verification.json`; retain its original pending receipts as history. No complete-edition/translation or physical-iPhone certificate follows.
+The user authorized repairing all62 positions and personally checking every final RU/EN text. This section supersedes historical throughput, STOP, old screen quotas and retained-content PASS recommendations below.
 
+1. Hard to Be a God is personally accepted and live: PR37, head50258f9, merge3edb73bd. Exact HTML/catalogue/homepage and private404 verified; receipt: editorial-audit/2026-10-31/publisher-findings/expanded-depth-01-receipt.json. Do not republish its old33-screen collector. Accepted source: depth-v2/hard-to-be-a-god/ready.json.
+2. Consume the completed Thinking, Fast and Slow pilot when its callback arrives. Root reads the entire RU/EN prose, all nested routes, coverage map and key passages before accepting; old29screens/short brief is not adequate Deep. No polling or restarting finished tasks.
+3. Two bounded fiction rewrites are assigned on Sol max: Treasure Island3726bc64 and Lost World905c6c1a, only their new depth-v2 directories. Read the complete lawful primary; tell sustained scenes, not lessons. Root acceptance is still required for both.
+4. Behave source pass2 is complete and ingested: supplied chapter11 plus notes mapped, new selections from6/14, provisional7/16 witnesses. No residual chapter gap fully closed. Root checked critical chapter11 ranges and12 source bindings, not the whole chapter. Source/reading boundaries: depth-v2/behave-pass2-root-ingestion.json. Do not reconstruct unseen chapters from talks.
+5. All other expanded content remains held, including old fact-PASS Frankl/Moondust/Ubik/Martian candidates. The full62-position plan is editorial-audit/2026-10-31/depth-v2/PLAN.json. Broad/nonfiction dispatch follows the separate pilot review; no word-count gate or padding.
+6. Canonical source Git is dirty and must not be swept/pulled/reset. Publication uses the prepared checkout /Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031. It now sits on merged feat/expanded-hard-to-be-a-god; unrelated untracked proofs stay untouched. One release owner at a time. Preserve artwork-only thumbnails, icon header, Settings/Geist, source maps and fresh Deep consent after an actual downgrade. Old progress must not silently jump into rewritten late scenes.
 
-## 2026-10-31 — release07 sealed handoff
+Historical notes follow. Their counts, readiness recommendations and assignments describe prior criteria and releases.
 
-- Read [release07 receipt](editorial-audit/2026-10-31/publisher-findings/release-07.json) for the exact PR/head/readiness/merge/production state. This publisher checks readiness once; pending checks return to root without child watching/polling.
-- Preserve 12 accepted packages, 334 RU/EN pairs, 47 books/2,076 screens, all original independent reviews and the separate14-finding publisher closure. Remaining35 roots/entries are byte-identical. Source/excerpt/edition boundaries and Mindscape reviewer reliance remain explicit.
-- If pending, root owns checking/merging the exact accepted green head and verifying actual58-file production bytes/effective corpora, live interactions and private404 before claiming deployment. Use scripts/verify-production.mjs with the exact merge ref; focused browser phases support --origin and --books.
-- Retain one-time 1873/TOC migrations, global Settings/offline fonts, PHM renewed native Deep guard, Giver renewed custom guard and Earthsea’s existing document-local Core/Deep consent. Never replace root readers with pre-Settings collectors without synchronizing the maintained shell.
-- Heinlein’s matching PASS arrived after seal and belongs to the next release. Hobbit/current15/23/35 needs its fresh independent recheck; other new collectors/source rescues wait for independent PASS. Do not sweep READY or touch those packages from release07.
-
-## 2026-10-31 — release06 handoff
-
-- Sealed at Atomic Habits13/20/24, Protocols10/16/22 and Hermes12/17/22:68 paired screens, intended40 books/2,327 screens. Read [release06 exact state](editorial-audit/2026-10-31/publisher-findings/release-06.json) before any publication. If its single readiness read is pending, root owns monitoring; child never polls/watches.
-- PR29 is merged at accepted a976d547 as7e1f96f, with fresh independent R1/R2 closure and actual50-asset/live-regression proof. Installed skill matches that merge; all40 readers retain maintained Settings/fonts. Initial a09d38dc review stays REQUIRES-FIXES. Preserve all corpora and legacy consent/progress guards.
-- Three unchanged independent PASS bindings establish the accepted content scope. Preserve Clear’s actual-excerpt boundary, Huberman’s selected-reading title/medical qualifications and Hermes’s original-research/conditional A–D/inaccessible-two-document disclosures. Never restore the old settled-console catalogue claim.
-- Kahneman KAH-01/02 and Meadows MEAD-01 closures arrived after sealing: next publisher checks exact READY/review/final hashes and localized source fixes, then integrates through current maintained UI. Do not sweep other READY packages or delay this release.
-- [Release05 final verification](editorial-audit/2026-10-31/publisher-findings/release-05-verification.json) is complete, with original tracked and parent receipts preserved. Public output allows51 registered assets only; all collector/audit/private/full-text trees stay excluded. Physical iPhone/Safari/PWA/BFCache remain unverified.
-
-Earlier handoffs below are historical snapshots; this section is current.
-
-## 2026-10-31 — release05 handoff
-
-- Sealed batch: Meditations 18/30/39, Antifragile 11/17/24, Left Hand 11/15/35.98 accepted pairs; intended39 books/2,453 screens. Read [release05 receipt](editorial-audit/2026-10-31/publisher-findings/release-05.json) for exact PR/head/check/production state. A local pass does not establish deployment; if checks are pending, root receives the exact snapshot without child polling/watching.
-- Preserve two completed independent PASS bindings and Left Hand’s original REQUIRES-FIXES plus explicit final-hash publisher closure. Meditations quotation objects/translator attribution/XII concordance/archival cover stay exact; Antifragile’s central-argument scope and separate source roles remain honest. No whole-edition, full-translation or physical-iPhone certificate.
-- Other 36 roots and entries remain unchanged. New readers use accepted HTML with maintained shell, safe removed-ID fallback and stable progress. Left Hand has document-local renewed Deep consent and spoiler-safe resume. Public build has50 allowlisted assets; collector/audit/private/source paths stay excluded.
-- Release04 is closed by [distinct final verification](editorial-audit/2026-10-31/publisher-findings/release-04-verification.json): all 48 production hashes match merge be5b08c,37 books/2,499 screens, live source/state/consent/corrected-copy and private404 checks passed. Prior pending handoff and original receipt remain intact.
-- Root owns Settings PR29. If it merges after this branch base, reconcile latest main and synchronize its accepted maintained shell onto Meditations and Left Hand as well as Antifragile without replacing their effective corpora or safeguards. No unmerged UI/installed-skill import. New worker/reviewer handoffs arriving after seal belong to the next incremental release; never sweep READY.
-
-## 2026-10-31 — release 04 handoff
-
-- Four-book batch sealed: Hard to Be a God 8/13/33, Huck 24/36/54, NVC 16/26/30 and The Fifth Discipline 11/22/29. Catalogue 37 books / 2499 screens. Read [release04 receipt](editorial-audit/2026-10-31/publisher-findings/release-04.json) for exact PR/head/check/production state; local checks do not establish deployment.
-- Preserve exact independent PASS bindings for Huck/Senge and explicit new-hash publisher closures for HG-06/NVC-01/NVC-02. Original REQUIRES-FIXES reviews remain evidence. Reverting just the documented phrases reproduces the reviewed package hashes.
-- All 33 previous roots remain unchanged. Four new roots retain accepted collector runtime and source maps, valid-ID resumption and missing-ID fallback. Huck keeps custom consent; HardGod requires renewed document-local ending consent.
-- Meditations PASS arrived after sealing and belongs to a subsequent publisher batch. Other writer-ready source-rescue packages still require independent acceptance. Never sweep READY.
-- Root coordinates separate Settings PR29 after its independent UI review. Do not import or merge it here. If this book batch merges first, the UI integration must apply the accepted maintained shell to all four new readers while retaining their corpora, covers, source maps and consent guards.
-- Public build allows only 48 registered root/catalogue/PWA/font/icon assets. Preserve honest NVC/Senge selected-source scope. Physical iPhone/PWA and legacy auditor limitations remain separate.
-
-## 2026-10-31 — release 03 handoff
-
-- Read [release03 receipt](editorial-audit/2026-10-31/publisher-findings/release-03.json) for exact PR/head/check/merge/production state. Intake is sealed: 11 readers / 457 accepted pairs, 33 books / 2353 screens; publish only after the recorded checks pass and verify actual served bytes after merge. A child returns immediately if remote checks are pending.
-- Keep the four exact PASS packages and seven explicit new-hash closures distinct. Original required findings remain historical evidence; prose changes require validation against their primary locations. Further candidates go into a later incremental batch.
-- Hard to Be a God stays excluded until its separate substantive repair passes independent review; source-blocked books and new collectors are unrelated work.
-- The settings/font-choice feature belongs to its separate UI PR. Integrate it from latest main after this book batch; do not overwrite accepted corpora, custom covers, book-local consent or valid-progress protection.
-- Preserve universal discovery/stats, offline Flexoki/Geist, single inset-safe icon row and focus contract. Public deployment uses registered roots/PWA/fonts/icons only. Physical iPhone/PWA verification and the known 1873/TOC/Hermes audit limitations remain separate.
-
-Release02 is merged and production-verified; its original observations and all proof are preserved. Earlier release/queue sections below are historical and do not approve current pending work.
-
-
-## 2026-10-31 — release 02 handoff
-
-- Release 02 integrates Four Thousand Weeks 21/32/52, Mindfulness 14/26/30, A Guide to the Good Life 18/32/36, The Body Keeps the Score 21/33/41, Amphibian Man 12/19/35 and Selfie 27/39/62: 256 pairs, 32 catalogue books / 3,168 screens. Check `publisher-findings/release-02.json` for exact PR/head/check/production state before any further publication.
-- Five nonfiction PASS reviews match both reviewed authoring/HTML hashes and current READY manifests. Amphibian AMP-01/02 have fresh publisher acceptance against I «Неприятная встреча», II «В пути» and III «Побег». Keep source scopes and original-spoiler protections.
-- Publish further candidates only through their own completed independent review and fresh hash verification. Other reviews/workers were not polled and their packages were not rebuilt by this release.
-- Preserve root-only saved-progress invalidation, Amphibian document-local Deep consent and its semantic sea/air cover. The exact accepted collector HTML remains unmodified; future rebuilds need to preserve the root integration guards.
-- Keep public allowlist, compact icon row, safe-area/focus contract and universal catalogue/stats. No collector/private/research/audit deployment. Legacy 1873/TOC/Hermes limitations and physical-device verification remain separate.
-
-The release-01 section below and older queue notes are historical; they do not override this release or approve any pending book.
 
 ## 2026-10-31 — authorized editorial repair, release 01
 
@@ -100,6 +57,18 @@ This supersedes the historical STOP/expansion/refill instructions below. Repair 
 
 Historical notes follow; their old publication endorsements and throughput plans are not current editorial approval.
 
+
+## ACTIVE EDITORIAL REPAIR — superseding instruction, 2026-10-31
+
+Pavel authorized a total detailed audit and rewriting from scratch where necessary, then explicitly authorized ten Sol max workers plus one publisher to release verified corrections immediately. Old collector tasks remain cancelled; the old throughput/expansion queue stays suspended. Follow [the corrected editorial brief](editorial-audit/2026-10-31/BRIEF.md). Earlier STOP paragraphs below are historical and do not block this newly authorized repair/publication work. Technical passes do not establish editorial fidelity.
+
+## USER STOP — 2026-10-31
+
+STOP ALL AGENTS AND PUBLICATIONS. This direct user instruction overrides the earlier six-to-ten-worker/refill plan and all queued release steps below. Active delegates were cancelled; completion notices are informational and must not trigger replacements, rewrites, integration or deployment. Do not auto-resume. Discuss the fidelity/format failure with Pavel first.
+
+The fiction output wrongly replaced stories with moralizing analytical lessons and our own synthesis. Required direction: faithful, engaging story summaries with characters/events/atmosphere/suspense and preserved authorial meaning. Do not assume the existing nonfiction is faithful either; its author-versus-digest interpretation boundary needs scrutiny. Previous green audits/reviews followed the wrong brief. No wholesale rewrite is authorized yet.
+
+Pending UI reports only: equal-size homepage tabs and misplaced iPhone/PWA reader header. The current homepage statistics strip stays, as Pavel explicitly selected. No publishing while stopped.
 
 Canonical approved queue, counts and source boundaries: [BOOK_PLAN.md](BOOK_PLAN.md).
 

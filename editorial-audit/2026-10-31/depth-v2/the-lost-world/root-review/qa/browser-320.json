@@ -1,0 +1,671 @@
+{
+  "phase": "320",
+  "width": 320,
+  "height": 568,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "0baa64fb342692ec3c7cd6698bcdca007acd0b8340b64cde1790034e7434ed29",
+    "the-lost-world.html": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+    "root-review/browser-check.mjs": "ae7b0b34ab09f84a7302a644183ec5b96882edd4d1e264652ade0b99739088ef"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "legacy": {
+    "language": "en",
+    "mode": "deep",
+    "id": "diamonds-choice",
+    "currentLast": null
+  },
+  "routes": [
+    {
+      "l": "ru",
+      "m": "essential",
+      "count": 33,
+      "bad": []
+    },
+    {
+      "l": "ru",
+      "m": "core",
+      "count": 68,
+      "bad": []
+    },
+    {
+      "l": "ru",
+      "m": "deep",
+      "count": 125,
+      "bad": []
+    },
+    {
+      "l": "en",
+      "m": "essential",
+      "count": 33,
+      "bad": []
+    },
+    {
+      "l": "en",
+      "m": "core",
+      "count": 68,
+      "bad": []
+    },
+    {
+      "l": "en",
+      "m": "deep",
+      "count": 125,
+      "bad": []
+    }
+  ],
+  "layouts": [
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "cover",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "shotgun",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "bark",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "hand",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    },
+    {
+      "l": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "final",
+      "horizontal": true,
+      "bottom": true,
+      "icons": true,
+      "row": true,
+      "inside": true,
+      "rail": true,
+      "noLabels": true
+    }
+  ],
+  "settings": {
+    "open": true,
+    "focusInside": true,
+    "note": true,
+    "returned": true,
+    "exactScroll": true,
+    "position": {
+      "id": "shotgun",
+      "scroll": 0
+    }
+  },
+  "pointer": {
+    "verticalKeepsId": true,
+    "verticalNoFocus": true,
+    "swipe": true,
+    "tapOn": true,
+    "tapOff": true,
+    "restart": true
+  },
+  "preferences": {
+    "version": 1,
+    "theme": "light",
+    "readingFont": "sans"
+  },
+  "fonts": [
+    {
+      "l": "ru",
+      "font": "sans",
+      "actual": [
+        {
+          "familyName": "Geist",
+          "postScriptName": "Geist-Regular",
+          "isCustomFont": true,
+          "glyphCount": 497
+        }
+      ]
+    },
+    {
+      "l": "ru",
+      "font": "serif",
+      "actual": [
+        {
+          "familyName": "Source Serif 4",
+          "postScriptName": "SourceSerif4-Regular",
+          "isCustomFont": true,
+          "glyphCount": 425
+        },
+        {
+          "familyName": "Geist Serif",
+          "postScriptName": "GeistSerif-Regular",
+          "isCustomFont": true,
+          "glyphCount": 73
+        }
+      ]
+    },
+    {
+      "l": "en",
+      "font": "sans",
+      "actual": [
+        {
+          "familyName": "Geist",
+          "postScriptName": "Geist-Regular",
+          "isCustomFont": true,
+          "glyphCount": 489
+        }
+      ]
+    },
+    {
+      "l": "en",
+      "font": "serif",
+      "actual": [
+        {
+          "familyName": "Geist Serif",
+          "postScriptName": "GeistSerif-Regular",
+          "isCustomFont": true,
+          "glyphCount": 492
+        }
+      ]
+    }
+  ],
+  "interactions": "Settings focus/Tab/Escape; Sources/Contents; F/Next/Escape/ArrowLeft; language position; global preferences; depth-filtered map checked.",
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

@@ -1,0 +1,798 @@
+{
+  "phase": "1440",
+  "width": 1440,
+  "height": 900,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "the-lost-world.html": "6911cd199dcb3cb7cd59de04826465414888440d11a941660de1beb9f2aea57d",
+    "story-data.json": "e2a801553daa4f9aff01a71e09e8c417656670e64ec56801b8eab8a402d1a77f"
+  },
+  "lastEvaluate": "new Promise(r=>requestAnimationFrame(()=>requestAnimationFrame(r)))",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "cases": [
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "sans",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "light",
+      "font": "serif",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "sans",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "ru",
+      "theme": "dark",
+      "font": "serif",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "sans",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "sans",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "cover",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "chalk-arrows",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "night-pride",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "empty-camp",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "capture-shot",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "bark",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "potts",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    },
+    {
+      "lang": "en",
+      "theme": "dark",
+      "font": "serif",
+      "id": "final",
+      "title": true,
+      "body": true,
+      "noOverflow": true,
+      "bottom": true,
+      "noAcademicChrome": true
+    }
+  ],
+  "header": {
+    "controls": 5,
+    "oneRow": true,
+    "inside": true,
+    "iconLabels": true,
+    "rail": true
+  },
+  "fonts": [
+    {
+      "lang": "ru",
+      "font": "sans",
+      "actual": [
+        {
+          "familyName": "Geist",
+          "postScriptName": "Geist-Regular",
+          "isCustomFont": true,
+          "glyphCount": 525
+        }
+      ]
+    },
+    {
+      "lang": "ru",
+      "font": "serif",
+      "actual": [
+        {
+          "familyName": "Source Serif 4",
+          "postScriptName": "SourceSerif4-Regular",
+          "isCustomFont": true,
+          "glyphCount": 439
+        },
+        {
+          "familyName": "Geist Serif",
+          "postScriptName": "GeistSerif-Regular",
+          "isCustomFont": true,
+          "glyphCount": 86
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "font": "sans",
+      "actual": [
+        {
+          "familyName": "Geist",
+          "postScriptName": "Geist-Regular",
+          "isCustomFont": true,
+          "glyphCount": 533
+        }
+      ]
+    },
+    {
+      "lang": "en",
+      "font": "serif",
+      "actual": [
+        {
+          "familyName": "Geist Serif",
+          "postScriptName": "GeistSerif-Regular",
+          "isCustomFont": true,
+          "glyphCount": 535
+        }
+      ]
+    }
+  ],
+  "denseScroll": {
+    "scrollTop": 0,
+    "clientHeight": 710,
+    "scrollHeight": 710,
+    "lastCharacterVisible": true
+  },
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessGroupAliveAfterCleanup": false
+}

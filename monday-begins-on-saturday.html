@@ -185,9 +185,9 @@
   <!-- book-library-pwa:end -->
 <meta name="description" content="Случайная остановка в городе, где сказочные вещи стоят на учете.">
   <meta name="book-tiktok:schema" content="2">
-  <meta name="book-tiktok:screens" content="101">
+  <meta name="book-tiktok:screens" content="100">
   <meta name="book-tiktok:languages" content="ru,en">
-  <meta name="book-tiktok:modes" content="34,65,101">
+  <meta name="book-tiktok:modes" content="34,65,100">
   <title>Понедельник начинается в субботу</title>
   <style>
     @font-face {
@@ -1778,13 +1778,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   </dialog>
 
   <!-- candidate-local-deep-guard:v1 -->
-  <dialog id="deepConsentDialog" aria-labelledby="deepConsentTitle" aria-describedby="deepConsentText">
-    <div class="dialog-shell">
-      <header class="dialog-header"><h2 id="deepConsentTitle"></h2></header>
-      <div class="dialog-body"><p id="deepConsentText"></p></div>
-      <footer class="dialog-footer"><button class="button" id="cancelDeep" type="button"></button><button class="button button-primary" id="confirmDeep" type="button"></button></footer>
-    </div>
-  </dialog>
+  <dialog id="readerConsent" aria-labelledby="readerConsentTitle" aria-describedby="readerConsentText"><div class="dialog-card"><header class="dialog-header"><h2 id="readerConsentTitle"></h2></header><div class="dialog-body"><p id="readerConsentText"></p></div><div class="dialog-actions"><button class="button" type="button" id="readerConsentCancel"></button><button class="button button-primary" type="button" id="readerConsentAccept"></button></div></div></dialog>
   <script id="book-tiktok-data" type="application/json">{
   "schemaVersion": 2,
   "slug": "monday-begins-on-saturday",
@@ -1802,7 +1796,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   },
   "defaultLanguage": "ru",
   "defaultTheme": "dark",
-  "defaultMode": "essential",
+  "defaultMode": "deep",
   "contentMode": "narrative",
   "audience": "teen-14-plus",
   "spoilerPolicy": "full-plot-in-deep",
@@ -1841,8 +1835,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     }
   ],
   "media": {},
-  "screens": [
-    {
+  "screens": [{
       "id": "cover",
       "type": "cover",
       "level": 1,
@@ -1863,27 +1856,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Programmer Alexander Privalov gives two strangers a lift and finds a bed in an unusual hut. The shorter routes follow his first discoveries and New Year duty. Deep opens the complete story and its later answers after consent.\u003c/p>"
         }
       }
-    },
-    {
-      "id": "deep-notice",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [],
-      "narrativeBody": false,
-      "copy": {
-        "ru": {
-          "section": "Полная история",
-          "title": "Дальше — весь сюжет",
-          "body": "\u003cp>Этот маршрут продолжает рассказ до последней сцены и включает послесловие. Ниже — оригинальный пересказ, сохраняющий точку зрения Привалова; это не цитаты из повести и не научные сведения.\u003c/p>"
-        },
-        "en": {
-          "section": "Complete story",
-          "title": "The full plot follows",
-          "body": "\u003cp>This route continues to the last scene and includes the afterword. What follows is an original retelling preserving Privalov’s viewpoint, not quotations from the book or scientific findings.\u003c/p>"
-        }
-      }
-    },
-    {
+    },{
       "id": "road",
       "level": 1,
       "claimType": "book",
@@ -1911,8 +1884,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I was approaching Solovets in a rented Moskvich. My friends were following a different route along the coast; we meant to meet in town and continue our holiday. Fourteen hours behind the wheel had left me tired, but the two hitchhikers beside the forest looked like pleasant people. One was dark and had a prominent nose; the other had a red beard. They settled among my tent and belongings, and the conversation was so ordinary that nothing put me on my guard: roads, rain, cars. Once they discovered I was a programmer, however, they immediately began recruiting me. They had an Aldan-3 computer that still needed putting into working order. In their opinion, fate could hardly have arranged such a meeting by accident.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "recruitment",
       "level": 2,
       "claimType": "book",
@@ -1940,8 +1912,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They wanted me to work on human happiness. What that involved, my passengers did not yet explain. The terms were fairly clear: a volunteer was needed, someone unspoiled by life in the capital, willing to live in a hostel on modest pay. I offered to recommend acquaintances instead. The dark man would not believe there was more interesting work anywhere else; his bearded companion already regarded me as a future colleague. When they learned I intended to sleep in the car, they undertook to find me a bed. The hostel presented an unexplained difficulty. Some unusual method of getting me there was discussed and rejected as unsuitable. Eventually they decided to take their guest to Lukomorye.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "hut",
       "level": 1,
       "claimType": "book",
@@ -1969,8 +1940,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Behind high gates on the street with that fairy-tale name stood a hut on chicken legs, officially protected as a historic monument. The gates carried an institutional sign, the name N. K. Gorynych and a notice announcing that the cat was out of service. I was still trying to read the last item as a technical abbreviation when the cat itself appeared: enormous, striped and unmistakably real. An old oak almost hid the house. The landlady, Naina Kievna, looked older than anything in the yard and recited my personal particulars without being introduced. Almost imperceptibly, the questionnaire became fortune-telling and a request for money. My companions, whose names turned out to be Roman and Volodya, interrupted and began negotiating my accommodation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "receipt",
       "level": 1,
       "claimType": "book",
@@ -1998,8 +1968,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They found me a place in the storeroom. Naina Kievna worried about the safety of the contents, especially the sofa. Roman grew exasperated but finally sat down to sign a receipt listing the property. Through the wall came discussions of the table, tablecloth and almost the hut itself. My room contained a broad sofa, a stove, a cloudy mirror, an unreliable clothes rack and a book on the windowsill. I was too tired to follow much more. For some reason the landlady was particularly anxious that I should not click my teeth. I promised only to sleep, paid for two nights and received copper coins in change. While she prepared the bedding, I went out for a cigarette under the oak. The cat climbed above me, showering debris onto my head.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "scales",
       "level": 1,
       "claimType": "book",
@@ -2027,8 +1996,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Back indoors, I found that she had made my bed on the floor. After that drive I refused to accept her arrangements: I locked the door, moved the bedding onto the sofa and undressed. Something stiff was caught in my hair. It was dry fish scale, although that was hardly the sort of litter one expected from an oak. I had no energy to investigate. I dropped onto the pillow and fell asleep, unaware that I was occupying the most disputed object in the room.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "whispers",
       "level": 2,
       "claimType": "book",
@@ -2056,8 +2024,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Two people were whispering nearby during the night. One coughed and the other complained; both resented my presence. Half asleep, I thought I was at home and my physicist neighbours were hunting for cigarettes again, so I flung a pillow into the darkness. Something crashed. Once awake, I found an empty room and a fallen clothes rack. I had to pick up the dog-smelling garments, freezing whenever the landlady stopped snoring next door. Outside, young voices were discussing bed and whether it was too cold for another swim. I returned to the sofa, but hunger had displaced sleep. Trying to distract myself with mathematics merely brought back memories of homemade meat patties.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "potatoes",
       "level": 2,
       "claimType": "book",
@@ -2085,8 +2052,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The harder I tried not to think about food, the more vividly I imagined sauces, sandwiches and meals from books. Earlier diners had left their marks on the tablecloth. I began clicking my teeth, and Naina Kievna arrived with hot potatoes. At first she coaxed me to eat; once I had finished, she immediately became angry. Had I not promised to stop clicking? Offering payment made no difference. After she left, I remembered the locked door. How had she got in? I reached to inspect the bolt and discovered that I was lying face down in my pillow, feeling a log in the wall. Either I had woken up or I had merely moved into another dream.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "mirror",
       "level": 1,
       "claimType": "book",
@@ -2114,8 +2080,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Now someone was delivering old-fashioned information and peculiar instruction. The voice belonged to the mirror, which initially failed to show my reflection. It answered questions readily enough, though it did not always understand the wisdom it quoted. I tried an old test for hallucinations, pressing an eye to see whether the object would double. The mirror doubled, but nothing became clearer. The oak vanished from the window; the book on the sill changed its title. Then the floor tilted, the hut creaked and an enormous chicken leg emerged beneath it. I clutched for support until I tumbled off the sofa with the pillow in my hands.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cat",
       "level": 1,
       "claimType": "book",
@@ -2143,8 +2108,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Outside, Vasily the cat was rehearsing. He paced beside the oak on his hind legs, began a tale, forgot the names, grew furious, tried a song and became stranded halfway through that as well. His repertoire was immense: stories from many countries, ballads, comic verses, foreign songs. His memory allowed him to begin almost anything and finish almost nothing. He took up his gusli, struggled, lapsed into meowing and sometimes clawed the tree in despair. This was no stately apparition from folklore. It was the exhausting labour of an unhappy performer who knew how much he knew but could not recover the next line. Eventually he carried his instrument away and limped off.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "waking",
       "level": 1,
       "claimType": "book",
@@ -2172,8 +2136,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I picked up another fallen book, once again different from the one I had held. Reading about criminal investigation made me imagine a hanged man in the oak; on closer inspection, I saw a dangling fish tail. I jerked back, struck my head and woke on the sofa again. This time genuine morning sunlight shone through the leaves and a telephone was ringing. The oak, the clothes rack and the door bolt were all where they belonged. The night refused to arrange itself into either a straightforward dream or an intelligible reality.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "message",
       "level": 2,
       "claimType": "book",
@@ -2201,8 +2164,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The caller required me to take a message for Naina Kievna. She was instructed to attend a republican gathering on Bald Mountain that night and pay for her own transport. Someone called Viy had signed it. I had to ask for the name letter by letter. The conversation was so bureaucratic that its extraordinary names sounded stranger still. I wrote everything in my notebook. My interest was growing rather than giving way to flight. I had always resented fictional heroes who encountered the unknown and immediately tried to return to ordinary life. Here was a chance to see whether I could behave differently myself. First, however, I needed water to wash.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pike",
       "level": 1,
       "claimType": "book",
@@ -2230,8 +2192,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The bucket I raised from the well contained a large elderly pike. Mistaking me for the landlady, she began to complain. Naina Kievna kept selling her at the market, forcing her to promise buyers wishes in exchange for release. Cold and rheumatism drove her back from the river to the well, where the business began again. Having recognised her mistake, the pike offered me a service too. Modern appliances were beyond her: she did not believe in them. Fairy-tale equipment was much more manageable. My hope of handing over maintenance of the Moskvich disappeared. I asked for nothing and prepared simply to put her back.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "fin",
       "level": 1,
       "claimType": "book",
@@ -2259,8 +2220,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The pike showed me a metal tag on her fin. This specimen had been released into the river in the nineteenth century, with instructions to deliver it to the Academy of Sciences. I managed to ask how she performed her wonders. She could not explain; she had been taught as a youngster. She told a grim story about the Golden Fish and a depth charge, without arranging a fairy-tale ending to it. I gently lifted the heavy pike out of the bucket and released her into the well. For an instant I again felt that I was still sitting on the sofa. Then the sensation passed. I washed, shaved, filled the radiator and went to the post office to look for a note from my friends.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "dragon",
       "level": 2,
       "claimType": "book",
@@ -2288,8 +2248,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The town was not entirely ordinary either. An enormous smoking tanker passed with a fire-service escort. The children knew it contained a dragon. Naina Kievna, whom I met carrying a bag of sugar, explained disapprovingly that it regularly went to the testing ground. News of her gathering pleased her; the transport arrangements did not. She complained about her broom being taken into the museum, her unrepaired mortar and ancient membership dues. An offer to carry her shopping aroused suspicion. We parted, and I was chased down the street by boys who considered my jeans and unfamiliar appearance sufficient grounds for persecution.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "teashop",
       "level": 2,
       "claimType": "book",
@@ -2317,8 +2276,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>There was no note at the post office. I left my friends an address and went for breakfast. In a tea shop, among drivers talking about bridges and engines, two young men at the neighbouring table were discussing a sofa. Their voices were low, but I heard references to a translator and their inability to do without it. One coughed exactly like the visitor in my room during the night. They left before I could find out more. The sofa now interested me more than the talking cat. Only the prospect of crawling beneath the car with a grease gun discouraged an immediate return. Unlike the wonders, the Moskvich demanded dull, dirty maintenance.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "building",
       "level": 1,
       "claimType": "book",
@@ -2346,8 +2304,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>While putting off that maintenance, I wandered to an odd building. It appeared to have two storeys, warehouses pressed against both sides, and no entrance anywhere. Between the windows hung a sign: NIICHAVO. A lorry had just driven along this street, which ended abruptly at the river; it too must have disappeared somewhere. The hut’s sign, my passengers and the night’s strange events were gradually becoming connected. I still could not explain anything, but Roman’s invitation no longer sounded like empty boasting. There was considerably more here than my holiday itinerary had suggested.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "coin",
       "level": 1,
       "claimType": "book",
@@ -2375,8 +2332,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Then I discovered a five-kopeck coin in my pocket, although I remembered spending all my change. I paid for a drink, and it returned. A small nick made the coin recognisable. I started testing the conditions of its return: buying newspapers, matches and more drinks, watching the change and my pockets. If thrown away, it stayed where it fell. If spent, it came back when the seller handed over change. Blocking one pocket with my hand made it choose another location; once it appeared in my shoe. The movement itself absorbed me. Shop counters became laboratory equipment, along with my own increasingly soda-filled body.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "police",
       "level": 1,
       "claimType": "book",
@@ -2404,8 +2360,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Young Sergeant Kovalev interrupted the experiment. The drinks seller had long since lost patience, and now I was asked for my passport and the coin. At the station I discovered that the local police needed no explanation of such a device’s nature. They wanted to know about the losses. I had to produce my purchases, surrender the accumulated change and explain that I had not been saving for a car. It was particularly miserable to realise that scientific curiosity looked like petty fraud from outside. The lieutenant drew up a report about my use of a working model of a returning coin, confiscated it and supplied five ordinary kopecks in exchange.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "receipt-police",
       "level": 2,
       "claimType": "book",
@@ -2433,8 +2388,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After the arithmetic, allowing for the change I had surrendered, I owed another eighty-one kopecks. Naturally, I could not return the water I had drunk. I paid with enormous relief. When I cautiously asked whether life here seemed strange to him, the lieutenant said he had long since grown accustomed to it. For him the affair ended with a receipt. I had meant to study the movement of a coin and had instead been taking small change from shop tills without noticing it while absorbed in the tests. The sergeant would cross my path again, but this was the first time his everyday duties had proved more dependable than my magnificent theories.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "missing-sofa",
       "level": 1,
       "claimType": "book",
@@ -2462,8 +2416,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Until evening I tried to behave cautiously. I serviced the Moskvich, declined to drive the landlady to her gathering and listened to Vasily’s warning against accepting. According to the sergeant, there was no road to Bald Mountain at all. When I returned in the rain, Naina Kievna had gone. I wanted to continue my investigations in the empty hut, but the book stubbornly remained a syntax manual and the mirror kept silent. I lay down. Then someone rang the wrong number, demanded a foreman and spent a long time disputing whether I was the right Alexander. Returning from this absurd conversation, I stopped in the doorway. The sofa was gone. The bedding had been neatly folded elsewhere; a dusty rectangle marked the floor.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "visitors",
       "level": 2,
       "claimType": "book",
@@ -2491,8 +2444,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Invisible activity immediately filled the house. An elegant visitor in a spotless raincoat knocked. Learning that the sofa had disappeared, he expressed disappointment and departed through the lavatory, where he promptly vanished. The next guest was perched on the stove near the ceiling. Small, hairy-eared and deeply unhappy, he descended with difficulty and talked about lost talent, age and great masters. His explanation identified the earlier visitor as Cristóbal Junta, who could use routes unavailable to less accomplished magicians. The little man avoided discussing the sofa itself. He too had arrived too late and went out through the wall, leaving more questions and whitewash on the floor.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wand",
       "level": 1,
       "claimType": "book",
@@ -2520,8 +2472,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>While sweeping up, I struck a small metal cylinder. It crackled, smelled of ozone and felt warm. I picked it up and turned it, whereupon I received several painful impacts and found myself wedged between the stove and the wall. My boot soles had left marks on the ceiling. As I inspected the dangerous discovery, a gigantic vulture appeared on the stove. It declined to speak, though its smell was convincing enough. I covered the cylinder with a metal dipper and sat down to await developments. An invisible voice explained that iron was a dangerous covering. An exceptionally courteous man in a grey suit followed the voice into view. He called the cylinder an umklidet: a magic wand I had no idea how to handle.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "courtesy",
       "level": 1,
       "claimType": "book",
@@ -2549,8 +2500,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>With the visitor’s assistance, the dipper ceased to be a dipper and rapidly evaporated. He refused to remove the umklidet itself on grounds of honour. He also denied any interest in the sofa at considerable length, managing to reveal a good deal about it: it was a dependable universal translator, the subject of a dispute involving the legendary White Thesis. His manners made our exchange almost a drawing-room conversation, despite the smelly vulture sleeping overhead and my absence of a bed. When I tried to detain him with questions, he persuaded me that I was terribly tired. The persuasion worked instantly. I arranged myself on the floor and dropped into sleep.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "korneev",
       "level": 1,
       "claimType": "book",
@@ -2578,8 +2528,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Wings woke me. A large fellow in a Hawaiian shirt was working over the umklidet. He told the mortal not to interfere; I demanded that he put the instrument down. We nearly came to blows, with the mirror supplying a lofty and unhelpful exhortation. Two more men appeared, one thin and one fat. They called the fellow Korneev and accused him of stealing the sofa. To Korneev it was nothing but a necessary instrument: he would finish the experiment and then return it. They argued about prohibitions, orders and the Thesis. I, for whose benefit the receipt had been written, was still left sleeping on the floor. Korneev went out through the wall, pursued by the fat man. I managed to ask the thin one to remove the vulture. He drew it under a fingernail and disappeared with it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "commission",
       "level": 1,
       "claimType": "book",
@@ -2607,8 +2556,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the morning the sofa was back, while I remained on the floor apart from it. A commission arrived under the white-haired Janus Poluektovich. With him came Roman, a sleepless Korneev and the administrative chief, Modest Matveyevich. For Korneev it was an instrument; for Modest, an upholstered sofa with an inventory number. While the researchers explained why old craftsmanship surpassed the mass-produced translator, the administrator worried about rain ruining the upholstery and springs. Janus deferred the question to the scientific council. The mirror tried to intervene in someone else’s voice, so the director reached inside it and switched it off. Modest considered sleeping in a museum outrageous too. My existence as a new programmer had not yet improved matters.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cap",
       "level": 1,
       "claimType": "book",
@@ -2636,8 +2584,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Once the authorities left, Roman explained why we need not despair. The visitor had been A-Janus, the administrator, rather than U-Janus, the distinguished scientist. According to Roman, one man existed in these two persons. I cautiously suggested twins, but that explanation was rejected. Outside, meanwhile, Modest was arguing with Kovalev about my coin. Seeing a threat to the collective’s reputation, he brought the sergeant to find me. Roman put an old cap on my head, making me invisible. Then he produced the phantom of a bearded man in my place. The sergeant knew his suspect had no beard; Modest remembered only trousers and an absence of shoes. The authorities consequently agreed to doubt my very existence.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "museum",
       "level": 1,
       "claimType": "book",
@@ -2665,8 +2612,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Modest took the sergeant into the museum to prove that its own returning coin was still present. There I found fairy-tale objects with exemplary labels. Living water stood beside industrial diagrams; a carpet and boots were working models; frightening relics had become material for a scientific collection. Folklore here was accounted for rather than concealed. That nearly destroyed me at the exit. Modest decided I was a laboratory homunculus and ordered me back to my place. Arguing with a man who had just rejected my existence proved useless. Naina Kievna saved the situation by returning with an enormous black goat. At the sight of the sergeant, the goat bolted, the landlady fell and everyone became occupied with a new disaster.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "entrance",
       "level": 1,
       "claimType": "book",
@@ -2694,8 +2640,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>While the people in the hall debated identity papers and why an employee looked like a goat, Roman got me out through the window. We jumped into the car and escaped through the gates. On the way we collected Volodya. I was still mentioning my holiday and my friends, but they were already taking me to work. My resistance sounded less and less convincing: I stopped at the entrance-less building myself. They finally expanded NIICHAVO into the Scientific Research Institute of Witchcraft and Wizardry and told me to drive in. Previously I had seen nowhere to enter. This time I could. In two days a visit to an unfamiliar town had become the beginning of an entirely different life.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "instructions",
       "level": 1,
       "claimType": "book",
@@ -2723,8 +2668,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>By New Year I was running NIICHAVO’s computing centre, wearing a beard and constantly repairing relations between the Aldan and its many users. On 31 December another fuse blew just before Modest Matveyevich rang: I was late for the duty officer’s briefing. He issued keys, a platinum whistle for summoning the emergency team and instructions it was pointless to challenge. I was to inspect the building personally, without substituting a double, watch for fires, disconnect the electricity and admit nobody. Even the people on the list normally authorised for night work were forbidden today: it was a holiday. Living souls must not come in; all the others must not go out.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "night-list",
       "level": 2,
       "claimType": "book",
@@ -2752,8 +2696,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The list was as remarkable as the instructions. After the director in two copies, Modest himself and the personnel chief, Kerber Demin, came unfamiliar names. I requested clarification and learned that these people had received permission posthumously, in recognition of earlier services. My post was the director’s reception room until the following day. I had to visit the vivarium twice and check what its keeper was drinking. At first I had welcomed the assignment, expecting to finish a calculation for my former passenger, Roman Oira-Oira, in peace. The empty holiday institute now seemed less comfortable. I decided to begin with the demons controlling entry and exit. They needed binding securely, so that at least one part of the night would proceed according to regulations.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "keys",
       "level": 2,
       "claimType": "book",
@@ -2781,8 +2724,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Korneev said he was going to a party and leaving a double in the laboratory. I promised to cut the power anyway. Then both Januses handed over their keys. One asked about yesterday’s conversation and misremembered its subject; the other was locking safes and looked younger and less approachable. I was gradually learning to distinguish them. A-Janus, people said, was developing from a mediocre administrator into a remarkable scientist. U-Janus, conversely, was said to be declining, although his abilities remained far beyond most people’s. One-man-in-two-persons did not satisfy me as an explanation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "kivrin",
       "level": 1,
       "claimType": "book",
@@ -2810,8 +2752,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Fyodor Simeonovich Kivrin, head of Linear Happiness, nearly took my duty away from me. Leaving a young man alone on a holiday struck him as unjust. When I explained that I meant to work, he immediately approved. This enormous optimist had survived burnings, beatings, penal labour and wandering during his long life; somehow his faith in people and the future had endured. Electronics now occupied his attention. He created an apple for each of us, discovered a worm in his own and promised to return with questions about the computer’s instructions. An accomplished ancient magician sincerely wanted to learn the trade I considered mine.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "junta",
       "level": 2,
       "claimType": "book",
@@ -2839,8 +2780,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Junta, head of the Meaning of Life department, came to collect Kivrin and declined any charitable exchange of duties. They were old friends accustomed to favours and barbs alike. Before leaving, Junta drew a glowing star on the wall, leaving me to decide whether it was protection or another joke at a newcomer’s expense. His past as a Grand Inquisitor and the stories about ruthless experiments and taxidermy did not encourage calm. Yet he addressed questions whose very premises frightened other people. I knew enough about him for respect and too little to feel at ease in his company.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "models",
       "level": 1,
       "claimType": "book",
@@ -2868,8 +2808,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Professor Vybegallo brought his keys precisely at the end of the working day. Another artificial man was expected in his laboratory. I was to keep an eye on it, feed it and hit back if it attacked. Behind this casual assignment lay a three-model programme. The first, deprived of every kind of satisfaction, had emerged a fortnight before the holiday, suffered disease, hunger, heat and cold, and died. The professor considered this confirmation of his position. Horrified, the scientific council appointed an inquiry, but Vybegallo defended himself with certificates of public service. While the commission struggled to connect these papers with its investigation, he prepared the next experiments. Lorry-loads of herring heads had already arrived for the model with the unsatisfied stomach.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pear",
       "level": 2,
       "claimType": "book",
@@ -2897,8 +2836,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The professor left to celebrate at home, leaving the smell of sheepskin and herring behind. Roman arrived and turned ventilation into a magic lesson. I muddled calculations, uttered spells and plucked eyebrow hairs while the smell escaped through the open window unaided. Next came materialising pears. Roman required me to eat my products; I refused, providing sufficient grounds for another attempt. Eventually I produced a beautiful, soft and thoroughly bitter pear. I ate it so that the exercise could end. The experienced programmer had become an apprentice again, incapable of being trusted with an edible piece of fruit.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "thesis",
       "level": 2,
       "claimType": "book",
@@ -2926,8 +2864,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Magnus Redkin brought keys too. I remembered him from the sofa dispute, whose cause I now understood. Ben Bezalel’s notes mentioned the White Thesis, supposedly capable of making humanity happy. Its inventor had forgotten which instrument he had installed it in. Redkin had dismantled six old devices; the seventh was the sofa occupied by Korneev. Suspicion had made them enemies. Redkin himself was not greedy. For years he had collected definitions of happiness and suffered because they would not combine into one formula. He read us an English poem in which happiness depended on very particular circumstances and looked hopefully to me. I would not undertake to turn such an experience into an algorithm. Roman’s teasing went too far, and Magnus took offence.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "merlin",
       "level": 2,
       "claimType": "book",
@@ -2955,8 +2892,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Merlin arrived with fire, a crash and a smell of sulphur. I thought the spontaneous combustion mentioned in the instructions had begun. He wanted to impress us and tell the story of his travels with the district council chairman. Everyone was tired of the tale, which suspiciously resembled Mark Twain and sometimes turned the chairman into King Arthur. Merlin also preferred to forecast weather by radio, without acknowledging his source. Modest’s call rescued us: hearing that someone unauthorised was at my post, he ordered immediate expulsion. Merlin vanished, deeply offended. Roman went off to open bottles and tins; I gathered the keys and entered the dark building.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "demons",
       "level": 1,
       "claimType": "book",
@@ -2984,8 +2920,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Downstairs the Maxwell demons were tossing coins. The enormous liveried creatures controlled the doors but were currently concerned chiefly about the imbalance in their winnings. I blocked their information channels and placed entry and exit under my control, as instructed. The vestibule was a heap of antiquities: skeletons, idols, armoured figures, darkened portraits. None could be removed, because everything appeared in Modest’s inventory. The flying inhabitants of the chandelier, by contrast, were subjected to continual chemical warfare. They responded with new generations better adapted to the poisons. Someone groaned in a niche. I suppressed the supernatural in an administrative tone and went on.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "laughter",
       "level": 1,
       "claimType": "book",
@@ -3013,8 +2948,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The institute’s two-storey exterior contained at least twelve floors. Corridors extended for improbable distances, yet the windows obstinately faced the same street. I had grown accustomed to space I could not explain. Kivrin’s floor smelled of apples and forest. Here they made remedies against hostility, distributed kindly laughter and sought ways to combine intelligence with goodness. A Children’s Laughter installation was running in the central hall. Two switches should have extinguished its golden glow, according to my instructions. I did not even try. I backed away and locked the door, leaving the apparatus running. Tikhon, the house spirit who drew cheerful pictures on the doors each night, greeted me with a handshake. His presence made the floor feel inhabited even on a holiday.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "finger",
       "level": 2,
       "claimType": "book",
@@ -3042,8 +2976,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the vivarium, Alfred the keeper hastily concealed a teapot. Pretending not to notice, I asked how things were. Briareus had injured a finger on one of his right hands while attending to his nose and turning awkwardly. Alfred thought it would heal unaided, but I asked to look. In the enormous cave, Briareus’s brothers slept while he supported the painful hand with seven others and complained through the head that knew Russian. The finger was dislocated. I put it back with a familiar sports-hall manoeuvre. Fifty throats roared simultaneously. Then every head wanted to inspect the result, and they began obstructing one another. Briareus settled down; Alfred regretfully observed how little genuine blood these beings possessed.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "vivarium",
       "level": 2,
       "claimType": "book",
@@ -3071,8 +3004,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In a comfortable private cage, Koshchei was studying a manual for persecuting witches. The investigation into his innumerable crimes continued endlessly; immortality posed an awkward problem for any eventual sentence. Meanwhile, the institute used him as a rare experimental subject and an interpreter for the dragon. Vampires in the neighbouring enclosure tried to grab my trousers while proposing a drink, and Alfred drove them back. In the machine hall, power came from the turning Wheel of Fortune. Junior devils rode its rim and answered criticism with spitballs. My regulation inspection increasingly resembled a visit to a crowded household where every ancient horror had a job, habits and reasons to ignore the duty officer.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "depository",
       "level": 2,
       "claimType": "book",
@@ -3100,8 +3032,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Defensive Magic, by contrast, was nearly deserted. An old soldier stopped me at the threshold. Magical warfare had gradually been overtaken by actual means of destruction. After hearing about modern weapons, the last enthusiastic planner of genie-bombing had gone away to investigate the meaning of life. The book depository was appropriately vast: a road ran beyond its shelves, along which Korneev had once travelled in seven-league boots looking for the sofa’s documentation. I remembered the many-volume Book of Fate too. Publishing schedules lagged behind humanity, and urgent supplements suffered from misprints. One informed me that I was due to die centuries before my birth. The corrections had not yet reached my name.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "aldan",
       "level": 2,
       "claimType": "book",
@@ -3129,8 +3060,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The forecasters managed by candlelight and were mostly surprised by their own successes. In Eternal Youth I had to switch off lights left on by forgetful old men. A model youth with a long grey beard wandered the laboratory. On reaching the Aldan, I lingered. People treated the computer very differently. Accounting wanted calculations; Korneev and Roman brought exhausting problems; Junta connected it to his nervous system, after which it altered its customary logic. Kivrin had installed an industrious soul in it, and one Janus had once blown every fuse in ten seconds with a small attachment. Yet I enjoyed being needed. I was already calculating the sofa’s parameters, the transport of Children’s Laughter and the thoroughly earthly business of the fish factory.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "autoclave",
       "level": 2,
       "claimType": "book",
@@ -3158,8 +3088,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>After working until nine, I shut down the computer room and continued my round. Modest’s offices had armed guards and beams across the doors. Absolute Knowledge offered the opposite kind of emptiness: pristine desks, inkwells used as ashtrays and endless conversation about infinity. From the proposition that everything could never be known, most of its staff had extracted a convenient excuse for inactivity. Vybegallo’s floor was different. Autoclaves worked in a stifling room alongside bread, buckets and feed. Something white stirred behind the central vessel’s inspection window. Feeling sick, I hurried out. Only beyond the threshold did I notice the protective spell against a hungry demon. On the next floor I heard singing in Korneev’s laboratory.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "double",
       "level": 2,
       "claimType": "book",
@@ -3191,8 +3120,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The promised double was at work. I had tried explaining the two Januses as copies too, but both had identity papers; doubles destroyed documents bearing an official stamp on their own photographs. Such copies generally possessed a limited range of skills and no feelings. Familiar faces sometimes stood in the pay queue without even being available for conversation. During the summer, Roman had sent a highly sophisticated double to my friends in my place. It completed the trip with them, drove them to Leningrad, returned the rented car and disappeared without arousing their suspicions. But Korneev’s present substitute sang, adjusted the sofa’s mechanism and cursed a dead perch in a child’s bath. The cursing had a suspicious amount of feeling. A large dusty bottle stood near the door with a sealed genie inside. It tried to clean the glass from within, although the dust was outside.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "sofa-field",
       "level": 2,
       "claimType": "book",
@@ -3224,8 +3152,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>By now the sofa had finally been transferred to the laboratory. It had taken the director’s intervention, senior researchers’ support and a letter from the Academy. Its field transformed reality towards fairy tale. On my first night it had been running at low power; stronger operation might have changed more than what I saw. Korneev needed it to turn seawater into living water. For the moment his revived perch moved its fins briefly and died again. I ordered the supposed double to clear up and go celebrating. It froze, continuing its impersonation of an unfeeling copy. Then I produced sharp pliers. Real doubles were insensitive to pain; Korneev preferred to abandon the performance before the test.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "solutions",
       "level": 2,
       "claimType": "book",
@@ -3253,8 +3180,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A bad day explained his gloom. His working double had been useless, and the fish refused to revive properly. I offered advice without understanding much. A remark about an unsuitable specimen unexpectedly caught his attention. If individual fish differed, why should water have perfectly uniform properties? Korneev became absorbed in solutions, forgetting the holiday and me. At my final reminder of the party, he said he had sent a double there, one admirably suited to dancing, telling jokes and amusing the guests. I withdrew beside the bottle, cleaned a viewing patch for the genie and watched vessels for a new experiment appear across the table.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "return",
       "level": 1,
       "claimType": "book",
@@ -3282,8 +3208,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Voices came from the corridor. The institute was full of staff. Researchers were returning through the blizzard, lights were coming on and equipment was being hauled up staircases. I rushed to the vestibule, certain the demons had failed. They had indeed forgotten their duties: they were playing with my homemade roulette wheel. Korneev knew where it was kept. The arrivals discussed dull parties, unfinished problems and needed instruments rather than their entry into forbidden premises. Administrative fury possessed me, but resistance would mean taking on the entire institute. Even Kivrin was already demanding to know who had switched off a generator. The empty holiday night had ended almost before it began.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "midnight",
       "level": 1,
       "claimType": "book",
@@ -3311,8 +3236,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the testing hall, they were subduing a genie released for experiments. Doubles operated the discharger while the real staff watched the time and opened champagne. The creature had managed fiery threats and palaces it immediately destroyed again. Eventually it asked them to stop shocking it. At that moment midnight struck. Someone gave me a glass, everyone toasted and then returned to work, strapping the genie onto a vibration rig for further tests. I timidly suggested going home. They patted my shoulder kindly, as though I were suffering a temporary misunderstanding, and went on attaching sensors.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "monday",
       "level": 2,
       "claimType": "book",
@@ -3340,8 +3264,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Making my way back, I could see that these people had come neither at the duty officer’s command nor with the administration’s permission. What interested them was here, with one another and their unfinished work. The institute sought happiness and the meaning of life, although nobody could yet define either precisely. Its working hypothesis connected both with continuing investigation of the unknown. Miraculous tricks were merely the outward appearance: knowledge and a willingness to do useful work beyond their own interests made these people magicians. I was beginning to understand their saying about Monday. But the institute had another peculiarity. Selfishness and idle self-regard put hair on their ears. Some suffered over it; others learned to shave and conceal the signs under clothing.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "scream",
       "level": 1,
       "claimType": "book",
@@ -3369,8 +3292,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Modest checked on me by telephone again in the reception room. I reported an injured finger in the vivarium and avoided the more dangerous subject of electricity. Then Roman demanded the director’s safe key for technical documentation. He first sent a double, then hurried in himself, threatened to remove the whole safe and unsuccessfully tried. I enjoyed a moment of my own inflexibility and was about to relent. A woman screamed upstairs. Roman immediately recognised the arrival of Vybegallo’s new model. Taking my hand, he flew through the ceilings. The small inhabitants of the spaces between floors scattered out of our way.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "feeding",
       "level": 1,
       "claimType": "book",
@@ -3398,8 +3320,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A naked Professor Vybegallo sat at the laboratory table eating bran. Only gradually did I understand that this was not the professor but a model of a man with an unsatisfied stomach, made in his likeness. Stella, his student assistant, tearfully cut bread and added milk, afraid of what would happen when the food ran out. The creator had been called but was still only preparing to leave home. Stella was drawn away from the table and took refuge behind me. Meanwhile the newborn was getting more decisively into its food. As it reached the last bread, the spectators began assessing their chances. There were plenty of herring heads, but the conveyor supplying them would not work.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "pause",
       "level": 1,
       "claimType": "book",
@@ -3427,8 +3348,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Roman and his colleague, the magician Edik Amperian, tried to slow the model by magic. Nothing happened. Volunteers worked at the conveyor, and suddenly the creature leaned back with a blissful smile. Stella warned that this was merely a short interval between bouts of hunger. I longed to call Modest. At that moment his capacity to bellow seemed almost a force of nature. Roman reassured me: he did not consider this cadaver dangerous. What worried him was the second autoclave, quietly standing in the corner. The model woke, inspected the empty utensils, ate the photographic tray and began choosing something from the crowd with its eyes. Its gaze settled on Stella, who screamed again.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "conveyor",
       "level": 1,
       "claimType": "book",
@@ -3456,8 +3376,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The real Vybegallo finally arrived, reproached his assistant and activated the supply of herring heads. The conveyor had not broken. He himself had protected it by a spell against unauthorised consumers, without ensuring that the girl on duty could operate it. The stream of heads distracted the cadaver, and everyone breathed more freely. Two newspapermen, Pronitsatelny and Pitomnik, had accompanied the professor. They took pictures and notes and arranged the creator beside his creation. Laboratory assistants dragged out of their celebrations put a suit on the model. As danger receded into the background, the future article about a great discovery took centre stage.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "culture",
       "level": 2,
       "claimType": "book",
@@ -3485,8 +3404,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Vybegallo explained that the ability to satisfy desires was happiness. Once fed, the subject could develop spiritual needs. They brought a radio, tape recorder, film and reading matter. The cadaver first tasted the tape, then continued eating or dozing with the same indifference. Culture had to be imposed from every direction at once. Detecting a leg movement, the professor proclaimed an important sign of spiritual growth and demanded a close-up. Oira-Oira objected, but his questions were reclassified as improper attitudes. Stella stood beside me, and it became increasingly clear that she was more genuinely answerable for events than the triumphant author of the experiment.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "second-vessel",
       "level": 1,
       "claimType": "book",
@@ -3514,8 +3432,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The magician Edik Amperian noticed that the intervals of contentment were disappearing. The professor promptly explained that needs had increased: happiness now extended to uninterrupted chewing itself. Roman asked what would happen when all the food ran out and was accused of distrusting human capabilities. Vybegallo then pointed to the true ideal, the second autoclave. It contained a universal consumer capable of wanting everything and obtaining every desire magically. The creator believed that an unlimited range of material wants would produce unprecedented spiritual richness. I imagined a mouth into which people and whole cities, rather than herring heads, were flying. He rejected moving the test to the outdoor range. He was testing a man, not a bomb.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "burst",
       "level": 2,
       "claimType": "book",
@@ -3543,8 +3460,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Meanwhile Roman watched the expanding stomach model and ordered anyone without a direct interest to leave: it would shortly become very dirty. Stella and I followed him first; the other spectators came after us. The reporters stayed. Outside, an assistant smoked nervously. Roman had just mentioned the time when the explosion came. Windows shattered, the door broke loose, and a camera and a tie flew through the gap. Coughing and swearing emerged from the laboratory. As duty officer I would have to go in. Fortunately, Vybegallo and the journalists staggered out themselves. I took the platinum whistle and summoned the house spirits equipped to clean up a discovery of this kind.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "cleanup",
       "level": 2,
       "claimType": "book",
@@ -3572,8 +3488,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>While being washed, the professor explained that the sceptics’ distrust had burst. The reporters silently presented themselves to the cleaning jets. The model had left buttons, scraps of clothing, braces and a jaw. These were sent to the furnace. The second autoclave survived. After establishing that there would be no further experiment before morning, I returned to reception. An unpleasant question occupied me: was this stupidity, or the ability to turn stupidity into public success? The models proved nothing but supplied photographs and awed amazement. Roman’s genuine results were far harder to explain. The professor’s fame did not help me understand his work. It made the distance between fame and work more obvious.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "breakfast",
       "level": 2,
       "claimType": "book",
@@ -3601,8 +3516,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I dozed and materialised an enormous bearded mosquito from my dream. It tried to bite me, so I drove it into the blizzard with a volume of mathematical magic. Then I decided to send my own double on the next round. It came out reasonably well, despite a closed eye and extra fingers. It left and never returned to me; I never discovered where it had gone. Breakfast proved even harder than duty. Instead of a sandwich with doctor’s sausage, I produced a doctor’s coat smeared with oil. Successive repairs added black liquid, a cow’s tail, a crystal containing an inaccessible sandwich and a menagerie of unpleasant objects. A dish on spider legs took runs at my knees. I trapped it behind an armchair and waited in horror to see who would enter first.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "meeting",
       "level": 2,
       "claimType": "book",
@@ -3630,8 +3544,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Janus entered. With one movement he removed my creations and went into his office with Kivrin, Junta, Roman and Vybegallo. One of the senior men also left me genuine coffee and sandwiches. An argument about the second experiment began beyond the open door. Junta complained about the explosion beneath his laboratory, Kivrin feared for the town and Roman tried to explain the danger itself. Vybegallo replied with accusations of incorrect ideology and fear of experiment. When arguments failed him, he attacked his colleagues’ origins and pasts. Roman came into reception, created a professorial double and pulled its beard to avoid doing the same to the original. Then he returned to the discussion.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "order",
       "level": 2,
       "claimType": "book",
@@ -3659,8 +3572,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Janus remained silent for a long time, then scheduled the demonstration for ten that morning in the far sector of the range, fifteen kilometres outside town. His reasons sounded as if the result were already known: destruction would occur and would almost cause casualties. He thanked Roman in advance for courage and resourcefulness. The others accepted the order. I remembered this unusual grammar of the future. Vybegallo immediately supplied the correct political explanation for the decision and demanded porters for his heavy autoclave. The safety argument ended with preparations for a test whose consequences the director had described beforehand without cancelling it.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "loading",
       "level": 2,
       "claimType": "book",
@@ -3688,8 +3600,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The hundred-handed Cottus and Gyges carried the equipment. Briareus complained about his finger. On discovering that no load remained for him, he energetically helped by issuing directions. He got trapped, burst into tears and was led back by Alfred. The lorry returned for the forgotten reporters. While they were being found, the many-handed porters broke windows with snowballs and nearly fought a passer-by. At last everyone departed. I still had to remain on duty. During my round I found Korneev and Edik on the sofa, arguing about non-protein life. The perch was swimming energetically despite having been gutted. This made the solution impressive without clarifying the disputed boundary between life and magical animation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "range",
       "level": 2,
       "claimType": "book",
@@ -3717,8 +3628,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Korneev created a tiny version of himself, which produced a smaller copy, and the chain continued across the table while Edik challenged the example’s relevance. I was more interested in the range. I asked them to cover for me. Korneev bargained over computing time; Edik reminded him about hairy ears, and the price became almost friendly. They transported me so hastily that I had no time to dress. I arrived backwards among spectators sheltering behind protective shields. The viewing instruments were in place, Vybegallo occupied a trench, and Janus stood apart with his stick. Moonlight lay over the snow; the northern lights appeared. The autoclave was visible about a hundred metres away. The professor began a speech about the approaching birth of the ideal.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "horizon",
       "level": 3,
       "claimType": "book",
@@ -3746,8 +3656,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The lid unscrewed, steam rose, and the ground came loose from its accustomed position. I rolled through the snow. Getting up beside the lorry, I saw the horizon curl inward as though the plain were becoming a bowl. Kivrin and Junta tried to extend protection over the fleeing people, but the hurricane tore it apart. Janus stood with his back to the wind, watching the time. Roman appeared beside the autoclave in his green coat. He threw a large glass bottle into the boiling vapour and dropped, covering his head. A furious genie’s face emerged; a phantom palace flashed into view, then flame vanished into the sky. For several seconds everything was quiet. Then the horizon collapsed with a crash and flung me up again.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "crater",
       "level": 3,
       "claimType": "book",
@@ -3775,8 +3684,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The snow had gone. A crater smoked in the blackened field. People rose, coughing, and discovered missing possessions: watches, rings, trousers, coats, even a platinum tooth. Vybegallo climbed out of the trench without his felt boots and tried to address the press. Redkin, deprived of clothing and his hope of seeing happiness, was already shouting at him. Kivrin suggested applying such talent to Defensive Magic. Junta threw dirty gloves at the professor’s feet. The journalists finally demanded their cameras and a ring. Everything turned up in the crater, along with cars, a savings-bank safe, meat, alcohol and a bed. The universal consumer was not among the objects.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "advance-thanks",
       "level": 3,
       "claimType": "book",
@@ -3804,8 +3712,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Kovalev arrived: Redkin had called the police. While we were being listed as witnesses and the sergeant examined a gigantic jaw, Roman and I left. He had requisitioned the genie from the store the previous day for an entirely different purpose. The consumer, he explained, first collected accessible valuables and then would have folded space around itself and stopped time. Vybegallo had programmed unlimited self-centredness without understanding the result. The bottle enabled Roman to destroy the creature before that process was complete. Something else now occupied us. How had U-Janus known about the destruction and Roman’s solution? The thanks really had come beforehand. We thought about this for a long time. An answer arrived only in spring.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "spring",
       "level": 3,
       "claimType": "book",
@@ -3833,8 +3740,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In spring, the Aldan burned out again after Junta connected himself overnight. Repairs would take time, and I woke facing the disagreeable prospect of a day without work. Trying to rise from bed by levitation without the usual preparations merely pressed me deeper into the sofa bed. My roommate Korneev, however, was perfectly cheerful after his exercises, flying around the room and interpreting his dreams. At breakfast we heard the news: another scandalous gathering on Bald Mountain, marriage leave for Vasily the cat, the death of the model immortal man. Vybegallo had returned with a great idea about listening to baboon recordings backwards. And Louis Sedlovoy of Absolute Knowledge was going to demonstrate a time machine. I needed somewhere to go while engineers explored the computer’s innards.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "seminar",
       "level": 3,
       "claimType": "book",
@@ -3862,8 +3768,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>My acquaintances were occupied and had little need of my company. Eventually I wandered into Sedlovoy’s seminar. His contraption, with its saddle and pedals, resembled an exercise machine. The talk proved more interesting than its appearance. The proposed journey was through worlds created by human imagination rather than ordinary time. There had already been an expedition to a flat Earth. Its traveller reported elephants and a turtle, after which contact ceased. Sedlovoy wanted to enter the space of events described by writers. The more fully and skilfully someone had been created, the more fully that person existed there. I listened with interest until the speaker turned to specialised gears and transmissions. The chairman fell asleep, the back rows started a game and I lost the thread.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "volunteer",
       "level": 3,
       "claimType": "book",
@@ -3891,8 +3796,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The demonstration required a volunteer. Sedlovoy preferred to stay and explain things. Sending a double would not do: it would perceive too little. Nobody volunteered, despite the chairman’s kindly encouragement to the younger generation. Watching the lecturer suffer was embarrassing, so I went forward myself. I was immediately seated and shown controls resembling a car’s. I chose the future. Sedlovoy warned that gaps would separate the imagined eras; writers had not filled in every consecutive year. A breakdown, however, would supposedly bring the traveller back automatically. I started the trembling apparatus and pressed the pedals. The last thing I heard was the chairman asking how they intended to observe me. The hall vanished before I heard an answer.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "utopias",
       "level": 3,
       "claimType": "book",
@@ -3920,8 +3824,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>At first I jolted against the ruins of old utopias. Increasing power brought me among translucent buildings, fields and herds. The shepherds were reading. Two men carrying tools and writing materials began taking turns to explain their perfect societies, although they scarcely looked at me. One particularly emphasised the absence of coercion: even the poorest farmer owned several slaves. The other was proud of unpaid labour and intended to compose poetry. Years passed on the instrument while they delivered their allotted speeches and disappeared. Then heavy, winged, wood-burning machines flew overhead. Ash fell, followed by a log. The future changed its technical equipment faster than its idea of splendid architecture.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "bicycle",
       "level": 3,
       "claimType": "book",
@@ -3949,8 +3852,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I stopped on a moving pavement in a large city. Machines were more convincing than people: a mechanism could pass through an incompletely described pedestrian. An inventor sat on each novelty explaining its construction without much expectation of an audience. Clothes also depended on the writer’s attentiveness. If a man had been given only a hat and jacket in the description, everything else was absent, which troubled nobody. Two young men debated reactors, fibres and opposition from conservative minds in exalted language. Looking at the object they were developing, I recognised a bicycle. The unfinished inhabitants conscientiously performed their supplied conversations, while thoroughly described technology possessed almost tangible substance.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "farewells",
       "level": 3,
       "claimType": "book",
@@ -3978,8 +3880,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The square hosted a universal farewell. Men were leaving for planets and stars; women prepared to wait, some in a huge building for centuries of freezing. People read poems, wept and embraced; children carrying Shakespeare volumes slipped towards rockets. An exposed villain was dragged past, readily divulging his sabotage. A grey wall bounded the square on the west, with smoke rising beyond it. Bands and speeches became unbearable, and I moved on. After the year 2000 came long dark stretches where nothing described existed. Then the city reappeared, increasingly transparent and spacious, with fewer spaceships remaining. Beyond the wall, fires continued.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "homecomings",
       "level": 3,
       "claimType": "book",
@@ -4007,8 +3908,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The next era discussed enormous scientific projects. Leaving one group ended its conversation; stopping by another launched a fresh, detailed explanation. An out-of-control robot chased a man, but nobody seemed especially concerned. Two other machines promptly cleaned my shoes and handkerchief, and a tanker sprayed me with perfume. A rusty rocket crashed down from the sky. Its maimed pilot urged everyone to liberate enslaved fellow minds. More ships followed, and women ran from the refrigerator building. I had arrived in the age of homecomings. While the long-awaited reunions began, I pressed the pedal again.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "wall",
       "level": 3,
       "claimType": "book",
@@ -4036,8 +3936,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In a quiet, flourishing country a boy stopped me to ask whether the apparatus was damaged. He was healthy, clean and uncomfortably serious. My correction of his manner of addressing an adult prompted a scholarly account of bygone politeness. The word fear was unfamiliar too, but he understood the wall’s purpose. Humane imaginings lay on one side and fears about the future on the other. A small door permitted inspection. I opened it and immediately received noise, heat, stench, gunfire and monsters. Almost trapping my head, I slammed it shut. The boy disappeared. Now also fearing proceedings before his council of worlds, I hurried to the machine.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ditch",
       "level": 3,
       "claimType": "book",
@@ -4065,8 +3964,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Curiosity remained. I jumped far ahead and encountered a familiar couple: the pilot in blue had finally returned to the girl in pink. Even after a million years, their waiting ended in a long speech. Beyond the wall it was quiet this time. Looking in again, I spoke to an armed man beside a ditch. He guarded one district of enslaved humanity. According to him, neighbouring territories belonged to robots, aliens, intelligent viruses and other masters. The particulars varied; subjection remained. Soon bombs fell. He lay down and opened fire while I sheltered behind the door. On my next look, horsemen were cutting him down, people were emerging from under metal domes, and a tank advanced along the ditch. I slid the bolt home.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "clutch",
       "level": 3,
       "claimType": "book",
@@ -4094,8 +3992,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I still wanted to see Wells’s dying Earth, but the clutch would not respond. I kicked the pedal, something broke, and I returned to the conference hall without the machine. The promised safety had worked, at least for the passenger. The audience had been able to follow the journey and was discussing it. Some wanted more adventure; others had liked the technical terminology. Remembering the man beside the ditch, I could not share their composure. Slipping out, I enjoyed the weight and solidity of ordinary colleagues. Even the ill-mannered Vybegallo with porridge in his beard seemed comfortingly real after endless speeches, transparent figures and literary disasters.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "photon",
       "level": 3,
       "claimType": "book",
@@ -4123,8 +4020,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A dead green parrot lay in Roman’s laboratory. Roman did not know where it had come from. Its ring bore the name Photon and a number we read as nineteen, zero-five, seventy-three. U-Janus emerged from his adjoining laboratory, saw the bird and became very sad. He stroked its crest, carried the body to the electric furnace and asked Roman to switch it on. Afterwards he carefully collected the ashes and scattered them through the window. I wanted to tell Roman about my trip, but he listened distractedly while searching the rubbish. The previous day he had found a charred green feather in that same furnace and thrown it into the basket. Now it had disappeared. Yet the parrot had only been burned today.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "odin",
       "level": 3,
       "claimType": "book",
@@ -4152,8 +4048,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The engineers were still angry with Junta next morning. Work improved after their chief, Savaof Baalovich Odin, arrived. This man had once achieved omnipotence and given up magic. His supreme perfection contained a condition: no miracle must harm any thinking being anywhere. Even he could not imagine an unconditionally harmless miracle. He was, however, an excellent custodian of the institute’s machinery. I was about to return to my own business when Stella called me to work on the wall newspaper. She was leaving next day to record baboons for the professor and could not postpone it. We could only write verses together, so I went with her.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "newspaper",
       "level": 3,
       "claimType": "book",
@@ -4181,8 +4076,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>An empty sheet of drawing paper and the artist-projectionist Sanya Drozd awaited us in Roman’s laboratory. Notes on discipline, maintenance and the holiday offered little inspiration. Satirical captions were needed for cartoons; Drozd planned a magnificent heading against a starry sky. He complained of hunger after spending his money on a tape recorder. Stella and I tried rhymes for Khoma Brut, arrested after drunken disorder. The rhymes kept leading either to slander or corporal punishment. Eventually we found a little song with a repeated comic movement of the knees. Our collective labour was unproductive and fairly cheerful until a green parrot came out of the director’s laboratory.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "jam",
       "level": 3,
       "claimType": "book",
@@ -4210,8 +4104,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The bird shouted words about a reactor, strange transformations and rubidium. It settled on the balance, fluffed up and trembled. Stella offered bread and jam. The parrot refused, and Drozd absent-mindedly ate the sandwich himself. I thought the birds were becoming suspiciously numerous. The rest of the editorial team arrived. Roman demanded verses, Pochkin demanded a heading, Korneev mocked the contributions and Edik hunted an instrument. Everyone met the parrot, though Stella protested against Korneev’s rough method of catching it. Work had to continue. It emerged that Drozd had begun the heading with a letter absent from the newspaper’s name altogether. Altering the artwork and struggling with poetry occupied the room again.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ring",
       "level": 3,
       "claimType": "book",
@@ -4239,8 +4132,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Then the parrot died beneath the balance. I examined its leg, and Roman immediately understood what I was looking for. The ring bore the same name and number. Our account of yesterday’s bird met disbelief. Surely we had been mistaken, forgotten the digits or confused resemblance with identity. Asked to repeat the number from memory, I did get muddled. Roman, however, produced his notebook. He had recorded it beforehand, and it matched: 190573. The senior magicians knocked their heads together over the ring. They tried accusing Roman of a hoax and poisoning, but the jokes soon stopped. Examination confirmed that the parrot was no double. Two identical dead originals on different days required an explanation.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "midnight-memory",
       "level": 3,
       "claimType": "book",
@@ -4268,8 +4160,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Edik proposed collecting facts about Janus. Everyone had noticed peculiarities, but respect had prevented us from considering them together. At midnight U-Janus went away briefly and returned with questions about what he had just been doing. Sometimes he merely sat in a chair; a witness had seen no secret procedure. He regularly failed to remember yesterday’s conversations. He attributed it to the consequences of a severe concussion, and we had grown accustomed to accepting that explanation. Now the vanished feather, the recurring bird, two directors and strange knowledge of the future stood side by side. No solution emerged; the paper still needed finishing. By evening it was ready. Drozd put the dead parrot in a Petri dish, precisely where we had found yesterday’s. We decided to wait until tomorrow.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "queue",
       "level": 3,
       "claimType": "book",
@@ -4297,8 +4188,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The Aldan worked again, and a queue of doubles with problems reappeared outside the computer room. In revenge, I sent Junta’s copy away for illegible handwriting and happily checked Kivrin’s first independently written programme. I took the frightened fish-factory accountant ahead of the queue, explaining that the motionless visitors were not quite the citizens he supposed. Roman rang: the Petri dish was empty. The cleaner had not seen the parrot, and Janus had not arrived. I forced myself to work. An old, difficult problem finally yielded. Junta arrived to complain about his returned assignment at the very moment of my triumph. I showed him the solution, and his indignation became shared pleasure.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "insoluble",
       "level": 3,
       "claimType": "book",
@@ -4326,8 +4216,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We examined the successful transformations, congratulated each other and tackled his next problem. Very soon we were both worthless and proposing increasingly humiliating employment for ourselves. Kivrin looked in to ask about his programme and informed us that our problem had long since been proved insoluble. Junta replied that what interested us was precisely how to solve such problems. The old friends’ argument became unsuitable for a young man’s education and moved from the room to the corridor, then an office. The women anticipated a duel. I expected two glasses and cucumbers instead, but could not check: Roman urgently summoned me upstairs.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "interview",
       "level": 3,
       "claimType": "book",
@@ -4355,8 +4244,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A live Photon sat on the balance in excellent condition. Three researchers beside him looked considerably worse. The number matched again. They began questioning the bird, selecting words that elicited further combinations. Korneev switched on a recorder. When the name Janus drew no answer, I pointed out that it contained no r. Rubidium brought reserves and Ricci Crater; other words produced robots, fire, orbital manoeuvres and call signs. Everyday objects prompted silence. The bird offered no coherent report, but repeated speech with specialised vocabulary that nobody used in our daily institute life. This established neither the place of a journey nor the design of an apparatus. It established only that our previous simple guesses were inadequate.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "names",
       "level": 3,
       "claimType": "book",
@@ -4384,8 +4272,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Photon’s acquaintance with us was particularly disturbing. He knew our surnames, associated Korneev with rudeness and good work, me with primitiveness and diligence, and Oira-Oira with old age. Edik received a crematorium and a life cut short; he preferred to call it nonsense. After the tape ran out, the parrot listened to the recording with interest and added remarks. We considered craters, space and science fiction, returning to the same question: how could the bird know people who were seeing it for the first time? U-Janus’s work on parallel spaces supplied no answer by itself. The hallucination theory was unsatisfying too, although the magicians considered my attempts to disprove it childishly naïve.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "shoulder",
       "level": 3,
       "claimType": "book",
@@ -4413,8 +4300,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>U-Janus himself entered. He greeted us, asked whether Photon was interfering with work and almost said that the bird visited every day. Then came his customary question about yesterday’s conversation. Roman reminded him that he had been in Moscow. Janus accepted this, called the parrot, and it flew to his shoulder to request sugar. They went into the adjoining laboratory. None of us had dared ask the owner directly about the whole affair. Instead, we headed for Korneev’s sofa, where at least we could stop standing around the balance looking like people defeated by a small green bird.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "hypotheses",
       "level": 3,
       "claimType": "book",
@@ -4442,8 +4328,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Korneev assured us the translator was switched off. We investigated our explanations rather than the instruments. Exact atomic copies, unlike ordinary doubles, might supply indistinguishable parrots but would not explain the bodies’ disappearance. I suggested Janus was collecting a bird from the described future, returning to the same page each time. My friends objected: why did it know our names, and why was a literary creature so substantial in the real world? Roman tried starting from parallel spaces and transportation experiments. This required too many extra assumptions as well. At Edik’s insistence, we stopped guessing and made two lists of questions, one for the parrot and one for Janus. We adopted the absence of hallucination as a working postulate; otherwise there would be nothing to investigate.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "continuous",
       "level": 3,
       "claimType": "book",
@@ -4471,8 +4356,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Korneev first proposed movement from future to past: countermotion. It immediately accounted for knowledge of events unfamiliar to us and the director’s inability to remember our yesterday. But a continuous reversal of time would resemble a film running backwards. The parrot would fly tail first and come alive before our eyes instead of dying. Nobody had observed that. The idea was tempting and did not fit. While the others fell silent in disappointment, I tried arranging our observations differently: a burned bird, a dying bird, a healthy bird. Not reversed frames but large sections in a different order. The Petri dish preserved the location between them. I asked whether backward movement had to be continuous. Roman remembered midnight.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "tunguska",
       "level": 3,
       "claimType": "book",
@@ -4500,8 +4384,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>They descended on me with congratulations as though I had scored the deciding goal. Then, postponing the pleasure of the final solution, Roman presented a fantasy about the Tunguska event. If a countermoving ship arrived from later dates and ignited the forest with its engines, its crew could see the consequences before landing. At midnight the travellers would enter the day before the fire, while researchers looking for the ship after the catastrophe would find nothing. We enjoyed the ingenuity of this version. Roman was inventing its details on the sofa. Then we returned to the bird we had really seen.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "calendar",
       "level": 3,
       "claimType": "book",
@@ -4529,8 +4412,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Within a day, Photon and U-Janus live in the same order as we do: moving forward, talking and ageing. At midnight their next day begins in our yesterday rather than our tomorrow. Thus we first found a feather, then a dead bird, then witnessed its death and only afterwards saw it healthy. On our calendar, Roman removed the feather from the furnace on the ninth; Janus burned the already dead Photon on the tenth; the bird fell ill and died before us on the eleventh; on the twelfth it sat lively and talkative. Photon experiences the dates differently: twelfth, eleventh, tenth. He dies, is put in the dish, is burned and leaves a feather. There is no need to make him revive within a day.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "petri",
       "level": 3,
       "claimType": "book",
@@ -4558,8 +4440,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>We checked each movement. Drozd puts the body in the dish on the eleventh. At midnight it arrives on the morning of the tenth, when its owner finds and burns it. The surviving feather remains until the next jump, enters the ninth and is discovered by Roman. The parrot recognises us because he has already heard about us during days that still await us. Edik interpreted the ring number as a gift date, 19 May 1973 or 2073. The century was undetermined. We reconstructed the donors and circumstances from the bird’s space vocabulary, not documents. Nor had we established the cause of death. Age and a draught remained possibilities.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "januses",
       "level": 3,
       "claimType": "book",
@@ -4587,8 +4468,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The scheme then connected the two Januses. A-Janus would devote his life to backward time and eventually transfer himself and the bird into the new regime. He would become U-Janus, encountering his younger self in their shared past. This explained both the administrator’s growing scientific ability and the older researcher’s peculiarities. We became carried away and invented a whole story about a related mentor in a landed family. But all we reliably knew of the director’s actual past was his birthday. Our new hypothesis connected the observations far better than its predecessors; the details of Janus’s life remained beyond our knowledge.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "questions",
       "level": 3,
       "claimType": "book",
@@ -4616,8 +4496,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>His questions now ceased to be forgetfulness. He had not yet entered our yesterday and needed to learn what had happened for us but still lay ahead for him. At the range, the reverse applied. He already knew about the coming destruction and Roman’s resourcefulness. Solving the mystery soon brought sadness. We thought of a scientist moving into an increasingly harsh past, away from the world we hoped to reach. Even warning him about the leg broken during winter became confusing. From which direction had it happened already, and what could be prevented? Photon’s words about Edik’s death no longer seemed harmless sounds either.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "lunch",
       "level": 3,
       "claimType": "book",
@@ -4645,8 +4524,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>Some questions remained uncrossed. Where had the discarded feather gone on later jumps? What happened to Janus’s shoes when he reached their manufacture date, or to food after dinner? We were tired and supplied no convenient answers. Drozd arrived with his radio, occupied the sofa and began asking for money. The discussion disintegrated, and we decided to have lunch. On the way I met U-Janus and, for the first time, answered his question in detail: yesterday he had not been at the institute but had flown to Moscow. His kind smile encouraged me. I wanted to ask far more about the future than a single question could contain.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "ending",
       "level": 3,
       "claimType": "book",
@@ -4674,8 +4552,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>I suggested visiting him tomorrow morning. Janus said this was impossible: the Kitezhgrad factory would summon me, and he would have to arrange a business trip. I had wanted to go for three months, yet knowing about it now unpleasantly deprived the journey of freedom. It seemed I no longer had the right to change my mind, fall ill or act otherwise. Janus noticed and compared it to reading a good book from the end. Then he explained that there was no single future common to everyone: actions created different continuations. I did eventually come to understand him. How that happened belongs to another story.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "afterword",
       "level": 3,
       "claimType": "book",
@@ -4703,8 +4580,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>In the afterword Privalov changes roles: he has read the authors’ sketches of his institute and is writing an official response. He approves of the newcomer’s viewpoint and their treatment of magicians as human beings, then accuses the writers of ignorance. Adventures have displaced thought, personalities are distorted and technical names confused. Even the familiar Aldan and the instrument for measuring living water are invented, he asserts; the two women in the computing laboratory deserve their correct professional title. The narrator whose eyes we trusted now challenges the stories told in his own voice.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "glossary",
       "level": 3,
       "claimType": "book",
@@ -4732,8 +4608,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>A glossary follows the response. It gives fairy-tale beings institutional explanations, but scholarly certainty repeatedly produces another joke. Ancient punishments become maintenance work, long-forgotten copies become gnomes, and levitation is illustrated by the perfectly ordinary flight of birds. The glossary disputes both legend and the main account while preserving the voice of someone convinced of his extraordinary institution’s scientific normality. Privalov’s signature ends the electronic text.\u003c/p>"
         }
       }
-    },
-    {
+    },{
       "id": "final",
       "level": 1,
       "final": true,
@@ -4752,8 +4627,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
           "body": "\u003cp>The shorter routes stop before later events. Deep reaches the final scene while preserving questions the book itself leaves open. Return to the beginning, choose a depth or open Sources.\u003c/p>"
         }
       }
-    }
-  ],
+    }],
   "modes": {
     "essential": {
       "label": {
@@ -4852,70 +4726,104 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       const state = {
         language: ['ru', 'en'].includes(stored('language', data.defaultLanguage || 'ru')) ? stored('language', data.defaultLanguage || 'ru') : 'ru',
         theme: ['light', 'dark'].includes(stored('theme', data.defaultTheme || 'dark')) ? stored('theme', data.defaultTheme || 'dark') : 'dark',
-        mode: modeOrder.includes(stored('mode', data.defaultMode || 'deep')) ? stored('mode', data.defaultMode || 'deep') : 'deep',
+        mode: modeOrder.includes(stored('mode', 'deep')) ? stored('mode', 'deep') : 'deep',
         position: 0,
         direction: 'forward'
       };
 
-      // Candidate-local ending protection. Never persists consent.
-      let deepConsent = false;
-      let pendingDeep = null;
-      let consentFocus = null;
-      if (state.mode === 'deep') state.mode = 'essential';
-      const consent = document.getElementById('deepConsentDialog');
-      const confirmDeep = document.getElementById('confirmDeep');
-      const cancelDeep = document.getElementById('cancelDeep');
-      function requestDeep(action) {
-        if (deepConsent) { action(); return; }
-        pendingDeep = action;
-        consentFocus = document.activeElement;
-        if (els.contentsDialog.open) els.contentsDialog.close();
-        if (els.sourcesDialog.open) els.sourcesDialog.close();
-        const ru = state.language === 'ru';
-        document.getElementById('deepConsentTitle').textContent = ru ? 'Открыть полную историю?' : 'Open the complete story?';
-        document.getElementById('deepConsentText').textContent = ru
-          ? 'Режим «Глубоко» раскрывает поздние события, судьбы героев и последнюю сцену. Режимы «Главное» и «Суть книги» не раскрывают финал. После перехода в короткий режим или ухода со страницы потребуется новое согласие.'
-          : 'Deep reveals later events, the characters’ outcomes and the last scene. Essential and Core leave the ending unrevealed. Switching to a shorter mode or leaving this page requires fresh consent.';
-        confirmDeep.textContent = ru ? 'Читать «Глубоко» со спойлерами' : 'Read Deep with spoilers';
-        cancelDeep.textContent = ru ? 'Сохранить развязку' : 'Preserve the ending';
-        if (!consent.open) consent.showModal();
-        cancelDeep.focus({preventScroll:true});
+      // reader-usability-v1: selected depth and spoiler permission are separate.
+      const initialHash = location.hash;
+      const serviceRedirects = {"deep-notice":"deep"};
+      const needsConsent = true;
+      const groupedTitles = {};
+      let uxConsent = false;
+      let pendingEntry = null;
+      const consentDialog = document.getElementById('readerConsent');
+      function rawRouteScreens(mode) {
+        if (Array.isArray(data.routes?.[mode])) return data.routes[mode].map(id => data.screens.find(s => s.id === id));
+        if (data.screens.some(s => s.routeMode)) return data.screens.filter(s => !s.routeMode || s.routeMode === mode);
+        return data.screens.filter(s => s.level <= levels[mode]);
       }
-      confirmDeep.addEventListener('click', () => {
-        const action = pendingDeep;
-        pendingDeep = null;
-        deepConsent = true;
-        consent.close();
-        if (action) action();
-      });
-      cancelDeep.addEventListener('click', () => consent.close());
-      consent.addEventListener('close', () => {
-        pendingDeep = null;
-        if (consentFocus?.isConnected) consentFocus.focus({preventScroll:true});
-      });
-      // A restored page must ask again; no consent is read from any storage.
-      addEventListener('pagehide', () => { deepConsent = false; });
-      addEventListener('pageshow', event => {
-        if (event.persisted) {
-          deepConsent = false;
-          state.mode = state.mode === 'deep' ? 'essential' : state.mode;
-          state.position = 0;
-          render();
-        }
-      });
+      function routeScreens(mode) { return rawRouteScreens(mode).filter(s => !groupedTitles[s.id]); }
+      function prefixHeading(screen) {
+        return Object.entries(groupedTitles).filter(([, target]) => target === screen.id).map(([id]) => '<h1 data-heading>' + escapeHtml(copyOf(data.screens.find(s => s.id === id)).title) + '</h1>').join('');
+      }
+      function firstProse(mode) { return routeScreens(mode).find(s => s.type !== 'cover'); }
+      function resolveScreen(id, mode = state.mode) {
+        if (Object.hasOwn(groupedTitles, id)) id = groupedTitles[id];
+        if (Object.hasOwn(serviceRedirects, id)) return firstProse(serviceRedirects[id]);
+        return data.screens.find(s => s.id === id) || firstProse(mode);
+      }
+      function rememberedScreen() {
+        const id = stored('lastScreen', '');
+        return id ? resolveScreen(id) : null;
+      }
+      function rememberedMode(screen) {
+        const oldId = stored('lastScreen', '');
+        if (Object.hasOwn(serviceRedirects, oldId)) return serviceRedirects[oldId];
+        const candidate = stored('lastMode', state.mode);
+        const saved = modeOrder.includes(candidate) ? candidate : state.mode;
+        return screen.routeMode || (routeScreens(saved).includes(screen) ? saved : requiredMode(screen.level));
+      }
+      function safeTitle(screen) {
+        return needsConsent && state.mode === 'deep' && !uxConsent && screen.type !== 'cover'
+          ? (state.language === 'ru' ? 'Полная версия' : 'Full version') : (copyOf(screen).title || copyOf(screen).tocTitle || '');
+      }
+      function syncHash() {
+        try { history.replaceState(null, '', '#' + state.mode + '/' + currentScreen().id); } catch (_) {}
+      }
+      function changeMode(mode) {
+        if (mode !== 'deep') uxConsent = false;
+        state.mode = mode; state.position = 0; save('mode', mode);
+      }
+      function requestEntry(mode, id, direction = 'forward') {
+        const target = routeScreens(mode).find(s => s.id === id) || firstProse(mode);
+        const enter = () => {
+          if (mode !== state.mode) changeMode(mode);
+          state.position = routeScreens(mode).indexOf(target);
+          state.direction = direction; render();
+        };
+        if (needsConsent && mode === 'deep' && target.type !== 'cover' && !uxConsent) {
+          pendingEntry = enter;
+          if (els.contentsDialog.open) els.contentsDialog.close();
+          if (els.sourcesDialog.open) els.sourcesDialog.close();
+          const ru = state.language === 'ru';
+          document.getElementById('readerConsentTitle').textContent = ru ? 'Полная версия' : 'Full version';
+          document.getElementById('readerConsentText').textContent = ru ? 'Полная версия раскрывает развязку. Читать?' : 'The full version reveals the ending. Read on?';
+          document.getElementById('readerConsentCancel').textContent = ru ? 'Отмена' : 'Cancel';
+          document.getElementById('readerConsentAccept').textContent = ru ? 'Читать' : 'Read';
+          if (!consentDialog.open) consentDialog.showModal();
+          document.getElementById('readerConsentCancel').focus({preventScroll:true});
+        } else enter();
+      }
+      if (consentDialog) {
+        document.getElementById('readerConsentAccept').addEventListener('click', () => {
+          const action = pendingEntry; pendingEntry = null; uxConsent = true;
+          consentDialog.close(); if (action) action();
+        });
+        const cancel = () => { pendingEntry = null; consentDialog.close(); syncHash(); };
+        document.getElementById('readerConsentCancel').addEventListener('click', cancel);
+        consentDialog.addEventListener('cancel', () => { pendingEntry = null; syncHash(); });
+      }
+      function followEntry(hash, useQuery = false) {
+        const parts = String(hash).replace(/^#/, '').split('/');
+        const params = new URLSearchParams(useQuery ? location.search : '');
+        const mode = modeOrder.includes(parts[0]) ? parts[0] : (params.get('mode') || state.mode);
+        if (!modeOrder.includes(mode)) return;
+        const requested = parts[1] || params.get('screen') || (parts[0] && !modeOrder.includes(parts[0]) ? parts[0] : firstProse(mode).id);
+        const screen = resolveScreen(requested, mode);
+        const targetMode = Object.hasOwn(serviceRedirects, requested) ? serviceRedirects[requested] : (screen.routeMode || mode);
+        requestEntry(targetMode, screen.id);
+      }
+
       function text() { return ui[state.language]; }
       function copyOf(screen) { return screen.copy[state.language]; }
-      function visibleScreens() { return data.screens.filter((screen) => screen.level <= levels[state.mode]); }
+      function visibleScreens() { return routeScreens(state.mode); }
       function currentScreen() { return visibleScreens()[state.position]; }
       function escapeHtml(value) { return String(value).replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
 
-      function modeCounts() {
-        return {
-          essential: data.screens.filter((screen) => screen.level <= 1).length,
-          core: data.screens.filter((screen) => screen.level <= 2).length,
-          deep: data.screens.length
-        };
-      }
+      function modeCounts() { return Object.fromEntries(modeOrder.map(mode => [mode, routeScreens(mode).length])); }
+
 
       function modeLabel(mode) {
         const configured = data.modes && data.modes[mode];
@@ -4965,9 +4873,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       function renderCover(screen) {
         const copy = copyOf(screen);
         const rememberedId = stored('lastScreen', '');
-        const remembered = rememberedId && rememberedId !== screen.id ? data.screens.find((item) => item.id === rememberedId) : null;
+        const remembered = rememberedScreen();
         const resumeHasEnding = remembered && data.spoilerPolicy === 'full-plot-in-deep' && remembered.level === 3;
-        const primaryLabel = resumeHasEnding ? (state.language === 'ru' ? 'Продолжить Deep — спойлеры финала' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start;
+        const primaryLabel = needsConsent && !uxConsent && remembered && rememberedMode(remembered) === 'deep' ? (state.language === 'ru' ? 'Продолжить полную версию' : 'Continue full version') : (resumeHasEnding ? (state.language === 'ru' ? 'Продолжить Deep — спойлеры финала' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start);
         const visual = coverMediaFor(screen) || '<div class="cover-visual"><div class="cover-mark"><span class="cover-eyebrow">' + escapeHtml(data.author[state.language]) + '</span><p class="lede">' + escapeHtml(copy.title) + '</p><span class="cover-eyebrow">' + (state.language === 'ru' ? 'Три истории' : 'Three stories') + '</span></div></div>';
         return `<article class="story-slide${state.direction === 'back' ? ' is-reverse' : ''}"><div class="slide-scroll"><div class="cover-layout">${visual}<div class="cover-copy"><p class="kicker">${escapeHtml(copy.section)}</p><h1>${escapeHtml(copy.title)}</h1>${copy.subtitle ? `<p class="cover-subtitle">${escapeHtml(copy.subtitle)}</p>` : ''}${copy.body || ''}<div class="mode-picker" role="group" aria-label="${escapeHtml(text().depthLabel)}">${renderModePicker()}</div></div><div class="cover-actions"><button class="button button-primary" type="button" data-start="${remembered ? 'continue' : 'begin'}">${escapeHtml(primaryLabel)}</button>${remembered ? `<button class="button" type="button" data-start="begin">${escapeHtml(text().startOver)}</button>` : ''}</div></div></div></article>`;
       }
@@ -4998,7 +4906,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       function contentsHtml() {
         const list = visibleScreens();
         const activeId = currentScreen().id;
-        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(copyOf(screen).title)}</span></button>`).join('');
+        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(safeTitle(screen))}</span></button>`).join('');
       }
 
       function renderContents() {
@@ -5049,34 +4957,23 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       }
 
       function bindRenderedControls() {
-        document.querySelectorAll('[data-mode]').forEach((button) => {
-          button.addEventListener('click', () => setMode(button.dataset.mode));
-        });
-        document.querySelectorAll('[data-go-to]').forEach((button) => {
-          button.addEventListener('click', () => {
-            goToId(button.dataset.goTo);
-            if (els.contentsDialog.open) els.contentsDialog.close();
-          });
-        });
-        document.querySelectorAll('[data-start]').forEach((button) => {
-          button.addEventListener('click', () => start(button.dataset.start === 'continue'));
-        });
-        document.querySelectorAll('[data-open-deep]').forEach((button) => {
-          button.addEventListener('click', () => requestDeep(() => {
-            setMode('deep');
-            goToId('deep-notice');
-          }));
-        });
-        document.querySelectorAll('[data-open-sources]').forEach((button) => {
-          button.addEventListener('click', () => els.sourcesDialog.showModal());
-        });
+        document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => setMode(button.dataset.mode)));
+        document.querySelectorAll('[data-go-to]').forEach(button => button.addEventListener('click', () => {
+          goToId(button.dataset.goTo); if (els.contentsDialog.open) els.contentsDialog.close();
+        }));
+        document.querySelectorAll('[data-start]').forEach(button => button.addEventListener('click', () => start(button.dataset.start === 'continue')));
+        document.querySelectorAll('[data-open-sources]').forEach(button => button.addEventListener('click', () => els.sourcesDialog.showModal()));
       }
+
 
       function render() {
         const list = visibleScreens();
         if (state.position >= list.length) state.position = Math.max(0, list.length - 1);
         renderStaticText();
         els.story.innerHTML = renderScreen(currentScreen());
+        els.story.dataset.mode = state.mode;
+        els.story.dataset.screenId = currentScreen().id;
+        syncHash();
         renderProgress();
         renderNavigation();
         renderContents();
@@ -5087,59 +4984,43 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
       function goToPosition(position, direction) {
         const list = visibleScreens();
-        state.position = Math.max(0, Math.min(position, list.length - 1));
-        state.direction = direction || 'forward';
-        render();
+        const target = list[Math.max(0, Math.min(position, list.length - 1))];
+        requestEntry(state.mode, target.id, direction);
       }
+
 
       function requiredMode(level) {
         return level <= 1 ? 'essential' : level === 2 ? 'core' : 'deep';
       }
 
       function goToId(id) {
-        const target = data.screens.find(screen => screen.id === id);
-        if (target?.level === 3 && !deepConsent) {
-          requestDeep(() => goToId(id));
-          return;
-        }
-        let list = visibleScreens();
-        let index = list.findIndex((screen) => screen.id === id);
-        if (index < 0) {
-          const hidden = data.screens.find((screen) => screen.id === id);
-          if (hidden) {
-            state.mode = requiredMode(hidden.level);
-            save('mode', state.mode);
-            list = visibleScreens();
-            index = list.findIndex((screen) => screen.id === id);
-          }
-        }
-        if (index >= 0) goToPosition(index, index < state.position ? 'back' : 'forward');
+        const screen = resolveScreen(id);
+        const mode = screen.routeMode || (visibleScreens().includes(screen) ? state.mode : requiredMode(screen.level));
+        requestEntry(mode, screen.id);
       }
 
+
       function setMode(mode) {
-        if (!modeOrder.includes(mode)) return;
-        if (mode === 'deep' && !deepConsent) {
-          requestDeep(() => setMode(mode));
-          return;
+        if (!modeOrder.includes(mode) || mode === state.mode) return;
+        removeStored('lastScreen');
+        const id = currentScreen().id;
+        changeMode(mode);
+        // Independent versions always begin at their cover. Cumulative readers
+        // retain a shared page only when it does not bypass renewed consent.
+        if (!data.routes && !data.screens.some(s => s.routeMode) && !(needsConsent && mode === 'deep')) {
+          const index = visibleScreens().findIndex(s => s.id === id);
+          if (index >= 0) state.position = index;
         }
-        if (mode !== 'deep') deepConsent = false;
-        const currentId = currentScreen().id;
-        state.mode = mode;
-        save('mode', mode);
-        const list = visibleScreens();
-        const nextIndex = list.findIndex((screen) => screen.id === currentId);
-        state.position = nextIndex >= 0 ? nextIndex : 0;
         render();
       }
 
+
       function start(continueSaved) {
-        const rememberedId = continueSaved ? stored('lastScreen', '') : '';
-        if (rememberedId && data.screens.some(screen => screen.id === rememberedId)) goToId(rememberedId);
-        else {
-          if (rememberedId) removeStored('lastScreen');
-          goToPosition(Math.min(1, visibleScreens().length - 1), 'forward');
-        }
+        const remembered = continueSaved ? rememberedScreen() : null;
+        if (remembered) requestEntry(rememberedMode(remembered), remembered.id);
+        else requestEntry(state.mode, firstProse(state.mode).id);
       }
+
 
       function next() {
         const list = visibleScreens();
@@ -5197,12 +5078,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       });
       els.story.addEventListener('pointercancel', () => { pointerStart = null; });
 
-      const rememberedId = stored('lastScreen', '');
-      if (rememberedId) {
-        const index = visibleScreens().findIndex((screen) => screen.id === rememberedId);
-        if (index >= 0) state.position = 0;
-      }
       render();
+      if (initialHash || new URLSearchParams(location.search).has('mode') || new URLSearchParams(location.search).has('screen')) followEntry(initialHash, true);
+      window.addEventListener('hashchange', () => followEntry(location.hash));
+      window.addEventListener('pagehide', () => { uxConsent = false; });
+      window.addEventListener('pageshow', event => {
+        if (!event.persisted) return;
+        uxConsent = false; pendingEntry = null;
+        if (consentDialog?.open) consentDialog.close();
+        state.position = 0; render();
+      });
+
     })();
   </script>
   <script>

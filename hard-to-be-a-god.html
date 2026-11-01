@@ -11,9 +11,9 @@
   <!-- book-library-pwa:end -->
   <meta name="description" content="Расширенный пересказ: Румата ищет врача и укрывает людей в Арканаре. Три вложенные глубины; развязка только в режиме «Глубоко» после согласия.">
   <meta name="book-tiktok:schema" content="2">
-  <meta name="book-tiktok:screens" content="94">
+  <meta name="book-tiktok:screens" content="93">
   <meta name="book-tiktok:languages" content="ru,en">
-  <meta name="book-tiktok:modes" content="19,47,94">
+  <meta name="book-tiktok:modes" content="19,47,93">
   <title>Трудно быть богом</title>
   <style>
     @font-face {
@@ -1605,13 +1605,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   </dialog>
 
   <!-- candidate-local-deep-guard:v1 -->
-  <dialog id="deepConsentDialog" aria-labelledby="deepConsentTitle" aria-describedby="deepConsentText">
-    <div class="dialog-shell">
-      <header class="dialog-header"><h2 id="deepConsentTitle"></h2></header>
-      <div class="dialog-body"><p id="deepConsentText"></p></div>
-      <footer class="dialog-footer"><button class="button" id="cancelDeep" type="button"></button><button class="button button-primary" id="confirmDeep" type="button"></button></footer>
-    </div>
-  </dialog>
+  <dialog id="readerConsent" aria-labelledby="readerConsentTitle" aria-describedby="readerConsentText"><div class="dialog-card"><header class="dialog-header"><h2 id="readerConsentTitle"></h2></header><div class="dialog-body"><p id="readerConsentText"></p></div><div class="dialog-actions"><button class="button" type="button" id="readerConsentCancel"></button><button class="button button-primary" type="button" id="readerConsentAccept"></button></div></div></dialog>
   <script id="book-tiktok-data" type="application/json">{
   "schemaVersion": 2,
   "slug": "hard-to-be-a-god",
@@ -1632,7 +1626,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   },
   "defaultLanguage": "ru",
   "defaultTheme": "dark",
-  "defaultMode": "essential",
+  "defaultMode": "deep",
   "targetModes": {
     "essential": 19,
     "core": 47,
@@ -1655,8 +1649,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     }
   ],
   "media": {},
-  "screens": [
-    {
+  "screens": [{
       "id": "cover",
       "level": 1,
       "claimType": "book",
@@ -1680,26 +1673,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "type": "cover"
-    },
-    {
-      "id": "deep-warning",
-      "level": 3,
-      "claimType": "synthesis",
-      "sources": [],
-      "copy": {
-        "ru": {
-          "section": "Чтение",
-          "title": "Глубоко: история до конца",
-          "body": "\u003cp>Этот маршрут включает поздние события, судьбы героев и последнюю сцену повести. Режимы «Главное» и «Суть книги» не раскрывают этих исходов. Если хотите сохранить развязку, переключите глубину. Здесь начинается полный расширенный пересказ.\u003c/p>"
-        },
-        "en": {
-          "section": "Reading",
-          "title": "Deep: the story to its end",
-          "body": "\u003cp>This route includes the later events, the characters’ outcomes and the novel’s last scene. Those outcomes remain hidden in Essential and Core. Switch depth to preserve the ending. The full expanded condensation begins here.\u003c/p>"
-        }
-      }
-    },
-    {
+    },{
       "id": "lake",
       "level": 1,
       "claimType": "book",
@@ -1719,8 +1693,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ПРОЛОГ:P001–090"
-    },
-    {
+    },{
       "id": "william-tell",
       "level": 1,
       "claimType": "book",
@@ -1740,8 +1713,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ПРОЛОГ:P091–149"
-    },
-    {
+    },{
       "id": "shot",
       "level": 1,
       "claimType": "book",
@@ -1761,8 +1733,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ПРОЛОГ:P150–159"
-    },
-    {
+    },{
       "id": "forgotten-road",
       "level": 2,
       "claimType": "book",
@@ -1782,8 +1753,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ПРОЛОГ:P160–199"
-    },
-    {
+    },{
       "id": "night-road",
       "level": 1,
       "claimType": "book",
@@ -1803,8 +1773,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P001–002"
-    },
-    {
+    },{
       "id": "kiun",
       "level": 2,
       "claimType": "book",
@@ -1824,8 +1793,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P003–034"
-    },
-    {
+    },{
       "id": "kiun-book",
       "level": 2,
       "claimType": "book",
@@ -1845,8 +1813,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P035–052"
-    },
-    {
+    },{
       "id": "patrol",
       "level": 2,
       "claimType": "book",
@@ -1866,8 +1833,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P053–087"
-    },
-    {
+    },{
       "id": "shopkeepers",
       "level": 2,
       "claimType": "book",
@@ -1887,8 +1853,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P088–091"
-    },
-    {
+    },{
       "id": "kabani",
       "level": 1,
       "claimType": "book",
@@ -1908,8 +1873,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P092–120"
-    },
-    {
+    },{
       "id": "midas",
       "level": 1,
       "claimType": "book",
@@ -1929,8 +1893,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P121–124"
-    },
-    {
+    },{
       "id": "condor-arrives",
       "level": 1,
       "claimType": "book",
@@ -1950,8 +1913,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P125–136"
-    },
-    {
+    },{
       "id": "first-dispute",
       "level": 1,
       "claimType": "book",
@@ -1971,8 +1933,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P137–150"
-    },
-    {
+    },{
       "id": "condor-memory",
       "level": 3,
       "claimType": "book",
@@ -1992,8 +1953,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P151–162"
-    },
-    {
+    },{
       "id": "gug-arrives",
       "level": 1,
       "claimType": "book",
@@ -2013,8 +1973,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 1:P163–174"
-    },
-    {
+    },{
       "id": "uno-morning",
       "level": 2,
       "claimType": "book",
@@ -2034,8 +1993,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P001–035"
-    },
-    {
+    },{
       "id": "letters",
       "level": 2,
       "claimType": "book",
@@ -2055,8 +2013,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P023–025"
-    },
-    {
+    },{
       "id": "breakfast",
       "level": 2,
       "claimType": "book",
@@ -2076,8 +2033,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P035–069"
-    },
-    {
+    },{
       "id": "school",
       "level": 2,
       "claimType": "book",
@@ -2097,8 +2053,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P070–095"
-    },
-    {
+    },{
       "id": "gauk-poems",
       "level": 2,
       "claimType": "book",
@@ -2118,8 +2073,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P096–114"
-    },
-    {
+    },{
       "id": "port",
       "level": 2,
       "claimType": "book",
@@ -2139,8 +2093,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P115–124"
-    },
-    {
+    },{
       "id": "vaga",
       "level": 2,
       "claimType": "book",
@@ -2160,8 +2113,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P125–142"
-    },
-    {
+    },{
       "id": "university",
       "level": 2,
       "claimType": "book",
@@ -2181,8 +2133,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 2:P143–148; ГЛАВА 3:P002"
-    },
-    {
+    },{
       "id": "anger",
       "level": 2,
       "claimType": "book",
@@ -2202,8 +2153,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P001–007"
-    },
-    {
+    },{
       "id": "camera",
       "level": 2,
       "claimType": "book",
@@ -2223,8 +2173,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P008–017"
-    },
-    {
+    },{
       "id": "gauk",
       "level": 3,
       "claimType": "book",
@@ -2244,8 +2193,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P018–040"
-    },
-    {
+    },{
       "id": "revenge-thought",
       "level": 3,
       "claimType": "book",
@@ -2265,8 +2213,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P040–041"
-    },
-    {
+    },{
       "id": "home",
       "level": 1,
       "claimType": "book",
@@ -2286,8 +2233,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P042–053"
-    },
-    {
+    },{
       "id": "kira",
       "level": 1,
       "claimType": "book",
@@ -2307,8 +2253,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P054–084"
-    },
-    {
+    },{
       "id": "kira-uno",
       "level": 2,
       "claimType": "book",
@@ -2328,8 +2273,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P085–114"
-    },
-    {
+    },{
       "id": "kira-family",
       "level": 1,
       "claimType": "book",
@@ -2349,8 +2293,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P115–120"
-    },
-    {
+    },{
       "id": "white-feather",
       "level": 2,
       "claimType": "book",
@@ -2370,8 +2313,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 3:P121–132"
-    },
-    {
+    },{
       "id": "okana-salon",
       "level": 2,
       "claimType": "book",
@@ -2391,8 +2333,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P001–030"
-    },
-    {
+    },{
       "id": "okana-departure",
       "level": 2,
       "claimType": "book",
@@ -2412,8 +2353,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P031–053"
-    },
-    {
+    },{
       "id": "pampa-arrives",
       "level": 2,
       "claimType": "book",
@@ -2433,8 +2373,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P054–091"
-    },
-    {
+    },{
       "id": "pampa-tavern",
       "level": 2,
       "claimType": "book",
@@ -2454,8 +2393,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P092–118"
-    },
-    {
+    },{
       "id": "pampa-sword",
       "level": 2,
       "claimType": "book",
@@ -2475,8 +2413,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P119–157"
-    },
-    {
+    },{
       "id": "three-prisoners",
       "level": 2,
       "claimType": "book",
@@ -2496,8 +2433,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P158–160"
-    },
-    {
+    },{
       "id": "okana-news",
       "level": 3,
       "claimType": "book",
@@ -2517,8 +2453,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P161–178"
-    },
-    {
+    },{
       "id": "drinking-night",
       "level": 2,
       "claimType": "book",
@@ -2538,8 +2473,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P178–184"
-    },
-    {
+    },{
       "id": "uno-vigil",
       "level": 2,
       "claimType": "book",
@@ -2559,8 +2493,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P185–196"
-    },
-    {
+    },{
       "id": "kira-confession",
       "level": 2,
       "claimType": "book",
@@ -2580,8 +2513,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 4:P197–218"
-    },
-    {
+    },{
       "id": "lost-court",
       "level": 2,
       "claimType": "book",
@@ -2601,8 +2533,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P001–003"
-    },
-    {
+    },{
       "id": "gur",
       "level": 1,
       "claimType": "book",
@@ -2622,8 +2553,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P003–018"
-    },
-    {
+    },{
       "id": "king-shoe",
       "level": 1,
       "claimType": "book",
@@ -2643,8 +2573,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P011–024"
-    },
-    {
+    },{
       "id": "reba-smile",
       "level": 1,
       "claimType": "book",
@@ -2664,8 +2593,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P024–038"
-    },
-    {
+    },{
       "id": "purple-chamber",
       "level": 2,
       "claimType": "book",
@@ -2685,8 +2613,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P039–074"
-    },
-    {
+    },{
       "id": "gur-dinner",
       "level": 3,
       "claimType": "book",
@@ -2706,8 +2633,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P075–118"
-    },
-    {
+    },{
       "id": "court-doctor",
       "level": 1,
       "claimType": "book",
@@ -2727,8 +2653,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P119–138"
-    },
-    {
+    },{
       "id": "court-medicine",
       "level": 1,
       "claimType": "book",
@@ -2748,8 +2673,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 5:P139–158"
-    },
-    {
+    },{
       "id": "leave-home",
       "level": 3,
       "claimType": "book",
@@ -2769,8 +2693,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 6:P001–013"
-    },
-    {
+    },{
       "id": "prince",
       "level": 3,
       "claimType": "book",
@@ -2790,8 +2713,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 6:P014–018"
-    },
-    {
+    },{
       "id": "capture",
       "level": 3,
       "claimType": "book",
@@ -2811,8 +2733,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 6:P019–032"
-    },
-    {
+    },{
       "id": "prince-bedroom",
       "level": 3,
       "claimType": "book",
@@ -2832,8 +2753,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 6:P033"
-    },
-    {
+    },{
       "id": "black-escort",
       "level": 3,
       "claimType": "book",
@@ -2853,8 +2773,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P001–043"
-    },
-    {
+    },{
       "id": "aba-tsupik",
       "level": 3,
       "claimType": "book",
@@ -2874,8 +2793,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P044–147"
-    },
-    {
+    },{
       "id": "interrogation",
       "level": 3,
       "claimType": "book",
@@ -2895,8 +2813,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P148–184"
-    },
-    {
+    },{
       "id": "false-budakh",
       "level": 3,
       "claimType": "book",
@@ -2916,8 +2833,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P154–168,185–191"
-    },
-    {
+    },{
       "id": "order",
       "level": 3,
       "claimType": "book",
@@ -2937,8 +2853,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P192–210"
-    },
-    {
+    },{
       "id": "reba-bargain",
       "level": 3,
       "claimType": "book",
@@ -2958,8 +2873,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P211–229"
-    },
-    {
+    },{
       "id": "uno",
       "level": 3,
       "claimType": "book",
@@ -2979,8 +2893,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P230–247"
-    },
-    {
+    },{
       "id": "kira-care",
       "level": 3,
       "claimType": "book",
@@ -3000,8 +2913,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P248–264"
-    },
-    {
+    },{
       "id": "kira-bracelet",
       "level": 3,
       "claimType": "book",
@@ -3021,8 +2933,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 7:P265–280"
-    },
-    {
+    },{
       "id": "blacksmith",
       "level": 3,
       "claimType": "book",
@@ -3042,8 +2953,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P001–020"
-    },
-    {
+    },{
       "id": "tameo",
       "level": 3,
       "claimType": "book",
@@ -3063,8 +2973,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P021–058"
-    },
-    {
+    },{
       "id": "clearance",
       "level": 3,
       "claimType": "book",
@@ -3084,8 +2993,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P059–082"
-    },
-    {
+    },{
       "id": "prison-bluff",
       "level": 3,
       "claimType": "book",
@@ -3105,8 +3013,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P083–118"
-    },
-    {
+    },{
       "id": "budakh-release",
       "level": 3,
       "claimType": "book",
@@ -3126,8 +3033,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P119–136"
-    },
-    {
+    },{
       "id": "pampa-release",
       "level": 3,
       "claimType": "book",
@@ -3147,8 +3053,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P137–147"
-    },
-    {
+    },{
       "id": "pampa-rides",
       "level": 3,
       "claimType": "book",
@@ -3168,8 +3073,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P148–176"
-    },
-    {
+    },{
       "id": "poison",
       "level": 3,
       "claimType": "book",
@@ -3189,8 +3093,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P177"
-    },
-    {
+    },{
       "id": "budakh-meal",
       "level": 3,
       "claimType": "book",
@@ -3210,8 +3113,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P178–184"
-    },
-    {
+    },{
       "id": "budakh-pyramid",
       "level": 3,
       "claimType": "book",
@@ -3231,8 +3133,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P185–204"
-    },
-    {
+    },{
       "id": "budakh-gifts",
       "level": 3,
       "claimType": "book",
@@ -3252,8 +3153,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P205–212"
-    },
-    {
+    },{
       "id": "budakh-remake",
       "level": 3,
       "claimType": "book",
@@ -3273,8 +3173,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 8:P213–219"
-    },
-    {
+    },{
       "id": "arata-arrives",
       "level": 3,
       "claimType": "book",
@@ -3294,8 +3193,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 9:P001–008,016–021"
-    },
-    {
+    },{
       "id": "arata-scars",
       "level": 3,
       "claimType": "book",
@@ -3315,8 +3213,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 9:P009–015"
-    },
-    {
+    },{
       "id": "arata-lightning",
       "level": 3,
       "claimType": "book",
@@ -3336,8 +3233,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 9:P022–038"
-    },
-    {
+    },{
       "id": "arata-targets",
       "level": 3,
       "claimType": "book",
@@ -3357,8 +3253,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 9:P039–042"
-    },
-    {
+    },{
       "id": "arata-hope",
       "level": 3,
       "claimType": "book",
@@ -3378,8 +3273,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 9:P043–047"
-    },
-    {
+    },{
       "id": "arata-leaves",
       "level": 3,
       "claimType": "book",
@@ -3399,8 +3293,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 9:P048–053"
-    },
-    {
+    },{
       "id": "budakh-sleep",
       "level": 3,
       "claimType": "book",
@@ -3420,8 +3313,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P001–012"
-    },
-    {
+    },{
       "id": "condor-reversal",
       "level": 3,
       "claimType": "book",
@@ -3441,8 +3333,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P013–039"
-    },
-    {
+    },{
       "id": "earth-decision",
       "level": 3,
       "claimType": "book",
@@ -3462,8 +3353,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P040–055"
-    },
-    {
+    },{
       "id": "hostage-warning",
       "level": 3,
       "claimType": "book",
@@ -3483,8 +3373,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P056–071"
-    },
-    {
+    },{
       "id": "kira-book",
       "level": 3,
       "claimType": "book",
@@ -3504,8 +3393,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P072–082"
-    },
-    {
+    },{
       "id": "attack",
       "level": 3,
       "claimType": "book",
@@ -3525,8 +3413,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P083–101"
-    },
-    {
+    },{
       "id": "kira-window",
       "level": 3,
       "claimType": "book",
@@ -3546,8 +3433,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ГЛАВА 10:P102–103"
-    },
-    {
+    },{
       "id": "pashka-account",
       "level": 3,
       "claimType": "book",
@@ -3567,8 +3453,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ЭПИЛОГ:P001–011"
-    },
-    {
+    },{
       "id": "road-echo",
       "level": 3,
       "claimType": "book",
@@ -3588,8 +3473,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ЭПИЛОГ:P012–033"
-    },
-    {
+    },{
       "id": "strawberries",
       "level": 3,
       "claimType": "book",
@@ -3609,8 +3493,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "evidenceLocator": "D2:ЭПИЛОГ:P034–037"
-    },
-    {
+    },{
       "id": "final",
       "level": 1,
       "claimType": "synthesis",
@@ -3628,8 +3511,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         }
       },
       "final": true
-    }
-  ],
+    }],
   "modes": {
     "essential": {
       "label": {
@@ -3728,70 +3610,104 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       const state = {
         language: ['ru', 'en'].includes(stored('language', data.defaultLanguage || 'ru')) ? stored('language', data.defaultLanguage || 'ru') : 'ru',
         theme: ['light', 'dark'].includes(stored('theme', data.defaultTheme || 'dark')) ? stored('theme', data.defaultTheme || 'dark') : 'dark',
-        mode: modeOrder.includes(stored('mode', data.defaultMode || 'deep')) ? stored('mode', data.defaultMode || 'deep') : 'deep',
+        mode: modeOrder.includes(stored('mode', 'deep')) ? stored('mode', 'deep') : 'deep',
         position: 0,
         direction: 'forward'
       };
 
-      // Candidate-local ending protection. Never persists consent.
-      let deepConsent = false;
-      let pendingDeep = null;
-      let consentFocus = null;
-      if (state.mode === 'deep') state.mode = 'essential';
-      const consent = document.getElementById('deepConsentDialog');
-      const confirmDeep = document.getElementById('confirmDeep');
-      const cancelDeep = document.getElementById('cancelDeep');
-      function requestDeep(action) {
-        if (deepConsent) { action(); return; }
-        pendingDeep = action;
-        consentFocus = document.activeElement;
-        if (els.contentsDialog.open) els.contentsDialog.close();
-        if (els.sourcesDialog.open) els.sourcesDialog.close();
-        const ru = state.language === 'ru';
-        document.getElementById('deepConsentTitle').textContent = ru ? 'Открыть полную историю?' : 'Open the complete story?';
-        document.getElementById('deepConsentText').textContent = ru
-          ? 'Режим «Глубоко» раскрывает поздние события, судьбы героев и последнюю сцену. Режимы «Главное» и «Суть книги» не раскрывают финал. После перехода в короткий режим или ухода со страницы потребуется новое согласие.'
-          : 'Deep reveals later events, the characters’ outcomes and the last scene. Essential and Core leave the ending unrevealed. Switching to a shorter mode or leaving this page requires fresh consent.';
-        confirmDeep.textContent = ru ? 'Читать «Глубоко» со спойлерами' : 'Read Deep with spoilers';
-        cancelDeep.textContent = ru ? 'Сохранить развязку' : 'Preserve the ending';
-        if (!consent.open) consent.showModal();
-        cancelDeep.focus({preventScroll:true});
+      // reader-usability-v1: selected depth and spoiler permission are separate.
+      const initialHash = location.hash;
+      const serviceRedirects = {"deep-warning":"deep"};
+      const needsConsent = true;
+      const groupedTitles = {};
+      let uxConsent = false;
+      let pendingEntry = null;
+      const consentDialog = document.getElementById('readerConsent');
+      function rawRouteScreens(mode) {
+        if (Array.isArray(data.routes?.[mode])) return data.routes[mode].map(id => data.screens.find(s => s.id === id));
+        if (data.screens.some(s => s.routeMode)) return data.screens.filter(s => !s.routeMode || s.routeMode === mode);
+        return data.screens.filter(s => s.level <= levels[mode]);
       }
-      confirmDeep.addEventListener('click', () => {
-        const action = pendingDeep;
-        pendingDeep = null;
-        deepConsent = true;
-        consent.close();
-        if (action) action();
-      });
-      cancelDeep.addEventListener('click', () => consent.close());
-      consent.addEventListener('close', () => {
-        pendingDeep = null;
-        if (consentFocus?.isConnected) consentFocus.focus({preventScroll:true});
-      });
-      // A restored page must ask again; no consent is read from any storage.
-      addEventListener('pagehide', () => { deepConsent = false; });
-      addEventListener('pageshow', event => {
-        if (event.persisted) {
-          deepConsent = false;
-          state.mode = state.mode === 'deep' ? 'essential' : state.mode;
-          state.position = 0;
-          render();
-        }
-      });
+      function routeScreens(mode) { return rawRouteScreens(mode).filter(s => !groupedTitles[s.id]); }
+      function prefixHeading(screen) {
+        return Object.entries(groupedTitles).filter(([, target]) => target === screen.id).map(([id]) => '<h1 data-heading>' + escapeHtml(copyOf(data.screens.find(s => s.id === id)).title) + '</h1>').join('');
+      }
+      function firstProse(mode) { return routeScreens(mode).find(s => s.type !== 'cover'); }
+      function resolveScreen(id, mode = state.mode) {
+        if (Object.hasOwn(groupedTitles, id)) id = groupedTitles[id];
+        if (Object.hasOwn(serviceRedirects, id)) return firstProse(serviceRedirects[id]);
+        return data.screens.find(s => s.id === id) || firstProse(mode);
+      }
+      function rememberedScreen() {
+        const id = stored('lastScreen', '');
+        return id ? resolveScreen(id) : null;
+      }
+      function rememberedMode(screen) {
+        const oldId = stored('lastScreen', '');
+        if (Object.hasOwn(serviceRedirects, oldId)) return serviceRedirects[oldId];
+        const candidate = stored('lastMode', state.mode);
+        const saved = modeOrder.includes(candidate) ? candidate : state.mode;
+        return screen.routeMode || (routeScreens(saved).includes(screen) ? saved : requiredMode(screen.level));
+      }
+      function safeTitle(screen) {
+        return needsConsent && state.mode === 'deep' && !uxConsent && screen.type !== 'cover'
+          ? (state.language === 'ru' ? 'Полная версия' : 'Full version') : (copyOf(screen).title || copyOf(screen).tocTitle || '');
+      }
+      function syncHash() {
+        try { history.replaceState(null, '', '#' + state.mode + '/' + currentScreen().id); } catch (_) {}
+      }
+      function changeMode(mode) {
+        if (mode !== 'deep') uxConsent = false;
+        state.mode = mode; state.position = 0; save('mode', mode);
+      }
+      function requestEntry(mode, id, direction = 'forward') {
+        const target = routeScreens(mode).find(s => s.id === id) || firstProse(mode);
+        const enter = () => {
+          if (mode !== state.mode) changeMode(mode);
+          state.position = routeScreens(mode).indexOf(target);
+          state.direction = direction; render();
+        };
+        if (needsConsent && mode === 'deep' && target.type !== 'cover' && !uxConsent) {
+          pendingEntry = enter;
+          if (els.contentsDialog.open) els.contentsDialog.close();
+          if (els.sourcesDialog.open) els.sourcesDialog.close();
+          const ru = state.language === 'ru';
+          document.getElementById('readerConsentTitle').textContent = ru ? 'Полная версия' : 'Full version';
+          document.getElementById('readerConsentText').textContent = ru ? 'Полная версия раскрывает развязку. Читать?' : 'The full version reveals the ending. Read on?';
+          document.getElementById('readerConsentCancel').textContent = ru ? 'Отмена' : 'Cancel';
+          document.getElementById('readerConsentAccept').textContent = ru ? 'Читать' : 'Read';
+          if (!consentDialog.open) consentDialog.showModal();
+          document.getElementById('readerConsentCancel').focus({preventScroll:true});
+        } else enter();
+      }
+      if (consentDialog) {
+        document.getElementById('readerConsentAccept').addEventListener('click', () => {
+          const action = pendingEntry; pendingEntry = null; uxConsent = true;
+          consentDialog.close(); if (action) action();
+        });
+        const cancel = () => { pendingEntry = null; consentDialog.close(); syncHash(); };
+        document.getElementById('readerConsentCancel').addEventListener('click', cancel);
+        consentDialog.addEventListener('cancel', () => { pendingEntry = null; syncHash(); });
+      }
+      function followEntry(hash, useQuery = false) {
+        const parts = String(hash).replace(/^#/, '').split('/');
+        const params = new URLSearchParams(useQuery ? location.search : '');
+        const mode = modeOrder.includes(parts[0]) ? parts[0] : (params.get('mode') || state.mode);
+        if (!modeOrder.includes(mode)) return;
+        const requested = parts[1] || params.get('screen') || (parts[0] && !modeOrder.includes(parts[0]) ? parts[0] : firstProse(mode).id);
+        const screen = resolveScreen(requested, mode);
+        const targetMode = Object.hasOwn(serviceRedirects, requested) ? serviceRedirects[requested] : (screen.routeMode || mode);
+        requestEntry(targetMode, screen.id);
+      }
+
       function text() { return ui[state.language]; }
       function copyOf(screen) { return screen.copy[state.language]; }
-      function visibleScreens() { return data.screens.filter((screen) => screen.level <= levels[state.mode]); }
+      function visibleScreens() { return routeScreens(state.mode); }
       function currentScreen() { return visibleScreens()[state.position]; }
       function escapeHtml(value) { return String(value).replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char])); }
 
-      function modeCounts() {
-        return {
-          essential: data.screens.filter((screen) => screen.level <= 1).length,
-          core: data.screens.filter((screen) => screen.level <= 2).length,
-          deep: data.screens.length
-        };
-      }
+      function modeCounts() { return Object.fromEntries(modeOrder.map(mode => [mode, routeScreens(mode).length])); }
+
 
       function modeLabel(mode) {
         const configured = data.modes && data.modes[mode];
@@ -3841,9 +3757,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       function renderCover(screen) {
         const copy = copyOf(screen);
         const rememberedId = stored('lastScreen', '');
-        const remembered = rememberedId && rememberedId !== screen.id ? data.screens.find((item) => item.id === rememberedId) : null;
+        const remembered = rememberedScreen();
         const resumeHasEnding = remembered && data.spoilerPolicy === 'full-plot-in-deep' && remembered.level === 3;
-        const primaryLabel = resumeHasEnding ? (state.language === 'ru' ? 'Продолжить Deep — спойлеры финала' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start;
+        const primaryLabel = needsConsent && !uxConsent && remembered && rememberedMode(remembered) === 'deep' ? (state.language === 'ru' ? 'Продолжить полную версию' : 'Continue full version') : (resumeHasEnding ? (state.language === 'ru' ? 'Продолжить Deep — спойлеры финала' : 'Continue Deep — ending spoilers') : remembered ? text().continuePrefix + copyOf(remembered).title + text().continueSuffix : text().start);
         const visual = coverMediaFor(screen) || '<div class="cover-visual"><div class="cover-mark"><span class="cover-eyebrow">' + escapeHtml(data.author[state.language]) + '</span><p class="lede">' + escapeHtml(copy.title) + '</p><span class="cover-eyebrow">' + (state.language === 'ru' ? 'Повесть · 1964' : 'A novel · 1964') + '</span></div></div>';
         return `<article class="story-slide${state.direction === 'back' ? ' is-reverse' : ''}"><div class="slide-scroll"><div class="cover-layout">${visual}<div class="cover-copy"><p class="kicker">${escapeHtml(copy.section)}</p><h1>${escapeHtml(copy.title)}</h1>${copy.subtitle ? `<p class="cover-subtitle">${escapeHtml(copy.subtitle)}</p>` : ''}${copy.body || ''}<div class="mode-picker" role="group" aria-label="${escapeHtml(text().depthLabel)}">${renderModePicker()}</div></div><div class="cover-actions"><button class="button button-primary" type="button" data-start="${remembered ? 'continue' : 'begin'}">${escapeHtml(primaryLabel)}</button>${remembered ? `<button class="button" type="button" data-start="begin">${escapeHtml(text().startOver)}</button>` : ''}</div></div></div></article>`;
       }
@@ -3874,7 +3790,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       function contentsHtml() {
         const list = visibleScreens();
         const activeId = currentScreen().id;
-        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(copyOf(screen).title)}</span></button>`).join('');
+        return list.map((screen, index) => `<button class="contents-item${screen.id === activeId ? ' is-active' : ''}" type="button" data-go-to="${escapeHtml(screen.id)}"${screen.id === activeId ? ' aria-current="page"' : ''}><span class="contents-index">${String(index + 1).padStart(2, '0')}</span><span class="contents-title">${escapeHtml(safeTitle(screen))}</span></button>`).join('');
       }
 
       function renderContents() {
@@ -3925,34 +3841,23 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       }
 
       function bindRenderedControls() {
-        document.querySelectorAll('[data-mode]').forEach((button) => {
-          button.addEventListener('click', () => setMode(button.dataset.mode));
-        });
-        document.querySelectorAll('[data-go-to]').forEach((button) => {
-          button.addEventListener('click', () => {
-            goToId(button.dataset.goTo);
-            if (els.contentsDialog.open) els.contentsDialog.close();
-          });
-        });
-        document.querySelectorAll('[data-start]').forEach((button) => {
-          button.addEventListener('click', () => start(button.dataset.start === 'continue'));
-        });
-        document.querySelectorAll('[data-open-deep]').forEach((button) => {
-          button.addEventListener('click', () => requestDeep(() => {
-            setMode('deep');
-            goToId('deep-warning');
-          }));
-        });
-        document.querySelectorAll('[data-open-sources]').forEach((button) => {
-          button.addEventListener('click', () => els.sourcesDialog.showModal());
-        });
+        document.querySelectorAll('[data-mode]').forEach(button => button.addEventListener('click', () => setMode(button.dataset.mode)));
+        document.querySelectorAll('[data-go-to]').forEach(button => button.addEventListener('click', () => {
+          goToId(button.dataset.goTo); if (els.contentsDialog.open) els.contentsDialog.close();
+        }));
+        document.querySelectorAll('[data-start]').forEach(button => button.addEventListener('click', () => start(button.dataset.start === 'continue')));
+        document.querySelectorAll('[data-open-sources]').forEach(button => button.addEventListener('click', () => els.sourcesDialog.showModal()));
       }
+
 
       function render() {
         const list = visibleScreens();
         if (state.position >= list.length) state.position = Math.max(0, list.length - 1);
         renderStaticText();
         els.story.innerHTML = renderScreen(currentScreen());
+        els.story.dataset.mode = state.mode;
+        els.story.dataset.screenId = currentScreen().id;
+        syncHash();
         renderProgress();
         renderNavigation();
         renderContents();
@@ -3963,59 +3868,43 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
 
       function goToPosition(position, direction) {
         const list = visibleScreens();
-        state.position = Math.max(0, Math.min(position, list.length - 1));
-        state.direction = direction || 'forward';
-        render();
+        const target = list[Math.max(0, Math.min(position, list.length - 1))];
+        requestEntry(state.mode, target.id, direction);
       }
+
 
       function requiredMode(level) {
         return level <= 1 ? 'essential' : level === 2 ? 'core' : 'deep';
       }
 
       function goToId(id) {
-        const target = data.screens.find(screen => screen.id === id);
-        if (target?.level === 3 && !deepConsent) {
-          requestDeep(() => goToId(id));
-          return;
-        }
-        let list = visibleScreens();
-        let index = list.findIndex((screen) => screen.id === id);
-        if (index < 0) {
-          const hidden = data.screens.find((screen) => screen.id === id);
-          if (hidden) {
-            state.mode = requiredMode(hidden.level);
-            save('mode', state.mode);
-            list = visibleScreens();
-            index = list.findIndex((screen) => screen.id === id);
-          }
-        }
-        if (index >= 0) goToPosition(index, index < state.position ? 'back' : 'forward');
+        const screen = resolveScreen(id);
+        const mode = screen.routeMode || (visibleScreens().includes(screen) ? state.mode : requiredMode(screen.level));
+        requestEntry(mode, screen.id);
       }
 
+
       function setMode(mode) {
-        if (!modeOrder.includes(mode)) return;
-        if (mode === 'deep' && !deepConsent) {
-          requestDeep(() => setMode(mode));
-          return;
+        if (!modeOrder.includes(mode) || mode === state.mode) return;
+        removeStored('lastScreen');
+        const id = currentScreen().id;
+        changeMode(mode);
+        // Independent versions always begin at their cover. Cumulative readers
+        // retain a shared page only when it does not bypass renewed consent.
+        if (!data.routes && !data.screens.some(s => s.routeMode) && !(needsConsent && mode === 'deep')) {
+          const index = visibleScreens().findIndex(s => s.id === id);
+          if (index >= 0) state.position = index;
         }
-        if (mode !== 'deep') deepConsent = false;
-        const currentId = currentScreen().id;
-        state.mode = mode;
-        save('mode', mode);
-        const list = visibleScreens();
-        const nextIndex = list.findIndex((screen) => screen.id === currentId);
-        state.position = nextIndex >= 0 ? nextIndex : 0;
         render();
       }
 
+
       function start(continueSaved) {
-        const rememberedId = continueSaved ? stored('lastScreen', '') : '';
-        if (rememberedId && data.screens.some(screen => screen.id === rememberedId)) goToId(rememberedId);
-        else {
-          if (rememberedId) removeStored('lastScreen');
-          goToPosition(Math.min(1, visibleScreens().length - 1), 'forward');
-        }
+        const remembered = continueSaved ? rememberedScreen() : null;
+        if (remembered) requestEntry(rememberedMode(remembered), remembered.id);
+        else requestEntry(state.mode, firstProse(state.mode).id);
       }
+
 
       function next() {
         const list = visibleScreens();
@@ -4073,12 +3962,17 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       });
       els.story.addEventListener('pointercancel', () => { pointerStart = null; });
 
-      const rememberedId = stored('lastScreen', '');
-      if (rememberedId) {
-        const index = visibleScreens().findIndex((screen) => screen.id === rememberedId);
-        if (index >= 0) state.position = 0;
-      }
       render();
+      if (initialHash || new URLSearchParams(location.search).has('mode') || new URLSearchParams(location.search).has('screen')) followEntry(initialHash, true);
+      window.addEventListener('hashchange', () => followEntry(location.hash));
+      window.addEventListener('pagehide', () => { uxConsent = false; });
+      window.addEventListener('pageshow', event => {
+        if (!event.persisted) return;
+        uxConsent = false; pendingEntry = null;
+        if (consentDialog?.open) consentDialog.close();
+        state.position = 0; render();
+      });
+
     })();
   </script>
   <script>

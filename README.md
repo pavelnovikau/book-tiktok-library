@@ -8,6 +8,14 @@ Git hosting: https://github.com/pavelnovikau/book-tiktok-library
 
 Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` is the production release path; pull requests are the contribution path.
 
+## Expanded-depth repair — 2026-11-01
+
+Kahneman is now personally accepted for replacement at **27/74/110 screens**. Root read every RU/EN pair, reread the cumulative shorter routes, compared chapter coverage/omissions and checked selected primary passages. Six missing mechanisms and their real examples were restored; the clinical discussion retains the author's unresolved trade-off. Deep contains 9,694 RU / 10,896 EN body words; UI estimates RU 15/39/57 and EN 14/36/53 minutes. The resulting catalogue is 58 books / 2,330 screens. These measured totals are not universal depth quotas.
+
+[Personal acceptance](editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.json) binds the only approved replacement hashes. [Coverage and omissions](editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/sources.md) distinguish selected primary reading from complete-edition verification. [Local release proof](editorial-audit/2026-10-31/publisher-findings/expanded-depth-02-local.json) confirms the exact compiled reader, unchanged other 57 catalogue entries, existing homepage/readers and the public allowlist. Final root QA: 69 structural checks, 3,376 offline rendered visits and 56 interaction checks. Physical Safari was not tested.
+
+Expanded Hard to Be a God was separately accepted and published through PR37. All other expanded replacements still require root's complete personal text/route/coverage review. The older release notes below record factual and technical acceptance under the prior compressed-depth criterion; they do not certify the newly requested depth.
+
 ## How it works
 
 - `books.json` is the catalogue. Its additive `discovery.version: 1` extension separates work types, fiction genres, nonfiction subjects and bilingual topic names/aliases. Legacy schema-2 sections, collections and audience/spoiler metadata remain available internally.

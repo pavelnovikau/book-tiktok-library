@@ -1,0 +1,754 @@
+{
+  "slug": "thinking-fast-and-slow",
+  "candidate": "depth-v2-expanded-nonfiction-pilot",
+  "status": "root-personally-accepted",
+  "createdAtUtc": "2026-10-31T23:28:38.170876+00:00",
+  "authoringForm": "connected explanatory prose before segmentation",
+  "contentMode": "explanatory",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential"
+  },
+  "counts": {
+    "essential": 27,
+    "core": 74,
+    "deep": 110
+  },
+  "perDepth": {
+    "essential": {
+      "screens": 27,
+      "ru": {
+        "bodyWords": 2463,
+        "bodyMinutes": 13.68,
+        "roundedBodyMinutes": 14,
+        "uiWords": 2594,
+        "uiMinutes": "15 минут"
+      },
+      "en": {
+        "bodyWords": 2757,
+        "bodyMinutes": 12.53,
+        "roundedBodyMinutes": 13,
+        "uiWords": 2917,
+        "uiMinutes": "14 min"
+      }
+    },
+    "core": {
+      "screens": 74,
+      "ru": {
+        "bodyWords": 6591,
+        "bodyMinutes": 36.62,
+        "roundedBodyMinutes": 37,
+        "uiWords": 6947,
+        "uiMinutes": "39 минут"
+      },
+      "en": {
+        "bodyWords": 7415,
+        "bodyMinutes": 33.7,
+        "roundedBodyMinutes": 34,
+        "uiWords": 7841,
+        "uiMinutes": "36 min"
+      }
+    },
+    "deep": {
+      "screens": 110,
+      "ru": {
+        "bodyWords": 9694,
+        "bodyMinutes": 53.86,
+        "roundedBodyMinutes": 54,
+        "uiWords": 10224,
+        "uiMinutes": "57 минут"
+      },
+      "en": {
+        "bodyWords": 10896,
+        "bodyMinutes": 49.53,
+        "roundedBodyMinutes": 50,
+        "uiWords": 11533,
+        "uiMinutes": "53 min"
+      }
+    }
+  },
+  "wordAndTimeMethod": "Unicode lexical tokens, same regex as installed builder. Body excludes cover, headings, subtitles, UI and source/method notes; includes shared final. UI estimates include cover, titles and subtitles.",
+  "ratesWpm": {
+    "ru": 180,
+    "en": 220
+  },
+  "primaryDeliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/thinking-fast-and-slow.html",
+      "sha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "bytes": 716153
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/story-data.json",
+      "sha256": "d4137bda5ad9920c7fffe53349ea3beb77767c0e37877d07ba82d0eb0758805c",
+      "bytes": 277515
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/draft.ru.md",
+      "sha256": "2b59385533b96522f76a95327e51bb7f83e06643143e80c140259b99e61f0ec7",
+      "bytes": 141061
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/draft.en.md",
+      "sha256": "4ea5807c461fc8512dbdbe143dc840c5336e78ab698ae1f93c0cb894b7d543d7",
+      "bytes": 75022
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/coverage-map.md",
+      "sha256": "560e2c17b9f2edcfd0756eb56074661aecd24eb9235f751877a5cd619b438bc8",
+      "bytes": 11897
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/coverage-map.json",
+      "sha256": "5d0ee5f5ed20734d7d31876ca3512ca3add28aa4bc271fafb4b6ac0a8e029c19",
+      "bytes": 26536
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/sources.md",
+      "sha256": "7e04b8d6a40b623c75cdadb5990efd8b14efd709577255fe6488dea1d7fe5207",
+      "bytes": 24518
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/QA.md",
+      "sha256": "de693c4a348c03c640c1b1e11f3c930fa20e99a3e9dbd80d3a8bb28f43136a73",
+      "bytes": 10023
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.json",
+      "sha256": "bcb04eaca9d0acc5f8e1c86ba414b7da599a9f73924add0d4e496362264b80c2",
+      "bytes": 8899
+    }
+  ],
+  "reportPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/implementation.md",
+  "reportSha256": "bd6bce897776aa3120fbfb814d360e31d773271af0b4c50839c40be39808b1f6",
+  "sourceScope": {
+    "edition": "Owned full expanded Russian EPUB, AST 2014; Bakanov translation school 2013; original 2011",
+    "spineEntries": 117,
+    "verifiedMetadata": [
+      "title",
+      "creator",
+      "copyright page",
+      "five-part map",
+      "introduction",
+      "conclusion",
+      "appendix/note headings"
+    ],
+    "completeSpineTextsRead": [
+      "content0.html",
+      "content1.html",
+      "content2.html",
+      "content3.html",
+      "content5.html",
+      "content7.html",
+      "content20.html",
+      "content23.html",
+      "content25.html",
+      "content28.html",
+      "content29.html",
+      "content32.html",
+      "content38.html",
+      "content39.html",
+      "content42.html",
+      "content47.html",
+      "content50.html",
+      "content54.html",
+      "content55.html",
+      "content56.html",
+      "content57.html",
+      "content58.html",
+      "content59.html",
+      "content60.html",
+      "content61.html",
+      "content66.html",
+      "content67.html",
+      "content68.html",
+      "content69.html",
+      "content72.html",
+      "content76.html",
+      "content78.html",
+      "content82.html",
+      "content84.html",
+      "content92.html",
+      "content94.html",
+      "content95.html",
+      "content98.html",
+      "content100.html",
+      "content102.html",
+      "content103.html"
+    ],
+    "completeBoundedSectionsRead": {
+      "content52.html": "Chapter 21 opening “Интуиция и формулы – кто кого?” through end of this spine file; preceding Chapter 20 material excluded.",
+      "content65.html": "“«Прижизненный эпикриз» – частичное решение проблемы” through the next discussion heading; later Bernoulli opening excluded.",
+      "content71.html": "Full token-market / mug-market / seller–chooser–buyer comparison, from “Мы с Кнетчем и Талером разработали эксперимент” through file end. Earlier wine/ticket discussion not relied upon.",
+      "content85.html": "“Политика рисков” through “Разговоры о политике рисков”; later mental-accounting chapter excluded.",
+      "content101.html": "“Выводы” through file end, including the conclusion’s two-selves discussion. Earlier Chapter 38 material excluded."
+    },
+    "continuousWholeBookReading": false,
+    "fullEnglishCollation": false,
+    "privateExtractsPersisted": false,
+    "note": "Complete supporting sections were read for every retained mechanism/case. Whole files listed here were actually read, in some cases in overlapping calls after output truncation. An inventory, download or heading scan is not counted as substantive reading."
+  },
+  "criticalCorrections": [
+    {
+      "id": "ROOT-K-01",
+      "change": "Restored cognitive ease, public risk/affect, causal base rates, optimism/enterprise, mental accounts/sunk costs, and separate/joint evaluation in connected original RU/EN prose.",
+      "evidence": "root-review/additions.json and source ranges in reading-ledger.json"
+    },
+    {
+      "id": "ROOT-K-02",
+      "change": "Essential no longer introduces WYSIATI without its definition; RU Bayes title and interview heading made natural."
+    },
+    {
+      "id": "ROOT-K-03",
+      "change": "Mug values retain the reported numbers without an unsupported average/median label."
+    },
+    {
+      "id": "ROOT-K-04",
+      "change": "Early-1990s context explicit; replaced an absolute digest-authored medical veto with the author’s conditional contrast between accumulated pain and remembered pain.",
+      "evidence": "content94 P001–031;content95 P001–011"
+    },
+    {
+      "id": "ROOT-K-05",
+      "change": "Essential retains both pain-profile screens so the final experience/memory argument has actual evidence."
+    },
+    {
+      "id": "ROOT-K-06",
+      "change": "Fresh depth-v2 progress namespace prevents a legacy short-reader resume; a genuinely deeper Continue explicitly names the destination mode; Russian minute forms fixed locally."
+    }
+  ],
+  "localChecks": {
+    "currentRoot": "root-review/qa/metrics-and-integrity.json",
+    "historicalWriter": "root-review/input-ready.json"
+  },
+  "oldStableIdsPreserved": 29,
+  "immutableComparisonInputs": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/story-data.json",
+      "before": "59e4d85e11c71bfb2e8a8550862e6cd88b0889712e22ebc1bfb130f73fec5cc3",
+      "after": "59e4d85e11c71bfb2e8a8550862e6cd88b0889712e22ebc1bfb130f73fec5cc3",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/thinking-fast-and-slow.html",
+      "before": "f1037058daeb7860a8aec44466e998adddd255cf2c82266205c6685aba020fe4",
+      "after": "f1037058daeb7860a8aec44466e998adddd255cf2c82266205c6685aba020fe4",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/sources.md",
+      "before": "8901abb5e91268817c021f2c0c01ee4b9383e374792250132fac92832e58b952",
+      "after": "8901abb5e91268817c021f2c0c01ee4b9383e374792250132fac92832e58b952",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/thinking-fast-and-slow/QA.md",
+      "before": "04ed268252cc1ce9d8a39d8e7e95884a6e9fffbb4a6dc53504e696c2b3c096e5",
+      "after": "04ed268252cc1ce9d8a39d8e7e95884a6e9fffbb4a6dc53504e696c2b3c096e5",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.md",
+      "before": "a253b297918f2dfcf69809b94cc0b09158cf6659eb0de0806f031247b6782c89",
+      "after": "a253b297918f2dfcf69809b94cc0b09158cf6659eb0de0806f031247b6782c89",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/thinking-fast-and-slow.json",
+      "before": "dddf712ca9b107fa75886987a4ae71837eff8b7ee4e6b10f835fcc0cae7c2d92",
+      "after": "dddf712ca9b107fa75886987a4ae71837eff8b7ee4e6b10f835fcc0cae7c2d92",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/thinking-fast-and-slow.json",
+      "before": "34c60275dff860ce808d62defc22be9f24d0c447d673beb752763158f2d495dc",
+      "after": "34c60275dff860ce808d62defc22be9f24d0c447d673beb752763158f2d495dc",
+      "unchanged": true
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/books.json",
+      "before": "c7994ace3157e9c9d3dcea0f720084a6cc5f3529f0d6fb692e8e8500f3f2623c",
+      "after": "c7994ace3157e9c9d3dcea0f720084a6cc5f3529f0d6fb692e8e8500f3f2623c",
+      "unchanged": true
+    }
+  ],
+  "independentEditorialApproval": false,
+  "rootPersonalAcceptance": true,
+  "publicationClaimed": false,
+  "unresolvedIssues": [],
+  "ownership": "Only this new candidate directory written. No current collector, old ready/reviews, root reader, books.json, shared shell/skill/status/log, Git, PR, deployment or external messaging changes.",
+  "fileManifest": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/QA.md",
+      "sha256": "de693c4a348c03c640c1b1e11f3c930fa20e99a3e9dbd80d3a8bb28f43136a73",
+      "bytes": 10023
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/browser-check.mjs",
+      "sha256": "97a61f4e52e199183bda2cc40ef903c21c286bcf874599d6636a962dcf53102f",
+      "bytes": 19740
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/build.mjs",
+      "sha256": "c2104b553bdcb23fbabf8db357c794076d734667b4a13347e1b8805ffa78d8ce",
+      "bytes": 2913
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/core.en.md",
+      "sha256": "e93f4f40a02840a6f839c6d860f559890e721b6986de6faaa9e584781c6acad4",
+      "bytes": 52274
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/core.ru.md",
+      "sha256": "640c8c9df29dd18109c173d56f69b54309db45aa882809430ddaa502fdf5ba1e",
+      "bytes": 98318
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/coverage-map.json",
+      "sha256": "5d0ee5f5ed20734d7d31876ca3512ca3add28aa4bc271fafb4b6ac0a8e029c19",
+      "bytes": 26536
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/coverage-map.md",
+      "sha256": "560e2c17b9f2edcfd0756eb56074661aecd24eb9235f751877a5cd619b438bc8",
+      "bytes": 11897
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/deep.en.md",
+      "sha256": "ba6d4f6e006b28d13359e00915e4ae27960705b682e6a25e401ffeb8acc82acf",
+      "bytes": 77064
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/deep.ru.md",
+      "sha256": "d4a58ced78d0aeabd1b9c0b0efde784d4e25b41d062d887f50da8c292a5c6211",
+      "bytes": 144691
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/draft.en.md",
+      "sha256": "4ea5807c461fc8512dbdbe143dc840c5336e78ab698ae1f93c0cb894b7d543d7",
+      "bytes": 75022
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/draft.ru.md",
+      "sha256": "2b59385533b96522f76a95327e51bb7f83e06643143e80c140259b99e61f0ec7",
+      "bytes": 141061
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/essential.en.md",
+      "sha256": "a870da7cc507ab0b3944857a0941351f6e1a3ba25dd8e2915ac8adfd36c32aa3",
+      "bytes": 19404
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/essential.ru.md",
+      "sha256": "2c94369a1abd8fd6dcec22a1de1730a885cabfd780ae0a39ab5f0cb13a5d37be",
+      "bytes": 36161
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/immutable-input-hashes.json",
+      "sha256": "26ada7e5067d5f29159960b1944695d0929352d0ce86b39f7a352cf028bae5e4",
+      "bytes": 1404
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/implementation.md",
+      "sha256": "bd6bce897776aa3120fbfb814d360e31d773271af0b4c50839c40be39808b1f6",
+      "bytes": 3260
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/measure.mjs",
+      "sha256": "5b9f58e1c738adaf2d43ed2bf7ea57d67236b6fb41f48297c57f37c8fbf8369c",
+      "bytes": 3778
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/prepare-candidate.py",
+      "sha256": "f337c55bdbb16840eeea0e4317132c59af8abb8d5951837b44a3fa2ad15a987d",
+      "bytes": 12775
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1024-cover.png",
+      "sha256": "4cc1c8c2c0cecbc7367e60e85c252a0ca4ff33c976a4d54ed55c2d57b7646648",
+      "bytes": 96413
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1024-dense.png",
+      "sha256": "9475cbc8817fb60c44b2e458cceb802a7ad0c599f4f477cd656caa44392044cb",
+      "bytes": 159878
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1024-final.png",
+      "sha256": "a6e524b0999860e238efd0de5f4ec56c8b6efce8d9ece6de3c01d35660416736",
+      "bytes": 174863
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1024-quantitative.png",
+      "sha256": "8a891a6f8529404149feaa04a367106fb794aeab297b870865d81f233aabf849",
+      "bytes": 136913
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1440-cover.png",
+      "sha256": "8280beb2414deaf739553c12c43178d663289789fb30f832976546a05e170b80",
+      "bytes": 110673
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1440-dense.png",
+      "sha256": "82bbf75f0c051f0b3c51d48430dc3bbc1fc2bf1a7526bf231d0222b3590b5d0f",
+      "bytes": 171804
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1440-final.png",
+      "sha256": "ec6d841962e570313f1c0fefd970324d309d2000a4771cb34bdf2ae49d494360",
+      "bytes": 190779
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/1440-quantitative.png",
+      "sha256": "ba939c681e4762f5c8695a2445dda1c29ac950bcfe435cf29a2797795952b4e6",
+      "bytes": 148822
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/320-cover.png",
+      "sha256": "b54c5f15c8f1c0acfd0de11068495842375b494a3d3ec71f2c29f6062f66eb48",
+      "bytes": 41228
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/320-dense.png",
+      "sha256": "52ceafd29c7b976d56b87e19a3993221ce42627b3c5e30bf4307a8422dc590ce",
+      "bytes": 54228
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/320-final.png",
+      "sha256": "68310c034707c81f379fc088906d6377a25673a83d798779a82786a9521a6d36",
+      "bytes": 53728
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/320-quantitative.png",
+      "sha256": "11020abc62d88472b61b4ba86e8697bd5d10364c8b30cdff5363b77709d204e9",
+      "bytes": 54906
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/390-cover.png",
+      "sha256": "3ddade69d9617534ed3f6729d0d7889c22274a9cfef003b6a4d5aa0dddc0929e",
+      "bytes": 44702
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/390-dense.png",
+      "sha256": "9bb007908f921977e665a08f472a3728a0a5c346a3c471577564f871a5af7f35",
+      "bytes": 93315
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/390-final.png",
+      "sha256": "37ef3dea7cb6d89a95a0fefa867794b115e2d03766c621e1c141a1f10faef267",
+      "bytes": 95605
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/390-quantitative.png",
+      "sha256": "29cfdfe6c34d86d3056796dc4142b38366fe32ebdbc26660ae2bc7de37368600",
+      "bytes": 72917
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-1024.json",
+      "sha256": "ef2188552b55b3e4a9537924b82575ba578abb8a88931b167af67e0d445a1b96",
+      "bytes": 58516
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-1440.json",
+      "sha256": "3879b0eba78041784170e8ee30bd7d792785ef8a01c3623aa1f4c2356225b592",
+      "bytes": 58516
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-320.json",
+      "sha256": "0618d2f8f4604b33279c701c438b62b0de12078219ece45ce906af7554ecfaeb",
+      "bytes": 58515
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-390.json",
+      "sha256": "dde86312d610cb1b5516a2d8a7e6f5203c6720d141342dd8acb25fba4c212fd7",
+      "bytes": 58515
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-ios-320.json",
+      "sha256": "e7da463697d305a2997043a7668eeb6540a55f5a49b4f5e157d478a9c3c13a69",
+      "bytes": 58881
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-ios-390-harness-before-reset.json",
+      "sha256": "4b8db6cbb694f0ff3a876562dce25d25a451e86de1c27b82d82000aa357dc168",
+      "bytes": 57990
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/browser-ios-390.json",
+      "sha256": "19dd41c890c9e982abf2b4c59236b5fe423d3da64f3a3a194df2fe8125a5b170",
+      "bytes": 58881
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-320-cover.png",
+      "sha256": "4d61407d987ecd4a4d2bdaed0f360b4ab57b6f5e27d5a9fb6e64adef52ce84c1",
+      "bytes": 42157
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-320-dense.png",
+      "sha256": "ca99bc5ea6544c4433efa4c6a81651a5e1a23f06e19fffc5719ef57b7af8239d",
+      "bytes": 47476
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-320-final.png",
+      "sha256": "8899468806aced7e49915173242bb60ee11051017e7db2a2049d501ed1529b15",
+      "bytes": 48719
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-320-quantitative.png",
+      "sha256": "30f708073935daf43f8038b343275226543fd27c966a926e18c4501d6df81540",
+      "bytes": 49752
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-390-cover.png",
+      "sha256": "873e11dae6a488530e2c109e1abb6c7da0227ddc4c7ca00107bde36362f8cd3e",
+      "bytes": 45700
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-390-dense.png",
+      "sha256": "ecc66a1b99cc38908a2da5bc87232c8b62562e7867b7d7dffb981fea3d116d23",
+      "bytes": 88374
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-390-final.png",
+      "sha256": "258137ba906e48db16aa44037ec6f31cc790bab83b35b4033b533dc65ca4b9f7",
+      "bytes": 88392
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/ios-390-quantitative.png",
+      "sha256": "99ed124498a4b9bee762ce2e6ad66c474a4ed3e3a964910c62b34278c9d01ec1",
+      "bytes": 73962
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/metrics-and-integrity.json",
+      "sha256": "81d964b12eb4887efb218b4d3313e70fa49143a4dc40558fe7ee1261931145ed",
+      "bytes": 5573
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/qa/structural.json",
+      "sha256": "8e37e26bfe9da05ff9dc38209179d1a416fb3881268b484d0e2be08cb71ff00b",
+      "bytes": 439
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/read-source.py",
+      "sha256": "552102638d825e14e3b69c2c8167937f6a4bb336f50403d540a4de5afdcb73c7",
+      "bytes": 1191
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/additions.json",
+      "sha256": "3ed1aeaa8bba3adf6cf1cdb4cb1b027dd8612938477af25fd556f5358111a53e",
+      "bytes": 31975
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/apply-repairs.py",
+      "sha256": "012c71a57b10d028ef424a04f8d778f4faccddb88c42117baec90371fc9bfde1",
+      "bytes": 7154
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/browser-check.mjs",
+      "sha256": "5d8799b307b660f222670609dfcf072c7cde0660174aeccf28b57dc3df76bcc6",
+      "bytes": 21454
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-QA.md",
+      "sha256": "9e7f6b6b0ecc91866692c69f67161b55a8e5fba6b9b21726fb6403b6b2130815",
+      "bytes": 8691
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-browser-check.mjs",
+      "sha256": "97a61f4e52e199183bda2cc40ef903c21c286bcf874599d6636a962dcf53102f",
+      "bytes": 19740
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-build.mjs",
+      "sha256": "18d15a4aaf48e1bf4cc26b73607dc4e1f430558cc86ab7e738c982420b9d2bb4",
+      "bytes": 1166
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-coverage-map.json",
+      "sha256": "e38f42f0b21d87f61e38d9593c4afe7bac7ae8cea3d0215afa7a0471cdf6137c",
+      "bytes": 26039
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-coverage-map.md",
+      "sha256": "99b2284f0991b58791a39f67a6a8974e9bcb81fe9d3035bd65b2914b618c7dff",
+      "bytes": 10613
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-draft.en.md",
+      "sha256": "d3d548aa7eaa4065e00e058e9dfa1ea98890d6070416b814f073195e8a643a50",
+      "bytes": 64379
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-draft.ru.md",
+      "sha256": "cbdb25cfb7cd339732782f2312c8aedc020ce89e4ddd06b1cd4eaa114061a05f",
+      "bytes": 121050
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-measure.mjs",
+      "sha256": "5b9f58e1c738adaf2d43ed2bf7ea57d67236b6fb41f48297c57f37c8fbf8369c",
+      "bytes": 3778
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-prepare-candidate.py",
+      "sha256": "0c58800e3dacabc37e9a8d266f58cbbb76dd720416a381b855b4e8e3368b07db",
+      "bytes": 12127
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-qa-metrics-and-integrity.json",
+      "sha256": "81d964b12eb4887efb218b4d3313e70fa49143a4dc40558fe7ee1261931145ed",
+      "bytes": 5573
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-ready.json",
+      "sha256": "0729d24db99a05870728e33a09301c79b325d7f03243820491d2ad57d1cc1ee0",
+      "bytes": 23153
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-sources.md",
+      "sha256": "fc596e0c3dfbcdf7249850e927c0b2838733c0199cb8bfee4d1341f177cc14f7",
+      "bytes": 21431
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-story-data.json",
+      "sha256": "3da3d38c67ac6111aaeb320f9950b56b94299937148f44bb59d6bfffadc056a7",
+      "bytes": 239879
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/measure.mjs",
+      "sha256": "956cd83de7c0a9df43afb684fbe36dd8823d58550c59a0ce63da0917db883d20",
+      "bytes": 3931
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.json",
+      "sha256": "bcb04eaca9d0acc5f8e1c86ba414b7da599a9f73924add0d4e496362264b80c2",
+      "bytes": 8899
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.md",
+      "sha256": "c4199360ccbefd383e18926336742907796211bdc081e61b29c7e81c34faa125",
+      "bytes": 1671
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/pre-essential-case-qa/browser-1440.json",
+      "sha256": "6c1870609925f318a6777be92c9b4610663385be3f5a662836781d15d536a94d",
+      "bytes": 65563
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/pre-essential-case-qa/browser-320.json",
+      "sha256": "4042a26edb9717cd1353ca3a0840f93f7582cf2f2df63c4815a26e4aa40dd546",
+      "bytes": 65562
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/pre-essential-case-qa/metrics-and-integrity.json",
+      "sha256": "856783d7180a9bbfd38534263da6a5f1fa720b13e7126d3679138b5f9b51fea5",
+      "bytes": 5575
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/prepare-root-qa.py",
+      "sha256": "68ca06117f14eaa2df3f0b8e799e0008ccb9315c65cc605a8adcb015028d08c6",
+      "bytes": 3672
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/1440-cover.png",
+      "sha256": "dea341de69be915bdb38fcf81d3924544c37ed011b99dba26f24279e9ecea3ef",
+      "bytes": 111514
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/1440-dense.png",
+      "sha256": "5b227c91e6a9114bd2b9e82009ead884b8f5597008ffa13c6a6220a52192ddfd",
+      "bytes": 172925
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/1440-final.png",
+      "sha256": "dd7c8db600e6be7f91b3dd3f3ded68d92c9c14d07f39b4fe9176352ecebc8344",
+      "bytes": 191156
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/1440-quantitative.png",
+      "sha256": "43d86a7e2884d5f17842942e3872452b18fbf52450b265443c44b9247921a41c",
+      "bytes": 151535
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/320-cover.png",
+      "sha256": "c93c10b9b75fc67d337d997f8dfd07d04de89cc037f9c4165992ce4cc123e742",
+      "bytes": 40656
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/320-dense.png",
+      "sha256": "6ecfab95615adbe1ab14b439bc53773df8e0f920831cd630dca5b5243cf22195",
+      "bytes": 54060
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/320-final.png",
+      "sha256": "bf96fab965f64eb880d8322609329e1e49c1fb5a201ee5e01e001deae848d03d",
+      "bytes": 53991
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/320-quantitative.png",
+      "sha256": "7d8e100f9810ddf5f949f99bbb37d682ec189c2e324075a17fa27926902f36b1",
+      "bytes": 54986
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/browser-1440.json",
+      "sha256": "309d8a5a48c9938f0b633d8be6b399f25ef3d00285d4f374255f4dc7a99f2dbd",
+      "bytes": 66107
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/browser-320.json",
+      "sha256": "9a6426d34e145b4d009d85cc2caa5ec1b3cea9d7da90517d828a24f78be89f45",
+      "bytes": 66106
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/qa/metrics-and-integrity.json",
+      "sha256": "a385bfded3c9ada94423510c23bb242421c82895efc83bb54a0d8e4e30682174",
+      "bytes": 5576
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/read-primary.py",
+      "sha256": "d2344655f4f1a87be7a01d104868a474219a9a3312332847c768218980bc9a02",
+      "bytes": 1521
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/read-route.py",
+      "sha256": "76a053ec59abae190e65bfc61333693af7918fc1d5a05c4ae88d436219beebb1",
+      "bytes": 564
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/reading-ledger.json",
+      "sha256": "b7a8637514e6d6181527ada73cc3fe07be5c4276a2c4e4ef212ffe18e93d5ba9",
+      "bytes": 9414
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/source-identity.json",
+      "sha256": "f694078a28c412b5aa4e90a989e9b656676d5aadeaf505f8078784ea39b9e3df",
+      "bytes": 1265
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/sources.md",
+      "sha256": "7e04b8d6a40b623c75cdadb5990efd8b14efd709577255fe6488dea1d7fe5207",
+      "bytes": 24518
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/story-data.json",
+      "sha256": "d4137bda5ad9920c7fffe53349ea3beb77767c0e37877d07ba82d0eb0758805c",
+      "bytes": 277515
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/thinking-fast-and-slow.html",
+      "sha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "bytes": 716153
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/write-records.py",
+      "sha256": "b32cf953461b9cfd2f8cfbc19ec2dddc2dfcf6b5777ac8803edde02a4c97bc4a",
+      "bytes": 35117
+    }
+  ],
+  "rootAcceptedAtUtc": "2026-11-01T00:17:09.600723+00:00",
+  "rootAcceptanceReport": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.json",
+  "rootAcceptanceReportSha256": "bcb04eaca9d0acc5f8e1c86ba414b7da599a9f73924add0d4e496362264b80c2",
+  "publicationAllowed": true,
+  "rootRevision": "six source-checked units, bounded copy and resume fixes, Essential pain demonstration",
+  "currentWorkingScreens": 110,
+  "originalImplementationReady": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/input-ready.json"
+}

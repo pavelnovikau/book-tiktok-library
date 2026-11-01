@@ -1,0 +1,39 @@
+{
+  "headRefOid": "50258f992aca995db74c3497e4b79cf2db0f3411",
+  "isDraft": false,
+  "mergeStateStatus": "CLEAN",
+  "number": 37,
+  "reviewDecision": "",
+  "reviews": [],
+  "state": "OPEN",
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-31T23:40:49Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/pavelnovikau/book-tiktok-library/actions/runs/41253518323/job/124691760493",
+      "name": "validate",
+      "startedAt": "2026-10-31T23:40:40Z",
+      "status": "COMPLETED",
+      "workflowName": "Validate library"
+    },
+    {
+      "__typename": "StatusContext",
+      "context": "Vercel",
+      "startedAt": "2026-10-31T23:40:42Z",
+      "state": "SUCCESS",
+      "targetUrl": "https://vercel.com/pavelnovikaus-projects/book-tiktok-library/8rwaT4XJSrz9XHPLFAZP1US7oS5L"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-10-31T23:40:43Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://vercel.com/github",
+      "name": "Vercel Preview Comments",
+      "startedAt": "2026-10-31T23:40:43Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    }
+  ],
+  "url": "https://github.com/pavelnovikau/book-tiktok-library/pull/37"
+}

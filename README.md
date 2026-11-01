@@ -8,6 +8,14 @@ Git hosting: https://github.com/pavelnovikau/book-tiktok-library
 
 Vercel project: `pavelnovikaus-projects/book-tiktok-library`. A merge to `main` is the production release path; pull requests are the contribution path.
 
+## Expanded Treasure Island — 2026-11-01
+
+The personally accepted replacement is a connected first-person story at **28/48/96 screens**, with 9,121 RU / 11,231 EN narrative words. UI estimates are 16/27/53 minutes in both languages. Essential/Core stop after the stockade battle; Deep continues through the actual ending with renewed session consent. The resulting catalogue has 58 books / 2,392 screens.
+
+Root read every paired screen, Essential, Core’s already-read exact opening/boundary, the complete chapter map and selected primary passages. [Personal acceptance](editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/personal-review.json) records the precise reading scope, source checks, three local improvements and exact hashes. [Local release proof](editorial-audit/2026-10-31/publisher-findings/expanded-depth-03-local.json) confirms the compiled reader and unchanged other entries/readers/homepage. Full primary reading is the writer’s scope; root does not claim complete continuous novel or print/translation collation.
+
+All other unaccepted expanded replacements still need root’s personal review. The prior receipts below concern their own versions and dates.
+
 ## Expanded-depth repair — 2026-11-01
 
 Kahneman is now personally accepted for replacement at **27/74/110 screens**. Root read every RU/EN pair, reread the cumulative shorter routes, compared chapter coverage/omissions and checked selected primary passages. Six missing mechanisms and their real examples were restored; the clinical discussion retains the author's unresolved trade-off. Deep contains 9,694 RU / 10,896 EN body words; UI estimates RU 15/39/57 and EN 14/36/53 minutes. The resulting catalogue is 58 books / 2,330 screens. These measured totals are not universal depth quotas.

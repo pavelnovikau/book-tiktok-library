@@ -1,0 +1,694 @@
+{
+  "schemaVersion": 1,
+  "slug": "treasure-island",
+  "status": "root-personally-accepted",
+  "atUtc": "2026-11-01T00:18:03.951045+00:00",
+  "directory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island",
+  "unpublished": true,
+  "publicationAllowed": true,
+  "rootPersonalAcceptance": true,
+  "counts": {
+    "essential": 28,
+    "core": 48,
+    "deep": 96
+  },
+  "metrics": {
+    "wordDefinition": "Maintained builder regex /[\\p{L}\\p{N}][\\p{L}\\p{N}'’\\-–—]*/gu after its HTML stripping. Narrative = story bodies only; excludes cover, Deep warning, final and all titles/sections.",
+    "rates": {
+      "ru": 180,
+      "en": 220
+    },
+    "depths": {
+      "essential": {
+        "screens": 28,
+        "narrativeScreens": 26,
+        "narrativeWords": {
+          "ru": 2608,
+          "en": 3237
+        },
+        "framingBodyWords": {
+          "ru": 65,
+          "en": 76
+        },
+        "titlesSubtitlesWords": {
+          "ru": 69,
+          "en": 89
+        },
+        "sectionWords": {
+          "ru": 80,
+          "en": 80
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 2742,
+          "en": 3402
+        },
+        "narrativeMinutes": {
+          "ru": 14.4889,
+          "en": 14.7136
+        },
+        "builderCeilingMinutes": {
+          "ru": 16,
+          "en": 16
+        }
+      },
+      "core": {
+        "screens": 48,
+        "narrativeScreens": 46,
+        "narrativeWords": {
+          "ru": 4561,
+          "en": 5653
+        },
+        "framingBodyWords": {
+          "ru": 65,
+          "en": 76
+        },
+        "titlesSubtitlesWords": {
+          "ru": 117,
+          "en": 155
+        },
+        "sectionWords": {
+          "ru": 140,
+          "en": 140
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 4743,
+          "en": 5884
+        },
+        "narrativeMinutes": {
+          "ru": 25.3389,
+          "en": 25.6955
+        },
+        "builderCeilingMinutes": {
+          "ru": 27,
+          "en": 27
+        }
+      },
+      "deep": {
+        "screens": 96,
+        "narrativeScreens": 93,
+        "narrativeWords": {
+          "ru": 9121,
+          "en": 11231
+        },
+        "framingBodyWords": {
+          "ru": 87,
+          "en": 101
+        },
+        "titlesSubtitlesWords": {
+          "ru": 225,
+          "en": 300
+        },
+        "sectionWords": {
+          "ru": 282,
+          "en": 282
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 9433,
+          "en": 11632
+        },
+        "narrativeMinutes": {
+          "ru": 50.6722,
+          "en": 51.05
+        },
+        "builderCeilingMinutes": {
+          "ru": 53,
+          "en": 53
+        }
+      }
+    }
+  },
+  "candidateHashes": {
+    "story-data.json": "009f26ebd1dd8cd11bdf3a25ecdf018d4b9e460d05018a7651e2e0c1a4df5973",
+    "treasure-island.html": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1"
+  },
+  "deliverables": {
+    "draft-ru.md": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/draft-ru.md",
+    "draft-en.md": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/draft-en.md",
+    "story-data.json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/story-data.json",
+    "treasure-island.html": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/treasure-island.html",
+    "chapter-scene-map.md": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/chapter-scene-map.md",
+    "scene-map.json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/scene-map.json",
+    "chapter-map.json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/chapter-map.json",
+    "source-coverage.json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/source-coverage.json",
+    "sources.md": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/sources.md",
+    "QA.md": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/QA.md",
+    "metrics.json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/metrics.json",
+    "root-reading-guide.md": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-reading-guide.md",
+    "protected-baseline.json": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/protected-baseline.json"
+  },
+  "files": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/QA.md",
+      "relativePath": "QA.md",
+      "sha256": "e5ce51b4881df39b748a40fb83bc3e042617c627f607b3a07ad166f5361edc5c",
+      "bytes": 9148
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/assemble.py",
+      "relativePath": "assemble.py",
+      "sha256": "8f1e4497cf13440bc43cb3702dd42fc8bfb0a1dfead1dfec1da3ab952c93283f",
+      "bytes": 15645
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/browser-check.mjs",
+      "relativePath": "browser-check.mjs",
+      "sha256": "39acff6a6424b9c5be4a34d2a75e3c333126b784b85d98f61157c4d018c6591f",
+      "bytes": 18636
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/build-candidate.mjs",
+      "relativePath": "build-candidate.mjs",
+      "sha256": "8f55ea8be91052e01fbca3ff14bfa877afcb02c92d5fd3127a3db077b30cc264",
+      "bytes": 10146
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/build-record.json",
+      "relativePath": "build-record.json",
+      "sha256": "57fd9deb3524c1ca15e1e614196b36a611e671280fcbf7a252adca635a31473d",
+      "bytes": 1353
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/chapter-map.json",
+      "relativePath": "chapter-map.json",
+      "sha256": "17643deddc0e18529915697f0e0e24c6cfbe602b841f35596293e567153895f8",
+      "bytes": 12896
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/chapter-scene-map.md",
+      "relativePath": "chapter-scene-map.md",
+      "sha256": "e3e8bd59e66b8240303b0944dab3d64d2c848dd721e37226a150b571766ba27f",
+      "bytes": 17333
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/draft-en.md",
+      "relativePath": "draft-en.md",
+      "sha256": "546e1e904e5ab03d82aa8b2c0ed8e1e15d063d54c2e4686a41aca07dab4db719",
+      "bytes": 63856
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/draft-ru.md",
+      "relativePath": "draft-ru.md",
+      "sha256": "b577654e18dd3d464e96f3d1da76e0c1c4f001ab64b9a033022f5b3d79bcbd31",
+      "bytes": 107309
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/map-source.py",
+      "relativePath": "map-source.py",
+      "sha256": "1ca51b3da809a1db51bc466fc5bcb6bb9eb73918fb4002301f536bbc24cf01bf",
+      "bytes": 9144
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/metrics.json",
+      "relativePath": "metrics.json",
+      "sha256": "5fa1a8ca541386f91da714c46f389aaa73f160f6d7b024a67daaf020e4be8bb5",
+      "bytes": 2103
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/protected-baseline.json",
+      "relativePath": "protected-baseline.json",
+      "sha256": "fe417513bfee41e5f0e0fddd56e60124089810aef3ea62bd5aca4b9b79938a48",
+      "bytes": 12799
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/1024-cave-ru-light-serif.png",
+      "relativePath": "qa/1024-cave-ru-light-serif.png",
+      "sha256": "27cd1f4c866ae9b9c966f4474b509ff87288f04909fa3be84ad66eb184efbaea",
+      "bytes": 121912
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/1024-cover-ru-dark-sans.png",
+      "relativePath": "qa/1024-cover-ru-dark-sans.png",
+      "sha256": "7e5df8b89cd6294170c54b3dc8d536e20a2c3fa2a2129bbf4f1db8d8855b26bd",
+      "bytes": 104280
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/1024-rigging-en-dark-sans.png",
+      "relativePath": "qa/1024-rigging-en-dark-sans.png",
+      "sha256": "b5d50fc485207d311eb812a33de34cf75ca9e5391f9c94d0e254eb0fc3eea2a8",
+      "bytes": 123787
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/1440-cave-ru-light-serif.png",
+      "relativePath": "qa/1440-cave-ru-light-serif.png",
+      "sha256": "d711f0c5826e1f32433eada1e10d75a634e0360297ae5ee3a01dd5baa76cbae3",
+      "bytes": 127933
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/1440-cover-ru-dark-sans.png",
+      "relativePath": "qa/1440-cover-ru-dark-sans.png",
+      "sha256": "32d1358bc8b048012b912ef82e436e0b19dcf61cb7dfb8ed099509525e3c28c7",
+      "bytes": 119857
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/1440-rigging-en-dark-sans.png",
+      "relativePath": "qa/1440-rigging-en-dark-sans.png",
+      "sha256": "b92edc4bd16393669e8f02f87f630fe9a7dba7bacf19d65f5a20c3011034c58b",
+      "bytes": 131161
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/320-cave-ru-light-serif.png",
+      "relativePath": "qa/320-cave-ru-light-serif.png",
+      "sha256": "cf2297d993560ee66381bc240dc9812dc20451b0ab3c27e58a3a56c9644078ef",
+      "bytes": 53089
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/320-cover-ru-dark-sans.png",
+      "relativePath": "qa/320-cover-ru-dark-sans.png",
+      "sha256": "2b6b10405cdf396bd779f0e27057422c331563e23f2163837654ec3903a2757c",
+      "bytes": 45611
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/320-fresh-cover.png",
+      "relativePath": "qa/320-fresh-cover.png",
+      "sha256": "6488dad5004f6b0bdffa5f7ab2684ba95c94091aa1bbf8cdb335d4c71ccd5628",
+      "bytes": 35795
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/320-rigging-en-dark-sans.png",
+      "relativePath": "qa/320-rigging-en-dark-sans.png",
+      "sha256": "fd3031fffa9bd7699c0c69654444e66b4d524bba7a6c4e76c2f36d7cef0edbb1",
+      "bytes": 48688
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/390-cave-ru-light-serif.png",
+      "relativePath": "qa/390-cave-ru-light-serif.png",
+      "sha256": "89abfe7b1a444ed23903859f8eea05564c9117b9c557f31a2de4a4dd905b1eb5",
+      "bytes": 70168
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/390-cover-ru-dark-sans.png",
+      "relativePath": "qa/390-cover-ru-dark-sans.png",
+      "sha256": "b5d866590da4af58814fcf5fe0ca49f519450fcb46a9a6a4d45aae8a8e9ea130",
+      "bytes": 61896
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/390-rigging-en-dark-sans.png",
+      "relativePath": "qa/390-rigging-en-dark-sans.png",
+      "sha256": "7c8c46eb209aca7b6386d758708ca35d63bc2a1a396f83e114c830bbbd391a94",
+      "bytes": 66837
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-1024.json",
+      "relativePath": "qa/browser-1024.json",
+      "sha256": "0ac5f5a87d9e0b06c414830d90ea95e1fab11d81ff4d3131018f5a319e0c9f10",
+      "bytes": 12366
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-1440.json",
+      "relativePath": "qa/browser-1440.json",
+      "sha256": "ec523ce7ef8634cfd85e27f9e141c104f6b993536f6686d9f6e52de461858ead",
+      "bytes": 12366
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-320.json",
+      "relativePath": "qa/browser-320.json",
+      "sha256": "fc7a1e7b95af510dc2076d100b687e34d33bdf547b98ba2eaf156b929e0264df",
+      "bytes": 12364
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-390.json",
+      "relativePath": "qa/browser-390.json",
+      "sha256": "c0fbb3b83d113ca6179e9a61d7cdb1ac3942736f151bb6c6e3e724eba1112524",
+      "bytes": 12896
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-consent.json",
+      "relativePath": "qa/browser-consent.json",
+      "sha256": "b46bbd7d37f85678ca995aa6c2e4602417efb10407f331e0b15016afa9338f69",
+      "bytes": 2256
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/consent-ru.png",
+      "relativePath": "qa/consent-ru.png",
+      "sha256": "3c52d701664fb63ed9f0954a5621e5468d15ea8698432d8d3ac08086d24b96f0",
+      "bytes": 63148
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/content-reading-notes.json",
+      "relativePath": "qa/content-reading-notes.json",
+      "sha256": "498be0d862c2e48418a3c4482e174280b536e93f787464b5fa35c8d3b9884173",
+      "bytes": 1274
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/parity-and-protection.json",
+      "relativePath": "qa/parity-and-protection.json",
+      "sha256": "2942aa1d0ca90febe73d030c0fed5216421a862361e30fd2e4f806692b8295c5",
+      "bytes": 1172
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/structural-audit.json",
+      "relativePath": "qa/structural-audit.json",
+      "sha256": "428274db42de03c24bf3ae673af7bb1ed568cd87333e7a4432564ed9d9d6ab22",
+      "bytes": 426
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-reading-guide.md",
+      "relativePath": "root-reading-guide.md",
+      "sha256": "74e336d7d0eb38e20883a35534c8cdd23873fbcb200b1cddb29ae6e6e7e30d67",
+      "bytes": 2554
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/browser-check.mjs",
+      "relativePath": "root-review/browser-check.mjs",
+      "sha256": "be03ab16b216293019a7a555af18cfbea6f5af1ecdaeb5f4716c7dfd2bd14f53",
+      "bytes": 19534
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-assemble.py",
+      "relativePath": "root-review/input-assemble.py",
+      "sha256": "daaae553b9f47c04a7ec825aa3562c19fce1a2edf95bf2f99f3f2edd5e1a2fb3",
+      "bytes": 15462
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-draft-en.md",
+      "relativePath": "root-review/input-draft-en.md",
+      "sha256": "c1ee6aca5fccf6483c1b2ce0494505af8cd07fecbb2976908ba561b665e0c790",
+      "bytes": 63826
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-draft-ru.md",
+      "relativePath": "root-review/input-draft-ru.md",
+      "sha256": "5dc443dec4626a9f6c6cdfdc74ac59fce21a5a57e28479d16a4517ccab11b387",
+      "bytes": 107241
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-metrics.json",
+      "relativePath": "root-review/input-metrics.json",
+      "sha256": "5fa1a8ca541386f91da714c46f389aaa73f160f6d7b024a67daaf020e4be8bb5",
+      "bytes": 2103
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-ready.json",
+      "relativePath": "root-review/input-ready.json",
+      "sha256": "9ef39617384c7bd9f3d2dfbd08b98c7951477e87f3fbac21c4279acb51e78081",
+      "bytes": 24600
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-story-data.json",
+      "relativePath": "root-review/input-story-data.json",
+      "sha256": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+      "bytes": 223125
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/personal-review.json",
+      "relativePath": "root-review/personal-review.json",
+      "sha256": "cd48db4acb96f76ddeedaf831dbc6ba57dbaa585fafa1eb96638f123fd3f983e",
+      "bytes": 9911
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/personal-review.md",
+      "relativePath": "root-review/personal-review.md",
+      "sha256": "75dc6e1cd1788b3b2a4b74bfae625a873d754327cef47358c9c3d75923778b9f",
+      "bytes": 1777
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/1440-cave-ru-light-serif.png",
+      "relativePath": "root-review/qa/1440-cave-ru-light-serif.png",
+      "sha256": "d711f0c5826e1f32433eada1e10d75a634e0360297ae5ee3a01dd5baa76cbae3",
+      "bytes": 127933
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/1440-cover-ru-dark-sans.png",
+      "relativePath": "root-review/qa/1440-cover-ru-dark-sans.png",
+      "sha256": "4780f229763b127ad7f387b9f34023db427a4dd7957e973c66a81ae064b2ad7a",
+      "bytes": 124019
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/1440-rigging-en-dark-sans.png",
+      "relativePath": "root-review/qa/1440-rigging-en-dark-sans.png",
+      "sha256": "a497325438c333b5d849dbe310e9fe24e0e7ec2d6889719aa19eb438bd489a04",
+      "bytes": 131161
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/320-cave-ru-light-serif.png",
+      "relativePath": "root-review/qa/320-cave-ru-light-serif.png",
+      "sha256": "cf2297d993560ee66381bc240dc9812dc20451b0ab3c27e58a3a56c9644078ef",
+      "bytes": 53089
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/320-cover-ru-dark-sans.png",
+      "relativePath": "root-review/qa/320-cover-ru-dark-sans.png",
+      "sha256": "b012892c544b27e038b3eb8b5fc131f2310a2b3348438a7b137e0ccedecf675c",
+      "bytes": 45459
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/320-fresh-cover.png",
+      "relativePath": "root-review/qa/320-fresh-cover.png",
+      "sha256": "f68a2a8fc0f818c703831a519783824ecc63772b75732842dc32401e3dc6e407",
+      "bytes": 35806
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/320-rigging-en-dark-sans.png",
+      "relativePath": "root-review/qa/320-rigging-en-dark-sans.png",
+      "sha256": "fd3031fffa9bd7699c0c69654444e66b4d524bba7a6c4e76c2f36d7cef0edbb1",
+      "bytes": 48688
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/browser-1440.json",
+      "relativePath": "root-review/qa/browser-1440.json",
+      "sha256": "31548c1ab31c5846a3c25676e80516d46ce57f619a3ec26e6f6e132fed95b929",
+      "bytes": 13121
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/browser-320.json",
+      "relativePath": "root-review/qa/browser-320.json",
+      "sha256": "0e510e0d0c805b6e86efe3c733ce193a7509628a119e8c6a6fc4a62628df8ccb",
+      "bytes": 13119
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/browser-consent.json",
+      "relativePath": "root-review/qa/browser-consent.json",
+      "sha256": "1ab20bd59e43ebdcd5abb4cc817e8e6454c1274bb6b3fe1b945c9fe3ba31f266",
+      "bytes": 2619
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/consent-ru.png",
+      "relativePath": "root-review/qa/consent-ru.png",
+      "sha256": "c214a2851d69d380e41b5d1ec235216f2364799f5a643fbd3fc8b6b190d55905",
+      "bytes": 63153
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/metrics.json",
+      "relativePath": "root-review/qa/metrics.json",
+      "sha256": "54aba2a2719a3199c684a5ab18f35afa903b5fc0e5986428d1898b519bbbf7b3",
+      "bytes": 2101
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/parity-and-protection.json",
+      "relativePath": "root-review/qa/parity-and-protection.json",
+      "sha256": "b003f9a05e4e9aff2362eef1ed2e7367470ffdf4f1c5b16ec20ea2d6ad8f3e33",
+      "bytes": 1172
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/qa/structural-audit.json",
+      "relativePath": "root-review/qa/structural-audit.json",
+      "sha256": "b570311a01057b6176b4312e652d7bc8216d1d7ff9464ec4bede9274dc331a12",
+      "bytes": 426
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/read-pairs.py",
+      "relativePath": "root-review/read-pairs.py",
+      "sha256": "d27fdd8b47b751345aa8d9ffc18d01d938db4c4cd3df3c2609b29e63262b88c5",
+      "bytes": 575
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/read-primary.py",
+      "relativePath": "root-review/read-primary.py",
+      "sha256": "d208286e750c42f7cac88390a2bad36cf4db318514dfabef36dc79fd735e243f",
+      "bytes": 296
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/reading-ledger.json",
+      "relativePath": "root-review/reading-ledger.json",
+      "sha256": "ae688c7bce168bd7ce975c2b443d8a2bb467d0d01c9c27a6d81e85c15481774a",
+      "bytes": 6362
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/verify.mjs",
+      "relativePath": "root-review/verify.mjs",
+      "sha256": "d806136c57774cc32a068741717f88bcecf1e73d0d41c37982ab09ce187f9fad",
+      "bytes": 4515
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/routes/core-en.md",
+      "relativePath": "routes/core-en.md",
+      "sha256": "9bfe1f781a88a324974ab84a276e64b53f5f307a645491f2a341dae6c3bf944b",
+      "bytes": 34051
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/routes/core-ru.md",
+      "relativePath": "routes/core-ru.md",
+      "sha256": "98f21a5322824b6bdbaa940ff991a569b49c61fb6688bb3a1ec2715f896fcb2c",
+      "bytes": 56509
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/routes/deep-en.md",
+      "relativePath": "routes/deep-en.md",
+      "sha256": "d3022bc97385450bf4c6bb79f29e86028e95d74c0773efdf94ae59bcc68f03ef",
+      "bytes": 67131
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/routes/deep-ru.md",
+      "relativePath": "routes/deep-ru.md",
+      "sha256": "f9b71c9d4fbacb9246d6190c162701d128b43c640dfd0dfd2265b5150bacf842",
+      "bytes": 111837
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/routes/essential-en.md",
+      "relativePath": "routes/essential-en.md",
+      "sha256": "305041a90beec14e95c1a329932e6140654e6b045276553532842360c034104a",
+      "bytes": 19509
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/routes/essential-ru.md",
+      "relativePath": "routes/essential-ru.md",
+      "sha256": "e88fa1cd343f066d009a1fc9bddd2984f74f1518c5f366e7eba74edc0e7c5b1b",
+      "bytes": 32421
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/scene-map.json",
+      "relativePath": "scene-map.json",
+      "sha256": "1d7d22ab7b9353da853629820400fac14cb911f4cf6b91796d6b2b945d55de6f",
+      "bytes": 45033
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/source-coverage.json",
+      "relativePath": "source-coverage.json",
+      "sha256": "73f0cb2d6ddf0721975801cfaac7314f1c021326b1b5df3ac18bc2971057037a",
+      "bytes": 5000
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/sources.md",
+      "relativePath": "sources.md",
+      "sha256": "22fe56e96ca69610c90c55785fbd9e67071c08263e971016a4fa24517345c421",
+      "bytes": 6672
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/story-data.json",
+      "relativePath": "story-data.json",
+      "sha256": "009f26ebd1dd8cd11bdf3a25ecdf018d4b9e460d05018a7651e2e0c1a4df5973",
+      "bytes": 223223
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/treasure-island.html",
+      "relativePath": "treasure-island.html",
+      "sha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "bytes": 664594
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/verify.mjs",
+      "relativePath": "verify.mjs",
+      "sha256": "beb2983ce96b517a7240069324d6d7d173a0f8486b639f3721853571a202c653",
+      "bytes": 4462
+    }
+  ],
+  "fileManifestScope": "Current candidate and root review/QA; original implementation manifest is preserved atroot-review/input-ready.json. No source novel text is included.",
+  "sourceScope": {
+    "work": "Robert Louis Stevenson — Treasure Island",
+    "edition": "Supplied English Gutenberg120 electronic text; logical I–XXXIV; no print-edition collation",
+    "continuousNarrativeRead": true,
+    "sourceSha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "narrativeLines": [
+      147,
+      7512
+    ],
+    "boundedChunks": 12,
+    "translationLimit": "Both RU and EN are original condensations; no certified published translation.",
+    "remainingAccessGaps": []
+  },
+  "changes": [
+    {
+      "id": "hamlet",
+      "change": "Restore the actual gift of a loaded pistol, supplying the later island encounter’s object continuity. Both languages.",
+      "primary": "L869–874"
+    },
+    {
+      "id": "apple",
+      "change": "RU names Dick as the one away fetching rum, removing pronoun ambiguity. EN already explicit.",
+      "primary": "L2509–2519"
+    },
+    {
+      "id": "council",
+      "change": "Retain the actual council in Essential so turning back, seven loyal people out of26 and Jim’s possible usefulness are established before his shore departure.",
+      "primary": "L2660–2747 personally read; Smollett’s actual council and seven/26 count."
+    }
+  ],
+  "mechanicalEvidence": {
+    "authoringEmbeddedParity": true,
+    "connectedDraftScreenParity": {
+      "ru": 93,
+      "en": 93
+    },
+    "structuralChecks": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "browserReports": {
+      "320": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-320.json",
+        "sha256": "fc7a1e7b95af510dc2076d100b687e34d33bdf547b98ba2eaf156b929e0264df",
+        "inputHashes": {
+          "story-data.json": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+          "treasure-island.html": "bdc9514459a6a56e59f7397925b06180ed956636d8416ae970a4a12704da747c"
+        },
+        "status": "completed"
+      },
+      "390": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-390.json",
+        "sha256": "c0fbb3b83d113ca6179e9a61d7cdb1ac3942736f151bb6c6e3e724eba1112524",
+        "inputHashes": {
+          "story-data.json": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+          "treasure-island.html": "bdc9514459a6a56e59f7397925b06180ed956636d8416ae970a4a12704da747c"
+        },
+        "status": "completed"
+      },
+      "1024": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-1024.json",
+        "sha256": "0ac5f5a87d9e0b06c414830d90ea95e1fab11d81ff4d3131018f5a319e0c9f10",
+        "inputHashes": {
+          "story-data.json": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+          "treasure-island.html": "bdc9514459a6a56e59f7397925b06180ed956636d8416ae970a4a12704da747c"
+        },
+        "status": "completed"
+      },
+      "1440": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-1440.json",
+        "sha256": "ec523ce7ef8634cfd85e27f9e141c104f6b993536f6686d9f6e52de461858ead",
+        "inputHashes": {
+          "story-data.json": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+          "treasure-island.html": "bdc9514459a6a56e59f7397925b06180ed956636d8416ae970a4a12704da747c"
+        },
+        "status": "completed"
+      },
+      "consent": {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/qa/browser-consent.json",
+        "sha256": "b46bbd7d37f85678ca995aa6c2e4602417efb10407f331e0b15016afa9338f69",
+        "inputHashes": {
+          "story-data.json": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+          "treasure-island.html": "bdc9514459a6a56e59f7397925b06180ed956636d8416ae970a4a12704da747c"
+        },
+        "status": "completed"
+      }
+    },
+    "noRuntimeRequestsOrExceptions": true,
+    "ownedChromeProfilesAndProcessesRemoved": true,
+    "physicalSafariTested": false,
+    "bfCacheBoundary": "pagehide/pageshow persisted lifecycle-event emulation; no physical Safari claim"
+  },
+  "protectedBaseline": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/protected-baseline.json",
+    "fileCount": 77,
+    "changed": []
+  },
+  "workBoundaries": {
+    "subagents": false,
+    "gitPrDeploy": false,
+    "oldCollectorReadyReviewsRootCatalogueSharedShellWrites": false,
+    "parentPlanDispatchLogStatusWrites": false,
+    "installedBuilderReadOnly": true
+  },
+  "remainingReview": [],
+  "rootAcceptedAtUtc": "2026-11-01T01:07:23.921296+00:00",
+  "rootAcceptanceReport": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/personal-review.json",
+  "rootAcceptanceReportSha256": "cd48db4acb96f76ddeedaf831dbc6ba57dbaa585fafa1eb96638f123fd3f983e",
+  "originalImplementationReady": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/input-ready.json"
+}

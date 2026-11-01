@@ -152,7 +152,7 @@ const bookFiles = new Set();
 const bookCoverMotifs = new Set();
 let totalScreens = 0;
 const allowedCoverTypes = new Set(['year', 'constraint', 'split', 'typographic']);
-const allowedCoverMotifs = new Set(['habit-cycle', 'balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response', 'latitude-search', 'conditioned-trust', 'rule-loop', 'testimony-compass', 'chalk-boundary', 'scale-question', 'sea-air', 'enchanted-lab', 'watchtower', 'river-raft', 'needs-bridge', 'five-disciplines', 'common-city', 'ice-crossing', 'dual-frame', 'stock-flow', 'two-orbits', 'memory-spectrum', 'commons-rules', 'paradigm-shift', 'legibility-grid', 'moving-hearth', 'north-needle', 'null-gravity', 'shutter-court', 'dry-lake', 'suit-radio', 'desert-cycle', 'unforced-motion', 'ocean-station', 'maze-trace', 'twin-serpents', 'meaning-choice']);
+const allowedCoverMotifs = new Set(['habit-cycle', 'balance', 'crash', 'bottleneck', 'relay', 'distill', 'clock', 'weeks', 'mirror', 'stress', 'acceleration', 'door', 'protocol-stack', 'treasure-map', 'plateau', 'terrain', 'body-map', 'archipelago', 'control-field', 'open-knot', 'somatic-trace', 'attention-return', 'causal-layers', 'inherited-path', 'quality-bridge', 'convex-response', 'latitude-search', 'conditioned-trust', 'rule-loop', 'testimony-compass', 'chalk-boundary', 'scale-question', 'sea-air', 'enchanted-lab', 'watchtower', 'river-raft', 'needs-bridge', 'five-disciplines', 'common-city', 'ice-crossing', 'dual-frame', 'stock-flow', 'two-orbits', 'memory-spectrum', 'commons-rules', 'paradigm-shift', 'legibility-grid', 'moving-hearth', 'north-needle', 'null-gravity', 'shutter-court', 'dry-lake', 'suit-radio', 'desert-cycle', 'unforced-motion', 'ocean-station', 'maze-trace', 'twin-serpents', 'meaning-choice', 'buried-cabin', 'canal-reflection']);
 const allowedCoverTones = new Set(['red', 'orange', 'yellow', 'green', 'cyan', 'blue', 'magenta']);
 const allowedAudiences = new Set(['general', 'teen-14-plus', 'adult']);
 const allowedSpoilerPolicies = new Set(['not-applicable', 'spoiler-free', 'full-plot-in-deep']);
@@ -285,6 +285,11 @@ if (!fs.existsSync(indexPath)) {
   if (!indexHtml.includes('id="searchInput"')) fail('index.html is missing catalogue search');
   if (!indexHtml.includes('function coverArtwork(book)') || !indexHtml.includes('data-cover-motif')) {
     fail('index.html is missing semantic SVG cover artwork');
+  }
+  // New catalogue identities require both a registered motif and an SVG recipe.
+  for (const motif of ['buried-cabin', 'canal-reflection']) {
+    if (!indexHtml.includes(`'${motif}': true`)) fail(`index.html: missing registered cover motif ${motif}`);
+    if (!indexHtml.includes(`motif === '${motif}'`)) fail(`index.html: missing SVG cover recipe ${motif}`);
   }
   if (!indexHtml.includes('id="bookStat"') || !indexHtml.includes('id="screenStat"') || !indexHtml.includes('id="topicStat"')) {
     fail('index.html is missing automatic counters');

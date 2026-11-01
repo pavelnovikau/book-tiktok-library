@@ -1,5 +1,5 @@
 {
-  "atUtc": "2026-11-01T03:36:39.291928+00:00",
+  "atUtc": "2026-11-01T04:02:12.688500+00:00",
   "localDate": "2026-11-01",
   "scope": "All62 approved library positions; preserve fiction/nonfiction/hybrid/research-brief identities.",
   "rootReviewRequired": true,
@@ -93,9 +93,9 @@
       "title": "Почему у зебр не бывает инфаркта",
       "author": "Роберт Сапольски",
       "currentlyOnSite": true,
-      "currentScreens": 51,
-      "currentRuBodyWords": 2284,
-      "status": "root-personally-accepted-awaiting-publication",
+      "currentScreens": 107,
+      "currentRuBodyWords": 13219,
+      "status": "root-accepted-and-live",
       "assignedTask": "4b905191-6f97-4ff2-837e-cc5d11246d15",
       "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/why-zebras-dont-get-ulcers/root-review/personal-review.json",
       "rootEntireRuEnDraftRead": true,
@@ -115,7 +115,9 @@
       "acceptedHashes": {
         "story-data.json": "a992473927ae6cab800b6016d79b3559ad6d8dcce3929d96eab18143c64bd150",
         "why-zebras-dont-get-ulcers.html": "c818ee4a4c5ed6a12cf4f97748be8b2e6832f6f31f84cae20355006912e99cc5"
-      }
+      },
+      "productionMerge": "d043167faeb155e74c605cc22840446e3a80b32d",
+      "productionPr": 43
     },
     {
       "slug": "selfie",
@@ -124,7 +126,7 @@
       "currentlyOnSite": true,
       "currentScreens": 62,
       "currentRuBodyWords": 2547,
-      "status": "expanded-writing-assigned",
+      "status": "expanded-awaiting-root-personal-reading",
       "assignedTask": "7b8b1cda-fbc9-423b-b56e-68354e768dc6",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
@@ -134,7 +136,13 @@
       "rootOmissionsAndQualificationsReviewed": false,
       "replacementPublicationAllowed": false,
       "assignmentThread": "<t3-thread://v2/2bf590fe-c449-46d2-bff4-430a7ba6f22a/thread:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A7b8b1cda-fbc9-423b-b56e-68354e768dc6>",
-      "assignmentScope": "Complete owned primary main spine read continuously with exact bounded reading ledger; developed original RU/EN argument, actual cases and book-specific procedures; separate root personal acceptance required."
+      "assignmentScope": "Complete owned primary main spine read continuously with exact bounded reading ledger; developed original RU/EN argument, actual cases and book-specific procedures; separate root personal acceptance required.",
+      "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/selfie.json",
+      "expandedCounts": {
+        "essential": 48,
+        "core": 92,
+        "deep": 128
+      }
     },
     {
       "slug": "essentialism",
@@ -227,15 +235,17 @@
       "currentlyOnSite": true,
       "currentScreens": 30,
       "currentRuBodyWords": 1338,
-      "status": "needs-root-depth-and-source-assessment",
-      "assignedTask": null,
+      "status": "expanded-writing-assigned",
+      "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-mindfulness-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
       "rootAllNestedRoutesRead": false,
       "rootCoverageMapCompared": false,
       "rootKeyPrimaryPassagesChecked": false,
       "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false
+      "replacementPublicationAllowed": false,
+      "assignment": "Expanded full author argument, actual cases and practices; complete owned-source reading; root acceptance mandatory",
+      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/mindfulness-expanded-source-inventory.json"
     },
     {
       "slug": "a-guide-to-the-good-life",
@@ -244,21 +254,26 @@
       "currentlyOnSite": true,
       "currentScreens": 36,
       "currentRuBodyWords": 1542,
-      "status": "expanded-awaiting-root-personal-reading",
+      "status": "root-personally-accepted-awaiting-publication",
       "assignedTask": "70110b6d-c14e-48e0-be5b-b01991cc8a01",
-      "rootAcceptance": null,
-      "rootEntireRuEnDraftRead": false,
-      "rootAllNestedRoutesRead": false,
-      "rootCoverageMapCompared": false,
-      "rootKeyPrimaryPassagesChecked": false,
-      "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false,
+      "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/root-review/personal-review.json",
+      "rootEntireRuEnDraftRead": true,
+      "rootAllNestedRoutesRead": true,
+      "rootCoverageMapCompared": true,
+      "rootKeyPrimaryPassagesChecked": true,
+      "rootOmissionsAndQualificationsReviewed": true,
+      "replacementPublicationAllowed": true,
       "assignment": "expanded full Irvine argument and actual practice from complete owned English primary",
       "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/a-guide-to-the-good-life.json",
       "expandedCounts": {
         "essential": 29,
         "core": 61,
         "deep": 85
+      },
+      "rootRouteReadingMethod": "All85 original Deep pairs read completely in RU/EN. All29 Essential pairs reread in order. All32 Core additions reread completely with the preceding final and following first sentences in route order; shared Essential prose already reread. Ten final changed pairs personally reread after their respective repairs. No third complete rereading of identical shared prose is claimed.",
+      "acceptedHashes": {
+        "story-data.json": "67f46b34146c2ee6b017dcab9d305b79bdcc83c2daf45bbd96cfef7a680db8ac",
+        "a-guide-to-the-good-life.html": "eb8245424739ff2a8f2b1af5e7fedfdd302b13f8aea80ccd5e14fe3f704b14fa"
       }
     },
     {
@@ -302,15 +317,17 @@
       "currentlyOnSite": true,
       "currentScreens": 41,
       "currentRuBodyWords": 1942,
-      "status": "needs-root-depth-and-source-assessment",
-      "assignedTask": null,
+      "status": "expanded-writing-assigned",
+      "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-the-body-keeps-the-score-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
       "rootAllNestedRoutesRead": false,
       "rootCoverageMapCompared": false,
       "rootKeyPrimaryPassagesChecked": false,
       "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false
+      "replacementPublicationAllowed": false,
+      "assignment": "Expanded full author argument, actual cases and practices; complete owned-source reading; root acceptance mandatory",
+      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/the-body-keeps-the-score-expanded-source-inventory.json"
     },
     {
       "slug": "awareness-through-movement",

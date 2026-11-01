@@ -1,15 +1,15 @@
 # Library depth status
 
-Updated 2026-11-01T03:36:39.291928+00:00.62 approved positions. Six personally accepted expanded books live; Zebra accepted, publication pending. Irvine, Make Time, Essentialism, Four Thousand Weeks await reading. Selfie assigned; no runtime polling.
+Updated 2026-11-01T04:02:12.688500+00:00.62 approved positions. Seven personally accepted expanded books live; Irvine accepted, release pending. Four completed candidates await personal reading. Mindfulness and The Body Keeps the Score remain assigned; no runtime polling.
 
 | Current depth stage | Count |
 |---|---:|
-| Awaits expanded work | 49 |
+| Awaits expanded work | 47 |
 | Primary-source coverage incomplete | 1 |
-| Personally accepted; release pending | 1 |
-| Expanded version assigned | 1 |
+| Personally accepted and live | 7 |
 | Candidate awaits personal root reading | 4 |
-| Personally accepted and live | 6 |
+| Expanded version assigned | 2 |
+| Personally accepted; release pending | 1 |
 
 | Book | Author | Current depth stage |
 |---|---|---|
@@ -17,17 +17,17 @@ Updated 2026-11-01T03:36:39.291928+00:00.62 approved positions. Six personally a
 | Рискуя собственной шкурой | Нассим Николас Талеб | Awaits expanded work |
 | Биология добра и зла | Роберт Сапольски | Primary-source coverage incomplete |
 | Всё решено | Роберт Сапольски | Awaits expanded work |
-| Почему у зебр не бывает инфаркта | Роберт Сапольски | Personally accepted; release pending |
-| Селфи | Уилл Сторр | Expanded version assigned |
+| Почему у зебр не бывает инфаркта | Роберт Сапольски | Personally accepted and live |
+| Селфи | Уилл Сторр | Candidate awaits personal root reading |
 | Эссенциализм | Грег МакКеон | Candidate awaits personal root reading |
 | Искусство войны | Сунь-цзы | Awaits expanded work |
 | Протоколы Хубермана | Эндрю Хуберман | Awaits expanded work |
 | Четыре тысячи недель | Оливер Беркман | Candidate awaits personal root reading |
-| Осознанность | Марк Уильямс и Денни Пенман | Awaits expanded work |
-| Радость жизни | Уильям Ирвин | Candidate awaits personal root reading |
+| Осознанность | Марк Уильямс и Денни Пенман | Expanded version assigned |
+| Радость жизни | Уильям Ирвин | Personally accepted; release pending |
 | Дзен и искусство ухода за мотоциклом | Роберт Пирсиг | Awaits expanded work |
 | Отпускание | Дэвид Хокинс | Awaits expanded work |
-| Тело помнит всё | Бессел ван дер Колк | Awaits expanded work |
+| Тело помнит всё | Бессел ван дер Колк | Expanded version assigned |
 | Осознавание через движение | Моше Фельденкрайз | Awaits expanded work |
 | The Potent Self | Моше Фельденкрайз | Awaits expanded work |
 | Найди время | Джейк Кнапп и Джон Зерацки | Candidate awaits personal root reading |

@@ -1,5 +1,5 @@
 {
-  "asOfUtc": "2026-11-01T05:08:12.893030+00:00",
+  "asOfUtc": "2026-11-01T06:44:24.004962+00:00",
   "plannedAdditions": 58,
   "preexisting": 4,
   "totalPlanned": 62,
@@ -145,7 +145,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "maximumDepthStage": "root-accepted-and-live",
       "rootExpandedTextAccepted": true
     },
     {
@@ -185,10 +185,10 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": true,
-      "depthReviewStatus": "reopened",
+      "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
-      "rootExpandedTextAccepted": false
+      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "rootExpandedTextAccepted": true
     },
     {
       "slug": "mindfulness",
@@ -467,7 +467,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-writing-assigned",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -915,21 +915,20 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     }
   ],
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
-  "basis": "62 approved positions. Verified production remains PR45,58books/2737screens until this release is merged/verified. Historical factual stages are distinct from root maximum-depth acceptance.",
+  "basis": "62approved positions. Production remains verified PR46 at58books/2826screens until this release is merged and observed. Changed Essentialism/catalogue/homepage were exact; one unchanged prior canary had a documented transport-only failure. Historical factual stages remain distinct from current maximum-depth acceptance.",
   "maximumDepthStages": {
-    "awaiting-expanded-work": 45,
+    "awaiting-expanded-work": 44,
     "source-map-incomplete": 1,
-    "root-accepted-and-live": 9,
-    "expanded-awaiting-root-personal-reading": 5,
-    "root-personally-accepted-awaiting-publication": 1,
-    "expanded-writing-assigned": 1
+    "root-accepted-and-live": 10,
+    "expanded-awaiting-root-personal-reading": 6,
+    "root-personally-accepted-awaiting-publication": 1
   },
   "maximumDepthStageBasis": "Current root criterion, callbacks and exact production proof. Runtime worker status has not been polled.",
-  "rootExpandedAcceptedPublished": 9
+  "rootExpandedAcceptedPublished": 10
 }

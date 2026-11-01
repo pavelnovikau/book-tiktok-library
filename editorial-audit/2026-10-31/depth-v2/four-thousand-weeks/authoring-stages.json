@@ -1,0 +1,34 @@
+{
+  "russianConnectedDraftCompletedBeforeEnglish": {
+    "atUtc": "2026-11-01T02:45:13.954377+00:00",
+    "sha256": "bdcc3d193c0721c10e181a278ccfb98d5441fe26c3e4f760b530c5c4f19f3664",
+    "whitespaceBodyWords": 8111
+  },
+  "englishStage": "complete",
+  "segmentationStage": {
+    "atUtc": "2026-11-01T06:31:15.127708+00:00",
+    "paragraphs": 86,
+    "note": "One natural paragraph per phone passage; no count quota. Two small bilingual continuity edits remove references to a skipped predecessor."
+  },
+  "englishConnectedDraftCompletedBeforeSegmentation": {
+    "atUtc": "2026-11-01T02:47:40.370184+00:00",
+    "sha256": "1689b65b537e7e3e77d61958c7aef2a505fad072b162a33407c3d27c21e57ed9"
+  },
+  "postTranslationEdits": [
+    "Removed weak references to an omitted predecessor in both languages.",
+    "WIP passage no longer says second when Essential omits the first principle.",
+    "Patience paragraph identifies its topic without an omitted Brown loop.",
+    "Removed authoring-method aside from five-question introduction.",
+    "Corrected RU adjective agreement in technique8.",
+    "Localized final Sources method note."
+  ],
+  "finalDrafts": {
+    "ru": "8f85c4e68d9be539119cbbba62d6126743097f7f3f44372706bf0a433d5077b3",
+    "en": "efa09b5fc79fc31f99843f6515a66a108392d2d05d5940b6483bfe9a2a4599d0"
+  },
+  "rootRevision": {
+    "atUtc": "2026-11-01T06:42:56.505978+00:00",
+    "modifiedRuEnPairs": 21,
+    "scope": "Original connected drafts revised by root after complete personal reading and selected primary checks. Final shorter routes and changed prose personally reread; exact acceptance in root-review/personal-review.json."
+  }
+}

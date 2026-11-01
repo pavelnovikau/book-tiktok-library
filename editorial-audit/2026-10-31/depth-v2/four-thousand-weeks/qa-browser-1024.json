@@ -1,0 +1,391 @@
+{
+  "inputHtmlSha256": "745e38aa5e0de55539c08ccd6b558db12f9aa0f35d32add2f346f4ddd51bc3ee",
+  "phase": "1024",
+  "startedAt": "2026-11-01T03:11:21.008Z",
+  "checks": [
+    {
+      "name": "all RU/EN rendered passages, all depths/themes/fonts, parity/overflow/last-line",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "desktop rail visible",
+      "pass": true
+    },
+    {
+      "name": "icon-only accessible header fits one row",
+      "pass": true,
+      "detail": [
+        {
+          "id": "libraryButton",
+          "svg": true,
+          "label": "Back to library",
+          "rect": {
+            "x": 37,
+            "y": 48,
+            "width": 36,
+            "height": 36,
+            "top": 48,
+            "right": 73,
+            "bottom": 84,
+            "left": 37
+          }
+        },
+        {
+          "id": "contentsButton",
+          "svg": true,
+          "label": "Chapters",
+          "rect": {
+            "x": 77,
+            "y": 48,
+            "width": 36,
+            "height": 36,
+            "top": 48,
+            "right": 113,
+            "bottom": 84,
+            "left": 77
+          }
+        },
+        {
+          "id": "languageButton",
+          "svg": true,
+          "label": "Переключить на русский",
+          "rect": {
+            "x": 871,
+            "y": 48,
+            "width": 36,
+            "height": 36,
+            "top": 48,
+            "right": 907,
+            "bottom": 84,
+            "left": 871
+          }
+        },
+        {
+          "id": "sourcesButton",
+          "svg": true,
+          "label": "Sources",
+          "rect": {
+            "x": 911,
+            "y": 48,
+            "width": 36,
+            "height": 36,
+            "top": 48,
+            "right": 947,
+            "bottom": 84,
+            "left": 911
+          }
+        },
+        {
+          "id": "themeButton",
+          "svg": true,
+          "label": "Settings",
+          "rect": {
+            "x": 951,
+            "y": 48,
+            "width": 36,
+            "height": 36,
+            "top": 48,
+            "right": 987,
+            "bottom": 84,
+            "left": 951
+          }
+        }
+      ]
+    },
+    {
+      "name": "zero page runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "zero remote runtime requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/four-thousand-weeks-qa-GkXkPA",
+  "matrix": {
+    "visits": 1416,
+    "cases": [
+      {
+        "theme": "dark",
+        "font": "sans",
+        "lang": "ru",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "dark",
+        "font": "sans",
+        "lang": "ru",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "dark",
+        "font": "sans",
+        "lang": "ru",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "dark",
+        "font": "sans",
+        "lang": "en",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "dark",
+        "font": "sans",
+        "lang": "en",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "dark",
+        "font": "sans",
+        "lang": "en",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "dark",
+        "font": "serif",
+        "lang": "ru",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "dark",
+        "font": "serif",
+        "lang": "ru",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "dark",
+        "font": "serif",
+        "lang": "ru",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "dark",
+        "font": "serif",
+        "lang": "en",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "dark",
+        "font": "serif",
+        "lang": "en",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "dark",
+        "font": "serif",
+        "lang": "en",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "light",
+        "font": "sans",
+        "lang": "ru",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "light",
+        "font": "sans",
+        "lang": "ru",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "light",
+        "font": "sans",
+        "lang": "ru",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "light",
+        "font": "sans",
+        "lang": "en",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "light",
+        "font": "sans",
+        "lang": "en",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "light",
+        "font": "sans",
+        "lang": "en",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "light",
+        "font": "serif",
+        "lang": "ru",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "light",
+        "font": "serif",
+        "lang": "ru",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "light",
+        "font": "serif",
+        "lang": "ru",
+        "mode": "deep",
+        "screens": 87
+      },
+      {
+        "theme": "light",
+        "font": "serif",
+        "lang": "en",
+        "mode": "essential",
+        "screens": 25
+      },
+      {
+        "theme": "light",
+        "font": "serif",
+        "lang": "en",
+        "mode": "core",
+        "screens": 65
+      },
+      {
+        "theme": "light",
+        "font": "serif",
+        "lang": "en",
+        "mode": "deep",
+        "screens": 87
+      }
+    ],
+    "errors": [],
+    "controls": [
+      {
+        "id": "libraryButton",
+        "rect": {
+          "x": 37,
+          "y": 48,
+          "width": 36,
+          "height": 36,
+          "top": 48,
+          "right": 73,
+          "bottom": 84,
+          "left": 37
+        }
+      },
+      {
+        "id": "contentsButton",
+        "rect": {
+          "x": 77,
+          "y": 48,
+          "width": 36,
+          "height": 36,
+          "top": 48,
+          "right": 113,
+          "bottom": 84,
+          "left": 77
+        }
+      },
+      {
+        "id": "languageButton",
+        "rect": {
+          "x": 871,
+          "y": 48,
+          "width": 36,
+          "height": 36,
+          "top": 48,
+          "right": 907,
+          "bottom": 84,
+          "left": 871
+        }
+      },
+      {
+        "id": "sourcesButton",
+        "rect": {
+          "x": 911,
+          "y": 48,
+          "width": 36,
+          "height": 36,
+          "top": 48,
+          "right": 947,
+          "bottom": 84,
+          "left": 911
+        }
+      },
+      {
+        "id": "themeButton",
+        "rect": {
+          "x": 951,
+          "y": 48,
+          "width": 36,
+          "height": 36,
+          "top": 48,
+          "right": 987,
+          "bottom": 84,
+          "left": 951
+        }
+      },
+      {
+        "id": "bookLibraryInstallTrigger",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      }
+    ],
+    "viewport": [
+      1024,
+      768
+    ],
+    "fontStatus": [
+      [
+        "Geist",
+        "loaded"
+      ],
+      [
+        "Geist Mono",
+        "loaded"
+      ],
+      [
+        "Geist Serif",
+        "loaded"
+      ],
+      [
+        "Source Serif 4",
+        "loaded"
+      ]
+    ],
+    "railVisible": true
+  },
+  "profileRemoved": true,
+  "ownedGroupTerminated": true,
+  "finishedAt": "2026-11-01T03:11:23.825Z"
+}

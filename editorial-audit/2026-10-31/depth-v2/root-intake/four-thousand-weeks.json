@@ -1,12 +1,12 @@
 {
   "atUtc": "2026-11-01T03:16:37.131338+00:00",
   "slug": "four-thousand-weeks",
-  "stage": "expanded-awaiting-root-personal-reading",
+  "stage": "root-personally-accepted-awaiting-publication",
   "completedTask": "6cdb4295-b748-4599-ae16-06bcbc9a7520",
   "thread": "<t3-thread://v2/2bf590fe-c449-46d2-bff4-430a7ba6f22a/thread:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A6cdb4295-b748-4599-ae16-06bcbc9a7520>",
   "completionThreadReadThroughPosition": 241,
   "ready": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/ready.json",
-  "readySha256": "f523ad1e5fa04877faee269b91a8edac603fc3ee2d3f08ebae62393f3ac9f1ef",
+  "readySha256": "1bc0c6ce7a27a3d016550a4d296b236394bff55544445abfb366a9185e1209fc",
   "fileBindingsVerified": 46,
   "counts": {
     "essential": 25,
@@ -14,20 +14,35 @@
     "deep": 87
   },
   "sourceScope": {
-    "primaryPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/four-thousand-weeks-edition.json",
-    "sha256": "4d59335257d507e204bcc3f28aab121c6cc0f0aead4cd092fc844787f1f337c0",
-    "editionYear": 2023,
-    "originalCopyrightYear": 2021,
-    "isbn": "978-5-9614-8639-1",
-    "wholeMainProseReadInOrder": true,
-    "partHeadings": "One-paragraph headings displayed separately with metadata, before introduction; disclosed in reading ledger.",
-    "mainSpineParagraphsIncludingPartHeadings": 443,
-    "mainSpineExtractedWordsIncludingPartHeadings": 51465,
-    "metadataEpigraphNotesReadSeparately": true,
-    "imagesInspected": false,
-    "completePublishedEnglishCollation": false
+    "source": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/four-thousand-weeks-edition.json",
+    "sourceSha256": "4d59335257d507e204bcc3f28aab121c6cc0f0aead4cd092fc844787f1f337c0",
+    "edition": "E. Seregina, Alpina Publisher/Alpina Digital2023, ISBN978-5-9614-8639-1; original2021",
+    "rootContinuousWholePrimaryRead": false,
+    "rootActualIntervals": 28,
+    "rootUniqueParagraphs": 201,
+    "rootDisplayedWhitespaceWords": 24437,
+    "all27PlannedSelectionsActuallyCovered": true,
+    "implementationMainLedgerIntegrityVerified": true,
+    "writerMainSpineScope": "443paragraphs across19records including separately displayed part headings,51465source-reported words. Main prose displayed in order; notes/frontmatter separately. Ledger integrity does not constitute root reading."
   },
-  "rootPersonalAcceptance": false,
-  "publicationAllowed": false,
-  "scope": "Completion and exact file hashes ingested only; resulting prose not yet personally read or accepted by root."
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "scope": "Exact personally accepted expanded version; publication pending. Original completion/source handoff is preserved in input-ready.json.",
+  "rootPersonalReview": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.json",
+  "rootPersonalReviewSha256": "4c18c4fc721635e8044dad82742b70e8d7928e9f90bbd5d391bb7b043cc5253d",
+  "bodyWords": {
+    "ru": 8006,
+    "en": 9092
+  },
+  "hashBindingsVerified": 98,
+  "exactAcceptedHashes": {
+    "story-data.json": "f41539e4046d5681605330f76274e2077d5cdeee16f3e4c71c1cfc6d10e406bc",
+    "four-thousand-weeks.html": "a98d103ef3fa0233ad1fb3fab5434ae69f54910399e68946c7aa906e4db3dc90",
+    "draft.ru.md": "9121196dba631041260491603c0c4cc118d8df5638d80c495d277205839ca795",
+    "draft.en.md": "c948df0417369c27613a7ad1b2e6f128df823da3aa0c5fe046dbb656083370f7",
+    "coverage-map.json": "36ed2a9d788e602a43fc23a5c2e1b2ba7ec84ef8dd1763b7218693e41a9ca34b",
+    "coverage-map.md": "68fb449e7a3079e90c8f1d2b8589c327821a697208b08060234c1843c28a0b6b",
+    "sources.md": "3e037e0492f9fbdc649b58c13029ae9ac39203d59c039d36728e2f0d28306e16",
+    "metrics.json": "434e5c60cbc3799cabf7ed33a324717999f345342a636aced8dd9f74aace84ba"
+  }
 }

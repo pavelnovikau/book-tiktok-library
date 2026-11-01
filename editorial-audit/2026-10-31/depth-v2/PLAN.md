@@ -76,3 +76,12 @@ Dispatch 2026-11-01T04:41:54.222743+00:00: Make Time PR45 personally accepted an
 
 
 Current 2026-11-01T05:08:12.893030+00:00: Essentialism personally accepted49/108/125 after complete bilingual retelling reading, all49Essential pairs and59Core additions with adjacent edges, the full247-line chapter/omission map and34actual primary ranges. Seven findings closed across13paired screens. Deep8749RU/10230EN noncover body words; UI52/50minutes. Source checking selective overall. Release pending; nine expanded versions live. Four Thousand Weeks, Selfie, Mindfulness, Monday Begins on Saturday and The Body Keeps the Score await root reading. Amphibian Man remains assigned; no runtime polling. Behave source coverage incomplete.62approved positions retain individual acceptance.
+
+
+Production 2026-11-01T05:27:36.093264+00:00: Expanded Essentialism PR46 personally accepted, merged and production-verified:49/108/125screens,8749RU/10230EN noncover body words, Deep52/50minutes in UI. Ten expanded versions personally accepted/live; production58books/2826screens. 6 completed candidates await personal reading: four-thousand-weeks, selfie, mindfulness, monday-begins-on-saturday, the-body-keeps-the-score, amphibian-man. 0 assignments: ; runtime not polled. Behave source gaps remain. All62positions retain individual root acceptance.
+
+
+Dispatch 2026-11-01T05:30:18.944Z: Ten of62 approved expanded versions are personally accepted and live. Production58books/2826screens at PR46. Six candidates await root reading: Four Thousand Weeks, Selfie, Mindfulness, Monday Begins on Saturday, The Body Keeps the Score, Amphibian Man. Four Thousand Weeks: first20RU/EN screens read, remaining prose/routes/maps/primary checks pending. One new Sol max assignment: Accelerando; recorded at dispatch, runtime not polled.44 positions await expanded work; Behave remains source-map-incomplete. All unaccepted replacement content stays held.
+
+
+Current 2026-11-01T06:44:24.004962+00:00: Four Thousand Weeks personally accepted:25/65/87screens;8006RU/9092EN noncover body words; UI Deep47/44minutes. All87RU/EN pairs read, final25Essential and40Core additions with both edges reread, all21revised final pairs read.28actual primary intervals/201paragraphs/24437displayed words; root primary checking selective. Publication pending;10expanded books live. 6 candidates await personal root reading: selfie, mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, akselerando. Behave source gaps remain; all62positions retain individual acceptance.

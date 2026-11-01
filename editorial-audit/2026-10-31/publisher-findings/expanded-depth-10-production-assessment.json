@@ -1,0 +1,20 @@
+{
+  "atUtc": "2026-11-01T05:27:16.996185+00:00",
+  "status": "changed-reader-and-catalogue-production-verified",
+  "singleObservationPreserved": true,
+  "freshPublicHashesMatched": 11,
+  "attemptedPublicAssets": 12,
+  "changedReaderCatalogueAndHomepageMatch": true,
+  "private404s": 2,
+  "priorAcceptedCanariesFreshlyMatched": 8,
+  "unobservedPriorCanary": {
+    "name": "children-of-captain-grant.html",
+    "reason": "<urlopen error _ssl.c:1112: The handshake operation timed out>",
+    "locallyByteUnchanged": true,
+    "priorProductionProof": "expanded-depth-09-production.json",
+    "priorVerifiedSha256": "9bfa24349d76a981914ecc72c1936ceaa04e0506ce0bef59e6beaba1f4f7614d"
+  },
+  "allAttemptedCanariesFreshlyVerified": false,
+  "noNetworkRetry": true,
+  "decision": "The new reader, catalogue and homepage are exact on production; all additional observed canaries match. A transport-only failure for an unchanged previously verified reader does not negate publication of the new reader. No claim of all12/all69 fresh HTTP matches."
+}

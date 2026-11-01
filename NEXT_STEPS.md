@@ -1,5 +1,31 @@
 # Current personal review queue —2026-11-01
 
+Four Thousand Weeks personally accepted:25/65/87screens;8006RU/9092EN noncover body words; UI Deep47/44minutes. All87RU/EN pairs read, final25Essential and40Core additions with both edges reread, all21revised final pairs read.28actual primary intervals/201paragraphs/24437displayed words; root primary checking selective. Publication pending;10expanded books live. 6 candidates await personal root reading: selfie, mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, akselerando. Behave source gaps remain; all62positions retain individual acceptance.
+
+This block supersedes historical states below.
+
+---
+
+# Current reading and source assignment —2026-11-01
+
+Ten of62 approved expanded versions are personally accepted and live. Production58books/2826screens at PR46. Six candidates await root reading: Four Thousand Weeks, Selfie, Mindfulness, Monday Begins on Saturday, The Body Keeps the Score, Amphibian Man. Four Thousand Weeks: first20RU/EN screens read, remaining prose/routes/maps/primary checks pending. One new Sol max assignment: Accelerando; recorded at dispatch, runtime not polled.44 positions await expanded work; Behave remains source-map-incomplete. All unaccepted replacement content stays held.
+
+Next release must carry expanded-depth-10 postmerge/scoped-production proofs, Amphibian intake and accelerando-expanded dispatch files. Production observation: changed Essentialism/catalogue/homepage exact;11of12 attempted asset hashes matched; Captain Grant transport-only failure preserved without retry and its local hash matches prior verified production.
+
+This block supersedes historical states below.
+
+---
+
+# Current personal reading queue —2026-11-01
+
+Expanded Essentialism PR46 personally accepted, merged and production-verified:49/108/125screens,8749RU/10230EN noncover body words, Deep52/50minutes in UI. Ten expanded versions personally accepted/live; production58books/2826screens. 6 completed candidates await personal reading: four-thousand-weeks, selfie, mindfulness, monday-begins-on-saturday, the-body-keeps-the-score, amphibian-man. 0 assignments: ; runtime not polled. Behave source gaps remain. All62positions retain individual root acceptance.
+
+This current block supersedes historical states below.
+
+---
+
+# Current personal review queue —2026-11-01
+
 Essentialism personally accepted49/108/125 after complete bilingual retelling reading, all49Essential pairs and59Core additions with adjacent edges, the full247-line chapter/omission map and34actual primary ranges. Seven findings closed across13paired screens. Deep8749RU/10230EN noncover body words; UI52/50minutes. Source checking selective overall. Release pending; nine expanded versions live. Four Thousand Weeks, Selfie, Mindfulness, Monday Begins on Saturday and The Body Keeps the Score await root reading. Amphibian Man remains assigned; no runtime polling. Behave source coverage incomplete.62approved positions retain individual acceptance.
 
 This block supersedes historical states below.

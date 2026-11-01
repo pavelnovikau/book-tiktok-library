@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "atUtc": "2026-11-01T00:17:09.600723+00:00",
+  "slug": "thinking-fast-and-slow",
+  "candidate": "expanded-depth-v2",
+  "verdict": "PASS",
+  "reviewer": "root",
+  "reviewKind": "Personal complete paired-text reading, cumulative-route rereading, chapter/omission comparison and selected primary-text checks; root also authored six restored units.",
+  "rootPersonalAcceptance": true,
+  "bookContentPublicationAllowed": true,
+  "onlyTheseHashesApproved": {
+    "story-data.json": "d4137bda5ad9920c7fffe53349ea3beb77767c0e37877d07ba82d0eb0758805c",
+    "thinking-fast-and-slow.html": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14"
+  },
+  "allOtherUnacceptedBooksRemainHeld": true,
+  "readScope": {
+    "all110CurrentRuEnPairs": true,
+    "method": "Read original97 paired screens in order, then every new source-checked paired addition and every changed final pair. Reread all Essential and Core paired routes; final Deep order preserves the read baseline with the inspected additions.",
+    "original97PairsReadInOrder": true,
+    "essentialRouteRereadComplete": true,
+    "coreRouteRereadComplete": true,
+    "finalDeepOrderAndAllPairsChecked": true,
+    "globalMetadataMethodSources": true,
+    "completeCoverageAndOmissionMapsRead": true,
+    "primaryRangesRead": [
+      "content58 P001–013 (full)",
+      "content95 P001–011 (full)",
+      "content94 P001–031 (full)",
+      "content12 P001–018 (full)",
+      "content13 P001–022 (full)",
+      "content33 P001–021 (full)",
+      "content34 P001–016 (full)",
+      "content40 P008–032",
+      "content62 P001–019 (full)",
+      "content63 P001–009 (full)",
+      "content85 P001–027 (full)",
+      "content88 P001–028 (full)",
+      "content89 P001–023 (full; unused category examples)",
+      "content84 P001–015 (full)",
+      "content92 P001–021 (full)",
+      "content28 P010–012",
+      "content71 P012–016",
+      "content98 P004–011",
+      "content60 P001–009 (full)",
+      "content55 P001–013 (full)",
+      "content101 P001–019 (full)",
+      "content102 P001–012 (full)",
+      "content103 P001–013 (full)"
+    ],
+    "wholePrimaryContinuouslyReadByRoot": false,
+    "fullPublishedEnglishCollation": false
+  },
+  "counts": {
+    "essential": 27,
+    "core": 74,
+    "deep": 110
+  },
+  "metrics": {
+    "essential": {
+      "screens": 27,
+      "ru": {
+        "bodyWords": 2463,
+        "bodyMinutes": 13.68,
+        "roundedBodyMinutes": 14,
+        "uiWords": 2594,
+        "uiMinutes": "15 минут"
+      },
+      "en": {
+        "bodyWords": 2757,
+        "bodyMinutes": 12.53,
+        "roundedBodyMinutes": 13,
+        "uiWords": 2917,
+        "uiMinutes": "14 min"
+      }
+    },
+    "core": {
+      "screens": 74,
+      "ru": {
+        "bodyWords": 6591,
+        "bodyMinutes": 36.62,
+        "roundedBodyMinutes": 37,
+        "uiWords": 6947,
+        "uiMinutes": "39 минут"
+      },
+      "en": {
+        "bodyWords": 7415,
+        "bodyMinutes": 33.7,
+        "roundedBodyMinutes": 34,
+        "uiWords": 7841,
+        "uiMinutes": "36 min"
+      }
+    },
+    "deep": {
+      "screens": 110,
+      "ru": {
+        "bodyWords": 9694,
+        "bodyMinutes": 53.86,
+        "roundedBodyMinutes": 54,
+        "uiWords": 10224,
+        "uiMinutes": "57 минут"
+      },
+      "en": {
+        "bodyWords": 10896,
+        "bodyMinutes": 49.53,
+        "roundedBodyMinutes": 50,
+        "uiWords": 11533,
+        "uiMinutes": "53 min"
+      }
+    }
+  },
+  "meaningJudgment": {
+    "argument": "The five parts connect automatic judgment to statistical checks, expertise/forecasting, reference-dependent choice and experience versus memory. The text retains experiments, numerical alternatives, author procedures and limits rather than only effect names.",
+    "restoredIndependentMechanisms": [
+      "cognitive-ease",
+      "affect-and-public-risk",
+      "causal-base-rates",
+      "optimism-and-enterprise",
+      "mental-accounts-and-sunk-costs",
+      "joint-and-separate-evaluation"
+    ],
+    "shorterRoutes": "Essential is independently readable, defines the modes before substitution, shows sampling/anchor/base-rate/regression cases, and includes the pain-profile evidence before the final two-selves discussion. Core adds cognitive ease, real expertise/forecasting cases, procedures, optimism, endowment, risk-policy conditions and sunk costs.",
+    "depthDecision": "Accepted because the central five-part argument is sustained through cases, qualifications, counterarguments and real procedures. The screen/word totals describe the result; they are not acceptance quotas or a template for every nonfiction book.",
+    "noInventedExamples": true,
+    "noCurrentScientificConsensusClaim": true
+  },
+  "closedFindings": [
+    {
+      "id": "ROOT-K-01",
+      "change": "Restored cognitive ease, public risk/affect, causal base rates, optimism/enterprise, mental accounts/sunk costs, and separate/joint evaluation in connected original RU/EN prose.",
+      "evidence": "root-review/additions.json and source ranges in reading-ledger.json"
+    },
+    {
+      "id": "ROOT-K-02",
+      "change": "Essential no longer introduces WYSIATI without its definition; RU Bayes title and interview heading made natural."
+    },
+    {
+      "id": "ROOT-K-03",
+      "change": "Mug values retain the reported numbers without an unsupported average/median label."
+    },
+    {
+      "id": "ROOT-K-04",
+      "change": "Early-1990s context explicit; replaced an absolute digest-authored medical veto with the author’s conditional contrast between accumulated pain and remembered pain.",
+      "evidence": "content94 P001–031;content95 P001–011"
+    },
+    {
+      "id": "ROOT-K-05",
+      "change": "Essential retains both pain-profile screens so the final experience/memory argument has actual evidence."
+    },
+    {
+      "id": "ROOT-K-06",
+      "change": "Fresh depth-v2 progress namespace prevents a legacy short-reader resume; a genuinely deeper Continue explicitly names the destination mode; Russian minute forms fixed locally."
+    }
+  ],
+  "closedSuspicions": [
+    "Driving-pedal detail is in the actual turn-learning example; retained.",
+    "Participants knew duration difference in cold-hand study; actual source says it was asked; retained.",
+    "Anchor25/45 are called average estimates in the RU edition; retained.",
+    "U-index4/16=25% is the actual author example; retained."
+  ],
+  "laterResearchScope": {
+    "Doyen2012": "Primary PLOS abstract checked; the narrow priming qualification is supported.",
+    "Hagger2016": "Direct Sage retrieval timed out; publisher-indexed abstract checked. No full-paper or universal ego-depletion verdict claimed.",
+    "KillingsworthKahnemanMellers2023": "Full PubMed primary abstract read; group-dependent findings qualify a universal income threshold. No full-article certification."
+  },
+  "verification": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "allAuthoredFieldsMatchEmbedding": true,
+    "all174PairedParagraphsMatchConnectedDrafts": true,
+    "finalRootBrowser": {
+      "viewports": [
+        [
+          320,
+          568
+        ],
+        [
+          1440,
+          900
+        ]
+      ],
+      "renderedVisits": 3376,
+      "interactionChecks": 56,
+      "languages": [
+        "ru",
+        "en"
+      ],
+      "themes": [
+        "dark",
+        "light"
+      ],
+      "fonts": [
+        "sans",
+        "serif"
+      ],
+      "depths": [
+        "essential",
+        "core",
+        "deep"
+      ],
+      "offline": true,
+      "runtimeErrors": 0,
+      "remoteRequests": 0,
+      "ownedChromeCleanup": true,
+      "actualPhysicalSafari": false
+    },
+    "visualInspection": [
+      "320-dense",
+      "320-quantitative",
+      "320-cover",
+      "1440-final"
+    ],
+    "originalWriterBrowserMatricesAreHistoricalInputChecks": true,
+    "oldCollectorReadyReviewsCatalogueAndInstalledSkillUnchanged": true
+  },
+  "omissionsAndLimits": [
+    "The complete chapter-level omission table remains in sources.md. This is an extensive original exposition, not the complete book or an authorized translation.",
+    "Some chapters and cases are selectively represented or omitted; the source map says which. Root primary reading is substantial but selective.",
+    "No complete English-edition or current-field scientific review was performed. Later findings are narrowly distinguished from the 2011 book.",
+    "No medical, financial or policy instruction is inferred beyond the accurately attributed author argument.",
+    "No physical iPhone/Safari/PWA test."
+  ],
+  "progressPolicy": "New book-tiktok.thinking-fast-and-slow.depth-v2. namespace; shared theme/font retained; legacy keys preserved; later saved mode named explicitly before deeper Continue.",
+  "canonicalOldCollectorAndReadyUntouched": true
+}

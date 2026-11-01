@@ -1,3 +1,15 @@
+# Current expanded-depth work — 2026-11-01
+
+1. Release only the hash-bound personally accepted Kahneman27/74/110 candidate; check remote readiness once, then merge and verify the canonical clean production URL. PR37's expanded Hard to Be a God is already live.
+2. Personally read and check the completed expanded Treasure Island candidate. The separate Lost World writer continues. Neither is accepted from a worker's completion or QA alone.
+3. Continue the62-position depth plan in bounded groups. Preserve the author's actual scenes or argument, real cases, qualifications and procedures. Write connected prose before segmentation; no universal screen/word quota.
+4. Sapolsky Behave sources remain partial; retain the acquired chapter/excerpt maps and do not manufacture missing book arguments from talks. Its old short reader is not depth-approved.
+5. Keep the existing artwork-only homepage, statistics strip, equal tabs, compact header and Settings/offline fonts. New book content needs a separate root acceptance report before release.
+
+The notes below are preserved historical handoffs and must be read in light of the current depth repair above.
+
+---
+
 # Next steps
 
 ## Release08 handoff — 2026-10-31

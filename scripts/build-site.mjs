@@ -1,5 +1,5 @@
 import fs from 'node:fs';
-import {assertReaderUsability} from '../skills/book-tiktok/scripts/reader-usability.mjs';
+import assert from 'node:assert/strict';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -10,7 +10,17 @@ const readers = catalogue.books.map(book => book.file);
 if (readers.some(file => typeof file !== 'string' || path.basename(file) !== file || !file.endsWith('.html'))) {
   throw new Error('Only registered root-level HTML readers may be published');
 }
-for (const file of readers) assertReaderUsability(fs.readFileSync(path.join(root, file), 'utf8'));
+// Vercel excludes the authoring skill tree. Keep the publication gate self-contained.
+for (const file of readers) {
+  const html = fs.readFileSync(path.join(root, file), 'utf8');
+  const raw = html.match(/<script id="book-tiktok-data"[^>]*>([\s\S]*?)<\/script>/)?.[1];
+  assert(raw, `${file}: missing reader data`);
+  const data = JSON.parse(raw);
+  assert.equal(data.defaultMode, 'deep', `${file}: fresh default must be Deep`);
+  assert(!data.screens.some(s => s.kind === 'notice' || ['deep-warning', 'deep-notice'].includes(s.id)), `${file}: service-only reading page`);
+  assert(html.includes('// reader-usability-v1'), `${file}: missing maintained navigation integration`);
+  assert(html.includes("mode: modeOrder.includes(stored('mode', 'deep')) ? stored('mode', 'deep') : 'deep',"), `${file}: runtime fallback must be Deep`);
+}
 const files = ['index.html', 'books.json', 'manifest.webmanifest', 'sw.js', ...readers];
 fs.rmSync(output, { recursive: true, force: true });
 fs.mkdirSync(output);

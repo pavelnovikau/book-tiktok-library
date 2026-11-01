@@ -1,0 +1,2059 @@
+{
+  "schemaVersion": 2,
+  "slug": "treasure-island",
+  "author": {
+    "ru": "Роберт Льюис Стивенсон",
+    "en": "Robert Louis Stevenson"
+  },
+  "title": {
+    "ru": "Остров сокровищ",
+    "en": "Treasure Island"
+  },
+  "description": {
+    "ru": "Джим Хокинс, карта Флинта и плавание «Испаньолы». Сокращённый рассказ по роману Стивенсона.",
+    "en": "Jim Hawkins, Flint’s map, and the voyage of the Hispaniola. A condensed retelling of Stevenson’s novel."
+  },
+  "defaultLanguage": "ru",
+  "defaultTheme": "dark",
+  "defaultMode": "essential",
+  "contentMode": "narrative",
+  "spoilerPolicy": "full-plot-in-deep",
+  "targetModes": {
+    "essential": 27,
+    "core": 48,
+    "deep": 96
+  },
+  "methodNote": {
+    "ru": "Связный пересказ своими словами по всему английскому роману, главы I–XXXIV. Сначала написаны русская и соответствующая английская версии, затем выделены сцены. Обе — новое сокращение, не опубликованные переводы. «Главное» и «Суть книги» останавливаются после боя за частокол без исхода поисков; продолжение с развязкой — в «Глубоко». Полный внешний текст раскрывает сюжет.",
+    "en": "An original connected retelling based on the whole English novel, chapters I–XXXIV. Russian prose and its corresponding English version were written before scene segmentation. Both are new condensations, not published translations. Essential and Core stop after the stockade battle without resolving the search; Deep continues through the ending. The complete external text reveals the plot."
+  },
+  "sources": [
+    {
+      "id": 1,
+      "title": "Robert Louis Stevenson — Treasure Island · Project Gutenberg #120",
+      "url": "https://www.gutenberg.org/files/120/120-h/120-h.htm",
+      "role": "book",
+      "note": {
+        "ru": "Полный английский электронный текст прочитан последовательно, включая последнюю главу. Источник событий и порядка раскрытия. Номера L в карте относятся к строкам использованного текстового файла, не к страницам печатного издания. Внешняя ссылка открывает весь роман.",
+        "en": "The complete English electronic text was read continuously, including the last chapter. It supplies events and disclosure order. L numbers in the map refer to lines of the text witness used, not printed pages. The external link opens the whole novel."
+      }
+    }
+  ],
+  "media": {},
+  "screens": [
+    {
+      "id": "cover",
+      "level": 1,
+      "type": "cover",
+      "sources": [],
+      "copy": {
+        "ru": {
+          "section": "Начало",
+          "title": "Остров сокровищ",
+          "subtitle": "Роберт Льюис Стивенсон · Сокращённый рассказ",
+          "body": "<p>В приморский трактир приходит незнакомец с сундуком. Джим Хокинс ещё не знает, кто его преследует и куда приведут спрятанные бумаги.</p><p>«Главное» и «Суть книги» — незавершённое начало до боя за частокол включительно. Дальнейшая история и развязка открываются в «Глубоко» после предупреждения.</p>"
+        },
+        "en": {
+          "section": "Start",
+          "title": "Treasure Island",
+          "subtitle": "Robert Louis Stevenson · A condensed retelling",
+          "body": "<p>A stranger brings a chest to a coastal inn. Jim Hawkins does not yet know who is pursuing him or where the hidden papers will lead.</p><p>Essential and Core are unresolved openings through the stockade battle. The continuation and ending open in Deep after a warning.</p>"
+        }
+      }
+    },
+    {
+      "id": "inn-arrival",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · I · L147–349",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Постоялец",
+          "body": "<p>В трактир моего отца, «Адмирал Бенбоу», моряк пришёл пешком; следом на тачке везли его сундук. На щеке у него белел шрам, из-под грязного синего кафтана свисала косичка. Он выпил ром, оглядел нашу бухту и поинтересовался, много ли бывает народу. Узнав, что мало, остался. Имени не назвал: велел звать капитаном, бросил несколько золотых и занял комнату. Днём он бродил по берегу с подзорной трубой, вечерами молча пил у огня. При появлении моряка на дороге капитан сначала заглядывал в зал из-за занавески. Мне, Джиму Хокинсу, он обещал по серебряной монете в месяц, чтобы я высматривал человека с одной ногой. Скоро одноногий начал сниться мне: перескакивал через изгороди и гнался за мной, всякий раз ещё страшнее.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The lodger",
+          "body": "<p>The sailor walked up to my father's inn, the Admiral Benbow, with his chest following in a handcart. A pale scar crossed his cheek; a pigtail hung over his dirty blue coat. He drank some rum, surveyed our cove, and asked whether we had many visitors. Hearing that we had few, he stayed. He gave no name, told us to call him captain, and threw down several gold coins for his lodging. By day he wandered along the coast with a telescope; in the evenings he drank silently beside the fire. When a seaman appeared on the road, he peered into the room from behind a curtain before entering. He promised me, Jim Hawkins, a silver coin each month to watch for a man with one leg. Soon the stranger entered my dreams, jumping hedges and chasing me, more terrible every time.</p>"
+        }
+      }
+    },
+    {
+      "id": "inn-evening",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · I · L147–349",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Вечер в трактире",
+          "body": "<p>Напившись, капитан требовал, чтобы гости подпевали ему и слушали рассказы о повешенных, бурях и разбоях. Уйти раньше, чем он заснёт, никто не смел. Отец боялся, что постоялец разорит трактир; впрочем, молодых соседей эти ужасы даже привлекали. Разорение грозило с другой стороны: первые деньги давно кончились, а попросить новых отец не решался. Он уже тяжело болел. Доктор Ливси, приехавший к нему, однажды продолжал спокойно беседовать, несмотря на капитанское требование тишины. Тогда моряк вскочил с ножом. Ливси даже не поднялся: напомнил, что он ещё и судья и за такой нож можно угодить на виселицу. Капитан первым отвёл глаза, спрятал оружие и несколько вечеров сидел тихо.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "An evening at the inn",
+          "body": "<p>When drunk, the captain made our guests sing with him and listen to stories of hangings, storms, and robbery. Nobody dared leave before he fell asleep. Father feared he would ruin the inn, although some of the younger neighbours rather enjoyed being frightened. Ruin threatened for another reason: the first payment was long exhausted, and Father could not bring himself to demand more. He was already seriously ill. Dr Livesey came to see him one evening and continued talking calmly through the captain's orders for silence. The sailor sprang up with a knife. Livesey did not even rise: he reminded him that he was a magistrate as well as a doctor, and that threatening someone with a knife could lead to hanging. The captain looked away first, put the weapon away, and remained quiet for several evenings.</p>"
+        }
+      }
+    },
+    {
+      "id": "winter-visitor",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · II · L350–592",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Зимний гость",
+          "body": "<p>Морозным январским утром, пока капитан гулял, явился бледный незнакомец без двух пальцев на левой руке. Он спросил о приятеле Билле, заставил меня ждать у двери и внезапно окликнул вернувшегося постояльца. Наш грозный капитан посинел. Он назвал гостя Чёрным Псом. Я принёс им ром и вышел; сначала слышал только бормотание, потом ругань, грохот опрокинутой мебели и звон клинков. Чёрный Пёс вылетел наружу с окровавленным плечом. Последний удар капитана попал в нашу вывеску, и беглец скрылся за холмом. Капитан вернулся, потребовал рому, заговорил об отъезде — и рухнул на пол. Мы с матерью искали рану, но приехавший Ливси объявил, что это удар.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A winter visitor",
+          "body": "<p>One frosty January morning, while the captain was out, a pale stranger arrived with two fingers missing from his left hand. He asked for his friend Bill, made me wait near the door, and suddenly called out to our returning lodger. Our terrifying captain went blue. He called the stranger Black Dog. I brought them rum and withdrew. At first I heard murmuring, then curses, overturned furniture, and clashing blades. Black Dog burst outside with a bleeding shoulder. The captain's last blow struck our signboard, and the fugitive vanished over the hill. Back inside, the captain demanded rum and talked of leaving, then collapsed. Mother and I searched for a wound, but Livesey arrived and said it was a stroke.</p>"
+        }
+      }
+    },
+    {
+      "id": "upstairs",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · II · L350–592",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Наверху",
+          "body": "<p>Доктор велел мне держать таз и пустил ему кровь. На обнажённой руке я увидел надписи и рисунок виселицы; одна из надписей называла Билли Бонса. Когда больной открыл глаза, он первым делом спросил о Чёрном Псе. Ливси ответил, что опасность сейчас в его собственном пьянстве. Он помог уложить Бонса наверху и приказал лежать не меньше недели; следующий удар, по его словам, станет последним. Доктор ушёл к моему отцу, а я остался с новым именем капитана и воспоминанием о том, как испугался человек, прежде пугавший весь наш дом.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Upstairs",
+          "body": "<p>The doctor had me hold a basin while he bled the patient. On the exposed arm I saw lettering and a drawing of a gallows; one inscription named Billy Bones. When he opened his eyes, his first question was about Black Dog. Livesey told him that his own drinking was the immediate danger. He helped get Bones upstairs and ordered him to stay in bed for at least a week; another stroke, he warned, would be his last. The doctor went to my father, while I was left with a name for our captain and the memory of the fear on a face that had frightened everyone in our house.</p>"
+        }
+      }
+    },
+    {
+      "id": "rum-request",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · III · L593–808",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "У постели",
+          "body": "<p>Бонс выпросил у меня стакан рому: пальцы дрожали, в углу ему мерещился Флинт, а без выпивки он обещал поднять весь дом. Я боялся за покой отца и уступил, отказавшись от предложенной гинеи. Узнав о неделе в постели, капитан попробовал подняться, но обессилел. За это время, говорил он, его найдут и пришлют чёрную метку. Он служил помощником у Флинта; прежним товарищам нужен сундук, где хранится то, что капитан передал ему перед смертью в Саванне. Если придут Чёрный Пёс, одноногий или метка, я должен скакать к Ливси и поднимать власти. Однако вечером умер отец. Похороны, посетители, работа заслонили всё остальное; Бонс снова пил внизу и бродил вдоль стен, держась за них руками.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "At the bedside",
+          "body": "<p>Bones begged a glass of rum from me: his fingers shook, he imagined Flint in a corner, and without a drink he threatened to disturb the whole house. Afraid for Father's peace, I gave in but refused his offered guinea. Hearing that he must spend a week in bed, he tried to rise and fell back exhausted. By then, he said, they would find him and deliver the black spot. He had been Flint's mate; his former shipmates wanted the chest containing what their captain had given him before dying in Savannah. If Black Dog, the one-legged man, or the spot appeared, I must ride to Livesey and summon the authorities. But Father died that evening. The funeral, visitors, and work pushed everything else aside. Bones drank downstairs again and moved about with his hands against the walls for support.</p>"
+        }
+      }
+    },
+    {
+      "id": "blind-visitor",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · III · L593–808",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Рука незнакомца",
+          "body": "<p>На другой день после похорон отца к трактиру подошёл слепой в рваном плаще. Голосом несчастного просителя он попросил моей руки и тут же стиснул её так, что я едва не закричал. Он приказал вести его к капитану; моё предупреждение о сабле встретил угрозой сломать руку. По его команде я подвёл его к Бонсу и соединил их ладони. Слепой что-то передал, затем проворно выбрался на дорогу. Бонс взглянул на полученное: срок был до десяти вечера. Ещё шесть часов — можно успеть! Он вскочил, схватился за горло и упал лицом вниз. На этот раз помочь было нельзя. Я заплакал, хотя никогда не любил капитана: первая смерть в нашем доме была слишком недавней.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The stranger's hand",
+          "body": "<p>The day after Father's funeral, a blind man in a ragged cloak approached the inn. In the voice of a helpless beggar he asked for my hand, then gripped it so fiercely I nearly cried out. He ordered me to take him to the captain; when I warned him about the cutlass, he threatened to break my arm. At his command I brought him to Bones and put their hands together. He passed something across, then made his way nimbly back to the road. Bones looked at what he had received: he had until ten that night. Six hours still; he could escape them! He jumped up, clutched his throat, and fell face down. This time nothing could be done. I cried, although I had never liked him: the first death in our house was still too recent.</p>"
+        }
+      }
+    },
+    {
+      "id": "hamlet",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · IV · L809–1015",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "В соседней деревне",
+          "body": "<p>Мы с матерью побежали за помощью в соседнюю деревню. Люди охотно обещали послать за доктором и дать лошадей для бегства, но возвращаться с нами никто не пожелал: имя Флинта им было знакомо. Мать не собиралась терять деньги, причитавшиеся её осиротевшему сыну. Она попросила мешок для законной платы, и мы пошли обратно вдвоём. В запертом трактире я поднял у тела чёрный бумажный кружок: на обороте действительно стояло указание срока — до десяти. Часы пробили шесть. Ключа в карманах не было; я заставил себя расстегнуть ворот и нашёл его на шнурке у Бонса на шее. Наверху мы открыли пахнущий смолой и табаком сундук.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "In the hamlet",
+          "body": "<p>Mother and I ran to the neighbouring hamlet for help. People readily offered to fetch the doctor and provide horses for our escape, but nobody would return with us: they knew Flint's name. Mother refused to lose money owed to her fatherless son. She borrowed a bag for her lawful payment, and we went back alone. Inside the bolted inn I picked up a black paper circle beside the body. On its reverse was indeed the deadline of ten o'clock. Our clock struck six. There was no key in his pockets; I forced myself to open his collar and found it hanging from a cord around his neck. Upstairs we opened the chest, which smelled of tar and tobacco.</p>"
+        }
+      }
+    },
+    {
+      "id": "chest",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · IV · L809–1015",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Над сундуком",
+          "body": "<p>Под новым костюмом лежали оружие, приборы, серебро, чужеземные вещи и раковины. На самом дне, под старым плащом, нашлись пакет в клеёнке и мешочек монет. Мать решила взять ровно столько, сколько ей задолжали. Но среди дублонов, луидоров и незнакомых денег английских гиней было мало, и счёт тянулся мучительно долго. Снаружи застучала палка слепого; он подёргал ручку запертой двери, помедлил и ушёл. Я умолял забрать всё и бежать, мать всё ещё хотела досчитать. Лишь свист с холма заставил её вскочить. Она взяла отсчитанное, я — пакет; мы оставили свечу у сундука и выскользнули в туман. По дороге мать стала падать в обморок. Возле мостика я кое-как стащил её под берег, но укрыть целиком не смог.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Over the chest",
+          "body": "<p>Beneath a new suit lay weapons, instruments, silver, foreign objects, and shells. At the very bottom, under an old cloak, we found an oilskin packet and a bag of coins. Mother would take exactly what was owed. But amongst the doubloons, louis d'or, and unfamiliar money there were few English guineas, so counting was painfully slow. Outside, the blind man's stick began tapping. He tried our locked door, waited, and went away. I begged her to take everything and run; she still wanted to finish counting. Only a whistle from the hill brought her to her feet. She took the counted money, I took the packet, and we left the candle beside the chest and slipped into the fog. On the road Mother began to faint. At the little bridge I dragged her down the bank, but could not get her entirely under cover.</p>"
+        }
+      }
+    },
+    {
+      "id": "road",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · V · L1016–1224",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "На дороге",
+          "body": "<p>Я высунулся из-за куста. К трактиру бежали семеро или восемь, слепого вели посередине за руки. Это был Пью; он распоряжался всеми. В доме нашли мёртвого Билла, наверху — перерытый сундук. Деньги оставались, но Пью нужны были бумаги Флинта. Он сразу заподозрил меня, велел искать по дому, затем повсюду вокруг. С холма снова свистнули, теперь дважды. Матросы хотели уходить, а Пью кричал о тысячах, которые они упускают, и бил их палкой. Эта ссора дала нам время. Загремели копыта, у изгороди выстрелили, и вся шайка разбежалась. Слепой остался на дороге, метался, звал товарищей и в суматохе бросился под коня. Всадник пытался остановиться, но Пью погиб.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "On the road",
+          "body": "<p>I peered from behind a bush. Seven or eight men were running towards the inn, leading the blind man between them by the hands. He was called Pew, and he commanded them all. Inside they found Bill dead and the chest disturbed upstairs. Money remained, but Pew wanted Flint's papers. He immediately suspected me and ordered a search of the house and its surroundings. Another whistle came from the hill, twice this time. The sailors wanted to leave; Pew shouted about the thousands they were throwing away and struck them with his stick. Their quarrel bought us time. Hooves thundered, a shot came from the hedge, and the gang scattered. Left alone in the road, the blind man blundered about calling his companions and ran under a horse. Its rider tried to stop, but Pew was killed.</p>"
+        }
+      }
+    },
+    {
+      "id": "revenue",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · V · L1016–1224",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "После погони",
+          "body": "<p>Это оказались таможенные объездчики под началом Дэнса; посланный за Ливси мальчик встретил их по дороге. Мать отнесли в деревню и привели в чувство. Она всё ещё сожалела о недобранной плате. Люди Дэнса добрались до бухточки, где стояло пиратское судно, однако оно уже уходило; с него пригрозили выстрелом и действительно выстрелили. В трактире я увидел разбитые вещи и сброшенные часы. Пакет по-прежнему лежал у меня за пазухой. Дэнс предложил взять его, но я назвал доктора Ливси. Тогда он решил отвезти и меня, и бумаги: о смерти Пью всё равно нужно было доложить судье. Я попрощался с матерью и уселся позади одного из всадников.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "After the pursuit",
+          "body": "<p>They were revenue officers led by Mr Dance. The boy sent for Livesey had met them on the road. Mother was carried to the hamlet and revived; she still regretted the unpaid balance. Dance's men reached the little cove where the pirates' vessel lay, but it was already leaving. Someone aboard threatened to shoot and then did shoot. Back at the inn I saw broken possessions and our clock thrown down. The packet was still inside my coat. Dance offered to take it, but I named Dr Livesey. He decided to bring both me and the papers: Pew's death had to be reported to a magistrate anyway. I said goodbye to Mother and climbed up behind one of the riders.</p>"
+        }
+      }
+    },
+    {
+      "id": "library",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · VI · L1225–1464",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "В библиотеке",
+          "body": "<p>Доктора дома не оказалось: он ужинал у сквайра Трелони. Мы нашли обоих в библиотеке возле огня. Слушая рассказ Дэнса, сквайр так разгорячился, что сломал трубку; матушкина смелость особенно его восхитила. Мне дали пирог, объездчика угостили и отпустили. После этого Ливси разрезал швы пакета своими медицинскими ножницами. Внутри были тетрадь Бонса с суммами, датами и крестиками и запечатанный лист. Трелони счёл тетрадь счётом пиратской добычи. Под печатями оказался остров: бухты, глубины, холмы и три красных креста. У одного значилось главное сокровище; на обороте стояли указания, как его отыскать, а также заметки о серебре и оружии.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "In the library",
+          "body": "<p>The doctor was not at home; he was dining with Squire Trelawney. We found them in the library beside the fire. Dance's account excited the squire so much that he broke his pipe, and Mother's courage particularly delighted him. I was given pie, the revenue officer was refreshed and sent away, and Livesey cut the packet's stitching with his medical scissors. It contained Bones's notebook, full of sums, dates, and crosses, and a sealed sheet. Trelawney took the notebook for an account of pirate loot. Under the seals was an island: bays, soundings, hills, and three red crosses. Beside one was a note marking the main treasure. The back held directions for finding it, with further notes about silver and weapons.</p>"
+        }
+      }
+    },
+    {
+      "id": "expedition",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · VI · L1225–1464",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Новые планы",
+          "body": "<p>Трелони уже не мог усидеть: он купит в Бристоле корабль, Ливси будет судовым врачом, я — юнгой. Возьмём Редрута, Хантера и Джойса, найдём золото и разбогатеем! Доктор согласился, но назвал одного человека, которого опасается. Сквайр потребовал имя негодяя. Ливси назвал самого Трелони: тот не умеет молчать. За бумагами охотятся люди решительные и опасные, поэтому до отплытия нельзя ходить в одиночку и никому нельзя говорить о находке. Сквайр обещал могильную тишину. Я же запомнил очертания острова и мог теперь отправляться туда, даже сидя у домашнего огня: все дороги на карте ещё были открыты.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "New plans",
+          "body": "<p>Trelawney could no longer sit still. He would buy a ship in Bristol, Livesey would be its doctor, and I would be cabin boy. We would take Redruth, Hunter, and Joyce, find the gold, and become rich! Livesey agreed, but named one man he feared. The squire demanded the villain's name. The doctor named Trelawney himself: he could not keep his mouth shut. Determined and dangerous men were hunting these papers. Until we sailed, we must not go out alone, and nobody must hear about the discovery. The squire promised complete silence. I had already remembered the shape of the island and could now visit it even beside a fire at home. Every path across the map was still open.</p>"
+        }
+      }
+    },
+    {
+      "id": "letter",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · VII · L1465–1686",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Письмо из Бристоля",
+          "body": "<p>Сборы затянулись. Ливси уехал искать себе замену, Трелони хлопотал в Бристоле, я жил под надзором ворчливого Редрута и мысленно обследовал остров. Наконец пришло письмо. Шхуна «Испаньола» куплена, команда набрана с помощью замечательного одноногого моряка Джона Сильвера, хозяина «Подзорной трубы». Сквайр нанял его поваром и был в восторге: тому достаточно было появиться, чтобы отыскались лучшие матросы. Из письма также выяснялось, что о сокровищах знает уже весь Бристоль. Я попробовал заметить, что доктору это не понравится, но Редрут не понимал, кто смеет запрещать сквайру говорить. В приписке велели навестить мать и торопиться к кораблю.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A letter from Bristol",
+          "body": "<p>The preparations took longer than expected. Livesey went to find a replacement for his practice, Trelawney worked in Bristol, and I stayed under grumbling Redruth's supervision, exploring the island in my imagination. At last a letter arrived. The schooner Hispaniola had been bought, and a crew recruited with the help of a remarkable one-legged sailor, John Silver, landlord of the Spy-glass. The squire had hired him as cook and was delighted: the best seamen seemed to appear as soon as he did. The letter also revealed that all Bristol knew about the treasure. I tried pointing out that the doctor would dislike this, but Redruth could not imagine who had the right to forbid the squire from talking. A postscript told me to visit Mother and hurry to the ship.</p>"
+        }
+      }
+    },
+    {
+      "id": "farewell",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · VII · L1465–1686",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Перед отъездом",
+          "body": "<p>Трактир был отремонтирован на деньги Трелони, у матери появились кресло и мальчик-помощник. Только увидев его на своём месте, я впервые по-настоящему почувствовал, что уезжаю. Слёзы не помешали мне придираться к неловкому новичку: возможностей поучить его я не упускал. Наутро мы с Редрутом ушли, потом почтовая карета довезла нас до Бристоля. По пути вдоль причалов я смотрел на мачты, резные носы, матросские серьги, канаты, на людей высоко над палубами. Живя у моря с рождения, я словно впервые к нему приблизился. Сквайр встретил нас в синем морском костюме и сам уже ходил вразвалку. Отплывать предстояло завтра.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Before leaving",
+          "body": "<p>Trelawney had paid for the inn to be repaired, and Mother now had an armchair and a boy to help her. Only when I saw him in my place did I truly understand that I was leaving. My tears did not prevent me from finding fault with the clumsy newcomer: I missed no opportunity to correct him. Next morning Redruth and I left, and the mail coach later carried us to Bristol. Walking along the quays, I stared at masts, carved figureheads, sailors' earrings, ropes, and men high above the decks. I had lived by the sea all my life, yet felt I was approaching it for the first time. The squire met us in a blue seagoing outfit, already copying a sailor's rolling walk. We were to sail tomorrow.</p>"
+        }
+      }
+    },
+    {
+      "id": "spyglass",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · VIII · L1687–1893",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "В «Подзорной трубе»",
+          "body": "<p>С запиской сквайра я пришёл в «Подзорную трубу». Там было чисто, на окнах краснели занавески, а высокий одноногий хозяин ловко скакал между столами, шутил и хлопал знакомых по плечу. После Бонса и Пью я решил, что уж теперь знаю пирата в лицо; этот приветливый человек совсем на них не походил. Сильвер пожал мне руку — и в тот же миг один посетитель бросился к выходу. Я узнал Чёрного Пса и закричал. Сильвер послал за ним людей, возмутился, что разбойник пил в его доме, допросил старого матроса Моргана. Тот якобы не знал ни имени собеседника, ни толком предмета беседы, кроме протаскивания под килем. Хозяин бранился, бегал на костыле и всячески торопил погоню.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "At the Spy-glass",
+          "body": "<p>I brought the squire's note to the Spy-glass. The place was clean, with red curtains, and its tall, one-legged landlord moved cleverly amongst the tables, joking and clapping acquaintances on the shoulder. After Bones and Pew, I thought I knew what pirates looked like. This pleasant man was quite different. Silver shook my hand, and at that very moment a customer bolted for the door. I recognised Black Dog and shouted. Silver sent men after him, expressed horror that a robber had been drinking in his house, and questioned an old sailor named Morgan. Supposedly Morgan knew neither the man's name nor much of their conversation, beyond keel-hauling. The landlord cursed, hurried about on his crutch, and urged on the pursuit.</p>"
+        }
+      }
+    },
+    {
+      "id": "quays",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · VIII · L1687–1893",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "По набережной",
+          "body": "<p>Беглеца не поймали. Сильвер переживал, что подумает сквайр, просил меня подтвердить, как всё случилось, а потом вспомнил о неоплаченных трёх порциях рома. Он так хохотал над собственной забывчивостью, что я тоже рассмеялся. Мы пошли докладывать вместе. По дороге он объяснял мне устройство встречных судов, рассказывал о работе в порту, учил морским выражениям. К моменту встречи с Трелони и Ливси я готов был ручаться за его честность. Он пересказал происшествие живо и точно, всё время обращаясь ко мне за подтверждением; подтвердить я мог каждое слово. Доктор одобрил сквайрову находку, а я уже радовался такому товарищу по плаванию.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Along the quays",
+          "body": "<p>They did not catch the fugitive. Silver worried what the squire would think and asked me to confirm how it had happened. Then he remembered the unpaid bill for three drinks. He laughed so hard at his own forgetfulness that I joined in. We went to report together. Along the way he explained the ships we passed, described the work in the port, and taught me nautical expressions. By the time we met Trelawney and Livesey, I was ready to guarantee his honesty. His account was lively and accurate, with constant appeals to me for confirmation; I could confirm every word. The doctor approved of the squire's discovery, and I was already delighted to have such a shipmate.</p>"
+        }
+      }
+    },
+    {
+      "id": "captain",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · IX · L1894–2115",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Разговор в каюте",
+          "body": "<p>На «Испаньоле» нашёлся человек, которому почти ничего не нравилось: капитан Смоллетт. Его наняли под секретное поручение, но о цели похода он узнал от команды. Матросов выбирал не он, помощник Эрроу слишком с ними запанибрата, а тайна карты давно разболтана. Трелони рассердился; Ливси заставил обоих выслушать друг друга. Капитан потребовал перенести порох и оружие к корме, разместить рядом людей сквайра и держать подлинную карту в секрете даже от него самого. Он не утверждал, что команда непременно взбунтуется, но отвечал за корабль и не собирался выходить в море без этих предосторожностей. Сквайр нехотя согласился. Доктор сказал, что теперь у нас по крайней мере двое честных людей: Смоллетт и Сильвер.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A cabin conversation",
+          "body": "<p>On the Hispaniola we found a man who liked almost nothing: Captain Smollett. Hired for a secret mission, he had learnt its purpose from the crew. He had not chosen the sailors, the mate Arrow was too familiar with them, and the secret of the map was already abroad. Trelawney grew angry; Livesey made both men hear each other out. The captain wanted powder and weapons moved aft, the squire's people berthed nearby, and the original map kept secret even from himself. He did not claim that the crew would certainly mutiny, but he was responsible for the ship and would not sail without these precautions. The squire reluctantly agreed. The doctor said we now had at least two honest men aboard: Smollett and Silver.</p>"
+        }
+      }
+    },
+    {
+      "id": "berths",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · IX · L1894–2115",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Перед выходом",
+          "body": "<p>Мы таскали оружие и меняли места для сна. Повар появился с последними моряками, заметил возню с порохом и заволновался, не упустим ли прилив. Смоллетт коротко велел ему идти готовить ужин; Сильвер сразу послушался. Я разглядывал нашу пушку, когда капитан погнал и меня работать, громко добавив, что любимчиков на корабле не будет. Мне новые порядки совсем не понравились. Трелони считал капитана несносным, и я был совершенно с ним согласен. Зато на камбузе ждал человек, который охотно разговаривал, знал всё про корабли и никогда не уставал быть со мной любезным.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Before departure",
+          "body": "<p>We shifted weapons and sleeping arrangements. The cook arrived with the last sailors, noticed the work with the powder, and worried that we would miss the tide. Smollett curtly told him to prepare supper; Silver obeyed at once. I was examining our gun when the captain drove me to work too, announcing loudly that he would have no favourites aboard. I disliked these new arrangements. Trelawney found the captain intolerable, and I entirely agreed with him. In the galley, by contrast, there was someone willing to talk, who knew everything about ships and never tired of being kind to me.</p>"
+        }
+      }
+    },
+    {
+      "id": "departure",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · X · L2116–2317",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Начало перехода",
+          "body": "<p>Перед рассветом боцман засвистел, команда налегла на ворот, а Сильвер затянул ту самую песню, которой Бонс мучил наш трактир. На миг мне снова послышался капитанский голос. Потом якорь поднялся, паруса наполнились, и берег поплыл назад. Переход в целом шёл благополучно: шхуна оказалась отличной, матросы умелыми, Смоллетт знал дело. Только Эрроу всё чаще выходил пьяным, терял власть над командой, падал, отлёживался в койке. Откуда он брал спиртное, никто не выяснил. Однажды тёмной ночью он исчез; больше его не видели. Часть его обязанностей перешла к боцману Андерсону, помогали также сквайр и опытный Израэль Хендс.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The passage begins",
+          "body": "<p>Before dawn the boatswain's whistle sounded, the men heaved at the capstan, and Silver began the very song with which Bones had tormented our inn. For a moment I seemed to hear the captain's voice again. Then the anchor rose, the sails filled, and the coast slipped away behind us. The passage generally went well: the schooner proved excellent, the seamen skilful, and Smollett knew his work. Only Arrow increasingly appeared drunk, lost control of the crew, fell about, and lay in his bunk. Nobody discovered where he got the liquor. One dark night he disappeared and was never seen again. Some of his duties fell to the boatswain Anderson; the squire and the experienced Israel Hands helped too.</p>"
+        }
+      }
+    },
+    {
+      "id": "galley",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · X · L2116–2317",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Камбуз и бочка",
+          "body": "<p>В море Сильвер готовил, упирая костыль в переборку, а по палубе передвигался с помощью специально протянутых верёвок. Он умел оказать каждому услугу, и матросы его слушались. Меня он часто звал посидеть на чистом камбузе. Его попугай, капитан Флинт, кричал про пиастры и ругался; Сильвер уверял, что птица видела несметные сокровища и чуть ли не двести лет странствует по морям. Я заслушивался. Сквайр баловал команду угощениями, и посреди судна постоянно стояла открытая бочка яблок. Под конец перехода я полез туда за яблоком. На дне осталось совсем немного, и, сидя в темноте под покачивание корабля, я задремал. Кто-то тяжело уселся рядом, прислонился к бочке и заговорил голосом Сильвера. Через несколько слов я уже не смел шевельнуться.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Galley and barrel",
+          "body": "<p>At sea Silver cooked with his crutch braced against a partition and crossed the deck using ropes specially rigged for him. He found ways to do everyone a favour, and the sailors listened to him. He often invited me into his spotless galley. His parrot, Captain Flint, screeched about pieces of eight and swore. Silver claimed the bird had witnessed immense treasures and had been travelling the seas for nearly two hundred years. I loved listening. The squire spoiled the crew with treats, and an open barrel of apples always stood amidships. Towards the end of the passage I climbed inside for an apple. Few remained at the bottom, and I grew drowsy in the darkness with the movement of the ship. Someone sat down heavily beside it, leaned against the barrel, and spoke in Silver's voice. Within a few words I no longer dared move.</p>"
+        }
+      }
+    },
+    {
+      "id": "dick",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XI · L2318–2534",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Разговор за стенкой",
+          "body": "<p>Сильвер рассказывал молодому матросу Дику, что служил у пиратов: сперва у Ингленда, затем у Флинта, где был квартирмейстером. Деньги он, в отличие от товарищей, сберёг; теперь они уже у жены, трактир продан, и после этого похода он собирался жить настоящим господином. Дику он говорил те же лестные слова, какими прежде покупал моё расположение. Я слушал и ненавидел его. Юноша соглашался; рукопожатие даже качнуло мою бочку. Подошёл Хендс. Ему надоело терпеть Смоллетта, хотелось завладеть каютой и хорошим вином. Сильвер осадил его: пока нужны капитан, который проложит курс, и владельцы карты, которые найдут золото и помогут погрузить его. Захватывать корабль следует в последний возможный момент, а не сейчас.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Voices on the other side",
+          "body": "<p>Silver was telling a young sailor, Dick, that he had served with pirates: first England, then Flint, whose quartermaster he had been. Unlike his companions, he had saved his money. His wife now had it, the tavern was sold, and after this voyage he intended to live as a gentleman. He flattered Dick with the same words he had used to win me. I listened and hated him. The young man agreed; their handshake even shook my barrel. Hands joined them. He had had enough of Smollett and wanted the cabin and its fine wine. Silver checked him. They still needed the captain to plot a course and the owners of the map to find the gold and help load it. The ship must be seized at the last possible moment, not now.</p>"
+        }
+      }
+    },
+    {
+      "id": "apple",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XI · L2318–2534",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Не двигаться",
+          "body": "<p>На вопрос, что делать с нашими людьми потом, повар выбрал смерть. Оставлять свидетелей, пока сам собираешься ездить в карете, ему не хотелось. Трелони он потребовал себе. И тут Сильвер попросил Дика достать яблоко. Я лежал внизу, не в силах вскочить; спас меня Хендс, предложивший вместо яблок ром. Повар дал ключ от бочонка. В его отсутствие я уловил несколько слов: больше никто к ним не присоединится. Значит, на судне ещё оставались верные люди. Заговорщики выпили за удачу, Флинта и себя, а сверху донёсся крик о земле. Луна осветила край бочки. Все бросились смотреть на остров, и я наконец получил возможность выбраться незамеченным.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Keep still",
+          "body": "<p>Asked what they should do with our people afterwards, the cook chose death. He did not want witnesses returning while he was riding about in his carriage. He claimed Trelawney for himself. Then Silver asked Dick to fetch an apple. I lay at the bottom, unable to get up; Hands saved me by proposing rum instead. The cook provided the key to the keg. While Dick was away, I caught a few more words: none of the others would join. So loyal men remained aboard. The plotters drank to luck, Flint, and themselves, and a cry of land came from above. Moonlight fell across the edge of the barrel. Everyone hurried to look at the island, and I finally had a chance to climb out unseen.</p>"
+        }
+      }
+    },
+    {
+      "id": "chart-copy",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XII · L2535–2747",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "При лунном свете",
+          "body": "<p>На палубе Сильвер уже объяснял капитану, как войти в гавань. Смоллетт показал ему чистую копию карты — без красных крестов и указаний о кладе; повар скрыл разочарование. Потом он дружески взял меня за руку, пообещал еду для прогулок по острову, заговорил о купании и лазанье по горам. Я едва удержался от дрожи. Под благовидным предлогом доктор устроил встречу в каюте, и я рассказал ему, сквайру и капитану всё слышанное. Меня усадили за стол, дали изюм и вино, выпили за моё здоровье. Трелони признал свою ошибку и объявил, что отныне ждёт приказаний Смоллетта. Тот тоже не хвастался прозорливостью: так скрывать заговор умела далеко не каждая команда.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "In the moonlight",
+          "body": "<p>On deck Silver was already explaining the entrance to the harbour. Smollett showed him a clean copy of the chart, without the red crosses or the treasure directions; the cook concealed his disappointment. Then he took my arm in friendship, promised food for my island excursions, and talked of bathing and climbing hills. I could scarcely keep from shuddering. Under an innocent pretext the doctor arranged a meeting in the cabin, and I told him, the squire, and the captain everything I had heard. They seated me at the table, gave me raisins and wine, and drank my health. Trelawney admitted his mistake and said he would await Smollett's orders. The captain did not boast of foresight either: few crews could conceal a conspiracy so well.</p>"
+        }
+      }
+    },
+    {
+      "id": "council",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XII · L2535–2747",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "За закрытой дверью",
+          "body": "<p>Назад повернуть было нельзя — мятеж вспыхнул бы сразу. Время у нас оставалось до находки золота; следовало воспользоваться им и ударить тогда, когда нас меньше всего ждут. Пока наверняка можно было рассчитывать на капитана, доктора, сквайра, троих его слуг и меня. Семеро из двадцати шести, причём я был мальчишкой. Ливси надеялся, что матросы при мне будут говорить свободнее, Трелони возлагал на меня огромные надежды. Мне от этих слов стало только страшнее: я чувствовал себя совершенно беспомощным. Над нами продолжалась обычная судовая жизнь, за бортом темнел остров, а мы ещё не знали, кого из людей на палубе удастся удержать от убийства.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Behind a closed door",
+          "body": "<p>We could not turn back; that would bring an immediate mutiny. We had time until the gold was found, and must use it to strike when least expected. For the moment we could be sure only of the captain, the doctor, the squire, his three servants, and me. Seven out of twenty-six, and I was a boy. Livesey hoped the sailors would speak more freely in front of me; Trelawney placed tremendous confidence in me. Their words only frightened me more, because I felt entirely helpless. Ordinary shipboard life continued above us, the island lay dark outside, and we still did not know which men on deck could be kept from murder.</p>"
+        }
+      }
+    },
+    {
+      "id": "anchorage",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIII · L2748–2929",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "У острова",
+          "body": "<p>Утром я увидел серый лес, жёлтые пески и голые скальные вершины. Остров совсем не походил на место, куда так хотелось попасть. Без ветра корабль качался на зыби; меня мутило, а за берегом бесконечно гремел прибой. Пришлось буксировать шхуну шлюпками к южной стоянке, за остров Скелета. Гребцы ругались, Андерсон ругался с ними. Сильвер уверенно показывал проход. В закрытой бухте пахло гниющими листьями, доктор опасался лихорадки. Матросы развалились на палубе и отвечали на приказания так, что ещё одно столкновение грозило открытым бунтом. Повар, напротив, пел, улыбался и усердно исполнял любую команду. Видно было, как отчаянно он старается удержать своих от преждевременного выступления.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Off the island",
+          "body": "<p>In the morning I saw grey woods, yellow sand, and bare rocky peaks. The island looked nothing like the place I had longed to reach. Without wind the ship rolled in the swell, making me sick, while surf thundered endlessly beyond the shore. We had to tow the schooner in boats to the southern anchorage behind Skeleton Island. The rowers cursed, and Anderson cursed with them. Silver confidently directed the passage. The enclosed bay smelled of rotting leaves; the doctor feared fever. Sailors sprawled on deck and answered orders so badly that another confrontation threatened open rebellion. The cook, meanwhile, sang, smiled, and obeyed every command with enthusiasm. It was clear how desperately he was trying to restrain his men from acting too soon.</p>"
+        }
+      }
+    },
+    {
+      "id": "boats",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIII · L2748–2929",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "К берегу",
+          "body": "<p>Смоллетт разрешил желающим провести остаток дня на суше: Сильверу это даст время уговорить людей, а нам — передышку. Шестеро матросов остались на корабле, тринадцать, включая повара, уселись в лодки. Я без разрешения забрался в одну из них, решив, что моим спутникам сейчас всё равно не помочь захватить судно. Сильвер заметил меня из другой лодки и окликнул; тут я уже пожалел о своей затее. Наша лодка шла впереди. Едва она ткнулась в береговые деревья, я ухватился за ветку, выскочил и нырнул в чащу. За спиной звали, но я бежал, пригибался, проламывался через кусты и остановился лишь тогда, когда совсем выдохся.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Towards shore",
+          "body": "<p>Smollett allowed anyone who wished to spend the rest of the day ashore. This would give Silver time to reason with his people, and us a breathing space. Six sailors stayed aboard; thirteen, including the cook, took to the boats. Without permission I climbed into one, deciding that I could do little to help my companions seize the ship just then. Silver noticed me from the other boat and called out, and I regretted my idea at once. Our boat was ahead. As soon as it touched the trees along the shore, I caught a branch, swung myself out, and plunged into the undergrowth. Someone called behind me, but I ran, ducked, and broke through bushes, stopping only when I was completely out of breath.</p>"
+        }
+      }
+    },
+    {
+      "id": "marsh",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIV · L2930–3123",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Голоса у топи",
+          "body": "<p>Ускользнув от Сильвера, я успел немного обрадоваться свободе. Вокруг росли незнакомые растения, среди камней мелькали змеи; одна подняла голову и затрещала. Я тогда не знал, какой опасности избежал. За болотом всполошились птицы, и вслед за их криком донеслись человеческие голоса. Я спрятался под низкими ветвями и подполз ближе. У топи Сильвер уговаривал матроса Тома: будто бы из особого расположения предупреждал, что сопротивляться поздно. Том всё ещё обращался к нему как к порядочному человеку и не соглашался изменить долгу. Вдали раздался гневный крик, за ним другой — и длинный вопль. Птицы снова взметнулись, эхо металось среди скал. Сильвер спокойно сказал, что это, должно быть, Алан.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Voices by the marsh",
+          "body": "<p>After escaping Silver, I briefly enjoyed my freedom. Unfamiliar plants grew around me and snakes slipped amongst the stones; one raised its head and rattled. I did not then understand the danger I had avoided. Birds rose in alarm beyond the marsh, and human voices followed their cries. I hid under low branches and crawled closer. Beside the swamp Silver was persuading a sailor called Tom, supposedly warning a special friend that resistance was useless. Tom still addressed him as an honest man and refused to abandon his duty. In the distance came an angry cry, then another, then a long scream. The birds rose again, and echoes rang amongst the rocks. Silver calmly said that it must be Alan.</p>"
+        }
+      }
+    },
+    {
+      "id": "tom",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIV · L2930–3123",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Среди деревьев",
+          "body": "<p>Том объявил, что больше не товарищ ему, и повернулся к берегу. Сильвер схватился за ветку, выдернул костыль и метнул его Тому в спину. Матрос рухнул. Повар мигом добрался до лежащего и дважды ударил ножом. Лес, солнце и гора закружились у меня перед глазами; когда я снова начал понимать происходящее, Сильвер уже стоял на костыле и вытирал клинок травой. Потом достал свисток. Я пополз назад, а услышав ответы сообщников, кинулся бежать. Вернуться к лодкам теперь казалось невозможным: после Тома и Алана убьют меня. От корабля я отрезан, друзья далеко, а впереди оставалась только чужая земля, где можно прятаться, пока хватит сил.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Amongst the trees",
+          "body": "<p>Tom declared that they were shipmates no longer and turned towards the beach. Silver caught a branch, pulled out his crutch, and hurled it into Tom's back. The sailor fell. The cook reached him in an instant and stabbed him twice. Trees, sunlight, and mountain spun before my eyes. When I could understand what was happening again, Silver was standing on his crutch, wiping the blade with grass. Then he took out a whistle. I crawled backwards, and when his accomplices answered I ran. Returning to the boats now seemed impossible: after Tom and Alan, they would kill me. I was cut off from the ship, my friends were far away, and before me lay only strange country in which to hide for as long as I had the strength.</p>"
+        }
+      }
+    },
+    {
+      "id": "islander",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XV · L3124–3385",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Кто-то впереди",
+          "body": "<p>С каменистого склона посыпалась галька. Между деревьями мелькнуло косматое существо, то ли человек, то ли зверь. Я повернул обратно, но оно стало обходить меня, двигаясь быстрее, чем я мог бежать. Вспомнив о пистолете, я набрался смелости и пошёл навстречу. Незнакомец отступил, снова приблизился и неожиданно опустился на колени. Его звали Бен Ганн. Три года он не разговаривал с христианином: товарищи оставили его на острове. Одежда держалась на палочках и обрывках верёвки, кожа почернела от солнца. Он ощупывал мою куртку, радовался обуви, говорил о козах, устрицах и ягодах, которыми живёт. Но всего больше ему хотелось сыра, особенно поджаренного; сыр снился ему по ночам. Я обещал достать его, если вернусь на корабль.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Someone ahead",
+          "body": "<p>Gravel rattled down the rocky hillside. A shaggy creature flashed amongst the trees, perhaps a man, perhaps an animal. I turned back, but it circled to cut me off, moving faster than I could run. Remembering my pistol, I gathered courage and walked towards it. The stranger withdrew, approached again, and unexpectedly fell to his knees. His name was Ben Gunn. He had not spoken to a Christian for three years: his companions had marooned him. Sticks and scraps of rope held his clothing together; his skin was burnt dark. He felt my jacket, delighted in my shoes, and talked about the goats, oysters, and berries that kept him alive. Above all he wanted cheese, particularly toasted cheese; he dreamed of it at night. I promised some if I got back to the ship.</p>"
+        }
+      }
+    },
+    {
+      "id": "ben-account",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XV · L3124–3385",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "История Бена",
+          "body": "<p>Бен то вспоминал благочестивую мать, то обещал исправиться, то таинственно уверял, что богат. От одиночества он, должно быть, помешался, подумал я. Но при упоминании Флинтовых матросов и одноногого Сильвера он сразу стал серьёзен. Я рассказал о нашем положении, и Бен предложил помощь: даст ли сквайр тысячу фунтов и возьмёт ли домой? Я не сомневался, что даст. Бен прежде плавал с Флинтом. Он видел, как тот ушёл на остров с шестью людьми, а вернулся один; где лежит добыча, остальные так и не узнали. Позже Бен привёл сюда другую команду искать клад. После двенадцати бесплодных дней товарищи оставили ему ружьё, кирку, лопату — и возможность искать дальше самому.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Ben's account",
+          "body": "<p>Ben recalled his pious mother, promised to reform, and mysteriously insisted that he was rich. Solitude must have driven him mad, I thought. But the mention of Flint's men and one-legged Silver made him instantly serious. I described our predicament, and Ben offered help: would the squire give him a thousand pounds and take him home? I was sure he would. Ben had sailed with Flint. He had seen the captain go ashore with six men and return alone; the others aboard never learnt where the plunder lay. Later Ben had brought another crew here to search for it. After twelve fruitless days, they left him a musket, a pick, a spade, and the opportunity to continue alone.</p>"
+        }
+      }
+    },
+    {
+      "id": "white-rock",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XV · L3124–3385",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Звук пушки",
+          "body": "<p>Он просил передать сквайру загадочные слова о своих занятиях на острове и для убедительности щипал меня. Смысл я понимал плохо, зато услышал полезное: под белой скалой спрятана лодка, сделанная его руками. Если станет совсем худо, можно попробовать её ночью. Тут грянула пушка. Я кинулся к стоянке, Бен легко побежал рядом и показывал дорогу. За выстрелом последовала ружейная пальба; вскоре над лесом поднялся британский флаг. Мне хотелось скорее добраться до своих, но Ганн удержал меня за руку. Кто теперь находится у флага и что успело случиться на корабле, я ещё не знал.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A cannon sounds",
+          "body": "<p>He wanted me to repeat mysterious words to the squire about his activities on the island, pinching me to make them more convincing. I understood little, but heard something useful: beneath a white rock was a boat he had built himself. If things became desperate, we could try it at night. Then a cannon fired. I ran towards the anchorage, and Ben trotted easily beside me, showing the way. Musket fire followed, and soon a British flag rose over the woods. I wanted to reach my friends, but Gunn held my arm. Who stood beneath the flag, and what had happened aboard, I did not yet know.</p>"
+        }
+      }
+    },
+    {
+      "id": "spring",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVI · L3386–3568",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: разведка",
+          "body": "<p>Пока Джим бродил по острову, мы на «Испаньоле» обсуждали, как поступить с шестью оставшимися матросами. Ветра не было: захватив судно, всё равно не смогли бы уйти. Известие, что мальчик уехал с остальными, встревожило нас ещё сильнее. Я, доктор Ливси, отправился с Хантером на разведку. Шлюпочные сторожа остались возле своих лодок, а мы скрылись за изгибом берега и высадились у обозначенного на карте укрепления. Там стоял крепкий бревенчатый дом с бойницами, вокруг — высокий частокол. Главное, прямо внутри бил источник. На корабле у нас имелись оружие, еда и вино, но воды для осады не было. В эту минуту из леса донёсся предсмертный крик. Я подумал, что погиб Джим, и поспешил обратно.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: reconnaissance",
+          "body": "<p>While Jim wandered about the island, we aboard the Hispaniola were considering what to do with the six sailors left behind. There was no wind: even if we took the ship, we could not sail away. Learning that the boy had gone with the others alarmed us still more. I, Dr Livesey, went ashore with Hunter to investigate. The boat guards stayed beside their vessels while we disappeared behind a bend and landed near the fort marked on the chart. There was a strong log house with loopholes, surrounded by a tall stockade. Most important, a spring rose inside it. Aboard we had arms, food, and wine, but no water for a siege. At that moment a death cry came from the woods. Thinking Jim had been killed, I hurried back.</p>"
+        }
+      }
+    },
+    {
+      "id": "cargo",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVI · L3386–3568",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: припасы",
+          "body": "<p>План переезда мы составили сразу. Редрут с заряженными мушкетами загородил проход между каютой и носовой частью; капитан предупредил Хендса, что за любой сигнал на берег будут стрелять. Мы с Джойсом грузили порох, свинину, сухари, оружие и мой ящик лекарств. Первый груз довезли благополучно, перенесли через ограду, оставили Хантера и Джойса охранять дом. Я вернулся за остальными. Теперь шлюпочные сторожа уже встревожились, один побежал за товарищами. Мы торопливо набивали лодку новым грузом; лишние мушкеты и порох пришлось сбросить за борт. Сквозь воду было видно, как сталь блестит на песчаном дне.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: supplies",
+          "body": "<p>We immediately planned our move. With loaded muskets, Redruth blocked the passage between the cabin and the forward part of the ship; the captain warned Hands that any signal ashore would be answered with gunfire. Joyce and I loaded powder, pork, biscuit, weapons, and my medicine chest. We safely delivered the first cargo, passed it over the fence, and left Hunter and Joyce guarding the house. I returned for the others. The boat guards were now alarmed, and one ran to his companions. We hurriedly filled our boat with another load; spare muskets and powder had to be thrown overboard. Through the water we could see the steel shining on the sandy bottom.</p>"
+        }
+      }
+    },
+    {
+      "id": "gray",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVI · L3386–3568",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: перед отходом",
+          "body": "<p>Перед отходом Смоллетт вызвал Абрахама Грея. Он считал его хорошим человеком и дал полминуты, чтобы последовать за капитаном. Сначала ответа не было, затем послышалась драка, и Грей выбежал из носовой части с порезанной щекой. Он прыгнул к нам, следом спустился Смоллетт. Пять взрослых людей, запас еды и боеприпасы сидели в маленькой лодке; двое наших уже ждали в укреплении. От корабля мы отошли, но отлив тянул в сторону, а на берегу между нами и домом могли появиться вернувшиеся пираты.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: before leaving",
+          "body": "<p>Before leaving, Smollett called Abraham Gray. He believed him a decent man and gave him half a minute to follow his captain. At first there was no answer, then a scuffle, and Gray ran from the forward quarters with a cut cheek. He jumped in, and Smollett followed. Five grown men, provisions, and ammunition occupied the little boat; two of our people were already waiting in the fort. We were clear of the ship, but the ebb pulled us sideways, and returning pirates might appear on the shore between us and the house.</p>"
+        }
+      }
+    },
+    {
+      "id": "current",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVII · L3569–3742",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: течение",
+          "body": "<p>Вода едва не переливалась через корму. Капитан рассадил людей ровнее, но грести сильнее было нельзя: лодку залило бы. Отлив уносил нас мимо нужного места; пришлось держать нос почти поперёк желаемого курса, чтобы постепенно выйти из самой сильной струи. Грей подсказал, где течение стало слабее, и мы приняли его совет, словно он всегда был своим. Тут капитан заметил пушку. На «Испаньоле» пятеро возились возле орудия, а заряды и ядра мы забыли уничтожить. Хендс когда-то служил у Флинта канониром. Трелони, лучший стрелок среди нас, прицелился в него; мы прекратили грести и наклонились, уравновешивая лодку. Хендс пригнулся в самую секунду выстрела, и пуля попала в другого.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: the current",
+          "body": "<p>Water almost came over the stern. The captain rearranged our weight, but we could not row harder without swamping the boat. The ebb swept us past our landing place. We had to point almost across our intended course, gradually escaping the strongest stream. Gray told us where it was weakening, and we accepted his advice as though he had always been one of us. Then the captain noticed the gun. Five men were working around it aboard the Hispaniola; we had forgotten to destroy its charges and shot. Hands had been Flint's gunner. Trelawney, our best marksman, aimed at him. We stopped rowing and leaned over to balance the boat. At the instant of the shot Hands stooped, and the bullet struck another man.</p>"
+        }
+      }
+    },
+    {
+      "id": "last-trip",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVII · L3569–3742",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: к суше",
+          "body": "<p>На берегу закричали, люди побежали к шлюпкам. Мы уже приближались к песчаной полосе, где могли выбраться, но теперь подставляли пушке весь борт. Сквайр следил за фитилём. По его команде капитан с Редрутом резко осадили лодку; в ту же секунду грянул выстрел. Где пролетело ядро, никто из нас точно не понял. Лодка мягко ушла кормой вниз. К счастью, глубина была по пояс или меньше: мы встали на ноги, остальные вынырнули, и все смогли добраться до суши. Удалось сохранить сухими только два мушкета. Половина запасов осталась в воде; из-за деревьев уже слышались голоса, а укрепление всё ещё находилось впереди.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: towards land",
+          "body": "<p>Shouts came from the beach, and men ran for the boats. We were nearing a strip of sand where we could land, but now offered the cannon our whole broadside. The squire watched for the match. At his warning the captain and Redruth abruptly checked the boat; the gun fired at the same moment. None of us knew exactly where its ball went. Our boat gently sank by the stern. Fortunately the water was waist-deep or less: we stood, the others surfaced, and everyone could reach land. Only two muskets remained dry. Half our supplies lay underwater; voices already sounded amongst the trees, and the fort was still ahead.</p>"
+        }
+      }
+    },
+    {
+      "id": "redruth",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVIII · L3743–3924",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: у частокола",
+          "body": "<p>Мы поспешили сквозь лес. Сквайр получил сухой мушкет капитана, Грею я отдал свою саблю. У частокола нас почти настигли семеро во главе с Андерсоном. Мы выстрелили, Хантер и Джойс поддержали из дома; один нападавший упал, прочие скрылись. Когда мы подошли к убитому, из кустов выстрелили ещё раз. Редрут рухнул. Мы перенесли его через ограду, но я сразу понял, что спасти старого егеря нельзя. Сквайр встал перед ним на колени, целовал руку, просил прощения. Редрут сомневался, прилично ли слуге прощать хозяина, однако согласился. Потом попросил прочитать молитву — так принято. Вскоре он умер. Трелони плакал, как ребёнок.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: by the stockade",
+          "body": "<p>We hurried through the woods. The squire took the captain's dry musket, and I gave Gray my cutlass. Near the stockade seven men led by Anderson almost caught us. We fired, with Hunter and Joyce joining from the house; one attacker fell and the others disappeared. When we approached the dead man, another shot came from the bushes. Redruth collapsed. We carried him over the fence, but I saw at once that the old gamekeeper could not be saved. The squire knelt, kissed his hand, and begged forgiveness. Redruth wondered whether it was proper for a servant to forgive his master, but agreed. Then he asked for a prayer to be read: it was customary. Soon afterwards he died. Trelawney cried like a child.</p>"
+        }
+      }
+    },
+    {
+      "id": "flag",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XVIII · L3743–3924",
+      "copy": {
+        "ru": {
+          "section": "Рассказ доктора Ливси",
+          "title": "Доктор: под флагом",
+          "body": "<p>Капитан тем временем вынул из набитых карманов флаг, Библию, табак и письменные принадлежности, поставил с Хантером ствол вместо мачты и поднял британские цвета. Тело Редрута он накрыл другим флагом. Продовольствия при урезанном пайке набиралось всего на десять дней, а судно на поиски раньше конца августа не пошлют. С моря начали стрелять по нашему флагу. Снять его Смоллетт отказался. Ядра большей частью перелетали дом или зарывались в песок; одно пробило крышу и пол. Мы понемногу привыкли. Вернуть затопленные припасы не удалось: Сильвер уже распоряжался их погрузкой в свою шлюпку. И тут с суши раздались знакомые оклики. К ограде подошёл живой, невредимый Джим Хокинс.</p>"
+        },
+        "en": {
+          "section": "Dr Livesey's account",
+          "title": "The doctor: beneath the flag",
+          "body": "<p>Meanwhile the captain emptied his swollen pockets of a flag, a Bible, tobacco, and writing materials, set up a tree trunk with Hunter, and raised the British colours. He covered Redruth with another flag. On short rations we had only ten days' food, and no search vessel would be sent before the end of August. The ship began firing at our flag. Smollett refused to lower it. Most cannonballs passed over the house or buried themselves in sand; one pierced the roof and floor. Gradually we grew used to them. We could not recover the submerged supplies: Silver was already directing their removal into his own boat. Then familiar calls came from inland. Jim Hawkins approached the fence, alive and unharmed.</p>"
+        }
+      }
+    },
+    {
+      "id": "jim-return",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIX · L3925–4142",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Джим: снова со своими",
+          "body": "<p>У флага Бен Ганн уверял меня, что там друзья: Сильвер непременно поднял бы чёрный. Сам он идти отказался, пока не получит честного слова от настоящего джентльмена. Доктор или сквайр должен явиться один, с чем-нибудь белым в руке, и выслушать Бена. Пушечное ядро прервало разговор, и мы разбежались. Я сделал большой крюк; с берега увидел на «Испаньоле» пиратский флаг, пьяную возню возле костра, а на косе приметил белую скалу. Когда канонада стихла, добрался до частокола. Друзья уже оставили шхуну, перенесли часть запасов в сруб с источником; Редрут погиб. Меня встретили тепло, я рассказал о встрече с Ганном и его спрятанной лодке.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Jim: amongst friends again",
+          "body": "<p>Beside the flag, Ben Gunn had insisted that my friends were there: Silver would certainly have flown black colours. He would not come himself without an honourable promise from a real gentleman. The doctor or squire must meet Ben alone, carrying something white, and hear him out. A cannonball interrupted us, and we scattered. I made a wide circuit. From the shore I saw the pirate flag on the Hispaniola, drunken activity around a fire, and a white rock on the spit. When the bombardment ended, I reached the stockade. My friends had abandoned the schooner and moved some supplies to the log house with its spring; Redruth was dead. They welcomed me warmly, and I reported my meeting with Gunn and his hidden boat.</p>"
+        }
+      }
+    },
+    {
+      "id": "sand",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIX · L3925–4142",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Песок и дым",
+          "body": "<p>В доме ветер сеял мелкий песок: он скрипел на зубах, попадал в еду, плясал в воде родника. Дым уходил в отверстие на крыше плохо, глаза слезились. Грей сидел с перевязанной щекой, тело Редрута лежало у стены. Капитан не давал нам сидеть без дела: разделил на вахты, отправил за дровами, поручил копать могилу, а доктора назначил поваром. У двери Ливси расспрашивал меня о Бене. Я сомневался в его рассудке; доктор считал, что после трёх лет одиночества это неудивительно. Узнав о сыре, он обрадовался: в табакерке у него хранился кусочек пармезана. Теперь было чем угостить Ганна.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Sand and smoke",
+          "body": "<p>Wind sifted fine sand through the house. It gritted in our teeth, entered our food, and danced in the spring water. Smoke escaped poorly through the hole in the roof, bringing tears to our eyes. Gray sat with his cheek bandaged, Redruth's body against the wall. The captain kept us busy: he divided watches, sent men for firewood and to dig a grave, and appointed the doctor cook. At the doorway Livesey questioned me about Ben. I doubted his sanity; the doctor thought that unsurprising after three years alone. Hearing about cheese delighted him: he carried a piece of Parmesan in his snuffbox. Now he had something for Gunn.</p>"
+        }
+      }
+    },
+    {
+      "id": "morning",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XIX · L3925–4142",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Следующее утро",
+          "body": "<p>Редрута похоронили до ужина. Начальники совещались: запасов мало, остаётся беречь своих и уменьшать число противников, надеясь также, что пьянство и болезни ослабят их. За лесом пираты до ночи орали песни. Капитан впервые потерял корабль; я после такого дня всё же уснул крепко. Разбудили меня голоса и слова о белом флаге. У ограды стояли двое. Один держал полотнище, другой был Сильвер, одетый в лучший синий кафтан. Он пришёл разговаривать — теперь от имени людей, выбравших его капитаном.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The next morning",
+          "body": "<p>We buried Redruth before supper. Our leaders conferred: with few provisions, we must protect our own people and reduce the enemy's numbers, hoping drink and illness would weaken them too. Beyond the trees the pirates shouted songs late into the night. The captain had lost a ship for the first time. After such a day I nevertheless slept soundly. Voices woke me, speaking of a white flag. Two men stood outside the fence. One held the cloth; the other was Silver in his best blue coat. He had come to talk, now on behalf of the men who had elected him captain.</p>"
+        }
+      }
+    },
+    {
+      "id": "truce",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XX · L4143–4359",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Белый флаг",
+          "body": "<p>Смоллетт не признавал никакого капитана Сильвера, но позволил повару войти. Тот перебросил костыль через ограду, перелез сам и стал тяжело взбираться по песку между пнями. Приглашения в дом он не получил: пришлось усесться перед порогом. Сильвер заговорил о ночной вылазке, при которой одному из его людей разбили голову. Смоллетт не знал, о чём речь, однако вида не подал; я вспомнил намёки Бена. Повар предложил сделку: мы отдаём карту и прекращаем нападения, они находят золото. Потом нас либо высадят в безопасном месте, либо оставят здесь с частью припасов и пришлют помощь с первого встречного корабля. Уверял он так громко, чтобы слышали все в срубе.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A white flag",
+          "body": "<p>Smollett recognised no Captain Silver, but allowed the cook to enter. Silver threw his crutch across the fence, climbed over, and struggled up through the sand and stumps. No invitation indoors followed: he had to sit outside the threshold. He spoke of a night attack in which one of his men had been struck on the head. Smollett did not know what he meant but gave no sign; I remembered Ben's hints. The cook proposed a bargain. We would surrender the map and stop attacking; they would find the gold. Then they would either put us safely ashore somewhere or leave us here with part of the stores and send help from the first ship they encountered. He spoke loudly enough for everyone inside to hear.</p>"
+        }
+      }
+    },
+    {
+      "id": "terms",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XX · L4143–4359",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "У порога",
+          "body": "<p>Капитан терпеливо покурил и изложил свои условия: мятежники по одному являются без оружия, их закуют и отвезут в Англию на суд. Иначе он будет сражаться. Без карты им не найти сокровищ, без настоящего штурмана не управиться с кораблём; утешать Сильвера он больше не намерен. Повар побагровел. Он попросил помочь подняться; капитан отказался, остальные тоже не двинулись. Пришлось ползти к крыльцу и поднимать себя самому. Сильвер плюнул в источник, пообещал разнести дом в течение часа и пошёл вниз. Через ограду его перетащил помощник с белым флагом — после нескольких неудачных попыток. Мы смотрели вслед; оказалось, что за всё время переговоров только Грей не бросил свой пост.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "At the threshold",
+          "body": "<p>The captain smoked patiently, then gave his own terms: the mutineers would come in unarmed, one at a time, be put in irons, and be taken to England for trial. Otherwise he would fight. Without the map they could not find the treasure, and without a navigator they could not manage the ship; he had finished comforting Silver. The cook flushed with rage. He asked for a hand to get up; the captain refused, and nobody else moved. He had to crawl to the porch and lift himself. Silver spat into the spring, promised to smash the house within an hour, and went downhill. After several failed attempts, his companion with the white flag helped him over the stockade. We watched him leave. It turned out that only Gray had stayed at his post throughout the negotiations.</p>"
+        }
+      }
+    },
+    {
+      "id": "posts",
+      "level": 2,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXI · L4360–4599",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Ожидание",
+          "body": "<p>Капитан разогнал нас по бойницам и пристыдил даже сквайра с доктором. Теперь ждали нападения. На грудах дров лежали запасные заряженные мушкеты, посередине — сабли; огонь вынесли, чтобы не дымил. Трелони и Грей получили длинную северную стену с пятью бойницами, доктор — дверь, Хантер и Джойс — бока; мы с капитаном должны были заряжать. Жара усиливалась, смола на брёвнах таяла. Джойс вежливо уточнил, стрелять ли, если увидит кого-нибудь; потом выстрелил, и со всех сторон ответили из леса. По вспышкам и звуку мы поняли, что главная сила стоит на севере, но оголять остальные стороны Смоллетт не позволил.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Waiting",
+          "body": "<p>The captain sent us back to our loopholes, shaming even the squire and doctor. Now we waited for an attack. Spare loaded muskets lay on stacks of firewood, cutlasses in the middle; the fire was put outside to clear the smoke. Trelawney and Gray took the long north wall with its five loopholes, the doctor the door, Hunter and Joyce the sides. The captain and I would load. Heat intensified, and resin melted in the logs. Joyce politely asked whether to fire if he saw anyone. Then he fired, and shots answered from the surrounding woods. Their flashes and sound told us that the main force lay to the north, but Smollett would not leave the other sides unguarded.</p>"
+        }
+      }
+    },
+    {
+      "id": "attack",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXI · L4360–4599",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "У стен дома",
+          "body": "<p>Пираты бросились через частокол. Двоих свалили, один сбежал, четверо ворвались внутрь. У бойницы появился Андерсон, у другой Хантер лишился мушкета: его вырвали за ствол и ударили хозяина. Ещё один напал на доктора в дверях. Дом заполнили дым и крики; укрытие больше не защищало нас. Капитан велел хватать сабли и выходить наружу. Я выскочил на солнце, метнулся вокруг дома и оказался перед Андерсоном. Его клинок взлетел, я шарахнулся в сторону, оступился в песке и покатился вниз. Всё длилось считаные мгновения. Следовавший за мной Грей сразил боцмана, доктор одолел своего противника, ещё один пират был убит у бойницы. Последний бросил саблю и полез обратно через ограду.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Beside the house",
+          "body": "<p>Pirates rushed over the fence. Two were brought down, one fled, and four got inside. Anderson appeared at a loophole. At another, Hunter lost his musket: an attacker wrenched it out by the barrel and struck its owner. A third man attacked the doctor at the door. Smoke and shouting filled the house; our shelter no longer protected us. The captain ordered cutlasses and a rush outside. I ran into sunlight, turned around the house, and faced Anderson. His blade rose; I jumped aside, lost my footing in sand, and rolled downhill. It lasted only moments. Gray, following me, cut down the boatswain, the doctor overcame his attacker, and another pirate was killed at a loophole. The last threw away his cutlass and climbed back out over the fence.</p>"
+        }
+      }
+    },
+    {
+      "id": "casualties",
+      "level": 1,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXI · L4360–4599",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "После боя",
+          "body": "<p>Когда мы вернулись под крышу, стало видно, чем обошлась победа. Джойс лежал с простреленной головой, Хантер не приходил в себя, сквайр поддерживал раненого Смоллетта. Капитан первым спросил, бежали ли враги, затем стал считать оставшихся: теперь противников меньше и соотношение лучше, чем было на корабле. Доктор принялся за раненых. Частокол мы удержали, но за деревьями оставались вооружённые люди, в гавани — захваченная «Испаньола». Карта ещё была при нас; как найти сокровища, вернуть корабль и выбраться с острова, мы по-прежнему не знали.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "After the fight",
+          "body": "<p>When we returned indoors, the price of victory was plain. Joyce lay shot through the head, Hunter was unconscious, and the squire supported the wounded Smollett. The captain first asked whether the enemy had fled, then counted those remaining: there were fewer now, and the odds were better than aboard. The doctor attended the wounded. We had held the stockade, but armed men remained beyond the trees, and the captured Hispaniola in the harbour. We still had the map. How to find the treasure, recover the ship, and escape the island remained unanswered.</p>"
+        }
+      }
+    },
+    {
+      "id": "deep-warning",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Продолжение",
+          "title": "Дальше — полная история",
+          "body": "<p>Дальше раскрываются морская вылазка Джима, поиски сокровищ, исход мятежа и последняя сцена. «Главное» и «Суть книги» заканчиваются раньше и оставляют развязку неизвестной.</p>"
+        },
+        "en": {
+          "section": "Continuation",
+          "title": "Ahead: the complete story",
+          "body": "<p>The continuation reveals Jim’s sea excursion, the treasure hunt, the mutiny’s outcome, and the last scene. Essential and Core stop earlier, leaving the ending unrevealed.</p>"
+        }
+      }
+    },
+    {
+      "id": "noon",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXII · L4600–4807",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Полуденная жара",
+          "body": "<p>Новых выстрелов не было. Мы с Трелони готовили еду снаружи, слыша стоны тех, кого перевязывал доктор. Хантер так и не очнулся и следующей ночью умер. Смоллетту предстояло выздороветь, однако теперь он не мог ни ходить, ни двигать рукой и должен был как можно меньше говорить. После совета у его постели Ливси взял оружие, сунул карту в карман и ушёл в лес. Грей смотрел вслед с таким изумлением, словно доктор сошёл с ума. Я предположил, что он отправился к Бену Ганну, и позавидовал: там тень, свежий запах сосен, птицы, а здесь раскалённый песок, кровь, мёртвые, липкая смола на одежде. Пока я мыл посуду и убирал дом, желание уйти только усиливалось.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Noonday heat",
+          "body": "<p>There were no more shots. Trelawney and I cooked outside, hearing the groans of those the doctor was dressing. Hunter never regained consciousness and died the following night. Smollett was expected to recover, but for now could neither walk nor move his arm, and must speak as little as possible. After a conference beside his bed, Livesey took weapons, put the map in his pocket, and went into the woods. Gray stared after him as though the doctor had gone mad. I guessed he was visiting Ben Gunn and envied him: shade, the fresh scent of pines, birds, while we had scorching sand, blood, dead men, and sticky resin on our clothes. As I washed dishes and cleaned the house, the wish to leave only grew stronger.</p>"
+        }
+      }
+    },
+    {
+      "id": "leaving",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXII · L4600–4807",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Снова за оградой",
+          "body": "<p>Я набил карманы сухарями, взял два пистолета, порох и пули. Хотел всего лишь проверить, действительно ли под белой скалой лежит Бенова лодка. Просить разрешения казалось бесполезным, и, пока сквайр с Греем помогали капитану, я перемахнул ограду. На защите дома оставались всего двое здоровых взрослых. Я понимал, что поступаю дурно, но уже шёл через деревья к морю. Вдоль прибоя добрался до косы, осторожно выглянул на гавань. У шхуны стояла шлюпка с Сильвером, на борту виднелись двое; потом шлюпка ушла. Под белой скалой я нашёл прикрытую козьими шкурами впадину, а в ней крохотную лодку: кривоватый деревянный остов, обтянутый кожей, с низенькой скамейкой и веслом.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Beyond the fence again",
+          "body": "<p>I filled my pockets with biscuit and took two pistols, powder, and bullets. I meant only to see whether Ben's boat really lay beneath the white rock. Asking permission seemed useless, so while the squire and Gray helped the captain I jumped the fence. Only two healthy grown men remained to defend the house. I knew I was behaving badly, but was already walking through the trees towards the sea. Following the surf, I reached the spit and cautiously looked into the harbour. Silver's boat lay beside the schooner, with two men visible aboard her; then the boat left. Below the white rock I found a hollow covered with goatskins. Inside lay a tiny craft: a crooked wooden frame stretched with skin, fitted with a low seat and a paddle.</p>"
+        }
+      }
+    },
+    {
+      "id": "coracle",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXII · L4600–4807",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "У белой скалы",
+          "body": "<p>Её можно было легко нести на плечах. На этом стоило закончить прогулку, но я придумал большее: ночью перерезать якорный канат «Испаньолы». Я решил, что после поражения мятежники могут уплыть, и хотел этому помешать. Лодки возле сторожей не осталось; в тумане подобраться незаметно казалось нетрудным. Я съел сухари и дождался полной темноты. На воде были видны только отблеск берегового костра и расплывчатое сияние каютного окна. Отлив уже обнажил вязкий песок. Я перенёс свою скорлупку к воде, сел — и позволил течению увлечь меня к кораблю.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "At the white rock",
+          "body": "<p>It was easy to carry on my shoulders. That should have ended the excursion, but I imagined something more: cutting the Hispaniola's anchor cable by night. I decided the defeated mutineers might sail away and wanted to prevent it. Their watchmen no longer had a boat alongside; approaching unseen through fog seemed easy enough. I ate biscuit and waited for complete darkness. Only two lights remained on the water: the reflection of the shore fire and a blurred glow from the cabin window. The ebb had already uncovered muddy sand. I carried my little craft to the water, climbed in, and let the current take me towards the ship.</p>"
+        }
+      }
+    },
+    {
+      "id": "cable",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIII · L4808–4975",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Канат",
+          "body": "<p>Лодка вертелась как хотела. Я грёб, она шла боком; повернуть её удавалось куда угодно, кроме нужной стороны. Зато течение само несло прямо к «Испаньоле», и вскоре я схватился за канат. Он звенел от натяжения. Тут я сообразил: разрезанный такой канат хлестнёт и выбросит нас с лодкой из воды. Я замер, почти готовый отказаться. Выручил порыв ветра: шхуна подалась навстречу течению, канат на секунду провис. Я надрезал пряди, оставив две последние, и стал ждать следующего ослабления. Из каюты доносились пьяные голоса. Один принадлежал Хендсу, второй — матросу в красном колпаке. Они продолжали пить и ссориться, то затихая, то снова разражаясь бранью.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The cable",
+          "body": "<p>The boat spun however it pleased. I paddled and it went sideways; I could turn it anywhere except in the direction I wanted. Fortunately the tide carried me straight towards the Hispaniola, and soon I caught her cable. It was taut enough to sing. Then I understood: cut under such tension, it could lash back and throw boat and boy out of the water. I stopped, almost ready to give up. A gust rescued me. The schooner moved against the current and the cable slackened briefly. I cut the strands until only two remained and waited for another slack moment. Drunken voices came from the cabin. One was Hands, the other the man in the red cap. They went on drinking and quarrelling, subsiding briefly before bursting into curses again.</p>"
+        }
+      }
+    },
+    {
+      "id": "window",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIII · L4808–4975",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Кормовое окно",
+          "body": "<p>Когда ветер снова ослабил канат, я дорезал его. Шхуна развернулась поперёк потока, мою лодку прижало к носу. Я отчаянно отталкивался, пока не выбрался к корме. Там в руки попала свисавшая верёвка; вместо того чтобы отпустить её, я подтянулся поглядеть в окно. Внутри два сторожа сцепились и душили друг друга под дымной лампой. Я тут же опустился обратно — лодка едва не перевернулась. На берегу пели старую песню, а мы уже скользили мимо костра. Течение усилилось и круто свернуло: теперь и корабль, и я уходили через пролив в открытое море.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The stern window",
+          "body": "<p>When the wind slackened the cable once more, I cut it through. The schooner swung across the stream, and my boat was pressed against her bow. I pushed desperately until I worked free towards the stern. There I caught a trailing rope. Instead of letting it go, I pulled myself up to look through the window. Inside, the two watchmen were locked together, choking one another beneath the smoky lamp. I dropped back at once, almost overturning my boat. Men ashore were singing the old song, while we slid past their fire. The current strengthened and turned sharply: now both ship and boy were being carried through the channel into open water.</p>"
+        }
+      }
+    },
+    {
+      "id": "ebb",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIII · L4808–4975",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Отлив",
+          "body": "<p>На шхуне наконец закричали, по трапу загрохотали ноги: сторожа заметили, что судно несёт. Я же лёг на дно и больше не хотел смотреть. Мне представлялась полоса бурунов в конце пролива, где всё закончится; оставалось молиться. Волны швыряли лодку, брызги мочили меня, каждый нырок мог быть последним. Но страх не отменял усталости. Мысли стали путаться, временами я уже ничего не чувствовал. Так, ожидая смерти от следующей волны, я уснул и увидел дом и старого «Адмирала Бенбоу».</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The ebb",
+          "body": "<p>At last shouts came from the schooner and feet hammered on the steps: the watchmen had noticed the drifting ship. I lay down in the bottom of my boat and no longer wished to look. I imagined breakers at the channel's mouth, where everything would end; nothing remained but prayer. Waves tossed the craft and spray soaked me. Every plunge might be the last. Fear, however, could not defeat exhaustion. My thoughts grew confused, and at times I felt nothing. Expecting death with the next wave, I fell asleep and dreamed of home and the old Admiral Benbow.</p>"
+        }
+      }
+    },
+    {
+      "id": "cliffs",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIV · L4976–5173",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Берег утром",
+          "body": "<p>Проснулся я далеко от гавани, возле юго-западного берега. До земли было недалеко, но в скалах били буруны, а на каменных площадках ворочались огромные мокрые звери. Только позже я узнал, что это морские львы. Тогда их вид окончательно отбил охоту высаживаться. Я вспомнил слова Сильвера о течении на север вдоль западного берега и решил дождаться более удобного места. Пока я лежал спокойно, лодка легко взбегала на зыбь и соскальзывала вниз. Стоило сесть, как она ткнулась носом в следующую волну и окатила меня водой. Пришлось снова лечь и вычерпывать кепкой то, что успело набраться.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The coast in the morning",
+          "body": "<p>I woke far from the harbour, off the south-western coast. Land was close, but breakers struck the cliffs, and huge wet animals moved on the rocky ledges. Only later did I learn they were sea lions. At the time their appearance settled my decision against landing. Remembering Silver's description of a northward current along the western shore, I waited for somewhere more inviting. While I lay still, the boat rose easily over the swell and slipped down again. When I sat up, she plunged into the next wave and drenched me. I had to lie down once more and bail with my cap.</p>"
+        }
+      }
+    },
+    {
+      "id": "paddling",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIV · L4976–5173",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Между волнами",
+          "body": "<p>Наблюдая за водой, я понемногу понял, как она проходит между высокими гребнями. Не нарушая равновесия, можно было в спокойные мгновения делать короткие гребки. Продвигался я мучительно медленно; береговые сосны всё приближались, но течение пронесло меня мимо намеченного мыса. Соль засохла на губах, хотелось пить так сильно, что вид деревьев делался невыносим. Тут впереди показалась «Испаньола» под парусами. Сначала я решил, что меня схватят, затем — что меня преследуют. Но корабль раз за разом приводился к ветру, останавливался с хлопающими парусами, снова срывался в сторону. У руля никого не было. Может быть, люди мертвы или пьяны; может быть, я смогу вернуть корабль капитану. А на палубе есть питьевая вода.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Between the waves",
+          "body": "<p>Watching the water, I gradually understood how she passed between the highest crests. Without upsetting her balance, I could make short strokes during smoother moments. Progress was painfully slow. The coastal pines came closer, but the current took me past my chosen headland. Salt had dried on my lips, and thirst made the sight of trees unbearable. Then the Hispaniola appeared ahead under sail. First I thought I would be captured, then that she was chasing me. But again and again the ship turned into the wind, stopped with flapping sails, and surged away in another direction. Nobody stood at the helm. Perhaps the men were dead or drunk; perhaps I could return the ship to her captain. And there was drinking water on deck.</p>"
+        }
+      }
+    },
+    {
+      "id": "bowsprit",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIV · L4976–5173",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Под носом шхуны",
+          "body": "<p>Я погрёб к шхуне. Она то уходила, то замирала, и погоня тянулась, хотя обе посудины несло одним течением. Наконец ветер повернул её кормой ко мне: в каюте даже днём продолжала гореть лампа. Я приблизился, но новый порыв снова наполнил паруса. Сначала я отчаялся, потом обрадовался — судно разворачивалось ко мне. Очень скоро радость пропала: высокая белая волна под носом шла прямо на мою скорлупку. Я вскочил, прыгнул и ухватился за снасти у бушприта. Под ногами раздался глухой удар. Лодка Бена исчезла под шхуной; отступать теперь было некуда.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Beneath the bow",
+          "body": "<p>I paddled towards her. She moved away, then stopped, and the chase dragged on although the same current carried us both. At last the wind turned her stern towards me: the cabin lamp was still burning in daylight. I approached, but a new gust filled the sails again. Despair came first, then joy; she was turning towards me. Joy soon vanished. The high white wave beneath her bow was bearing straight down on my little boat. I stood, jumped, and caught the rigging near the bowsprit. A dull blow sounded beneath my feet. Ben's boat disappeared under the schooner. I had no way back.</p>"
+        }
+      }
+    },
+    {
+      "id": "deck",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXV · L5174–5357",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "На палубе",
+          "body": "<p>Я чуть не сорвался при новом хлопке паруса, кое-как прополз назад и свалился на палубу. Сначала никого не видел: часть кормы закрывал парус. Потом гик качнулся, и открылись оба сторожа. Матрос в красном колпаке лежал навзничь с растопыренными руками; Хендс сползал у борта, бледный, с опущенной головой. На досках темнела кровь. Я решил, что они убили друг друга, но Израэль застонал и выпрямился. Сострадание мелькнуло — и исчезло при воспоминании о разговоре у бочки. Я подошёл. Хендс смог произнести только просьбу о бренди, и я спустился в разгромленную каюту.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "On deck",
+          "body": "<p>Another crack of canvas nearly threw me off. I crawled back and tumbled onto the deck. At first I saw nobody: a sail concealed part of the stern. Then the boom swung and revealed both watchmen. Red-cap lay on his back with his arms spread; Hands was slumping against the side, pale, his head hanging. Dark blood marked the planks. I supposed they had killed each other, but Israel groaned and straightened himself. Pity stirred, then vanished at the memory of the apple-barrel conversation. I approached. Hands could manage only a request for brandy, so I went below into the wrecked cabin.</p>"
+        }
+      }
+    },
+    {
+      "id": "water",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXV · L5174–5357",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Вода и еда",
+          "body": "<p>Замки были взломаны в поисках карты, пол испачкан болотной грязью, повсюду валялись бутылки; даже медицинскую книгу доктора распотрошили. Я нашёл остатки бренди, себе взял сухари, изюм, сыр и фрукты. Наверху прежде всего напился воды и лишь потом передал бутылку раненому. Он смотрел, как я ем. Я объявил, что вступаю во владение кораблём и до дальнейшего распоряжения буду капитаном. Чёрный флаг мне тоже был не нужен: я спустил его и выбросил за борт. Хендс молчал, но следил за мной. Затем напомнил, что одному мне шхуной не управиться. Мёртвого звали О’Брайен; они поставили паруса, желая вернуться, но теперь вести судно некому, кроме него.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Water and food",
+          "body": "<p>Locks had been broken in the hunt for the map, marsh mud covered the floor, bottles lay everywhere, and even the doctor's medical book had been torn apart. I found some brandy, and for myself biscuit, raisins, cheese, and fruit. Back above, I first drank water, only then passing the bottle to the wounded man. He watched me eat. I announced that I was taking possession of the ship and would be captain until further notice. I had no use for the black flag either: I lowered it and threw it overboard. Hands said nothing but kept watching. Then he reminded me that I could not manage the schooner alone. The dead man was O'Brien. They had set sail intending to return, but nobody could now direct her except himself.</p>"
+        }
+      }
+    },
+    {
+      "id": "bargain",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXV · L5174–5357",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Вдоль берега",
+          "body": "<p>Мы условились: я дам еду, питьё и перевязку, он будет указывать, что делать. Только в прежнюю гавань я возвращаться не стану — заведём корабль в Северную бухту и посадим на песок. Хендс согласился на всё. Я достал из своего сундука мягкий шёлковый платок матери и помог перевязать колотую рану на бедре. После еды и выпивки он заметно ожил. «Испаньола» пошла вдоль берега, миновала высокие скалы, низкий песчаный участок и северный край острова. Солнце светило, воды и еды хватало; мне снова казалось, что самовольный уход оправдан великой удачей. Мешал только взгляд Хендса: он неотступно наблюдал за моей работой с неприятной, насмешливой улыбкой.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Along the coast",
+          "body": "<p>We made a bargain. I would provide food, drink, and a dressing, and he would tell me what to do. But I would not return to the old anchorage: we would take the ship to North Inlet and beach her. Hands agreed to everything. From my chest I fetched a soft silk handkerchief of Mother's and helped bind the stab wound in his thigh. Food and drink revived him noticeably. The Hispaniola moved along the coast, past high rocks, a stretch of low sand, and the island's northern end. The sun shone and I had water and food; once again, my extraordinary success seemed to excuse my unauthorised departure. Only Hands's eyes troubled me. He watched every movement of my work with an unpleasant, mocking smile.</p>"
+        }
+      }
+    },
+    {
+      "id": "dirk",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVI · L5358–5639",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Просьба Хендса",
+          "body": "<p>До прилива надо было подождать. По указаниям Хендса я остановил шхуну, и мы поели ещё раз. Он предложил выбросить О’Брайена, но я отказался: сил мало, да и браться не хочется. Тогда он заговорил о мёртвых — остаются ли они мёртвыми навсегда. Я ответил, что тело можно убить, а дух нет. Хендс счёл это неудобным: выходит, убивать не так уж полезно. Потом вдруг попросил вина вместо бренди. Его запинки, бегающие глаза и притворная слабость показались мне подозрительными. Я шумно спустился по трапу, снял башмаки и тихо пробрался к другому выходу. Через него увидел, как Хендс быстро пополз по палубе, нашёл в бухте верёвки окровавленный кортик, проверил острие и спрятал под курткой.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Hands's request",
+          "body": "<p>We had to wait for the tide. Following Hands's instructions, I brought the schooner to a stop, and we ate again. He suggested throwing O'Brien overboard. I refused: I was not strong enough and disliked the task. Then he asked about the dead: did they stay dead for ever? I answered that a body could be killed but not a spirit. Hands found that inconvenient; perhaps killing was not so useful after all. Suddenly he wanted wine instead of brandy. His hesitations, wandering eyes, and exaggerated weakness seemed suspicious. I went noisily below, removed my shoes, and crept to the other entrance. Through it I watched him crawl quickly across the deck, retrieve a bloodstained dirk from a coil of rope, test its point, and hide it inside his jacket.</p>"
+        }
+      }
+    },
+    {
+      "id": "wine",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVI · L5358–5639",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Бутылка вина",
+          "body": "<p>Значит, он способен двигаться и теперь вооружён. Я вернулся за бутылкой, снова обулся и вышел как ни в чём не бывало. До посадки корабля наши интересы совпадали: обоим нужно было провести его в безопасное место. Я держался настороже. Хендс принял вино, попросил нарезать табаку — у него, мол, даже ножа нет — и снова заговорил о близкой смерти. Я предложил ему молиться. Он отвечал, что за тридцать лет не видел пользы от доброты: лучше ударить первым, ведь мёртвые не кусаются. Затем бросил этот разговор и стал командовать. В узком мелком проходе я немедленно выполнял каждое указание; в своём деле он был замечательно искусен.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A bottle of wine",
+          "body": "<p>So he could move and was now armed. I returned for a bottle, put my shoes on again, and came up as though nothing had happened. Until the ship was beached our interests agreed: both needed her brought to safety. I stayed alert. Hands took the wine and asked me to cut tobacco, claiming he did not even have a knife, then spoke again of his approaching death. I suggested prayer. He answered that thirty years had taught him no advantage in goodness: better to strike first, since the dead could not bite. Then he abandoned the subject and began giving orders. In the narrow, shallow entrance I obeyed each instantly. He was remarkably good at his work.</p>"
+        }
+      }
+    },
+    {
+      "id": "inlet",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVI · L5358–5639",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Вход в бухту",
+          "body": "<p>Среди деревьев открылась тихая бухта. В дальнем конце лежал старый разбитый корабль, на палубе которого росли цветущие кусты. Мы выбрали ровный песок. Я спросил, как потом сняться, и получил объяснение про канат, сосну, ворот и следующий прилив. Последние манёвры увлекли меня настолько, что я отвлёкся от раненого. Обернувшись, увидел его уже на полпути ко мне с кортиком в руке. Я отскочил от руля; отпущенный румпель ударил Хендса в грудь и задержал. Выбравшись из угла, я навёл пистолет и спустил курок. Ни вспышки, ни выстрела: затравка промокла в море. На второй пистолет надежды почти не было, проверять некогда. Я отступил к мачте и начал уворачиваться, стараясь не дать загнать себя в нос.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Entering the inlet",
+          "body": "<p>A quiet inlet opened amongst the trees. At its far end lay an old wreck with flowering bushes growing on deck. We chose level sand. I asked how we would float the ship again and heard an explanation involving a line, a pine, the capstan, and the next tide. The final manoeuvres absorbed me so much that I stopped watching the wounded man. When I looked round, he was already halfway towards me with the dirk in his hand. I jumped away from the helm; released, the tiller struck Hands in the chest and checked him. Clear of the corner, I aimed a pistol and pulled the trigger. No flash, no shot: seawater had spoiled the priming. There was little hope for the second pistol and no time to try it. I retreated to the mast and dodged, trying not to be cornered in the bows.</p>"
+        }
+      }
+    },
+    {
+      "id": "rigging",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVI · L5358–5639",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Над водой",
+          "body": "<p>Внезапно шхуна ударилась о дно и резко легла на бок. Нас обоих сбросило к борту, мёртвый О’Брайен покатился следом. Я вскочил первым, пока Хендс выпутывался из его тела, и полез по вантам. Нож ударил совсем рядом под ногами. Добравшись до перекладины, я приготовил один пистолет к выстрелу, затем заново зарядил другой. Хендс медленно карабкался следом, держа кортик в зубах. Теперь оружие снова давало мне преимущество. Я велел остановиться, даже засмеялся; он заговорил о сдаче. Я слушал с самодовольной улыбкой — и не успел заметить броска. Удар и боль пришпилили плечо к мачте. От неожиданности у меня выстрелили оба пистолета, без сознательного прицела, и выпали из рук. Хендс сорвался в воду.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Above the water",
+          "body": "<p>Suddenly the schooner struck bottom and heeled sharply. Both of us rolled towards the side, with O'Brien's body following. I rose first while Hands struggled free of the corpse and climbed the rigging. His knife struck just below my feet. Once on the cross-trees, I primed one pistol for firing, then loaded the other afresh. Hands climbed slowly after me, the dirk between his teeth. Now my weapons gave me the advantage again. I ordered him to stop, even laughed; he began talking of surrender. I listened with a conceited smile and missed the throw. A blow and a stab of pain pinned my shoulder to the mast. In the shock both pistols fired, without conscious aim, and fell from my hands. Hands dropped into the water.</p>"
+        }
+      }
+    },
+    {
+      "id": "shoulder",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVII · L5640–5860",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "На мачте",
+          "body": "<p>Он один раз показался среди пены и крови, затем опустился на дно. Через воду я видел его под бортом; рыбы скользили мимо, и от ряби казалось, будто тело ещё шевелится. Только теперь меня охватил настоящий ужас. Я боялся не столько раны, сколько падения с мачты в зелёную воду к убитому. Вцепившись в дерево, я постепенно успокоился и попробовал выдернуть нож. Не смог, вздрогнул — и этот рывок освободил плечо: клинок захватил лишь немного кожи. Оставалось прорвать ткань. Спустился я по другой стороне, подальше от того места, где упал Хендс, и кое-как обработал рану. Она кровила и болела, но рука двигалась.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "On the mast",
+          "body": "<p>He surfaced once through foam and blood, then sank. Through the water I could see him beneath the ship's side. Fish slipped past, and ripples seemed to move the body. Only now did real horror seize me. I feared falling from the mast into the green water beside the dead man more than I feared my wound. Clinging to the wood, I gradually calmed down and tried to pull out the knife. I could not. Then I shuddered, and the movement freed my shoulder: the blade had caught only a pinch of skin. I still had to tear my clothing loose. I climbed down the other side, away from the place where Hands had fallen, and did what I could for the wound. It bled and hurt, but I could move my arm.</p>"
+        }
+      }
+    },
+    {
+      "id": "sails",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVII · L5640–5860",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "К вечеру",
+          "body": "<p>Теперь было легче сбросить за борт О’Брайена: он лежал у самого края. Я столкнул его, и красный колпак остался плавать, а тело легло на дно поперёк колен Хендса. Потом я убрал передние паруса. С главным справиться не получилось: гик свесился за борт, часть полотнища была в воде. Я перерезал подъёмные снасти, парус опал, но втянуть его не смог. Остальное пришлось доверить случаю. Отлив уводил воду, шхуна всё сильнее наклонялась. Держась за обрезанный канат, я спустился с носа; глубина оказалась по пояс. На берег вышел почти торжествуя: корабль избавлен от пиратов, друзьям будет что рассказать. Возможно, даже капитан простит такую прогулку.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Towards evening",
+          "body": "<p>O'Brien was easier to put overboard now, lying at the very edge. I pushed him off. His red cap stayed afloat while his body settled across Hands's knees below. Then I lowered the headsails. The mainsail defeated me: the boom hung beyond the side, with some canvas in the water. I cut its hoisting lines and the sail dropped, but I could not haul it in. The rest had to be left to chance. Water fell with the ebb and the schooner tilted further. Holding the cut cable, I lowered myself from the bow; the water reached my waist. I came ashore almost triumphant. The ship was free of pirates, and I had something to tell my friends. Perhaps even the captain would forgive this excursion.</p>"
+        }
+      }
+    },
+    {
+      "id": "homeward",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVII · L5640–5860",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Дорога к дому",
+          "body": "<p>Через лес я возвращался к частоколу. Впереди, возле двуглавого холма, заметил зарево и подумал о Бене: зачем он жжёт такой большой костёр, который может увидеть Сильвер? К самому срубу подошёл осторожно, чтобы свои не застрелили по ошибке. И там тлел большой огонь, хотя Смоллетт всегда экономил дрова. Что-то было неладно. Но из дома доносился храп, и мне стало легче: друзья спали. Я перелез ограду, подкрался к двери и вошёл, рассчитывая улечься на своё место и удивить их утром. Нога задела спящего. Тут в темноте затрещал знакомый голос про пиастры. Попугай Сильвера! Люди вскочили; я рванулся наружу, столкнулся с одним и попал в руки другого. Повар велел принести факел.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The way to the house",
+          "body": "<p>I headed through the woods towards the stockade. Ahead, near the two-peaked hill, I noticed a glow and thought of Ben: why make a fire big enough for Silver to see? Near the house I slowed, lest my own people shoot me by mistake. A large fire smouldered there too, although Smollett always saved firewood. Something was wrong. But snoring came from inside, and I relaxed: my friends were asleep. I climbed the fence, crept to the doorway, and entered, intending to lie in my usual place and surprise them in the morning. My foot touched a sleeper. Then a familiar voice chattered about pieces of eight in the dark. Silver's parrot! Men sprang up; I turned to run, collided with one, and fell into another's arms. The cook ordered a torch.</p>"
+        }
+      }
+    },
+    {
+      "id": "torch",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVIII · L5861–6150",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "При свете факела",
+          "body": "<p>При свете я увидел в доме шестерых пиратов. Наши припасы, бочонок коньяка, сухари лежали по-прежнему, но ни одного пленного не было. Я решил, что друзья погибли, и проклинал своё отсутствие. Сильвер, усевшись на бочонок, заговорил почти ласково: Джим всегда ему нравился, теперь пора присоединиться к ним. К своим идти бессмысленно — капитан суров, доктор обозвал меня неблагодарным. Значит, они живы! От этой новости стало легче, хотя сказанное об их гневе я отчасти принимал на веру. Я потребовал объяснить, что произошло. По словам повара, доктор сам пришёл договариваться, когда исчезла шхуна, и уступил им дом, еду, дрова. Четверо ушли, один из них раненый; меня, утверждал Сильвер, в сделку не включали.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "By torchlight",
+          "body": "<p>In its light I saw six pirates in the house. Our stores, the brandy keg, and the biscuit remained as before, but there were no prisoners. I thought my friends had died and cursed my absence. Sitting on the keg, Silver spoke almost kindly. He had always liked Jim; now it was time to join them. Returning to my own party was pointless: the captain was severe, the doctor had called me ungrateful. So they were alive! The news relieved me, although I partly believed what he said about their anger. I demanded an explanation. According to the cook, the doctor had come to negotiate when the schooner disappeared and had surrendered the house, food, and firewood. Four had left, one wounded; Silver claimed I had not been included in the bargain.</p>"
+        }
+      }
+    },
+    {
+      "id": "confession",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVIII · L5861–6150",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Ответ Джима",
+          "body": "<p>У меня оставался выбор только между его шайкой и неизвестно какой смертью. Страх сменился возбуждением, и я объявил, что именно я разрушил их замысел: слышал разговор в яблочной бочке, передал всё нашим, перерезал канат и увёл корабль туда, где они его не найдут. В запале даже приписал себе гибель обоих сторожей. Хотят — пусть убьют; если пощадят, я постараюсь помочь им, когда придётся отвечать за пиратство. Я едва переводил дыхание, а они сидели неподвижно. Морган вспомнил, что я узнал Чёрного Пса. Сильвер добавил: и карту Бонса добыл тот же мальчик. Тогда старый матрос вскочил с ножом.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Jim's answer",
+          "body": "<p>My choice seemed to lie between his gang and an unknown death. Fear gave way to excitement, and I declared that I had ruined their scheme. I had heard the conversation in the apple barrel, warned our people, cut the cable, and taken the ship where they would never find her. In my excitement I even claimed the deaths of both watchmen. They could kill me if they wished. If they spared me, I would try to help them when they answered for piracy. I could scarcely breathe, and they sat motionless. Morgan remembered that I had recognised Black Dog. Silver added that the same boy had obtained Bones's map. Then the old sailor sprang up with a knife.</p>"
+        }
+      }
+    },
+    {
+      "id": "council-outside",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVIII · L5861–6150",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Совет снаружи",
+          "body": "<p>Повар остановил его одним окриком. Он капитан по выбору команды, желающий спорить может сейчас взять саблю; пока его трубка не догорит, он готов сразиться с любым. Никто не выступил. Они сбились в дальнем углу, зашептались, потом один потребовал права на совет. Все по очереди вышли с церемонными поклонами. Мы остались вдвоём. Сильвер сразу заговорил шёпотом: меня ждёт смерть, возможно пытки, его собираются сместить. Но он будет защищать меня, а я должен помочь ему избежать петли. Прежде он не собирался так поступать; после моей речи увидел последнюю возможность. Каждый стал последней картой другого. Я обещал сделать всё, что смогу.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "A council outside",
+          "body": "<p>The cook stopped him with a shout. He was their elected captain. Anyone wanting to dispute it could take a cutlass now; before his pipe burned out, he was ready to fight whoever came. Nobody did. They clustered in the far corner, whispered, and then one demanded their right to hold a council. They went outside one by one with ceremonious salutes. Left alone with me, Silver immediately began whispering. Death, perhaps torture, awaited me; his men intended to depose him. But he would protect me, and I must help keep him from the rope. He had not intended this before. My speech had shown him one last chance. Each had become the other's last card. I promised to do what I could.</p>"
+        }
+      }
+    },
+    {
+      "id": "question",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXVIII · L5861–6150",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Вдвоём",
+          "body": "<p>Он уверял, что теперь на стороне сквайра. Положение своё понимал: без судна всё потеряно, а я, должно быть, спрятал его в безопасности. Только один вопрос мучил Сильвера — почему доктор отдал ему карту? Моё удивление было слишком настоящим, чтобы продолжать расспросы. Выходило, у повара не только дом и припасы, но и тот самый лист с красными крестами. Он пил коньяк, качал головой и ждал возвращения людей. Я стоял рядом с человеком, которого боялся больше всех, и от его способности удержать команду теперь зависела моя жизнь.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Alone together",
+          "body": "<p>He insisted that he was on the squire's side now. He understood his position: without the vessel everything was lost, and I must have hidden her safely somewhere. Only one question troubled him: why had the doctor given him the map? My astonishment was too genuine for further questions. So the cook had not only our house and stores, but the very sheet with the red crosses. He drank brandy, shook his head, and waited for his men to return. I stood beside the man I feared most, and my life now depended on his ability to hold the crew together.</p>"
+        }
+      }
+    },
+    {
+      "id": "spot",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIX · L6151–6381",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Книга и нож",
+          "body": "<p>Пираты попросили факел. Через бойницу я увидел их на склоне: один опустился на колени с ножом и книгой, остальные теснились вокруг. Потом они вернулись и вытолкнули вперёд посланца с зажатой ладонью. Сильвер принял чёрную метку и немедленно спросил, кто вырезал её из Библии. Испорченная священная книга сулила, по его словам, беду всем; виноват оказался Дик. Морган сразу поддержал дурную примету. Однако Джордж Мерри вернул разговор к делу. На обороте метки стояло, что Сильвер смещён. Пусть слезает с бочонка и участвует в новых выборах. Повар напомнил правила: прежде обвинения и его ответ, и до тех пор он остаётся капитаном.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Book and knife",
+          "body": "<p>The pirates borrowed the torch. Through a loophole I saw them on the slope: one knelt with a knife and a book, the others crowded around. They returned and pushed a messenger forward with his hand closed. Silver accepted the black spot and immediately asked who had cut it from a Bible. Damaging the holy book, he said, meant bad luck for everyone; Dick was responsible. Morgan instantly endorsed the omen. George Merry, however, brought them back to business. The reverse said Silver was deposed. He must get off the keg and take part in another election. The cook recalled the rules: first their charges and his answers. Until then he remained captain.</p>"
+        }
+      }
+    },
+    {
+      "id": "charges",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIX · L6151–6381",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Перед командой",
+          "body": "<p>Мерри перечислил: поход погублен, врагов выпустили, напасть на них при уходе не позволили, мальчика берегут. Сильвер ответил на всё. Именно Андерсон, Хендс и сам Мерри сорвали его первоначальный план; надо было дождаться золота на корабле. Джим полезен как заложник, врач ежедневно лечит больных, да ещё сюда пошлют другое судно — тогда заложник особенно пригодится. Что же до сделки, повар бросил на пол карту. Это подействовало сильнее остальных доводов. Люди хватали лист друг у друга, ругались, смеялись, узнавали подпись Флинта, словно золото уже было у них в карманах. Вопрос Мерри, на чём теперь увозить сокровище, Сильвер отбил угрозой: корабль потеряли они, карту добыл он; пусть избирают другого, он сам отказывается!</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Before the crew",
+          "body": "<p>Merry listed them: the voyage was ruined, the enemy had been released, an attack on their departure forbidden, the boy protected. Silver answered everything. Anderson, Hands, and Merry himself had wrecked his original plan; they should have waited until the gold was aboard. Jim was useful as a hostage, the doctor treated their sick daily, and another ship would be sent here, making a hostage more useful still. As for the bargain, the cook threw the map on the floor. It worked better than any argument. They snatched it from each other, swore, laughed, and recognised Flint's signature, as though the gold were already in their pockets. Merry asked how they could now carry the treasure away. Silver met that with a threat: they had lost the ship, he had obtained the map; let them choose another captain, he resigned!</p>"
+        }
+      }
+    },
+    {
+      "id": "night",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXIX · L6151–6381",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Ночью в срубе",
+          "body": "<p>Все закричали за Сильвера. Мерри пришлось уступить. Дик тревожился, годится ли испорченная Библия для присяги; повар уверил, что больше не связывает, и юноша нашёл в этом утешение. Метку Сильвер бросил мне на память. Ночью я долго не мог уснуть: вспоминал Хендса, собственный плен и странную игру повара. Одной рукой он удерживал сообщников, другой тянулся к любой возможности спастись. Он храпел спокойно, а мне было жаль его при мысли о петле, несмотря на всё увиденное. Мерри он поставил часовым и пригрозил смертью за небрежность. Этим пока и ограничилась расплата за совет.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Night in the house",
+          "body": "<p>They all shouted for Silver. Merry had to give way. Dick worried whether the damaged Bible could still bind an oath. The cook assured him it could not, and the young man found that comforting. Silver tossed me the spot as a souvenir. I lay awake for a long time that night, thinking of Hands, my captivity, and the cook's strange game. With one hand he kept his accomplices together; with the other he reached for any possibility of escape. He snored peacefully, while I pitied him at the thought of the rope despite everything I had seen. He posted Merry as sentry and threatened death for neglect. That was the extent of his retaliation for the council, for now.</p>"
+        }
+      }
+    },
+    {
+      "id": "patients",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXX · L6382–6641",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Утренний визит",
+          "body": "<p>На рассвете пришёл доктор. Сильвер встретил его так радушно, будто снова стоял на мирной палубе, и сообщил о новом постояльце. Услышав моё имя, Ливси остановился. Но сначала занялся больными: осмотрел раненую голову, расспросил Мерри, велел Дику показать язык. Тот тоже заболел лихорадкой. Матросы покорно принимали лекарства, хотя доктор весело напоминал, что бережёт их для суда и виселицы. В испорченной Библии Морган видел причину болезни, Ливси сердился на их болотный лагерь. Затем он попросил поговорить со мной. Мерри возразил, однако Сильвер заставил всех замолчать. С меня взяли честное слово не бежать; разговор должен был пройти через частокол, доктор снаружи, я внутри.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The morning visit",
+          "body": "<p>The doctor arrived at dawn. Silver greeted him as warmly as though he were back on a peaceful deck and announced a new lodger. Hearing my name, Livesey stopped. But first he attended his patients, examining the wounded head, questioning Merry, and making Dick show his tongue. He too had fever. The sailors obediently took their medicines while the doctor cheerfully reminded them that he was preserving them for trial and hanging. Morgan blamed the damaged Bible for the illness; Livesey angrily blamed their marsh camp. Then he asked to speak with me. Merry objected, but Silver silenced them all. I gave my word not to escape. We were to speak through the stockade, with the doctor outside and me within.</p>"
+        }
+      }
+    },
+    {
+      "id": "fence",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXX · L6382–6641",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "По песку к ограде",
+          "body": "<p>Свои немедленно обвинили повара в двойной игре. Тот снова размахивал картой, бранился и объяснял, что нельзя срывать договор в день поисков; обмануть доктора они ещё успеют. Меня он вёл к ограде медленно, чтобы спешка не вызвала подозрений. Вне слышимости сообщников он переменился. Сильвер просил Ливси помнить не только зло, но и спасённую мальчишескую жизнь, дать хоть какую-нибудь надежду. Говорил он с дрожью: виселицы действительно боялся. Потом отошёл на пень, оставив нас вдвоём, и поглядывал то на дом, то на нас.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Across the sand to the fence",
+          "body": "<p>The men immediately accused their cook of playing both sides. He waved the map again, cursed, and explained that they could not break the treaty on the day of the treasure hunt; there would be time enough to deceive the doctor later. He led me slowly to the fence, avoiding suspicious haste. Beyond his companions' hearing he changed. Silver begged Livesey to remember the boy's life he had saved as well as his crimes, and to offer him some hope. His voice shook: he truly feared hanging. Then he withdrew to a stump, leaving us alone, and looked back and forth between the house and us.</p>"
+        }
+      }
+    },
+    {
+      "id": "parole",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXX · L6382–6641",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "По разные стороны",
+          "body": "<p>Доктор назвал мой уход особенно дурным потому, что капитан лежал раненый и не мог удержать меня. Я расплакался. Смерти я теперь не так боялся, как пыток; без Сильвера меня уже убили бы. Ливси не выдержал и предложил одним прыжком перемахнуть ограду, а ответственность за нарушенное слово брал на себя. Я отказался: ведь сам он так не поступил бы, и Сильвер мне доверился. Зато нужно было сообщить главное: корабль стоит в Северной бухте, и под пытками я могу выдать его место. Доктор выслушал весь рассказ о море, удивился, снова заговорил о том, сколько раз я нас выручал, и внезапно вспомнил о Бене Ганне.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "On opposite sides",
+          "body": "<p>The doctor called my departure particularly bad because the captain was wounded and powerless to stop me. I began to cry. I now feared torture more than death; without Silver I would already have been killed. Livesey could not bear it and offered an escape: one jump over the fence, and he would accept responsibility for the broken promise. I refused. He would not do it himself, and Silver had trusted me. But he must hear the important news: the ship lay in North Inlet, and under torture I might reveal her position. The doctor listened to the whole sea adventure, marvelled, spoke again of how often I had helped us, and suddenly remembered Ben Gunn.</p>"
+        }
+      }
+    },
+    {
+      "id": "warning",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXX · L6382–6641",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Перед поисками",
+          "body": "<p>Подозвав Сильвера, он посоветовал не торопиться за кладом и ждать неприятностей у находки. Повар возмутился: ему оставляют слишком много загадок, ведь только поисками он может сейчас удержать людей от расправы. Почему покинули дом? Зачем отдали карту? Ливси не мог открыть чужой секрет, но пообещал постараться спасти Сильвера, если это не потребует лжесвидетельства. Повар просиял. Второй совет был держать меня рядом и звать на помощь, когда понадобится. Доктор отправился добывать эту помощь. Мы остались за оградой; отказываться от предстоящих поисков Сильвер уже не мог, а что ждёт в конце пути, по-прежнему не понимал.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Before the search",
+          "body": "<p>Calling Silver over, he advised him not to hurry after the treasure and to expect trouble when he found it. The cook protested: there were too many mysteries, and only the search could now keep his men from killing us. Why leave the house? Why surrender the map? Livesey could not reveal another man's secret, but promised to try to save Silver if it required no perjury. The cook beamed. His second piece of advice was to keep me close and shout for help when needed. The doctor went to find that help. We remained inside the fence. Silver could no longer abandon the hunt and still did not understand what waited at its end.</p>"
+        }
+      }
+    },
+    {
+      "id": "breakfast",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXI · L6642–6876",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Завтрак",
+          "body": "<p>Сильвер видел, как доктор предлагал мне бежать, и видел отказ. Он поблагодарил: теперь появилась хоть какая-то надежда. Но за завтраком перед своими заговорил совсем иначе. Он уже выяснил, что судно у наших; найдём золото, потом найдём и корабль, ведь лодки-то в наших руках. Меня поведут на верёвке — заложника нужно беречь. Я слушал и снова терял уверенность. Если откроется возможность уйти с богатством и пиратами, станет ли он довольствоваться одним избавлением от петли? Мне казалось, что у него по-прежнему нога в каждом лагере. А если он сдержит слово доктору, нам вдвоём придётся противостоять пятерым. Загадочные предупреждения Ливси делали завтрак ещё тягостнее.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Breakfast",
+          "body": "<p>Silver had seen the doctor offer me escape, and had seen me refuse. He thanked me: there was some hope now. At breakfast before his men, however, he spoke quite differently. He had discovered that our people had the ship; they would find the gold, then find the vessel, since they still controlled the boats. I would go on a rope: a hostage must be protected. Listening, I lost confidence again. If wealth and freedom with the pirates became possible, would he settle for merely escaping the noose? It seemed he still kept a foot in either camp. And if he kept faith with the doctor, the two of us would have to face five. Livesey's mysterious warnings made breakfast more miserable still.</p>"
+        }
+      }
+    },
+    {
+      "id": "rope",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXI · L6642–6876",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "На верёвке",
+          "body": "<p>Мы поплыли на двух шлюпках. Люди взяли кирки, лопаты и наши съестные припасы; все были вооружены, кроме меня. Сильвер нёс мушкеты и пистолеты, на плече сидел попугай, а вокруг моей талии завязали верёвку. Свободный конец повар держал то рукой, то зубами. Красный крест на карте был слишком велик, чтобы указать точку; следовало искать высокое дерево и сверять направления по компасу. Пока мы ещё плыли, каждый уже выбрал своё дерево. Сильвер предлагал сперва добраться. Мы высадились, полезли через топкую землю, затем вышли на каменистый склон с соснами и душистыми кустами. Люди разбежались веером; мы с поваром отставали, и мне приходилось помогать ему на сыпучем подъёме.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "On a rope",
+          "body": "<p>We set off in two boats. The men carried picks, spades, and our provisions. Everyone except me was armed. Silver bore muskets and pistols, the parrot sat on his shoulder, and a rope was tied around my waist. The cook held its end in his hand or between his teeth. The red cross on the map was too large to mark a precise spot: we must seek a tall tree and check compass bearings. Before we were halfway across, everyone had already chosen his tree. Silver suggested getting there first. We landed, crossed muddy ground, and climbed a stony slope with pines and fragrant bushes. The men spread out; the cook and I lagged behind, and I had to help him over the loose ground.</p>"
+        }
+      }
+    },
+    {
+      "id": "pointer",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXI · L6642–6876",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Под сосной",
+          "body": "<p>Слева закричали. Под сосной лежал скелет в остатках морской одежды, обвитый зеленью. Руки были вытянуты над головой, ноги смотрели в другую сторону: тело положили так нарочно. Сильвер велел проверить направление по компасу на остров Скелета. Оно совпало с указанием карты. Значит, Флинт превратил одного из шести убитых товарищей в стрелку. По росту и волосам повар предположил Аллардайса; Морган вспомнил его долг и одолженный нож. Но при костях ничего не было. Разговор перешёл на смерть Флинта в Саванне, ром и его последние песни. Двигаться продолжили уже тесной кучкой, без прежних криков.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Beneath a pine",
+          "body": "<p>A cry came from the left. Under a pine lay a skeleton in scraps of sailor's clothing, entangled in greenery. Arms stretched above its head, feet pointing the opposite way: someone had deliberately arranged the body. Silver ordered a compass bearing towards Skeleton Island. It matched the map's directions. So Flint had made a pointer from one of his six murdered companions. From the height and hair, the cook guessed Allardyce; Morgan remembered his unpaid debt and borrowed knife. But nothing remained beside the bones. They began talking about Flint's death in Savannah, his rum, and his final songs. They continued in a close group now, without their earlier shouting.</p>"
+        }
+      }
+    },
+    {
+      "id": "plateau",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXII · L6877–7105",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "На плато",
+          "body": "<p>На плато остановились передохнуть. Оттуда было видно море по обе стороны острова, но ни человека, ни паруса; только прибой и насекомые нарушали тишину. Сильвер нашёл по компасу три подходящих высоких дерева. Остальные шептались о Флинте — и тут из леса тонкий голос запел его песню. С лиц исчезла краска, Морган бросился на землю. Сильвер с трудом выговорил, что кто-то из живых шутит. Голос оборвался, потом позвал Дарби М’Гроу и потребовал ром. Матросы узнали предсмертные слова капитана. Дик принялся молиться, остальные готовы были бежать, но боялись даже отделиться друг от друга. Повару тоже было страшно; я слышал, как стучат его зубы.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "On the plateau",
+          "body": "<p>We stopped on the plateau to rest. Sea was visible on either side, but no person or sail; only surf and insects broke the silence. Silver found three suitable tall trees with his compass. The others whispered about Flint, and suddenly a thin voice sang his song from the woods. Faces lost their colour, and Morgan threw himself down. Silver struggled to say that someone alive was playing a trick. The voice broke off, then called for Darby M'Graw and demanded rum. The sailors recognised their captain's dying words. Dick prayed. The others were ready to run, but afraid even to separate. The cook was frightened too; I could hear his teeth chattering.</p>"
+        }
+      }
+    },
+    {
+      "id": "echo",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXII · L6877–7105",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Эхо",
+          "body": "<p>Он всё же не собирался отдавать семисоттысячное богатство покойнику. Сначала напомнил, что не боялся Флинта живым, потом придумал довод об эхе: у духов нет тени, откуда же эхо? Мне доказательство показалось слабым, но Мерри оно помогло. Тот признал, что голос похож ещё на кого-то; Сильвер вдруг назвал Бена Ганна. Дик заметил, что Бен здесь так же мало во плоти, как Флинт. Старики отмахнулись: Бена никто не боится — ни живого, ни мёртвого. Именно этого оказалось достаточно. Люди оживились, подхватили инструменты и пошли дальше. Только больной Дик оглядывался, продолжая бормотать молитвы; Сильвер ещё и посмеивался над его испорченной Библией.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The echo",
+          "body": "<p>He nevertheless refused to surrender a fortune of seven hundred thousand pounds to a dead man. First he recalled that he had not feared Flint alive. Then he invented an argument about echoes: spirits had no shadows, so how could they have echoes? It seemed weak reasoning to me, but it helped Merry. He admitted that the voice resembled someone else's, and Silver suddenly named Ben Gunn. Dick objected that Ben was no more present in the flesh than Flint. The older men dismissed that: nobody feared Ben, alive or dead. That was enough. Spirits rose, tools were shouldered, and they moved on. Only sick Dick kept looking back and muttering prayers, while Silver mocked his damaged Bible.</p>"
+        }
+      }
+    },
+    {
+      "id": "tall-tree",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXII · L6877–7105",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Высокое дерево",
+          "body": "<p>Первые два дерева по направлениям не подошли. Третье было огромным, заметным издалека с моря. Чем ближе мы подходили, тем меньше людей занимали призраки. Сильвер дёргал мою верёвку, зло оглядывался, ругался на мух; я видел в этих взглядах возвращение прежнего замысла. Мне казалось, что возле золота он забыл и обещание, и докторское предостережение и снова готов перерезать нашим горло. Я спотыкался, за спиной бредил Дик, в голове стояли шестеро убитых Флинтом. Передние вдруг бросились бежать — и остановились. Под деревом была большая старая яма, по краям осыпавшаяся, на дне уже проросла трава. Среди обломков ящиков лежала сломанная кирка. На доске я прочитал имя Флинтова корабля. Сокровище кто-то давно выкопал и унёс.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The tall tree",
+          "body": "<p>The bearings ruled out the first two trees. The third was enormous, visible far out at sea. The closer we came, the less anyone cared about ghosts. Silver jerked my rope, glared, and cursed the flies. I saw the old scheme returning in those looks. It seemed that near the gold he had forgotten his promise and the doctor's warning, ready again to cut our people's throats. I stumbled, Dick raved behind me, and Flint's six dead companions filled my thoughts. Suddenly the men ahead began running, then stopped. Beneath the tree lay a large old pit, its sides fallen in and grass growing on the bottom. A broken pick lay amongst pieces of packing cases. On a board I read the name of Flint's ship. Someone had dug up the treasure and carried it away long ago.</p>"
+        }
+      }
+    },
+    {
+      "id": "pit",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIII · L7106–7326",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "На краю ямы",
+          "body": "<p>Сильвер опомнился раньше остальных. Он шепнул, чтобы я готовился к беде, сунул мне двуствольный пистолет и начал отходить, пока яма не оказалась между нами и пятерыми. Я не удержался от замечания, что он снова переменил сторону. Внизу пираты шарили руками в земле; Морган нашёл монету в две гинеи. Мерри потрясал ею перед Сильвером: вот твои сотни тысяч и замечательные сделки! Повар отвечал насмешками. Теперь все поддерживали Мерри и выбирались из ямы с противоположной стороны. Мы стояли друг против друга, двое против пятерых, и никто пока не решался начать. Мерри поднял руку, собираясь повести остальных в атаку.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "At the pit's edge",
+          "body": "<p>Silver recovered before the rest. Whispering that I must prepare for trouble, he passed me a double-barrelled pistol and withdrew until the pit separated us from the five. I could not resist observing that he had changed sides again. Below, the pirates clawed through the earth. Morgan found a two-guinea piece. Merry shook it at Silver: so much for his hundreds of thousands and wonderful bargains! The cook answered with mockery. Now everyone supported Merry, climbing from the pit on the far side. We faced one another, two against five, and nobody would begin. Merry raised an arm, preparing to lead the others forward.</p>"
+        }
+      }
+    },
+    {
+      "id": "shots",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIII · L7106–7326",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Из кустов",
+          "body": "<p>Из кустов ударили три мушкета. Мерри свалился в яму, матрос с перевязанной головой рухнул рядом; трое побежали. Сильвер мгновенно выстрелил в ещё шевелившегося Мерри из обоих стволов своего пистолета. Из укрытия вышли доктор, Грей и Бен Ганн. Мы бросились наперерез беглецам, чтобы не дать им захватить лодки; повар с невероятным усилием скакал следом. Скоро стало ясно: уцелевшие бегут к холму, а между ними и шлюпками уже мы. Можно было остановиться. Бен робко поздоровался с прежним квартирмейстером. Сильвер признал, что Ганн его провёл, и по дороге к берегу доктор наконец объяснил нам всё.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "From the bushes",
+          "body": "<p>Three muskets fired from the bushes. Merry fell into the pit, the man with the bandaged head dropped beside it, and three fled. Silver instantly discharged both barrels of his own pistol into the still-moving Merry. The doctor, Gray, and Ben Gunn emerged from cover. We rushed to cut off the fugitives from the boats; the cook followed with extraordinary effort on his crutch. Soon we saw that the survivors were running towards the hill and we were already between them and the boats. We could stop. Ben timidly greeted his old quartermaster. Silver acknowledged that Gunn had outwitted him, and on the way downhill the doctor finally explained everything.</p>"
+        }
+      }
+    },
+    {
+      "id": "ben-work",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIII · L7106–7326",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Рассказ по дороге",
+          "body": "<p>Бен сам нашёл скелет и забрал лежавшие при нём вещи. Он же нашёл клад, выкопал и за множество тяжёлых переходов перенёс на спине в свою пещеру. Уже два месяца до нашего прибытия золото лежало там. После штурма Ливси узнал от него тайну; на следующее утро увидел, что шхуна исчезла. Бесполезную карту и ненужный дом он отдал Сильверу, чтобы безопасно перебраться к пещере, где были еда, хороший воздух и само сокровище. Оставить меня на произвол судьбы ему было больно, но я сам бросил тех, кто выполнял долг. Сегодня же, узнав о моём пленении, он поспешил за Греем и Беном на помощь.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The story on the way",
+          "body": "<p>Ben had found the skeleton himself and taken the objects beside it. He had also found the treasure, dug it up, and carried it on his back to his cave in many exhausting journeys. The gold had been there for two months before our arrival. Livesey learnt the secret after the assault; next morning he saw that the schooner was gone. He surrendered the useless map and the unwanted house to Silver to move safely to the cave, where there were food, fresh air, and the treasure itself. Leaving me to my fate had hurt him, but I had deserted those who did their duty. Today, learning that I was captive, he had hurried to fetch Gray and Ben to help.</p>"
+        }
+      }
+    },
+    {
+      "id": "sea-road",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIII · L7106–7326",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Морской путь",
+          "body": "<p>Мы опережали их, поэтому Ганн побежал вперёд один и придумал пугать бывших товарищей. Голос задержал нас достаточно, чтобы доктор с Греем успели занять укрытие. Сильвер заметил, что без меня Ливси позволил бы его изрубить. Доктор весело согласился. На берегу он разбил одну шлюпку киркой, на другой мы пошли морем к Северной бухте. «Испаньола» успела всплыть с приливом и теперь сама дрейфовала; к счастью, далеко уйти ей не дали слабые ветер и течение. Мы отдали новый якорь. Грей остался сторожить судно, остальные вернулись к пещере Ганна, у которой ждал сквайр.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The sea route",
+          "body": "<p>We were ahead of them, so Gunn went forward alone and thought of frightening his former shipmates. The voice delayed us long enough for the doctor and Gray to reach cover. Silver observed that without me Livesey would have let him be cut to pieces. The doctor cheerfully agreed. On shore he smashed one boat with a pick, and we took the other around to North Inlet. The Hispaniola had floated off with the tide and was drifting by herself. Fortunately the light wind and weak current had not taken her far. We dropped another anchor. Gray remained to guard the ship; the rest returned to Gunn's cave, where the squire waited.</p>"
+        }
+      }
+    },
+    {
+      "id": "cave",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIII · L7106–7326",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "В пещере",
+          "body": "<p>Меня Трелони встретил ласково. Сильвера назвал страшным негодяем: обещание не преследовать его получил, однако мёртвые так и останутся на его шее. В глубине просторной пещеры бил родник, у огня лежал капитан, в углу темнели груды монет и золотые слитки. К этому золоту мы шли через гибель семнадцати человек с «Испаньолы»; сколько погибло при его добыче, я представить не мог. Смоллетт похвалил меня по-своему: я хороший мальчик, но вместе в море мы больше не пойдём. Сильвер объявил, что вернулся к своим обязанностям. За ужином он снова был услужлив, ел с аппетитом, негромко смеялся вместе со всеми и сидел чуть в стороне от света.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "In the cave",
+          "body": "<p>Trelawney welcomed me kindly. He called Silver a tremendous villain: a promise against prosecution had been obtained, but the dead would still hang around his neck. Deep inside the spacious cave a spring flowed, the captain lay beside the fire, and heaps of coins and gold bars darkened a corner. Reaching that gold had already cost seventeen lives from the Hispaniola; I could not imagine how many its gathering had cost. Smollett praised me in his own way. I was a good boy, but we would not go to sea together again. Silver announced that he had returned to his duty. At supper he was helpful once more, ate heartily, joined quietly in our laughter, and sat a little outside the light.</p>"
+        }
+      }
+    },
+    {
+      "id": "coins",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIV · L7327–7512",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Работа с утра",
+          "body": "<p>Утром началась перевозка. Даже два слитка на верёвке составляли тяжёлый груз взрослому; их надо было нести почти милю до берега, потом везти шлюпкой к шхуне. Грей и Ганн работали на воде, остальные таскали золото. Мне поручили набивать монетами мешки из-под сухарей. Там были деньги множества стран: разные короли, круглые и квадратные монеты, отверстия посередине, незнакомые знаки вместо привычных надписей. Рассматривать их было увлекательно, но от наклонов ныла спина, от сортировки — пальцы. К вечеру на корабле оказывалось целое состояние, а утром в пещере его словно не убавлялось. О трёх беглецах напоминал лишь часовой на склоне: нового нападения мы почти не опасались.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Work from morning",
+          "body": "<p>Transport began in the morning. Even two bars slung in a rope made a heavy load for a man. They had to be carried nearly a mile to the beach, then taken by boat to the schooner. Gray and Gunn worked on the water; the others carried gold. I filled biscuit bags with coins. There was money from many countries: different kings, round coins and square ones, holes through the middle, unfamiliar signs instead of ordinary lettering. Examining them was delightful, but bending made my back ache and sorting hurt my fingers. By evening a fortune lay aboard, while in the morning the amount in the cave seemed scarcely diminished. Only the hillside sentry reminded us of the three fugitives; we had little fear of another attack.</p>"
+        }
+      }
+    },
+    {
+      "id": "voices",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIV · L7327–7512",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Голоса внизу",
+          "body": "<p>Однажды из темноты донеслось что-то среднее между пением и воплем. Доктор тревожился: не бредят ли они от лихорадки, не нужно ли принести лекарства? Сильвер отговаривал — там его убьют, люди не могут ни держать слово, ни поверить чужому. Повара теперь не связывали, но почти все встречали его услужливость грубо. Лучше прочих относились Бен, всё ещё ужасно боявшийся старого квартирмейстера, и я: мне было за что благодарить его, хотя перемену перед ямой я тоже помнил. В конце концов решили оставить троих на острове. Для них положили порох, пули, солёную козлятину, лекарства, инструменты, одежду, парус, верёвку; по настоянию Ливси добавили табак.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Voices below",
+          "body": "<p>One night something between singing and screaming came from the dark. The doctor worried: were they delirious with fever, should he take medicine? Silver argued against it. They would kill him; they could neither keep a promise nor believe another man's. The cook now moved freely, but almost everyone met his helpfulness with rudeness. Ben treated him better, still terribly afraid of his old quartermaster, as did I: I had reason to thank him, although I remembered his change before the pit. Finally we decided to leave the three men on the island. We put aside powder, shot, salted goat, medicines, tools, clothes, a sail, and rope, adding tobacco at Livesey's insistence.</p>"
+        }
+      }
+    },
+    {
+      "id": "point",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIV · L7327–7512",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "У песчаного мыса",
+          "body": "<p>Когда «Испаньола» выходила из Северной бухты, все трое стояли на коленях на песчаном мысу и поднимали руки. Они звали нас по именам и просили не бросать здесь умирать. Доктор крикнул, где найти оставленные припасы. Мы не повернули: ещё один мятеж был слишком опасен, а везти их домой на виселицу считали жестоким милосердием. Тогда один вскочил и выстрелил; пуля прошла над головой Сильвера и пробила парус. Мы укрылись за бортом. До полудня остров скрылся, и я был несказанно рад. Но людей едва хватало даже поднять якорь, а капитан ещё командовал с матраса. Домой без новой команды идти было нельзя, и мы направились в ближайший порт Испанской Америки.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Off the sandy point",
+          "body": "<p>As the Hispaniola left North Inlet, all three knelt on a sandy point with raised hands. They called us by name and begged us not to leave them there to die. The doctor shouted where they could find the provisions. We did not turn back. Another mutiny was too dangerous, and taking them home to be hanged seemed a cruel kindness. Then one jumped up and fired. His bullet passed over Silver's head and through the sail. We took cover behind the bulwarks. Before noon the island disappeared, to my immense relief. But we scarcely had men enough to raise the anchor, and the captain still gave orders from a mattress. We could not sail home without a new crew, so we headed for the nearest port in Spanish America.</p>"
+        }
+      }
+    },
+    {
+      "id": "port",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIV · L7327–7512",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Огни порта",
+          "body": "<p>После тяжёлого перехода открылась красивая гавань, лодки с фруктами, приветливые лица, огни города. Этот людный берег совсем не походил на покинутый остров. Доктор и сквайр взяли меня на сушу; встретив капитана английского военного судна, мы разговорились и вернулись лишь под утро. На палубе ждал Бен с признанием: Сильвер сбежал в береговой лодке. Ганн содействовал ему и теперь уверял, что спас наши жизни — пока одноногий оставался с нами, никто не был в безопасности. Кроме того, повар незаметно прорезал переборку и унёс мешок монет, примерно на триста или четыреста гиней. Кажется, все были рады избавиться от него такой ценой.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Harbour lights",
+          "body": "<p>After a difficult passage came a beautiful harbour, boats with fruit, friendly faces, and town lights. This crowded coast was nothing like the island we had left. The doctor and squire took me ashore. We met the captain of an English warship, fell into conversation, and returned only at dawn. Ben waited on deck with a confession: Silver had escaped in a shore boat. Gunn had helped and now insisted that he had saved our lives; nobody had been safe while the one-legged man remained aboard. The cook had also cut unnoticed through a partition and taken a bag of coins worth perhaps three or four hundred guineas. I think everyone was glad to be rid of him at that price.</p>"
+        }
+      }
+    },
+    {
+      "id": "bristol",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIV · L7327–7512",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Снова Бристоль",
+          "body": "<p>Наняв матросов, мы благополучно дошли до Бристоля. Из тех, кто отправлялся с нами, домой на шхуне вернулись только пятеро. Каждый получил большую долю. Смоллетт оставил море; Грей учился, стал помощником капитана и совладельцем корабля, обзавёлся семьёй. Бену дали тысячу фунтов: он потратил или потерял их за девятнадцать дней, а на двадцатый опять просил милостыню. В итоге ему досталась сторожка — та самая служба, которой он так не хотел на острове. Он живёт среди нас, нравится мальчишкам, иногда служит мишенью для шуток и замечательно поёт в церкви. О Сильвере я больше ничего не слышал. Возможно, он добрался до жены и живёт с ней и попугаем; знать этого я не могу.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "Bristol again",
+          "body": "<p>After hiring sailors we reached Bristol safely. Of those who had sailed with us, only five came home in the schooner. Each received a generous share. Smollett retired from the sea. Gray studied, became mate and part-owner of a ship, and started a family. Ben was given a thousand pounds. He spent or lost it in nineteen days, begging again on the twentieth. Eventually he was given a lodge to keep, precisely the employment he had disliked on the island. He lives amongst us, a favourite with the boys, sometimes the object of their jokes, and a fine singer in church. I heard nothing more of Silver. Perhaps he reached his wife and lives with her and the parrot; I cannot know.</p>"
+        }
+      }
+    },
+    {
+      "id": "surf",
+      "level": 3,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "evidenceLocator": "PG120 · XXXIV · L7327–7512",
+      "copy": {
+        "ru": {
+          "section": "Рассказ Джима Хокинса",
+          "title": "Последние строки",
+          "body": "<p>Серебро и оружие, насколько мне известно, так и лежат там, где их зарыл Флинт. Меня туда не заманить никакой силой. Стоит забыться самым дурным сном, как я снова слышу прибой у островных берегов; иногда вскакиваю в постели, а в ушах всё ещё звенит резкий голос капитана Флинта, попугая, выкрикивающего свои пиастры.</p>"
+        },
+        "en": {
+          "section": "Jim Hawkins's account",
+          "title": "The last lines",
+          "body": "<p>The silver and weapons, as far as I know, remain where Flint buried them. No power could draw me back. In my worst dreams I hear the surf along those shores again. Sometimes I sit bolt upright in bed with Captain Flint's sharp voice still in my ears: the parrot, crying for his pieces of eight.</p>"
+        }
+      }
+    },
+    {
+      "id": "final",
+      "level": 1,
+      "final": true,
+      "claimType": "book",
+      "sources": [
+        1
+      ],
+      "copy": {
+        "ru": {
+          "section": "Чтение",
+          "title": "У края карты",
+          "body": "<p>Выбранная глубина закончилась. «Главное» и «Суть книги» оставляют поиски незавершёнными. «Глубоко» содержит всю сохранённую сюжетную дугу с развязкой.</p><p>Роман и карта сцен доступны через «Источники».</p>"
+        },
+        "en": {
+          "section": "Reading",
+          "title": "At the edge of the map",
+          "body": "<p>This reading depth has ended. Essential and Core leave the search unresolved. Deep contains the full retained story arc and ending.</p><p>The novel and scene map are available through Sources.</p>"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "atUtc": "2026-10-31T23:43:10.846815+00:00",
+  "release": "expanded-depth-01",
+  "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/37",
+  "head": "50258f992aca995db74c3497e4b79cf2db0f3411",
+  "merge": "3edb73bdf93ced474efe83dd22dca5b7f02f7730",
+  "singleObservation": true,
+  "productionVerified": true,
+  "checks": [
+    {
+      "path": "hard-to-be-a-god.html",
+      "status": 308,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "bytes": 15,
+      "expectedSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Date": "Sat, 31 Oct 2026 23:42:48 GMT",
+        "X-Vercel-Id": "fra1::4ssgq-1793490168470-aea87cc5f53d"
+      },
+      "matches": false
+    },
+    {
+      "path": "books.json",
+      "status": 200,
+      "sha256": "e15dabb2eb062dc09b811d21bde956868438ce48cd458badb57d81961dfae684",
+      "bytes": 98413,
+      "expectedSha256": "e15dabb2eb062dc09b811d21bde956868438ce48cd458badb57d81961dfae684",
+      "headers": {
+        "Age": "0",
+        "Cache-Control": "no-store, max-age=0",
+        "Date": "Sat, 31 Oct 2026 23:42:48 GMT",
+        "Etag": "\"024120cdb629e855ff80e7c8067d57d7\"",
+        "X-Vercel-Cache": "MISS",
+        "X-Vercel-Id": "fra1::v8h9r-1793490168469-0b8e12b7528d"
+      },
+      "matches": true,
+      "books": 58,
+      "screens": 2249,
+      "hardGod": {
+        "slug": "hard-to-be-a-god",
+        "workTypes": [
+          "fiction"
+        ],
+        "genres": [
+          "science-fiction",
+          "adventure"
+        ],
+        "subjects": [],
+        "section": "fiction-adventure",
+        "tags": [
+          "science-fiction",
+          "power",
+          "conflict"
+        ],
+        "collections": [],
+        "audience": "adult",
+        "spoilerPolicy": "full-plot-in-deep",
+        "author": {
+          "ru": "Аркадий и Борис Стругацкие",
+          "en": "Arkady and Boris Strugatsky"
+        },
+        "title": {
+          "ru": "Трудно быть богом",
+          "en": "Hard to Be a God"
+        },
+        "cover": {
+          "type": "typographic",
+          "motif": "watchtower",
+          "tone": "red"
+        },
+        "file": "hard-to-be-a-god.html",
+        "description": {
+          "ru": "Под именем дона Руматы землянин Антон ищет пропавшего врача в Арканаре, где арестовывают учёных и поэтов. Он пытается спасти друзей, не снимая дворянской маски.",
+          "en": "Under the name Don Rumata, Anton from Earth searches for a missing physician in Arkanar, where scholars and poets are being arrested. He tries to save his friends while maintaining his disguise as a nobleman."
+        },
+        "screenCount": 94,
+        "readingMinutes": {
+          "essential": 9,
+          "core": 23,
+          "deep": 46
+        }
+      }
+    },
+    {
+      "path": "index.html",
+      "status": 308,
+      "sha256": "7c040f8633b8823d72ed63da9b3b2dfe9846e912c66a64c9433ec9c4815d76c2",
+      "bytes": 15,
+      "expectedSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Date": "Sat, 31 Oct 2026 23:42:48 GMT",
+        "X-Vercel-Id": "fra1::mv2pp-1793490168470-da1589d6e3c1"
+      },
+      "matches": false
+    },
+    {
+      "path": "editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/personal-review.json",
+      "status": 404,
+      "sha256": "6c1fd22d2fd2825539fb9c54fcd36fc321831a240b41d8b617ddd6c0a1a35614",
+      "bytes": 79,
+      "expectedSha256": null,
+      "headers": {
+        "Cache-Control": "public, max-age=0, must-revalidate",
+        "Date": "Sat, 31 Oct 2026 23:42:48 GMT",
+        "X-Vercel-Id": "fra1::6tmzk-1793490168471-49e75753314a"
+      },
+      "private404": true
+    }
+  ],
+  "verificationScope": "Changed reader and exact catalogue bytes, unchanged artwork-only homepage, private audit path404. Other reader bytes were verified unchanged locally; this is not a repeat fetch of all69 assets.",
+  "redirectResolution": "Initial .html URLs returned308 because vercel.json cleanUrls=true; canonical paths fetched next, without refetching catalogue or a timed retry.",
+  "canonicalChecks": [
+    {
+      "path": "hard-to-be-a-god.html",
+      "canonicalUrl": "https://book-tiktok-library.vercel.app/hard-to-be-a-god",
+      "status": 200,
+      "sha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "expectedSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "matches": true,
+      "bytes": 646716
+    },
+    {
+      "path": "index.html",
+      "canonicalUrl": "https://book-tiktok-library.vercel.app/",
+      "status": 200,
+      "sha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "expectedSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "matches": true,
+      "bytes": 456380
+    }
+  ]
+}

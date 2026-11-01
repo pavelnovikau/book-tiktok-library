@@ -1,0 +1,109 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "88de719fb11278e6721c4b10240995023d7de9bcc4a30455594122d1fd3b5ba5",
+    "treasure-island.html": "bdc9514459a6a56e59f7397925b06180ed956636d8416ae970a4a12704da747c"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "cancel": {
+    "open": true,
+    "focus": true,
+    "mode": true
+  },
+  "downgrades": [
+    {
+      "l": "ru",
+      "lower": "essential",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "ru",
+      "lower": "core",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "en",
+      "lower": "essential",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "en",
+      "lower": "core",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    }
+  ],
+  "reloads": [
+    {
+      "savedMode": "essential",
+      "safe": true,
+      "mode": "essential",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    },
+    {
+      "savedMode": "core",
+      "safe": true,
+      "mode": "core",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    },
+    {
+      "savedMode": "deep",
+      "safe": true,
+      "mode": "essential",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    }
+  ],
+  "lifecycle": {
+    "downgraded": true,
+    "fresh": true,
+    "finalPrompt": true
+  },
+  "storage": {
+    "consentKeys": [],
+    "oldProgressKeys": []
+  },
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

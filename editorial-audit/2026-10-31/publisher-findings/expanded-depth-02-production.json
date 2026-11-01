@@ -1,0 +1,105 @@
+{
+  "atUtc": "2026-11-01T00:21:55.377973+00:00",
+  "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/38",
+  "head": "b31d98a6f4b2d28fcc37fb1568901ceaa057b363",
+  "merge": "f999b2785313495bfd7f8e38ad23f9e0f9b93028",
+  "status": "PASS",
+  "scope": "One fresh HTTP observation of accepted changed reader/catalogue, unchanged artwork-only homepage and two private404 endpoints. Other66 compiled assets not freshly refetched; earlier full production proof preserved. Exact reader bytes bind the tested root candidate.",
+  "requests": [
+    {
+      "path": "/thinking-fast-and-slow",
+      "status": 200,
+      "bytes": 716153,
+      "sha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "expectedSha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "matches": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/books.json",
+      "status": 200,
+      "bytes": 98593,
+      "sha256": "b8798da99672c5bcc9c38cd1b2576d1bf64cf3e93b3f116e4be558f7cf6c8be7",
+      "expectedSha256": "b8798da99672c5bcc9c38cd1b2576d1bf64cf3e93b3f116e4be558f7cf6c8be7",
+      "matches": true,
+      "contentType": "application/json; charset=utf-8",
+      "books": 58,
+      "screens": 2330,
+      "kahneman": {
+        "slug": "thinking-fast-and-slow",
+        "file": "thinking-fast-and-slow.html",
+        "workTypes": [
+          "nonfiction"
+        ],
+        "genres": [],
+        "subjects": [
+          "thinking-decisions",
+          "psychology-relationships"
+        ],
+        "section": "risk-decisions",
+        "tags": [
+          "decision-making",
+          "uncertainty",
+          "risk",
+          "psychology"
+        ],
+        "collections": [],
+        "audience": "general",
+        "spoilerPolicy": "not-applicable",
+        "author": {
+          "ru": "Даниэль Канеман",
+          "en": "Daniel Kahneman"
+        },
+        "cover": {
+          "type": "typographic",
+          "mark": "TWO FRAMES",
+          "motif": "dual-frame",
+          "tone": "yellow"
+        },
+        "title": {
+          "ru": "Думай медленно… Решай быстро",
+          "en": "Thinking, Fast and Slow"
+        },
+        "description": {
+          "ru": "Как рождается уверенный ответ: эксперименты Канемана и Тверски, проверка экспертной интуиции, выбор под риском и различие между прожитой жизнью и памятью о ней.",
+          "en": "How a confident answer arises: Kahneman and Tversky’s experiments, tests of expert intuition, choices under risk, and the difference between lived experience and memory."
+        },
+        "screenCount": 110,
+        "readingMinutes": {
+          "essential": 15,
+          "core": 39,
+          "deep": 57
+        }
+      }
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "bytes": 456380,
+      "sha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "expectedSha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "matches": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/draft.ru.md",
+      "status": 404,
+      "bytes": 79,
+      "sha256": "c67ead2d2d7ddc5edceeb1c2333a3d8e4ab0bce1d979a193f84a40c938274c3c",
+      "expectedSha256": null,
+      "matches": true,
+      "contentType": "text/plain; charset=utf-8"
+    },
+    {
+      "path": "/collector-output/thinking-fast-and-slow/story-data.json",
+      "status": 404,
+      "bytes": 79,
+      "sha256": "3c61f51f8d4c527e95667c2ff3eb6d6979b52605b3cab0781537f71cb78dae63",
+      "expectedSha256": null,
+      "matches": true,
+      "contentType": "text/plain; charset=utf-8"
+    }
+  ],
+  "all69CurrentProductionAssetsFreshlyFetched": false,
+  "physicalSafariTested": false
+}

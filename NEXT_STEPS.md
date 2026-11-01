@@ -1,3 +1,13 @@
+# Current expanded story release — 2026-11-01
+
+Release only the hash-bound personally accepted Treasure Island 28/48/96 candidate, then verify the canonical clean production URL. Hard to Be a God PR37 and Kahneman PR38 are already live at their accepted hashes. Next root readings are Lost World and White Fang; their completed worker packages are not publication approvals.
+
+Why Zebras Don’t Get Ulcers and Children of Captain Grant continue as separate bounded Sol max writing tasks. Behave still lacks adequate primary coverage. Continue the 62-position plan with the author’s actual scenes/argument, real examples, book-specific coverage, connected drafts and personal root acceptance.
+
+The following blocks preserve earlier handoffs; this block supersedes their pending/completed states.
+
+---
+
 # Current expanded-depth work — 2026-11-01
 
 1. Release only the hash-bound personally accepted Kahneman27/74/110 candidate; check remote readiness once, then merge and verify the canonical clean production URL. PR37's expanded Hard to Be a God is already live.

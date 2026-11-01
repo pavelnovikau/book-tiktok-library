@@ -1,0 +1,120 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "009f26ebd1dd8cd11bdf3a25ecdf018d4b9e460d05018a7651e2e0c1a4df5973",
+    "treasure-island.html": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+    "root-review/browser-check.mjs": "be03ab16b216293019a7a555af18cfbea6f5af1ecdaeb5f4716c7dfd2bd14f53"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "legacy": {
+    "language": "en",
+    "mode": "deep",
+    "id": "jim-does-not-return",
+    "currentLast": null
+  },
+  "cancel": {
+    "open": true,
+    "focus": true,
+    "mode": true
+  },
+  "downgrades": [
+    {
+      "l": "ru",
+      "lower": "essential",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "ru",
+      "lower": "core",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "en",
+      "lower": "essential",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    },
+    {
+      "l": "en",
+      "lower": "core",
+      "generic": true,
+      "localized": true,
+      "fresh": true,
+      "unchanged": true,
+      "cancelUnchanged": true,
+      "destination": true,
+      "pickerFresh": true
+    }
+  ],
+  "reloads": [
+    {
+      "savedMode": "essential",
+      "safe": true,
+      "mode": "essential",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    },
+    {
+      "savedMode": "core",
+      "safe": true,
+      "mode": "core",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    },
+    {
+      "savedMode": "deep",
+      "safe": true,
+      "mode": "essential",
+      "generic": true,
+      "prompt": true,
+      "target": true
+    }
+  ],
+  "lifecycle": {
+    "downgraded": true,
+    "fresh": true,
+    "finalPrompt": true
+  },
+  "storage": {
+    "consentKeys": [],
+    "oldProgressKeys": [
+      "book-tiktok.treasure-island.language",
+      "book-tiktok.treasure-island.mode",
+      "book-tiktok.treasure-island.lastScreen"
+    ]
+  },
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

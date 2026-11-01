@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "work": "Robert Louis Stevenson, Treasure Island",
+  "witness": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/treasure-island/primary.txt",
+    "bytes": 399873,
+    "sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "totalLines": 7863,
+    "novelNarrativeLines": [
+      147,
+      7512
+    ],
+    "metadata": "Gutenberg #120; header says English, illustrator Louis Rhead, updated September 4 2026. Electronic witness, not certified collation with an 1883 printing.",
+    "headingAnomaly": "At L3569 header is XXVII, followed by The Jolly-boat’s Last Trip. Continuous order and contents identify logical XVII. Later XXVII is correct."
+  },
+  "readBy": "implementation worker personally in this turn, no child readers",
+  "scope": "All narrative paragraphs in continuous source order, I–XXXIV including ending. Metadata/contents checked. License/footer not claimed as narrative reading.",
+  "method": "Twelve bounded sed outputs, each returned without truncation and read before drafting. File acquisition alone was not counted as reading.",
+  "readingLedger": [
+    {
+      "order": 1,
+      "lines": [
+        147,
+        808
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 809
+    },
+    {
+      "order": 2,
+      "lines": [
+        809,
+        1464
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 1465
+    },
+    {
+      "order": 3,
+      "lines": [
+        1465,
+        2115
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 2116
+    },
+    {
+      "order": 4,
+      "lines": [
+        2116,
+        2747
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 2748
+    },
+    {
+      "order": 5,
+      "lines": [
+        2748,
+        3385
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 3386
+    },
+    {
+      "order": 6,
+      "lines": [
+        3386,
+        3924
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 3925
+    },
+    {
+      "order": 7,
+      "lines": [
+        3925,
+        4599
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 4600
+    },
+    {
+      "order": 8,
+      "lines": [
+        4600,
+        5173
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 5174
+    },
+    {
+      "order": 9,
+      "lines": [
+        5174,
+        5860
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 5861
+    },
+    {
+      "order": 10,
+      "lines": [
+        5861,
+        6381
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 6382
+    },
+    {
+      "order": 11,
+      "lines": [
+        6382,
+        6876
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": 6877
+    },
+    {
+      "order": 12,
+      "lines": [
+        6877,
+        7512
+      ],
+      "displayedAndRead": true,
+      "nextStartsAt": null
+    }
+  ],
+  "coverageGaps": [],
+  "limits": [
+    "Original RU/EN condensation; neither language is a certified published translation.",
+    "No print-edition variant collation, no historical geography or medical/scientific validation.",
+    "Full primary remains at supplied private path outside the public library repository."
+  ],
+  "criticalRechecks": {
+    "BenJoke": {
+      "chapter": "XXXII",
+      "lines": [
+        6985,
+        7018
+      ],
+      "finding": "Recognition of Ben plus nobody minds Ben dead or alive restores courage. No proof of Ben being alive."
+    },
+    "BenFear": {
+      "chapter": "XXXIV",
+      "lines": [
+        7373,
+        7382
+      ],
+      "finding": "Ben fears his old quartermaster; no revenge motive supplied."
+    },
+    "SilverEscape": {
+      "chapter": "XXXIV",
+      "lines": [
+        7465,
+        7473
+      ],
+      "finding": "Ben connives at escape and claims life-saving reason; story attributes that reason to Ben."
+    },
+    "Hands": {
+      "chapter": "XXVI–XXVII",
+      "lines": [
+        5575,
+        5695
+      ],
+      "finding": "One priming changed, other gun reloaded; thrown dirk, involuntary shots, shot/drowned, skin pinch release."
+    },
+    "TreasureChronology": {
+      "chapter": "XXXIII",
+      "lines": [
+        7180,
+        7250
+      ],
+      "finding": "Ben moved treasure two months before arrival. Doctor learns after assault, bargains next morning after ship disappears; rescue follows discovering Jim captive."
+    }
+  },
+  "criticalRechecksActuallyRedisplayed": [
+    {
+      "lines": [
+        6972,
+        7022
+      ],
+      "topic": "Ben: echo, recognition, dead-or-alive joke"
+    },
+    {
+      "lines": [
+        7185,
+        7244
+      ],
+      "topic": "Ben prior treasure transport and rescue timing"
+    },
+    {
+      "lines": [
+        7368,
+        7398
+      ],
+      "topic": "Ben fear without revenge specificity; doctor and remaining men"
+    },
+    {
+      "lines": [
+        7458,
+        7482
+      ],
+      "topic": "Escape attributed to Ben; stolen bag; five original voyagers return"
+    }
+  ]
+}

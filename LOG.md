@@ -1,60 +1,65 @@
+## 2026-11-01 — Book library: next full-source fiction assignment
+
+PR44 Irvine live and production-verified; eight expanded versions personally accepted. Next root reading: Make Time, then Essentialism, Four Thousand Weeks, Selfie. Three Sol max artifact assignments: Mindfulness, The Body Keeps the Score, Monday Begins on Saturday. Monday source preflight: full official Russian electronic witness399959chars;21 hashed read-only source files, all16chapters plus afterword available. No runtime polling or root whole-source reading claim; publication still requires exact root personal acceptance. Behave source gaps remain.
+
+Brief, source inventory and exact delegate response: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/monday-expanded-{brief.txt,source-inventory.json,dispatch.json}. Scope is only new depth-v2/monday-begins-on-saturday; no shared/root/Git/publication writes. Root plus three assigned workers fits four current slots. Completion callbacks drive continuation; no delegate polling.
+
+## 2026-11-01 — Book library: expanded Irvine personally accepted and live
+
+Root completely read85RU/EN retelling pairs, reread29Essential pairs and32Core additions with both neighboring edges, and personally reread10final changed pairs. Full chapter/case/practice/omission map and Sources read;34 actual primary intervals cover all21 proposed selections. English chapters20/22 and reading program read completely; actual Russian edition/editor-preface bodies checked. No root continuous whole-primary or dual-edition collation claim. Seven findings repaired: authoring asides removed, shorter-route names resolved, actual humor/indifference consequence restored. Final29/61/85,7870RU/9095EN body words; UI46/44minutes.
+
+69structural checks,700route positions,80representative layouts, genuinely cold Serif100px, Settings, reload/preferences, explicit deeper resume and legacy isolation passed. Owned Chrome removed; physical Safari/PWA untested. PR44 merged 835f006d;10production asset hashes match,2private404s.58books/2720screens; other public content locally unchanged. Evidence: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/expanded-depth-08-receipt.json.
+
+Selfie callback ingested and64bindings verified; prose still unaccepted. Root queue: Make Time, Essentialism, Four Thousand Weeks, Selfie. Mindfulness/Body remain assigned; runtime not polled. Behave gaps remain. Eight of62 approved positions meet current personal maximum-depth acceptance.
+
+## 2026-11-01 — Book library: next bounded Sol max source-backed writers
+
+After personally accepting and publishing expanded Zebra PR43, dispatched Mindfulness and The Body Keeps the Score to codex_codex_2/gpt-6.1-sol/max, artifact-only in their own new depth-v2 directories. Full owned extracted sources inventoried read-only; workers must actually read main text, develop author argument/cases/practices and provide exact route/coverage/omission/source ledgers. No shared/Git/deploy or self-acceptance authority; root personal bilingual reading required.
+
+Three assignments recorded including earlier Selfie, without polling its runtime. Four complete candidates await root reading; next Irvine. Seven of62 positions accepted/live;47 await expanded work and Behave source coverage remains incomplete. Briefs and returned links: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/{mindfulness,the-body-keeps-the-score}-expanded-{brief,dispatch}.
+
+## 2026-11-01 — Book library: expanded Sapolsky stress reader personally accepted and live
+
+Root completely read107 RU/EN retelling pairs and five final changed pairs;37 Essential pairs reread,33 Core additions reread with both neighboring edges. Complete18-chapter/68-grouped-case map and omissions read;45 actual primary ranges and six narrow official/primary online sections checked. No root continuous whole-primary or published-English collation claim. Restored the proposed depression recovery bridge, repaired three shorter-route references and an editorial aside;29 grouped-case entry locators corrected. Final37/70/107,13219RU/13988EN body words; UI Deep77/67minutes.
+
+69 structural checks,856 route positions,80 representative layouts, cold Serif100px, actual reload/preferences, explicit deeper resume and authentic legacy-state checks passed. Owned Chrome removed; physical Safari/PWA untested. PR43 merged d043167f;9 production assets match,2 private404s.58books/2671screens; other public content locally unchanged. Evidence: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/expanded-depth-07-receipt.json.
+
+Four Thousand Weeks completion ingested46bindings; prose unaccepted. Root queue: Irvine, Make Time, Essentialism, Four Thousand Weeks. Selfie remains assigned, runtime not polled; Behave gaps remain. Seven of62 approved positions meet current personal maximum-depth acceptance.
+
+## 2026-11-01 — Book library: next bounded nonfiction implementations
+
+Two new bounded Sol max implementations assigned: Four Thousand Weeks (complete owned55495-word extraction) and Selfie (complete owned97266-word extraction). Actual main text and methodological/appendix boundaries must be read and mapped, not replaced by summaries. Both work only in their own new candidate folders; no root/global/Git/publication changes. Root next personal reading remains Zebra, Irvine, Make Time, Essentialism. All new versions require root personal acceptance; no runtime polling.
+
+Briefs and returned task records: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/{four-thousand-weeks,selfie}-expanded-{brief,dispatch}. Approval and publication remain false for both candidates.
+
+## 2026-11-01 — Book library: Captain Grant personally accepted and live
+
+Root read all116 RU/EN retelling pairs, all final changed paragraphs, Sources and the complete113-scene/66-chapter retention and omission maps. Essential/Core are exact already-read continuous prefixes; cut boundaries and shared framing rechecked. Selected actual English passages include all six final chapters; one French chapter checked directly. No continuous whole-primary or full French/translation collation claim. Repaired two intrusive narrative asides, Grant's reflection/repentance attribution and the major/Arabella actor. Final26/69/116;12410RU/14921EN narrative words; UI Deep72/71minutes.
+
+69 structural checks,844 route positions,80 layouts, genuine downgrade/reload and cold first-Serif100px scroll passed. All owned Chrome removed; physical Safari/PWA untested. PR42 merged31de7b22;8production assets match exact hashes,2private404s;58books/2615screens. All other public content locally unchanged. Evidence: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/expanded-depth-06-receipt.json.
+
+Make Time and Essentialism completions ingested73/50bindings. Their prose remains unaccepted, as do Zebra and Irvine. Next root personal reading: Zebra, Irvine, Make Time, Essentialism. Other62-position replacements remain held individually.
+
+## 2026-11-01 - Book library: White Fang personally accepted and live
+
+Root read all88 input RU/EN pairs, all final repaired paragraphs and both complete shorter routes, the whole chapter map/Sources and selected actual primary passages. Restored Fort Yukon/Dawson/lynx/Cherokee chronology, the judge's Hall identification, the scale of Scott's cuff and Essential's fire siege; removed a shorter-route dangling reference.36/51/89;8173RU/10071EN narrative words. Story, delayed trust, violence, nursing, dreams and actual puppy ending remain.
+
+69structural checks, exact draft/data/HTML parity,704route positions,80layouts, true downgrade/reload and cold first Serif100px scroll passed. Owned Chrome cleaned; physical Safari/PWA untested. PR41 merged43cb318c;7production assets match exact hashes and2private404s.58books/2536screens; all other public content locally unchanged. Evidence: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/expanded-depth-05-receipt.json.
+
+Zebra and Irvine callbacks ingested58/54bindings; prose remains unaccepted. Next personal root reading: Grant, Zebra, Irvine. Make Time remains assigned; Behave actual-primary gaps remain. All62 positions retain individual acceptance. Essentialism is now assigned on Sol max from the complete owned edition; two active assignments including Make Time, no polling.
+
 # Work log
 
-## 2026-10-31 — release08: семь narrative readers и production proof release07
+## 2026-11-01 — Expanded fiction personally accepted and published
 
-Intake запечатан на7 readers/274 RU/EN pairs: Howl15/25/39, Northern17/22/43, Ender16/25/39, Mockingbird14/28/41, Hobbit15/23/35, Holes14/23/39, Heinlein17/25/38. Пять локальных findings закрыты отдельно; обратная подстановка воспроизводит4 исходных JSON и4 HTML hashes, original REQUIRES-FIXES сохранены. Три fresh independent PASS привязаны к текущим hashes. Выборочные первичные отрывки и подробные guides не названы полным чтением. Oxford остаётся reviewer evidence; publisher дополнительно прочитал DBE, сохранив факт прежнего parent timeout.
+Лично прочитаны все94RU/EN-пары нового «Трудно быть богом», отдельно оба коротких маршрута и полная scene map. Проверены опорные места первоисточника: разговоры с Будахом и Аратой, развязка придворной интриги, Кира и эпилог. Исправлены точечный перевод, переход после Рипата, лишнее объяснение после финальной сцены, названия режимов и повторное согласие после понижения Deep. Принят связный рассказ с12частями источника,7792RUсловами повествования; объём не использован как квота. Родитель не заявляет непрерывного чтения всего первоисточника.
 
-Catalogue53 books/2,206 screens,6 новых semantic motifs, story descriptions и реальные runtime reading times. Другие46 roots/entries byte-identical, включая Meditations. Reviewed custom HTML перенесён без plain rebuild; maintained Settings/fonts/header синхронизированы. Removed/cover IDs безопасно возвращают Essential, retained Hobbit IDs возобновляются с current consent; старое session consent удаляется. Fresh state test обнаружил retained Howl consent после downgrade — root-only reset исправляет это без изменения collector/review content. Harness отдельно научен endingDialog Heinlein и nested cover paragraphs; diagnostics сохранены.
+PR37 head50258f9,3checks SUCCESS, merged3edb73bd. На production совпали точные HTML и books.json, прежняя homepage без надписей на обложках; audit path404. Каталог58книг/2249экранов. Другие120tracked HTML не изменены локально; повторного запроса всех69production assets не было. Приёмка: `_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/personal-review.json`; релиз: `publisher-findings/expanded-depth-01-receipt.json`. Canonical dirty Git не затронут; source/reader/старые review сохранены.
 
-7×69 structural assertions, focused Settings/real rendered fonts/radio isolation включая Hermes, corrected copy, consent/reload/downgrade, progress/migration,320/390/desktop dense tails, discovery/stats/equal tabs, safe-area/focus и offline проходят. Public allowlist64 assets. Release07 теперь отдельно production verified:58 HTTP200 hashes exacthead2fbd3f5,12 живых RU/EN readers, PHM native и Giver/Earthsea custom consent, private404. Old pending receipts сохранены. PR/head/check/merge/production release08 — в own receipts; Flowers/Dune исключены. Использован только подготовленный checkout, без subagents/новых checkouts; canonical copyback только own receipts/proof. Physical iPhone/Safari/PWA не проверялись.
+По Behave прочитаны обе новые карты, сверены12private bindings и критические места главы11, включая отозванную статью, альтернативные объяснения нейронной активации и условия контакта. Новые фрагменты6/14 улучшают покрытие, но существенные пробелы остаются; Deep не принят. Источник `depth-v2/behave-pass2-root-ingestion.json`. Не приписывать полное чтение главы родителю.
 
+После принятого художественного примера назначена первая ограниченная пара Sol max: Treasure Island3726bc64 и Lost World905c6c1a, только новые depth-v2 директории. Канеман51e61680 остаётся отдельным нон-фикшн пилотом. Три назначения, без runtime polling; массовая/нон-фикшн очередь ждёт проверки пилота. Все дальнейшие публикации требуют личного чтения родителем. Обновлены PLAN, publication-state, status, README и NEXT_STEPS; имена контрактных файлов сохранены.
 
-## 2026-10-31 — release07: 12 readers, локальные meaning fixes и безопасная миграция
-
-Приняты 10 parent-localized исправлений по 14 findings и свежие exact-hash PASS Kuhn/Scott: 334 RU/EN pairs. Обратная замена только зафиксированных правок воспроизводит все 10 original reviewed SHA; исходные REQUIRES-FIXES reviews сохранены. Source limits и зависимость Behave от actual independent Mindscape reading после повторного timeout не скрыты.
-
-Интеграция в подготовленном release07 checkout:47 books/2076 screens, 7 new roots и 5 replacements; остальные 35 roots/entries byte-identical. Сохранены current Settings/Geist, custom covers, source maps и book-local consent. 1873/TOC получили one-time actual-key migration, removed-ID fallback и restart guard; PHM — document-local Deep consent. Исправлены exact category/title search collisions, сохранён старый RU title alias Determined. Public allowlist: 58 assets.
-
-Пройдены12×69 structural assertions, corpus/source/hash parity, shell idempotence, targeted no-server CDP Settings/fonts/native keys/cold scroll, migration/state, consent/cancel/reload, dense tails, safe-area/focus и discovery. Receipt/состояние PR и production: editorial-audit/2026-10-31/publisher-findings/release-07.json. Heinlein пришёл после seal и оставлен следующему publisher; остальные новые rescues не включались. Canonical tree получает только release07 receipts/proof/own closure.
-
-## 2026-10-31 — release06 и независимое закрытие Settings PR29
-
-Приняты exact matching PASS packages: Atomic Habits13/20/24, Protocols10/16/22, Hermes12/17/22 —68 RU/EN pairs. Сохранены actual-excerpt/selected-reading/original-research границы; недоступные два внутренних источника Hermes не сертифицированы, A–D остаются гипотезами. Catalogue40 books/2,327 screens; новый habit-cycle motif и актуальные times/tags/descriptions. Остальные37 roots/entries неизменны относительно UI-main. Exact HTML интегрирован без plain rebuild, legacy Hermes progress мигрирует один раз, removed IDs безопасны, restart не восстанавливает старый saved ID.
-
-Независимо закрыты R1/R2 на a976d547: cold Serif сохраняет scroll40/paragraph coordinate, native radio arrows в Hermes не меняют slide/saved ID. Первоначальный a09d38dc REQUIRES-FIXES сохранён. PR29 после3 green merged первым:7e1f96f. Catalogue39/2,453 и37 JSON corpora побайтно сохранены; virtual synchronization40 pages без mismatches. Production50/50 assets и live regression checks прошли; installed skill совпадает с accepted UI. Затем maintained shell применён ко всем40 readers, idempotence проверена.
-
-3×69 structural,2,496 render positions с доступными последними строками, source/state/legacy migration, Settings persistence/real fonts, discovery/stats/equal tabs, safe-area/focus и offline проходят. Public allowlist51 assets; corpus/collector/audit/private/fulltext исключены. Усилен DevTools port-ready harness и исправлена старая проверка theme-toggle label на Settings gear; исходный startup failure сохранён. Release05 отдельно production-verified:50 hashes,39/2,453, источники/progress/consent/56 quotations/private404; старые receipts сохранены. Release06 PR/head/production — в release-06.json. Intake sealed на трёх; Kahneman/Meadows для следующего publisher. Canonical copyback только own receipts/proof, чужие checkout/dirty Git не тронуты.
-
-## 2026-10-31 — Editorial release05 and final release04 verification
-
-Accepted Meditations 18/30/39 and Antifragile 11/17/24 by exact independent PASS binding; Left Hand 11/15/35 by four targeted publisher closures with the original REQUIRES-FIXES verdict preserved. All 98 bilingual pairs, quotation objects, source maps and bespoke covers stay exact. Meditations retains 14 quotation pairs/translator locators, XII.36=Rogovin35 and its archival cover. Source limits distinguish author text, interview, draft, later clarification and professional guides.
-
-Catalogue39 books/2,453 screens; two new semantic motifs, actual fiction description and refreshed times. Other 36 roots/entries unchanged. Reviewed HTML copied without plain rebuild; removed IDs fall back, valid IDs resume, Left Hand renews ending consent. Focused3 × 69 / 3,200 visits,56 quotation displays, source/state/consent, focus/discovery/safe-area and offline checks pass. Strict 50-asset public allowlist; no collector/audit/private paths deployed. Exact PR/head/check/deployment state belongs to release-05.json. Intake sealed at three candidates; other READY/review work remains outside this batch. PR29 stays root-owned; installed skills untouched.
-
-Release04 now has distinct final verification:48/48 actual production asset hashes match merge be5b08c,37 books/2,499 screens; five focused live reader/catalogue phases and six excluded-path404 probes pass. Prior pending receipt preserved byte for byte under release-05-proof; original release-04 receipt not overwritten. Existing T3-provided checkout only; canonical copyback limited to own release05 receipt/proof and release04 verification. No subagents, external people messages or physical-device claim.
-
-## 2026-10-31 — Editorial release 04
-
-Accepted four new readers / 146 RU/EN pairs: HardGod 8/13/33, Huck 24/36/54, NVC 16/26/30, Fifth Discipline 11/22/29. Huck/Senge match completed independent PASS hashes. HG-06 and NVC-01/02 are directly closed against actual primary passages; reversing only those phrases reproduces the original reviewed JSON/HTML hashes. Original REQUIRES-FIXES reviews and source boundaries stay intact. No full-book or translation-fidelity certificate is invented.
-
-Catalogue: 37 books / 2499 screens; four distinct cover motifs and controlled discovery. Previous 33 root files and metadata remain unchanged. Collector HTML was integrated without plain rebuilding: Huck custom consent preserved; HardGod gains document-local native consent; valid IDs retained, unavailable IDs discarded. NVC's long RU card title now wraps at320. Shared header/PWA synchronization is idempotent.
-
-4 × 69 structural checks, 4832 browser rendering visits, Sources/progress/restart, native/custom consent/Escape/downgrade, focus/swipe, safe-area and offline checks pass. Public allowlist:48 assets. Release03 final evidence reconciled explicitly; parent snapshots/dirty canonical root files untouched. Release04 PR/head/production state: editorial-audit/2026-10-31/publisher-findings/release-04.json. Meditations arrived after sealing; Settings PR29 remains separate and root-coordinated. All work used the existing T3-prepared BOOK checkout; canonical copyback is release04 receipts/proof only.
-
-## 2026-10-31 — Editorial release 03
-
-Приняты 11 readers / 457 RU/EN pairs: 4 matching-hash independent PASS и 7 targeted publisher closures по 9 required findings. Сохранены оригинальные REQUIRES-FIXES records, новые authoring/HTML hashes приняты явно. Первичные сцены проверены для Make Time, Monday, Accelerando, Zebras, Lost World, Treasure Island и Grant; White Fang принят по точному PASS. Корпуса не пересобирались из plain template: Accelerando сохраняет custom cover/dialog, fiction — narrative mode и Deep consent. Удалённые saved IDs сбрасываются безопасно.
-
-Catalogue: 33 books / 2353 screens; новый Monday с controlled discovery и enchanted-lab motif. Остальные 22 root readers побайтно прежние. Проверки: 11 × 69, 15200 rendered visits, Sources/progress/consent, safe-area/focus/swipe, offline; public allowlist — 44 files. Hard to Be a God исключён до independent recheck; settings/font UI остаётся отдельным feature. PR/production state и hashes — editorial-audit/2026-10-31/publisher-findings/release-03.json.
-
-Закрыта production verification release02: PR27 merge 87fc76389, 43/43 live asset hashes, 32 books / 3168 screens, 6 live reader interactions без runtime errors. Старый pending receipt и pre-release evidence сохранены, новые proof добавлены. Все изменения — в tool-provided worktree; в shared findings копируются только финальные receipts/proof.
-
-
-## 2026-10-31 — Editorial release 02
-
-Приняты 5 hash-matched PASS nonfiction packages (221 RU/EN pairs, включая Selfie); первая narrative fiction — Amphibian Man (35 pairs). AMP-01/02 проверены по первичным сценам; восстановлены физическая причина прыжка и защитный мотив Гуттиэре. Другие 33 pairs не менялись: откат двух исправлений воспроизводит reviewed SHA-256.
-
-В выделенном worktree от latest library main `ae8fd406c` собраны 6 root readers, точные catalogue counts/times/descriptions и sea-air cover; 32 books / 3168 screens. Добавлены безопасный сброс удалённых saved IDs и document-local Deep consent. Reviewed collector files сохранены побайтно. Public allowlist не расширен на служебные папки. Другие кандидаты, late 1873/TOC fixes и shared parent checkout не затронуты. Проверки и фактический PR/production state — `editorial-audit/2026-10-31/publisher-findings/release-02.json`.
 
 ## 2026-10-31 — Production verified, release 01
 

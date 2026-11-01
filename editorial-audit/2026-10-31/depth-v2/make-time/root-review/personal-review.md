@@ -1,0 +1,15 @@
+# Make Time — personal root acceptance
+
+PASS after seven findings were closed. Acceptance applies only to the final hashes in personal-review.json.
+
+I completely read all68original RU/EN pairs, including cover/final, then personally reread all14final changed pairs. I reread all24Essential pairs in route order, with edited entries reread after repair. For Core I reread every24added pair completely with both adjacent route edges; common Essential prose was already reread. This does not claim a third complete rereading of identical shared prose. All six final route exports match JSON/HTML exactly.
+
+I read the complete326line chapter/tactic/omission map, all87retained contributions, Sources and implementation account. I directly read28bounded primary selections covering all26suggested intervals, and verified their exact paragraph hashes. The writer’s complete34nonempty-record extraction ledger has interval/hash integrity. This does not turn writer full-source reading into root continuous whole-primary reading. No published-English collation, original-image inspection or underlying-paper appraisal is claimed.
+
+The argument and actual author cases survive. Repairs remove intrusive instructions to the producer and missing-extraction discussion from ordinary reading, restore comparative short-workout reasoning and actual JZ set structure, restore his fasting adaptation, clarify author/partner names and sailing, restore infant Flynn’s concrete action, and introduce the omitted design-sprint context for shorter routes. A generator had mistaken internal steps4–6 for global tactic headings: the actual source was read completely, starts corrected and four resulting extents repaired. A source context was added for the sprint definition.
+
+Final routes24/48/68. Deep has9942RU/11095EN authored body words, or9969RU/11120EN including the shared final. Cover/headings/UI/Sources are excluded from both body measures. Noncover body time is55.38/50.55minutes at180/220wpm; actual reader estimates including framing are58/53minutes. UI Essential20/18, Core41/37. Quantity is reported separately from fidelity.
+
+Fresh root QA passed69structural checks,560route positions and80representative language/theme/font layouts. Genuinely first unloaded Serif selection preserved100px scroll at320×568. Settings arrows/focus/Tab/Escape, explicit deeper Continue, actual reload/preferences, authentic legacy isolation, invalid-ID fallback, navigation, focus/pointer, Sources/Contents and actual rendered fonts passed. Root inspected both actual320px screenshots through their last lines. No runtime errors or remote runtime requests; owned Chrome groups/profiles removed. Physical Safari/PWA untested.
+
+All87tactics have retained substance, but subsidiary examples, instructions, statistics, broad health promises and original visual material are condensed or omitted as mapped. Health propositions remain historical attributed book arguments, not independently certified clinical guidance. Publication is allowed for this exact Make Time candidate only. Other unaccepted content remains held.

@@ -1,5 +1,29 @@
 # Current personal review queue —2026-11-01
 
+Make Time personally accepted24/48/68 after complete bilingual retelling reading, all24 Essential pairs, all24 Core additions with adjacent edges, the whole326-line chapter/tactic/omission map and28 actual primary ranges. All87tactic contributions mapped; source reading selective overall. Deep9969RU/11120EN noncover body words; UI58/53minutes. Release pending; eight expanded versions live. Essentialism, Four Thousand Weeks, Selfie and Mindfulness await root reading. The Body Keeps the Score and Monday Begins on Saturday remain assigned; no runtime polling. Behave source coverage incomplete. All62 positions require individual acceptance.
+
+This block supersedes historical states below.
+
+---
+
+# Current personal reading queue and assignments —2026-11-01
+
+PR44 Irvine live and production-verified; eight expanded versions personally accepted. Next root reading: Make Time, then Essentialism, Four Thousand Weeks, Selfie. Three Sol max artifact assignments: Mindfulness, The Body Keeps the Score, Monday Begins on Saturday. Monday source preflight: full official Russian electronic witness399959chars;21 hashed read-only source files, all16chapters plus afterword available. No runtime polling or root whole-source reading claim; publication still requires exact root personal acceptance. Behave source gaps remain.
+
+This block supersedes historical assignment notes below.
+
+---
+
+# Current personal reading queue —2026-11-01
+
+Expanded Irvine PR44 is personally accepted, merged and production-verified:29/61/85screens,7870RU/9095EN body words, Deep46/44minutes in UI. Eight expanded versions personally accepted/live; production58books/2720screens. Make Time, Essentialism, Four Thousand Weeks and Selfie await personal reading. Mindfulness and The Body Keeps the Score remain assigned; runtime not polled. Behave source gaps remain. All62 positions retain individual root acceptance.
+
+This current block supersedes historical states below.
+
+---
+
+# Current personal review queue —2026-11-01
+
 Irvine personally accepted29/61/85 after reading the complete bilingual retelling, all29 Essential pairs, all32 Core additions with adjacent edges, the full chapter/case/practice/omission map and34 actual primary ranges. Deep7870RU/9095EN body words; UI46/44minutes. Publication pending; seven expanded versions already live. Make Time, Essentialism, Four Thousand Weeks and Selfie await root reading. Mindfulness and The Body Keeps the Score remain assigned; no runtime polling. Behave source coverage incomplete. All62 positions require individual acceptance.
 
 This block supersedes historical states below.

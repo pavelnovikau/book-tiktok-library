@@ -1,5 +1,5 @@
 {
-  "atUtc": "2026-11-01T04:02:12.688500+00:00",
+  "atUtc": "2026-11-01T04:37:59.228836+00:00",
   "localDate": "2026-11-01",
   "scope": "All62 approved library positions; preserve fiction/nonfiction/hybrid/research-brief identities.",
   "rootReviewRequired": true,
@@ -235,7 +235,7 @@
       "currentlyOnSite": true,
       "currentScreens": 30,
       "currentRuBodyWords": 1338,
-      "status": "expanded-writing-assigned",
+      "status": "expanded-awaiting-root-personal-reading",
       "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-mindfulness-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
@@ -245,16 +245,22 @@
       "rootOmissionsAndQualificationsReviewed": false,
       "replacementPublicationAllowed": false,
       "assignment": "Expanded full author argument, actual cases and practices; complete owned-source reading; root acceptance mandatory",
-      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/mindfulness-expanded-source-inventory.json"
+      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/mindfulness-expanded-source-inventory.json",
+      "expandedCounts": {
+        "essential": 32,
+        "core": 58,
+        "deep": 78
+      },
+      "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/mindfulness.json"
     },
     {
       "slug": "a-guide-to-the-good-life",
       "title": "Радость жизни",
       "author": "Уильям Ирвин",
       "currentlyOnSite": true,
-      "currentScreens": 36,
-      "currentRuBodyWords": 1542,
-      "status": "root-personally-accepted-awaiting-publication",
+      "currentScreens": 85,
+      "currentRuBodyWords": 7870,
+      "status": "root-accepted-and-live",
       "assignedTask": "70110b6d-c14e-48e0-be5b-b01991cc8a01",
       "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/root-review/personal-review.json",
       "rootEntireRuEnDraftRead": true,
@@ -274,7 +280,9 @@
       "acceptedHashes": {
         "story-data.json": "67f46b34146c2ee6b017dcab9d305b79bdcc83c2daf45bbd96cfef7a680db8ac",
         "a-guide-to-the-good-life.html": "eb8245424739ff2a8f2b1af5e7fedfdd302b13f8aea80ccd5e14fe3f704b14fa"
-      }
+      },
+      "productionMerge": "835f006db9333b5f56076e9f8797d3da39af59ca",
+      "productionPr": 44
     },
     {
       "slug": "zen-and-the-art-of-motorcycle-maintenance",
@@ -370,15 +378,15 @@
       "currentlyOnSite": true,
       "currentScreens": 51,
       "currentRuBodyWords": 2142,
-      "status": "expanded-awaiting-root-personal-reading",
+      "status": "root-personally-accepted-awaiting-publication",
       "assignedTask": "4c102201-2a47-4e72-abeb-3eb0b1946bca",
-      "rootAcceptance": null,
-      "rootEntireRuEnDraftRead": false,
-      "rootAllNestedRoutesRead": false,
-      "rootCoverageMapCompared": false,
-      "rootKeyPrimaryPassagesChecked": false,
-      "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false,
+      "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/make-time/root-review/personal-review.json",
+      "rootEntireRuEnDraftRead": true,
+      "rootAllNestedRoutesRead": true,
+      "rootCoverageMapCompared": true,
+      "rootKeyPrimaryPassagesChecked": true,
+      "rootOmissionsAndQualificationsReviewed": true,
+      "replacementPublicationAllowed": true,
       "assignmentScope": "Whole owned primary, actual four-stage argument, cases and all87 tactic narratives read; new expanded candidate for personal root review.",
       "assignmentThread": "<t3-thread://v2/2bf590fe-c449-46d2-bff4-430a7ba6f22a/thread:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A4c102201-2a47-4e72-abeb-3eb0b1946bca>",
       "expandedCounts": {
@@ -386,7 +394,12 @@
         "core": 48,
         "deep": 68
       },
-      "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/make-time.json"
+      "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/make-time.json",
+      "rootRouteReadingMethod": "All68 original RU/EN Deep pairs completely read. All24 Essential pairs reread in order, with final edited entries reread after repair. All24 Core additions reread completely with both adjacent route edges; common Essential prose had already been reread. All14 final changed pairs personally reread. No third complete rereading of identical shared prose is claimed.",
+      "acceptedHashes": {
+        "story-data.json": "cf6315a18ad3b9ca0f2a2e045faece9a841c3415ac879ecadb9ce2dd853d05da",
+        "make-time.html": "7803ad4d1cf1929f556324b422cde65d998ca9589258c66154e393198790f4da"
+      }
     },
     {
       "slug": "treasure-island",
@@ -682,15 +695,16 @@
       "currentlyOnSite": true,
       "currentScreens": 29,
       "currentRuBodyWords": 1335,
-      "status": "needs-root-depth-and-source-assessment",
-      "assignedTask": null,
+      "status": "expanded-writing-assigned",
+      "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-monday-begins-on-saturday-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
       "rootAllNestedRoutesRead": false,
       "rootCoverageMapCompared": false,
       "rootKeyPrimaryPassagesChecked": false,
       "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false
+      "replacementPublicationAllowed": false,
+      "assignment": "Full-primary expanded connected narrative of all three stories; Sol max artifact-only; root personal acceptance required"
     },
     {
       "slug": "hard-to-be-a-god",

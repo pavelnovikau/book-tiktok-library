@@ -1,12 +1,12 @@
 # Library depth status
 
-Updated 2026-11-01T04:02:12.688500+00:00.62 approved positions. Seven personally accepted expanded books live; Irvine accepted, release pending. Four completed candidates await personal reading. Mindfulness and The Body Keeps the Score remain assigned; no runtime polling.
+Updated 2026-11-01T04:37:59.228836+00:00.62 approved positions. Eight personally accepted expanded books live; Make Time accepted, release pending. Four completed candidates await personal reading. The Body Keeps the Score and Monday Begins on Saturday remain assigned; no runtime polling.
 
 | Current depth stage | Count |
 |---|---:|
-| Awaits expanded work | 47 |
+| Awaits expanded work | 46 |
 | Primary-source coverage incomplete | 1 |
-| Personally accepted and live | 7 |
+| Personally accepted and live | 8 |
 | Candidate awaits personal root reading | 4 |
 | Expanded version assigned | 2 |
 | Personally accepted; release pending | 1 |
@@ -23,14 +23,14 @@ Updated 2026-11-01T04:02:12.688500+00:00.62 approved positions. Seven personally
 | Искусство войны | Сунь-цзы | Awaits expanded work |
 | Протоколы Хубермана | Эндрю Хуберман | Awaits expanded work |
 | Четыре тысячи недель | Оливер Беркман | Candidate awaits personal root reading |
-| Осознанность | Марк Уильямс и Денни Пенман | Expanded version assigned |
-| Радость жизни | Уильям Ирвин | Personally accepted; release pending |
+| Осознанность | Марк Уильямс и Денни Пенман | Candidate awaits personal root reading |
+| Радость жизни | Уильям Ирвин | Personally accepted and live |
 | Дзен и искусство ухода за мотоциклом | Роберт Пирсиг | Awaits expanded work |
 | Отпускание | Дэвид Хокинс | Awaits expanded work |
 | Тело помнит всё | Бессел ван дер Колк | Expanded version assigned |
 | Осознавание через движение | Моше Фельденкрайз | Awaits expanded work |
 | The Potent Self | Моше Фельденкрайз | Awaits expanded work |
-| Найди время | Джейк Кнапп и Джон Зерацки | Candidate awaits personal root reading |
+| Найди время | Джейк Кнапп и Джон Зерацки | Personally accepted; release pending |
 | Остров сокровищ | Роберт Льюис Стивенсон | Personally accepted and live |
 | Затерянный мир | Артур Конан Дойл | Personally accepted and live |
 | Хоббит | Дж. Р. Р. Толкин | Awaits expanded work |
@@ -45,7 +45,7 @@ Updated 2026-11-01T04:02:12.688500+00:00.62 approved positions. Seven personally
 | Человек-амфибия | Александр Беляев | Awaits expanded work |
 | Лунная пыль | Артур Кларк | Awaits expanded work |
 | Марсианские хроники | Рэй Брэдбери | Awaits expanded work |
-| Понедельник начинается в субботу | Аркадий и Борис Стругацкие | Awaits expanded work |
+| Понедельник начинается в субботу | Аркадий и Борис Стругацкие | Expanded version assigned |
 | Трудно быть богом | Аркадий и Борис Стругацкие | Personally accepted and live |
 | Солярис | Станислав Лем | Awaits expanded work |
 | Убик | Филип К. Дик | Awaits expanded work |

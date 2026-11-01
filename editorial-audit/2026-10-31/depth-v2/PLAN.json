@@ -1,5 +1,5 @@
 {
-  "atUtc": "2026-11-01T04:37:59.228836+00:00",
+  "atUtc": "2026-11-01T05:08:12.893030+00:00",
   "localDate": "2026-11-01",
   "scope": "All62 approved library positions; preserve fiction/nonfiction/hybrid/research-brief identities.",
   "rootReviewRequired": true,
@@ -151,15 +151,15 @@
       "currentlyOnSite": true,
       "currentScreens": 36,
       "currentRuBodyWords": 1511,
-      "status": "expanded-awaiting-root-personal-reading",
+      "status": "root-personally-accepted-awaiting-publication",
       "assignedTask": "9c3ef2fd-95ae-4e4c-99bb-02aa44893340",
-      "rootAcceptance": null,
-      "rootEntireRuEnDraftRead": false,
-      "rootAllNestedRoutesRead": false,
-      "rootCoverageMapCompared": false,
-      "rootKeyPrimaryPassagesChecked": false,
-      "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false,
+      "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/root-review/personal-review.json",
+      "rootEntireRuEnDraftRead": true,
+      "rootAllNestedRoutesRead": true,
+      "rootCoverageMapCompared": true,
+      "rootKeyPrimaryPassagesChecked": true,
+      "rootOmissionsAndQualificationsReviewed": true,
+      "replacementPublicationAllowed": true,
       "assignmentThread": "<t3-thread://v2/2bf590fe-c449-46d2-bff4-430a7ba6f22a/thread:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A9c3ef2fd-95ae-4e4c-99bb-02aa44893340>",
       "assignmentScope": "Complete owned51531-word edition; all20 chapters and leadership appendix; connected exposition, actual cases/procedures, separate root personal acceptance required.",
       "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/essentialism.json",
@@ -167,6 +167,11 @@
         "essential": 49,
         "core": 108,
         "deep": 125
+      },
+      "rootRouteReadingMethod": "All125original RU/EN screens read completely. All49Essential pairs reread in route order, with the final changed identity-2/team-2 entries reread after repair. All59Core additions reread completely with both adjacent route edges in both languages; their common Essential prose had already been reread. Final changed screen copies reread separately. No third complete rereading of identical shared prose is claimed.",
+      "acceptedHashes": {
+        "story-data.json": "27e9e91d7fd4103c0bf9acced271e0979a68dfd70a4a777fff4e8620644385cd",
+        "essentialism.html": "2729aebb18df5633ff0d49ced86d6638c5be4e8d8f3a04baa6f1303a6b9cc393"
       }
     },
     {
@@ -325,7 +330,7 @@
       "currentlyOnSite": true,
       "currentScreens": 41,
       "currentRuBodyWords": 1942,
-      "status": "expanded-writing-assigned",
+      "status": "expanded-awaiting-root-personal-reading",
       "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-the-body-keeps-the-score-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
@@ -335,7 +340,13 @@
       "rootOmissionsAndQualificationsReviewed": false,
       "replacementPublicationAllowed": false,
       "assignment": "Expanded full author argument, actual cases and practices; complete owned-source reading; root acceptance mandatory",
-      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/the-body-keeps-the-score-expanded-source-inventory.json"
+      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/the-body-keeps-the-score-expanded-source-inventory.json",
+      "expandedCounts": {
+        "essential": 41,
+        "core": 70,
+        "deep": 94
+      },
+      "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/the-body-keeps-the-score.json"
     },
     {
       "slug": "awareness-through-movement",
@@ -376,9 +387,9 @@
       "title": "Найди время",
       "author": "Джейк Кнапп и Джон Зерацки",
       "currentlyOnSite": true,
-      "currentScreens": 51,
-      "currentRuBodyWords": 2142,
-      "status": "root-personally-accepted-awaiting-publication",
+      "currentScreens": 68,
+      "currentRuBodyWords": 9969,
+      "status": "root-accepted-and-live",
       "assignedTask": "4c102201-2a47-4e72-abeb-3eb0b1946bca",
       "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/make-time/root-review/personal-review.json",
       "rootEntireRuEnDraftRead": true,
@@ -399,7 +410,9 @@
       "acceptedHashes": {
         "story-data.json": "cf6315a18ad3b9ca0f2a2e045faece9a841c3415ac879ecadb9ce2dd853d05da",
         "make-time.html": "7803ad4d1cf1929f556324b422cde65d998ca9589258c66154e393198790f4da"
-      }
+      },
+      "productionMerge": "91bad9ffa0ac09a9618b8139bd4613a33b712c6f",
+      "productionPr": 45
     },
     {
       "slug": "treasure-island",
@@ -644,15 +657,17 @@
       "currentlyOnSite": true,
       "currentScreens": 35,
       "currentRuBodyWords": 1600,
-      "status": "needs-root-depth-and-source-assessment",
-      "assignedTask": null,
+      "status": "expanded-writing-assigned",
+      "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-amphibian-man-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
       "rootAllNestedRoutesRead": false,
       "rootCoverageMapCompared": false,
       "rootKeyPrimaryPassagesChecked": false,
       "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false
+      "replacementPublicationAllowed": false,
+      "assignment": "Full-primary expanded connected adventure; Sol max artifact-only; root personal acceptance required",
+      "assignmentSourceInventory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/amphibian-expanded-source-inventory.json"
     },
     {
       "slug": "a-fall-of-moondust",
@@ -695,7 +710,7 @@
       "currentlyOnSite": true,
       "currentScreens": 29,
       "currentRuBodyWords": 1335,
-      "status": "expanded-writing-assigned",
+      "status": "expanded-awaiting-root-personal-reading",
       "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-monday-begins-on-saturday-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
@@ -704,7 +719,13 @@
       "rootKeyPrimaryPassagesChecked": false,
       "rootOmissionsAndQualificationsReviewed": false,
       "replacementPublicationAllowed": false,
-      "assignment": "Full-primary expanded connected narrative of all three stories; Sol max artifact-only; root personal acceptance required"
+      "assignment": "Full-primary expanded connected narrative of all three stories; Sol max artifact-only; root personal acceptance required",
+      "expandedCounts": {
+        "essential": 34,
+        "core": 65,
+        "deep": 101
+      },
+      "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/monday-begins-on-saturday.json"
     },
     {
       "slug": "hard-to-be-a-god",

@@ -1,0 +1,461 @@
+{
+  "schemaVersion": 1,
+  "slug": "essentialism",
+  "candidate": "expanded-depth-v2",
+  "atUtc": "2026-11-01T02:25:50.711785+00:00",
+  "status": "ready-for-root-personal-check",
+  "rootPersonalAcceptance": false,
+  "publicationAllowed": false,
+  "acceptance": {
+    "technicalSelfChecks": "completed",
+    "literaryMeaningSelfPass": false,
+    "rootEntireRuEnExpositionRead": false,
+    "rootAllNestedRoutesRead": false,
+    "rootCoverageAndOmissionsCompared": false,
+    "rootKeyActualPrimaryPassagesChecked": false,
+    "note": "Root must personally read and decide against these exact candidate hashes before publication; no delegated or technical PASS substitutes."
+  },
+  "counts": {
+    "essential": 49,
+    "core": 108,
+    "deep": 125
+  },
+  "bodyMetrics": {
+    "convention": "Unicode letter/number followed by letters/numbers/apostrophes/dashes; hyphenated forms count once. Body excludes cover, UI, titles, subtitles, section labels, Sources/method. Shared final IS INCLUDED. Display estimate includes cover title/subtitle plus visible screen headings/subtitles/bodies; excludes navigation, section kickers and Sources/method.",
+    "rates": {
+      "ru": 180,
+      "en": 220
+    },
+    "modes": {
+      "essential": {
+        "screens": 49,
+        "ru": {
+          "bodyWords": 3403,
+          "bodyTimeExactMinutes": "3403/180",
+          "bodyMinutes": 18.905555555555555,
+          "bodySeconds": 1134.3333333333333,
+          "ceilingBodyMinutes": 19,
+          "headingBodyWords": 3645,
+          "displayedCeilingMinutes": 21,
+          "displayedLabel": "21 минута"
+        },
+        "en": {
+          "bodyWords": 3992,
+          "bodyTimeExactMinutes": "3992/220",
+          "bodyMinutes": 18.145454545454545,
+          "bodySeconds": 1088.7272727272727,
+          "ceilingBodyMinutes": 19,
+          "headingBodyWords": 4269,
+          "displayedCeilingMinutes": 20,
+          "displayedLabel": "20 min"
+        }
+      },
+      "core": {
+        "screens": 108,
+        "ru": {
+          "bodyWords": 7579,
+          "bodyTimeExactMinutes": "7579/180",
+          "bodyMinutes": 42.105555555555554,
+          "bodySeconds": 2526.3333333333335,
+          "ceilingBodyMinutes": 43,
+          "headingBodyWords": 8100,
+          "displayedCeilingMinutes": 45,
+          "displayedLabel": "45 минут"
+        },
+        "en": {
+          "bodyWords": 8883,
+          "bodyTimeExactMinutes": "8883/220",
+          "bodyMinutes": 40.377272727272725,
+          "bodySeconds": 2422.6363636363635,
+          "ceilingBodyMinutes": 41,
+          "headingBodyWords": 9473,
+          "displayedCeilingMinutes": 44,
+          "displayedLabel": "44 min"
+        }
+      },
+      "deep": {
+        "screens": 125,
+        "ru": {
+          "bodyWords": 8789,
+          "bodyTimeExactMinutes": "8789/180",
+          "bodyMinutes": 48.827777777777776,
+          "bodySeconds": 2929.6666666666665,
+          "ceilingBodyMinutes": 49,
+          "headingBodyWords": 9385,
+          "displayedCeilingMinutes": 53,
+          "displayedLabel": "53 минуты"
+        },
+        "en": {
+          "bodyWords": 10292,
+          "bodyTimeExactMinutes": "10292/220",
+          "bodyMinutes": 46.78181818181818,
+          "bodySeconds": 2806.909090909091,
+          "ceilingBodyMinutes": 47,
+          "headingBodyWords": 10969,
+          "displayedCeilingMinutes": 50,
+          "displayedLabel": "50 min"
+        }
+      }
+    },
+    "draftParagraphPairs": 125,
+    "units": 47
+  },
+  "sourceReading": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/essentialism-edition.json",
+    "sha256": "c2e1c7d51d1cee55f72b864dc8aa26134588e058860b8b17ea20e2441fe5c1b1",
+    "availableRecords": 58,
+    "availableExtractedWords": 51531,
+    "continuouslyReadFiles": 29,
+    "continuouslyReadParagraphs": 1096,
+    "continuouslyReadWords": 47209,
+    "boundedUntruncatedDisplays": 27,
+    "boundary": "info.xhtml P001 through pril.xhtml P058 in spine order, all main chapters/part openings/continuations/appendix",
+    "notesEndmatterContinuouslyRead": false,
+    "remainingUncountedAsReadWords": 4322,
+    "visualEpubInspection": false,
+    "underlyingStudiesIndependentlyAudited": false,
+    "officialEnglishEditionCollation": false
+  },
+  "verification": {
+    "structuralChecks": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "jsonHtmlAuthoredParity": true,
+    "pairedParagraphDraftParity": 125,
+    "routeFiles": 6,
+    "browserMatrices": [
+      {
+        "width": 320,
+        "height": 568,
+        "visits": 2256,
+        "interactionChecks": 20,
+        "nativeRadioKeys": 5,
+        "explicitDeeperResumeChecks": 4,
+        "savedFallbackChecks": 3,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "width": 390,
+        "height": 844,
+        "visits": 2256,
+        "interactionChecks": 20,
+        "nativeRadioKeys": 5,
+        "explicitDeeperResumeChecks": 4,
+        "savedFallbackChecks": 3,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "width": 1024,
+        "height": 768,
+        "visits": 2256,
+        "interactionChecks": 20,
+        "nativeRadioKeys": 5,
+        "explicitDeeperResumeChecks": 4,
+        "savedFallbackChecks": 3,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "width": 1440,
+        "height": 900,
+        "visits": 2256,
+        "interactionChecks": 20,
+        "nativeRadioKeys": 5,
+        "explicitDeeperResumeChecks": 4,
+        "savedFallbackChecks": 3,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      }
+    ],
+    "renderedVisits": 9024,
+    "runtimeErrors": 0,
+    "runtimeHttpRequests": 0,
+    "physicalSafari": false,
+    "ownedChromeCleanup": true
+  },
+  "materialLimits": [
+    "Text extraction has no images/layout; diagram geometry and source images were not visually read.",
+    "Notes/endmatter4322 words not continuously read; exact main-reading scope documented.",
+    "Reported anecdotes/history/studies attributed, not independently reinvestigated.",
+    "Meaningful case omissions and one appendix-before-final reorder disclosed in coverage map.",
+    "English is original rendering of the RU condensation, not official-English collation; no anniversary additions.",
+    "Physical Safari/iPhone/PWA and browser-denied-storage behavior untested."
+  ],
+  "scope": {
+    "newDirectoryOnly": true,
+    "oldCollectorReadyReviewsRootReadersCatalogueGlobalStateUntouched": true,
+    "installedSharedCodeUntouched": true,
+    "gitPrDeployOrExternalMessages": false,
+    "delegatesUsed": false
+  },
+  "files": {
+    "HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/HANDOFF.md",
+      "sha256": "bd72831b20e154188cd0d63a3dce71708ad4f6689adde89afb3b310deadb4095",
+      "bytes": 7208
+    },
+    "QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/QA.md",
+      "sha256": "c4e76ea3125b776304c70807723f83b5747b95bf4e03f8e477adbb4d2f6fda35",
+      "bytes": 5946
+    },
+    "browser-check.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/browser-check.mjs",
+      "sha256": "6a93e7f8a5dd6ec22feb2319d9375521ed37c781b7d2b23a798a820820996dcd",
+      "bytes": 19720
+    },
+    "build.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/build.mjs",
+      "sha256": "71386e16d9691198319fa070978092be9382cff1b510885e7a3d6e342d0646e1",
+      "bytes": 6631
+    },
+    "core.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/core.en.md",
+      "sha256": "9e17eb2382cbb5760834d35b904b1d03aefa9067540d0e55020cbe69c25e9bd2",
+      "bytes": 63980
+    },
+    "core.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/core.ru.md",
+      "sha256": "36c4ebf7794853f68e561911ce2e210781bf27a653dfcb0e6ec3a1d054bd2bb0",
+      "bytes": 114702
+    },
+    "coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/coverage-map.json",
+      "sha256": "7f61e3347d177630c1836dcabd674d8ad39c7140a85788979ff13e7c3f277d5c",
+      "bytes": 33914
+    },
+    "coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/coverage-map.md",
+      "sha256": "666f6fa1be30a2f3e770a799f3b8fdffdb5666a2b038754947ad69f863684601",
+      "bytes": 28654
+    },
+    "coverage-notes.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/coverage-notes.json",
+      "sha256": "7c51f20f665b011b8045610c747c5e633cfdc43844011270246b2a7c6b1f929b",
+      "bytes": 15340
+    },
+    "deep.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/deep.en.md",
+      "sha256": "966828ea181547e80dca1dfd3a99d2dd9452fb985c24f5836950886e2d6f5f17",
+      "bytes": 73984
+    },
+    "deep.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/deep.ru.md",
+      "sha256": "2d9e117b13374f9da935a0c59c10d84ffe6b5176bedb9e57d2972dc57b0cffac",
+      "bytes": 132705
+    },
+    "displayed-reading-ledger.jsonl": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/displayed-reading-ledger.jsonl",
+      "sha256": "5984891dd521432cf69bd036688f18fb5dfbde2fe70fad08a1ae7ba84d5c045d",
+      "bytes": 11620
+    },
+    "document.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/document.py",
+      "sha256": "95cf1731375b1c413d150395bf10218b05fca750f73e5febafc156ae42dfdc39",
+      "bytes": 9238
+    },
+    "draft-en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/draft-en.md",
+      "sha256": "556e6b4fd270a01a1b1c014b89340e26f17448181869535f927b142ab5acafe4",
+      "bytes": 69380
+    },
+    "draft-ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/draft-ru.md",
+      "sha256": "02730dbe8989103adf2b5118b90a5d0467293ffa5854e354e8ea8526c80f0202",
+      "bytes": 126098
+    },
+    "essential.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/essential.en.md",
+      "sha256": "ebf26ebb89f82b441b5bdba471cb0badfeb597c63c8d01979fe7a91dfde2acfa",
+      "bytes": 28995
+    },
+    "essential.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/essential.ru.md",
+      "sha256": "ad95bc233d03ab01ee4716b411b6f0bf6a7d9b99f0849aa6afa6f3b6f471830a",
+      "bytes": 52130
+    },
+    "essentialism.html": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/essentialism.html",
+      "sha256": "e34c7cf7d708f0a6f7edf28ef3b7017503a6d2d6e8dc3aaf8254161db4db26d8",
+      "bytes": 714644
+    },
+    "metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/metrics.json",
+      "sha256": "968435ef21f0b385336a8e8226816bf8cc4d81dd8f2e69b81633e9bf1ba57ded",
+      "bytes": 2571
+    },
+    "prepare.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/prepare.py",
+      "sha256": "a4edb81a9227b7064028a82eb7d33a1837a87363325c619fc254854db2b02879",
+      "bytes": 10325
+    },
+    "qa/1024-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1024-cover.png",
+      "sha256": "8fae3f2a64c43779e227462cefca00f60d8967a6ec370bbd86e8e7773ccee462",
+      "bytes": 74108
+    },
+    "qa/1024-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1024-dense.png",
+      "sha256": "5a850bb4827b87c2335edebcb01b0372dcc6fba4a73b1f72073e9adfd56972d8",
+      "bytes": 133187
+    },
+    "qa/1024-final-bottom.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1024-final-bottom.png",
+      "sha256": "fb6591925a507af58b5a87ed197b51d03a4f5798ab65e0c02ee97345b5041761",
+      "bytes": 202442
+    },
+    "qa/1024-procedure.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1024-procedure.png",
+      "sha256": "2f568121669fe77cf3b8a30d4c7ce95448a43f4eed6faa0691d73eec5fc82f03",
+      "bytes": 136923
+    },
+    "qa/1440-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1440-cover.png",
+      "sha256": "834effca34d9a84667df3c0921a7879e2ba7a2703259680706087250e66c266e",
+      "bytes": 89543
+    },
+    "qa/1440-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1440-dense.png",
+      "sha256": "51a9e2c65bdcba74be13f7506e072ca7b0b30aa6e16e7348ef35b030c457d47b",
+      "bytes": 152373
+    },
+    "qa/1440-final-bottom.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1440-final-bottom.png",
+      "sha256": "de07f52ed7277cc5233565bb6881e2f4925cb3bea44f77b91d9e35ad5a0a8642",
+      "bytes": 215286
+    },
+    "qa/1440-procedure.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/1440-procedure.png",
+      "sha256": "a9af5141f3b70100d2948ba5dcd780c51440179b296704b8b62ff45c36486eb4",
+      "bytes": 151024
+    },
+    "qa/320-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/320-cover.png",
+      "sha256": "b65f2e408446634461f0c953ee88a5ca4ecdd6b8f1b0b08ec625ce9667cc137b",
+      "bytes": 21981
+    },
+    "qa/320-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/320-dense.png",
+      "sha256": "98d5755ab0df2ef0329fb35c740597763ab78e97e731f3f9ce0b9ae94b26cdd6",
+      "bytes": 64860
+    },
+    "qa/320-final-bottom.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/320-final-bottom.png",
+      "sha256": "80d3e9ca7652beceb6968effad96991de5134160f76d0fe1a5ff24dc25674a8a",
+      "bytes": 63460
+    },
+    "qa/320-procedure.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/320-procedure.png",
+      "sha256": "4449aeb14e32a76292a1e8741a808ed579dc198756a6b09f0c63431a671f38be",
+      "bytes": 57242
+    },
+    "qa/390-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/390-cover.png",
+      "sha256": "3c503178425be1e28b4240929006b405b0429cb33e980e023297a7ecdeade735",
+      "bytes": 24032
+    },
+    "qa/390-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/390-dense.png",
+      "sha256": "238257080ffa78699b80ccc174cc386d6f95ff90c0e98cbce42cfc3ec34c08a4",
+      "bytes": 75421
+    },
+    "qa/390-final-bottom.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/390-final-bottom.png",
+      "sha256": "faddd3ad5552c890c525cbeaf6ad213c915e2c1fc0bd20649cba87d37dcff9c2",
+      "bytes": 121138
+    },
+    "qa/390-procedure.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/390-procedure.png",
+      "sha256": "fd82317fa17a58f6a6724611e10539c973d07cfb864c785cb7cd3db9572aff4a",
+      "bytes": 73250
+    },
+    "qa/browser-1024.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/browser-1024.json",
+      "sha256": "019efd88f28a190ac161f6a80aff1cd9d91820042be5280a63a25063125e35f7",
+      "bytes": 59860
+    },
+    "qa/browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/browser-1440.json",
+      "sha256": "6a481ba35db4cfc3bed900e0e17f592ecbde51a62b28ec4a9d3a35829aadfb3f",
+      "bytes": 59860
+    },
+    "qa/browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/browser-320.json",
+      "sha256": "3f29e191bce1c0d2e51d718c6405f577f2c201b89d96ce957c221bf660e90c32",
+      "bytes": 59865
+    },
+    "qa/browser-390.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/browser-390.json",
+      "sha256": "fe9ba7883b13eb56b28bbdd5c13f51d565538be3e741458da0efee4c4ef04cfc",
+      "bytes": 59865
+    },
+    "qa/deterministic.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/deterministic.json",
+      "sha256": "0d34587687e13cbb56b57b484a6ddd9acccdcbd59f0cd37bf5b320076ffde758",
+      "bytes": 3356
+    },
+    "qa/schema-audit.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/qa/schema-audit.json",
+      "sha256": "3941834aa594c31b90f92cc1a9220308d45a150974ed32637894a1a0f59ac585",
+      "bytes": 423
+    },
+    "read-only-dependencies.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/read-only-dependencies.json",
+      "sha256": "bcefb68c337d2b2be06d5de543cdee019ec339bbad604c8b7e9e811c886cff76",
+      "bytes": 946
+    },
+    "read-primary.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/read-primary.py",
+      "sha256": "088f0b73c5d7490a495ee6ae295c340c9b6a7a28d857472b39a9e7ac338fda23",
+      "bytes": 2310
+    },
+    "reading-manifest.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/reading-manifest.json",
+      "sha256": "f5448ebdae1b3da3dd366f0a4eb9794ae890a02970b41375afcedce636c6eaa6",
+      "bytes": 24660
+    },
+    "seal.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/seal.py",
+      "sha256": "0f851ebc6f4c058bfa0691ca0ef5ec7f8c58b8d6591360aa032d829c5b171d31",
+      "bytes": 5004
+    },
+    "source-reading-ledger.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/source-reading-ledger.md",
+      "sha256": "1f674f3a6fa2657ea93028da5d26af3645c4f4481ae94c124eb1acab1624bd7b",
+      "bytes": 10758
+    },
+    "sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/sources.md",
+      "sha256": "396fcfbc537681e3e845b3785213b8fd0372047881431e69bc32ed059fc8fddc",
+      "bytes": 4985
+    },
+    "story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/story-data.json",
+      "sha256": "dfc8d75733c522322736a51722378b705bcb7c9251662be2be05b2da09b6b3c3",
+      "bytes": 335499
+    },
+    "verify.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/essentialism/verify.mjs",
+      "sha256": "61ddaa819e69e2c68614d818ba166e86c3d24411708dd9e4dc56106b253bb79b",
+      "bytes": 5264
+    }
+  }
+}

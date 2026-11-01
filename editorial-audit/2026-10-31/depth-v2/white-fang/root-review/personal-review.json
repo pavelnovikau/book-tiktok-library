@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "slug": "white-fang",
+  "atUtc": "2026-11-01T01:55:45.768027+00:00",
+  "verdict": "PASS-after-root-repair",
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "publicationScope": "Only this exact candidate; no acceptance of other books.",
+  "contentMode": "narrative",
+  "counts": {
+    "essential": 36,
+    "core": 51,
+    "deep": 89
+  },
+  "metrics": {
+    "essential": {
+      "screens": 36,
+      "narrativeScreens": 34,
+      "narrativeWords": {
+        "ru": 3192,
+        "en": 3974
+      },
+      "framingBodyWords": {
+        "ru": 67,
+        "en": 80
+      },
+      "titlesAndSubtitlesWords": {
+        "ru": 102,
+        "en": 133
+      },
+      "titleSubtitleBodyWords": {
+        "ru": 3361,
+        "en": 4187
+      },
+      "narrativeMinutes": {
+        "ru": 17.7333,
+        "en": 18.0636
+      },
+      "builderCeilingMinutes": {
+        "ru": 19,
+        "en": 20
+      }
+    },
+    "core": {
+      "screens": 51,
+      "narrativeScreens": 49,
+      "narrativeWords": {
+        "ru": 4596,
+        "en": 5727
+      },
+      "framingBodyWords": {
+        "ru": 67,
+        "en": 80
+      },
+      "titlesAndSubtitlesWords": {
+        "ru": 141,
+        "en": 186
+      },
+      "titleSubtitleBodyWords": {
+        "ru": 4804,
+        "en": 5993
+      },
+      "narrativeMinutes": {
+        "ru": 25.5333,
+        "en": 26.0318
+      },
+      "builderCeilingMinutes": {
+        "ru": 27,
+        "en": 28
+      }
+    },
+    "deep": {
+      "screens": 89,
+      "narrativeScreens": 86,
+      "narrativeWords": {
+        "ru": 8173,
+        "en": 10071
+      },
+      "framingBodyWords": {
+        "ru": 98,
+        "en": 114
+      },
+      "titlesAndSubtitlesWords": {
+        "ru": 243,
+        "en": 328
+      },
+      "titleSubtitleBodyWords": {
+        "ru": 8514,
+        "en": 10513
+      },
+      "narrativeMinutes": {
+        "ru": 45.4056,
+        "en": 45.7773
+      },
+      "builderCeilingMinutes": {
+        "ru": 48,
+        "en": 48
+      }
+    }
+  },
+  "exactContentHashes": {
+    "white-fang.html": "a44f51b4aab33ca91316f9c7f9af5c4887f27761c29a9721d3441e43bb110c75",
+    "story-data.json": "681cd012a82096c69f045dfcf7dd5a994eb3291071d9b995a228521a5ef6cc80",
+    "draft-ru.md": "2ef4231a99991c5cd40d6737c04435f410611e2b318406fd5dc184c927d937d1",
+    "draft-en.md": "62e94e43d678340ecc53c234b6353a7729f104272665bae20e8b5f5ad85d8c4b"
+  },
+  "readingLedgerSha256": "60c548023af0c90e801d0b7ce5553aaa4dba55afb73aea8e23f30103060e3430",
+  "inputReadySha256": "6a6d7b5f27bebfca3e859d09de334c517516963e8105bad005068b4f3c13877d",
+  "personalReading": {
+    "originalPairs": 88,
+    "currentPairs": 89,
+    "originalCompleteRuEnRead": true,
+    "allFinalChangedPairsReread": true,
+    "essentialCoreBothLanguagesReadInSequence": true,
+    "deepFinalSequenceEstablishedByCompleteInputReadingAndFullChangedParagraphRecheck": true,
+    "sourcesAndWholeChapterMapRead": true,
+    "wholePrimaryContinuouslyReadByRoot": false,
+    "selectedPrimaryLineRanges": [
+      [
+        832,
+        1214
+      ],
+      [
+        1780,
+        1843
+      ],
+      [
+        2400,
+        2592
+      ],
+      [
+        3416,
+        3589
+      ],
+      [
+        4799,
+        5850
+      ],
+      [
+        5940,
+        6148
+      ],
+      [
+        6380,
+        6621
+      ],
+      [
+        6700,
+        7519
+      ],
+      [
+        3090,
+        3258
+      ],
+      [
+        4590,
+        4798
+      ]
+    ]
+  },
+  "primaryWitness": {
+    "path": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/white-fang/primary.txt",
+    "sha256": "3c7226d00fd9b169f0016635d0e461501620f343220ee18db7ca9f083f4ad3f4",
+    "implementationFullReading": "All five parts and25 chapters; separate implementation ledger. Root selected direct checking does not replace that attribution."
+  },
+  "findingsClosed": [
+    {
+      "id": "WF-R01",
+      "issue": "Woods and lynx fights were placed before the autumn move to Dawson; the two-dog fight was placed afterwards.",
+      "resolution": "Rewrote IV.3 as four connected paragraphs: Fort Yukon tests, autumn steamer and paid Dawson exhibit, night/daylight woods contests and lynx, spring arrival of Cherokee. Source IV.3 L4799-4975."
+    },
+    {
+      "id": "WF-R02",
+      "issue": "The son was credited with identifying Jim Hall.",
+      "resolution": "The judge identifies Hall after Weedon switches on the light and descends with him. Source V.5."
+    },
+    {
+      "id": "WF-R03",
+      "issue": "Russian generic words for a blow/beating obscured the distinction between Scott's cuff and earlier owners' beatings.",
+      "resolution": "Restored light cuff in the family paragraph, and the narrower cuff verb in the chicken scene. Actual physical punishment remains; no claim of nonviolent animal training. Source V.3 L6725-6860."
+    },
+    {
+      "id": "WF-R04",
+      "issue": "Essential jumped from Bill's death to Henry's rescue, losing the causal experience of the siege.",
+      "resolution": "Promoted the coffin platform/camp, dream attack and fire-ring paragraphs together to Essential. No invented expansion."
+    },
+    {
+      "id": "WF-R05",
+      "issue": "The revised shared Cherokee paragraph initially referred back to a lynx omitted from shorter routes.",
+      "resolution": "Neutral shared opening now closes the sequence of contests without a dangling reference. Both shorter routes reread."
+    },
+    {
+      "id": "WF-R06",
+      "issue": "Fresh root consent QA found a Russian Continue label still naming Deep in English.",
+      "resolution": "Localized the one candidate-local label to the actual Russian depth name; fresh exact-hash QA then passed."
+    }
+  ],
+  "requiredOpenFindings": [],
+  "meaningAssessment": "The story advances through hunger, discovery, bodily danger, coercion, repeated returns, and slowly changing attachment. It retains the cub's perceptions and distinct human relationships. Rescue does not create instant trust: Major dies, Matt and Scott are bitten, and the meat/hand/absence/return sequence earns the later attachment. Southern restrictions, Scott's own punishment, Hall's wrongful last conviction and the judge's ignorance, nursing and troubled dreams precede the actual puppies-in-sun ending. No added moral lesson follows it.",
+  "omissions": "Repeated theoretical exposition, physiognomic/racial generalizations, incidental speech, several similar skirmishes, some famine episodes, exact medical odds and biological-superiority rhetoric are compressed or omitted as mapped. Shorter routes intentionally stop before Cherokee's fight result; they are not full ending-bearing versions. The full selected arc is in Deep.",
+  "qa": {
+    "structuralChecks": 69,
+    "allDefaultFontThemeRoutePositionsAt320And1440": 704,
+    "representativeLanguageThemeFontLayouts": 80,
+    "coldFirstSerifNonzeroScrollPreserved": true,
+    "realDowngradePaths": 4,
+    "reloadPaths": 3,
+    "simulatedBfcacheAndFinalEntry": true,
+    "actualLegacyId": "quiet-last-image",
+    "noRuntimeErrorsOrExternalRequests": true,
+    "ownedChromeCleanup": true,
+    "hardwareSafariPwaTested": false
+  },
+  "limitations": [
+    "Original condensation, not the unabridged novel or a published Russian translation.",
+    "No print-variant or published-English translation collation.",
+    "Primary checking by root was selective, not continuous whole-novel reading.",
+    "Chrome file/offline and viewport emulation, not physical Safari/PWA."
+  ]
+}

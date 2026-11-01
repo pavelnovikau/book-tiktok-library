@@ -1,0 +1,80 @@
+{
+  "phase": "entries",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "white-fang.html": "73d1f24b7163102a43ad2dfab2d44008bef6ace2165fd23e674f6b1f0e95c4af",
+    "story-data.json": "c6d5398beb610b4bc7e773832174595b3378c67ed4f8b8254bc1696f53cf8ec6"
+  },
+  "lastEvaluate": "(()=>{const r={},s=document.getElementById('story');document.querySelector('#contentsList [data-go-to=\"i-1-p1\"]').click();const key='book-tiktok.white-fang.depth-v2.lastScreen';s.dispatchEvent(new PointerEvent('pointerdown',{pointerId:9,cli",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "coverPicker": {
+    "open": true,
+    "unchanged": true
+  },
+  "staleContents": [
+    {
+      "list": "contentsList",
+      "lower": "essential",
+      "open": true,
+      "unchanged": true,
+      "noTitle": true
+    },
+    {
+      "list": "contentsList",
+      "lower": "core",
+      "open": true,
+      "unchanged": true,
+      "noTitle": true
+    },
+    {
+      "list": "desktopContentsList",
+      "lower": "essential",
+      "open": true,
+      "unchanged": true,
+      "noTitle": true
+    },
+    {
+      "list": "desktopContentsList",
+      "lower": "core",
+      "open": true,
+      "unchanged": true,
+      "noTitle": true
+    }
+  ],
+  "legacyIsolation": {
+    "ru": true,
+    "essential": true,
+    "cover": true,
+    "noContinue": true,
+    "globalTheme": true,
+    "globalFont": true,
+    "oldProgressUntouched": true
+  },
+  "safeResume": true,
+  "acceptedThenReload": {
+    "safe": true,
+    "open": true,
+    "essential": true
+  },
+  "touchAndFocus": {
+    "verticalDoesNotPage": true,
+    "headerHidden": true,
+    "railHidden": true,
+    "backHidden": true,
+    "nextVisible": true,
+    "restored": true
+  },
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "processGroupTerminated": true
+}

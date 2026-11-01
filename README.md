@@ -1,5 +1,9 @@
 # Book TikTok Library
 
+Current2026-11-01: White Fang is personally accepted at36/51/89 after root reading and chronology/actor/route repairs; publication is being prepared. Four earlier expanded works are live. Next personal reading: Children of Captain Grant, then Zebra, then Irvine. Zebra and Irvine callbacks are hash-ingested only; Make Time remains assigned. Behave source coverage remains incomplete. All62 positions retain individual root reading and acceptance.
+
+Current2026-11-01: Lost World PR40 is personally accepted and production-verified at33/68/125 (8562 RU narrative words). Four expanded works are accepted/live. Production58books/2483screens; White Fang and Children of Captain Grant await root reading. Evidence: editorial-audit/2026-10-31/publisher-findings/expanded-depth-04-receipt.json. This current statement supersedes earlier release notes below.
+
 Current expanded-depth repair,2026-11-01: Lost World personally accepted at33/68/125 (8562 RU narrative words); release being prepared. Three expanded books are already live. White Fang and Children of Captain Grant await personal root reading. See NEXT_STEPS.md.
 
 Current expanded-depth repair, 2026-11-01: Treasure Island PR39 is personally accepted and live (28/48/96; 9,121 RU narrative words). Three expanded works are accepted/live; other positions need separate root reading. Production: 58 books / 2,392 screens. See editorial-audit/2026-10-31/publisher-findings/expanded-depth-03-receipt.json and NEXT_STEPS.md.

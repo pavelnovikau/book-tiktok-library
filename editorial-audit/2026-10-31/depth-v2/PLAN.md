@@ -22,3 +22,12 @@ Update 2026-11-01T01:24:09.364641+00:00: Treasure Island is personally accepted/
 
 
 Current 2026-11-01: Lost World personally accepted at33/68/125, exact hashes in its root-review/personal-review.json; publication now being prepared. White Fang and Children of Captain Grant are hash-ingested, awaiting personal root reading. Two existing Sol max writers prepare Zebra and Irvine. Behave primary coverage remains incomplete.
+
+
+Production 2026-11-01: Lost World PR40 merged as1ac0b366 and exact production hashes verified. Four expanded works personally accepted/live. Next personal root reading: White Fang, then Children of Captain Grant.
+
+
+Make Time expanded candidate assigned on Sol max, task4c102201-2a47-4e72-abeb-3eb0b1946bca. Complete owned RU source available; root reading and acceptance remain mandatory. Current writing assignments: Zebra, Irvine, Make Time; no runtime polling.
+
+
+Current 2026-11-01T01:56:57.714447+00:00: White Fang is personally accepted at36/51/89 after root reading and chronology/actor/route repairs; publication is being prepared. Four earlier expanded works are live. Next personal reading: Children of Captain Grant, then Zebra, then Irvine. Zebra and Irvine callbacks are hash-ingested only; Make Time remains assigned. Behave source coverage remains incomplete. All62 positions retain individual root reading and acceptance.

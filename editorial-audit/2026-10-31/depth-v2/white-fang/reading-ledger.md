@@ -1,0 +1,33 @@
+# Primary reading ledger
+
+Complete direct reading of the supplied English witness: all five parts, all 25 chapters. No contents listing, download or old review counts as reading. No output range was truncated.
+
+Source SHA-256: `3c7226d00fd9b169f0016635d0e461501620f343220ee18db7ca9f083f4ad3f4`. Exact byte-range hashes retain original CRLF endings; line ranges are inclusive. Literary work is L83–7519. L1–82 was also displayed but is front matter; L7520 onward is excluded Gutenberg end/license matter.
+
+| Presented range | Bytes | SHA-256 |
+|---|---:|---|
+| L1–398 | 16294 | `a9e64d1edf55aa12c436e701e7245004ee732811b627b45f01cff124a9f73025` |
+| L399–831 | 19667 | `f1f319d42901266b25aa4cc0ab9d412f46d9854607e52dc3761dbbae0ab1e8e2` |
+| L832–1219 | 21383 | `8340c8d601cf73d1520e6ccecfbd6cac999aebe7f1b2058f371463ae1383c01b` |
+| L1220–1561 | 19869 | `3696d3251ddbabaa22f3ddbc72047d419ddd9f7d2db1daf7fc2b1a6219bf8a9f` |
+| L1562–1843 | 16483 | `78c12ea62342d8cd38e515afc72a264c137ef03ed12e02c17f61051cba05344b` |
+| L1844–2210 | 21676 | `a29fb6ede06c2e0935f7d550a75ec96c9a93a912bf79404a3c1121314de11e73` |
+| L2211–2597 | 22469 | `721a06381e869541dc7e53d1c04e9a56eb65a63cfc03185aee5716863cb026af` |
+| L2598–2971 | 22048 | `7b60e53f69de931fd64908948232c3edd7814ca5db1a23e5c1c2087130639400` |
+| L2972–3258 | 16924 | `570a5396cd8ac457889f3abebbcfd9d0cf65c1413dd46980bce7b35d0f6d3789` |
+| L3259–3589 | 19596 | `48335875fc450c32256d6a17fc358758ae9805f10b74a2844523ba850252aab0` |
+| L3590–3878 | 17308 | `2c9afe4a7969936ef57f657b540e671f8cfd157ba76a484c039cae4f7c5f4ba0` |
+| L3879–4176 | 17399 | `cfe35f506dfa463f8922026f2edc4d6518bf1297bc76962221541e92259d8edf` |
+| L4177–4506 | 19559 | `01e83d39d4f5da129e5e172c2891d9b264be633ce8172a732fec76d320c6bf50` |
+| L4507–4798 | 17004 | `131a89bde866871e896018f808f41437fd5eb1f1b70219eb715e9e55fa8ec387` |
+| L4799–5150 | 20749 | `1a93f4ed6d3875033da7ed73a2a588f92b21c117b1a8d18d2ccbd108808cb919` |
+| L5151–5414 | 11749 | `f6e1a2f1483c9762d5a82d6028eea49aaae3da1913e9a4a0b389e0a8fd98f30b` |
+| L5415–5657 | 10268 | `c467a53c546b2ef6bb0f9c66942ac0954a8d7a67d6bd3d39acc52198beda8402` |
+| L5658–5940 | 16647 | `7c3e840db8556c79f540ca97cbb3122eb713cd031e037f53cd9f274ba660cadf` |
+| L5941–6378 | 20039 | `81286c55b129db3069b089668f42e791149824babe659bb50909d973c1a5fb71` |
+| L6379–6621 | 12771 | `ab64465961e501292fef0f680e4925a20bd739755516959ff3f8642b84d12cab` |
+| L6622–6981 | 21043 | `d92e508b859bef2e5cfc3522c0fa5e950a6aa8875189f9207217dda86aa3edbb` |
+| L6982–7213 | 12361 | `c9ac251440dce67d48f009ab041fdcf9fab78379276ad8f35ab5431da1397673` |
+| L7214–7519 | 16706 | `ca0967063037c7d394003e064c0470907bb18b7f012811c37a64bebaee0b31f3` |
+
+Machine verification: source-coverage.json and read-primary.py. Presented ranges were directly read by this implementation agent; this is not root acceptance.

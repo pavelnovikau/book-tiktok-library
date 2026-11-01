@@ -1,0 +1,42 @@
+{
+  "phase": "ios",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "children-of-captain-grant.html": "75a2e251f1b56d991001e84290db90094b03a40aed5149808a22d7bbdb50f3ed",
+    "story-data.json": "ef6bdad5589dde41b967af271a8630dd3b1b6cb8c5c0b2de1d9a86d3ac610b78"
+  },
+  "lastEvaluate": "({guideClosed:!document.getElementById('bookLibraryInstallDialog').open,triggerHidden:document.getElementById('bookLibraryInstallTrigger').hidden})",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "installBrowser": {
+    "open": true,
+    "trigger": true,
+    "text": "\n    \n      IPHONE · ПОЛНЫЙ ЭКРАН\n      Уберите строку Safari\n      Сайт не может скрыть панель браузера сам. Один раз добавьте библиотеку на экран «Домой» — после этого книги откроются как отдельное полноэкранное приложение.\n      \n        Нажмите кнопку меню рядом с адресом и выберите «Поделиться».\n        Нажмите «На экран Домой».\n        Запускайте «Книги за вечер» с новой иконки, а не из Telegram.\n      \n      \n        Понятно\n      \n    \n  "
+  },
+  "installEnglish": true,
+  "installFocusHidden": true,
+  "iosHeader": {
+    "count": 6,
+    "allInside": true,
+    "oneRow": true
+  },
+  "standalone": {
+    "guideClosed": true,
+    "triggerHidden": true
+  },
+  "scope": "Chrome user-agent/standalone emulation; no physical iPhone, Safari or PWA certification",
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "ownedProcessGroup": 47565,
+  "ownedProfile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/grant-depth-v2-kTknZp",
+  "profileRemoved": true,
+  "processGroupTerminated": true
+}

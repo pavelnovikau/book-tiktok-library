@@ -1,25 +1,24 @@
 # Library depth status
 
-Updated 2026-11-01T01:56:57.714447+00:00. Live58books/2483screens;62 approved positions. White Fang is personally accepted but not yet published. Callback results for Zebra and Irvine are ingested; their prose is unaccepted. Current assigned work uses Sol max; runtime is not polled.
+Updated 2026-11-01T02:27:19.193535+00:00. Live58books/2536screens;62 approved positions. Grant is personally accepted; publication pending. Zebra, Irvine, Make Time and Essentialism await personal reading. No runtime polling.
 
 | Current depth stage | Count |
 |---|---:|
-| Awaits expanded work | 52 |
-| expanded-source-map-incomplete | 1 |
-| Candidate awaits personal root reading | 3 |
-| Expanded version assigned | 1 |
-| Personally accepted and live | 4 |
+| Awaits expanded work | 51 |
+| Primary-source coverage incomplete | 1 |
+| Candidate awaits personal root reading | 4 |
+| Personally accepted and live | 5 |
 | Personally accepted; release pending | 1 |
 
 | Book | Author | Current depth stage |
 |---|---|---|
 | Антихрупкость | Нассим Николас Талеб | Awaits expanded work |
 | Рискуя собственной шкурой | Нассим Николас Талеб | Awaits expanded work |
-| Биология добра и зла | Роберт Сапольски | expanded-source-map-incomplete |
+| Биология добра и зла | Роберт Сапольски | Primary-source coverage incomplete |
 | Всё решено | Роберт Сапольски | Awaits expanded work |
 | Почему у зебр не бывает инфаркта | Роберт Сапольски | Candidate awaits personal root reading |
 | Селфи | Уилл Сторр | Awaits expanded work |
-| Эссенциализм | Грег МакКеон | Awaits expanded work |
+| Эссенциализм | Грег МакКеон | Candidate awaits personal root reading |
 | Искусство войны | Сунь-цзы | Awaits expanded work |
 | Протоколы Хубермана | Эндрю Хуберман | Awaits expanded work |
 | Четыре тысячи недель | Оливер Беркман | Awaits expanded work |
@@ -30,7 +29,7 @@ Updated 2026-11-01T01:56:57.714447+00:00. Live58books/2483screens;62 approved po
 | Тело помнит всё | Бессел ван дер Колк | Awaits expanded work |
 | Осознавание через движение | Моше Фельденкрайз | Awaits expanded work |
 | The Potent Self | Моше Фельденкрайз | Awaits expanded work |
-| Найди время | Джейк Кнапп и Джон Зерацки | Expanded version assigned |
+| Найди время | Джейк Кнапп и Джон Зерацки | Candidate awaits personal root reading |
 | Остров сокровищ | Роберт Льюис Стивенсон | Personally accepted and live |
 | Затерянный мир | Артур Конан Дойл | Personally accepted and live |
 | Хоббит | Дж. Р. Р. Толкин | Awaits expanded work |
@@ -38,8 +37,8 @@ Updated 2026-11-01T01:56:57.714447+00:00. Live58books/2483screens;62 approved po
 | Маленький свободный народец | Терри Пратчетт | Awaits expanded work |
 | Автостопом по галактике | Дуглас Адамс | Awaits expanded work |
 | Проект «Аве Мария» | Энди Вейер | Awaits expanded work |
-| Дети капитана Гранта | Жюль Верн | Candidate awaits personal root reading |
-| Белый Клык | Джек Лондон | Personally accepted; release pending |
+| Дети капитана Гранта | Жюль Верн | Personally accepted; release pending |
+| Белый Клык | Джек Лондон | Personally accepted and live |
 | Два капитана | Вениамин Каверин | Awaits expanded work |
 | Я, робот | Айзек Азимов | Awaits expanded work |
 | Человек-амфибия | Александр Беляев | Awaits expanded work |

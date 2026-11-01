@@ -1,0 +1,580 @@
+{
+  "schemaVersion": 1,
+  "atUtc": "2026-11-01T01:01:58.018848+00:00",
+  "slug": "children-of-captain-grant",
+  "title": {
+    "ru": "Дети капитана Гранта",
+    "en": "The Children of Captain Grant"
+  },
+  "author": "Jules Verne",
+  "status": "ready-for-root-personal-check",
+  "rootPersonalAcceptance": false,
+  "publicationAllowed": false,
+  "replacementPublicationAllowed": false,
+  "rootEntireRuEnDraftRead": false,
+  "rootAllNestedRoutesRead": false,
+  "rootCoverageMapCompared": false,
+  "rootKeyPrimaryPassagesChecked": false,
+  "rootOmissionsAndQualificationsReviewed": false,
+  "rootAcceptance": null,
+  "published": false,
+  "scope": {
+    "ownedDirectory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/children-of-captain-grant",
+    "newBookDirectoryOnly": true,
+    "subagentsUsed": false,
+    "gitPrDeployUsed": false,
+    "contentServerStarted": false,
+    "sharedInstalledFilesEdited": false,
+    "oldCollectorEdited": false,
+    "rootReaderCatalogueGlobalLedgersEdited": false,
+    "otherCandidatesEdited": false
+  },
+  "authoring": {
+    "contentMode": "narrative",
+    "order": [
+      "complete original Russian connected adventure",
+      "matching original English",
+      "natural paragraph/scene segmentation"
+    ],
+    "connectedEpisodesPerLanguage": 30,
+    "narrativeParagraphsPerLanguage": 113,
+    "volumeRationale": "The developed whole three-part journey and explicit 66-chapter retention/omission map, not a quota. Rough planning range 12–18k RU words; final 12424 narrative words excludes framing and headings."
+  },
+  "entryPoints": {
+    "rootReadingGuide": "root-reading-guide.md",
+    "russianDraft": "draft-ru.md",
+    "englishDraft": "draft-en.md",
+    "authoringData": "story-data.json",
+    "standaloneHtml": "children-of-captain-grant.html",
+    "chapterSceneMap": "chapter-scene-map.md",
+    "editionOmissionMap": "edition-omission-map.md",
+    "sources": "sources.md",
+    "actualReadingLedger": "witness-reading-ledger.json",
+    "exactMetrics": "metrics.json",
+    "qa": "QA.md",
+    "shortRoutes": [
+      "routes/essential-ru.md",
+      "routes/essential-en.md",
+      "routes/core-ru.md",
+      "routes/core-en.md"
+    ],
+    "deepRoutes": "Both full connected drafts plus warning/cover/final in the standalone reader."
+  },
+  "modes": {
+    "essential": {
+      "screens": 26,
+      "narrativeScreens": 24,
+      "framingScreens": 2,
+      "languages": {
+        "ru": {
+          "narrativeBodyWords": 2648,
+          "framingBodyWords": 55,
+          "headingWords": 181,
+          "sectionHeadingWords": 105,
+          "screenTitleWords": 72,
+          "subtitleWords": 4,
+          "allVisibleCopyWords": 2884,
+          "uiCountedWords": 2779,
+          "narrativeMinutes": {
+            "atRate": 14.71111111111111,
+            "roundedUp": 15
+          },
+          "framingMinutes": {
+            "atRate": 0.3055555555555556,
+            "roundedUp": 1
+          },
+          "headingMinutes": {
+            "atRate": 1.0055555555555555,
+            "roundedUp": 2
+          },
+          "allVisibleCopyMinutes": {
+            "atRate": 16.022222222222222,
+            "roundedUp": 17
+          },
+          "uiEstimatedMinutes": 16,
+          "uiLabel": "16 минут"
+        },
+        "en": {
+          "narrativeBodyWords": 3242,
+          "framingBodyWords": 66,
+          "headingWords": 249,
+          "sectionHeadingWords": 146,
+          "screenTitleWords": 97,
+          "subtitleWords": 6,
+          "allVisibleCopyWords": 3557,
+          "uiCountedWords": 3411,
+          "narrativeMinutes": {
+            "atRate": 14.736363636363636,
+            "roundedUp": 15
+          },
+          "framingMinutes": {
+            "atRate": 0.3,
+            "roundedUp": 1
+          },
+          "headingMinutes": {
+            "atRate": 1.1318181818181818,
+            "roundedUp": 2
+          },
+          "allVisibleCopyMinutes": {
+            "atRate": 16.168181818181818,
+            "roundedUp": 17
+          },
+          "uiEstimatedMinutes": 16,
+          "uiLabel": "16 min"
+        }
+      }
+    },
+    "core": {
+      "screens": 69,
+      "narrativeScreens": 67,
+      "framingScreens": 2,
+      "languages": {
+        "ru": {
+          "narrativeBodyWords": 7370,
+          "framingBodyWords": 55,
+          "headingWords": 460,
+          "sectionHeadingWords": 265,
+          "screenTitleWords": 191,
+          "subtitleWords": 4,
+          "allVisibleCopyWords": 7885,
+          "uiCountedWords": 7620,
+          "narrativeMinutes": {
+            "atRate": 40.94444444444444,
+            "roundedUp": 41
+          },
+          "framingMinutes": {
+            "atRate": 0.3055555555555556,
+            "roundedUp": 1
+          },
+          "headingMinutes": {
+            "atRate": 2.5555555555555554,
+            "roundedUp": 3
+          },
+          "allVisibleCopyMinutes": {
+            "atRate": 43.80555555555556,
+            "roundedUp": 44
+          },
+          "uiEstimatedMinutes": 43,
+          "uiLabel": "43 минуты"
+        },
+        "en": {
+          "narrativeBodyWords": 8890,
+          "framingBodyWords": 66,
+          "headingWords": 597,
+          "sectionHeadingWords": 335,
+          "screenTitleWords": 256,
+          "subtitleWords": 6,
+          "allVisibleCopyWords": 9553,
+          "uiCountedWords": 9218,
+          "narrativeMinutes": {
+            "atRate": 40.40909090909091,
+            "roundedUp": 41
+          },
+          "framingMinutes": {
+            "atRate": 0.3,
+            "roundedUp": 1
+          },
+          "headingMinutes": {
+            "atRate": 2.713636363636364,
+            "roundedUp": 3
+          },
+          "allVisibleCopyMinutes": {
+            "atRate": 43.42272727272727,
+            "roundedUp": 44
+          },
+          "uiEstimatedMinutes": 42,
+          "uiLabel": "42 min"
+        }
+      }
+    },
+    "deep": {
+      "screens": 116,
+      "narrativeScreens": 113,
+      "framingScreens": 3,
+      "languages": {
+        "ru": {
+          "narrativeBodyWords": 12424,
+          "framingBodyWords": 72,
+          "headingWords": 749,
+          "sectionHeadingWords": 423,
+          "screenTitleWords": 322,
+          "subtitleWords": 4,
+          "allVisibleCopyWords": 13245,
+          "uiCountedWords": 12822,
+          "narrativeMinutes": {
+            "atRate": 69.02222222222223,
+            "roundedUp": 70
+          },
+          "framingMinutes": {
+            "atRate": 0.4,
+            "roundedUp": 1
+          },
+          "headingMinutes": {
+            "atRate": 4.161111111111111,
+            "roundedUp": 5
+          },
+          "allVisibleCopyMinutes": {
+            "atRate": 73.58333333333333,
+            "roundedUp": 74
+          },
+          "uiEstimatedMinutes": 72,
+          "uiLabel": "72 минуты"
+        },
+        "en": {
+          "narrativeBodyWords": 14936,
+          "framingBodyWords": 87,
+          "headingWords": 970,
+          "sectionHeadingWords": 529,
+          "screenTitleWords": 435,
+          "subtitleWords": 6,
+          "allVisibleCopyWords": 15993,
+          "uiCountedWords": 15464,
+          "narrativeMinutes": {
+            "atRate": 67.89090909090909,
+            "roundedUp": 68
+          },
+          "framingMinutes": {
+            "atRate": 0.39545454545454545,
+            "roundedUp": 1
+          },
+          "headingMinutes": {
+            "atRate": 4.409090909090909,
+            "roundedUp": 5
+          },
+          "allVisibleCopyMinutes": {
+            "atRate": 72.69545454545455,
+            "roundedUp": 73
+          },
+          "uiEstimatedMinutes": 71,
+          "uiLabel": "71 min"
+        }
+      }
+    }
+  },
+  "parts": {
+    "I": {
+      "paragraphs": [
+        1,
+        43
+      ],
+      "narrativeWords": {
+        "ru": 4711,
+        "en": 5728
+      }
+    },
+    "II": {
+      "paragraphs": [
+        44,
+        75
+      ],
+      "narrativeWords": {
+        "ru": 3556,
+        "en": 4269
+      }
+    },
+    "III": {
+      "paragraphs": [
+        76,
+        113
+      ],
+      "narrativeWords": {
+        "ru": 4157,
+        "en": 4939
+      }
+    }
+  },
+  "wordDefinition": "Maintained builder Unicode token regex /[\\p{L}\\p{N}][\\p{L}\\p{N}'’\\-–—]*/gu after the same HTML stripping. A hyphenated token counts once.",
+  "timingCaveat": "Estimates, not measured human reading. UI includes title/subtitle and framing body, excludes section kickers; reporting all headings separately makes that overhead visible.",
+  "readingEvidence": {
+    "completeActualWitnessRead": true,
+    "witnessPath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/children-of-captain-grant/primary.txt",
+    "witnessSha256": "df5da6648b41f3e2498e6b048a8aa051932d73b70a9d76596177e5a9eec3e8c1",
+    "bytes": 960921,
+    "physicalLines": 20151,
+    "boundedUntruncatedReadRanges": 34,
+    "rangeRehashPassed": true,
+    "chapters": 66,
+    "chaptersByPart": [
+      26,
+      19,
+      21
+    ],
+    "edition": "Historical Horne-edited English Gutenberg 2083, not the 70-chapter French original",
+    "frenchSelectiveChapterChecks": 4,
+    "fullFrenchCollation": false,
+    "noPrimaryTextOrExtractFilesInCandidate": true,
+    "priorPublishedPilotsAreExamplesNotQuotas": true,
+    "treasureIslandAndLostWorldRootAcceptanceClaimed": false
+  },
+  "spoilers": {
+    "freshProgressNamespace": "book-tiktok.children-of-captain-grant.depth-v2.",
+    "sessionOnlyConsent": true,
+    "persistentApproval": false,
+    "loweringDepthRevokes": true,
+    "reloadRestoresApproval": false,
+    "endingBearingSavedTitlesBeforeConsent": false,
+    "inlineWarningBeforeNarrativeParagraph": 68,
+    "essentialNarrativeTail": "thaouka",
+    "coreNarrativeTail": "camp",
+    "deepNarrativeTail": "arabella",
+    "essentialAndCoreExplicitlyUnfinished": true
+  },
+  "qa": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "contentAndWitnessChecksPassed": 57,
+    "allFinalReportInputHashesMatchCandidate": true,
+    "viewports": [
+      [
+        320,
+        568
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        1440,
+        900
+      ]
+    ],
+    "matrixRenderStates": 6752,
+    "renderedParagraphArraysCompared": true,
+    "savedDeepConsentPaths": 188,
+    "runtimeErrors": 0,
+    "remoteRequests": 0,
+    "ownedChromeProcessesRemaining": 0,
+    "allFinalProfilesRemoved": true,
+    "allFinalProcessGroupsVerifiedTerminated": true,
+    "chromeTimeoutSeconds": 30,
+    "nativeSafariOrPhysicalDeviceClaim": false,
+    "nativeTouchCertified": false,
+    "initialHarnessFailureRetained": "qa/browser-consent-initial-failed.json",
+    "finalReports": [
+      "qa/browser-320.json",
+      "qa/browser-390.json",
+      "qa/browser-1024.json",
+      "qa/browser-1440.json",
+      "qa/browser-consent.json",
+      "qa/browser-ios.json"
+    ],
+    "sharedBuildHashesMatch": true
+  },
+  "exactCandidateHashes": {
+    "draft-ru.md": "0c701227532cbbb3377588578aee87db66b9ae948a9ef0b06a2ac410205bf42a",
+    "draft-en.md": "a570a14f8d5f6853cf69875c89e6f77af7ecb42cbf7fa1b448458853625c32c5",
+    "story-data.json": "ef6bdad5589dde41b967af271a8630dd3b1b6cb8c5c0b2de1d9a86d3ac610b78",
+    "children-of-captain-grant.html": "75a2e251f1b56d991001e84290db90094b03a40aed5149808a22d7bbdb50f3ed",
+    "chapter-scene-map.md": "968f6f971888db2b14f436209f44d83b141c93436e37fff858a39cfa1227134f",
+    "edition-omission-map.md": "ff1f6fff4bbe4de954a39ab098d1b349092fb78b1f047081dd0ffd9cdc99d09c",
+    "sources.md": "2eb8cabc0219793a985315fc042cae68f15ee44dbbf77a20269018fa589f7304",
+    "witness-reading-ledger.json": "4101017750e609bd153a197c0b06eccd6bc5faa10144d52e2c5c37db8e090cfd",
+    "metrics.json": "86ef374824a627c2d55fd181b6684a1fdfa4da3c178b4b4efcd84d42b60900e7",
+    "QA.md": "30953e6a2a1c769bda3d26712c21c74ed637167943c0c39c677b2c724eb967d6"
+  },
+  "fileManifestExcludesSelf": true,
+  "files": {
+    "QA.md": {
+      "bytes": 10353,
+      "sha256": "30953e6a2a1c769bda3d26712c21c74ed637167943c0c39c677b2c724eb967d6"
+    },
+    "browser-check.mjs": {
+      "bytes": 29629,
+      "sha256": "a714e07bd18183b099a55ffec6dd2a9c1986f3dd238bce6994ed38232dd8ad9c"
+    },
+    "build-record.json": {
+      "bytes": 1389,
+      "sha256": "2be627feba28908ba13d1e7fabe4c59d208de6be7011351e6a48f6285153f2c8"
+    },
+    "build.mjs": {
+      "bytes": 10787,
+      "sha256": "564eebc2aa1c0c182b61a72efaddb3102a1a0981c4a332f55fbe568854d4f692"
+    },
+    "chapter-scene-map.md": {
+      "bytes": 13573,
+      "sha256": "968f6f971888db2b14f436209f44d83b141c93436e37fff858a39cfa1227134f"
+    },
+    "children-of-captain-grant.html": {
+      "bytes": 756900,
+      "sha256": "75a2e251f1b56d991001e84290db90094b03a40aed5149808a22d7bbdb50f3ed"
+    },
+    "draft-en.md": {
+      "bytes": 91003,
+      "sha256": "a570a14f8d5f6853cf69875c89e6f77af7ecb42cbf7fa1b448458853625c32c5"
+    },
+    "draft-ru.md": {
+      "bytes": 156424,
+      "sha256": "0c701227532cbbb3377588578aee87db66b9ae948a9ef0b06a2ac410205bf42a"
+    },
+    "edition-omission-map.md": {
+      "bytes": 13395,
+      "sha256": "ff1f6fff4bbe4de954a39ab098d1b349092fb78b1f047081dd0ffd9cdc99d09c"
+    },
+    "make-map.py": {
+      "bytes": 14780,
+      "sha256": "7cf764ecb6203206ed87bf4db64cf4871f5e33138d15e5273f9c48333f174524"
+    },
+    "metrics.json": {
+      "bytes": 7359,
+      "sha256": "86ef374824a627c2d55fd181b6684a1fdfa4da3c178b4b4efcd84d42b60900e7"
+    },
+    "qa/1024-condor-ru-serif.png": {
+      "bytes": 135418,
+      "sha256": "34589168c97dbc123c892349c62b315c8d56a7eec2746e28ead962a69651b87b"
+    },
+    "qa/1024-cover-ru.png": {
+      "bytes": 103018,
+      "sha256": "1000da07ba5e276518dd830e7bb3125d8abcfbc06ad799c7f8e5dacbad62a2c5"
+    },
+    "qa/1024-dense-en.png": {
+      "bytes": 130147,
+      "sha256": "6074041987473c07966acf8f251104ce9ebb2ab074b1941ec7c9ce6768e71846"
+    },
+    "qa/1440-condor-ru-serif.png": {
+      "bytes": 144249,
+      "sha256": "3c91d498c250fdfc1c588cf4b708e6663772e6e573a6428549274c56f724d7e0"
+    },
+    "qa/1440-cover-ru.png": {
+      "bytes": 121877,
+      "sha256": "526b20a56c1d901ee2a4f04e3847feb6bddb32e304507830157d5d10f9b6b646"
+    },
+    "qa/1440-dense-en.png": {
+      "bytes": 101542,
+      "sha256": "3c0998be9d4edcf752683ab5d2c702eb979b7a8387afec0da25547d34e55476f"
+    },
+    "qa/320-condor-ru-serif.png": {
+      "bytes": 56425,
+      "sha256": "5cbb83d1e90bef2663f2f21c32f5febe3c56aba174be3ee436e85c97030c0c90"
+    },
+    "qa/320-cover-ru.png": {
+      "bytes": 35673,
+      "sha256": "913255657ad609fe6c9414fa0dff136a23232039267b23220b68f01a3e0c6f9c"
+    },
+    "qa/320-dense-en.png": {
+      "bytes": 52274,
+      "sha256": "acf6937bb693be21fc9276183735c4e01de977d59bbc8fc9ecd6f62f1d9cb80b"
+    },
+    "qa/390-condor-ru-serif.png": {
+      "bytes": 78106,
+      "sha256": "599eb13d359cc4f7eb815840010b9eb09100828302db4a346449464a1044ddae"
+    },
+    "qa/390-cover-ru.png": {
+      "bytes": 56659,
+      "sha256": "4ec3e548976b6a2a3da5ab5925ea17de5899ba85ba2716ce97a1a222998844c8"
+    },
+    "qa/390-dense-en.png": {
+      "bytes": 72319,
+      "sha256": "acafe8030813551796a60a811323b9fe5c49b8882284da9d94d6cfe8cbab9996"
+    },
+    "qa/browser-1024.json": {
+      "bytes": 5693,
+      "sha256": "abcbfc7868309c80851074dcf5485d2ed11c63a830d7fa886a0af720f5562163"
+    },
+    "qa/browser-1440.json": {
+      "bytes": 5693,
+      "sha256": "21ce2325b1122e6b6d2425d1871f424cb82964b5f028f4864f75dde948123ce5"
+    },
+    "qa/browser-320.json": {
+      "bytes": 5694,
+      "sha256": "12cfbd7fbd942985dfe105f15ab59746544f8787c910454da734bdc873533663"
+    },
+    "qa/browser-390.json": {
+      "bytes": 5692,
+      "sha256": "aecdbfa17146da93fee5c123a7e6990ca6dd9b3ee5f8e0db615c8d617a6a20dc"
+    },
+    "qa/browser-consent-initial-failed.json": {
+      "bytes": 2871,
+      "sha256": "e3f7714155845b94ce272b1c2c98ae8ef8303f8f03cf98a137d0acdef3e69b81"
+    },
+    "qa/browser-consent.json": {
+      "bytes": 3097,
+      "sha256": "39b88009a191f255257dbd930c3568897a5a2a6ca4f565768d892333c76fb5e2"
+    },
+    "qa/browser-ios.json": {
+      "bytes": 1998,
+      "sha256": "5c56716cf7b1e84df9fce942cb8493e14533ea9bdc9eb14f216f93f102f6aa3d"
+    },
+    "qa/cleanup-verification.json": {
+      "bytes": 270,
+      "sha256": "abeb236a3f82d6f4ee5c24a8aa8be0e522ddf19e20de0d79bb94d2aa7c95d9b7"
+    },
+    "qa/content-verification.json": {
+      "bytes": 6545,
+      "sha256": "173464b8cce440c4749a4e85d434c19f8952ef7b41892e02ff65ef8246e1e138"
+    },
+    "qa/environment.json": {
+      "bytes": 629,
+      "sha256": "973e941bad0a54775ac6be4d2a3543a6b6b4f10d434112777230ae0b91e528c7"
+    },
+    "qa/structural-audit.json": {
+      "bytes": 449,
+      "sha256": "a5117f46cef40870fbb60595086621319819adc3ba216242d2bff22f08deabf3"
+    },
+    "read-witness.py": {
+      "bytes": 662,
+      "sha256": "b979ae212d47f91f2a029b0a7ba8a66b6a2d42f12c257f8f9e4c2102ad8748a1"
+    },
+    "root-reading-guide.md": {
+      "bytes": 3817,
+      "sha256": "83103a604625315be62ff4826527b913225f8d847a4a6641f9990aad9262d137"
+    },
+    "routes/core-en.md": {
+      "bytes": 55264,
+      "sha256": "d35ead62bb07276023724e61899c035eb9c3373560cb328e9c0d72bf8fc958b2"
+    },
+    "routes/core-ru.md": {
+      "bytes": 94746,
+      "sha256": "9e47395cc3f26180f227ec0c560cb75d117f1426da7e3b1dddca1d6015d2ba42"
+    },
+    "routes/essential-en.md": {
+      "bytes": 20192,
+      "sha256": "b4f8531f781fae733daf70ac5350f63e64d5c18d95c0519c8640a7c15167e1cd"
+    },
+    "routes/essential-ru.md": {
+      "bytes": 34407,
+      "sha256": "71fb0ea4e9947709f0d2f98d4977c0d93565c8e4a30ebd6c49530e29dc7f7c20"
+    },
+    "scene-map.json": {
+      "bytes": 28668,
+      "sha256": "f8ee2662b4c561aa1c26893e5343ac6548d96ea984cd741deb00ff0219eed77a"
+    },
+    "segment.py": {
+      "bytes": 16145,
+      "sha256": "3e6ec6635c57c97efcf963a88a4a494a15755af25db2ec5152c8a13b7366a2c6"
+    },
+    "sources.md": {
+      "bytes": 7074,
+      "sha256": "2eb8cabc0219793a985315fc042cae68f15ee44dbbf77a20269018fa589f7304"
+    },
+    "story-data.json": {
+      "bytes": 314728,
+      "sha256": "ef6bdad5589dde41b967af271a8630dd3b1b6cb8c5c0b2de1d9a86d3ac610b78"
+    },
+    "verify.mjs": {
+      "bytes": 7803,
+      "sha256": "df236e027ad76b24c189e998c5e1b30e62c4ba89fe07f471098fc022cc8d1fbe"
+    },
+    "witness-chapter-ranges.json": {
+      "bytes": 7982,
+      "sha256": "275d1b3568755bfa390b8899ef1f3af068d4b8fb9c94b24032c16af5c747671b"
+    },
+    "witness-reading-ledger.json": {
+      "bytes": 17619,
+      "sha256": "4101017750e609bd153a197c0b06eccd6bc5faa10144d52e2c5c37db8e090cfd"
+    },
+    "write-ready.py": {
+      "bytes": 9734,
+      "sha256": "8ebe74c44bdae025d33de2b0a10d159397e577ad0c0afdf3943b1610859eca2f"
+    }
+  },
+  "remainingRequiredWork": [
+    "Root personally reads the complete resulting RU and EN prose and every nested route, including reader framing.",
+    "Root compares coverage and real omissions and checks the key primary mechanisms on these exact candidate hashes.",
+    "Root records an explicit personal verdict before publication can be considered."
+  ]
+}

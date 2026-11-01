@@ -1,5 +1,5 @@
 {
-  "asOfUtc": "2026-11-01T01:56:57.714447+00:00",
+  "asOfUtc": "2026-11-01T02:27:19.193535+00:00",
   "plannedAdditions": 58,
   "preexisting": 4,
   "totalPlanned": 62,
@@ -89,7 +89,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-source-map-incomplete",
+      "maximumDepthStage": "source-map-incomplete",
       "rootExpandedTextAccepted": false
     },
     {
@@ -145,7 +145,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -299,7 +299,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-writing-assigned",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -409,10 +409,10 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": null,
-      "depthReviewStatus": "reopened",
+      "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
-      "rootExpandedTextAccepted": false
+      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "rootExpandedTextAccepted": true
     },
     {
       "slug": "white-fang",
@@ -423,9 +423,9 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": true,
-      "depthReviewStatus": "reopened",
+      "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "maximumDepthStage": "root-accepted-and-live",
       "rootExpandedTextAccepted": true
     },
     {
@@ -921,15 +921,14 @@
   ],
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
-  "basis": "62 approved positions. Exact changed PR40 production assets verified at58books/2483screens. Historical factual stages preserved; new maximum-depth acceptance separately requires personal root reading.",
+  "basis": "62 approved positions. Production remains PR41 at58books/2536screens until this release is merged/verified. Historical factual stages are distinct from personal maximum-depth acceptance.",
   "maximumDepthStages": {
-    "awaiting-expanded-work": 52,
-    "expanded-source-map-incomplete": 1,
-    "expanded-awaiting-root-personal-reading": 3,
-    "expanded-writing-assigned": 1,
-    "root-accepted-and-live": 4,
+    "awaiting-expanded-work": 51,
+    "source-map-incomplete": 1,
+    "expanded-awaiting-root-personal-reading": 4,
+    "root-accepted-and-live": 5,
     "root-personally-accepted-awaiting-publication": 1
   },
   "maximumDepthStageBasis": "Current root criterion, callbacks and exact production proof. Runtime worker status has not been polled.",
-  "rootExpandedAcceptedPublished": 4
+  "rootExpandedAcceptedPublished": 5
 }

@@ -1,14 +1,14 @@
 # Library depth status
 
-Updated 2026-11-01T06:44:24.004962+00:00. Four Thousand Weeks personally accepted:25/65/87screens;8006RU/9092EN noncover body words; UI Deep47/44minutes. All87RU/EN pairs read, final25Essential and40Core additions with both edges reread, all21revised final pairs read.28actual primary intervals/201paragraphs/24437displayed words; root primary checking selective. Publication pending;10expanded books live. 6 candidates await personal root reading: selfie, mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, akselerando. Behave source gaps remain; all62positions retain individual acceptance.
+Updated 2026-11-01T08:00:54.142273+00:00. Selfie personally accepted, publication pending:49/93/129screens;10644RU/11929EN body words; Deep UI63/58minutes. Root covered all129final bilingual pairs, including30changed/new pairs and all shorter-route transitions, the complete coverage/omission map and65actual primary intervals/452unique paragraphs. Primary root checks remain selective. Eleven expanded versions remain live; production58books/2861screens. 6 candidates await root reading: mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, adventures-of-huckleberry-finn, akselerando. All62positions retain individual root acceptance. Behave source gaps remain; no recorded writer assignment, runtime not polled.
 
 | Current depth stage | Count |
 |---|---:|
-| Awaits expanded work | 44 |
+| Awaits expanded work | 43 |
 | Primary-source coverage incomplete | 1 |
-| Personally accepted and live | 10 |
-| Candidate awaits personal root reading | 6 |
+| Personally accepted and live | 11 |
 | Personally accepted; release pending | 1 |
+| Candidate awaits personal root reading | 6 |
 
 | Book | Author | Current depth stage |
 |---|---|---|
@@ -17,11 +17,11 @@ Updated 2026-11-01T06:44:24.004962+00:00. Four Thousand Weeks personally accepte
 | Биология добра и зла | Роберт Сапольски | Primary-source coverage incomplete |
 | Всё решено | Роберт Сапольски | Awaits expanded work |
 | Почему у зебр не бывает инфаркта | Роберт Сапольски | Personally accepted and live |
-| Селфи | Уилл Сторр | Candidate awaits personal root reading |
+| Селфи | Уилл Сторр | Personally accepted; release pending |
 | Эссенциализм | Грег МакКеон | Personally accepted and live |
 | Искусство войны | Сунь-цзы | Awaits expanded work |
 | Протоколы Хубермана | Эндрю Хуберман | Awaits expanded work |
-| Четыре тысячи недель | Оливер Беркман | Personally accepted; release pending |
+| Четыре тысячи недель | Оливер Беркман | Personally accepted and live |
 | Осознанность | Марк Уильямс и Денни Пенман | Candidate awaits personal root reading |
 | Радость жизни | Уильям Ирвин | Personally accepted and live |
 | Дзен и искусство ухода за мотоциклом | Роберт Пирсиг | Awaits expanded work |
@@ -67,7 +67,7 @@ Updated 2026-11-01T06:44:24.004962+00:00. Four Thousand Weeks personally accepte
 | Ходячий замок | Диана Уинн Джонс | Awaits expanded work |
 | Дающий | Лоис Лоури | Awaits expanded work |
 | Ямы | Луис Сэкер | Awaits expanded work |
-| Приключения Гекльберри Финна | Марк Твен | Awaits expanded work |
+| Приключения Гекльберри Финна | Марк Твен | Candidate awaits personal root reading |
 | Убить пересмешника | Харпер Ли | Awaits expanded work |
 | Цветы для Элджернона | Дэниел Киз | Awaits expanded work |
 | 1873 | Лиакват Ахамед | Awaits expanded work |

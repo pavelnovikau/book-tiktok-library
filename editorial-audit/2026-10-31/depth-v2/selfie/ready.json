@@ -1,0 +1,762 @@
+{
+  "schemaVersion": 1,
+  "slug": "selfie",
+  "status": "root-personally-accepted",
+  "atUtc": "2026-11-01T08:00:12.790104+00:00",
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "bookContentPublicationAllowed": true,
+  "counts": {
+    "essential": 49,
+    "core": 93,
+    "deep": 129
+  },
+  "metrics": {
+    "essential": {
+      "screens": 49,
+      "ru": {
+        "bodyWords": 4159,
+        "bodyMinutes": 23.105555555555554,
+        "roundedBodyMinutes": 24,
+        "uiWords": 4402,
+        "uiMinutes": 24.455555555555556,
+        "uiRoundedMinutes": 25,
+        "uiLabel": "25 минут"
+      },
+      "en": {
+        "bodyWords": 4647,
+        "bodyMinutes": 21.12272727272727,
+        "roundedBodyMinutes": 22,
+        "uiWords": 4950,
+        "uiMinutes": 22.5,
+        "uiRoundedMinutes": 23,
+        "uiLabel": "23 min"
+      }
+    },
+    "core": {
+      "screens": 93,
+      "ru": {
+        "bodyWords": 7853,
+        "bodyMinutes": 43.62777777777778,
+        "roundedBodyMinutes": 44,
+        "uiWords": 8310,
+        "uiMinutes": 46.166666666666664,
+        "uiRoundedMinutes": 47,
+        "uiLabel": "47 минут"
+      },
+      "en": {
+        "bodyWords": 8798,
+        "bodyMinutes": 39.99090909090909,
+        "roundedBodyMinutes": 40,
+        "uiWords": 9379,
+        "uiMinutes": 42.63181818181818,
+        "uiRoundedMinutes": 43,
+        "uiLabel": "43 min"
+      }
+    },
+    "deep": {
+      "screens": 129,
+      "ru": {
+        "bodyWords": 10644,
+        "bodyMinutes": 59.13333333333333,
+        "roundedBodyMinutes": 60,
+        "uiWords": 11259,
+        "uiMinutes": 62.55,
+        "uiRoundedMinutes": 63,
+        "uiLabel": "63 минуты"
+      },
+      "en": {
+        "bodyWords": 11929,
+        "bodyMinutes": 54.222727272727276,
+        "roundedBodyMinutes": 55,
+        "uiWords": 12700,
+        "uiMinutes": 57.72727272727273,
+        "uiRoundedMinutes": 58,
+        "uiLabel": "58 min"
+      }
+    }
+  },
+  "rootReport": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/personal-review.json",
+  "rootReportSha256": "8645c31514ffc32bdd389f072163d12fa87c03be3f229bc4a7b6cbb3eab2cd7f",
+  "rootReadingLedger": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/reading-ledger.json",
+  "rootSourceScope": {
+    "source": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/selfie-edition.json",
+    "sourceSha256": "ec92b521a877c1385bc3d0f3a81c834ce5574f9f51da6852b0efe6f936d11766",
+    "edition": "Individuum Print2019; original copyright2017. Supplied translator/ISBN fields absent.",
+    "rootContinuousWholePrimaryRead": false,
+    "intervals": 65,
+    "uniqueParagraphs": 452,
+    "uniqueWordsWhitespace": 33014,
+    "displayedWordsWhitespaceWithOverlap": 33119,
+    "writerMainLedgerIntegrity": {
+      "chunks": 30,
+      "uniqueParagraphs": 1189,
+      "mainParagraphs": 1159,
+      "scope": "Individual paragraph hashes, exact range membership and complete main-spine coverage of recorded writer reading only; not root continuous reading."
+    },
+    "publisherBylineScope": "Harper metadata identifies Peter Marin; direct article402, no full article consulted."
+  },
+  "qaScope": {
+    "structuralPasses": 69,
+    "warnings": 0,
+    "failures": 0,
+    "draftEmbeddedAndAllSixExportsExact": true,
+    "pairedParagraphs": 194,
+    "freshRootRoutePositions": 1084,
+    "representativeLayouts": 160,
+    "coldSerifFirstSelectionBothLanguages": "Unloaded before first choice; exact100px retained at320x568 in both languages.",
+    "settingsAndActualRenderedFonts": true,
+    "explicitNonfictionDeeperResumeAndReload": true,
+    "genuineLegacyStatesIsolated": [
+      "whose-ideal",
+      "whole-self-verdict"
+    ],
+    "runtimeErrors": 0,
+    "runtimeExternalRequests": 0,
+    "ownedChromeProfilesAndGroupsRemoved": true,
+    "physicalSafariPwaTested": false
+  },
+  "limits": [
+    "Selective root primary checking, not continuous whole-primary reading.",
+    "No full published-English, source-figure or print-variant collation.",
+    "Author-attributed historical and research account, not recertification of all underlying studies.",
+    "Chrome emulation and synthetic handlers, not physical Safari/PWA or native touch."
+  ],
+  "allArtifactHashes": {
+    "HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/HANDOFF.md",
+      "sha256": "244fa5e5a3ecdd46c346dd7e9340287ddf5f654848eadd075deaaa2fcb5120b0",
+      "bytes": 8772
+    },
+    "QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/QA.md",
+      "sha256": "efd0c064bd334acd5bbc5f2df4b2f58550ef2cbeeb93045be3c1ad875f12d81f",
+      "bytes": 9061
+    },
+    "ack-reading.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/ack-reading.py",
+      "sha256": "09c60801bb0af5074729b01f18ac9323a55c44e26b2891698dfc6178e4f8b430",
+      "bytes": 1073
+    },
+    "browser-qa.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/browser-qa.mjs",
+      "sha256": "ccbd841a3d2816677aa688fb82716e6596a2a71d047fa6f495adff8a05645e90",
+      "bytes": 25443
+    },
+    "build.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/build.mjs",
+      "sha256": "d74cd6ed5dcbf59bdb6b2aeb120e32a0e4ef35decb4e3b71a5288759c9fc6ebc",
+      "bytes": 2121
+    },
+    "core.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/core.en.md",
+      "sha256": "e5504d5d3a16ce32511f30fc1c3c2d47af654248f1f0de96afcf111c5952d090",
+      "bytes": 67489
+    },
+    "core.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/core.ru.md",
+      "sha256": "46ba2ed37c406fbc70aa7fccf4cbd27664ff63ac766c111edc43a3c062685723",
+      "bytes": 122590
+    },
+    "coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/coverage-map.json",
+      "sha256": "01e55c65caeb06b35d7911bec7153f9db796dd9d970c3db23a4b3cb358077827",
+      "bytes": 73826
+    },
+    "coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/coverage-map.md",
+      "sha256": "b128ab207c6d4004d134faf1892ea5ff5835eca15af7da177d4a4d9971f90b55",
+      "bytes": 29470
+    },
+    "deep.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/deep.en.md",
+      "sha256": "0bf1904d91c50e4fd24dd1bf0ee49fa023f5af183f54d3ed9a1e3de5dd7ff1b9",
+      "bytes": 91564
+    },
+    "deep.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/deep.ru.md",
+      "sha256": "fba636644429ae2a164389e43aa297e262ada41e2e851fb70241d68d4863224d",
+      "bytes": 166730
+    },
+    "draft.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/draft.en.md",
+      "sha256": "d0625747d777d918981a2e72e2e0780f84249b857c6495d366da344446964ad2",
+      "bytes": 83620
+    },
+    "draft.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/draft.ru.md",
+      "sha256": "de2154111e30427e1aa6f7dce24fb2bef9fcc669ece2358a9781dca35bb4b6c7",
+      "bytes": 156527
+    },
+    "essential.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/essential.en.md",
+      "sha256": "03f73dd9c777ea6e94b4eb3d1e02de00b921bdf5cccc50b5651515cb1a96229e",
+      "bytes": 35666
+    },
+    "essential.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/essential.ru.md",
+      "sha256": "310a06bbed07731d6c61a64c5912fc7831944cd21690a6d4c354781319a4972d",
+      "bytes": 64825
+    },
+    "implementation-review.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/implementation-review.json",
+      "sha256": "5a9ca6add3e9d5851354444c171f13d4a67fbad87e3663c2a3491ccf4b5bbe75",
+      "bytes": 4655
+    },
+    "measure.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/measure.mjs",
+      "sha256": "3b5c5406468d4aa671ded8d0a7c7109bd922b443f32795a115e42e72098adee0",
+      "bytes": 4928
+    },
+    "metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/metrics.json",
+      "sha256": "b726b1b794076c0d97fda15099c7d57a6b48efd1390d0cec00f2cecf7bd6578c",
+      "bytes": 12931
+    },
+    "parity.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/parity.json",
+      "sha256": "94ab0d7d3dffa450a139007d7b05524e0f88d531bdd391baf71b189447adc361",
+      "bytes": 1024
+    },
+    "prepare.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/prepare.py",
+      "sha256": "b8eef12b5ecf7769a2f564110641b533fb2966c1f092ee2ae5290967186c332a",
+      "bytes": 17985
+    },
+    "prose-first.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/prose-first.json",
+      "sha256": "e3c89753f87353eff933c364bdb245cee84389ec2e61a5cadab6462c6eba6c03",
+      "bytes": 1403
+    },
+    "qa/1024-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1024-cover.png",
+      "sha256": "fba18e1eca5c0aa9bcf66f5e35e3197cda91e3cc7ad881dbaed392b78cb3035a",
+      "bytes": 97205
+    },
+    "qa/1024-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1024-dense.png",
+      "sha256": "4e3237fe3c6fca3af09355ffe461ae39361ded7ae08bd820d2ef8f5a88ea26fc",
+      "bytes": 178466
+    },
+    "qa/1024-final.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1024-final.png",
+      "sha256": "9c089dd46a26e0f64ce0c739ae8df06968fd155eb8621294cec4f39e87d1396d",
+      "bytes": 205882
+    },
+    "qa/1024-reportage.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1024-reportage.png",
+      "sha256": "dc2f6c59a52812baa112efa8ee4c236d99026d340756008a2ea21c2641f84bea",
+      "bytes": 169416
+    },
+    "qa/1440-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1440-cover.png",
+      "sha256": "5a42ef59ce425ef142437d3a0275dbf56855b55766c29c448c72ddf6ae6e1756",
+      "bytes": 112060
+    },
+    "qa/1440-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1440-dense.png",
+      "sha256": "aabb65022b59977b0d8d384184d293ef55c739de714c947b20f4042085024a01",
+      "bytes": 193249
+    },
+    "qa/1440-final.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1440-final.png",
+      "sha256": "9fbe0a37658c4049d90616deaf2b1b0802c74d6e73cd076934ee1b8c01cb41a4",
+      "bytes": 218465
+    },
+    "qa/1440-reportage.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/1440-reportage.png",
+      "sha256": "72294a428775b1fc14590602b6cc8fb7fd388b9772b23e23dc4c075856dcde87",
+      "bytes": 185532
+    },
+    "qa/320-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/320-cover.png",
+      "sha256": "df1245cf7f1bfcb575d1421a70a4630b10e02ba5ca84caeefbd4d3630610c8bf",
+      "bytes": 40996
+    },
+    "qa/320-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/320-dense.png",
+      "sha256": "b82fd86153bda189f3ae254dd12e18aead4997afd9264c977033e88f9ef0de8f",
+      "bytes": 62842
+    },
+    "qa/320-final.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/320-final.png",
+      "sha256": "515d4dd6c619b3b6bcdad41b5c3b4f0a0db23a94b33cdb0d4e86f756c706a30b",
+      "bytes": 64563
+    },
+    "qa/320-reportage.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/320-reportage.png",
+      "sha256": "d3172ad7f3b143514fd9be0bc0357085a40313bbddcc6f6cb681fc36f98cb95f",
+      "bytes": 64255
+    },
+    "qa/390-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/390-cover.png",
+      "sha256": "cbb79c0890fef7b0acb67e8272ef4a69b7581f4094600e2d2987fec8b42d0c23",
+      "bytes": 42953
+    },
+    "qa/390-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/390-dense.png",
+      "sha256": "06e368f7e2acd3280604aa25eb65ba0982c4975b08b24cfcbb07f9051b9c72ec",
+      "bytes": 108235
+    },
+    "qa/390-final.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/390-final.png",
+      "sha256": "3dda6e998971c5bd151d9cb7905acaa96be0c122ae048d6a356449efb2b904c1",
+      "bytes": 119524
+    },
+    "qa/390-reportage.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/390-reportage.png",
+      "sha256": "25596a19433197ada7753cf0bf0cd1e89b4ccb2b78a38de1af36c1bf22b83052",
+      "bytes": 105263
+    },
+    "qa/browser-1024.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/browser-1024.json",
+      "sha256": "372ef3155f1e5a06bb411f47cd7ece8083e868f62ef24beb51538b86565f884b",
+      "bytes": 74365
+    },
+    "qa/browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/browser-1440.json",
+      "sha256": "1c8458f2f701fd27b91454dfc8584a981f4ba386f0075fbd039b6751e1c94923",
+      "bytes": 74365
+    },
+    "qa/browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/browser-320.json",
+      "sha256": "92ac0b9ba851ad52e49e22ea119e95a9b7cd468e1af35a1e3428da37d19a530c",
+      "bytes": 74882
+    },
+    "qa/browser-390.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/browser-390.json",
+      "sha256": "9c73eddbc1203f2507a316b1e8c5e5561e53f164f4bc82f1c3089311144ea657",
+      "bytes": 74339
+    },
+    "qa/browser-ios-390.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/browser-ios-390.json",
+      "sha256": "380b58efd470df615a9879c23a1c8e2a82b36515b0223e22f2eee93fef1660ba",
+      "bytes": 74675
+    },
+    "qa/cleanup-check.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/cleanup-check.json",
+      "sha256": "0465cad72367bacf792268e50447b1c9968f8610cd2882c0a1dddfee42882bca",
+      "bytes": 375
+    },
+    "qa/ios-390-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/ios-390-cover.png",
+      "sha256": "6b240cddedb01bf37851b08a2469311276b1d4bbe3dc44e8bb84ca3fae3ccfaa",
+      "bytes": 43929
+    },
+    "qa/ios-390-dense.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/ios-390-dense.png",
+      "sha256": "a3c1fe81be3e539f20fb43a498c5b6a331df28cede2ae92324ed3a9d2702c1f3",
+      "bytes": 106785
+    },
+    "qa/ios-390-final.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/ios-390-final.png",
+      "sha256": "b9aac36b7c8dbe5a7687854ee5135914e081681eed11cc7a5c91938014935f56",
+      "bytes": 109190
+    },
+    "qa/ios-390-reportage.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/ios-390-reportage.png",
+      "sha256": "ebabe5efbd7bed5c23117663601ed17506fdb479d1860c59f6b5463a00ef8373",
+      "bytes": 106131
+    },
+    "qa/metrics-parity-run.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/metrics-parity-run.json",
+      "sha256": "4260237d795463fd2ec266f5b518373b13d1618092b1f29bdab7bfe12aa64e4d",
+      "bytes": 5404
+    },
+    "qa/originality-scan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/originality-scan.json",
+      "sha256": "78a88b4f61e6d62ec5dd337a30b086ca418411bbb914962e3d8d5489827b4374",
+      "bytes": 267
+    },
+    "qa/record-verification.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/record-verification.json",
+      "sha256": "f4790fc63a83f51db6f06173ce18204d357224c33a58ee245f6fac48adde021f",
+      "bytes": 718
+    },
+    "qa/static-audit.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/static-audit.json",
+      "sha256": "2466e5497dc4be6bbaf8b41356b5116ad6809a03520e9ca92295e129528cd077",
+      "bytes": 411
+    },
+    "qa/visual-review.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/qa/visual-review.json",
+      "sha256": "4abc5434a0c2a0b9f76448822dc57af8833da86a7edb0bdc8fa1865012328c0d",
+      "bytes": 1953
+    },
+    "read-primary.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/read-primary.py",
+      "sha256": "81d473e9588b4987649428c33be1cfc664b99bbd959c68e1ddb742b834f6cf1f",
+      "bytes": 550
+    },
+    "read-routes.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/read-routes.py",
+      "sha256": "f1374eff84aa2092c95abf436e098c5b01ebb14a3df1b3b4a9e73b8160f24c93",
+      "bytes": 1749
+    },
+    "reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/reading-ledger.json",
+      "sha256": "e4880653ce8fcbf8415776fc68bbc600801a9ade5bee37722e659a3fb524465b",
+      "bytes": 219781
+    },
+    "reading-plan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/reading-plan.json",
+      "sha256": "8ba69c0161b361a3eb2bdfc00037261c25bc2d16a7ccdc6bdb320644a95e58bb",
+      "bytes": 184268
+    },
+    "root-review/build.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/build.json",
+      "sha256": "55700ac40bb60907e14f9ed5bbd15876a95ba1b18f5b13c76a9472efd16e1d1e",
+      "bytes": 510
+    },
+    "root-review/changed-screen-index.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/changed-screen-index.json",
+      "sha256": "6ead74349bd4db77b94bda8bee26d863d39a187cff1bbc4ab78a83eac305ed67",
+      "bytes": 1154
+    },
+    "root-review/compile.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/compile.py",
+      "sha256": "9767e9f1770927552b718db1021f2195dc1fef8584c28830cfe4a77a25f2aaa5",
+      "bytes": 4893
+    },
+    "root-review/coordination-updates.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/coordination-updates.json",
+      "sha256": "162a17f1ec3100d22b8ed025a912a5967e437eccd66ca208f0b0bd4d201639e3",
+      "bytes": 1365
+    },
+    "root-review/external-bibliography.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/external-bibliography.json",
+      "sha256": "19ea692e1b755b3cfbea0e3ae1753dda1ca356ece1590fdad31896cbaa83c093",
+      "bytes": 697
+    },
+    "root-review/findings-plan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/findings-plan.json",
+      "sha256": "ad8a5b7382d3dd17886e688312d9088051be6e46176a5b30c7fd2ddd7539a4cb",
+      "bytes": 1831
+    },
+    "root-review/huckleberry-inputs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/huckleberry-inputs.json",
+      "sha256": "28a64ca20aaac01820501479e39046eecf0258a270fe9fe7d53b90ca07d43f39",
+      "bytes": 14824
+    },
+    "root-review/input-HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-HANDOFF.md",
+      "sha256": "9285e5be0443fd190b2ccf7d8d278f2dd64c5dcc7357ff9adcfa9db4a95a6cfb",
+      "bytes": 8417
+    },
+    "root-review/input-QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-QA.md",
+      "sha256": "3f07c1941ff0e9b06216d642c167127b45d3b35f8a97fcef9dd32a376e19145a",
+      "bytes": 8706
+    },
+    "root-review/input-build.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-build.mjs",
+      "sha256": "d74cd6ed5dcbf59bdb6b2aeb120e32a0e4ef35decb4e3b71a5288759c9fc6ebc",
+      "bytes": 2121
+    },
+    "root-review/input-coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-coverage-map.json",
+      "sha256": "2de3b13e9b1a9d2569d86e4f165d0c29a3b273216731526e7f75b211134a0ed9",
+      "bytes": 73135
+    },
+    "root-review/input-coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-coverage-map.md",
+      "sha256": "5c5e205f92d435c5a8c7b6373b727356c6e4ce3ef6f9847df053732027cb9b5c",
+      "bytes": 28256
+    },
+    "root-review/input-draft.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-draft.en.md",
+      "sha256": "1531770336016ebb3677a3793e358209024c9a02d7adcf43099d6c2d78b1894f",
+      "bytes": 84603
+    },
+    "root-review/input-draft.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-draft.ru.md",
+      "sha256": "8ebfb6c535cfe23b9b25b284977feeb69cc37f2f482fc58fc57d89a2effb8774",
+      "bytes": 158354
+    },
+    "root-review/input-metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-metrics.json",
+      "sha256": "75a1733e4cc6c29f8618c21046dbf60cffa479239dbcfb904ccf07c007f0321e",
+      "bytes": 12791
+    },
+    "root-review/input-prose-first.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-prose-first.json",
+      "sha256": "e3c89753f87353eff933c364bdb245cee84389ec2e61a5cadab6462c6eba6c03",
+      "bytes": 1403
+    },
+    "root-review/input-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-reading-ledger.json",
+      "sha256": "e4880653ce8fcbf8415776fc68bbc600801a9ade5bee37722e659a3fb524465b",
+      "bytes": 219781
+    },
+    "root-review/input-ready.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-ready.json",
+      "sha256": "1ddcaa8406547232c64155eb9bf8117e9f45660ac1db6527425cf162e845be47",
+      "bytes": 12245
+    },
+    "root-review/input-route-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-route-reading-ledger.json",
+      "sha256": "e42d4f53402fb6070cc05d15d8c9a3da73a8f5662233390b0a1f82dfa5cd237a",
+      "bytes": 33911
+    },
+    "root-review/input-source-method.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-source-method.json",
+      "sha256": "8cd75164282c0367a53f8b3a06d1622df625c95bb2e4bc444527cf876ec78935",
+      "bytes": 2023
+    },
+    "root-review/input-sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-sources.md",
+      "sha256": "ace4c3197d0efd890566afa51d173a0b44660f05611837f3e2a43d10592d5890",
+      "bytes": 2320
+    },
+    "root-review/input-story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/input-story-data.json",
+      "sha256": "ef4fee53a1dd191a303427e069590112bdebadd21e8175f8ff9c0749c0fcf915",
+      "bytes": 344197
+    },
+    "root-review/measurement.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/measurement.json",
+      "sha256": "dc602a2bcdb77351184728ed5f484fa827a6d44634f8bc0ff3cd5edc18ae5ce1",
+      "bytes": 5454
+    },
+    "root-review/offered.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/offered.json",
+      "sha256": "393c789c293d640398ce99088463602b6c8e8e543ce440b2232027a2cf73be6a",
+      "bytes": 234
+    },
+    "root-review/personal-review.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/personal-review.json",
+      "sha256": "8645c31514ffc32bdd389f072163d12fa87c03be3f229bc4a7b6cbb3eab2cd7f",
+      "bytes": 9450
+    },
+    "root-review/personal-review.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/personal-review.md",
+      "sha256": "f5a9e9efef1bd89e2936dc3861505f510c4c22bd286e12b54cf5a9b1cbac7175",
+      "bytes": 5775
+    },
+    "root-review/polish-second.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/polish-second.json",
+      "sha256": "d43dea4c6b5c96d0aed4e06ba99f4d57ee6d768a10ee00b6b0ab34fe8835e3ad",
+      "bytes": 1009
+    },
+    "root-review/polish.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/polish.json",
+      "sha256": "dc07a90361e5c81bc6c2b8e8319b659dce45ec180156887c9996cd6fd10c9894",
+      "bytes": 3368
+    },
+    "root-review/primary-extra-plan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/primary-extra-plan.json",
+      "sha256": "05aa605cd3dc6b020aa2f414f3d5e660cd82dcf43a786452487a438214d9caae",
+      "bytes": 4313
+    },
+    "root-review/primary-selection-plan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/primary-selection-plan.json",
+      "sha256": "31a3accda0d4c9861870d628a49cd26005cabf6b19ed0cbb79355f55f7dc6d7f",
+      "bytes": 8569
+    },
+    "root-review/progress.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/progress.json",
+      "sha256": "69e423568f6f6fdd3d6531b7e4c0f48f3b3def2c9ed507b6bb769668699f652f",
+      "bytes": 694
+    },
+    "root-review/prose-revision.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/prose-revision.json",
+      "sha256": "36c67f820b6beadfd99a1d0190b46ef706d0df9f95d5c47d8915358a5b0b4193",
+      "bytes": 1251
+    },
+    "root-review/protected-inputs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/protected-inputs.json",
+      "sha256": "4507e9aa8c4e2dfcfbf2f4ec96016cfcaba51db27e2a8f26a6098ff705eb59cc",
+      "bytes": 602625
+    },
+    "root-review/qa/1024-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/1024-cover-ru-dark-sans.png",
+      "sha256": "bd728527e122840e2810f2d005096365edfa9684659549f6ebf2a8278e7e3cf1",
+      "bytes": 85849
+    },
+    "root-review/qa/1024-debbie-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/1024-debbie-en-dark-sans.png",
+      "sha256": "a2b0b1d0515c04ecf28dbb36b3432e03962959cf5511e6c8e5df0ee9cebac2e9",
+      "bytes": 161598
+    },
+    "root-review/qa/1024-good-for-whom-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/1024-good-for-whom-ru-light-serif.png",
+      "sha256": "895ffaa36a0362424d3a544f96a4abe8e41b89bf3202964bd244042b9a6717e8",
+      "bytes": 141717
+    },
+    "root-review/qa/1440-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/1440-cover-ru-dark-sans.png",
+      "sha256": "22004feba660d98d7929da1f09b2adf61991028574a4575d762f365e437561ad",
+      "bytes": 105285
+    },
+    "root-review/qa/1440-debbie-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/1440-debbie-en-dark-sans.png",
+      "sha256": "60fcafb04b633c2c826b5051ac1b2b6d48b0147f2a7a1cf2304cb29a14df1fcc",
+      "bytes": 174263
+    },
+    "root-review/qa/1440-good-for-whom-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/1440-good-for-whom-ru-light-serif.png",
+      "sha256": "22bf3453faf9ad7ceeb1acef4f6dcf86ba48dead6e7c9e57961b2bf5ff535e5f",
+      "bytes": 153324
+    },
+    "root-review/qa/320-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/320-cover-ru-dark-sans.png",
+      "sha256": "6653aa8fd8e7e816e883c1da603ac9d1356b27f78119c602fea22606801da2da",
+      "bytes": 35254
+    },
+    "root-review/qa/320-debbie-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/320-debbie-en-dark-sans.png",
+      "sha256": "dbb5fe0b0627879c2c8a27899957f63de0a7061208a2f11766eba97970405d49",
+      "bytes": 46934
+    },
+    "root-review/qa/320-fresh-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/320-fresh-cover.png",
+      "sha256": "6f32b3b94a2d8245f48b08c5a419ef501bc652f0221eb71d606a7ec608794b42",
+      "bytes": 31305
+    },
+    "root-review/qa/320-good-for-whom-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/320-good-for-whom-ru-light-serif.png",
+      "sha256": "7e22755229e08f30b9dc0bba3d2be53088237a6ad1d446d752549f72f02ef97a",
+      "bytes": 46299
+    },
+    "root-review/qa/390-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/390-cover-ru-dark-sans.png",
+      "sha256": "d99b362bdf5e7192aacc30c5c81b772004990c8fa36cc8a709c06a29a9b53a55",
+      "bytes": 32952
+    },
+    "root-review/qa/390-debbie-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/390-debbie-en-dark-sans.png",
+      "sha256": "cb1034d7d712f52de0dae23cb49decceb7debde3ac26beb8f5e26d5246c7dcae",
+      "bytes": 83323
+    },
+    "root-review/qa/390-good-for-whom-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/390-good-for-whom-ru-light-serif.png",
+      "sha256": "8f24722c825db20f2cecf8e1fbd97c09dc5adf05406900e637902bf7c42935fc",
+      "bytes": 81270
+    },
+    "root-review/qa/browser-1024.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-1024.json",
+      "sha256": "85ff5a2814dc4d36c1b962645f38a52344ee0c8bd0d749f2955f0c73fca762ea",
+      "bytes": 12918
+    },
+    "root-review/qa/browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-1440.json",
+      "sha256": "ddbe0ad071f5506c97988f5c1d97595dbaf2a1db91588f634bda5f859c2575dd",
+      "bytes": 13452
+    },
+    "root-review/qa/browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-320.json",
+      "sha256": "a3d00e821f9c1c2cd805337004a4c526d0808d05879e17b370cd8551c1b2cc75",
+      "bytes": 13450
+    },
+    "root-review/qa/browser-390.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-390.json",
+      "sha256": "802fc8fd67dc18d8d04c260f34d153de546a0a8964bf9efc0337fccd9f2a6709",
+      "bytes": 12916
+    },
+    "root-review/qa/browser-cold-en.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-cold-en.json",
+      "sha256": "5aee1de9ca54edfd8d1a43be9c190ffe18b27674e583424409e7ceaa5d9ffb00",
+      "bytes": 1133
+    },
+    "root-review/qa/browser-cold.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-cold.json",
+      "sha256": "49214a4959811c10877951c95bf9b1b560010d1b749e02433c4a22f37892a563",
+      "bytes": 1130
+    },
+    "root-review/qa/browser-resume.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/browser-resume.json",
+      "sha256": "638e936167ea063100bca85e95b623cc5fc252b8abed1cfd1a28b242cce767de",
+      "bytes": 1612
+    },
+    "root-review/qa/reading-verification-run.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/qa/reading-verification-run.json",
+      "sha256": "977c9cb036e9d78f3b4fa57f1e5439ab6a942a4e8779eb0682f7af35c4a2c5f3",
+      "bytes": 1844
+    },
+    "root-review/read.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/read.py",
+      "sha256": "646f72b72a4c8d8b2122940904037f42e1b520c32102cd4884d878027ac2d2f1",
+      "bytes": 6179
+    },
+    "root-review/reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/reading-ledger.json",
+      "sha256": "23a42aa9973223f75f7547c1fb0b0672c837cb1e90b1547415ee13af30f2e7a1",
+      "bytes": 48615
+    },
+    "root-review/reading-verification.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/reading-verification.json",
+      "sha256": "74bd9547113f4d59032eb633918b04898fbd5b23f2704a86488cb6b760ac6c12",
+      "bytes": 14923
+    },
+    "root-review/repair.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/repair.py",
+      "sha256": "4a6348be30c76cef14f9c5a0987afe46c9f9ef476e4e197aaa922251b7721396",
+      "bytes": 23034
+    },
+    "root-review/repairs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/repairs.json",
+      "sha256": "8b6dd2a183fa8513039271dd8aa474aa12d8f413e3a8f73ff37aa460745d96ca",
+      "bytes": 33451
+    },
+    "root-review/runtime-check.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/runtime-check.mjs",
+      "sha256": "f2ae650b41905375ecf47f716e316a2c044ca71029e2be1bd776b2d5df882760",
+      "bytes": 19621
+    },
+    "root-review/structural-audit.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/structural-audit.json",
+      "sha256": "510bdedac8dd44d469953a55b71dbdf13ddcdd289dab0a808a30be1655435471",
+      "bytes": 411
+    },
+    "root-review/verify-reading.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/verify-reading.py",
+      "sha256": "82daf58f6a0e6146ade2c94375d2d75e26c88d65ba16f69625432af3a4f7e4f6",
+      "bytes": 7168
+    },
+    "route-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/route-reading-ledger.json",
+      "sha256": "e42d4f53402fb6070cc05d15d8c9a3da73a8f5662233390b0a1f82dfa5cd237a",
+      "bytes": 33911
+    },
+    "selfie.html": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/selfie.html",
+      "sha256": "e71a1db37f8af8a2933716c8bad03ac54eb46ecbc46f068228e4e9090a79a349",
+      "bytes": 782049
+    },
+    "source-identity.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/source-identity.json",
+      "sha256": "8148b567188b0a7e02d125dabbfef04488eba7adb81d932a54ed0766a548d1cf",
+      "bytes": 4786
+    },
+    "source-method.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/source-method.json",
+      "sha256": "8cd75164282c0367a53f8b3a06d1622df625c95bb2e4bc444527cf876ec78935",
+      "bytes": 2023
+    },
+    "sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/sources.md",
+      "sha256": "7c0030d531a72fc0af2a5e782616f309feb19b069826a8d5a8389f90a88c62f0",
+      "bytes": 3279
+    },
+    "story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/story-data.json",
+      "sha256": "244d57e58327a7f1e4f4be76e9b44163f44df9acff9d642bcf575c23dfed6414",
+      "bytes": 343049
+    },
+    "verify-records.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/verify-records.py",
+      "sha256": "61d4fd161f79f0bed01f073dbcc9cbbff0de2f30644b76839d9fbb5c399feaee",
+      "bytes": 7556
+    },
+    "write-records.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/write-records.py",
+      "sha256": "07d3c94f2c5447601304e1d20b9d0d3ccfacff9d9f6588797475b246816735ba",
+      "bytes": 23041
+    },
+    "SHA256SUMS": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/SHA256SUMS",
+      "sha256": "1b245c0a6f838e88956c987c47559e128d1c21ddc02083e3de2af8988d6bab2d",
+      "bytes": 11599
+    }
+  }
+}

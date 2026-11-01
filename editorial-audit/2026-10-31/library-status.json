@@ -1,5 +1,5 @@
 {
-  "asOfUtc": "2026-11-01T06:44:24.004962+00:00",
+  "asOfUtc": "2026-11-01T08:00:54.142273+00:00",
   "plannedAdditions": 58,
   "preexisting": 4,
   "totalPlanned": 62,
@@ -129,10 +129,10 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": true,
-      "depthReviewStatus": "reopened",
+      "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
-      "rootExpandedTextAccepted": false
+      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "rootExpandedTextAccepted": true
     },
     {
       "slug": "essentialism",
@@ -187,7 +187,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "maximumDepthStage": "root-accepted-and-live",
       "rootExpandedTextAccepted": true
     },
     {
@@ -831,7 +831,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -921,14 +921,14 @@
   ],
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
-  "basis": "62approved positions. Production remains verified PR46 at58books/2826screens until this release is merged and observed. Changed Essentialism/catalogue/homepage were exact; one unchanged prior canary had a documented transport-only failure. Historical factual stages remain distinct from current maximum-depth acceptance.",
+  "basis": "62approved positions. Selfie personally accepted, publication pending:49/93/129screens;10644RU/11929EN body words; Deep UI63/58minutes. Root covered all129final bilingual pairs, including30changed/new pairs and all shorter-route transitions, the complete coverage/omission map and65actual primary intervals/452unique paragraphs. Primary root checks remain selective. Eleven expanded versions remain live; production58books/2861screens. 6 candidates await root reading: mindfulness, the-body-keeps-the-score, amphibian-man, monday-begins-on-saturday, adventures-of-huckleberry-finn, akselerando. All62positions retain individual root acceptance. Behave source gaps remain; no recorded writer assignment, runtime not polled. Historical factual stages remain distinct from maximum-depth acceptance.",
   "maximumDepthStages": {
-    "awaiting-expanded-work": 44,
+    "awaiting-expanded-work": 43,
     "source-map-incomplete": 1,
-    "root-accepted-and-live": 10,
-    "expanded-awaiting-root-personal-reading": 6,
-    "root-personally-accepted-awaiting-publication": 1
+    "root-accepted-and-live": 11,
+    "root-personally-accepted-awaiting-publication": 1,
+    "expanded-awaiting-root-personal-reading": 6
   },
   "maximumDepthStageBasis": "Current root criterion, callbacks and exact production proof. Runtime worker status has not been polled.",
-  "rootExpandedAcceptedPublished": 10
+  "rootExpandedAcceptedPublished": 11
 }

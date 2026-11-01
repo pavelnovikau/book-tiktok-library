@@ -1,0 +1,135 @@
+{
+  "atUtc": "2026-11-01T07:41:17.300620+00:00",
+  "slug": "adventures-of-huckleberry-finn",
+  "stage": "expanded-awaiting-root-personal-reading",
+  "callbackThreadReadThroughPosition": 241,
+  "callbackHasMore": false,
+  "readySha256": "f8b07c02d9ee84bb77cdc05628b8b68251a109ffed73de4f371ed7d0768aa991",
+  "candidateBindingsVerified": 68,
+  "manifestBindingsVerified": 69,
+  "readOnlyInputBindingsVerified": 324,
+  "counts": {
+    "essential": 33,
+    "core": 84,
+    "deep": 159
+  },
+  "metrics": {
+    "ratesWpm": {
+      "ru": 180,
+      "en": 220
+    },
+    "definition": "Narrative bodies exclude cover, final, warning, headings, UI and Sources. UI estimate = ceil((titles+subtitles+all route bodies)/rate); static controls, sections and Sources not included by maintained builder.",
+    "depths": {
+      "essential": {
+        "screens": 33,
+        "narrativeScreens": 31,
+        "languages": {
+          "ru": {
+            "narrativeBodyWords": 2792,
+            "coverBodyWords": 52,
+            "warningBodyWords": 0,
+            "finalBodyWords": 26,
+            "titlesAndSubtitlesWords": 95,
+            "sectionLabelWords": 95,
+            "narrativeMinutes": 15.511,
+            "meanNarrativeWordsPerScreen": 90.06,
+            "uiEstimateMinutes": 17,
+            "actualUiLabel": "17 минут"
+          },
+          "en": {
+            "narrativeBodyWords": 3374,
+            "coverBodyWords": 64,
+            "warningBodyWords": 0,
+            "finalBodyWords": 34,
+            "titlesAndSubtitlesWords": 124,
+            "sectionLabelWords": 95,
+            "narrativeMinutes": 15.336,
+            "meanNarrativeWordsPerScreen": 108.84,
+            "uiEstimateMinutes": 17,
+            "actualUiLabel": "17 min"
+          }
+        }
+      },
+      "core": {
+        "screens": 84,
+        "narrativeScreens": 82,
+        "languages": {
+          "ru": {
+            "narrativeBodyWords": 7365,
+            "coverBodyWords": 52,
+            "warningBodyWords": 0,
+            "finalBodyWords": 26,
+            "titlesAndSubtitlesWords": 223,
+            "sectionLabelWords": 248,
+            "narrativeMinutes": 40.917,
+            "meanNarrativeWordsPerScreen": 89.82,
+            "uiEstimateMinutes": 43,
+            "actualUiLabel": "43 минуты"
+          },
+          "en": {
+            "narrativeBodyWords": 8731,
+            "coverBodyWords": 64,
+            "warningBodyWords": 0,
+            "finalBodyWords": 34,
+            "titlesAndSubtitlesWords": 293,
+            "sectionLabelWords": 248,
+            "narrativeMinutes": 39.686,
+            "meanNarrativeWordsPerScreen": 106.48,
+            "uiEstimateMinutes": 42,
+            "actualUiLabel": "42 min"
+          }
+        }
+      },
+      "deep": {
+        "screens": 159,
+        "narrativeScreens": 156,
+        "languages": {
+          "ru": {
+            "narrativeBodyWords": 13881,
+            "coverBodyWords": 52,
+            "warningBodyWords": 21,
+            "finalBodyWords": 26,
+            "titlesAndSubtitlesWords": 410,
+            "sectionLabelWords": 474,
+            "narrativeMinutes": 77.117,
+            "meanNarrativeWordsPerScreen": 88.98,
+            "uiEstimateMinutes": 80,
+            "actualUiLabel": "80 минут"
+          },
+          "en": {
+            "narrativeBodyWords": 16391,
+            "coverBodyWords": 64,
+            "warningBodyWords": 24,
+            "finalBodyWords": 34,
+            "titlesAndSubtitlesWords": 542,
+            "sectionLabelWords": 474,
+            "narrativeMinutes": 74.505,
+            "meanNarrativeWordsPerScreen": 105.07,
+            "uiEstimateMinutes": 78,
+            "actualUiLabel": "78 min"
+          }
+        }
+      }
+    },
+    "global": {
+      "ru": {
+        "methodNoteWords": 66,
+        "sourceNoteWords": 50,
+        "uiControls": "Dynamic and repeated controls excluded from narrative counts; localized UI estimates count titles/subtitles/bodies only."
+      },
+      "en": {
+        "methodNoteWords": 77,
+        "sourceNoteWords": 60,
+        "uiControls": "Dynamic and repeated controls excluded from narrative counts; localized UI estimates count titles/subtitles/bodies only."
+      }
+    }
+  },
+  "rootPersonalAcceptance": false,
+  "publicationAllowed": false,
+  "bookContentPublicationAllowed": false,
+  "actualRootReadingScope": "Root reading guide and completion callback read. Expanded narrative/whole map/primary passages remain personally unread. No acceptance granted.",
+  "exactHashes": {
+    "story-data.json": "8e3798f48cced3809abcc9e08ffa3591167a87cbc629fa9d7c4fae4e162ea472",
+    "adventures-of-huckleberry-finn.html": "fcc930e6be9fa721bdad761f6d58808b20959004eead174963d3b3799117154c"
+  }
+}

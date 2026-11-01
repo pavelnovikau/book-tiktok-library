@@ -1,0 +1,28 @@
+{
+  "repairs": [
+    {
+      "screen": "late-doubt",
+      "language": "ru",
+      "old": "Мартин назвал статью",
+      "new": "Марин назвал статью",
+      "finding": "SF-NAME-01",
+      "reason": "Current changed-prose reread caught the second surname occurrence; Father Martin remains unchanged."
+    },
+    {
+      "screen": "admiration-continued",
+      "language": "ru",
+      "old": "Сторр не превращает Си-Джей в монстра:",
+      "new": "Он не превращает Си-Джей в монстра:",
+      "finding": "SF-COHESION-01",
+      "reason": "Avoid repeating the same named subject in consecutive sentences."
+    },
+    {
+      "screen": "admiration-continued",
+      "language": "en",
+      "old": "Storr does not turn CJ into a monster:",
+      "new": "He does not turn CJ into a monster:",
+      "finding": "SF-COHESION-01",
+      "reason": "Avoid repeating the same named subject in consecutive sentences."
+    }
+  ]
+}

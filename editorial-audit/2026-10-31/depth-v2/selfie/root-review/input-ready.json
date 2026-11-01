@@ -1,0 +1,362 @@
+{
+  "schemaVersion": 1,
+  "book": "Will Storr - Selfie / Селфи. Почему мы зациклены на себе и как это на нас влияет",
+  "slug": "selfie",
+  "status": "ready-for-root-personal-check",
+  "createdAtUtc": "2026-11-01T03:25:45.838584+00:00",
+  "ownedDirectory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie",
+  "ownershipCheck": {
+    "initialState": "directory absent",
+    "verifiedBeforeFirstWrite": true,
+    "otherImplementationOverwritten": false
+  },
+  "implementationComplete": true,
+  "rootPersonalAcceptance": false,
+  "independentAcceptance": false,
+  "publicationAllowed": false,
+  "standaloneHtml": "selfie.html",
+  "rootReviewGuide": "HANDOFF.md",
+  "content": {
+    "mode": "explanatory",
+    "defaults": {
+      "language": "ru",
+      "theme": "dark",
+      "depth": "essential"
+    },
+    "exactCumulativeScreens": {
+      "essential": 48,
+      "core": 92,
+      "deep": 128
+    },
+    "mainBodyWords": {
+      "ru": 10764,
+      "en": 12077
+    },
+    "bodyMinutes": {
+      "ru": "10764/180 = 59.8",
+      "en": "12077/220 = 54.8954545454545…"
+    },
+    "sourceCount": 1,
+    "mediaCount": 0,
+    "freshProgressPrefix": "book-tiktok.selfie.depth-v2.",
+    "explicitDeeperContinue": true,
+    "fictionSpoilerModal": false
+  },
+  "primaryReading": {
+    "sourcePath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/selfie-edition.json",
+    "sha256": "ec92b521a877c1385bc3d0f3a81c834ce5574f9f51da6852b0efe6f936d11766",
+    "mainParagraphsReadContinuously": 1159,
+    "mainWordsReported": 92278,
+    "displayedChunks": 30,
+    "methodReadInFull": true,
+    "acknowledgementsReadInFull": true,
+    "notesReadSelectively": [
+      45,
+      111,
+      113,
+      131,
+      141,
+      223
+    ],
+    "rawPrimaryCopiedHere": false,
+    "officialEnglishCollation": false,
+    "currentScientificValidation": false,
+    "imageOrDiagramCollation": false
+  },
+  "implementationQA": {
+    "status": "PASS",
+    "staticPasses": 69,
+    "staticWarnings": 0,
+    "staticFailures": 0,
+    "finalBrowserRuns": 5,
+    "renderedVisits": 10720,
+    "coldFirstSerifAtNonzeroScroll": true,
+    "nativeSettingsArrowKeys": true,
+    "realReloadLowerDepthExplicitResume": true,
+    "actualLegacyIdFixture": "rocket-in-fog",
+    "nativeTapLongPressSelectionGuards": true,
+    "emulatedNativeTouch": true,
+    "hardwareSafariOrPwa": false,
+    "allFinalRouteChunksRead": 24,
+    "changedChunksReadAgainInFull": 6,
+    "coverageUnits": 64,
+    "checkedLocatorRanges": 94,
+    "exactConnectedDataEmbeddedParity": true,
+    "ownedChromeProfilesRemoved": true
+  },
+  "requiredRootPersonalReads": [
+    "draft.ru.md",
+    "draft.en.md",
+    "essential.ru.md",
+    "essential.en.md",
+    "core.ru.md",
+    "core.en.md",
+    "deep.ru.md",
+    "deep.en.md",
+    "coverage-map.md",
+    "coverage-map.json",
+    "sources.md",
+    "source-method.json",
+    "selected actual private primary passages listed in HANDOFF.md"
+  ],
+  "scope": "Only this new candidate directory; no previous collector/ready/reviews, other candidates, root readers, catalogue, installed/shared code, logs, global state, Git, PR, deploy, external messages or subagents.",
+  "hashAlgorithm": "SHA256 of final file bytes; ready.json is the manifest and is not self-hashed.",
+  "files": {
+    "HANDOFF.md": {
+      "sha256": "9285e5be0443fd190b2ccf7d8d278f2dd64c5dcc7357ff9adcfa9db4a95a6cfb",
+      "bytes": 8417
+    },
+    "QA.md": {
+      "sha256": "3f07c1941ff0e9b06216d642c167127b45d3b35f8a97fcef9dd32a376e19145a",
+      "bytes": 8706
+    },
+    "ack-reading.py": {
+      "sha256": "09c60801bb0af5074729b01f18ac9323a55c44e26b2891698dfc6178e4f8b430",
+      "bytes": 1073
+    },
+    "browser-qa.mjs": {
+      "sha256": "ccbd841a3d2816677aa688fb82716e6596a2a71d047fa6f495adff8a05645e90",
+      "bytes": 25443
+    },
+    "build.mjs": {
+      "sha256": "d74cd6ed5dcbf59bdb6b2aeb120e32a0e4ef35decb4e3b71a5288759c9fc6ebc",
+      "bytes": 2121
+    },
+    "core.en.md": {
+      "sha256": "5515b271789e256b98a82a985aad2dbeb991fa7121a8c968f93cc9c815b2049d",
+      "bytes": 67307
+    },
+    "core.ru.md": {
+      "sha256": "9957327b0dd086f6dceec427f4313e3b53e445fef3c0784f497d1c76ed1bb09d",
+      "bytes": 122234
+    },
+    "coverage-map.json": {
+      "sha256": "2de3b13e9b1a9d2569d86e4f165d0c29a3b273216731526e7f75b211134a0ed9",
+      "bytes": 73135
+    },
+    "coverage-map.md": {
+      "sha256": "5c5e205f92d435c5a8c7b6373b727356c6e4ce3ef6f9847df053732027cb9b5c",
+      "bytes": 28256
+    },
+    "deep.en.md": {
+      "sha256": "b8bc55ab5fd73e0fbc2b4ea9378fcd6208b4b5a4a4f474ec1a24c356a606cbd1",
+      "bytes": 92477
+    },
+    "deep.ru.md": {
+      "sha256": "6badc28c4ebe343e75989fe932ce1b84b432a6378ed75d34172b2e8ea8eef6ef",
+      "bytes": 168473
+    },
+    "draft.en.md": {
+      "sha256": "1531770336016ebb3677a3793e358209024c9a02d7adcf43099d6c2d78b1894f",
+      "bytes": 84603
+    },
+    "draft.ru.md": {
+      "sha256": "8ebfb6c535cfe23b9b25b284977feeb69cc37f2f482fc58fc57d89a2effb8774",
+      "bytes": 158354
+    },
+    "essential.en.md": {
+      "sha256": "d9afa8cfdd631eced35619a501c908fd97c42b22cced134d3e42951c330f3cd0",
+      "bytes": 35051
+    },
+    "essential.ru.md": {
+      "sha256": "02c73107eb129834e3e90fc13d1e1981c6b736b9cef4ff1d6a7339f061488185",
+      "bytes": 63672
+    },
+    "implementation-review.json": {
+      "sha256": "5a9ca6add3e9d5851354444c171f13d4a67fbad87e3663c2a3491ccf4b5bbe75",
+      "bytes": 4655
+    },
+    "measure.mjs": {
+      "sha256": "3b5c5406468d4aa671ded8d0a7c7109bd922b443f32795a115e42e72098adee0",
+      "bytes": 4928
+    },
+    "metrics.json": {
+      "sha256": "75a1733e4cc6c29f8618c21046dbf60cffa479239dbcfb904ccf07c007f0321e",
+      "bytes": 12791
+    },
+    "parity.json": {
+      "sha256": "c240bdb03fb9d687206ad4ead5eb452bcd361bb65cb2560d224f885223689b7f",
+      "bytes": 1024
+    },
+    "prepare.py": {
+      "sha256": "b8eef12b5ecf7769a2f564110641b533fb2966c1f092ee2ae5290967186c332a",
+      "bytes": 17985
+    },
+    "prose-first.json": {
+      "sha256": "e3c89753f87353eff933c364bdb245cee84389ec2e61a5cadab6462c6eba6c03",
+      "bytes": 1403
+    },
+    "qa/1024-cover.png": {
+      "sha256": "fba18e1eca5c0aa9bcf66f5e35e3197cda91e3cc7ad881dbaed392b78cb3035a",
+      "bytes": 97205
+    },
+    "qa/1024-dense.png": {
+      "sha256": "4e3237fe3c6fca3af09355ffe461ae39361ded7ae08bd820d2ef8f5a88ea26fc",
+      "bytes": 178466
+    },
+    "qa/1024-final.png": {
+      "sha256": "9c089dd46a26e0f64ce0c739ae8df06968fd155eb8621294cec4f39e87d1396d",
+      "bytes": 205882
+    },
+    "qa/1024-reportage.png": {
+      "sha256": "dc2f6c59a52812baa112efa8ee4c236d99026d340756008a2ea21c2641f84bea",
+      "bytes": 169416
+    },
+    "qa/1440-cover.png": {
+      "sha256": "5a42ef59ce425ef142437d3a0275dbf56855b55766c29c448c72ddf6ae6e1756",
+      "bytes": 112060
+    },
+    "qa/1440-dense.png": {
+      "sha256": "aabb65022b59977b0d8d384184d293ef55c739de714c947b20f4042085024a01",
+      "bytes": 193249
+    },
+    "qa/1440-final.png": {
+      "sha256": "9fbe0a37658c4049d90616deaf2b1b0802c74d6e73cd076934ee1b8c01cb41a4",
+      "bytes": 218465
+    },
+    "qa/1440-reportage.png": {
+      "sha256": "72294a428775b1fc14590602b6cc8fb7fd388b9772b23e23dc4c075856dcde87",
+      "bytes": 185532
+    },
+    "qa/320-cover.png": {
+      "sha256": "df1245cf7f1bfcb575d1421a70a4630b10e02ba5ca84caeefbd4d3630610c8bf",
+      "bytes": 40996
+    },
+    "qa/320-dense.png": {
+      "sha256": "b82fd86153bda189f3ae254dd12e18aead4997afd9264c977033e88f9ef0de8f",
+      "bytes": 62842
+    },
+    "qa/320-final.png": {
+      "sha256": "515d4dd6c619b3b6bcdad41b5c3b4f0a0db23a94b33cdb0d4e86f756c706a30b",
+      "bytes": 64563
+    },
+    "qa/320-reportage.png": {
+      "sha256": "d3172ad7f3b143514fd9be0bc0357085a40313bbddcc6f6cb681fc36f98cb95f",
+      "bytes": 64255
+    },
+    "qa/390-cover.png": {
+      "sha256": "cbb79c0890fef7b0acb67e8272ef4a69b7581f4094600e2d2987fec8b42d0c23",
+      "bytes": 42953
+    },
+    "qa/390-dense.png": {
+      "sha256": "06e368f7e2acd3280604aa25eb65ba0982c4975b08b24cfcbb07f9051b9c72ec",
+      "bytes": 108235
+    },
+    "qa/390-final.png": {
+      "sha256": "3dda6e998971c5bd151d9cb7905acaa96be0c122ae048d6a356449efb2b904c1",
+      "bytes": 119524
+    },
+    "qa/390-reportage.png": {
+      "sha256": "25596a19433197ada7753cf0bf0cd1e89b4ccb2b78a38de1af36c1bf22b83052",
+      "bytes": 105263
+    },
+    "qa/browser-1024.json": {
+      "sha256": "372ef3155f1e5a06bb411f47cd7ece8083e868f62ef24beb51538b86565f884b",
+      "bytes": 74365
+    },
+    "qa/browser-1440.json": {
+      "sha256": "1c8458f2f701fd27b91454dfc8584a981f4ba386f0075fbd039b6751e1c94923",
+      "bytes": 74365
+    },
+    "qa/browser-320.json": {
+      "sha256": "92ac0b9ba851ad52e49e22ea119e95a9b7cd468e1af35a1e3428da37d19a530c",
+      "bytes": 74882
+    },
+    "qa/browser-390.json": {
+      "sha256": "9c73eddbc1203f2507a316b1e8c5e5561e53f164f4bc82f1c3089311144ea657",
+      "bytes": 74339
+    },
+    "qa/browser-ios-390.json": {
+      "sha256": "380b58efd470df615a9879c23a1c8e2a82b36515b0223e22f2eee93fef1660ba",
+      "bytes": 74675
+    },
+    "qa/cleanup-check.json": {
+      "sha256": "0465cad72367bacf792268e50447b1c9968f8610cd2882c0a1dddfee42882bca",
+      "bytes": 375
+    },
+    "qa/ios-390-cover.png": {
+      "sha256": "6b240cddedb01bf37851b08a2469311276b1d4bbe3dc44e8bb84ca3fae3ccfaa",
+      "bytes": 43929
+    },
+    "qa/ios-390-dense.png": {
+      "sha256": "a3c1fe81be3e539f20fb43a498c5b6a331df28cede2ae92324ed3a9d2702c1f3",
+      "bytes": 106785
+    },
+    "qa/ios-390-final.png": {
+      "sha256": "b9aac36b7c8dbe5a7687854ee5135914e081681eed11cc7a5c91938014935f56",
+      "bytes": 109190
+    },
+    "qa/ios-390-reportage.png": {
+      "sha256": "ebabe5efbd7bed5c23117663601ed17506fdb479d1860c59f6b5463a00ef8373",
+      "bytes": 106131
+    },
+    "qa/metrics-parity-run.json": {
+      "sha256": "4260237d795463fd2ec266f5b518373b13d1618092b1f29bdab7bfe12aa64e4d",
+      "bytes": 5404
+    },
+    "qa/originality-scan.json": {
+      "sha256": "78a88b4f61e6d62ec5dd337a30b086ca418411bbb914962e3d8d5489827b4374",
+      "bytes": 267
+    },
+    "qa/record-verification.json": {
+      "sha256": "f4790fc63a83f51db6f06173ce18204d357224c33a58ee245f6fac48adde021f",
+      "bytes": 718
+    },
+    "qa/static-audit.json": {
+      "sha256": "2466e5497dc4be6bbaf8b41356b5116ad6809a03520e9ca92295e129528cd077",
+      "bytes": 411
+    },
+    "qa/visual-review.json": {
+      "sha256": "4abc5434a0c2a0b9f76448822dc57af8833da86a7edb0bdc8fa1865012328c0d",
+      "bytes": 1953
+    },
+    "read-primary.py": {
+      "sha256": "81d473e9588b4987649428c33be1cfc664b99bbd959c68e1ddb742b834f6cf1f",
+      "bytes": 550
+    },
+    "read-routes.py": {
+      "sha256": "f1374eff84aa2092c95abf436e098c5b01ebb14a3df1b3b4a9e73b8160f24c93",
+      "bytes": 1749
+    },
+    "reading-ledger.json": {
+      "sha256": "e4880653ce8fcbf8415776fc68bbc600801a9ade5bee37722e659a3fb524465b",
+      "bytes": 219781
+    },
+    "reading-plan.json": {
+      "sha256": "8ba69c0161b361a3eb2bdfc00037261c25bc2d16a7ccdc6bdb320644a95e58bb",
+      "bytes": 184268
+    },
+    "route-reading-ledger.json": {
+      "sha256": "e42d4f53402fb6070cc05d15d8c9a3da73a8f5662233390b0a1f82dfa5cd237a",
+      "bytes": 33911
+    },
+    "selfie.html": {
+      "sha256": "6b68e7d860173198f71a7da7db5e56321ac35e4d3d3f64bd1a7b18453a35c605",
+      "bytes": 783159
+    },
+    "source-identity.json": {
+      "sha256": "8148b567188b0a7e02d125dabbfef04488eba7adb81d932a54ed0766a548d1cf",
+      "bytes": 4786
+    },
+    "source-method.json": {
+      "sha256": "8cd75164282c0367a53f8b3a06d1622df625c95bb2e4bc444527cf876ec78935",
+      "bytes": 2023
+    },
+    "sources.md": {
+      "sha256": "ace4c3197d0efd890566afa51d173a0b44660f05611837f3e2a43d10592d5890",
+      "bytes": 2320
+    },
+    "story-data.json": {
+      "sha256": "ef4fee53a1dd191a303427e069590112bdebadd21e8175f8ff9c0749c0fcf915",
+      "bytes": 344197
+    },
+    "verify-records.py": {
+      "sha256": "61d4fd161f79f0bed01f073dbcc9cbbff0de2f30644b76839d9fbb5c399feaee",
+      "bytes": 7556
+    },
+    "write-records.py": {
+      "sha256": "07d3c94f2c5447601304e1d20b9d0d3ccfacff9d9f6588797475b246816735ba",
+      "bytes": 23041
+    }
+  }
+}

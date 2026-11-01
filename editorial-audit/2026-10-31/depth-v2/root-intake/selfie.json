@@ -2,20 +2,52 @@
   "atUtc": "2026-11-01T03:41:46.770300+00:00",
   "slug": "selfie",
   "taskId": "7b8b1cda-fbc9-423b-b56e-68354e768dc6",
-  "stage": "expanded-awaiting-root-personal-reading",
+  "stage": "root-personally-accepted-awaiting-publication",
   "readyPath": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/ready.json",
-  "readySha256": "1ddcaa8406547232c64155eb9bf8117e9f45660ac1db6527425cf162e845be47",
+  "readySha256": "558a779056e2c33529e792dfc0230007194d6623d3b838eaa1929b5d41142a93",
   "bindingsVerified": 64,
   "counts": {
-    "essential": 48,
-    "core": 92,
-    "deep": 128
+    "essential": 49,
+    "core": 93,
+    "deep": 129
   },
   "bodyWords": {
-    "ru": 10764,
-    "en": 12077
+    "ru": 10644,
+    "en": 11929
   },
-  "rootPersonalAcceptance": false,
-  "publicationAllowed": false,
-  "scope": "Completion/hash intake only; no root reading or publication acceptance."
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "scope": "Exact personally accepted expanded version; publication pending. Original writer completion is preserved in input-ready.json.",
+  "rootPersonalReview": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/personal-review.json",
+  "rootPersonalReviewSha256": "8645c31514ffc32bdd389f072163d12fa87c03be3f229bc4a7b6cbb3eab2cd7f",
+  "sourceScope": {
+    "source": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/selfie-edition.json",
+    "sourceSha256": "ec92b521a877c1385bc3d0f3a81c834ce5574f9f51da6852b0efe6f936d11766",
+    "edition": "Individuum Print2019; original copyright2017. Supplied translator/ISBN fields absent.",
+    "rootContinuousWholePrimaryRead": false,
+    "intervals": 65,
+    "uniqueParagraphs": 452,
+    "uniqueWordsWhitespace": 33014,
+    "displayedWordsWhitespaceWithOverlap": 33119,
+    "writerMainLedgerIntegrity": {
+      "chunks": 30,
+      "uniqueParagraphs": 1189,
+      "mainParagraphs": 1159,
+      "scope": "Individual paragraph hashes, exact range membership and complete main-spine coverage of recorded writer reading only; not root continuous reading."
+    },
+    "publisherBylineScope": "Harper metadata identifies Peter Marin; direct article402, no full article consulted."
+  },
+  "hashBindingsVerified": 127,
+  "exactAcceptedHashes": {
+    "story-data.json": "244d57e58327a7f1e4f4be76e9b44163f44df9acff9d642bcf575c23dfed6414",
+    "selfie.html": "e71a1db37f8af8a2933716c8bad03ac54eb46ecbc46f068228e4e9090a79a349",
+    "draft.ru.md": "de2154111e30427e1aa6f7dce24fb2bef9fcc669ece2358a9781dca35bb4b6c7",
+    "draft.en.md": "d0625747d777d918981a2e72e2e0780f84249b857c6495d366da344446964ad2",
+    "essential.ru.md": "310a06bbed07731d6c61a64c5912fc7831944cd21690a6d4c354781319a4972d",
+    "essential.en.md": "03f73dd9c777ea6e94b4eb3d1e02de00b921bdf5cccc50b5651515cb1a96229e",
+    "core.ru.md": "46ba2ed37c406fbc70aa7fccf4cbd27664ff63ac766c111edc43a3c062685723",
+    "core.en.md": "e5504d5d3a16ce32511f30fc1c3c2d47af654248f1f0de96afcf111c5952d090",
+    "deep.ru.md": "fba636644429ae2a164389e43aa297e262ada41e2e851fb70241d68d4863224d",
+    "deep.en.md": "0bf1904d91c50e4fd24dd1bf0ee49fa023f5af183f54d3ed9a1e3de5dd7ff1b9"
+  }
 }

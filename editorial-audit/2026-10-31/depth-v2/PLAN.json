@@ -1,5 +1,5 @@
 {
-  "atUtc": "2026-11-01T06:44:24.004962+00:00",
+  "atUtc": "2026-11-01T08:00:54.142273+00:00",
   "localDate": "2026-11-01",
   "scope": "All62 approved library positions; preserve fiction/nonfiction/hybrid/research-brief identities.",
   "rootReviewRequired": true,
@@ -126,22 +126,27 @@
       "currentlyOnSite": true,
       "currentScreens": 62,
       "currentRuBodyWords": 2547,
-      "status": "expanded-awaiting-root-personal-reading",
+      "status": "root-personally-accepted-awaiting-publication",
       "assignedTask": "7b8b1cda-fbc9-423b-b56e-68354e768dc6",
-      "rootAcceptance": null,
-      "rootEntireRuEnDraftRead": false,
-      "rootAllNestedRoutesRead": false,
-      "rootCoverageMapCompared": false,
-      "rootKeyPrimaryPassagesChecked": false,
-      "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false,
+      "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/selfie/root-review/personal-review.json",
+      "rootEntireRuEnDraftRead": true,
+      "rootAllNestedRoutesRead": true,
+      "rootCoverageMapCompared": true,
+      "rootKeyPrimaryPassagesChecked": true,
+      "rootOmissionsAndQualificationsReviewed": true,
+      "replacementPublicationAllowed": true,
       "assignmentThread": "<t3-thread://v2/2bf590fe-c449-46d2-bff4-430a7ba6f22a/thread:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A7b8b1cda-fbc9-423b-b56e-68354e768dc6>",
       "assignmentScope": "Complete owned primary main spine read continuously with exact bounded reading ledger; developed original RU/EN argument, actual cases and book-specific procedures; separate root personal acceptance required.",
       "rootIntake": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/root-intake/selfie.json",
       "expandedCounts": {
-        "essential": 48,
-        "core": 92,
-        "deep": 128
+        "essential": 49,
+        "core": 93,
+        "deep": 129
+      },
+      "rootRouteReadingMethod": "Complete input RU/EN read; complete Essential route, each Core addition with actual adjacent edges, all changed Deep-only copy and subsequent exact-hash polish rereads. Shared unchanged prose is not claimed as a third duplicate continuous reread.",
+      "acceptedHashes": {
+        "story-data.json": "244d57e58327a7f1e4f4be76e9b44163f44df9acff9d642bcf575c23dfed6414",
+        "selfie.html": "e71a1db37f8af8a2933716c8bad03ac54eb46ecbc46f068228e4e9090a79a349"
       }
     },
     {
@@ -215,9 +220,9 @@
       "title": "Четыре тысячи недель",
       "author": "Оливер Беркман",
       "currentlyOnSite": true,
-      "currentScreens": 52,
-      "currentRuBodyWords": 2244,
-      "status": "root-personally-accepted-awaiting-publication",
+      "currentScreens": 87,
+      "currentRuBodyWords": 8006,
+      "status": "root-accepted-and-live",
       "assignedTask": "6cdb4295-b748-4599-ae16-06bcbc9a7520",
       "rootAcceptance": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.json",
       "rootEntireRuEnDraftRead": true,
@@ -238,7 +243,9 @@
       "acceptedHashes": {
         "story-data.json": "f41539e4046d5681605330f76274e2077d5cdeee16f3e4c71c1cfc6d10e406bc",
         "four-thousand-weeks.html": "a98d103ef3fa0233ad1fb3fab5434ae69f54910399e68946c7aa906e4db3dc90"
-      }
+      },
+      "productionMerge": "5070d51ea0d93db5896fdd7bfe112aa1debffac5",
+      "productionPr": 47
     },
     {
       "slug": "mindfulness",
@@ -1131,15 +1138,21 @@
       "currentlyOnSite": true,
       "currentScreens": 54,
       "currentRuBodyWords": 4038,
-      "status": "needs-root-depth-and-source-assessment",
-      "assignedTask": null,
+      "status": "expanded-awaiting-root-personal-reading",
+      "assignedTask": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aexpanded-huckleberry-finn-sol-max-20261101",
       "rootAcceptance": null,
       "rootEntireRuEnDraftRead": false,
       "rootAllNestedRoutesRead": false,
       "rootCoverageMapCompared": false,
       "rootKeyPrimaryPassagesChecked": false,
       "rootOmissionsAndQualificationsReviewed": false,
-      "replacementPublicationAllowed": false
+      "replacementPublicationAllowed": false,
+      "expandedCounts": {
+        "essential": 33,
+        "core": 84,
+        "deep": 159
+      },
+      "callbackIntake": "depth-v2/root-intake/adventures-of-huckleberry-finn.json"
     },
     {
       "slug": "to-kill-a-mockingbird",

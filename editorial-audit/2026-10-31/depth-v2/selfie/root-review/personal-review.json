@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "slug": "selfie",
+  "status": "root-personally-accepted",
+  "atUtc": "2026-11-01T07:59:46.139056+00:00",
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "bookContentPublicationAllowed": true,
+  "counts": {
+    "essential": 49,
+    "core": 93,
+    "deep": 129
+  },
+  "metrics": {
+    "essential": {
+      "screens": 49,
+      "ru": {
+        "bodyWords": 4159,
+        "bodyMinutes": 23.105555555555554,
+        "roundedBodyMinutes": 24,
+        "uiWords": 4402,
+        "uiMinutes": 24.455555555555556,
+        "uiRoundedMinutes": 25,
+        "uiLabel": "25 минут"
+      },
+      "en": {
+        "bodyWords": 4647,
+        "bodyMinutes": 21.12272727272727,
+        "roundedBodyMinutes": 22,
+        "uiWords": 4950,
+        "uiMinutes": 22.5,
+        "uiRoundedMinutes": 23,
+        "uiLabel": "23 min"
+      }
+    },
+    "core": {
+      "screens": 93,
+      "ru": {
+        "bodyWords": 7853,
+        "bodyMinutes": 43.62777777777778,
+        "roundedBodyMinutes": 44,
+        "uiWords": 8310,
+        "uiMinutes": 46.166666666666664,
+        "uiRoundedMinutes": 47,
+        "uiLabel": "47 минут"
+      },
+      "en": {
+        "bodyWords": 8798,
+        "bodyMinutes": 39.99090909090909,
+        "roundedBodyMinutes": 40,
+        "uiWords": 9379,
+        "uiMinutes": 42.63181818181818,
+        "uiRoundedMinutes": 43,
+        "uiLabel": "43 min"
+      }
+    },
+    "deep": {
+      "screens": 129,
+      "ru": {
+        "bodyWords": 10644,
+        "bodyMinutes": 59.13333333333333,
+        "roundedBodyMinutes": 60,
+        "uiWords": 11259,
+        "uiMinutes": 62.55,
+        "uiRoundedMinutes": 63,
+        "uiLabel": "63 минуты"
+      },
+      "en": {
+        "bodyWords": 11929,
+        "bodyMinutes": 54.222727272727276,
+        "roundedBodyMinutes": 55,
+        "uiWords": 12700,
+        "uiMinutes": 57.72727272727273,
+        "uiRoundedMinutes": 58,
+        "uiLabel": "58 min"
+      }
+    }
+  },
+  "personalReading": {
+    "allInputPairs": 128,
+    "allFinalPairs": 129,
+    "changedOrNewPairsPersonallyRead": 30,
+    "essentialOrderedPositions": 49,
+    "coreAdditionsWithBothAdjacentRouteEdges": 44,
+    "changedDeepOnlyPairs": 13,
+    "wholeCoverageAndOmissionMapRead": true,
+    "amendedMapRowsAndGlobalNotesRead": true,
+    "currentMobileScreenshotsInspected": [
+      "root-review/qa/320-cover-ru-dark-sans.png",
+      "root-review/qa/320-debbie-en-dark-sans.png"
+    ],
+    "routeReadingMethod": "Complete input RU/EN read; complete Essential route, each Core addition with actual adjacent edges, all changed Deep-only copy and subsequent exact-hash polish rereads. Shared unchanged prose is not claimed as a third duplicate continuous reread."
+  },
+  "primaryReading": {
+    "source": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/selfie-edition.json",
+    "sourceSha256": "ec92b521a877c1385bc3d0f3a81c834ce5574f9f51da6852b0efe6f936d11766",
+    "edition": "Individuum Print2019; original copyright2017. Supplied translator/ISBN fields absent.",
+    "rootContinuousWholePrimaryRead": false,
+    "intervals": 65,
+    "uniqueParagraphs": 452,
+    "uniqueWordsWhitespace": 33014,
+    "displayedWordsWhitespaceWithOverlap": 33119,
+    "writerMainLedgerIntegrity": {
+      "chunks": 30,
+      "uniqueParagraphs": 1189,
+      "mainParagraphs": 1159,
+      "scope": "Individual paragraph hashes, exact range membership and complete main-spine coverage of recorded writer reading only; not root continuous reading."
+    },
+    "publisherBylineScope": "Harper metadata identifies Peter Marin; direct article402, no full article consulted."
+  },
+  "findings": [
+    {
+      "id": "SF-CASE-01",
+      "screen": "rogers-continued",
+      "status": "closed",
+      "issue": "Concrete Californian convent intervention/result reduced to a generic retrospective warning. Restore actual programme, reported departures and early termination with Coulson attribution.",
+      "primary": "OPS/ch1-10.xhtml P030",
+      "closureEvidence": "Exact final prose reads, selected primary intervals and root repairs/polish records."
+    },
+    {
+      "id": "SF-MEAN-01",
+      "screen": "selfie-drone-continued",
+      "status": "closed",
+      "issue": "Restore the explicit Marwick link between precarious labour, forced self-improvement and individual blame; do not rely only on scattered general remarks.",
+      "primary": "OPS/ch1-17.xhtml P050–061",
+      "closureEvidence": "Exact final prose reads, selected primary intervals and root repairs/polish records."
+    },
+    {
+      "id": "SF-COPY-01",
+      "screen": "entrapment-continued",
+      "status": "closed",
+      "issue": "The social-skills sentence has an unclear logical object in both languages. Replace it with the checked contrast: social awkwardness does not make the public treatment just.",
+      "primary": "OPS/ch1-20.xhtml P027–035",
+      "closureEvidence": "Exact final prose reads, selected primary intervals and root repairs/polish records."
+    },
+    {
+      "id": "SF-NAME-01",
+      "screen": "late-doubt",
+      "status": "closed",
+      "issue": "RU source/retelling says Martin while EN says Marin. Normalize to Peter Marin against official Harper’s indexed byline; disclose that direct article access was402.",
+      "primary": "OPS/ch1-12.xhtml P017–018 plus publisher bibliographic metadata only",
+      "closureEvidence": "Exact final prose reads, selected primary intervals and root repairs/polish records."
+    },
+    {
+      "id": "SF-PROSE-01",
+      "status": "closed",
+      "issue": "Remove repeated ordinary-body audit/disclaimer sentences while preserving the author’s actual scientific, historical and causal qualifications. Keep the bounded method in global Sources.",
+      "closureEvidence": "Exact final prose reads, selected primary intervals and root repairs/polish records."
+    },
+    {
+      "id": "SF-COHESION-01",
+      "status": "closed",
+      "closureEvidence": "polish.json, polish-second.json and final affected-route reading hashes"
+    }
+  ],
+  "qaScope": {
+    "structuralPasses": 69,
+    "warnings": 0,
+    "failures": 0,
+    "draftEmbeddedAndAllSixExportsExact": true,
+    "pairedParagraphs": 194,
+    "freshRootRoutePositions": 1084,
+    "representativeLayouts": 160,
+    "coldSerifFirstSelectionBothLanguages": "Unloaded before first choice; exact100px retained at320x568 in both languages.",
+    "settingsAndActualRenderedFonts": true,
+    "explicitNonfictionDeeperResumeAndReload": true,
+    "genuineLegacyStatesIsolated": [
+      "whose-ideal",
+      "whole-self-verdict"
+    ],
+    "runtimeErrors": 0,
+    "runtimeExternalRequests": 0,
+    "ownedChromeProfilesAndGroupsRemoved": true,
+    "physicalSafariPwaTested": false
+  },
+  "immutableInputs": {
+    "checked": 3121,
+    "unchanged": 3119,
+    "exactRootCoordinationExceptions": [
+      {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/PLAN.json",
+        "originalSha256": "c74ad01e879f5962b4b4462987e0587c0446e301c8e3ede43492e39687042570",
+        "currentSha256": "02ba1113515edb4e1c172eb0bf7b4d86180564cc40a24ab6a705297de8c4411f",
+        "reason": "Root-authorized Huckleberry Finn assignment after Selfie intake; this completion only updates root-owned coordination state. Book candidates and primary inputs are not exempted."
+      },
+      {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/PLAN.md",
+        "originalSha256": "39c5a96e31e19f72daa5390af57941dc6b81afcf4225e84a19af56d07683bd95",
+        "currentSha256": "60bb00c50ee38569b9bcecd51eba35d6a2ae1afec8facd0a0ebdbf178da7c1b0",
+        "reason": "Root-authorized Huckleberry Finn assignment after Selfie intake; this completion only updates root-owned coordination state. Book candidates and primary inputs are not exempted."
+      }
+    ]
+  },
+  "additionalHuckleberryInputsUnchanged": 70,
+  "exactContentHashes": {
+    "story-data.json": "244d57e58327a7f1e4f4be76e9b44163f44df9acff9d642bcf575c23dfed6414",
+    "selfie.html": "e71a1db37f8af8a2933716c8bad03ac54eb46ecbc46f068228e4e9090a79a349",
+    "draft.ru.md": "de2154111e30427e1aa6f7dce24fb2bef9fcc669ece2358a9781dca35bb4b6c7",
+    "draft.en.md": "d0625747d777d918981a2e72e2e0780f84249b857c6495d366da344446964ad2",
+    "essential.ru.md": "310a06bbed07731d6c61a64c5912fc7831944cd21690a6d4c354781319a4972d",
+    "essential.en.md": "03f73dd9c777ea6e94b4eb3d1e02de00b921bdf5cccc50b5651515cb1a96229e",
+    "core.ru.md": "46ba2ed37c406fbc70aa7fccf4cbd27664ff63ac766c111edc43a3c062685723",
+    "core.en.md": "e5504d5d3a16ce32511f30fc1c3c2d47af654248f1f0de96afcf111c5952d090",
+    "deep.ru.md": "fba636644429ae2a164389e43aa297e262ada41e2e851fb70241d68d4863224d",
+    "deep.en.md": "0bf1904d91c50e4fd24dd1bf0ee49fa023f5af183f54d3ed9a1e3de5dd7ff1b9"
+  },
+  "evidence": [
+    "root-review/reading-verification.json",
+    "root-review/reading-ledger.json",
+    "root-review/structural-audit.json",
+    "parity.json",
+    "root-review/measurement.json",
+    "root-review/qa"
+  ],
+  "limits": [
+    "Selective root primary checking, not continuous whole-primary reading.",
+    "No full published-English, source-figure or print-variant collation.",
+    "Author-attributed historical and research account, not recertification of all underlying studies.",
+    "Chrome emulation and synthetic handlers, not physical Safari/PWA or native touch."
+  ]
+}

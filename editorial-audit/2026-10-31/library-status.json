@@ -1,5 +1,5 @@
 {
-  "asOfUtc": "2026-11-01T04:37:59.228836+00:00",
+  "asOfUtc": "2026-11-01T05:08:12.893030+00:00",
   "plannedAdditions": 58,
   "preexisting": 4,
   "totalPlanned": 62,
@@ -143,10 +143,10 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": null,
-      "depthReviewStatus": "reopened",
+      "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
-      "rootExpandedTextAccepted": false
+      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "rootExpandedTextAccepted": true
     },
     {
       "slug": "the-art-of-war",
@@ -257,7 +257,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-writing-assigned",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -299,7 +299,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "maximumDepthStage": "root-accepted-and-live",
       "rootExpandedTextAccepted": true
     },
     {
@@ -467,7 +467,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-writing-assigned",
       "rootExpandedTextAccepted": false
     },
     {
@@ -509,7 +509,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "expanded-writing-assigned",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -921,15 +921,15 @@
   ],
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
-  "basis": "62 approved positions. Verified production remains PR44,58books/2720screens until this release is merged/verified. Historical factual stages are distinct from root maximum-depth acceptance.",
+  "basis": "62 approved positions. Verified production remains PR45,58books/2737screens until this release is merged/verified. Historical factual stages are distinct from root maximum-depth acceptance.",
   "maximumDepthStages": {
-    "awaiting-expanded-work": 46,
+    "awaiting-expanded-work": 45,
     "source-map-incomplete": 1,
-    "root-accepted-and-live": 8,
-    "expanded-awaiting-root-personal-reading": 4,
-    "expanded-writing-assigned": 2,
-    "root-personally-accepted-awaiting-publication": 1
+    "root-accepted-and-live": 9,
+    "expanded-awaiting-root-personal-reading": 5,
+    "root-personally-accepted-awaiting-publication": 1,
+    "expanded-writing-assigned": 1
   },
   "maximumDepthStageBasis": "Current root criterion, callbacks and exact production proof. Runtime worker status has not been polled.",
-  "rootExpandedAcceptedPublished": 8
+  "rootExpandedAcceptedPublished": 9
 }

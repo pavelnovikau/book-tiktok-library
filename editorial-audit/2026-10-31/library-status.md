@@ -1,15 +1,15 @@
 # Library depth status
 
-Updated 2026-11-01T04:37:59.228836+00:00.62 approved positions. Eight personally accepted expanded books live; Make Time accepted, release pending. Four completed candidates await personal reading. The Body Keeps the Score and Monday Begins on Saturday remain assigned; no runtime polling.
+Updated 2026-11-01T05:08:12.893030+00:00.62approved positions. Nine personally accepted expanded books live; Essentialism accepted, release pending. Five completed candidates await root reading. Amphibian Man remains assigned; no runtime polling.
 
 | Current depth stage | Count |
 |---|---:|
-| Awaits expanded work | 46 |
+| Awaits expanded work | 45 |
 | Primary-source coverage incomplete | 1 |
-| Personally accepted and live | 8 |
-| Candidate awaits personal root reading | 4 |
-| Expanded version assigned | 2 |
+| Personally accepted and live | 9 |
+| Candidate awaits personal root reading | 5 |
 | Personally accepted; release pending | 1 |
+| Expanded version assigned | 1 |
 
 | Book | Author | Current depth stage |
 |---|---|---|
@@ -19,7 +19,7 @@ Updated 2026-11-01T04:37:59.228836+00:00.62 approved positions. Eight personally
 | Всё решено | Роберт Сапольски | Awaits expanded work |
 | Почему у зебр не бывает инфаркта | Роберт Сапольски | Personally accepted and live |
 | Селфи | Уилл Сторр | Candidate awaits personal root reading |
-| Эссенциализм | Грег МакКеон | Candidate awaits personal root reading |
+| Эссенциализм | Грег МакКеон | Personally accepted; release pending |
 | Искусство войны | Сунь-цзы | Awaits expanded work |
 | Протоколы Хубермана | Эндрю Хуберман | Awaits expanded work |
 | Четыре тысячи недель | Оливер Беркман | Candidate awaits personal root reading |
@@ -27,10 +27,10 @@ Updated 2026-11-01T04:37:59.228836+00:00.62 approved positions. Eight personally
 | Радость жизни | Уильям Ирвин | Personally accepted and live |
 | Дзен и искусство ухода за мотоциклом | Роберт Пирсиг | Awaits expanded work |
 | Отпускание | Дэвид Хокинс | Awaits expanded work |
-| Тело помнит всё | Бессел ван дер Колк | Expanded version assigned |
+| Тело помнит всё | Бессел ван дер Колк | Candidate awaits personal root reading |
 | Осознавание через движение | Моше Фельденкрайз | Awaits expanded work |
 | The Potent Self | Моше Фельденкрайз | Awaits expanded work |
-| Найди время | Джейк Кнапп и Джон Зерацки | Personally accepted; release pending |
+| Найди время | Джейк Кнапп и Джон Зерацки | Personally accepted and live |
 | Остров сокровищ | Роберт Льюис Стивенсон | Personally accepted and live |
 | Затерянный мир | Артур Конан Дойл | Personally accepted and live |
 | Хоббит | Дж. Р. Р. Толкин | Awaits expanded work |
@@ -42,10 +42,10 @@ Updated 2026-11-01T04:37:59.228836+00:00.62 approved positions. Eight personally
 | Белый Клык | Джек Лондон | Personally accepted and live |
 | Два капитана | Вениамин Каверин | Awaits expanded work |
 | Я, робот | Айзек Азимов | Awaits expanded work |
-| Человек-амфибия | Александр Беляев | Awaits expanded work |
+| Человек-амфибия | Александр Беляев | Expanded version assigned |
 | Лунная пыль | Артур Кларк | Awaits expanded work |
 | Марсианские хроники | Рэй Брэдбери | Awaits expanded work |
-| Понедельник начинается в субботу | Аркадий и Борис Стругацкие | Expanded version assigned |
+| Понедельник начинается в субботу | Аркадий и Борис Стругацкие | Candidate awaits personal root reading |
 | Трудно быть богом | Аркадий и Борис Стругацкие | Personally accepted and live |
 | Солярис | Станислав Лем | Awaits expanded work |
 | Убик | Филип К. Дик | Awaits expanded work |

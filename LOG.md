@@ -1,3 +1,17 @@
+## 2026-11-01 — Book library: full-primary Amphibian Man expansion assigned
+
+Fresh Wikisource access and complete local witness preflight:304616Unicode characters/47053whitespace words, source SHA26265577da3e567e00e10aeda779564b1e1a4fa2c4f5ab2de2c6533412550808. Root opening/ending/headings only, no complete-primary reading claim. Sol max artifact-only worker owns new depth-v2/amphibian-man; complete actual source reading and developed adventure required, root acceptance/publication flags false. Brief/inventory/dispatch in publisher-findings/amphibian-expanded-*.
+
+Current:9personally accepted expanded books live;5candidates await root reading;2assignments Body/Amphibian;1Behave source gap;45await expanded work.62positions total. Root next Essentialism. No delegate runtime polling; no currently watched PR.
+
+## 2026-11-01 — Book library: expanded Make Time personally accepted and live
+
+Root completely read68RU/EN retelling pairs, reread24Essential pairs and24Core additions with both neighboring edges, and personally reread14final changed pairs. Full326-line chapter/tactic/omission map and Sources read;28actual primary intervals cover all26proposed selections. All87tactic contributions mapped. No root continuous whole-primary or published-English collation claim. Seven findings repaired: authoring asides, tactic-map boundaries, actual Flynn action, shorter-route first names, sailing and design-sprint context. Final24/48/68;9969RU/11120EN noncover body words; UI58/53minutes.
+
+69structural checks,560route positions,80representative layouts, genuinely cold Serif100px, Settings, reload/preferences, explicit deeper resume and legacy isolation passed.122frozen bindings match both copies;124protected inputs unchanged. Owned Chrome removed; physical Safari/PWA untested. PR45 merged 91bad9ff;11production asset hashes match,2private404s.58books/2737screens; other public content locally unchanged. Evidence: _artifacts/book-tiktok-library/editorial-audit/2026-10-31/publisher-findings/expanded-depth-09-receipt.json.
+
+Mindfulness callback ingested and64bindings verified; Monday callback ingested and67outputs/46inputs verified. Both expanded texts remain unaccepted. Root queue: Essentialism, Four Thousand Weeks, Selfie, Mindfulness, Monday Begins on Saturday. Body remains assigned; runtime not polled. Behave gaps remain. Nine of62approved positions meet current personal maximum-depth acceptance.
+
 ## 2026-11-01 — Book library: next full-source fiction assignment
 
 PR44 Irvine live and production-verified; eight expanded versions personally accepted. Next root reading: Make Time, then Essentialism, Four Thousand Weeks, Selfie. Three Sol max artifact assignments: Mindfulness, The Body Keeps the Score, Monday Begins on Saturday. Monday source preflight: full official Russian electronic witness399959chars;21 hashed read-only source files, all16chapters plus afterword available. No runtime polling or root whole-source reading claim; publication still requires exact root personal acceptance. Behave source gaps remain.

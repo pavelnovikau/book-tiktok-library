@@ -49,3 +49,12 @@ Assignment 2026-11-01T02:32:37.115281+00:00: Two new bounded Sol max implementat
 
 
 Current 2026-11-01T03:36:39.291928+00:00: Zebra personally accepted at37/70/107 after complete bilingual retelling reading, shorter-route continuity,18-chapter/68-grouped-case map and45 selected primary passages. Deep13219RU/13988EN body words. Publication pending; six expanded books already live. Irvine, Make Time, Essentialism and Four Thousand Weeks await personal reading. Selfie remains assigned; Behave source coverage incomplete. All62 positions require individual root acceptance.
+
+
+Production 2026-11-01T03:40:24.386341+00:00: Expanded Zebra PR43 is personally accepted, merged and production-verified:37/70/107 screens,13219RU/13988EN body words, Deep77/67minutes in the UI. Seven expanded versions are personally accepted/live; production58books/2671screens. Irvine, Make Time, Essentialism and Four Thousand Weeks await personal reading. Selfie remains assigned. Behave primary-source gaps remain. All62 positions keep individual root acceptance.
+
+
+Dispatch 2026-11-01T03:41:05.004240+00:00: Seven expanded versions personally accepted/live, including PR43 Zebra at37/70/107 and13219RU body words. Four candidates await root reading: Irvine, Make Time, Essentialism, Four Thousand Weeks. Three artifact assignments: Selfie, Mindfulness and The Body Keeps the Score, all Sol max. Two new assignments started; prior Selfie runtime not polled. Behave source map incomplete;47 other positions await expanded work.62 approved positions total.
+
+
+Current 2026-11-01T04:02:12.688500+00:00: Irvine personally accepted29/61/85 after reading the complete bilingual retelling, all29 Essential pairs, all32 Core additions with adjacent edges, the full chapter/case/practice/omission map and34 actual primary ranges. Deep7870RU/9095EN body words; UI46/44minutes. Publication pending; seven expanded versions already live. Make Time, Essentialism, Four Thousand Weeks and Selfie await root reading. Mindfulness and The Body Keeps the Score remain assigned; no runtime polling. Behave source coverage incomplete. All62 positions require individual acceptance.

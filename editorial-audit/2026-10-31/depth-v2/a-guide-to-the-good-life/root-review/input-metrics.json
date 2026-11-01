@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "status": "current",
+  "slug": "a-guide-to-the-good-life",
+  "counts": {
+    "essential": 29,
+    "core": 61,
+    "deep": 85
+  },
+  "unitCount": 73,
+  "paragraphPairs": 153,
+  "definition": {
+    "expositionBody": "All draft paragraphs, including reading-program discussion and source-derived final doubt; excludes added cover.",
+    "coverFraming": "Added cover body only. Cover title/subtitle are counted separately in titlesAndSubtitlesWords.",
+    "readerUiWords": "Exactly builder convention: screen title + subtitle + body. Excludes section kickers, chrome, sources/method dialog. Continuation headings are counted.",
+    "ratesWordsPerMinute": {
+      "ru": 180,
+      "en": 220
+    },
+    "roundedMinutes": "Ceiling; estimates, not measured reader performance."
+  },
+  "modes": {
+    "essential": {
+      "screens": 29,
+      "ru": {
+        "expositionBodyWords": 2576,
+        "coverFramingBodyWords": 30,
+        "titlesAndSubtitlesWords": 128,
+        "readerUiWords": 2734,
+        "bodyMinutes": 14.31,
+        "roundedBodyMinutes": 15,
+        "readerUiMinutes": "16 минут",
+        "bodyWordsPerExpositionScreen": 92
+      },
+      "en": {
+        "expositionBodyWords": 2980,
+        "coverFramingBodyWords": 36,
+        "titlesAndSubtitlesWords": 164,
+        "readerUiWords": 3180,
+        "bodyMinutes": 13.55,
+        "roundedBodyMinutes": 14,
+        "readerUiMinutes": "15 min",
+        "bodyWordsPerExpositionScreen": 106.4
+      }
+    },
+    "core": {
+      "screens": 61,
+      "ru": {
+        "expositionBodyWords": 5639,
+        "coverFramingBodyWords": 30,
+        "titlesAndSubtitlesWords": 253,
+        "readerUiWords": 5922,
+        "bodyMinutes": 31.33,
+        "roundedBodyMinutes": 32,
+        "readerUiMinutes": "33 минуты",
+        "bodyWordsPerExpositionScreen": 94
+      },
+      "en": {
+        "expositionBodyWords": 6509,
+        "coverFramingBodyWords": 36,
+        "titlesAndSubtitlesWords": 328,
+        "readerUiWords": 6873,
+        "bodyMinutes": 29.59,
+        "roundedBodyMinutes": 30,
+        "readerUiMinutes": "32 min",
+        "bodyWordsPerExpositionScreen": 108.5
+      }
+    },
+    "deep": {
+      "screens": 85,
+      "ru": {
+        "expositionBodyWords": 7932,
+        "coverFramingBodyWords": 30,
+        "titlesAndSubtitlesWords": 347,
+        "readerUiWords": 8309,
+        "bodyMinutes": 44.07,
+        "roundedBodyMinutes": 45,
+        "readerUiMinutes": "47 минут",
+        "bodyWordsPerExpositionScreen": 94.4
+      },
+      "en": {
+        "expositionBodyWords": 9170,
+        "coverFramingBodyWords": 36,
+        "titlesAndSubtitlesWords": 446,
+        "readerUiWords": 9652,
+        "bodyMinutes": 41.68,
+        "roundedBodyMinutes": 42,
+        "readerUiMinutes": "44 min",
+        "bodyWordsPerExpositionScreen": 109.2
+      }
+    }
+  },
+  "currentContentHashes": {
+    "draft.ru.md": "06318f1008e07f0223df7bb592cbf24da215868377374258989db732d849ae4f",
+    "draft.en.md": "cc7785e41ebec46799c92712151fb105f80bd21787f03ed42092ea437ec210d5",
+    "story-data.json": "aa55ed09c975b85405a381dd80f7c427bf57241125dddd9899534c5260887c18",
+    "a-guide-to-the-good-life.html": "05a038ee0422e1c74d4f1a8ab96ad423e89c9861419e86d4ffd10283cc89bc01",
+    "coverage-map.json": "263cc525e429b768a4d7b7dcee3d2934d247dd3d7f625230f97812d10605d129"
+  }
+}

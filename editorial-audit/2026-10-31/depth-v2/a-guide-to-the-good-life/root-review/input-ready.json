@@ -1,0 +1,588 @@
+{
+  "schemaVersion": 2,
+  "slug": "a-guide-to-the-good-life",
+  "candidate": "expanded-depth-v2",
+  "candidateRevision": 2,
+  "atUtc": "2026-11-01T01:48:41.464311+00:00",
+  "status": "ready-for-root-personal-check",
+  "rootPersonalAcceptance": false,
+  "publicationAllowed": false,
+  "bookContentPublicationAllowed": false,
+  "directory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life",
+  "standaloneHtml": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/a-guide-to-the-good-life.html",
+  "contentMode": "explanatory",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "mode": "essential",
+    "readingFont": "sans"
+  },
+  "counts": {
+    "essential": 29,
+    "core": 61,
+    "deep": 85
+  },
+  "ruBodyWords": 7932,
+  "enBodyWords": 9170,
+  "unitCount": 73,
+  "pairedParagraphCount": 153,
+  "sourceCount": 2,
+  "mediaCount": 0,
+  "readingMetrics": {
+    "essential": {
+      "screens": 29,
+      "ru": {
+        "expositionBodyWords": 2576,
+        "coverFramingBodyWords": 30,
+        "titlesAndSubtitlesWords": 128,
+        "readerUiWords": 2734,
+        "bodyMinutes": 14.31,
+        "roundedBodyMinutes": 15,
+        "readerUiMinutes": "16 минут",
+        "bodyWordsPerExpositionScreen": 92
+      },
+      "en": {
+        "expositionBodyWords": 2980,
+        "coverFramingBodyWords": 36,
+        "titlesAndSubtitlesWords": 164,
+        "readerUiWords": 3180,
+        "bodyMinutes": 13.55,
+        "roundedBodyMinutes": 14,
+        "readerUiMinutes": "15 min",
+        "bodyWordsPerExpositionScreen": 106.4
+      }
+    },
+    "core": {
+      "screens": 61,
+      "ru": {
+        "expositionBodyWords": 5639,
+        "coverFramingBodyWords": 30,
+        "titlesAndSubtitlesWords": 253,
+        "readerUiWords": 5922,
+        "bodyMinutes": 31.33,
+        "roundedBodyMinutes": 32,
+        "readerUiMinutes": "33 минуты",
+        "bodyWordsPerExpositionScreen": 94
+      },
+      "en": {
+        "expositionBodyWords": 6509,
+        "coverFramingBodyWords": 36,
+        "titlesAndSubtitlesWords": 328,
+        "readerUiWords": 6873,
+        "bodyMinutes": 29.59,
+        "roundedBodyMinutes": 30,
+        "readerUiMinutes": "32 min",
+        "bodyWordsPerExpositionScreen": 108.5
+      }
+    },
+    "deep": {
+      "screens": 85,
+      "ru": {
+        "expositionBodyWords": 7932,
+        "coverFramingBodyWords": 30,
+        "titlesAndSubtitlesWords": 347,
+        "readerUiWords": 8309,
+        "bodyMinutes": 44.07,
+        "roundedBodyMinutes": 45,
+        "readerUiMinutes": "47 минут",
+        "bodyWordsPerExpositionScreen": 94.4
+      },
+      "en": {
+        "expositionBodyWords": 9170,
+        "coverFramingBodyWords": 36,
+        "titlesAndSubtitlesWords": 446,
+        "readerUiWords": 9652,
+        "bodyMinutes": 41.68,
+        "roundedBodyMinutes": 42,
+        "readerUiMinutes": "44 min",
+        "bodyWordsPerExpositionScreen": 109.2
+      }
+    }
+  },
+  "metricDefinitions": {
+    "expositionBody": "All draft paragraphs, including reading-program discussion and source-derived final doubt; excludes added cover.",
+    "coverFraming": "Added cover body only. Cover title/subtitle are counted separately in titlesAndSubtitlesWords.",
+    "readerUiWords": "Exactly builder convention: screen title + subtitle + body. Excludes section kickers, chrome, sources/method dialog. Continuation headings are counted.",
+    "ratesWordsPerMinute": {
+      "ru": 180,
+      "en": 220
+    },
+    "roundedMinutes": "Ceiling; estimates, not measured reader performance."
+  },
+  "exactContentHashes": {
+    "draft.ru.md": "06318f1008e07f0223df7bb592cbf24da215868377374258989db732d849ae4f",
+    "draft.en.md": "cc7785e41ebec46799c92712151fb105f80bd21787f03ed42092ea437ec210d5",
+    "story-data.json": "aa55ed09c975b85405a381dd80f7c427bf57241125dddd9899534c5260887c18",
+    "a-guide-to-the-good-life.html": "05a038ee0422e1c74d4f1a8ab96ad423e89c9861419e86d4ffd10283cc89bc01",
+    "coverage-map.json": "263cc525e429b768a4d7b7dcee3d2934d247dd3d7f625230f97812d10605d129"
+  },
+  "primaryEvidence": {
+    "englishEdition": "OUP ©2009, package2008, ISBN9780195374612",
+    "completeMainTextReadInOrder": true,
+    "substantiveFiles": 24,
+    "substantiveCharacters": 432764,
+    "hashedExtractionFiles": 358,
+    "hashedExtractionCharacters": 541730,
+    "notesScope": "Selected files085,329–341 only; remaining notes, bibliography and index not fully read.",
+    "russianScope": "MIF2021, Gorokhov translation, Naranovich preface, ISBN9785001461937: edition page and whole preface read; full translation not collated.",
+    "privateRawSourcesCopied": false,
+    "newWebAcquisition": false
+  },
+  "qa": {
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "authoredFieldsEqualEmbedding": true,
+    "actualDraftParagraphPairsEqual": 153,
+    "renderedVisits": 7000,
+    "standardInteractionChecks": 140,
+    "reports": [
+      {
+        "file": "qa/browser-320.json",
+        "sha256": "43d114c629f9492d2518e8a8811eadb4a46847e89dce028ec899e824ae3217cd",
+        "renderedVisits": 1400,
+        "standardInteractionChecks": 28,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "file": "qa/browser-390.json",
+        "sha256": "d95a4267f26f7b913fd8b4aef38125c142fcb5d89ccb11272a17a3978d9cfd01",
+        "renderedVisits": 1400,
+        "standardInteractionChecks": 28,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "file": "qa/browser-1024.json",
+        "sha256": "c5a7c69549b885ecd743a633f607cdbec3dc99dfe5f97a314e2f46e6512d1c1f",
+        "renderedVisits": 1400,
+        "standardInteractionChecks": 28,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "file": "qa/browser-1440.json",
+        "sha256": "93a9b19cda8737ede6d7b50f3d30cfb53638fbf930476746ae1f115c43e09e71",
+        "renderedVisits": 1400,
+        "standardInteractionChecks": 28,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      },
+      {
+        "file": "qa/browser-ios-320.json",
+        "sha256": "2f3138169120b039aa74eb80daeb22cd9c87c8b71efd8ac1d8f20d5e81cf00f2",
+        "renderedVisits": 1400,
+        "standardInteractionChecks": 28,
+        "cleanup": {
+          "profileRemoved": true,
+          "remainingOwnedPids": [],
+          "timeoutSeconds": 30,
+          "isolatedProcessGroup": true
+        }
+      }
+    ],
+    "offline": true,
+    "runtimeErrors": 0,
+    "remoteRuntimeRequests": 0,
+    "ownedChromeCleanup": true,
+    "physicalSafariTested": false
+  },
+  "progressNamespace": "book-tiktok.a-guide-to-the-good-life.depth-v2.",
+  "sharedPreferenceKey": "bookLibrary.preferences.v1",
+  "rootReviewRequired": {
+    "completeCurrentRuEn": false,
+    "allNestedRoutes": false,
+    "chapterArgumentCasePracticeOmissions": false,
+    "keyPrimaryPassages": false,
+    "editorialDecision": false
+  },
+  "sourceAndCoverageDocuments": [
+    "sources.md",
+    "reading-ledger.json",
+    "source-hashes.json",
+    "reading-dispatch.jsonl",
+    "coverage-map.md",
+    "coverage-map.json"
+  ],
+  "implementationChecksAreNotEditorialAcceptance": true,
+  "meaningfulLimitations": [
+    "Extensive original condensation, not a full book or authorized translation. Meaningful omissions are mapped after complete English main-text reading.",
+    "No complete Russian-translation collation or independent ancient-source critical edition.",
+    "Clinical/medical polemics remain attributed historical book arguments, not current advice or a treatment-efficacy certificate.",
+    "Physical iPhone/Safari was not tested.",
+    "Root must personally read and accept the exact final hashes before publication."
+  ],
+  "changedOnlyThisDirectory": true,
+  "oldCollectorReadyReviewsRootCatalogueSharedSkillLogsGlobalStatusUntouched": true,
+  "gitPrDeployOrExternalMessages": false,
+  "subagentsUsed": false,
+  "files": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/HANDOFF.md",
+      "relativePath": "HANDOFF.md",
+      "sha256": "a5d071a0e90961887df21ad2e8d3adf108d7fa56892ec7d764d8d306426b1320",
+      "bytes": 1620
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/QA.md",
+      "relativePath": "QA.md",
+      "sha256": "aafe7cbf65c87460a49d1c9f74a648cc740aec626f77a5cd9bd93b5efdd3333d",
+      "bytes": 8933
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/a-guide-to-the-good-life.html",
+      "relativePath": "a-guide-to-the-good-life.html",
+      "sha256": "05a038ee0422e1c74d4f1a8ab96ad423e89c9861419e86d4ffd10283cc89bc01",
+      "bytes": 666267
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/assemble.py",
+      "relativePath": "assemble.py",
+      "sha256": "af29378421ec6f9f08a9f80d7e5dcedf3376fd26aa643a2f56a0166021a8d8b0",
+      "bytes": 11442
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/browser-check.mjs",
+      "relativePath": "browser-check.mjs",
+      "sha256": "196481ec7a6436646d15392439113222d5204ce0fa9d138724369d2d3ca0a20d",
+      "bytes": 24717
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/build.mjs",
+      "relativePath": "build.mjs",
+      "sha256": "6d6dfa00d8920dee2a871c5d4bada3ce8ff1801c95b23c5aba8b7f1f2f23b62c",
+      "bytes": 2911
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/coverage-map.json",
+      "relativePath": "coverage-map.json",
+      "sha256": "263cc525e429b768a4d7b7dcee3d2934d247dd3d7f625230f97812d10605d129",
+      "bytes": 71672
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/coverage-map.md",
+      "relativePath": "coverage-map.md",
+      "sha256": "e3994879b2cd8e5140f89c65319843a5e0f44091f72346a0b7bfcc449d6d67c4",
+      "bytes": 31763
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/draft.en.md",
+      "relativePath": "draft.en.md",
+      "sha256": "cc7785e41ebec46799c92712151fb105f80bd21787f03ed42092ea437ec210d5",
+      "bytes": 63275
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/draft.ru.md",
+      "relativePath": "draft.ru.md",
+      "sha256": "06318f1008e07f0223df7bb592cbf24da215868377374258989db732d849ae4f",
+      "bytes": 114448
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/finalize.py",
+      "relativePath": "finalize.py",
+      "sha256": "b61391432f07a10da906020162f2892111b780323086db2ef136c7354a52d0b0",
+      "bytes": 5307
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/map-coverage.py",
+      "relativePath": "map-coverage.py",
+      "sha256": "294681297d31b5016071cbaeceddde2d9b834b3fa9c5eb50a4a56719a3b6e0a2",
+      "bytes": 20721
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/metrics.json",
+      "relativePath": "metrics.json",
+      "sha256": "c219b5d697c658b6f19bfa77a59bd9e0fd998d494f27eb54667ebb09c66ae914",
+      "bytes": 3348
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/parity-check.json",
+      "relativePath": "parity-check.json",
+      "sha256": "f7951a475f6a80cc5ca578ff241870d28e940cd92d4d0024c50445c84d6190a2",
+      "bytes": 909
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1024-cover.png",
+      "relativePath": "qa/1024-cover.png",
+      "sha256": "3398568611b9bea6868ab911cae6fba45080ee3e6e9599443944b7f320acc906",
+      "bytes": 99397
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1024-dense.png",
+      "relativePath": "qa/1024-dense.png",
+      "sha256": "af0bcf43c97efbcf2e150a4187a4a6d6dec0856dd9ced2e888e932e220c77605",
+      "bytes": 153789
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1024-final.png",
+      "relativePath": "qa/1024-final.png",
+      "sha256": "5ada387da761bc0e4248c6a6c93930ec460cbba0894d69c5b6a8bb5752c3e393",
+      "bytes": 159885
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1024-quantitative.png",
+      "relativePath": "qa/1024-quantitative.png",
+      "sha256": "174c72352f9d098b7244e50cbe89ea30b542d0ed581c417a5be4e33ff1cc0553",
+      "bytes": 150260
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1440-cover.png",
+      "relativePath": "qa/1440-cover.png",
+      "sha256": "52ef2d4f1a5e22e8ae997dbb5690a220a726c945552c901c76c8af66bf937c01",
+      "bytes": 114168
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1440-dense.png",
+      "relativePath": "qa/1440-dense.png",
+      "sha256": "9b3e858ce4e324f252bb1f9ac48ccbc6fbdca7261bbed5fcf8a92a540e40e3d1",
+      "bytes": 164565
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1440-final.png",
+      "relativePath": "qa/1440-final.png",
+      "sha256": "a826444a8fbbe5ed1e26d2b6d46df6b9b4012d950d835881e36de72c896bfbe8",
+      "bytes": 171919
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/1440-quantitative.png",
+      "relativePath": "qa/1440-quantitative.png",
+      "sha256": "224531c2d16d6989fd6aab71f00eda3ae5fccf810d80fa7a6c68e28ab4b2394d",
+      "bytes": 162757
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/320-cover.png",
+      "relativePath": "qa/320-cover.png",
+      "sha256": "7efd5cabdb57fea9bc0cbd39366eda0206f3f541d7c693a3145b454b8246a85f",
+      "bytes": 44813
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/320-dense.png",
+      "relativePath": "qa/320-dense.png",
+      "sha256": "c9e155ffc5f68aee897985b61724c5777ef7354afe2952f56b379ba054744c19",
+      "bytes": 52886
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/320-final.png",
+      "relativePath": "qa/320-final.png",
+      "sha256": "e541c3bb4d1c693d2da602e4281e3a37005596964ec3cf1a45d3263be388db72",
+      "bytes": 51924
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/320-quantitative.png",
+      "relativePath": "qa/320-quantitative.png",
+      "sha256": "a062e27e05e8c6c897e933359c04585f52cdb26a599922c1e1cb74f1e6927a16",
+      "bytes": 52091
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/390-cover.png",
+      "relativePath": "qa/390-cover.png",
+      "sha256": "0c49a574876a59aa588f4319e915658b32a597b67401db038b40bf49d06c857a",
+      "bytes": 46258
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/390-dense.png",
+      "relativePath": "qa/390-dense.png",
+      "sha256": "4b7bd585c4df040f8428d4b842ab7e880e7c6d784a35a9f15e45724e0d7a8588",
+      "bytes": 87665
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/390-final.png",
+      "relativePath": "qa/390-final.png",
+      "sha256": "9ce4236075d3a792d27ded24f7fc1ad65d3e22d358a3feed5e3518eace705a43",
+      "bytes": 95151
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/390-quantitative.png",
+      "relativePath": "qa/390-quantitative.png",
+      "sha256": "8ffd2e0f78543af528e071a4f57b2e91e16a2c456b037dc09255e5a3dfbf8820",
+      "bytes": 85998
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-1024.json",
+      "relativePath": "qa/browser-1024.json",
+      "sha256": "c5a7c69549b885ecd743a633f607cdbec3dc99dfe5f97a314e2f46e6512d1c1f",
+      "bytes": 53627
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-1440.json",
+      "relativePath": "qa/browser-1440.json",
+      "sha256": "93a9b19cda8737ede6d7b50f3d30cfb53638fbf930476746ae1f115c43e09e71",
+      "bytes": 53627
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-320.json",
+      "relativePath": "qa/browser-320.json",
+      "sha256": "43d114c629f9492d2518e8a8811eadb4a46847e89dce028ec899e824ae3217cd",
+      "bytes": 53626
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-390.json",
+      "relativePath": "qa/browser-390.json",
+      "sha256": "d95a4267f26f7b913fd8b4aef38125c142fcb5d89ccb11272a17a3978d9cfd01",
+      "bytes": 53626
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-ios-320.json",
+      "relativePath": "qa/browser-ios-320.json",
+      "sha256": "2f3138169120b039aa74eb80daeb22cd9c87c8b71efd8ac1d8f20d5e81cf00f2",
+      "bytes": 53992
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/ios-320-cover.png",
+      "relativePath": "qa/ios-320-cover.png",
+      "sha256": "38ab915598273004c62da0f8703aea46d99f17e66289bfa93859ea0e4235eb8a",
+      "bytes": 43595
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/ios-320-dense.png",
+      "relativePath": "qa/ios-320-dense.png",
+      "sha256": "abca97c337418ee9ec0a4ee4bb239e313b80caac1672ae8dfcb61355b92d4b55",
+      "bytes": 47431
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/ios-320-final.png",
+      "relativePath": "qa/ios-320-final.png",
+      "sha256": "152585c276805998f28c69ac8936a243b3ec1f9c1db54c1e9186ceed5b091422",
+      "bytes": 45107
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/ios-320-quantitative.png",
+      "relativePath": "qa/ios-320-quantitative.png",
+      "sha256": "7a4cd38e89341139ea6bb06c00ad4674a39da4be1cc90b7f34b283d6f15f818b",
+      "bytes": 47633
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/read-primary.py",
+      "relativePath": "read-primary.py",
+      "sha256": "20c9977cc023b28d115aac929302842d4ce4dee30c2326864cdaba8c8ed3cfc2",
+      "bytes": 1258
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/reading-dispatch.jsonl",
+      "relativePath": "reading-dispatch.jsonl",
+      "sha256": "3f13f31ef0a2fac8e9a0b10b896042df9d02cf65155b6618c0130f10c9e99f6c",
+      "bytes": 7923
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/reading-ledger.json",
+      "relativePath": "reading-ledger.json",
+      "sha256": "142ae725599fc5bc61e43244dad59fde5a1b8b56838de43dd74998260349a2d1",
+      "bytes": 16073
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/record-reading.py",
+      "relativePath": "record-reading.py",
+      "sha256": "013a761e3dd71957ce972cc5a9d5189bbaeff9a9da500f14e7899af0b355bb62",
+      "bytes": 4195
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/route-core.en.md",
+      "relativePath": "route-core.en.md",
+      "sha256": "7c679100076d628769fdd30508a96c8a2bfb1a1f0f0fe99ad7748b7b574b7216",
+      "bytes": 44769
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/route-core.ru.md",
+      "relativePath": "route-core.ru.md",
+      "sha256": "1c9bcd3b7d402638c6e6968b4ab07d94b46f83a31f191951d085629f0fb9b087",
+      "bytes": 80957
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/route-deep.en.md",
+      "relativePath": "route-deep.en.md",
+      "sha256": "7c099c9705b67289065ca9c4364ec5ec2dd1c3c2a7dad5cbbd8544b2a30b2431",
+      "bytes": 63284
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/route-deep.ru.md",
+      "relativePath": "route-deep.ru.md",
+      "sha256": "163229d6660b43cf941e8d002a11e3e75b791c7a48258f2271eca1aaa831dc51",
+      "bytes": 114457
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/route-essential.en.md",
+      "relativePath": "route-essential.en.md",
+      "sha256": "0f3edd52afbdefffd49acb295bd8b13bd68e4134bdb0488dfd982a3c7602dd9e",
+      "bytes": 20451
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/route-essential.ru.md",
+      "relativePath": "route-essential.ru.md",
+      "sha256": "4d3c1914a8129cd3eec4ac1cdaa3d92878a054a3e64435840d8f31412d0eff71",
+      "bytes": 37258
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/source-hashes.json",
+      "relativePath": "source-hashes.json",
+      "sha256": "1c747e90addd60b49424010e6e91618ff5fcfab192fcdcb9ed4b78e7185b1477",
+      "bytes": 102496
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/sources.md",
+      "relativePath": "sources.md",
+      "sha256": "513e4d8db7a49bde8a18bbc9f5400380cbe08849f23740e3946bbdc5329ba091",
+      "bytes": 13031
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/story-data.json",
+      "relativePath": "story-data.json",
+      "sha256": "aa55ed09c975b85405a381dd80f7c427bf57241125dddd9899534c5260887c18",
+      "bytes": 228058
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/structural-audit.txt",
+      "relativePath": "structural-audit.txt",
+      "sha256": "1c1bb00414339b4db74a216395771f6f860df75babc560d500470193680ee601",
+      "bytes": 443
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/verify.mjs",
+      "relativePath": "verify.mjs",
+      "sha256": "f2d4d28c0e31fa2d15bce8360d1d8d952debabf995bea615a99e7da3b789254d",
+      "bytes": 5164
+    }
+  ],
+  "supersededHistoricalFiles": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-320-before-argument-restoration.json",
+      "relativePath": "qa/browser-320-before-argument-restoration.json",
+      "sha256": "02bb4166bf18105352a60bc7e7b8655836a37ea7a8f847df85e68c18b71aac17",
+      "bytes": 53282
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-320-before-extra-interactions.json",
+      "relativePath": "qa/browser-320-before-extra-interactions.json",
+      "sha256": "e5ea8647f16be16eec8daeafeb021b7bf7e0d52d1ddae513cc05bd2e262edb49",
+      "bytes": 52918
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/browser-320-initial-harness-error.json",
+      "relativePath": "qa/browser-320-initial-harness-error.json",
+      "sha256": "e9d79a3f2e5cbd767ced4401598eaa9744fbf901dbe0dddcf301a0d6bd0078cb",
+      "bytes": 50370
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/a-guide-to-the-good-life/qa/superseded-metrics-01.json",
+      "relativePath": "qa/superseded-metrics-01.json",
+      "sha256": "236616a8fc7227a49e62bf22a8ceee532dc2c159c35ebcbe896a7f00a5fbbf9e",
+      "bytes": 769
+    }
+  ]
+}

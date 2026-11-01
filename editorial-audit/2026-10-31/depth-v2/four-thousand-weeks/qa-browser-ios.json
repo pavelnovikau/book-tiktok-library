@@ -1,0 +1,130 @@
+{
+  "inputHtmlSha256": "745e38aa5e0de55539c08ccd6b558db12f9aa0f35d32add2f346f4ddd51bc3ee",
+  "phase": "ios",
+  "startedAt": "2026-11-01T03:11:15.849Z",
+  "checks": [
+    {
+      "name": "emulated iOS guide automatically opens",
+      "pass": true
+    },
+    {
+      "name": "guide localizes and contains actual add-home path",
+      "pass": true
+    },
+    {
+      "name": "emulated nonzero safe inset, six icon controls in one reachable row",
+      "pass": true,
+      "detail": [
+        {
+          "id": "libraryButton",
+          "rect": {
+            "x": 12,
+            "y": 67,
+            "width": 36,
+            "height": 36,
+            "top": 67,
+            "right": 48,
+            "bottom": 103,
+            "left": 12
+          },
+          "svg": true
+        },
+        {
+          "id": "contentsButton",
+          "rect": {
+            "x": 52,
+            "y": 67,
+            "width": 36,
+            "height": 36,
+            "top": 67,
+            "right": 88,
+            "bottom": 103,
+            "left": 52
+          },
+          "svg": true
+        },
+        {
+          "id": "languageButton",
+          "rect": {
+            "x": 152,
+            "y": 67,
+            "width": 36,
+            "height": 36,
+            "top": 67,
+            "right": 188,
+            "bottom": 103,
+            "left": 152
+          },
+          "svg": true
+        },
+        {
+          "id": "sourcesButton",
+          "rect": {
+            "x": 192,
+            "y": 67,
+            "width": 36,
+            "height": 36,
+            "top": 67,
+            "right": 228,
+            "bottom": 103,
+            "left": 192
+          },
+          "svg": true
+        },
+        {
+          "id": "themeButton",
+          "rect": {
+            "x": 232,
+            "y": 67,
+            "width": 36,
+            "height": 36,
+            "top": 67,
+            "right": 268,
+            "bottom": 103,
+            "left": 232
+          },
+          "svg": true
+        },
+        {
+          "id": "bookLibraryInstallTrigger",
+          "rect": {
+            "x": 272,
+            "y": 67,
+            "width": 36,
+            "height": 36,
+            "top": 67,
+            "right": 308,
+            "bottom": 103,
+            "left": 272
+          },
+          "svg": true
+        }
+      ]
+    },
+    {
+      "name": "focus hides iOS install trigger",
+      "pass": true
+    },
+    {
+      "name": "emulated standalone suppresses guide and trigger",
+      "pass": true
+    },
+    {
+      "name": "zero page runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "zero remote runtime requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/four-thousand-weeks-qa-bF32LW",
+  "profileRemoved": true,
+  "ownedGroupTerminated": true,
+  "finishedAt": "2026-11-01T03:11:17.547Z"
+}

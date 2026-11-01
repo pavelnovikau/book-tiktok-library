@@ -1,0 +1,139 @@
+{
+  "wordConvention": "Exact maintained builder Unicode lexical counter; hyphenated words count as one. Body excludes cover, headings, subtitles, Sources and control labels; shared final paragraph is body. UI estimate uses title+subtitle+body across selected screens, as the maintained builder does; section labels, controls and global Sources are separately excluded from that estimate.",
+  "wpm": {
+    "ru": 180,
+    "en": 220
+  },
+  "modes": {
+    "essential": {
+      "screens": 25,
+      "ru": {
+        "bodyWords": 2281,
+        "bodyMinutes": 12.672222222222222,
+        "roundedBodyMinutes": 13,
+        "uiWords": 2398,
+        "uiMinutes": 13.322222222222223,
+        "uiRoundedMinutes": 14,
+        "uiLabel": "14 минут",
+        "headingAndSubtitleWords": 92,
+        "coverFramingWords": 25,
+        "sectionLabelWords": 145
+      },
+      "en": {
+        "bodyWords": 2563,
+        "bodyMinutes": 11.65,
+        "roundedBodyMinutes": 12,
+        "uiWords": 2710,
+        "uiMinutes": 12.318181818181818,
+        "uiRoundedMinutes": 13,
+        "uiLabel": "13 min",
+        "headingAndSubtitleWords": 117,
+        "coverFramingWords": 30,
+        "sectionLabelWords": 179
+      }
+    },
+    "core": {
+      "screens": 65,
+      "ru": {
+        "bodyWords": 5984,
+        "bodyMinutes": 33.24444444444445,
+        "roundedBodyMinutes": 34,
+        "uiWords": 6247,
+        "uiMinutes": 34.705555555555556,
+        "uiRoundedMinutes": 35,
+        "uiLabel": "35 минут",
+        "headingAndSubtitleWords": 238,
+        "coverFramingWords": 25,
+        "sectionLabelWords": 388
+      },
+      "en": {
+        "bodyWords": 6779,
+        "bodyMinutes": 30.813636363636363,
+        "roundedBodyMinutes": 31,
+        "uiWords": 7100,
+        "uiMinutes": 32.27272727272727,
+        "uiRoundedMinutes": 33,
+        "uiLabel": "33 min",
+        "headingAndSubtitleWords": 291,
+        "coverFramingWords": 30,
+        "sectionLabelWords": 472
+      }
+    },
+    "deep": {
+      "screens": 87,
+      "ru": {
+        "bodyWords": 8056,
+        "bodyMinutes": 44.75555555555555,
+        "roundedBodyMinutes": 45,
+        "uiWords": 8399,
+        "uiMinutes": 46.66111111111111,
+        "uiRoundedMinutes": 47,
+        "uiLabel": "47 минут",
+        "headingAndSubtitleWords": 318,
+        "coverFramingWords": 25,
+        "sectionLabelWords": 531
+      },
+      "en": {
+        "bodyWords": 9157,
+        "bodyMinutes": 41.622727272727275,
+        "roundedBodyMinutes": 42,
+        "uiWords": 9575,
+        "uiMinutes": 43.52272727272727,
+        "uiRoundedMinutes": 44,
+        "uiLabel": "44 min",
+        "headingAndSubtitleWords": 388,
+        "coverFramingWords": 30,
+        "sectionLabelWords": 641
+      }
+    }
+  },
+  "globalSources": {
+    "ru": {
+      "methodWords": 73,
+      "sourceNoteWords": 56,
+      "sourceTitleWords": 12
+    },
+    "en": {
+      "methodWords": 84,
+      "sourceNoteWords": 61,
+      "sourceTitleWords": 12
+    }
+  },
+  "density": {
+    "ru": {
+      "passages": 86,
+      "min": 80,
+      "median": 94,
+      "max": 103,
+      "mean": 93.67441860465117
+    },
+    "en": {
+      "passages": 86,
+      "min": 77,
+      "median": 106.5,
+      "max": 124,
+      "mean": 106.47674418604652
+    }
+  },
+  "primary": {
+    "records": 28,
+    "totalExtractedWords": 55495,
+    "mainSpineRecords": 19,
+    "mainSpineParagraphs": 443,
+    "mainSpineExtractedWords": 51465
+  },
+  "routeReadingCoverage": {
+    "essential": {
+      "pairs": 25,
+      "expected": 25
+    },
+    "core": {
+      "pairs": 65,
+      "expected": 65
+    },
+    "deep": {
+      "pairs": 87,
+      "expected": 87
+    }
+  }
+}

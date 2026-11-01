@@ -1,0 +1,1126 @@
+{
+  "schemaVersion": 1,
+  "slug": "four-thousand-weeks",
+  "status": "root-personally-accepted",
+  "atUtc": "2026-11-01T06:42:56.811994+00:00",
+  "rootPersonalAcceptance": true,
+  "publicationAllowed": true,
+  "bookContentPublicationAllowed": true,
+  "counts": {
+    "essential": 25,
+    "core": 65,
+    "deep": 87
+  },
+  "metrics": {
+    "essential": {
+      "screens": 25,
+      "ru": {
+        "bodyWords": 2275,
+        "bodyMinutes": 12.63888888888889,
+        "roundedBodyMinutes": 13,
+        "uiWords": 2392,
+        "uiMinutes": 13.28888888888889,
+        "uiRoundedMinutes": 14,
+        "uiLabel": "14 минут",
+        "headingAndSubtitleWords": 92,
+        "coverFramingWords": 25,
+        "sectionLabelWords": 145
+      },
+      "en": {
+        "bodyWords": 2570,
+        "bodyMinutes": 11.681818181818182,
+        "roundedBodyMinutes": 12,
+        "uiWords": 2717,
+        "uiMinutes": 12.35,
+        "uiRoundedMinutes": 13,
+        "uiLabel": "13 min",
+        "headingAndSubtitleWords": 117,
+        "coverFramingWords": 30,
+        "sectionLabelWords": 179
+      }
+    },
+    "core": {
+      "screens": 65,
+      "ru": {
+        "bodyWords": 5926,
+        "bodyMinutes": 32.922222222222224,
+        "roundedBodyMinutes": 33,
+        "uiWords": 6189,
+        "uiMinutes": 34.38333333333333,
+        "uiRoundedMinutes": 35,
+        "uiLabel": "35 минут",
+        "headingAndSubtitleWords": 238,
+        "coverFramingWords": 25,
+        "sectionLabelWords": 388
+      },
+      "en": {
+        "bodyWords": 6712,
+        "bodyMinutes": 30.509090909090908,
+        "roundedBodyMinutes": 31,
+        "uiWords": 7033,
+        "uiMinutes": 31.96818181818182,
+        "uiRoundedMinutes": 32,
+        "uiLabel": "32 min",
+        "headingAndSubtitleWords": 291,
+        "coverFramingWords": 30,
+        "sectionLabelWords": 472
+      }
+    },
+    "deep": {
+      "screens": 87,
+      "ru": {
+        "bodyWords": 8006,
+        "bodyMinutes": 44.477777777777774,
+        "roundedBodyMinutes": 45,
+        "uiWords": 8349,
+        "uiMinutes": 46.38333333333333,
+        "uiRoundedMinutes": 47,
+        "uiLabel": "47 минут",
+        "headingAndSubtitleWords": 318,
+        "coverFramingWords": 25,
+        "sectionLabelWords": 531
+      },
+      "en": {
+        "bodyWords": 9092,
+        "bodyMinutes": 41.32727272727273,
+        "roundedBodyMinutes": 42,
+        "uiWords": 9510,
+        "uiMinutes": 43.22727272727273,
+        "uiRoundedMinutes": 44,
+        "uiLabel": "44 min",
+        "headingAndSubtitleWords": 388,
+        "coverFramingWords": 30,
+        "sectionLabelWords": 641
+      }
+    }
+  },
+  "rootReport": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.json",
+  "rootReportSha256": "4c18c4fc721635e8044dad82742b70e8d7928e9f90bbd5d391bb7b043cc5253d",
+  "rootReadingLedger": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/reading-ledger.json",
+  "rootSourceScope": {
+    "source": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-8-private/four-thousand-weeks-edition.json",
+    "sourceSha256": "4d59335257d507e204bcc3f28aab121c6cc0f0aead4cd092fc844787f1f337c0",
+    "edition": "E. Seregina, Alpina Publisher/Alpina Digital2023, ISBN978-5-9614-8639-1; original2021",
+    "rootContinuousWholePrimaryRead": false,
+    "rootActualIntervals": 28,
+    "rootUniqueParagraphs": 201,
+    "rootDisplayedWhitespaceWords": 24437,
+    "all27PlannedSelectionsActuallyCovered": true,
+    "implementationMainLedgerIntegrityVerified": true,
+    "writerMainSpineScope": "443paragraphs across19records including separately displayed part headings,51465source-reported words. Main prose displayed in order; notes/frontmatter separately. Ledger integrity does not constitute root reading."
+  },
+  "qaScope": {
+    "structuralPasses": 69,
+    "warnings": 0,
+    "failures": 0,
+    "draftEmbeddedAndAllSixExportsExact": true,
+    "freshRootRoutePositions": 708,
+    "representativeLayouts": 80,
+    "coldSerifFirstSelectionBothLanguages": "Genuinely unloaded before selection;100px preserved on actual320×568 viewport.",
+    "settingsAndActualRenderedFonts": true,
+    "explicitNonfictionDeeperResumeAndReload": true,
+    "genuineLegacyStatesIsolated": [
+      "doing-nothing",
+      "efficiency-trap"
+    ],
+    "runtimeErrorsInSuccessfulFinalPhases": 0,
+    "runtimeExternalRequests": 0,
+    "ownedChromeProfilesAndGroupsRemoved": true,
+    "protectedInputsVerifiedUnchanged": 3140,
+    "harnessCorrections": "Two layout-run failures were harness assumptions: expecting2Sources entries instead of actual1, and retaining a final-screen selector from another book. Reports and helper versions archived. No reader change was required; corrected final layout runs pass. Successful resume uses its archived executed helper; cold runs use their unchanged original helper.",
+    "evidence": "qa/root-verification.json"
+  },
+  "limits": [
+    "Selective root primary checks, not continuous full-primary reading.",
+    "Original corresponding English exposition from the owned Russian edition; no full published-English collation.",
+    "No source image/diagram inspection or print-variant certification.",
+    "Historical/research and introspective claims remain book-attributed; underlying studies were not all independently recertified.",
+    "Chrome emulation and synthetic handlers; no physical Safari/PWA or native gesture certification."
+  ],
+  "allArtifactHashes": {
+    "HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/HANDOFF.md",
+      "sha256": "c4bce3797ea015592f5115c08304aecd5044690bcd647a8c8a00a4e02fc58012",
+      "bytes": 8812
+    },
+    "QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/QA.md",
+      "sha256": "32650c8148161b814f6b6f8dce23ba62f01454008aa352ef801d64e9bf991346",
+      "bytes": 6384
+    },
+    "authoring-stages.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/authoring-stages.json",
+      "sha256": "8848d00aa15f48e7a8899429279e2fd08dd500cb221287cde97c843fe671c690",
+      "bytes": 1647
+    },
+    "checksums.sha256": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/checksums.sha256",
+      "sha256": "82d32d842c09c937ee4fedc04cf2074f7457afe5962afafdd9243e05c9f98207",
+      "bytes": 3827
+    },
+    "compile.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/compile.py",
+      "sha256": "52868b7a52f1757d6e6d38fb8c76918f8140e0cac60d0f7292cebf87dd7521cb",
+      "bytes": 17653
+    },
+    "coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/coverage-map.json",
+      "sha256": "36ed2a9d788e602a43fc23a5c2e1b2ba7ec84ef8dd1763b7218693e41a9ca34b",
+      "bytes": 28454
+    },
+    "coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/coverage-map.md",
+      "sha256": "68fb449e7a3079e90c8f1d2b8589c327821a697208b08060234c1843c28a0b6b",
+      "bytes": 16260
+    },
+    "draft.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/draft.en.md",
+      "sha256": "c948df0417369c27613a7ad1b2e6f128df823da3aa0c5fe046dbb656083370f7",
+      "bytes": 60140
+    },
+    "draft.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/draft.ru.md",
+      "sha256": "9121196dba631041260491603c0c4cc118d8df5638d80c495d277205839ca795",
+      "bytes": 112866
+    },
+    "finalize.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/finalize.py",
+      "sha256": "82e9816d2f61ecb0c4470d031e4a9a66a9211c0382a3871a12fbc914886d1326",
+      "bytes": 6020
+    },
+    "four-thousand-weeks.html": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/four-thousand-weeks.html",
+      "sha256": "a98d103ef3fa0233ad1fb3fab5434ae69f54910399e68946c7aa906e4db3dc90",
+      "bytes": 649386
+    },
+    "make_coverage.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/make_coverage.py",
+      "sha256": "e1c6c448d90e7eb5bdf041bc6488d59f8f2409a31dbf9427a39672c7080abf5d",
+      "bytes": 14574
+    },
+    "metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/metrics.json",
+      "sha256": "434e5c60cbc3799cabf7ed33a324717999f345342a636aced8dd9f74aace84ba",
+      "bytes": 3639
+    },
+    "metrics.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/metrics.md",
+      "sha256": "90aeb08d25856981955cb7a8ac8055807295a2da229df6bdba56ab5efbcdb6f1",
+      "bytes": 443
+    },
+    "parity.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/parity.json",
+      "sha256": "fa92fc1a311811be24bbe8ec279a71f4661b17958464c3f7b2dbd61d60ba1204",
+      "bytes": 394
+    },
+    "passage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/passage-map.json",
+      "sha256": "e1e5ac5997c24148ddbbb5cf8a7c5c1179bb76dcbb69523dd04f54aa38dd60b5",
+      "bytes": 22104
+    },
+    "patch_reader.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/patch_reader.py",
+      "sha256": "c11a99151bc8a58952306e62f8c18dddd84eb65775aeb7f7711fde6d0d283db5",
+      "bytes": 2031
+    },
+    "primary-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/primary-reading-ledger.json",
+      "sha256": "351542e09fa11e11513b55491331054b14a46c42c59642a7e9ca0bcefe4d64a1",
+      "bytes": 17835
+    },
+    "qa-browser-1024.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-1024.json",
+      "sha256": "838fad6af05186267f8636731f940073f14f8526ef01293a76b79d76f36c6286",
+      "bytes": 7878
+    },
+    "qa-browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-1440.json",
+      "sha256": "33a265a0df5fa29a90ce2c2fbed8379119af2149f1a7f742a0052c4c1b58293b",
+      "bytes": 7906
+    },
+    "qa-browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-320.json",
+      "sha256": "fca456cf16e52cc4d9ee7e48ef09c920d77fc304db680df5d8e5d221d135f41a",
+      "bytes": 7872
+    },
+    "qa-browser-390.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-390.json",
+      "sha256": "63994af287ecfb7e5c0f9ed96f6b0c3ecc2a9f53ed36f70ccfccab1e29d2efea",
+      "bytes": 7872
+    },
+    "qa-browser-cold.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-cold.json",
+      "sha256": "82669868665f053cf1592859cb69b9835bcbbc6177858c3e1ba28d82fae410ed",
+      "bytes": 3554
+    },
+    "qa-browser-interaction.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-interaction.json",
+      "sha256": "700c19dbfb57f5abb471c8c01cfdb56a05e2b8faee112793d6c67cca37f8c90b",
+      "bytes": 2287
+    },
+    "qa-browser-ios.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-ios.json",
+      "sha256": "c208d0093d0d2901e430a712fe1cb7c5140058df8a8d51a6ffb12205002e774b",
+      "bytes": 2958
+    },
+    "qa-browser.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser.mjs",
+      "sha256": "2eee4ef9e428f02f2e60ab053baa0c2a4a343e262956a60f4f2b39405154e553",
+      "bytes": 20535
+    },
+    "qa-cold-serif-320.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-cold-serif-320.png",
+      "sha256": "8855954030ec3fcdb930fc6a7cd5f04089f2e7e6f3aa778b826f65ca8541f329",
+      "bytes": 61729
+    },
+    "qa-cover-320.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-cover-320.png",
+      "sha256": "fbec5c09f6cdac0f3ce094f0c775def3e6a2ecc51d57cddccacd987af162611b",
+      "bytes": 29286
+    },
+    "qa-dense-1024.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-1024.png",
+      "sha256": "022ce0bdcb78ab36f506d742855c4ee0063236b28f75c7493db61e23b39b2d04",
+      "bytes": 141011
+    },
+    "qa-dense-1440.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-1440.png",
+      "sha256": "2b20ad5ae023b48cf1867c0b115942dfd55637c4c77ff3c97f8931b072facd86",
+      "bytes": 153449
+    },
+    "qa-dense-320.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-320.png",
+      "sha256": "7a6f4d5b46af2138fba329c2e78d6c1083f7e1bbbd9953043aa40f3f29e4ee67",
+      "bytes": 29631
+    },
+    "qa-dense-390.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-390.png",
+      "sha256": "7a73a30f39e9ffebb84705169d1cd6cf75d4523f9a7eccb9c8ce4423f414b22c",
+      "bytes": 43178
+    },
+    "qa-summary.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-summary.json",
+      "sha256": "f2b718f7f98c0ea0e797d11713794553f5eca6eca0a15e0575a14c867fb4b7b9",
+      "bytes": 1447
+    },
+    "read_primary.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/read_primary.py",
+      "sha256": "cf0b3e21f18b156949059d8796918b3d907348ab79767a8b151fdd5efa8a7744",
+      "bytes": 1029
+    },
+    "read_routes.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/read_routes.py",
+      "sha256": "3612a868f02a96834288bfa94bafe70c470b191aa796dec8fb74aa44df823ffa",
+      "bytes": 1137
+    },
+    "root-review/cold-settings.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/cold-settings.mjs",
+      "sha256": "15db4ef85a12e7f577c7bd61d86cfdd62a0ed5dd43f0eb041e85ccc9c2983348",
+      "bytes": 19622
+    },
+    "root-review/input-HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-HANDOFF.md",
+      "sha256": "32412c2b44d6f40c297b3032e15d42ccc5b8a206110d490fc967b31b154c7526",
+      "bytes": 7121
+    },
+    "root-review/input-QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-QA.md",
+      "sha256": "0db1fb94426c308e437f8d112c679145fc876f78a861e8f7cbb63b3e0d61f2bf",
+      "bytes": 4693
+    },
+    "root-review/input-authoring-stages.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-authoring-stages.json",
+      "sha256": "8a2a094bccf8f26a8998b53797b06b2cb8b9d55891b3b3437595edb6a7442a31",
+      "bytes": 1314
+    },
+    "root-review/input-compile.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-compile.py",
+      "sha256": "94a2a59fd7903a0d1a06aa114aaa9ce815f7c123fd26bbb93963320c8104dca5",
+      "bytes": 17653
+    },
+    "root-review/input-coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-coverage-map.json",
+      "sha256": "7731e11f7b213dd69b0173ffe572d4e8a3ca8925b438daaf2f711ad43ba0ae4b",
+      "bytes": 28195
+    },
+    "root-review/input-coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-coverage-map.md",
+      "sha256": "f3a86f280ed3adfa599e90ff18087d8272c6c6a854d2a1428b4a27445fd90edf",
+      "bytes": 14370
+    },
+    "root-review/input-draft.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-draft.en.md",
+      "sha256": "efa09b5fc79fc31f99843f6515a66a108392d2d05d5940b6483bfe9a2a4599d0",
+      "bytes": 60623
+    },
+    "root-review/input-draft.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-draft.ru.md",
+      "sha256": "8f85c4e68d9be539119cbbba62d6126743097f7f3f44372706bf0a433d5077b3",
+      "bytes": 113687
+    },
+    "root-review/input-four-thousand-weeks.html": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-four-thousand-weeks.html",
+      "sha256": "745e38aa5e0de55539c08ccd6b558db12f9aa0f35d32add2f346f4ddd51bc3ee",
+      "bytes": 650690
+    },
+    "root-review/input-metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-metrics.json",
+      "sha256": "5c6eb93e952512aa6871d6e9b9ee7707e22d8aef5a7c74c6879a4b725e12629d",
+      "bytes": 3641
+    },
+    "root-review/input-passage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-passage-map.json",
+      "sha256": "168b4ebf4c369d59aa1fe4b3968715936a3cc034f1a8033f8ca620d5d94cead1",
+      "bytes": 22104
+    },
+    "root-review/input-patch_reader.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-patch_reader.py",
+      "sha256": "c11a99151bc8a58952306e62f8c18dddd84eb65775aeb7f7711fde6d0d283db5",
+      "bytes": 2031
+    },
+    "root-review/input-primary-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-primary-reading-ledger.json",
+      "sha256": "351542e09fa11e11513b55491331054b14a46c42c59642a7e9ca0bcefe4d64a1",
+      "bytes": 17835
+    },
+    "root-review/input-ready.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-ready.json",
+      "sha256": "f523ad1e5fa04877faee269b91a8edac603fc3ee2d3f08ebae62393f3ac9f1ef",
+      "bytes": 19170
+    },
+    "root-review/input-route-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-route-reading-ledger.json",
+      "sha256": "57806730edf1ad52395eef87eb2800ca16ee429d007d23e64fb8d4318258fee8",
+      "bytes": 8496
+    },
+    "root-review/input-sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-sources.md",
+      "sha256": "0d127643216fbb29ba829bc5250003d786525dbdffc426e4af9bde64f631d4f4",
+      "bytes": 5794
+    },
+    "root-review/input-story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-story-data.json",
+      "sha256": "79ff46a042e043569d77774324cd0bab7c1be9d907d9c13d4f59efbe6ecdee86",
+      "bytes": 239321
+    },
+    "root-review/input-verification.txt": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-verification.txt",
+      "sha256": "e8ab326b40b1d52262031bf3b0b7d0633255f182c78356eee841de0c95d7bd91",
+      "bytes": 2254
+    },
+    "root-review/intake-baseline.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/intake-baseline.json",
+      "sha256": "e8a6dde4c7e3d8c8e2e49ad140581441796f8e17f029ab0b2842c9bc40a1535c",
+      "bytes": 277
+    },
+    "root-review/offered.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/offered.json",
+      "sha256": "5e560f58c15ba5749ca4bc2dce7a5afe54d479d4d9702152a116a50094fafc60",
+      "bytes": 389
+    },
+    "root-review/personal-review.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.json",
+      "sha256": "4c18c4fc721635e8044dad82742b70e8d7928e9f90bbd5d391bb7b043cc5253d",
+      "bytes": 10201
+    },
+    "root-review/personal-review.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.md",
+      "sha256": "5a793cb6ffdad684705da490c1f1d78996c26352f47c27eeabccb5b34d25c79e",
+      "bytes": 1975
+    },
+    "root-review/polish.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/polish.py",
+      "sha256": "590373eed2195c49c34c2708d7f7f75b2dd34df1677b1711f8bb1d86580efdca",
+      "bytes": 5008
+    },
+    "root-review/primary-selection-plan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/primary-selection-plan.json",
+      "sha256": "93a602f4bc429e45e72a5b03bb184333c7701df9d84cff9c0281be0965cbff2b",
+      "bytes": 3606
+    },
+    "root-review/protected-inputs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/protected-inputs.json",
+      "sha256": "aa6dc6a14f15a5e381a8121f67109e6cbec54af371af163933b71f832024d0b5",
+      "bytes": 602335
+    },
+    "root-review/qa/1440-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/1440-cover-ru-dark-sans.png",
+      "sha256": "3e955ada6e6a7bca800c42b5d760cc1b534c45765422f2e04dcfc0ccd6c3d26e",
+      "bytes": 123691
+    },
+    "root-review/qa/1440-part-01-passage-01-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/1440-part-01-passage-01-en-dark-sans.png",
+      "sha256": "4ccb3aec9e3ca04747c3356a6a81fa8c97bd93238d8949b775e8bb40538e3d4c",
+      "bytes": 139194
+    },
+    "root-review/qa/1440-part-09-passage-01-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/1440-part-09-passage-01-ru-light-serif.png",
+      "sha256": "409a0a45065c03a92e1a1dd265abab96c6f52ab5d65417eeaab003d57e0c22b9",
+      "bytes": 155662
+    },
+    "root-review/qa/320-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-cover-ru-dark-sans.png",
+      "sha256": "3a78d740d3f2f9cd5c501c71563fb9f71eed476d01f0aef4475e6778fc311f25",
+      "bytes": 40683
+    },
+    "root-review/qa/320-fresh-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-fresh-cover.png",
+      "sha256": "a013a0bd036ef7bd18b52f3e4fd0172676e918f989d455f09776a917cb2c8e1e",
+      "bytes": 29294
+    },
+    "root-review/qa/320-part-01-passage-01-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-part-01-passage-01-en-dark-sans.png",
+      "sha256": "c83b854d833bd6d011efe486fd9919c683f8ded61b19c508629b4c19d3d13db1",
+      "bytes": 49981
+    },
+    "root-review/qa/320-part-09-passage-01-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-part-09-passage-01-ru-light-serif.png",
+      "sha256": "e16030fe921bf84c8a5ab14fa64c5a9c4780d5d0eff4670fcdad435a8dcf8472",
+      "bytes": 48690
+    },
+    "root-review/qa/browser-1440-initial-final-selector.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-1440-initial-final-selector.json",
+      "sha256": "03a85d1192bf04eced910db4e21f6cd485f99570b1aadf9391b88ea4fcfdf050",
+      "bytes": 13017
+    },
+    "root-review/qa/browser-1440-initial-source-count-assumption.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-1440-initial-source-count-assumption.json",
+      "sha256": "e2948e66b97c2456428bbaa8943cb217322d61b38dc7edfdca1ec0702bb14bad",
+      "bytes": 12360
+    },
+    "root-review/qa/browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-1440.json",
+      "sha256": "569066ba36f61abad517c44cfe9af8933d26b6b28c985d745adbe62276f5334d",
+      "bytes": 13718
+    },
+    "root-review/qa/browser-320-initial-final-selector.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-320-initial-final-selector.json",
+      "sha256": "644a8e9da7238c415e0161df439d391e3ce454f2634911f83d6e681e0e5b7c6d",
+      "bytes": 13014
+    },
+    "root-review/qa/browser-320-initial-source-count-assumption.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-320-initial-source-count-assumption.json",
+      "sha256": "a66167c49e19b470566f01c6d74e60caadb6478454c92a336f20fd44a7f213c4",
+      "bytes": 12358
+    },
+    "root-review/qa/browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-320.json",
+      "sha256": "0768669a1801eac159b195228d6fb1e9ae047b26e24b64096c88c17c607e0ebc",
+      "bytes": 13715
+    },
+    "root-review/qa/browser-cold-en.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-cold-en.json",
+      "sha256": "49dc2e30ccd4a120bac5f2bc1efd1ae9ad588a725c81bde81b054889d88cba20",
+      "bytes": 1174
+    },
+    "root-review/qa/browser-cold.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-cold.json",
+      "sha256": "21d44a260971c42806c7379470d4530b87e8d99ee64db3ad9210c7d525e61b30",
+      "bytes": 1171
+    },
+    "root-review/qa/browser-resume.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-resume.json",
+      "sha256": "3014ec1381e7744474de0fcfefaa425480d228bfa012dca58b439c4eb5acd2d4",
+      "bytes": 1627
+    },
+    "root-review/qa/root-verification.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/root-verification.json",
+      "sha256": "0ac9f4ba7d028520a02ae2161d422884fea6951aeff27292c2e8633be99889c7",
+      "bytes": 7035
+    },
+    "root-review/qa/runtime-check-initial-final-selector.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/runtime-check-initial-final-selector.mjs",
+      "sha256": "46e20bca6ea89a35dfb4397d2b34145d7dd9e5836fb01e03b85efeba9971d6ce",
+      "bytes": 19939
+    },
+    "root-review/qa/structural-audit.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/structural-audit.json",
+      "sha256": "951b3012313cd2aca553c51f490af729ed161672447720568f3188d6b81a7dc3",
+      "bytes": 433
+    },
+    "root-review/read.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/read.py",
+      "sha256": "0758ab6bd6cf60ee75bed7ad9b6a35ab206a28208b3ddd52995f330236df8059",
+      "bytes": 6103
+    },
+    "root-review/reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/reading-ledger.json",
+      "sha256": "da7ebac42f328d60fbcf762346e8ec361db45f7cc273a26d9dde79ae79c083e2",
+      "bytes": 26702
+    },
+    "root-review/repair.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/repair.py",
+      "sha256": "eab79ae1b443b4efcd368c5833effabaa898bff107a3f99808fef66d4a508554",
+      "bytes": 25771
+    },
+    "root-review/repairs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/repairs.json",
+      "sha256": "39fe584e3434e409e000d45c168a6255fb00aba30b71b20376e889984d11ad4d",
+      "bytes": 91690
+    },
+    "root-review/runtime-check.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/runtime-check.mjs",
+      "sha256": "e4c5c4d7c1c273bba2e2c29995aab417f578faff18a56bbc2ebfe088b85c70e4",
+      "bytes": 19952
+    },
+    "root-review/verify-root.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/verify-root.py",
+      "sha256": "eb31a057294287fc43947a1a64a7e529e3983d3ef0cb4fe59aca45d2865ad19b",
+      "bytes": 7417
+    },
+    "route-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route-reading-ledger.json",
+      "sha256": "57806730edf1ad52395eef87eb2800ca16ee429d007d23e64fb8d4318258fee8",
+      "bytes": 8496
+    },
+    "route.core.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.core.en.md",
+      "sha256": "196b6a448f09eae48cb7411ee9ae37421f387a38c53bf1cfbc3ae9a00827bc1d",
+      "bytes": 47536
+    },
+    "route.core.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.core.ru.md",
+      "sha256": "75df136c331f03c54fa0748d90dac6a867ec8e055576f6e8f1ee90555a97df4e",
+      "bytes": 87685
+    },
+    "route.deep.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.deep.en.md",
+      "sha256": "f152aa32617a6dfc7e0243a891bbe0f0d99f5e17c43396911681e70cfee030f7",
+      "bytes": 64099
+    },
+    "route.deep.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.deep.ru.md",
+      "sha256": "be9bbdef6871bdb61c35271ad2dae153d6ebd4f32820fe15fcd6578e579294a3",
+      "bytes": 118104
+    },
+    "route.essential.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.essential.en.md",
+      "sha256": "69b563b1df68e9a18581fe4b5084d29b66742f0682c5b684d5330ca0b84ba739",
+      "bytes": 18239
+    },
+    "route.essential.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.essential.ru.md",
+      "sha256": "60b62dfb1e6cebf531b4a8db2025610e60d97d26b950edcdb56fcd96567fc823",
+      "bytes": 33600
+    },
+    "sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/sources.md",
+      "sha256": "3e037e0492f9fbdc649b58c13029ae9ac39203d59c039d36728e2f0d28306e16",
+      "bytes": 7485
+    },
+    "static-audit.txt": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/static-audit.txt",
+      "sha256": "fc6436bfb0bccd6327adbb3de164586b6bb8c484d3aafc4d9f4de744417c7fcf",
+      "bytes": 433
+    },
+    "story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/story-data.json",
+      "sha256": "f41539e4046d5681605330f76274e2077d5cdeee16f3e4c71c1cfc6d10e406bc",
+      "bytes": 238017
+    },
+    "verification.txt": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/verification.txt",
+      "sha256": "e8ab326b40b1d52262031bf3b0b7d0633255f182c78356eee841de0c95d7bd91",
+      "bytes": 2254
+    },
+    "verify.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/verify.mjs",
+      "sha256": "1b30504e3568c8b5a2cbc05fb8cf223072037e91311890ef38b7d9c715810e54",
+      "bytes": 6354
+    }
+  },
+  "files": {
+    "HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/HANDOFF.md",
+      "sha256": "c4bce3797ea015592f5115c08304aecd5044690bcd647a8c8a00a4e02fc58012",
+      "bytes": 8812
+    },
+    "QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/QA.md",
+      "sha256": "32650c8148161b814f6b6f8dce23ba62f01454008aa352ef801d64e9bf991346",
+      "bytes": 6384
+    },
+    "authoring-stages.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/authoring-stages.json",
+      "sha256": "8848d00aa15f48e7a8899429279e2fd08dd500cb221287cde97c843fe671c690",
+      "bytes": 1647
+    },
+    "checksums.sha256": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/checksums.sha256",
+      "sha256": "82d32d842c09c937ee4fedc04cf2074f7457afe5962afafdd9243e05c9f98207",
+      "bytes": 3827
+    },
+    "compile.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/compile.py",
+      "sha256": "52868b7a52f1757d6e6d38fb8c76918f8140e0cac60d0f7292cebf87dd7521cb",
+      "bytes": 17653
+    },
+    "coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/coverage-map.json",
+      "sha256": "36ed2a9d788e602a43fc23a5c2e1b2ba7ec84ef8dd1763b7218693e41a9ca34b",
+      "bytes": 28454
+    },
+    "coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/coverage-map.md",
+      "sha256": "68fb449e7a3079e90c8f1d2b8589c327821a697208b08060234c1843c28a0b6b",
+      "bytes": 16260
+    },
+    "draft.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/draft.en.md",
+      "sha256": "c948df0417369c27613a7ad1b2e6f128df823da3aa0c5fe046dbb656083370f7",
+      "bytes": 60140
+    },
+    "draft.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/draft.ru.md",
+      "sha256": "9121196dba631041260491603c0c4cc118d8df5638d80c495d277205839ca795",
+      "bytes": 112866
+    },
+    "finalize.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/finalize.py",
+      "sha256": "82e9816d2f61ecb0c4470d031e4a9a66a9211c0382a3871a12fbc914886d1326",
+      "bytes": 6020
+    },
+    "four-thousand-weeks.html": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/four-thousand-weeks.html",
+      "sha256": "a98d103ef3fa0233ad1fb3fab5434ae69f54910399e68946c7aa906e4db3dc90",
+      "bytes": 649386
+    },
+    "make_coverage.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/make_coverage.py",
+      "sha256": "e1c6c448d90e7eb5bdf041bc6488d59f8f2409a31dbf9427a39672c7080abf5d",
+      "bytes": 14574
+    },
+    "metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/metrics.json",
+      "sha256": "434e5c60cbc3799cabf7ed33a324717999f345342a636aced8dd9f74aace84ba",
+      "bytes": 3639
+    },
+    "metrics.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/metrics.md",
+      "sha256": "90aeb08d25856981955cb7a8ac8055807295a2da229df6bdba56ab5efbcdb6f1",
+      "bytes": 443
+    },
+    "parity.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/parity.json",
+      "sha256": "fa92fc1a311811be24bbe8ec279a71f4661b17958464c3f7b2dbd61d60ba1204",
+      "bytes": 394
+    },
+    "passage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/passage-map.json",
+      "sha256": "e1e5ac5997c24148ddbbb5cf8a7c5c1179bb76dcbb69523dd04f54aa38dd60b5",
+      "bytes": 22104
+    },
+    "patch_reader.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/patch_reader.py",
+      "sha256": "c11a99151bc8a58952306e62f8c18dddd84eb65775aeb7f7711fde6d0d283db5",
+      "bytes": 2031
+    },
+    "primary-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/primary-reading-ledger.json",
+      "sha256": "351542e09fa11e11513b55491331054b14a46c42c59642a7e9ca0bcefe4d64a1",
+      "bytes": 17835
+    },
+    "qa-browser-1024.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-1024.json",
+      "sha256": "838fad6af05186267f8636731f940073f14f8526ef01293a76b79d76f36c6286",
+      "bytes": 7878
+    },
+    "qa-browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-1440.json",
+      "sha256": "33a265a0df5fa29a90ce2c2fbed8379119af2149f1a7f742a0052c4c1b58293b",
+      "bytes": 7906
+    },
+    "qa-browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-320.json",
+      "sha256": "fca456cf16e52cc4d9ee7e48ef09c920d77fc304db680df5d8e5d221d135f41a",
+      "bytes": 7872
+    },
+    "qa-browser-390.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-390.json",
+      "sha256": "63994af287ecfb7e5c0f9ed96f6b0c3ecc2a9f53ed36f70ccfccab1e29d2efea",
+      "bytes": 7872
+    },
+    "qa-browser-cold.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-cold.json",
+      "sha256": "82669868665f053cf1592859cb69b9835bcbbc6177858c3e1ba28d82fae410ed",
+      "bytes": 3554
+    },
+    "qa-browser-interaction.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-interaction.json",
+      "sha256": "700c19dbfb57f5abb471c8c01cfdb56a05e2b8faee112793d6c67cca37f8c90b",
+      "bytes": 2287
+    },
+    "qa-browser-ios.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser-ios.json",
+      "sha256": "c208d0093d0d2901e430a712fe1cb7c5140058df8a8d51a6ffb12205002e774b",
+      "bytes": 2958
+    },
+    "qa-browser.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-browser.mjs",
+      "sha256": "2eee4ef9e428f02f2e60ab053baa0c2a4a343e262956a60f4f2b39405154e553",
+      "bytes": 20535
+    },
+    "qa-cold-serif-320.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-cold-serif-320.png",
+      "sha256": "8855954030ec3fcdb930fc6a7cd5f04089f2e7e6f3aa778b826f65ca8541f329",
+      "bytes": 61729
+    },
+    "qa-cover-320.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-cover-320.png",
+      "sha256": "fbec5c09f6cdac0f3ce094f0c775def3e6a2ecc51d57cddccacd987af162611b",
+      "bytes": 29286
+    },
+    "qa-dense-1024.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-1024.png",
+      "sha256": "022ce0bdcb78ab36f506d742855c4ee0063236b28f75c7493db61e23b39b2d04",
+      "bytes": 141011
+    },
+    "qa-dense-1440.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-1440.png",
+      "sha256": "2b20ad5ae023b48cf1867c0b115942dfd55637c4c77ff3c97f8931b072facd86",
+      "bytes": 153449
+    },
+    "qa-dense-320.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-320.png",
+      "sha256": "7a6f4d5b46af2138fba329c2e78d6c1083f7e1bbbd9953043aa40f3f29e4ee67",
+      "bytes": 29631
+    },
+    "qa-dense-390.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-dense-390.png",
+      "sha256": "7a73a30f39e9ffebb84705169d1cd6cf75d4523f9a7eccb9c8ce4423f414b22c",
+      "bytes": 43178
+    },
+    "qa-summary.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/qa-summary.json",
+      "sha256": "f2b718f7f98c0ea0e797d11713794553f5eca6eca0a15e0575a14c867fb4b7b9",
+      "bytes": 1447
+    },
+    "read_primary.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/read_primary.py",
+      "sha256": "cf0b3e21f18b156949059d8796918b3d907348ab79767a8b151fdd5efa8a7744",
+      "bytes": 1029
+    },
+    "read_routes.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/read_routes.py",
+      "sha256": "3612a868f02a96834288bfa94bafe70c470b191aa796dec8fb74aa44df823ffa",
+      "bytes": 1137
+    },
+    "root-review/cold-settings.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/cold-settings.mjs",
+      "sha256": "15db4ef85a12e7f577c7bd61d86cfdd62a0ed5dd43f0eb041e85ccc9c2983348",
+      "bytes": 19622
+    },
+    "root-review/input-HANDOFF.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-HANDOFF.md",
+      "sha256": "32412c2b44d6f40c297b3032e15d42ccc5b8a206110d490fc967b31b154c7526",
+      "bytes": 7121
+    },
+    "root-review/input-QA.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-QA.md",
+      "sha256": "0db1fb94426c308e437f8d112c679145fc876f78a861e8f7cbb63b3e0d61f2bf",
+      "bytes": 4693
+    },
+    "root-review/input-authoring-stages.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-authoring-stages.json",
+      "sha256": "8a2a094bccf8f26a8998b53797b06b2cb8b9d55891b3b3437595edb6a7442a31",
+      "bytes": 1314
+    },
+    "root-review/input-compile.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-compile.py",
+      "sha256": "94a2a59fd7903a0d1a06aa114aaa9ce815f7c123fd26bbb93963320c8104dca5",
+      "bytes": 17653
+    },
+    "root-review/input-coverage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-coverage-map.json",
+      "sha256": "7731e11f7b213dd69b0173ffe572d4e8a3ca8925b438daaf2f711ad43ba0ae4b",
+      "bytes": 28195
+    },
+    "root-review/input-coverage-map.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-coverage-map.md",
+      "sha256": "f3a86f280ed3adfa599e90ff18087d8272c6c6a854d2a1428b4a27445fd90edf",
+      "bytes": 14370
+    },
+    "root-review/input-draft.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-draft.en.md",
+      "sha256": "efa09b5fc79fc31f99843f6515a66a108392d2d05d5940b6483bfe9a2a4599d0",
+      "bytes": 60623
+    },
+    "root-review/input-draft.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-draft.ru.md",
+      "sha256": "8f85c4e68d9be539119cbbba62d6126743097f7f3f44372706bf0a433d5077b3",
+      "bytes": 113687
+    },
+    "root-review/input-four-thousand-weeks.html": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-four-thousand-weeks.html",
+      "sha256": "745e38aa5e0de55539c08ccd6b558db12f9aa0f35d32add2f346f4ddd51bc3ee",
+      "bytes": 650690
+    },
+    "root-review/input-metrics.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-metrics.json",
+      "sha256": "5c6eb93e952512aa6871d6e9b9ee7707e22d8aef5a7c74c6879a4b725e12629d",
+      "bytes": 3641
+    },
+    "root-review/input-passage-map.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-passage-map.json",
+      "sha256": "168b4ebf4c369d59aa1fe4b3968715936a3cc034f1a8033f8ca620d5d94cead1",
+      "bytes": 22104
+    },
+    "root-review/input-patch_reader.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-patch_reader.py",
+      "sha256": "c11a99151bc8a58952306e62f8c18dddd84eb65775aeb7f7711fde6d0d283db5",
+      "bytes": 2031
+    },
+    "root-review/input-primary-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-primary-reading-ledger.json",
+      "sha256": "351542e09fa11e11513b55491331054b14a46c42c59642a7e9ca0bcefe4d64a1",
+      "bytes": 17835
+    },
+    "root-review/input-ready.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-ready.json",
+      "sha256": "f523ad1e5fa04877faee269b91a8edac603fc3ee2d3f08ebae62393f3ac9f1ef",
+      "bytes": 19170
+    },
+    "root-review/input-route-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-route-reading-ledger.json",
+      "sha256": "57806730edf1ad52395eef87eb2800ca16ee429d007d23e64fb8d4318258fee8",
+      "bytes": 8496
+    },
+    "root-review/input-sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-sources.md",
+      "sha256": "0d127643216fbb29ba829bc5250003d786525dbdffc426e4af9bde64f631d4f4",
+      "bytes": 5794
+    },
+    "root-review/input-story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-story-data.json",
+      "sha256": "79ff46a042e043569d77774324cd0bab7c1be9d907d9c13d4f59efbe6ecdee86",
+      "bytes": 239321
+    },
+    "root-review/input-verification.txt": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/input-verification.txt",
+      "sha256": "e8ab326b40b1d52262031bf3b0b7d0633255f182c78356eee841de0c95d7bd91",
+      "bytes": 2254
+    },
+    "root-review/intake-baseline.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/intake-baseline.json",
+      "sha256": "e8a6dde4c7e3d8c8e2e49ad140581441796f8e17f029ab0b2842c9bc40a1535c",
+      "bytes": 277
+    },
+    "root-review/offered.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/offered.json",
+      "sha256": "5e560f58c15ba5749ca4bc2dce7a5afe54d479d4d9702152a116a50094fafc60",
+      "bytes": 389
+    },
+    "root-review/personal-review.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.json",
+      "sha256": "4c18c4fc721635e8044dad82742b70e8d7928e9f90bbd5d391bb7b043cc5253d",
+      "bytes": 10201
+    },
+    "root-review/personal-review.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/personal-review.md",
+      "sha256": "5a793cb6ffdad684705da490c1f1d78996c26352f47c27eeabccb5b34d25c79e",
+      "bytes": 1975
+    },
+    "root-review/polish.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/polish.py",
+      "sha256": "590373eed2195c49c34c2708d7f7f75b2dd34df1677b1711f8bb1d86580efdca",
+      "bytes": 5008
+    },
+    "root-review/primary-selection-plan.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/primary-selection-plan.json",
+      "sha256": "93a602f4bc429e45e72a5b03bb184333c7701df9d84cff9c0281be0965cbff2b",
+      "bytes": 3606
+    },
+    "root-review/protected-inputs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/protected-inputs.json",
+      "sha256": "aa6dc6a14f15a5e381a8121f67109e6cbec54af371af163933b71f832024d0b5",
+      "bytes": 602335
+    },
+    "root-review/qa/1440-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/1440-cover-ru-dark-sans.png",
+      "sha256": "3e955ada6e6a7bca800c42b5d760cc1b534c45765422f2e04dcfc0ccd6c3d26e",
+      "bytes": 123691
+    },
+    "root-review/qa/1440-part-01-passage-01-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/1440-part-01-passage-01-en-dark-sans.png",
+      "sha256": "4ccb3aec9e3ca04747c3356a6a81fa8c97bd93238d8949b775e8bb40538e3d4c",
+      "bytes": 139194
+    },
+    "root-review/qa/1440-part-09-passage-01-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/1440-part-09-passage-01-ru-light-serif.png",
+      "sha256": "409a0a45065c03a92e1a1dd265abab96c6f52ab5d65417eeaab003d57e0c22b9",
+      "bytes": 155662
+    },
+    "root-review/qa/320-cover-ru-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-cover-ru-dark-sans.png",
+      "sha256": "3a78d740d3f2f9cd5c501c71563fb9f71eed476d01f0aef4475e6778fc311f25",
+      "bytes": 40683
+    },
+    "root-review/qa/320-fresh-cover.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-fresh-cover.png",
+      "sha256": "a013a0bd036ef7bd18b52f3e4fd0172676e918f989d455f09776a917cb2c8e1e",
+      "bytes": 29294
+    },
+    "root-review/qa/320-part-01-passage-01-en-dark-sans.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-part-01-passage-01-en-dark-sans.png",
+      "sha256": "c83b854d833bd6d011efe486fd9919c683f8ded61b19c508629b4c19d3d13db1",
+      "bytes": 49981
+    },
+    "root-review/qa/320-part-09-passage-01-ru-light-serif.png": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/320-part-09-passage-01-ru-light-serif.png",
+      "sha256": "e16030fe921bf84c8a5ab14fa64c5a9c4780d5d0eff4670fcdad435a8dcf8472",
+      "bytes": 48690
+    },
+    "root-review/qa/browser-1440-initial-final-selector.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-1440-initial-final-selector.json",
+      "sha256": "03a85d1192bf04eced910db4e21f6cd485f99570b1aadf9391b88ea4fcfdf050",
+      "bytes": 13017
+    },
+    "root-review/qa/browser-1440-initial-source-count-assumption.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-1440-initial-source-count-assumption.json",
+      "sha256": "e2948e66b97c2456428bbaa8943cb217322d61b38dc7edfdca1ec0702bb14bad",
+      "bytes": 12360
+    },
+    "root-review/qa/browser-1440.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-1440.json",
+      "sha256": "569066ba36f61abad517c44cfe9af8933d26b6b28c985d745adbe62276f5334d",
+      "bytes": 13718
+    },
+    "root-review/qa/browser-320-initial-final-selector.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-320-initial-final-selector.json",
+      "sha256": "644a8e9da7238c415e0161df439d391e3ce454f2634911f83d6e681e0e5b7c6d",
+      "bytes": 13014
+    },
+    "root-review/qa/browser-320-initial-source-count-assumption.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-320-initial-source-count-assumption.json",
+      "sha256": "a66167c49e19b470566f01c6d74e60caadb6478454c92a336f20fd44a7f213c4",
+      "bytes": 12358
+    },
+    "root-review/qa/browser-320.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-320.json",
+      "sha256": "0768669a1801eac159b195228d6fb1e9ae047b26e24b64096c88c17c607e0ebc",
+      "bytes": 13715
+    },
+    "root-review/qa/browser-cold-en.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-cold-en.json",
+      "sha256": "49dc2e30ccd4a120bac5f2bc1efd1ae9ad588a725c81bde81b054889d88cba20",
+      "bytes": 1174
+    },
+    "root-review/qa/browser-cold.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-cold.json",
+      "sha256": "21d44a260971c42806c7379470d4530b87e8d99ee64db3ad9210c7d525e61b30",
+      "bytes": 1171
+    },
+    "root-review/qa/browser-resume.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/browser-resume.json",
+      "sha256": "3014ec1381e7744474de0fcfefaa425480d228bfa012dca58b439c4eb5acd2d4",
+      "bytes": 1627
+    },
+    "root-review/qa/root-verification.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/root-verification.json",
+      "sha256": "0ac9f4ba7d028520a02ae2161d422884fea6951aeff27292c2e8633be99889c7",
+      "bytes": 7035
+    },
+    "root-review/qa/runtime-check-initial-final-selector.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/runtime-check-initial-final-selector.mjs",
+      "sha256": "46e20bca6ea89a35dfb4397d2b34145d7dd9e5836fb01e03b85efeba9971d6ce",
+      "bytes": 19939
+    },
+    "root-review/qa/structural-audit.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/qa/structural-audit.json",
+      "sha256": "951b3012313cd2aca553c51f490af729ed161672447720568f3188d6b81a7dc3",
+      "bytes": 433
+    },
+    "root-review/read.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/read.py",
+      "sha256": "0758ab6bd6cf60ee75bed7ad9b6a35ab206a28208b3ddd52995f330236df8059",
+      "bytes": 6103
+    },
+    "root-review/reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/reading-ledger.json",
+      "sha256": "da7ebac42f328d60fbcf762346e8ec361db45f7cc273a26d9dde79ae79c083e2",
+      "bytes": 26702
+    },
+    "root-review/repair.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/repair.py",
+      "sha256": "eab79ae1b443b4efcd368c5833effabaa898bff107a3f99808fef66d4a508554",
+      "bytes": 25771
+    },
+    "root-review/repairs.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/repairs.json",
+      "sha256": "39fe584e3434e409e000d45c168a6255fb00aba30b71b20376e889984d11ad4d",
+      "bytes": 91690
+    },
+    "root-review/runtime-check.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/runtime-check.mjs",
+      "sha256": "e4c5c4d7c1c273bba2e2c29995aab417f578faff18a56bbc2ebfe088b85c70e4",
+      "bytes": 19952
+    },
+    "root-review/verify-root.py": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/root-review/verify-root.py",
+      "sha256": "eb31a057294287fc43947a1a64a7e529e3983d3ef0cb4fe59aca45d2865ad19b",
+      "bytes": 7417
+    },
+    "route-reading-ledger.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route-reading-ledger.json",
+      "sha256": "57806730edf1ad52395eef87eb2800ca16ee429d007d23e64fb8d4318258fee8",
+      "bytes": 8496
+    },
+    "route.core.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.core.en.md",
+      "sha256": "196b6a448f09eae48cb7411ee9ae37421f387a38c53bf1cfbc3ae9a00827bc1d",
+      "bytes": 47536
+    },
+    "route.core.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.core.ru.md",
+      "sha256": "75df136c331f03c54fa0748d90dac6a867ec8e055576f6e8f1ee90555a97df4e",
+      "bytes": 87685
+    },
+    "route.deep.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.deep.en.md",
+      "sha256": "f152aa32617a6dfc7e0243a891bbe0f0d99f5e17c43396911681e70cfee030f7",
+      "bytes": 64099
+    },
+    "route.deep.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.deep.ru.md",
+      "sha256": "be9bbdef6871bdb61c35271ad2dae153d6ebd4f32820fe15fcd6578e579294a3",
+      "bytes": 118104
+    },
+    "route.essential.en.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.essential.en.md",
+      "sha256": "69b563b1df68e9a18581fe4b5084d29b66742f0682c5b684d5330ca0b84ba739",
+      "bytes": 18239
+    },
+    "route.essential.ru.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/route.essential.ru.md",
+      "sha256": "60b62dfb1e6cebf531b4a8db2025610e60d97d26b950edcdb56fcd96567fc823",
+      "bytes": 33600
+    },
+    "sources.md": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/sources.md",
+      "sha256": "3e037e0492f9fbdc649b58c13029ae9ac39203d59c039d36728e2f0d28306e16",
+      "bytes": 7485
+    },
+    "static-audit.txt": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/static-audit.txt",
+      "sha256": "fc6436bfb0bccd6327adbb3de164586b6bb8c484d3aafc4d9f4de744417c7fcf",
+      "bytes": 433
+    },
+    "story-data.json": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/story-data.json",
+      "sha256": "f41539e4046d5681605330f76274e2077d5cdeee16f3e4c71c1cfc6d10e406bc",
+      "bytes": 238017
+    },
+    "verification.txt": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/verification.txt",
+      "sha256": "e8ab326b40b1d52262031bf3b0b7d0633255f182c78356eee841de0c95d7bd91",
+      "bytes": 2254
+    },
+    "verify.mjs": {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/four-thousand-weeks/verify.mjs",
+      "sha256": "1b30504e3568c8b5a2cbc05fb8cf223072037e91311890ef38b7d9c715810e54",
+      "bytes": 6354
+    }
+  },
+  "originalImplementationReady": "root-review/input-ready.json",
+  "bindingBoundary": "This readiness JSON excludes itself. Other files are frozen; further changes require explicit revision, rereading and reacceptance."
+}

@@ -1,0 +1,159 @@
+{
+  "inputHtmlSha256": "745e38aa5e0de55539c08ccd6b558db12f9aa0f35d32add2f346f4ddd51bc3ee",
+  "phase": "cold",
+  "startedAt": "2026-11-01T03:11:13.987Z",
+  "checks": [
+    {
+      "name": "fresh default RU dark Essential Sans",
+      "pass": true
+    },
+    {
+      "name": "cold Serif starts at real nonzero scroll",
+      "pass": true,
+      "detail": {
+        "top": 120,
+        "id": "part-01-passage-01",
+        "fontFaces": [
+          [
+            "Geist",
+            "loaded"
+          ],
+          [
+            "Geist Mono",
+            "loaded"
+          ],
+          [
+            "Geist Serif",
+            "unloaded"
+          ],
+          [
+            "Source Serif 4",
+            "unloaded"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "first cold Serif preserves scroll and passage",
+      "pass": true,
+      "detail": {
+        "before": {
+          "top": 120,
+          "id": "part-01-passage-01",
+          "fontFaces": [
+            [
+              "Geist",
+              "loaded"
+            ],
+            [
+              "Geist Mono",
+              "loaded"
+            ],
+            [
+              "Geist Serif",
+              "unloaded"
+            ],
+            [
+              "Source Serif 4",
+              "unloaded"
+            ]
+          ]
+        },
+        "after": {
+          "top": 120,
+          "id": "part-01-passage-01",
+          "font": "serif"
+        }
+      }
+    },
+    {
+      "name": "Cyrillic actual Serif fallback",
+      "pass": true,
+      "detail": {
+        "fonts": [
+          {
+            "familyName": "Source Serif 4",
+            "postScriptName": "SourceSerif4-Regular",
+            "isCustomFont": true,
+            "glyphCount": 545
+          },
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 89
+          }
+        ]
+      }
+    },
+    {
+      "name": "Settings arrow keys select radio without paging",
+      "pass": true
+    },
+    {
+      "name": "Settings theme ArrowRight",
+      "pass": true
+    },
+    {
+      "name": "Escape and focus return",
+      "pass": true
+    },
+    {
+      "name": "Latin actual Geist Serif",
+      "pass": true,
+      "detail": {
+        "fonts": [
+          {
+            "familyName": "Geist Serif",
+            "postScriptName": "GeistSerif-Regular",
+            "isCustomFont": true,
+            "glyphCount": 617
+          }
+        ]
+      }
+    },
+    {
+      "name": "zero page runtime errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "zero remote runtime requests",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "failures": [],
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "profile": "/var/folders/78/c4cjg2412cjc0sxqpcm986rc0000gn/T/four-thousand-weeks-qa-im3qUw",
+  "actualRussianParagraphFonts": {
+    "fonts": [
+      {
+        "familyName": "Source Serif 4",
+        "postScriptName": "SourceSerif4-Regular",
+        "isCustomFont": true,
+        "glyphCount": 545
+      },
+      {
+        "familyName": "Geist Serif",
+        "postScriptName": "GeistSerif-Regular",
+        "isCustomFont": true,
+        "glyphCount": 89
+      }
+    ]
+  },
+  "actualEnglishParagraphFonts": {
+    "fonts": [
+      {
+        "familyName": "Geist Serif",
+        "postScriptName": "GeistSerif-Regular",
+        "isCustomFont": true,
+        "glyphCount": 617
+      }
+    ]
+  },
+  "profileRemoved": true,
+  "ownedGroupTerminated": true,
+  "finishedAt": "2026-11-01T03:11:14.958Z"
+}

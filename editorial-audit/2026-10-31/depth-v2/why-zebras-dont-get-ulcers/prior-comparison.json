@@ -1,0 +1,123 @@
+{
+  "readScope": "All 144 current root embedded RU/EN pairs and all 51 collector RU/EN pairs read in bounded displayed chunks. Historical reviews used for orientation, not replacement evidence.",
+  "currentPairs": 144,
+  "rootCollectorScreensEqual": false,
+  "rootHtmlSha256": "f156369dce1d7d43492fad088b58cf5bb5673e36e0f4cf36a00ae3d47b5297f3",
+  "collectorDataSha256": "91ae466b3da4d53ada52a195893a9367a5ab78f070c3ef36271d8e11e7c5d067",
+  "changedOutsideOwnedDirectory": false,
+  "rootPairsRead": {
+    "startInclusive": 0,
+    "endExclusive": 144
+  },
+  "collectorPairsRead": {
+    "startInclusive": 0,
+    "endExclusive": 51
+  },
+  "rootReadChunks": [
+    [
+      0,
+      18
+    ],
+    [
+      18,
+      40
+    ],
+    [
+      40,
+      52
+    ],
+    [
+      52,
+      70
+    ],
+    [
+      70,
+      88
+    ],
+    [
+      88,
+      106
+    ],
+    [
+      106,
+      124
+    ],
+    [
+      124,
+      144
+    ]
+  ],
+  "collectorReadChunks": [
+    [
+      0,
+      26
+    ],
+    [
+      26,
+      51
+    ]
+  ],
+  "wordMethod": "Same Unicode lexical regex as the maintained builder; body excludes cover, headings, UI and source notes, includes final.",
+  "currentRoot": {
+    "modes": {
+      "essential": {
+        "screens": 36,
+        "ru": {
+          "bodyWords": 1565
+        },
+        "en": {
+          "bodyWords": 1709
+        }
+      },
+      "core": {
+        "screens": 90,
+        "ru": {
+          "bodyWords": 3916
+        },
+        "en": {
+          "bodyWords": 4296
+        }
+      },
+      "deep": {
+        "screens": 144,
+        "ru": {
+          "bodyWords": 6252
+        },
+        "en": {
+          "bodyWords": 6896
+        }
+      }
+    }
+  },
+  "collector": {
+    "modes": {
+      "essential": {
+        "screens": 25,
+        "ru": {
+          "bodyWords": 1070
+        },
+        "en": {
+          "bodyWords": 1155
+        }
+      },
+      "core": {
+        "screens": 42,
+        "ru": {
+          "bodyWords": 1848
+        },
+        "en": {
+          "bodyWords": 1975
+        }
+      },
+      "deep": {
+        "screens": 51,
+        "ru": {
+          "bodyWords": 2247
+        },
+        "en": {
+          "bodyWords": 2390
+        }
+      }
+    }
+  }
+}

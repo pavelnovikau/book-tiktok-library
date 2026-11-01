@@ -1,5 +1,5 @@
 {
-  "asOfUtc": "2026-11-01T02:27:19.193535+00:00",
+  "asOfUtc": "2026-11-01T03:36:39.291928+00:00",
   "plannedAdditions": 58,
   "preexisting": 4,
   "totalPlanned": 62,
@@ -115,10 +115,10 @@
       "currentlyOnSite": true,
       "liveVersion": "исправленная",
       "reviewHashesMatch": null,
-      "depthReviewStatus": "reopened",
+      "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
-      "rootExpandedTextAccepted": false
+      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "rootExpandedTextAccepted": true
     },
     {
       "slug": "selfie",
@@ -131,7 +131,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-writing-assigned",
       "rootExpandedTextAccepted": false
     },
     {
@@ -187,7 +187,7 @@
       "reviewHashesMatch": true,
       "depthReviewStatus": "reopened",
       "notes": "",
-      "maximumDepthStage": "awaiting-expanded-work",
+      "maximumDepthStage": "expanded-awaiting-root-personal-reading",
       "rootExpandedTextAccepted": false
     },
     {
@@ -411,7 +411,7 @@
       "reviewHashesMatch": null,
       "depthReviewStatus": "root-accepted-expanded",
       "notes": "",
-      "maximumDepthStage": "root-personally-accepted-awaiting-publication",
+      "maximumDepthStage": "root-accepted-and-live",
       "rootExpandedTextAccepted": true
     },
     {
@@ -921,14 +921,15 @@
   ],
   "newBookContentPublicationHeld": true,
   "depthCriterionReopened": true,
-  "basis": "62 approved positions. Production remains PR41 at58books/2536screens until this release is merged/verified. Historical factual stages are distinct from personal maximum-depth acceptance.",
+  "basis": "62 approved positions. Verified production remains PR42,58books/2615screens until this release is merged/verified. Historical factual stages are distinct from root maximum-depth acceptance.",
   "maximumDepthStages": {
-    "awaiting-expanded-work": 51,
+    "awaiting-expanded-work": 49,
     "source-map-incomplete": 1,
+    "root-personally-accepted-awaiting-publication": 1,
+    "expanded-writing-assigned": 1,
     "expanded-awaiting-root-personal-reading": 4,
-    "root-accepted-and-live": 5,
-    "root-personally-accepted-awaiting-publication": 1
+    "root-accepted-and-live": 6
   },
   "maximumDepthStageBasis": "Current root criterion, callbacks and exact production proof. Runtime worker status has not been polled.",
-  "rootExpandedAcceptedPublished": 5
+  "rootExpandedAcceptedPublished": 6
 }

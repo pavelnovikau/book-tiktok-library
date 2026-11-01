@@ -1,0 +1,68 @@
+{
+  "phase": "1440",
+  "width": 1440,
+  "height": 900,
+  "timeoutSeconds": 30,
+  "noContentServer": true,
+  "inputHashes": {
+    "story-data.json": "a992473927ae6cab800b6016d79b3559ad6d8dcce3929d96eab18143c64bd150",
+    "why-zebras-dont-get-ulcers.html": "c818ee4a4c5ed6a12cf4f97748be8b2e6832f6f31f84cae20355006912e99cc5",
+    "root-review/cold-settings.mjs": "af7219754c2fc8fa6ebdcbec1c4ed464b58b1b6c00466636efbfc836d0509f35"
+  },
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "legacy": {
+    "language": "en",
+    "mode": "deep",
+    "id": "workplace-check",
+    "currentLast": null
+  },
+  "routes": [
+    {
+      "l": "ru",
+      "m": "essential",
+      "count": 37,
+      "bad": []
+    },
+    {
+      "l": "ru",
+      "m": "core",
+      "count": 70,
+      "bad": []
+    },
+    {
+      "l": "ru",
+      "m": "deep",
+      "count": 107,
+      "bad": []
+    },
+    {
+      "l": "en",
+      "m": "essential",
+      "count": 37,
+      "bad": []
+    },
+    {
+      "l": "en",
+      "m": "core",
+      "count": 70,
+      "bad": []
+    },
+    {
+      "l": "en",
+      "m": "deep",
+      "count": 107,
+      "bad": []
+    }
+  ],
+  "layouts": [],
+  "status": "failed",
+  "error": "Error: {\"exceptionId\":1,\"text\":\"Uncaught\",\"lineNumber\":0,\"columnNumber\":840,\"scriptId\":\"28\",\"stackTrace\":{\"callFrames\":[{\"functionName\":\"\",\"scriptId\":\"28\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":840},{\"functionName\":\"\",\"scriptId\":\"28\",\"url\":\"\",\"lineNumber\":0,\"columnNumber\":905}]},\"exception\":{\"type\":\"object\",\"subtype\":\"error\",\"className\":\"ReferenceError\",\"description\":\"ReferenceError: id is not defined\\n    at <anonymous>:1:841\\n    at <anonymous>:1:906\",\"objectId\":\"6556950156840444252.2.2\"}}\n    at ev (file:///Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/why-zebras-dont-get-ulcers/root-review/cold-settings.mjs:25:146)\n    at async file:///Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/why-zebras-dont-get-ulcers/root-review/cold-settings.mjs:72:41",
+  "profileRemoved": true,
+  "ownedProcessRemainders": [],
+  "processGroupTerminated": true
+}

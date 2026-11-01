@@ -1,0 +1,67 @@
+{
+  "scope": "Same standalone file, real reload; synthetic storage event separately identified. No cross-file or physical Safari claim.",
+  "inputHashes": {
+    "story-data.json": "0575a86534fc467ea5a857f9d036ecb429291ecdb6c49707d0a6cb85f4d2a6c7",
+    "why-zebras-dont-get-ulcers.html": "f3be109bcb158ce4da3cb7edc9fe71695964457d122e4a77b55a6358b75dca3b",
+    "qa/preference-check.mjs": "486a128eb924bc626ffdb89149d374cfe3aa7369165b16a84f2091f0eb381ffe"
+  },
+  "checks": [
+    "isolated Chrome target",
+    "global v1 preferences saved by Settings",
+    "Settings preserve exact ID, depth and reading scroll",
+    "real reload restores EN, global light and Serif",
+    "real reload and Continue preserve expanded-book position",
+    "synthetic global storage event refreshes Settings without paging",
+    "zero runtime exceptions",
+    "zero remote runtime requests"
+  ],
+  "changed": {
+    "before": {
+      "id": "unit-027",
+      "mode": "deep",
+      "scroll": 30
+    },
+    "after": {
+      "id": "unit-027",
+      "mode": "deep",
+      "scroll": 30
+    },
+    "global": {
+      "version": 1,
+      "theme": "light",
+      "readingFont": "serif"
+    },
+    "lang": "en",
+    "theme": "light",
+    "font": "serif"
+  },
+  "realDocumentReload": true,
+  "reloaded": {
+    "before": {
+      "lang": "en",
+      "theme": "light",
+      "font": "serif",
+      "mode": "deep",
+      "id": "unit-027",
+      "continueOffered": true
+    },
+    "title": "The nurse goes on vacation",
+    "id": "unit-027",
+    "theme": "light",
+    "font": "serif"
+  },
+  "syntheticStorageEvent": {
+    "theme": "dark",
+    "font": "sans",
+    "title": "The nurse goes on vacation"
+  },
+  "errors": [],
+  "remoteRuntimeRequests": [],
+  "status": "local-checks-completed",
+  "cleanup": {
+    "profileRemoved": true,
+    "remainingOwnedPids": [],
+    "timeoutSeconds": 30,
+    "isolatedProcessGroup": true
+  }
+}

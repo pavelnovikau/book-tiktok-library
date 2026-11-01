@@ -1,3 +1,27 @@
+# Current personal review queue —2026-11-01
+
+Zebra personally accepted at37/70/107 after complete bilingual retelling reading, shorter-route continuity,18-chapter/68-grouped-case map and45 selected primary passages. Deep13219RU/13988EN body words. Publication pending; six expanded books already live. Irvine, Make Time, Essentialism and Four Thousand Weeks await personal reading. Selfie remains assigned; Behave source coverage incomplete. All62 positions require individual root acceptance.
+
+This current block supersedes historical states below.
+
+---
+
+# Additional assigned preparation — 2026-11-01
+
+Two new bounded Sol max implementations assigned: Four Thousand Weeks (complete owned55495-word extraction) and Selfie (complete owned97266-word extraction). Actual main text and methodological/appendix boundaries must be read and mapped, not replaced by summaries. Both work only in their own new candidate folders; no root/global/Git/publication changes. Root next personal reading remains Zebra, Irvine, Make Time, Essentialism. All new versions require root personal acceptance; no runtime polling.
+
+The personal reading queue and verified production release below remain current.
+
+---
+
+# Current personal reading queue — 2026-11-01
+
+Children of Captain Grant PR42 is personally accepted, merged31de7b22 and production-verified at26/69/116,12410RU/14921EN narrative words. Six expanded works are personally accepted/live; production58books/2615screens. Next personal reading: Zebra, Irvine, Make Time, Essentialism. Their worker files are hash-ingested only. Behave actual-primary gaps remain. All62 positions retain individual root acceptance.
+
+This current block supersedes historical states below.
+
+---
+
 # Current personal review queue — 2026-11-01
 
 Children of Captain Grant is personally accepted at26/69/116 after complete RU/EN retelling reading, full coverage/omission maps and selected actual primary checks. Deep12410RU/14921EN narrative words; publication being prepared. Five expanded works are live. Next personal reading: Zebra, Irvine, Make Time, Essentialism. Their completion hashes are verified; prose is unaccepted. Behave actual-primary coverage remains incomplete. All62 positions retain individual root acceptance.

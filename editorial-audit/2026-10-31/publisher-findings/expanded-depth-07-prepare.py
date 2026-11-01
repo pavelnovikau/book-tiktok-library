@@ -1,0 +1,68 @@
+from pathlib import Path
+import json, hashlib, datetime, csv, shutil, subprocess, collections
+
+C=Path('/Users/pn/smartcat/_artifacts/book-tiktok-library')
+P=Path('/Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031')
+rel=Path('editorial-audit/2026-10-31');A=C/rel
+slug='why-zebras-dont-get-ulcers';H=A/'depth-v2'/slug
+load=lambda p:json.loads(p.read_text())
+dump=lambda p,d:p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n')
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+stamp=datetime.datetime.now(datetime.timezone.utc).isoformat()
+base=subprocess.check_output(['git','rev-parse','HEAD'],cwd=P,text=True).strip()
+assert base=='31de7b228e630e1e34e5787ea5d178f2796db821'
+assert not subprocess.check_output(['git','status','--porcelain','--untracked-files=no'],cwd=P,text=True).strip()
+ready=load(H/'ready.json');report=load(H/'root-review/personal-review.json')
+assert ready['rootPersonalAcceptance'] and ready['publicationAllowed'] and not report['requiredOpenFindings']
+for n,r in ready['allArtifactHashes'].items():assert sha(Path(r['path']))==r['sha256'],n
+assert sha(H/'root-review/personal-review.json')==ready['rootPersonalReviewSha256']
+old=load(P/'books.json');cat=json.loads(json.dumps(old));b=next(x for x in cat['books'] if x['slug']==slug)
+assert b['screenCount']==51
+b['screenCount']=107;b['readingMinutes']={k:int(v['ru']['uiMinutes'].split()[0]) for k,v in report['metrics'].items()}
+assert all(x==y for x,y in zip(old['books'],cat['books']) if x['slug']!=slug)
+shutil.copyfile(H/(slug+'.html'),P/(slug+'.html'));dump(P/'books.json',cat)
+assert len(cat['books'])==58 and sum(x['screenCount'] for x in cat['books'])==2671
+plan=load(A/'depth-v2/PLAN.json');plan['atUtc']=stamp
+for x in plan['books']:
+    if x['slug']==slug:x.update(status='root-personally-accepted-awaiting-publication',rootAcceptance=str(H/'root-review/personal-review.json'),rootEntireRuEnDraftRead=True,rootAllNestedRoutesRead=True,rootRouteReadingMethod=report['personalReading']['routeReadingMethod'],rootCoverageMapCompared=True,rootKeyPrimaryPassagesChecked=True,rootOmissionsAndQualificationsReviewed=True,replacementPublicationAllowed=True,expandedCounts=report['counts'],acceptedHashes={n:sha(H/n) for n in ['story-data.json',slug+'.html']})
+dump(A/'depth-v2/PLAN.json',plan)
+pub=load(A/'publication-state.json');pub['rootAcceptedNotYetPublished']=[slug];dump(A/'publication-state.json',pub)
+hold=load(A/'publisher-findings/fiction-depth-publication-hold.json');hold['atUtc']=stamp
+hold['rootAcceptedExceptions'][slug]={'report':str(H/'root-review/personal-review.json'),'reportSha256':ready['rootPersonalReviewSha256'],'htmlSha256':sha(H/(slug+'.html')),'jsonSha256':sha(H/'story-data.json')}
+dump(A/'publisher-findings/fiction-depth-publication-hold.json',hold)
+dispatch=load(A/'publisher-findings/release07-and-ten-worker-dispatch.json');dispatch['atUtc']=stamp
+dispatch.update(currentPublisher='root; personally accepted expanded Zebra release',runtimeStatusPolled=False,assignmentCount=len(dispatch['workerAssignments']),assignmentNote='Selfie remains assigned; no runtime polling. Four Thousand Weeks completion/hash intake is recorded. Irvine, Make Time, Essentialism and Four Thousand Weeks await personal reading. Zebra personally accepted; release pending.')
+dispatch['latestDepthCompleted'][slug]='Root personally accepted37/70/107; release pending'
+dump(A/'publisher-findings/release07-and-ten-worker-dispatch.json',dispatch)
+status=load(A/'library-status.json');status['asOfUtc']=stamp
+stages={x['slug']:x for x in plan['books']}
+for x in status['books']:
+    stage=stages[x['slug']]['status'];x['maximumDepthStage']={'needs-root-depth-and-source-assessment':'awaiting-expanded-work','expanded-source-map-incomplete':'source-map-incomplete'}.get(stage,stage)
+    x['rootExpandedTextAccepted']=bool(stages[x['slug']]['rootAcceptance'])
+    if x['slug']==slug:x['depthReviewStatus']='root-accepted-expanded'
+status['maximumDepthStages']=dict(collections.Counter(x['maximumDepthStage'] for x in status['books']));assert sum(status['maximumDepthStages'].values())==62
+status['basis']='62 approved positions. Verified production remains PR42,58books/2615screens until this release is merged/verified. Historical factual stages are distinct from root maximum-depth acceptance.'
+dump(A/'library-status.json',status)
+labels={'awaiting-expanded-work':'Awaits expanded work','source-map-incomplete':'Primary-source coverage incomplete','expanded-writing-assigned':'Expanded version assigned','root-accepted-and-live':'Personally accepted and live','root-personally-accepted-awaiting-publication':'Personally accepted; release pending','expanded-awaiting-root-personal-reading':'Candidate awaits personal root reading'}
+md='# Library depth status\n\nUpdated '+stamp+'.62 approved positions. Six personally accepted expanded books live; Zebra accepted, publication pending. Irvine, Make Time, Essentialism, Four Thousand Weeks await reading. Selfie assigned; no runtime polling.\n\n| Current depth stage | Count |\n|---|---:|\n'+''.join('| '+labels.get(k,k)+' | '+str(v)+' |\n' for k,v in status['maximumDepthStages'].items())+'\n| Book | Author | Current depth stage |\n|---|---|---|\n'+''.join('| '+x['title']+' | '+x['author']+' | '+labels.get(x['maximumDepthStage'],x['maximumDepthStage'])+' |\n' for x in status['books'])
+(A/'library-status.md').write_text(md)
+p=A/'library-status.csv'
+with p.open(encoding='utf-8-sig',newline='') as f:r=csv.DictReader(f);fields=r.fieldnames;rows=list(r)
+by={x['slug']:x for x in status['books']}
+for x in rows:x.update(maximumDepthStage=by[x['slug']]['maximumDepthStage'],rootExpandedTextAccepted=str(by[x['slug']]['rootExpandedTextAccepted']).lower())
+with p.open('w',encoding='utf-8-sig',newline='') as f:w=csv.DictWriter(f,fieldnames=fields,lineterminator='\n');w.writeheader();w.writerows(rows)
+intake=load(A/f'depth-v2/root-intake/{slug}.json');intake.update(stage='root-personally-accepted-awaiting-publication',rootPersonalAcceptance=True,publicationAllowed=True,rootPersonalReview=str(H/'root-review/personal-review.json'),rootPersonalReviewSha256=ready['rootPersonalReviewSha256'],counts=report['counts'],exactAcceptedHashes=report['exactContentHashes']);dump(A/f'depth-v2/root-intake/{slug}.json',intake)
+note='Zebra personally accepted at37/70/107 after complete bilingual retelling reading, shorter-route continuity,18-chapter/68-grouped-case map and45 selected primary passages. Deep13219RU/13988EN body words. Publication pending; six expanded books already live. Irvine, Make Time, Essentialism and Four Thousand Weeks await personal reading. Selfie remains assigned; Behave source coverage incomplete. All62 positions require individual root acceptance.'
+(A/'depth-v2/PLAN.md').write_text((A/'depth-v2/PLAN.md').read_text()+'\n\nCurrent '+stamp+': '+note+'\n')
+(C/'NEXT_STEPS.md').write_text('# Current personal review queue —2026-11-01\n\n'+note+'\n\nThis current block supersedes historical states below.\n\n---\n\n'+(C/'NEXT_STEPS.md').read_text())
+(C/'README.md').write_text((C/'README.md').read_text().replace('# Book TikTok Library\n','# Book TikTok Library\n\nCurrent2026-11-01: '+note+' This statement supersedes historical notes below.\n',1))
+receipt={'atUtc':stamp,'slug':slug,'baseMerge':base,'rootReview':str(H/'root-review/personal-review.json'),'rootReviewSha256':ready['rootPersonalReviewSha256'],'acceptedHashes':{n:sha(H/n) for n in ['story-data.json',slug+'.html']},'counts':report['counts'],'candidateBindingsVerified':len(ready['allArtifactHashes']),'scope':'Only one personally accepted expanded reader plus catalogue count/times.57 other catalogue entries and58 other root HTML remain unchanged. Evidence excluded from public build.','allOtherNewBookContentHeld':True}
+dump(A/'publisher-findings/expanded-depth-07-intake.json',receipt)
+shutil.copytree(H,P/rel/'depth-v2'/slug,dirs_exist_ok=True)
+names=['depth-v2/PLAN.json','depth-v2/PLAN.md','depth-v2/root-intake/'+slug+'.json','depth-v2/root-intake/four-thousand-weeks.json','publication-state.json','production-catalogue.json','library-status.json','library-status.csv','library-status.md','publisher-findings/fiction-depth-publication-hold.json','publisher-findings/release07-and-ten-worker-dispatch.json']
+for n in names:(P/rel/n).parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(A/n,P/rel/n)
+for n in ['NEXT_STEPS.md','README.md']:shutil.copyfile(C/n,P/n)
+for pattern in ['expanded-depth-06-*','expanded-depth-07-*']:
+    for q in (A/'publisher-findings').glob(pattern):
+        if q.is_file():shutil.copyfile(q,P/rel/'publisher-findings'/q.name)
+print(json.dumps({'base':base,'intendedBooks':58,'intendedScreens':2671,'bindings':len(ready['allArtifactHashes']),'maximumDepthStages':status['maximumDepthStages']}))

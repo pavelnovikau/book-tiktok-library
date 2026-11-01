@@ -1,0 +1,57 @@
+{
+  "accessDate": "2026-11-01",
+  "method": "Direct pages opened through the web tool; relevant rendered body sections read. No archived full-page snapshot or source-page byte hash is claimed.",
+  "bookEvidence": "The actual book evidence is the private complete RU main text and prefaces recorded in source-reading-ledger.json, not any web blurb.",
+  "pages": [
+    {
+      "sourceId": 1,
+      "role": "publisher identification for the private book source",
+      "url": "https://www.piter.com/product/pochemu-u-zebr-ne-byvaet-infarkta-psihologiya-stressa",
+      "scopeRead": "Edition title, author, printing year and ISBN; promotional description not used as scientific evidence."
+    },
+    {
+      "sourceId": 2,
+      "role": "reference",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/peptic-ulcers-stomach-ulcers/symptoms-causes",
+      "scopeRead": "Relevant causes section, including H. pylori and NSAIDs.",
+      "candidateUse": "Explicit current qualification in unit-022."
+    },
+    {
+      "sourceId": 3,
+      "role": "reference",
+      "url": "https://www.cancer.gov/about-cancer/coping/feelings/stress-fact-sheet",
+      "scopeRead": "Human onset evidence, laboratory progression mechanisms and direct survival-evidence limit.",
+      "candidateUse": "Explicit current qualification in unit-044."
+    },
+    {
+      "sourceId": 4,
+      "role": "reference",
+      "url": "https://www.nimh.nih.gov/health/publications/depression",
+      "scopeRead": "Definition, symptoms and multifactorial causes; not a clinical-treatment literature review.",
+      "candidateUse": "Explicit current qualification in unit-069."
+    },
+    {
+      "sourceId": 5,
+      "role": "primary research abstract",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30845820/",
+      "scopeRead": "Full abstract and bibliographic record; the full article was not read.",
+      "candidateUse": "Explicit later candidate-gene qualification in unit-076; does not reject heredity or environmental influence generally."
+    },
+    {
+      "sourceId": 6,
+      "role": "reference",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/type-2-diabetes",
+      "scopeRead": "Definition and medicines sections; insulin use in type 2.",
+      "candidateUse": "Explicit current classification qualification in unit-017; not prescribing advice."
+    },
+    {
+      "sourceId": 6,
+      "role": "supporting official reference for the same narrow qualification",
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes",
+      "scopeRead": "Type 1 and type 2 mechanism definitions.",
+      "candidateUse": "Mechanism boundary accompanying source 6; not a general contemporary diabetes review."
+    }
+  ],
+  "contemporaryQualificationScreens": ["unit-017", "unit-022", "unit-044", "unit-069", "unit-076"],
+  "fullContemporaryConsensusReview": false
+}

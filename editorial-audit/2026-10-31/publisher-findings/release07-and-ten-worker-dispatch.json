@@ -1,0 +1,197 @@
+{
+  "atUtc": "2026-11-01T01:36:29.404748+00:00",
+  "publisher07": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Ace38bf81-1a81-4a93-8a4a-e669022af85d",
+  "publisherQueue": [
+    "have-space-suit-will-travel",
+    "holes",
+    "the-hobbit",
+    "howls-moving-castle",
+    "northern-lights",
+    "enders-game",
+    "to-kill-a-mockingbird"
+  ],
+  "publisherQueueNote": "Book publication is allowed only for exact root-personally-accepted expanded hashes; old factual PASS alone is insufficient.",
+  "workerAssignments": {
+    "why-zebras-dont-get-ulcers": "expanded physiology, whole argument and cases",
+    "a-guide-to-the-good-life": "expanded actual philosophical argument and practice"
+  },
+  "runtimeStatusPolled": false,
+  "assignmentCount": 2,
+  "published": {
+    "books": 58,
+    "screens": 2392,
+    "previousCriterionAcceptedVersions": 57,
+    "catalogueVerified": true,
+    "allAssets09Verified": true,
+    "maximumDepthReopened": true,
+    "allCurrentAssetsVerified": false,
+    "rootExpandedAcceptedAndLive": 3,
+    "changedAssets38Verified": true,
+    "changedAssets39Verified": true
+  },
+  "workerTaskIds": {
+    "why-zebras-dont-get-ulcers": "4b905191-6f97-4ff2-837e-cc5d11246d15",
+    "a-guide-to-the-good-life": "70110b6d-c14e-48e0-be5b-b01991cc8a01"
+  },
+  "taskIdPrefix": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A",
+  "assignmentNote": "Two remaining existing Sol max writing assignments; Grant completed. Root personally accepts and publishes. Completion-driven; no runtime polling.",
+  "publisher07Status": "completed; PR33 merged77b62beb; exact47-book live catalogue checked; complete production verification pending publisher08",
+  "publisher08": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A31f48a72-28e4-4215-b133-a05781e5867a",
+  "publisher08Checkout": "/Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031",
+  "publisherNextQueuedAfterSeal": [
+    "mans-search-for-meaning",
+    "a-fall-of-moondust"
+  ],
+  "recentCompletedAndReplaced": {
+    "the-neverending-story": "95f6ceb3-5f03-4815-baaf-8bb9847e28cc",
+    "i-robot": "0ce3f464-c1d7-4840-a2c5-802e1b9210ce",
+    "the-hitchhikers-guide-to-the-galaxy": "7123b65f-e27c-4eed-90cc-8e946b03181c",
+    "the-wee-free-men": "3ad80968-0b51-48ab-874e-e5e79af3c8b4",
+    "the-potent-self": "52889e38-1b3b-4675-8323-6b70d7d94db5"
+  },
+  "additionalCompleted": {
+    "catalogue-meaning-review": "05e903a1-b7c1-4da3-bb95-2926babfb273",
+    "legacy-progress-review": "40f36deb-0238-40ec-94e9-51fec4617029",
+    "kaverin-pass3": "99dd0ae0-331f-4e5f-9d4e-abda5e42b8ff",
+    "solaris-late-scout": "917f72fe-11d5-4e12-b688-2b6a8522f4a5",
+    "ubik-late-scout": "dc07f211-3377-4d61-9908-b493f4b04181"
+  },
+  "publisher08Status": "completed; PR34 merged e0746db; exact53-book/2206-screen live catalogue verified; full64asset proof pending publisher09",
+  "publisher09": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3A8332540e-2720-4961-8aa6-64dc9d0413eb",
+  "publisher09Intake": "publisher-findings/parent-release09-queue.json",
+  "workerWorkItems": [
+    {
+      "slug": "thinking-fast-and-slow",
+      "role": "expanded-depth pilot",
+      "taskId": "51e61680-f9cd-4509-9679-ed4516d63b6f"
+    },
+    {
+      "slug": "treasure-island",
+      "role": "expanded sustained adventure",
+      "taskId": "3726bc64-9337-4037-b8f6-8e419153fa4b"
+    },
+    {
+      "slug": "the-lost-world",
+      "role": "expanded sustained expedition",
+      "taskId": "905c6c1a-ae0f-470c-8f2c-2cdcc28df56d"
+    }
+  ],
+  "workerTaskIdsByRole": {
+    "thinking-fast-and-slow/expanded-depth pilot": "51e61680-f9cd-4509-9679-ed4516d63b6f",
+    "treasure-island/expanded sustained adventure": "3726bc64-9337-4037-b8f6-8e419153fa4b",
+    "the-lost-world/expanded sustained expedition": "905c6c1a-ae0f-470c-8f2c-2cdcc28df56d"
+  },
+  "completedWorkItems": [
+    {
+      "slug": "the-two-captains",
+      "role": "museum/library source scout",
+      "taskId": "61a940fc-be29-468c-88e4-2df838dedf16",
+      "result": "SOURCE-GAP; no new evidence",
+      "ingestion": "publisher-findings/kaverin-museum-result-ingestion.json"
+    },
+    {
+      "slug": "a-fall-of-moondust",
+      "role": "independent review",
+      "taskId": "ca0120c0-7336-4401-bc9d-de7ab3bce3a8",
+      "result": "PASS; queued for release10",
+      "review": "editorial-audit/2026-10-31/reviews/a-fall-of-moondust-concise-pass3.json"
+    },
+    {
+      "slug": "the-two-captains",
+      "role": "author/archive source scout",
+      "taskId": "0aa40703-1f98-40c6-8cf9-8c5cd48c7ac5",
+      "result": "SOURCE-GAP; official Orenburg final-installment link lead is being resolved by root",
+      "report": "editorial-audit/2026-10-31/source-rescue/kaverin-provisioning-author-archive-scout.md"
+    },
+    {
+      "slug": "ubik",
+      "role": "independent review",
+      "taskId": "6e058787-a26e-41bd-ba98-0a446e36fddb",
+      "result": "EDIT; EN detail corrected locally; publication held",
+      "report": "editorial-audit/2026-10-31/reviews/ubik-narrative-pass2.json",
+      "reportSha256": "b4ee52634f53c4ff2ffc1ebe42740bc81204a2e168383c286fec54fd10ae4d10"
+    },
+    {
+      "slug": "the-martian-chronicles",
+      "role": "whole-arc implementation",
+      "taskId": "03e25ada-ab5b-4ee9-aa63-56f72ce002e5",
+      "result": "64 pairs 19/34/64; new candidate unreviewed and publication held",
+      "report": "editorial-audit/2026-10-31/ready/the-martian-chronicles.json",
+      "reportSha256": "54f24194401b037b65e6f89a0a2bc0cd9c380ced8f66d72c6fa71315a1c8b306"
+    },
+    {
+      "slug": "the-two-captains",
+      "role": "scholarship source scout",
+      "taskId": "a9024541-e2fa-46f5-afda-508bf1fab47c",
+      "result": "New named secondary corroboration; actual supply-proof passage still unread",
+      "report": "editorial-audit/2026-10-31/source-rescue/kaverin-provisioning-scholarship-scout.json",
+      "reportSha256": "0d6889c62b37da19e1773f09fb256ff49c08b24ae4f26051d5d0bf3b23d85b75"
+    },
+    {
+      "slug": "the-two-captains",
+      "role": "source sufficiency review",
+      "taskId": "c7e16273-d9af-40bd-be9a-3d226b1bc27e",
+      "result": "Bounded reported public reveal is supportable; detailed provisioning and maximum depth not certified",
+      "report": "editorial-audit/2026-10-31/source-rescue/kaverin-concise-evidence-sufficiency.json",
+      "reportSha256": "99806d08e0a69c2c2bfdf6802190594bc4425b0be2fdae673752534599669b4c"
+    },
+    {
+      "slug": "the-martian-chronicles",
+      "role": "late empty-house source scout",
+      "taskId": "2215ee2d-1e26-4686-80bb-c1ddba64e861",
+      "result": "Permission-noticed complete story reprint read by scout; edition/access limits retained",
+      "report": "editorial-audit/2026-10-31/source-rescue/martian-soft-rains-source-scout.json",
+      "reportSha256": "4f62b36d08a9421356eed321ebf38c7cf33045de5d997fa9f8644ea89fbc0d9e"
+    },
+    {
+      "slug": "the-martian-chronicles",
+      "role": "final-picnic source scout",
+      "taskId": "1c81ede1-8da6-4404-92a7-2a75119f85cd",
+      "result": "New quotation witnesses; no whole story or cycle reading certificate",
+      "report": "editorial-audit/2026-10-31/source-rescue/martian-final-picnic-source-scout.json",
+      "reportSha256": "0c65417bebc2bf77ea2e21176a5352a58913974b005b8f2149678e69c39b61be"
+    },
+    {
+      "slug": "the-martian-chronicles",
+      "role": "edition/source concordance",
+      "taskId": "9a4428e3-1fb7-4abb-91d0-b1279d257d04",
+      "result": "Edition and title limits recorded; no new verified actions",
+      "report": "editorial-audit/2026-10-31/source-rescue/martian-edition-concordance.json",
+      "reportSha256": "7b69f78b31db9d284acfd58cad52c0a7b160ee9f001a3666b130a6db9f86d55a"
+    },
+    {
+      "slug": "behave",
+      "role": "primary book source acquisition",
+      "taskId": "98345aba-8bd2-47dd-a947-18959254f01a",
+      "result": "New introduction/chapters1–5/opening6 preview and licensed metaphor excerpt; actual primary late gaps remain. Root source review recorded.",
+      "report": "editorial-audit/2026-10-31/depth-v2/behave-source-acquisition/report.md"
+    },
+    {
+      "slug": "hard-to-be-a-god",
+      "role": "expanded-depth pilot",
+      "taskId": "5242453b-63d1-477e-9a86-2b7276a46398",
+      "result": "Root personally accepted final corrected94-pair narrative; PR37 awaiting readiness"
+    },
+    {
+      "slug": "behave",
+      "role": "chapter11 source map and late-book acquisition",
+      "taskId": "eeaf124a-f430-4f8e-b98d-99d9b19b4b3b",
+      "result": "Map ingested; selected6/14 gains, residual gaps remain; no depth approval"
+    }
+  ],
+  "publisher09Status": "completed; PR35 merged67cb5a7b; production proof pending next integration task; no current publisher worker",
+  "publisherContentHold": "All new book-content publication paused under latest depth correction, fiction and nonfiction. UI changes may publish.",
+  "publisherUI": "node:delegated-task:command%3Amcp%3Aeb592fdd-bf27-4222-8338-d6544aaf5ae5%3Adelegate-task%3Aa5fee138-e118-4942-99c8-00f57743382f",
+  "publisherUICheckout": "/Users/pn/.t3/checkouts/book-tiktok-library-release07-20261031",
+  "publisherUIScope": "Verify release09 and publish only prepared artwork-only homepage thumbnails; all book-content intake prohibited",
+  "publisherUIStatus": "completed; PR36 merged f2455552;69production assets and all58 artwork-only thumbnails verified; all book content unchanged",
+  "currentPublisher": "root; expanded Lost World integration",
+  "activePublisher": null,
+  "latestDepthCompleted": {
+    "thinking-fast-and-slow": "personally accepted and live PR38",
+    "treasure-island": "personally accepted and live PR39",
+    "the-lost-world": "Root personally accepted exact candidate; one-book release being prepared",
+    "white-fang": "callback completed;53bindings verified; root reading pending",
+    "children-of-captain-grant": "Completed;48 file bindings checked; personal root reading pending"
+  }
+}

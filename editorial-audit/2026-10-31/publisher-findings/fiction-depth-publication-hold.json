@@ -1,0 +1,42 @@
+{
+  "atUtc": "2026-11-01T01:36:29.404748+00:00",
+  "reason": "Latest user correction explicitly includes nonfiction as well as fiction; maximum reading depth/coverage must be reassessed.",
+  "evidence": "publisher-findings/fiction-depth-volume-audit.json",
+  "preserveExistingFactualReviews": true,
+  "scope": "All NEW BOOK-CONTENT publication under the old compressed maximum-mode standard. UI repairs may publish. Current readers and historical factual reviews remain unchanged.",
+  "pilot": "hard-to-be-a-god",
+  "pilotCanonicalReadyMustRemainUnchanged": true,
+  "pilots": [
+    "hard-to-be-a-god",
+    "thinking-fast-and-slow"
+  ],
+  "rootPersonalReviewRequired": true,
+  "allPositions": 62,
+  "plan": "editorial-audit/2026-10-31/depth-v2/PLAN.json",
+  "rootAcceptedExceptions": {
+    "hard-to-be-a-god": {
+      "report": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/personal-review.json",
+      "reportSha256": "cc12243dc55c7dfafefe27609017ddb922daf19c16e2a401bb34f2febdfecb87",
+      "htmlSha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "jsonSha256": "a08671c0640cb4718d0469da791ab98abf20481d0d3f5c87fd0e69c5be67d60c"
+    },
+    "thinking-fast-and-slow": {
+      "report": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/thinking-fast-and-slow/root-review/personal-review.json",
+      "reportSha256": "bcb04eaca9d0acc5f8e1c86ba414b7da599a9f73924add0d4e496362264b80c2",
+      "htmlSha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "jsonSha256": "d4137bda5ad9920c7fffe53349ea3beb77767c0e37877d07ba82d0eb0758805c"
+    },
+    "treasure-island": {
+      "report": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/treasure-island/root-review/personal-review.json",
+      "reportSha256": "cd48db4acb96f76ddeedaf831dbc6ba57dbaa585fafa1eb96638f123fd3f983e",
+      "htmlSha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "jsonSha256": "009f26ebd1dd8cd11bdf3a25ecdf018d4b9e460d05018a7651e2e0c1a4df5973"
+    },
+    "the-lost-world": {
+      "report": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/root-review/personal-review.json",
+      "reportSha256": "b19d7442bb49d22f58110ed5733bc428a3e406053e821bc0ba738effe0a88414",
+      "htmlSha256": "8514dc4116df1766ee980f069701557918c0e6fa1905d4d39e3bf1909a06b88c",
+      "jsonSha256": "0baa64fb342692ec3c7cd6698bcdca007acd0b8340b64cde1790034e7434ed29"
+    }
+  }
+}

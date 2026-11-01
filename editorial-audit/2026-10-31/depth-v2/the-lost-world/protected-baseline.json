@@ -1,0 +1,660 @@
+{
+  "atUtc": "2026-10-31T23:50:34.836177+00:00",
+  "files": [
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/SKILL.md",
+      "bytes": 7500,
+      "sha256": "f22daa70c9fde750b81ac297e196b9025960fd446c87b7b6053477c051df9765"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/agents/openai.yaml",
+      "bytes": 272,
+      "sha256": "8f3ec73ce95439db8851c001852a31daa6727e9e6adc198321a2a17b47266b9b"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/Geist-Variable.woff2",
+      "bytes": 69652,
+      "sha256": "a369fcf5628ea2aa4e1b9e2ec6a5b3624e365bda588e1f0f2f12b564f728fbb8"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/GeistMono-Variable.woff2",
+      "bytes": 71368,
+      "sha256": "fba8f577f38a2bbcbe818efa6348dd58f36303a10b8737c42fefad275be563ab"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/GeistSerif-LICENSE.txt",
+      "bytes": 4368,
+      "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/GeistSerif-Regular.woff2",
+      "bytes": 40056,
+      "sha256": "d11c9077e61bda553e2eea121409c584504319e08f972d11e0a38ed4b14de398"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/LICENSE.txt",
+      "bytes": 4368,
+      "sha256": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/SourceSerif4-LICENSE.md",
+      "bytes": 4492,
+      "sha256": "75784a295293a8992f5a8d99210566e0064a012e6dab6731305e3787f15896c7"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/fonts/SourceSerif4-Regular.woff2",
+      "bytes": 76260,
+      "sha256": "6b053e98f0838afe81f3e784727be4583a7c13bb42f198dc5202ecffee0aaee0"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/reader-header.html",
+      "bytes": 5327,
+      "sha256": "d66e6067685cd11c337f805779993c678a10c42ff349fb8ec315c2902b4af6dc"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/reader-settings-head.html",
+      "bytes": 7387,
+      "sha256": "551937ff6f31b5a724d7b7117bc7510f0ecb0bb876143d4d0917f9804e4b8b52"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/reader-settings.html",
+      "bytes": 4790,
+      "sha256": "bf02df6e01885874ea2c7bd38c21d6679d66e866e430ebb66ff133ccabc396f2"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/standalone-template.html",
+      "bytes": 59536,
+      "sha256": "11f556efa62134a9f4c2ecbcbc8e8271c1bb4157b29391ae3176ee446bf45ce9"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/assets/story-data.example.json",
+      "bytes": 7072,
+      "sha256": "271663622ac0fa9154aade4f5f38be016090b504b70d9922f96f4ddd3a0c54c4"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/references/content-model.md",
+      "bytes": 6229,
+      "sha256": "efaa8c4f2ef1a1544feb6af88ed95137e6e3899f4f618efd19adeaf526cf51e6"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/references/data-contract.md",
+      "bytes": 7840,
+      "sha256": "a4c281ac96f96487beebb41b36ed8f50730391d285cbbdbe3cf5ab15c5ff3927"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/references/html-spec.md",
+      "bytes": 9778,
+      "sha256": "2ea17eb81ef4d932a9e80e7828964221c535aa5f39e9c9b279fdbbf5ec66a20f"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/references/reader-settings.md",
+      "bytes": 6035,
+      "sha256": "258e790d2cfb71b270690972e5fd7d063cf83bb3cf8e7cd46444ac0598e2420b"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/scripts/audit_story_html.mjs",
+      "bytes": 14575,
+      "sha256": "36d2dc8ebf8fe55ac37a6fa17362d4c9a99584c9be7f28517e50804c999a0d86"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/scripts/build_story.mjs",
+      "bytes": 11907,
+      "sha256": "29386ade13039878dbfd1ead72deae294ccf2dfb9181a71c63190bd8b7ee02e4"
+    },
+    {
+      "path": "/Users/pn/.codex/skills/book-tiktok/scripts/reader-settings.mjs",
+      "bytes": 3484,
+      "sha256": "49d323167a9175b60bd2f0d8d5f77d47fe92d82bcd0dca8d113d22414b945482"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/1873.html",
+      "bytes": 1330035,
+      "sha256": "cf71809a1476ed2fc7d41704da5ef4b7005aaa98b76ccdc5183fe7b15ae4d92c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/a-guide-to-the-good-life.html",
+      "bytes": 424794,
+      "sha256": "800ef8caca05755ddb34be96e722d2f6c2f6992501592aa12083979cf875e35b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/a-wizard-of-earthsea.html",
+      "bytes": 465819,
+      "sha256": "3e8c9a8a7f88a7906dccea0821c527cf639e6f07ad28cbca900715e525749ad7"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/akselerando.html",
+      "bytes": 947520,
+      "sha256": "42bb9cecf2cda48c614b7dc48667bd53a1c2a72b4680ede04f16f8d76414ce36"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/antifragile.html",
+      "bytes": 485711,
+      "sha256": "0a87dadfd9df97085e5ef9b5d5746974e006ed4648f6ba45b25b671743a6a817"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/awareness-through-movement.html",
+      "bytes": 472180,
+      "sha256": "5837e5063368f88133914d2567ca4157b8371dbb92187c013f4ddc3e20847f14"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/behave.html",
+      "bytes": 495638,
+      "sha256": "6e0fd9405a903776b58d74f091e4120afa0ad2f727154a9428394b61dbdd73ec"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/books.json",
+      "bytes": 53929,
+      "sha256": "c7994ace3157e9c9d3dcea0f720084a6cc5f3529f0d6fb692e8e8500f3f2623c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/children-of-captain-grant.html",
+      "bytes": 463625,
+      "sha256": "0adbab3c5853ef622bf8592255ab06828269dd8a159d185bcbc357ec9ab01280"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/QA.md",
+      "bytes": 8018,
+      "sha256": "743337d7a233f3dc8bbc65df43ca9a8d74d88368ec21dcb8f30dae846ffafa30"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/sources.md",
+      "bytes": 3536,
+      "sha256": "a9d7bed6e717a9967b35aa0f91f8ba1f796ef509bb90055905e1b764d4a650e2"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/story-data.json",
+      "bytes": 49971,
+      "sha256": "2be90b69ee130f59b408e4cfbe5ba030de2935ad78096376cafd42559bd5eb82"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/collector-output/the-lost-world/the-lost-world.html",
+      "bytes": 298918,
+      "sha256": "6d39af2a1d940bafa465d53d446fbcab09850b2b7a82fdf7a75961746a176366"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/determined.html",
+      "bytes": 489729,
+      "sha256": "3fd612cd5f57527ccc2587930f2528a56feefddcdb71ec9d5147b36e4a246d11"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/BRIEF.md",
+      "bytes": 14253,
+      "sha256": "f1af5f29d5bde5c3a0534156c013e8022c716c597995401484a61b90aa09d998"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/PLAN.json",
+      "bytes": 40239,
+      "sha256": "595c41821799cb838df251d5b4078b1aa7a7d41fa357ac2639cd555efbf0a531"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/QA.md",
+      "bytes": 11172,
+      "sha256": "c79ffdc9a609b437bd82c52e2b7bc83a82b685c15701ca4cc592503c00c1c588"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/assemble.py",
+      "bytes": 17958,
+      "sha256": "aa7867e81f343644328be8e05f53a91a1bc1f5045c052b9dbebcaa5b869a7dc7"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/browser-check.mjs",
+      "bytes": 22044,
+      "sha256": "5936b3930295faf77e7c0a28625cf9ab61145eda609c318d0087c485dfd84057"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/build-candidate.mjs",
+      "bytes": 10010,
+      "sha256": "aa013f51066f1d700bf184d1845e51db21ca03e45a5768ce70a5aee95a909b7b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/build-record.json",
+      "bytes": 1316,
+      "sha256": "c237c7e9140a265154a80b312a45f5a7e577a23662490e3040d424454f2a008b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/chapter-scene-map.md",
+      "bytes": 13518,
+      "sha256": "0f79840ae512865885d25a45795077a3b3856c34375f438bc24c90f84e5a18f3"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/draft-en.md",
+      "bytes": 57902,
+      "sha256": "5780641293eb5b6d3858a91c3e2ec625b939fcc6fe6daebd9d2117313579814b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/draft-metrics.json",
+      "bytes": 473,
+      "sha256": "4c1d1848c06589671bc8a3db54f0442c6447ce2e44f8818ff5c1786cd93ac2d9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/draft-ru.md",
+      "bytes": 97326,
+      "sha256": "9962a3c7a4fdad8b091cb00ea12752c5d28cd56f0a7795eb13002538126c9ac8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/hard-to-be-a-god.html",
+      "bytes": 646716,
+      "sha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/metrics.json",
+      "bytes": 1348,
+      "sha256": "2db59d2c78741a47b7494a7948a46ba1588b5c76b6785031582de9c7927d79b0"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/protected-baseline.json",
+      "bytes": 2044,
+      "sha256": "4b312c296be0f26188bed7c4e912a129d04240e7b281b00aed7a27e281ca4b4c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/1024-cover-ru.png",
+      "bytes": 117048,
+      "sha256": "ed15b0db620415b4002214649ff27df83345930ec5336e96f779d643edc58eab"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/1024-dense-en.png",
+      "bytes": 127701,
+      "sha256": "dcaebf37813c755cc30bdc431965fccbf43cd300dfaede2e0e94c4b4176aea50"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/1024-kira-ru-serif.png",
+      "bytes": 125008,
+      "sha256": "419f4baafdda0dc5579f6fa58bef79d55cfb34bbbd145a3da151537d86633e5c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/1440-cover-ru.png",
+      "bytes": 136612,
+      "sha256": "e1964193101df1e2e9be21c846438b778a97aa16ec70a5f829e0d24a3dfd2a76"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/1440-dense-en.png",
+      "bytes": 136977,
+      "sha256": "23260594f84d58c0cd358400e84596c33acb1b276006dca1ea98c997767a3857"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/1440-kira-ru-serif.png",
+      "bytes": 134394,
+      "sha256": "14f40ee3e0187dd954af976c3511e6c8b414bc12dac2a04a351b15961a079239"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/320-cover-ru.png",
+      "bytes": 43016,
+      "sha256": "4351f32b0a4dba5264bcf47359793def447ebe705ff7fa36325eb3f62fdfd03a"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/320-dense-en.png",
+      "bytes": 52174,
+      "sha256": "2f27e1ff0fd88aef38a9feb9bd7f5213f5a27621b6cbb438906316b0a4f55c3f"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/320-kira-ru-serif.png",
+      "bytes": 54138,
+      "sha256": "495b5963ca270950d8440ff3492dc1f0e5ca9bb6da23545063b63d76c4f266cd"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/390-cover-ru.png",
+      "bytes": 66188,
+      "sha256": "78ec7d987b273a0aa4240a3c3a283262585700955de1800ed6e7fc2ccc865925"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/390-dense-en.png",
+      "bytes": 70345,
+      "sha256": "2932f3b8d53560542cb5597398dc52103b6d0b4279d00e1ceebaa69c5ea108c8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/390-kira-ru-serif.png",
+      "bytes": 66876,
+      "sha256": "bcc1b21ce748f26aefaa00b9ec498f4c2500aa6d429711c307f5e498cc09d418"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/browser-1024.json",
+      "bytes": 5335,
+      "sha256": "24eaaf295f2828f77d1226ae5acc7be45f17afcdbea0da84271e21a55dbdbdb4"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/browser-1440.json",
+      "bytes": 5335,
+      "sha256": "25065993c6c6e309691eb1e49797eed2d5df8a23049807eba94be655071d0e83"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/browser-320.json",
+      "bytes": 5336,
+      "sha256": "70d2d9ad3c9a581fb2c741d82f579adf7fd878ad754361814708f4e12f83346f"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/browser-390.json",
+      "bytes": 5334,
+      "sha256": "829d615bf30c82d2396b26b10c036680ead7ca3b9512bf49a6b23f2a2152a936"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/browser-consent.json",
+      "bytes": 1540,
+      "sha256": "9a871dbbd053468a15a0a849fec7156c1ceaaf655dd8707dd48e3c4bb1b461d1"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/browser-ios.json",
+      "bytes": 1656,
+      "sha256": "a97da9b5b7824fb5ecaa591ee8f07e531f0033c452107e51c2f616f5947d5794"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/content-invariants.json",
+      "bytes": 1518,
+      "sha256": "d5b11063b84181a99f8c45d69a440a1a06c76cb369c4159095c4f465a8c804fd"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/fonts-static.json",
+      "bytes": 869,
+      "sha256": "10b03e7c08da797e8a6f4adbcb476b62de2e2c86ade4ec0ff2d74778146311b4"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/structural.json",
+      "bytes": 428,
+      "sha256": "5824ebbf05ae3340b4d0dfa2a57fc2e645505e9b14f9579bf304477ebb944b99"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/qa/summary.json",
+      "bytes": 1321,
+      "sha256": "0ab01da12518ae286ab4bb635d1e898942771fce5a702ed48c64bc0641fd114e"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/read-primary.py",
+      "bytes": 1906,
+      "sha256": "fb1d53c9e088773b8f9a7ac1219bf8dc7941d9e6e22fec2e8aeb1d596d44fe63"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/ready.json",
+      "bytes": 15094,
+      "sha256": "f4355f600e9a3b60c411a9f54f6349e7e0f568d8de1c126a1e4984c6e2f3aa60"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/browser-check.mjs",
+      "bytes": 25851,
+      "sha256": "f92db969a721d22719092f87f7fadebf60e4dcd3aad64bead2b1abfbcf77aa65"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/finalize-review.py",
+      "bytes": 16080,
+      "sha256": "f541f1cfd8862d8dc04384d1541273c4c5c0f1688516148a5ceae4275473df2b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-assemble.py",
+      "bytes": 17810,
+      "sha256": "e597b3ea63fc3d7df8c4e6a867672118ce8a5fe9e36cce5c7960e3265d844e89"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-build-candidate.mjs",
+      "bytes": 8896,
+      "sha256": "f7790e2b9562657173350efbf8c66df91475457ccc0e4ef5195a6bccdeb617af"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-build-record.json",
+      "bytes": 1250,
+      "sha256": "b92472f9a31df8e574e1efbdd4ce606f35f1e5b8f5a5c8879dc9298832e0affd"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-chapter-scene-map.md",
+      "bytes": 13537,
+      "sha256": "20bfc1b3031128ab755c0f01adf5bad0b9b6a73fd9fc0afde804593999ec2f26"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-draft-en.md",
+      "bytes": 58180,
+      "sha256": "ea437cd71bebec22e50e79ca9f284a044b43eece4f93335b73e1dac51a81bf39"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-draft-ru.md",
+      "bytes": 97704,
+      "sha256": "fd0d7858c418db11458a3fcac9a518bd39621570918b6ca2316cf93f059bf8f9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-metrics.json",
+      "bytes": 1347,
+      "sha256": "eda9241f72155602708bf21b7ecb61ed5d109bccad7775e6576c5fe9ac5abbb2"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-ready.json",
+      "bytes": 12408,
+      "sha256": "609a35df058cb414aec3a91d0f46688b870f92cb8c11110c737a0f4dd8634dcc"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-scene-map.json",
+      "bytes": 23698,
+      "sha256": "ef6a720772306bc8ce8721fe19096295d1de04ec8fdbada16d0e6535da742eee"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/input-story-data.json",
+      "bytes": 205810,
+      "sha256": "6d4d2a30990825404506051536c48ece0d1f3b8dbeecf941636f3904cfe54225"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/personal-review.json",
+      "bytes": 7694,
+      "sha256": "cc12243dc55c7dfafefe27609017ddb922daf19c16e2a401bb34f2febdfecb87"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/personal-review.md",
+      "bytes": 3987,
+      "sha256": "5105749c54631818b0cbac8c479aa5b68002eb195663f7bbd05f5eefcadaded8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/publication-base-books.json",
+      "bytes": 98242,
+      "sha256": "8405341199b5e5294df7e9834bf576a4ea5e4891c97cf88e33e48c61ddeaf1b7"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/publication-base-html-hashes.json",
+      "bytes": 13645,
+      "sha256": "70c339a5792feb41799856d2a4845341b40f35ca3ae0923c56ab402dbefe88c2"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/320-cover-ru.png",
+      "bytes": 42458,
+      "sha256": "0580be6ead235338cbfd3c00c0ed11b73ad0e8382694e4c2239f2a6b99fe40e9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/320-dense-en.png",
+      "bytes": 52174,
+      "sha256": "2f27e1ff0fd88aef38a9feb9bd7f5213f5a27621b6cbb438906316b0a4f55c3f"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/320-kira-ru-serif.png",
+      "bytes": 54138,
+      "sha256": "495b5963ca270950d8440ff3492dc1f0e5ca9bb6da23545063b63d76c4f266cd"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/browser-320.json",
+      "bytes": 5343,
+      "sha256": "aaa4ca0cc4a343a1e38cebb63304d9afb8829b69be63977e7217b50e21a16a3d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/browser-consent.json",
+      "bytes": 2574,
+      "sha256": "b0eee347d49dad672a2a8c387a9f965e887485398962aa5d765890960521eab8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/browser-smoke.json",
+      "bytes": 4260,
+      "sha256": "9f88771775d1ae0ea851d111693a119399810f1efcb108bb123c72b9f955c229"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/qa/content-verification.json",
+      "bytes": 5630,
+      "sha256": "bfdc4b655a755639cf74b221c2bf8b216c7f6eb271df7b9f46604344142cd140"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/reading-ledger.json",
+      "bytes": 2131,
+      "sha256": "1055414a0da50472632343ad60bbc77ef2396aca68c92be2a33230038939bfa4"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/root-review/verify-candidate.mjs",
+      "bytes": 4272,
+      "sha256": "08f3e7594429f8fdad38b615c6dde6fbfa5016122907bee14e3ae9d470fdd460"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/scene-map.json",
+      "bytes": 23679,
+      "sha256": "f013f91ac605e6e91b81bae2e7aaa94927c05aaaf837558aea1ffd5391a57706"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/source-coverage.json",
+      "bytes": 6471,
+      "sha256": "a93ca1268e8aee85ae2a3ea532755138599adb6751e33c798767c7522e603ec7"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/sources.md",
+      "bytes": 7493,
+      "sha256": "344d0f3439eb3e72933c8f990a58f3a61b2f5fef16565ab977bbb746ed319bb8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/hard-to-be-a-god/story-data.json",
+      "bytes": 205302,
+      "sha256": "a08671c0640cb4718d0469da791ab98abf20481d0d3f5c87fd0e69c5be67d60c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/ready/the-lost-world.json",
+      "bytes": 5524,
+      "sha256": "b70e5418138bd49427ac564cdc32e4e7524f578dc7dc0805c043fc3ff3038c78"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/the-lost-world-parent-reading.md",
+      "bytes": 2610,
+      "sha256": "afcbe070b0834b9e68646db504da4fda760a43cb3bc0a05e7b08ec088d2eb99d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/the-lost-world.json",
+      "bytes": 22127,
+      "sha256": "7bf6f236d0f7a754a2974a03ccac41ee818126ff20225a370cbdb466fb4e1aec"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/reviews/the-lost-world.md",
+      "bytes": 7683,
+      "sha256": "359d6f44ac2f3d053efce0e49dd69589d60e8423087ebe932d781671e8b59abf"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/essentialism.html",
+      "bytes": 307512,
+      "sha256": "a6cd3fcfb794841637f1a7ee361a32d03354cd0f84fbac404041cc2d77bb56dc"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/four-thousand-weeks.html",
+      "bytes": 429105,
+      "sha256": "fe39faf15c4e455e5155bedd005cf76b7ba8a80e6c44f3d0b3d58e7ea00cba9b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/hermes-nous.html",
+      "bytes": 143312,
+      "sha256": "6546d557a1abe4a36168f3921424b5303d590d252a74a01fd5319fb3d191aa72"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/huberman-protocols.html",
+      "bytes": 490480,
+      "sha256": "26605bfd03d0c76e25ef7fe68d22663a3cc13ce713eb94328bdb819cfbd73aa9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/i-robot.html",
+      "bytes": 432273,
+      "sha256": "766584f66140a79697228f26ed30bef2f39dee3f7760815b1e4268d02dbbcbf6"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/index.html",
+      "bytes": 67878,
+      "sha256": "5c2a4478827f27ddb0225f626fd7be3112e240830ba1f5194bcc5f91944c0f46"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/letting-go.html",
+      "bytes": 891343,
+      "sha256": "8a90e779a307021fd973df44e26b4e0d39b4081d4871c9853f7600bd4a3edad3"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/make-time.html",
+      "bytes": 415972,
+      "sha256": "59c4a31064ad8daee8e7e644db7996ea4671c3e55b7f50634d9591d5b7e219a6"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/mindfulness.html",
+      "bytes": 429288,
+      "sha256": "2171ad6cd1c77de2157dc3534b7cf64e3f0eaee0739a153a4ae8b079ab94a974"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/package.json",
+      "bytes": 422,
+      "sha256": "38bf8a0f0d9fbcab8b9ca2b02bc61dd71b305089f0f3e7522780dfa05295350f"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/selfie.html",
+      "bytes": 422763,
+      "sha256": "b3232f6fb5b23af379d5c0f6e2ae078168be7b1dbc318879ea0617d5cfd5be56"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/skin-in-the-game.html",
+      "bytes": 330306,
+      "sha256": "ddd78a2dbe74a2132f331430b0f6cc74ca121a7d388a5427de159f0f403a2cdf"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-art-of-war.html",
+      "bytes": 305844,
+      "sha256": "97f2cefd69856a0dab2cf87405391049a576cfb8ef8bfcf5c0812fb8053d69b9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-body-keeps-the-score.html",
+      "bytes": 922111,
+      "sha256": "f0f9493b053e1e0d231d4a06ee71e44e9cd1b1f876345e6ee6d7e0e60a29aa2e"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-hitchhikers-guide-to-the-galaxy.html",
+      "bytes": 406024,
+      "sha256": "06341887063738f626f4d1a1c622fd6562ff31d7cf84ac51135907e391cccc03"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-hobbit.html",
+      "bytes": 462847,
+      "sha256": "ee748e237eab43ac1cb8a06362bb5fc7d21ce9c47c2acb6ba7c3b9d0d7dfe17a"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-lost-world.html",
+      "bytes": 451867,
+      "sha256": "d59981dd6230f09b57326dc898dee69de70806a1375fb0b5b52f1852ebe248a5"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-two-captains.html",
+      "bytes": 470818,
+      "sha256": "0d323774f2ea423516337f39a87ea04e50fb0cb9edf01c96d62b1f70d9fb11f7"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/the-wee-free-men.html",
+      "bytes": 399047,
+      "sha256": "8bd3aad2d8cc97e0762d8e2c1c58578fc4802ae8aeb6599dbb8b15d76dc880b3"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/theory-of-constraints.html",
+      "bytes": 1498554,
+      "sha256": "0610708b14c54856449e84b30e64f1c85bf3400b9973490a3ea26cc46e496428"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/treasure-island.html",
+      "bytes": 426931,
+      "sha256": "bd55b3946bda815b2a24ea8959b2ae4041fa0fd5c2dd90754eba7bc2bda1190d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/vercel.json",
+      "bytes": 1320,
+      "sha256": "e74c6ff9a4fcbd85d0b2aa9b77a00156872da11ec964bb4ee1d6738cbf1fbff6"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/white-fang.html",
+      "bytes": 410591,
+      "sha256": "fd3e7dc19a053f2dd92bda1b1b379cffac75a9d488c06f126266dae27a85c51c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/why-zebras-dont-get-ulcers.html",
+      "bytes": 473045,
+      "sha256": "f156369dce1d7d43492fad088b58cf5bb5673e36e0f4cf36a00ae3d47b5297f3"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/zen-and-the-art-of-motorcycle-maintenance.html",
+      "bytes": 470286,
+      "sha256": "a101366711f0fee92cbd8b7d3b15a43fd34e07c6755dfb710d5a2703f3f5fd9a"
+    }
+  ]
+}

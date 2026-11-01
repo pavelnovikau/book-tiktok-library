@@ -1,0 +1,165 @@
+{
+  "phase": "consent",
+  "width": 390,
+  "height": 844,
+  "timeoutSeconds": 30,
+  "contentServerStarted": false,
+  "inputHashes": {
+    "the-lost-world.html": "6911cd199dcb3cb7cd59de04826465414888440d11a941660de1beb9f2aea57d",
+    "story-data.json": "e2a801553daa4f9aff01a71e09e8c417656670e64ec56801b8eab8a402d1a77f"
+  },
+  "lastEvaluate": "Object.keys(localStorage).filter(k=>k.startsWith('book-tiktok.the-lost-world.')&&!k.startsWith('book-tiktok.the-lost-world.depth-v2.')).length===0",
+  "defaults": {
+    "language": "ru",
+    "theme": "dark",
+    "font": "sans",
+    "mode": "essential"
+  },
+  "cancel": {
+    "open": true,
+    "cancelFocused": true,
+    "stillEssential": true
+  },
+  "downgrades": [
+    {
+      "lang": "ru",
+      "lower": "essential",
+      "generic": true,
+      "open": true,
+      "unchanged": true,
+      "modeUnchanged": true,
+      "destination": true,
+      "pickerAsks": true
+    },
+    {
+      "lang": "ru",
+      "lower": "core",
+      "generic": true,
+      "open": true,
+      "unchanged": true,
+      "modeUnchanged": true,
+      "destination": true,
+      "pickerAsks": true
+    },
+    {
+      "lang": "en",
+      "lower": "essential",
+      "generic": true,
+      "open": true,
+      "unchanged": true,
+      "modeUnchanged": true,
+      "destination": true,
+      "pickerAsks": true
+    },
+    {
+      "lang": "en",
+      "lower": "core",
+      "generic": true,
+      "open": true,
+      "unchanged": true,
+      "modeUnchanged": true,
+      "destination": true,
+      "pickerAsks": true
+    }
+  ],
+  "sharedSceneDowngrade": {
+    "preserved": true,
+    "asks": true
+  },
+  "reloads": [
+    {
+      "lang": "ru",
+      "savedMode": "essential",
+      "generic": true,
+      "safe": true,
+      "mode": "essential",
+      "open": true,
+      "unchanged": true,
+      "destination": true
+    },
+    {
+      "lang": "ru",
+      "savedMode": "core",
+      "generic": true,
+      "safe": true,
+      "mode": "core",
+      "open": true,
+      "unchanged": true,
+      "destination": true
+    },
+    {
+      "lang": "ru",
+      "savedMode": "deep",
+      "generic": true,
+      "safe": true,
+      "mode": "essential",
+      "open": true,
+      "unchanged": true,
+      "destination": true
+    },
+    {
+      "lang": "en",
+      "savedMode": "essential",
+      "generic": true,
+      "safe": true,
+      "mode": "essential",
+      "open": true,
+      "unchanged": true,
+      "destination": true
+    },
+    {
+      "lang": "en",
+      "savedMode": "core",
+      "generic": true,
+      "safe": true,
+      "mode": "core",
+      "open": true,
+      "unchanged": true,
+      "destination": true
+    },
+    {
+      "lang": "en",
+      "savedMode": "deep",
+      "generic": true,
+      "safe": true,
+      "mode": "essential",
+      "open": true,
+      "unchanged": true,
+      "destination": true
+    }
+  ],
+  "lifecycle": {
+    "safe": true,
+    "asks": true,
+    "scope": "pagehide/pageshow BFCache lifecycle events dispatched in Chrome; not a physical Safari cache test"
+  },
+  "interactions": {
+    "languageId": true,
+    "settingsId": true,
+    "settingsScroll": true,
+    "focusOn": true,
+    "focusPaging": true,
+    "focusOff": true,
+    "keyboard": true,
+    "swipe": true
+  },
+  "settingsFocusContained": true,
+  "settingsFocusReturned": true,
+  "invalidIdStarts": true,
+  "globalPreferencesAfterReload": {
+    "theme": "light",
+    "font": "serif",
+    "storage": {
+      "version": 1,
+      "theme": "light",
+      "readingFont": "serif"
+    }
+  },
+  "consentKeys": [],
+  "oldNamespaceUntouched": true,
+  "runtimeErrors": [],
+  "remoteRequests": [],
+  "status": "completed",
+  "profileRemoved": true,
+  "ownedProcessGroupAliveAfterCleanup": false
+}

@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "slug": "the-lost-world",
+  "status": "ready-for-root-personal-check",
+  "atUtc": "2026-11-01T00:20:11.740609+00:00",
+  "ownedDirectory": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world",
+  "published": false,
+  "publicationAllowed": false,
+  "rootAcceptance": null,
+  "rootPersonalReadingRequired": true,
+  "contentMode": "narrative",
+  "candidateHashes": {
+    "story-data.json": "e2a801553daa4f9aff01a71e09e8c417656670e64ec56801b8eab8a402d1a77f",
+    "the-lost-world.html": "6911cd199dcb3cb7cd59de04826465414888440d11a941660de1beb9f2aea57d"
+  },
+  "counts": {
+    "essential": 32,
+    "core": 68,
+    "deep": 125
+  },
+  "metrics": {
+    "wordDefinition": "Unicode letter/number start, continuing letters/numbers/apostrophes/hyphens/en/em dashes; exact maintained builder regex. Section labels, UI, Sources and method excluded. Narrative = only narrative:true bodies. Builder total = visible titles/subtitles/bodies, including framing.",
+    "rates": {
+      "ru": 180,
+      "en": 220
+    },
+    "depths": {
+      "essential": {
+        "screens": 32,
+        "narrativeScreens": 30,
+        "narrativeWords": {
+          "ru": 2130,
+          "en": 2553
+        },
+        "framingBodyWords": {
+          "ru": 63,
+          "en": 78
+        },
+        "titlesAndSubtitlesWords": {
+          "ru": 72,
+          "en": 108
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 2265,
+          "en": 2739
+        },
+        "narrativeMinutes": {
+          "ru": 11.8333,
+          "en": 11.6045
+        },
+        "builderCeilingMinutes": {
+          "ru": 13,
+          "en": 13
+        }
+      },
+      "core": {
+        "screens": 68,
+        "narrativeScreens": 66,
+        "narrativeWords": {
+          "ru": 4681,
+          "en": 5652
+        },
+        "framingBodyWords": {
+          "ru": 63,
+          "en": 78
+        },
+        "titlesAndSubtitlesWords": {
+          "ru": 154,
+          "en": 222
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 4898,
+          "en": 5952
+        },
+        "narrativeMinutes": {
+          "ru": 26.0056,
+          "en": 25.6909
+        },
+        "builderCeilingMinutes": {
+          "ru": 28,
+          "en": 28
+        }
+      },
+      "deep": {
+        "screens": 125,
+        "narrativeScreens": 122,
+        "narrativeWords": {
+          "ru": 8557,
+          "en": 10310
+        },
+        "framingBodyWords": {
+          "ru": 89,
+          "en": 104
+        },
+        "titlesAndSubtitlesWords": {
+          "ru": 287,
+          "en": 401
+        },
+        "titleSubtitleBodyWords": {
+          "ru": 8933,
+          "en": 10815
+        },
+        "narrativeMinutes": {
+          "ru": 47.5389,
+          "en": 46.8636
+        },
+        "builderCeilingMinutes": {
+          "ru": 50,
+          "en": 50
+        }
+      }
+    }
+  },
+  "sourceScope": {
+    "work": "Arthur Conan Doyle, The Lost World1912, Project Gutenberg139 English I–XVI",
+    "primaryPrivatePath": "/Users/pn/smartcat/_artifacts/book-tiktok-editorial-audit-20261031/group-1-private/the-lost-world/primary.txt",
+    "primarySha256": "9fa6ee046745c09b5077f68c232f210ac672196d27e25b1aca13dbc643805c65",
+    "completeNovelReadContinuously": true,
+    "downloadAloneNotCountedAsReading": true,
+    "rangeLedger": "source-coverage.json",
+    "map": "scene-map.json",
+    "publishedRussianTranslationRead": false,
+    "originalRuThenCorrespondingEn": true,
+    "illustrationOrPrintVariantCollation": false,
+    "primaryTextCopiedIntoLibrary": false
+  },
+  "verification": {
+    "exactAuthoringEmbeddedParity": true,
+    "exactConnectedDraftScreenParity": true,
+    "structuralAudit": "qa/structural-audit.json",
+    "structuralPasses": 69,
+    "structuralWarnings": 0,
+    "structuralFailures": 0,
+    "browserReports": [
+      "browser-1024.json",
+      "browser-1440.json",
+      "browser-320.json",
+      "browser-390.json",
+      "browser-consent.json"
+    ],
+    "chromeEmulationOnly": true,
+    "physicalSafari": false,
+    "literaryAcceptanceByRoot": false,
+    "allFinalChecksBindToCandidateHashes": true
+  },
+  "safeguards": {
+    "default": "fresh RU/dark/Essential/Sans",
+    "namespace": "book-tiktok.the-lost-world.depth-v2.",
+    "oldShortProgressMigrated": false,
+    "globalPreferencesKey": "bookLibrary.preferences.v1",
+    "spoilerPolicy": "full-plot-in-deep",
+    "consentPersisted": false,
+    "revokedOnActualDowngrade": true,
+    "revokedOnLeavingReloadAndRestoredLifecycle": true,
+    "hiddenLateResumeGeneric": true,
+    "lateDestinationPreservedAfterConsent": true,
+    "sourceMapDepthFiltered": true
+  },
+  "protectedBaseline": {
+    "path": "protected-baseline.json",
+    "checked": 131,
+    "byteIdentical": 130,
+    "observedExternalChanges": [
+      {
+        "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/PLAN.json",
+        "before": "595c41821799cb838df251d5b4078b1aa7a7d41fa357ac2639cd555efbf0a531",
+        "after": "89f2808719e6b71d0194a3cb0ee73208a6024561493c6672ada7f9574d69e1f9"
+      }
+    ],
+    "explanation": "Parent PLAN assignment metadata changed externally during the run. Worker never wrote it and preserved original baseline hashes. All old collector/ready/reviews/root-library/pilot/installed-skill files unchanged."
+  },
+  "remainingReview": [
+    "Root personally reads complete draft-ru.md and draft-en.md.",
+    "Root personally reads all six exact route files, including framing.",
+    "Root compares full chapter/scene map and checks key source passages directly.",
+    "Root reviews omissions, narrated viewpoints, historical judgments and edition/translation limits.",
+    "Root judges sustained reading experience and decides acceptance on exact hashes before any publication."
+  ],
+  "actionsNotPerformed": [
+    "No Git/PR/deploy/publication",
+    "No shared shell/catalogue/root reader edits",
+    "No parent plan/dispatch/log/status writes",
+    "No old collector/ready/review archival or changes",
+    "No subagents, child restarts or task polling",
+    "No content server or preview tools"
+  ],
+  "deliverables": [
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/QA.md",
+      "relativePath": "QA.md",
+      "bytes": 8247,
+      "sha256": "ac88d91c71f77c4c4cd9c9aa1aced9455c73549e5eb5ce6ccfab07edc4f011f6"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/assemble.py",
+      "relativePath": "assemble.py",
+      "bytes": 20919,
+      "sha256": "9fee378fa99ae658f086bac087ef80f1aca2a3a7f79dcd1f2d4eb21db35eb2b0"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/browser-check.mjs",
+      "relativePath": "browser-check.mjs",
+      "bytes": 19380,
+      "sha256": "26352225d026009386f07f826af7ce4ddb610e9bf0e63d4af82e8328d606fea5"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/build-candidate.mjs",
+      "relativePath": "build-candidate.mjs",
+      "bytes": 10214,
+      "sha256": "419cdbda781f8a9881da449dd9e94877311a595a30d15bb06dbc27f4cdedbb2d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/build-record.json",
+      "relativePath": "build-record.json",
+      "bytes": 1346,
+      "sha256": "bdfd6bdb5844bdde9097a55cc2e99657a8dc54f3a41c1145c0ff8f9435fc7ef0"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/chapter-scene-map.md",
+      "relativePath": "chapter-scene-map.md",
+      "bytes": 14746,
+      "sha256": "5cf950f65c8f16546431aa3fcdfac675b9ecdb13bb7282df14fb0bd6ded4200b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/draft-en.md",
+      "relativePath": "draft-en.md",
+      "bytes": 62125,
+      "sha256": "544e67158d23f935da9b0309f8513ce016979e21f356aefc4af8cf2d9af058a2"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/draft-ru.md",
+      "relativePath": "draft-ru.md",
+      "bytes": 108927,
+      "sha256": "c184c593719eb326a2a30c91e381efe5cf5127c1ba123fc1b78a251101f2b443"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/metrics.json",
+      "relativePath": "metrics.json",
+      "bytes": 1996,
+      "sha256": "8361baa33e4da33a1cda4fac6545bb763c925dac54ce77cfdf0d66145057b979"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/protected-baseline.json",
+      "relativePath": "protected-baseline.json",
+      "bytes": 30894,
+      "sha256": "360e5b8edf7f966e699bb2fc91d67aa3fe595c0053ad3bcb81cc6ed0b64b90c8"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/1024-cover.png",
+      "relativePath": "qa/1024-cover.png",
+      "bytes": 109140,
+      "sha256": "1677bbaa6573f090dbf7d645181b4478e57c8d14591f3a5f8a2d934bcf354f50"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/1024-en-dark-sans.png",
+      "relativePath": "qa/1024-en-dark-sans.png",
+      "bytes": 107612,
+      "sha256": "ab97b0be7cc1ecc2492eae99903b14d9ab7911adae3c43ed905196b531e0b2f9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/1024-ru-light-serif.png",
+      "relativePath": "qa/1024-ru-light-serif.png",
+      "bytes": 116793,
+      "sha256": "f0f15eee801cfe668a3c0b6c3ba5a4f1f2d51bd40c15a625edd3c9e495df8784"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/1440-cover.png",
+      "relativePath": "qa/1440-cover.png",
+      "bytes": 130792,
+      "sha256": "8e89796ffd24922c20f824588d41cf2a1621807323de3c4df8948cbfd3f4d0c0"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/1440-en-dark-sans.png",
+      "relativePath": "qa/1440-en-dark-sans.png",
+      "bytes": 115864,
+      "sha256": "90a00723be9d63824a6456bb5a9ea6f57f9582e82d7cd5c6bfafd32400251e53"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/1440-ru-light-serif.png",
+      "relativePath": "qa/1440-ru-light-serif.png",
+      "bytes": 127595,
+      "sha256": "046271e6b30f584312523d6b8af74ae64d52bbc39b831d9a716b79f640239e01"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/320-cover.png",
+      "relativePath": "qa/320-cover.png",
+      "bytes": 36338,
+      "sha256": "360a5c16e95c1244b2106c1fe428197e1878faa57d170da527879f2a8e3173eb"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/320-en-dark-sans.png",
+      "relativePath": "qa/320-en-dark-sans.png",
+      "bytes": 49987,
+      "sha256": "ca5c6772fcfc51410a171bcd270d7557fb9c102ae16af1ce64a32efc805666dc"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/320-ru-light-serif.png",
+      "relativePath": "qa/320-ru-light-serif.png",
+      "bytes": 56832,
+      "sha256": "686f936d977c8945ade2bb99e6029287b9e3f9d438283687cec2c5cf0590476b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/390-cover.png",
+      "relativePath": "qa/390-cover.png",
+      "bytes": 61886,
+      "sha256": "ba23224db553dfd6f34ded848ad4f6a4e42902e913b0302f0acae085f7220ae4"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/390-en-dark-sans.png",
+      "relativePath": "qa/390-en-dark-sans.png",
+      "bytes": 54816,
+      "sha256": "9624ab7978a387eb6f846902a3e98c311afd028fecd25b27a7513d6f0cecd5c3"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/390-ru-light-serif.png",
+      "relativePath": "qa/390-ru-light-serif.png",
+      "bytes": 64289,
+      "sha256": "99f6583469b25a8f8b1783e9f3f89c97d3f45bbd1992a0dd9ac5c4e6e4510e6d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/browser-1024.json",
+      "relativePath": "qa/browser-1024.json",
+      "bytes": 16370,
+      "sha256": "7f43eadcacad67ace9c40317ef97ae631999d5252794926849152fa7c4ee0a78"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/browser-1440.json",
+      "relativePath": "qa/browser-1440.json",
+      "bytes": 16370,
+      "sha256": "4a3d9fbd9177d6c7cb498822c2e95f38bfb9b2ef8474d588dc1ed7a6368e729f"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/browser-320.json",
+      "relativePath": "qa/browser-320.json",
+      "bytes": 16370,
+      "sha256": "2f1b7ebc4479abfeaa9dee8e963fa4618d9ac56b6f7e8ee7f4548c8ee17cc326"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/browser-390.json",
+      "relativePath": "qa/browser-390.json",
+      "bytes": 16939,
+      "sha256": "33e44fc29c4ce732bc25fea6371910c4b62a3a46d6324b2071b604d23a0730b0"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/browser-consent.json",
+      "relativePath": "qa/browser-consent.json",
+      "bytes": 3694,
+      "sha256": "c6dd9b640195c24a4e69b00f2646830b52154522e32456055650897942137fe7"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/cleanup.json",
+      "relativePath": "qa/cleanup.json",
+      "bytes": 350,
+      "sha256": "db73a92bacf8d988ca8af949eb4223b1cbb5d00bcb964f3a50a6aebb5a968264"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/parity.json",
+      "relativePath": "qa/parity.json",
+      "bytes": 652,
+      "sha256": "7e6a256d533e7bbb6a39cc7fbf3ad35ab70d9226f4f3fb6bb28cd2b8299eb001"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/qa/structural-audit.json",
+      "relativePath": "qa/structural-audit.json",
+      "bytes": 426,
+      "sha256": "144d5c640a8d1221be83fa2528b02b1738c33c55b025b4a8ed38623724c0abfb"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/reading-ledger.md",
+      "relativePath": "reading-ledger.md",
+      "bytes": 7242,
+      "sha256": "4328d633d28bfa8129de4b7475a6ea71b7da98ed87d2e95e6387807be039c7fe"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/route-core-en.md",
+      "relativePath": "route-core-en.md",
+      "bytes": 36713,
+      "sha256": "887e88027a56239ff93575eeb4b863327cb786d4c5674a6bdc03021ff0ac9324"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/route-core-ru.md",
+      "relativePath": "route-core-ru.md",
+      "bytes": 63383,
+      "sha256": "d5d4aed96ad755cca08e5bb61298f3e9eb8f3b1007ff866c42976486e45ea1e5"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/route-deep-en.md",
+      "relativePath": "route-deep-en.md",
+      "bytes": 66849,
+      "sha256": "992520447fd05902a301b1ccb42fad2b7c3000555326d5d3a20e5308c93afc54"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/route-deep-ru.md",
+      "relativePath": "route-deep-ru.md",
+      "bytes": 115331,
+      "sha256": "2cc22ff61ba99b8a9f39f6a820a0a2c37e631a304f7efa4ccaaf036b0af6c271"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/route-essential-en.md",
+      "relativePath": "route-essential-en.md",
+      "bytes": 17269,
+      "sha256": "2054e6ebc5e58be22f4f791052d9adcf96b9712420bee5a272d60dfe5384a3c9"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/route-essential-ru.md",
+      "relativePath": "route-essential-ru.md",
+      "bytes": 30056,
+      "sha256": "a843c3761c971280b1349aa656af7bd5bbf4651c804b68039fe3a84d03240a8b"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/scene-map.json",
+      "relativePath": "scene-map.json",
+      "bytes": 75227,
+      "sha256": "60c3c206cb19b9d212ac3be5227b7bd7c40b5d900e0d33a2a8df3a22c411ed94"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/source-coverage.json",
+      "relativePath": "source-coverage.json",
+      "bytes": 9957,
+      "sha256": "16e7e6d990aed6224ff400e5c9b366892b171a4389aa10b9083448781ac2975c"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/sources.md",
+      "relativePath": "sources.md",
+      "bytes": 6122,
+      "sha256": "6ca6ad073cf4ec9330d541f14db875597384e226d69652523b15163ee3620e53"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/story-data.json",
+      "relativePath": "story-data.json",
+      "bytes": 245386,
+      "sha256": "e2a801553daa4f9aff01a71e09e8c417656670e64ec56801b8eab8a402d1a77f"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/the-lost-world.html",
+      "relativePath": "the-lost-world.html",
+      "bytes": 687038,
+      "sha256": "6911cd199dcb3cb7cd59de04826465414888440d11a941660de1beb9f2aea57d"
+    },
+    {
+      "path": "/Users/pn/smartcat/_artifacts/book-tiktok-library/editorial-audit/2026-10-31/depth-v2/the-lost-world/verify.mjs",
+      "relativePath": "verify.mjs",
+      "bytes": 4206,
+      "sha256": "843c5d373280b714ebdff39ea6ffb63703e24174f1792a62a209c78147bcd8a5"
+    }
+  ]
+}

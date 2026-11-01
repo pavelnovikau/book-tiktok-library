@@ -1,0 +1,109 @@
+{
+  "atUtc": "2026-11-01T01:18:23.439823+00:00",
+  "pr": "https://github.com/pavelnovikau/book-tiktok-library/pull/39",
+  "head": "40b1f969af719ff6d9a812ba6729a3b5c815ccbf",
+  "merge": "befe02882518088b8f1e1cc262ae41fb54d75a26",
+  "status": "PASS",
+  "scope": "One fresh HTTP observation: exact accepted Treasure reader and catalogue, unchanged homepage and both prior accepted expanded readers, plus two private404s. Other compiled assets not freshly refetched; earlier proofs retained. Exact reader bytes bind current tested candidate.",
+  "all69CurrentAssetsFreshlyFetched": false,
+  "requests": [
+    {
+      "path": "/treasure-island",
+      "status": 200,
+      "sha256": "f285a8b3efac385f41177b8380f0e29b0284751a99f9f9ea325faf1749e1bef1",
+      "bytes": 664594,
+      "matches": true
+    },
+    {
+      "path": "/books.json",
+      "status": 200,
+      "sha256": "cdd869bfdde1750b71db5ced31fb98f9cb91d2c348a92188ef11c1849ba849be",
+      "bytes": 98787,
+      "matches": true,
+      "books": 58,
+      "screens": 2392,
+      "treasure": {
+        "slug": "treasure-island",
+        "workTypes": [
+          "fiction"
+        ],
+        "genres": [
+          "adventure"
+        ],
+        "subjects": [],
+        "file": "treasure-island.html",
+        "section": "fiction-adventure",
+        "tags": [
+          "adventure",
+          "pirates",
+          "trust",
+          "coming-of-age"
+        ],
+        "collections": [
+          "for-son"
+        ],
+        "audience": "teen-14-plus",
+        "spoilerPolicy": "full-plot-in-deep",
+        "screenCount": 96,
+        "title": {
+          "ru": "Остров сокровищ",
+          "en": "Treasure Island"
+        },
+        "author": {
+          "ru": "Роберт Льюис Стивенсон",
+          "en": "Robert Louis Stevenson"
+        },
+        "description": {
+          "ru": "Сундук старого моряка, карта Флинта и плавание, в котором Джиму Хокинсу придётся узнать, кому доверять. Рассказ от лица Джима; полная развязка — в «Глубоко».",
+          "en": "An old sailor’s chest, Flint’s map, and a voyage that forces Jim Hawkins to discover whom he can trust. Told by Jim; the complete ending is in Deep."
+        },
+        "readingMinutes": {
+          "essential": 16,
+          "core": 27,
+          "deep": 53
+        },
+        "cover": {
+          "type": "typographic",
+          "motif": "treasure-map",
+          "tone": "yellow"
+        }
+      }
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "sha256": "7215fb884c3aefef399891d2c66d2c69ad04f3d11f6661c000ace1671634406c",
+      "bytes": 456380,
+      "matches": true
+    },
+    {
+      "path": "/thinking-fast-and-slow",
+      "status": 200,
+      "sha256": "abb4328453b3acb24167a0ab1d63bfd0ab1e4682fd2cfb5a5e7ac499c54f2f14",
+      "bytes": 716153,
+      "matches": true
+    },
+    {
+      "path": "/hard-to-be-a-god",
+      "status": 200,
+      "sha256": "77ddc10290178505d4ef346bfe22bcf25f78c9b2c5fdc99655f2eec14449f746",
+      "bytes": 646716,
+      "matches": true
+    },
+    {
+      "path": "/editorial-audit/2026-10-31/depth-v2/treasure-island/draft-ru.md",
+      "status": 404,
+      "sha256": "854c366a5d4c08de7c0c12143a6b7b5d694f9ca47dcc60960e85a8b0f10f04e8",
+      "bytes": 79,
+      "matches": true
+    },
+    {
+      "path": "/collector-output/treasure-island/story-data.json",
+      "status": 404,
+      "sha256": "069330aaa8b4edf66c5e9918125d5d7d53e00390265e59907a730b3b4f2f62e3",
+      "bytes": 79,
+      "matches": true
+    }
+  ],
+  "physicalSafariTested": false
+}

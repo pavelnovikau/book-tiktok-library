@@ -16,6 +16,11 @@
     </div>
     <p class="book-settings-note" id="bookSettingsFontNote" data-settings-copy="note">Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста.</p>
   </fieldset>
+  <div class="book-settings-size">
+    <div class="book-settings-size-row"><label for="bookReadingSize" data-settings-copy="size">Размер текста</label><output id="bookReadingSizeValue" for="bookReadingSize">100%</output></div>
+    <input id="bookReadingSize" type="range" min="85" max="150" step="5" value="100" aria-describedby="bookReadingSizeValue">
+    <button class="book-settings-reset" id="bookReadingSizeReset" type="button" data-settings-copy="resetSize">Сбросить до 100%</button>
+  </div>
   <div class="book-settings-actions"><button class="book-settings-close" id="bookSettingsClose" type="button" data-settings-copy="close">Готово</button></div>
 </dialog>
 <script id="book-reader-settings-script">
@@ -28,8 +33,8 @@
   var settings = window.BookSettings;
   if (!dialog || !trigger || !settings) return;
   var copy = {
-    ru: { title: 'Настройки', theme: 'Тема', dark: 'Тёмная', light: 'Светлая', font: 'Шрифт чтения', sans: 'Без засечек', serif: 'С засечками', note: 'Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста.', close: 'Готово' },
-    en: { title: 'Settings', theme: 'Theme', dark: 'Dark', light: 'Light', font: 'Reading font', sans: 'Sans', serif: 'Serif', note: 'Sans uses Geist Sans. Serif uses Geist Serif for Latin and Source Serif 4 for Russian.', close: 'Done' }
+    ru: { title: 'Настройки', theme: 'Тема', dark: 'Тёмная', light: 'Светлая', font: 'Шрифт чтения', sans: 'Без засечек', serif: 'С засечками', note: 'Sans — Geist Sans. Serif — Geist Serif для латиницы, Source Serif 4 для русского текста.', size: 'Размер текста', resetSize: 'Сбросить до 100%', close: 'Готово' },
+    en: { title: 'Settings', theme: 'Theme', dark: 'Dark', light: 'Light', font: 'Reading font', sans: 'Sans', serif: 'Serif', note: 'Sans uses Geist Sans. Serif uses Geist Serif for Latin and Source Serif 4 for Russian.', size: 'Text size', resetSize: 'Reset to 100%', close: 'Done' }
   };
   trigger.setAttribute('aria-haspopup', 'dialog');
   trigger.setAttribute('aria-controls', dialog.id);
@@ -39,9 +44,12 @@
       node.textContent = text[node.dataset.settingsCopy];
     });
     var preferences = settings.get();
-    dialog.querySelectorAll('input').forEach(function (input) {
+    dialog.querySelectorAll('input[type=radio]').forEach(function (input) {
       input.checked = input.value === preferences[input.name === 'book-theme' ? 'theme' : 'readingFont'];
     });
+    document.getElementById('bookReadingSize').value = preferences.readingSize;
+    document.getElementById('bookReadingSizeValue').value = preferences.readingSize + '%';
+    document.getElementById('bookReadingSize').setAttribute('aria-valuetext', preferences.readingSize + '%');
   }
   settings.open = function () {
     update();
@@ -54,10 +62,12 @@
     var input = event.target;
     if (input.matches('input[type="radio"]')) settings.set(input.name === 'book-theme' ? 'theme' : 'readingFont', input.value);
   });
+  document.getElementById('bookReadingSize').addEventListener('input', function (event) { settings.set('readingSize', Number(event.target.value)); });
+  document.getElementById('bookReadingSizeReset').addEventListener('click', function () { settings.set('readingSize', 100); });
   dialog.addEventListener('keydown', function (event) {
     event.stopPropagation();
     if (event.key !== 'Tab') return;
-    var stops = Array.from(dialog.querySelectorAll('input:checked, button'));
+    var stops = Array.from(dialog.querySelectorAll('input:checked, input[type=range], button'));
     var first = stops[0], last = stops[stops.length - 1];
     if (event.shiftKey && (document.activeElement === first || document.activeElement === title)) {
       event.preventDefault(); last.focus();
@@ -66,7 +76,7 @@
     }
   });
   document.getElementById('bookSettingsClose').addEventListener('click', function () { dialog.close(); });
-  dialog.addEventListener('close', function () { trigger.focus({ preventScroll: true }); });
+  dialog.addEventListener('close', function () { window.dispatchEvent(new Event('book-reading-size-end')); trigger.focus({ preventScroll: true }); });
   dialog.addEventListener('click', function (event) {
     var rect = dialog.getBoundingClientRect();
     if (event.target === dialog && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) dialog.close();

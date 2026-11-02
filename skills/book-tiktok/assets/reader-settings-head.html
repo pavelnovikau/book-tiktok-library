@@ -4,6 +4,18 @@ __SETTINGS_FONT_FACES__
   :root {
     --book-ui-font: "Geist", system-ui, sans-serif;
     --book-reading-font: var(--book-ui-font);
+    --book-reading-scale: 1;
+    --book-natural-2xs: var(--text-2xs);
+    --book-natural-xs: var(--text-xs);
+    --book-natural-sm: var(--text-sm);
+    --book-natural-base: var(--text-base);
+    --book-natural-lg: var(--text-lg);
+    --book-natural-xl: var(--text-xl);
+    --book-natural-2xl: var(--text-2xl);
+    --book-natural-3xl: var(--text-3xl);
+    --book-natural-4xl: var(--text-4xl);
+    --book-natural-6xl: var(--text-6xl);
+
   }
   :root[data-reading-font="serif"] { --book-reading-font: "Geist Serif", "Source Serif 4", serif; }
   html body { font-family: var(--book-ui-font); }
@@ -22,6 +34,41 @@ __SETTINGS_FONT_FACES__
   html[data-reading-font="serif"] :is(.hero h1, .hero__intro, .book, .cover strong) { font-synthesis: none; }
   html[data-reading-font="serif"] #story :is(h1, h2, h3, p, li, blockquote, .slide-body, strong, b),
   html[data-reading-font="serif"] :is(.hero h1, .hero__intro, .book h3, .book__author, .book__description, .cover strong) { font-weight: 400; }
+  /* Only reading units receive scaled type tokens. Root aliases resolve before
+     inheritance, so nested lists/quotes never multiply the scale twice. */
+  html #story .slide-scroll:not(.cover-layout) :is(h1, h2, h3, p, li, blockquote, .slide-body):not(.kicker, .source-label, .cover-author, .cover-eyebrow) {
+    --text-2xs: calc(var(--book-natural-2xs) * var(--book-reading-scale));
+    --text-xs: calc(var(--book-natural-xs) * var(--book-reading-scale));
+    --text-sm: calc(var(--book-natural-sm) * var(--book-reading-scale));
+    --text-base: calc(var(--book-natural-base) * var(--book-reading-scale));
+    --text-lg: calc(var(--book-natural-lg) * var(--book-reading-scale));
+    --text-xl: calc(var(--book-natural-xl) * var(--book-reading-scale));
+    --text-2xl: calc(var(--book-natural-2xl) * var(--book-reading-scale));
+    --text-3xl: calc(var(--book-natural-3xl) * var(--book-reading-scale));
+    --text-4xl: calc(var(--book-natural-4xl) * var(--book-reading-scale));
+    --text-6xl: calc(var(--book-natural-6xl) * var(--book-reading-scale));
+  }
+  html #story .slide-scroll:not(.cover-layout) :is(blockquote, .slide-body) { font-size: var(--text-base); }
+  /* Interactive descendants and metadata retain their original UI geometry. */
+  html #story :is(button, input, select, textarea, .kicker, .source-label, .fact-label, figcaption) {
+    --text-2xs: var(--book-natural-2xs);
+    --text-xs: var(--book-natural-xs);
+    --text-sm: var(--book-natural-sm);
+    --text-base: var(--book-natural-base);
+    --text-lg: var(--book-natural-lg);
+    --text-xl: var(--book-natural-xl);
+    --text-2xl: var(--book-natural-2xl);
+    --text-3xl: var(--book-natural-3xl);
+    --text-4xl: var(--book-natural-4xl);
+    --text-6xl: var(--book-natural-6xl);
+  }
+  html[data-reading-size]:not([data-reading-size="100"]) #story .slide-scroll:not(.cover-layout) :is(h1, h2, h3) { overflow-wrap: anywhere; }
+  .book-settings-size { margin: 0 0 1.25rem; }
+  .book-settings-size-row { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; }
+  .book-settings-size label { font-size: 0.875rem; font-weight: 600; }
+  .book-settings-size output { font-variant-numeric: tabular-nums; }
+  .book-settings-size input { display: block; width: 100%; min-height: 44px; margin: 0.25rem 0; accent-color: var(--color-primary, #2f968d); }
+  html .book-settings-reset { min-height: 44px; padding: 0.25rem 0.75rem; border: 1px solid var(--color-border, #343331); border-radius: var(--radius-md, 0.75rem); background: var(--color-surface, #1c1b1a); color: inherit; font: inherit; cursor: pointer; }
   html dialog.book-settings {
     box-sizing: border-box;
     width: min(28rem, calc(100% - 2rem - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px)));
@@ -59,11 +106,14 @@ __SETTINGS_FONT_LICENSES__
   var preferences = null;
   var applyToPage = null;
   var fontRevision = 0;
+  var sizeAnchors = null;
+  window.addEventListener('book-reading-size-end', function () { sizeAnchors = null; });
   function validTheme(value) { return value === 'light' || value === 'dark'; }
+  function validSize(value) { return typeof value === 'number' && Number.isFinite(value) && value >= 85 && value <= 150 && value % 5 === 0; }
   function read(value) {
     try {
       var parsed = JSON.parse(value);
-      return parsed && parsed.version === 1 && validTheme(parsed.theme) && (parsed.readingFont === 'sans' || parsed.readingFont === 'serif') ? parsed : null;
+      return parsed && parsed.version === 1 && validTheme(parsed.theme) && (parsed.readingFont === 'sans' || parsed.readingFont === 'serif') ? { version: 1, theme: parsed.theme, readingFont: parsed.readingFont, readingSize: validSize(parsed.readingSize) ? parsed.readingSize : 100 } : null;
     } catch (_) { return null; }
   }
   try { preferences = read(localStorage.getItem(key)); } catch (_) {}
@@ -96,10 +146,48 @@ __SETTINGS_FONT_LICENSES__
       return document.fonts.load('400 16px "' + family + '"', 'AaЁёЯя');
     })).then(commit, commit);
   }
+  // Keep the same visible character during size reflow, including a position
+  // halfway through one long paragraph. Never render or save reader progress.
+  function applyReadingSize(value) {
+    if (root.dataset.readingSize === String(value)) return;
+    var resizing = document.getElementById('bookSettingsDialog')?.open;
+    var positions = resizing && sizeAnchors ? sizeAnchors : Array.from(document.querySelectorAll('#story .slide-scroll')).filter(function (node) {
+      return node.scrollTop > 0 && node.clientHeight > 0;
+    }).map(function (node) {
+      var clip = node.getBoundingClientRect();
+      var walker = document.createTreeWalker(node, NodeFilter.SHOW_TEXT);
+      var text, range = document.createRange();
+      while ((text = walker.nextNode())) {
+        if (!text.textContent.trim() || text.parentElement.closest('button, .kicker, .source-label')) continue;
+        range.selectNodeContents(text);
+        var rect = range.getBoundingClientRect();
+        if (rect.bottom <= clip.top || rect.top >= clip.bottom || !rect.height) continue;
+        var low = 0, high = text.length - 1;
+        while (low < high) {
+          var mid = Math.floor((low + high) / 2);
+          range.setStart(text, mid); range.setEnd(text, mid + 1);
+          if (range.getBoundingClientRect().top < clip.top) low = mid + 1;
+          else high = mid;
+        }
+        range.setStart(text, low); range.setEnd(text, low + 1);
+        if (range.getBoundingClientRect().top < clip.top) continue;
+        return { node: node, range: range, top: range.getBoundingClientRect().top, scroll: node.scrollTop };
+      }
+      return { node: node, scroll: node.scrollTop };
+    });
+    sizeAnchors = resizing ? positions : null;
+    root.style.setProperty('--book-reading-scale', String(value / 100));
+    root.dataset.readingSize = String(value);
+    positions.forEach(function (position) {
+      if (!position.node.isConnected) return;
+      position.node.scrollTop = position.range ? position.node.scrollTop + position.range.getBoundingClientRect().top - position.top : position.scroll;
+    });
+  }
   function apply() {
     if (!preferences) return;
     root.dataset.theme = preferences.theme;
     applyReadingFont(preferences.readingFont);
+    applyReadingSize(preferences.readingSize);
     if (applyToPage) applyToPage(preferences.theme);
     var meta = document.querySelector('meta[name="theme-color"]');
     if (meta) meta.content = preferences.theme === 'dark' ? '#100f0f' : '#fffcf0';
@@ -109,14 +197,14 @@ __SETTINGS_FONT_LICENSES__
     // First visited page migrates only its legacy theme. Never touch language,
     // mode, position, focus or spoiler consent. A valid global v1 always wins.
     connect: function (legacyTheme, setTheme) {
-      if (!preferences) preferences = { version: 1, theme: validTheme(legacyTheme) ? legacyTheme : 'dark', readingFont: 'sans' };
+      if (!preferences) preferences = { version: 1, theme: validTheme(legacyTheme) ? legacyTheme : 'dark', readingFont: 'sans', readingSize: 100 };
       applyToPage = setTheme;
       persist();
       apply();
     },
     get: function () { return Object.assign({}, preferences); },
     set: function (field, value) {
-      if (!preferences || (field === 'theme' ? !validTheme(value) : field !== 'readingFont' || !['sans', 'serif'].includes(value))) return;
+      if (!preferences || !(field === 'theme' ? validTheme(value) : field === 'readingFont' ? ['sans', 'serif'].includes(value) : field === 'readingSize' && validSize(value))) return;
       preferences[field] = value;
       persist();
       apply();

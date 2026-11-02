@@ -5,7 +5,8 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
-const requested = process.argv.slice(2);
+const settingsOnly = process.argv.includes('--settings-only');
+const requested = process.argv.slice(2).filter(arg => arg !== '--settings-only');
 const files = requested.length ? requested : ['index.html', ...manifest.books.map(book => book.file)];
 const headerBlock = fs.readFileSync(path.join(root, 'skills/book-tiktok/assets/reader-header.html'), 'utf8');
 
@@ -354,9 +355,9 @@ const installBlock = `
   <!-- book-library-install:end -->
 `;
 
-function replaceBlock(html, start, end, block) {
-  const pattern = new RegExp(`${start}[\\s\\S]*?${end}\\s*`, 'm');
-  return pattern.test(html) ? html.replace(pattern, block.trimStart()) : null;
+function replaceBlock(html, start, end, block, preserveSpace = false) {
+  const pattern = new RegExp(`${start}[\\s\\S]*?${end}${preserveSpace ? '' : '\\s*'}`, 'm');
+  return pattern.test(html) ? html.replace(pattern, preserveSpace ? block.trim() : block.trimStart()) : null;
 }
 
 function withoutBlock(html, start, end) {
@@ -369,7 +370,7 @@ for (const filename of files) {
   if (!filePath.startsWith(`${root}${path.sep}`)) throw new Error(`Refusing path outside repository: ${filename}`);
   let html = fs.readFileSync(filePath, 'utf8');
 
-  if (filename !== 'index.html') {
+  if (!settingsOnly && filename !== 'index.html') {
   // This source role includes literary criticism as well as research reviews.
   html = html.replace("review: 'Обзор исследований'", "review: 'Обзор'");
   html = html.replace(
@@ -413,21 +414,24 @@ for (const filename of files) {
 
   }
 
+  if (!settingsOnly) {
   const updatedHeader = replaceBlock(html, '<!-- book-reader-header:start -->', '<!-- book-reader-header:end -->', headerBlock);
   if (updatedHeader !== null) html = updatedHeader;
   else html = html.replace('</body>', `${headerBlock}</body>`);
+
+  }
 
   // Settings is maintained independently from book data and navigation.
   html = connectSettingsRuntime(html, filename);
   const withoutSettingsHead = withoutBlock(html, '<!-- book-reader-settings-head:start -->', '<!-- book-reader-settings-head:end -->');
   const hasSans = /@font-face\s*\{\s*font-family:\s*["']Geist["']/.test(withoutSettingsHead);
   const newSettingsHead = settingsHead({ includeSans: !hasSans });
-  const updatedSettingsHead = replaceBlock(html, '<!-- book-reader-settings-head:start -->', '<!-- book-reader-settings-head:end -->', newSettingsHead);
+  const updatedSettingsHead = replaceBlock(html, '<!-- book-reader-settings-head:start -->', '<!-- book-reader-settings-head:end -->', newSettingsHead, settingsOnly);
   html = updatedSettingsHead ?? html.replace('</head>', `${newSettingsHead}</head>`);
   const newSettingsBody = settingsBody();
-  const updatedSettingsBody = replaceBlock(html, '<!-- book-reader-settings:start -->', '<!-- book-reader-settings:end -->', newSettingsBody);
+  const updatedSettingsBody = replaceBlock(html, '<!-- book-reader-settings:start -->', '<!-- book-reader-settings:end -->', newSettingsBody, settingsOnly);
   html = updatedSettingsBody ?? html.replace('</body>', `${newSettingsBody}</body>`);
-  if (filename === 'index.html') {
+  if (!settingsOnly && filename === 'index.html') {
     html = html.replace('<body>', '<body class="library-home">');
     // Homepage has the same offline fonts as each portable reader.
     for (const name of ['Geist-Variable.woff2', 'GeistMono-Variable.woff2']) {

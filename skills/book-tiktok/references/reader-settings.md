@@ -1,11 +1,11 @@
 # Shared reader settings
 
-The homepage and every released reader have one Settings gear in the existing compact icon row. It replaces the direct theme toggle. Settings contains only Theme (Dark/Light) and Reading font (Sans/Serif). Keep the statistics strip, equal homepage tabs, language control and all reader navigation/consent behavior.
+The homepage and every released reader have one Settings gear in the existing compact icon row. It replaces the direct theme toggle. Settings contains Theme (Dark/Light), Reading font (Sans/Serif) and Text size (85–150%, step 5, default 100%, with a reset control). Keep the statistics strip, equal homepage tabs, language control and all reader navigation/consent behavior.
 
 ## Maintained sources
 
 - `assets/reader-settings-head.html`: embedded font declarations, reading/UI styles and global preference API.
-- `assets/reader-settings.html`: localized native dialog, radio groups, Escape/Tab/focus return.
+- `assets/reader-settings.html`: localized native dialog, radio groups, native range/output/reset, Escape/Tab/focus return.
 - `scripts/reader-settings.mjs`: font/license embedding and explicitly recognized runtime adapters.
 - `assets/reader-header.html`: one-row icon geometry, localized labels/tooltips, Settings gear and safe-area rules.
 - `scripts/build_story.mjs`: includes both Settings blocks for future v2 builds.
@@ -18,12 +18,12 @@ Run `npm run sync:readers` after a new release. A root reader may contain bespok
 `localStorage['bookLibrary.preferences.v1']` holds:
 
 ```json
-{"version":1,"theme":"dark","readingFont":"sans"}
+{"version":1,"theme":"dark","readingFont":"sans","readingSize":100}
 ```
 
-A new browser defaults to RU / dark / true Geist Sans. A valid v1 preference wins over every old per-book theme. On first use, the visited page migrates its valid legacy theme; font starts as Sans. Malformed/unsupported v1 data falls back to that page's valid legacy theme, then dark. Language, depth, last screen/slide ID, focus mode and consent remain under their existing page-specific keys and policies. Storage denial still permits changing settings in the open document. Storage events and `pageshow` refresh active/restored pages.
+A new browser defaults to RU / dark / true Geist Sans. A valid v1 preference wins over every old per-book theme. On first use, the visited page migrates its valid legacy theme; font starts as Sans. Malformed/unsupported v1 data falls back to that page's valid legacy theme, then dark. Language, depth, last screen/slide ID, focus mode and consent remain under their existing page-specific keys and policies. Old v1 records keep their valid theme/font and gain `readingSize: 100`. Size accepts only finite numeric percentages from 85 to 150 in steps of 5; a missing/invalid stored size defaults to 100 without dropping the other valid fields. Invalid API writes are ignored. Storage denial still permits changing settings in the open document. Storage events and `pageshow` refresh active/restored pages.
 
-The module calls `BookSettings.connect(legacyTheme, setter)` inside each real runtime, replacing its old theme click handler. The setter updates closure state and the existing theme key without rendering the story again. Theme/font changes therefore preserve the exact screen, depth, progress and scroll position. The header observer paints a gear even after a legacy render updates the control's text. Do not add a second handler that toggles theme when the gear is opened.
+The module calls `BookSettings.connect(legacyTheme, setter)` inside each real runtime, replacing its old theme click handler. The setter updates closure state and the existing theme key without rendering the story again. Theme/font changes preserve the exact screen, depth, progress and pixel scroll position. Size changes preserve the screen DOM, mode and saved progress; they anchor the first visible reading character during reflow, including midway through a long paragraph. Pixel offsets may change. Size uses root-resolved type-token aliases on reading units only, avoiding nested multiplication; navigation, metadata controls, Settings, covers and homepage cards retain their geometry. At 100% the original type tokens and spacing apply. Browser text zoom is not replaced by transforms or viewport scaling. The header observer paints a gear even after a legacy render updates the control's text. Do not add a second handler that toggles theme when the gear is opened.
 
 Preferences are origin-scoped. A downloaded `file://` reader remains network-independent; cross-file storage sharing under `file://` is browser-dependent. Hosted homepage/readers on one origin share settings normally.
 
@@ -37,6 +37,12 @@ The existing variable Geist Sans (internal 1.800) is reused byte-for-byte. Its c
 Geist Serif is a **display** face, currently a static Regular with no Russian glyphs. Serif mode uses actual Geist Serif for supported Latin and Source Serif 4 for Cyrillic. Both are static 400; reading styles disable synthetic weights/italics. All controls remain Geist Sans. The concise RU/EN Settings note names the Russian fallback even when Sans is selected. No Mono substitution, fake bold, remote font requests or claim of Russian Geist Serif support.
 
 All WOFF2 data and complete upstream SIL OFL 1.1 notices travel inside each standalone HTML, including the homepage. Unmodified license copies accompany source fonts under `assets/fonts/`. `python3 scripts/check-fonts.py` (repository command; requires fontTools with WOFF2 support) audits SHA-256, cmap, axes, weights and license notices without network access.
+
+## Text-size regression workflow
+
+For settings-only releases, synchronize with `node scripts/apply-reader-shell.mjs --settings-only` (preserves every other shell block); full shell maintenance uses the default command. Then run `npm run check` and `npm run build:site`. The publication build stays self-contained: it must not import the authoring `skills/` tree, which Vercel excludes.
+
+For a bounded size release, run `scripts/settings-qa.mjs --phase=size-fleet-N` for N=0…7 (eight readers per owned Chrome phase), and `--phase=size-behavior`, `--phase=size-storage`, `--phase=size-consent`. These check actual first-prose computed sizes, unchanged UI, reset, semantic anchoring and final-text reachability, native range keys/Tab/Escape, small-dialog geometry, old/invalid preferences, denied storage, reload/shared-origin events and Deep consent. Existing full layout/font phases remain available for broader shell changes. QA requires real offline embedded fonts; no remote font is introduced.
 
 ## QA
 

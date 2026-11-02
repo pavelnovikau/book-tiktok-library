@@ -10,7 +10,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const catalogue = JSON.parse(fs.readFileSync(path.join(root, 'books.json'), 'utf8'));
 const requestedBooks = process.argv.find(a=>a.startsWith('--books='))?.slice(8).split(',');
 const qaBooks = requestedBooks ? requestedBooks.map(file=>{const b=catalogue.books.find(b=>b.file===file);if(!b)throw Error('Unregistered QA reader '+file);return b;}) : catalogue.books;
-const phases = [...Array.from({ length: Math.ceil(qaBooks.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'review-regressions', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(qaBooks.length / 8) }, (_, n) => `offline-${n}`)];
+const phases = [...Array.from({length: Math.ceil(qaBooks.length / 8)}, (_, n) => `size-fleet-${n}`), 'size-behavior', 'size-storage', 'size-consent', ...Array.from({ length: Math.ceil(qaBooks.length / 4) }, (_, n) => `layout-${n}`), 'persistence', 'migration', 'review-regressions', 'consent', 'hitchhiker', 'mobile', ...Array.from({ length: Math.ceil(qaBooks.length / 8) }, (_, n) => `offline-${n}`)];
 const phase = process.argv.find(a => a.startsWith('--phase='))?.slice(8);
 const requestedOrigin = process.argv.find(a => a.startsWith('--origin='))?.slice(9);
 const output = process.env.BOOK_SETTINGS_QA_DIR || fs.mkdtempSync(path.join(os.tmpdir(), 'book-settings-qa-'));
@@ -63,7 +63,7 @@ function command(method, params = {}) {
   });
 }
 async function evaluate(expression) {
-  const r = await command('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true });
+  const r = await command('Runtime.evaluate', { expression, returnByValue: true, awaitPromise: true }).catch(error => {throw Error(error.message + ': ' + expression.slice(0,200));});
   if (r.exceptionDetails) throw Error(r.exceptionDetails.exception?.description || r.exceptionDetails.text);
   return r.result?.value;
 }
@@ -71,6 +71,7 @@ async function navigate(file = '', fileScheme = false) {
   await evaluate('window.__settingsLeaving = true');
   await command('Page.navigate', { url: fileScheme ? `file://${path.join(root, file)}` : `${origin}/${file}` });
   await until(() => evaluate("!window.__settingsLeaving && document.readyState === 'complete' && Boolean(window.BookSettings?.open) && (document.getElementById('story')?.children.length > 0 || document.querySelectorAll('.book').length > 0)"), `load ${file}`);
+  await command('Page.bringToFront');
   await evaluate('document.fonts.ready.then(() => true)');
 }
 async function width(w) { await command('Emulation.setDeviceMetricsOverride', { width: w, height: w === 320 ? 568 : w < 900 ? 844 : 900, deviceScaleFactor: 1, mobile: w < 900 }); }
@@ -90,7 +91,7 @@ const start = "(document.querySelector('[data-start=continue], [data-action=resu
 const language = "document.querySelector('#languageButton, #btn-lang')";
 const theme = "document.querySelector('#themeButton, #btn-theme')";
 try {
-  chrome = spawn('/usr/bin/timeout', ['--foreground', '30', binary, '--headless=new', '--disable-gpu', '--no-first-run', '--no-default-browser-check', `--user-data-dir=${profile}`, '--remote-debugging-port=0', 'about:blank'], { stdio: 'ignore', detached: true });
+  chrome = spawn('/usr/bin/timeout', ['--foreground', '30', binary, '--headless=new', '--disable-gpu', '--disable-backgrounding-occluded-windows', '--disable-renderer-backgrounding', '--disable-background-timer-throttling', '--no-first-run', '--no-default-browser-check', `--user-data-dir=${profile}`, '--remote-debugging-port=0', 'about:blank'], { stdio: 'ignore', detached: true });
   const portFile = path.join(profile, 'DevToolsActivePort');
   await until(() => fs.existsSync(portFile) && /^[1-9]\d*\n/.test(fs.readFileSync(portFile, 'utf8')), 'Chrome startup');
   const port = fs.readFileSync(portFile, 'utf8').split('\n')[0];
@@ -132,6 +133,152 @@ try {
   // exercise portable readers separately; no physical iOS/PWA claim is made.
   await command('Page.addScriptToEvaluateOnNewDocument', { source: "Object.defineProperty(navigator, 'serviceWorker', { value: { register: () => Promise.resolve({}) } });" });
   await width(320);
+
+
+  async function readProse() {
+    consentDecision = true;
+    await evaluate(start);
+    await evaluate(`(() => { const d=document.querySelector('#readerConsent[open]'); d?.querySelector('#readerConsentAccept')?.click(); })()`);
+    await delay(200); // Settle the existing 180ms slide transition; RAF may pause after headless screenshots.
+    assert(await evaluate("Boolean(document.querySelector('#story .slide-scroll:not(.cover-layout) p:not(.kicker):not(.source-label)'))"), 'Actual reading prose required');
+  }
+  const prose = "document.querySelector('#story .slide-scroll:not(.cover-layout) p:not(.kicker):not(.source-label)')";
+  if (phase.startsWith('size-fleet-')) {
+    for (const book of qaBooks.slice(Number(phase.slice(11))*8, Number(phase.slice(11))*8+8)) {
+      await navigate(book.file); await readProse();
+      const result = await evaluate(`(() => {
+        BookSettings.set('readingSize',100);
+        const p=${prose}, slide=document.getElementById('story').firstElementChild;
+        const ui=document.querySelector('#nextButton,#btn-next'), base=parseFloat(getComputedStyle(p).fontSize), uiBase=getComputedStyle(ui).fontSize;
+        const samples=[85,150,100].map(size=>{BookSettings.set('readingSize',size); return {size,px:parseFloat(getComputedStyle(p).fontSize),ui:getComputedStyle(ui).fontSize,sameSlide:slide===document.getElementById('story').firstElementChild,overflow:document.documentElement.scrollWidth>innerWidth+1};});
+        return {base,uiBase,samples};
+      })()`);
+      assert(result.samples.every(r=>Math.abs(r.px-result.base*r.size/100)<0.05 && r.ui===result.uiBase && r.sameSlide && !r.overflow), `${book.file}: actual size ${JSON.stringify(result)}`);
+      report.checks.push({file:book.file,...result});
+    }
+  }
+  if (phase === 'size-behavior') {
+    for (const [file,w,lang,font,chosenTheme] of [
+      ['essentialism.html',320,'ru','sans','dark'], ['theory-of-constraints.html',390,'en','serif','light'],
+      ['hermes-nous.html',1440,'ru','serif','dark'], ['the-hobbit.html',320,'en','sans','light']
+    ]) {
+      console.log('size-behavior',file,'load');
+      await width(w); await navigate(file); await readProse();
+      console.log('size-behavior',file,'font');
+      await evaluate(`if(document.documentElement.lang!=='${lang}') ${language}.click(); BookSettings.set('readingFont','${font}');BookSettings.set('theme','${chosenTheme}'); document.fonts.ready`);
+      await until(()=>evaluate(`document.documentElement.dataset.readingFont==='${font}'`),'chosen font');
+      // Choose a real long screen via Contents, not by injecting test prose.
+      console.log('size-behavior',file,'select-long');
+      const longId = await evaluate(`(() => {const d=JSON.parse(document.getElementById('book-tiktok-data').textContent);return d.screens.filter(s=>s.type!=='cover'&&s.copy?.[document.documentElement.lang]?.body).sort((a,b)=>b.copy[document.documentElement.lang].body.length-a.copy[document.documentElement.lang].body.length)[0].id;})()`);
+      await evaluate(`document.querySelector('#contentsButton,#btn-contents').click(); document.querySelector('#contentsList [data-go-to=${JSON.stringify(longId)}]')?.click()`);
+      console.log('size-behavior',file,'anchor');
+      const before = await evaluate(`(() => {
+        BookSettings.set('readingSize',100);
+        const scroller=document.querySelector('#story .slide-scroll');
+        scroller.scrollTop=(scroller.scrollHeight-scroller.clientHeight)*0.4;
+        const walker=document.createTreeWalker(scroller,NodeFilter.SHOW_TEXT);let text,range=document.createRange(),found=false;
+        while((text=walker.nextNode())&&!found) {
+          if(text.parentElement.closest('.kicker,.source-label'))continue;
+          range.selectNodeContents(text); const bounds=range.getBoundingClientRect();
+          if(!bounds.height || bounds.bottom<scroller.getBoundingClientRect().top || bounds.top>scroller.getBoundingClientRect().bottom) continue;
+          for(let offset=0;offset<text.length;offset++) {
+            range.setStart(text,offset);range.setEnd(text,offset+1);
+            const r=range.getBoundingClientRect();
+            if(r.height&&r.top>=scroller.getBoundingClientRect().top&&r.bottom<scroller.getBoundingClientRect().bottom){found=true;break;}
+          }
+        }
+        if(!found)throw Error('No visible anchor character');
+        window.__sizeAnchor=range;window.__sizeSlide=document.getElementById('story').firstElementChild;
+        window.__sizeState=JSON.stringify(Object.fromEntries(Object.entries(localStorage).filter(([k])=>!k.includes('preferences')&&!k.endsWith('.theme'))));
+        return {top:range.getBoundingClientRect().top,scroll:scroller.scrollTop,max:scroller.scrollHeight-scroller.clientHeight,hash:location.hash,mode:document.getElementById('story').dataset.mode};
+      })()`);
+      assert(before.max<=125||before.scroll>50,`${file}: must be genuinely scrolled when overflow permits`);
+      console.log('size-behavior',file,'keys');
+      await evaluate(`${theme}.focus(); ${theme}.click(); document.getElementById('bookReadingSize').focus()`);
+      await press('ArrowRight','ArrowRight',39);
+      assert(await evaluate("BookSettings.get().readingSize===105 && bookReadingSizeValue.value==='105%'"),'native range ArrowRight/input/output');
+      await press('ArrowLeft','ArrowLeft',37);
+      assert(await evaluate("BookSettings.get().readingSize===100"),'native range ArrowLeft');
+      const geometry=[];
+      for(const size of [85,150,100]) {
+        const after = await evaluate(`(() => {
+          const slider=document.getElementById('bookReadingSize'); slider.value=${size};slider.dispatchEvent(new Event('input',{bubbles:true}));
+          const scroller=document.querySelector('#story .slide-scroll'),d=bookSettingsDialog,r=d.getBoundingClientRect();
+          return {size:BookSettings.get().readingSize,percent:bookReadingSizeValue.value,anchor:__sizeAnchor.getBoundingClientRect().top,scroll:scroller.scrollTop,maxScroll:scroller.scrollHeight-scroller.clientHeight,viewportBottom:scroller.getBoundingClientRect().bottom,sameSlide:__sizeSlide===document.getElementById('story').firstElementChild,sameState:__sizeState===JSON.stringify(Object.fromEntries(Object.entries(localStorage).filter(([k])=>!k.includes('preferences')&&!k.endsWith('.theme')))),hash:location.hash,mode:document.getElementById('story').dataset.mode,dialogFits:r.top>=0&&r.bottom<=innerHeight&&d.scrollWidth<=d.clientWidth+1,overflow:scroller.scrollWidth>scroller.clientWidth+1,theme:BookSettings.get().theme,font:BookSettings.get().readingFont};
+        })()`);
+        assert(after.size===size&&after.percent===size+'%'&&after.sameSlide&&after.sameState&&after.hash===before.hash&&after.mode===before.mode&&(before.scroll===0 || Math.abs(after.anchor-before.top)<3 || (after.scroll===0&&after.anchor>=before.top&&after.anchor<after.viewportBottom) || (after.scroll===after.maxScroll&&after.anchor<=before.top&&after.anchor>=0))&&!after.overflow&&after.dialogFits&&after.theme===chosenTheme&&after.font===font,`${file}/${size}: ${JSON.stringify({before,after})}`);
+        geometry.push(after);
+      }
+      await evaluate("BookSettings.set('readingSize',150); bookReadingSizeReset.click()");
+      assert(await evaluate("BookSettings.get().readingSize===100&&bookReadingSizeValue.value==='100%'"),'reset100');
+      await evaluate("bookSettingsTitle.focus()");
+      const order=[];
+      for(let n=0;n<6;n++){await press('Tab','Tab',9);order.push(await evaluate("document.activeElement.id||document.activeElement.name"));}
+      assert(order.join(',')==='book-theme,book-font,bookReadingSize,bookReadingSizeReset,bookSettingsClose,book-theme',`Tab order ${order}`);
+      await press('Escape','Escape',27);
+      await until(()=>evaluate(`!bookSettingsDialog.open&&document.activeElement===${theme}`),'Escape / return focus').catch(async error=>{throw Error(error.message+' '+JSON.stringify(await evaluate("({open:bookSettingsDialog.open,active:document.activeElement.id,dialogs:[...document.querySelectorAll('dialog[open]')].map(d=>d.id),focus:document.documentElement.dataset.focusMode})")));});
+      const end = await evaluate(`(() => {BookSettings.set('readingSize',150);const s=document.querySelector('#story .slide-scroll');s.scrollTop=s.scrollHeight;const p=[...s.querySelectorAll('p:not(.source-label),li')].at(-1),r=p.getBoundingClientRect(),v=s.getBoundingClientRect();return {bottom:r.bottom,viewportBottom:v.bottom,top:r.top,max:s.scrollHeight-s.clientHeight,scroll:s.scrollTop};})()`);
+      assert(end.scroll===end.max&&end.bottom<=end.viewportBottom+1,`${file}: last text unreachable ${JSON.stringify(end)}`);
+      await screenshot(`size-${file}-${w}-${lang}-${font}-150`);
+      report.checks.push({file,w,lang,font,theme:chosenTheme,before,geometry,order,end});
+    }
+    await width(320);await navigate();
+    const home = await evaluate(`(() => {const p=document.querySelector('.book h3'),before=p.getBoundingClientRect().height;BookSettings.set('readingSize',150);${theme}.click();return {unchanged:p.getBoundingClientRect().height===before,percent:bookReadingSizeValue.value};})()`);
+    assert(home.unchanged&&home.percent==='150%','homepage cards unchanged');
+    await screenshot('size-home-320-dialog-150');report.checks.push({home});
+  }
+  if (phase === 'size-storage') {
+    await navigate();
+    for(const size of [undefined,84,151,102, '125',null]) {
+      await evaluate(`localStorage.setItem('bookLibrary.preferences.v1',JSON.stringify({version:1,theme:'light',readingFont:'serif',readingSize:${JSON.stringify(size)??'undefined'}}))`);
+      await navigate('essentialism.html');
+      const prefs=await evaluate('BookSettings.get()');
+      assert(prefs.theme==='light'&&prefs.readingFont==='serif'&&prefs.readingSize===100,`migration/invalid ${size}: ${JSON.stringify(prefs)}`);
+      report.checks.push({migrationInput:String(size),prefs});
+    }
+    await evaluate(`localStorage.setItem('bookLibrary.preferences.v1','{malformed')`);await navigate();
+    assert(await evaluate("BookSettings.get().readingSize===100"),'malformed JSON fallback');
+    await evaluate("BookSettings.set('readingSize',125)");
+    for(const file of ['the-hobbit.html','theory-of-constraints.html','']) {
+      await navigate(file);
+      assert(await evaluate("BookSettings.get().readingSize===125"),file+' shared size');
+    }
+    for(const value of ['NaN','Infinity','undefined',"'125'",'84','151','102']) {
+      assert(await evaluate(`BookSettings.set('readingSize',${value});BookSettings.get().readingSize===125`),'invalid API size '+value);
+    }
+    // A second same-origin document writes real localStorage: the browser emits storage.
+    await evaluate("new Promise(resolve=>{const f=document.createElement('iframe');f.id='qaStoragePeer';f.src='/essentialism.html';f.onload=()=>resolve(true);document.body.append(f);})");
+    await evaluate("document.getElementById('qaStoragePeer').contentWindow.BookSettings.set('readingSize',140)");
+    await until(()=>evaluate("BookSettings.get().readingSize===140"),'real peer storage event');
+    await evaluate("document.getElementById('qaStoragePeer').remove(); localStorage.setItem('bookLibrary.preferences.v1',JSON.stringify({version:1,theme:'dark',readingFont:'sans',readingSize:90})); dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true}));");
+    assert(await evaluate("BookSettings.get().readingSize===90&&document.documentElement.dataset.readingSize==='90'"),'pageshow refresh');
+    report.checks.push({persistence:'home→Hobbit→TOC→home/reload',invalidAPI:'pass',realSameOriginPeerStorage:'pass',pageshow:'pass'});
+    await command('Page.addScriptToEvaluateOnNewDocument',{source:"Storage.prototype.getItem=Storage.prototype.setItem=function(){throw new DOMException('blocked','SecurityError');};"});
+    await navigate('hermes-nous.html');await readProse();
+    assert(await evaluate(`BookSettings.set('readingSize',150);BookSettings.get().readingSize===150&&parseFloat(getComputedStyle(${prose}).fontSize)===24`),'denied-storage live size');
+    await evaluate("dispatchEvent(new PageTransitionEvent('pageshow',{persisted:true}))");
+    assert(await evaluate("BookSettings.get().readingSize===150"),'denied storage pageshow retains in-document preference');
+    report.checks.push({storageDenied:'live text and pageshow pass'});
+  }
+  if (phase === 'size-consent') {
+    await navigate('the-hobbit.html');
+    assert(await evaluate("JSON.parse(document.getElementById('book-tiktok-data').textContent).defaultMode==='deep'&&document.querySelector('.cover-layout')"),'fresh Deep cover');
+    await evaluate(start);
+    assert(await evaluate("Boolean(document.querySelector('#readerConsent[open]'))"),'one initial Deep consent');
+    await evaluate("readerConsentAccept.click()");
+    await evaluate("new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true))))");
+    const state=await evaluate("({hash:location.hash,title:document.querySelector('#story h1').textContent})");
+    assert(await evaluate(`BookSettings.set('readingSize',150);!document.querySelector('#readerConsent[open]')&&location.hash===${JSON.stringify(state.hash)}&&document.querySelector('#story h1').textContent===${JSON.stringify(state.title)}`),'size preserves consented screen');
+    await navigate('the-hobbit.html');await evaluate(start);
+    assert(await evaluate("Boolean(document.querySelector('#readerConsent[open]'))"),'reload revokes Deep consent');
+    await evaluate("readerConsentAccept.click()");
+    await evaluate("document.querySelector('[data-mode=essential]')?.click()");
+    await evaluate("document.querySelector('[data-mode=deep]')?.click()");
+    // Cover/explicit mode transition policies vary: a new attempt may already show the guard.
+    await evaluate("if(!document.querySelector('#readerConsent[open]')) document.querySelector('[data-start]')?.click()");
+    assert(await evaluate("Boolean(document.querySelector('#readerConsent[open]'))"),'lowering mode revokes consent');
+    report.checks.push({file:'the-hobbit.html',freshDeep:true,sizeConsentPreserved:true,reloadRevokes:true,loweringRevokes:true,state});
+  }
 
   if (phase.startsWith('layout-')) {
     const books = qaBooks.slice(Number(phase.slice(7)) * 4, Number(phase.slice(7)) * 4 + 4);
